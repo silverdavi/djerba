@@ -1,0 +1,72 @@
+\documentclass{cookbook}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+
+% Document metadata
+\title{Vegan Djerban Family Cookbook\\
+       \large A Journey Through North African Jewish Cuisine}
+\author{David Silver \& Enny Silver\\
+        \small Honoring the culinary heritage of\\
+        \small Ruth Cohen-Trabelsi (Djerba, Tunisia) \&\\
+        \small Kadoch-Muyal (Tangier, Morocco)}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+\thispagestyle{empty}
+
+% Copyright page
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\textcopyright\ 2024 David Silver \& Enny Silver\\[1em]
+\textit{Preserving family traditions through plant-based innovation}\\[2em]
+First Edition\\[1em]
+Generated using artificial intelligence research\\
+and traditional family knowledge
+\end{center}
+\vspace*{\fill}
+
+% Table of contents
+\clearpage
+\tableofcontents
+
+% Introduction
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+This cookbook represents a bridge between generations, cultures, and culinary traditions. It honors the rich heritage of North African Jewish cuisine while embracing modern plant-based living.
+
+Our family's culinary journey spans from the ancient island of Djerba in Tunisia to the vibrant port city of Tangier in Morocco. Through the recipes of Ruth Cohen-Trabelsi and the Kadoch-Muyal family line, we preserve not just dishes, but stories, memories, and cultural identity.
+
+Each recipe has been carefully researched and adapted to be completely plant-based while maintaining the authentic flavors and cultural significance that have been passed down through generations.
+
+\begin{culturalcontext}
+This cookbook is presented in four languages: English, Hebrew (עברית), Spanish (Español), and Tunisian Arabic (تونسي) with Hebrew transliteration, reflecting the multicultural heritage of our family and the diaspora communities that preserved these traditions.
+\end{culturalcontext}
+
+% Include chapters
+\input{chapters/01-heritage.tex}
+\input{chapters/02-breads.tex}
+\input{chapters/03-sabbath.tex}
+\input{chapters/04-holidays.tex}
+\input{chapters/05-everyday.tex}
+\input{chapters/06-sweets.tex}
+\input{chapters/07-modern.tex}
+
+% Appendices
+\appendix
+\chapter{Ingredient Glossary}
+\input{chapters/appendix-ingredients.tex}
+
+\chapter{Cultural Context}
+\input{chapters/appendix-culture.tex}
+
+% Index
+\printindex
+
+\end{document}
