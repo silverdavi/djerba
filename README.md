@@ -178,4 +178,4 @@ python test_api_keys.py
 - The virtual environment is located in the `venv/` directory
 - All dependencies are listed in `requirements.txt`
 - Python version: 3.11+ (recommended)
-- Keep your `.env` file private and never commit it to version control 
+- Keep your `.env` file private and never commit it to version control
