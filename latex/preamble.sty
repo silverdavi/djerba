@@ -1,0 +1,78 @@
+%% preamble.sty - Package imports and global settings for cookbook
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{preamble}[2025/01/01 Cookbook Preamble]
+
+% Typography and multilingual support
+\RequirePackage{fontspec}
+\RequirePackage{polyglossia}
+\RequirePackage{bidi}
+\RequirePackage{microtype}
+
+% Layout and formatting
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{titletoc}
+\RequirePackage{tocloft}
+\RequirePackage{afterpage}
+\RequirePackage{changepage}
+
+% Graphics and colors
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+\RequirePackage{pgfplots}
+\RequirePackage{wrapfig}
+\RequirePackage{float}
+
+% Tables and lists
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{multicol}
+
+% Math and symbols
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{textcomp}
+\RequirePackage{gensymb}
+
+% Bibliography and references
+\RequirePackage{natbib}
+\RequirePackage{url}
+\RequirePackage{hyperref}
+
+% Miscellaneous
+\RequirePackage{lipsum}
+\RequirePackage{blindtext}
+\RequirePackage{etoolbox}
+\RequirePackage{xparse}
+
+% Configure hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cookbookbrown,
+    urlcolor=cookbookblue,
+    citecolor=cookbookgreen,
+    pdfauthor={David Silver, Enny Silver},
+    pdftitle={Djerba-Tanjir Vegan Cookbook},
+    pdfsubject={Traditional Tunisian Recipes},
+    pdfkeywords={cookbook, vegan, Tunisia, Djerba, Tanjir, multilingual}
+}
+
+% Global settings
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+% Custom counters
+\newcounter{recipenum}
+\setcounter{recipenum}{0}
+
+% Custom lengths
+\newlength{\ingredientwidth}
+\setlength{\ingredientwidth}{0.3\textwidth}
+
+\newlength{\instructionwidth}
+\setlength{\instructionwidth}{0.65\textwidth} 

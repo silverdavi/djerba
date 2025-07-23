@@ -1,0 +1,49 @@
+%% main.tex - Djerba-Tanjir Vegan Cookbook
+%% Multilingual cookbook in Hebrew, English, Arabic, and Spanish
+
+\documentclass{cookbook}
+
+% XeLaTeX packages for Unicode support
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bidi}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
+
+% Language setup
+\setdefaultlanguage{english}
+\setotherlanguages{hebrew,arabic,spanish}
+
+% Font setup for multilingual support
+\setmainfont{Times New Roman}
+\newfontfamily\hebrewfont{Arial Unicode MS}[Script=Hebrew]
+\newfontfamily\arabicfont{Arial Unicode MS}[Script=Arabic]
+
+% Book information
+\title{Djerba-Tanjir Vegan Cookbook}
+\author{David Silver \& Enny Silver}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+% Title page
+\maketitle
+
+% Table of contents
+\tableofcontents
+
+% Main content
+\mainmatter
+
+% Recipe chapters
+\input{chapters/01_mhamsa}
+% \input{chapters/02_shmid}
+% ... etc
+
+% Back matter
+\backmatter
+
+\end{document} 

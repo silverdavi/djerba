@@ -1,0 +1,149 @@
+%% layout.sty - Page layout and spacing for cookbook
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/layout}[2025/01/01 Cookbook Layout]
+
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{multicol}
+\RequirePackage{tikz}
+
+% Chapter title formatting
+\titleformat{\chapter}[display]
+    {\recipetitlefont\primarycolor}
+    {}
+    {0pt}
+    {\begin{center}#1\end{center}}
+    [\vspace{-10pt}\begin{center}\textcolor{separatorcolor}{\rule{0.5\textwidth}{1pt}}\end{center}]
+
+% Section formatting  
+\titleformat{\section}
+    {\sectionfont\secondarycolor}
+    {}
+    {0pt}
+    {#1}
+    [\textcolor{separatorcolor}{\rule{0.3\textwidth}{0.5pt}}]
+
+\titleformat{\subsection}
+    {\large\bfseries\accentone}
+    {}
+    {0pt}
+    {#1}
+
+% Spacing adjustments
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\titlespacing*{\section}{0pt}{15pt}{10pt}
+\titlespacing*{\subsection}{0pt}{10pt}{5pt}
+
+% Custom environments for recipe components
+\newenvironment{ingredients}{%
+    \vspace{10pt}
+    \begin{minipage}[t]{\ingredientwidth}
+    \section*{\textcolor{ingredientcolor}{Ingredients}}
+    \ingredientfont
+    \begin{itemize}[leftmargin=*,itemsep=2pt]
+}{%
+    \end{itemize}
+    \end{minipage}
+}
+
+\newenvironment{instructions}{%
+    \begin{minipage}[t]{\instructionwidth}
+    \section*{\textcolor{instructioncolor}{Instructions}}
+    \instructionfont
+    \begin{enumerate}[leftmargin=*,itemsep=4pt]
+}{%
+    \end{enumerate}
+    \end{minipage}
+}
+
+\newenvironment{etymology}{%
+    \vspace{15pt}
+    \begin{center}
+    \begin{minipage}{0.8\textwidth}
+    \etymologyfont\textcolor{etymologycolor}
+}{%
+    \end{minipage}
+    \end{center}
+    \vspace{10pt}
+}
+
+\newenvironment{culturalnotes}{%
+    \vspace{15pt}
+    \begin{tcolorbox}[
+        colback=culturalbg,
+        colframe=culturalcolor,
+        boxrule=0.5pt,
+        arc=3pt,
+        left=10pt,
+        right=10pt,
+        top=8pt,
+        bottom=8pt
+    ]
+    \culturalnotefont
+    \textbf{\textcolor{culturalcolor}{Cultural Notes:}}\\
+}{%
+    \end{tcolorbox}
+    \vspace{10pt}
+}
+
+% Double-page spread layout for recipes
+\newcommand{\recipelayout}[2]{%
+    % #1: Left page content, #2: Right page content
+    \cleardoublepage
+    \begin{minipage}[t][\textheight][t]{\textwidth}
+        #1
+    \end{minipage}
+    \newpage
+    \begin{minipage}[t][\textheight][t]{\textwidth}
+        #2
+    \end{minipage}
+}
+
+% Header and footer styles
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\headerfont\textcolor{cookbookgray}{\thepage}}
+\fancyhead[RO]{\headerfont\textcolor{cookbookgray}{\thepage}}
+\fancyhead[LO]{\headerfont\textcolor{cookbookgray}{\leftmark}}
+\fancyhead[RE]{\headerfont\textcolor{cookbookgray}{\rightmark}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\textcolor{separatorcolor}{\leaders\hrule height \headrulewidth\hfill}}}
+
+% Special page style for recipe pages
+\fancypagestyle{recipe}{%
+    \fancyhf{}
+    \fancyhead[LE,RO]{\headerfont\textcolor{cookbookgray}{\thepage}}
+    \fancyhead[C]{\headerfont\textcolor{cookbookgray}{Djerba-Tanjir Cookbook}}
+    \renewcommand{\headrulewidth}{0.3pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+% Custom list styles
+\setlist[itemize,1]{label=\textcolor{ingredientcolor}{$\bullet$}}
+\setlist[enumerate,1]{label=\textcolor{instructioncolor}{\arabic*.}}
+
+% Spacing commands
+\newcommand{\recipespace}{\vspace{15pt}}
+\newcommand{\sectionspace}{\vspace{10pt}}
+\newcommand{\smallspace}{\vspace{5pt}}
+
+% Image placement commands
+\newcommand{\recipeimage}[2][0.4\textwidth]{%
+    % #1: width (optional), #2: image file
+    \begin{center}
+        \includegraphics[width=#1]{assets/images/#2}
+    \end{center}
+}
+
+% Language block environment for multilingual content
+\newenvironment{languageblock}[1]{%
+    % #1: language name
+    \vspace{5pt}
+    \textbf{\textcolor{cookbookbrown}{#1:}}\\
+    \nopagebreak
+}{%
+    \vspace{5pt}
+} 

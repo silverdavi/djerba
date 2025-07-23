@@ -1,0 +1,16 @@
+# Never commit API keys or sensitive configuration
+.env
+*.env
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local configuration overrides
+local_settings.py
+config_local.py 

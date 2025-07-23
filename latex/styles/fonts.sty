@@ -1,0 +1,57 @@
+%% fonts.sty - Typography definitions for multilingual cookbook
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/fonts}[2025/01/01 Cookbook Fonts]
+
+\RequirePackage{fontspec}
+
+% Main fonts for Latin scripts (English, Spanish) - using system fonts
+\setmainfont{Times New Roman}[
+    Ligatures=TeX,
+    Numbers=OldStyle
+]
+
+\setsansfont{Arial}[
+    Ligatures=TeX
+]
+
+\setmonofont{Courier New}
+
+% Hebrew font - fallback to system font
+\newfontfamily\hebrewfont{Arial Unicode MS}[
+    Script=Hebrew,
+    Ligatures=TeX
+]
+
+% Arabic font - fallback to system font  
+\newfontfamily\arabicfont{Arial Unicode MS}[
+    Script=Arabic,
+    Ligatures=TeX
+]
+
+% Font commands for different languages
+\newcommand{\texthebrew}[1]{{\hebrewfont\selectlanguage{hebrew}#1}}
+\newcommand{\textarabic}[1]{{\arabicfont\selectlanguage{arabic}#1}}
+\newcommand{\textspanish}[1]{\selectlanguage{spanish}#1}
+
+% Recipe-specific font sizing
+\newcommand{\recipetitlefont}{\fontsize{24}{28}\selectfont\bfseries}
+\newcommand{\sectionfont}{\fontsize{16}{20}\selectfont\bfseries}
+\newcommand{\subsectionfont}{\fontsize{14}{16}\selectfont\bfseries}
+\newcommand{\textfont}{\fontsize{11}{13}\selectfont}
+
+% Additional typography commands
+\newcommand{\emphasisfont}{\itshape}
+\newcommand{\strongfont}{\bfseries}
+
+% Multilingual text shortcuts
+\newcommand{\Hebrew}[1]{\texthebrew{#1}}
+\newcommand{\Arabic}[1]{\textarabic{#1}}
+\newcommand{\English}[1]{#1}
+\newcommand{\Spanish}[1]{\textspanish{#1}}
+
+% Recipe formatting helpers
+\newcommand{\recipeheading}[1]{\sectionfont #1}
+\newcommand{\ingredienttext}[1]{\textfont #1}
+\newcommand{\instructiontext}[1]{\textfont #1}
+\newcommand{\etymologytext}[1]{\emphasisfont #1} 

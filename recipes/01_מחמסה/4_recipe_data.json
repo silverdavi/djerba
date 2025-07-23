@@ -1,0 +1,171 @@
+{
+  "recipe_id": "01_מחמסה",
+  "names": {
+    "hebrew": "מחמסה",
+    "english": "M'hamsa",
+    "arabic": "محمصة",
+    "spanish": "M'hamsa"
+  },
+  "etymology": {
+    "root": "ḥ-m-ṣ (ح-م-ص)",
+    "origin": "Arabic",
+    "meaning": "to toast/roast - referring to the toasted preparation method",
+    "variants": ["محمصة", "מחמסה", "m'hammaṣa"],
+    "description": "Traditional North African couscous variant whose name derives from the Arabic root meaning 'to toast' or 'to roast', describing the preparation method of this artisanal pasta."
+  },
+  "ingredients": {
+    "hebrew": [
+      "בצל",
+      "פתיתים",
+      "פפריקה",
+      "פ.שחור",
+      "עגבניות",
+      "ירקות שרוצים"
+    ],
+    "english": [
+      "1 small onion",
+      "M'hamsa semolina flakes or pearls",
+      "Sweet paprika",
+      "Black pepper",
+      "Tomatoes",
+      "Any vegetables of your choice",
+      "Salt",
+      "Water"
+    ],
+    "arabic": [
+      "بصلة صغيرة",
+      "فتات/حبيبات السميد (محمصة)",
+      "فلفل أحمر مرحي (بابريكا)",
+      "فلفل أكحل (أسود)",
+      "طماطم",
+      "خضرة حسب الرغبة",
+      "ملح",
+      "ماء"
+    ],
+    "spanish": [
+      "1 cebolla",
+      "Granos de sémola tipo m'hamsa",
+      "Pimentón dulce",
+      "Pimienta negra",
+      "Tomates",
+      "Verduras al gusto"
+    ]
+  },
+  "instructions": {
+    "hebrew": {
+      "dry_version": [
+        "לטגן בצל קטן",
+        "להוסיף את הפתיתים {מחמסה} להמשיך לאדות עוד כמה דק'",
+        "להוסיף מים לפי ההוראות על כל כוס פתיתים 1ורבע כוס מים"
+      ],
+      "sauce_version": [
+        "לטגן בצל קטן עד שמתחיל להשחיר מוסיפים כף פפריקה מתוקה לכמה שניות",
+        "להוסיף עגבניה קצוצה מעל ירק איך שרוצים להוסיף מעל מלח לבישול ,פ. שחור+ מים רותחים",
+        "להוסיף את הפתיתים",
+        "להביא לרתיחה, להנמיך, לכסות חלקית עד שהתבשל"
+      ]
+    },
+    "english": {
+      "dry_version": [
+        "Finely chop the small onion and sauté in a pot with a little oil until translucent",
+        "Add the semolina flakes (m'hamsa) to the pot and continue sautéing for a few more minutes, stirring, until lightly toasted and aromatic",
+        "Add water according to package instructions—typically, for each cup of m'hamsa, add 1¼ cups of water. Season with salt to taste",
+        "Bring to a gentle boil, then reduce heat. Cover and simmer until the water is absorbed and the m'hamsa is tender"
+      ],
+      "sauce_version": [
+        "Finely chop the small onion and sauté in oil until it begins to caramelize and darken",
+        "Add 1 tablespoon sweet paprika and stir for a few seconds (be careful not to burn the paprika)",
+        "Add a chopped tomato and any vegetables you like. Stir to combine",
+        "Sprinkle with salt and black pepper to taste. Pour in boiling water to cover the vegetables",
+        "Let the vegetables cook in the sauce until they begin to soften",
+        "Stir in the m'hamsa flakes or pearls",
+        "Bring the mixture to a boil, then reduce the heat to low. Partially cover the pot and simmer until the m'hamsa is cooked through (about 10–15 minutes)"
+      ]
+    },
+    "arabic": {
+      "dry_version": [
+        "نقص بصلة صغيرة ونقليها في شوية زيت حتى تذبل",
+        "نضيف فتات/حبيبات السميد (محمصة) ونواصل التقليب شوية حتى يشد لون",
+        "نصب الماء (على كل كاس محمصة، كاس وربع ماء) ونقلب شوية",
+        "نغطي الطنجرة ونخليها تطيب على نار هادئة حتى تشرب الماء وتطيب الحبيبات"
+      ],
+      "sauce_version": [
+        "نقص بصلة صغيرة ونقليها في شوية زيت حتى تذبل وتولي ذهبية",
+        "نزيد مغرفة صغيرة فلفل أحمر مرحي (بابريكا) ونقلب ثواني بش ما يتحرقش",
+        "نضيف طماطم مقصوصة صغير وخضرة مقطعة حسب الرغبة",
+        "نزيد ملح وفلفل أكحل، ونغطي بالماء السخون حسب كمية الخضرة",
+        "نخلي المرقة تغلي شوية حتى تبدأ الخضرة تطيب",
+        "نزيد فتات/حبيبات السميد (محمصة) ونقلبهم مع المرقة",
+        "نغطي الطنجرة جزئياً ونقص النار، نخلي الكل يطيب حتى تشرب المحمصة المرقة وتولي طرية"
+      ]
+    },
+    "spanish": {
+      "dry_version": [
+        "Picar una cebolla pequeña y sofreírla en una sartén con un poco de aceite hasta que esté transparente",
+        "Añadir los granos de m'hamsa (perlas de sémola) y rehogar unos minutos más, removiendo para que se impregnen bien del sabor",
+        "Incorporar agua según las instrucciones del paquete (aproximadamente 1 y 1/4 tazas de agua por cada taza de m'hamsa)",
+        "Cocinar a fuego lento hasta que el agua se absorba y los granos estén tiernos"
+      ],
+      "sauce_version": [
+        "Sofreír una cebolla pequeña picada en aceite hasta que empiece a dorarse",
+        "Agregar una cucharada de pimentón dulce y remover solo unos segundos para que no se queme",
+        "Añadir un tomate picado y las verduras que desees",
+        "Sazonar con sal y pimienta negra al gusto. Verter agua caliente suficiente para cubrir ligeramente los ingredientes",
+        "Incorporar los granos de m'hamsa",
+        "Llevar a ebullición, bajar el fuego y tapar parcialmente la olla. Cocinar a fuego lento hasta que el m'hamsa esté hecho y la salsa haya espesado"
+      ]
+    }
+  },
+  "cultural_context": {
+    "region": "Djerba, Tunisia",
+    "origin_family": "David Silver (paternal side)",
+    "occasion": "Daily meal, comfort food",
+    "season": "Year-round",
+    "cooking_method": "Traditional hand-rolled semolina preparation",
+    "historical_significance": "Reflects preservation technique born from necessity: turning durum wheat into shelf-stable, nutrient-dense staple. Production often took place communally, with women gathering to roll semolina into irregular pearls and dry them under the sun.",
+    "culinary_position": "Sits at the intersection of couscous and pasta. Larger and more rustic than standard couscous, roughly the size of peppercorns, with nutty, toasted flavor that makes it distinct from factory-made couscous.",
+    "preparation_notes": [
+      "Two traditional methods: dry (like pilaf) and with sauce (like stew)",
+      "Semolina pearls are typically hand-rolled and sun-dried",
+      "Often served with vegetables, legumes, or traditional accompaniments",
+      "Symbol of Tunisian food heritage, embodying craftsmanship and resilience"
+    ]
+  },
+  "nutritional_notes": {
+    "dietary_type": "Vegan",
+    "main_nutrition": "Carbohydrates from semolina, vitamins from vegetables",
+    "allergens": ["Gluten (wheat/semolina)"],
+    "adaptations": [
+      "Can substitute with couscous or Israeli couscous if m'hamsa unavailable",
+      "Add chickpeas or legumes for protein",
+      "Include seasonal vegetables based on availability"
+    ]
+  },
+  "latex_formatting": {
+    "chapter_title": "M'hamsa - מחמסה - محمصة",
+    "page_layout": "double_spread",
+    "main_image": "assets/images/MHAMSA.png",
+    "etymology_placement": "left_page_top",
+    "ingredients_layout": "two_column_multilingual",
+    "instructions_layout": "sequential_by_language",
+    "cultural_notes_placement": "right_page_bottom",
+    "image_suggestions": [
+      "Hand-rolled semolina pearls",
+      "Traditional preparation scene",
+      "Finished dish in ceramic bowl"
+    ]
+  },
+  "processing_metadata": {
+    "translation_model": "gpt-4.1",
+    "translation_date": "2025-01-22",
+    "etymology_source": "Manual research + academic sources",
+    "cultural_research": "Family heritage + historical documentation",
+    "completion_status": {
+      "original_hebrew": "completed",
+      "translations": "completed",
+      "etymology_research": "completed",
+      "json_compilation": "completed",
+      "latex_ready": true
+    }
+  }
+} 

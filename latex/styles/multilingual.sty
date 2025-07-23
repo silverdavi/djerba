@@ -1,0 +1,181 @@
+%% multilingual.sty - Language-specific formatting
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/multilingual}[2025/01/01 Multilingual Support]
+
+\RequirePackage{polyglossia}
+\RequirePackage{bidi}
+\RequirePackage{xcolor}
+
+% Language setup
+\setdefaultlanguage{english}
+\setotherlanguages{hebrew,arabic,spanish}
+
+% Font families for each language (defined in fonts.sty)
+\newfontfamily\hebrewfont{Frank Ruehl CLM}[Script=Hebrew]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+
+% Language-specific text commands with automatic font switching
+\newcommand{\Hebrew}[1]{%
+    \begingroup
+    \hebrewfont
+    \selectlanguage{hebrew}%
+    \textdir TRT
+    \hebrewcolor{#1}%
+    \endgroup
+}
+
+\newcommand{\Arabic}[1]{%
+    \begingroup
+    \arabicfont
+    \selectlanguage{arabic}%
+    \textdir TRT
+    \arabiccolor{#1}%
+    \endgroup
+}
+
+\newcommand{\English}[1]{%
+    \begingroup
+    \selectlanguage{english}%
+    \textdir TLT
+    \englishcolor{#1}%
+    \endgroup
+}
+
+\newcommand{\Spanish}[1]{%
+    \begingroup
+    \selectlanguage{spanish}%
+    \textdir TLT
+    \spanishcolor{#1}%
+    \endgroup
+}
+
+% Recipe title in all four languages
+\newcommand{\quadlingualtitle}[4]{%
+    % #1: Hebrew, #2: English, #3: Arabic, #4: Spanish
+    \begin{center}
+        \recipetitlefont
+        \English{#2}\\[5pt]
+        \Hebrew{#1} \quad \Arabic{#3}\\[3pt]
+        {\large\Spanish{#4}}
+    \end{center}
+    \recipespace
+}
+
+% Ingredient list in multiple languages
+\newenvironment{multilingual-ingredients}[4]{%
+    % #1: Hebrew list, #2: English list, #3: Arabic list, #4: Spanish list
+    \begin{multicols}{2}
+    \begin{languageblock}{English}
+        \English{Ingredients:}
+        \begin{itemize}[leftmargin=*]
+            #2
+        \end{itemize}
+    \end{languageblock}
+    
+    \begin{languageblock}{Español}
+        \Spanish{Ingredientes:}
+        \begin{itemize}[leftmargin=*]
+            #4
+        \end{itemize}
+    \end{languageblock}
+    
+    \columnbreak
+    
+    \begin{languageblock}{עברית}
+        \Hebrew{רכיבים:}
+        \begin{itemize}[leftmargin=*]
+            #1
+        \end{itemize}
+    \end{languageblock}
+    
+    \begin{languageblock}{العربية}
+        \Arabic{المقادير:}
+        \begin{itemize}[leftmargin=*]
+            #3
+        \end{itemize}
+    \end{languageblock}
+    \end{multicols}
+}{}
+
+% Instructions in multiple languages
+\newcommand{\multilingualinstructions}[4]{%
+    % #1: Hebrew, #2: English, #3: Arabic, #4: Spanish
+    \begin{languageblock}{English}
+        \English{Instructions:}\\
+        \English{#2}
+    \end{languageblock}
+    
+    \begin{languageblock}{Español}
+        \Spanish{Instrucciones:}\\
+        \Spanish{#4}
+    \end{languageblock}
+    
+    \begin{languageblock}{עברית}
+        \Hebrew{הוראות הכנה:}\\
+        \Hebrew{#1}
+    \end{languageblock}
+    
+    \begin{languageblock}{العربية}
+        \Arabic{طريقة التحضير:}\\
+        \Arabic{#3}
+    \end{languageblock}
+}
+
+% Etymology box with transliteration
+\newcommand{\etymologybox}[4]{%
+    % #1: Root, #2: Origin language, #3: Meaning, #4: Variants
+    \begin{etymology}
+        \textbf{Etymology:} #1 (\textit{#2}) -- ``#3''\\
+        \textbf{Variants:} #4
+    \end{etymology}
+}
+
+% Cultural context in primary language with translation notes
+\newcommand{\culturalcontext}[2]{%
+    % #1: Main text (English), #2: Regional notes
+    \begin{culturalnotes}
+        #1
+        
+        \smallspace
+        \textit{Regional context:} #2
+    \end{culturalnotes}
+}
+
+% Language direction helpers
+\newcommand{\RTL}[1]{\begin{RTL}#1\end{RTL}}
+\newcommand{\LTR}[1]{\begin{LTR}#1\end{LTR}}
+
+% Transliteration command
+\newcommand{\transliterate}[2]{%
+    % #1: Original text, #2: Transliteration
+    #1 \textit{[#2]}
+}
+
+% Comparative linguistics table
+\newcommand{\linguistictable}[4]{%
+    % #1: Hebrew, #2: Arabic, #3: English, #4: Spanish
+    \begin{center}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Language} & \textbf{Form} \\
+        \hline
+        Hebrew & \Hebrew{#1} \\
+        Arabic & \Arabic{#3} \\
+        English & \English{#3} \\
+        Spanish & \Spanish{#4} \\
+        \hline
+    \end{tabular}
+    \end{center}
+}
+
+% Side-by-side language comparison
+\newcommand{\languagecomparison}[4]{%
+    % #1: Hebrew, #2: English, #3: Arabic, #4: Spanish
+    \begin{center}
+    \begin{tabular}{cc}
+        \Hebrew{#1} & \Arabic{#3} \\
+        \English{#2} & \Spanish{#4}
+    \end{tabular}
+    \end{center}
+} 
