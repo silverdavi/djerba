@@ -1,6 +1,3 @@
-%% main.tex - Djerba-Tanjir Vegan Cookbook
-%% Multilingual cookbook in Hebrew, English, Arabic, and Spanish
-
 \documentclass{cookbook}
 
 % XeLaTeX packages for Unicode support
@@ -10,6 +7,8 @@
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
 
 % Language setup
 \setdefaultlanguage{english}
@@ -20,9 +19,14 @@
 \newfontfamily\hebrewfont{Arial Unicode MS}[Script=Hebrew]
 \newfontfamily\arabicfont{Arial Unicode MS}[Script=Arabic]
 
-% Book information
-\title{Djerba-Tanjir Vegan Cookbook}
-\author{David Silver \& Enny Silver}
+% Document metadata
+\title{Djerba-Tanjir Vegan Cookbook\\
+       \large Traditional Recipes in Four Languages}
+\author{David Silver \& Enny Silver\\
+        \small Honoring the culinary heritage of\\
+        \small Ruth Cohen-Trabelsi (Djerba, Tunisia) \&\\
+        \small Kadoch-Muyal (Tangier, Morocco)}
+\date{\today}
 
 \begin{document}
 
@@ -31,19 +35,46 @@
 
 % Title page
 \maketitle
+\thispagestyle{empty}
+
+% Copyright page
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\textcopyright\ 2024 David Silver \& Enny Silver\\[1em]
+\textit{A celebration of North African Jewish culinary heritage}\\[2em]
+First Edition\\[1em]
+Generated using beautiful multilingual layout system\\
+with authentic Hebrew מחמסה and Arabic محمصة
+\end{center}
+\vspace*{\fill}
 
 % Table of contents
+\clearpage
 \tableofcontents
+
+% Introduction
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+This cookbook represents a bridge between generations, cultures, and culinary traditions. It honors the rich heritage of North African Jewish cuisine while embracing modern plant-based living.
+
+Our family's culinary journey spans from the ancient island of Djerba in Tunisia to the vibrant port city of Tangier in Morocco. Through the recipes of Ruth Cohen-Trabelsi and the Kadoch-Muyal family line, we preserve not just dishes, but stories, memories, and cultural identity.
+
+Each recipe has been carefully researched and adapted to be completely plant-based while maintaining the authentic flavors and cultural significance that have been passed down through generations.
+
+This cookbook is presented in four languages: English, Hebrew (עברית), Spanish (Español), and Arabic (عربي), reflecting the multicultural heritage of our family and the diaspora communities that preserved these traditions.
 
 % Main content
 \mainmatter
 
-% Recipe chapters
+% Recipe chapters - Beautiful double-page spreads
 \input{chapters/01_mhamsa}
 % \input{chapters/02_shmid}
-% ... etc
+% ... continuing with our beautiful layout system
 
 % Back matter
 \backmatter
 
-\end{document} 
+\end{document}
