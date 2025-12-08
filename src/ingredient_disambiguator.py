@@ -239,33 +239,7 @@ Name (Hebrew): {hebrew_name}
 
 Return JSON: {{"canonical_name": "English name", "transliterations": ["trans1"], "description": "What it is", "color_profile": "Visual", "confidence": 0.7, "reasoning": "Context"}}"""
         
-        # Quick lookup for known dishes with vowel ambiguity
-        hebrew_char = hebrew_name[0] if hebrew_name else ''
-        
-        # Check if it's a known ambiguous dish
-        if 'עג' in hebrew_name:
-            return {
-                'hebrew_name': hebrew_name,
-                'canonical_name': 'Eeja',
-                'transliterations': ['Eeja', 'Aja', 'Ajah'],
-                'description': 'Traditional Tunisian lentil or bean stew, often with spinach or other vegetables. A hearty vegetable-based main course.',
-                'color_profile': 'Warm brown and reddish tones with visible legumes and greens mixed throughout',
-                'confidence': 0.85,
-                'reasoning': 'Characteristic Djerban lentil dish based on Hebrew phonetics and common ingredients'
-            }
-        
-        if 'דביח' in hebrew_name:
-            return {
-                'hebrew_name': hebrew_name,
-                'canonical_name': 'Dbeekh',
-                'transliterations': ['Dbeekh', 'Dbaakh', 'Dbeikh'],
-                'description': 'Traditional Tunisian stew, can be plain for daily meals or festive versions with special ingredients. A savory, slow-cooked main course.',
-                'color_profile': 'Rich brown savory stew with tender vegetables and seasonings',
-                'confidence': 0.85,
-                'reasoning': 'Common Djerban stew dish based on Hebrew phonetics'
-            }
-        
-        # Try API for other names
+        # All recipe name disambiguation goes through Gemini API
         for attempt in range(max_retries):
             try:
                 model = genai.GenerativeModel(self.model)
@@ -313,7 +287,7 @@ Return JSON: {{"canonical_name": "English name", "transliterations": ["trans1"],
         recipe_name: str = ""
     ) -> Dict[str, str]:
         """
-        Enhance a list of ingredients by clarifying ambiguous ones.
+        Enhance a list of ingredients by clarifying all with Gemini API.
         
         Args:
             ingredients: List of ingredient strings
@@ -325,23 +299,13 @@ Return JSON: {{"canonical_name": "English name", "transliterations": ["trans1"],
         clarifications = {}
         
         for ingredient in ingredients:
-            ing_lower = ingredient.lower().strip()
-            
-            # Check if this ingredient is known to be ambiguous
-            is_ambiguous = False
-            for ambig_key in self.AMBIGUOUS_INGREDIENTS.keys():
-                if ambig_key.lower() in ing_lower or ing_lower in ambig_key.lower():
-                    is_ambiguous = True
-                    break
-            
-            if is_ambiguous:
-                result = self.clarify_ingredient(
-                    ingredient,
-                    recipe_name=recipe_name,
-                    other_ingredients=[i for i in ingredients if i != ingredient]
-                )
-                if result['confidence'] >= 0.5:
-                    clarifications[ingredient] = result['clarified']
+            result = self.clarify_ingredient(
+                ingredient,
+                recipe_name=recipe_name,
+                other_ingredients=[i for i in ingredients if i != ingredient]
+            )
+            if result['confidence'] >= 0.5:
+                clarifications[ingredient] = result['clarified']
         
         return clarifications
 
