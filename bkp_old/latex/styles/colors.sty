@@ -1,0 +1,64 @@
+%% colors.sty - Color scheme for cookbook
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{styles/colors}[2025/01/01 Cookbook Colors]
+
+\RequirePackage{xcolor}
+
+% Primary colors inspired by Tunisian ceramics and spices
+\definecolor{cookbookred}{RGB}{168,51,36}          % Harissa red
+\definecolor{cookbookblue}{RGB}{41,98,147}         % Mediterranean blue
+\definecolor{cookbookgreen}{RGB}{107,142,35}       % Olive green
+\definecolor{cookbookbrown}{RGB}{139,102,66}       % Cumin brown
+\definecolor{cookbookorange}{RGB}{204,102,51}      % Saffron orange
+\definecolor{cookbookgold}{RGB}{184,134,11}        % Turmeric gold
+
+% Neutral colors
+\definecolor{cookbookgray}{RGB}{102,102,102}       % Charcoal gray
+\definecolor{cookbooklightgray}{RGB}{242,242,242}  % Light gray
+\definecolor{cookbookcream}{RGB}{255,253,248}      % Cream background
+\definecolor{cookbookbeige}{RGB}{245,235,220}      % Beige accent
+
+% Text colors for different languages
+\definecolor{hebrewtext}{RGB}{51,51,102}           % Deep blue for Hebrew
+\definecolor{arabictext}{RGB}{102,51,51}           % Deep red for Arabic  
+\definecolor{englishtext}{RGB}{51,51,51}           % Dark gray for English
+\definecolor{spanishtext}{RGB}{102,76,51}          % Brown for Spanish
+
+% Accent colors for recipe elements
+\definecolor{ingredientcolor}{RGB}{107,142,35}     % Green for ingredients
+\definecolor{instructioncolor}{RGB}{139,102,66}    % Brown for instructions
+\definecolor{etymologycolor}{RGB}{41,98,147}       % Blue for etymology
+\definecolor{culturalcolor}{RGB}{184,134,11}       % Gold for cultural notes
+
+% Background colors
+\definecolor{ingredientbg}{RGB}{248,252,240}       % Light green background
+\definecolor{instructionbg}{RGB}{252,248,240}      % Light brown background
+\definecolor{etymologybg}{RGB}{240,245,252}        % Light blue background
+\definecolor{culturalbg}{RGB}{252,250,235}         % Light gold background
+
+% Border and accent colors
+\definecolor{bordercolor}{RGB}{204,204,204}        % Light border
+\definecolor{accentcolor}{RGB}{168,51,36}          % Accent lines
+\definecolor{separatorcolor}{RGB}{184,134,11}      % Section separators
+
+% Color commands for easy use
+\newcommand{\primarycolor}{\color{cookbookred}}
+\newcommand{\secondarycolor}{\color{cookbookblue}}
+\newcommand{\accentone}{\color{cookbookgreen}}
+\newcommand{\accenttwo}{\color{cookbookorange}}
+
+% Colorbox commands for recipe sections
+\newcommand{\ingredientbox}[1]{%
+    \colorbox{ingredientbg}{\parbox{\ingredientwidth}{#1}}%
+}
+
+\newcommand{\culturalbox}[1]{%
+    \colorbox{culturalbg}{\parbox{0.9\textwidth}{#1}}%
+}
+
+% Color-coded text for different languages
+\newcommand{\hebrewcolor}[1]{\textcolor{hebrewtext}{#1}}
+\newcommand{\arabiccolor}[1]{\textcolor{arabictext}{#1}}
+\newcommand{\englishcolor}[1]{\textcolor{englishtext}{#1}}
+\newcommand{\spanishcolor}[1]{\textcolor{spanishtext}{#1}} 

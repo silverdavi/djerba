@@ -1,11 +1,27 @@
 \documentclass{cookbook}
 
+% XeLaTeX packages for Unicode support
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bidi}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
 \usepackage[hidelinks]{hyperref}
 \usepackage{bookmark}
 
+% Language setup
+\setdefaultlanguage{english}
+\setotherlanguages{hebrew,arabic,spanish}
+
+% Font setup for multilingual support
+\setmainfont{Times New Roman}
+\newfontfamily\hebrewfont{Arial Unicode MS}[Script=Hebrew]
+\newfontfamily\arabicfont{Arial Unicode MS}[Script=Arabic]
+
 % Document metadata
-\title{Vegan Djerban Family Cookbook\\
-       \large A Journey Through North African Jewish Cuisine}
+\title{Djerba-Tanjir Vegan Cookbook\\
+       \large Traditional Recipes in Four Languages}
 \author{David Silver \& Enny Silver\\
         \small Honoring the culinary heritage of\\
         \small Ruth Cohen-Trabelsi (Djerba, Tunisia) \&\\
@@ -13,6 +29,9 @@
 \date{\today}
 
 \begin{document}
+
+% Front matter
+\frontmatter
 
 % Title page
 \maketitle
@@ -24,10 +43,10 @@
 \vspace*{\fill}
 \begin{center}
 \textcopyright\ 2024 David Silver \& Enny Silver\\[1em]
-\textit{Preserving family traditions through plant-based innovation}\\[2em]
+\textit{A celebration of North African Jewish culinary heritage}\\[2em]
 First Edition\\[1em]
-Generated using artificial intelligence research\\
-and traditional family knowledge
+Generated using beautiful multilingual layout system\\
+with authentic Hebrew מחמסה and Arabic محمصة
 \end{center}
 \vspace*{\fill}
 
@@ -45,28 +64,17 @@ Our family's culinary journey spans from the ancient island of Djerba in Tunisia
 
 Each recipe has been carefully researched and adapted to be completely plant-based while maintaining the authentic flavors and cultural significance that have been passed down through generations.
 
-\begin{culturalcontext}
-This cookbook is presented in four languages: English, Hebrew (עברית), Spanish (Español), and Tunisian Arabic (تونسي) with Hebrew transliteration, reflecting the multicultural heritage of our family and the diaspora communities that preserved these traditions.
-\end{culturalcontext}
+This cookbook is presented in four languages: English, Hebrew (עברית), Spanish (Español), and Arabic (عربي), reflecting the multicultural heritage of our family and the diaspora communities that preserved these traditions.
 
-% Include chapters
-\input{chapters/01-heritage.tex}
-\input{chapters/02-breads.tex}
-\input{chapters/03-sabbath.tex}
-\input{chapters/04-holidays.tex}
-\input{chapters/05-everyday.tex}
-\input{chapters/06-sweets.tex}
-\input{chapters/07-modern.tex}
+% Main content
+\mainmatter
 
-% Appendices
-\appendix
-\chapter{Ingredient Glossary}
-\input{chapters/appendix-ingredients.tex}
+% Recipe chapters - Beautiful double-page spreads
+\input{chapters/01_mhamsa}
+% \input{chapters/02_shmid}
+% ... continuing with our beautiful layout system
 
-\chapter{Cultural Context}
-\input{chapters/appendix-culture.tex}
-
-% Index
-\printindex
+% Back matter
+\backmatter
 
 \end{document}
