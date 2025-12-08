@@ -1,0 +1,86 @@
+{
+  "id": "kuklot",
+  "image": "kuklot.png",
+  "meta": {
+    "servings": "6–8 balls",
+    "prep_time": "15 min",
+    "cook_time": "Overnight",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קוקלות",
+    "es": "Kuklot",
+    "ar": "كوكلا",
+    "en": "Kuklot"
+  },
+  "description": {
+    "he": "קוקלות הן קציצות סולת מתובלות, המתבשלות בתוך סיר החמין (סחינה) וסופגות את טעמיו העשירים. שמן נגזר ככל הנראה מהמילה היוונית 'קוקלוס' (עיגול), והן מהוות חלק בלתי נפרד מארוחת השבת של יהודי ג'רבה ותוניסיה.",
+    "es": "Las Kuklot son albóndigas de sémola condimentadas que se cocinan dentro del guiso de Shabat (Hamin/Tfina), absorbiendo sus ricos sabores. Su nombre deriva probablemente del griego 'kuklos' (círculo) y son un elemento esencial en la cocina judía de Yerba y Túnez.",
+    "ar": "الكوكلا هي كعابر (كويرات) سميد مفوّحة، تطيب في وسط طنجرة السخينة (التفينة) وتشرب بنتها. الإسم جاي من الكلمة اليونانية 'كوكلس' (دائرة)، وهي من أساسيات مائدة السبت عند يهود جربة وتونس.",
+    "en": "Kuklot are savory semolina dumplings cooked inside the Shabbat stew (Hamin/Tfina) to absorb its rich flavors. The name likely derives from the Greek 'kuklos' (circle), reflecting their round shape, a staple of Djerban and Tunisian Jewish heritage."
+  },
+  "ingredients": {
+    "he": [
+      "3 כפות קמח חומוס + 3 כפות מים (תחליף לביצה)",
+      "1/4 כוס שמן",
+      "1 כפית פפריקה מתוקה",
+      "1/2 כפית פלפל שחור",
+      "1 כפית מלח",
+      "1 כפית אבקת אפייה",
+      "1.5 כוסות סולת (בערך, לפי הצורך)"
+    ],
+    "es": [
+      "3 cdas harina de garbanzo + 3 cdas agua",
+      "1/4 taza de aceite",
+      "1 cdta pimentón dulce",
+      "1/2 cdta pimienta negra",
+      "1 cdta sal",
+      "1 cdta levadura química (polvo de hornear)",
+      "1.5 tazas de sémola (aprox.)"
+    ],
+    "ar": [
+      "3 مغارف دقيق حمص + 3 مغارف ماء (في عوض العظم)",
+      "1/4 كأس زيت",
+      "1 مغرفة صغيرة فلفل أحمر (زينة)",
+      "1/2 مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة صغيرة ملح",
+      "1 مغرفة صغيرة خميرة قاطو",
+      "1.5 كأس سميد (حسب الخليط)"
+    ],
+    "en": [
+      "3 tbsp chickpea flour + 3 tbsp water (egg sub)",
+      "1/4 cup vegetable oil",
+      "1 tsp sweet paprika",
+      "1/2 tsp black pepper",
+      "1 tsp salt",
+      "1 tsp baking powder",
+      "1.5 cups semolina (approx.)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה את קמח החומוס והמים למרקם אחיד.",
+      "מוסיפים את השמן, התבלינים ואבקת האפייה ומערבבים.",
+      "מוסיפים את הסולת בהדרגה ולשים ביד עד לקבלת בצק נוח לעבודה (לא יבש מדי).",
+      "יוצרים כדורים או צורות אליפטיות ומוסיפים לסיר החמין לבישול ארוך."
+    ],
+    "es": [
+      "Mezclar la harina de garbanzo y el agua en un bol hasta obtener una textura uniforme.",
+      "Añadir el aceite, las especias y la levadura química.",
+      "Incorporar la sémola poco a poco y amasar hasta obtener una masa manejable.",
+      "Formar bolas u óvalos y añadir a la olla del Hamin para una cocción lenta."
+    ],
+    "ar": [
+      "خلّط دقيق الحمص مع الماء في صحفة لين يولي ملموم.",
+      "زيد الزيت، الفاحات، وخميرة القاطو وخلّط مليح.",
+      "صب السميد بالشوية وعجن بيدك لين تتحصل على عجينة تتلم وماهيش شايحة.",
+      "كوّرهم كعابر ولا شكل بيضوي وارميهم في طنجرة السخينة يطيبو معاها."
+    ],
+    "en": [
+      "Mix chickpea flour and water in a bowl until smooth.",
+      "Add oil, spices, and baking powder; mix well.",
+      "Gradually add semolina while kneading until a workable dough forms.",
+      "Shape into balls or ovals and add to the Hamin pot for slow cooking."
+    ]
+  }
+}

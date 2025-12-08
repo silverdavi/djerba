@@ -1,0 +1,25 @@
+{
+  "id": "tefina",
+  "name_hebrew": "טפינה",
+  "name_english": "Tefina",
+  "ingredients": [
+    "Meat",
+    "Potatoes",
+    "Barley",
+    "Onion",
+    "Beans (optional)"
+  ],
+  "instructions": [
+    "Prepare a bowl with meat, potatoes, onion, barley, and optionally beans.",
+    "In a heavy pot, heat oil and sugar until the sugar caramelizes to a deep brown color.",
+    "Add paprika, then incorporate all the other ingredients: meat, potatoes, barley, and onion.",
+    "Season with coarse salt and black pepper, sauté for about 10 minutes.",
+    "Add boiling water, reduce the heat, and simmer for about an hour on low heat."
+  ],
+  "notes": "Tefina is a traditional dish from the Tunisian-Djerban Jewish community, often enjoyed during family gatherings.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "13_טפינה.json"
+  }
+}

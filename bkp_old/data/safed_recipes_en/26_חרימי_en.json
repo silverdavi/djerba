@@ -1,0 +1,28 @@
+{
+  "id": "harimi",
+  "name_hebrew": "חרימי",
+  "name_english": "Harimi",
+  "ingredients": [
+    "1/2 teaspoon cumin",
+    "1 teaspoon caraway seeds",
+    "Fish",
+    "Oil",
+    "Garlic",
+    "Salt",
+    "Water",
+    "Hot paprika",
+    "2 tablespoons tomato paste",
+    "2 hot peppers",
+    "Lemon juice"
+  ],
+  "instructions": [
+    "In a pot, heat the oil and add all the ingredients except for the fish and water. Sauté for about 5 minutes.",
+    "Add the water, fish, and lemon juice. Optionally, you can add sliced potatoes."
+  ],
+  "notes": "Harimi is a traditional Tunisian-Djerban Jewish dish, often enjoyed for its rich flavors and aromatic spices. It can be served with a side of rice or bread to soak up the delicious sauce.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "26_חרימי.json"
+  }
+}

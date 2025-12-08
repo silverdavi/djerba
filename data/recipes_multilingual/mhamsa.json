@@ -1,0 +1,126 @@
+{
+  "id": "mhamsa",
+  "image": "mhamsa.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מחמסה",
+    "es": "Mhamsa",
+    "ar": "المحمصة",
+    "en": "Mhamsa"
+  },
+  "description": {
+    "he": "מחמסה היא מנת פתיתים תוניסאית מנחמת, האהובה על ילדים ומוגשת בגרסה יבשה או כמרק עגבניות עשיר. השם נגזר מהמילה הערבית 'מַחַמַּצַה' (קלויה), ומתייחס לשיטה המסורתית של קליית פתיתי הסולת להעמקת טעמם האגוזי.",
+    "es": "La Mhamsa es un reconfortante plato de pasta tunecino, servido seco o como una rica sopa de tomate. El nombre deriva de la palabra árabe para 'tostado', refiriéndose al método tradicional de dorar las perlas de sémola para intensificar su sabor a nuez.",
+    "ar": "المحمصة هي أكلة تونسية زمنية يحبوها الصغار، تجي شايحة (جافة) ولا جارية (بالمرقة). اسمها جاي من كلمة 'محمّصة'، خاطر العادة يقلّيو (يحمّصو) حبّات العجين باش يعطيوها نكهة بنينة ولون ذهبي.",
+    "en": "Mhamsa is a comforting Tunisian pasta dish, served either dry or as a rich tomato soup. The name derives from the Arabic word for 'toasted,' referring to the traditional method of browning the semolina pearls to deepen their nutty flavor."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל קטן, קצוץ",
+      "1 כוס מחמסה (פתיתים)",
+      "1 עגבניה קצוצה (לרוטב)",
+      "1 כף פפריקה מתוקה",
+      "ירקות חתוכים לפי הטעם (לרוטב)",
+      "מלח ופלפל שחור",
+      "מים רותחים"
+    ],
+    "es": [
+      "1 cebolla pequeña, picada",
+      "1 taza de Mhamsa (perlas de pasta)",
+      "1 tomate picado (para salsa)",
+      "1 cda de pimentón dulce",
+      "Verduras al gusto (para salsa)",
+      "Sal y pimienta negra",
+      "Agua hirviendo"
+    ],
+    "ar": [
+      "1 بصلة صغيرة مقصوصة",
+      "1 كأس محمصة",
+      "1 كعبة طماطم مقصوصة (للمرقة)",
+      "1 مغرفة كبيرة فلفل أحمر (زينة)",
+      "خضرة حسب الرغبة (للمرقة)",
+      "ملح وفلفل أكحل",
+      "ماء سخون"
+    ],
+    "en": [
+      "1 small onion, chopped",
+      "1 cup Mhamsa (pearl pasta)",
+      "1 chopped tomato (for sauce)",
+      "1 tbsp sweet paprika",
+      "Vegetables of choice (for sauce)",
+      "Salt and black pepper",
+      "Boiling water"
+    ]
+  },
+  "variants": [
+    {
+      "name": {
+        "he": "מחמסה יבשה",
+        "es": "Mhamsa Seca",
+        "ar": "محمصة شايحة",
+        "en": "Dry Mhamsa"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל קטן עד שהוא נהיה שקוף.",
+          "מוסיפים את הפתיתים ומאדים קלות יחד עם הבצל.",
+          "מוסיפים 1.25 כוסות מים לכל כוס פתיתים ומבשלים עד שהמים נספגים והפתיתים רכים."
+        ],
+        "es": [
+          "Sofreír la cebolla pequeña hasta que esté transparente.",
+          "Añadir la Mhamsa y rehogar brevemente con la cebolla.",
+          "Agregar 1.25 tazas de agua por cada taza de pasta y cocinar hasta que el agua se absorba."
+        ],
+        "ar": [
+          "قلّي بصلة صغيرة في الزيت لين تذبل وتولي شفافة.",
+          "زيد المحمصة وحرّكها شويّة مع البصل.",
+          "صب الماء (كأس وربع ماء لكل كأس محمصة) وطيّب لين تشرب الماء متاعها وتطيب."
+        ],
+        "en": [
+          "Sauté the small onion until transparent.",
+          "Add the Mhamsa and sauté briefly with the onion.",
+          "Add 1.25 cups of water per cup of pasta and cook until the liquid is absorbed."
+        ]
+      }
+    },
+    {
+      "name": {
+        "he": "מחמסה ברוטב",
+        "es": "Mhamsa con Salsa",
+        "ar": "محمصة بالمرقة",
+        "en": "Mhamsa with Sauce"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל עד שהוא מתחיל להשחיר, מוסיפים פפריקה, עגבניה קצוצה, ירקות נוספים, מלח ופלפל.",
+          "מוסיפים מים רותחים ליצירת המרק.",
+          "מוסיפים את הפתיתים למים הרותחים.",
+          "מביאים לרתיחה, מנמיכים להבה, ומכסים חלקית עד שהתבשיל מוכן."
+        ],
+        "es": [
+          "Sofreír la cebolla hasta que empiece a dorarse, añadir pimentón, tomate, verduras, sal y pimienta.",
+          "Agregar agua hirviendo para crear el caldo.",
+          "Incorporar la Mhamsa al caldo hirviendo.",
+          "Llevar a ebullición, bajar el fuego y cocinar parcialmente tapado hasta que esté listo."
+        ],
+        "ar": [
+          "قلّي البصل لين يبدا يحمار، زيد الفلفل الأحمر، الطماطم، الخضرة، الملح والفلفل الأكحل.",
+          "مرّق بالماء السخون.",
+          "ارمي المحمصة في المرقة وهي تغلي.",
+          "خلّيها تغلي،  وطّي النار وغطّي الطنجرة نص طياب لين تطيب."
+        ],
+        "en": [
+          "Sauté onion until it starts to brown, add paprika, tomato, vegetables, salt, and pepper.",
+          "Add boiling water to create the broth.",
+          "Add the Mhamsa to the boiling liquid.",
+          "Bring to a boil, lower heat, and cook partially covered until tender."
+        ]
+      }
+    }
+  ]
+}

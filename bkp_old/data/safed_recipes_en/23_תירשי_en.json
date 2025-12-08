@@ -1,0 +1,20 @@
+{
+  "id": "tirshi",
+  "name_hebrew": "תירשי",
+  "name_english": "Tirshi",
+  "ingredients": [
+    "Pumpkin",
+    "A small amount of potatoes (optional)",
+    "Spices (paprika, garlic, cumin, salt, lemon juice)"
+  ],
+  "instructions": [
+    "Cook the pumpkin (the potatoes are optional).",
+    "Drain well, mash with a fork, then add a little oil and the spices."
+  ],
+  "notes": "Tirshi is a traditional Tunisian-Djerban Jewish dish that highlights the flavors of pumpkin and spices, making it a comforting and flavorful side dish.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "23_תירשי.json"
+  }
+}

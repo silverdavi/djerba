@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmessa - Cookbook Spread</title>
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Frank+Ruhl+Libre:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #5D4037; /* Deep leather brown */
+            --accent-color: #D84315; /* Spiced red */
+            --text-color: #2c2c2c;
+            --bg-color: #fcfbf9; /* Warm paper off-white */
+            --divider-color: #e0dcd5;
+            
+            /* Page Dimensions (A4) */
+            --page-width: 210mm;
+            --page-height: 297mm;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #e0e0e0; /* Background for screen viewing */
+            font-family: 'Lora', serif;
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* The Spread Container (Holds 2 Pages) */
+        .spread-container {
+            display: flex;
+            width: calc(var(--page-width) * 2);
+            height: var(--page-height);
+            background-color: var(--bg-color);
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+
+        /* Individual Page */
+        .page {
+            width: var(--page-width);
+            height: var(--page-height);
+            padding: 20mm; /* Margins */
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Verso (Left Page) - Semitic Languages */
+        .page.verso {
+            border-right: 1px solid #e5e5e5; /* Fold line */
+        }
+
+        /* Recto (Right Page) - Latin Languages */
+        .page.recto {
+        }
+
+        /* Language Section (Half Page) */
+        .language-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10mm;
+            padding-bottom: 10mm;
+            border-bottom: 1px solid var(--divider-color);
+        }
+
+        .language-section:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        /* Typography per Language */
+        .lang-he { font-family: 'Frank Ruhl Libre', serif; direction: rtl; }
+        .lang-ar { font-family: 'Amiri', serif; direction: rtl; }
+        .lang-en { font-family: 'Playfair Display', serif; direction: ltr; }
+        .lang-es { font-family: 'Playfair Display', serif; direction: ltr; }
+
+        /* Headers */
+        h1 {
+            font-size: 24pt;
+            color: var(--primary-color);
+            margin-bottom: 0.2em;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .lang-he h1, .lang-ar h1 { letter-spacing: 0; } /* No letter spacing for Semitic */
+
+        /* Grid Layout within Language */
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* Ingredients | Instructions */
+            gap: 8mm;
+            margin-top: 5mm;
+            flex-grow: 1;
+        }
+
+        /* RTL Grid Flip */
+        .lang-he .recipe-grid, .lang-ar .recipe-grid {
+            grid-template-columns: 2fr 1fr; /* Instructions | Ingredients */
+        }
+
+        /* Column Styles */
+        .ingredients-col {
+            font-family: 'Lora', serif; /* Body font */
+            font-size: 9pt;
+            line-height: 1.6;
+            border-right: 1px solid var(--divider-color);
+            padding-right: 5mm;
+        }
+        
+        .lang-he .ingredients-col, .lang-ar .ingredients-col {
+            border-right: none;
+            border-left: 1px solid var(--divider-color);
+            padding-right: 0;
+            padding-left: 5mm;
+            /* In RTL grid layout, this col physically moves, borders need logic */
+        }
+
+        .instructions-col {
+            font-family: 'Lora', serif;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+
+        h2 {
+            font-size: 9pt;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1em;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 2px;
+        }
+
+        /* Lists */
+        ul { list-style: none; }
+        li { margin-bottom: 0.5em; }
+        
+        ol { margin-left: 1.2em; }
+        .lang-he ol, .lang-ar ol { margin-right: 1.2em; margin-left: 0; }
+        
+        li::marker {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* The "Story" Paragraph */
+        .story-text {
+            margin-top: 5mm;
+            font-style: italic;
+            color: #555;
+            font-size: 9.5pt;
+            line-height: 1.6;
+            border-top: 1px solid var(--divider-color);
+            padding-top: 3mm;
+        }
+
+        /* Print Settings */
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .spread-container {
+                width: 100%;
+                height: 100%;
+                box-shadow: none;
+            }
+            @page {
+                size: A3 landscape; /* Or two A4s */
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="spread-container">
+    
+    <!-- VERSO: HEBREW & ARABIC (RTL) -->
+    <div class="page verso">
+        
+        <!-- HEBREW SECTION -->
+        <div class="language-section lang-he">
+            <h1>מחמסה</h1>
+            
+            <div class="recipe-grid">
+                <!-- Instructions & Story (Main) -->
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol>
+                        <li>טגנו בצל קטן עד שמתחיל להשחיר.</li>
+                        <li>הוסיפו פתיתים וטגנו מספר דקות.</li>
+                        <li>הוסיפו מים רותחים לפי ההוראות.</li>
+                        <li>לגרסה עם רוטב: הוסיפו פפריקה, עגבניות וירקות.</li>
+                        <li>הביאו לרתיחה, הנמיכו את האש ובשלו עד לריכוך.</li>
+                    </ol>
+
+                    <p class="story-text">
+                        המחמסה (פתיתים) היא מנה מסורתית מהמטבח היהודי-תוניסאי בג'רבה. שמה נגזר מהשורש "חמס" (לקלות/לערבב). במקור זו הייתה פסטה בעבודת יד שייבשו בשמש בקיץ. היא סמל למשפחתיות ומוגשת לעתים קרובות בשבתות וחגים.
+                    </p>
+                </div>
+
+                <!-- Ingredients (Side) -->
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul>
+                        <li>1 בצל קטן</li>
+                        <li>1 כוס פתיתים (קוסקוס ישראלי)</li>
+                        <li>1 כף פפריקה מתוקה</li>
+                        <li>מלח ופלפל שחור לפי הטעם</li>
+                        <li>1 עגבניה קצוצה</li>
+                        <li>ירקות לבחירה (אופציונלי)</li>
+                        <li>1.25 כוסות מים לכל כוס פתיתים</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ARABIC SECTION -->
+        <div class="language-section lang-ar">
+            <h1>المحمسة</h1>
+            
+            <div class="recipe-grid">
+                <!-- Instructions & Story -->
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol>
+                        <li>اقلي بصلة صغيرة حتى تصبح شفافة.</li>
+                        <li>أضيفي المحمسة واستمري في القلي لبضع دقائق.</li>
+                        <li>أضيفي الماء حسب التعليمات.</li>
+                        <li>للصلصة: اقلي البصل حتى يحمر، أضيفي البابريكا والطماطم.</li>
+                        <li>اتركيها تغلي، ثم خففي النار واتركيها تنضج.</li>
+                    </ol>
+
+                    <p class="story-text">
+                        المحمسة طبق تقليدي من المطبخ اليهودي التونسي في جربة. الاسم مشتق من جذور عربية تعني التحميص. تاريخياً، كانت تعد يدوياً وتجفف في الشمس. تقدم في المناسبات وتعتبر طعاماً مريحاً يجمع العائلة.
+                    </p>
+                </div>
+
+                <!-- Ingredients -->
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul>
+                        <li>١ بصلة صغيرة</li>
+                        <li>١ كوب كسكسي إسرائيلي (محمسة)</li>
+                        <li>١ ملعقة كبيرة بابريكا حلوة</li>
+                        <li>ملح وفلفل أسود</li>
+                        <li>١ طماطم مفرومة</li>
+                        <li>خضروات متنوعة (اختياري)</li>
+                        <li>١.٢٥ كوب ماء لكل كوب محمسة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RECTO: ENGLISH & SPANISH (LTR) -->
+    <div class="page recto">
+        
+        <!-- ENGLISH SECTION -->
+        <div class="language-section lang-en">
+            <h1>Mahmessa</h1>
+            
+            <div class="recipe-grid">
+                <!-- Ingredients (Side) -->
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1 small onion</li>
+                        <li>1 cup Israeli couscous (ptitim)</li>
+                        <li>1 tbsp sweet paprika</li>
+                        <li>Black pepper & salt to taste</li>
+                        <li>1 chopped tomato</li>
+                        <li>Mixed vegetables (optional)</li>
+                        <li>1.25 cups water per cup ptitim</li>
+                    </ul>
+                </div>
+
+                <!-- Instructions & Story (Main) -->
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol>
+                        <li>Sauté a small onion until translucent.</li>
+                        <li>Add the ptitim and continue to sauté for a few minutes.</li>
+                        <li>Add water according to the instructions.</li>
+                        <li>For sauce: Sauté onion until browning, add paprika & tomato.</li>
+                        <li>Bring to a boil, reduce heat, and simmer until cooked.</li>
+                    </ol>
+
+                    <p class="story-text">
+                        Mahmessa is a traditional dish in Tunisian-Djerban Jewish cuisine. The name derives from Arabic/Maghrebi roots relating to mixing or roasting grains. Historically a hand-rolled pasta prepared communally in summer, it represents family heritage and adaptation, often served on Shabbat or holidays as a comforting staple.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SPANISH SECTION -->
+        <div class="language-section lang-es">
+            <h1>Mahmessa</h1>
+            
+            <div class="recipe-grid">
+                <!-- Ingredients (Side) -->
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul>
+                        <li>1 cebolla pequeña</li>
+                        <li>1 taza de cuscús israelí (ptitim)</li>
+                        <li>1 cda pimentón dulce</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>1 tomate picado</li>
+                        <li>Verduras mixtas (opcional)</li>
+                        <li>1.25 tazas de agua por taza</li>
+                    </ul>
+                </div>
+
+                <!-- Instructions & Story (Main) -->
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol>
+                        <li>Saltee la cebolla hasta que esté transparente.</li>
+                        <li>Agregue el ptitim y saltee unos minutos.</li>
+                        <li>Agregue agua según las instrucciones.</li>
+                        <li>Para salsa: Saltee hasta dorar, añada pimentón y tomate.</li>
+                        <li>Lleve a ebullición, baje el fuego y cocine a fuego lento.</li>
+                    </ol>
+
+                    <p class="story-text">
+                        Mahmessa es un plato tradicional de la cocina judía tunecina-djerban. El nombre deriva de raíces árabes relacionadas con tostar granos. Históricamente una pasta hecha a mano en comunidad durante el verano, representa la herencia familiar y se sirve a menudo en Shabat o festividades como un alimento reconfortante.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+

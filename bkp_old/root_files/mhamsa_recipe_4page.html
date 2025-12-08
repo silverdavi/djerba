@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mhamsa - 4 Page Recipe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .page {
+            width: 8in;
+            height: 8in;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            page-break-after: always;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* PAGE 1: TITLE + DESCRIPTION + ETYMOLOGY */
+        .page-1 {
+            padding: 0.5in;
+            background: linear-gradient(135deg, #fafafa 0%, #f0ede5 100%);
+        }
+
+        .page-1-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-between;
+        }
+
+        .title-section {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .recipe-names {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c2c2c;
+            line-height: 1.4;
+        }
+
+        .recipe-name.hebrew {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .recipe-name.arabic {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .recipe-name.spanish {
+            text-align: left;
+        }
+
+        .recipe-name.english {
+            text-align: left;
+        }
+
+        .accent-line {
+            height: 3px;
+            background-color: #c67c4e;
+            width: 60%;
+            margin: 0.5rem auto;
+        }
+
+        .description-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .desc-item {
+            font-size: 11px;
+            line-height: 1.5;
+            color: #3a3a3a;
+            text-align: justify;
+        }
+
+        .desc-item.hebrew {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .desc-item.arabic {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .etymology-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            padding-top: 1rem;
+            border-top: 2px solid #ddd;
+        }
+
+        .etym-item {
+            font-size: 10px;
+            line-height: 1.4;
+            color: #555;
+            text-align: justify;
+            font-style: italic;
+        }
+
+        .etym-item.hebrew {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .etym-item.arabic {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* PAGE 2: FULL IMAGE */
+        .page-2 {
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .image-caption {
+            position: absolute;
+            bottom: 0.5in;
+            left: 0.5in;
+            right: 0.5in;
+            text-align: center;
+            font-size: 9px;
+            color: #666;
+            letter-spacing: 2px;
+        }
+
+        /* PAGE 3: INGREDIENTS + METADATA */
+        .page-3 {
+            padding: 0.75in;
+            background-color: white;
+        }
+
+        .page-3-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .metadata-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .metadata-item {
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .metadata-icon {
+            font-size: 20px;
+            margin-bottom: 0.25rem;
+        }
+
+        .metadata-label {
+            font-weight: bold;
+            color: #c67c4e;
+            display: block;
+        }
+
+        .metadata-value {
+            color: #2c2c2c;
+            font-size: 9px;
+            margin-top: 0.25rem;
+        }
+
+        .ingredients-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            flex-grow: 1;
+        }
+
+        .ingredients-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ingredients-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #c67c4e;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .ingredient-item {
+            font-size: 10px;
+            line-height: 1.6;
+            color: #2c2c2c;
+            margin-bottom: 0.3rem;
+        }
+
+        .ingredient-item.hebrew {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .ingredient-item.arabic {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .ingredient-name {
+            font-weight: bold;
+        }
+
+        /* PAGE 4: INSTRUCTIONS */
+        .page-4 {
+            padding: 0.75in;
+            background-color: white;
+        }
+
+        .page-4-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .instructions-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            color: #c67c4e;
+            margin-bottom: 0.75rem;
+        }
+
+        .instructions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            flex-grow: 1;
+        }
+
+        .instructions-column {
+            display: flex;
+            flex-direction: column;
+            font-size: 9px;
+            line-height: 1.5;
+        }
+
+        .instructions-column-title {
+            font-weight: bold;
+            color: #c67c4e;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .instruction-step {
+            margin-bottom: 0.5rem;
+            color: #2c2c2c;
+        }
+
+        .instruction-step.hebrew {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .instruction-step.arabic {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .step-number {
+            font-weight: bold;
+            color: #c67c4e;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                background-color: white;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- PAGE 1: TITLE + DESCRIPTION + ETYMOLOGY -->
+<div class="page page-1">
+    <div class="page-1-content">
+        <div class="title-section">
+            <div class="recipe-names">
+                <div class="recipe-name hebrew">מחמסה</div>
+                <div class="recipe-name spanish">La Mhamsa</div>
+                <div class="recipe-name arabic">المحمصة</div>
+                <div class="recipe-name english">Mhamsa</div>
+            </div>
+            <div class="accent-line"></div>
+        </div>
+
+        <div class="description-block">
+            <div class="desc-item hebrew">מחמסה היא מנה ביתית, אהובה על ילדים, הנפוצה בגירסה יבשה או מרקית, ולעיתים בתוספת פרוסות נקניקיה בתבשיל היבש או המרקי האדום; היא מוכנה תוך פחות מרבע שעה.</div>
+            <div class="desc-item spanish">La Mhamsa es un plato casero muy querido por los niños, común en versiones secas o caldosas —a menudo con rodajas de salchicha en el guiso rojo— y está lista en menos de 15 minutos.</div>
+            <div class="desc-item arabic">المحمصة هي أكلة منزلية محبوبة لدى الأطفال، تُقدم إما جافة أو كحساء، وغالباً ما تضاف إليها شرائح النقانق في المرق الأحمر، وتُحضّر في أقل من ربع ساعة.</div>
+            <div class="desc-item english">Mhamsa is a beloved homemade dish, popular with children, served in either dry or soupy versions—often with sliced sausages added to the red stew—and is ready in under 15 minutes.</div>
+        </div>
+
+        <div class="etymology-block">
+            <div class="etym-item hebrew">השם נגזר מהמילה הערבית "מֻחַמַּצָה" (קלויה), ומתייחס לשיטה המסורתית של קליית פתיתי הסולת כדי לשמרם ולהעמיק את טעמם האגוזי.</div>
+            <div class="etym-item spanish">El nombre deriva de la palabra árabe para "tostado" (m'hammas), refiriéndose a la técnica tradicional de tostar las perlas de sémola para conservarlas e intensificar su sabor.</div>
+            <div class="etym-item arabic">ويشتق الاسم من الكلمة العربية "مُحَمَّصَة"، إشارةً إلى الطريقة التقليدية في تحميص حبات العجين لحفظها وتعزيز نكهتها.</div>
+            <div class="etym-item english">The name derives from the Arabic word for "roasted" (m'hammas), referring to the traditional technique of toasting the semolina pearls to preserve them and enhance their nutty flavor.</div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 2: FULL IMAGE -->
+<div class="page page-2">
+    <div class="image-container">
+        <img src="mehamsa.png" alt="Mhamsa dish">
+        <div class="image-caption">מחמסה • المحمصة • La Mhamsa • Mhamsa</div>
+    </div>
+</div>
+
+<!-- PAGE 3: INGREDIENTS + METADATA -->
+<div class="page page-3">
+    <div class="page-3-content">
+        <div class="metadata-row">
+            <div class="metadata-item">
+                <div class="metadata-icon">👥</div>
+                <span class="metadata-label">Servings</span>
+                <span class="metadata-value">4-6 people</span>
+            </div>
+            <div class="metadata-item">
+                <div class="metadata-icon">⏱</div>
+                <span class="metadata-label">Prep Time</span>
+                <span class="metadata-value">10 min</span>
+            </div>
+            <div class="metadata-item">
+                <div class="metadata-icon">🍳</div>
+                <span class="metadata-label">Cook Time</span>
+                <span class="metadata-value">20 min</span>
+            </div>
+            <div class="metadata-item">
+                <div class="metadata-icon">⭐</div>
+                <span class="metadata-label">Difficulty</span>
+                <span class="metadata-value">Medium</span>
+            </div>
+        </div>
+
+        <div class="ingredients-grid">
+            <div class="ingredients-column">
+                <div class="ingredients-title">Hebrew</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">בצל קטן</span> - 1</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">מחמסה</span> - 1 כוס</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">פפריקה מתוקה</span> - 1 כף</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">פלפל שחור</span> - לפי הטעם</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">עגבניה קצוצה</span> - 1</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">ירקות</span> - לפי בחירה</div>
+                <div class="ingredient-item hebrew">• <span class="ingredient-name">מים</span> - כוס ורבע</div>
+            </div>
+            <div class="ingredients-column">
+                <div class="ingredients-title">English</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Small onion</span> - 1</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Mhamsa</span> - 1 cup</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Sweet paprika</span> - 1 tbsp</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Black pepper</span> - to taste</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Chopped tomato</span> - 1</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Vegetables</span> - of choice</div>
+                <div class="ingredient-item english">• <span class="ingredient-name">Water</span> - 1.25 cups</div>
+            </div>
+        </div>
+
+        <div class="ingredients-grid" style="margin-top: 1rem;">
+            <div class="ingredients-column">
+                <div class="ingredients-title">Arabic</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">بصلة صغيرة</span> - 1</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">محمصة</span> - 1 كاس</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">فلفل زينة</span> - 1 مغيرفة</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">فلفل أكحل</span> - حسب الرغبة</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">طماطم مقصوصة</span> - 1</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">خضرة</span> - حسب الاختيار</div>
+                <div class="ingredient-item arabic">• <span class="ingredient-name">ماء</span> - كاس وربع</div>
+            </div>
+            <div class="ingredients-column">
+                <div class="ingredients-title">Spanish</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Cebolla pequeña</span> - 1</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Mhamsa</span> - 1 taza</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Pimentón dulce</span> - 1 cda</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Pimienta negra</span> - al gusto</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Tomate picado</span> - 1</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Verduras</span> - a elección</div>
+                <div class="ingredient-item spanish">• <span class="ingredient-name">Agua</span> - 1 ¼ tazas</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGE 4: INSTRUCTIONS -->
+<div class="page page-4">
+    <div class="page-4-content">
+        <div class="instructions-title">Instructions / הוראות / التعليمات / Instrucciones</div>
+
+        <div class="instructions-grid">
+            <div class="instructions-column">
+                <div class="instructions-column-title">Hebrew</div>
+                <div class="instruction-step hebrew"><span class="step-number">1.</span> למחמסה יבשה: מטגנים בצל קטן עד שהוא נהיה שקוף.</div>
+                <div class="instruction-step hebrew"><span class="step-number">2.</span> מוסיפים את המחמסה וממשיכים לטגן כמה דקות נוספות.</div>
+                <div class="instruction-step hebrew"><span class="step-number">3.</span> מוסיפים מים לפי היחס: כוס ורבע מים על כל כוס מחמסה.</div>
+                <div class="instruction-step hebrew"><span class="step-number">4.</span> למחמסה עם רוטב: מטגנים בצל קטן עד שהוא מתחיל להזהיב.</div>
+                <div class="instruction-step hebrew"><span class="step-number">5.</span> מוסיפים כף פפריקה מתוקה ומטגנים מספר שניות.</div>
+                <div class="instruction-step hebrew"><span class="step-number">6.</span> מוסיפים את העגבניה, ירקות, ומלח ופלפל.</div>
+                <div class="instruction-step hebrew"><span class="step-number">7.</span> מוסיפים מחמסה ומביאים לרתיחה על אש קטנה.</div>
+            </div>
+            <div class="instructions-column">
+                <div class="instructions-column-title">English</div>
+                <div class="instruction-step english"><span class="step-number">1.</span> For dry Mhamsa: Sauté a small onion until transparent.</div>
+                <div class="instruction-step english"><span class="step-number">2.</span> Add Mhamsa and continue sautéing for a few more minutes.</div>
+                <div class="instruction-step english"><span class="step-number">3.</span> Add water: 1¼ cups per cup of Mhamsa.</div>
+                <div class="instruction-step english"><span class="step-number">4.</span> For soupy version: Sauté onion until it begins to brown.</div>
+                <div class="instruction-step english"><span class="step-number">5.</span> Add 1 tbsp sweet paprika and fry for a few seconds.</div>
+                <div class="instruction-step english"><span class="step-number">6.</span> Add chopped tomato, vegetables, salt and black pepper.</div>
+                <div class="instruction-step english"><span class="step-number">7.</span> Stir in Mhamsa and simmer gently until cooked through.</div>
+            </div>
+        </div>
+
+        <div class="instructions-grid" style="margin-top: 1rem;">
+            <div class="instructions-column">
+                <div class="instructions-column-title">Arabic</div>
+                <div class="instruction-step arabic"><span class="step-number">1.</span> للمحمصة الجافة: قلّي بصلة صغيرة لين تذبال وتولي شفافة.</div>
+                <div class="instruction-step arabic"><span class="step-number">2.</span> ارمي المحمصة لداخل وكمل قلّي دقيقتين أخرين.</div>
+                <div class="instruction-step arabic"><span class="step-number">3.</span> مرّق بالماء: كاس وربع على كل كاس محمصة.</div>
+                <div class="instruction-step arabic"><span class="step-number">4.</span> للمحمصة بالمرقة: قلّي بصلة صغيرة لين تبدا تحمار.</div>
+                <div class="instruction-step arabic"><span class="step-number">5.</span> حط مغيرفة كبيرة فلفل زينة وحرّك فيسع.</div>
+                <div class="instruction-step arabic"><span class="step-number">6.</span> زيد الطماطم والخضرة والملح والفلفل.</div>
+                <div class="instruction-step arabic"><span class="step-number">7.</span> ارمي المحمصة وخلّيها تطيب سلة.</div>
+            </div>
+            <div class="instructions-column">
+                <div class="instructions-column-title">Spanish</div>
+                <div class="instruction-step spanish"><span class="step-number">1.</span> Para Mhamsa seca: Sofríe cebolla pequeña hasta que sea transparente.</div>
+                <div class="instruction-step spanish"><span class="step-number">2.</span> Agrega Mhamsa y continúa sofriendo algunos minutos más.</div>
+                <div class="instruction-step spanish"><span class="step-number">3.</span> Agrega agua: 1¼ tazas por cada taza de Mhamsa.</div>
+                <div class="instruction-step spanish"><span class="step-number">4.</span> Para versión caldosa: Sofríe cebolla hasta que comience a dorarse.</div>
+                <div class="instruction-step spanish"><span class="step-number">5.</span> Añade 1 cda pimentón dulce y sofríe unos segundos.</div>
+                <div class="instruction-step spanish"><span class="step-number">6.</span> Agrega tomate, verduras, sal y pimienta negra.</div>
+                <div class="instruction-step spanish"><span class="step-number">7.</span> Incorpora Mhamsa y cocina a fuego lento.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

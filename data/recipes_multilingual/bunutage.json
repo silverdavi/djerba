@@ -1,0 +1,90 @@
+{
+  "id": "bunutage",
+  "image": "bunutage.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "30 min",
+    "cook_time": "15 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בונוטאז",
+    "es": "Bunutage",
+    "ar": "بونتاج",
+    "en": "Bunutage"
+  },
+  "description": {
+    "he": "קציצות תפוחי אדמה פריכות ממולאות במלית עשירה, בגירסה טבעונית ללא בשר וביצים. השם ככל הנראה מגיע מהצרפתית \"Bon usage\" (שימוש טוב), כדרך יצירתית לנצל שאריות פירה ומזון.",
+    "es": "Croquetas de patata crujientes rellenas de un picadillo sabroso, en versión vegana sin carne ni huevo. El nombre probablemente deriva del francés \"Bon usage\" (buen uso), refiriéndose al uso creativo de sobras de puré.",
+    "ar": "كعابر بطاطا مقرمشة ومحشية بحشو نباتي بنين، بلاش لحم ولا عظم. الاسم يرجع للأصل الفرنساوي \"Bon usage\" (الاستعمال الباهي)، على خاطر كانت طريقة ذكية لاستغلال بقايا البطاطا.",
+    "en": "Crispy potato croquettes stuffed with a savory vegan filling. The name likely derives from the French \"Bon usage\" (good use), referring to the clever usage of leftover mashed potatoes."
+  },
+  "ingredients": {
+    "he": [
+      "4 תפו\"א מבושלים ומעוכים",
+      "1 כוס שבבי סויה (מושרים) או טופו מפורר",
+      "1/2 כוס קמח (לקימוח)",
+      "1 כוס בלילת קמח חומוס (קמח חומוס + מים)",
+      "1 כוס פירורי לחם",
+      "שמן לטיגון עמוק",
+      "תבלינים (מלח, פלפל, בהרט)"
+    ],
+    "es": [
+      "4 patatas cocidas y hechas puré",
+      "1 taza de soja texturizada (hidratada) o tofu desmenuzado",
+      "1/2 taza de harina (para enharinar)",
+      "1 taza de mezcla de harina de garbanzo y agua",
+      "1 taza de pan rallado",
+      "Aceite para freír",
+      "Especias (sal, pimienta, baharat)"
+    ],
+    "ar": [
+      "4 كعبات بطاطا مسموطة ومرحية",
+      "1 كأس بروتين الصوجا (منفخ) أو توفو مفتفت",
+      "نصف كأس فرينة",
+      "1 كأس خليط دقيق الحمص والماء",
+      "1 كأس شاپلور (خبز مرحي)",
+      "زيت للقلي",
+      "فاحات (ملح، فلفل أكحل، تابل)"
+    ],
+    "en": [
+      "4 boiled and mashed potatoes",
+      "1 cup soaked TVP or crumbled tofu",
+      "1/2 cup flour (for dusting)",
+      "1 cup chickpea flour batter (water + flour)",
+      "1 cup breadcrumbs",
+      "Oil for deep frying",
+      "Spices (salt, pepper, baharat)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את שבבי הסויה או הטופו במחבת עם תבלינים עד להזהבה.",
+      "מועכים היטב את תפוחי האדמה לפירה חלק.",
+      "משטחים מעט פירה בכף היד, מניחים כפית מהמלית במרכז, וסוגרים לצורת קציצה אליפטית.",
+      "טובלים כל קציצה בקמח, לאחר מכן בבלילת קמח החומוס (תחליף הביצה), ולבסוף בפירורי לחם.",
+      "מטגנים בשמן עמוק וחם עד להזהבה."
+    ],
+    "es": [
+      "Sofreír la soja o el tofu en una sartén con especias hasta que estén dorados.",
+      "Machacar bien las patatas hasta obtener un puré suave.",
+      "Aplastar un poco de puré en la mano, poner una cucharadita de relleno en el centro y cerrar formando una croqueta ovalada.",
+      "Pasar cada croqueta por harina, luego por la mezcla de harina de garbanzo, y finalmente por pan rallado.",
+      "Freír en aceite abundante y caliente hasta que estén doradas."
+    ],
+    "ar": [
+      "قلّي الصوجا ولا التوفو في المقلاة مع الفاحات لين يحمار.",
+      "ارحي البطاطا المسموطة بالباهي لين تولي پيري (purée) رطبة.",
+      "حط شوية بطاطا في كف يدك، حط مغرفة صغيرة حشو في الوسط، وسكّر عليها بش تولي كعبورة.",
+      "مرمد الكعبات في الفرينة، مبعد في خليط دقيق الحمص (في بلاصة العظم)، وفي لخر في الشاپلور.",
+      "اقليهم في زيت غزير وسخون لين يولّي لونهم ذهبي."
+    ],
+    "en": [
+      "Sauté the TVP or tofu with spices until golden brown.",
+      "Mash the boiled potatoes thoroughly into a smooth purée.",
+      "Flatten some potato in your palm, place a spoonful of filling in the center, and seal into an oval shape.",
+      "Dredge each croquette in flour, dip in chickpea flour batter, and coat with breadcrumbs.",
+      "Deep fry in hot oil until golden brown."
+    ]
+  }
+}

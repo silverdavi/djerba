@@ -1,0 +1,29 @@
+{
+  "id": "green_beans_in_tomato_sauce",
+  "name_hebrew": "שעועית ירוקה ברוטב עגבניות",
+  "name_english": "Green Beans in Tomato Sauce",
+  "ingredients": [
+    "1 package of green beans",
+    "Oil",
+    "Paprika",
+    "1 tomato + tomato paste",
+    "Garlic",
+    "Salt",
+    "1 onion, diced"
+  ],
+  "instructions": [
+    "In a large skillet, heat some oil over medium heat.",
+    "Add the diced onion and sauté until it turns golden brown.",
+    "After about 2 minutes, add paprika, followed by the diced tomato and a small piece of chopped hot pepper.",
+    "Season with a little salt, black pepper, and garlic.",
+    "Finally, add a small can of tomato paste and stir well.",
+    "Once the mixture is heated through, add the package of green beans and cook for about 10 minutes.",
+    "Turn off the heat."
+  ],
+  "notes": "You can also add toasted sesame seeds for extra flavor.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "32_שעועית_ירוקה_ברוטב_עגבניות.json"
+  }
+}

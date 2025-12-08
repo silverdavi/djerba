@@ -1,0 +1,82 @@
+{
+  "id": "hsou",
+  "image": "hsou.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "5 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חשו",
+    "es": "El Hsou",
+    "ar": "الحسو",
+    "en": "Hsou"
+  },
+  "description": {
+    "he": "מרק סמיך, חמוץ וחריף, המוגש לרוב בבקרים חורפיים או לחיזוק הגוף בזמן מחלה. הוא מבוסס על רביכה פשוטה המתובלת בשום ולימון. השם נגזר מהמילה הערבית 'חסא' (ללגום).",
+    "es": "Una sopa espesa, ácida y picante, servida a menudo en las mañanas de invierno o para aliviar resfriados. Se basa en un espesante simple condimentado con ajo y limón. El nombre deriva del árabe 'Hasa', que significa sorber.",
+    "ar": "حساء 'الحسو' هو مرقة عاقدة، حامضة وحارة، تتقدم عادة في صباح الشتاء أو لتدفئة الجسم. تتكون من خليط دقيق (فارينة) وتتفوج بالثوم والقارص.",
+    "en": "A thick, sour, and spicy soup often served on winter mornings or to soothe a cold. It relies on a simple roux base flavored with garlic and lemon. The name derives from the Arabic 'Hasa,' meaning to sip."
+  },
+  "ingredients": {
+    "he": [
+      "4 כוסות מים (מחולקות)",
+      "4 שיני שום כתושות",
+      "1 כף פפריקה חריפה",
+      "1/4 כוס קמח",
+      "מיץ מ-1 לימון",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "4 tazas de agua (divididas)",
+      "4 dientes de ajo machacados",
+      "1 cda de pimentón picante",
+      "1/4 taza de harina",
+      "Jugo de 1 limón",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "4 كيسان ماء",
+      "4 سنون ثوم مرحي",
+      "1 مغرفة كبيرة فلفل أحمر حار",
+      "1/4 كأس فارينة",
+      "عصير كعبة قارص",
+      "ملح"
+    ],
+    "en": [
+      "4 cups water (divided)",
+      "4 garlic cloves, crushed",
+      "1 tbsp hot paprika",
+      "1/4 cup flour",
+      "Juice of 1 lemon",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר, מרתיחים 3 כוסות מים עם השום הכתוש והפפריקה החריפה. מבשלים כ-20 דקות על אש קטנה.",
+      "בקערה נפרדת, מערבבים את הקמח עם כוס המים הנותרת (קרה) עד לקבלת נוזל חלק ללא גושים.",
+      "מוסיפים את תערובת הקמח לסיר בהדרגה תוך כדי ערבוב מתמיד למניעת גושים.",
+      "ממשיכים לבשל תוך ערבוב עד שהמרק מסמיך. מוסיפים את מיץ הלימון והמלח, טועמים ומגישים חם."
+    ],
+    "es": [
+      "En una olla, hervir 3 tazas de agua con el ajo y el pimentón picante. Cocinar a fuego lento durante 20 minutos.",
+      "Aparte, mezclar la harina con la taza de agua restante (fría) hasta obtener una mezcla suave.",
+      "Verter la mezcla de harina en la olla lentamente, revolviendo constantemente para evitar grumos.",
+      "Cocinar hasta que espese. Añadir el limón y la sal, probar y servir caliente."
+    ],
+    "ar": [
+      "في طنجرة، غلي 3 كيسان ماء مع الثوم والفلفل الأحمر الحار. خليه يطيب 20 دقيقة على نار هادية.",
+      "في صحفة، خلّط الفارينة مع كأس الماء البارد اللي بقى، حرك مليح باش ما يقعدش مكعبر.",
+      "صب خليط الفارينة في الطنجرة بشوية بشوية مع التحريك المستمر.",
+      "كمّل طيّب وحرّك لين تختار (تعقد) المرقة. زيد القارص والملح، ذوق وقدمها سخونة."
+    ],
+    "en": [
+      "In a pot, bring 3 cups of water to a boil with the crushed garlic and hot paprika. Simmer for 20 minutes.",
+      "Separately, whisk the flour with the remaining cup of cold water until smooth.",
+      "Slowly pour the flour mixture into the soup while stirring constantly to prevent lumps.",
+      "Cook until thickened. Add lemon juice and salt, adjust seasoning, and serve hot."
+    ]
+  }
+}

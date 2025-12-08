@@ -1,0 +1,221 @@
+{
+  "id": "frikaseh",
+  "names": {
+    "english": "Frikaseh",
+    "hebrew": "פריקסה",
+    "arabic": "فريكاسيه",
+    "spanish": "Frikaseh"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "kilogram flour",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "yeast",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "cups"
+      },
+      {
+        "name": "oil",
+        "amount": "1/2",
+        "unit": "cup"
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "מלח",
+        "amount": "1",
+        "unit": "כף"
+      },
+      {
+        "name": "קילוגרם קמח",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "שמרים",
+        "amount": "1",
+        "unit": "כף"
+      },
+      {
+        "name": "סוכר",
+        "amount": "1/2",
+        "unit": "כוס"
+      },
+      {
+        "name": "מים",
+        "amount": "3",
+        "unit": "כוסות"
+      },
+      {
+        "name": "שמן",
+        "amount": "1/2",
+        "unit": "כוס"
+      }
+    ],
+    "arabic": [],
+    "spanish": [
+      {
+        "name": "sal",
+        "amount": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "kilogramo de harina",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "levadura",
+        "amount": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "azúcar",
+        "amount": "1/2",
+        "unit": "taza"
+      },
+      {
+        "name": "agua",
+        "amount": "3",
+        "unit": "tazas"
+      },
+      {
+        "name": "aceite",
+        "amount": "1/2",
+        "unit": "taza"
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Combine all ingredients to form a dough and knead until smooth."
+      },
+      {
+        "step": 2,
+        "text": "Allow the dough to rise for about two hours."
+      },
+      {
+        "step": 3,
+        "text": "Shape the dough into desired forms and place them on a well-oiled surface."
+      },
+      {
+        "step": 4,
+        "text": "Let the shaped dough rise for an additional 30 minutes."
+      },
+      {
+        "step": 5,
+        "text": "Heat oil in a deep pan and fry the dough until golden brown."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Frikaseh\" comes from the French \"fricassée,\" meaning \"fried\" or \"to fry,\" reflecting its culinary technique—a fried dough roll. The French linguistic influence is due to Tunisia’s history as a French protectorate."
+    },
+    "hebrew": {
+      "summary": "שם \"פריקסה\" מגיע מהצרפתית \"fricassée\", שמשמעותה \"מטוגן\" או \"לטגן\", ומשקף את הטכניקה הקולינרית שלו - לחמנייה מטוגנת. ההשפעה הלשונית הצרפתית נובעת מההיסטוריה של תוניסיה כפרוטקטורט צרפתי."
+    },
+    "arabic": {
+      "summary": "اسم \"فريكاسي\" يأتي من الكلمة الفرنسية \"fricassée\"، والتي تعني \"مقلي\" أو \"يقلي\"، مما يعكس تقنيته الطهوية - لفافة عجين مقلية. التأثير اللغوي الفرنسي يرجع إلى تاريخ تونس كحماية فرنسية."
+    },
+    "spanish": {
+      "summary": "El nombre \"Frikaseh\" proviene del francés \"fricassée,\" que significa \"frito\" o \"freír,\" reflejando su técnica culinaria: un rollo de masa frita. La influencia lingüística francesa se debe a la historia de Túnez como un protectorado francés."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was created as a way to repurpose leftover fried dough by filling it with available ingredients like tuna, eggs, olives, and preserved vegetables, particularly among Djerban Jews. The dish spread with the migration of Tunisian Jews to Israel, where it became a popular street f",
+      "evolution": "",
+      "cultural_significance": "Frikaseh holds special significance as both an everyday street food and a festive dish for gatherings. It is often served during family celebrations, picnics, and Jewish holidays, symbolizing ingenuity and resourcefulness—especially with its origin story rooted in transforming leftovers. Among Tunisian-Jewish families, it is a nostalgic reminder of communal life and festive occasions.\n\n### Etymolo",
+      "regional_variations": "",
+      "summary": "Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was created as a way to repurpose leftover fried dough by filling it with available ingredients like tuna, eggs, olives, and preserved vegetables, particularly among Djerban Jews. The dish spread with the migration of Tunisian Jews to Israel, where it became a popular street f"
+    },
+    "hebrew": {
+      "summary": "פריקסה נוצר בתוך הקהילות היהודיות בתוניסיה, במיוחד באי ג'רבה, במהלך המאה ה-19. הוא נוצר כדרך להשתמש מחדש בבצק מטוגן שנותר על ידי מילויו במרכיבים זמינים כמו טונה, ביצים, זיתים וירקות משומרים, במיוחד בקרב יהודי ג'רבה. המנה התפשטה עם הגירת יהודי תוניסיה לישראל, שם היא הפכה לפופולרית כאוכל רחוב."
+    },
+    "arabic": {
+      "summary": "نشأ الفريكاسيه داخل المجتمعات اليهودية في تونس، خاصة في جزيرة جربة، خلال القرن التاسع عشر. تم ابتكاره كوسيلة لإعادة استخدام العجين المقلي المتبقي عن طريق حشوه بالمكونات المتوفرة مثل التونة، والبيض، والزيتون، والخضروات المحفوظة، خاصة بين يهود جربة. انتشر الطبق مع هجرة اليهود التونسيين إلى إسرائيل، حيث أصبح طعام شارع شعبي."
+    },
+    "spanish": {
+      "summary": "Frikaseh se originó en las comunidades judías de Túnez, especialmente en la isla de Djerba, durante el siglo XIX. Fue creado como una forma de reutilizar la masa frita sobrante, rellenándola con ingredientes disponibles como atún, huevos, aceitunas y verduras en conserva, particularmente entre los judíos de Djerba. El plato se difundió con la migración de los judíos tunecinos a Israel, donde se convirtió en una comida callejera popular."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Frikaseh is a traditional Tunisian-Jewish dish, often enjoyed as a snack or appetizer. It is typically served warm and can be filled with various ingredients, such as tuna or vegetables.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Frikaseh is a traditional Tunisian-Jewish dish, often enjoyed as a snack or appetizer. It is typically served warm and can be filled with various ingredients, such as tuna or vegetables."
+    },
+    "hebrew": {
+      "summary": "פריקסה הוא מאכל מסורתי של יהודי תוניסיה, שנהנים ממנו לעיתים קרובות כחטיף או כמנה ראשונה. בדרך כלל מגישים אותו חם וניתן למלא אותו במגוון מרכיבים, כמו טונה או ירקות."
+    },
+    "arabic": {
+      "summary": "فريكاسيه هو طبق تقليدي يهودي تونسي، يُستمتع به غالبًا كوجبة خفيفة أو مقبلات. يُقدم عادةً دافئًا ويمكن حشوه بمكونات متنوعة مثل التونة أو الخضروات."
+    },
+    "spanish": {
+      "summary": "Frikaseh es un plato tradicional tunecino-judío, a menudo disfrutado como un aperitivo o tentempié. Se sirve típicamente caliente y puede rellenarse con varios ingredientes, como atún o verduras."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "frikaseh_history.md",
+    "history_md": "frikaseh_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

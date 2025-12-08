@@ -1,0 +1,286 @@
+{
+  "id": "chicken_fricassé",
+  "names": {
+    "english": "Chicken Fricassé",
+    "hebrew": "צ׳יקן פריקסה",
+    "arabic": "فريكاسيه الدجاج",
+    "spanish": "Fricassé de Pollo"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Chicken pieces",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "carrot",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "A little flour",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "חתיכות עוף",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "גזר",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "בצל",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "קצת קמח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "قطع دجاج",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "جزر",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "بصل",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "قليل من الطحين",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Trozos de pollo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "zanahoria",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "cebolla",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Un poco de harina",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Heat some oil in a pot."
+      },
+      {
+        "step": 2,
+        "text": "Add the chicken pieces and sauté for about 10 minutes."
+      },
+      {
+        "step": 3,
+        "text": "Add the diced carrot and onion."
+      },
+      {
+        "step": 4,
+        "text": "Season with salt and pepper."
+      },
+      {
+        "step": 5,
+        "text": "Stir and sauté again."
+      },
+      {
+        "step": 6,
+        "text": "Add water, and when it reaches a boil, add the dumplings."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "חמם מעט שמן בסיר."
+      },
+      {
+        "step": 2,
+        "text": "הוסף את חתיכות העוף וטגן כ-10 דקות."
+      },
+      {
+        "step": 3,
+        "text": "הוסף את הגזר והבצל הקצוצים."
+      },
+      {
+        "step": 4,
+        "text": "תבל במלח ופלפל."
+      },
+      {
+        "step": 5,
+        "text": "ערבב וטגן שוב."
+      },
+      {
+        "step": 6,
+        "text": "הוסף מים, וכשהם מגיעים לרתיחה, הוסף את הכופתאות."
+      }
+    ],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "سخن بعض الزيت في قدر."
+      },
+      {
+        "step": 2,
+        "text": "أضف قطع الدجاج وقلّبها لمدة 10 دقائق."
+      },
+      {
+        "step": 3,
+        "text": "أضف الجزر المقطع والبصل."
+      },
+      {
+        "step": 4,
+        "text": "تبل بالملح والفلفل."
+      },
+      {
+        "step": 5,
+        "text": "حرّك وقلّب مرة أخرى."
+      },
+      {
+        "step": 6,
+        "text": "أضف الماء، وعندما يصل إلى الغليان، أضف الزلابية."
+      }
+    ],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The term \"fricassée\" is derived from French, meaning \"to break in pieces and cook\" or \"a dish of pieces of meat braised in stock and served in a white sauce\" . In the Tunisian Jewish dialect, \"פריקסה\" refers specifically to the local stuffed fried bun, usually filled with chicken, potatoes, eggs, olives, and a variety of sauces."
+    },
+    "hebrew": {
+      "summary": "המונח \"פריקסה\" נגזר מצרפתית, ומשמעותו \"לשבור לחתיכות ולבשל\" או \"תבשיל של חתיכות בשר מבושלות בציר ומוגשות ברוטב לבן\". בניב היהודי-תוניסאי, \"פריקסה\" מתייחס במיוחד ללחמנייה המקומית הממולאת ומטוגנת, שבדרך כלל ממולאת בעוף, תפוחי אדמה, ביצים, זיתים ומגוון רטבים."
+    },
+    "arabic": {
+      "summary": "مصطلح \"فريكاسيه\" مشتق من الفرنسية، ويعني \"التكسير إلى قطع وطهيها\" أو \"طبق من قطع اللحم مطبوخة في مرق وتقدم مع صلصة بيضاء\". في اللهجة اليهودية التونسية، يشير \"פריקסה\" تحديدًا إلى الكعكة المحلية المقلية المحشوة، والتي تُملأ عادةً بالدجاج والبطاطس والبيض والزيتون ومجموعة متنوعة من الصلصات."
+    },
+    "spanish": {
+      "summary": "El término \"fricassée\" se deriva del francés, que significa \"romper en pedazos y cocinar\" o \"un plato de trozos de carne estofados en caldo y servidos en una salsa blanca\". En el dialecto judío tunecino, \"פריקסה\" se refiere específicamente al bollo frito relleno local, que generalmente se llena con pollo, papas, huevos, aceitunas y una variedad de salsas."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Chicken Fricassé traces its roots to French cuisine, where \"fricassée\" refers to a method of braising meat in a white sauce, first documented in France as far back as the 16th century. In Tunisia, particularly among the Jewish communities of Djerba, the dish evolved, merging with local flavors and traditions to become a hallmark of Jewish-Tunisian culinary identity. It was brought to Israel and th",
+      "evolution": "",
+      "cultural_significance": "This dish holds a central place in Tunisian Jewish culture and is revered for its role during religious celebrations, family gatherings, and especially Shabbat. Fricassé is often prepared in advance for Shabbat, as Jewish law restricts cooking on this sacred day. It’s considered comfort food, symbolizing the warmth of familial bonds and festive occasion meals.\n\n### Etymology\n\nThe term \"fricassée\" ",
+      "regional_variations": "",
+      "summary": "Chicken Fricassé traces its roots to French cuisine, where \"fricassée\" refers to a method of braising meat in a white sauce, first documented in France as far back as the 16th century. In Tunisia, particularly among the Jewish communities of Djerba, the dish evolved, merging with local flavors and traditions to become a hallmark of Jewish-Tunisian culinary identity. It was brought to Israel and th"
+    },
+    "hebrew": {
+      "summary": "פריקסה עוף שורשיו במטבח הצרפתי, שבו \"פריקסה\" מתייחס לשיטת בישול בשר ברוטב לבן, שתועדה לראשונה בצרפת כבר במאה ה-16. בתוניסיה, במיוחד בקרב הקהילות היהודיות של ג'רבה, המנה התפתחה, והתמזגה עם טעמים ומסורות מקומיות כדי להפוך לסמל של הזהות הקולינרית היהודית-תוניסאית. היא הובאה לישראל ו..."
+    },
+    "arabic": {
+      "summary": "يعود أصل طبق الدجاج فريكاسيه إلى المطبخ الفرنسي، حيث يشير مصطلح \"فريكاسيه\" إلى طريقة لطهي اللحم في صلصة بيضاء، وقد تم توثيقه لأول مرة في فرنسا في القرن السادس عشر. في تونس، وخصوصاً بين الجاليات اليهودية في جربة، تطور الطبق، واندمج مع النكهات والتقاليد المحلية ليصبح علامة بارزة في الهوية الطهوية اليهودية التونسية. تم جلبه إلى إسرائيل و..."
+    },
+    "spanish": {
+      "summary": "El Fricassé de Pollo tiene sus raíces en la cocina francesa, donde \"fricassée\" se refiere a un método de guisar carne en una salsa blanca, documentado por primera vez en Francia ya en el siglo XVI. En Túnez, particularmente entre las comunidades judías de Djerba, el plato evolucionó, fusionándose con sabores y tradiciones locales para convertirse en un emblema de la identidad culinaria judío-tunecina. Fue llevado a Israel y th"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "To prepare the dumplings: Mix water, flour, and salt to create a soft batter. Use a spoon to drop the batter into the boiling water. Enjoy your meal!",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "To prepare the dumplings: Mix water, flour, and salt to create a soft batter. Use a spoon to drop the batter into the boiling water. Enjoy your meal!"
+    },
+    "hebrew": {
+      "summary": "כדי להכין את הכופתאות: ערבבו מים, קמח ומלח ליצירת בלילה רכה. השתמשו בכף כדי להטיל את הבלילה לתוך המים הרותחים. בתיאבון!"
+    },
+    "arabic": {
+      "summary": "لتحضير الزلابية: اخلط الماء والدقيق والملح لعمل عجينة ناعمة. استخدم ملعقة لإسقاط العجينة في الماء المغلي. استمتع بوجبتك!"
+    },
+    "spanish": {
+      "summary": "Para preparar las albóndigas: Mezcle agua, harina y sal para crear una masa suave. Use una cuchara para dejar caer la masa en el agua hirviendo. ¡Disfrute de su comida!"
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "chicken_fricassé_history.md",
+    "history_md": "chicken_fricassé_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

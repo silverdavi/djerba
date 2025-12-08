@@ -1,0 +1,233 @@
+{
+  "id": "bounotaz",
+  "names": {
+    "english": "Bounotaz",
+    "hebrew": "בונוטאז",
+    "arabic": "بونوتاز",
+    "spanish": "Bounotaz"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Boiled potatoes",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Ground chicken breast",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "egg",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Bread crumbs",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "תפוחי אדמה מבושלים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "חזה עוף טחון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ביצה",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "פירורי לחם",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "بطاطس مسلوقة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "صدر دجاج مفروم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بيضة",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "فتات الخبز",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Papas hervidas",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pechuga de pollo molida",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Huevo",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Pan rallado",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Mash the boiled potatoes thoroughly."
+      },
+      {
+        "step": 2,
+        "text": "Cook the ground chicken and crumble it."
+      },
+      {
+        "step": 3,
+        "text": "Take a spoonful of mashed potatoes in your hand, add a teaspoon of the crumbled chicken, and shape it into a patty."
+      },
+      {
+        "step": 4,
+        "text": "Coat each patty in flour, dip it in the egg, and then roll it in bread crumbs."
+      },
+      {
+        "step": 5,
+        "text": "Fry the patties in deep oil until golden brown."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "اهرسي البطاطس المسلوقة جيداً."
+      },
+      {
+        "step": 2,
+        "text": "اطهي الدجاج المفروم وفتتيه."
+      },
+      {
+        "step": 3,
+        "text": "خذي ملعقة من البطاطس المهروسة في يدك وضعي ملعقة صغيرة من الدجاج المفتت، وشكليها على هيئة كعكة."
+      },
+      {
+        "step": 4,
+        "text": "غطي كل كعكة بالدقيق، ثم اغمسيها في البيض ولفيها في فتات الخبز."
+      },
+      {
+        "step": 5,
+        "text": "اقلي الكعكات في زيت عميق حتى تصبح ذهبية اللون."
+      }
+    ],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Bounotaz\" does not correspond to known Hebrew or Judeo-Arabic roots or to any listed dish in public Tunisian-Jewish culinary records[1][3][7]. Similar-sounding terms in Tunisian Jewish foodways do not match this construction, though local dialect or family heritage may influence pronunciation and nomenclature. The closest matches in available records are not culinary but rather family names or unrelated terms[3][7]."
+    },
+    "hebrew": {
+      "summary": "השם \"בונוטז\" אינו תואם לשורשים ידועים בעברית או בערבית-יהודית או לכל מאכל הרשום ברשומות הקולינריות הציבוריות של יהדות תוניסיה[1][3][7]. מונחים דומים בצלחות יהודיות תוניסאיות אינם תואמים למבנה זה, אם כי דיאלקט מקומי או מורשת משפחתית עשויים להשפיע על ההגייה והנומנקלטורה. ההתאמות הקרובות ביותר ברשומות הזמינות אינן קולינריות אלא שמות משפחה או מונחים שאינם קשורים[3][7]."
+    },
+    "arabic": {
+      "summary": "اسم \"بونوتاز\" لا يتوافق مع الجذور العبرية أو اليهودية-العربية المعروفة أو مع أي طبق مدرج في السجلات العامة للمطبخ اليهودي التونسي [1][3][7]. المصطلحات المشابهة في طرق الطهي اليهودية التونسية لا تتطابق مع هذا التركيب، رغم أن اللهجة المحلية أو التراث العائلي قد يؤثر على النطق والتسمية. أقرب التطابقات في السجلات المتاحة ليست طهوية بل أسماء عائلات أو مصطلحات غير ذات صلة [3][7]."
+    },
+    "spanish": {
+      "summary": "El nombre \"Bounotaz\" no corresponde a raíces conocidas en hebreo o judeo-árabe ni a ningún plato listado en los registros culinarios públicos tunecino-judíos[1][3][7]. Términos de sonido similar en las tradiciones culinarias judías tunecinas no coinciden con esta construcción, aunque el dialecto local o el patrimonio familiar pueden influir en la pronunciación y la nomenclatura. Las coincidencias más cercanas en los registros disponibles no son culinarias, sino más bien nombres de familia o términos no relacionados[3][7]."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "There is no documented record of a dish called \"Bounotaz\" in publicly available Tunisian-Jewish sources, cookbooks, or culinary archives[1][9]. The Jewish community of Tunisia and especially the Djerban Jews are known for distinctive, ancient recipes influenced by Berber, Arab, and Mediterranean cuisines and have a rich culture of adapting local ingredients into their food traditions[1][9]. It is ",
+      "evolution": "",
+      "cultural_significance": "Given the absence of references, the cultural significance of \"Bounotaz\" cannot be specifically established from available sources. However, Tunisian-Jewish dishes often hold deep cultural connections—used to mark holidays, Shabbat, and lifecycle events—serving both as comfort food and a symbol of community continuity[1][9]. Traditional foods play important roles at major Jewish holidays, includin",
+      "regional_variations": "",
+      "summary": "There is no documented record of a dish called \"Bounotaz\" in publicly available Tunisian-Jewish sources, cookbooks, or culinary archives[1][9]. The Jewish community of Tunisia and especially the Djerban Jews are known for distinctive, ancient recipes influenced by Berber, Arab, and Mediterranean cuisines and have a rich culture of adapting local ingredients into their food traditions[1][9]. It is "
+    },
+    "hebrew": {
+      "summary": "אין תיעוד של מנה בשם \"בונוטאז\" במקורות יהודיים-תוניסאים זמינים לציבור, ספרי בישול או ארכיונים קולינריים[1][9]. הקהילה היהודית בתוניסיה ובמיוחד יהודי ג'רבה ידועים במתכונים ייחודיים ועתיקים המושפעים מהמטבחים הברברי, הערבי והים-תיכוני ויש להם תרבות עשירה של התאמת מרכיבים מקומיים למסורות המזון שלהם[1][9]."
+    },
+    "arabic": {
+      "summary": "لا يوجد سجل موثق لطبق يسمى \"بونوتاز\" في المصادر اليهودية التونسية المتاحة للجمهور أو كتب الطبخ أو الأرشيفات الطهوية[1][9]. تُعرف الجالية اليهودية في تونس وخاصة يهود جربة بوصفاتهم المميزة والقديمة التي تأثرت بالمطابخ البربرية والعربية والمتوسطية، ولديهم ثقافة غنية في تكييف المكونات المحلية في تقاليدهم الغذائية[1][9]."
+    },
+    "spanish": {
+      "summary": "No hay un registro documentado de un plato llamado \"Bounotaz\" en fuentes tunecino-judías disponibles públicamente, libros de cocina o archivos culinarios[1][9]. La comunidad judía de Túnez y especialmente los judíos de Djerba son conocidos por recetas distintivas y antiguas influenciadas por las cocinas bereber, árabe y mediterránea, y tienen una rica cultura de adaptación de ingredientes locales en sus tradiciones culinarias[1][9]."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions."
+    },
+    "hebrew": {
+      "summary": "מנה זו היא מתכון יהודי מסורתי מתוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות במהלך אירועים חגיגיים."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من التراث اليهودي التونسي-الجربي، وغالباً ما يتم الاستمتاع بها خلال المناسبات الاحتفالية."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional judía tunecina-djerbana, que a menudo se disfruta durante ocasiones festivas."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "bounotaz_history.md",
+    "history_md": "bounotaz_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

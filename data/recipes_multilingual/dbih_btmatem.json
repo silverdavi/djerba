@@ -1,0 +1,90 @@
+{
+  "id": "dbih_btmatem",
+  "image": "dbih_btmatem.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "דביחה בטמאטם",
+    "es": "Dbih'a b'tmatem",
+    "ar": "طبيخة بالطماطم",
+    "en": "Dbih'a b'tmatem"
+  },
+  "description": {
+    "he": "תבשיל עגבניות עשיר ואדום עם תפוחי אדמה ונתחי חלבון מהצומח. השם מגיע מהמילה הערבית \"טביכה\" (בישול/נזיד), המתייחסת לתהליך הבישול האיטי שמסמיך את הרוטב.",
+    "es": "Un rico estofado rojo de tomate con papas y trozos de proteína vegetal. El nombre proviene de la palabra árabe \"Tbikha\" (guiso), refiriéndose al proceso de cocción lenta que espesa la salsa.",
+    "ar": "مرقة خاثرة بالطماطم والبطاطا وقطع السيتان أو التوفو بدلاً من اللحم. الاسم مشتق من كلمة \"طبيخة\"، وهي أكلة تونسية تقليدية معروفة بمرقتها العاقدة.",
+    "en": "A rich, red tomato stew featuring potatoes and plant-based protein chunks. The name derives from the Arabic \"Tbikha\" (stew), referring to the slow cooking process that thickens the sauce."
+  },
+  "ingredients": {
+    "he": [
+      "2 בצלים בינוניים",
+      "2 עגבניות טריות",
+      "1 פלפל ירוק חריף",
+      "1 קופסה רסק עגבניות (100 גרם)",
+      "3-4 תפוחי אדמה",
+      "300 גרם סייטן או טופו מוצק",
+      "1 כף פפריקה מתוקה",
+      "מלח ופלפל שחור"
+    ],
+    "es": [
+      "2 cebollas medianas",
+      "2 tomates frescos",
+      "1 pimiento verde picante",
+      "1 lata de pasta de tomate (100g)",
+      "3-4 papas",
+      "300g de seitán o tofu firme",
+      "1 cda de pimentón dulce (paprika)",
+      "Sal y pimienta negra"
+    ],
+    "ar": [
+      "2 بصل",
+      "2 كعبات طماطم",
+      "1 فلفل أخضر حار",
+      "1 حكة طماطم معجونة (100غ)",
+      "3-4 كعبات بطاطا",
+      "300غ سيتان أو توفو",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "ملح وفلفل أكحل"
+    ],
+    "en": [
+      "2 medium onions",
+      "2 fresh tomatoes",
+      "1 green hot pepper",
+      "1 can tomato paste (100g)",
+      "3-4 potatoes",
+      "300g seitan or firm tofu",
+      "1 tbsp sweet paprika",
+      "Salt and black pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצלים הקצוצים, מוסיפים פפריקה, עגבניות קצוצות ופלפל חריף פרוס.",
+      "מאדים כ-10 דקות, מוסיפים את רסק העגבניות ומבשלים 10 דקות נוספות.",
+      "מוסיפים מים לכיסוי, קוביות תפוחי אדמה ואת נתחי הסייטן/טופו.",
+      "מבשלים עד שתפוחי האדמה רכים והרוטב מסמיך."
+    ],
+    "es": [
+      "Sofreír las cebollas picadas, añadir el pimentón, los tomates picados y el pimiento picante en rodajas.",
+      "Cocinar 10 minutos, añadir la pasta de tomate y cocinar otros 10 minutos.",
+      "Añadir agua hasta cubrir, las papas en cubos y los trozos de seitán/tofu.",
+      "Cocinar hasta que las papas estén tiernas y la salsa espese."
+    ],
+    "ar": [
+      "قلّي البصل المقصوص في الزيت، وزيد الفلفل الأحمر، والطماطم المقصوصة والفلفل الحار.",
+      "خليهم يتقلاو 10 دقايق، مبعد زيد طماطم الحكة وخليهم يطيبو 10 دقايق اخرين.",
+      "مرّق بالماء، وارمي البطاطا مقصوصة وقطع السيتان أو التوفو.",
+      "خلي الطنجرة تطيب لين البطاطا تولي طرية والمرقة تخثار."
+    ],
+    "en": [
+      "Sauté chopped onions, then add paprika, chopped tomatoes, and sliced hot pepper.",
+      "Cook for 10 minutes, add tomato paste, and cook for another 10 minutes.",
+      "Add water to cover, cubed potatoes, and the seitan/tofu chunks.",
+      "Simmer until potatoes are tender and the sauce thickens."
+    ]
+  }
+}

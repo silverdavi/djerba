@@ -1,0 +1,465 @@
+{
+  "id": "ktaa_soup",
+  "names": {
+    "english": "Kta'a Soup (Torn Dough Soup)",
+    "hebrew": "מרק קטעה",
+    "arabic": "شوربة كطاع",
+    "spanish": "Sopa Kta'a (Sopa de Masa Desgarrada)"
+  },
+  "metadata": {
+    "category": "Soup",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "flour",
+        "amount": "2",
+        "unit": "cups"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "tablespoons olive oil",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "large onion, chopped",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "3-4 cloves garlic, chopped",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "2-3 ripe tomatoes, crushed",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "tomato paste",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "cumin",
+        "amount": "1",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "sweet paprika",
+        "amount": "1/2",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "Salt and pepper to taste",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "water or vegetable broth",
+        "amount": "1.5",
+        "unit": "liters"
+      },
+      {
+        "name": "Juice of half a lemon",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Handful chopped cilantro (optional)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "קמח",
+        "amount": "2",
+        "unit": "כוסות"
+      },
+      {
+        "name": "מים",
+        "amount": "1/2",
+        "unit": "כוס"
+      },
+      {
+        "name": "מלח",
+        "amount": "1/2",
+        "unit": "כפית"
+      },
+      {
+        "name": "כפות שמן זית",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "בצל גדול, קצוץ",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "3-4 שיני שום, קצוץ",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "2-3 עגבניות בשלות, מרוסקות",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "רסק עגבניות",
+        "amount": "1",
+        "unit": "כף"
+      },
+      {
+        "name": "כמון",
+        "amount": "1",
+        "unit": "כפית"
+      },
+      {
+        "name": "פפריקה מתוקה",
+        "amount": "1/2",
+        "unit": "כפית"
+      },
+      {
+        "name": "מלח ופלפל לפי הטעם",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים או מרק ירקות",
+        "amount": "1.5",
+        "unit": "ליטר"
+      },
+      {
+        "name": "מיץ מחצי לימון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "חופן כוסברה קצוצה (אופציונלי)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "طحين",
+        "amount": "2",
+        "unit": "أكواب"
+      },
+      {
+        "name": "ماء",
+        "amount": "1/2",
+        "unit": "كوب"
+      },
+      {
+        "name": "ملح",
+        "amount": "1/2",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "زيت زيتون",
+        "amount": "2",
+        "unit": "ملعقتان كبيرتان"
+      },
+      {
+        "name": "بصلة كبيرة، مفرومة",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "3-4 فصوص ثوم، مفروم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "2-3 طماطم ناضجة، مهروسة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "معجون الطماطم",
+        "amount": "1",
+        "unit": "ملعقة كبيرة"
+      },
+      {
+        "name": "كمون",
+        "amount": "1",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "بابريكا حلوة",
+        "amount": "1/2",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "ملح وفلفل حسب الرغبة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء أو مرق خضار",
+        "amount": "1.5",
+        "unit": "لتر"
+      },
+      {
+        "name": "عصير نصف ليمونة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "حفنة كزبرة مفرومة (اختياري)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "harina",
+        "amount": "2",
+        "unit": "tazas"
+      },
+      {
+        "name": "agua",
+        "amount": "1/2",
+        "unit": "taza"
+      },
+      {
+        "name": "sal",
+        "amount": "1/2",
+        "unit": "cucharadita"
+      },
+      {
+        "name": "cucharadas de aceite de oliva",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "cebolla grande, picada",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "3-4 dientes de ajo, picados",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "2-3 tomates maduros, triturados",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "pasta de tomate",
+        "amount": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "comino",
+        "amount": "1",
+        "unit": "cucharadita"
+      },
+      {
+        "name": "pimentón dulce",
+        "amount": "1/2",
+        "unit": "cucharadita"
+      },
+      {
+        "name": "Sal y pimienta al gusto",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "agua o caldo de vegetales",
+        "amount": "1.5",
+        "unit": "litros"
+      },
+      {
+        "name": "Zumo de medio limón",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Puñado de cilantro picado (opcional)",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Prepare the dough: Mix flour and salt in a bowl. Gradually add water and knead until a uniform and flexible dough forms. Cover and let rest for 30 minutes."
+      },
+      {
+        "step": 2,
+        "text": "Prepare the soup base: Heat olive oil in a large pot. Sauté onion and garlic until golden."
+      },
+      {
+        "step": 3,
+        "text": "Add crushed tomatoes and tomato paste, cook for a few minutes."
+      },
+      {
+        "step": 4,
+        "text": "Season with cumin, paprika, salt, and pepper."
+      },
+      {
+        "step": 5,
+        "text": "Add water or broth, bring to a boil, and simmer on low heat for about 10 minutes."
+      },
+      {
+        "step": 6,
+        "text": "Add the dough: Tear small pieces of the dough and drop them into the boiling soup."
+      },
+      {
+        "step": 7,
+        "text": "Cook for another 10 minutes until the dough is cooked through and soft."
+      },
+      {
+        "step": 8,
+        "text": "Finish: Stir in lemon juice and cilantro. Taste and adjust seasoning if needed."
+      },
+      {
+        "step": 9,
+        "text": "Serve warm."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "הכנת הבצק: מערבבים קמח ומלח בקערה. מוסיפים בהדרגה מים ולשים עד שנוצר בצק אחיד וגמיש. מכסים ונותנים מנוחה למשך 30 דקות."
+      },
+      {
+        "step": 2,
+        "text": "הכנת בסיס המרק: מחממים שמן זית בסיר גדול. מטגנים בצל ושום עד להזהבה."
+      },
+      {
+        "step": 3,
+        "text": "מוסיפים עגבניות מרוסקות ורסק עגבניות, ומבשלים במשך כמה דקות."
+      },
+      {
+        "step": 4,
+        "text": "מתבלים בכמון, פפריקה, מלח ופלפל."
+      },
+      {
+        "step": 5,
+        "text": "מוסיפים מים או ציר, מביאים לרתיחה, ומבשלים על אש קטנה במשך כ-10 דקות."
+      },
+      {
+        "step": 6,
+        "text": "הוספת הבצק: קורעים חתיכות קטנות מהבצק ומכניסים לתוך המרק הרותח."
+      },
+      {
+        "step": 7,
+        "text": "מבשלים עוד 10 דקות נוספות עד שהבצק מתבשל ורך."
+      },
+      {
+        "step": 8,
+        "text": "סיום: מערבבים מיץ לימון וכוסברה. טועמים ומשפרים את התיבול במידת הצורך."
+      },
+      {
+        "step": 9,
+        "text": "מגישים חם."
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Kta'a\" (קטעה) derives from the Arabic root \"kat'a,\" meaning \"to cut\" or \"to tear,\" directly referencing the torn pieces of dough that are a defining feature of the soup. In Judeo-Arabic, the word has the same meaning, underscoring the dish's emphasis on this unique preparation method."
+    },
+    "hebrew": {
+      "summary": "השם \"קטעה\" (Kta'a) נגזר מהשורש הערבי \"קטע,\" שמשמעותו \"לחתוך\" או \"לקרוע,\" ומתייחס ישירות לחתיכות הבצק הקרועות שהן מאפיין מגדיר של המרק. ביהודית-ערבית, למילה יש את אותה משמעות, מה שמדגיש את הדגש של המנה על שיטת ההכנה הייחודית הזו."
+    },
+    "arabic": {
+      "summary": "اسم \"Kta'a\" (קטעה) مشتق من الجذر العربي \"قطع\"، والذي يعني \"القطع\" أو \"التمزيق\"، مشيرًا مباشرة إلى قطع العجين الممزقة التي تُعتبر سمة مميزة للشوربة. في اللغة اليهودية-العربية، تحمل الكلمة نفس المعنى، مما يبرز التركيز على هذه الطريقة الفريدة في التحضير."
+    },
+    "spanish": {
+      "summary": "El nombre \"Kta'a\" (קטעה) se deriva de la raíz árabe \"kat'a,\" que significa \"cortar\" o \"rasgar,\" haciendo referencia directa a los trozos de masa rasgados que son una característica definitoria de la sopa. En judeo-árabe, la palabra tiene el mismo significado, subrayando el énfasis del plato en este método de preparación único."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Kta'a Soup originated among the Jewish communities of Tunisia, specifically on the island of Djerba, where a vibrant Jewish community has existed for over two millennia. The dish emerged as a staple due to its humble ingredients, which were accessible to families of modest means. The use of torn pieces of dough highlights resourcefulness and the adaptation of local culinary techniques to fit Jewis",
+      "evolution": "",
+      "cultural_significance": "Kta'a Soup holds immense importance within Tunisian-Djerban Jewish culture, symbolizing warmth, hospitality, and communal gathering. It is traditionally served on Friday nights for Shabbat dinner and sometimes during cold seasons, as the hearty, comforting broth brings families together. The ritual of tearing dough by hand and preparing the soup collectively reinforces familial bonds and the trans",
+      "regional_variations": "",
+      "summary": "Kta'a Soup originated among the Jewish communities of Tunisia, specifically on the island of Djerba, where a vibrant Jewish community has existed for over two millennia. The dish emerged as a staple due to its humble ingredients, which were accessible to families of modest means. The use of torn pieces of dough highlights resourcefulness and the adaptation of local culinary techniques to fit Jewis"
+    },
+    "hebrew": {
+      "summary": "מרק קטעה מקורו בקהילות היהודיות של תוניסיה, במיוחד באי ג'רבה, שבו קיימת קהילה יהודית תוססת כבר למעלה משני אלפי שנים. המנה הפכה למאכל בסיסי בשל מרכיביה הפשוטים, שהיו נגישים למשפחות בעלות אמצעים צנועים. השימוש בחתיכות בצק קרועות מדגיש את היצירתיות וההתאמה של טכניקות בישול מקומיות לצרכים יהודיים."
+    },
+    "arabic": {
+      "summary": "حساء الكتعة نشأ بين المجتمعات اليهودية في تونس، وتحديداً في جزيرة جربة، حيث وُجدت جالية يهودية نابضة بالحياة لأكثر من ألفي عام. أصبح هذا الطبق من الأطباق الأساسية بسبب مكوناته البسيطة، التي كانت متاحة للعائلات ذات الموارد المحدودة. استخدام قطع العجين الممزقة يبرز البراعة والتكيف مع التقنيات الطهوية المحلية لتناسب التراث اليهودي."
+    },
+    "spanish": {
+      "summary": "La sopa Kta'a se originó entre las comunidades judías de Túnez, específicamente en la isla de Djerba, donde ha existido una vibrante comunidad judía durante más de dos milenios. El plato surgió como un alimento básico debido a sus humildes ingredientes, que eran accesibles para familias de medios modestos. El uso de trozos de masa rasgada destaca la ingeniosidad y la adaptación de técnicas culinarias locales para ajustarse a las necesidades judías."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Kta'a (meaning 'torn' or 'cut') is a traditional warming winter soup from Libyan and Tunisian Jewish cuisine, characterized by hand-torn pieces of dough cooked directly in the rich tomato broth.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Kta'a (meaning 'torn' or 'cut') is a traditional warming winter soup from Libyan and Tunisian Jewish cuisine, characterized by hand-torn pieces of dough cooked directly in the rich tomato broth."
+    },
+    "hebrew": {
+      "summary": "קטעה (משמעותו 'קרוע' או 'חתוך') הוא מרק חורפי מסורתי ומחמם מהמטבח היהודי הלובי והתוניסאי, המאופיין בחתיכות בצק קרועות ביד המבושלות ישירות בציר העגבניות העשיר."
+    },
+    "arabic": {
+      "summary": "كتعة هي حساء شتوي تقليدي دافئ من المطبخ اليهودي الليبي والتونسي، يتميز بقطع من العجين الممزقة يدويًا والمطبوخة مباشرة في مرق الطماطم الغني."
+    },
+    "spanish": {
+      "summary": "Kta'a (que significa 'rasgado' o 'cortado') es una sopa tradicional reconfortante de invierno de la cocina judía libia y tunecina, caracterizada por trozos de masa rasgados a mano cocidos directamente en el rico caldo de tomate."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "kta'a_soup_(torn_dough_soup)_history.md",
+    "history_md": "kta'a_soup_(torn_dough_soup)_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

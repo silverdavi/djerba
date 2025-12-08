@@ -1,0 +1,236 @@
+{
+  "id": "potato_latkes",
+  "names": {
+    "english": "Potato Latkes",
+    "hebrew": "לביבות תפו\"א",
+    "arabic": "لاتكس البطاطا",
+    "spanish": "Latkes de papa"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "red potatoes",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "eggs",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "flour",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "Baking powder",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "oil",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "Salt and black pepper",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "תפוחי אדמה אדומים",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "ביצים",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "קמח",
+        "amount": "1/4",
+        "unit": "כוס"
+      },
+      {
+        "name": "אבקת אפייה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "1",
+        "unit": "כף"
+      },
+      {
+        "name": "מלח ופלפל שחור",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "بطاطا حمراء",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "بيض",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "دقيق",
+        "amount": "1/4",
+        "unit": "كوب"
+      },
+      {
+        "name": "بيكنج بودر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "1",
+        "unit": "ملعقة كبيرة"
+      },
+      {
+        "name": "ملح وفلفل أسود",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Grate the potatoes and add the remaining ingredients, then strain the excess liquid."
+      },
+      {
+        "step": 2,
+        "text": "Spread the mixture in a greased baking dish and bake at 180 degrees Celsius for approximately 40 minutes, or until golden brown."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "גררו את תפוחי האדמה והוסיפו את שאר המרכיבים, לאחר מכן סננו את הנוזלים העודפים."
+      },
+      {
+        "step": 2,
+        "text": "פרסו את התערובת בתבנית אפייה משומנת ואפו בחום של 180 מעלות צלזיוס למשך כ-40 דקות, או עד להזהבה."
+      }
+    ],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "ابشر البطاطس وأضف باقي المكونات، ثم صفي السائل الزائد."
+      },
+      {
+        "step": 2,
+        "text": "افرد المزيج في طبق خبز مُدهون بالزيت واخبزه في درجة حرارة 180 درجة مئوية لمدة 40 دقيقة تقريبا، أو حتى يتحول لونه إلى البني الذهبي."
+      }
+    ],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Ralla las papas y agrega los ingredientes restantes, luego cuela el exceso de líquido."
+      },
+      {
+        "step": 2,
+        "text": "Extiende la mezcla en una fuente para hornear engrasada y hornea a 180 grados Celsius durante aproximadamente 40 minutos, o hasta que esté dorada."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The term \"latke\" comes from the East Slavic word \"oladka,\" meaning a small pancake or fritter, which in turn likely comes from the Ancient Greek \"eladion,\" meaning little oily thing. In Hebrew, \"לביבה\" (leviva) refers broadly to any fried patty or fritter, while \"תפו\"א\" (tapuach adamah) means \"potato\". Thus, \"לביבות תפו\"א\" literally means \"potato fritters\" or \"potato patties.\""
+    },
+    "hebrew": {
+      "summary": "המונח \"לטקה\" מגיע מהמילה הסלאבית המזרחית \"אולדקה,\" שמשמעותה פנקייק קטן או לביבה, שמקורה כנראה מהמילה היוונית העתיקה \"אלדיון,\" שמשמעותה דבר קטן ושומני. בעברית, \"לביבה\" מתייחסת באופן כללי לכל קציצה או לביבה מטוגנת, בעוד \"תפו\"א\" (תפוח אדמה) פירושו \"potato\". לכן, \"לביבות תפו\"א\" משמעותו המילולית היא \"לביבות תפוחי אדמה\" או \"קציצות תפוחי אדמה\"."
+    },
+    "arabic": {
+      "summary": "مصطلح \"لاتكي\" يأتي من الكلمة السلافية الشرقية \"oladka\"، والتي تعني فطيرة صغيرة أو مقلي، والتي بدورها تأتي على الأرجح من اليونانية القديمة \"eladion\"، وتعني الشيء الزيتي الصغير. في العبرية، \"לביבה\" (leviva) تشير بشكل عام إلى أي فطيرة مقلية أو مقلي، بينما \"תפו\"א\" (tapuach adamah) تعني \"بطاطا\". وبالتالي، \"לביבות תפו\"א\" تعني حرفيًا \"فطائر البطاطا\" أو \"فطائر البطاطا المقلية\"."
+    },
+    "spanish": {
+      "summary": "El término \"latke\" proviene de la palabra eslava oriental \"oladka,\" que significa un pequeño panqueque o buñuelo, que a su vez probablemente proviene del griego antiguo \"eladion,\" que significa pequeña cosa aceitosa. En hebreo, \"לביבה\" (leviva) se refiere en general a cualquier empanada o buñuelo frito, mientras que \"תפו\"א\" (tapuach adamah) significa \"papa\". Por lo tanto, \"לביבות תפו\"א\" significa literalmente \"buñuelos de papa\" o \"empanadas de papa\"."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Potato latkes originated among Eastern European Jewish communities, particularly in Poland, Lithuania, and Ukraine, in the 19th century after potatoes became widespread in the region. The word \"latke\" itself is derived from East Slavic languages. The dish later became a Hanukkah staple, symbolizing the miracle of the oil that lasted eight days. There is limited evidence connecting classic potato l",
+      "evolution": "",
+      "cultural_significance": "Latkes are closely associated with Hanukkah due to the tradition of eating fried foods to commemorate the oil miracle in the ancient Temple of Jerusalem. Their importance lies in both their historical symbolism and their role as a festive food, bringing families together during the celebration. In some communities, variations of latkes may also be enjoyed at other times, but Hanukkah remains the p",
+      "regional_variations": "",
+      "summary": "Potato latkes originated among Eastern European Jewish communities, particularly in Poland, Lithuania, and Ukraine, in the 19th century after potatoes became widespread in the region. The word \"latke\" itself is derived from East Slavic languages. The dish later became a Hanukkah staple, symbolizing the miracle of the oil that lasted eight days. There is limited evidence connecting classic potato l"
+    },
+    "hebrew": {
+      "summary": "לביבות תפוחי אדמה מקורן בקהילות יהודיות במזרח אירופה, במיוחד בפולין, ליטא ואוקראינה, במאה ה-19 לאחר שתפוחי אדמה הפכו לנפוצים באזור. המילה \"לביבה\" עצמה נגזרת משפות סלאביות מזרחיות. המנה הפכה מאוחר יותר למאכל מסורתי בחנוכה, המסמל את נס פך השמן שהספיק לשמונה ימים. ישנם עדויות מוגבלות המקשרות את לביבות תפוחי האדמה הקלאסיות"
+    },
+    "arabic": {
+      "summary": "فطائر البطاطس (لاتكس) نشأت بين المجتمعات اليهودية في أوروبا الشرقية، خاصة في بولندا وليتوانيا وأوكرانيا، في القرن التاسع عشر بعد أن أصبحت البطاطس شائعة في المنطقة. كلمة \"لاتكس\" نفسها مشتقة من اللغات السلافية الشرقية. أصبحت هذه الوجبة فيما بعد جزءًا أساسيًا من احتفالات عيد حانوكا، حيث ترمز إلى معجزة الزيت الذي استمر لثمانية أيام. هناك أدلة محدودة تربط فطائر البطاطس الكلاسيكية"
+    },
+    "spanish": {
+      "summary": "Las latkes de papa se originaron entre las comunidades judías de Europa del Este, particularmente en Polonia, Lituania y Ucrania, en el siglo XIX, después de que las papas se difundieran ampliamente en la región. La palabra \"latke\" en sí misma se deriva de los idiomas eslavos orientales. El plato más tarde se convirtió en un elemento básico de Janucá, simbolizando el milagro del aceite que duró ocho días. Hay evidencia limitada que conecta las clásicas latkes de papa."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "These potato latkes are a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed during festive occasions.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "These potato latkes are a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed during festive occasions."
+    },
+    "hebrew": {
+      "summary": "הלביבות תפוחי אדמה האלה הן מאכל מסורתי במטבח היהודי התוניסאי-ג'רבאי, שנהנים ממנו לעיתים קרובות במהלך אירועים חגיגיים."
+    },
+    "arabic": {
+      "summary": "هذه اللاتكس البطاطا هي طبق تقليدي في المطبخ اليهودي التونسي-الجربي، وغالبًا ما تُستمتع بها خلال المناسبات الاحتفالية."
+    },
+    "spanish": {
+      "summary": "Estas latkes de papa son un plato tradicional en la cocina judía tunecina-djerban, a menudo disfrutado durante ocasiones festivas."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "potato_latkes_history.md",
+    "history_md": "potato_latkes_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

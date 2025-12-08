@@ -1,0 +1,225 @@
+{
+  "id": "chicken_schnitzel",
+  "names": {
+    "english": "Chicken Schnitzel",
+    "hebrew": "שניצל",
+    "arabic": "شنيتزل الدجاج",
+    "spanish": "Escalope de pollo"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Chicken breast",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Flour",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Egg",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Seasoned breadcrumbs",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "חזה עוף",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "קמח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ביצה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פירורי לחם מתובלים",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "صدر دجاج",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "دقيق",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بيضة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فتات خبز متبل",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Pechuga de pollo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Harina",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Huevo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pan rallado sazonado",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Flatten the chicken breasts with a meat mallet until they are thin, but not overly so."
+      },
+      {
+        "step": 2,
+        "text": "Prepare three plates: one with flour, one with a beaten egg, and one with seasoned breadcrumbs."
+      },
+      {
+        "step": 3,
+        "text": "Dredge each piece of chicken in the flour, then dip it into the egg, and finally coat it with the seasoned breadcrumbs."
+      },
+      {
+        "step": 4,
+        "text": "Fry the coated chicken in hot oil until golden brown, being careful not to let the oil get too hot."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "רקע את חזה העוף עם פטיש בשר עד שהם הופכים לדקים, אך לא דקים מדי."
+      },
+      {
+        "step": 2,
+        "text": "הכן שלוש צלחות: אחת עם קמח, אחת עם ביצה טרופה ואחת עם פירורי לחם מתובלים."
+      },
+      {
+        "step": 3,
+        "text": "טבול כל חתיכת עוף בקמח, לאחר מכן טבל אותה בביצה, לבסוף עטוף אותה בפירורי הלחם המתובלים."
+      },
+      {
+        "step": 4,
+        "text": "טגן את העוף המצופה בשמן חם עד שהוא מזהיב, תוך זהירות שלא לתת לשמן להתחמם מדי."
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The word \"schnitzel\" is derived from the German \"Schnitz,\" meaning \"slice\" or \"cut,\" referring to a thin, sliced piece of meat. In Hebrew, schnitzel (שניצל) is a direct transliteration and maintains the same meaning."
+    },
+    "hebrew": {
+      "summary": "המילה \"שניצל\" נגזרת מהמילה הגרמנית \"Schnitz\", שמשמעותה \"פרוסה\" או \"חתיכה\", ומתייחסת לנתח בשר דק ופרוס. בעברית, שניצל (שניצל) הוא תעתיק ישיר ושומר על אותה משמעות."
+    },
+    "arabic": {
+      "summary": "الكلمة \"شنيتزل\" مشتقة من الألمانية \"Schnitz\"، والتي تعني \"شريحة\" أو \"قطع\"، وتشير إلى قطعة لحم رقيقة ومقطعة. في العبرية، شنيتزل (שניצל) هو نقل مباشر ويحافظ على نفس المعنى."
+    },
+    "spanish": {
+      "summary": "La palabra \"schnitzel\" se deriva del alemán \"Schnitz,\" que significa \"rebanada\" o \"corte,\" refiriéndose a un trozo de carne delgado y rebanado. En hebreo, schnitzel (שניצל) es una transliteración directa y mantiene el mismo significado."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communities adapted the dish for kosher dietary restrictions by substituting chicken (or sometimes turkey or beef) for pork or veal. In Israel, schnitzel became a staple due to British influence and the post-World War II influx of European Jews. There is no direct indication",
+      "evolution": "",
+      "cultural_significance": "Chicken schnitzel is cherished in Israel and Jewish households as a comfort food and staple dish. It is eaten regularly, commonly served for Shabbat meals, festive occasions, and everyday family dinners. Its presence symbolizes the blending of European and Middle Eastern culinary traditions within Israel’s melting pot society. Schnitzel’s easy preparation and broad appeal make it especially popula",
+      "regional_variations": "",
+      "summary": "Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communities adapted the dish for kosher dietary restrictions by substituting chicken (or sometimes turkey or beef) for pork or veal. In Israel, schnitzel became a staple due to British influence and the post-World War II influx of European Jews. There is no direct indication"
+    },
+    "hebrew": {
+      "summary": "שניצל מקורו במרכז אירופה, המפורסם ביותר כשניצל וינאי מאוסטריה, שמסורתי עשוי מעגל. קהילות יהודיות התאימו את המנה למגבלות הכשרות על ידי החלפת עוף (או לפעמים הודו או בקר) במקום חזיר או עגל. בישראל, השניצל הפך למאכל בסיסי בשל ההשפעה הבריטית והגעת יהודים אירופאים לאחר מלחמת העולם השנייה. אין אינדיקציה ישירה"
+    },
+    "arabic": {
+      "summary": "شنيتزل نشأ في أوروبا الوسطى، وأشهرها شنيتزل فيينا من النمسا، الذي يُصنع تقليديًا من لحم العجل. قامت المجتمعات اليهودية بتكييف الطبق ليتناسب مع القيود الغذائية الكوشر عن طريق استبدال الدجاج (أو أحيانًا الديك الرومي أو اللحم البقري) بلحم الخنزير أو العجل. في إسرائيل، أصبح الشنيتزل عنصرًا أساسيًا بسبب التأثير البريطاني وتدفق اليهود الأوروبيين بعد الحرب العالمية الثانية. لا يوجد مؤشر مباشر"
+    },
+    "spanish": {
+      "summary": "El schnitzel se originó en Europa Central, más famoso como Wiener Schnitzel de Austria, tradicionalmente hecho con ternera. Las comunidades judías adaptaron el plato para las restricciones dietéticas kosher sustituyendo el pollo (o a veces pavo o carne de res) por cerdo o ternera. En Israel, el schnitzel se convirtió en un alimento básico debido a la influencia británica y la afluencia de judíos europeos después de la Segunda Guerra Mundial. No hay indicación directa."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a beloved staple in Tunisian-Djerban Jewish cuisine, often served with a side of salad or potatoes.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a beloved staple in Tunisian-Djerban Jewish cuisine, often served with a side of salad or potatoes."
+    },
+    "hebrew": {
+      "summary": "המנה הזו היא מאכל אהוב במטבח היהודי התוניסאי-ג'רבאי, ולעיתים קרובות מוגשת לצד סלט או תפוחי אדמה."
+    },
+    "arabic": {
+      "summary": "هذا الطبق هو عنصر أساسي محبوب في المطبخ اليهودي التونسي-الجربي، وغالبًا ما يُقدم مع سلطة أو بطاطا."
+    },
+    "spanish": {
+      "summary": "Este plato es un pilar querido en la cocina judía tunecina-djerbana, a menudo servido con una guarnición de ensalada o papas."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "chicken_schnitzel_history.md",
+    "history_md": "chicken_schnitzel_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

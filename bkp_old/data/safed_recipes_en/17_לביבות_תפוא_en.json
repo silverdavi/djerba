@@ -1,0 +1,23 @@
+{
+  "id": "potato_latkes",
+  "name_hebrew": "לביבות תפו\"א",
+  "name_english": "Potato Latkes",
+  "ingredients": [
+    "4 red potatoes",
+    "4 eggs",
+    "1/4 cup flour",
+    "Baking powder",
+    "1 tablespoon oil",
+    "Salt and black pepper"
+  ],
+  "instructions": [
+    "Grate the potatoes and add the remaining ingredients, then strain the excess liquid.",
+    "Spread the mixture in a greased baking dish and bake at 180 degrees Celsius for approximately 40 minutes, or until golden brown."
+  ],
+  "notes": "These potato latkes are a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed during festive occasions.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "17_לביבות_תפוא.json"
+  }
+}

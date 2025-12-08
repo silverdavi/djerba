@@ -1,0 +1,261 @@
+{
+  "id": "mechaye",
+  "names": {
+    "english": "Mechaye",
+    "hebrew": "משייר",
+    "arabic": "محيي",
+    "spanish": "Mechaye"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Bell peppers of all colors",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Carrot",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Lemon",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Hot pepper",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Kohlrabi (optional)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "פלפלים מכל הצבעים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "גזר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "לימון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פלפל חריף",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "קולורבי (אופציונלי)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "فلفل حلو بجميع الألوان",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "جزر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ليمون",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فلفل حار",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "اللفت الألماني (اختياري)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Pimientos de todos los colores",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Zanahoria",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Limón",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pimiento picante",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Colinabo (opcional)",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Cut the bell peppers into strips or halves."
+      },
+      {
+        "step": 2,
+        "text": "Slice the carrot into thin strips."
+      },
+      {
+        "step": 3,
+        "text": "Cut the hot pepper into long strips."
+      },
+      {
+        "step": 4,
+        "text": "Peel the lemon and squeeze its juice over all the vegetables, then cut the lemon into pieces."
+      },
+      {
+        "step": 5,
+        "text": "Optionally, add kohlrabi, cut into strips or slices."
+      },
+      {
+        "step": 6,
+        "text": "Add water and coarse salt to taste."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "قطع الفلفل الحلو إلى شرائح أو أنصاف."
+      },
+      {
+        "step": 2,
+        "text": "قطع الجزرة إلى شرائح رفيعة."
+      },
+      {
+        "step": 3,
+        "text": "قطع الفلفل الحار إلى شرائح طويلة."
+      },
+      {
+        "step": 4,
+        "text": "قشر الليمون واعصر عصيره فوق جميع الخضروات، ثم قطع الليمون إلى قطع."
+      },
+      {
+        "step": 5,
+        "text": "اختياريًا، أضف الكولرابي، مقطعًا إلى شرائح أو شرائح."
+      },
+      {
+        "step": 6,
+        "text": "أضف الماء والملح الخشن حسب الذوق."
+      }
+    ],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The word “Mechaye” (מחיה) derives from the Hebrew “chai,” meaning life, and its usage—especially in Yiddish-influenced Jewish communities—implies something that gives life, pleasure, or refreshment[2][5][8][11]. In everyday parlance, Jews call something “a mechaye” when it is so enjoyable or pleasurable that it metaphorically brings one back to life[2][5][8][11]. This sense is also reflected in the way certain pleasurable, reviving foods are given this name."
+    },
+    "hebrew": {
+      "summary": "המילה \"מחיה\" נגזרת מהמילה העברית \"חי\", שמשמעותה חיים, והשימוש בה—במיוחד בקהילות יהודיות המושפעות מיידיש—מרמז על משהו שנותן חיים, הנאה או רענון. בשפה היומיומית, יהודים קוראים למשהו \"מחיה\" כשהוא כל כך מהנה או נעים שהוא באופן מטאפורי מחזיר לחיים. תחושה זו משתקפת גם בדרך שבה מאכלים מסוימים, מהנים ומרעננים, מקבלים שם זה."
+    },
+    "arabic": {
+      "summary": "كلمة \"ميخاي\" (מחיה) مشتقة من الكلمة العبرية \"حاي\"، التي تعني الحياة، واستخدامها - خاصة في المجتمعات اليهودية المتأثرة باليديشية - يشير إلى شيء يمنح الحياة أو المتعة أو الانتعاش. في اللغة اليومية، يطلق اليهود على شيء ما \"ميخاي\" عندما يكون ممتعًا أو مبهجًا لدرجة أنه يعيد الشخص إلى الحياة بشكل مجازي. ينعكس هذا الإحساس أيضًا في الطريقة التي يتم بها تسمية بعض الأطعمة الممتعة والمنعشة بهذا الاسم."
+    },
+    "spanish": {
+      "summary": "La palabra \"Mechaye\" (מחיה) se deriva del hebreo \"chai\", que significa vida, y su uso—especialmente en comunidades judías influenciadas por el yiddish—implica algo que da vida, placer o frescura. En el lenguaje cotidiano, los judíos llaman a algo \"un mechaye\" cuando es tan agradable o placentero que metafóricamente devuelve a uno a la vida. Este sentido también se refleja en la forma en que ciertos alimentos placenteros y revitalizantes reciben este nombre."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Mechaye, sometimes transliterated as “Mechayeh,” is deeply rooted in the Jewish communities of Tunisia, especially in Djerba, where Jews have lived for over 2,000 years[4]. The dish emerged by combining Berber and Arab flavors with Jewish kosher laws and traditions[4]. Though “Mechaye” as a specific recipe is less documented compared to other Tunisian-Jewish foods, the name and dish tradition poin",
+      "evolution": "",
+      "cultural_significance": "Mechaye is considered significant in Tunisian-Jewish culture as it evokes pleasure, delight, and a sense of revival, in line with its etymological roots[2][8]. Dishes labeled as “Mechaye” or similar are often served at festive meals and special occasions, like Shabbat and Jewish holidays, as part of a tradition of lavish, pleasurable foods meant to “revive” the spirit and enhance communal gatherin",
+      "regional_variations": "",
+      "summary": "Mechaye, sometimes transliterated as “Mechayeh,” is deeply rooted in the Jewish communities of Tunisia, especially in Djerba, where Jews have lived for over 2,000 years[4]. The dish emerged by combining Berber and Arab flavors with Jewish kosher laws and traditions[4]. Though “Mechaye” as a specific recipe is less documented compared to other Tunisian-Jewish foods, the name and dish tradition poin"
+    },
+    "hebrew": {
+      "summary": "מחייה, לפעמים נכתב כ\"מחייה\", מושרש עמוק בקהילות היהודיות של תוניסיה, במיוחד בג'רבה, שם חיו יהודים במשך למעלה מ-2,000 שנה. המנה נוצרה על ידי שילוב טעמים ברברים וערביים עם חוקי הכשרות והמסורות היהודיות. אף על פי ש\"מחייה\" כמתכון ספציפי מתועד פחות בהשוואה למאכלים יהודיים-תוניסאים אחרים, השם ומסורת המנה מצביעים"
+    },
+    "arabic": {
+      "summary": "محيي، الذي يُكتب أحيانًا \"محييه\"، متجذر بعمق في المجتمعات اليهودية في تونس، وخاصة في جربة، حيث عاش اليهود لأكثر من 2000 عام. نشأ الطبق من خلال دمج النكهات البربرية والعربية مع قوانين وتقاليد الكوشر اليهودية. على الرغم من أن \"محيي\" كوصفت محددة أقل توثيقًا مقارنة بأطعمة يهودية تونسية أخرى، إلا أن الاسم وتقاليد الطبق يشيران إلى..."
+    },
+    "spanish": {
+      "summary": "Mechaye, a veces transliterado como \"Mechayeh\", está profundamente arraigado en las comunidades judías de Túnez, especialmente en Djerba, donde los judíos han vivido durante más de 2,000 años. El plato surgió al combinar sabores bereberes y árabes con las leyes y tradiciones kosher judías. Aunque \"Mechaye\" como receta específica está menos documentada en comparación con otros alimentos tunecino-judíos, el nombre y la tradición del plato apuntan"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Mechaye is a refreshing vegetable dish commonly enjoyed in Tunisian-Djerban Jewish cuisine, often served as a side dish or appetizer.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Mechaye is a refreshing vegetable dish commonly enjoyed in Tunisian-Djerban Jewish cuisine, often served as a side dish or appetizer."
+    },
+    "hebrew": {
+      "summary": "מכאי הוא מאכל ירקות מרענן הנפוץ במטבח היהודי התוניסאי-ג'רבאי, ולעיתים קרובות מוגש כתוספת או כמנה ראשונה."
+    },
+    "arabic": {
+      "summary": "ميشاي هو طبق خضروات منعش يُستمتع به عادة في المطبخ اليهودي التونسي-الجربي، وغالبًا ما يُقدم كطبق جانبي أو مقبلات."
+    },
+    "spanish": {
+      "summary": "Mechaye es un plato de verduras refrescante que se disfruta comúnmente en la cocina judía tunecina-djerban, a menudo servido como guarnición o aperitivo."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "mechaye_history.md",
+    "history_md": "mechaye_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

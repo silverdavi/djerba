@@ -1,0 +1,27 @@
+{
+  "id": "kuklot",
+  "name_hebrew": "קוקלות",
+  "name_english": "Kuklot",
+  "ingredients": [
+    "Eggs",
+    "Semolina",
+    "Oil",
+    "Salt",
+    "Black pepper",
+    "Paprika",
+    "Water",
+    "1 teaspoon baking powder"
+  ],
+  "instructions": [
+    "In a deep plate, crack an egg.",
+    "Add a little oil, water, and spices to the egg.",
+    "Gradually add semolina until the mixture can be kneaded.",
+    "Form small balls and drop them into the stew."
+  ],
+  "notes": "Kuklot are traditional dumplings often served in a rich stew, reflecting the culinary heritage of the Tunisian-Djerban Jewish community.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "12_קוקלות.json"
+  }
+}

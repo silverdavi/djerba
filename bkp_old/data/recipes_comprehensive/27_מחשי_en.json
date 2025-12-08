@@ -1,0 +1,176 @@
+{
+  "id": "mahshi",
+  "names": {
+    "english": "Mahshi",
+    "hebrew": "מחשי",
+    "arabic": "محشي",
+    "spanish": "Mahshi"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Rice",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Eggs",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pieces of chicken",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Spices: salt and pepper",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "name": "أرز",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بيض",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "قطع دجاج",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بهارات: ملح وفلفل",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Hollow out vegetables such as potatoes, zucchini, eggplant, cabbage leaves, etc. In a bowl, crack an egg and add rice and pieces of chicken breast, then fill the hollowed vegetables with this mixture."
+      },
+      {
+        "step": 2,
+        "text": "In a pot, heat oil and sauté onions. Add tomatoes and other vegetables like zucchini and pumpkin. Pour in water and season with spices. Carefully place the stuffed vegetables into the pot and cook until done."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "רוקנו ירקות כמו תפוחי אדמה, קישואים, חצילים, עלי כרוב וכד'. בקערה, שבורו ביצה והוסיפו אורז וחתיכות חזה עוף, ולאחר מכן מלאו את הירקות המרוקנים בתערובת זו."
+      },
+      {
+        "step": 2,
+        "text": "בסיר, חממו שמן וטגנו בצל. הוסיפו עגבניות וירקות נוספים כמו קישואים ודלעת. שפכו מים ותבלו בתבלינים. הניחו בזהירות את הירקות הממולאים בסיר ובשלו עד שהם מוכנים."
+      }
+    ],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Vacía verduras como papas, calabacines, berenjenas, hojas de col, etc. En un tazón, casca un huevo y añade arroz y trozos de pechuga de pollo, luego rellena las verduras vaciadas con esta mezcla."
+      },
+      {
+        "step": 2,
+        "text": "En una olla, calienta aceite y sofríe cebollas. Agrega tomates y otras verduras como calabacín y calabaza. Vierte agua y condimenta con especias. Coloca cuidadosamente las verduras rellenas en la olla y cocina hasta que estén listas."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The term \"Mahshi\" originates from the Arabic word \"محشي\" (maḥshī), which means \"stuffed\" or \"filled.” It directly describes the method of preparing the dish, where vegetables are hollowed and filled with a seasoned mixture of meat, rice, or other grains."
+    },
+    "hebrew": {
+      "summary": "המונח \"מחשי\" מקורו במילה הערבית \"محشي\" (מחשי), שמשמעותה \"ממולא\" או \"מלא\". הוא מתאר ישירות את שיטת הכנת המנה, שבה ירקות מרוקנים וממולאים בתערובת מתובלת של בשר, אורז או דגנים אחרים."
+    },
+    "arabic": {
+      "summary": "مصطلح \"محشي\" يأتي من الكلمة العربية \"محشي\"، والتي تعني \"محشو\" أو \"مملوء\". يصف هذا المصطلح مباشرة طريقة تحضير الطبق، حيث يتم تفريغ الخضروات وملؤها بمزيج متبل من اللحم أو الأرز أو الحبوب الأخرى."
+    },
+    "spanish": {
+      "summary": "El término \"Mahshi\" se origina de la palabra árabe \"محشي\" (maḥshī), que significa \"relleno\" o \"lleno\". Describe directamente el método de preparación del plato, donde las verduras se vacían y se rellenan con una mezcla sazonada de carne, arroz u otros granos."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Mahshi traces back to the Ottoman Empire, where the broader tradition of \"dolma\" or stuffed vegetables became prevalent throughout the Middle East and North Africa. For Tunisian Jews, particularly those from Djerba, Mahshi evolved as a staple, reflecting the broader adoption and localization of Ottoman culinary practices. It was likely introduced to the region between the 16th and 18th centuries a",
+      "evolution": "",
+      "cultural_significance": "Mahshi holds special meaning in Tunisian-Djerban Jewish communities, where it is often prepared for festive occasions, Sabbaths, and Jewish holidays such as Passover. Its importance stems from its association with warmth, hospitality, and communal gatherings. Making Mahshi is typically a family affair, connecting generations and preserving culinary heritage.\n\n### Etymology\n\nThe term \"Mahshi\" origi",
+      "regional_variations": "",
+      "summary": "Mahshi traces back to the Ottoman Empire, where the broader tradition of \"dolma\" or stuffed vegetables became prevalent throughout the Middle East and North Africa. For Tunisian Jews, particularly those from Djerba, Mahshi evolved as a staple, reflecting the broader adoption and localization of Ottoman culinary practices. It was likely introduced to the region between the 16th and 18th centuries a"
+    },
+    "hebrew": {
+      "summary": "מחשי חוזר לשורשיו באימפריה העות'מאנית, שם המסורת הרחבה של \"דולמה\" או ירקות ממולאים הפכה לנפוצה ברחבי המזרח התיכון וצפון אפריקה. עבור היהודים התוניסאים, במיוחד אלו מג'רבה, מחשי התפתח כמאכל בסיסי, המשקף את האימוץ הרחב וההתאמה המקומית של המנהגים הקולינריים העות'מאניים. סביר להניח שהוא הוכנס לאזור בין המאות ה-16 וה-18."
+    },
+    "arabic": {
+      "summary": "المحشي يعود تاريخه إلى الإمبراطورية العثمانية، حيث أصبحت تقاليد \"الدولمة\" أو الخضروات المحشوة شائعة في جميع أنحاء الشرق الأوسط وشمال إفريقيا. بالنسبة لليهود التونسيين، وخاصة أولئك من جربة، تطور المحشي ليصبح طعاماً أساسياً، مما يعكس التبني الأوسع والتوطين للممارسات الطهوية العثمانية. من المحتمل أنه تم تقديمه إلى المنطقة بين القرنين السادس عشر والثامن عشر."
+    },
+    "spanish": {
+      "summary": "Mahshi se remonta al Imperio Otomano, donde la amplia tradición de \"dolma\" o verduras rellenas se hizo prevalente en todo el Medio Oriente y el Norte de África. Para los judíos tunecinos, particularmente aquellos de Djerba, Mahshi evolucionó como un alimento básico, reflejando la adopción y localización más amplia de las prácticas culinarias otomanas. Probablemente fue introducido en la región entre los siglos XVI y XVIII."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Jewish recipe, often enjoyed during festive occasions. The choice of vegetables can vary based on personal preference and seasonal availability.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Jewish recipe, often enjoyed during festive occasions. The choice of vegetables can vary based on personal preference and seasonal availability."
+    },
+    "hebrew": {
+      "summary": "מנה זו היא מתכון מסורתי של יהודי תוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות באירועים חגיגיים. בחירת הירקות יכולה להשתנות בהתאם להעדפה אישית וזמינות עונתית."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من التراث اليهودي التونسي، وغالباً ما يُستمتع بها خلال المناسبات الاحتفالية. يمكن أن يختلف اختيار الخضروات بناءً على التفضيلات الشخصية وتوافرها الموسمي."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional tunecino-judía, que se disfruta a menudo durante ocasiones festivas. La elección de las verduras puede variar según la preferencia personal y la disponibilidad estacional."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "mahshi_history.md",
+    "history_md": "mahshi_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

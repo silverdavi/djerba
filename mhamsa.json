@@ -1,0 +1,127 @@
+{
+  "id": "mhamsa",
+  "image": "mhamsa.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מחמסה",
+    "es": "La Mhamsa",
+    "ar": "المحمصة",
+    "en": "Mhamsa"
+  },
+  "description": {
+    "he": "מחמסה היא מנה ביתית, אהובה על ילדים, הנפוצה בגירסה יבשה או מרקית, ולעיתים בתוספת פרוסות נקניקייה בתבשיל היבש או המרקי האדום; היא מוכנה תוך פחות מרבע שעה. השם נגזר מהמילה הערבית \"מַחַמַּצַה\" (קלויה), ומתייחס לשיטה המסורתית של קליית פתיתי הסולת כדי לשמרם ולהעמיק את טעמם האגוזי.",
+    "es": "La Mhamsa es un plato casero muy querido por los niños, común en versiones secas o caldosas —a menudo con rodajas de salchicha en el guiso rojo— y está lista en menos de 15 minutos. El nombre deriva de la palabra árabe para \"tostado\" (m'hammas), y se refiere a la técnica tradicional de tostar las perlas de sémola para conservarlas e intensificar su sabor.",
+    "ar": "المحمصة هي أكلة منزلية محبوبة لدى الأطفال، تُقدَّم إمّا جافة أو كحساء، وغالبًا ما تُضاف إليها شرائح النقانق في المرق الأحمر، وتُحضَّر في أقل من ربع ساعة. يُشتق الاسم من الكلمة العربية \"مُحَمَّصة\"، في إشارة إلى الطريقة التقليدية في تحميص حبات العجين أو السّميد لحفظها وتعزيز نكهتها.",
+    "en": "Mhamsa is a beloved homemade dish, popular with children, served in either dry or soupy versions — often with sliced sausages added to the red stew — and ready in under 15 minutes. The name derives from the Arabic word for \"roasted\" (m'hammas), referring to the traditional technique of toasting the semolina pearls to preserve them and enhance their nutty flavor."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל קטן",
+      "1 כוס מחמסה (פתיתים)",
+      "1 כף פפריקה מתוקה",
+      "פלפל שחור לפי הטעם",
+      "1 עגבנייה קצוצה",
+      "ירקות לפי בחירה",
+      "מים (כוס ורבע על כל כוס מחמסה)"
+    ],
+    "es": [
+      "1 cebolla pequeña",
+      "1 taza de Mhamsa (cuscús israelí / perlas de pasta)",
+      "1 cda de pimentón dulce (páprika)",
+      "Pimienta negra al gusto",
+      "1 tomate picado",
+      "Verduras a elección",
+      "Agua (1¼ tazas por cada taza de Mhamsa)"
+    ],
+    "ar": [
+      "1 بصلة صغيرة",
+      "1 كأس محمصة (بركوكش / بتيتيم)",
+      "1 مغرفة كبيرة بابريكا حلوة",
+      "فلفل أكحل حسب الرغبة",
+      "1 كعبة طماطم مقصوصة",
+      "خضرة حسب الاختيار",
+      "ماء (كأس وربع لكل كأس محمصة)"
+    ],
+    "en": [
+      "1 small onion",
+      "1 cup Mhamsa (Israeli couscous / pearl pasta)",
+      "1 tbsp sweet paprika",
+      "Black pepper to taste",
+      "1 chopped tomato",
+      "Vegetables of choice",
+      "Water (1¼ cups per cup of Mhamsa)"
+    ]
+  },
+  "variants": [
+    {
+      "name": {
+        "he": "מחמסה יבשה",
+        "es": "Mhamsa seca",
+        "ar": "للمحمصة الشايحة (الجافة)",
+        "en": "Dry Mhamsa"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל קטן עד שהוא נהיה שקוף.",
+          "מוסיפים את המחמסה וממשיכים לטגן כמה דקות נוספות, ולאחר מכן מוסיפים מים לפי היחס הרצוי.",
+          "מכסים ומבשלים 7–10 דקות. מכבים את האש ומשאירים לנוח מספר דקות לפני ההגשה."
+        ],
+        "es": [
+          "Sofreír una cebolla pequeña hasta que esté transparente.",
+          "Agregar la Mhamsa y continuar sofriendo/tostando unos minutos más. Luego agregar agua según la proporción indicada.",
+          "Tapar y cocinar 7–10 minutos. Apagar el fuego y dejar reposar unos minutos antes de servir."
+        ],
+        "ar": [
+          "قلّي بصلة صغيرة في الزيت حتى تذبل وتصبح شفافة.",
+          "أضيفي المحمصة وواصلي التقليب دقيقتين، ثم مرّقي بالماء حسب الحساب: كأس وربع ماء لكل كأس محمصة.",
+          "غطّي الطنجرة واطهي 7–10 دقائق. أطفئي النار واتركيها ترتاح دقائق قبل التقديم."
+        ],
+        "en": [
+          "Sauté a small onion until transparent.",
+          "Add the Mhamsa and continue to sauté/toast for a few more minutes, then add water according to the ratio above.",
+          "Cover and cook for 7–10 minutes. Turn off the heat and let it rest for a few minutes before serving."
+        ]
+      }
+    },
+    {
+      "name": {
+        "he": "מחמסה עם רוטב (מרקית)",
+        "es": "Mhamsa con salsa (caldosa)",
+        "ar": "للمحمصة بالمرقة (حمراء)",
+        "en": "Saucy Mhamsa (Stew)"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל קטן עד שהוא מתחיל להזהיב. מוסיפים כף פפריקה מתוקה ומטגנים מספר שניות, בזהירות שלא יישרף.",
+          "מוסיפים את העגבנייה הקצוצה ואת הירקות שבחרתם, מתבלים במלח ופלפל שחור ומוסיפים מים רותחים.",
+          "מוסיפים את המחמסה לסיר.",
+          "מביאים לרתיחה, מנמיכים את האש, מכסים חלקית ומבשלים על אש קטנה עד שהמחמסה מוכנה."
+        ],
+        "es": [
+          "Sofreír una cebolla pequeña hasta que empiece a dorarse. Añadir 1 cucharada de pimentón dulce y sofreír unos segundos.",
+          "Agregar el tomate picado y las verduras deseadas. Sazonar con sal y pimienta negra, y añadir agua hirviendo.",
+          "Incorporar la Mhamsa.",
+          "Llevar a ebullición, bajar el fuego, tapar parcialmente y cocinar a fuego lento hasta que esté tierna."
+        ],
+        "ar": [
+          "قلّي بصلة صغيرة حتى تبدأ تحمار شوية. ضعي مغرفة كبيرة بابريكا حلوة وحرّكي بسرعة حتى لا تحترق.",
+          "زيدي كعبة الطماطم المقصوصة والخضرة اللي عندك، فوّحي بالملح والفلفل الأكحل ومرّقي بالماء السخون (يغلي).",
+          "ارمي المحمصة في المرقة.",
+          "خليها تغلي، ثم نقص النار (نار هادئة)، غطي الطنجرة نص تغطية وخليها تطيب على راحتها حتى تحضر."
+        ],
+        "en": [
+          "Sauté a small onion until it begins to brown. Add 1 tbsp of sweet paprika and fry for a few seconds to release flavor.",
+          "Add the chopped tomato and any vegetables you like. Season with salt and black pepper, then add boiling water.",
+          "Stir in the Mhamsa.",
+          "Bring to a boil, reduce heat, partially cover, and simmer gently until cooked through."
+        ]
+      }
+    }
+  ]
+}
+

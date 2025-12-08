@@ -1,0 +1,23 @@
+{
+  "id": "couscous",
+  "name_hebrew": "קוסקוס",
+  "name_english": "Couscous",
+  "ingredients": [
+    "1 kg semolina",
+    "Water",
+    "Oil"
+  ],
+  "instructions": [
+    "Pour 1 kg of semolina into a wide bowl through a coarse sieve. Rotate the semolina to ensure it is clean, discarding any impurities that rise to the surface.",
+    "Add 1/4 cup of water and mix the semolina. Then, add another 1/4 cup of water, being careful not to add too much.",
+    "Transfer the semolina through the coarse sieve, adding a little oil by hand and mixing well. Place it in a steaming pot, which should be set over a pot of boiling water.",
+    "Steam for about 30 minutes. Once done, transfer the couscous to a bowl, sprinkle water over it, and fluff it up.",
+    "Repeat this steaming process until steam rises from the couscous. Finally, drizzle a little oil over the couscous and transfer it to a serving bowl."
+  ],
+  "notes": "Couscous is a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed as a side dish or base for stews. The steaming process is crucial for achieving the perfect texture.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "10_קוסקוס.json"
+  }
+}

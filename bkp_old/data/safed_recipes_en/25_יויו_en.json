@@ -1,0 +1,23 @@
+{
+  "id": "yoyo",
+  "name_hebrew": "יויו",
+  "name_english": "Yoyo",
+  "ingredients": [
+    "Flour",
+    "Sugar",
+    "Oil",
+    "Eggs",
+    "Orange juice",
+    "Vanilla"
+  ],
+  "instructions": [
+    "Mix all the ingredients together until a soft and non-sticky dough forms, then let it rest for half an hour.",
+    "Shape the dough into circles with a hole in the middle. Fry them in hot deep oil until golden brown, then remove and place on paper towels. Dip in syrup."
+  ],
+  "notes": "Yoyo is a traditional Tunisian-Djerban Jewish treat, often enjoyed during festive occasions. The syrup adds a delightful sweetness that complements the fried dough.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "25_יויו.json"
+  }
+}

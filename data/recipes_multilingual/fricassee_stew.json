@@ -1,0 +1,90 @@
+{
+  "id": "fricassee_stew",
+  "image": "fricassee_stew.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פריקסה (תבשיל)",
+    "es": "Fricasé",
+    "ar": "فريكاسي (مرقة)",
+    "en": "Fricassee Stew"
+  },
+  "description": {
+    "he": "גרסה טבעונית למנה חורפית מנחמת של תבשיל ירקות ונתחים מן הצומח, המועשר בכופתאות בצק רכות המתבשלות בתוך הרוטב. המקור לשם הוא מהמילה הצרפתית 'fricassée' המתארת שיטת בישול של טיגון ובישול ברוטב, מנה זו שונה מהכריך התוניסאי המפורסם בעל אותו השם.",
+    "es": "Una versión vegana de un guiso reconfortante con verduras y proteína vegetal, enriquecido con suaves bolas de masa hervidas en la salsa. El nombre proviene del francés 'fricassée', refiriéndose al método de guisar, y es distinto del famoso sándwich tunecino del mismo nombre.",
+    "ar": "نسخة نباتية لمرقة شتوية بامتياز، فيها الخضرة وطروف الصوجا أو السيتان، وتتميز بكعابر العجين (كופתאות) اللي يطيبو وسط المرقة. الاسم جاي من الكلمة الفرنسية 'fricassée' اللي تعني طريقة الطياب، وهي تختلف على كاسكروت الفريكاسي المعروف.",
+    "en": "A vegan version of a comforting winter stew featuring plant-based protein and vegetables, distinguished by soft dough dumplings simmered directly in the sauce. The name derives from the French method 'fricassée', distinct from the famous Tunisian sandwich of the same name."
+  },
+  "ingredients": {
+    "he": [
+      "300 גרם נתחי סייטן / סויה / טופו",
+      "1 גזר גדול",
+      "1 בצל בינוני",
+      "3 כפות שמן",
+      "מלח ופלפל שחור",
+      "מים או ציר ירקות",
+      "לכופתאות: 1/2 כוס קמח, מים, קורט מלח"
+    ],
+    "es": [
+      "300g de trozos de seitán / soja / tofu",
+      "1 zanahoria grande",
+      "1 cebolla mediana",
+      "3 cucharadas de aceite",
+      "Sal y pimienta negra",
+      "Agua o caldo de verduras",
+      "Para los dumplings: 1/2 taza de harina, agua, pizca de sal"
+    ],
+    "ar": [
+      "300 غرام طروف سيتان / صوجا / توفو",
+      "1 سفنارية (جزر) كبيرة",
+      "1 بصلة متوسطة",
+      "3 مغارف زيت",
+      "ملح وفلفل أكحل",
+      "ماء أو مرق خضرة",
+      "للعجين: نصف كأس فرينة، ماء، رشة ملح"
+    ],
+    "en": [
+      "300g Seitan / Soy chunks / Tofu",
+      "1 large carrot",
+      "1 medium onion",
+      "3 tbsp oil",
+      "Salt and black pepper",
+      "Water or vegetable broth",
+      "Dumplings: 1/2 cup flour, water, pinch of salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר ומאדים את נתחי הסייטן/סויה כ-10 דקות עד להזהבה.",
+      "מוסיפים קוביות גזר ובצל, מתבלים במלח ופלפל ומאדים יחד.",
+      "מוסיפים מים או ציר ירקות עד לכיסוי ומביאים לרתיחה.",
+      "מכינים את הכופתאות: מערבבים בקערה קמח, מים ומלח עד לקבלת בלילה רכה אך יציבה.",
+      "בעזרת כף, מזלפים נטיפי בצק לתוך הרוטב הרותח ומבשלים עד שהן צפות ומוכנות."
+    ],
+    "es": [
+      "Calentar aceite en una olla y sofreír el seitán/soja unos 10 minutos hasta que se dore.",
+      "Añadir la zanahoria y la cebolla en cubos, salpimentar y sofreír juntos.",
+      "Agregar agua o caldo hasta cubrir y llevar a ebullición.",
+      "Preparar los dumplings: mezclar harina, agua y sal hasta obtener una masa suave.",
+      "Con una cuchara, dejar caer porciones de masa en el caldo hirviendo y cocinar hasta que floten."
+    ],
+    "ar": [
+      "سخّن الزيت في الطنجرة وقلّي طروف السيتان أو الصوجا مدة 10 دقايق لين يحمارو.",
+      "زيد السفنارية والبصل مقصوصين مكعبات، فوّح بالملح والفلفل الأكحل وقلّيهم.",
+      "مرّق بالماء أو مرق الخضرة لين يتغطى الخليط وخليه يغلي.",
+      "حضّر العجين: خلّط الفرينة والماء والملح لين تتحصل على عجينة طرية.",
+      "بالمغرفة، ارمي كعابر صغار من العجين في المرقة وهي تغلي وخليهم يطيبو."
+    ],
+    "en": [
+      "Heat oil in a pot and sauté the seitan/soy chunks for 10 mins until golden.",
+      "Add cubed carrot and onion, season with salt and pepper, and sauté together.",
+      "Add water or broth to cover and bring to a boil.",
+      "Make dumplings: Mix flour, water, and salt into a soft batter.",
+      "Using a spoon, drop small portions of batter into the boiling stew and cook until done."
+    ]
+  }
+}

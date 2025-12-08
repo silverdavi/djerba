@@ -1,0 +1,20 @@
+{
+  "id": "brodo",
+  "name_hebrew": "ברודו",
+  "name_english": "Brodo",
+  "ingredients": [
+    "Water",
+    "Chicken",
+    "Vegetables: pumpkin, zucchini, carrot, potato, garlic"
+  ],
+  "instructions": [
+    "Place all the ingredients in a pot and add salt.",
+    "Cook and bring to a boil, then reduce the heat and simmer for about half an hour."
+  ],
+  "notes": "Brodo is a traditional Tunisian-Djerban Jewish dish, often enjoyed as a comforting soup. It can be served as a starter or a main dish, depending on preference.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "06_ברודו.json"
+  }
+}

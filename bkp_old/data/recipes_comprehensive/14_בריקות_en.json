@@ -1,0 +1,255 @@
+{
+  "id": "brik",
+  "names": {
+    "english": "Brik",
+    "hebrew": "בריקות",
+    "arabic": "بريك",
+    "spanish": "Brik"
+  },
+  "metadata": {
+    "category": "Bread & Pastry",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Brik leaves",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Mashed potatoes or eggs",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "kilogram flour",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "yeast",
+        "amount": "1",
+        "unit": "tablespoon"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "cups"
+      },
+      {
+        "name": "oil",
+        "amount": "1/2",
+        "unit": "cup"
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "name": "أوراق البريك",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بطاطس مهروسة أو بيض",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ملح",
+        "amount": "1",
+        "unit": "ملعقة طعام"
+      },
+      {
+        "name": "دقيق",
+        "amount": "1",
+        "unit": "كيلوغرام"
+      },
+      {
+        "name": "خميرة",
+        "amount": "1",
+        "unit": "ملعقة طعام"
+      },
+      {
+        "name": "سكر",
+        "amount": "1/2",
+        "unit": "كوب"
+      },
+      {
+        "name": "ماء",
+        "amount": "3",
+        "unit": "أكواب"
+      },
+      {
+        "name": "زيت",
+        "amount": "1/2",
+        "unit": "كوب"
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Hojas de brik",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Puré de papas o huevos",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "sal",
+        "amount": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "harina de kilogramo",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "levadura",
+        "amount": "1",
+        "unit": "cucharada"
+      },
+      {
+        "name": "azúcar",
+        "amount": "1/2",
+        "unit": "taza"
+      },
+      {
+        "name": "agua",
+        "amount": "3",
+        "unit": "tazas"
+      },
+      {
+        "name": "aceite",
+        "amount": "1/2",
+        "unit": "taza"
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Take a brik leaf and place it in a hot oil pan. Add an egg and then fold it over. Flip it to cook the other side."
+      },
+      {
+        "step": 2,
+        "text": "*If using mashed potatoes, fill the brik leaf before frying and cook on both sides."
+      },
+      {
+        "step": 3,
+        "text": "Knead the ingredients to form a soft and slightly sticky dough."
+      },
+      {
+        "step": 4,
+        "text": "Let the dough rise for about two hours."
+      },
+      {
+        "step": 5,
+        "text": "Shape the dough, brush with egg and sprinkle with sesame seeds, and let it rise for another 20 minutes."
+      },
+      {
+        "step": 6,
+        "text": "Bake in a preheated oven at high temperature for 10 minutes, then lower the temperature and bake for an additional 20 minutes."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Brik\" is thought to derive from the Turkish \"börek,\" referring to a similar savory pastry[1][5][9]. The root \"bur\" in Turkish means \"to twist,\" which also speaks to the folding of the dough around the filling[9]. In Tunisia, the pastry sheet used for Brik is called \"malsouka\" or \"warqa,\" the latter being an Arabic word meaning \"paper,\" reflecting the pastry's thinness[9]."
+    },
+    "hebrew": {
+      "summary": "השם \"בריק\" נחשב לנגזר מהמילה הטורקית \"בורק,\" המתייחסת למאפה מלוח דומה. השורש \"בור\" בטורקית משמעותו \"לסובב,\" מה שמדבר גם על קיפול הבצק סביב המילוי. בתוניסיה, דף הבצק המשמש לבריק נקרא \"מלסוקה\" או \"וורקה,\" כאשר המילה האחרונה היא מילה בערבית שמשמעותה \"נייר,\" מה שמשקף את דקיקות הבצק."
+    },
+    "arabic": {
+      "summary": "يُعتقد أن اسم \"بريك\" مشتق من الكلمة التركية \"بوريك\"، التي تشير إلى معجنات مالحة مشابهة. الجذر \"بور\" في التركية يعني \"يلوي\"، مما يشير أيضًا إلى طي العجين حول الحشوة. في تونس، تُسمى ورقة العجين المستخدمة في البريك \"ملسوقة\" أو \"ورقة\"، والأخيرة كلمة عربية تعني \"ورقة\"، مما يعكس رقة العجين."
+    },
+    "spanish": {
+      "summary": "El nombre \"Brik\" se cree que deriva del turco \"börek,\" refiriéndose a un pastel salado similar. La raíz \"bur\" en turco significa \"torcer,\" lo que también se refiere al doblado de la masa alrededor del relleno. En Túnez, la hoja de masa utilizada para Brik se llama \"malsouka\" o \"warqa,\" siendo esta última una palabra árabe que significa \"papel,\" reflejando la delgadez de la masa."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Brik is a deep-fried savory pastry originally from Tunisia, widely considered a cornerstone of North African cuisine, particularly among Tunisian-Djerban Jews[6][9][16]. Historical theories suggest that Brik’s roots stretch back at least 500 years, possibly developing in southern Tunisia amid the Jewish community before becoming a wider regional phenomenon[1][9][13]. There are also connections to ",
+      "evolution": "",
+      "cultural_significance": "Brik holds a special place as a food of both everyday enjoyment and ritual importance[2][6][10]. It is most famously served at the start of iftar, the meal that breaks the fast during Ramadan, and is also prominent at family gatherings, Shabbat meals, and celebrations within the Jewish community of Djerba and beyond[2][10][16]. Its communal preparation and consumption underscore themes of hospital",
+      "regional_variations": "",
+      "summary": "Brik is a deep-fried savory pastry originally from Tunisia, widely considered a cornerstone of North African cuisine, particularly among Tunisian-Djerban Jews[6][9][16]. Historical theories suggest that Brik’s roots stretch back at least 500 years, possibly developing in southern Tunisia amid the Jewish community before becoming a wider regional phenomenon[1][9][13]. There are also connections to "
+    },
+    "hebrew": {
+      "summary": "בריק הוא מאפה מלוח מטוגן בשמן עמוק שמקורו בתוניסיה, ונחשב לאבן יסוד במטבח הצפון-אפריקאי, במיוחד בקרב יהודי תוניסיה-ג'רבה. תיאוריות היסטוריות מציעות כי שורשי הבריק נמשכים לפחות 500 שנה אחורה, ואולי התפתחו בדרום תוניסיה בקרב הקהילה היהודית לפני שהפכו לתופעה אזורית רחבה יותר. ישנם גם קשרים ל"
+    },
+    "arabic": {
+      "summary": "بريك هو معجنات مقلية في الزيت ذات طعم لذيذ، أصله من تونس، ويُعتبر على نطاق واسع حجر الزاوية في المطبخ الشمال أفريقي، خاصة بين يهود تونس-جربة. تشير النظريات التاريخية إلى أن جذور البريك تمتد إلى ما لا يقل عن 500 عام، وربما تطورت في جنوب تونس بين المجتمع اليهودي قبل أن تصبح ظاهرة إقليمية أوسع. هناك أيضًا روابط إلى"
+    },
+    "spanish": {
+      "summary": "Brik es un pastel salado frito originario de Túnez, ampliamente considerado como una piedra angular de la cocina del norte de África, particularmente entre los judíos tunecinos-djerbanos. Las teorías históricas sugieren que las raíces del Brik se remontan al menos 500 años, posiblemente desarrollándose en el sur de Túnez en medio de la comunidad judía antes de convertirse en un fenómeno regional más amplio. También hay conexiones con"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Brik is a traditional dish often enjoyed during festive occasions, particularly in Tunisian-Jewish cuisine. It can be filled with various ingredients, making it versatile and delicious.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Brik is a traditional dish often enjoyed during festive occasions, particularly in Tunisian-Jewish cuisine. It can be filled with various ingredients, making it versatile and delicious."
+    },
+    "hebrew": {
+      "summary": "בריק הוא מאכל מסורתי שנהנים ממנו לעיתים קרובות במהלך אירועים חגיגיים, במיוחד במטבח היהודי-תוניסאי. ניתן למלא אותו במגוון מרכיבים, מה שהופך אותו לרב-גוני וטעים."
+    },
+    "arabic": {
+      "summary": "بريك هو طبق تقليدي يُستمتع به غالبًا خلال المناسبات الاحتفالية، خاصة في المطبخ التونسي-اليهودي. يمكن حشوه بمكونات متنوعة، مما يجعله متعدد الاستخدامات ولذيذًا."
+    },
+    "spanish": {
+      "summary": "Brik es un plato tradicional que se disfruta a menudo durante ocasiones festivas, especialmente en la cocina judeo-tunecina. Se puede rellenar con varios ingredientes, lo que lo hace versátil y delicioso."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "brik_history.md",
+    "history_md": "brik_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

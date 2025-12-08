@@ -1,0 +1,14 @@
+[
+  {
+    "recipe": "Mhamsa",
+    "status": "SUCCESS",
+    "timestamp": "2025-06-19T21:39:20.163278",
+    "image_path": "data/images/generated/mhamsa.png"
+  },
+  {
+    "recipe": "Semolina Soup",
+    "status": "SUCCESS",
+    "timestamp": "2025-06-19T21:42:11.239143",
+    "image_path": "data/images/generated/semolina_soup.png"
+  }
+]

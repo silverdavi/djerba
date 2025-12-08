@@ -1,0 +1,26 @@
+{
+  "id": "bikila",
+  "name_hebrew": "בקילה",
+  "name_english": "Bikila",
+  "ingredients": [
+    "2 bunches of beet greens",
+    "Oil",
+    "Water",
+    "Cilantro",
+    "Dill",
+    "Pieces of meat",
+    "White beans",
+    "Garlic"
+  ],
+  "instructions": [
+    "Wash the beet greens thoroughly, chop them into pieces, and place them in a wide pot without water. Cook on low heat to steam until all the moisture evaporates (the greens will look an unappealing green color).",
+    "Add half a cup of oil and sauté until the leaves turn a dark green color.",
+    "For the sauce: Combine 2 cups of white beans, meat cubes, garlic, and salt in a pot. Add cilantro and dill. Take 2 cups of the sauce and mix in the white beans."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions. The beet greens provide a unique flavor and are a nutritious addition to the meal.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "21_בקילה.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ktaa_soup",
+  "name_hebrew": "מרק קטעה",
+  "name_english": "Kta'a Soup (Torn Dough Soup)",
+  "ingredients": [
+    "Dough:",
+    "2 cups flour",
+    "1/2 cup water",
+    "1/2 teaspoon salt",
+    "Soup:",
+    "2 tablespoons olive oil",
+    "1 large onion, chopped",
+    "3-4 cloves garlic, chopped",
+    "2-3 ripe tomatoes, crushed",
+    "1 tablespoon tomato paste",
+    "1 teaspoon cumin",
+    "1/2 teaspoon sweet paprika",
+    "Salt and pepper to taste",
+    "1.5 liters water or vegetable broth",
+    "Juice of half a lemon",
+    "Handful chopped cilantro (optional)"
+  ],
+  "instructions": [
+    "Prepare the dough: Mix flour and salt in a bowl. Gradually add water and knead until a uniform and flexible dough forms. Cover and let rest for 30 minutes.",
+    "Prepare the soup base: Heat olive oil in a large pot. Sauté onion and garlic until golden.",
+    "Add crushed tomatoes and tomato paste, cook for a few minutes.",
+    "Season with cumin, paprika, salt, and pepper.",
+    "Add water or broth, bring to a boil, and simmer on low heat for about 10 minutes.",
+    "Add the dough: Tear small pieces of the dough and drop them into the boiling soup.",
+    "Cook for another 10 minutes until the dough is cooked through and soft.",
+    "Finish: Stir in lemon juice and cilantro. Taste and adjust seasoning if needed.",
+    "Serve warm."
+  ],
+  "notes": "Kta'a (meaning 'torn' or 'cut') is a traditional warming winter soup from Libyan and Tunisian Jewish cuisine, characterized by hand-torn pieces of dough cooked directly in the rich tomato broth.",
+  "metadata": {
+    "source": "Web Search (Tomer Thomas / Traditional)",
+    "translated_from_hebrew": true,
+    "original_json": null
+  }
+}
+

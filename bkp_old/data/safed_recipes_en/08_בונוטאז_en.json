@@ -1,0 +1,24 @@
+{
+  "id": "bounotaz",
+  "name_hebrew": "בונוטאז",
+  "name_english": "Bounotaz",
+  "ingredients": [
+    "Boiled potatoes",
+    "Ground chicken breast",
+    "1 egg",
+    "Bread crumbs"
+  ],
+  "instructions": [
+    "Mash the boiled potatoes thoroughly.",
+    "Cook the ground chicken and crumble it.",
+    "Take a spoonful of mashed potatoes in your hand, add a teaspoon of the crumbled chicken, and shape it into a patty.",
+    "Coat each patty in flour, dip it in the egg, and then roll it in bread crumbs.",
+    "Fry the patties in deep oil until golden brown."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "08_בונוטאז.json"
+  }
+}

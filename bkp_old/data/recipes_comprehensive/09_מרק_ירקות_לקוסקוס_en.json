@@ -1,0 +1,273 @@
+{
+  "id": "vegetable_soup_for_couscous",
+  "names": {
+    "english": "Vegetable Soup for Couscous",
+    "hebrew": "מרק ירקות לקוסקוס",
+    "arabic": "شوربة خضار للكسكسي",
+    "spanish": "Sopa de Verduras para Cuscús"
+  },
+  "metadata": {
+    "category": "Soup",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Chicken",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pumpkin",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Zucchini",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Onion",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Chickpeas",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Potatoes",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Spices",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Green beans",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "עוף",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "דלעת",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "קישוא",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "בצל",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "חומוס",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תפוחי אדמה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תבלינים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שעועית ירוקה",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "دجاج",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "قرع",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "كوسة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بصل",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "حمص",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بطاطس",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بهارات",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فاصوليا خضراء",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a pot, heat a small amount of oil with paprika. Add sliced onions and sauté until translucent."
+      },
+      {
+        "step": 2,
+        "text": "Next, add all the vegetables along with salt and sauté for about half an hour."
+      },
+      {
+        "step": 3,
+        "text": "Pour in boiling water and add the chicken. Finally, add the potatoes."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "\"מרק ירקות לקוסקוס\" translates to \"vegetable soup for couscous\" in Hebrew. \"מרק ירקות\" (marak yerakot) means \"vegetable soup,\" and \"לקוסקוס\" (le-couscous) means \"for couscous,\" clearly emphasizing its role as the essential accompaniment to the couscous grain."
+    },
+    "hebrew": {
+      "summary": "\"מרק ירקות לקוסקוס\" מתורגם ל-\"vegetable soup for couscous\" באנגלית. \"מרק ירקות\" (marak yerakot) פירושו \"vegetable soup\", ו-\"לקוסקוס\" (le-couscous) פירושו \"for couscous\", מה שמדגיש בבירור את תפקידו כליווי חיוני לגרגרי הקוסקוס."
+    },
+    "arabic": {
+      "summary": "\"مرق خضار للكوسكوس\" يُترجم إلى \"حساء الخضار للكوسكوس\" بالعبرية. \"מרק ירקות\" (مرق خضار) يعني \"حساء الخضار\"، و\"לקוסקוס\" (للكوسكوس) يعني \"للكوسكوس\"، مما يوضح دوره كرفيق أساسي لحبوب الكوسكوس."
+    },
+    "spanish": {
+      "summary": "\"מרק ירקות לקוסקוס\" se traduce como \"sopa de verduras para cuscús\" en hebreo. \"מרק ירקות\" (marak yerakot) significa \"sopa de verduras\", y \"לקוסקוס\" (le-couscous) significa \"para cuscús\", destacando claramente su papel como el acompañamiento esencial del grano de cuscús."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "This dish originates in North Africa, specifically among Tunisian and Djerban Jewish communities. The tradition of serving a rich vegetable soup with couscous is centuries old, emerging from the integration of Maghrebi Berber food culture and Jewish dietary laws. Tunisian Jews, particularly from the island of Djerba, adapted local couscous customs to fit kosher requirements and community tastes, e",
+      "evolution": "",
+      "cultural_significance": "For Tunisian- and Djerban-Jewish families, vegetable soup for couscous is an essential part of Shabbat meals, holidays like Passover (when permitted), and celebrations marking the end of holidays or lifecycle events. It represents warmth, abundance, and communal gathering. The soup, ladled over steamed couscous, is symbolic of sustenance and unity, served at the center of the table for sharing.\n\n#",
+      "regional_variations": "",
+      "summary": "This dish originates in North Africa, specifically among Tunisian and Djerban Jewish communities. The tradition of serving a rich vegetable soup with couscous is centuries old, emerging from the integration of Maghrebi Berber food culture and Jewish dietary laws. Tunisian Jews, particularly from the island of Djerba, adapted local couscous customs to fit kosher requirements and community tastes, e"
+    },
+    "hebrew": {
+      "summary": "מנה זו מקורה בצפון אפריקה, במיוחד בקרב הקהילות היהודיות בתוניסיה ובג'רבה. המסורת של הגשת מרק ירקות עשיר עם קוסקוס היא בת מאות שנים, ונובעת מהשילוב של תרבות האוכל הברברית המגרבית עם חוקי הכשרות היהודיים. יהודי תוניסיה, במיוחד מהאי ג'רבה, התאימו את מנהגי הקוסקוס המקומיים לדרישות הכשרות ולטעמי הקהילה."
+    },
+    "arabic": {
+      "summary": "هذا الطبق ينشأ في شمال أفريقيا، وتحديداً بين المجتمعات اليهودية التونسية والجربية. تقليد تقديم حساء الخضروات الغني مع الكسكس يعود لقرون مضت، وقد نشأ من اندماج ثقافة الطعام الأمازيغية المغاربية مع القوانين الغذائية اليهودية. قام يهود تونس، وخاصة من جزيرة جربة، بتكييف عادات الكسكس المحلية لتتناسب مع متطلبات الكوشر وذوق المجتمع."
+    },
+    "spanish": {
+      "summary": "Este plato se origina en el norte de África, específicamente entre las comunidades judías tunecinas y djerbanas. La tradición de servir una rica sopa de verduras con cuscús tiene siglos de antigüedad, surgiendo de la integración de la cultura alimentaria bereber magrebí y las leyes dietéticas judías. Los judíos tunecinos, particularmente de la isla de Djerba, adaptaron las costumbres locales del cuscús para ajustarse a los requisitos kosher y a los gustos de la comunidad."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This hearty vegetable soup is traditionally served with couscous in Tunisian-Djerban Jewish cuisine, making it a perfect accompaniment for a comforting meal.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This hearty vegetable soup is traditionally served with couscous in Tunisian-Djerban Jewish cuisine, making it a perfect accompaniment for a comforting meal."
+    },
+    "hebrew": {
+      "summary": "מרק הירקות העשיר הזה מוגש באופן מסורתי עם קוסקוס במטבח היהודי התוניסאי-ג'רבאי, מה שהופך אותו לליווי מושלם לארוחה מנחמת."
+    },
+    "arabic": {
+      "summary": "تُقدَّم هذه الشوربة الغنية بالخضروات تقليديًا مع الكسكس في المطبخ اليهودي التونسي-الجربي، مما يجعلها مرافقة مثالية لوجبة مريحة."
+    },
+    "spanish": {
+      "summary": "Esta abundante sopa de verduras se sirve tradicionalmente con cuscús en la cocina judía tunecina-djerbana, lo que la convierte en el acompañamiento perfecto para una comida reconfortante."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "vegetable_soup_for_couscous_history.md",
+    "history_md": "vegetable_soup_for_couscous_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shmid",
+  "name_hebrew": "שמיד",
+  "name_english": "Shmid",
+  "ingredients": [
+    "1 small onion",
+    "semolina",
+    "potato",
+    "spices: sweet paprika, black pepper",
+    "garlic"
+  ],
+  "instructions": [
+    "Prepare the semolina similar to how you would prepare couscous (known as 'mahamsa' in Arabic).",
+    "Gradually add the semolina while stirring continuously to prevent lumps from forming. You may also add potato for additional texture."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed as a comforting side or main dish.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "01_שמיד.json"
+  }
+}

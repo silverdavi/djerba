@@ -1,0 +1,23 @@
+{
+  "id": "thick_sour_and_spicy_soup_of_bina",
+  "name_hebrew": "מרק סמיך חמוץ וחריף של בינה",
+  "name_english": "Thick Sour and Spicy Soup of Bina",
+  "ingredients": [
+    "Flour",
+    "Water",
+    "Garlic",
+    "Lemon juice",
+    "Hot paprika"
+  ],
+  "instructions": [
+    "Combine all the ingredients in a pot and cook over low heat, stirring well.",
+    "After about 20 minutes, prepare a roux by mixing water and flour, and gradually add it to the soup while stirring.",
+    "Taste and adjust the seasoning as needed."
+  ],
+  "notes": "This traditional Tunisian-Djerban Jewish soup is known for its unique blend of sour and spicy flavors, making it a comforting dish perfect for any occasion.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "33_מרק_סמיך_חמוץ_וחריף_של_בינה.json"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sufganiyot",
+  "name_hebrew": "סופגניות",
+  "name_english": "Sufganiyot",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1/4 cup sugar",
+    "1 packet (7g) dry yeast",
+    "1/2 teaspoon salt",
+    "1/2 cup warm milk",
+    "2 large eggs",
+    "1/4 cup unsalted butter, melted",
+    "Oil for frying",
+    "Powdered sugar for dusting",
+    "Jam or chocolate filling"
+  ],
+  "instructions": [
+    "In a large mixing bowl, combine the flour, sugar, yeast, and salt.",
+    "In a separate bowl, whisk together the warm milk, eggs, and melted butter.",
+    "Pour the wet ingredients into the dry ingredients and mix until a dough forms.",
+    "Knead the dough on a floured surface for about 5-7 minutes until smooth and elastic.",
+    "Place the dough in a greased bowl, cover with a cloth, and let it rise in a warm place for about 1 hour, or until doubled in size.",
+    "Once the dough has risen, punch it down and roll it out to about 1/2 inch thickness.",
+    "Cut out circles using a cookie cutter or glass, and let them rise for another 30 minutes.",
+    "Heat oil in a deep pan to 350°F (175°C).",
+    "Fry the dough circles in batches until golden brown on both sides, about 2-3 minutes per side.",
+    "Remove the sufganiyot from the oil and drain on paper towels.",
+    "Once cooled, fill with jam or chocolate and dust with powdered sugar before serving."
+  ],
+  "notes": "Sufganiyot are traditionally enjoyed during Hanukkah, symbolizing the miracle of the oil. They can be filled with various fillings, such as jelly or custard, and are best served fresh.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "16_סופגניות.json"
+  }
+}

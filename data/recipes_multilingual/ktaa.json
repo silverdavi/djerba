@@ -1,0 +1,82 @@
+{
+  "id": "ktaa",
+  "image": "ktaa.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קטעה",
+    "es": "Kta'a",
+    "ar": "القطعة",
+    "en": "Kta'a"
+  },
+  "description": {
+    "he": "מרק בצקניות מסורתי ופשוט המבוסס על בצק טרי הקרוע ביד לתוך ציר רותח. השם נגזר מהמילה הערבית \"קטעה\" (חתיכה), המתייחסת לפעולת קריעת הבצק לפיסות קטנות. המנה מסמיכה לקראת הסוף בעזרת רביכה ליצירת מרקם מנחם.",
+    "es": "Una sopa rústica y tradicional que lleva masa fresca troceada a mano dentro de un caldo hirviendo. El nombre deriva del árabe \"Qat'a\" (trozo), refiriéndose a los pequeños pedazos de masa que se echan a la olla. Se espesa al final para obtener una textura reconfortante.",
+    "ar": "حساء تقليدي بسيط يعتمد على العجين الطازج المقطع باليد في مرق يغلي. الاسم مشتق من كلمة \"قطعة\"، في إشارة إلى تقطيع العجين طروف صغيرة. تختار المرقة في النهاية بخليط الماء والدقيق لتصبح ثقيلة وبنينة.",
+    "en": "A rustic, traditional soup featuring fresh dough hand-torn into a boiling savory broth. The name derives from the Arabic word \"Qat'a\" (piece), referring to the small pieces of dough dropped into the pot. It is thickened at the end for a comforting texture."
+  },
+  "ingredients": {
+    "he": [
+      "3 כוסות קמח (לבצק)",
+      "מים (לפי הצורך)",
+      "3 כפות שמן",
+      "מלח ופלפל שחור",
+      "2 כפות קמח (להסמכה)"
+    ],
+    "es": [
+      "3 tazas de harina (para la masa)",
+      "Agua (la necesaria)",
+      "3 cdas de aceite",
+      "Sal y pimienta negra",
+      "2 cdas de harina (para espesar)"
+    ],
+    "ar": [
+      "3 كيسان فارينة (للعجين)",
+      "ماء (حسب الحاجة)",
+      "3 مغارف زيت",
+      "ملح وفلفل أكحل",
+      "2 مغارف فارينة (للتختير)"
+    ],
+    "en": [
+      "3 cups flour (for dough)",
+      "Water (as needed)",
+      "3 tbsp oil",
+      "Salt and black pepper",
+      "2 tbsp flour (for thickening)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכינים בצק: מערבבים 3 כוסות קמח, מעט מלח ומים בהדרגה ולשים עד לקבלת בצק נעים.",
+      "מרתיחים בסיר מים עם שמן, מלח ופלפל שחור.",
+      "קורעים חתיכות קטנות מהבצק וזורקים למים הרותחים (בודקים שלא יידבקו).",
+      "מערבבים בקערה נפרדת מעט קמח ומים לנוזל חלק.",
+      "שופכים את הנוזל לסיר תוך כדי ערבוב ומבשלים עד שהמרק מסמיך."
+    ],
+    "es": [
+      "Preparar la masa: mezclar 3 tazas de harina, sal y agua gradualmente hasta obtener una masa suave.",
+      "Hervir agua en una olla con aceite, sal y pimienta negra.",
+      "Trocear la masa en pedazos muy pequeños y echarlos al agua hirviendo (remover para que no se peguen).",
+      "Mezclar un poco de harina y agua en un tazón aparte hasta que quede líquido.",
+      "Verter en la olla removiendo constantemente y cocinar hasta que la sopa espese."
+    ],
+    "ar": [
+      "حضّر العجينة: خلّط 3 كيسان فارينة وشوية ملح والماء بشوية بشوية لين تتحصل على عجينة طرية.",
+      "غلّي الماء في الطنجرة مع الزيت والملح والفلفل الأكحل.",
+      "قطّع العجينة طروف صغار وارميهم في الماء يغلي (حرّك باش ما يلصقوش).",
+      "حل شوية فارينة في ماء في صحفة وحدها.",
+      "صب الخليط في الطنجرة وحرّك مليح لين تختار المرقة وتطيب."
+    ],
+    "en": [
+      "Make the dough: Mix 3 cups flour, salt, and water gradually until a smooth dough forms.",
+      "Boil water in a pot with oil, salt, and black pepper.",
+      "Tear small pieces of dough and drop them into the boiling water (stir to prevent sticking).",
+      "Mix a little flour and water in a separate bowl until smooth.",
+      "Pour into the pot while stirring and cook until the soup thickens."
+    ]
+  }
+}

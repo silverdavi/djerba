@@ -1,0 +1,189 @@
+{
+  "id": "tirshi",
+  "names": {
+    "english": "Tirshi",
+    "hebrew": "תירשי",
+    "arabic": "ترشي",
+    "spanish": "Tirshi"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Pumpkin",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "A small amount of potatoes (optional)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Spices (paprika, garlic, cumin, salt, lemon juice)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "דלעת",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "כמות קטנה של תפוחי אדמה (אופציונלי)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תבלינים (פפריקה, שום, כמון, מלח, מיץ לימון)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "يقطين",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "كمية صغيرة من البطاطا (اختياري)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "توابل (بابريكا، ثوم، كمون، ملح، عصير ليمون)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Calabaza",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Una pequeña cantidad de papas (opcional)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Especias (pimentón, ajo, comino, sal, jugo de limón)",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Cook the pumpkin (the potatoes are optional)."
+      },
+      {
+        "step": 2,
+        "text": "Drain well, mash with a fork, then add a little oil and the spices."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Cocina la calabaza (las patatas son opcionales)."
+      },
+      {
+        "step": 2,
+        "text": "Escurre bien, machaca con un tenedor, luego añade un poco de aceite y las especias."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Tirshi\" is derived from the Persian word \"torsh\" (ترش), which means \"sour,\" reflecting the dish's tangy flavor that often includes lemon juice or vinegar[1][11][7]. The naming connects it with a family of pickled and preserved dishes known around the Middle East as \"torshi,\" \"turshi,\" or \"tursu,\" all ultimately rooted in the same Persian etymology."
+    },
+    "hebrew": {
+      "summary": "שם המנה \"טירשי\" נגזר מהמילה הפרסית \"טורש\" (ترش), שמשמעותה \"חמוץ\", ומשקפת את הטעם החמצמץ של המנה, שלעיתים קרובות כולל מיץ לימון או חומץ. השם מקשר אותה עם משפחה של מנות כבושות ומשומרות הידועות ברחבי המזרח התיכון כ\"טורשי\", \"טורשי\" או \"טורסו\", שכולן בסופו של דבר נובעות מאותה אטימולוגיה פרסית."
+    },
+    "arabic": {
+      "summary": "اسم \"التيرشي\" مشتق من الكلمة الفارسية \"ترش\" (ترش)، والتي تعني \"حامض\"، مما يعكس النكهة اللاذعة للطبق الذي غالبًا ما يشمل عصير الليمون أو الخل. يرتبط الاسم بعائلة من الأطباق المخللة والمحفوظة المعروفة في جميع أنحاء الشرق الأوسط باسم \"طرشي\"، \"ترشي\"، أو \"طرسو\"، وكلها في النهاية متجذرة في نفس الأصل الفارسي."
+    },
+    "spanish": {
+      "summary": "El nombre \"Tirshi\" se deriva de la palabra persa \"torsh\" (ترش), que significa \"ácido\", reflejando el sabor agrio del plato que a menudo incluye jugo de limón o vinagre. El nombre lo conecta con una familia de platos encurtidos y conservados conocidos en todo el Medio Oriente como \"torshi\", \"turshi\" o \"tursu\", todos en última instancia arraigados en la misma etimología persa."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Tirshi is a specialty that can be traced to Tunisia, especially to the Jewish community of Djerba, which is one of the oldest Jewish communities in the world, dating back over 2,000 years[10][2]. While its broader origins are linked to the ancient practice of pickling and preserving vegetables in the Middle East and the Mediterranean regions, the specific dish known as Tirshi—a spiced, mashed squa",
+      "evolution": "",
+      "cultural_significance": "Tirshi holds significant value as a symbol of Tunisian Jewish domestic and festive cooking[4]. It is commonly served during Shabbat meals and Jewish holidays and is a feature of mezze spreads and celebratory gatherings. The dish's bright flavor and vibrant appearance underscore its popularity at communal tables and special events, reflecting both everyday and ritual aspects of North African Jewish",
+      "regional_variations": "",
+      "summary": "Tirshi is a specialty that can be traced to Tunisia, especially to the Jewish community of Djerba, which is one of the oldest Jewish communities in the world, dating back over 2,000 years[10][2]. While its broader origins are linked to the ancient practice of pickling and preserving vegetables in the Middle East and the Mediterranean regions, the specific dish known as Tirshi—a spiced, mashed squa"
+    },
+    "hebrew": {
+      "summary": "טירשי הוא מאכל מיוחד שניתן לייחס אותו לתוניסיה, במיוחד לקהילה היהודית של ג'רבה, שהיא אחת הקהילות היהודיות העתיקות ביותר בעולם, עם היסטוריה של למעלה מ-2,000 שנה. בעוד שמקורותיו הרחבים יותר קשורים לפרקטיקה העתיקה של כבישה ושימור ירקות במזרח התיכון ובאזור הים התיכון, המנה הספציפית הידועה כטירשי—מחית דלעת מתובלת."
+    },
+    "arabic": {
+      "summary": "ترشي هو تخصص يمكن تتبعه إلى تونس، وخاصة إلى المجتمع اليهودي في جربة، وهو واحد من أقدم المجتمعات اليهودية في العالم، حيث يعود تاريخه إلى أكثر من 2000 عام. بينما ترتبط أصوله الأوسع بالممارسة القديمة لتخليل وحفظ الخضروات في منطقة الشرق الأوسط والبحر الأبيض المتوسط، فإن الطبق المحدد المعروف باسم ترشي - وهو قرع مهروس متبل"
+    },
+    "spanish": {
+      "summary": "Tirshi es una especialidad que se puede rastrear hasta Túnez, especialmente en la comunidad judía de Djerba, que es una de las comunidades judías más antiguas del mundo, con más de 2,000 años de antigüedad. Aunque sus orígenes más amplios están vinculados a la antigua práctica de encurtir y conservar vegetales en el Medio Oriente y las regiones del Mediterráneo, el plato específico conocido como Tirshi—un puré de calabaza especiado"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Tirshi is a traditional Tunisian-Djerban Jewish dish that highlights the flavors of pumpkin and spices, making it a comforting and flavorful side dish.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Tirshi is a traditional Tunisian-Djerban Jewish dish that highlights the flavors of pumpkin and spices, making it a comforting and flavorful side dish."
+    },
+    "hebrew": {
+      "summary": "טירשי הוא מאכל מסורתי של יהודי תוניסיה-ג'רבה שמדגיש את הטעמים של דלעת ותבלינים, מה שהופך אותו לתוספת מנחמת וטעימה."
+    },
+    "arabic": {
+      "summary": "ترشي هو طبق تقليدي يهودي تونسي-جربي يبرز نكهات اليقطين والتوابل، مما يجعله طبقًا جانبيًا مريحًا ولذيذًا."
+    },
+    "spanish": {
+      "summary": "Tirshi es un plato tradicional de la herencia judía tunecina-djerbana que resalta los sabores de la calabaza y las especias, convirtiéndolo en un acompañamiento reconfortante y lleno de sabor."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "tirshi_history.md",
+    "history_md": "tirshi_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

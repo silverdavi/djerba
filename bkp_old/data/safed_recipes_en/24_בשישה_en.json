@@ -1,0 +1,26 @@
+{
+  "id": "beshisha",
+  "name_hebrew": "בשישה",
+  "name_english": "Beshisha",
+  "ingredients": [
+    "Wheat",
+    "Barley",
+    "Coriander seeds",
+    "Cumin seeds",
+    "Fennel seeds",
+    "Olive oil",
+    "Dates",
+    "Sugar",
+    "Water"
+  ],
+  "instructions": [
+    "Roast the wheat and barley grains along with the coriander, cumin, and fennel seeds. Add half the amount of olive oil and the dates, and mix to form a ball.",
+    "In our tradition, we would spin a key and say, 'Open and throw, O son, open the door for us and save us.'"
+  ],
+  "notes": "This dish is a traditional recipe from the Tunisian-Djerban Jewish community, often prepared during special occasions.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "24_בשישה.json"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "holiday_stew",
+  "name_hebrew": "דביח חגים",
+  "name_english": "Holiday Stew",
+  "ingredients": [
+    "1 onion",
+    "A piece of pumpkin",
+    "Fresh herbs: parsley, dill, coriander (one bunch of each)",
+    "Optional: zucchini or carrot"
+  ],
+  "instructions": [
+    "In a pot, heat oil and paprika for about 3 minutes.",
+    "Add the onion, either sliced or diced, and sauté for a few minutes.",
+    "Next, add all the vegetables along with a pinch of coarse salt and black pepper. Sauté for about half an hour on low heat.",
+    "Add the chicken or a substitute, and sauté for a few more minutes.",
+    "Finally, add water and potatoes, and cook until the potatoes are tender."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for festive occasions. The combination of fresh herbs adds a vibrant flavor to the stew.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "04_דביח_חגים.json"
+  }
+}

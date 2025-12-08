@@ -1,0 +1,26 @@
+{
+  "id": "frikaseh",
+  "name_hebrew": "פריקסה",
+  "name_english": "Frikaseh",
+  "ingredients": [
+    "1 tablespoon salt",
+    "1 kilogram flour",
+    "1 tablespoon yeast",
+    "1/2 cup sugar",
+    "3 cups water",
+    "1/2 cup oil"
+  ],
+  "instructions": [
+    "Combine all ingredients to form a dough and knead until smooth.",
+    "Allow the dough to rise for about two hours.",
+    "Shape the dough into desired forms and place them on a well-oiled surface.",
+    "Let the shaped dough rise for an additional 30 minutes.",
+    "Heat oil in a deep pan and fry the dough until golden brown."
+  ],
+  "notes": "Frikaseh is a traditional Tunisian-Jewish dish, often enjoyed as a snack or appetizer. It is typically served warm and can be filled with various ingredients, such as tuna or vegetables.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "15_פריקסה.json"
+  }
+}

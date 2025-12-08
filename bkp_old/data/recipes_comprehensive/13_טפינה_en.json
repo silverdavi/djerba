@@ -1,0 +1,232 @@
+{
+  "id": "tefina",
+  "names": {
+    "english": "Tefina",
+    "hebrew": "טפינה",
+    "arabic": "تفينة",
+    "spanish": "Tefina"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Meat",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Potatoes",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Barley",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Onion",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Beans (optional)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "בשר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תפוחי אדמה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שעורה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "בצל",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שעועית (אופציונלי)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "لحم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بطاطس",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "شعير",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بصل",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فاصوليا (اختياري)",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Carne",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Papas",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Cebada",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Cebolla",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Frijoles (opcional)",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Prepare a bowl with meat, potatoes, onion, barley, and optionally beans."
+      },
+      {
+        "step": 2,
+        "text": "In a heavy pot, heat oil and sugar until the sugar caramelizes to a deep brown color."
+      },
+      {
+        "step": 3,
+        "text": "Add paprika, then incorporate all the other ingredients: meat, potatoes, barley, and onion."
+      },
+      {
+        "step": 4,
+        "text": "Season with coarse salt and black pepper, sauté for about 10 minutes."
+      },
+      {
+        "step": 5,
+        "text": "Add boiling water, reduce the heat, and simmer for about an hour on low heat."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Tefina\" (טפינה) is derived from the Arabic word \"ṭafīna,\" which means \"buried\" or \"hidden,\" referring to the method of slow-cooking the dish in a sealed pot, often buried in hot coals or left in a low oven overnight. This etymology highlights the dish’s unique cooking technique and its historical roots in North African culinary traditions."
+    },
+    "hebrew": {
+      "summary": "השם \"טפינה\" (Tefina) נגזר מהמילה הערבית \"ṭafīna\", שמשמעותה \"קבור\" או \"מוסתר\", ומתייחס לשיטת הבישול האיטי של המנה בסיר אטום, לעיתים קבור בגחלים חמות או מושאר בתנור נמוך למשך הלילה. האטימולוגיה הזו מדגישה את טכניקת הבישול הייחודית של המנה ואת שורשיה ההיסטוריים במסורות הקולינריות של צפון אפריקה."
+    },
+    "arabic": {
+      "summary": "اسم \"تافينا\" (טפינה) مشتق من الكلمة العربية \"طَفينة\"، والتي تعني \"مدفون\" أو \"مخفي\"، في إشارة إلى طريقة الطهي البطيء للطبق في وعاء محكم الإغلاق، وغالبًا ما يُدفن في الفحم الساخن أو يُترك في فرن منخفض الحرارة طوال الليل. يبرز هذا الأصل اللغوي تقنية الطهي الفريدة للطبق وجذوره التاريخية في تقاليد الطهي في شمال إفريقيا."
+    },
+    "spanish": {
+      "summary": "El nombre \"Tefina\" (טפינה) se deriva de la palabra árabe \"ṭafīna,\" que significa \"enterrado\" u \"oculto,\" refiriéndose al método de cocción lenta del plato en una olla sellada, a menudo enterrada en brasas calientes o dejada en un horno bajo durante la noche. Esta etimología resalta la técnica de cocción única del plato y sus raíces históricas en las tradiciones culinarias del norte de África."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Tefina is a traditional Jewish dish originating in North Africa, particularly among the Jewish communities of Tunisia and the island of Djerba. It is believed to have developed centuries ago as a Sabbath stew, designed to be slow-cooked overnight and ready to eat on Saturday morning, adhering to Jewish dietary laws that prohibit cooking on the Sabbath. The dish is especially associated with Tunisi",
+      "evolution": "",
+      "cultural_significance": "Tefina holds deep cultural and religious significance for North African Jewish communities. It is traditionally served on Shabbat (the Sabbath), symbolizing both religious observance and family unity. The slow-cooking process reflects the values of patience and tradition, and the dish is often prepared in large quantities to be shared with family and neighbors. Its preparation is a communal activi",
+      "regional_variations": "",
+      "summary": "Tefina is a traditional Jewish dish originating in North Africa, particularly among the Jewish communities of Tunisia and the island of Djerba. It is believed to have developed centuries ago as a Sabbath stew, designed to be slow-cooked overnight and ready to eat on Saturday morning, adhering to Jewish dietary laws that prohibit cooking on the Sabbath. The dish is especially associated with Tunisi"
+    },
+    "hebrew": {
+      "summary": "תפינה היא מאכל יהודי מסורתי שמקורו בצפון אפריקה, במיוחד בקרב הקהילות היהודיות של תוניסיה והאי ג'רבה. מאמינים שהוא התפתח לפני מאות שנים כתבשיל לשבת, שנועד להתבשל לאט במשך הלילה ולהיות מוכן לאכילה בשבת בבוקר, תוך שמירה על חוקי הכשרות היהודיים שאוסרים על בישול בשבת. המנה מזוהה במיוחד עם יהודי תוניסיה."
+    },
+    "arabic": {
+      "summary": "تفينة هو طبق يهودي تقليدي نشأ في شمال إفريقيا، خاصة بين الجاليات اليهودية في تونس وجزيرة جربة. يُعتقد أنه تطور منذ قرون كطبق يخنة خاص بيوم السبت، مصمم ليُطهى ببطء طوال الليل ويكون جاهزًا للأكل صباح السبت، تماشيًا مع القوانين الغذائية اليهودية التي تحظر الطهي في يوم السبت. يرتبط الطبق بشكل خاص بتونس."
+    },
+    "spanish": {
+      "summary": "Tefina es un plato judío tradicional originario del norte de África, particularmente entre las comunidades judías de Túnez y la isla de Djerba. Se cree que se desarrolló hace siglos como un guiso de Sabbath, diseñado para cocinarse lentamente durante la noche y estar listo para comer el sábado por la mañana, cumpliendo con las leyes dietéticas judías que prohíben cocinar en el Sabbath. El plato está especialmente asociado con los judíos tunecinos."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Tefina is a traditional dish from the Tunisian-Djerban Jewish community, often enjoyed during family gatherings.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Tefina is a traditional dish from the Tunisian-Djerban Jewish community, often enjoyed during family gatherings."
+    },
+    "hebrew": {
+      "summary": "טפינה היא מאכל מסורתי מקהילת היהודים התוניסאית-ג'רבאית, שנהנים ממנו לעיתים קרובות במהלך מפגשים משפחתיים."
+    },
+    "arabic": {
+      "summary": "تفينة هي طبق تقليدي من مجتمع اليهود التونسي-الجربي، وغالبًا ما يُستمتع بها خلال التجمعات العائلية."
+    },
+    "spanish": {
+      "summary": "Tefina es un plato tradicional de la comunidad judía tunecina-djerban, que a menudo se disfruta durante las reuniones familiares."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "tefina_history.md",
+    "history_md": "tefina_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

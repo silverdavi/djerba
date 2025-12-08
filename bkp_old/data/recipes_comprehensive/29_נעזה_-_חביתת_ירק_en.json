@@ -1,0 +1,180 @@
+{
+  "id": "vegetable_omelette",
+  "names": {
+    "english": "Vegetable Omelette",
+    "hebrew": "נעז'ה \\- חביתת ירק",
+    "arabic": "عجة الخضار",
+    "spanish": "Tortilla de Verduras"
+  },
+  "metadata": {
+    "category": "Eggs & Breakfast",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Eggs",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Green vegetables: green onions, dill, cilantro, and parsley",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "name": "بيض",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "الخضروات الخضراء: بصل أخضر، شبت، كزبرة، وبقدونس",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Crack the eggs into a bowl."
+      },
+      {
+        "step": 2,
+        "text": "Add chopped green onions (after washing, of course)."
+      },
+      {
+        "step": 3,
+        "text": "Incorporate a small amount of chopped parsley, chopped dill, and chopped cilantro, and mix well with the eggs."
+      },
+      {
+        "step": 4,
+        "text": "Heat a skillet over low heat and pour in the mixture. Cook until the bottom is set, then carefully flip with a spatula and cook the other side until firm."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "שבור את הביצים לתוך קערה."
+      },
+      {
+        "step": 2,
+        "text": "הוסף בצל ירוק קצוץ (לאחר שטיפה, כמובן)."
+      },
+      {
+        "step": 3,
+        "text": "הוסף כמות קטנה של פטרוזיליה קצוצה, שמיר קצוץ וכוסברה קצוצה, וערבב היטב עם הביצים."
+      },
+      {
+        "step": 4,
+        "text": "חמם מחבת על אש נמוכה ושפוך לתוכה את התערובת. טגן עד שהחלק התחתון מתייצב, ואז הפוך בזהירות עם מרית וטגן את הצד השני עד להידוק."
+      }
+    ],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "اكسر البيض في وعاء."
+      },
+      {
+        "step": 2,
+        "text": "أضف البصل الأخضر المفروم (بعد غسله، بالطبع)."
+      },
+      {
+        "step": 3,
+        "text": "أضف كمية قليلة من البقدونس المفروم، والشبت المفروم، والكزبرة المفرومة، وامزج جيدًا مع البيض."
+      },
+      {
+        "step": 4,
+        "text": "سخن مقلاة على نار هادئة وصب الخليط فيها. اطه حتى يتماسك القاع، ثم قم بقلبه بعناية باستخدام الملعقة واطه الجانب الآخر حتى يصبح متماسكًا."
+      }
+    ],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"נעז'ה\" (\"Neja,\" also transliterated \"Naja\" or \"Nejja\") refers to a fluffy, vegetable-laden omelette. The Hebrew term \"חביתת ירק\" translates literally as \"herb omelette\" or \"vegetable omelette\". The word \"נעז'ה\" is thought to derive from Judeo-Arabic, reflecting the blend of languages in Tunisian Jewish communities."
+    },
+    "hebrew": {
+      "summary": "השם \"נעז'ה\" מתייחס לחביתה תפוחה ועמוסה בירקות. המונח העברי \"חביתת ירק\" מתורגם באופן מילולי כ\"חביתה עם עשבי תיבול\" או \"חביתה עם ירקות\". המילה \"נעז'ה\" נחשבת שמקורה ביהודית-ערבית, ומשקפת את השילוב של שפות בקהילות היהודיות בתוניסיה."
+    },
+    "arabic": {
+      "summary": "الاسم \"נעז'ה\" (\"نيجا\"، ويُكتب أيضًا \"ناجا\" أو \"نيجا\") يشير إلى عجة محشوة بالخضروات. المصطلح العبري \"חביתת ירק\" يُترجم حرفيًا إلى \"عجة بالأعشاب\" أو \"عجة بالخضروات\". يُعتقد أن كلمة \"נעז'ה\" مشتقة من العربية اليهودية، مما يعكس مزيج اللغات في المجتمعات اليهودية التونسية."
+    },
+    "spanish": {
+      "summary": "El nombre \"נעז'ה\" (\"Neja,\" también transliterado como \"Naja\" o \"Nejja\") se refiere a una tortilla esponjosa cargada de verduras. El término hebreo \"חביתת ירק\" se traduce literalmente como \"tortilla de hierbas\" o \"tortilla de verduras\". Se cree que la palabra \"נעז'ה\" deriva del judeo-árabe, reflejando la mezcla de idiomas en las comunidades judías tunecinas."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Neja (נעז'ה) originated among the Jewish communities of Tunisia, especially on the island of Djerba, where a distinct Jewish culture has thrived for centuries. Its roots are tied to the Mediterranean omelette tradition, but it has developed a unique character and prominence in Djerban Jewish cuisine, particularly from the 19th century onward. The use of locally available greens and herbs reflects ",
+      "evolution": "",
+      "cultural_significance": "Neja holds a special place in Jewish Tunisian homes, symbolizing both everyday sustenance and holiday celebration. It is commonly served during Passover, when leavened foods are avoided, as well as on Sabbath evenings and festivals. The dish is associated with hospitality and communal gatherings, making it integral to family and religious life.\n\n### Etymology\n\nThe name \"נעז'ה\" (\"Neja,\" also transl",
+      "regional_variations": "",
+      "summary": "Neja (נעז'ה) originated among the Jewish communities of Tunisia, especially on the island of Djerba, where a distinct Jewish culture has thrived for centuries. Its roots are tied to the Mediterranean omelette tradition, but it has developed a unique character and prominence in Djerban Jewish cuisine, particularly from the 19th century onward. The use of locally available greens and herbs reflects "
+    },
+    "hebrew": {
+      "summary": "נעז'ה (נעז'ה) מקורה בקהילות היהודיות של תוניסיה, במיוחד באי ג'רבה, שם תרבות יהודית ייחודית פרחה במשך מאות שנים. שורשיה קשורים למסורת החביתה הים-תיכונית, אך היא פיתחה אופי ייחודי ובולט במטבח היהודי הג'רבאי, במיוחד מהמאה ה-19 ואילך. השימוש בירקות ועשבי תיבול מקומיים משקף"
+    },
+    "arabic": {
+      "summary": "نجة (נעז'ה) نشأت بين المجتمعات اليهودية في تونس، خاصة في جزيرة جربة، حيث ازدهرت ثقافة يهودية متميزة لعدة قرون. جذورها مرتبطة بتقليد الأومليت المتوسطي، لكنها تطورت لتكتسب طابعًا وشهرة فريدة في المطبخ اليهودي الجربي، خاصة من القرن التاسع عشر فصاعدًا. استخدام الخضروات والأعشاب المتوفرة محليًا يعكس"
+    },
+    "spanish": {
+      "summary": "Neja (נעז'ה) se originó entre las comunidades judías de Túnez, especialmente en la isla de Djerba, donde una cultura judía distintiva ha prosperado durante siglos. Sus raíces están vinculadas a la tradición mediterránea de la tortilla, pero ha desarrollado un carácter único y prominencia en la cocina judía de Djerba, particularmente desde el siglo XIX en adelante. El uso de verduras y hierbas locales disponibles refleja"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for a light meal or breakfast.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for a light meal or breakfast."
+    },
+    "hebrew": {
+      "summary": "המנה הזו היא מתכון מסורתי של יהודי תוניסאי-ג'רבאי, מושלמת לארוחה קלה או לארוחת בוקר."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من التراث اليهودي التونسي-الجربي، مثالية لوجبة خفيفة أو الإفطار."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional judía tunecina-djerban, perfecta para una comida ligera o desayuno."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "vegetable_omelette_history.md",
+    "history_md": "vegetable_omelette_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

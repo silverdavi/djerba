@@ -1,0 +1,90 @@
+{
+  "id": "dwida",
+  "image": "dwida.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "דווידה",
+    "es": "Dwida",
+    "ar": "دويدة",
+    "en": "Dwida"
+  },
+  "description": {
+    "he": "תבשיל פסטה דקה או ספגטי שבור ברוטב עגבניות פיקנטי, הדומה למחמסה אך עדין יותר במרקמו. השם נגזר מהמילה הערבית ל\"תולעים קטנות\", המתייחסת לצורת הפסטה הדקה.",
+    "es": "Un guiso picante de tomate con pasta fina o espaguetis rotos, similar a la Mhamsa pero con una textura más suave. El nombre deriva de la palabra árabe para \"gusanitos\", refiriéndose a la forma de la pasta.",
+    "ar": "الدويدة هي أكلة تونسية زمنية، تشبه المحمصة لكن تتعمل بالشعيرية (الفداوش) أو السباغيتي المكسرة في مرقة حمراء. اسمها جاي من شكل العجين اللي يشبه الدود الصغير.",
+    "en": "A spicy tomato-based stew made with thin pasta or broken spaghetti, similar to Mhamsa but with a finer texture. The name derives from the Arabic word for \"little worms,\" referring to the pasta's shape."
+  },
+  "ingredients": {
+    "he": [
+      "2 כפות שמן",
+      "1 בצל קטן, קצוץ",
+      "1 עגבניה בשלה, מגוררת",
+      "1 כף רסק עגבניות",
+      "1 כף פפריקה מתוקה",
+      "1 פלפל חריף (או כפית אריסה)",
+      "250 גרם ספגטי (שבור לחתיכות קטנות)",
+      "מים לפי הצורך (כ-1.5 ליטר)"
+    ],
+    "es": [
+      "2 cdas de aceite",
+      "1 cebolla pequeña, picada",
+      "1 tomate maduro, rallado",
+      "1 cda de pasta de tomate",
+      "1 cda de pimentón dulce",
+      "1 pimiento picante (o harissa)",
+      "250g de espaguetis (rotos en trozos pequeños)",
+      "Agua según sea necesario (aprox. 1.5L)"
+    ],
+    "ar": [
+      "2 مغارف زيت",
+      "1 بصلة صغيرة مقصوصة",
+      "1 كعبة طماطم مرحية",
+      "1 مغرفة طماطم حكة",
+      "1 مغرفة فلفل زينة (بابريكا)",
+      "1 فلفل حار (أو مغرفة هريسة)",
+      "250 غرام سباغيتي (مكسرة طروف صغار)",
+      "ماء (تقريب 1.5 لتر)"
+    ],
+    "en": [
+      "2 tbsp oil",
+      "1 small onion, chopped",
+      "1 ripe tomato, grated",
+      "1 tbsp tomato paste",
+      "1 tbsp sweet paprika",
+      "1 hot pepper (or tsp harissa)",
+      "250g spaghetti (broken into small pieces)",
+      "Water as needed (approx 1.5L)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל בשמן בסיר עד לשקיפות.",
+      "מוסיפים את העגבניות, הפלפל החריף והתבלינים ומבשלים דקה תוך כדי ערבוב.",
+      "מוסיפים את המים ומביאים לרתיחה.",
+      "מוסיפים את הספגטי השבור ומבשלים כ-10 דקות עד שהפסטה רכה והרוטב מסמיך מעט."
+    ],
+    "es": [
+      "Sofreír la cebolla en aceite hasta que esté transparente.",
+      "Añadir los tomates, el pimiento picante y las especias; cocinar un minuto removiendo.",
+      "Agregar el agua y llevar a ebullición.",
+      "Añadir los espaguetis rotos y cocinar unos 10 minutos hasta que la pasta esté tierna y la salsa espese."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت في الطنجرة لين يذبل.",
+      "زيد الطماطم والفلفل والفاحات وحرك دقيقة.",
+      "مرق بالماء وخلي الطنجرة تغلي.",
+      "ارمي السباغيتي المكسرة وطيبها حكاية 10 دقايق لين تطيب وتعقاد المرقة شوية."
+    ],
+    "en": [
+      "Sauté the onion in oil in a pot until transparent.",
+      "Add tomatoes, hot pepper, and spices; cook for a minute while stirring.",
+      "Add water and bring to a boil.",
+      "Add the broken spaghetti and cook for about 10 minutes until tender and the sauce thickens slightly."
+    ]
+  }
+}

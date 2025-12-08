@@ -1,0 +1,250 @@
+{
+  "id": "thick_sour_and_spicy_soup_of_bina",
+  "names": {
+    "english": "Thick Sour and Spicy Soup of Bina",
+    "hebrew": "מרק סמיך חמוץ וחריף של בינה",
+    "arabic": "حساء بينة الحامض والحار الكثيف",
+    "spanish": "[\"Sopa Espesa, Ácida y Picante de Bina\"]"
+  },
+  "metadata": {
+    "category": "Soup",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Flour",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Garlic",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Hot paprika",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "קמח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שום",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מיץ לימון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פפריקה חריפה",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "دقيق",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ثوم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "عصير ليمون",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بابريكا حارة",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Harina",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Ajo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Jugo de limón",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pimentón picante",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Combine all the ingredients in a pot and cook over low heat, stirring well."
+      },
+      {
+        "step": 2,
+        "text": "After about 20 minutes, prepare a roux by mixing water and flour, and gradually add it to the soup while stirring."
+      },
+      {
+        "step": 3,
+        "text": "Taste and adjust the seasoning as needed."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "שלבו את כל המרכיבים בסיר ובשלו על אש נמוכה תוך ערבוב היטב."
+      },
+      {
+        "step": 2,
+        "text": "לאחר כ-20 דקות, הכינו רביכה על ידי ערבוב מים וקמח, והוסיפו אותה בהדרגה למרק תוך כדי ערבוב."
+      },
+      {
+        "step": 3,
+        "text": "טעמו ותקנו את התיבול לפי הצורך."
+      }
+    ],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Combina todos los ingredientes en una olla y cocina a fuego lento, revolviendo bien."
+      },
+      {
+        "step": 2,
+        "text": "Después de unos 20 minutos, prepara un roux mezclando agua y harina, y agrégalo gradualmente a la sopa mientras remueves."
+      },
+      {
+        "step": 3,
+        "text": "Prueba y ajusta el sazón según sea necesario."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "- \"מרק סמיך\" (\"Thick Soup\") denotes a rich, hearty texture, often thanks to the addition of semolina, chickpeas, or bread[2][14].\n- \"חמוץ וחריף\" (\"Sour and Spicy\") describes the dominant flavor notes, with sourness typically derived from lemon or vinegar, and heat from harissa or other spices[2][14].\n- \"של בינה\" (\"of Bina\") can refer either to a matriarch named Bina, as is common for traditional recipes attributed to respected family cooks, or draw on the Hebrew word \"Bina\" (בינה), meaning \"unde"
+    },
+    "hebrew": {
+      "summary": "- \"מרק סמיך\" מציין מרקם עשיר ומשביע, לעיתים קרובות בזכות הוספת סולת, חומוס או לחם.\n- \"חמוץ וחריף\" מתאר את טעמי הדומיננטיים, כאשר החמיצות נובעת בדרך כלל מלימון או חומץ, והחריפות מחריסה או תבלינים אחרים.\n- \"של בינה\" יכול להתייחס למטריארכית בשם בינה, כפי שמקובל במתכונים מסורתיים המיוחסים לטבחים משפחתיים מכובדים, או לשאוב מהמילה העברית \"בינה\", שמשמעותה \"חוכמה\"."
+    },
+    "arabic": {
+      "summary": "- \"מרק סמיך\" (\"شوربة كثيفة\") تشير إلى قوام غني ومشبع، غالبًا بفضل إضافة السميد أو الحمص أو الخبز.\n- \"חמוץ וחריף\" (\"حامض وحار\") يصف النكهات السائدة، حيث يأتي الطعم الحامض عادةً من الليمون أو الخل، والحرارة من الهريسة أو التوابل الأخرى.\n- \"של בינה\" (\"لبينا\") يمكن أن يشير إما إلى جدة تدعى بينا، كما هو شائع في الوصفات التقليدية المنسوبة إلى طهاة العائلة المحترمين، أو يستند إلى الكلمة العبرية \"بينا\" (בינה)، التي تعني \"unde"
+    },
+    "spanish": {
+      "summary": "- \"מרק סמיך\" (\"Sopa Espesa\") denota una textura rica y sustanciosa, a menudo gracias a la adición de sémola, garbanzos o pan.\n- \"חמוץ וחריף\" (\"Ácido y Picante\") describe las notas de sabor dominantes, con acidez que típicamente se deriva del limón o el vinagre, y el picante de la harissa u otras especias.\n- \"של בינה\" (\"de Bina\") puede referirse ya sea a una matriarca llamada Bina, como es común para recetas tradicionales atribuidas a cocineras respetadas de la familia, o basarse en la palabra hebrea \"Bina\" (בינה), que significa \"entendimiento\"."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "This soup originated in the south-eastern regions of Tunisia, such as Tozeur, and is deeply rooted in the Jewish communities of Tunisia and particularly the island of Djerba[2]. These communities preserved unique culinary identities, often adapting broader North African flavors, emphasizing sourness (with citrus) and spice (with chili pastes like harissa)[2][6]. The tradition of making thick sour ",
+      "evolution": "",
+      "cultural_significance": "This soup is important because it symbolizes comfort, warmth, and hospitality within Tunisian-Jewish households[10]. It is traditionally served during special occasions, most notably during Ramadan and Jewish holidays, when communal and family meals take center stage[2][10]. Its richness and flavor profile make it an ideal dish for breaking a fast or sharing with guests, reinforcing bonds of kinsh",
+      "regional_variations": "",
+      "summary": "This soup originated in the south-eastern regions of Tunisia, such as Tozeur, and is deeply rooted in the Jewish communities of Tunisia and particularly the island of Djerba[2]. These communities preserved unique culinary identities, often adapting broader North African flavors, emphasizing sourness (with citrus) and spice (with chili pastes like harissa)[2][6]. The tradition of making thick sour "
+    },
+    "hebrew": {
+      "summary": "מרק זה מקורו באזורים הדרום-מזרחיים של תוניסיה, כמו תוזר, והוא מושרש עמוק בקהילות היהודיות של תוניסיה ובמיוחד באי ג'רבה. קהילות אלו שמרו על זהויות קולינריות ייחודיות, לעיתים קרובות התאימו טעמים רחבים יותר של צפון אפריקה, תוך הדגשת חמיצות (עם הדרים) ותבלינים (עם משחות חריפות כמו הריסה). המסורת של הכנת חמיצות סמיכה"
+    },
+    "arabic": {
+      "summary": "هذه الشوربة نشأت في المناطق الجنوبية الشرقية من تونس، مثل توزر، وهي متجذرة بعمق في المجتمعات اليهودية في تونس وخصوصاً جزيرة جربة. هذه المجتمعات حافظت على هويات طهوية فريدة، وغالباً ما قامت بتكييف النكهات الأوسع في شمال أفريقيا، مع التركيز على الحموضة (بواسطة الحمضيات) والتوابل (مثل معجون الفلفل الحار كالهريسة). تقليد صنع الشوربة السميكة الحامضة"
+    },
+    "spanish": {
+      "summary": "Esta sopa se originó en las regiones del sureste de Túnez, como Tozeur, y está profundamente arraigada en las comunidades judías de Túnez y particularmente en la isla de Djerba. Estas comunidades preservaron identidades culinarias únicas, a menudo adaptando sabores más amplios del norte de África, enfatizando la acidez (con cítricos) y el picante (con pastas de chile como la harissa). La tradición de hacer espesas sopas ácidas"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This traditional Tunisian-Djerban Jewish soup is known for its unique blend of sour and spicy flavors, making it a comforting dish perfect for any occasion.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This traditional Tunisian-Djerban Jewish soup is known for its unique blend of sour and spicy flavors, making it a comforting dish perfect for any occasion."
+    },
+    "hebrew": {
+      "summary": "המרק היהודי המסורתי הזה מתוניסיה-ג'רבה ידוע בתערובת הייחודית שלו של טעמים חמוצים וחריפים, מה שהופך אותו למנה מנחמת שמתאימה לכל אירוע."
+    },
+    "arabic": {
+      "summary": "تُعرف هذه الشوربة التقليدية من التراث اليهودي التونسي-الجربي بمزيجها الفريد من النكهات الحامضة والحارة، مما يجعلها طبقًا مريحًا مثاليًا لأي مناسبة."
+    },
+    "spanish": {
+      "summary": "Esta sopa tradicional judía tunecina-djerban se conoce por su mezcla única de sabores ácidos y picantes, lo que la convierte en un plato reconfortante perfecto para cualquier ocasión."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "thick_sour_and_spicy_soup_of_bina_history.md",
+    "history_md": "thick_sour_and_spicy_soup_of_bina_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

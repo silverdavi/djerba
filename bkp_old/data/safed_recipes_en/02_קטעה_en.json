@@ -1,0 +1,23 @@
+{
+  "id": "kta'a",
+  "name_hebrew": "קטעה",
+  "name_english": "Kta'a",
+  "ingredients": [
+    "Water",
+    "Flour",
+    "Salt",
+    "Black pepper",
+    "Oil"
+  ],
+  "instructions": [
+    "In a pot, bring water to a boil. Meanwhile, take about 3 cups of flour, add a pinch of salt, and gradually add water while kneading until a smooth dough forms.",
+    "Once the water is boiling, take small pieces of the dough and drop them into the boiling water. Make sure to check constantly to prevent them from sticking together.",
+    "Towards the end of cooking, mix together a small amount of water and flour in a bowl to create a slurry. Pour this mixture into the pot at intervals while stirring well until the broth thickens."
+  ],
+  "notes": "Kta'a is a traditional dish from the Tunisian-Djerban Jewish community, often enjoyed as a comforting meal. Serve hot and enjoy!",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "02_קטעה.json"
+  }
+}

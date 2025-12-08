@@ -1,0 +1,233 @@
+{
+  "id": "holiday_stew",
+  "names": {
+    "english": "Holiday Stew",
+    "hebrew": "דביח חגים",
+    "arabic": "يخنة العيد",
+    "spanish": "Guiso de Fiesta"
+  },
+  "metadata": {
+    "category": "Stews & Braises",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "A piece of pumpkin",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Fresh herbs: parsley, dill, coriander (one bunch of each)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Optional: zucchini or carrot",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "בצל",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "חתיכת דלעת",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "עשבי תיבול טריים: פטרוזיליה, שמיר, כוסברה (צרור אחד מכל אחד)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "אופציונלי: זוקיני או גזר",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "بصلة",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "قطعة من اليقطين",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "أعشاب طازجة: بقدونس، شبت، كزبرة (حزمة من كل نوع)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "اختياري: كوسا أو جزر",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "cebolla",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Un trozo de calabaza",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Hierbas frescas: perejil, eneldo, cilantro (un manojo de cada)",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Opcional: calabacín o zanahoria",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a pot, heat oil and paprika for about 3 minutes."
+      },
+      {
+        "step": 2,
+        "text": "Add the onion, either sliced or diced, and sauté for a few minutes."
+      },
+      {
+        "step": 3,
+        "text": "Next, add all the vegetables along with a pinch of coarse salt and black pepper. Sauté for about half an hour on low heat."
+      },
+      {
+        "step": 4,
+        "text": "Add the chicken or a substitute, and sauté for a few more minutes."
+      },
+      {
+        "step": 5,
+        "text": "Finally, add water and potatoes, and cook until the potatoes are tender."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "En una olla, calienta el aceite y la paprika durante unos 3 minutos."
+      },
+      {
+        "step": 2,
+        "text": "Añade la cebolla, ya sea en rodajas o picada, y sofríe durante unos minutos."
+      },
+      {
+        "step": 3,
+        "text": "A continuación, agrega todas las verduras junto con una pizca de sal gruesa y pimienta negra. Sofríe durante aproximadamente media hora a fuego lento."
+      },
+      {
+        "step": 4,
+        "text": "Añade el pollo o un sustituto, y sofríe durante unos minutos más."
+      },
+      {
+        "step": 5,
+        "text": "Finalmente, añade agua y papas, y cocina hasta que las papas estén tiernas."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The Hebrew/Arabic term \"דביח חגים\" (d'bih chagim) translates directly as \"festival meat\" or \"holiday slaughter\"[2]. \"דביח\" (d'bih or dhibeh) is related to the Arabic word for slaughter or sacrifice, reflecting the dish’s use of meat prepared specially for holidays, while \"חגים\" (chagim) means \"festivals\" or \"holidays\". Thus, the name refers to a traditional stew made with meat reserved for special religious occasions[2]."
+    },
+    "hebrew": {
+      "summary": "המונח העברי/ערבי \"דביח חגים\" מתורגם ישירות כ\"בשר חג\" או \"שחיטת חג\". \"דביח\" קשור למילה הערבית לשחיטה או קורבן, מה שמשקף את השימוש בבשר המוכן במיוחד לחגים, בעוד \"חגים\" משמעו \"חגים\" או \"מועדים\". לכן, השם מתייחס לתבשיל מסורתי המוכן עם בשר השמור לאירועים דתיים מיוחדים."
+    },
+    "arabic": {
+      "summary": "المصطلح العبري/العربي \"דביח חגים\" (دبيح حگيم) يُترجم مباشرة إلى \"لحم المهرجان\" أو \"ذبيحة العيد\". \"דביח\" (دبيح أو ذبيحة) يرتبط بالكلمة العربية للذبح أو التضحية، مما يعكس استخدام الطبق للحم المُعد خصيصًا للأعياد، بينما \"חגים\" (حگيم) تعني \"المهرجانات\" أو \"الأعياد\". وبالتالي، يشير الاسم إلى يخنة تقليدية تُعد باللحم المحفوظ للمناسبات الدينية الخاصة."
+    },
+    "spanish": {
+      "summary": "El término hebreo/árabe \"דביח חגים\" (d'bih chagim) se traduce directamente como \"carne de festival\" o \"sacrificio festivo\". \"דביח\" (d'bih o dhibeh) está relacionado con la palabra árabe para sacrificio o matanza, reflejando el uso del plato con carne preparada especialmente para las festividades, mientras que \"חגים\" (chagim) significa \"festivales\" o \"fiestas\". Así, el nombre se refiere a un guiso tradicional hecho con carne reservada para ocasiones religiosas especiales."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Holiday Stew (\"דביח חגים\", also referred to as d'bih chagim) originates from the Jewish communities of Djerba and Tunisia, where Jews have lived for over 2,500 years[6][18]. The dish is deeply rooted in the traditions of Tunisian and Djerban Jews, especially as part of their signature holiday and festive cooking[2]. Jewish culinary traditions in this region combine North African influences with un",
+      "evolution": "",
+      "cultural_significance": "Holiday Stew holds important cultural and religious significance as a centerpiece dish at Jewish holiday celebrations, particularly in Tunisian-Jewish and Djerban homes[2]. It is commonly served during major festivals, such as Passover or Lag b’Omer, and on Shabbat. The ritual of preparing and sharing this stew reinforces community bonds and maintains traditions, with communal ovens historically u",
+      "regional_variations": "",
+      "summary": "Holiday Stew (\"דביח חגים\", also referred to as d'bih chagim) originates from the Jewish communities of Djerba and Tunisia, where Jews have lived for over 2,500 years[6][18]. The dish is deeply rooted in the traditions of Tunisian and Djerban Jews, especially as part of their signature holiday and festive cooking[2]. Jewish culinary traditions in this region combine North African influences with un"
+    },
+    "hebrew": {
+      "summary": "תבשיל חגים (\"דביח חגים\", המכונה גם d'bih chagim) מקורו בקהילות היהודיות של ג'רבה ותוניסיה, שם חיו יהודים במשך יותר מ-2,500 שנה. המנה מושרשת עמוק במסורות של יהודי תוניסיה וג'רבה, במיוחד כחלק מהבישול החגיגי והחגי שלהם. מסורות הבישול היהודיות באזור זה משלבות השפעות צפון אפריקאיות עם..."
+    },
+    "arabic": {
+      "summary": "يعود أصل حساء العيد (\"דביח חגים\"، المعروف أيضًا باسم دَبِيح حَجِيم) إلى المجتمعات اليهودية في جربة وتونس، حيث عاش اليهود لأكثر من 2500 عام. هذا الطبق متأصل بعمق في تقاليد اليهود التونسيين والجربيين، خاصة كجزء من طهيهم المميز في الأعياد والمناسبات الاحتفالية. تجمع التقاليد الطهوية اليهودية في هذه المنطقة بين التأثيرات شمال الأفريقية مع..."
+    },
+    "spanish": {
+      "summary": "Estofado de Fiesta (\"דביח חגים\", también conocido como d'bih chagim) se origina en las comunidades judías de Djerba y Túnez, donde los judíos han vivido durante más de 2,500 años. El plato está profundamente arraigado en las tradiciones de los judíos tunecinos y djerbanos, especialmente como parte de su cocina festiva y de celebración. Las tradiciones culinarias judías en esta región combinan influencias del norte de África con un"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for festive occasions. The combination of fresh herbs adds a vibrant flavor to the stew.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for festive occasions. The combination of fresh herbs adds a vibrant flavor to the stew."
+    },
+    "hebrew": {
+      "summary": "המנה הזו היא מתכון מסורתי של יהודי תוניסאי-ג'רבאי, מושלמת לאירועים חגיגיים. השילוב של עשבי תיבול טריים מוסיף טעם חי למרק."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من التراث اليهودي التونسي-الجربي، وهي مثالية للمناسبات الاحتفالية. يضيف مزيج الأعشاب الطازجة نكهة حيوية إلى اليخنة."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional judía tunecina-djerbana, perfecta para ocasiones festivas. La combinación de hierbas frescas añade un sabor vibrante al guiso."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "holiday_stew_history.md",
+    "history_md": "holiday_stew_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

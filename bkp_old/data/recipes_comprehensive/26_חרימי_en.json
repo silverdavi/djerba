@@ -1,0 +1,367 @@
+{
+  "id": "harimi",
+  "names": {
+    "english": "Harimi",
+    "hebrew": "חרימי",
+    "arabic": "حريمي",
+    "spanish": "Harimi"
+  },
+  "metadata": {
+    "category": "Bread & Pastry",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "cumin",
+        "amount": "1/2",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "caraway seeds",
+        "amount": "1",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "Fish",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Garlic",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Salt",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Hot paprika",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "tablespoons tomato paste",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "hot peppers",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "כמון",
+        "amount": "1/2",
+        "unit": "כפית"
+      },
+      {
+        "name": "זרעי שומר",
+        "amount": "1",
+        "unit": "כפית"
+      },
+      {
+        "name": "דג",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שום",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מלח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פפריקה חריפה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "רסק עגבניות",
+        "amount": "2",
+        "unit": "כפות"
+      },
+      {
+        "name": "פלפלים חריפים",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "מיץ לימון",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "كمون",
+        "amount": "1/2",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "بذور الكراوية",
+        "amount": "1",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "سمك",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ثوم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ملح",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فلفل حلو حار",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "معجون طماطم",
+        "amount": "2",
+        "unit": "ملعقة كبيرة"
+      },
+      {
+        "name": "فلفل حار",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "عصير ليمون",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "comino",
+        "amount": "1/2",
+        "unit": "cucharadita"
+      },
+      {
+        "name": "semillas de alcaravea",
+        "amount": "1",
+        "unit": "cucharadita"
+      },
+      {
+        "name": "Pescado",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Aceite",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Ajo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Sal",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pimentón picante",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "pasta de tomate",
+        "amount": "2",
+        "unit": "cucharadas"
+      },
+      {
+        "name": "pimientos picantes",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Jugo de limón",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a pot, heat the oil and add all the ingredients except for the fish and water. Sauté for about 5 minutes."
+      },
+      {
+        "step": 2,
+        "text": "Add the water, fish, and lemon juice. Optionally, you can add sliced potatoes."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "בסיר, חממו את השמן והוסיפו את כל המרכיבים למעט הדג והמים. טגנו בערך 5 דקות."
+      },
+      {
+        "step": 2,
+        "text": "הוסיפו את המים, הדג ומיץ הלימון. ניתן להוסיף פרוסות תפוחי אדמה לפי רצונכם."
+      }
+    ],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "في قدر، سخني الزيت وأضيفي جميع المكونات ما عدا السمك والماء. قلبي لمدة 5 دقائق تقريبًا."
+      },
+      {
+        "step": 2,
+        "text": "أضيفي الماء والسمك وعصير الليمون. يمكن إضافة شرائح البطاطا اختياريًا."
+      }
+    ],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "En una olla, calienta el aceite y añade todos los ingredientes excepto el pescado y el agua. Sofríe durante unos 5 minutos."
+      },
+      {
+        "step": 2,
+        "text": "Añade el agua, el pescado y el jugo de limón. Opcionalmente, puedes añadir patatas en rodajas."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Harimi\" (חרימי) has roots in Arabic, where the root ḥ-r-m carries meanings linked with sanctity, setting apart, or in some cases, designating something for sacred use[3][13]. In some linguistic contexts, \"harim\" denotes a protected or sacred place[13][5]. This fits the dish's traditional role in religious and communal gatherings, although the exact linguistic line from \"harim\" to the dish's name is less direct and may reflect local dialectical evolution."
+    },
+    "hebrew": {
+      "summary": "השם \"חרימי\" (Harimi) יש לו שורשים בערבית, שם השורש ח-ר-ם נושא משמעויות הקשורות לקדושה, הפרדה, או במקרים מסוימים, ייעוד דבר לשימוש מקודש. בהקשרים לשוניים מסוימים, \"חרים\" מציין מקום מוגן או קדוש. זה מתאים לתפקיד המסורתי של המנה באירועים דתיים וקהילתיים, אם כי הקו הלשוני המדויק מ\"חרים\" לשם המנה פחות ישיר וייתכן שמשקף התפתחות דיאלקטית מקומית."
+    },
+    "arabic": {
+      "summary": "اسم \"حريمي\" (חרימי) له جذور في اللغة العربية، حيث يحمل الجذر ح-ر-م معاني مرتبطة بالقداسة، التخصيص، أو في بعض الحالات، تخصيص شيء للاستخدام المقدس. في بعض السياقات اللغوية، يشير \"حريم\" إلى مكان محمي أو مقدس. وهذا يتناسب مع الدور التقليدي للطبق في التجمعات الدينية والاجتماعية، على الرغم من أن الخط اللغوي المباشر من \"حريم\" إلى اسم الطبق أقل وضوحًا وقد يعكس تطورًا لهجيًا محليًا."
+    },
+    "spanish": {
+      "summary": "El nombre \"Harimi\" (חרימי) tiene raíces en árabe, donde la raíz ḥ-r-m lleva significados vinculados con la santidad, la separación o, en algunos casos, la designación de algo para uso sagrado. En algunos contextos lingüísticos, \"harim\" denota un lugar protegido o sagrado. Esto encaja con el papel tradicional del plato en reuniones religiosas y comunitarias, aunque la línea lingüística exacta de \"harim\" al nombre del plato es menos directa y puede reflejar una evolución dialectal local."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Harimi originated among the Jews of Tunisia, with particular prominence on the island of Djerba[14][6]. The Jewish presence in Djerba dates back more than 2,500 years, and the community developed a distinctive cuisine shaped by North African influences and Jewish tradition. Harimi became emblematic of Tunisian-Djerban Jewish food, signaling both local adaptation and continuity of ancient culinary ",
+      "evolution": "",
+      "cultural_significance": "Harimi holds a special place in Jewish Tunisian and Djerban culture. It is customarily served on Friday nights for Shabbat, as well as during festivals and family celebrations[6][14]. The tradition of preparing and sharing such dishes helps reinforce communal ties and preserve unique Jewish culinary identity in the region, especially given Djerba’s longstanding Jewish isolation and strong attachme",
+      "regional_variations": "",
+      "summary": "Harimi originated among the Jews of Tunisia, with particular prominence on the island of Djerba[14][6]. The Jewish presence in Djerba dates back more than 2,500 years, and the community developed a distinctive cuisine shaped by North African influences and Jewish tradition. Harimi became emblematic of Tunisian-Djerban Jewish food, signaling both local adaptation and continuity of ancient culinary "
+    },
+    "hebrew": {
+      "summary": "הארימי נוצר בקרב יהודי תוניסיה, עם דגש מיוחד על האי ג'רבה. הנוכחות היהודית בג'רבה מתועדת למעלה מ-2,500 שנה, והקהילה פיתחה מטבח ייחודי שהושפע מהשפעות צפון אפריקאיות ומהמסורת היהודית. הארימי הפך לסמל של האוכל היהודי-תוניסאי-ג'רבאי, המסמל גם התאמה מקומית וגם המשכיות של מסורת קולינרית עתיקה."
+    },
+    "arabic": {
+      "summary": "نشأ الحريمي بين يهود تونس، مع بروز خاص في جزيرة جربة. يعود وجود اليهود في جربة إلى أكثر من 2500 عام، وقد طورت المجتمع هناك مطبخًا مميزًا متأثرًا بالتأثيرات شمال أفريقية والتقاليد اليهودية. أصبح الحريمي رمزًا للطعام اليهودي التونسي الجربي، مشيرًا إلى التكيف المحلي واستمرارية التقاليد الطهوية القديمة."
+    },
+    "spanish": {
+      "summary": "Harimi se originó entre los judíos de Túnez, con particular prominencia en la isla de Djerba. La presencia judía en Djerba se remonta a más de 2,500 años, y la comunidad desarrolló una cocina distintiva moldeada por influencias norteafricanas y la tradición judía. Harimi se convirtió en un emblema de la comida judía tunecina-djerbana, señalando tanto la adaptación local como la continuidad de antiguas tradiciones culinarias."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Harimi is a traditional Tunisian-Djerban Jewish dish, often enjoyed for its rich flavors and aromatic spices. It can be served with a side of rice or bread to soak up the delicious sauce.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Harimi is a traditional Tunisian-Djerban Jewish dish, often enjoyed for its rich flavors and aromatic spices. It can be served with a side of rice or bread to soak up the delicious sauce."
+    },
+    "hebrew": {
+      "summary": "חרימי הוא מאכל מסורתי של יהודי תוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות בזכות הטעמים העשירים והתבלינים הארומטיים שלו. ניתן להגיש אותו לצד אורז או לחם לספיגת הרוטב הטעים."
+    },
+    "arabic": {
+      "summary": "حريمي هو طبق تقليدي يهودي تونسي-جربي، يتمتع بنكهات غنية وتوابل عطرية. يمكن تقديمه مع الأرز أو الخبز لامتصاص الصلصة اللذيذة."
+    },
+    "spanish": {
+      "summary": "Harimi es un plato tradicional de la herencia judía tunecina-djerbana, a menudo disfrutado por sus ricos sabores y especias aromáticas. Se puede servir con un acompañamiento de arroz o pan para absorber la deliciosa salsa."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "harimi_history.md",
+    "history_md": "harimi_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

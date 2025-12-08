@@ -1,0 +1,263 @@
+{
+  "id": "beshisha",
+  "names": {
+    "english": "Beshisha",
+    "hebrew": "בשישה",
+    "arabic": "بيشيشا",
+    "spanish": "Beshisha"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Wheat",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Barley",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Coriander seeds",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Cumin seeds",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Fennel seeds",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Olive oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Dates",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Sugar",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "חיטה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שעורה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "זרעי כוסברה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "זרעי כמון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "זרעי שומר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן זית",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תמרים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "סוכר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "قمح",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "شعير",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بذور الكزبرة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بذور الكمون",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بذور الشمر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت الزيتون",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "تمر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "سكر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Roast the wheat and barley grains along with the coriander, cumin, and fennel seeds. Add half the amount of olive oil and the dates, and mix to form a ball."
+      },
+      {
+        "step": 2,
+        "text": "In our tradition, we would spin a key and say, 'Open and throw, O son, open the door for us and save us.'"
+      }
+    ],
+    "hebrew": [],
+    "arabic": [
+      {
+        "step": 1,
+        "text": "حمّص حبوب القمح والشعير مع بذور الكزبرة والكمون والشمر. أضف نصف كمية زيت الزيتون والتمر، واخلط لتشكيل كرة."
+      },
+      {
+        "step": 2,
+        "text": "في تقاليدنا، كنا ندير مفتاحًا ونقول، 'افتح وارم، يا ابني، افتح لنا الباب وأنقذنا.'"
+      }
+    ],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Beshisha\" (בשישה) is derived from the Hebrew word for \"six,\" referring to the six main ingredients typically used in the dish: eggs, potatoes, onions, garlic, parsley, and olive oil. This naming convention highlights the simplicity and balance of the recipe, emphasizing its traditional and symbolic nature."
+    },
+    "hebrew": {
+      "summary": "שם המנה \"בשישה\" נגזר מהמילה העברית \"שש\", ומתייחס לששת המרכיבים העיקריים המשמשים בדרך כלל במנה: ביצים, תפוחי אדמה, בצל, שום, פטרוזיליה ושמן זית. שם זה מדגיש את הפשטות והאיזון של המתכון, ומבליט את אופיו המסורתי והסמלי."
+    },
+    "arabic": {
+      "summary": "اسم \"بشيشة\" (בשישה) مشتق من الكلمة العبرية \"ستة\"، في إشارة إلى المكونات الستة الرئيسية التي تُستخدم عادة في الطبق: البيض، البطاطس، البصل، الثوم، البقدونس، وزيت الزيتون. يبرز هذا النمط من التسمية بساطة وتوازن الوصفة، مما يؤكد على طبيعتها التقليدية والرمزية."
+    },
+    "spanish": {
+      "summary": "El nombre \"Beshisha\" (בשישה) se deriva de la palabra hebrea para \"seis\", refiriéndose a los seis ingredientes principales que se utilizan típicamente en el plato: huevos, papas, cebollas, ajo, perejil y aceite de oliva. Esta convención de nomenclatura resalta la simplicidad y el equilibrio de la receta, enfatizando su naturaleza tradicional y simbólica."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Beshisha is a traditional Jewish dish originating from the island of Djerba in Tunisia, closely associated with the Tunisian-Djerban Jewish community. The dish is believed to have been developed by Jewish families in Djerba, where it became a staple in their culinary traditions. Its roots trace back to the early 20th century, with recipes passed down through generations within the community.",
+      "evolution": "",
+      "cultural_significance": "Beshisha holds deep cultural importance for Tunisian-Djerban Jews, often prepared for special occasions such as Shabbat, holidays, and family gatherings. It is considered a comfort food and a symbol of heritage, connecting families to their roots and traditions. The dish is especially popular during festive meals and is sometimes served at weddings and other celebratory events.\n\n### Etymology\n\nThe",
+      "regional_variations": "",
+      "summary": "Beshisha is a traditional Jewish dish originating from the island of Djerba in Tunisia, closely associated with the Tunisian-Djerban Jewish community. The dish is believed to have been developed by Jewish families in Djerba, where it became a staple in their culinary traditions. Its roots trace back to the early 20th century, with recipes passed down through generations within the community.\nBeshi"
+    },
+    "hebrew": {
+      "summary": "בשישה היא מאכל יהודי מסורתי שמקורו באי ג'רבה שבתוניסיה, והוא קשור באופן הדוק לקהילה היהודית-ג'רבאית בתוניסיה. מאמינים שהמאכל פותח על ידי משפחות יהודיות בג'רבה, שם הוא הפך למרכיב מרכזי במסורות הקולינריות שלהן. שורשיו מתחקים לתחילת המאה ה-20, עם מתכונים שעברו מדור לדור בתוך הקהילה."
+    },
+    "arabic": {
+      "summary": "بشيشة هو طبق يهودي تقليدي نشأ من جزيرة جربة في تونس، ويرتبط ارتباطًا وثيقًا بالمجتمع اليهودي التونسي-الجربي. يُعتقد أن الطبق تم تطويره من قبل العائلات اليهودية في جربة، حيث أصبح عنصرًا أساسيًا في تقاليدهم الطهوية. تعود جذوره إلى أوائل القرن العشرين، مع وصفات تم تمريرها عبر الأجيال داخل المجتمع."
+    },
+    "spanish": {
+      "summary": "Beshisha es un plato judío tradicional originario de la isla de Djerba en Túnez, estrechamente asociado con la comunidad judía tunecina-djerban. Se cree que el plato fue desarrollado por familias judías en Djerba, donde se convirtió en un elemento básico de sus tradiciones culinarias. Sus raíces se remontan a principios del siglo XX, con recetas transmitidas de generación en generación dentro de la comunidad."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional recipe from the Tunisian-Djerban Jewish community, often prepared during special occasions.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional recipe from the Tunisian-Djerban Jewish community, often prepared during special occasions."
+    },
+    "hebrew": {
+      "summary": "מנה זו היא מתכון מסורתי מקהילת יהודי תוניסיה-ג'רבה, שלעיתים קרובות מוכנה במהלך אירועים מיוחדים."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من المجتمع اليهودي التونسي-الجربي، وغالبًا ما يتم تحضيرها خلال المناسبات الخاصة."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional de la comunidad judía tunecina-djerbana, a menudo preparado durante ocasiones especiales."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "beshisha_history.md",
+    "history_md": "beshisha_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

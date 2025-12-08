@@ -1,0 +1,297 @@
+{
+  "id": "bikila",
+  "names": {
+    "english": "Bikila",
+    "hebrew": "בקילה",
+    "arabic": "بيكيلا",
+    "spanish": "Bikila"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "bunches of beet greens",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Cilantro",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Dill",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pieces of meat",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "White beans",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Garlic",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "זרי עלי סלק",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "כוסברה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמיר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "חתיכות בשר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שעועית לבנה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שום",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "حزم من أوراق الشمندر",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "كزبرة",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "شبت",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "قطع لحم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فاصوليا بيضاء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ثوم",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "manojos de hojas de remolacha",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Aceite",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Cilantro",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Eneldo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Trozos de carne",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Frijoles blancos",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Ajo",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Wash the beet greens thoroughly, chop them into pieces, and place them in a wide pot without water. Cook on low heat to steam until all the moisture evaporates (the greens will look an unappealing green color)."
+      },
+      {
+        "step": 2,
+        "text": "Add half a cup of oil and sauté until the leaves turn a dark green color."
+      },
+      {
+        "step": 3,
+        "text": "For the sauce: Combine 2 cups of white beans, meat cubes, garlic, and salt in a pot. Add cilantro and dill. Take 2 cups of the sauce and mix in the white beans."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Lava las hojas de remolacha a fondo, pícalas en trozos y colócalas en una olla amplia sin agua. Cocina a fuego lento para cocer al vapor hasta que toda la humedad se evapore (las hojas tendrán un color verde no atractivo)."
+      },
+      {
+        "step": 2,
+        "text": "Añade media taza de aceite y saltea hasta que las hojas adquieran un color verde oscuro."
+      },
+      {
+        "step": 3,
+        "text": "Para la salsa: Combina 2 tazas de frijoles blancos, cubos de carne, ajo y sal en una olla. Añade cilantro y eneldo. Toma 2 tazas de la salsa y mezcla con los frijoles blancos."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The origins of the name \"bikila\" (בקילה) or its variants \"pkaïla, pkaila, bkeila\" are not definitively established in standard etymological references. However, the name is likely derived from terms relating to \"greens\" or \"spinach\" in North African Judeo-Arabic dialects[14]. The word does not appear to have any relation to the Amharic (Ethiopian) name \"Bikila,\" which means something entirely different[11][7]. In the culinary context, it specifically names the Jewish Tunisian stew of greens and "
+    },
+    "hebrew": {
+      "summary": "מקורות השם \"בקילה\" או גרסאותיו \"פכילה, פקילה, בקילה\" אינם מבוססים באופן מוחלט במקורות האטימולוגיים הסטנדרטיים. עם זאת, השם כנראה נגזר ממונחים הקשורים ל\"ירקות\" או \"תרד\" בדיאלקטים יהודיים-ערביים בצפון אפריקה. המילה לא נראית כקשורה לשם האמהרי (אתיופי) \"בקילה\", שמשמעותו שונה לחלוטין. בהקשר הקולינרי, היא מתייחסת במיוחד לתבשיל היהודי-תוניסאי של ירקות."
+    },
+    "arabic": {
+      "summary": "أصول اسم \"بيكيلا\" (בקילה) أو متغيراته \"بكايلا، بكايلا، بكيلة\" ليست مثبتة بشكل قاطع في المراجع الاشتقاقية القياسية. ومع ذلك، من المحتمل أن يكون الاسم مشتقًا من مصطلحات تتعلق بـ\"الخضروات\" أو \"السبانخ\" في اللهجات اليهودية العربية لشمال إفريقيا. لا يبدو أن الكلمة لها أي علاقة بالاسم الأمهرى (الإثيوبي) \"بيكيلا\"، الذي يعني شيئًا مختلفًا تمامًا. في السياق الطهوي، يشير الاسم تحديدًا إلى حساء الخضروات اليهودي التونسي."
+    },
+    "spanish": {
+      "summary": "Los orígenes del nombre \"bikila\" (בקילה) o sus variantes \"pkaïla, pkaila, bkeila\" no están definitivamente establecidos en las referencias etimológicas estándar. Sin embargo, es probable que el nombre derive de términos relacionados con \"verduras\" o \"espinacas\" en los dialectos judeo-árabes del norte de África[14]. La palabra no parece tener ninguna relación con el nombre amhárico (etíope) \"Bikila,\" que significa algo completamente diferente[11][7]. En el contexto culinario, nombra específicamente el guiso judío tunecino de verduras y"
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "The dish commonly associated with the name \"Bikila\" in the context of Tunisian and Djerban Jewish cuisine is more widely spelled and known as pkaila, pkaïla, or bkeila (בקילה in Hebrew letters, pronounced bikila or bkeila). It is a deep-green stew traditionally made by cooking down large amounts of spinach or other greens with beans (often white beans) and sometimes meat (like beef)[14][10]. This ",
+      "evolution": "",
+      "cultural_significance": "Bikila/pkaila holds significant cultural importance for Tunisian and Djerban Jews. It is considered the ultimate comfort food and is traditionally served during Shabbat, Rosh Hashanah, and other Jewish festivals[10]. The practice of slow-cooking it overnight or for many hours is linked to Jewish ritual observance prohibiting cooking on holidays or the Sabbath. Thus, the dish is both practical and ",
+      "regional_variations": "",
+      "summary": "The dish commonly associated with the name \"Bikila\" in the context of Tunisian and Djerban Jewish cuisine is more widely spelled and known as pkaila, pkaïla, or bkeila (בקילה in Hebrew letters, pronounced bikila or bkeila). It is a deep-green stew traditionally made by cooking down large amounts of spinach or other greens with beans (often white beans) and sometimes meat (like beef)[14][10]. This "
+    },
+    "hebrew": {
+      "summary": "המנה שמזוהה בדרך כלל עם השם \"ביקילה\" בהקשר של המטבח היהודי התוניסאי והג'רבאי נכתבת ומוכרת יותר כפקיילה, פקאילה או בקילה (בקילה באותיות עבריות, נהגה ביקילה או בקילה). זהו תבשיל ירוק כהה שמוכן באופן מסורתי על ידי בישול כמות גדולה של תרד או ירקות ירוקים אחרים עם שעועית (לעיתים קרובות שעועית לבנה) ולפעמים בשר (כמו בקר)."
+    },
+    "arabic": {
+      "summary": "الطبق الذي يرتبط عادةً بالاسم \"بيكيلا\" في سياق المطبخ اليهودي التونسي والجربي يُعرف بشكل أوسع ويُكتب باسم بكيلة، بكايلا، أو بكيلة (בקילה بالحروف العبرية، يُنطق بيكيلا أو بكيلة). إنه حساء أخضر داكن يُعد تقليديًا بطهي كميات كبيرة من السبانخ أو الخضروات الأخرى مع الفاصوليا (غالبًا الفاصوليا البيضاء) وأحيانًا اللحم (مثل لحم البقر)."
+    },
+    "spanish": {
+      "summary": "El plato comúnmente asociado con el nombre \"Bikila\" en el contexto de la cocina judía tunecina y djerban se escribe y se conoce más ampliamente como pkaila, pkaïla o bkeila (בקילה en letras hebreas, pronunciado bikila o bkeila). Es un guiso de color verde oscuro tradicionalmente hecho cocinando grandes cantidades de espinacas u otras verduras con frijoles (a menudo frijoles blancos) y, a veces, carne (como carne de res)."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions. The beet greens provide a unique flavor and are a nutritious addition to the meal.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed during festive occasions. The beet greens provide a unique flavor and are a nutritious addition to the meal."
+    },
+    "hebrew": {
+      "summary": "המנה הזו היא מתכון יהודי מסורתי מתוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות באירועים חגיגיים. עלי הסלק מוסיפים טעם ייחודי ומהווים תוספת מזינה לארוחה."
+    },
+    "arabic": {
+      "summary": "هذه الوصفة هي طبق تقليدي من التراث اليهودي التونسي-الجربي، وغالبًا ما يتم الاستمتاع بها خلال المناسبات الاحتفالية. تضيف أوراق البنجر نكهة فريدة وتعتبر إضافة مغذية للوجبة."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional judía tunecina-djerban, a menudo disfrutada durante ocasiones festivas. Las hojas de remolacha aportan un sabor único y son una adición nutritiva a la comida."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "bikila_history.md",
+    "history_md": "bikila_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "chicken_schnitzel",
+  "name_hebrew": "שניצל",
+  "name_english": "Chicken Schnitzel",
+  "ingredients": [
+    "Chicken breast",
+    "Flour",
+    "Egg",
+    "Seasoned breadcrumbs"
+  ],
+  "instructions": [
+    "1. Flatten the chicken breasts with a meat mallet until they are thin, but not overly so.",
+    "2. Prepare three plates: one with flour, one with a beaten egg, and one with seasoned breadcrumbs.",
+    "3. Dredge each piece of chicken in the flour, then dip it into the egg, and finally coat it with the seasoned breadcrumbs.",
+    "4. Fry the coated chicken in hot oil until golden brown, being careful not to let the oil get too hot."
+  ],
+  "notes": "This dish is a beloved staple in Tunisian-Djerban Jewish cuisine, often served with a side of salad or potatoes.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "11_שניצל.json"
+  }
+}

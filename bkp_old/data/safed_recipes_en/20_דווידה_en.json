@@ -1,0 +1,22 @@
+{
+  "id": "davidah",
+  "name_hebrew": "דווידה",
+  "name_english": "Davidah",
+  "ingredients": [
+    "Spaghetti",
+    "Oil",
+    "Water",
+    "Spices: Salt, Sweet Paprika",
+    "Tomato",
+    "Hot Pepper"
+  ],
+  "instructions": [
+    "Prepare the dish like a traditional 'Hammasah' soup or like 'Shmid', but add the spaghetti at the end instead of the 'Shmid' or 'Hammasah'."
+  ],
+  "notes": "This dish is a beloved comfort food in the Tunisian-Djerban Jewish community, often enjoyed as a hearty meal.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "20_דווידה.json"
+  }
+}

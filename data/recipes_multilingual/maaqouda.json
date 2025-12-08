@@ -1,0 +1,82 @@
+{
+  "id": "maaqouda",
+  "image": "maaqouda.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "40 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מעקודה",
+    "es": "Maakouda",
+    "ar": "المعقودة",
+    "en": "Maakouda"
+  },
+  "description": {
+    "he": "פשטידת תפוחי אדמה מסורתית, שבמקור מוכנה עם ביצים וכאן בגרסה טבעונית נהדרת מקמח חומוס. המנה נקראת על שם הפועל הערבי \"עקדה\" (לקשור או להסמיך), שכן הביצים (או התחליף) קושרות את המרכיבים יחד למאפה זהוב.",
+    "es": "Un pastel de patata tradicional, originalmente hecho con huevos y aquí en una versión vegana con harina de garbanzo. Su nombre proviene del árabe 'aqada (atar o espesar), refiriéndose a cómo se unen los ingredientes en este pastel dorado.",
+    "ar": "طاجين بطاطا (معقودة) بلاش عظم، استعملنا دقيق الحمص في بلاصة العظم باش نلمو الخليط. إسمها جاي من كلمة \"عقد\" خاطر المكونات تعقد وتتلم مع بعضها، وتجي بنينة برشا.",
+    "en": "A traditional potato pie/casserole, originally bound with eggs but here recreated vegan using chickpea flour. Its name comes from the Arabic root 'aqada (to knot or bind), referring to how the ingredients are bound together into a golden cake."
+  },
+  "ingredients": {
+    "he": [
+      "4 תפוחי אדמה אדומים",
+      "12 כפות קמח חומוס + 12 כפות מים",
+      "1/4 כוס קמח לבן",
+      "1 שקית אבקת אפייה",
+      "1 כף שמן",
+      "מלח ופלפל שחור"
+    ],
+    "es": [
+      "4 patatas rojas",
+      "12 cdas harina de garbanzo + 12 cdas agua",
+      "1/4 taza de harina de trigo",
+      "1 sobre de levadura química (polvo de hornear)",
+      "1 cda de aceite",
+      "Sal y pimienta negra"
+    ],
+    "ar": [
+      "4 كعبات بطاطا حمراء",
+      "12 مغرفة دقيق حمص + 12 مغرفة ماء",
+      "ربع كأس فرينة",
+      "خميرة ڨاطو",
+      "مغرفة زيت",
+      "ملح وفلفل أكحل"
+    ],
+    "en": [
+      "4 red potatoes",
+      "12 tbsp chickpea flour + 12 tbsp water",
+      "1/4 cup all-purpose flour",
+      "1 packet baking powder",
+      "1 tbsp oil",
+      "Salt and black pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מגרדים את תפוחי האדמה בפומפייה וסוחטים היטב להוצאת נוזלים מיותרים.",
+      "בקערה נפרדת, מערבבים את קמח החומוס והמים עד לקבלת בלילה אחידה.",
+      "מוסיפים לתפוחי האדמה את הבלילה, הקמח, השמן והתבלינים ומערבבים היטב.",
+      "משטחים בתבנית משומנת ואופים ב-180 מעלות כ-40 דקות עד להשחמה."
+    ],
+    "es": [
+      "Rallar las patatas y escurrir muy bien para eliminar el exceso de líquido.",
+      "En un bol pequeño, mezclar la harina de garbanzo y el agua hasta obtener una masa uniforme.",
+      "Añadir la mezcla, la harina, el aceite y las especias a las patatas y mezclar bien.",
+      "Extender en un molde engrasado y hornear a 180°C durante unos 40 minutos hasta que se dore."
+    ],
+    "ar": [
+      "ربّي البطاطا واعصرها مليح باش تخرّج الماء الزايد متاعها.",
+      "في صحفة صغيرة، خلّط دقيق الحمص مع الماء لين يولّي خليط أرطب ومتجانس.",
+      "زيد الخليط للبطاطا مع الفرينة والزيت والفاحات وحرّك الكل بالباهي.",
+      "حط الخليط في طبق مدهون بالزيت وطيّب في الكوشة (180 درجة) حكاية 40 دقيقة لين يحمار الوجه."
+    ],
+    "en": [
+      "Grate the potatoes and squeeze well to remove excess liquid.",
+      "In a small bowl, whisk chickpea flour and water into a smooth batter.",
+      "Add the batter, flour, oil, and spices to the potatoes and mix thoroughly.",
+      "Spread into a greased baking pan and bake at 180°C (350°F) for about 40 minutes until golden brown."
+    ]
+  }
+}

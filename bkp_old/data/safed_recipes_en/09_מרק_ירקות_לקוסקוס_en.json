@@ -1,0 +1,28 @@
+{
+  "id": "vegetable_soup_for_couscous",
+  "name_hebrew": "מרק ירקות לקוסקוס",
+  "name_english": "Vegetable Soup for Couscous",
+  "ingredients": [
+    "Chicken",
+    "Pumpkin",
+    "Zucchini",
+    "Onion",
+    "Oil",
+    "Chickpeas",
+    "Potatoes",
+    "Water",
+    "Spices",
+    "Green beans"
+  ],
+  "instructions": [
+    "In a pot, heat a small amount of oil with paprika. Add sliced onions and sauté until translucent.",
+    "Next, add all the vegetables along with salt and sauté for about half an hour.",
+    "Pour in boiling water and add the chicken. Finally, add the potatoes."
+  ],
+  "notes": "This hearty vegetable soup is traditionally served with couscous in Tunisian-Djerban Jewish cuisine, making it a perfect accompaniment for a comforting meal.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "09_מרק_ירקות_לקוסקוס.json"
+  }
+}

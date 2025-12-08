@@ -1,0 +1,82 @@
+{
+  "id": "marmouma",
+  "image": "marmouma.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "45 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרמומה",
+    "es": "La Marmouma",
+    "ar": "المرمومة",
+    "en": "Marmouma"
+  },
+  "description": {
+    "he": "מרמומה היא סלט מבושל של עגבניות ופלפלים, שמקורו במטבח היהודי של ג'רבה, ומוגש באופן מסורתי כחלק מה\"קמיה\" (מתאבנים). השם נגזר ככל הנראה ממונחים אזוריים המתארים ירקות מבושלים או \"כתושים\" בבישול איטי עד לצמצום הנוזלים וקבלת מרקם ריבתי.",
+    "es": "La Marmouma es una ensalada cocida de tomates y pimientos originaria de la comunidad judía de Djerba, servida tradicionalmente como parte de la 'kémia' (aperitivos). Su nombre probablemente se refiere a la textura 'guisada' que se logra al cocinar las verduras lentamente hasta que se evaporan los líquidos.",
+    "ar": "المرمومة هي سلطة مطبوخة من الطماطم والفلفل أصلها من يهود جربة، وتُقدّم عادةً كجزء من \"الكمية\" (المقبلات). يُشتق الاسم على الأرجح من طريقة الطهي البطيء للخضروات حتى تذوب وتتكثف النكهات لتصبح خاثرة وعاقدة.",
+    "en": "Marmouma is a slow-cooked tomato and pepper salad originating from the Jewish community of Djerba, traditionally served as part of the 'kémia' (appetizer spread). The name likely refers to the 'stewed' texture achieved by cooking the vegetables until the liquids evaporate and flavors concentrate."
+  },
+  "ingredients": {
+    "he": [
+      "10 עגבניות בשלות",
+      "5 פלפלים מתוקים (גמבה)",
+      "3 פלפלים חריפים",
+      "10 שיני שום",
+      "שמן זית",
+      "מלח גס"
+    ],
+    "es": [
+      "10 tomates maduros",
+      "5 pimientos dulces",
+      "3 pimientos picantes",
+      "10 dientes de ajo",
+      "Aceite de oliva",
+      "Sal gruesa"
+    ],
+    "ar": [
+      "10 كعبات طماطم طايبة",
+      "5 فلافل حلوة",
+      "3 قرون فلفل حار",
+      "10 سنون ثوم",
+      "زيت زيتونة",
+      "ملح حرش (خشن)"
+    ],
+    "en": [
+      "10 ripe tomatoes",
+      "5 sweet bell peppers",
+      "3 hot peppers",
+      "10 garlic cloves",
+      "Olive oil",
+      "Coarse salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חותכים את כל הירקות (עגבניות, פלפלים ושום) לקוביות קטנות.",
+      "שמים את הירקות בסיר, מוסיפים שמן זית בנדיבות ומלח גס.",
+      "מבשלים על אש נמוכה תוך ערבוב מדי פעם, עד שכל הנוזלים מתאדים ונוצרת ריבה סמיכה ומבריקה (כ-45 דקות).",
+      "מגישים קר או בטמפרטורת החדר עם לחם טרי."
+    ],
+    "es": [
+      "Cortar todas las verduras (tomates, pimientos y ajo) en cubos pequeños.",
+      "Colocar en una olla, añadir abundante aceite de oliva y sal gruesa.",
+      "Cocinar a fuego lento, removiendo de vez en cuando, hasta que se evaporen los líquidos y quede una mezcla espesa y brillante.",
+      "Servir frío o a temperatura ambiente con pan fresco."
+    ],
+    "ar": [
+      "قصّ الخضرة الكل (طماطم، فلفل، وثوم) مكعبات صغيرة.",
+      "حطّهم في طنجرة، وزيد عليهم كمية باهية متاع زيت زيتونة وملح حرش.",
+      "طيّبهم على نار هادية وحرّك مرة مرة، لين يشيح الماء وتولي المرقة خاثرة وعاقدة كيف المعجون.",
+      "قدّمها باردة ولا دافية مع خبز طابونة."
+    ],
+    "en": [
+      "Dice all vegetables (tomatoes, peppers, and garlic) into small pieces.",
+      "Place in a pot, add a generous amount of olive oil and coarse salt.",
+      "Cook over low heat, stirring occasionally, until all liquids evaporate and the mixture becomes thick and jammy.",
+      "Serve cold or at room temperature with fresh bread."
+    ]
+  }
+}

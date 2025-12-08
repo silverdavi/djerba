@@ -1,0 +1,86 @@
+{
+  "id": "frikaseh",
+  "image": "frikaseh.png",
+  "meta": {
+    "servings": "15–20 units",
+    "prep_time": "2 h 20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פריקסה",
+    "es": "Fricassé",
+    "ar": "فريكاسي",
+    "en": "Fricassé"
+  },
+  "description": {
+    "he": "לחמניות מטוגנות שמקורן בקהילות היהודיות בתוניסיה, במיוחד בג'רבה. השם מגיע מהמילה הצרפתית \"fricassée\" (מטוגן). באופן מסורתי ממולא בטונה טבעונית, תפוח אדמה, לימון כבוש ואריסה.",
+    "es": "Bollos fritos originarios de las comunidades judías de Túnez, especialmente Djerba. El nombre proviene del francés \"fricassée\" (frito). Se sirven rellenos de \"atún\" vegano, papas, limón encurtido y harissa.",
+    "ar": "خبز مقلي أصله من الجالية اليهودية في تونس، وخاصة جربة. الاسم جاي من الكلمة الفرنسية \"fricassée\". يتحشى عادة بـ\"التن\" النباتي، البطاطا، القارص المرقد والهريسة.",
+    "en": "Fried savory buns originating from Tunisian-Jewish communities, specifically Djerba. The name derives from the French \"fricassée\" (fried). Traditionally stuffed with vegan \"tuna,\" potatoes, preserved lemon, and harissa."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח",
+      "1 כף שמרים יבשים",
+      "1/2 כוס סוכר",
+      "1 כף מלח",
+      "1/2 כוס שמן",
+      "3 כוסות מים פושרים",
+      "שמן לטיגון עמוק"
+    ],
+    "es": [
+      "1 kg de harina",
+      "1 cda de levadura seca",
+      "1/2 taza de azúcar",
+      "1 cda de sal",
+      "1/2 taza de aceite",
+      "3 tazas de agua tibia",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "1 كيلو فارينة (دقيق)",
+      "1 مغرفة خميرة خبز",
+      "1/2 كأس سكر",
+      "1 مغرفة ملح",
+      "1/2 كأس زيت",
+      "3 كيسان ماء دافي",
+      "زيت للقلي"
+    ],
+    "en": [
+      "1 kg flour",
+      "1 tbsp dry yeast",
+      "1/2 cup sugar",
+      "1 tbsp salt",
+      "1/2 cup oil",
+      "3 cups lukewarm water",
+      "Oil for deep frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את כל החומרים ולשים לבצק אחיד. מתפיחים כשעתיים.",
+      "יוצרים צורות מאורכות (לחמניות) ומניחים על משטח משומן היטב.",
+      "מתפיחים שנית כחצי שעה.",
+      "מחממים שמן עמוק ומטגנים את הלחמניות משני הצדדים עד להזהבה."
+    ],
+    "es": [
+      "Mezclar todos los ingredientes y amasar hasta obtener una masa uniforme. Dejar levar 2 horas.",
+      "Formar bollos alargados y colocar sobre una superficie bien engrasada.",
+      "Dejar levar nuevamente por 30 minutos.",
+      "Calentar abundante aceite y freír los bollos por ambos lados hasta que estén dorados."
+    ],
+    "ar": [
+      "خلط كل المكونات واعجنهم مليح لين تولي عجينة طرية. خليها تخمر ساعتين.",
+      "شكّل كعيبات الفريكاسي وحطهم فوق سطح مدهون بالزيت.",
+      "خليهم يخمرو مرة أخرى نص ساعة.",
+      "سخّن الزيت مليح واقلي كعبات الفريكاسي من الجهتين لين يحمارو."
+    ],
+    "en": [
+      "Mix ingredients and knead into a smooth dough. Let rise for 2 hours.",
+      "Shape into elongated buns and place on a well-oiled surface.",
+      "Let rise again for 30 minutes.",
+      "Heat deep oil and fry the buns on both sides until golden brown."
+    ]
+  }
+}

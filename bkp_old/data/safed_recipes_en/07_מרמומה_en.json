@@ -1,0 +1,21 @@
+{
+  "id": "marmouma",
+  "name_hebrew": "מרמומה",
+  "name_english": "Marmouma",
+  "ingredients": [
+    "10 tomatoes",
+    "5 sweet peppers (bell peppers, etc.)",
+    "3 hot peppers",
+    "10 cloves of garlic"
+  ],
+  "instructions": [
+    "Chop all the vegetables into small pieces and place them in a pot.",
+    "Add a little olive oil and coarse salt, then cook until the water is absorbed, stirring occasionally."
+  ],
+  "notes": "Marmouma is a traditional Tunisian-Djerban Jewish dish that showcases the vibrant flavors of fresh vegetables. It can be served as a side dish or a topping for various meals.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "07_מרמומה.json"
+  }
+}

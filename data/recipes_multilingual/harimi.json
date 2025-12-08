@@ -1,0 +1,94 @@
+{
+  "id": "harimi",
+  "image": "harimi.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "חריימה",
+    "es": "El Harimi",
+    "ar": "الحرايمي",
+    "en": "Harimi"
+  },
+  "description": {
+    "he": "תבשיל עשיר וחריף ברוטב עגבניות, שום ותבלינים, המוגש באופן מסורתי בערב שבת. הגרסה הטבעונית מחליפה את הדג בטופו או תחליף צמחי, אך שומרת על הרוטב החריף המפורסם. השם נגזר מהמילה הערבית 'חראם' (אסור/חריף) המרמזת על חריפותו.",
+    "es": "Un guiso picante y rico en salsa de tomate, ajo y especias, servido tradicionalmente los viernes por la noche. Esta versión vegana sustituye el pescado por tofu, manteniendo la famosa salsa ardiente. Su nombre deriva de 'Haram' (prohibido/picante), aludiendo a su intensidad.",
+    "ar": "مرقة حارة وغنية بالطماطم والثوم والتوابل، تعتبر من أركان المائدة التونسية ليلة السبت. في هذه النسخة النباتية نستبدل السمك بالتوفو أو بديل نباتي مع الحفاظ على 'التحرحيرة' الأصلية. الاسم مشتق من كلمة 'حرام' إشارة لشدة حرارتها.",
+    "en": "A rich, spicy tomato stew packed with garlic and spices, traditionally served on Friday nights. This vegan version swaps fish for tofu or plant-based alternatives while keeping the famous fiery sauce. The name derives from 'Haram' (hot/forbidden), referring to its intense heat."
+  },
+  "ingredients": {
+    "he": [
+      "1/4 כוס שמן",
+      "1 ראש שום קלוף וכתוש",
+      "2 כפות רסק עגבניות",
+      "1 כף פפריקה חריפה",
+      "1/2 כפית כמון",
+      "1 כפית קימל (כרוויה)",
+      "2 פלפלים חריפים",
+      "טופו מעושן / 'דג' טבעוני",
+      "מיץ מלימון אחד",
+      "2 תפוחי אדמה (אופציונלי)"
+    ],
+    "es": [
+      "1/4 taza de aceite",
+      "1 cabeza de ajo (pelada y machacada)",
+      "2 cdas de pasta de tomate",
+      "1 cda de pimentón picante",
+      "1/2 cdta de comino",
+      "1 cdta de alcaravea",
+      "2 pimientos picantes",
+      "Tofu ahumado / 'Pescado' vegano",
+      "Zumo de 1 limón",
+      "2 patatas (opcional)"
+    ],
+    "ar": [
+      "ربع كأس زيت",
+      "1 رأس ثوم مقشر ومهروس",
+      "2 ملاعق طماطم حكة",
+      "1 مغرفة فلفل زينة حار",
+      "نصف مغرفة صغيرة كمون",
+      "1 مغرفة صغيرة كروية",
+      "2 قرون فلفل حار",
+      "توفو مدخن / بديل سمك نباتي",
+      "عصير كعبة قارص",
+      "2 كعبات بطاطا (اختياري)"
+    ],
+    "en": [
+      "1/4 cup oil",
+      "1 head garlic (peeled and crushed)",
+      "2 tbsp tomato paste",
+      "1 tbsp hot paprika",
+      "1/2 tsp cumin",
+      "1 tsp caraway",
+      "2 hot peppers",
+      "Smoked tofu / Vegan 'fish'",
+      "Juice of 1 lemon",
+      "2 potatoes (optional)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר ומטגנים קלות את השום, הפלפלים החריפים, רסק העגבניות והתבלינים כ-5 דקות לפתיחת טעמים.",
+      "מוסיפים מים ומביאים לרתיחה. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת ומבשלים עד לריכוך.",
+      "מוסיפים את הטופו (או תחליף הדג) ומיץ הלימון, ומבשלים כ-10 דקות נוספות לספיגת הטעמים."
+    ],
+    "es": [
+      "Calentar el aceite en una olla y sofreír el ajo, los pimientos, la pasta de tomate y las especias durante 5 minutos.",
+      "Añadir agua y llevar a ebullición. Si se usan patatas, añadirlas ahora y cocinar hasta que estén tiernas.",
+      "Incorporar el tofu (o sustituto de pescado) y el zumo de limón, cocinando 10 minutos más para que absorba los sabores."
+    ],
+    "ar": [
+      "حط الزيت في الطنجرة وقلّي الثوم، الفلفل الحار، طماطم الحكة والفاحات (فلفل زينة، كمون، كروية) لمدة 5 دقايق.",
+      "زيد الماء وخلي المرقة تغلي. كان باش تحط بطاطا، ارميها توا وخليها تطيب لين تطرى.",
+      "ارمي التوفو (أو بديل الحوت) وعصير القارص، وخليهم يغلوا 10 دقايق أخرين باش يشربوا الصوص."
+    ],
+    "en": [
+      "Heat oil in a pot and sauté garlic, hot peppers, tomato paste, and spices for 5 minutes to release flavors.",
+      "Add water and bring to a boil. If using potatoes, add them now and cook until tender.",
+      "Add the tofu (or fish alternative) and lemon juice, simmering for another 10 minutes to absorb the sauce."
+    ]
+  }
+}

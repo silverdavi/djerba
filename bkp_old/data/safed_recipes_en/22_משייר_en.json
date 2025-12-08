@@ -1,0 +1,26 @@
+{
+  "id": "mechaye",
+  "name_hebrew": "משייר",
+  "name_english": "Mechaye",
+  "ingredients": [
+    "Bell peppers of all colors",
+    "Carrot",
+    "Lemon",
+    "Hot pepper",
+    "Kohlrabi (optional)"
+  ],
+  "instructions": [
+    "Cut the bell peppers into strips or halves.",
+    "Slice the carrot into thin strips.",
+    "Cut the hot pepper into long strips.",
+    "Peel the lemon and squeeze its juice over all the vegetables, then cut the lemon into pieces.",
+    "Optionally, add kohlrabi, cut into strips or slices.",
+    "Add water and coarse salt to taste."
+  ],
+  "notes": "Mechaye is a refreshing vegetable dish commonly enjoyed in Tunisian-Djerban Jewish cuisine, often served as a side dish or appetizer.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "22_משייר.json"
+  }
+}

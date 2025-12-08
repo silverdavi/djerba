@@ -1,0 +1,21 @@
+{
+  "id": "shpingeot",
+  "name_hebrew": "שפינג׳ות",
+  "name_english": "Shpingeot",
+  "ingredients": [
+    "Flour",
+    "Water",
+    "Salt",
+    "Yeast"
+  ],
+  "instructions": [
+    "After the dough has risen, take a piece and stretch it out.",
+    "Fry in hot oil until golden brown. Optionally, sprinkle with sugar."
+  ],
+  "notes": "Shpingeot are a traditional Djerban Jewish treat, often enjoyed as a snack or dessert. They are best served fresh and warm.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "05_שפינגות.json"
+  }
+}

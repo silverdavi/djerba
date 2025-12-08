@@ -1,0 +1,27 @@
+{
+  "id": "dabikh_tatmatem",
+  "name_hebrew": "דביח תטמטם",
+  "name_english": "Dabikh Tatmatem",
+  "ingredients": [
+    "2 onions",
+    "Tomatoes",
+    "Tomato paste",
+    "Green hot pepper",
+    "Potatoes",
+    "Salt",
+    "Paprika",
+    "Black pepper",
+    "Chicken"
+  ],
+  "instructions": [
+    "Sauté 2 onions in a pan until golden brown. Add paprika, followed by chopped tomatoes and sliced green hot pepper. Season to taste.",
+    "Sauté for about 10 minutes, then add a can of tomato paste and continue to sauté for another 10 minutes.",
+    "Add water, diced potatoes, and chicken to the mixture. Stir well and let it simmer until the chicken is cooked through and the potatoes are tender."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, known for its rich flavors and hearty ingredients. Serve it warm with bread or rice for a complete meal.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "03_דביח_תטמטם.json"
+  }
+}

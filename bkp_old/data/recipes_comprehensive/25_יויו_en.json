@@ -1,0 +1,249 @@
+{
+  "id": "yoyo",
+  "names": {
+    "english": "Yoyo",
+    "hebrew": "יויו",
+    "arabic": "يويو",
+    "spanish": "Yoyo"
+  },
+  "metadata": {
+    "category": "Desserts & Sweets",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Flour",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Sugar",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Eggs",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Orange juice",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Vanilla",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "קמח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "סוכר",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ביצים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מיץ תפוזים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "וניל",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "طحين",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "سكر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بيض",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "عصير البرتقال",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فانيليا",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": [
+      {
+        "name": "Harina",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Azúcar",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Aceite",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Huevos",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Jugo de naranja",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Vainilla",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Mix all the ingredients together until a soft and non-sticky dough forms, then let it rest for half an hour."
+      },
+      {
+        "step": 2,
+        "text": "Shape the dough into circles with a hole in the middle. Fry them in hot deep oil until golden brown, then remove and place on paper towels. Dip in syrup."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "ערבבו את כל המרכיבים יחד עד לקבלת בצק רך ולא דביק, ואז הניחו לו לנוח במשך חצי שעה."
+      },
+      {
+        "step": 2,
+        "text": "עצבו את הבצק לעיגולים עם חור במרכז. טגנו אותם בשמן עמוק וחם עד להזהבה, ואז הסירו והניחו על מגבות נייר. טבלו בסירופ."
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"yoyo\" (יויו) appears directly derived from the French transliteration of the dish's fun, round, playful shape—some say it refers to the resemblance to the toy of the same name, but in this context, it is more likely an affectionate local term without an ancient or symbolic origin[2][15]. There is no direct evidence that the name has deeper linguistic roots in Hebrew or Arabic."
+    },
+    "hebrew": {
+      "summary": "השם \"יויו\" (יויו) נראה נגזר ישירות מהתעתיק הצרפתי של צורת המנה הכיפית, העגולה והמשעשעת—יש האומרים שהוא מתייחס לדמיון לצעצוע באותו שם, אך בהקשר זה, סביר יותר שזהו מונח מקומי חביב ללא מקור עתיק או סמלי. אין עדות ישירה לכך שלשם יש שורשים לשוניים עמוקים יותר בעברית או בערבית."
+    },
+    "arabic": {
+      "summary": "يبدو أن اسم \"يويو\" (יויו) مشتق مباشرة من الترجمة الفرنسية لشكل الطبق المستدير والممتع والمرح - يقول البعض إنه يشير إلى التشابه مع اللعبة التي تحمل نفس الاسم، ولكن في هذا السياق، من المرجح أن يكون مصطلحًا محليًا محببًا دون أصل قديم أو رمزي. لا يوجد دليل مباشر على أن الاسم له جذور لغوية أعمق في العبرية أو العربية."
+    },
+    "spanish": {
+      "summary": "El nombre \"yoyo\" (יויו) parece derivar directamente de la transliteración francesa de la forma divertida, redonda y juguetona del plato; algunos dicen que se refiere a la semejanza con el juguete del mismo nombre, pero en este contexto, es más probable que sea un término local afectuoso sin un origen antiguo o simbólico. No hay evidencia directa de que el nombre tenga raíces lingüísticas más profundas en hebreo o árabe."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Yoyo is believed to have originated in southern Tunisia, with especially deep roots in the Jewish communities of Djerba and Tunis[14][6]. Evidence suggests that the dish was created to break the fast during Ramadan and then woven into broader Jewish culinary traditions, becoming a signature celebration treat among both Jewish and Muslim Tunisians[14]. Tunisian Jews, a community with millennia-old ",
+      "evolution": "",
+      "cultural_significance": "Yoyo is strongly associated with celebration and togetherness within the community. For Jews of Tunisian origin, yoyo is a Hanukkah tradition due to its fried nature (oil-rich foods are symbolic of the Hanukkah miracle)[2]. It’s also served at other festive moments, such as breaking the Yom Kippur fast, during special family occasions, and sometimes at weddings or communal gatherings[14][2]. In Tu",
+      "regional_variations": "",
+      "summary": "Yoyo is believed to have originated in southern Tunisia, with especially deep roots in the Jewish communities of Djerba and Tunis[14][6]. Evidence suggests that the dish was created to break the fast during Ramadan and then woven into broader Jewish culinary traditions, becoming a signature celebration treat among both Jewish and Muslim Tunisians[14]. Tunisian Jews, a community with millennia-old "
+    },
+    "hebrew": {
+      "summary": "יויו נחשב שמקורו בדרום תוניסיה, עם שורשים עמוקים במיוחד בקהילות היהודיות של ג'רבה ותוניס. עדויות מצביעות על כך שהמנה נוצרה כדי לשבור את הצום במהלך הרמדאן ולאחר מכן שולבה במסורות הקולינריות היהודיות הרחבות יותר, והפכה למאכל חגיגי מובהק בקרב יהודים ומוסלמים תוניסאים כאחד. יהודי תוניסיה, קהילה בת אלפי שנים"
+    },
+    "arabic": {
+      "summary": "يُعتقد أن أصل اليويو يعود إلى جنوب تونس، مع جذور عميقة خاصة في المجتمعات اليهودية في جربة وتونس. تشير الأدلة إلى أن هذا الطبق تم إنشاؤه لكسر الصيام خلال شهر رمضان ثم تم دمجه في التقاليد الطهوية اليهودية الأوسع، ليصبح وجبة احتفالية مميزة بين اليهود والمسلمين التونسيين. اليهود التونسيون، مجتمع يمتد لآلاف السنين."
+    },
+    "spanish": {
+      "summary": "Se cree que el yoyo se originó en el sur de Túnez, con raíces especialmente profundas en las comunidades judías de Djerba y Túnez. La evidencia sugiere que el plato fue creado para romper el ayuno durante el Ramadán y luego se integró en las tradiciones culinarias judías más amplias, convirtiéndose en un dulce de celebración característico tanto entre los judíos como entre los musulmanes tunecinos. Los judíos tunecinos, una comunidad con milenios de antigüedad"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Yoyo is a traditional Tunisian-Djerban Jewish treat, often enjoyed during festive occasions. The syrup adds a delightful sweetness that complements the fried dough.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Yoyo is a traditional Tunisian-Djerban Jewish treat, often enjoyed during festive occasions. The syrup adds a delightful sweetness that complements the fried dough."
+    },
+    "hebrew": {
+      "summary": "יויו הוא ממתק מסורתי של יהודי תוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות במהלך אירועים חגיגיים. הסירופ מוסיף מתיקות נעימה שמשלימה את הבצק המטוגן."
+    },
+    "arabic": {
+      "summary": "يُعتبر يويّو من الحلويات التقليدية لدى اليهود التونسيين-الجرباويين، وغالبًا ما يُستمتع به خلال المناسبات الاحتفالية. يضيف الشراب حلاوة لذيذة تكمل العجين المقلي."
+    },
+    "spanish": {
+      "summary": "Yoyo es un dulce tradicional de la herencia judía tunecina-djerban, que a menudo se disfruta durante ocasiones festivas. El jarabe añade una dulzura deliciosa que complementa la masa frita."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "yoyo_history.md",
+    "history_md": "yoyo_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

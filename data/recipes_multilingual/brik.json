@@ -1,0 +1,90 @@
+{
+  "id": "brik",
+  "image": "brik.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "10 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בריק",
+    "es": "Brik",
+    "ar": "البريك",
+    "en": "Brik"
+  },
+  "description": {
+    "he": "בריק הוא מאפה מטוגן ופריך, מאבני היסוד של המטבח התוניסאי-יהודי. השם נגזר מהמילה הטורקית \"בורק\", אך השימוש בעלי \"מלסוקה\" דקיקים מייחד אותו. גרסה טבעונית זו מחליפה את הביצה המסורתית בבלילת קמח חומוס או מילוי תפוחי אדמה עשיר.",
+    "es": "El Brik es un pastel frito y crujiente, piedra angular de la cocina tunecina. El nombre deriva del turco \"börek\", aunque el uso de finas hojas de \"malsouka\" lo hace único. Esta versión vegana sustituye el huevo tradicional por harina de garbanzo o un relleno de patata condimentada.",
+    "ar": "البريك هو من أشهر الأكلات التونسية، وهو عبارة عن ورقة مالسوقة مقلية ومحشوة. أصل الكلمة من \"البوراك\" التركي. في هذه الوصفة النباتية، نعوض العظمة (البيضة) بخلطة دقيق الحمص أو بالبطاطا المفوحة.",
+    "en": "Brik is a crispy, deep-fried pastry considered a cornerstone of Tunisian cuisine. The name derives from the Turkish \"börek,\" though the use of thin \"malsouka\" sheets makes it distinct. In this vegan version, the traditional egg is replaced with a savory chickpea batter or seasoned potato filling."
+  },
+  "ingredients": {
+    "he": [
+      "4 עלי בריק (מלסוקה)",
+      "1 כוס פירה תפוחי אדמה (מתובל)",
+      "2 כפות פטרוזיליה קצוצה",
+      "1 כף אריסה",
+      "1 כף צלפים",
+      "שמן לטיגון עמוק",
+      "תחליף ביצה: 3 כפות קמח חומוס + 3 כפות מים"
+    ],
+    "es": [
+      "4 hojas de Brik (Malsouka)",
+      "1 taza de puré de patatas (condimentado)",
+      "2 cdas de perejil picado",
+      "1 cda de Harissa",
+      "1 cda de alcaparras",
+      "Aceite para freír",
+      "Huevo vegano: 3 cdas harina de garbanzo + 3 cdas agua"
+    ],
+    "ar": [
+      "4 ورقات ملسوقة",
+      "1 كأس بطاطا مرحية (مفوحة)",
+      "2 مغارف معدنوس مقصوص",
+      "1 مغرفة هريسة",
+      "1 مغرفة كبار",
+      "زيت للقلي",
+      "لتعويض العظمة: 3 مغارف دقيق حمص + 3 مغارف ماء"
+    ],
+    "en": [
+      "4 Brik sheets (Malsouka)",
+      "1 cup mashed potatoes (seasoned)",
+      "2 tbsp chopped parsley",
+      "1 tbsp Harissa",
+      "1 tbsp capers",
+      "Oil for deep frying",
+      "Vegan Egg: 3 tbsp chickpea flour + 3 tbsp water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את פירה תפוחי האדמה עם הפטרוזיליה, האריסה והצלפים (או מכינים את בלילת קמח החומוס).",
+      "מחממים שמן עמוק במחבת רחבה.",
+      "מניחים את המילוי במרכז העלה ומקפלים למשולש או חצי עיגול. מהדקים היטב.",
+      "מטגנים בשמן חם משני הצדדים עד שהעלה מזהיב ונעשה פריך.",
+      "מוציאים לנייר סופג ומגישים חם עם לימון."
+    ],
+    "es": [
+      "Mezclar el puré de patatas con perejil, harissa y alcaparras (o preparar la mezcla de garbanzo).",
+      "Calentar abundante aceite en una sartén.",
+      "Colocar el relleno en el centro de la hoja y doblar en forma de triángulo o media luna. Cerrar bien.",
+      "Freír en el aceite caliente por ambos lados hasta que esté dorado y crujiente.",
+      "Escurrir sobre papel absorbente y servir caliente con limón."
+    ],
+    "ar": [
+      "خلّط البطاطا المرحية مع المعدنوس والهريسة والكبار (أو حضّر خلطة دقيق الحمص).",
+      "سخّن الزيت في المقلاة.",
+      "حط الحشو في وسط ورقة الملسوقة وسكّرها مثلث أو نص دائرة.",
+      "قلّي البريكة في الزيت السخون من الجهتين لين تحمار وتتقرمش.",
+      "قطّرها من الزيت وقدّمها سخونة مع عصرة قارص."
+    ],
+    "en": [
+      "Mix the mashed potatoes with parsley, harissa, and capers (or prepare the chickpea batter).",
+      "Heat generous amount of oil in a frying pan.",
+      "Place filling in the center of the sheet and fold into a triangle or half-moon. Seal well.",
+      "Fry in hot oil on both sides until golden and crispy.",
+      "Drain on paper towels and serve hot with lemon."
+    ]
+  }
+}

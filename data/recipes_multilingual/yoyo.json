@@ -1,0 +1,90 @@
+{
+  "id": "yoyo",
+  "image": "yoyo.png",
+  "meta": {
+    "servings": "20 units",
+    "prep_time": "40 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "יויו",
+    "es": "Yoyos",
+    "ar": "يويو",
+    "en": "Yoyos"
+  },
+  "description": {
+    "he": "עוגיות מטוגנות בצורת טבעת, טבולות בסירופ מתוק בניחוח הדרים. מנה תוניסאית קלאסית האהובה בחנוכה ובאירועים חגיגיים, ששמה נגזר ככל הנראה מצורתה המזכירה את הצעצוע.",
+    "es": "Rosquillas fritas bañadas en almíbar cítrico, clásicas de la repostería tunecina judía. Muy populares en Hanukkah y celebraciones, su nombre probablemente deriva de su forma redonda similar al juguete.",
+    "ar": "حلويات مقلية على شكل كعك، مغطسة في \"الشحور\" بنكهة الحمضيات. أكلة تونسية كلاسيكية محبوبة في المناسبات والأعياد، واسمها مستمد غالباً من شكلها الذي يشبه لعبة اليويو.",
+    "en": "Sweet fried dough rings dipped in citrus-infused syrup, a classic Tunisian pastry. Popular during Hanukkah and celebrations, the name likely refers to their round shape resembling the toy."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם קמח",
+      "1/2 כוס סוכר",
+      "1/2 כוס שמן",
+      "1/2 כוס רסק תפוחים (תחליף ביצה)",
+      "1/2 כוס מיץ תפוזים",
+      "1 כפית תמצית וניל",
+      "שמן לטיגון עמוק",
+      "לסירופ: 2 כוסות סוכר, 1 כוס מים, מיץ מחצי לימון"
+    ],
+    "es": [
+      "500g de harina",
+      "1/2 taza de azúcar",
+      "1/2 taza de aceite",
+      "1/2 taza de puré de manzana (sustituto de huevo)",
+      "1/2 taza de jugo de naranja",
+      "1 cdta de vainilla",
+      "Aceite para freír",
+      "Almíbar: 2 tazas de azúcar, 1 taza de agua, jugo de 1/2 limón"
+    ],
+    "ar": [
+      "500 غ فرينة (دقيق)",
+      "نصف كأس سكر",
+      "نصف كأس زيت",
+      "نصف كأس \"compote\" تفاح (عوض العظم)",
+      "نصف كأس عصير برتقال",
+      "مغرفة صغيرة فانيليا",
+      "زيت للقلي",
+      "للشحور: 2 كؤوس سكر، كأس ماء، عصير نصف قارصة (ليمونة)"
+    ],
+    "en": [
+      "500g flour",
+      "1/2 cup sugar",
+      "1/2 cup oil",
+      "1/2 cup applesauce (egg substitute)",
+      "1/2 cup orange juice",
+      "1 tsp vanilla extract",
+      "Oil for deep frying",
+      "Syrup: 2 cups sugar, 1 cup water, juice of 1/2 lemon"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את כל חומרי הבצק למרקם רך ולא דביק, ומניחים בצד לחצי שעה.",
+      "יוצרים כדורים, עושים חור במרכז ליצירת טבעת, ומטגנים בשמן עמוק וחם עד להזהבה.",
+      "מבשלים את חומרי הסירופ (סוכר, מים ולימון) כ-7 דקות עד להסמכה קלה.",
+      "מוציאים את העוגיות לנייר סופג וטובלים אותן בסירופ."
+    ],
+    "es": [
+      "Mezclar todos los ingredientes de la masa hasta obtener una textura suave y no pegajosa; dejar reposar 30 min.",
+      "Formar rosquillas con un agujero en el centro y freír en aceite hondo caliente hasta que estén doradas.",
+      "Cocinar los ingredientes del almíbar (azúcar, agua, limón) durante unos 7 minutos.",
+      "Escurrir los yoyos sobre papel absorbente y bañarlos en el almíbar."
+    ],
+    "ar": [
+      "خلّط كل مكونات العجينة حتى تولي طرية وما تتلصقش، وخليها ترتاح نص ساعة.",
+      "شكّل كعكات صغار (دوائر منقوبة في الوسط) واقليهم في زيت سخون وعميق حتى يحماروا.",
+      "طيّب الشحور (سكر وماء وقارص) لمدة 7 دقايق.",
+      "قطّر اليويو من الزيت وغطّسه في الشحور."
+    ],
+    "en": [
+      "Mix all dough ingredients into a soft, non-sticky dough and let rest for 30 minutes.",
+      "Form rings with a hole in the center and deep fry in hot oil until golden.",
+      "Cook the syrup ingredients (sugar, water, lemon) for about 7 minutes.",
+      "Drain on paper towels and dip the pastries into the syrup."
+    ]
+  }
+}

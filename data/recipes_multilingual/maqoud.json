@@ -1,0 +1,90 @@
+{
+  "id": "maqoud",
+  "image": "maqoud.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מעקוד",
+    "es": "Maqoud",
+    "ar": "المعقود",
+    "en": "Maqoud"
+  },
+  "description": {
+    "he": "מעקוד הוא פשטידת תפוחי אדמה תוניסאית, אהובה בבתים יהודיים בג'רבה לשבת ולחגים. השם נגזר מהשורש הערבי ל\"מכווון\" או \"קשור\", ומתייחס לאופן ההכנה המוקפד של המנה המנחמת והמשביעה.",
+    "es": "El Maqoud es un pastel de papa tunecino, apreciado en los hogares judíos de Djerba para Shabat y fiestas. Su nombre deriva de la raíz árabe para 'intencionado' o 'ligado', refiriéndose a la cuidadosa preparación de este plato reconfortante.",
+    "ar": "المعقود هو طاجين بطاطا تونسي، محبوب عند اليهود الجرابة في السبت والأعياد. الاسم جاي من كلمة 'مقصود' أو 'معقود' (مربوط)، ويرمز لطريقة تحضير هالأكلة البنينة والمشبّعة.",
+    "en": "Maqoud is a savory Tunisian potato pie, cherished in Djerban Jewish homes for Shabbat and holidays. The name likely derives from the Arabic root for 'intended' or 'bound,' referring to the careful preparation of this comforting dish."
+  },
+  "ingredients": {
+    "he": [
+      "4-5 תפוחי אדמה",
+      "1 כוס קמח חומוס + 1 כוס מים (תחליף לביצים)",
+      "1/2 כוס אפונה וגזר (מבושלים)",
+      "חופן פטרוזיליה קצוצה",
+      "1 כף קמח רגיל",
+      "תבלינים (מלח, פלפל, כורכום)",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "4-5 papas",
+      "1 taza harina de garbanzo + 1 taza agua (sustituto de huevo)",
+      "1/2 taza guisantes y zanahorias (cocidos)",
+      "Un puñado de perejil picado",
+      "1 cda harina común",
+      "Especias (sal, pimienta, cúrcuma)",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "4-5 كعبات بطاطا",
+      "1 كأس دقيق حمص + 1 كأس ماء (في عوض العظم)",
+      "نص كأس جلبانة وسفنارية (طايبة)",
+      "شوي معدנוس مقصوص",
+      "1 مغرفة فرينة",
+      "فاحات (ملح، فلفل أكحل، كركم)",
+      "زيت للقليان"
+    ],
+    "en": [
+      "4-5 potatoes",
+      "1 cup chickpea flour + 1 cup water (egg substitute)",
+      "1/2 cup peas and carrots (cooked)",
+      "Handful chopped parsley",
+      "1 tbsp all-purpose flour",
+      "Spices (salt, pepper, turmeric)",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את תפוחי האדמה במים עד לריכוך ומועכים לפירה.",
+      "מערבבים את קמח החומוס עם המים בקערה נפרדת עד לקבלת בלילה חלקה.",
+      "מוסיפים לפירה את בלילת החומוס, כף הקמח, הפטרוזיליה, הירקות והתבלינים ומערבבים היטב.",
+      "מחממים שמן במחבת עמוקה, שופכים את הבלילה ומבשלים על אש נמוכה עם מכסה עד להתייצבות.",
+      "הופכים את המעקוד בעזרת צלחת ומחזירים למחבת לטיגון הצד השני עד להזהבה."
+    ],
+    "es": [
+      "Hervir las papas hasta que estén suaves y hacerlas puré.",
+      "Mezclar la harina de garbanzo con el agua en un bol aparte hasta obtener una masa suave.",
+      "Añadir al puré la mezcla de garbanzo, la harina extra, el perejil, las verduras y las especias; mezclar bien.",
+      "Calentar aceite en una sartén profunda, verter la mezcla y cocinar a fuego lento tapado hasta que cuaje.",
+      "Dar la vuelta al Maqoud con ayuda de un plato y freír el otro lado hasta que se dore."
+    ],
+    "ar": [
+      "اسمط البطاطا في الماء لين تطيب وارحيها بش تولي پيري.",
+      "خلّط دقيق الحمص مع الماء بالباهي لين يولي جاري.",
+      "زيد خليط الحمص للبطاطا مع مغرفة الفرينة، المعدנוس، الجلبانة والسفنارية والفاحات وحرّك.",
+      "سخّن الزيت في مقلة غارقة، صب الخليط وطيّب على نار هادية وغطّيها لين تشد روحها.",
+      "اقلب المعقود بالسياسة باستعمال صحن ورجّعو للمقلة يطيب من الشيرة لخرى."
+    ],
+    "en": [
+      "Boil the potatoes until soft and mash into a puree.",
+      "Mix the chickpea flour with water in a separate bowl until smooth.",
+      "Add the chickpea batter, extra flour, parsley, vegetables, and spices to the potatoes and mix well.",
+      "Heat oil in a deep pan, pour in the batter, and cook on low heat covered until set.",
+      "Flip the Maqoud using a plate and fry the other side until golden brown."
+    ]
+  }
+}

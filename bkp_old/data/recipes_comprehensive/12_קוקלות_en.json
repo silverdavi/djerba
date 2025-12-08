@@ -1,0 +1,223 @@
+{
+  "id": "kuklot",
+  "names": {
+    "english": "Kuklot",
+    "hebrew": "קוקלות",
+    "arabic": "كوكلاط",
+    "spanish": "[\"Kuklot\"]"
+  },
+  "metadata": {
+    "category": "Stews & Braises",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Eggs",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Semolina",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Salt",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Black pepper",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Paprika",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "baking powder",
+        "amount": "1",
+        "unit": "teaspoon"
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "name": "Huevos",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Sémola",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Aceite",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Sal",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pimienta negra",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pimentón",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Polvo de hornear",
+        "amount": "1",
+        "unit": "cucharadita"
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a deep plate, crack an egg."
+      },
+      {
+        "step": 2,
+        "text": "Add a little oil, water, and spices to the egg."
+      },
+      {
+        "step": 3,
+        "text": "Gradually add semolina until the mixture can be kneaded."
+      },
+      {
+        "step": 4,
+        "text": "Form small balls and drop them into the stew."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "בצלחת עמוקה, לשבור ביצה."
+      },
+      {
+        "step": 2,
+        "text": "להוסיף מעט שמן, מים ותבלינים לביצה."
+      },
+      {
+        "step": 3,
+        "text": "למקם סולת בהדרגה עד שניתן ללוש את התערובת."
+      },
+      {
+        "step": 4,
+        "text": "ליצור כדורים קטנים ולהפיל אותם לתוך התבשיל."
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The exact etymology of \"Kuklot\" (קוקלות) is not definitively established in academic sources; however, linguistic clues point towards a derivation from the Greek word \"κύκλος\" (kuklos), meaning \"circle\" or \"ring\"[11][15]. This links closely to the dish’s appearance, as Kuklot usually consists of circular or oval-shaped meatballs or stuffed items. The use of similar-sounding terms for circular shapes and foods in regional cuisines supports this interpretation. Other derivations, such as the Engli"
+    },
+    "hebrew": {
+      "summary": "האטימולוגיה המדויקת של \"קוקלות\" (קוקלות) אינה מבוססת באופן מוחלט במקורות אקדמיים; עם זאת, רמזים לשוניים מצביעים על נגזרת מהמילה היוונית \"κύκλος\" (קוקלוס), שמשמעותה \"מעגל\" או \"טבעת\". זה קשור באופן הדוק למראה המנה, שכן קוקלות בדרך כלל מורכבות מכדורי בשר או פריטים ממולאים בצורת מעגל או אליפסה. השימוש במונחים דומים בצליל לצורות מעגליות ומאכלים במטבחים אזוריים תומך בפרשנות זו. נגזרות אחרות, כמו האנגלית"
+    },
+    "arabic": {
+      "summary": "لم يتم تحديد أصل كلمة \"كوكولت\" (קוקלות) بشكل قاطع في المصادر الأكاديمية؛ ومع ذلك، تشير الأدلة اللغوية إلى اشتقاقها من الكلمة اليونانية \"κύκλος\" (كوكولوس)، التي تعني \"دائرة\" أو \"حلقة\". يرتبط هذا بشكل وثيق بمظهر الطبق، حيث يتكون الكوكولت عادةً من كرات لحم أو عناصر محشوة ذات شكل دائري أو بيضاوي. يدعم استخدام مصطلحات مشابهة الصوت للأشكال الدائرية والأطعمة في المطابخ الإقليمية هذا التفسير."
+    },
+    "spanish": {
+      "summary": "La etimología exacta de \"Kuklot\" (קוקלות) no está definitivamente establecida en fuentes académicas; sin embargo, pistas lingüísticas apuntan hacia una derivación de la palabra griega \"κύκλος\" (kuklos), que significa \"círculo\" o \"anillo\". Esto se relaciona estrechamente con la apariencia del plato, ya que Kuklot generalmente consiste en albóndigas o elementos rellenos de forma circular u ovalada. El uso de términos de sonido similar para formas y alimentos circulares en las cocinas regionales apoya esta interpretación."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Kuklot (קוקלות) is a traditional dish with roots in the Jewish community of Tunisia, particularly the island of Djerba, where Jews settled as early as antiquity—some accounts trace their presence to the destruction of the First Temple in Jerusalem, around 586 BCE[2][18]. The dish reflects the broader culinary traditions of Tunisian Jews, who adapted local North African foods and cooking styles to ",
+      "evolution": "",
+      "cultural_significance": "Kuklot holds deep significance as a comfort food and a marker of Jewish identity within Tunisia and the Djerba community[5][13]. Traditionally, it is considered a festive dish served during Shabbat and Jewish holidays, prepared in a manner consistent with kosher dietary rules and the need for foods that could be cooked in advance—an important consideration due to the prohibition against cooking on",
+      "regional_variations": "",
+      "summary": "Kuklot (קוקלות) is a traditional dish with roots in the Jewish community of Tunisia, particularly the island of Djerba, where Jews settled as early as antiquity—some accounts trace their presence to the destruction of the First Temple in Jerusalem, around 586 BCE[2][18]. The dish reflects the broader culinary traditions of Tunisian Jews, who adapted local North African foods and cooking styles to "
+    },
+    "hebrew": {
+      "summary": "קוקלות (קוקלות) הוא מאכל מסורתי עם שורשים בקהילה היהודית של תוניסיה, במיוחד באי ג'רבה, שם התיישבו יהודים כבר בעת העתיקה—ישנם דיווחים שמייחסים את נוכחותם להרס בית המקדש הראשון בירושלים, בסביבות 586 לפנה\"ס. המאכל משקף את המסורות הקולינריות הרחבות של יהודי תוניסיה, שהתאימו את המזונות והסגנונות הבישול המקומיים של צפון אפריקה."
+    },
+    "arabic": {
+      "summary": "كوكولت (קוקלות) هو طبق تقليدي ذو جذور في المجتمع اليهودي في تونس، وخاصة في جزيرة جربة، حيث استقر اليهود منذ العصور القديمة—بعض الروايات تعود بوجودهم إلى تدمير الهيكل الأول في القدس، حوالي 586 قبل الميلاد. يعكس الطبق التقاليد الطهوية الأوسع لليهود التونسيين، الذين تكيفوا مع الأطعمة والأساليب الطهوية المحلية لشمال إفريقيا."
+    },
+    "spanish": {
+      "summary": "Kuklot (קוקלות) es un plato tradicional con raíces en la comunidad judía de Túnez, particularmente en la isla de Djerba, donde los judíos se establecieron desde la antigüedad; algunos relatos sitúan su presencia en la destrucción del Primer Templo en Jerusalén, alrededor del año 586 a.C. El plato refleja las amplias tradiciones culinarias de los judíos tunecinos, quienes adaptaron los alimentos y estilos de cocina locales del norte de África a"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Kuklot are traditional dumplings often served in a rich stew, reflecting the culinary heritage of the Tunisian-Djerban Jewish community.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Kuklot are traditional dumplings often served in a rich stew, reflecting the culinary heritage of the Tunisian-Djerban Jewish community."
+    },
+    "hebrew": {
+      "summary": "קוקלות הן כופתאות מסורתיות שמוגשות לעיתים קרובות בתבשיל עשיר, ומשקפות את המורשת הקולינרית של הקהילה היהודית התוניסאית-ג'רבאית."
+    },
+    "arabic": {
+      "summary": "ككلوت هي زلابية تقليدية تُقدَّم غالبًا في حساء غني، مما يعكس التراث الطهوي لمجتمع اليهود التونسي-الجربي."
+    },
+    "spanish": {
+      "summary": "Kuklot son albóndigas tradicionales que a menudo se sirven en un guiso rico, reflejando la herencia culinaria de la comunidad judía tunecina-djerbana."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "kuklot_history.md",
+    "history_md": "kuklot_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

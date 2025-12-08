@@ -1,0 +1,21 @@
+{
+  "id": "mahshi",
+  "name_hebrew": "מחשי",
+  "name_english": "Mahshi",
+  "ingredients": [
+    "Rice",
+    "Eggs",
+    "Pieces of chicken",
+    "Spices: salt and pepper"
+  ],
+  "instructions": [
+    "Hollow out vegetables such as potatoes, zucchini, eggplant, cabbage leaves, etc. In a bowl, crack an egg and add rice and pieces of chicken breast, then fill the hollowed vegetables with this mixture.",
+    "In a pot, heat oil and sauté onions. Add tomatoes and other vegetables like zucchini and pumpkin. Pour in water and season with spices. Carefully place the stuffed vegetables into the pot and cook until done."
+  ],
+  "notes": "This dish is a traditional Tunisian-Jewish recipe, often enjoyed during festive occasions. The choice of vegetables can vary based on personal preference and seasonal availability.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "27_מחשי.json"
+  }
+}

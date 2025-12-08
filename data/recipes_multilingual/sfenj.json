@@ -1,0 +1,90 @@
+{
+  "id": "sfenj",
+  "image": "sfenj.png",
+  "meta": {
+    "servings": "10-12",
+    "prep_time": "20 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "ספינג'",
+    "es": "Sfenj",
+    "ar": "السفنج",
+    "en": "Sfenj"
+  },
+  "description": {
+    "he": "ספינג' הן סופגניות בצק מטוגנות מהמגרב, בעלות מרקם ספוגי ופריך. השם נגזר מהמילה הערבית \"איספנג'\" (ספוג). בג'רבה נהוג לאכול אותן בארוחת בוקר או בחנוכה, כשהן טבולות בסוכר או בדבש.",
+    "es": "El Sfenj es una rosquilla de masa frita del Magreb, conocida por su textura esponjosa a la cual debe su nombre (del árabe \"isfenj\", esponja). En Djerba, se disfrutan tradicionalmente en el desayuno o durante Janucá, bañadas en azúcar o miel.",
+    "ar": "السفنج هو فطائر مقلية مشهورة في المغرب العربي، تتميز بقوامها الإسفنجي ومنه اشتق اسمها \"الإسفنج\". في جربة، تؤكل عادةً في الفطور أو في عيد الحانوكا مغمسة في السكر أو العسل.",
+    "en": "Sfenj are Maghrebi deep-fried dough rings with a distinctively spongy interior, hence the name (from Arabic \"isfenj\" meaning sponge). In Djerban tradition, they are often eaten for breakfast or during Hanukkah, dipped in sugar or honey."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם קמח",
+      "1 כף שמרים יבשים",
+      "1 כפית מלח",
+      "2 כוסות מים חמימים",
+      "שמן לטיגון עמוק",
+      "סוכר (להגשה)"
+    ],
+    "es": [
+      "500g de harina",
+      "1 cda de levadura seca",
+      "1 cdta de sal",
+      "2 tazas de agua tibia",
+      "Aceite para freír",
+      "Azúcar (para servir)"
+    ],
+    "ar": [
+      "500 غرام فرينة (طحين)",
+      "1 مغرفة كبيرة خميرة",
+      "1 مغرفة صغيرة ملح",
+      "2 كيسان ماء دافي",
+      "زيت للقلي",
+      "سكر (للتقديم)"
+    ],
+    "en": [
+      "500g flour",
+      "1 tbsp dry yeast",
+      "1 tsp salt",
+      "2 cups warm water",
+      "Oil for deep frying",
+      "Sugar (for serving)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את הקמח, השמרים והמלח בקערה.",
+      "מוסיפים מים בהדרגה ומערבבים ביד לקבלת בצק דביק מאוד ונוזלי מעט. מכסים ומתפיחים עד להכפלת הנפח.",
+      "מחממים שמן עמוק בסיר רחב.",
+      "מרטיבים את הידיים, קורעים חתיכת בצק, יוצרים חור במרכז למתיחה ומכניסים בזהירות לשמן.",
+      "מטגנים עד להזהבה עמוקה משני הצדדים.",
+      "טובלים בסוכר ומגישים חם."
+    ],
+    "es": [
+      "Mezclar la harina, la levadura y la sal en un bol.",
+      "Añadir el agua gradualmente y mezclar hasta obtener una masa muy pegajosa; cubrir y dejar levar hasta que duplique su tamaño.",
+      "Calentar abundante aceite en una olla ancha.",
+      "Con las manos mojadas, tomar un trozo de masa, estirarlo creando un agujero central y colocar con cuidado en el aceite.",
+      "Freír hasta que estén bien dorados por ambos lados.",
+      "Rebozar en azúcar y servir caliente."
+    ],
+    "ar": [
+      "خلّط الفرينة والخميرة والملح في صحفة.",
+      "زيد الماء بالشوية وخلّط بيدك لين تتحصل على عجينة تتلصق وطرية برشا. غطيها وخليها تخمر لين يتضاعف حجمها.",
+      "سخّن الزيت بالقدى في طنجرة واسعة.",
+      "بل يديك بالماء، خوذ طرف عجينة، أعمل ثقب في الوسط وجبّدها، وحطها في الزيت بالشوية.",
+      "اقليها لين تحمار مليح من الجهتين (تولي ذهبية).",
+      "رمدها في السكر وقدمها سخونة."
+    ],
+    "en": [
+      "Mix flour, yeast, and salt in a bowl.",
+      "Gradually add water and mix to form a very sticky, loose dough. Cover and let rise until doubled in size.",
+      "Heat deep oil in a wide pot.",
+      "With wet hands, tear a piece of dough, stretch a hole in the center to form a ring, and carefully place in the oil.",
+      "Fry until deep golden brown on both sides.",
+      "Dip in sugar and serve hot."
+    ]
+  }
+}

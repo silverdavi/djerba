@@ -1,0 +1,176 @@
+{
+  "id": "couscous",
+  "names": {
+    "english": "Couscous",
+    "hebrew": "קוסקוס",
+    "arabic": "كسكسي",
+    "spanish": "Cuscús"
+  },
+  "metadata": {
+    "category": "Stews & Braises",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "semolina",
+        "amount": "1",
+        "unit": "kg"
+      },
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "סולת",
+        "amount": "1",
+        "unit": "ק\"ג"
+      },
+      {
+        "name": "מים",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "سميد",
+        "amount": "1",
+        "unit": "كجم"
+      },
+      {
+        "name": "ماء",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "زيت",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Pour 1 kg of semolina into a wide bowl through a coarse sieve. Rotate the semolina to ensure it is clean, discarding any impurities that rise to the surface."
+      },
+      {
+        "step": 2,
+        "text": "Add 1/4 cup of water and mix the semolina. Then, add another 1/4 cup of water, being careful not to add too much."
+      },
+      {
+        "step": 3,
+        "text": "Transfer the semolina through the coarse sieve, adding a little oil by hand and mixing well. Place it in a steaming pot, which should be set over a pot of boiling water."
+      },
+      {
+        "step": 4,
+        "text": "Steam for about 30 minutes. Once done, transfer the couscous to a bowl, sprinkle water over it, and fluff it up."
+      },
+      {
+        "step": 5,
+        "text": "Repeat this steaming process until steam rises from the couscous. Finally, drizzle a little oil over the couscous and transfer it to a serving bowl."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The word “couscous” comes from the Arabic “kuskus,” which itself derives from the root “kaskasa” meaning “to pound” or “he pounded.” This reflects the method of preparing the semolina wheat, and some sources note likely Berber roots as well (terms like “k’seksu” or “seksu”)[3][5][9][11][19]. The word in Berber languages often references something well-rolled or well-shaped, echoing the process of hand-rolling semolina into small granules[5][19]."
+    },
+    "hebrew": {
+      "summary": "המילה \"קוסקוס\" מגיעה מהערבית \"כוסקוס\", שמקורה בשורש \"כסקאסה\" שמשמעותו \"לכתוש\" או \"הוא כתש\". זה משקף את שיטת הכנת החיטה הסולתית, וישנם מקורות שמציינים גם שורשים ברבריים (מונחים כמו \"כ'סקסו\" או \"סקסו\"). המילה בשפות הברבריות מתייחסת לעיתים קרובות למשהו מגולגל היטב או מעוצב היטב, מהדהדת את תהליך גלגול היד של הסולת לגרגירים קטנים."
+    },
+    "arabic": {
+      "summary": "تأتي كلمة \"كسكسي\" من العربية \"كسكس\"، والتي تشتق بدورها من الجذر \"كسكس\" بمعنى \"دق\" أو \"هو دق\". يعكس هذا الطريقة التي يتم بها تحضير القمح السميد، وتشير بعض المصادر إلى أصول بربرية محتملة أيضًا (مصطلحات مثل \"كسكسو\" أو \"سكسو\"). في اللغات البربرية، غالبًا ما تشير الكلمة إلى شيء ملفوف جيدًا أو مشكل جيدًا، مما يعكس عملية لف السميد يدويًا إلى حبيبات صغيرة."
+    },
+    "spanish": {
+      "summary": "La palabra \"cuscús\" proviene del árabe \"kuskus\", que a su vez deriva de la raíz \"kaskasa\" que significa \"golpear\" o \"él golpeó\". Esto refleja el método de preparación del trigo sémola, y algunas fuentes también señalan probables raíces bereberes (términos como \"k'seksu\" o \"seksu\"). La palabra en las lenguas bereberes a menudo hace referencia a algo bien enrollado o bien formado, evocando el proceso de enrollar a mano la sémola en pequeños gránulos."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Couscous is believed to have originated with the Berber people of North Africa, particularly in regions that are today Algeria, Morocco, and Tunisia, as early as the 7th century and possibly even earlier during the reign of the Berber king Massinissa in Numidia (238–149 BC)[1][5][13]. The dish became a fundamental part of Maghrebi (Northwest African) cuisine thanks to its practicality for nomadic ",
+      "evolution": "",
+      "cultural_significance": "Couscous is revered as a symbol of luck and prosperity and features prominently in holiday and family meals[6][10]. Among Tunisian Jews, it is customary to serve couscous on Tuesdays—historically, a day when bakeries were closed—and on Fridays for Shabbat dinner[6][10]. In both Tunisian and Djerban Jewish cultures, the dish functions as both a festive centerpiece and everyday staple, underscoring ",
+      "regional_variations": "",
+      "summary": "Couscous is believed to have originated with the Berber people of North Africa, particularly in regions that are today Algeria, Morocco, and Tunisia, as early as the 7th century and possibly even earlier during the reign of the Berber king Massinissa in Numidia (238–149 BC)[1][5][13]. The dish became a fundamental part of Maghrebi (Northwest African) cuisine thanks to its practicality for nomadic "
+    },
+    "hebrew": {
+      "summary": "קוסקוס נחשב שמקורו בעמי הברברים של צפון אפריקה, במיוחד באזורים שהם היום אלג'יריה, מרוקו ותוניסיה, כבר במאה ה-7 ואולי אף מוקדם יותר בתקופת שלטונו של המלך הברברי מסיניסה בנומידיה (238–149 לפנה\"ס). המנה הפכה לחלק בסיסי מהמטבח המגרבי (צפון-מערב אפריקה) בזכות הפרקטיות שלה עבור נוודים."
+    },
+    "arabic": {
+      "summary": "الكسكسي يُعتقد أنه نشأ مع الشعب الأمازيغي في شمال إفريقيا، خاصة في المناطق التي هي اليوم الجزائر، المغرب، وتونس، في وقت مبكر من القرن السابع وربما حتى في وقت سابق خلال حكم الملك الأمازيغي ماسينيسا في نوميديا (238-149 قبل الميلاد). أصبح هذا الطبق جزءًا أساسيًا من المطبخ المغاربي (شمال غرب إفريقيا) بفضل عمليته للرحل."
+    },
+    "spanish": {
+      "summary": "Se cree que el cuscús se originó con el pueblo bereber del norte de África, particularmente en las regiones que hoy son Argelia, Marruecos y Túnez, ya en el siglo VII y posiblemente incluso antes, durante el reinado del rey bereber Masinisa en Numidia (238-149 a.C.). El plato se convirtió en una parte fundamental de la cocina magrebí (noroeste de África) gracias a su practicidad para los nómadas."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Couscous is a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed as a side dish or base for stews. The steaming process is crucial for achieving the perfect texture.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Couscous is a traditional dish in Tunisian-Djerban Jewish cuisine, often enjoyed as a side dish or base for stews. The steaming process is crucial for achieving the perfect texture."
+    },
+    "hebrew": {
+      "summary": "קוסקוס הוא מאכל מסורתי במטבח היהודי התוניסאי-ג'רבאי, שנהנים ממנו לעיתים קרובות כתוספת או כבסיס לתבשילים. תהליך האידוי הוא קריטי להשגת המרקם המושלם."
+    },
+    "arabic": {
+      "summary": "الكسكسي هو طبق تقليدي في المطبخ اليهودي التونسي-الجربي، وغالبًا ما يُستمتع به كطبق جانبي أو قاعدة للطواجن. عملية التبخير ضرورية لتحقيق القوام المثالي."
+    },
+    "spanish": {
+      "summary": "El cuscús es un plato tradicional en la cocina judía tunecina-djerbana, a menudo disfrutado como guarnición o base para guisos. El proceso de cocción al vapor es crucial para lograr la textura perfecta."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "couscous_history.md",
+    "history_md": "couscous_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

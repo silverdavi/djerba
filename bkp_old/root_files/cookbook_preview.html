@@ -1,0 +1,2632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Djerban Family Cookbook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Frank+Ruhl+Libre:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #5D4037;
+            --accent-color: #D84315;
+            --text-color: #2c2c2c;
+            --bg-color: #fcfbf9;
+            --divider-color: #e0dcd5;
+            --page-width: 210mm;
+            --page-height: 297mm;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            background-color: #333;
+            font-family: 'Lora', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .spread-wrapper {
+            display: flex;
+            margin-bottom: 60px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        }
+
+        .page {
+            width: var(--page-width);
+            height: var(--page-height);
+            background-color: var(--bg-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* TEXT PAGES STYLING */
+        .page.text-page { padding: 20mm; display: flex; flex-direction: column; }
+        .page.verso { border-right: 1px solid #e5e5e5; }
+        
+        .language-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 8mm;
+            padding-bottom: 8mm;
+            border-bottom: 1px solid var(--divider-color);
+        }
+        .language-section:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+        .lang-he { font-family: 'Frank Ruhl Libre', serif; direction: rtl; }
+        .lang-ar { font-family: 'Amiri', serif; direction: rtl; }
+        .lang-en { font-family: 'Playfair Display', serif; direction: ltr; }
+        .lang-es { font-family: 'Playfair Display', serif; direction: ltr; }
+
+        h1 { font-size: 20pt; color: var(--primary-color); margin-bottom: 0.2em; text-transform: uppercase; letter-spacing: 0.05em; }
+        .lang-he h1, .lang-ar h1 { letter-spacing: 0; }
+
+        .recipe-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 6mm; margin-top: 4mm; flex-grow: 1; }
+        .lang-he .recipe-grid, .lang-ar .recipe-grid { grid-template-columns: 2fr 1fr; }
+
+        .ingredients-col { font-family: 'Lora', serif; font-size: 8.5pt; line-height: 1.4; border-right: 1px solid var(--divider-color); padding-right: 4mm; }
+        .lang-he .ingredients-col, .lang-ar .ingredients-col { border-right: none; border-left: 1px solid var(--divider-color); padding-right: 0; padding-left: 4mm; }
+
+        .instructions-col { font-family: 'Lora', serif; font-size: 9.5pt; line-height: 1.4; }
+
+        h2 { font-size: 8pt; color: var(--accent-color); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5em; border-bottom: 1px solid var(--accent-color); display: inline-block; }
+
+        ul { list-style: none; }
+        li { margin-bottom: 0.2em; }
+        ol { margin-left: 1.2em; }
+        .lang-he ol, .lang-ar ol { margin-right: 1.2em; margin-left: 0; }
+
+        .story-text { margin-top: 3mm; font-style: italic; color: #666; font-size: 9pt; border-top: 1px solid var(--divider-color); padding-top: 2mm; }
+
+        /* IMAGE PAGE STYLING */
+        .page.image-page {
+            padding: 0;
+            background-color: #000;
+        }
+        .full-page-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+        
+        /* Geometric Pattern Overlay */
+        .geometric-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 12mm solid #fff; 
+            box-sizing: border-box;
+            pointer-events: none;
+            z-index: 5;
+        }
+        
+        /* The Pattern itself - SVG background */
+        .pattern-texture {
+            position: absolute;
+            top: 12mm;
+            left: 12mm;
+            right: 12mm;
+            bottom: 12mm;
+            background-image: url('data:image/svg+xml;utf8,<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.15"><path d="M0 40L40 0H20L0 20M40 40V20L20 40"/></g></g></svg>');
+            pointer-events: none;
+            z-index: 6;
+        }
+        
+        .image-title-box {
+            position: absolute;
+            bottom: 25mm;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            padding: 15px 50px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            z-index: 10;
+            min-width: 60%;
+        }
+        
+        .image-title-en {
+            font-family: 'Playfair Display', serif;
+            font-size: 22pt;
+            color: var(--primary-color);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        
+        .image-title-he {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-size: 16pt;
+            color: var(--accent-color);
+            margin-top: 5px;
+        }
+
+        /* Pattern Page (Back of Image) */
+        .page.pattern-page {
+            background-color: var(--bg-color);
+            background-image: url('data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%235D4037" fill-opacity="0.05"><path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></g></g></svg>');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .family-note-card {
+            width: 65%;
+            height: 50%;
+            background-color: white;
+            padding: 20mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border: 1px solid #eee;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .spread-wrapper { box-shadow: none; margin: 0; break-after: always; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מחמסה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Mahmessa" (מחמסה) is believed to derive from Arabic or Maghrebi language origins, possibly linked to root words relating to mixing or a type of small pasta/grain[3]. In similar North African semitic dialects, such as the roots of “hamsa/khamsa,” the term relates to “five,” but in the context of food, extensions of this root or similar-sou... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Mahmessa</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Mahmessa" (מחמסה) is believed to derive from Arabic or Maghrebi language origins, possibly linked to root words relating to mixing or a type of small pasta/grain[3]. In similar North African semitic dialects, such as the roots of “hamsa/khamsa,” the term relates to “five,” but in the context of food, extensions of this root or similar-sou... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Mahmessa</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1  small onion</li><li>1 cup of ptitim (Israeli couscous)</li><li>1 tablespoon sweet paprika</li><li>  Black pepper to taste</li><li>1  chopped tomato</li><li>  Vegetables of your choice</li><li>  Water (1 and 1/4 cups for every cup of ptitim)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>For dry Mahmessa: Sauté a small onion until translucent.</li><li>Add the ptitim (Mahmessa) and continue to sauté for a few more minutes. Then, add water according to the instructions: 1 and 1/4 cups of water for every cup of ptitim.</li><li>For Mahmessa with sauce: Sauté a small onion until it starts to brown. Add 1 tablespoon of sweet paprika and sauté for a few seconds.</li><li>Add the chopped tomato and any vegetables you desire. Season with salt, black pepper, and add boiling water.</li><li>Stir in the ptitim.</li><li>Bring to a boil, then reduce the heat, cover partially, and simmer until cooked through.</li></ol>
+                    <p class="story-text">The name "Mahmessa" (מחמסה) is believed to derive from Arabic or Maghrebi language origins, possibly linked to root words relating to mixing or a type of small pasta/grain[3]. In similar North African semitic dialects, such as the roots of “hamsa/khamsa,” the term relates to “five,” but in the context of food, extensions of this root or similar-sou...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Mahmessa</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Mahmessa" (מחמסה) is believed to derive from Arabic or Maghrebi language origins, possibly linked to root words relating to mixing or a type of small pasta/grain[3]. In similar North African semitic dialects, such as the roots of “hamsa/khamsa,” the term relates to “five,” but in the context of food, extensions of this root or similar-sou... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE: FULL IMAGE -->
+    <div class="page image-page">
+        <img src="data/images/generated/mahmessa_corrected.png" class="full-page-image" alt="Mahmessa">
+        <div class="geometric-overlay"></div>
+        <div class="pattern-texture"></div>
+        <div class="image-title-box">
+            <div class="image-title-en">Mahmessa</div>
+            <div class="image-title-he">מחמסה</div>
+        </div>
+    </div>
+    
+    <!-- RIGHT PAGE: PATTERN / NOTES -->
+    <div class="page pattern-page">
+        <div class="family-note-card">
+            <h2 style="color:#5D4037; border:none; font-size:14pt; letter-spacing:0.2em;">FAMILY TRADITIONS</h2>
+            <p style="font-style:italic; margin-top:20px; font-size:11pt; color:#666;">
+                "Food is the thread that connects our past to our future."
+            </p>
+            <div style="margin-top:40px; border-top:1px solid #ddd; width:40%;"></div>
+            <p style="margin-top:30px; font-size:10pt; line-height:1.8; color:#444;">
+                Space for handwritten notes, family photos, or specific anecdotes about the Mahmessa dish.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>שמיד</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The Hebrew word "Shemida" (שְׁמִידָע) is a biblical name meaning "renowned" or "knowledge of the name," but it is not connected to any known food dish[3]. The name "Shmid" does not appear in culinary etymologies or food-related lexicons. No documented dish named "Shmid" exists in the culinary history of Tunisian or Djerban Jews. The closest related... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Shmid</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The Hebrew word "Shemida" (שְׁמִידָע) is a biblical name meaning "renowned" or "knowledge of the name," but it is not connected to any known food dish[3]. The name "Shmid" does not appear in culinary etymologies or food-related lexicons. No documented dish named "Shmid" exists in the culinary history of Tunisian or Djerban Jews. The closest related... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Shmid</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1  small onion</li><li>  semolina</li><li>  potato</li><li>  spices: sweet paprika, black pepper</li><li>  garlic</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Prepare the semolina similar to how you would prepare couscous (known as 'mahamsa' in Arabic).</li><li>Gradually add the semolina while stirring continuously to prevent lumps from forming. You may also add potato for additional texture.</li></ol>
+                    <p class="story-text">The Hebrew word "Shemida" (שְׁמִידָע) is a biblical name meaning "renowned" or "knowledge of the name," but it is not connected to any known food dish[3]. The name "Shmid" does not appear in culinary etymologies or food-related lexicons. No documented dish named "Shmid" exists in the culinary history of Tunisian or Djerban Jews. The closest related...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Shmid</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The Hebrew word "Shemida" (שְׁמִידָע) is a biblical name meaning "renowned" or "knowledge of the name," but it is not connected to any known food dish[3]. The name "Shmid" does not appear in culinary etymologies or food-related lexicons. No documented dish named "Shmid" exists in the culinary history of Tunisian or Djerban Jews. The closest related... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>קטעה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The exact meaning of the name "Kta'a" (קטעה) in the context of this dish is unclear from the available sources and may be specific to Judeo-Arabic or local dialects. However, in broader linguistic use, "kta" or "ktā" in Sanskrit alludes to something mature or perfect, but this is not directly related to the dish[7]. There is no evidence that the wo... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Kta'a</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The exact meaning of the name "Kta'a" (קטעה) in the context of this dish is unclear from the available sources and may be specific to Judeo-Arabic or local dialects. However, in broader linguistic use, "kta" or "ktā" in Sanskrit alludes to something mature or perfect, but this is not directly related to the dish[7]. There is no evidence that the wo... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Kta'a</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Water</li><li>  Flour</li><li>  Salt</li><li>  Black pepper</li><li>  Oil</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a pot, bring water to a boil. Meanwhile, take about 3 cups of flour, add a pinch of salt, and gradually add water while kneading until a smooth dough forms.</li><li>Once the water is boiling, take small pieces of the dough and drop them into the boiling water. Make sure to check constantly to prevent them from sticking together.</li><li>Towards the end of cooking, mix together a small amount of water and flour in a bowl to create a slurry. Pour this mixture into the pot at intervals while stirring well until the broth thickens.</li></ol>
+                    <p class="story-text">The exact meaning of the name "Kta'a" (קטעה) in the context of this dish is unclear from the available sources and may be specific to Judeo-Arabic or local dialects. However, in broader linguistic use, "kta" or "ktā" in Sanskrit alludes to something mature or perfect, but this is not directly related to the dish[7]. There is no evidence that the wo...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Kta'a</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The exact meaning of the name "Kta'a" (קטעה) in the context of this dish is unclear from the available sources and may be specific to Judeo-Arabic or local dialects. However, in broader linguistic use, "kta" or "ktā" in Sanskrit alludes to something mature or perfect, but this is not directly related to the dish[7]. There is no evidence that the wo... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>דביח תטמטם</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Dabikh Tatmatem" is a hybrid term: "Dabikh" (דביח) possibly derives from the Arabic "dabiḥ" (ذبيح), meaning "slaughtered" or "sacrifice," which in culinary terms points to meat prepared for a ritual meal; "Tatmatem" is a transliteration of the North African Judeo-Arabic pronunciation of "tomato" (Arabic: طماطم, tamatem)[4]. Together, the ... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Dabikh Tatmatem</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Dabikh Tatmatem" is a hybrid term: "Dabikh" (דביח) possibly derives from the Arabic "dabiḥ" (ذبيح), meaning "slaughtered" or "sacrifice," which in culinary terms points to meat prepared for a ritual meal; "Tatmatem" is a transliteration of the North African Judeo-Arabic pronunciation of "tomato" (Arabic: طماطم, tamatem)[4]. Together, the ... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Dabikh Tatmatem</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>2  onions</li><li>  Tomatoes</li><li>  Tomato paste</li><li>  Green hot pepper</li><li>  Potatoes</li><li>  Salt</li><li>  Paprika</li><li>  Black pepper</li><li>  Chicken</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Sauté 2 onions in a pan until golden brown. Add paprika, followed by chopped tomatoes and sliced green hot pepper. Season to taste.</li><li>Sauté for about 10 minutes, then add a can of tomato paste and continue to sauté for another 10 minutes.</li><li>Add water, diced potatoes, and chicken to the mixture. Stir well and let it simmer until the chicken is cooked through and the potatoes are tender.</li></ol>
+                    <p class="story-text">The name "Dabikh Tatmatem" is a hybrid term: "Dabikh" (דביח) possibly derives from the Arabic "dabiḥ" (ذبيح), meaning "slaughtered" or "sacrifice," which in culinary terms points to meat prepared for a ritual meal; "Tatmatem" is a transliteration of the North African Judeo-Arabic pronunciation of "tomato" (Arabic: طماطم, tamatem)[4]. Together, the ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Dabikh Tatmatem</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Dabikh Tatmatem" is a hybrid term: "Dabikh" (דביח) possibly derives from the Arabic "dabiḥ" (ذبيح), meaning "slaughtered" or "sacrifice," which in culinary terms points to meat prepared for a ritual meal; "Tatmatem" is a transliteration of the North African Judeo-Arabic pronunciation of "tomato" (Arabic: طماطم, tamatem)[4]. Together, the ... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>דביח חגים</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The Hebrew/Arabic term "דביח חגים" (d'bih chagim) translates directly as "festival meat" or "holiday slaughter"[2]. "דביח" (d'bih or dhibeh) is related to the Arabic word for slaughter or sacrifice, reflecting the dish’s use of meat prepared specially for holidays, while "חגים" (chagim) means "festivals" or "holidays". Thus, the name refers to a tr... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Holiday Stew</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The Hebrew/Arabic term "דביח חגים" (d'bih chagim) translates directly as "festival meat" or "holiday slaughter"[2]. "דביח" (d'bih or dhibeh) is related to the Arabic word for slaughter or sacrifice, reflecting the dish’s use of meat prepared specially for holidays, while "חגים" (chagim) means "festivals" or "holidays". Thus, the name refers to a tr... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Holiday Stew</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1  onion</li><li>  A piece of pumpkin</li><li>  Fresh herbs: parsley, dill, coriander (one bunch of each)</li><li>  Optional: zucchini or carrot</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a pot, heat oil and paprika for about 3 minutes.</li><li>Add the onion, either sliced or diced, and sauté for a few minutes.</li><li>Next, add all the vegetables along with a pinch of coarse salt and black pepper. Sauté for about half an hour on low heat.</li><li>Add the chicken or a substitute, and sauté for a few more minutes.</li><li>Finally, add water and potatoes, and cook until the potatoes are tender.</li></ol>
+                    <p class="story-text">The Hebrew/Arabic term "דביח חגים" (d'bih chagim) translates directly as "festival meat" or "holiday slaughter"[2]. "דביח" (d'bih or dhibeh) is related to the Arabic word for slaughter or sacrifice, reflecting the dish’s use of meat prepared specially for holidays, while "חגים" (chagim) means "festivals" or "holidays". Thus, the name refers to a tr...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Holiday Stew</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The Hebrew/Arabic term "דביח חגים" (d'bih chagim) translates directly as "festival meat" or "holiday slaughter"[2]. "דביח" (d'bih or dhibeh) is related to the Arabic word for slaughter or sacrifice, reflecting the dish’s use of meat prepared specially for holidays, while "חגים" (chagim) means "festivals" or "holidays". Thus, the name refers to a tr... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>שפינג׳ות</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Shpingeot" appears to derive from Judeo-Arabic or local dialects spoken by Tunisian Jews but is not widely documented in major etymological sources. The precise original meaning is unclear, and it does not have direct ties to either Hebrew or classical Arabic vocabulary. However, oral history and community knowledge suggest the name refer... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Shpingeot</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Shpingeot" appears to derive from Judeo-Arabic or local dialects spoken by Tunisian Jews but is not widely documented in major etymological sources. The precise original meaning is unclear, and it does not have direct ties to either Hebrew or classical Arabic vocabulary. However, oral history and community knowledge suggest the name refer... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Shpingeot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Flour</li><li>  Water</li><li>  Salt</li><li>  Yeast</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>After the dough has risen, take a piece and stretch it out.</li><li>Fry in hot oil until golden brown. Optionally, sprinkle with sugar.</li></ol>
+                    <p class="story-text">The name "Shpingeot" appears to derive from Judeo-Arabic or local dialects spoken by Tunisian Jews but is not widely documented in major etymological sources. The precise original meaning is unclear, and it does not have direct ties to either Hebrew or classical Arabic vocabulary. However, oral history and community knowledge suggest the name refer...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Shpingeot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Shpingeot" appears to derive from Judeo-Arabic or local dialects spoken by Tunisian Jews but is not widely documented in major etymological sources. The precise original meaning is unclear, and it does not have direct ties to either Hebrew or classical Arabic vocabulary. However, oral history and community knowledge suggest the name refer... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>ברודו</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word "brodo" comes from the Late Latin "brodium," linked to the Proto-Germanic "*bruþą*" (meaning "broth"), and is related to the English "broth" and French "breu"[5][2]. In its original sense, it directly means "broth" or "stock," referring to the clear, flavorful liquid extracted by simmering meat, vegetables, and spices[14][17]. The term "Br... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Brodo</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word "brodo" comes from the Late Latin "brodium," linked to the Proto-Germanic "*bruþą*" (meaning "broth"), and is related to the English "broth" and French "breu"[5][2]. In its original sense, it directly means "broth" or "stock," referring to the clear, flavorful liquid extracted by simmering meat, vegetables, and spices[14][17]. The term "Br... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Brodo</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Water</li><li>  Chicken</li><li>  Vegetables: pumpkin, zucchini, carrot, potato, garlic</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Place all the ingredients in a pot and add salt.</li><li>Cook and bring to a boil, then reduce the heat and simmer for about half an hour.</li></ol>
+                    <p class="story-text">The word "brodo" comes from the Late Latin "brodium," linked to the Proto-Germanic "*bruþą*" (meaning "broth"), and is related to the English "broth" and French "breu"[5][2]. In its original sense, it directly means "broth" or "stock," referring to the clear, flavorful liquid extracted by simmering meat, vegetables, and spices[14][17]. The term "Br...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Brodo</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word "brodo" comes from the Late Latin "brodium," linked to the Proto-Germanic "*bruþą*" (meaning "broth"), and is related to the English "broth" and French "breu"[5][2]. In its original sense, it directly means "broth" or "stock," referring to the clear, flavorful liquid extracted by simmering meat, vegetables, and spices[14][17]. The term "Br... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE: FULL IMAGE -->
+    <div class="page image-page">
+        <img src="data/images/generated/brodo.png" class="full-page-image" alt="Brodo">
+        <div class="geometric-overlay"></div>
+        <div class="pattern-texture"></div>
+        <div class="image-title-box">
+            <div class="image-title-en">Brodo</div>
+            <div class="image-title-he">ברודו</div>
+        </div>
+    </div>
+    
+    <!-- RIGHT PAGE: PATTERN / NOTES -->
+    <div class="page pattern-page">
+        <div class="family-note-card">
+            <h2 style="color:#5D4037; border:none; font-size:14pt; letter-spacing:0.2em;">FAMILY TRADITIONS</h2>
+            <p style="font-style:italic; margin-top:20px; font-size:11pt; color:#666;">
+                "Food is the thread that connects our past to our future."
+            </p>
+            <div style="margin-top:40px; border-top:1px solid #ddd; width:40%;"></div>
+            <p style="margin-top:30px; font-size:10pt; line-height:1.8; color:#444;">
+                Space for handwritten notes, family photos, or specific anecdotes about the Brodo dish.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מרמומה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Marmouma" is believed to be derived from regional terms for stewed or confit vegetable dishes, related to the broader tradition of tomato-pepper relishes found in North African Jewish and Maghrebi cuisines; similar dishes include "Makbuba" and "Matboucha"[12]. Though the precise linguistic origin is unclear, the root may connote "pounded"... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Marmouma</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Marmouma" is believed to be derived from regional terms for stewed or confit vegetable dishes, related to the broader tradition of tomato-pepper relishes found in North African Jewish and Maghrebi cuisines; similar dishes include "Makbuba" and "Matboucha"[12]. Though the precise linguistic origin is unclear, the root may connote "pounded"... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Marmouma</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>10  tomatoes</li><li>5  sweet peppers (bell peppers, etc.)</li><li>3  hot peppers</li><li>10  cloves of garlic</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Chop all the vegetables into small pieces and place them in a pot.</li><li>Add a little olive oil and coarse salt, then cook until the water is absorbed, stirring occasionally.</li></ol>
+                    <p class="story-text">The name "Marmouma" is believed to be derived from regional terms for stewed or confit vegetable dishes, related to the broader tradition of tomato-pepper relishes found in North African Jewish and Maghrebi cuisines; similar dishes include "Makbuba" and "Matboucha"[12]. Though the precise linguistic origin is unclear, the root may connote "pounded"...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Marmouma</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Marmouma" is believed to be derived from regional terms for stewed or confit vegetable dishes, related to the broader tradition of tomato-pepper relishes found in North African Jewish and Maghrebi cuisines; similar dishes include "Makbuba" and "Matboucha"[12]. Though the precise linguistic origin is unclear, the root may connote "pounded"... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE: FULL IMAGE -->
+    <div class="page image-page">
+        <img src="data/images/generated/marmouma.png" class="full-page-image" alt="Marmouma">
+        <div class="geometric-overlay"></div>
+        <div class="pattern-texture"></div>
+        <div class="image-title-box">
+            <div class="image-title-en">Marmouma</div>
+            <div class="image-title-he">מרמומה</div>
+        </div>
+    </div>
+    
+    <!-- RIGHT PAGE: PATTERN / NOTES -->
+    <div class="page pattern-page">
+        <div class="family-note-card">
+            <h2 style="color:#5D4037; border:none; font-size:14pt; letter-spacing:0.2em;">FAMILY TRADITIONS</h2>
+            <p style="font-style:italic; margin-top:20px; font-size:11pt; color:#666;">
+                "Food is the thread that connects our past to our future."
+            </p>
+            <div style="margin-top:40px; border-top:1px solid #ddd; width:40%;"></div>
+            <p style="margin-top:30px; font-size:10pt; line-height:1.8; color:#444;">
+                Space for handwritten notes, family photos, or specific anecdotes about the Marmouma dish.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>בונוטאז</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Bounotaz" does not correspond to known Hebrew or Judeo-Arabic roots or to any listed dish in public Tunisian-Jewish culinary records[1][3][7]. Similar-sounding terms in Tunisian Jewish foodways do not match this construction, though local dialect or family heritage may influence pronunciation and nomenclature. The closest matches in avail... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Bounotaz</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Bounotaz" does not correspond to known Hebrew or Judeo-Arabic roots or to any listed dish in public Tunisian-Jewish culinary records[1][3][7]. Similar-sounding terms in Tunisian Jewish foodways do not match this construction, though local dialect or family heritage may influence pronunciation and nomenclature. The closest matches in avail... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Bounotaz</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Boiled potatoes</li><li>  Ground chicken breast</li><li>1  egg</li><li>  Bread crumbs</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Mash the boiled potatoes thoroughly.</li><li>Cook the ground chicken and crumble it.</li><li>Take a spoonful of mashed potatoes in your hand, add a teaspoon of the crumbled chicken, and shape it into a patty.</li><li>Coat each patty in flour, dip it in the egg, and then roll it in bread crumbs.</li><li>Fry the patties in deep oil until golden brown.</li></ol>
+                    <p class="story-text">The name "Bounotaz" does not correspond to known Hebrew or Judeo-Arabic roots or to any listed dish in public Tunisian-Jewish culinary records[1][3][7]. Similar-sounding terms in Tunisian Jewish foodways do not match this construction, though local dialect or family heritage may influence pronunciation and nomenclature. The closest matches in avail...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Bounotaz</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Bounotaz" does not correspond to known Hebrew or Judeo-Arabic roots or to any listed dish in public Tunisian-Jewish culinary records[1][3][7]. Similar-sounding terms in Tunisian Jewish foodways do not match this construction, though local dialect or family heritage may influence pronunciation and nomenclature. The closest matches in avail... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מרק ירקות לקוסקוס</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">"מרק ירקות לקוסקוס" translates to "vegetable soup for couscous" in Hebrew. "מרק ירקות" (marak yerakot) means "vegetable soup," and "לקוסקוס" (le-couscous) means "for couscous," clearly emphasizing its role as the essential accompaniment to the couscous grain. This dish originates in North Africa, specifically among Tunisian and Djerban Jewish commu... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Vegetable Soup for Couscous</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">"מרק ירקות לקוסקוס" translates to "vegetable soup for couscous" in Hebrew. "מרק ירקות" (marak yerakot) means "vegetable soup," and "לקוסקוס" (le-couscous) means "for couscous," clearly emphasizing its role as the essential accompaniment to the couscous grain. This dish originates in North Africa, specifically among Tunisian and Djerban Jewish commu... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Vegetable Soup for Couscous</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Chicken</li><li>  Pumpkin</li><li>  Zucchini</li><li>  Onion</li><li>  Oil</li><li>  Chickpeas</li><li>  Potatoes</li><li>  Water</li><li>  Spices</li><li>  Green beans</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a pot, heat a small amount of oil with paprika. Add sliced onions and sauté until translucent.</li><li>Next, add all the vegetables along with salt and sauté for about half an hour.</li><li>Pour in boiling water and add the chicken. Finally, add the potatoes.</li></ol>
+                    <p class="story-text">"מרק ירקות לקוסקוס" translates to "vegetable soup for couscous" in Hebrew. "מרק ירקות" (marak yerakot) means "vegetable soup," and "לקוסקוס" (le-couscous) means "for couscous," clearly emphasizing its role as the essential accompaniment to the couscous grain. This dish originates in North Africa, specifically among Tunisian and Djerban Jewish commu...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Vegetable Soup for Couscous</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">"מרק ירקות לקוסקוס" translates to "vegetable soup for couscous" in Hebrew. "מרק ירקות" (marak yerakot) means "vegetable soup," and "לקוסקוס" (le-couscous) means "for couscous," clearly emphasizing its role as the essential accompaniment to the couscous grain. This dish originates in North Africa, specifically among Tunisian and Djerban Jewish commu... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>קוסקוס</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word “couscous” comes from the Arabic “kuskus,” which itself derives from the root “kaskasa” meaning “to pound” or “he pounded.” This reflects the method of preparing the semolina wheat, and some sources note likely Berber roots as well (terms like “k’seksu” or “seksu”)[3][5][9][11][19]. The word in Berber languages often references something w... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Couscous</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word “couscous” comes from the Arabic “kuskus,” which itself derives from the root “kaskasa” meaning “to pound” or “he pounded.” This reflects the method of preparing the semolina wheat, and some sources note likely Berber roots as well (terms like “k’seksu” or “seksu”)[3][5][9][11][19]. The word in Berber languages often references something w... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Couscous</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1 kg semolina</li><li>  Water</li><li>  Oil</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Pour 1 kg of semolina into a wide bowl through a coarse sieve. Rotate the semolina to ensure it is clean, discarding any impurities that rise to the surface.</li><li>Add 1/4 cup of water and mix the semolina. Then, add another 1/4 cup of water, being careful not to add too much.</li><li>Transfer the semolina through the coarse sieve, adding a little oil by hand and mixing well. Place it in a steaming pot, which should be set over a pot of boiling water.</li><li>Steam for about 30 minutes. Once done, transfer the couscous to a bowl, sprinkle water over it, and fluff it up.</li><li>Repeat this steaming process until steam rises from the couscous. Finally, drizzle a little oil over the couscous and transfer it to a serving bowl.</li></ol>
+                    <p class="story-text">The word “couscous” comes from the Arabic “kuskus,” which itself derives from the root “kaskasa” meaning “to pound” or “he pounded.” This reflects the method of preparing the semolina wheat, and some sources note likely Berber roots as well (terms like “k’seksu” or “seksu”)[3][5][9][11][19]. The word in Berber languages often references something w...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Couscous</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word “couscous” comes from the Arabic “kuskus,” which itself derives from the root “kaskasa” meaning “to pound” or “he pounded.” This reflects the method of preparing the semolina wheat, and some sources note likely Berber roots as well (terms like “k’seksu” or “seksu”)[3][5][9][11][19]. The word in Berber languages often references something w... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE: FULL IMAGE -->
+    <div class="page image-page">
+        <img src="data/images/generated/couscous.png" class="full-page-image" alt="Couscous">
+        <div class="geometric-overlay"></div>
+        <div class="pattern-texture"></div>
+        <div class="image-title-box">
+            <div class="image-title-en">Couscous</div>
+            <div class="image-title-he">קוסקוס</div>
+        </div>
+    </div>
+    
+    <!-- RIGHT PAGE: PATTERN / NOTES -->
+    <div class="page pattern-page">
+        <div class="family-note-card">
+            <h2 style="color:#5D4037; border:none; font-size:14pt; letter-spacing:0.2em;">FAMILY TRADITIONS</h2>
+            <p style="font-style:italic; margin-top:20px; font-size:11pt; color:#666;">
+                "Food is the thread that connects our past to our future."
+            </p>
+            <div style="margin-top:40px; border-top:1px solid #ddd; width:40%;"></div>
+            <p style="margin-top:30px; font-size:10pt; line-height:1.8; color:#444;">
+                Space for handwritten notes, family photos, or specific anecdotes about the Couscous dish.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>שניצל</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word "schnitzel" is derived from the German "Schnitz," meaning "slice" or "cut," referring to a thin, sliced piece of meat. In Hebrew, schnitzel (שניצל) is a direct transliteration and maintains the same meaning. Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communit... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Chicken Schnitzel</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word "schnitzel" is derived from the German "Schnitz," meaning "slice" or "cut," referring to a thin, sliced piece of meat. In Hebrew, schnitzel (שניצל) is a direct transliteration and maintains the same meaning. Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communit... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Chicken Schnitzel</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Chicken breast</li><li>  Flour</li><li>  Egg</li><li>  Seasoned breadcrumbs</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Flatten the chicken breasts with a meat mallet until they are thin, but not overly so.</li><li>Prepare three plates: one with flour, one with a beaten egg, and one with seasoned breadcrumbs.</li><li>Dredge each piece of chicken in the flour, then dip it into the egg, and finally coat it with the seasoned breadcrumbs.</li><li>Fry the coated chicken in hot oil until golden brown, being careful not to let the oil get too hot.</li></ol>
+                    <p class="story-text">The word "schnitzel" is derived from the German "Schnitz," meaning "slice" or "cut," referring to a thin, sliced piece of meat. In Hebrew, schnitzel (שניצל) is a direct transliteration and maintains the same meaning. Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communit...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Chicken Schnitzel</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word "schnitzel" is derived from the German "Schnitz," meaning "slice" or "cut," referring to a thin, sliced piece of meat. In Hebrew, schnitzel (שניצל) is a direct transliteration and maintains the same meaning. Schnitzel originated in Central Europe, most famously as Wiener Schnitzel from Austria, traditionally made with veal. Jewish communit... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>קוקלות</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The exact etymology of "Kuklot" (קוקלות) is not definitively established in academic sources; however, linguistic clues point towards a derivation from the Greek word "κύκλος" (kuklos), meaning "circle" or "ring"[11][15]. This links closely to the dish’s appearance, as Kuklot usually consists of circular or oval-shaped meatballs or stuffed items. T... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Kuklot</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The exact etymology of "Kuklot" (קוקלות) is not definitively established in academic sources; however, linguistic clues point towards a derivation from the Greek word "κύκλος" (kuklos), meaning "circle" or "ring"[11][15]. This links closely to the dish’s appearance, as Kuklot usually consists of circular or oval-shaped meatballs or stuffed items. T... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Kuklot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Eggs</li><li>  Semolina</li><li>  Oil</li><li>  Salt</li><li>  Black pepper</li><li>  Paprika</li><li>  Water</li><li>1 teaspoon baking powder</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a deep plate, crack an egg.</li><li>Add a little oil, water, and spices to the egg.</li><li>Gradually add semolina until the mixture can be kneaded.</li><li>Form small balls and drop them into the stew.</li></ol>
+                    <p class="story-text">The exact etymology of "Kuklot" (קוקלות) is not definitively established in academic sources; however, linguistic clues point towards a derivation from the Greek word "κύκλος" (kuklos), meaning "circle" or "ring"[11][15]. This links closely to the dish’s appearance, as Kuklot usually consists of circular or oval-shaped meatballs or stuffed items. T...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Kuklot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The exact etymology of "Kuklot" (קוקלות) is not definitively established in academic sources; however, linguistic clues point towards a derivation from the Greek word "κύκλος" (kuklos), meaning "circle" or "ring"[11][15]. This links closely to the dish’s appearance, as Kuklot usually consists of circular or oval-shaped meatballs or stuffed items. T... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>טפינה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Tefina" (טפינה) is derived from the Arabic word "ṭafīna," which means "buried" or "hidden," referring to the method of slow-cooking the dish in a sealed pot, often buried in hot coals or left in a low oven overnight. This etymology highlights the dish’s unique cooking technique and its historical roots in North African culinary traditions... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Tefina</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Tefina" (טפינה) is derived from the Arabic word "ṭafīna," which means "buried" or "hidden," referring to the method of slow-cooking the dish in a sealed pot, often buried in hot coals or left in a low oven overnight. This etymology highlights the dish’s unique cooking technique and its historical roots in North African culinary traditions... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Tefina</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Meat</li><li>  Potatoes</li><li>  Barley</li><li>  Onion</li><li>  Beans (optional)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Prepare a bowl with meat, potatoes, onion, barley, and optionally beans.</li><li>In a heavy pot, heat oil and sugar until the sugar caramelizes to a deep brown color.</li><li>Add paprika, then incorporate all the other ingredients: meat, potatoes, barley, and onion.</li><li>Season with coarse salt and black pepper, sauté for about 10 minutes.</li><li>Add boiling water, reduce the heat, and simmer for about an hour on low heat.</li></ol>
+                    <p class="story-text">The name "Tefina" (טפינה) is derived from the Arabic word "ṭafīna," which means "buried" or "hidden," referring to the method of slow-cooking the dish in a sealed pot, often buried in hot coals or left in a low oven overnight. This etymology highlights the dish’s unique cooking technique and its historical roots in North African culinary traditions...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Tefina</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Tefina" (טפינה) is derived from the Arabic word "ṭafīna," which means "buried" or "hidden," referring to the method of slow-cooking the dish in a sealed pot, often buried in hot coals or left in a low oven overnight. This etymology highlights the dish’s unique cooking technique and its historical roots in North African culinary traditions... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>בריקות</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Brik" is thought to derive from the Turkish "börek," referring to a similar savory pastry[1][5][9]. The root "bur" in Turkish means "to twist," which also speaks to the folding of the dough around the filling[9]. In Tunisia, the pastry sheet used for Brik is called "malsouka" or "warqa," the latter being an Arabic word meaning "paper," re... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Brik</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Brik" is thought to derive from the Turkish "börek," referring to a similar savory pastry[1][5][9]. The root "bur" in Turkish means "to twist," which also speaks to the folding of the dough around the filling[9]. In Tunisia, the pastry sheet used for Brik is called "malsouka" or "warqa," the latter being an Arabic word meaning "paper," re... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Brik</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Brik leaves</li><li>  Mashed potatoes or eggs</li><li>1 tablespoon salt</li><li>1  kilogram flour</li><li>1 tablespoon yeast</li><li>1/2 cup sugar</li><li>3 cups water</li><li>1/2 cup oil</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Take a brik leaf and place it in a hot oil pan. Add an egg and then fold it over. Flip it to cook the other side.</li><li>*If using mashed potatoes, fill the brik leaf before frying and cook on both sides.</li><li>Knead the ingredients to form a soft and slightly sticky dough.</li><li>Let the dough rise for about two hours.</li><li>Shape the dough, brush with egg and sprinkle with sesame seeds, and let it rise for another 20 minutes.</li><li>Bake in a preheated oven at high temperature for 10 minutes, then lower the temperature and bake for an additional 20 minutes.</li></ol>
+                    <p class="story-text">The name "Brik" is thought to derive from the Turkish "börek," referring to a similar savory pastry[1][5][9]. The root "bur" in Turkish means "to twist," which also speaks to the folding of the dough around the filling[9]. In Tunisia, the pastry sheet used for Brik is called "malsouka" or "warqa," the latter being an Arabic word meaning "paper," re...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Brik</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Brik" is thought to derive from the Turkish "börek," referring to a similar savory pastry[1][5][9]. The root "bur" in Turkish means "to twist," which also speaks to the folding of the dough around the filling[9]. In Tunisia, the pastry sheet used for Brik is called "malsouka" or "warqa," the latter being an Arabic word meaning "paper," re... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE: FULL IMAGE -->
+    <div class="page image-page">
+        <img src="data/images/generated/brik.png" class="full-page-image" alt="Brik">
+        <div class="geometric-overlay"></div>
+        <div class="pattern-texture"></div>
+        <div class="image-title-box">
+            <div class="image-title-en">Brik</div>
+            <div class="image-title-he">בריקות</div>
+        </div>
+    </div>
+    
+    <!-- RIGHT PAGE: PATTERN / NOTES -->
+    <div class="page pattern-page">
+        <div class="family-note-card">
+            <h2 style="color:#5D4037; border:none; font-size:14pt; letter-spacing:0.2em;">FAMILY TRADITIONS</h2>
+            <p style="font-style:italic; margin-top:20px; font-size:11pt; color:#666;">
+                "Food is the thread that connects our past to our future."
+            </p>
+            <div style="margin-top:40px; border-top:1px solid #ddd; width:40%;"></div>
+            <p style="margin-top:30px; font-size:10pt; line-height:1.8; color:#444;">
+                Space for handwritten notes, family photos, or specific anecdotes about the Brik dish.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>פריקסה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Frikaseh" comes from the French "fricassée," meaning "fried" or "to fry," reflecting its culinary technique—a fried dough roll. The French linguistic influence is due to Tunisia’s history as a French protectorate. Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Frikaseh</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Frikaseh" comes from the French "fricassée," meaning "fried" or "to fry," reflecting its culinary technique—a fried dough roll. The French linguistic influence is due to Tunisia’s history as a French protectorate. Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Frikaseh</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1 tablespoon salt</li><li>1  kilogram flour</li><li>1 tablespoon yeast</li><li>1/2 cup sugar</li><li>3 cups water</li><li>1/2 cup oil</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Combine all ingredients to form a dough and knead until smooth.</li><li>Allow the dough to rise for about two hours.</li><li>Shape the dough into desired forms and place them on a well-oiled surface.</li><li>Let the shaped dough rise for an additional 30 minutes.</li><li>Heat oil in a deep pan and fry the dough until golden brown.</li></ol>
+                    <p class="story-text">The name "Frikaseh" comes from the French "fricassée," meaning "fried" or "to fry," reflecting its culinary technique—a fried dough roll. The French linguistic influence is due to Tunisia’s history as a French protectorate. Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Frikaseh</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Frikaseh" comes from the French "fricassée," meaning "fried" or "to fry," reflecting its culinary technique—a fried dough roll. The French linguistic influence is due to Tunisia’s history as a French protectorate. Frikaseh originated within the Jewish communities of Tunisia, especially the island of Djerba, during the 19th century. It was... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>סופגניות</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "sufgania" derives from the Hebrew word "sfog" (ספוג), meaning "sponge," referencing the dough's spongy, absorbent texture after frying. The plural form "sufganiyot" refers to multiple pastries. Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in P... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Sufganiyot</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "sufgania" derives from the Hebrew word "sfog" (ספוג), meaning "sponge," referencing the dough's spongy, absorbent texture after frying. The plural form "sufganiyot" refers to multiple pastries. Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in P... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Sufganiyot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>2 cups all-purpose flour</li><li>1/4 cup sugar</li><li>1  packet (7g) dry yeast</li><li>1/2 teaspoon salt</li><li>1/2 cup warm milk</li><li>2  large eggs</li><li>1/4 cup unsalted butter, melted</li><li>  Oil for frying</li><li>  Powdered sugar for dusting</li><li>  Jam or chocolate filling</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a large mixing bowl, combine the flour, sugar, yeast, and salt.</li><li>In a separate bowl, whisk together the warm milk, eggs, and melted butter.</li><li>Pour the wet ingredients into the dry ingredients and mix until a dough forms.</li><li>Knead the dough on a floured surface for about 5-7 minutes until smooth and elastic.</li><li>Place the dough in a greased bowl, cover with a cloth, and let it rise in a warm place for about 1 hour, or until doubled in size.</li><li>Once the dough has risen, punch it down and roll it out to about 1/2 inch thickness.</li><li>Cut out circles using a cookie cutter or glass, and let them rise for another 30 minutes.</li><li>Heat oil in a deep pan to 350°F (175°C).</li><li>Fry the dough circles in batches until golden brown on both sides, about 2-3 minutes per side.</li><li>Remove the sufganiyot from the oil and drain on paper towels.</li><li>Once cooled, fill with jam or chocolate and dust with powdered sugar before serving.</li></ol>
+                    <p class="story-text">The name "sufgania" derives from the Hebrew word "sfog" (ספוג), meaning "sponge," referencing the dough's spongy, absorbent texture after frying. The plural form "sufganiyot" refers to multiple pastries. Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in P...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Sufganiyot</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "sufgania" derives from the Hebrew word "sfog" (ספוג), meaning "sponge," referencing the dough's spongy, absorbent texture after frying. The plural form "sufganiyot" refers to multiple pastries. Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in P... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>לביבות תפו"א</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The term "latke" comes from the East Slavic word "oladka," meaning a small pancake or fritter, which in turn likely comes from the Ancient Greek "eladion," meaning little oily thing. In Hebrew, "לביבה" (leviva) refers broadly to any fried patty or fritter, while "תפו"א" (tapuach adamah) means "potato". Thus, "לביבות תפו"א" literally means "potato f... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Potato Latkes</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The term "latke" comes from the East Slavic word "oladka," meaning a small pancake or fritter, which in turn likely comes from the Ancient Greek "eladion," meaning little oily thing. In Hebrew, "לביבה" (leviva) refers broadly to any fried patty or fritter, while "תפו"א" (tapuach adamah) means "potato". Thus, "לביבות תפו"א" literally means "potato f... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Potato Latkes</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>4  red potatoes</li><li>4  eggs</li><li>1/4 cup flour</li><li>  Baking powder</li><li>1 tablespoon oil</li><li>  Salt and black pepper</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Grate the potatoes and add the remaining ingredients, then strain the excess liquid.</li><li>Spread the mixture in a greased baking dish and bake at 180 degrees Celsius for approximately 40 minutes, or until golden brown.</li></ol>
+                    <p class="story-text">The term "latke" comes from the East Slavic word "oladka," meaning a small pancake or fritter, which in turn likely comes from the Ancient Greek "eladion," meaning little oily thing. In Hebrew, "לביבה" (leviva) refers broadly to any fried patty or fritter, while "תפו"א" (tapuach adamah) means "potato". Thus, "לביבות תפו"א" literally means "potato f...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Potato Latkes</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The term "latke" comes from the East Slavic word "oladka," meaning a small pancake or fritter, which in turn likely comes from the Ancient Greek "eladion," meaning little oily thing. In Hebrew, "לביבה" (leviva) refers broadly to any fried patty or fritter, while "תפו"א" (tapuach adamah) means "potato". Thus, "לביבות תפו"א" literally means "potato f... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>דייסת סולת</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word “semolina” comes from Italian “semolino,” a diminutive of “semola” (bran), itself derived from Latin “simila,” meaning the finest wheat flour[4][9][19]. In Hebrew, “דייסת סולת” directly means “semolina porridge,” with “דייסה” (daisa) meaning porridge or gruel, and “סולת” (solet) meaning semolina, which denotes the coarser grind of wheat fl... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Semolina Porridge</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word “semolina” comes from Italian “semolino,” a diminutive of “semola” (bran), itself derived from Latin “simila,” meaning the finest wheat flour[4][9][19]. In Hebrew, “דייסת סולת” directly means “semolina porridge,” with “דייסה” (daisa) meaning porridge or gruel, and “סולת” (solet) meaning semolina, which denotes the coarser grind of wheat fl... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Semolina Porridge</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1 cup semolina</li><li>4 cups water</li><li>1/2 cup sugar</li><li>1/4 cup olive oil</li><li>1 teaspoon salt</li><li>1 teaspoon vanilla extract (optional)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a large pot, bring the water to a boil over medium heat.</li><li>Add the salt and sugar to the boiling water, stirring until dissolved.</li><li>Gradually whisk in the semolina to prevent lumps from forming.</li><li>Continue to cook, stirring constantly, until the mixture thickens and begins to pull away from the sides of the pot.</li><li>Remove from heat and stir in the olive oil and vanilla extract, if using.</li><li>Let the porridge cool slightly before serving.</li></ol>
+                    <p class="story-text">The word “semolina” comes from Italian “semolino,” a diminutive of “semola” (bran), itself derived from Latin “simila,” meaning the finest wheat flour[4][9][19]. In Hebrew, “דייסת סולת” directly means “semolina porridge,” with “דייסה” (daisa) meaning porridge or gruel, and “סולת” (solet) meaning semolina, which denotes the coarser grind of wheat fl...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Semolina Porridge</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word “semolina” comes from Italian “semolino,” a diminutive of “semola” (bran), itself derived from Latin “simila,” meaning the finest wheat flour[4][9][19]. In Hebrew, “דייסת סולת” directly means “semolina porridge,” with “דייסה” (daisa) meaning porridge or gruel, and “סולת” (solet) meaning semolina, which denotes the coarser grind of wheat fl... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>שקשוקה של בצל מטוגן ארוך</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word “shakshuka” comes from the Tunisian Arabic dialect and simply means “a mixture” or “shaken together”[1][9][16]. The name reflects the essence of the dish: eggs and other ingredients combined in a single pan. The Hebrew phrase "בצל מטוגן ארוך" translates directly as “long fried onion,” indicating that in this version, onions are fried slowl... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Long Fried Onion Shakshuka</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word “shakshuka” comes from the Tunisian Arabic dialect and simply means “a mixture” or “shaken together”[1][9][16]. The name reflects the essence of the dish: eggs and other ingredients combined in a single pan. The Hebrew phrase "בצל מטוגן ארוך" translates directly as “long fried onion,” indicating that in this version, onions are fried slowl... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Long Fried Onion Shakshuka</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Onion</li><li>  Tomato paste</li><li>  Eggs</li><li>  Sausages</li><li>  Paprika</li><li>  Oil</li><li>  Salt</li><li>  Black pepper</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Fry the onion for a long time until it becomes golden and caramelized.</li><li>Add the tomato paste and cook for an extended period, allowing the flavors to meld.</li><li>Slice the sausages and add them to the mixture.</li><li>Season with paprika, salt, and black pepper to taste.</li><li>Crack the eggs into the pan, trying to keep some of the yolks intact.</li></ol>
+                    <p class="story-text">The word “shakshuka” comes from the Tunisian Arabic dialect and simply means “a mixture” or “shaken together”[1][9][16]. The name reflects the essence of the dish: eggs and other ingredients combined in a single pan. The Hebrew phrase "בצל מטוגן ארוך" translates directly as “long fried onion,” indicating that in this version, onions are fried slowl...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Long Fried Onion Shakshuka</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word “shakshuka” comes from the Tunisian Arabic dialect and simply means “a mixture” or “shaken together”[1][9][16]. The name reflects the essence of the dish: eggs and other ingredients combined in a single pan. The Hebrew phrase "בצל מטוגן ארוך" translates directly as “long fried onion,” indicating that in this version, onions are fried slowl... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>דווידה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Davidah" (דווידה) is derived from the Hebrew word "David," meaning "beloved" or "friend," and is often interpreted as a term of endearment or affection. In the context of the dish, it may reflect the warmth and familial love associated with its preparation and sharing. The name is unique to the Djerban Jewish community and is not widely u... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Davidah</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Davidah" (דווידה) is derived from the Hebrew word "David," meaning "beloved" or "friend," and is often interpreted as a term of endearment or affection. In the context of the dish, it may reflect the warmth and familial love associated with its preparation and sharing. The name is unique to the Djerban Jewish community and is not widely u... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Davidah</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Spaghetti</li><li>  Oil</li><li>  Water</li><li>  Spices: Salt, Sweet Paprika</li><li>  Tomato</li><li>  Hot Pepper</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Prepare the dish like a traditional 'Hammasah' soup or like 'Shmid', but add the spaghetti at the end instead of the 'Shmid' or 'Hammasah'.</li></ol>
+                    <p class="story-text">The name "Davidah" (דווידה) is derived from the Hebrew word "David," meaning "beloved" or "friend," and is often interpreted as a term of endearment or affection. In the context of the dish, it may reflect the warmth and familial love associated with its preparation and sharing. The name is unique to the Djerban Jewish community and is not widely u...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Davidah</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Davidah" (דווידה) is derived from the Hebrew word "David," meaning "beloved" or "friend," and is often interpreted as a term of endearment or affection. In the context of the dish, it may reflect the warmth and familial love associated with its preparation and sharing. The name is unique to the Djerban Jewish community and is not widely u... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>בקילה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The origins of the name "bikila" (בקילה) or its variants "pkaïla, pkaila, bkeila" are not definitively established in standard etymological references. However, the name is likely derived from terms relating to "greens" or "spinach" in North African Judeo-Arabic dialects[14]. The word does not appear to have any relation to the Amharic (Ethiopian) ... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Bikila</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The origins of the name "bikila" (בקילה) or its variants "pkaïla, pkaila, bkeila" are not definitively established in standard etymological references. However, the name is likely derived from terms relating to "greens" or "spinach" in North African Judeo-Arabic dialects[14]. The word does not appear to have any relation to the Amharic (Ethiopian) ... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Bikila</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>2  bunches of beet greens</li><li>  Oil</li><li>  Water</li><li>  Cilantro</li><li>  Dill</li><li>  Pieces of meat</li><li>  White beans</li><li>  Garlic</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Wash the beet greens thoroughly, chop them into pieces, and place them in a wide pot without water. Cook on low heat to steam until all the moisture evaporates (the greens will look an unappealing green color).</li><li>Add half a cup of oil and sauté until the leaves turn a dark green color.</li><li>For the sauce: Combine 2 cups of white beans, meat cubes, garlic, and salt in a pot. Add cilantro and dill. Take 2 cups of the sauce and mix in the white beans.</li></ol>
+                    <p class="story-text">The origins of the name "bikila" (בקילה) or its variants "pkaïla, pkaila, bkeila" are not definitively established in standard etymological references. However, the name is likely derived from terms relating to "greens" or "spinach" in North African Judeo-Arabic dialects[14]. The word does not appear to have any relation to the Amharic (Ethiopian) ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Bikila</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The origins of the name "bikila" (בקילה) or its variants "pkaïla, pkaila, bkeila" are not definitively established in standard etymological references. However, the name is likely derived from terms relating to "greens" or "spinach" in North African Judeo-Arabic dialects[14]. The word does not appear to have any relation to the Amharic (Ethiopian) ... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>משייר</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The word “Mechaye” (מחיה) derives from the Hebrew “chai,” meaning life, and its usage—especially in Yiddish-influenced Jewish communities—implies something that gives life, pleasure, or refreshment[2][5][8][11]. In everyday parlance, Jews call something “a mechaye” when it is so enjoyable or pleasurable that it metaphorically brings one back to lif... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Mechaye</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The word “Mechaye” (מחיה) derives from the Hebrew “chai,” meaning life, and its usage—especially in Yiddish-influenced Jewish communities—implies something that gives life, pleasure, or refreshment[2][5][8][11]. In everyday parlance, Jews call something “a mechaye” when it is so enjoyable or pleasurable that it metaphorically brings one back to lif... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Mechaye</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Bell peppers of all colors</li><li>  Carrot</li><li>  Lemon</li><li>  Hot pepper</li><li>  Kohlrabi (optional)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Cut the bell peppers into strips or halves.</li><li>Slice the carrot into thin strips.</li><li>Cut the hot pepper into long strips.</li><li>Peel the lemon and squeeze its juice over all the vegetables, then cut the lemon into pieces.</li><li>Optionally, add kohlrabi, cut into strips or slices.</li><li>Add water and coarse salt to taste.</li></ol>
+                    <p class="story-text">The word “Mechaye” (מחיה) derives from the Hebrew “chai,” meaning life, and its usage—especially in Yiddish-influenced Jewish communities—implies something that gives life, pleasure, or refreshment[2][5][8][11]. In everyday parlance, Jews call something “a mechaye” when it is so enjoyable or pleasurable that it metaphorically brings one back to lif...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Mechaye</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The word “Mechaye” (מחיה) derives from the Hebrew “chai,” meaning life, and its usage—especially in Yiddish-influenced Jewish communities—implies something that gives life, pleasure, or refreshment[2][5][8][11]. In everyday parlance, Jews call something “a mechaye” when it is so enjoyable or pleasurable that it metaphorically brings one back to lif... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>תירשי</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Tirshi" is derived from the Persian word "torsh" (ترش), which means "sour," reflecting the dish's tangy flavor that often includes lemon juice or vinegar[1][11][7]. The naming connects it with a family of pickled and preserved dishes known around the Middle East as "torshi," "turshi," or "tursu," all ultimately rooted in the same Persian ... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Tirshi</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Tirshi" is derived from the Persian word "torsh" (ترش), which means "sour," reflecting the dish's tangy flavor that often includes lemon juice or vinegar[1][11][7]. The naming connects it with a family of pickled and preserved dishes known around the Middle East as "torshi," "turshi," or "tursu," all ultimately rooted in the same Persian ... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Tirshi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Pumpkin</li><li>  A small amount of potatoes (optional)</li><li>  Spices (paprika, garlic, cumin, salt, lemon juice)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Cook the pumpkin (the potatoes are optional).</li><li>Drain well, mash with a fork, then add a little oil and the spices.</li></ol>
+                    <p class="story-text">The name "Tirshi" is derived from the Persian word "torsh" (ترش), which means "sour," reflecting the dish's tangy flavor that often includes lemon juice or vinegar[1][11][7]. The naming connects it with a family of pickled and preserved dishes known around the Middle East as "torshi," "turshi," or "tursu," all ultimately rooted in the same Persian ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Tirshi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Tirshi" is derived from the Persian word "torsh" (ترش), which means "sour," reflecting the dish's tangy flavor that often includes lemon juice or vinegar[1][11][7]. The naming connects it with a family of pickled and preserved dishes known around the Middle East as "torshi," "turshi," or "tursu," all ultimately rooted in the same Persian ... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>בשישה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Beshisha" (בשישה) is derived from the Hebrew word for "six," referring to the six main ingredients typically used in the dish: eggs, potatoes, onions, garlic, parsley, and olive oil. This naming convention highlights the simplicity and balance of the recipe, emphasizing its traditional and symbolic nature. Beshisha is a traditional Jewish... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Beshisha</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Beshisha" (בשישה) is derived from the Hebrew word for "six," referring to the six main ingredients typically used in the dish: eggs, potatoes, onions, garlic, parsley, and olive oil. This naming convention highlights the simplicity and balance of the recipe, emphasizing its traditional and symbolic nature. Beshisha is a traditional Jewish... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Beshisha</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Wheat</li><li>  Barley</li><li>  Coriander seeds</li><li>  Cumin seeds</li><li>  Fennel seeds</li><li>  Olive oil</li><li>  Dates</li><li>  Sugar</li><li>  Water</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Roast the wheat and barley grains along with the coriander, cumin, and fennel seeds. Add half the amount of olive oil and the dates, and mix to form a ball.</li><li>In our tradition, we would spin a key and say, 'Open and throw, O son, open the door for us and save us.'</li></ol>
+                    <p class="story-text">The name "Beshisha" (בשישה) is derived from the Hebrew word for "six," referring to the six main ingredients typically used in the dish: eggs, potatoes, onions, garlic, parsley, and olive oil. This naming convention highlights the simplicity and balance of the recipe, emphasizing its traditional and symbolic nature. Beshisha is a traditional Jewish...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Beshisha</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Beshisha" (בשישה) is derived from the Hebrew word for "six," referring to the six main ingredients typically used in the dish: eggs, potatoes, onions, garlic, parsley, and olive oil. This naming convention highlights the simplicity and balance of the recipe, emphasizing its traditional and symbolic nature. Beshisha is a traditional Jewish... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>יויו</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "yoyo" (יויו) appears directly derived from the French transliteration of the dish's fun, round, playful shape—some say it refers to the resemblance to the toy of the same name, but in this context, it is more likely an affectionate local term without an ancient or symbolic origin[2][15]. There is no direct evidence that the name has deepe... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Yoyo</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "yoyo" (יויו) appears directly derived from the French transliteration of the dish's fun, round, playful shape—some say it refers to the resemblance to the toy of the same name, but in this context, it is more likely an affectionate local term without an ancient or symbolic origin[2][15]. There is no direct evidence that the name has deepe... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Yoyo</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Flour</li><li>  Sugar</li><li>  Oil</li><li>  Eggs</li><li>  Orange juice</li><li>  Vanilla</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Mix all the ingredients together until a soft and non-sticky dough forms, then let it rest for half an hour.</li><li>Shape the dough into circles with a hole in the middle. Fry them in hot deep oil until golden brown, then remove and place on paper towels. Dip in syrup.</li></ol>
+                    <p class="story-text">The name "yoyo" (יויו) appears directly derived from the French transliteration of the dish's fun, round, playful shape—some say it refers to the resemblance to the toy of the same name, but in this context, it is more likely an affectionate local term without an ancient or symbolic origin[2][15]. There is no direct evidence that the name has deepe...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Yoyo</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "yoyo" (יויו) appears directly derived from the French transliteration of the dish's fun, round, playful shape—some say it refers to the resemblance to the toy of the same name, but in this context, it is more likely an affectionate local term without an ancient or symbolic origin[2][15]. There is no direct evidence that the name has deepe... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>חרימי</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Harimi" (חרימי) has roots in Arabic, where the root ḥ-r-m carries meanings linked with sanctity, setting apart, or in some cases, designating something for sacred use[3][13]. In some linguistic contexts, "harim" denotes a protected or sacred place[13][5]. This fits the dish's traditional role in religious and communal gatherings, although... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Harimi</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Harimi" (חרימי) has roots in Arabic, where the root ḥ-r-m carries meanings linked with sanctity, setting apart, or in some cases, designating something for sacred use[3][13]. In some linguistic contexts, "harim" denotes a protected or sacred place[13][5]. This fits the dish's traditional role in religious and communal gatherings, although... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Harimi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1/2 teaspoon cumin</li><li>1 teaspoon caraway seeds</li><li>  Fish</li><li>  Oil</li><li>  Garlic</li><li>  Salt</li><li>  Water</li><li>  Hot paprika</li><li>2  tablespoons tomato paste</li><li>2  hot peppers</li><li>  Lemon juice</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a pot, heat the oil and add all the ingredients except for the fish and water. Sauté for about 5 minutes.</li><li>Add the water, fish, and lemon juice. Optionally, you can add sliced potatoes.</li></ol>
+                    <p class="story-text">The name "Harimi" (חרימי) has roots in Arabic, where the root ḥ-r-m carries meanings linked with sanctity, setting apart, or in some cases, designating something for sacred use[3][13]. In some linguistic contexts, "harim" denotes a protected or sacred place[13][5]. This fits the dish's traditional role in religious and communal gatherings, although...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Harimi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Harimi" (חרימי) has roots in Arabic, where the root ḥ-r-m carries meanings linked with sanctity, setting apart, or in some cases, designating something for sacred use[3][13]. In some linguistic contexts, "harim" denotes a protected or sacred place[13][5]. This fits the dish's traditional role in religious and communal gatherings, although... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מחשי</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The term "Mahshi" originates from the Arabic word "محشي" (maḥshī), which means "stuffed" or "filled.” It directly describes the method of preparing the dish, where vegetables are hollowed and filled with a seasoned mixture of meat, rice, or other grains. Mahshi traces back to the Ottoman Empire, where the broader tradition of "dolma" or stuffed veg... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Mahshi</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The term "Mahshi" originates from the Arabic word "محشي" (maḥshī), which means "stuffed" or "filled.” It directly describes the method of preparing the dish, where vegetables are hollowed and filled with a seasoned mixture of meat, rice, or other grains. Mahshi traces back to the Ottoman Empire, where the broader tradition of "dolma" or stuffed veg... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Mahshi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Rice</li><li>  Eggs</li><li>  Pieces of chicken</li><li>  Spices: salt and pepper</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Hollow out vegetables such as potatoes, zucchini, eggplant, cabbage leaves, etc. In a bowl, crack an egg and add rice and pieces of chicken breast, then fill the hollowed vegetables with this mixture.</li><li>In a pot, heat oil and sauté onions. Add tomatoes and other vegetables like zucchini and pumpkin. Pour in water and season with spices. Carefully place the stuffed vegetables into the pot and cook until done.</li></ol>
+                    <p class="story-text">The term "Mahshi" originates from the Arabic word "محشي" (maḥshī), which means "stuffed" or "filled.” It directly describes the method of preparing the dish, where vegetables are hollowed and filled with a seasoned mixture of meat, rice, or other grains. Mahshi traces back to the Ottoman Empire, where the broader tradition of "dolma" or stuffed veg...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Mahshi</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The term "Mahshi" originates from the Arabic word "محشي" (maḥshī), which means "stuffed" or "filled.” It directly describes the method of preparing the dish, where vegetables are hollowed and filled with a seasoned mixture of meat, rice, or other grains. Mahshi traces back to the Ottoman Empire, where the broader tradition of "dolma" or stuffed veg... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מעקוד</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Maqoud" (sometimes spelled Makoud or Maqoud) derives from the Arabic word "maqṣūd" (مقصود), meaning "intended," "desired," or "aimed for"[7][15][19]. This root signifies something that is sought after, a goal, or a purpose—perhaps referencing the dish’s desirability as a culinary treat or the intention behind its careful preparation. The ... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Maqoud</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Maqoud" (sometimes spelled Makoud or Maqoud) derives from the Arabic word "maqṣūd" (مقصود), meaning "intended," "desired," or "aimed for"[7][15][19]. This root signifies something that is sought after, a goal, or a purpose—perhaps referencing the dish’s desirability as a culinary treat or the intention behind its careful preparation. The ... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Maqoud</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Potatoes</li><li>  Eggs</li><li>  Parsley</li><li>  Peas and carrots (cooked)</li><li>  Spices</li><li>  Flour</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Boil the potatoes until tender.</li><li>Mash the potatoes.</li><li>Add eggs and mix well.</li><li>Incorporate a tablespoon of flour, spices, and chopped parsley. Optionally, add cooked peas and carrots.</li><li>Heat a deep skillet with oil.</li><li>Pour the mixture into the skillet.</li><li>Cook on low heat until it sets.</li><li>Carefully flip the maqoud onto a plate, then return it to the skillet to cook the other side on low heat until it is fully set.</li></ol>
+                    <p class="story-text">The name "Maqoud" (sometimes spelled Makoud or Maqoud) derives from the Arabic word "maqṣūd" (مقصود), meaning "intended," "desired," or "aimed for"[7][15][19]. This root signifies something that is sought after, a goal, or a purpose—perhaps referencing the dish’s desirability as a culinary treat or the intention behind its careful preparation. The ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Maqoud</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Maqoud" (sometimes spelled Makoud or Maqoud) derives from the Arabic word "maqṣūd" (مقصود), meaning "intended," "desired," or "aimed for"[7][15][19]. This root signifies something that is sought after, a goal, or a purpose—perhaps referencing the dish’s desirability as a culinary treat or the intention behind its careful preparation. The ... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>נעז'ה \- חביתת ירק</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "נעז'ה" ("Neja," also transliterated "Naja" or "Nejja") refers to a fluffy, vegetable-laden omelette. The Hebrew term "חביתת ירק" translates literally as "herb omelette" or "vegetable omelette". The word "נעז'ה" is thought to derive from Judeo-Arabic, reflecting the blend of languages in Tunisian Jewish communities. Neja (נעז'ה) originated... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Vegetable Omelette</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "נעז'ה" ("Neja," also transliterated "Naja" or "Nejja") refers to a fluffy, vegetable-laden omelette. The Hebrew term "חביתת ירק" translates literally as "herb omelette" or "vegetable omelette". The word "נעז'ה" is thought to derive from Judeo-Arabic, reflecting the blend of languages in Tunisian Jewish communities. Neja (נעז'ה) originated... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Vegetable Omelette</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Eggs</li><li>  Green vegetables: green onions, dill, cilantro, and parsley</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Crack the eggs into a bowl.</li><li>Add chopped green onions (after washing, of course).</li><li>Incorporate a small amount of chopped parsley, chopped dill, and chopped cilantro, and mix well with the eggs.</li><li>Heat a skillet over low heat and pour in the mixture. Cook until the bottom is set, then carefully flip with a spatula and cook the other side until firm.</li></ol>
+                    <p class="story-text">The name "נעז'ה" ("Neja," also transliterated "Naja" or "Nejja") refers to a fluffy, vegetable-laden omelette. The Hebrew term "חביתת ירק" translates literally as "herb omelette" or "vegetable omelette". The word "נעז'ה" is thought to derive from Judeo-Arabic, reflecting the blend of languages in Tunisian Jewish communities. Neja (נעז'ה) originated...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Vegetable Omelette</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "נעז'ה" ("Neja," also transliterated "Naja" or "Nejja") refers to a fluffy, vegetable-laden omelette. The Hebrew term "חביתת ירק" translates literally as "herb omelette" or "vegetable omelette". The word "נעז'ה" is thought to derive from Judeo-Arabic, reflecting the blend of languages in Tunisian Jewish communities. Neja (נעז'ה) originated... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>אדמשושה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Admeshushah" (אדמשושה) appears to derive from Hebrew roots, though its precise meaning is debated. In Hebrew, "adama" refers to "earth" or "soil," potentially reflecting the dish’s use of locally grown or staple ingredients. The suffix "shushah" may be a diminutive or could indicate a particular texture or form, but no definitive scholarl... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Admeshushah</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Admeshushah" (אדמשושה) appears to derive from Hebrew roots, though its precise meaning is debated. In Hebrew, "adama" refers to "earth" or "soil," potentially reflecting the dish’s use of locally grown or staple ingredients. The suffix "shushah" may be a diminutive or could indicate a particular texture or form, but no definitive scholarl... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Admeshushah</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Potatoes</li><li>  Onion</li><li>  Tomato</li><li>  Hot pepper</li><li>  Eggs</li><li>  Water</li><li>  Spices</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Start by sautéing the onion until it becomes translucent.</li><li>Add sweet paprika to the sautéed onion.</li><li>Incorporate a small amount of chopped tomato and a very small hot pepper.</li><li>Season with a pinch of salt.</li><li>Sauté for a short while until the ingredients are well combined.</li><li>Add water and bring to a boil.</li><li>Once boiling, crack whole eggs into the broth.</li><li>Cook for about 10 minutes.</li><li>Optionally, you can add pieces of potatoes for added texture.</li></ol>
+                    <p class="story-text">The name "Admeshushah" (אדמשושה) appears to derive from Hebrew roots, though its precise meaning is debated. In Hebrew, "adama" refers to "earth" or "soil," potentially reflecting the dish’s use of locally grown or staple ingredients. The suffix "shushah" may be a diminutive or could indicate a particular texture or form, but no definitive scholarl...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Admeshushah</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Admeshushah" (אדמשושה) appears to derive from Hebrew roots, though its precise meaning is debated. In Hebrew, "adama" refers to "earth" or "soil," potentially reflecting the dish’s use of locally grown or staple ingredients. The suffix "shushah" may be a diminutive or could indicate a particular texture or form, but no definitive scholarl... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>צ׳יקן פריקסה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The term "fricassée" is derived from French, meaning "to break in pieces and cook" or "a dish of pieces of meat braised in stock and served in a white sauce" . In the Tunisian Jewish dialect, "פריקסה" refers specifically to the local stuffed fried bun, usually filled with chicken, potatoes, eggs, olives, and a variety of sauces. Chicken Fricassé tr... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Chicken Fricassé</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The term "fricassée" is derived from French, meaning "to break in pieces and cook" or "a dish of pieces of meat braised in stock and served in a white sauce" . In the Tunisian Jewish dialect, "פריקסה" refers specifically to the local stuffed fried bun, usually filled with chicken, potatoes, eggs, olives, and a variety of sauces. Chicken Fricassé tr... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Chicken Fricassé</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Chicken pieces</li><li>1  carrot</li><li>1  onion</li><li>  A little flour</li><li>  Water</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Heat some oil in a pot.</li><li>Add the chicken pieces and sauté for about 10 minutes.</li><li>Add the diced carrot and onion.</li><li>Season with salt and pepper.</li><li>Stir and sauté again.</li><li>Add water, and when it reaches a boil, add the dumplings.</li></ol>
+                    <p class="story-text">The term "fricassée" is derived from French, meaning "to break in pieces and cook" or "a dish of pieces of meat braised in stock and served in a white sauce" . In the Tunisian Jewish dialect, "פריקסה" refers specifically to the local stuffed fried bun, usually filled with chicken, potatoes, eggs, olives, and a variety of sauces. Chicken Fricassé tr...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Chicken Fricassé</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The term "fricassée" is derived from French, meaning "to break in pieces and cook" or "a dish of pieces of meat braised in stock and served in a white sauce" . In the Tunisian Jewish dialect, "פריקסה" refers specifically to the local stuffed fried bun, usually filled with chicken, potatoes, eggs, olives, and a variety of sauces. Chicken Fricassé tr... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>שעועית ירוקה ברוטב עגבניות</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The Hebrew name שעועית ירוקה ברוטב עגבניות translates directly to "Green Beans in Tomato Sauce," where שעועית ירוקה (sha'uit yeruka) means "green beans," and רוטב עגבניות (rotev agvaniyot) means "tomato sauce". The nomenclature reflects the straightforward and unpretentious style of this home-cooked dish. The dish "Green Beans in Tomato Sauce" is a... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Green Beans in Tomato Sauce</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The Hebrew name שעועית ירוקה ברוטב עגבניות translates directly to "Green Beans in Tomato Sauce," where שעועית ירוקה (sha'uit yeruka) means "green beans," and רוטב עגבניות (rotev agvaniyot) means "tomato sauce". The nomenclature reflects the straightforward and unpretentious style of this home-cooked dish. The dish "Green Beans in Tomato Sauce" is a... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Green Beans in Tomato Sauce</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>1  package of green beans</li><li>  Oil</li><li>  Paprika</li><li>1  tomato + tomato paste</li><li>  Garlic</li><li>  Salt</li><li>1  onion, diced</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>In a large skillet, heat some oil over medium heat.</li><li>Add the diced onion and sauté until it turns golden brown.</li><li>After about 2 minutes, add paprika, followed by the diced tomato and a small piece of chopped hot pepper.</li><li>Season with a little salt, black pepper, and garlic.</li><li>Finally, add a small can of tomato paste and stir well.</li><li>Once the mixture is heated through, add the package of green beans and cook for about 10 minutes.</li><li>Turn off the heat.</li></ol>
+                    <p class="story-text">The Hebrew name שעועית ירוקה ברוטב עגבניות translates directly to "Green Beans in Tomato Sauce," where שעועית ירוקה (sha'uit yeruka) means "green beans," and רוטב עגבניות (rotev agvaniyot) means "tomato sauce". The nomenclature reflects the straightforward and unpretentious style of this home-cooked dish. The dish "Green Beans in Tomato Sauce" is a...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Green Beans in Tomato Sauce</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The Hebrew name שעועית ירוקה ברוטב עגבניות translates directly to "Green Beans in Tomato Sauce," where שעועית ירוקה (sha'uit yeruka) means "green beans," and רוטב עגבניות (rotev agvaniyot) means "tomato sauce". The nomenclature reflects the straightforward and unpretentious style of this home-cooked dish. The dish "Green Beans in Tomato Sauce" is a... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מרק סמיך חמוץ וחריף של בינה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">- "מרק סמיך" ("Thick Soup") denotes a rich, hearty texture, often thanks to the addition of semolina, chickpeas, or bread[2][14].
+- "חמוץ וחריף" ("Sour and Spicy") describes the dominant flavor notes, with sourness typically derived from lemon or vinegar, and heat from harissa or other spices[2][14].
+- "של בינה" ("of Bina") can refer either to a ma... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Thick Sour and Spicy Soup of Bina</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">- "מרק סמיך" ("Thick Soup") denotes a rich, hearty texture, often thanks to the addition of semolina, chickpeas, or bread[2][14].
+- "חמוץ וחריף" ("Sour and Spicy") describes the dominant flavor notes, with sourness typically derived from lemon or vinegar, and heat from harissa or other spices[2][14].
+- "של בינה" ("of Bina") can refer either to a ma... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Thick Sour and Spicy Soup of Bina</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>  Flour</li><li>  Water</li><li>  Garlic</li><li>  Lemon juice</li><li>  Hot paprika</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Combine all the ingredients in a pot and cook over low heat, stirring well.</li><li>After about 20 minutes, prepare a roux by mixing water and flour, and gradually add it to the soup while stirring.</li><li>Taste and adjust the seasoning as needed.</li></ol>
+                    <p class="story-text">- "מרק סמיך" ("Thick Soup") denotes a rich, hearty texture, often thanks to the addition of semolina, chickpeas, or bread[2][14].
+- "חמוץ וחריף" ("Sour and Spicy") describes the dominant flavor notes, with sourness typically derived from lemon or vinegar, and heat from harissa or other spices[2][14].
+- "של בינה" ("of Bina") can refer either to a ma...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Thick Sour and Spicy Soup of Bina</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">- "מרק סמיך" ("Thick Soup") denotes a rich, hearty texture, often thanks to the addition of semolina, chickpeas, or bread[2][14].
+- "חמוץ וחריף" ("Sour and Spicy") describes the dominant flavor notes, with sourness typically derived from lemon or vinegar, and heat from harissa or other spices[2][14].
+- "של בינה" ("of Bina") can refer either to a ma... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spread-wrapper">
+    <!-- LEFT PAGE (Verso) -->
+    <div class="page verso text-page">
+        <div class="language-section lang-he">
+            <h1>מרק קטעה</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>הוראות הכנה</h2>
+                    <ol><li>[הוראות בעברית יבואו כאן...]</li><li>שלב נוסף בתהליך ההכנה.</li></ol>
+                    <p class="story-text">The name "Kta'a" (קטעה) derives from the Arabic root "kat'a," meaning "to cut" or "to tear," directly referencing the torn pieces of dough that are a defining feature of the soup. In Judeo-Arabic, the word has the same meaning, underscoring the dish's emphasis on this unique preparation method. Kta'a Soup originated among the Jewish communities of ... (Hebrew trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>מצרכים</h2>
+                    <ul><li>מרכיב 1</li><li>מרכיב 2</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-ar">
+            <h1>وصفة Kta'a Soup (Torn Dough Soup)</h1>
+            <div class="recipe-grid">
+                <div class="instructions-col">
+                    <h2>طريقة التحضير</h2>
+                    <ol><li>[التعليمات بالعربية ستكون هنا...]</li></ol>
+                    <p class="story-text">The name "Kta'a" (קטעה) derives from the Arabic root "kat'a," meaning "to cut" or "to tear," directly referencing the torn pieces of dough that are a defining feature of the soup. In Judeo-Arabic, the word has the same meaning, underscoring the dish's emphasis on this unique preparation method. Kta'a Soup originated among the Jewish communities of ... (Arabic trans)</p>
+                </div>
+                <div class="ingredients-col">
+                    <h2>المكونات</h2>
+                    <ul><li>مكون 1</li><li>مكون 2</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE (Recto) -->
+    <div class="page recto text-page">
+        <div class="language-section lang-en">
+            <h1>Kta'a Soup (Torn Dough Soup)</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredients</h2>
+                    <ul><li>2 cups flour</li><li>1/2 cup water</li><li>1/2 teaspoon salt</li><li>2  tablespoons olive oil</li><li>1  large onion, chopped</li><li>  3-4 cloves garlic, chopped</li><li>  2-3 ripe tomatoes, crushed</li><li>1 tablespoon tomato paste</li><li>1 teaspoon cumin</li><li>1/2 teaspoon sweet paprika</li><li>  Salt and pepper to taste</li><li>1.5 liters water or vegetable broth</li><li>  Juice of half a lemon</li><li>  Handful chopped cilantro (optional)</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparation</h2>
+                    <ol><li>Prepare the dough: Mix flour and salt in a bowl. Gradually add water and knead until a uniform and flexible dough forms. Cover and let rest for 30 minutes.</li><li>Prepare the soup base: Heat olive oil in a large pot. Sauté onion and garlic until golden.</li><li>Add crushed tomatoes and tomato paste, cook for a few minutes.</li><li>Season with cumin, paprika, salt, and pepper.</li><li>Add water or broth, bring to a boil, and simmer on low heat for about 10 minutes.</li><li>Add the dough: Tear small pieces of the dough and drop them into the boiling soup.</li><li>Cook for another 10 minutes until the dough is cooked through and soft.</li><li>Finish: Stir in lemon juice and cilantro. Taste and adjust seasoning if needed.</li><li>Serve warm.</li></ol>
+                    <p class="story-text">The name "Kta'a" (קטעה) derives from the Arabic root "kat'a," meaning "to cut" or "to tear," directly referencing the torn pieces of dough that are a defining feature of the soup. In Judeo-Arabic, the word has the same meaning, underscoring the dish's emphasis on this unique preparation method. Kta'a Soup originated among the Jewish communities of ...</p>
+                </div>
+            </div>
+        </div>
+        <div class="language-section lang-es">
+            <h1>Receta de Kta'a Soup (Torn Dough Soup)</h1>
+            <div class="recipe-grid">
+                <div class="ingredients-col">
+                    <h2>Ingredientes</h2>
+                    <ul><li>Ingrediente 1</li><li>Ingrediente 2</li></ul>
+                </div>
+                <div class="instructions-col">
+                    <h2>Preparación</h2>
+                    <ol><li>[Instrucciones en español...]</li></ol>
+                    <p class="story-text">The name "Kta'a" (קטעה) derives from the Arabic root "kat'a," meaning "to cut" or "to tear," directly referencing the torn pieces of dough that are a defining feature of the soup. In Judeo-Arabic, the word has the same meaning, underscoring the dish's emphasis on this unique preparation method. Kta'a Soup originated among the Jewish communities of ... (Spanish trans)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

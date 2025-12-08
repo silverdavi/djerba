@@ -1,0 +1,271 @@
+{
+  "id": "dabikh_tatmatem",
+  "names": {
+    "english": "Dabikh Tatmatem",
+    "hebrew": "דביח תטמטם",
+    "arabic": "طبخ طماطم",
+    "spanish": "Dabikh Tatmatem"
+  },
+  "metadata": {
+    "category": "Bread & Pastry",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "onions",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "Tomatoes",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Tomato paste",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Green hot pepper",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Potatoes",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Salt",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Paprika",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Black pepper",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Chicken",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "בצל",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "עגבניות",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "רסק עגבניות",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פלפל ירוק חריף",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "תפוחי אדמה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מלח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פפריקה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פלפל שחור",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "עוף",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "بصل",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "طماطم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "معجون الطماطم",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فلفل حار أخضر",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بطاطس",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ملح",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "بابريكا",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "فلفل أسود",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "دجاج",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Sauté 2 onions in a pan until golden brown. Add paprika, followed by chopped tomatoes and sliced green hot pepper. Season to taste."
+      },
+      {
+        "step": 2,
+        "text": "Sauté for about 10 minutes, then add a can of tomato paste and continue to sauté for another 10 minutes."
+      },
+      {
+        "step": 3,
+        "text": "Add water, diced potatoes, and chicken to the mixture. Stir well and let it simmer until the chicken is cooked through and the potatoes are tender."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Sofría 2 cebollas en una sartén hasta que estén doradas. Agregue pimentón, seguido de tomates picados y pimiento verde picante en rodajas. Sazone al gusto."
+      },
+      {
+        "step": 2,
+        "text": "Sofría durante unos 10 minutos, luego agregue una lata de pasta de tomate y continúe sofriendo por otros 10 minutos."
+      },
+      {
+        "step": 3,
+        "text": "Agregue agua, papas en cubos y pollo a la mezcla. Revuelva bien y deje hervir a fuego lento hasta que el pollo esté cocido y las papas estén tiernas."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"Dabikh Tatmatem\" is a hybrid term: \"Dabikh\" (דביח) possibly derives from the Arabic \"dabiḥ\" (ذبيح), meaning \"slaughtered\" or \"sacrifice,\" which in culinary terms points to meat prepared for a ritual meal; \"Tatmatem\" is a transliteration of the North African Judeo-Arabic pronunciation of \"tomato\" (Arabic: طماطم, tamatem)[4]. Together, the name refers to a stewed meat dish featuring tomatoes—a staple ingredient after their introduction to North African cuisine[4]."
+    },
+    "hebrew": {
+      "summary": "השם \"דביח תטמטם\" הוא מונח היברידי: \"דביח\" (דביח) ייתכן שמקורו בערבית \"דביḥ\" (ذبيح), שמשמעותו \"נשחט\" או \"קרבן\", שבמונחים קולינריים מתייחס לבשר המוכן לארוחה טקסית; \"תטמטם\" הוא תעתיק של ההגייה היהודית-ערבית הצפון אפריקאית של \"עגבנייה\" (ערבית: طماطم, תמאתם). יחד, השם מתייחס למנה של בשר מבושל עם עגבניות - מרכיב בסיסי לאחר שהוכנס למטבח הצפון אפריקאי."
+    },
+    "arabic": {
+      "summary": "اسم \"دبيخ طماطم\" هو مصطلح هجين: \"دبيخ\" (דביח) ربما مشتق من العربية \"ذبيح\"، مما يعني \"مذبوح\" أو \"تضحية\"، والذي في المصطلحات الطهوية يشير إلى اللحم المُعد لوجبة طقسية؛ \"طماطم\" هو نقل صوتي للنطق اليهودي العربي الشمالي الأفريقي لكلمة \"طماطم\" (العربية: طماطم، طماطم). معًا، يشير الاسم إلى طبق لحم مطهو يضم الطماطم - وهي مكون أساسي بعد إدخالها إلى المطبخ الشمال أفريقي."
+    },
+    "spanish": {
+      "summary": "El nombre \"Dabikh Tatmatem\" es un término híbrido: \"Dabikh\" (דביח) posiblemente deriva del árabe \"dabiḥ\" (ذبيح), que significa \"sacrificado\" o \"sacrificio\", lo cual en términos culinarios se refiere a carne preparada para una comida ritual; \"Tatmatem\" es una transliteración de la pronunciación judeo-árabe norteafricana de \"tomate\" (árabe: طماطم, tamatem). Juntos, el nombre se refiere a un plato de carne guisada con tomates, un ingrediente básico después de su introducción a la cocina norteafricana."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Dabikh Tatmatem (דביח תטמטם) is a traditional dish associated with the Jewish community of Djerba, an island off the coast of Tunisia, and more broadly with Tunisian Jews[7][12]. The origins of this dish are deeply rooted in the long history of Jews in Tunisia, which spans over two millennia and is influenced by layers of Maghrebi, Sephardic, and local Tunisian culture[7][12]. Djerban Jewish cuisi",
+      "evolution": "",
+      "cultural_significance": "Dabikh Tatmatem plays an important role in the religious and festive life of Tunisian and specifically Djerban Jews[12]. It is commonly served during holidays, especially during Passover, Sukkot, and the Sabbath, and is emblematic of the community's ability to fuse local and Jewish dietary customs. The dish's preparation and serving create a sense of continuity with ancestral traditions and reinfo",
+      "regional_variations": "",
+      "summary": "Dabikh Tatmatem (דביח תטמטם) is a traditional dish associated with the Jewish community of Djerba, an island off the coast of Tunisia, and more broadly with Tunisian Jews[7][12]. The origins of this dish are deeply rooted in the long history of Jews in Tunisia, which spans over two millennia and is influenced by layers of Maghrebi, Sephardic, and local Tunisian culture[7][12]. Djerban Jewish cuisi"
+    },
+    "hebrew": {
+      "summary": "דביח תטמטם (Dabikh Tatmatem) הוא מאכל מסורתי הקשור לקהילה היהודית של ג'רבה, אי מול חופי תוניסיה, ובאופן רחב יותר ליהודי תוניסיה. מקורותיו של מאכל זה נטועים עמוק בהיסטוריה הארוכה של יהודים בתוניסיה, המשתרעת על פני יותר משני אלפים שנה ומושפעת משכבות של תרבות מג'רבית, ספרדית ומקומית תוניסאית."
+    },
+    "arabic": {
+      "summary": "دبيخ تاتماتم (דביח תטמטם) هو طبق تقليدي مرتبط بالجالية اليهودية في جربة، وهي جزيرة قبالة سواحل تونس، وبشكل أوسع مع اليهود التونسيين. تعود أصول هذا الطبق إلى التاريخ الطويل لليهود في تونس، الذي يمتد لأكثر من ألفي عام ويتأثر بطبقات من الثقافة المغاربية والسفاردية والمحلية التونسية."
+    },
+    "spanish": {
+      "summary": "Dabikh Tatmatem (דביח תטמטם) es un plato tradicional asociado con la comunidad judía de Djerba, una isla frente a la costa de Túnez, y más ampliamente con los judíos tunecinos. Los orígenes de este plato están profundamente arraigados en la larga historia de los judíos en Túnez, que abarca más de dos milenios y está influenciada por capas de cultura magrebí, sefardí y tunecina local."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This dish is a traditional Tunisian-Djerban Jewish recipe, known for its rich flavors and hearty ingredients. Serve it warm with bread or rice for a complete meal.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This dish is a traditional Tunisian-Djerban Jewish recipe, known for its rich flavors and hearty ingredients. Serve it warm with bread or rice for a complete meal."
+    },
+    "hebrew": {
+      "summary": "המנה הזו היא מתכון יהודי מסורתי מתוניסיה-ג'רבה, הידוע בטעמיו העשירים ובמרכיביו המזינים. הגישו אותה חמה עם לחם או אורז לארוחה מלאה."
+    },
+    "arabic": {
+      "summary": "هذا الطبق هو وصفة تقليدية يهودية تونسية-جربية، معروفة بنكهاتها الغنية ومكوناتها الدسمة. يُقدم دافئًا مع الخبز أو الأرز للحصول على وجبة متكاملة."
+    },
+    "spanish": {
+      "summary": "Este plato es una receta tradicional judía tunecina-djerbana, conocida por sus ricos sabores e ingredientes sustanciosos. Sírvelo caliente con pan o arroz para una comida completa."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "dabikh_tatmatem_history.md",
+    "history_md": "dabikh_tatmatem_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

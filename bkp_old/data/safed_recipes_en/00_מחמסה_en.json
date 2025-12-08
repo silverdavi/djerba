@@ -1,0 +1,28 @@
+{
+  "id": "mahmessa",
+  "name_hebrew": "מחמסה",
+  "name_english": "Mahmessa",
+  "ingredients": [
+    "1 small onion",
+    "1 cup of ptitim (Israeli couscous)",
+    "1 tablespoon sweet paprika",
+    "Black pepper to taste",
+    "1 chopped tomato",
+    "Vegetables of your choice",
+    "Water (1 and 1/4 cups for every cup of ptitim)"
+  ],
+  "instructions": [
+    "For dry Mahmessa: Sauté a small onion until translucent.",
+    "Add the ptitim (Mahmessa) and continue to sauté for a few more minutes. Then, add water according to the instructions: 1 and 1/4 cups of water for every cup of ptitim.",
+    "For Mahmessa with sauce: Sauté a small onion until it starts to brown. Add 1 tablespoon of sweet paprika and sauté for a few seconds.",
+    "Add the chopped tomato and any vegetables you desire. Season with salt, black pepper, and add boiling water.",
+    "Stir in the ptitim.",
+    "Bring to a boil, then reduce the heat, cover partially, and simmer until cooked through."
+  ],
+  "notes": "Mahmessa is a traditional dish enjoyed in Tunisian-Djerban Jewish cuisine, often customized with various vegetables based on personal preference.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "00_מחמסה.json"
+  }
+}

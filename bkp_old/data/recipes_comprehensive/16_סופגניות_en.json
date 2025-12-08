@@ -1,0 +1,350 @@
+{
+  "id": "sufganiyot",
+  "names": {
+    "english": "Sufganiyot",
+    "hebrew": "סופגניות",
+    "arabic": "سفنج",
+    "spanish": "Sufganiyot"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "all-purpose flour",
+        "amount": "2",
+        "unit": "cups"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "packet (7g) dry yeast",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "warm milk",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "large eggs",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "unsalted butter, melted",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "Oil for frying",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Powdered sugar for dusting",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Jam or chocolate filling",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "קמח לכל מטרה",
+        "amount": "2",
+        "unit": "כוסות"
+      },
+      {
+        "name": "סוכר",
+        "amount": "1/4",
+        "unit": "כוס"
+      },
+      {
+        "name": "שקית (7 גרם) שמרים יבשים",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "מלח",
+        "amount": "1/2",
+        "unit": "כפית"
+      },
+      {
+        "name": "חלב חמים",
+        "amount": "1/2",
+        "unit": "כוס"
+      },
+      {
+        "name": "ביצים גדולות",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "חמאה לא מלוחה, מומסת",
+        "amount": "1/4",
+        "unit": "כוס"
+      },
+      {
+        "name": "שמן לטיגון",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "אבקת סוכר לפיזור",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "ריבה או מילוי שוקולד",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "arabic": [
+      {
+        "name": "طحين لجميع الأغراض",
+        "amount": "2",
+        "unit": "أكواب"
+      },
+      {
+        "name": "سكر",
+        "amount": "1/4",
+        "unit": "كوب"
+      },
+      {
+        "name": "عبوة (7غ) خميرة جافة",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "ملح",
+        "amount": "1/2",
+        "unit": "ملعقة صغيرة"
+      },
+      {
+        "name": "حليب دافئ",
+        "amount": "1/2",
+        "unit": "كوب"
+      },
+      {
+        "name": "بيض كبير",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "زبدة غير مملحة، مذابة",
+        "amount": "1/4",
+        "unit": "كوب"
+      },
+      {
+        "name": "زيت للقلي",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "سكر بودرة للتزيين",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "مربى أو حشوة شوكولاتة",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a large mixing bowl, combine the flour, sugar, yeast, and salt."
+      },
+      {
+        "step": 2,
+        "text": "In a separate bowl, whisk together the warm milk, eggs, and melted butter."
+      },
+      {
+        "step": 3,
+        "text": "Pour the wet ingredients into the dry ingredients and mix until a dough forms."
+      },
+      {
+        "step": 4,
+        "text": "Knead the dough on a floured surface for about 5-7 minutes until smooth and elastic."
+      },
+      {
+        "step": 5,
+        "text": "Place the dough in a greased bowl, cover with a cloth, and let it rise in a warm place for about 1 hour, or until doubled in size."
+      },
+      {
+        "step": 6,
+        "text": "Once the dough has risen, punch it down and roll it out to about 1/2 inch thickness."
+      },
+      {
+        "step": 7,
+        "text": "Cut out circles using a cookie cutter or glass, and let them rise for another 30 minutes."
+      },
+      {
+        "step": 8,
+        "text": "Heat oil in a deep pan to 350°F (175°C)."
+      },
+      {
+        "step": 9,
+        "text": "Fry the dough circles in batches until golden brown on both sides, about 2-3 minutes per side."
+      },
+      {
+        "step": 10,
+        "text": "Remove the sufganiyot from the oil and drain on paper towels."
+      },
+      {
+        "step": 11,
+        "text": "Once cooled, fill with jam or chocolate and dust with powdered sugar before serving."
+      }
+    ],
+    "hebrew": [
+      {
+        "step": 1,
+        "text": "בקערת ערבוב גדולה, שלבו את הקמח, הסוכר, השמרים והמלח."
+      },
+      {
+        "step": 2,
+        "text": "בקערה נפרדת, טרפו יחד את החלב החם, הביצים והחמאה המומסת."
+      },
+      {
+        "step": 3,
+        "text": "שפכו את החומרים הרטובים על החומרים היבשים וערבבו עד שהתערובת הופכת לבצק."
+      },
+      {
+        "step": 4,
+        "text": "לושו את הבצק על משטח מקומח למשך 5-7 דקות עד שהבצק חלק וגמיש."
+      },
+      {
+        "step": 5,
+        "text": "הניחו את הבצק בקערה משומנת, כסו אותה במטלית ותנו לבצק לתפוח במקום חם במשך כשעה או עד שהוא מכפיל את נפחו."
+      },
+      {
+        "step": 6,
+        "text": "לאחר שהבצק תפח, הורידו אותו מעט וגלגלו אותו לעובי של כחצי אינץ'."
+      },
+      {
+        "step": 7,
+        "text": "חתכו עיגולים בעזרת חותך עוגיות או כוס, ותנו להם לתפוח עוד 30 דקות."
+      },
+      {
+        "step": 8,
+        "text": "חממו שמן בסיר עמוק לטמפרטורה של 350 מעלות פרנהייט (175 מעלות צלזיוס)."
+      },
+      {
+        "step": 9,
+        "text": "טגנו את עיגולי הבצק במנות עד שהם מזהיבים משני הצדדים, כ-2-3 דקות לכל צד."
+      },
+      {
+        "step": 10,
+        "text": "הוציאו את הסופגניות מהשמן והניחו על נייר סופג לניקוז עודפי השמן."
+      },
+      {
+        "step": 11,
+        "text": "לאחר שהתקררו, מלאו בריבה או שוקולד ופזרו מעל אבקת סוכר לפני ההגשה."
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The name \"sufgania\" derives from the Hebrew word \"sfog\" (ספוג), meaning \"sponge,\" referencing the dough's spongy, absorbent texture after frying. The plural form \"sufganiyot\" refers to multiple pastries."
+    },
+    "hebrew": {
+      "summary": "שם \"סופגניה\" נגזר מהמילה העברית \"ספוג\", המתייחסת למרקם הספוגי והסופג של הבצק לאחר הטיגון. הצורה ברבים \"סופגניות\" מתייחסת למספר מאפים."
+    },
+    "arabic": {
+      "summary": "اسم \"سفغانيا\" مشتق من الكلمة العبرية \"سفوج\" (ספוג)، التي تعني \"إسفنجة\"، في إشارة إلى قوام العجين الإسفنجي والممتص بعد القلي. الشكل الجمع \"سفغانييوت\" يشير إلى العديد من المعجنات."
+    },
+    "spanish": {
+      "summary": "El nombre \"sufgania\" deriva de la palabra hebrea \"sfog\" (ספוג), que significa \"esponja\", haciendo referencia a la textura esponjosa y absorbente de la masa después de freír. La forma plural \"sufganiyot\" se refiere a múltiples pasteles."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in Poland and Central Europe from the 16th century onward. The recipe was adapted from similar filled doughnuts popular in Central and Eastern Europe, such as the German Berliner and Polish pączki. While Sufganiyot are now central to Hanukkah celebrations th",
+      "evolution": "",
+      "cultural_significance": "Sufganiyot hold significant cultural weight as a food traditionally eaten during Hanukkah, commemorating the miracle of the oil that lasted eight days in the rededication of the Second Temple in Jerusalem. Fried foods, like Sufganiyot and latkes, symbolize the miracle by using oil as a primary ingredient. In modern Israel, sufganiyot are associated almost exclusively with Hanukkah and become widel",
+      "regional_variations": "",
+      "summary": "Sufganiyot (סופגניות) are deep-fried jelly-filled doughnuts that trace their roots to Europe, particularly among Ashkenazi Jewish communities in Poland and Central Europe from the 16th century onward. The recipe was adapted from similar filled doughnuts popular in Central and Eastern Europe, such as the German Berliner and Polish pączki. While Sufganiyot are now central to Hanukkah celebrations th"
+    },
+    "hebrew": {
+      "summary": "סופגניות (סופגניות) הן סופגניות מטוגנות בשמן עמוק וממולאות בריבה, שמקורן באירופה, במיוחד בקרב קהילות יהודיות אשכנזיות בפולין ובמרכז אירופה מהמאה ה-16 ואילך. המתכון הותאם מסופגניות ממולאות דומות שהיו פופולריות במרכז ומזרח אירופה, כמו הברלינר הגרמני והפונצ'קי הפולני. בעוד שהסופגניות הפכו כעת למרכזיות בחגיגות חנוכה."
+    },
+    "arabic": {
+      "summary": "سوفغانييوت (סופגניות) هي كعكات مقلية محشوة بالهلام تعود جذورها إلى أوروبا، خاصة بين المجتمعات اليهودية الأشكنازية في بولندا وأوروبا الوسطى منذ القرن السادس عشر فصاعدًا. تم تعديل الوصفة من كعكات محشوة مماثلة كانت شائعة في وسط وشرق أوروبا، مثل البرلينر الألماني والپونتشكي البولندي. بينما أصبحت سوفغانييوت الآن جزءًا أساسيًا من احتفالات حانوكا."
+    },
+    "spanish": {
+      "summary": "Sufganiyot (סופגניות) son rosquillas rellenas de mermelada y fritas en aceite que tienen sus raíces en Europa, particularmente entre las comunidades judías asquenazíes en Polonia y Europa Central desde el siglo XVI en adelante. La receta fue adaptada de rosquillas rellenas similares populares en Europa Central y del Este, como el Berliner alemán y el pączki polaco. Mientras que las Sufganiyot ahora son centrales en las celebraciones de Janucá."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Sufganiyot are traditionally enjoyed during Hanukkah, symbolizing the miracle of the oil. They can be filled with various fillings, such as jelly or custard, and are best served fresh.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Sufganiyot are traditionally enjoyed during Hanukkah, symbolizing the miracle of the oil. They can be filled with various fillings, such as jelly or custard, and are best served fresh."
+    },
+    "hebrew": {
+      "summary": "סופגניות נהוג לאכול במהלך חנוכה, כסמל לנס השמן. ניתן למלא אותן במגוון מילויים, כמו ריבה או קרם פטיסייר, והן הכי טעימות כשהן טריות."
+    },
+    "arabic": {
+      "summary": "السفنج يتم الاستمتاع بها تقليديًا خلال عيد الحانوكا، حيث ترمز إلى معجزة الزيت. يمكن حشوها بحشوات متنوعة، مثل المربى أو الكاسترد، وتكون أفضل عند تقديمها طازجة."
+    },
+    "spanish": {
+      "summary": "Las sufganiyot se disfrutan tradicionalmente durante Janucá, simbolizando el milagro del aceite. Pueden rellenarse con diversos rellenos, como jalea o crema pastelera, y se sirven mejor frescas."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "sufganiyot_history.md",
+    "history_md": "sufganiyot_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

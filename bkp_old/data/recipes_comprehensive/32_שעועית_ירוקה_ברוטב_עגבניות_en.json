@@ -1,0 +1,208 @@
+{
+  "id": "green_beans_in_tomato_sauce",
+  "names": {
+    "english": "Green Beans in Tomato Sauce",
+    "hebrew": "שעועית ירוקה ברוטב עגבניות",
+    "arabic": "فاصوليا خضراء في صلصة الطماطم",
+    "spanish": "Judías Verdes en Salsa de Tomate"
+  },
+  "metadata": {
+    "category": "Main Dishes",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "package of green beans",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Oil",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Paprika",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "tomato + tomato paste",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "Garlic",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Salt",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "onion, diced",
+        "amount": "1",
+        "unit": ""
+      }
+    ],
+    "hebrew": [
+      {
+        "name": "חבילת שעועית ירוקה",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "שמן",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "פפריקה",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "עגבנייה + רסק עגבניות",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "שום",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "מלח",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "בצל, קצוץ",
+        "amount": "1",
+        "unit": ""
+      }
+    ],
+    "arabic": [],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a large skillet, heat some oil over medium heat."
+      },
+      {
+        "step": 2,
+        "text": "Add the diced onion and sauté until it turns golden brown."
+      },
+      {
+        "step": 3,
+        "text": "After about 2 minutes, add paprika, followed by the diced tomato and a small piece of chopped hot pepper."
+      },
+      {
+        "step": 4,
+        "text": "Season with a little salt, black pepper, and garlic."
+      },
+      {
+        "step": 5,
+        "text": "Finally, add a small can of tomato paste and stir well."
+      },
+      {
+        "step": 6,
+        "text": "Once the mixture is heated through, add the package of green beans and cook for about 10 minutes."
+      },
+      {
+        "step": 7,
+        "text": "Turn off the heat."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The Hebrew name שעועית ירוקה ברוטב עגבניות translates directly to \"Green Beans in Tomato Sauce,\" where שעועית ירוקה (sha'uit yeruka) means \"green beans,\" and רוטב עגבניות (rotev agvaniyot) means \"tomato sauce\". The nomenclature reflects the straightforward and unpretentious style of this home-cooked dish."
+    },
+    "hebrew": {
+      "summary": "השם העברי שעועית ירוקה ברוטב עגבניות מתורגם ישירות ל-\"Green Beans in Tomato Sauce\", כאשר שעועית ירוקה משמעו \"green beans\", ורוטב עגבניות משמעו \"tomato sauce\". השם משקף את הסגנון הישיר והבלתי מתיימר של המנה הביתית הזו."
+    },
+    "arabic": {
+      "summary": "الاسم العبري שעועית ירוקה ברוטב עגבניות يترجم مباشرة إلى \"فاصوليا خضراء في صلصة الطماطم\"، حيث تعني שעועית ירוקה (sha'uit yeruka) \"الفاصوليا الخضراء\"، وتعني רוטב עגבניות (rotev agvaniyot) \"صلصة الطماطم\". يعكس هذا التسمية الأسلوب البسيط وغير المتكلف لهذا الطبق المنزلي."
+    },
+    "spanish": {
+      "summary": "El nombre hebreo שעועית ירוקה ברוטב עגבניות se traduce directamente como \"Judías Verdes en Salsa de Tomate\", donde שעועית ירוקה (sha'uit yeruka) significa \"judías verdes\" y רוטב עגבניות (rotev agvaniyot) significa \"salsa de tomate\". La nomenclatura refleja el estilo sencillo y sin pretensiones de este plato casero."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "The dish \"Green Beans in Tomato Sauce\" is an old and beloved part of the Jewish culinary repertoire, especially among Jews from North Africa, such as the communities of Tunisia and the island of Djerba. Jewish communities in these regions have prepared simple vegetable stews with tomatoes and legumes for centuries, following the spread of tomatoes into the Mediterranean after their introduction fr",
+      "evolution": "",
+      "cultural_significance": "Green beans in tomato sauce is not just a side dish but a staple in festive and everyday meals among Tunisian and Djerban Jews. It is often served warm or at room temperature as part of Shabbat lunches, holiday spreads (including Passover when kitniyot are allowed), and family gatherings. Its versatility—being vegetarian, affordable, and suitable for serving at room temperature—made it ideal for l",
+      "regional_variations": "",
+      "summary": "The dish \"Green Beans in Tomato Sauce\" is an old and beloved part of the Jewish culinary repertoire, especially among Jews from North Africa, such as the communities of Tunisia and the island of Djerba. Jewish communities in these regions have prepared simple vegetable stews with tomatoes and legumes for centuries, following the spread of tomatoes into the Mediterranean after their introduction fr"
+    },
+    "hebrew": {
+      "summary": "המנה \"שעועית ירוקה ברוטב עגבניות\" היא חלק ישן ואהוב מהרפרטואר הקולינרי היהודי, במיוחד בקרב יהודים מצפון אפריקה, כמו הקהילות של תוניסיה והאי ג'רבה. הקהילות היהודיות באזורים אלו הכינו תבשילי ירקות פשוטים עם עגבניות וקטניות במשך מאות שנים, בעקבות התפשטות העגבניות לים התיכון לאחר שהובאו מאמריקה."
+    },
+    "arabic": {
+      "summary": "\"طبق 'الفاصوليا الخضراء في صلصة الطماطم' هو جزء قديم ومحبوب من التراث الطهوي اليهودي، خاصة بين اليهود من شمال إفريقيا، مثل مجتمعات تونس وجزيرة جربة. لقد قامت المجتمعات اليهودية في هذه المناطق بإعداد يخنات الخضروات البسيطة مع الطماطم والبقوليات لعدة قرون، بعد انتشار الطماطم في منطقة البحر الأبيض المتوسط بعد إدخالها من العالم الجديد.\""
+    },
+    "spanish": {
+      "summary": "El plato \"Judías Verdes en Salsa de Tomate\" es una parte antigua y querida del repertorio culinario judío, especialmente entre los judíos del norte de África, como las comunidades de Túnez y la isla de Djerba. Las comunidades judías en estas regiones han preparado guisos sencillos de verduras con tomates y legumbres durante siglos, siguiendo la expansión de los tomates en el Mediterráneo después de su introducción."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "You can also add toasted sesame seeds for extra flavor.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "You can also add toasted sesame seeds for extra flavor."
+    },
+    "hebrew": {
+      "summary": "ניתן להוסיף גם שומשום קלוי לתוספת טעם."
+    },
+    "arabic": {
+      "summary": "يمكنك أيضًا إضافة بذور السمسم المحمصة لمزيد من النكهة."
+    },
+    "spanish": {
+      "summary": "También puedes añadir semillas de sésamo tostadas para un sabor extra."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "green_beans_in_tomato_sauce_history.md",
+    "history_md": "green_beans_in_tomato_sauce_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

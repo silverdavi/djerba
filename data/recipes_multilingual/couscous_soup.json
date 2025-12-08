@@ -1,0 +1,90 @@
+{
+  "id": "couscous_soup",
+  "image": "couscous_soup.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "50 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מרק לקוסקוס",
+    "es": "Caldo para Cuscús",
+    "ar": "مرقة كسكسي",
+    "en": "Couscous Soup"
+  },
+  "description": {
+    "he": "מרק ירקות עשיר המהווה את הלב של מנת הקוסקוס, בגרסה צמחית עם סייטן או טופו במקום עוף. השם נגזר מהמילה 'מרקה' (ציר/רוטב), והתבשיל מתאפיין בבישול איטי של ירקות עונתיים במיציהם לפני הוספת המים.",
+    "es": "Un rico estofado de verduras que es el corazón del plato de cuscús, adaptado aquí con seitán o tofu en lugar de pollo. El nombre deriva del árabe 'Marqa' (caldo), caracterizado por cocinar las verduras en sus propios jugos antes de añadir agua.",
+    "ar": "مرقة غنية بالخضروات وهي أساس طبق الكسكسي، تُحضّر هنا بنسخة نباتية باستخدام السيتان أو التوفو بدلاً من الدجاج. تعتمد الوصفة على 'التقلية' الجيدة للخضروات في الزيت والتوابل لتكتسب نكهة عميقة.",
+    "en": "A rich vegetable stew that forms the heart of the couscous dish, adapted here with seitan or tofu instead of chicken. Based on the traditional 'Marqa', the vegetables are sweated in spices to deepen the flavor before adding water."
+  },
+  "ingredients": {
+    "he": [
+      "300 גרם נתחי סייטן או טופו מוצק",
+      "1 בצל גדול, פרוס",
+      "2 קישואים",
+      "300 גרם דלעת",
+      "1 כוס גרגירי חומוס (מבושלים/קפואים)",
+      "חופן שעועית ירוקה",
+      "2 תפוחי אדמה",
+      "שמן, פפריקה מתוקה, מלח, מים רותחים"
+    ],
+    "es": [
+      "300g de seitán o tofu firme (troceado)",
+      "1 cebolla grande, en rodajas",
+      "2 calabacines",
+      "300g de calabaza",
+      "1 taza de garbanzos",
+      "Un puñado de judías verdes",
+      "2 papas",
+      "Aceite, pimentón dulce, sal, agua hirviendo"
+    ],
+    "ar": [
+      "300 غرام سيتان أو توفو (مقطع)",
+      "1 بصلة كبيرة (مقصوصة)",
+      "2 كعبات قرع (كوسا)",
+      "300 غرام قرع أحمر (كابويا)",
+      "1 كأس حمص منفخ",
+      "حفنة لوبيا خضراء",
+      "2 كعبات بطاطا",
+      "زيت، فلفل أحمر زينة، ملح، ماء سخون"
+    ],
+    "en": [
+      "300g seitan or firm tofu chunks",
+      "1 large onion, sliced",
+      "2 zucchini",
+      "300g pumpkin",
+      "1 cup chickpeas (cooked/frozen)",
+      "Handful of green beans",
+      "2 potatoes",
+      "Oil, sweet paprika, salt, boiling water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים מעט שמן עם פפריקה בסיר ומוסיפים את פרוסות הבצל.",
+      "מוסיפים את כל הירקות (למעט תפו\"א) והמלח, מכסים ומאדים על אש קטנה כחצי שעה (בישול במיצים).",
+      "מוסיפים מים רותחים ואת נתחי הסייטן/טופו.",
+      "לקראת הסוף מוסיפים את תפוחי האדמה ומבשלים עד שהם מתרככים."
+    ],
+    "es": [
+      "Calentar aceite con pimentón en una olla y añadir las rodajas de cebolla.",
+      "Agregar todas las verduras (menos las papas) y sal; tapar y cocinar al vapor a fuego lento durante 30 min.",
+      "Añadir agua hirviendo y los trozos de seitán/tofu.",
+      "Hacia el final, añadir las papas y cocinar hasta que estén tiernas."
+    ],
+    "ar": [
+      "سخن الزيت مع الفلفل الأحمر في الطنجرة وارمي شرائح البصل.",
+      "زيد الخضرة الكل (من غير البطاطا) والملح، غطي الطنجرة وخليها تتقلى (تطيب على البخار) نصف ساعة.",
+      "مرّق بالماء السخون وزيد طروف السيتان أو التوفو.",
+      "في الأخير ارمي البطاطا وخليها تطيب لين تولي طرية."
+    ],
+    "en": [
+      "Heat oil with paprika in a pot and add the onion slices.",
+      "Add all vegetables (except potatoes) and salt; cover and steam/sweat on low heat for about 30 mins.",
+      "Add boiling water and the seitan/tofu chunks.",
+      "Towards the end, add the potatoes and cook until tender."
+    ]
+  }
+}

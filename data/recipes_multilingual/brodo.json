@@ -1,0 +1,94 @@
+{
+  "id": "brodo",
+  "image": "brodo.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "ברודו",
+    "es": "Brodo",
+    "ar": "البرودو",
+    "en": "Brodo"
+  },
+  "description": {
+    "he": "ברודו הוא מרק צח ועשיר, שמקור שמו באיטלקית (\"ציר\"). במטבח הטוניסאי-יהודי הוא מוגש לרוב בשבתות וחגים כמנה מנחמת ומשביעה, עשירה בירקות שורש ותבלינים עדינים.",
+    "es": "El Brodo es un caldo reconfortante cuyo nombre proviene del italiano. En la cocina judía tunecina, se sirve tradicionalmente en Shabat y festividades, repleto de verduras de raíz y sabores suaves.",
+    "ar": "البرودو هو مرقة خفيفة وبنينة، أصل كلمتها طلياني. التوانسة اليهود يطيبوه برشا نهار السبت وفي الأعياد، ويكون معبي بالخضرة باش يدفّي القلب.",
+    "en": "Brodo is a comforting, rich broth whose name originates from Italian. In Tunisian-Jewish cuisine, it is traditionally served on Shabbat and holidays, packed with root vegetables and gentle flavors."
+  },
+  "ingredients": {
+    "he": [
+      "2 ליטר מים (או ציר ירקות)",
+      "300 גרם טופו או סייטן (חתוך לקוביות)",
+      "2 גזרים",
+      "2 קישואים",
+      "1 חתיכת דלעת",
+      "2 תפוחי אדמה",
+      "3 שיני שום",
+      "1 כף שמרי בירה (להעשרת הטעם)",
+      "2 כפות שמן זית",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "2 litros de agua (o caldo vegetal)",
+      "300g de tofu o seitán (en cubos)",
+      "2 zanahorias",
+      "2 calabacines",
+      "1 trozo de calabaza",
+      "2 patatas",
+      "3 dientes de ajo",
+      "1 cda de levadura nutricional",
+      "2 cdas de aceite de oliva",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "2 لتر ماء (ولا مرقة خضرة)",
+      "300 غرام توفو ولا سيتان (مقصوص مكعبات)",
+      "2 سفنارية (جزر)",
+      "2 كعبات قرع (كوسا)",
+      "طرف قرع أحمر",
+      "2 بطاطا",
+      "3 سنون ثوم",
+      "مغرفة خميرة غذائية (باش تبنن)",
+      "2 مغارف زيت زيتونة",
+      "ملح"
+    ],
+    "en": [
+      "2 liters water (or vegetable stock)",
+      "300g tofu or seitan (cubed)",
+      "2 carrots",
+      "2 zucchini",
+      "1 piece pumpkin",
+      "2 potatoes",
+      "3 garlic cloves",
+      "1 tbsp nutritional yeast",
+      "2 tbsp olive oil",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חותכים את כל הירקות והטופו (או הסייטן) לקוביות בינוניות.",
+      "שמים את כל המרכיבים בסיר גדול, כולל השמן, שמרי הבירה והמלח.",
+      "מביאים לרתיחה, מנמיכים את האש ומבשלים כ-30 דקות עד שהירקות רכים."
+    ],
+    "es": [
+      "Cortar todas las verduras y el tofu (o seitán) en cubos medianos.",
+      "Colocar todos los ingredientes en una olla grande, incluido el aceite, la levadura y la sal.",
+      "Llevar a ebullición, bajar el fuego y cocinar unos 30 minutos hasta que las verduras estén tiernas."
+    ],
+    "ar": [
+      "قص الخضرة الكل والتوفو (ولا السيتان) مكعبات متوسطة.",
+      "حط كل شيء في طنجرة كبيرة، مع الزيت والخميرة والملح.",
+      "خليها تغلي، وأمبعد نقص النار وخليها تطيب نص ساعة لين الخضرة تولي طرية."
+    ],
+    "en": [
+      "Cut all vegetables and tofu (or seitan) into medium cubes.",
+      "Place all ingredients in a large pot, including oil, nutritional yeast, and salt.",
+      "Bring to a boil, reduce heat, and simmer for about 30 minutes until vegetables are tender."
+    ]
+  }
+}

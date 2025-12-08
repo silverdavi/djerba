@@ -1,0 +1,163 @@
+{
+  "id": "semolina_porridge",
+  "names": {
+    "english": "Semolina Porridge",
+    "hebrew": "דייסת סולת",
+    "arabic": "عصيدة السميد",
+    "spanish": "Gachas de Sémola"
+  },
+  "metadata": {
+    "category": "Desserts & Sweets",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "semolina",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "water",
+        "amount": "4",
+        "unit": "cups"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "olive oil",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "teaspoon"
+      },
+      {
+        "name": "vanilla extract (optional)",
+        "amount": "1",
+        "unit": "teaspoon"
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "In a large pot, bring the water to a boil over medium heat."
+      },
+      {
+        "step": 2,
+        "text": "Add the salt and sugar to the boiling water, stirring until dissolved."
+      },
+      {
+        "step": 3,
+        "text": "Gradually whisk in the semolina to prevent lumps from forming."
+      },
+      {
+        "step": 4,
+        "text": "Continue to cook, stirring constantly, until the mixture thickens and begins to pull away from the sides of the pot."
+      },
+      {
+        "step": 5,
+        "text": "Remove from heat and stir in the olive oil and vanilla extract, if using."
+      },
+      {
+        "step": 6,
+        "text": "Let the porridge cool slightly before serving."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": []
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The word “semolina” comes from Italian “semolino,” a diminutive of “semola” (bran), itself derived from Latin “simila,” meaning the finest wheat flour[4][9][19]. In Hebrew, “דייסת סולת” directly means “semolina porridge,” with “דייסה” (daisa) meaning porridge or gruel, and “סולת” (solet) meaning semolina, which denotes the coarser grind of wheat flour[12]."
+    },
+    "hebrew": {
+      "summary": "המילה \"סולת\" מגיעה מאיטלקית \"semolino\", הקטנה של \"semola\" (סובין), שמקורה בלטינית \"simila\", שמשמעותה קמח חיטה משובח. בעברית, \"דייסת סולת\" פירושה הישיר הוא \"semolina porridge\", כאשר \"דייסה\" פירושה דייסה או גרואל, ו\"סולת\" פירושה סולת, המציינת את הטחינה הגסה יותר של קמח החיטה."
+    },
+    "arabic": {
+      "summary": "كلمة \"سميد\" تأتي من الإيطالية \"semolino\"، وهي تصغير لكلمة \"semola\" (النخالة)، والتي اشتُقت بدورها من اللاتينية \"simila\"، بمعنى أدق أنواع دقيق القمح. في العبرية، \"דייסת סולת\" تعني مباشرة \"عصيدة السميد\"، حيث تعني \"דייסה\" (ديسا) عصيدة أو حساء، و\"סולת\" (سوليت) تعني سميد، الذي يشير إلى طحن القمح الخشن."
+    },
+    "spanish": {
+      "summary": "La palabra \"sémola\" proviene del italiano \"semolino,\" un diminutivo de \"semola\" (salvado), que a su vez deriva del latín \"simila,\" que significa la harina de trigo más fina. En hebreo, \"דייסת סולת\" significa directamente \"gachas de sémola,\" con \"דייסה\" (daisa) que significa gachas o papilla, y \"סולת\" (solet) que significa sémola, lo que denota la molienda más gruesa de la harina de trigo."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "Semolina porridge has its origins in ancient Mediterranean and Middle Eastern civilizations, with cultivation of semolina dating to the Egyptians around 2000 BCE[1]. Roman-era cookbooks such as Apicius describe a wheat-based porridge similar to today’s recipes[6][11]. In North Africa, including Tunisia and the island of Djerba, the dish is linked to the indigenous Berber people, who made assida bi",
+      "evolution": "",
+      "cultural_significance": "Semolina porridge holds a place of comfort and sustenance, especially in Tunisian-Djerban Jewish culture, where it is traditionally served as a nourishing breakfast or dessert, frequently during Shabbat, Jewish holidays, or when a delicately digestible dish is needed for the ill or young children[2][16]. The dish’s simplicity, affordable ingredients, and warming qualities contribute to its cultura",
+      "regional_variations": "",
+      "summary": "Semolina porridge has its origins in ancient Mediterranean and Middle Eastern civilizations, with cultivation of semolina dating to the Egyptians around 2000 BCE[1]. Roman-era cookbooks such as Apicius describe a wheat-based porridge similar to today’s recipes[6][11]. In North Africa, including Tunisia and the island of Djerba, the dish is linked to the indigenous Berber people, who made assida bi"
+    },
+    "hebrew": {
+      "summary": "דייסת סולת מקורה בציוויליזציות עתיקות של הים התיכון והמזרח התיכון, עם גידול סולת המתוארך למצרים סביב 2000 לפנה\"ס. ספרי בישול מהתקופה הרומית כמו אפיקיוס מתארים דייסת חיטה הדומה למתכונים של היום. בצפון אפריקה, כולל תוניסיה והאי ג'רבה, המנה קשורה לאנשי הברברים המקומיים, שהכינו אסידה בי."
+    },
+    "arabic": {
+      "summary": "عصيدة السميد لها أصولها في الحضارات القديمة في منطقة البحر الأبيض المتوسط والشرق الأوسط، حيث يعود زراعة السميد إلى المصريين حوالي عام 2000 قبل الميلاد. كتب الطبخ من العصر الروماني مثل أبيشيوس تصف عصيدة مصنوعة من القمح مشابهة للوصفات الحالية. في شمال أفريقيا، بما في ذلك تونس وجزيرة جربة، يرتبط الطبق بالشعب الأمازيغي الأصلي، الذين صنعوا عصيدة ب"
+    },
+    "spanish": {
+      "summary": "La papilla de sémola tiene sus orígenes en las antiguas civilizaciones del Mediterráneo y Oriente Medio, con el cultivo de la sémola que se remonta a los egipcios alrededor del año 2000 a.C.[1]. Los libros de cocina de la era romana, como el de Apicio, describen una papilla a base de trigo similar a las recetas actuales[6][11]. En el norte de África, incluyendo Túnez y la isla de Djerba, el plato está vinculado a los pueblos indígenas bereberes, quienes preparaban assida bi."
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "This traditional Tunisian-Djerban Jewish dish is often enjoyed as a comforting breakfast or dessert. It can be garnished with nuts or dried fruits for added flavor and texture.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "This traditional Tunisian-Djerban Jewish dish is often enjoyed as a comforting breakfast or dessert. It can be garnished with nuts or dried fruits for added flavor and texture."
+    },
+    "hebrew": {
+      "summary": "המנה היהודית המסורתית הזו מתוניסיה-ג'רבה נהנית לעיתים קרובות כארוחת בוקר מנחמת או כקינוח. ניתן לקשט אותה באגוזים או פירות יבשים להוספת טעם ומרקם."
+    },
+    "arabic": {
+      "summary": "يُعتبر هذا الطبق التقليدي من التراث اليهودي التونسي-الجربي وجبة فطور مريحة أو حلوى. يمكن تزيينه بالمكسرات أو الفواكه المجففة لإضافة نكهة وقوام إضافي."
+    },
+    "spanish": {
+      "summary": "Este plato tradicional judío tunecino-djerbano se disfruta a menudo como un reconfortante desayuno o postre. Se puede adornar con nueces o frutas secas para añadir sabor y textura."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "semolina_porridge_history.md",
+    "history_md": "semolina_porridge_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "long_fried_onion_shakshuka",
+  "name_hebrew": "שקשוקה של בצל מטוגן ארוך",
+  "name_english": "Long Fried Onion Shakshuka",
+  "ingredients": [
+    "Onion",
+    "Tomato paste",
+    "Eggs",
+    "Sausages",
+    "Paprika",
+    "Oil",
+    "Salt",
+    "Black pepper"
+  ],
+  "instructions": [
+    "Fry the onion for a long time until it becomes golden and caramelized.",
+    "Add the tomato paste and cook for an extended period, allowing the flavors to meld.",
+    "Slice the sausages and add them to the mixture.",
+    "Season with paprika, salt, and black pepper to taste.",
+    "Crack the eggs into the pan, trying to keep some of the yolks intact."
+  ],
+  "notes": "This dish is a beloved variation of shakshuka, featuring long-fried onions that add a rich sweetness to the tomato base. It is often enjoyed as a hearty breakfast or brunch.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "19_שקשוקה_של_בצל_מטוגן_ארוך.json"
+  }
+}

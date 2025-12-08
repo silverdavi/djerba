@@ -1,0 +1,90 @@
+{
+  "id": "beshisha",
+  "image": "beshisha.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "בשישה",
+    "es": "Beshisha",
+    "ar": "البسيسة",
+    "en": "Beshisha"
+  },
+  "description": {
+    "he": "תערובת מסורתית מתוקה של דגנים קלויים ותבלינים, המוכנה בקרב יהודי ג'רבה, בפרט בראש חודש ניסן כסגולה לפרנסה (אז נוהגים לסובב מפתח בתוך התערובת). האבקה הריחנית מעורבבת עם שמן ותמרים ליצירת כדורי אנרגיה מזינים או ממרח.",
+    "es": "Una mezcla dulce tradicional de granos tostados y especias, preparada por los judíos de Djerba, especialmente en Rosh Jodesh Nisán como augurio de sustento (girando una llave dentro). El polvo aromático se mezcla con aceite y dátiles para formar bolas de energía o una pasta.",
+    "ar": "خلطة تقليدية حلوة من القمح والشعير المقلي والمرحي مع التوابل، مشهورة عند يهود جربة وخاصة في راس شهر نيسان كفال للرزق (وين يدورو المفتاح فيها). نخلطو الغبرة الفاوحة بالزيت والتمر باش نكونو كعابر ولا ناكلوها هكاكا.",
+    "en": "A traditional sweet mixture of roasted grains and spices, prepared by Djerban Jews, particularly on Rosh Chodesh Nissan as an omen for livelihood (turning a key inside the mix). The aromatic powder is mixed with oil and dates to create nutritious energy balls or a paste."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס גרגירי חיטה",
+      "1 כוס גרגירי שעורה",
+      "1 כף זרעי כוסברה",
+      "1 כף זרעי שומר",
+      "1/2 כפית כמון",
+      "1/2 כוס שמן זית",
+      "1/2 כוס תמרים קצוצים (או ממרח תמרים)",
+      "סוכר לפי הטעם"
+    ],
+    "es": [
+      "1 taza de granos de trigo",
+      "1 taza de granos de cebada",
+      "1 cda de semillas de cilantro",
+      "1 cda de semillas de hinojo",
+      "1/2 cdta de comino",
+      "1/2 taza de aceite de oliva",
+      "1/2 taza de dátiles picados",
+      "Azúcar al gusto"
+    ],
+    "ar": [
+      "1 كأس قمح (حبوب)",
+      "1 كأس شعير (حبوب)",
+      "1 مغرفة تابل (كزبر حب)",
+      "1 مغرفة بسباس (شمر)",
+      "نصف مغرفة صغيرة كمون",
+      "نصف كأس زيت زيتونة",
+      "نصف كأس تمر مقصوص (ولا عجين تمر)",
+      "سكر حسب الرغبة"
+    ],
+    "en": [
+      "1 cup wheat grains",
+      "1 cup barley grains",
+      "1 tbsp coriander seeds",
+      "1 tbsp fennel seeds",
+      "1/2 tsp cumin",
+      "1/2 cup olive oil",
+      "1/2 cup chopped dates",
+      "Sugar to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "קולים את גרגירי החיטה, השעורה והתבלינים במחבת יבשה עד להזהבה ופיזור ריח.",
+      "טוחנים את כל המרכיבים הקלויים לאבקה דקה ואחידה.",
+      "מערבבים את האבקה עם שמן הזית, התמרים והסוכר.",
+      "יוצרים כדורים קטנים או מגישים כעיסה בקערה."
+    ],
+    "es": [
+      "Tostar los granos de trigo, cebada y las especias en una sartén seca hasta que estén dorados y aromáticos.",
+      "Moler todos los ingredientes tostados hasta obtener un polvo fino.",
+      "Mezclar el polvo con el aceite de oliva, los dátiles y el azúcar.",
+      "Formar pequeñas bolas o servir como pasta en un tazón."
+    ],
+    "ar": [
+      "عرّج (قلّي) القمح والشعير والتوابل في طاجين شايح لين يحمارو وتطلع ريحتهم.",
+      "ارحي كل شي مليح لين يولي غبرة رطبة (بسيسة).",
+      "خلّط الغبرة بزيت الزيتونة والتمر والسكر.",
+      "كعبّرهم كعابر صغار ولا حطهم في صحفة وكول بالشفاء."
+    ],
+    "en": [
+      "Toast the wheat, barley, and spices in a dry pan until golden and aromatic.",
+      "Grind all toasted ingredients into a fine, uniform powder.",
+      "Mix the powder with olive oil, dates, and sugar.",
+      "Form into small balls or serve as a paste in a bowl."
+    ]
+  }
+}

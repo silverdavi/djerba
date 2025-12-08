@@ -1,0 +1,21 @@
+{
+  "id": "vegetable_omelette",
+  "name_hebrew": "נעז'ה \\- חביתת ירק",
+  "name_english": "Vegetable Omelette",
+  "ingredients": [
+    "Eggs",
+    "Green vegetables: green onions, dill, cilantro, and parsley"
+  ],
+  "instructions": [
+    "Crack the eggs into a bowl.",
+    "Add chopped green onions (after washing, of course).",
+    "Incorporate a small amount of chopped parsley, chopped dill, and chopped cilantro, and mix well with the eggs.",
+    "Heat a skillet over low heat and pour in the mixture. Cook until the bottom is set, then carefully flip with a spatula and cook the other side until firm."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, perfect for a light meal or breakfast.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "29_נעזה_-_חביתת_ירק.json"
+  }
+}

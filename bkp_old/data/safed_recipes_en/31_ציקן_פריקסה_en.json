@@ -1,0 +1,26 @@
+{
+  "id": "chicken_fricassé",
+  "name_hebrew": "צ׳יקן פריקסה",
+  "name_english": "Chicken Fricassé",
+  "ingredients": [
+    "Chicken pieces",
+    "1 carrot",
+    "1 onion",
+    "A little flour",
+    "Water"
+  ],
+  "instructions": [
+    "Heat some oil in a pot.",
+    "Add the chicken pieces and sauté for about 10 minutes.",
+    "Add the diced carrot and onion.",
+    "Season with salt and pepper.",
+    "Stir and sauté again.",
+    "Add water, and when it reaches a boil, add the dumplings."
+  ],
+  "notes": "To prepare the dumplings: Mix water, flour, and salt to create a soft batter. Use a spoon to drop the batter into the boiling water. Enjoy your meal!",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "31_ציקן_פריקסה.json"
+  }
+}

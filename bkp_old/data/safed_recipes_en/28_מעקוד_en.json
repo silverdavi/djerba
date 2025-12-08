@@ -1,0 +1,29 @@
+{
+  "id": "maqoud",
+  "name_hebrew": "מעקוד",
+  "name_english": "Maqoud",
+  "ingredients": [
+    "Potatoes",
+    "Eggs",
+    "Parsley",
+    "Peas and carrots (cooked)",
+    "Spices",
+    "Flour"
+  ],
+  "instructions": [
+    "Boil the potatoes until tender.",
+    "Mash the potatoes.",
+    "Add eggs and mix well.",
+    "Incorporate a tablespoon of flour, spices, and chopped parsley. Optionally, add cooked peas and carrots.",
+    "Heat a deep skillet with oil.",
+    "Pour the mixture into the skillet.",
+    "Cook on low heat until it sets.",
+    "Carefully flip the maqoud onto a plate, then return it to the skillet to cook the other side on low heat until it is fully set."
+  ],
+  "notes": "Maqoud is a traditional dish from the Tunisian-Djerban Jewish community, often enjoyed as a savory treat. It can be served as a main dish or a side.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "28_מעקוד.json"
+  }
+}

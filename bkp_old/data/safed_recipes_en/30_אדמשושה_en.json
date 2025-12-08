@@ -1,0 +1,31 @@
+{
+  "id": "admeshushah",
+  "name_hebrew": "אדמשושה",
+  "name_english": "Admeshushah",
+  "ingredients": [
+    "Potatoes",
+    "Onion",
+    "Tomato",
+    "Hot pepper",
+    "Eggs",
+    "Water",
+    "Spices"
+  ],
+  "instructions": [
+    "Start by sautéing the onion until it becomes translucent.",
+    "Add sweet paprika to the sautéed onion.",
+    "Incorporate a small amount of chopped tomato and a very small hot pepper.",
+    "Season with a pinch of salt.",
+    "Sauté for a short while until the ingredients are well combined.",
+    "Add water and bring to a boil.",
+    "Once boiling, crack whole eggs into the broth.",
+    "Cook for about 10 minutes.",
+    "Optionally, you can add pieces of potatoes for added texture."
+  ],
+  "notes": "This dish is a traditional Tunisian-Djerban Jewish recipe, often enjoyed as a comforting meal. The combination of spices and the addition of eggs create a rich and flavorful broth.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "30_אדמשושה.json"
+  }
+}

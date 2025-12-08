@@ -1,0 +1,157 @@
+{
+  "id": "brodo",
+  "names": {
+    "english": "Brodo",
+    "hebrew": "ברודו",
+    "arabic": "بروتو",
+    "spanish": "Brodo"
+  },
+  "metadata": {
+    "category": "Soup",
+    "serves": "4-6 people",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "difficulty": "Medium"
+  },
+  "ingredients": {
+    "english": [
+      {
+        "name": "Water",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Chicken",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Vegetables: pumpkin, zucchini, carrot, potato, garlic",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "name": "Agua",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Pollo",
+        "amount": "",
+        "unit": ""
+      },
+      {
+        "name": "Verduras: calabaza, calabacín, zanahoria, papa, ajo",
+        "amount": "",
+        "unit": ""
+      }
+    ]
+  },
+  "instructions": {
+    "english": [
+      {
+        "step": 1,
+        "text": "Place all the ingredients in a pot and add salt."
+      },
+      {
+        "step": 2,
+        "text": "Cook and bring to a boil, then reduce the heat and simmer for about half an hour."
+      }
+    ],
+    "hebrew": [],
+    "arabic": [],
+    "spanish": [
+      {
+        "step": 1,
+        "text": "Coloca todos los ingredientes en una olla y añade sal."
+      },
+      {
+        "step": 2,
+        "text": "Cocina y lleva a ebullición, luego reduce el fuego y deja hervir a fuego lento durante aproximadamente media hora."
+      }
+    ]
+  },
+  "etymology": {
+    "english": {
+      "name_meaning": "",
+      "linguistic_roots": "",
+      "historical_reference": "",
+      "summary": "The word \"brodo\" comes from the Late Latin \"brodium,\" linked to the Proto-Germanic \"*bruþą*\" (meaning \"broth\"), and is related to the English \"broth\" and French \"breu\"[5][2]. In its original sense, it directly means \"broth\" or \"stock,\" referring to the clear, flavorful liquid extracted by simmering meat, vegetables, and spices[14][17]."
+    },
+    "hebrew": {
+      "summary": "המילה \"brodo\" מגיעה מהלטינית המאוחרת \"brodium,\" הקשורה לפרוטו-גרמנית \"*bruþą*\" (שפירושה \"מרק\"), והיא קשורה לאנגלית \"broth\" ולצרפתית \"breu\". במשמעותה המקורית, היא מתייחסת ישירות ל\"מרק\" או \"ציר,\" המתארים את הנוזל הצלול והטעים המופק על ידי בישול איטי של בשר, ירקות ותבלינים."
+    },
+    "arabic": {
+      "summary": "كلمة \"brodo\" تأتي من اللاتينية المتأخرة \"brodium\"، المرتبطة بالبروتو-جرمانية \"*bruþą*\" (بمعنى \"مرق\")، وهي مرتبطة بالكلمة الإنجليزية \"broth\" والفرنسية \"breu\". في معناها الأصلي، تعني مباشرة \"مرق\" أو \"مخزون\"، وتشير إلى السائل الصافي والنكهة المستخرجة من غليان اللحم والخضروات والتوابل."
+    },
+    "spanish": {
+      "summary": "La palabra \"brodo\" proviene del latín tardío \"brodium,\" vinculado al protogermánico \"*bruþą*\" (que significa \"caldo\"), y está relacionado con el inglés \"broth\" y el francés \"breu\". En su sentido original, significa directamente \"caldo\" o \"fondo,\" refiriéndose al líquido claro y sabroso extraído al hervir a fuego lento carne, verduras y especias."
+    }
+  },
+  "history": {
+    "english": {
+      "origins": "The term \"Brodo\" is Italian for \"broth,\" and it originated from the Latin \"brodium,\" derived from West Germanic roots signifying boiling or cooking in liquid[5][2][14]. While brodo is strongly rooted in Italian cookery, the concept of a nourishing meat or chicken broth is found across many Jewish communities, including those in Tunisia and Djerba. For Tunisian and Djerban Jews, these broths likely",
+      "evolution": "",
+      "cultural_significance": "Brodo holds an important role in Tunisian-Djerban Jewish households, particularly on Sabbaths and major holidays. Broth-based soups are traditional starters at Shabbat and festival meals, valued for their warmth, restorative qualities, and ability to \"break the fast\" gently or accompany celebratory occasions[16][20]. The practice reflects a broader Jewish custom—the chicken or meat broth as a symb",
+      "regional_variations": "",
+      "summary": "The term \"Brodo\" is Italian for \"broth,\" and it originated from the Latin \"brodium,\" derived from West Germanic roots signifying boiling or cooking in liquid[5][2][14]. While brodo is strongly rooted in Italian cookery, the concept of a nourishing meat or chicken broth is found across many Jewish communities, including those in Tunisia and Djerba. For Tunisian and Djerban Jews, these broths likely"
+    },
+    "hebrew": {
+      "summary": "המונח \"Brodo\" הוא איטלקי ל\"מרק\", והוא נובע מהמילה הלטינית \"brodium\", שמקורה בשורשים גרמניים מערביים המסמלים רתיחה או בישול בנוזל. בעוד ש-brodo מושרש עמוק בבישול האיטלקי, הרעיון של מרק בשר או עוף מזין נמצא בקהילות יהודיות רבות, כולל אלו בתוניסיה ובג'רבה. עבור יהודי תוניסיה וג'רבה, המרקים הללו כנראה"
+    },
+    "arabic": {
+      "summary": "مصطلح \"Brodo\" هو إيطالي لـ \"المرق\"، وقد نشأ من اللاتينية \"brodium\"، المشتقة من جذور جرمانية غربية تشير إلى الغليان أو الطهي في السائل. بينما يرتبط البردو بقوة بالمطبخ الإيطالي، فإن مفهوم المرق المغذي من اللحم أو الدجاج يوجد في العديد من المجتمعات اليهودية، بما في ذلك تلك في تونس وجربة. بالنسبة لليهود التونسيين والجربيين، من المحتمل أن تكون هذه المرقات"
+    },
+    "spanish": {
+      "summary": "El término \"Brodo\" es italiano para \"caldo,\" y se originó del latín \"brodium,\" derivado de raíces germánicas occidentales que significan hervir o cocinar en líquido. Aunque el brodo está firmemente arraigado en la cocina italiana, el concepto de un caldo nutritivo de carne o pollo se encuentra en muchas comunidades judías, incluidas las de Túnez y Djerba. Para los judíos tunecinos y djerbanos, estos caldos probablemente"
+    }
+  },
+  "djerban_tradition": {
+    "english": {
+      "role_in_family": "Brodo is a traditional Tunisian-Djerban Jewish dish, often enjoyed as a comforting soup. It can be served as a starter or a main dish, depending on preference.",
+      "occasions": "Traditional Tunisian-Djerban Jewish cuisine",
+      "preparation_rituals": "[To be expanded from research]",
+      "cultural_meaning": "[To be expanded from research]",
+      "summary": "Brodo is a traditional Tunisian-Djerban Jewish dish, often enjoyed as a comforting soup. It can be served as a starter or a main dish, depending on preference."
+    },
+    "hebrew": {
+      "summary": "ברודו הוא מאכל מסורתי של יהודי תוניסיה-ג'רבה, שנהנים ממנו לעיתים קרובות כמרק מנחם. ניתן להגיש אותו כמנה ראשונה או כמנה עיקרית, בהתאם להעדפה."
+    },
+    "arabic": {
+      "summary": "بروتو هو طبق تقليدي يهودي تونسي-جربي، يُستمتع به غالبًا كحساء مريح. يمكن تقديمه كمقبلات أو كطبق رئيسي، حسب التفضيل."
+    },
+    "spanish": {
+      "summary": "Brodo es un plato tradicional judío tunecino-djerban, a menudo disfrutado como una sopa reconfortante. Se puede servir como entrante o como plato principal, dependiendo de la preferencia."
+    }
+  },
+  "cooking_notes": {
+    "english": {
+      "tips": [
+        "Traditional preparation methods recommended",
+        "Adjust spicing to taste preference",
+        "Source: Safed family tradition"
+      ],
+      "variations": [
+        "[To be documented]"
+      ],
+      "substitutions": [
+        "[To be documented]"
+      ]
+    },
+    "hebrew": {},
+    "arabic": {},
+    "spanish": {}
+  },
+  "research_references": {
+    "etymology_md": "brodo_history.md",
+    "history_md": "brodo_history.md",
+    "sources": [
+      "Safed family oral tradition",
+      "Perplexity Pro Search research"
+    ]
+  }
+}

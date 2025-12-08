@@ -1,0 +1,29 @@
+{
+  "id": "brik",
+  "name_hebrew": "בריקות",
+  "name_english": "Brik",
+  "ingredients": [
+    "Brik leaves",
+    "Mashed potatoes or eggs",
+    "1 tablespoon salt",
+    "1 kilogram flour",
+    "1 tablespoon yeast",
+    "1/2 cup sugar",
+    "3 cups water",
+    "1/2 cup oil"
+  ],
+  "instructions": [
+    "Take a brik leaf and place it in a hot oil pan. Add an egg and then fold it over. Flip it to cook the other side.",
+    "*If using mashed potatoes, fill the brik leaf before frying and cook on both sides.",
+    "Knead the ingredients to form a soft and slightly sticky dough.",
+    "Let the dough rise for about two hours.",
+    "Shape the dough, brush with egg and sprinkle with sesame seeds, and let it rise for another 20 minutes.",
+    "Bake in a preheated oven at high temperature for 10 minutes, then lower the temperature and bake for an additional 20 minutes."
+  ],
+  "notes": "Brik is a traditional dish often enjoyed during festive occasions, particularly in Tunisian-Jewish cuisine. It can be filled with various ingredients, making it versatile and delicious.",
+  "metadata": {
+    "source": "safed_some.md",
+    "translated_from_hebrew": true,
+    "original_json": "14_בריקות.json"
+  }
+}
