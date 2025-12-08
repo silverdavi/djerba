@@ -15,7 +15,7 @@ This guide explains how to handle ambiguous ingredients and recipe names in the 
 
 In the original Hebrew recipes, some ingredients are written without sufficient context to determine exactly which type they are:
 
-**Example:** A recipe mentions "פפר" (pepper)
+**Example:** A recipe mentions "פלפל" (pepper)
 - Could be: **bell pepper** (sweet, colorful chunks) - adds color/texture
 - Could be: **hot green pepper** (spicy, thin long pepper) - adds heat
 - Could be: **black pepper** (ground spice, tiny specks) - adds subtle spice

@@ -151,14 +151,48 @@ Ingredient: {ingredient}
 {("With: " + ", ".join(other_ingredients[:2])) if other_ingredients else ""}
 Respond with JSON: {{"clarified": "type", "alternatives": ["alt1"], "confidence": 0.7, "reasoning": "..."}}"""
         
-        # For "pepper", use direct response
-        if ingredient.lower() == "pepper":
+        # For "pepper" variants, use direct response
+        ing_lower = ingredient.lower().strip()
+        
+        if ing_lower == "pepper":
             return {
                 'ingredient': ingredient,
                 'clarified': 'hot green pepper',
                 'alternatives': ['bell pepper', 'black pepper', 'hot red pepper'],
                 'confidence': 0.75,
                 'reasoning': 'In Tunisian cuisine, "pepper" most commonly refers to long green hot peppers'
+            }
+        elif "black pepper" in ing_lower:
+            return {
+                'ingredient': ingredient,
+                'clarified': 'black pepper',
+                'alternatives': ['ground black pepper', 'whole black pepper'],
+                'confidence': 0.85,
+                'reasoning': 'Explicitly stated as black pepper - ground spice for seasoning'
+            }
+        elif "white pepper" in ing_lower:
+            return {
+                'ingredient': ingredient,
+                'clarified': 'white pepper',
+                'alternatives': ['ground white pepper'],
+                'confidence': 0.90,
+                'reasoning': 'Explicitly stated as white pepper - subtle spice'
+            }
+        elif "bell pepper" in ing_lower or "sweet pepper" in ing_lower:
+            return {
+                'ingredient': ingredient,
+                'clarified': 'bell pepper',
+                'alternatives': ['red bell pepper', 'green bell pepper', 'yellow bell pepper'],
+                'confidence': 0.90,
+                'reasoning': 'Explicitly stated as bell or sweet pepper - colorful chunks'
+            }
+        elif any(x in ing_lower for x in ["hot pepper", "chili", "jalapeño", "jalapeno", "serrano"]):
+            return {
+                'ingredient': ingredient,
+                'clarified': 'hot chili pepper',
+                'alternatives': ['hot green pepper', 'hot red pepper', 'jalapeño', 'serrano'],
+                'confidence': 0.85,
+                'reasoning': 'Hot pepper/chili explicitly mentioned'
             }
         
         # For other ingredients, try API
