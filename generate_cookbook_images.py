@@ -48,67 +48,189 @@ class AppearanceAnalyzer:
     
     # Color-influencing ingredients with their visual effects
     # Format: (color_description, intensity_multiplier)
+    # NOTE: Longer/more specific keys should be checked first (sorted by length)
     COLOR_INGREDIENTS = {
-        # Red/Orange spectrum
+        # Red/Orange spectrum - Spices
         'paprika': ('warm orange-red', 1.5),
         'sweet paprika': ('warm orange-red', 1.5),
         'hot paprika': ('deep rusty red', 1.8),
+        'smoked paprika': ('smoky brick red', 1.6),
+        'cayenne pepper': ('reddish heat specks', 0.8),
+        'cayenne': ('reddish heat specks', 0.8),
+        'chili flakes': ('red pepper flakes', 0.7),
+        'red pepper flakes': ('red pepper flakes', 0.7),
+        
+        # Red/Orange spectrum - Tomatoes
         'tomato': ('tomato red', 1.0),
         'tomatoes': ('tomato red', 1.0),
+        'cherry tomatoes': ('bright red cherry tomatoes', 1.2),
         'tomato paste': ('deep concentrated red', 2.5),
         'tomato sauce': ('rich red', 1.8),
+        'sun-dried tomatoes': ('deep burgundy red', 1.4),
+        
+        # Red/Orange spectrum - Hot peppers/chilies
         'harissa': ('fiery deep red', 2.0),
-        'red pepper': ('bright red', 1.2),
-        'bell pepper': ('vibrant red/yellow/green', 0.8),
-        'cayenne': ('reddish-brown heat', 1.0),
+        'hot pepper': ('bright red/green chili', 1.0),
+        'chili pepper': ('bright red/green chili', 1.0),
+        'chili': ('bright red/green chili', 0.8),
+        'jalapeño': ('bright green chili', 0.9),
+        'jalapeno': ('bright green chili', 0.9),
+        'serrano': ('bright green chili', 0.9),
+        'red chili': ('bright red chili', 1.2),
+        'green chili': ('bright green chili', 1.0),
+        'dried chili': ('dark red dried chili', 0.8),
+        'long pepper': ('long thin chili', 0.9),
+        'hot green pepper': ('long bright green chili', 1.0),
+        'hot red pepper': ('long bright red chili', 1.2),
+        
+        # Bell peppers (sweet peppers) - distinct from hot peppers
+        'bell pepper': ('chunky sweet pepper pieces', 0.8),
+        'red bell pepper': ('vibrant red bell pepper chunks', 1.2),
+        'green bell pepper': ('bright green bell pepper chunks', 1.0),
+        'yellow bell pepper': ('sunny yellow bell pepper chunks', 1.0),
+        'orange bell pepper': ('orange bell pepper chunks', 1.0),
+        'sweet pepper': ('colorful sweet pepper chunks', 0.9),
+        'roasted pepper': ('charred roasted pepper strips', 1.0),
+        'roasted red pepper': ('charred red pepper strips', 1.2),
         
         # Yellow/Golden spectrum
         'turmeric': ('golden yellow', 2.0),
         'saffron': ('luxurious golden-orange', 2.5),
         'cumin': ('earthy tan-brown', 0.8),
+        'ground cumin': ('earthy tan-brown', 0.8),
         'curry': ('warm golden-yellow', 1.8),
+        'curry powder': ('warm golden-yellow', 1.8),
         'egg': ('golden yellow', 1.0),
         'eggs': ('golden yellow', 1.0),
+        'egg yolk': ('rich golden yellow', 1.3),
         'olive oil': ('golden sheen', 0.5),
+        'lemon': ('bright yellow citrus', 0.6),
+        'lemon juice': ('no visible color', 0.1),
         
-        # Green spectrum
-        'parsley': ('fresh green flecks', 0.6),
-        'cilantro': ('bright green herbs', 0.6),
+        # Green spectrum - Herbs
+        'parsley': ('fresh green herb flecks', 0.6),
+        'fresh parsley': ('bright green herb flecks', 0.7),
+        'cilantro': ('bright green herb leaves', 0.6),
+        'fresh cilantro': ('bright green herb leaves', 0.7),
         'coriander': ('fresh green', 0.5),
-        'mint': ('bright green accents', 0.5),
-        'spinach': ('deep green', 1.5),
-        'zucchini': ('pale green', 0.8),
-        'peas': ('bright green dots', 0.7),
-        'green beans': ('vibrant green', 1.0),
+        'fresh coriander': ('bright green leaves', 0.6),
+        'mint': ('bright green mint leaves', 0.5),
+        'fresh mint': ('bright green mint leaves', 0.6),
+        'basil': ('deep green basil leaves', 0.6),
+        'dill': ('feathery green dill', 0.5),
         
-        # Brown spectrum
+        # Green spectrum - Vegetables
+        'spinach': ('deep green leaves', 1.5),
+        'zucchini': ('pale green with white flesh', 0.8),
+        'peas': ('bright green dots', 0.7),
+        'green beans': ('vibrant green beans', 1.0),
+        'green onion': ('green and white scallion', 0.6),
+        'scallion': ('green and white scallion', 0.6),
+        'celery': ('pale green celery', 0.5),
+        'cucumber': ('green with pale interior', 0.6),
+        'asparagus': ('green asparagus spears', 0.8),
+        'broccoli': ('dark green florets', 1.0),
+        'cabbage': ('pale green leaves', 0.6),
+        'artichoke': ('pale green artichoke', 0.7),
+        
+        # Brown spectrum - Spices
         'cinnamon': ('warm brown tones', 0.6),
-        'meat': ('rich brown', 1.2),
-        'beef': ('deep brown', 1.3),
-        'lamb': ('rich reddish-brown', 1.2),
-        'chicken': ('golden-brown', 1.0),
+        'ground cinnamon': ('warm brown powder', 0.6),
+        'cinnamon stick': ('brown cinnamon sticks', 0.5),
+        'allspice': ('brown spice specks', 0.4),
+        'nutmeg': ('brown specks', 0.3),
+        'cardamom': ('brown-green pods', 0.4),
+        'cloves': ('dark brown cloves', 0.4),
+        'caraway': ('brown caraway seeds', 0.4),
+        
+        # Brown spectrum - Proteins (VEGAN COOKBOOK - all proteins are plant-based)
+        'meat': ('rich brown seitan pieces', 1.2),
+        'beef': ('deep brown seitan', 1.3),
+        'ground beef': ('crumbly brown TVP/seitan crumbles', 1.2),
+        'lamb': ('rich brown seitan pieces', 1.2),
+        'ground lamb': ('crumbly brown TVP crumbles', 1.2),
+        'chicken': ('golden-brown tofu or seitan pieces', 1.0),
+        'chicken breast': ('sliced white tofu or seitan', 0.9),
+        'chicken thigh': ('golden-brown seitan pieces', 1.1),
+        'fish': ('white tofu or plant-based fish', 0.8),
+        'salmon': ('orange-pink plant-based fish', 0.9),
+        'tuna': ('plant-based tuna', 0.7),
+        
+        # Vegan proteins (explicit)
+        'tofu': ('white/golden tofu cubes', 0.8),
+        'firm tofu': ('golden-brown seared tofu', 0.9),
+        'seitan': ('brown chewy seitan pieces', 1.1),
+        'tempeh': ('brown tempeh slices', 1.0),
+        'tvp': ('brown TVP crumbles', 0.9),
+        'textured vegetable protein': ('brown TVP crumbles', 0.9),
+        'plant-based': ('plant-based protein', 0.8),
+        'vegan meat': ('brown plant-based meat', 1.0),
+        'beyond': ('plant-based meat crumbles', 1.0),
+        'impossible': ('plant-based meat', 1.0),
+        
+        # Brown spectrum - Aromatics
         'onion': ('caramelized golden-brown', 0.8),
         'onions': ('caramelized golden-brown', 0.8),
-        'fried onion': ('deep golden-brown', 1.2),
+        'fried onion': ('deep golden-brown crispy onion', 1.2),
+        'caramelized onion': ('dark golden caramelized onion', 1.3),
+        'shallot': ('golden-brown shallot', 0.7),
+        'garlic': ('golden garlic bits', 0.5),
+        'roasted garlic': ('golden roasted garlic', 0.6),
         
         # White/Cream spectrum
         'cream': ('creamy white', 0.8),
+        'heavy cream': ('rich creamy white', 0.9),
         'milk': ('milky white', 0.6),
         'yogurt': ('creamy white', 0.7),
-        'tahini': ('beige-cream', 0.8),
+        'tahini': ('beige-cream tahini', 0.8),
         'semolina': ('pale golden', 0.5),
         'couscous': ('pale golden grains', 0.6),
         'mhamsa': ('toasted golden pearls', 0.7),
-        'rice': ('white/pale', 0.4),
-        'potato': ('creamy pale', 0.5),
-        'potatoes': ('creamy pale', 0.5),
-        'chickpeas': ('beige-tan', 0.6),
+        'rice': ('white/pale rice', 0.4),
+        'white rice': ('white rice grains', 0.4),
+        'basmati': ('long white rice grains', 0.4),
+        'potato': ('creamy pale potato', 0.5),
+        'potatoes': ('creamy pale potato', 0.5),
+        'mashed potato': ('creamy white mash', 0.6),
+        'chickpeas': ('beige-tan chickpeas', 0.6),
+        'white beans': ('creamy white beans', 0.5),
+        'cannellini': ('creamy white beans', 0.5),
+        'cauliflower': ('white cauliflower florets', 0.5),
+        'tofu': ('white tofu cubes', 0.5),
+        'feta': ('white crumbly cheese', 0.6),
+        'mozzarella': ('white melted cheese', 0.6),
         
-        # Dark spectrum
-        'black pepper': ('dark specks', 0.3),
-        'olives': ('dark purple-black', 0.7),
-        'raisins': ('dark brown accents', 0.5),
-        'dates': ('dark caramel brown', 0.6),
+        # Dark spectrum - Spices
+        'black pepper': ('tiny dark specks', 0.3),
+        'ground black pepper': ('tiny dark specks', 0.3),
+        'whole black pepper': ('black peppercorns', 0.3),
+        'white pepper': ('no visible color', 0.1),
+        
+        # Dark spectrum - Other
+        'olives': ('dark purple-black olives', 0.7),
+        'black olives': ('black olives', 0.8),
+        'kalamata': ('dark purple kalamata olives', 0.8),
+        'green olives': ('green olives', 0.7),
+        'raisins': ('dark brown raisins', 0.5),
+        'dates': ('dark caramel brown dates', 0.6),
+        'prunes': ('dark purple prunes', 0.5),
+        'soy sauce': ('dark brown sauce', 0.6),
+        'balsamic': ('dark brown glaze', 0.5),
+        
+        # Orange/Root vegetables
+        'carrot': ('bright orange carrot', 1.0),
+        'carrots': ('bright orange carrots', 1.0),
+        'sweet potato': ('orange sweet potato', 1.0),
+        'butternut squash': ('orange squash', 0.9),
+        'pumpkin': ('orange pumpkin', 1.0),
+        
+        # Purple/Red vegetables
+        'eggplant': ('dark purple eggplant', 0.8),
+        'aubergine': ('dark purple eggplant', 0.8),
+        'red cabbage': ('purple-red cabbage', 0.9),
+        'beet': ('deep magenta beet', 1.5),
+        'beetroot': ('deep magenta beet', 1.5),
+        'red onion': ('purple-red onion rings', 0.8),
     }
     
     # Liquid bases that affect overall dish appearance
@@ -397,8 +519,13 @@ class CookbookImageGenerator:
         """
         client = self._get_client()
         
-        # Analyze ingredients for accurate appearance
-        appearance_desc = ""
+        # Clean description - remove references to other dishes that might confuse
+        clean_desc = self._clean_description(description)
+        
+        # Build ingredient requirements
+        ingredient_section = ""
+        excluded_section = ""
+        
         if ingredients:
             analysis = AppearanceAnalyzer.analyze_ingredients(ingredients)
             color_desc = analysis['color_description']
@@ -406,27 +533,56 @@ class CookbookImageGenerator:
                 ingredients, cooking_method
             )
             
-            appearance_desc = f"""
-CRITICAL COLOR AND APPEARANCE REQUIREMENTS (based on actual ingredients):
-- The dish MUST have {color_desc} coloring
-- Texture should show {texture_desc}
-- These colors come from the actual spices and ingredients used:
-  {', '.join(ingredients[:8])}
-  
-Do NOT make the dish look generic. Match the specific color profile above."""
+            # Identify main components for explicit inclusion
+            main_components = self._identify_main_components(ingredients)
+            
+            # Identify what should NOT appear (common confusions)
+            excluded_items = self._get_exclusions(ingredients)
+            
+            ingredient_section = f"""
+=== EXACT INGREDIENTS (ONLY show these) ===
+The dish contains ONLY these ingredients:
+{chr(10).join(f'• {ing}' for ing in ingredients)}
+
+Main visible components: {', '.join(main_components)}
+
+=== COLOR REQUIREMENTS ===
+Based on the spices and liquids above, the dish MUST show:
+- Color: {color_desc}
+- Texture: {texture_desc}"""
+
+            if excluded_items:
+                excluded_section = f"""
+
+=== DO NOT INCLUDE (not in this recipe) ===
+{', '.join(excluded_items)}
+These are NOT part of this dish - do not add them!"""
         
         # Build the prompt
-        prompt = f"""Create a stunning photograph of {dish_name}, 
-a traditional {cultural_context} dish: {description}
-{appearance_desc}
+        prompt = f"""Create a photograph of {dish_name}, a {cultural_context} dish.
 
-Style requirements:
+*** THIS IS A 100% VEGAN COOKBOOK ***
+All proteins shown must be plant-based alternatives:
+- Any "meat" = seitan or firm tofu pieces
+- Any "chicken" = golden tofu or seitan
+- Any "fish" = plant-based fish or marinated tofu
+- Any "egg" = tofu scramble
+
+Brief description: {clean_desc}
+{ingredient_section}
+{excluded_section}
+
+=== DO NOT SHOW ANY ANIMAL PRODUCTS ===
+No real meat, chicken, fish, eggs, or dairy. All proteins are plant-based.
+
+=== PHOTOGRAPHY STYLE ===
 {self.DISH_STYLE}
 
 {additional_styling}
 
-The dish should look authentic, homemade yet beautifully presented,
-as if photographed for a high-end heritage cookbook."""
+IMPORTANT: Show ONLY the ingredients listed above. Do not add any ingredients 
+that are not in the list. The dish should look authentic and homemade.
+This is VEGAN food - no animal products whatsoever."""
 
         # Determine output path
         if output_path:
@@ -436,6 +592,221 @@ as if photographed for a high-end heritage cookbook."""
             save_path = self.output_dir / f"{safe_name}_dish.png"
         
         return self._generate_and_save(prompt, save_path)
+    
+    def _clean_description(self, description: str) -> str:
+        """Remove references to other dishes that might confuse the model."""
+        # Remove "similar to X" phrases
+        import re
+        cleaned = re.sub(r'similar to \w+', '', description, flags=re.IGNORECASE)
+        cleaned = re.sub(r'like \w+ but', 'but', cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r'resembles \w+', '', cleaned, flags=re.IGNORECASE)
+        # Clean up extra spaces
+        cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+        return cleaned
+    
+    def _identify_main_components(self, ingredients: List[str]) -> List[str]:
+        """Identify the main visible components from ingredients."""
+        main_items = []
+        
+        for ing in ingredients:
+            ing_lower = ing.lower()
+            component = self._parse_ingredient_component(ing_lower)
+            if component:
+                main_items.append(component)
+        
+        return list(set(main_items)) if main_items else ['the ingredients listed']
+    
+    def _parse_ingredient_component(self, ing_lower: str) -> Optional[str]:
+        """
+        Parse a single ingredient and return its visual description.
+        Handles ambiguous terms like 'pepper' by checking context.
+        """
+        # Check specific terms first (longer/more specific before generic)
+        # Order matters - check most specific first
+        
+        # === PEPPER disambiguation (critical!) ===
+        # Black pepper (ground spice - not visible as main component)
+        if 'black pepper' in ing_lower or 'ground pepper' in ing_lower:
+            return None  # Not a main visible component
+        if 'white pepper' in ing_lower:
+            return None  # Not visible
+        
+        # Bell peppers (sweet, chunky)
+        if 'bell pepper' in ing_lower:
+            if 'red' in ing_lower:
+                return 'red bell pepper chunks'
+            elif 'green' in ing_lower:
+                return 'green bell pepper chunks'
+            elif 'yellow' in ing_lower:
+                return 'yellow bell pepper chunks'
+            return 'colorful bell pepper chunks'
+        
+        # Hot peppers / Chilies
+        if any(x in ing_lower for x in ['hot pepper', 'chili', 'chilli', 'jalapeño', 'jalapeno', 'serrano']):
+            if 'green' in ing_lower or 'jalapeño' in ing_lower or 'jalapeno' in ing_lower:
+                return 'green hot chili peppers'
+            elif 'red' in ing_lower or 'dried' in ing_lower:
+                return 'red hot chili peppers'
+            return 'hot chili peppers (red or green)'
+        
+        # Harissa (paste, not whole pepper)
+        if 'harissa' in ing_lower:
+            return None  # It's a paste that colors the dish, not visible chunks
+        
+        # Generic "pepper" - try to determine from context
+        if 'pepper' in ing_lower and 'pepper' not in ['paprika']:
+            # Check for color hints
+            if 'red' in ing_lower and 'flakes' not in ing_lower:
+                return 'red peppers'
+            elif 'green' in ing_lower:
+                return 'green peppers'
+            elif 'sweet' in ing_lower:
+                return 'sweet pepper pieces'
+            elif 'hot' in ing_lower or 'spicy' in ing_lower:
+                return 'hot chili peppers'
+            # If just "pepper" with quantity like "1 pepper", likely a whole pepper
+            elif any(x in ing_lower for x in ['1 ', '2 ', '3 ', 'one ', 'two ']):
+                return 'whole peppers (chili or bell)'
+            # Otherwise might be black pepper to taste
+            return None
+        
+        # === Other main components ===
+        component_map = [
+            # Pasta/Grains (check specific before generic)
+            ('spaghetti', 'broken spaghetti strands'),
+            ('linguine', 'linguine pasta'),
+            ('penne', 'penne pasta'),
+            ('pasta', 'pasta'),
+            ('noodle', 'noodles'),
+            ('couscous', 'couscous grains'),
+            ('mhamsa', 'pearl couscous (mhamsa)'),
+            ('ptitim', 'pearl couscous'),
+            ('rice', 'rice grains'),
+            ('bulgur', 'bulgur wheat'),
+            ('quinoa', 'quinoa'),
+            ('bread', 'bread'),
+            
+            # Proteins - VEGAN ALTERNATIVES (this is a 100% vegan cookbook)
+            ('chicken', 'golden tofu or seitan pieces'),
+            ('lamb', 'brown seitan pieces'),
+            ('beef', 'seitan pieces'),
+            ('meat', 'seitan or tofu pieces'),
+            ('fish', 'plant-based fish or firm tofu'),
+            ('salmon', 'plant-based salmon or marinated tofu'),
+            ('tuna', 'plant-based tuna or chickpea mash'),
+            ('shrimp', 'plant-based shrimp or king oyster mushroom'),
+            ('egg', 'tofu scramble or vegan egg'),
+            
+            # Explicit vegan proteins
+            ('tofu', 'tofu cubes'),
+            ('seitan', 'seitan pieces'),
+            ('tempeh', 'tempeh slices'),
+            ('tvp', 'TVP crumbles'),
+            
+            # Vegetables
+            ('tomato', 'tomato'),
+            ('onion', 'onion'),
+            ('garlic', None),  # Usually not visible as main component
+            ('potato', 'potato pieces'),
+            ('carrot', 'carrot pieces'),
+            ('zucchini', 'zucchini'),
+            ('eggplant', 'eggplant'),
+            ('aubergine', 'eggplant'),
+            ('spinach', 'spinach leaves'),
+            ('chickpea', 'chickpeas'),
+            ('bean', 'beans'),
+            ('lentil', 'lentils'),
+            ('pea', 'peas'),
+            ('corn', 'corn kernels'),
+            ('mushroom', 'mushrooms'),
+            ('olive', 'olives'),
+            ('artichoke', 'artichoke hearts'),
+            ('cabbage', 'cabbage'),
+            ('cauliflower', 'cauliflower'),
+            ('broccoli', 'broccoli'),
+            ('squash', 'squash'),
+            ('pumpkin', 'pumpkin'),
+            ('celery', 'celery'),
+            ('leek', 'leeks'),
+            ('fennel', 'fennel'),
+            ('beet', 'beets'),
+            ('turnip', 'turnips'),
+        ]
+        
+        for keyword, display in component_map:
+            if keyword in ing_lower:
+                return display
+        
+        return None
+    
+    def _get_exclusions(self, ingredients: List[str]) -> List[str]:
+        """
+        Identify common ingredients that should NOT appear based on what IS included.
+        Prevents model from adding stereotypical ingredients.
+        
+        NOTE: This is a 100% VEGAN cookbook - always exclude real animal products.
+        """
+        exclusions = []
+        ingredients_lower = ' '.join(ingredients).lower()
+        
+        # === VEGAN COOKBOOK: Always exclude real animal products ===
+        # Even if recipe mentions "chicken" or "meat", we mean vegan alternatives
+        exclusions.extend([
+            'real meat', 'real chicken', 'real fish', 'real beef', 'real lamb',
+            'animal meat', 'animal protein', 'raw meat', 'cooked meat',
+            'chicken breast (real)', 'fish fillet (real)',
+            'dairy', 'milk', 'cream', 'butter', 'cheese', 'yogurt',
+            'real eggs', 'fried eggs', 'poached eggs', 'scrambled eggs',
+            'honey',  # Often not vegan
+        ])
+        
+        # === Check for specific pepper types to exclude others ===
+        has_bell_pepper = 'bell pepper' in ingredients_lower
+        has_hot_pepper = any(x in ingredients_lower for x in ['hot pepper', 'chili', 'jalapeño', 'jalapeno', 'serrano', 'harissa'])
+        has_black_pepper = 'black pepper' in ingredients_lower or 'ground pepper' in ingredients_lower
+        
+        # If only black pepper, exclude visible peppers
+        if has_black_pepper and not has_bell_pepper and not has_hot_pepper:
+            exclusions.extend(['bell peppers', 'chili peppers', 'hot peppers', 'jalapeños'])
+        
+        # If no peppers at all mentioned
+        if not has_bell_pepper and not has_hot_pepper and not has_black_pepper:
+            # Check for generic "pepper" that might mean black pepper
+            if 'pepper' in ingredients_lower:
+                # Likely black pepper to taste
+                exclusions.extend(['bell peppers', 'chili peppers', 'hot peppers'])
+            else:
+                exclusions.extend(['bell peppers', 'chili peppers', 'black pepper'])
+        
+        # === Common confusions to exclude ===
+        confusion_map = {
+            # If no chickpeas mentioned, exclude them (common in Mediterranean)
+            'chickpea': ['chickpeas', 'garbanzo beans'],
+            # If no couscous/rice, exclude
+            'couscous': ['couscous grains'],
+            'mhamsa': ['pearl couscous'],
+            'rice': ['rice grains'],
+            # If no beans
+            'bean': ['beans', 'white beans', 'kidney beans'],
+            # If no specific vegetables
+            'olive': ['olives'],
+            'mushroom': ['mushrooms'],
+            'corn': ['corn kernels'],
+            'pea': ['peas', 'green peas'],
+            # Common garnishes that might be added incorrectly
+            'parsley': ['parsley garnish'],
+            'cilantro': ['cilantro', 'coriander leaves'],
+            'lemon': ['lemon slices', 'lemon wedges'],
+            'lime': ['lime slices', 'lime wedges'],
+            'nut': ['pine nuts', 'almonds', 'walnuts'],
+        }
+        
+        for key, to_exclude in confusion_map.items():
+            if key not in ingredients_lower:
+                exclusions.extend(to_exclude)
+        
+        # Remove duplicates and limit
+        return list(set(exclusions))[:20]
     
     def generate_ingredients_image(
         self,
