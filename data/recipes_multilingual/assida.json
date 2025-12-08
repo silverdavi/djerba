@@ -1,0 +1,86 @@
+{
+  "id": "assida",
+  "image": "assida.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "5 min",
+    "cook_time": "5 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "דייסת סולת",
+    "es": "Papilla de Sémola",
+    "ar": "عصيدة سميد",
+    "en": "Semolina Porridge"
+  },
+  "description": {
+    "he": "ארוחת בוקר צפון-אפריקאית מנחמת וקלאסית. במקור המנה מבוססת על חלב פרה וחמאה, אך גירסה זו משחזרת את המרקם הקרמי בעזרת חלב צמחי ושמן קוקוס. השם הערבי \"עסידה\" מתייחס למרקם הסמיך הנוצר מערבוב הדגנים.",
+    "es": "Un desayuno reconfortante clásico del norte de África. Tradicionalmente hecha con leche de vaca y mantequilla, esta adaptación vegana utiliza leche vegetal y aceite de coco. El nombre árabe 'Assida' se refiere a la consistencia espesa lograda al remover.",
+    "ar": "أكلة صباحية تقليدية ومحبوبة في شمال إفريقيا. الوصفة الأصلية تُحضر بالحليب والزبدة، لكن هذه النسخة النباتية تستخدم الحليب النباتي وزيت جوز الهند للحصول على نفس القوام الكريمي. اسم 'عصيدة' مشتق من التحريك المستمر لتكثيف الخليط.",
+    "en": "A comforting North African breakfast staple. While traditionally enriched with cow's milk and butter, this vegan adaptation captures the creamy texture using plant-based milk and coconut oil. Known as 'Assida' in Arabic, referring to the thick consistency achieved by vigorous stirring."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס סולת",
+      "4 כוסות חלב סויה / שקדים / שיבולת שועל",
+      "4 כפות סוכר",
+      "קורט מלח",
+      "1 כף שמן קוקוס או מרגרינה",
+      "קינמון להגשה"
+    ],
+    "es": [
+      "1 taza de sémola de trigo",
+      "4 tazas de leche de soja / almendras / avena",
+      "4 cucharadas de azúcar",
+      "Una pizca de sal",
+      "1 cucharada de aceite de coco o margarina",
+      "Canela para servir"
+    ],
+    "ar": [
+      "1 كأس سميد",
+      "4 كيسان حليب نباتي (صوجا / لوز)",
+      "4 مغارف كبار سكر",
+      "رشة ملح",
+      "1 مغرفة كبيرة زيت جوز الهند أو مارجرين",
+      "قرفة للزينة"
+    ],
+    "en": [
+      "1 cup semolina",
+      "4 cups soy / almond / oat milk",
+      "4 tbsp sugar",
+      "Pinch of salt",
+      "1 tbsp coconut oil or vegan butter",
+      "Cinnamon for serving"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר בינוני, מחממים את החלב הצמחי עם הסוכר והמלח עד לסף רתיחה.",
+      "מוסיפים את הסולת בהדרגה תוך כדי טריפה מתמדת במטרפה למניעת גושים.",
+      "מנמיכים להבה ומבשלים תוך ערבוב 3–5 דקות עד שהדייסה מסמיכה.",
+      "מסירים מהאש, מערבבים פנימה את השמן עד להטמעה.",
+      "מגישים חם עם מעט קינמון מלמעלה."
+    ],
+    "es": [
+      "Calentar la leche vegetal con el azúcar y la sal en una olla mediana hasta que esté a punto de hervir.",
+      "Añadir la sémola gradualmente batiendo constantemente para evitar grumos.",
+      "Bajar el fuego y cocinar removiendo durante 3–5 minutos hasta que espese.",
+      "Retirar del fuego, incorporar el aceite o margarina y mezclar bien.",
+      "Servir caliente espolvoreado con canela."
+    ],
+    "ar": [
+      "سخّن الحليب النباتي مع السكر والملح في طنجرة متوسطة لين يقرب يغلي.",
+      "صب السميد بالشوية مع التحريك المستمر بالمغرفة باش ما يتكركبش (ما يعملش كعابر).",
+      "نقّص النار وطيّب مع التحريك لمدة 3-5 دقايق لين العصيدة تخثار.",
+      "نحّيها مالبوطا، زيد الزيت أو المارجرين وخلط مليح.",
+      "قدمها سخونة مع رشة قرفة من فوق."
+    ],
+    "en": [
+      "Heat the plant-based milk with sugar and salt in a medium pot until nearly boiling.",
+      "Gradually pour in the semolina while whisking constantly to prevent lumps.",
+      "Lower the heat and simmer while stirring for 3–5 minutes until thickened.",
+      "Remove from heat, stir in the coconut oil or vegan butter until melted.",
+      "Serve hot, sprinkled with cinnamon."
+    ]
+  }
+}

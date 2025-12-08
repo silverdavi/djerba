@@ -6,6 +6,11 @@ Optionally generates cookbook images using Gemini 3 Pro Image
 
 Input: Simple Hebrew recipe JSON from data/safed_recipes/
 Output: Comprehensive 4-language JSON + PNG images
+
+Features:
+- Parallel processing with configurable workers (default: 20)
+- Verbose output with immediate flushing
+- Honest vegan adaptation language (not claiming dishes are traditionally vegan)
 """
 
 import os
@@ -15,10 +20,21 @@ import time
 import re
 from pathlib import Path
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 load_dotenv()
 
 import google.generativeai as genai
+
+# Verbose output helper
+def vprint(*args, **kwargs):
+    """Print with immediate flush for real-time output."""
+    print(*args, **kwargs, flush=True)
+
+# Thread-safe counter
+_progress_lock = Lock()
+_progress_count = 0
 
 # Configure Gemini
 GEMINI_MODEL = "gemini-3-pro-preview"
@@ -85,7 +101,7 @@ def veganize_recipe(input_recipe: dict, max_retries: int = 3) -> dict:
     """Transform a Hebrew recipe to vegan version (Step 1)."""
     
     recipe_name = input_recipe.get("name_hebrew", input_recipe.get("id", "unknown"))
-    print(f"  🌱 Veganizing: {recipe_name}")
+    vprint(f"  🌱 Veganizing: {recipe_name}")
     
     prompt = VEGAN_USER_PROMPT.format(
         recipe_json=json.dumps(input_recipe, ensure_ascii=False, indent=2)
@@ -109,13 +125,12 @@ def veganize_recipe(input_recipe: dict, max_retries: int = 3) -> dict:
             # Check if response has valid content
             if not response.candidates or not response.candidates[0].content.parts:
                 if attempt < max_retries - 1:
-                    print(f"    ⚠️  Empty response, retrying ({attempt + 2}/{max_retries})...")
+                    vprint(f"    ⚠️  Empty response, retrying ({attempt + 2}/{max_retries})...")
                     time.sleep(2)
                     continue
                 else:
-                    # If all retries fail, return original recipe (already vegan enough or skip veganization)
-                    print(f"    ⚠️  Could not veganize, using original recipe")
-                    return input_recipe
+                    # NO FALLBACKS - crash if Gemini fails
+                    raise RuntimeError(f"Gemini returned empty response after {max_retries} attempts for {recipe_name}")
             
             response_text = response.text.strip()
             
@@ -125,28 +140,29 @@ def veganize_recipe(input_recipe: dict, max_retries: int = 3) -> dict:
                 response_text = re.sub(r'\n?```$', '', response_text)
             
             result = json.loads(response_text)
-            print(f"    ✅ Veganized successfully")
+            vprint(f"    ✅ Veganized successfully")
             return result
             
         except ValueError as e:
             if "finish_reason" in str(e) and attempt < max_retries - 1:
-                print(f"    ⚠️  Safety filter triggered, retrying ({attempt + 2}/{max_retries})...")
+                vprint(f"    ⚠️  Safety filter triggered, retrying ({attempt + 2}/{max_retries})...")
                 time.sleep(2)
                 continue
             elif attempt == max_retries - 1:
-                print(f"    ⚠️  Could not veganize (safety filter), using original recipe")
-                return input_recipe
+                # NO FALLBACKS - crash if safety filter blocks
+                raise RuntimeError(f"Safety filter blocked veganization after {max_retries} attempts for {recipe_name}")
             raise
         except json.JSONDecodeError as e:
             if attempt < max_retries - 1:
-                print(f"    ⚠️  JSON parse error, retrying ({attempt + 2}/{max_retries})...")
+                vprint(f"    ⚠️  JSON parse error, retrying ({attempt + 2}/{max_retries})...")
                 time.sleep(2)
                 continue
             else:
-                print(f"    ⚠️  Could not parse veganized recipe, using original")
-                return input_recipe
+                # NO FALLBACKS - crash if JSON parse fails
+                raise RuntimeError(f"JSON parse failed after {max_retries} attempts for {recipe_name}: {e}")
     
-    return input_recipe
+    # Should never reach here - all paths either return or raise
+    raise RuntimeError(f"Unexpected state in veganize_recipe for {recipe_name}")
 
 
 def get_image_generator():
@@ -184,17 +200,36 @@ def generate_recipe_images(recipe_data: dict) -> dict:
             additional_styling="Plant-based, vegan dish with no animal products visible"
         )
         results['dish'] = str(result)
-        print(f"    🖼️  Image saved: {recipe_id}.png")
+        vprint(f"    🖼️  Image saved: {recipe_id}.png")
     except Exception as e:
-        print(f"    ⚠️  Image generation failed: {e}")
+        vprint(f"    ⚠️  Image generation failed: {e}")
         results['error'] = str(e)
     
     return results
 
 # System prompt for recipe transformation
-SYSTEM_PROMPT = """You are an expert translator for a VEGAN Tunisian-Djerban Jewish cookbook. You translate recipes into 4 languages: Hebrew, Arabic (Tunisian Derja), Spanish, and English.
+SYSTEM_PROMPT = """You are an expert translator for a VEGAN North African Jewish family cookbook. You translate recipes into 4 languages: Hebrew, Arabic (Tunisian Derja / Moroccan Darija), Spanish, and English.
 
-NOTE: All recipes have already been veganized (plant-based substitutes for meat, eggs, dairy). Translate the vegan ingredients accurately.
+## FAMILY HERITAGE CONTEXT
+This cookbook preserves recipes from the Silver family:
+- **David's side**: Cohen family from Djerba, Tunisia (Tunisian-Djerban Jewish tradition)
+- **Enny's side**: Kadoch and Maloul families from Tangier, Morocco (Moroccan Jewish tradition)
+
+The recipes represent a blend of Tunisian AND Moroccan Jewish cuisines, with variations common across North African Sephardic communities.
+
+## IMPORTANT - HONEST VEGAN ADAPTATION:
+- These are TRADITIONAL recipes that have been ADAPTED to be vegan
+- In descriptions, be HONEST: "Traditionally made with meat/fish/eggs, this vegan version uses tofu/seitan/etc..."
+- NEVER claim a dish is "traditionally vegan" if it originally contained animal products
+- Examples of honest language:
+  - "Originally a fish dish, this plant-based version captures the same spicy flavors using smoked tofu..."
+  - "While traditionally made with lamb, this vegan adaptation uses seasoned seitan..."
+  - "This classic egg-based dish is reimagined here with chickpea flour..."
+
+## ETYMOLOGY & HISTORY
+- Research dish names from Arabic roots (both Tunisian and Moroccan dialects)
+- Many dish names derive from Arabic verbs: بسيسة (bsisa) = to mix, محمصة (mhamsa) = toasted, etc.
+- Include origin info: "Common across North African Jewish communities" or "Particularly associated with Djerba/Tangier"
 
 CRITICAL RULES - THIS IS FOR A PRINTED COOKBOOK WITH LIMITED SPACE:
 
@@ -340,7 +375,7 @@ def transform_recipe(input_recipe: dict) -> dict:
     """Transform a single recipe: Veganize first, then translate to 4 languages."""
     
     recipe_name = input_recipe.get("name_hebrew", input_recipe.get("id", "unknown"))
-    print(f"  Processing: {recipe_name}")
+    vprint(f"  Processing: {recipe_name}")
     
     # STEP 1: Veganize the Hebrew recipe
     vegan_recipe = veganize_recipe(input_recipe)
@@ -349,7 +384,7 @@ def transform_recipe(input_recipe: dict) -> dict:
     time.sleep(1)
     
     # STEP 2: Translate to 4 languages
-    print(f"  🌍 Translating to 4 languages...")
+    vprint(f"  🌍 Translating to 4 languages...")
     
     # Load history context if available
     history = load_history_for_recipe(recipe_name)
@@ -360,9 +395,9 @@ def transform_recipe(input_recipe: dict) -> dict:
 {history}
 ```
 """
-        print(f"    📚 Found historical research")
+        vprint(f"    📚 Found historical research")
     else:
-        print(f"    ⚠️  No historical research found - will generate from culinary knowledge")
+        vprint(f"    ⚠️  No historical research found - will generate from culinary knowledge")
     
     # Build the prompt with VEGAN recipe
     prompt = USER_PROMPT_TEMPLATE.format(
@@ -397,13 +432,60 @@ def transform_recipe(input_recipe: dict) -> dict:
         result = json.loads(response_text)
         return result
     except json.JSONDecodeError as e:
-        print(f"    ❌ JSON parse error: {e}")
-        print(f"    Response preview: {response_text[:500]}...")
+        vprint(f"    ❌ JSON parse error: {e}")
+        vprint(f"    Response preview: {response_text[:500]}...")
         raise
 
 
-def process_all_recipes(start_from: int = 0, limit: int = None, with_images: bool = False):
-    """Process all recipes in the safed_recipes directory."""
+def process_single_recipe_task(recipe_file: Path, with_images: bool, total: int) -> dict:
+    """Process a single recipe (for parallel execution)."""
+    global _progress_count
+    
+    result = {"file": recipe_file.name, "success": False, "image": False, "error": None}
+    
+    try:
+        # Load input recipe
+        with open(recipe_file, 'r', encoding='utf-8') as f:
+            input_recipe = json.load(f)
+        
+        # Transform
+        output_recipe = transform_recipe(input_recipe)
+        
+        # Generate output filename
+        recipe_id = output_recipe.get("id", recipe_file.stem)
+        output_file = OUTPUT_DIR / f"{recipe_id}.json"
+        
+        # Save JSON
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(output_recipe, f, ensure_ascii=False, indent=2)
+        
+        result["success"] = True
+        result["recipe_id"] = recipe_id
+        
+        # Generate image if requested
+        if with_images:
+            img_result = generate_recipe_images(output_recipe)
+            if 'dish' in img_result:
+                result["image"] = True
+        
+        # Update progress
+        with _progress_lock:
+            _progress_count += 1
+            vprint(f"✅ [{_progress_count}/{total}] Saved: {output_file.name}")
+            
+    except Exception as e:
+        with _progress_lock:
+            _progress_count += 1
+            vprint(f"❌ [{_progress_count}/{total}] Failed {recipe_file.name}: {e}")
+        result["error"] = str(e)
+    
+    return result
+
+
+def process_all_recipes(start_from: int = 0, limit: int = None, with_images: bool = False, workers: int = 20):
+    """Process all recipes in the safed_recipes directory with parallel execution."""
+    global _progress_count
+    _progress_count = 0
     
     # Get all recipe files sorted
     recipe_files = sorted(SAFED_RECIPES_DIR.glob("*.json"))
@@ -413,12 +495,19 @@ def process_all_recipes(start_from: int = 0, limit: int = None, with_images: boo
     else:
         recipe_files = recipe_files[start_from:]
     
-    print(f"🍳 Processing {len(recipe_files)} recipes...")
-    print(f"   Model: {GEMINI_MODEL}")
-    print(f"   Output: {OUTPUT_DIR}/")
+    total = len(recipe_files)
+    
+    vprint(f"🍳 Processing {total} recipes...")
+    vprint(f"   Model: {GEMINI_MODEL}")
+    vprint(f"   Workers: {workers} (parallel)")
+    vprint(f"   Output: {OUTPUT_DIR}/")
     if with_images:
-        print(f"   Images: {IMAGES_DIR}/")
-    print()
+        vprint(f"   Images: {IMAGES_DIR}/")
+    vprint()
+    vprint("=" * 60)
+    vprint("Starting parallel processing...")
+    vprint("=" * 60)
+    vprint()
     
     results = {
         "success": [],
@@ -426,58 +515,49 @@ def process_all_recipes(start_from: int = 0, limit: int = None, with_images: boo
         "images": []
     }
     
-    for i, recipe_file in enumerate(recipe_files, 1):
-        print(f"\n[{i}/{len(recipe_files)}] Processing: {recipe_file.name}")
+    # Process in parallel with ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        # Submit all tasks
+        future_to_file = {
+            executor.submit(process_single_recipe_task, recipe_file, with_images, total): recipe_file
+            for recipe_file in recipe_files
+        }
         
-        try:
-            # Load input recipe
-            with open(recipe_file, 'r', encoding='utf-8') as f:
-                input_recipe = json.load(f)
-            
-            # Transform
-            output_recipe = transform_recipe(input_recipe)
-            
-            # Generate output filename
-            recipe_id = output_recipe.get("id", recipe_file.stem)
-            output_file = OUTPUT_DIR / f"{recipe_id}.json"
-            
-            # Save JSON
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(output_recipe, f, ensure_ascii=False, indent=2)
-            
-            print(f"    ✅ Saved: {output_file.name}")
-            results["success"].append(recipe_file.name)
-            
-            # Generate image if requested
-            if with_images:
-                img_result = generate_recipe_images(output_recipe)
-                if 'dish' in img_result:
-                    results["images"].append(recipe_id)
-            
-            # Rate limiting - be nice to the API
-            if i < len(recipe_files):
-                time.sleep(2)
-                
-        except Exception as e:
-            print(f"    ❌ Failed: {e}")
-            results["failed"].append({
-                "file": recipe_file.name,
-                "error": str(e)
-            })
+        # Collect results as they complete
+        for future in as_completed(future_to_file):
+            recipe_file = future_to_file[future]
+            try:
+                result = future.result()
+                if result["success"]:
+                    results["success"].append(result["file"])
+                    if result.get("image"):
+                        results["images"].append(result.get("recipe_id", ""))
+                else:
+                    results["failed"].append({
+                        "file": result["file"],
+                        "error": result["error"]
+                    })
+            except Exception as e:
+                vprint(f"❌ Exception for {recipe_file.name}: {e}")
+                results["failed"].append({
+                    "file": recipe_file.name,
+                    "error": str(e)
+                })
     
     # Summary
-    print(f"\n{'='*60}")
-    print("📊 TRANSFORMATION SUMMARY")
-    print(f"{'='*60}")
-    print(f"✅ Recipes: {len(results['success'])}")
+    vprint()
+    vprint(f"{'='*60}")
+    vprint("📊 TRANSFORMATION SUMMARY")
+    vprint(f"{'='*60}")
+    vprint(f"✅ Recipes: {len(results['success'])}")
     if with_images:
-        print(f"🖼️  Images: {len(results['images'])}")
-    print(f"❌ Failed: {len(results['failed'])}")
+        vprint(f"🖼️  Images: {len(results['images'])}")
+    vprint(f"❌ Failed: {len(results['failed'])}")
     
     if results["failed"]:
-        print("\nFailed recipes:")
+        vprint("\nFailed recipes:")
         for fail in results["failed"]:
-            print(f"  - {fail['file']}: {fail['error']}")
+            vprint(f"  - {fail['file']}: {fail['error']}")
     
     return results
 
@@ -487,13 +567,13 @@ def process_single_recipe(filename: str, with_images: bool = False):
     recipe_file = SAFED_RECIPES_DIR / filename
     
     if not recipe_file.exists():
-        print(f"❌ File not found: {recipe_file}")
+        vprint(f"❌ File not found: {recipe_file}")
         return None
     
-    print(f"🍳 Processing single recipe: {filename}")
-    print(f"   Model: {GEMINI_MODEL}")
+    vprint(f"🍳 Processing single recipe: {filename}")
+    vprint(f"   Model: {GEMINI_MODEL}")
     if with_images:
-        print(f"   Images: {IMAGES_DIR}/")
+        vprint(f"   Images: {IMAGES_DIR}/")
     
     try:
         with open(recipe_file, 'r', encoding='utf-8') as f:
@@ -507,19 +587,19 @@ def process_single_recipe(filename: str, with_images: bool = False):
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output_recipe, f, ensure_ascii=False, indent=2)
         
-        print(f"\n✅ Saved: {output_file}")
+        vprint(f"\n✅ Saved: {output_file}")
         
         # Generate image if requested
         if with_images:
             generate_recipe_images(output_recipe)
         
-        print(f"\nPreview of output:")
+        vprint(f"\nPreview of output:")
         print(json.dumps(output_recipe, ensure_ascii=False, indent=2)[:2000])
         
         return output_recipe
         
     except Exception as e:
-        print(f"❌ Failed: {e}")
+        vprint(f"❌ Failed: {e}")
         import traceback
         traceback.print_exc()
         return None
@@ -534,17 +614,18 @@ if __name__ == "__main__":
     parser.add_argument("--limit", "-n", type=int, help="Process only N recipes")
     parser.add_argument("--list", "-l", action="store_true", help="List available recipes")
     parser.add_argument("--with-images", "-i", action="store_true", help="Also generate dish images")
+    parser.add_argument("--workers", "-w", type=int, default=20, help="Number of parallel workers (default: 20)")
     
     args = parser.parse_args()
     
     if args.list:
         print("Available recipes:")
         for i, f in enumerate(sorted(SAFED_RECIPES_DIR.glob("*.json"))):
-            print(f"  {i:2d}. {f.name}")
+            vprint(f"  {i:2d}. {f.name}")
         sys.exit(0)
     
     if args.single:
         process_single_recipe(args.single, with_images=args.with_images)
     else:
-        process_all_recipes(start_from=args.start, limit=args.limit, with_images=args.with_images)
+        process_all_recipes(start_from=args.start, limit=args.limit, with_images=args.with_images, workers=args.workers)
 

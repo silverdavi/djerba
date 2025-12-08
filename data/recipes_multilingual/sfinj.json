@@ -1,0 +1,90 @@
+{
+  "id": "sfinj",
+  "image": "sfinj.png",
+  "meta": {
+    "servings": "10–12",
+    "prep_time": "15 min (+2 hrs rising)",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "ספינג'",
+    "es": "Sfinj",
+    "ar": "السفنج",
+    "en": "Sfinj"
+  },
+  "description": {
+    "he": "סופגניות מגרביות אווריריות אלו הן מאכל חובה בחנוכה אצל יהודי צפון אפריקה, אך נפוצות גם כארוחת בוקר. השם נגזר מהמילה הערבית \"איספנג'\" (ספוג), המתייחסת למרקם הנקבובי והלעיס של הבצק. המתכון הוא טבעוני במקורו ומוגש באופן מסורתי חם עם טבילה נדיבה בסוכר.",
+    "es": "Estas donas magrebíes aireadas son un elemento básico durante Hanukkah para los judíos del norte de África, aunque también se disfrutan en el desayuno. El nombre deriva de la palabra árabe \"isfinj\" (esponja), refiriéndose a su textura porosa. Naturalmente veganas, se sirven tradicionalmente calientes y rebozadas en azúcar.",
+    "ar": "هذه الفطائر الهوائية هي أكلة أساسية عند يهود شمال إفريقيا في عيد الأنوار (حانوكة)، وتؤكل أيضاً في فطور الصباح. الاسم مشتق من الكلمة العربية \"إسفنج\" نظراً لقوام العجين المسامي. الوصفة نباتية بالأصل وتقدم تقليدياً وهي ساخنة مغموسة في السكر.",
+    "en": "These airy Maghrebi doughnuts are a staple for North African Jews during Hanukkah, though often enjoyed for breakfast. The name derives from the Arabic word *isfinj* (sponge), referring to the porous, chewy texture. Naturally vegan, they are traditionally served hot and dipped generously in sugar."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם קמח לבן",
+      "1 כף שמרים יבשים",
+      "1 כפית מלח",
+      "2 כוסות מים חמימים (בערך)",
+      "שמן לטיגון עמוק",
+      "סוכר להגשה"
+    ],
+    "es": [
+      "500g de harina blanca",
+      "1 cucharada de levadura seca",
+      "1 cucharadita de sal",
+      "2 tazas de agua tibia (aprox.)",
+      "Aceite para freír",
+      "Azúcar para servir"
+    ],
+    "ar": [
+      "500 غرام فارينة (دقيق)",
+      "1 مغرفة كبيرة خميرة",
+      "1 مغرفة صغيرة ملح",
+      "2 كيسان ماء دافي (تقريباً)",
+      "زيت للقلي",
+      "سكر للتقديم"
+    ],
+    "en": [
+      "500g white flour",
+      "1 tbsp dry yeast",
+      "1 tsp salt",
+      "2 cups warm water (approx.)",
+      "Oil for deep frying",
+      "Sugar for serving"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את הקמח, השמרים והמלח בקערה גדולה.",
+      "מוסיפים את המים בהדרגה ומערבבים ביד עד לקבלת בצק דביק מאוד ונוזלי (יותר מבצק לחם).",
+      "מכסים ומתפיחים במשך שעה עד שעתיים, עד שהבצק משלש את נפחו ומלא בועות.",
+      "מחממים שמן עמוק בסיר רחב.",
+      "מרטיבים את הידיים במים, לוקחים חופן מהבצק, יוצרים חור במרכז למתיחת טבעת ומכניסים בזהירות לשמן החם.",
+      "מטגנים עד להזהבה משני הצדדים וטובלים בסוכר מיד לאחר ההוצאה."
+    ],
+    "es": [
+      "Mezclar la harina, la levadura y la sal en un tazón grande.",
+      "Añadir el agua gradualmente y mezclar a mano hasta obtener una masa muy pegajosa y húmeda.",
+      "Cubrir y dejar levar durante 1-2 horas hasta que la masa triplique su volumen y tenga burbujas.",
+      "Calentar abundante aceite en una olla ancha.",
+      "Mojarse las manos, tomar un trozo de masa, estirarlo formando un agujero en el centro y colocarlo con cuidado en el aceite caliente.",
+      "Freír hasta que estén dorados por ambos lados y pasar por azúcar inmediatamente."
+    ],
+    "ar": [
+      "خلط الفارينة مع الخميرة والملح في صحفة كبيرة.",
+      "زيد الماء بشوية وخلط بيدك حتى تتحصل على عجينة تتلصق وجارية شوية (أكثر من عجينة الخبز).",
+      "غطي العجينة وخليها تخمر ساعة أو ساعتين حتى يتضاعف حجمها وتولي فيها فقاعات.",
+      "سخن الزيت مليح في مقلة غارقة أو طنجرة.",
+      "شمخ يدك بالماء، هز طرف عجين، حل ثقب في الوسط باش تولي كعكة، وحطها بحذر في الزيت السخون.",
+      "اقلي السفنج حتى يحمار من الجهتين ورش عليه السكر وهو سخون."
+    ],
+    "en": [
+      "Mix flour, yeast, and salt in a large bowl.",
+      "Gradually add water and mix by hand to create a very sticky, wet dough (looser than bread dough).",
+      "Cover and let rise for 1–2 hours until tripled in size and bubbly.",
+      "Heat deep oil in a wide pot.",
+      "Wet your hands with water, pull a piece of dough, stretch a hole in the center to form a ring, and carefully drop into hot oil.",
+      "Fry until golden brown on both sides and dip in sugar immediately."
+    ]
+  }
+}

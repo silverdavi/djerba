@@ -1,0 +1,86 @@
+{
+  "id": "nougat_peanut_cake",
+  "image": "nougat_peanut_cake.png",
+  "meta": {
+    "servings": "10-12",
+    "prep_time": "20 min",
+    "cook_time": "3 hr (freeze)",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת נוגט ובוטנים",
+    "es": "Tarta de Turrón y Cacahuete",
+    "ar": "كيكة النوقا والكاكاوية",
+    "en": "Nougat & Peanut Cake"
+  },
+  "description": {
+    "he": "עוגת שכבות עשירה ללא אפייה, המשלבת בסיס קורנפלקס קריספי וקרם חמאת בוטנים מפנק. למרות היותה מודרנית, השימוש בבוטנים (קקאוויה) מתחבר לחיבה הצפון-אפריקאית לממתקי אגוזים; הגרסה הטבעונית מחליפה את השמנת והחמאה בשמן קוקוס וקצפת צמחית.",
+    "es": "Un rico pastel en capas sin hornear, con una base crujiente de cereales y crema de cacahuete. Aunque es moderno, el uso de cacahuetes ('kakawiya') conecta con la tradición repostera norteafricana; esta versión vegana sustituye los lácteos por aceite de coco y crema vegetal.",
+    "ar": "كيكة طبقات غنية بدون فرن، بقاعدة مقرمشة من الكورن فليكس وكريمة زبدة الكاكاوية (الفول السوداني). هذه النسخة النباتية تستبدل القشطة والزبدة بزيت جوز الهند وكريمة نباتية، مع الحفاظ على طعم الكاكاوية المحبوب في الحلويات المغاربية.",
+    "en": "A decadent, no-bake layered cake featuring a crunchy cornflake base and rich peanut butter cream. While modern in style, the heavy use of peanuts ('kakawiya') connects it to North African preferences for nut-based sweets; this vegan version uses plant-based cream and coconut oil."
+  },
+  "ingredients": {
+    "he": [
+      "לבסיס: 200 גרם ממרח אגוזים טבעוני, 100 גרם חמאת בוטנים",
+      "150 גרם קורנפלקס צהוב",
+      "100 גרם שוקולד מריר, 25 גרם שמן קוקוס",
+      "לקרם: 500 מ״ל שמנת צמחית להקצפה",
+      "1 כוס חלב צמחי (סויה/שקדים)",
+      "1 חבילת אינסטנט פודינג וניל, 3 כפות חמאת בוטנים",
+      "לציפוי: 200 גרם שוקולד מריר, 250 מ״ל שמנת צמחית"
+    ],
+    "es": [
+      "Base: 200g crema de avellanas vegana, 100g mantequilla de cacahuete",
+      "150g copos de maíz (cornflakes)",
+      "100g chocolate negro, 25g aceite de coco",
+      "Crema: 500ml nata vegetal para montar",
+      "1 taza de leche vegetal (soja/almendra)",
+      "1 sobre de pudin de vainilla instantáneo, 3 cdas mantequilla de cacahuete",
+      "Cobertura: 200g chocolate negro, 250ml nata vegetal"
+    ],
+    "ar": [
+      "للقاعدة: 200غ كريمة بندق نباتية، 100غ زبدة الكاكاوية",
+      "150غ كورن فليكس (رقائق الذرة)",
+      "100غ شكلاطة سوداء، 25غ زيت جوز الهند",
+      "للكريمة: 500 مل كريمة خفق نباتية",
+      "1 كأس حليب نباتي (صويا/لوز)",
+      "1 باكيت بودينغ فانيليا جاهز، 3 ملاعق كبار زبدة كاكاوية",
+      "للتغليف: 200غ شكلاطة سوداء، 250 مل كريمة نباتية"
+    ],
+    "en": [
+      "Base: 200g vegan nut spread, 100g peanut butter",
+      "150g cornflakes",
+      "100g dark chocolate, 25g coconut oil",
+      "Cream: 500ml vegan whipping cream",
+      "1 cup plant-based milk",
+      "1 instant vanilla pudding packet, 3 tbsp peanut butter",
+      "Topping: 200g dark chocolate, 250ml vegan cream"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מפוררים את הקורנפלקס לקערה ומוסיפים את הממרחים.",
+      "ממיסים את השוקולד המריר עם שמן הקוקוס, שופכים לקערה ומערבבים היטב. משטחים בתבנית (24 ס״מ) ומקפיאים ל-10 דקות.",
+      "מקציפים את כל חומרי הקרם במיקסר, מורחים על הבסיס הקפוא ומחזירים למקפיא ל-3 שעות לפחות.",
+      "ממיסים את השוקולד והשמנת לציפוי, שופכים על העוגה הקפואה ושומרים בהקפאה."
+    ],
+    "es": [
+      "Desmenuzar los copos de maíz en un bol y añadir las cremas de untar.",
+      "Derretir el chocolate con el aceite de coco, verter en el bol y mezclar. Extender en un molde (24 cm) y congelar 10 min.",
+      "Batir los ingredientes de la crema, extender sobre la base congelada y volver a congelar al menos 3 horas.",
+      "Derretir el chocolate y la nata de la cobertura, verter sobre el pastel congelado y mantener en el congelador."
+    ],
+    "ar": [
+      "فتّت الكورن فليكس في صحفة وزيد عليه كريمة البندق وزبدة الكاكاوية.",
+      "ذوّب الشكلاطة مع زيت جوز الهند، صبّهم على الخليط وخلّط مليح. فرشهم في طبق (24 سم) وحط في الكونجيلاتور 10 دقايق.",
+      "ركّض (اخفق) مكونات الكريمة بالخلاط، صبّها فوق القاعدة الباردة ورجّع للكونجيلاتور 3 سوايع.",
+      "ذوّب الشكلاطة وكريمة التغليف، صبّهم فوق الكيكة وهي جامدة، وخليها ديما باردة."
+    ],
+    "en": [
+      "Crumble cornflakes into a bowl and mix with the nut spreads.",
+      "Melt dark chocolate with coconut oil, pour into the bowl, and mix. Press into a 24cm pan and freeze for 10 mins.",
+      "Whip all cream ingredients together, spread over the frozen base, and freeze for at least 3 hours.",
+      "Melt the topping chocolate and cream together, pour over the set cake, and keep stored in the freezer."
+    ]
+  }
+}

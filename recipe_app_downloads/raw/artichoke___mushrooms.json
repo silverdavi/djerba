@@ -1,0 +1,24 @@
+{
+  "name": "Artichoke & Mushrooms",
+  "ingredients": [
+    "Mushrooms",
+    "Artichoke",
+    "Salt",
+    "Turmeric",
+    "Black pepper",
+    "Chicken seasoning",
+    "Lemon juice",
+    "Parsley",
+    "Oil",
+    "Garlic"
+  ],
+  "instructions": [
+    "Fry garlic",
+    "Add salt pepper chicken seasoning turmeric and lemon juice",
+    "Add mushrooms & artichokes",
+    "Add water and boil",
+    "Add parsley"
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

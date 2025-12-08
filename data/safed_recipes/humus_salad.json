@@ -1,0 +1,18 @@
+{
+  "name_hebrew": "Humus salad",
+  "ingredients": [
+    "1 can of chickpeas",
+    "Pickled lemon",
+    "Paprika",
+    "Salt",
+    "Cilantro"
+  ],
+  "instructions": [],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "humus_salad"
+}

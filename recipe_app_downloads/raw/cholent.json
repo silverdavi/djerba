@@ -1,0 +1,32 @@
+{
+  "name": "Cholent",
+  "ingredients": [
+    "Onion",
+    "Meat",
+    "Potatoes",
+    "Brown and white beans",
+    "Barley",
+    "Paprika",
+    "Black pepper",
+    "Garlic powder",
+    "Salt",
+    "Maple syrup"
+  ],
+  "instructions": [
+    "Fry enough onions",
+    "After the onions are fried dark enough, you add meat and fry on all sides",
+    "Add potatoes",
+    "Brown and white beans",
+    "Barley",
+    "Fill with water and add spices",
+    "Paprika",
+    "Black pepper",
+    "Garlic powder",
+    "Salt",
+    "Add honey / maple syrup",
+    "Boil and leave on low for an hour and a half",
+    "don't forget eggs"
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

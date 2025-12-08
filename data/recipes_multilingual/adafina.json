@@ -1,0 +1,102 @@
+{
+  "id": "adafina",
+  "image": "adafina.png",
+  "meta": {
+    "servings": "6–8",
+    "prep_time": "30 min",
+    "cook_time": "12 hr",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "אדפינה",
+    "es": "La Adafina",
+    "ar": "الدفينة",
+    "en": "Adafina"
+  },
+  "description": {
+    "he": "חמין שבת בבישול איטי, שבמקורו הוכן עם בשר וכאן מותאם עם סייטן או טופו הסופגים את הטעמים העשירים. השם נגזר מהמילה הערבית \"דפינה\" (טמון/קבור), ומתייחס לשיטה העתיקה של הטמנת הסיר בגחלים. התבשיל כולל שכבות של חומוס, תפוחי אדמה ושקית חיטה, ומקבל צבע עמוק מקרמל סוכר שרוף.",
+    "es": "Un guiso de Shabat de cocción lenta, tradicionalmente hecho con carne pero adaptado aquí con seitán o tofu. Su nombre proviene del árabe *dafīnah* (enterrado), refiriéndose al método antiguo de cocinarlo bajo las brasas. Incluye capas de garbanzos, papas y una bolsa de trigo, enriquecido con un caramelo oscuro.",
+    "ar": "\"الدفينة\" هي طبق السبت التقليدي الذي يطبخ على نار هادئة طوال الليل، وفي هذه النسخة النباتية نستبدل اللحم بالسيتان أو التوفو لامتصاص النكهات. الاسم مشتق من الكلمة العربية \"دفينة\" (أي مدفونة في الجمر). يحتوي الطبق على طبقات من الحمص والبطاطا وصرة القمح، ويكتسب لونه الداكن المميز من السكر المحروق (كراميل).",
+    "en": "A slow-cooked Shabbat stew traditionally prepared with meat, here adapted with seitan or tofu to absorb the rich flavors. The name comes from the Arabic *dafīnah* (buried), referring to the ancient method of burying the pot in embers. It features savory layers of chickpeas, potatoes, and a wheat berry pouch, deepened by caramelized sugar."
+  },
+  "ingredients": {
+    "he": [
+      "נתחי סייטן או טופו קשה (תחליף בשר)",
+      "1 כוס חומוס (מושרה לילה)",
+      "4 תפוחי אדמה גדולים",
+      "6-8 תפוחי אדמה קטנים שלמים (תחליף ביצים)",
+      "1/2 כוס חיטה (בתוך שקית בד)",
+      "תבלינים: כורכום, פלפל לבן, קורט אגוז מוסקט, פפריקה, קינמון",
+      "1 כף אבקת מרק פרווה",
+      "2 כפות סוכר (לקרמל)",
+      "מלח ומים"
+    ],
+    "es": [
+      "Trozos de seitán o tofu firme (sustituto de carne)",
+      "1 taza de garbanzos (remojados toda la noche)",
+      "4 papas grandes",
+      "6-8 papas pequeñas enteras (sustituto de huevo)",
+      "1/2 taza de trigo (en bolsa de tela)",
+      "Especias: cúrcuma, pimienta blanca, nuez moscada, pimentón, canela",
+      "1 cucharada de caldo de verduras en polvo",
+      "2 cucharadas de azúcar (para el caramelo)",
+      "Sal y agua"
+    ],
+    "ar": [
+      "قطع سيتان أو توفو صلب (بديل اللحم)",
+      "1 كأس حمص (منفخ ليلة كاملة)",
+      "4 كعبات بطاطا كبيرة",
+      "6-8 كعبات بطاطا صغيرة (بديل العظم/البيض)",
+      "نصف كأس قمح (في صرة قماش)",
+      "توابل: كركم، فلفل أبيض، رشة جوزة الطيب، فلفل أحمر، قرفة",
+      "مغرفة كبيرة بودرة مرقة خضرة",
+      "2 مغارف سكر (للكراميل)",
+      "ملح وماء"
+    ],
+    "en": [
+      "Seitan chunks or firm tofu (meat substitute)",
+      "1 cup chickpeas (soaked overnight)",
+      "4 large potatoes",
+      "6-8 small whole potatoes (egg substitute)",
+      "1/2 cup wheat berries (in a cloth bag)",
+      "Spices: turmeric, white pepper, pinch of nutmeg, paprika, cinnamon",
+      "1 tbsp vegetable bouillon powder",
+      "2 tbsp sugar (for caramel)",
+      "Salt and water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חותכים את הסייטן/טופו לנתחים גדולים (מומלץ לצרוב קלות בשמן לשיפור המרקם).",
+      "מסדרים בסיר שכבות: חומוס בתחתית, מעליו הסייטן/טופו, ומעליהם תפוחי אדמה גדולים.",
+      "מוסיפים את התבלינים ואבקת המרק. מוסיפים את תפוחי האדמה הקטנים (במקום ביצים) ואת שקית החיטה (מחוררת קלות).",
+      "מכסים במים, מביאים לרתיחה ומנמיכים את האש.",
+      "מכינים קרמל: מחממים סוכר עם מעט מים במחבת נפרדת עד שהוא הופך כהה מאוד (שרוף), ומוסיפים בזהירות לסיר הרותח לקבלת צבע חום עמוק.",
+      "מניחים על פלטת שבת לבישול איטי לכל הלילה."
+    ],
+    "es": [
+      "Cortar el seitán/tofu en trozos grandes (opcional: sellar en aceite para mejorar la textura).",
+      "Colocar en capas en la olla: garbanzos abajo, luego la proteína, y encima las papas grandes.",
+      "Añadir las especias y el caldo. Agregar las papas pequeñas (en lugar de huevos) y la bolsa de trigo (con pequeños agujeros).",
+      "Cubrir con agua, llevar a ebullición y bajar el fuego.",
+      "Preparar el caramelo: quemar el azúcar con un poco de agua en una sartén aparte hasta que esté muy oscuro, y añadir con cuidado a la olla hirviendo.",
+      "Colocar sobre la placa de Shabat para cocinar lentamente durante toda la noche."
+    ],
+    "ar": [
+      "قص السيتان أو التوفو طروف كبار (تنجم تقليهم شوية في الزيت باش يشدوا روحهم).",
+      "ستّف في الطنجرة طبقات: الحمص اللوطا، فوقه السيتان/التوفو، ومبعد البطاطا الكبيرة.",
+      "فوّح بالتوابل وبودرة المرقة. زيد البطاطا الصغيرة (في بلاصة العظم) وصرة القمح (انقب الصرة شوية).",
+      "امرق بالماء لين يتغطى الكل، خليها تغلي ومبعد نقص النار.",
+      "طيّب الكراميل: حط السكر وشوية ماء في كسرونة لين يتحرق ויولي لونه أكحل، وصبه بحذر في الطنجرة باش يعطي لون \"الدفينة\" الغامق.",
+      "حط الطنجرة على \"البلاكة\" (سخان السبت) ليلة كاملة حتى تطيب وتخثار."
+    ],
+    "en": [
+      "Cut seitan/tofu into large chunks (optional: sear in oil to improve texture).",
+      "Layer in the pot: chickpeas at the bottom, protein on top, then large potatoes.",
+      "Add spices and bouillon. Add small whole potatoes (replacing eggs) and the wheat bag (poke small holes in bag).",
+      "Cover with water, bring to a boil, then reduce heat.",
+      "Make caramel: burn sugar with a little water in a separate pan until very dark, then carefully add to the boiling pot for deep color.",
+      "Place on the Shabbat hot plate to slow-cook overnight."
+    ]
+  }
+}

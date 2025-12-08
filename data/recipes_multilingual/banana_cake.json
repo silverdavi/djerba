@@ -1,0 +1,98 @@
+{
+  "id": "banana_cake",
+  "image": "banana_cake.png",
+  "meta": {
+    "servings": "8–10",
+    "prep_time": "15 min",
+    "cook_time": "50 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת בננות",
+    "es": "Pastel de Plátano",
+    "ar": "كيكة الموز",
+    "en": "Banana Cake"
+  },
+  "description": {
+    "he": "עוגה לחה ומנחמת, המוגשת לרוב בארוחת הבוקר או לצד התה בשבת בבוקר. בעוד שהמתכון המסורתי מתבסס על ביצים למבנה, גרסה טבעונית זו משתמשת ברסק תפוחים המעניק לחות ויציבות. המילה 'מוז' (בננה) משותפת לכל הניבים הערביים בצפון אפריקה.",
+    "es": "Un pastel húmedo y reconfortante, servido a menudo en el desayuno o con el té. Aunque la receta tradicional depende de los huevos para su estructura, esta versión vegana utiliza puré de manzana para aportar humedad y estabilidad. El nombre deriva de la palabra árabe 'mouz' (plátano).",
+    "ar": "كيكة رطبة وبنينة، تتقدم عادة مع التاي أو القهوة في صباح السبت. الوصفة التقليدية فيها العظم (البيض)، لكن هذي النسخة النباتية تستعمل عصيدة التفاح باش تجي طرية ومتماسكة. كلمة 'موز' معروفة ومستعملة في كل لهجات شمال إفريقيا.",
+    "en": "A moist, comforting tea cake often served for breakfast or Shabbat morning. While traditional North African cakes rely heavily on eggs for structure, this vegan adaptation uses applesauce for moisture and binding. The name derives from the common Arabic word 'mouz' (banana)."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס חמאה טבעונית או שמן קוקוס",
+      "1 1/2 כוסות סוכר",
+      "6 כפות רסק תפוחים (תחליף לביצים)",
+      "1 כפית תמצית וניל",
+      "1 כפית סודה לשתייה",
+      "1/2 כוס חלב סויה/שקדים מעורבב עם 1 כפית חומץ",
+      "1 כוס בננות בשלות מעוכות (כ-2 גדולות)",
+      "1 1/2 כוסות קמח",
+      "1 כפית אבקת אפייה"
+    ],
+    "es": [
+      "1/2 taza de mantequilla vegana o aceite de coco",
+      "1 1/2 tazas de azúcar",
+      "6 cdas de puré de manzana (reemplaza huevos)",
+      "1 cdta de vainilla",
+      "1 cdta de bicarbonato de sodio",
+      "1/2 taza de leche vegetal mezclada con 1 cdta de vinagre",
+      "1 taza de plátanos maduros machacados (2 grandes)",
+      "1 1/2 tazas de harina",
+      "1 cdta de polvo de hornear"
+    ],
+    "ar": [
+      "1/2 كأس زبدة نباتية أو زيت جوز الهند",
+      "1 1/2 كأس سكر",
+      "6 مغارف كبار عصيدة تفاح (في بلاصة العظم)",
+      "1 مغرفة صغيرة فانيليا",
+      "1 مغرفة صغيرة بيكربونات",
+      "1/2 كأس حليب نباتي مخلط مع مغرفة صغيرة خل",
+      "1 كأس موز مهروس (2 كعبات كبار)",
+      "1 1/2 كأس فرينة (دقيق)",
+      "1 مغرفة صغيرة خميرة ڨاطو"
+    ],
+    "en": [
+      "1/2 cup vegan butter or coconut oil",
+      "1 1/2 cups sugar",
+      "6 tbsp applesauce (egg replacer)",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "1/2 cup plant milk mixed with 1 tsp vinegar",
+      "1 cup mashed ripe bananas (2 large)",
+      "1 1/2 cups flour",
+      "1 tsp baking powder"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את החלב הצמחי עם החומץ והסודה לשתייה ומניחים בצד לכמה דקות עד שנוצר מרקם הדומה לריוויון.",
+      "בקערה גדולה, מקציפים את החמאה הטבעונית, הסוכר, רסק התפוחים והווניל עד לקבלת תערובת אחידה.",
+      "מוסיפים את תערובת החלב לקערה ומערבבים היטב.",
+      "מוסיפים את הבננות המעוכות, ולבסוף את הקמח ואבקת האפייה. מערבבים רק עד שהקמח נטמע.",
+      "יוצקים לתבנית משומנת ואופים ב-175 מעלות כ-45 עד 50 דקות."
+    ],
+    "es": [
+      "Mezclar la leche vegetal con el vinagre y el bicarbonato; dejar reposar unos minutos para que cuaje.",
+      "Batir la mantequilla vegana, el azúcar, el puré de manzana y la vainilla hasta que estén bien combinados.",
+      "Añadir la mezcla de leche a la masa y batir bien.",
+      "Agregar los plátanos y luego los ingredientes secos tamizados. Mezclar solo hasta integrar.",
+      "Verter en un molde engrasado y hornear a 175°C (350°F) durante 45 a 50 minutos."
+    ],
+    "ar": [
+      "خلّط الحليب النباتي مع الخل والبيكربونات وخليهم يرتاحو شوية حتى يولي رايب.",
+      "ركّض الزبدة النباتية مع السكر وعصيدة التفاح والفانيليا بالباهي حتى يتخلطو.",
+      "زيد خليط الحليب وخلّط مليح، ومبعد زيد الموز المهروس.",
+      "زيد الفرينة وخميرة الڨاطو وخلّط جيست قيس ما تتلم العجينة.",
+      "صب الخليط في طبق مدهون وطيّب في الكوشة (فرن) سخونة 175 درجة لمدة 45-50 دقيقة."
+    ],
+    "en": [
+      "Mix plant milk with vinegar and baking soda; let sit for a few minutes to curdle.",
+      "Beat vegan butter, sugar, applesauce, and vanilla until well combined.",
+      "Add the milk mixture to the batter and mix well.",
+      "Add mashed bananas, then fold in sifted dry ingredients just until blended.",
+      "Pour into a prepared pan and bake at 350°F (175°C) for 45 to 50 minutes."
+    ]
+  }
+}

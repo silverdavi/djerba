@@ -1,0 +1,106 @@
+{
+  "id": "apple_crumble",
+  "image": "apple_crumble.png",
+  "meta": {
+    "servings": "6–8",
+    "prep_time": "15 min",
+    "cook_time": "50–60 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "קראמבל תפוחים",
+    "es": "Crumble de Manzana",
+    "ar": "كرامبل التفاح",
+    "en": "Apple Crumble"
+  },
+  "description": {
+    "he": "אף על פי שאינו קינוח צפון-אפריקאי מסורתי, הקראמבל הפך לאהוב מאוד במטבחים יהודיים מודרניים כשדרוג לקינוחי פירות. הגרסה הטבעונית הזו מחליפה את החמאה בשמן קוקוס או מרגרינה כדי ליצור ציפוי פריך מעל תפוחים רכים ומתובלים בקינמון.",
+    "es": "Aunque no es tradicionalmente norteafricano, este postre se ha convertido en un favorito de la familia moderna para Shabat. Esta adaptación vegana reemplaza la mantequilla con aceite de coco para crear una cubierta crujiente sobre manzanas especiadas.",
+    "ar": "رغم أنه مش من الحلويات التقليدية متاعنا، الكرامبل ولاّ محبوب برشا في العايلات اليهودية الحديثة. هذي النسخة النباتية تعوض الزبدة بزيت جوز الهند باش تعمل طبقة مقرمشة فوق التفاح الطايب والمفوح بالقرفة.",
+    "en": "While not a traditional North African dish, this dessert has become a modern family favorite for Shabbat. This vegan adaptation replaces dairy butter with coconut oil to create a perfectly crisp topping over soft, cinnamon-spiced apples."
+  },
+  "ingredients": {
+    "he": [
+      "8 תפוחים בינוניים, קלופים ופרוסים",
+      "3/4 כוס סוכר לבן",
+      "1/2 כפית קינמון",
+      "1/8 כפית מלח",
+      "1/2 כוס שיבולת שועל (קוואקר)",
+      "1/2 כוס קמח",
+      "1/2 כוס סוכר חום",
+      "1/4 כפית אבקת אפייה",
+      "1/8 כפית סודה לשתייה",
+      "3 כפות מרגרינה טבעונית או שמן קוקוס מוצק (קר)"
+    ],
+    "es": [
+      "8 manzanas medianas, peladas y en rodajas",
+      "3/4 taza de azúcar blanco",
+      "1/2 cdta de canela",
+      "1/8 cdta de sal",
+      "1/2 taza de avena",
+      "1/2 taza de harina",
+      "1/2 taza de azúcar moreno",
+      "1/4 cdta de polvo de hornear",
+      "1/8 cdta de bicarbonato",
+      "3 cdas de margarina vegana o aceite de coco sólido (frío)"
+    ],
+    "ar": [
+      "8 تفاحات متوسطة (مقشرة ومقطعة شرائح)",
+      "3/4 كأس سكر أبيض",
+      "1/2 مغرفة صغيرة قرفة",
+      "رشة ملح",
+      "1/2 كأس شوفان",
+      "1/2 كأس فرينة",
+      "1/2 كأس سكر أسمر",
+      "1/4 مغرفة خميرة قاطو",
+      "رشة بيكربونات",
+      "3 مغارف كبار مارجرين نباتية أو زيت جوز الهند (بارد)"
+    ],
+    "en": [
+      "8 medium apples, peeled and sliced",
+      "3/4 cup white sugar",
+      "1/2 tsp cinnamon",
+      "1/8 tsp salt",
+      "1/2 cup oatmeal",
+      "1/2 cup flour",
+      "1/2 cup brown sugar",
+      "1/4 tsp baking powder",
+      "1/8 tsp baking soda",
+      "3 tbsp cold vegan margarine or solid coconut oil"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-180 מעלות.",
+      "מערבבים את התפוחים עם הסוכר הלבן, הקינמון והמלח ומסדרים בתבנית בינונית משומנת.",
+      "בקערה נפרדת, מערבבים את הקוואקר, הקמח, הסוכר החום, אבקת האפייה והסודה.",
+      "מוסיפים את המרגרינה הקרה/שמן הקוקוס ומעבדים בידיים עד לקבלת פירורים.",
+      "מפזרים את תערובת הפירורים מעל התפוחים.",
+      "אופים במשך 50-60 דקות עד שהתפוחים רכים והציפוי שחום."
+    ],
+    "es": [
+      "Precalentar el horno a 180°C.",
+      "Mezclar las manzanas con el azúcar blanco, la canela y la sal; colocar en un molde engrasado.",
+      "En otro bol, mezclar la avena, harina, azúcar moreno, polvos de hornear y bicarbonato.",
+      "Incorporar la grasa fría con los dedos hasta obtener una textura arenosa (migas).",
+      "Esparcir la mezcla sobre las manzanas.",
+      "Hornear 50-60 minutos hasta que las manzanas estén tiernas y la cubierta dorada."
+    ],
+    "ar": [
+      "سخّن الفور (الفرن) لدرجة 180.",
+      "خلّط التفاح مع السكر الأبيض والقرفة والملح وحطهم في طبق مدهون بالزيت.",
+      "في صحفة أخرى، خلّط الشوفان والفرينة والسكر الأسمر والخميرة والبيكربونات.",
+      "زيد عليهم المارجرين الباردة وخلط بأطراف صوابعك حتى تولي فتافيت (crumble).",
+      "صب الخليط فوق التفاح وغطيه مليح.",
+      "طيّبها في الفور لمدة 50-60 دقيقة حتى تتحمر من الفوق والتفاح يطيب."
+    ],
+    "en": [
+      "Preheat oven to 180°C (350°F).",
+      "Mix apples, white sugar, cinnamon, and salt; place in a greased medium pan.",
+      "In a separate bowl, mix oatmeal, flour, brown sugar, baking powder, and baking soda.",
+      "Work in the cold vegan margarine/oil with your fingers until the mixture becomes crumbly.",
+      "Pour the crumble mixture evenly over the apples.",
+      "Bake for 50-60 minutes until the apples are soft and the topping is browned."
+    ]
+  }
+}

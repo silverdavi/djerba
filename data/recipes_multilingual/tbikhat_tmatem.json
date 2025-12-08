@@ -1,0 +1,102 @@
+{
+  "id": "tbikhat_tmatem",
+  "image": "tbikhat_tmatem.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "דביח תטמטם",
+    "es": "Tbikhat Tmatem",
+    "ar": "طبيخة طماطم",
+    "en": "Tbikhat Tmatem"
+  },
+  "description": {
+    "he": "תבשיל תוניסאי עשיר ואדום של תפוחי אדמה ופלפלים ברוטב מרוכז. השם נגזר מהערבית 'טביכה' (תבשיל) ו'תמאטם' (עגבניות). בעוד שהמנה המסורתית מבוססת על עוף, גרסה זו משתמשת בסייטן או טופו הסופגים את טעמי הרוטב הפיקנטי.",
+    "es": "Un estofado tunecino rico y rojo con patatas y pimientos en una salsa concentrada. El nombre deriva del árabe 'Tbikha' (guiso) y 'Tmatem' (tomates). Aunque tradicionalmente se hace con pollo, esta adaptación vegana utiliza seitán o tofu para absorber los sabores picantes.",
+    "ar": "طبيخة تونسية حمراء وعاقدة بالبطاطا والفلفל. الاسم جاي من 'طبيخة' و'طماطم'. الوصفة التقليدية تطيب بالدجاج، أما هذي النسخة النباتية تستعمل السيتان ولا التوفو بش يشربو المرقة البنينة والموزوزة.",
+    "en": "A rich, red Tunisian stew featuring potatoes and peppers in a concentrated sauce. The name comes from the Arabic 'Tbikha' (stew) and 'Tmatem' (tomatoes). While traditionally prepared with chicken, this plant-based adaptation uses seitan or tofu to absorb the savory, spicy flavors."
+  },
+  "ingredients": {
+    "he": [
+      "2 בצלים קצוצים",
+      "1 כף פפריקה מתוקה/חריפה",
+      "1 עגבניה קצוצה",
+      "1 פלפל ירוק חריף פרוס",
+      "1 קופסה קטנה רסק עגבניות",
+      "3-4 תפוחי אדמה חתוכים לקוביות",
+      "300 גרם נתחי סייטן או טופו מוצק",
+      "מלח ופלפל שחור לפי הטעם",
+      "מים לכיסוי"
+    ],
+    "es": [
+      "2 cebollas picadas",
+      "1 cda de pimentón (dulce/picante)",
+      "1 tomate picado",
+      "1 pimiento verde picante en rodajas",
+      "1 lata pequeña de pasta de tomate",
+      "3-4 patatas cortadas en cubos",
+      "300g de seitán o tofu firme",
+      "Sal y pimienta negra al gusto",
+      "Agua para cubrir"
+    ],
+    "ar": [
+      "2 بصل مقصوص",
+      "1 مغرفة فلفل أحمر (פפריקה)",
+      "1 كعبة طماطم مقصوصة",
+      "1 قرن فلفل أخضر حار مقصوص",
+      "1 حكة طماطم معجونة (صغيرة)",
+      "3-4 كعبات بطاطا مقصوصة مكعبات",
+      "300غ سيتان أو توفو",
+      "ملح وفلفل أكحل",
+      "ماء للمريق"
+    ],
+    "en": [
+      "2 onions, chopped",
+      "1 tbsp paprika (sweet/hot)",
+      "1 tomato, chopped",
+      "1 green hot pepper, sliced",
+      "1 small can tomato paste",
+      "3-4 potatoes, cubed",
+      "300g seitan chunks or firm tofu",
+      "Salt and black pepper to taste",
+      "Water to cover"
+    ]
+  },
+  "steps": {
+    "he": [
+      "אם משתמשים בטופו, מומלץ לצרוב את הקוביות במחבת נפרדת עד להזהבה ולהניח בצד.",
+      "מטגנים את הבצלים בסיר רחב עד להזהבה. מוסיפים את הפפריקה ומערבבים בשמן לפתיחת טעמים.",
+      "מוסיפים את העגבניה הקצוצה והפלפל החריף, ומאדים כ-10 דקות.",
+      "מוסיפים את רסק העגבניות ומאדים 10 דקות נוספות (חשוב להעמקת הטעם).",
+      "מוסיפים מים, את קוביות תפוחי האדמה ואת הסייטן (או הטופו הצרוב). מתבלים במלח ופלפל.",
+      "מבשלים על אש בינונית עד שתפוחי האדמה רכים והרוטב סמיך."
+    ],
+    "es": [
+      "Si usa tofu, dórelo primero en una sartén separada y resérvelo.",
+      "Sofreír las cebollas en una olla hasta que estén doradas. Añadir el pimentón y mezclar con el aceite.",
+      "Agregar el tomate picado y el pimiento picante; cocinar al vapor durante 10 minutos.",
+      "Añadir la pasta de tomate y cocinar otros 10 minutos (importante para el sabor).",
+      "Agregar agua, las patatas y el seitán (o tofu). Sazonar con sal y pimienta.",
+      "Cocinar a fuego medio hasta que las patatas estén tiernas y la salsa espesa."
+    ],
+    "ar": [
+      "كان باش تستعمل التوفو، قلّيه وحده في مقلة لين يحمار وحطو على شيرة.",
+      "قلّي البصل في طنجرة لين يذبل. زيد الفلفل الأحمر وحرك بالباهي.",
+      "زيد الطماطم الكعب والفلفل الحار، وخليهم يتقلاو 10 دقايق.",
+      "زيد الطماطم المعجونة وخليهم يتقلاو 10 دقايق خرين (باش تتنحى القروصية).",
+      "مرّق بالماء، وزيد البطاطا والسيتان (ولا التوفو). فوّح بالملح والفلفل الأكحل.",
+      "خلّي الطنجرة تطيب لين البطاطا تطرى والمرقة تعقاد (تخثار)."
+    ],
+    "en": [
+      "If using tofu, sear cubes in a separate pan until golden and set aside.",
+      "Sauté onions in a pot until golden. Add paprika and stir into the oil.",
+      "Add the chopped tomato and hot pepper; steam/sauté for 10 minutes.",
+      "Add tomato paste and cook for another 10 minutes (crucial for depth of flavor).",
+      "Add water, potatoes, and seitan (or seared tofu). Season with salt and pepper.",
+      "Simmer until potatoes are tender and the sauce has thickened."
+    ]
+  }
+}

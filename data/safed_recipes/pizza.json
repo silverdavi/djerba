@@ -1,0 +1,22 @@
+{
+  "name_hebrew": "Pizza",
+  "ingredients": [
+    "Bread dough",
+    "Salt",
+    "Oil",
+    "Chicken seasoning",
+    "Oregano",
+    "Garlic powder",
+    "Tomato paste",
+    "Tuna",
+    "Olives"
+  ],
+  "instructions": [],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "pizza"
+}

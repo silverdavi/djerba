@@ -1,0 +1,32 @@
+{
+  "name_hebrew": "Cujada",
+  "ingredients": [
+    "8 eggs",
+    "4 potatoes",
+    "1/4 teaspoon baking powder",
+    "Turmeric",
+    "White pepper",
+    "Chicken broth",
+    "Salt",
+    "Garlic powder"
+  ],
+  "instructions": [
+    "Boil the potatoes well until soft",
+    "Mash the potatoes with:",
+    "Saffron",
+    "White pepper",
+    "Chicken broth",
+    "Salt",
+    "Garlic powder",
+    "Add 4 eggs and mix everything together",
+    "Put a little oil in a pot and fry until it is hot enough to put the potato wedges inside for a few minutes.",
+    "Put in the oven and check with a toothpick until dry."
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "cujada"
+}

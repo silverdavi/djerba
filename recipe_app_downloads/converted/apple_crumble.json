@@ -1,0 +1,30 @@
+{
+  "name_hebrew": "Apple crumble",
+  "ingredients": [
+    "8 medium apples, cut into slices without peel",
+    "3/4 cup regular sugar",
+    "1/2 teaspoon cinnamon",
+    "1/8 teaspoon salt",
+    "1/2 cup oatmeal",
+    "1/2 cup flour",
+    "1/2 cup brown sugar",
+    "1/4 teaspoon baking powder",
+    "1/8 teaspoon baking soda",
+    "3 tablespoons cold margarine"
+  ],
+  "instructions": [
+    "Preheat the oven to 180",
+    "Mix together the apples, sugar, cinnamon and salt and place in a greased medium pan.",
+    "In another bowl, mix the oatmeal, flour, brown sugar, baking powder and baking soda and after mixing",
+    "well add the margarine.",
+    "Pour the mixture over the apples.",
+    "Place in the oven at 180 degrees and place the pan for 50-60 minutes until the apples are soft and everything is brown"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "apple_crumble"
+}

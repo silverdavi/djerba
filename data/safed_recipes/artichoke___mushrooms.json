@@ -1,0 +1,29 @@
+{
+  "name_hebrew": "Artichoke & Mushrooms",
+  "ingredients": [
+    "Mushrooms",
+    "Artichoke",
+    "Salt",
+    "Turmeric",
+    "Black pepper",
+    "Chicken seasoning",
+    "Lemon juice",
+    "Parsley",
+    "Oil",
+    "Garlic"
+  ],
+  "instructions": [
+    "Fry garlic",
+    "Add salt pepper chicken seasoning turmeric and lemon juice",
+    "Add mushrooms & artichokes",
+    "Add water and boil",
+    "Add parsley"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "artichoke___mushrooms"
+}

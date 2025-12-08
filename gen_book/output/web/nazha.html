@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>N&#x27;azha – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>N&#x27;azha</span></div>
+        <div class="title-word lang-he"><span>נעז&#x27;ה</span></div>
+        <div class="title-word lang-en"><span>N&#x27;azha</span></div>
+        <div class="title-word lang-ar"><span>النعجة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>חביתת ירק עשירה ואוורירית מהמטבח התוניסאי-ג&#x27;רבאי, המוכרת גם כסוג של &#x27;מעקודה&#x27;. במקום ביצים, גרסה זו משתמשת בקמח חומוס לקבלת מרקם יציב וזהוב. היא מוגשת לרוב בכריך או כמנה ראשונה קלה.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Una tortilla de hierbas rica y esponjosa de la cocina tunecina, también conocida como una variante de &#x27;Ma&#x27;aqouda&#x27;. Esta versión vegana utiliza harina de garbanzo para lograr una textura dorada y firme. Se sirve comúnmente en sándwiches o como aperitivo.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>عجة خضرة (معدنوس وبصل) من المطبخ التونسي الجربي، وتتسمى زادة نوع من &#x27;المعقودة&#x27;. في عوض العظم، الوصفة هذه تستعمل دقيق الحمص باش تجي شادة روحها وبنينة. تتكل عادة في كسكروت ولا كمقبلات.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A rich and fluffy herb omelet from Tunisian-Djerban cuisine, also known as a variety of &#x27;Ma&#x27;aqouda&#x27;. This vegan version uses chickpea flour to achieve a firm, golden texture. It is commonly served in sandwiches or as a light appetizer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">2–3</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/nazha_dish.png" alt="N&#x27;azha dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>9 cdas de harina de garbanzo</li>
+              <li>9 cdas de agua</li>
+              <li>1 manojo de cebolla verde (cebolleta)</li>
+              <li>1/2 manojo de perejil</li>
+              <li>1/2 manojo de cilantro</li>
+              <li>Un poco de eneldo</li>
+              <li>Aceite, sal y pimienta</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Mezclar la harina de garbanzo y el agua en un bol hasta obtener una masa suave y sin grumos.</li>
+              <li class="step"><span class="step-num">2.</span>Picar todas las hierbas y añadirlas a la mezcla junto con sal y pimienta.</li>
+              <li class="step"><span class="step-num">3.</span>Calentar aceite en una sartén, verter la mezcla y cocinar tapado a fuego lento.</li>
+              <li class="step"><span class="step-num">4.</span>Cuando la base esté firme y dorada, dar la vuelta con cuidado y cocinar el otro lado.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>9 כפות קמח חומוס</li>
+              <li>9 כפות מים</li>
+              <li>1 צרור בצל ירוק</li>
+              <li>1/2 צרור פטרוזיליה</li>
+              <li>1/2 צרור כוסברה</li>
+              <li>מעט שמיר</li>
+              <li>שמן לטיגון, מלח ופלפל</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מערבבים בקערה את קמח החומוס והמים עד לקבלת בלילה חלקה ללא גושים.</li>
+              <li class="step"><span class="step-num">2.</span>קוצצים את כל הירקות הירוקים ומוסיפים לבלילה יחד עם מלח ופלפל.</li>
+              <li class="step"><span class="step-num">3.</span>מחממים שמן במחבת, יוצקים את הבלילה ומכסים (חשוב לבישול אחיד) על אש נמוכה.</li>
+              <li class="step"><span class="step-num">4.</span>כשהתחתית יציבה וזהובה, הופכים בזהירות בעזרת מרית ומטגנים את הצד השני.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>9 tbsp chickpea flour</li>
+              <li>9 tbsp water</li>
+              <li>1 bunch green onions</li>
+              <li>1/2 bunch parsley</li>
+              <li>1/2 bunch cilantro</li>
+              <li>A little dill</li>
+              <li>Oil, salt, and pepper</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Whisk chickpea flour and water in a bowl until you have a smooth, lump-free batter.</li>
+              <li class="step"><span class="step-num">2.</span>Chop all the herbs and fold them into the batter along with salt and pepper.</li>
+              <li class="step"><span class="step-num">3.</span>Heat oil in a pan, pour in the mixture, and cook covered on low heat.</li>
+              <li class="step"><span class="step-num">4.</span>Once the bottom is firm and golden, flip carefully with a spatula and cook the other side.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>9 مغارف دقيق حمص</li>
+              <li>9 مغارف ماء</li>
+              <li>ربطة بصل أخضر</li>
+              <li>نص ربطة معدنوس</li>
+              <li>نص ربطة كزبر (كسبر)</li>
+              <li>شويه شبث</li>
+              <li>زيت للقلي، ملح وفلفل أكحل</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>خلّط دقيق الحمص مع الماء في صحفة لين تولي عجينة رطبة (Bland) ومافيهاش كعابر.</li>
+              <li class="step"><span class="step-num">2.</span>قصّ الخضرة (بصل، معدنوس، كزبر...) وزيدهم للخليط مع الملح والفلفل الأكحل.</li>
+              <li class="step"><span class="step-num">3.</span>سخّن الزيت في المقلاة، صب الخليط وغطّي المقلاة وخليها تطيب على نار هادية.</li>
+              <li class="step"><span class="step-num">4.</span>كيف تحمار وتشد روحها من اللوطة، اقلبها بالشوية وطيّب الجهة الأخرى.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

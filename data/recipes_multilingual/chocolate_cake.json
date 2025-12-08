@@ -1,0 +1,98 @@
+{
+  "id": "chocolate_cake",
+  "image": "chocolate_cake.png",
+  "meta": {
+    "servings": "8–10",
+    "prep_time": "15 min",
+    "cook_time": "55 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת שוקולד",
+    "es": "Pastel de Chocolate",
+    "ar": "كاتو الشكلاطة",
+    "en": "Chocolate Cake"
+  },
+  "description": {
+    "he": "קינוח שבת קלאסי, אהוב על משפחות יהודיות מצפון אפריקה בזכות היותו \"פרווה\" (ללא חלב). גירסה טבעונית עשירה זו מחליפה את הביצים ברסק תפוחי עץ ומיץ תפוזים לקבלת עוגה לחה וכהה.",
+    "es": "Un postre clásico de Shabat, valorado en los hogares judíos del norte de África por ser 'parve' (sin lácteos). Esta versión vegana rica y húmeda utiliza puré de manzana y jugo de naranja en lugar de huevos.",
+    "ar": "تحلية السبت الكلاسيكية، محبوبة عند العائلات اليهودية لكونها خالية من الحليب (بارڤ). هاد الوصفة النباتية تستعمل عصيدة التفاح وعصير البرتقال في بلاصة العظم (البيض) باش تجي طرية وبنينة.",
+    "en": "A classic Shabbat dessert staple in North African Jewish homes, valued for being 'pareve' (dairy-free). This rich vegan version uses apple sauce and orange juice instead of eggs for a moist, dark crumb."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות קמח",
+      "¾1 כוסות סוכר",
+      "¾ כוס קקאו",
+      "⅔ כוס שמן",
+      "¼1 כוסות מים רותחים (עם 1 כפית קפה נמס)",
+      "9 כפות רסק תפוחי עץ (תחליף ל-3 ביצים)",
+      "¼ כוס מיץ תפוזים סחוט",
+      "1 כפית סוכר וניל",
+      "½ כפית אבקת אפייה",
+      "½1 כפיות סודה לשתייה",
+      "1 כפית מלח"
+    ],
+    "es": [
+      "2 tazas de harina",
+      "1 ¾ tazas de azúcar",
+      "¾ taza de cacao en polvo",
+      "⅔ taza de aceite",
+      "1 ¼ tazas de agua hirviendo (con 1 cdta de café)",
+      "9 cdas de puré de manzana (reemplaza 3 huevos)",
+      "¼ taza de jugo de naranja exprimido",
+      "1 cdta de azúcar de vainilla",
+      "½ cdta de polvos de hornear",
+      "1 ½ cdtas de bicarbonato de sodio",
+      "1 cdta de sal"
+    ],
+    "ar": [
+      "2 كيسان فرينة",
+      "¾1 كأس سكر",
+      "¾ كأس كاكاو",
+      "⅔ كأس زيت",
+      "¼1 كأس ماء سخون يغلي (مخلط بقهوة سريعة الذوبان)",
+      "9 مغارف عصيدة التفاح (عوض 3 عظمات)",
+      "¼ كأس عصير برتقال",
+      "مغرفة صغيرة سكر فانيليا",
+      "½ مغرفة صغيرة خميرة قاطو",
+      "½1 مغرفة صغيرة بيكربونات",
+      "مغرفة صغيرة ملح"
+    ],
+    "en": [
+      "2 cups flour",
+      "1 ¾ cups sugar",
+      "¾ cup cocoa powder",
+      "⅔ cup oil",
+      "1 ¼ cups boiling water (mixed with 1 tsp instant coffee)",
+      "9 tbsp apple sauce (replaces 3 eggs)",
+      "¼ cup fresh orange juice",
+      "1 tsp vanilla sugar",
+      "½ tsp baking powder",
+      "1 ½ tsp baking soda",
+      "1 tsp salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות ומשמנים תבנית במעט שמן קוקוס או מרגרינה.",
+      "מערבלים את כל המצרכים במיקסר עד לקבלת בלילה אחידה וחלקה.",
+      "יוצקים את הבלילה לתבנית ואופים כ-55 דקות."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C (350°F) y engrasar el molde con un poco de aceite de coco o margarina.",
+      "Mezclar todos los ingredientes en la batidora hasta obtener una masa suave y uniforme.",
+      "Verter la mezcla en el molde y hornear durante 55 minutos."
+    ],
+    "ar": [
+      "سخّن الكوشة (الفرن) لدرجة 175 ومسح الطبق بشوية زيت جوز الهند ولا مارغرين.",
+      "خلّط كل المكونات في العجّانة لين تولي عجينة رطبة ومتجانسة.",
+      "صب الخليط في الطبق وطيّبها مدة 55 دقيقة."
+    ],
+    "en": [
+      "Preheat oven to 350°F (175°C) and grease a baking pan with coconut oil or vegan margarine.",
+      "Mix all ingredients together in a stand mixer until the batter is smooth and combined.",
+      "Pour mixture into the pan and bake for 55 minutes."
+    ]
+  }
+}

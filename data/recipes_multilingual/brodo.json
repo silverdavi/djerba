@@ -4,91 +4,91 @@
   "meta": {
     "servings": "4–6",
     "prep_time": "15 min",
-    "cook_time": "30 min",
+    "cook_time": "35 min",
     "difficulty": "Easy"
   },
   "name": {
     "he": "ברודו",
     "es": "Brodo",
-    "ar": "البرودو",
+    "ar": "برودو",
     "en": "Brodo"
   },
   "description": {
-    "he": "ברודו הוא מרק צח ועשיר, שמקור שמו באיטלקית (\"ציר\"). במטבח הטוניסאי-יהודי הוא מוגש לרוב בשבתות וחגים כמנה מנחמת ומשביעה, עשירה בירקות שורש ותבלינים עדינים.",
-    "es": "El Brodo es un caldo reconfortante cuyo nombre proviene del italiano. En la cocina judía tunecina, se sirve tradicionalmente en Shabat y festividades, repleto de verduras de raíz y sabores suaves.",
-    "ar": "البرودو هو مرقة خفيفة وبنينة، أصل كلمتها طلياني. التوانسة اليهود يطيبوه برشا نهار السبت وفي الأعياد، ويكون معبي بالخضرة باش يدفّي القلب.",
-    "en": "Brodo is a comforting, rich broth whose name originates from Italian. In Tunisian-Jewish cuisine, it is traditionally served on Shabbat and holidays, packed with root vegetables and gentle flavors."
+    "he": "מרק ירקות צלול ומנחם עם שורשים איטלקיים (\"ברודו\" משמעו ציר), האהוב במיוחד על יהודי ג'רבה ותוניסיה. בעוד שבמקור המנה מבוססת על עוף, הגרסה הטבעונית הזו משתמשת בטופו או סייטן ובציר עשיר כדי ליצור מרק זהוב ומשקם.",
+    "es": "Una sopa de verduras reconfortante con raíces italianas (\"brodo\" significa caldo), muy apreciada por los judíos tunecinos, especialmente en Djerba. Tradicionalmente hecha con pollo, esta adaptación vegana utiliza tofu o seitán para crear un caldo dorado y restaurador.",
+    "ar": "حساء خضار صافي ومريح ذو أصول إيطالية (\"برودو\" تعني مرق)، محبوب جداً عند يهود تونس وخصوصاً في جربة. بينما يُحضّر الطبق تقليدياً بالدجاج، تستخدم هذه النسخة النباتية التوفو أو السيتان للحصول على مرقة ذهبية ومغذية.",
+    "en": "A comforting clear vegetable soup with Italian roots (\"brodo\" means broth), cherished by Tunisian Jews, especially in Djerba. While traditionally a chicken soup, this vegan adaptation uses tofu or seitan to create a restorative, golden broth."
   },
   "ingredients": {
     "he": [
       "2 ליטר מים (או ציר ירקות)",
-      "300 גרם טופו או סייטן (חתוך לקוביות)",
-      "2 גזרים",
-      "2 קישואים",
-      "1 חתיכת דלעת",
-      "2 תפוחי אדמה",
-      "3 שיני שום",
-      "1 כף שמרי בירה (להעשרת הטעם)",
-      "2 כפות שמן זית",
-      "מלח לפי הטעם"
+      "300 גרם סייטן, טמפה או טופו (חתוך לקוביות)",
+      "300 גרם דלעת (חתוכה לקוביות)",
+      "2 קישואים (פרוסים)",
+      "3 גזרים (קלופים ופרוסים)",
+      "2 תפוחי אדמה (חתוכים לקוביות)",
+      "4 שיני שום שלמות",
+      "מלח לפי הטעם",
+      "2 כפות שמרי בירה (להעשרת הטעם)"
     ],
     "es": [
-      "2 litros de agua (o caldo vegetal)",
-      "300g de tofu o seitán (en cubos)",
-      "2 zanahorias",
-      "2 calabacines",
-      "1 trozo de calabaza",
-      "2 patatas",
-      "3 dientes de ajo",
-      "1 cda de levadura nutricional",
-      "2 cdas de aceite de oliva",
-      "Sal al gusto"
+      "2 litros de agua (o caldo de verduras)",
+      "300g de seitán, tempeh o tofu (en cubos)",
+      "300g de calabaza (en cubos)",
+      "2 calabacines (en rodajas)",
+      "3 zanahorias (peladas y en rodajas)",
+      "2 patatas (en cubos)",
+      "4 dientes de ajo enteros",
+      "Sal al gusto",
+      "2 cdas de levadura nutricional (opcional)"
     ],
     "ar": [
-      "2 لتر ماء (ولا مرقة خضرة)",
-      "300 غرام توفو ولا سيتان (مقصوص مكعبات)",
-      "2 سفنارية (جزر)",
-      "2 كعبات قرع (كوسا)",
-      "طرف قرع أحمر",
-      "2 بطاطا",
-      "3 سنون ثوم",
-      "مغرفة خميرة غذائية (باش تبنن)",
-      "2 مغارف زيت زيتونة",
-      "ملح"
+      "2 لتر ماء (أو مرق خضار)",
+      "300غ سيتان أو توفو (مقطع مكعبات)",
+      "300غ قرع أحمر (مقطع مكعبات)",
+      "2 قرع أخضر (كوسا - مقطع دوائر)",
+      "3 سفنارية (جزر - مقطع دوائر)",
+      "2 بطاطا (مقطعة مكعبات)",
+      "4 سنون ثوم",
+      "ملح حسب الذوق",
+      "2 مغارف خميرة غذائية (لإغناء الطعم)"
     ],
     "en": [
       "2 liters water (or vegetable stock)",
-      "300g tofu or seitan (cubed)",
-      "2 carrots",
-      "2 zucchini",
-      "1 piece pumpkin",
-      "2 potatoes",
-      "3 garlic cloves",
-      "1 tbsp nutritional yeast",
-      "2 tbsp olive oil",
-      "Salt to taste"
+      "300g seitan, tempeh, or firm tofu (cubed)",
+      "300g pumpkin (cubed)",
+      "2 zucchinis (sliced)",
+      "3 carrots (peeled and sliced)",
+      "2 potatoes (cubed)",
+      "4 whole garlic cloves",
+      "Salt to taste",
+      "2 tbsp nutritional yeast (for depth)"
     ]
   },
   "steps": {
     "he": [
-      "חותכים את כל הירקות והטופו (או הסייטן) לקוביות בינוניות.",
-      "שמים את כל המרכיבים בסיר גדול, כולל השמן, שמרי הבירה והמלח.",
-      "מביאים לרתיחה, מנמיכים את האש ומבשלים כ-30 דקות עד שהירקות רכים."
+      "שמים את כל המצרכים (ירקות, תחליף הבשר, שום ומים) בסיר גדול.",
+      "מתבלים במלח ובשמרי הבירה.",
+      "מביאים לרתיחה על אש גבוהה.",
+      "מנמיכים את האש ומבשלים כ-30 דקות עד שהירקות רכים והטעמים התמזגו."
     ],
     "es": [
-      "Cortar todas las verduras y el tofu (o seitán) en cubos medianos.",
-      "Colocar todos los ingredientes en una olla grande, incluido el aceite, la levadura y la sal.",
-      "Llevar a ebullición, bajar el fuego y cocinar unos 30 minutos hasta que las verduras estén tiernas."
+      "Colocar todos los ingredientes (verduras, sustituto de carne, ajo y agua) en una olla grande.",
+      "Sazonar con sal y levadura nutricional.",
+      "Llevar a ebullición a fuego alto.",
+      "Bajar el fuego y cocinar a fuego lento unos 30 minutos hasta que las verduras estén tiernas."
     ],
     "ar": [
-      "قص الخضرة الكل والتوفو (ولا السيتان) مكعبات متوسطة.",
-      "حط كل شيء في طنجرة كبيرة، مع الزيت والخميرة والملح.",
-      "خليها تغلي، وأمبعد نقص النار وخليها تطيب نص ساعة لين الخضرة تولي طرية."
+      "حط كل المكونات (الخضرة، بديل اللحم، الثوم والماء) في طنجرة كبيرة.",
+      "فوّح بالملح والخميرة الغذائية.",
+      "خلي الطنجرة تغلي على نار قوية.",
+      "نقص في النار وخليها تطيب سلة سلة مدة 30 دقيقة لين الخضرة تطيب وتتخلط النكهات."
     ],
     "en": [
-      "Cut all vegetables and tofu (or seitan) into medium cubes.",
-      "Place all ingredients in a large pot, including oil, nutritional yeast, and salt.",
-      "Bring to a boil, reduce heat, and simmer for about 30 minutes until vegetables are tender."
+      "Place all ingredients (vegetables, meat substitute, garlic, and water) in a large pot.",
+      "Season with salt and nutritional yeast.",
+      "Bring to a boil over high heat.",
+      "Reduce heat to low and simmer for about 30 minutes until vegetables are tender and flavors blend."
     ]
   }
 }

@@ -427,6 +427,8 @@ class CookbookImageGenerator:
     
     All images are 1:1 square aspect ratio at 2K resolution,
     optimized for 8x8 inch print at 300dpi.
+    
+    All photos are set in the same Safed house from the early 1900s.
     """
     
     # Image settings for print cookbook
@@ -434,19 +436,87 @@ class CookbookImageGenerator:
     RESOLUTION = "2K"     # High quality for print
     MODEL = "gemini-3-pro-image-preview"
     
-    # Style prompts for consistent cookbook aesthetic
-    DISH_STYLE = """Professional food photography, top-down or 45-degree angle view, 
-    natural soft lighting from window, shallow depth of field, 
-    rustic ceramic plate on weathered wooden table, 
-    Mediterranean color palette, appetizing and inviting,
-    styled with fresh herbs and olive oil drizzle,
-    high-end cookbook quality, 8K detail, photorealistic"""
+    # ═══════════════════════════════════════════════════════════════════════════
+    # THE SAFED HOUSE - Consistent setting for all cookbook images
+    # ═══════════════════════════════════════════════════════════════════════════
+    # A spacious stone house in Safed (Tzfat), Israel, built in the early 1900s.
+    # High ceilings, thick whitewashed walls, touches of Safed light blue.
+    # Sturdy but humble furniture - the home of modest, hardworking people.
+    # ═══════════════════════════════════════════════════════════════════════════
     
-    INGREDIENTS_STYLE = """Professional food photography, overhead flat lay composition,
-    fresh raw ingredients arranged artistically on rustic wooden surface,
-    soft natural window lighting, Mediterranean color palette,
-    cookware and linens as subtle props, cookbook quality,
-    vibrant colors, 8K detail, photorealistic"""
+    SAFED_HOUSE_BASE = """
+    Setting: A kitchen in an old Safed stone house, early 1900s architecture.
+    - Thick whitewashed walls with subtle texture, some showing aged stone beneath
+    - Touches of the famous "Safed light blue" (pale sky blue) on window frames or accents
+    - High ceilings with deep-set windows letting in soft Mediterranean light
+    - Humble but sturdy furniture - worn wood, simple craftsmanship, well-used
+    - The feeling of a modest Jewish home, lived-in and loved
+    """
+    
+    # Different surfaces/spots in the house for variety
+    SAFED_SURFACES = [
+        "a thick wooden table, dark and worn smooth from decades of use, with visible grain",
+        "a pale stone countertop near the window, smooth from years of kneading dough",
+        "an old wooden cutting board placed on a simple kitchen table",
+        "a weathered wooden tray on a faded blue-painted side table",
+        "a large ceramic tile surface, cream-colored with hand-painted blue edge patterns",
+        "a heavy oak table with turned legs, the wood darkened with age",
+        "a simple pine board across two sawhorses, covered with a clean cotton cloth",
+        "the cool stone ledge of a deep window alcove",
+    ]
+    
+    # Different lighting conditions (all natural light)
+    SAFED_LIGHTING = [
+        "soft morning light streaming through a deep-set window, creating gentle shadows",
+        "warm afternoon Mediterranean sun filtering through thin cotton curtains",
+        "diffused daylight from a high window, even and soft",
+        "golden hour light casting long shadows, the warmth of late afternoon",
+        "bright midday light softened by the thick stone walls",
+        "gentle overcast light, soft and shadowless, from the Galilee sky",
+    ]
+    
+    # Subtle background elements (never the focus, just atmosphere)
+    SAFED_BACKGROUND_HINTS = [
+        "a glimpse of whitewashed wall with a small blue-framed window",
+        "the corner of an old wooden shelf with stacked ceramic bowls",
+        "a blur of pale blue painted wood in the background",
+        "thick stone wall texture fading into soft focus",
+        "a hint of a worn copper pot hanging on the wall",
+        "the edge of a simple wooden chair with a faded cushion",
+        "a stack of old plates on a shelf, slightly out of focus",
+        "a cotton towel draped over the back of a simple chair",
+    ]
+    
+    # Humble props that might appear (used sparingly)
+    SAFED_PROPS = [
+        "a well-worn wooden spoon",
+        "a simple ceramic olive oil cruet",
+        "a small brass mortar and pestle, darkened with use",
+        "a folded cotton napkin in faded blue and white stripes",
+        "a chipped but beloved ceramic bowl",
+        "a worn brass serving tray",
+        "a simple glass bottle of oil",
+        "a small clay pot for salt",
+    ]
+    
+    # Style prompts incorporating the Safed house
+    DISH_STYLE = """Professional food photography, photorealistic, 8K detail.
+    Shot in an early 1900s Safed stone house kitchen.
+    Thick whitewashed walls, high ceilings, touches of famous Safed light blue.
+    Humble but sturdy furniture - the home of modest, traditional people.
+    Natural Mediterranean light from deep-set windows.
+    The food is the hero - styled simply, no elaborate garnishes.
+    Top-down or 45-degree angle, shallow depth of field.
+    Appetizing, inviting, authentic home cooking."""
+    
+    INGREDIENTS_STYLE = """Professional food photography, overhead flat lay.
+    Shot in an early 1900s Safed stone house kitchen.
+    Thick whitewashed walls, subtle Safed light blue accents visible.
+    Ingredients arranged on worn wooden surface or pale stone.
+    Natural Mediterranean light, soft and diffused.
+    Fresh raw ingredients, nothing overly styled or artificial.
+    The feeling of preparing a meal in grandmother's kitchen.
+    Photorealistic, 8K detail, cookbook quality."""
     
     def __init__(self, output_dir: Optional[str] = None):
         """
@@ -467,6 +537,55 @@ class CookbookImageGenerator:
             self.output_dir = Path(__file__).parent / "data" / "images" / "generated"
         
         self.output_dir.mkdir(parents=True, exist_ok=True)
+    
+    def _get_scene_variation(self, seed: Optional[str] = None) -> str:
+        """
+        Get a unique scene variation for the Safed house setting.
+        Uses the dish name as a seed for consistent but varied results.
+        
+        Args:
+            seed: Optional string to seed the selection (e.g., dish name)
+            
+        Returns:
+            Scene description string with specific surface, lighting, and props
+        """
+        import hashlib
+        
+        # Use seed to get consistent but varied selections
+        if seed:
+            # Create a hash from the seed for pseudo-random but reproducible selection
+            hash_val = int(hashlib.md5(seed.encode()).hexdigest(), 16)
+        else:
+            import random
+            hash_val = random.randint(0, 1000000)
+        
+        # Select elements based on hash
+        surface = self.SAFED_SURFACES[hash_val % len(self.SAFED_SURFACES)]
+        lighting = self.SAFED_LIGHTING[(hash_val >> 4) % len(self.SAFED_LIGHTING)]
+        background = self.SAFED_BACKGROUND_HINTS[(hash_val >> 8) % len(self.SAFED_BACKGROUND_HINTS)]
+        
+        # Only sometimes include a prop (about 60% of images)
+        include_prop = (hash_val % 10) < 6
+        prop = self.SAFED_PROPS[(hash_val >> 12) % len(self.SAFED_PROPS)] if include_prop else None
+        
+        scene = f"""
+=== SCENE: THE SAFED HOUSE ===
+All photos are taken in the same early 1900s Safed stone house.
+This specific shot:
+- Surface: {surface}
+- Lighting: {lighting}
+- Background: {background}"""
+        
+        if prop:
+            scene += f"\n- A subtle prop nearby: {prop}"
+        
+        scene += """
+
+IMPORTANT: Keep the Safed house atmosphere consistent but this exact scene unique.
+The house has thick whitewashed stone walls, high ceilings, touches of Safed light blue.
+Humble, sturdy furniture. A modest Jewish home, well-loved and lived-in."""
+        
+        return scene
         
     def _get_client(self):
         """Lazy load the genai client."""
@@ -558,6 +677,9 @@ Based on the spices and liquids above, the dish MUST show:
 {', '.join(excluded_items)}
 These are NOT part of this dish - do not add them!"""
         
+        # Get unique scene variation for this dish
+        scene_variation = self._get_scene_variation(seed=dish_name)
+        
         # Build the prompt
         prompt = f"""Create a photograph of {dish_name}, a {cultural_context} dish.
 
@@ -574,6 +696,8 @@ Brief description: {clean_desc}
 
 === DO NOT SHOW ANY ANIMAL PRODUCTS ===
 No real meat, chicken, fish, eggs, or dairy. All proteins are plant-based.
+
+{scene_variation}
 
 === PHOTOGRAPHY STYLE ===
 {self.DISH_STYLE}
@@ -832,11 +956,19 @@ This is VEGAN food - no animal products whatsoever."""
         # Format ingredients list
         ingredients_text = ", ".join(ingredients)
         
+        # Get unique scene variation for this dish (use dish name + "_ing" for different but related scene)
+        scene_variation = self._get_scene_variation(seed=f"{dish_name}_ingredients")
+        
         # Build the prompt
         prompt = f"""Create a beautiful flat-lay photograph showing the raw ingredients 
 for making {dish_name}:
 
 Ingredients to show: {ingredients_text}
+
+*** THIS IS A 100% VEGAN COOKBOOK ***
+If any ingredient mentions meat/chicken/fish, show the vegan alternative instead.
+
+{scene_variation}
 
 Style requirements:
 {self.INGREDIENTS_STYLE}
@@ -844,7 +976,8 @@ Style requirements:
 {additional_styling}
 
 Arrange ingredients in an artistic, balanced composition
-that showcases the fresh, quality ingredients used in this traditional recipe."""
+that showcases the fresh, quality ingredients used in this traditional recipe.
+This is VEGAN food - no animal products whatsoever."""
 
         # Determine output path
         if output_path:

@@ -1,0 +1,78 @@
+{
+  "id": "sourdough_bread",
+  "image": "sourdough_bread.png",
+  "meta": {
+    "servings": "1 loaf",
+    "prep_time": "30 min + rest",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "לחם מחמצת",
+    "es": "Pan de Masa Madre",
+    "ar": "خبز بالخميرة البلدية",
+    "en": "Sourdough Bread"
+  },
+  "description": {
+    "he": "הלחם הוא הלב של השולחן הצפון-אפריקאי, משמש לניגוב רטבים עשירים. מתכון זה חוזר לשורשים עם שימוש ב\"חמירה בלדייה\" (שמרים טבעיים) לתפיחה איטית המעניקה טעם עמוק וקרום פריך, בניגוד לשמרים התעשייתיים המודרניים.",
+    "es": "El pan es el corazón de la mesa norteafricana, esencial para acompañar salsas ricas. Esta receta vuelve a las raíces utilizando 'Khmira Beldiya' (levadura natural) para una fermentación lenta que otorga un sabor profundo y una corteza crujiente.",
+    "ar": "الخبز هو أساس الطاولة، ناكلو بيه المرقة والصוوص. هالوصفة ترجع للأصل باستعمال 'الخميرة البلدية' للتخميير البطيء، باش يجي الخبز بنين وعندو قشرة تتقرمش، خير ملي يتعمل بالخميرة العصرية.",
+    "en": "Bread is the heart of the North African table, essential for scooping up rich sauces. This recipe returns to traditional roots using 'Khmira Beldiya' (natural leaven) for a slow fermentation that yields a deep flavor and crispy crust."
+  },
+  "ingredients": {
+    "he": [
+      "300 גרם מים חמימים",
+      "50 גרם מחמצת פעילה",
+      "500 גרם קמח (לבן או לחם)",
+      "11 גרם מלח"
+    ],
+    "es": [
+      "300g de agua tibia",
+      "50g de masa madre activa",
+      "500g de harina de fuerza",
+      "11g de sal"
+    ],
+    "ar": [
+      "300 غ ماء دافي",
+      "50 غ خميرة بلدية (نشطة)",
+      "500 غ فرينة (دقيق)",
+      "11 غ ملح"
+    ],
+    "en": [
+      "300g warm water",
+      "50g active sourdough starter",
+      "500g bread flour",
+      "11g salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את המים והמחמצת, מוסיפים קמח ומלח ומערבבים עד לאיחוד גס.",
+      "מניחים למנוחה של שעה, לאחר מכן לשים או מקפלים את הבצק עד שהוא חלק ולא דביק.",
+      "מבצעים סדרת קיפולים (מתיחה וקיפול) כל חצי שעה, סה\"כ 4-6 פעמים.",
+      "מתפיחים בקערה מכוסה ללילה (10-12 שעות) בטמפרטורת החדר.",
+      "מעצבים את הכיכר, מעבירים למקרר ל-24 שעות, ואופים בתנור חם מאוד."
+    ],
+    "es": [
+      "Mezclar el agua y la masa madre, añadir la harina y la sal, y mezclar hasta integrar.",
+      "Dejar reposar una hora, luego amasar o plegar hasta que la masa no esté pegajosa.",
+      "Realizar pliegues (estirar y doblar) cada media hora, 4-6 veces en total.",
+      "Dejar fermentar cubierto durante la noche (10-12 horas) a temperatura ambiente.",
+      "Dar forma a la hogaza, refrigerar por 24 horas y hornear en horno muy caliente."
+    ],
+    "ar": [
+      "خلّط الماء والخميرة البلدية، زيد الفرينة والملح وخلّط لين تتلم العجينة.",
+      "خلّيها ترتاح ساعة، مبعد اعجنها ولا اعمل طيّات (folds) لين تولي رطبة وما تلصقش.",
+      "اعمل طيّات للعجينة كل نص ساعة، 4-6 مرات في المجموع.",
+      "غطّي العجينة وخلّيها تخمر ليلة كاملة (10-12 ساعة) فوق البوطاجي.",
+      "شكّل الخبزة، حطها في الفريجيدير 24 ساعة، مبعد طيّبها في كوشة سخونة."
+    ],
+    "en": [
+      "Mix water and starter, add flour and salt, and mix until a shaggy dough forms.",
+      "Rest for one hour, then knead or fold unti smooth and not sticky.",
+      "Perform stretch-and-folds every 30 minutes, 4-6 times total.",
+      "Cover and bulk ferment overnight (10-12 hours) at room temperature.",
+      "Shape the loaf, refrigerate for 24 hours, and bake in a very hot oven."
+    ]
+  }
+}

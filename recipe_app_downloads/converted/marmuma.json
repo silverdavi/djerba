@@ -1,0 +1,24 @@
+{
+  "name_hebrew": "Marmuma",
+  "ingredients": [
+    "8 tomatoes",
+    "4 hot spicy peppers",
+    "Garlic",
+    "Salt",
+    "Olive oil",
+    "Paprika"
+  ],
+  "instructions": [
+    "Fry the garlic",
+    "Add hot peppers",
+    "Add tomato and spices",
+    "Cook and mix for about 8 hours"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "marmuma"
+}

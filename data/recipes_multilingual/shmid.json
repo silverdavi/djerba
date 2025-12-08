@@ -4,91 +4,83 @@
   "meta": {
     "servings": "3–4",
     "prep_time": "5 min",
-    "cook_time": "20 min",
+    "cook_time": "15 min",
     "difficulty": "Easy"
   },
   "name": {
     "he": "שמיד",
     "es": "Shmid",
-    "ar": "سميد",
+    "ar": "شميد",
     "en": "Shmid"
   },
   "description": {
-    "he": "תבשיל סולת מלוח ברוטב אדום, המבושל בדומה למחמסה אך עם גרגירי סולת דקים במקום פתיתים. השם הוא ככל הנראה שיבוש או הגייה מקומית של המילה הערבית \"סמיד\" (סולת). המנה דורשת בחישה מתמדת למניעת גושים ומוגשת כמנה חורפית פשוטה ומחממת.",
-    "es": "Un guiso salado de sémola en salsa roja, cocinado de manera similar a la Mhamsa pero con granos finos. El nombre probablemente deriva de la palabra árabe \"Smid\" (sémola). Requiere remover constantemente para evitar grumos y es un plato de invierno reconfortante.",
-    "ar": "طبق سميد مالح في مرقة حمراء، يطيب كيف المحمصة لكن بالسميد الرطب في بلاصة البركوكش. الاسم جاي من كلمة \"سميد\". لازم التحريك المستمر باش ما يتكعبرش، وهي أكلة شتوية دافية وساهلة.",
-    "en": "A savory semolina porridge cooked in a red sauce, prepared similarly to Mhamsa but using fine semolina grains. The name likely derives from the Arabic word \"Smid\" (semolina). It requires constant stirring to prevent lumps and serves as a simple, warming winter dish."
+    "he": "דייסת סולת מלוחה המבושלת ברוטב אדום עשיר עם בצל ושום, בדומה למחמסה אך במרקם חלק יותר. השם נגזר מהמילה הערבית \"סמיד\" (סולת). זוהי מנה מנחמת ומהירה מהמטבח התוניסאי, הכוללת לרוב קוביות תפוחי אדמה.",
+    "es": "Gachas de sémola salada cocinadas en una salsa roja con cebolla y ajo, preparadas de manera similar a la Mhamsa. El nombre deriva del árabe \"samid\" (sémola). Es un plato reconfortante tunecino que a menudo incluye trozos de patata.",
+    "ar": "عصيدة سميد مالحة طايبة في مرقة حمراء بالبصل والثوم، تشبه للمحمصة في طريقة الطياب. اسمها جاي من كلمة \"سميد\". أكلة تونسية خفيفة وبنينة وتزيدولها عادةً بطاطا مقصوصة.",
+    "en": "A savory semolina porridge cooked in a red sauce with onion and garlic, prepared similarly to Mhamsa but with a smoother texture. The name derives from the Arabic \"samid\" (semolina). A comforting Tunisian dish often served with diced potatoes."
   },
   "ingredients": {
     "he": [
-      "1 בצל קטן, קצוץ",
-      "2 כפות שמן",
-      "1 כף פפריקה מתוקה",
-      "2 שיני שום, כתושות",
-      "1 תפוח אדמה, חתוך לקוביות (אופציונלי)",
+      "1 בצל קטן",
+      "2 שיני שום",
+      "1 תפוח אדמה",
       "1 כוס סולת",
-      "4-5 כוסות מים",
-      "מלח ופלפל שחור"
+      "1 כף פפריקה מתוקה",
+      "1/2 כפית פלפל שחור",
+      "4-5 כוסות מים"
     ],
     "es": [
-      "1 cebolla pequeña, picada",
-      "2 cdas de aceite",
+      "1 cebolla pequeña",
+      "2 dientes de ajo",
+      "1 patata",
+      "1 taza de sémola",
       "1 cda de pimentón dulce",
-      "2 dientes de ajo, machacados",
-      "1 patata, en cubos (opcional)",
-      "1 taza de sémola (semolina)",
-      "4-5 tazas de agua",
-      "Sal y pimienta negra"
+      "1/2 cdta de pimienta negra",
+      "4-5 tazas de agua"
     ],
     "ar": [
-      "1 بصلة صغيرة مقصوصة",
-      "2 ملاعق زيت",
-      "1 مغرفة فلفل أحمر (زينة)",
-      "2 سنات ثوم مرحي",
-      "1 كعبة بطاطا مقصوصة (اختياري)",
+      "1 بصلة صغيرة",
+      "2 سنون ثوم",
+      "1 كعبة بطاطا",
       "1 كأس سميد",
-      "4-5 كيسان ماء",
-      "ملح وفلفل أكحل"
+      "1 مغرفة فلفل زينة (بابريكا)",
+      "نصف مغرفة صغيرة فلفل أكحل",
+      "4-5 كيسان ماء"
     ],
     "en": [
-      "1 small onion, chopped",
-      "2 tbsp oil",
-      "1 tbsp sweet paprika",
-      "2 garlic cloves, crushed",
-      "1 potato, cubed (optional)",
+      "1 small onion",
+      "2 garlic cloves",
+      "1 potato",
       "1 cup semolina",
-      "4-5 cups water",
-      "Salt and black pepper"
+      "1 tbsp sweet paprika",
+      "1/2 tsp black pepper",
+      "4-5 cups water"
     ]
   },
   "steps": {
     "he": [
-      "מטגנים את הבצל בשמן בסיר עד להזהבה קלה.",
-      "מוסיפים שום, פפריקה, פלפל שחור וקוביות תפוח אדמה. מערבבים דקה.",
-      "מוסיפים את המים ומביאים לרתיחה.",
-      "מוסיפים את הסולת בזרם דק תוך כדי ערבוב מתמיד ונמרץ (חשוב מאוד למניעת גושים).",
-      "מנמיכים את האש ומבשלים תוך ערבוב עד שהתערובת מסמיכה ותפוח האדמה רך."
+      "קוצצים את הבצל והשום ומטגנים בסיר עד לשקיפות.",
+      "מוסיפים את התבלינים, קוביות תפוח האדמה והמים, ומביאים לרתיחה.",
+      "מוסיפים את הסולת בהדרגה תוך כדי ערבוב מתמיד (חשוב מאוד כדי למנוע גושים).",
+      "מנמיכים את האש ומבשלים תוך ערבוב מדי פעם עד שהתערובת מסמיכה ותפוח האדמה רך."
     ],
     "es": [
-      "Sofreír la cebolla en aceite en una olla hasta que esté ligeramente dorada.",
-      "Añadir el ajo, el pimentón, la pimienta y la patata. Mezclar un minuto.",
-      "Agregar el agua y llevar a ebullición.",
-      "Verter la sémola en un hilo fino mientras se remueve constante y enérgicamente (crucial para evitar grumos).",
-      "Bajar el fuego y cocinar removiendo hasta que espese y la patata esté tierna."
+      "Picarr y sofreír la cebolla y el ajo en una olla hasta que estén transparentes.",
+      "Añadir las especias, la patata en cubos y el agua; llevar a ebullición.",
+      "Verter la sémola gradualmente mientras se remueve constantemente (crucial para evitar grumos).",
+      "Bajar el fuego y cocinar, removiendo ocasionalmente, hasta que espese y la patata esté tierna."
     ],
     "ar": [
-      "قلّي البصل في الزيت في طنجرة لين يصفار شوية.",
-      "زيد الثوم، الفلفل الأحمر، الفلفل الأكحل وكعبات البطاطا. حرك دقيقة.",
-      "صب الماء وخليه يغلي.",
-      "رش السميد بالشوية مع التحريك المستمر والمزروب (مهم برشا باش ما يتكعبرش).",
-      "نقّص في النار وطيّب مع التحريك لين تعقاد المرقة وتطيب البطاطا."
+      "قلّي البصل والثوم المقصوصين في الطنجرة لين يذبلوا.",
+      "زيد الفاحات وكعبات البطاطا والماء وخلي المرقة تغلي.",
+      "صب السميد بالشوية مع التحريك المستمر (חשוב باش ما يتكركبش).",
+      "نقّص في النار وطيّب لين تختار المرقة وتطيب البطاطا."
     ],
     "en": [
-      "Sauté the onion in oil until lightly golden.",
-      "Add garlic, paprika, pepper, and potato cubes. Stir for a minute.",
-      "Add water and bring to a boil.",
-      "Pour in the semolina in a thin stream while stirring constantly and vigorously (crucial to prevent lumps).",
-      "Lower heat and cook while stirring until the mixture thickens and the potato is tender."
+      "Chop and sauté the onion and garlic in a pot until transparent.",
+      "Add the spices, diced potato, and water; bring to a boil.",
+      "Gradually pour in the semolina while stirring constantly (crucial to prevent lumps).",
+      "Lower the heat and cook, stirring occasionally, until thickened and the potato is tender."
     ]
   }
 }

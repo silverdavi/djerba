@@ -1,0 +1,86 @@
+{
+  "id": "peanut_chocolate_bars",
+  "image": "peanut_chocolate_bars.png",
+  "meta": {
+    "servings": "20-24",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חטיפי בוטנים ושוקולד",
+    "es": "Barritas de Cacahuete",
+    "ar": "مربعات الكاكاوية والشكلاطة",
+    "en": "Peanut Chocolate Bars"
+  },
+  "description": {
+    "he": "קינוח עשיר המשלב את טעם הבוטנים האהוב עם שוקולד. במקור מתכון המכיל ביצים וחמאה, גרסה טבעונית זו עושה שימוש ברסק תפוחים ושמן קוקוס ליצירת מרקם נימוח ומושחת.",
+    "es": "Un postre rico que combina cacahuetes y chocolate. Originalmente hecho con huevos y mantequilla, esta adaptación vegana utiliza compota de manzana y aceite de coco para una textura decadente.",
+    "ar": "تحلية بنينة تخلط بين الكاكاوية (الفول السوداني) والشكلاطة. الوصفة الأصلية فيها العظم والزبدة، أما هذي النسخة النباتية استعملنا فيها عصيدة التفاح والزيت باش تجي طرية وبنينة.",
+    "en": "A rich dessert combining peanuts and chocolate. Originally an egg and butter-based recipe, this vegan adaptation uses applesauce and coconut oil to create a decadent, chewy texture."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס חמאת בוטנים",
+      "6 כפות חמאה טבעונית או שמן קוקוס",
+      "1¼ כוסות סוכר",
+      "9 כפות רסק תפוחים",
+      "1 כוס קמח לבן",
+      "2 כוסות שוקולד צ'יפס טבעוני"
+    ],
+    "es": [
+      "1 taza de mantequilla de maní (cacahuete)",
+      "6 cdas de mantequilla vegana o aceite de coco",
+      "1¼ tazas de azúcar",
+      "9 cdas de compota de manzana",
+      "1 taza de harina",
+      "2 tazas de chispas de chocolate veganas"
+    ],
+    "ar": [
+      "1 كأس زبدة كاكاوية (فول سوداني)",
+      "6 مغارف زبدة نباتية أو زيت جوز الهند",
+      "¼1 كأس سكر",
+      "9 مغارف عصيدة تفاح (باش تعوض العظم)",
+      "1 كأس فرينة",
+      "2 كيسان حبيبات شكلاطة نباتية"
+    ],
+    "en": [
+      "1 cup peanut butter",
+      "6 tbsp vegan butter or coconut oil",
+      "1¼ cups sugar",
+      "9 tbsp applesauce",
+      "1 cup all-purpose flour",
+      "2 cups vegan chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות. מערבבים בקערה את חמאת הבוטנים והשמן/חמאה עד למרקם חלק.",
+      "מוסיפים סוכר, רסק תפוחים (תחליף הביצים) ווניל, ואז מערבבים פנימה את הקמח והמלח.",
+      "מקפלים פנימה כוס אחת של שוקולד ומשטחים את התערובת בתבנית אפייה.",
+      "אופים 25-30 דקות עד שהקצוות משחימים. מוציאים ומפזרים מיד את יתרת השוקולד מלמעלה.",
+      "ממתינים 5 דקות להמסה, מורחים את הציפוי באופן אחיד, מצננים וחותכים לריבועים."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C. Batir la mantequilla de maní con la mantequilla vegana hasta que esté suave.",
+      "Añadir azúcar, compota de manzana (sustituto de huevo) y vainilla; luego incorporar harina y sal.",
+      "Mezclar 1 taza de chocolate y extender la masa en un molde para hornear.",
+      "Hornear 25-30 min. Sacar y esparcir inmediatamente el resto del chocolate por encima.",
+      "Dejar reposar 5 min para que se derrita, alisar la cobertura, enfriar y cortar en cuadrados."
+    ],
+    "ar": [
+      "سخّن الفور لـ 175 درجة. في صحفة كبيرة، ركّض زبدة الكاكاوية مع الزبدة النباتية لين تولي رطبة.",
+      "زيد السكر، عصيدة التفاح (في بلاصة العظم) والفانيليا، ومبعد خلّط معاهم الفرينة والملح.",
+      "صب كاس شكلاطة في الخليط وحرّك، ومبعد اطرح العجينة في طبق الفور.",
+      "طيّبها مدة 25-30 دقيقة لين تحمار من الجناب. خرّجها ورش باقي الشكلاطة من فوق وهي سخونة.",
+      "استنى 5 دقايق لين تذوب الشكلاطة، ادهنها بالمغرفة باش تغطي الوجه الكل، خلّيها تبرد وقصّها مربعات."
+    ],
+    "en": [
+      "Preheat oven to 350°F (175°C). Beat peanut butter and vegan butter together until smooth.",
+      "Add sugar, applesauce (egg substitute), and vanilla, then gradually mix in flour and salt.",
+      "Stir in 1 cup of chocolate chips and spread the mixture into a baking pan.",
+      "Bake 25–30 minutes. Immediately sprinkle the remaining chocolate chips on top.",
+      "Let stand 5 minutes to melt, spread evenly over the top, cool completely, and cut into squares."
+    ]
+  }
+}

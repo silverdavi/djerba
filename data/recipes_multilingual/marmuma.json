@@ -1,0 +1,82 @@
+{
+  "id": "marmuma",
+  "image": "marmuma.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "4–8 hrs",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרמומה",
+    "es": "La Marmuma",
+    "ar": "المرمومة",
+    "en": "Marmuma"
+  },
+  "description": {
+    "he": "סלט עגבניות ופלפלים מבושל, האופייני למטבח היהודי-תוניסאי ולמשפחת כהן בג'רבה. המנה טבעונית במקור ומבושלת בבישול איטי וארוך מאוד עד לקבלת מרקם של ריבה מרוכזת וחריפה. השם מתייחס ככל הנראה למרקם הנימוח והמבושל היטב של הירקות.",
+    "es": "Una ensalada cocida de tomates y pimientos, típica de la cocina judía tunecina y de la familia Cohen de Djerba. Naturalmente vegana, se cocina a fuego muy lento durante horas hasta obtener una textura de mermelada picante. El nombre se refiere a la consistencia suave y confitada de las verduras.",
+    "ar": "سلطة تونسية مطبوخة (تشبه المطبوخة)، تتميز بها العائلات اليهودية في جربة. هي أكلة نباتية بالأصل، تطهى على نار هادئة لفترة طويلة جداً حتى تصبح مثل المعجون (confiture) وتقر زيتها. الاسم يشير إلى قوام الخضر المطهية جيداً.",
+    "en": "A cooked tomato and pepper salad typical of Tunisian Jewish cuisine and the Cohen family from Djerba. Naturally vegan, it is slow-cooked for hours to achieve a concentrated, spicy jam-like texture. The name likely refers to the thoroughly stewed consistency of the vegetables."
+  },
+  "ingredients": {
+    "he": [
+      "8 עגבניות בשלות וקלופות",
+      "4 פלפלים חריפים",
+      "6-8 שיני שום",
+      "שמן זית בנדיבות",
+      "מלח",
+      "פפריקה מתוקה/חריפה"
+    ],
+    "es": [
+      "8 tomates maduros y pelados",
+      "4 pimientos picantes",
+      "6-8 dientes de ajo",
+      "Aceite de oliva generoso",
+      "Sal",
+      "Pimentón (paprika)"
+    ],
+    "ar": [
+      "8 كعبات طماطم طايبة ومقشرة",
+      "4 قرون فلفل حار",
+      "6-8 سنون ثوم",
+      "زيت زيتونة (بزايد)",
+      "ملح",
+      "فلفل أحمر (بابريكا)"
+    ],
+    "en": [
+      "8 ripe tomatoes, peeled",
+      "4 hot peppers",
+      "6–8 garlic cloves",
+      "Generous olive oil",
+      "Salt",
+      "Paprika"
+    ]
+  },
+  "steps": {
+    "he": [
+      "קוצצים את העגבניות, הפלפלים והשום.",
+      "מחממים שמן זית בסיר ומטגנים קלות את השום והפלפלים.",
+      "מוסיפים את העגבניות והתבלינים ומערבבים היטב.",
+      "מבשלים על אש נמוכה מאוד (פתיליה) במשך כ-8 שעות תוך ערבוב מדי פעם, עד שהנוזלים מתאדים והמרקם הופך לריבתי."
+    ],
+    "es": [
+      "Picar los tomates, los pimientos y el ajo.",
+      "Calentar aceite de oliva en una olla y sofreír ligeramente el ajo y los pimientos.",
+      "Añadir los tomates y las especias, y mezclar bien.",
+      "Cocinar a fuego muy lento durante unas 8 horas, removiendo ocasionalmente, hasta que el líquido se evapore y tenga textura de mermelada."
+    ],
+    "ar": [
+      "قص الطماطم، الفلفل والثوم طروف صغار.",
+      "سخن زيت الزيتونة في طنجرة وقلّي الثوم والفلفل شوية.",
+      "زيد الطماطم والفاحات (التوابل) وخلط مليح.",
+      "طيّب على نار هادية برشا (سلة سلة) لمدة 8 سوايع تقريباً، وحرّك مرة مرة، لين ينشف الماء وتولي كيف المعجون."
+    ],
+    "en": [
+      "Chop the tomatoes, peppers, and garlic.",
+      "Heat olive oil in a pot and lightly sauté the garlic and peppers.",
+      "Add the tomatoes and spices, mixing well.",
+      "Cook on very low heat for about 8 hours, stirring occasionally, until the liquid evaporates and it reaches a jam-like consistency."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name_hebrew": "Bread",
+  "ingredients": [
+    "2 table spoons dry east",
+    "1 1/4 table spoons sugar",
+    "3 cups water",
+    "1/2 cup oil",
+    "1 full table spoon salt",
+    "1 kg flour"
+  ],
+  "instructions": [
+    "First put sugar yeast and look warm water until yeast grows",
+    "Add oil",
+    "Add salt to flour",
+    "Mix dough for 10 minutes",
+    "Let rest"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "bread"
+}

@@ -3,7 +3,7 @@
   "image": "schnitzel.png",
   "meta": {
     "servings": "3–4",
-    "prep_time": "15 min",
+    "prep_time": "20 min",
     "cook_time": "10 min",
     "difficulty": "Easy"
   },
@@ -14,10 +14,10 @@
     "en": "Schnitzel"
   },
   "description": {
-    "he": "כתיתה מצופה ומטוגנת, שמקורה במרכז אירופה אך הפכה למאכל יסוד אהוב במטבח הישראלי והיהודי. השם מגיע מהמילה הגרמנית \"Schnitz\" (פרוסה). הגרסה הטבעונית הזו משתמשת בטופו או סייטן לקבלת המרקם הפריך והמוכר.",
-    "es": "Una chuleta empanada y frita, originaria de Europa Central pero convertida en un básico de la cocina judía e israelí. El nombre proviene del alemán \"Schnitz\" (rebanada). Esta versión vegana utiliza tofu o seitán para recrear este crujiente plato reconfortante.",
-    "ar": "الشنيتسل هو طبق مقلي ومقرمش، أصله من أوروبا أما ولاّ أساسي في الكوجينة اليهودية والإسرائيلية. الاسم جاي من الكلمة الألمانية \"Schnitz\" (شريحة). في الوصفة النباتية هذي، نستعملو التوفو ولا السيتان باش نتحصلو على القرمشة والبنة المعروفة.",
-    "en": "A breaded, fried cutlet originally from Central Europe that became a staple in Israeli and Jewish cuisine. The name derives from the German \"Schnitz\" (slice). This vegan version uses tofu or seitan to recreate the beloved crispy comfort food."
+    "he": "למרות שמקורו במרכז אירופה (מהמילה הגרמנית \"שניץ\" שמשמעה פרוסה), השניצל הפך למנה עיקרית במטבחים יהודיים ברחבי העולם, כולל בצפון אפריקה וישראל. באופן מסורתי המנה עשויה מחזה עוף דק, אך גרסה צמחית זו משתמשת בטופו או סייטן מצופים בפירורי לחם פריכים. זוהי מנת הנוחות האולטימטיבית.",
+    "es": "Aunque originario de Europa Central (del alemán \"Schnitz\", rebanada), el Schnitzel se convirtió en un básico en los hogares judíos, incluidos los del norte de África e Israel. Tradicionalmente hecho de pollo aplanado, esta versión vegetal utiliza tofu o seitán cubierto de pan rallado crujiente. Es la comida reconfortante por excelencia.",
+    "ar": "رغم أن أصلو من وسط أوروبا (من كلمة \"شنيتس\" يعني طرنش)، الشنيتسل ولى أكلة أساسية عند العائلات اليهودية في كل بلاصة، حتى في شمال إفريقيا وإسرائيل. في العادة يتعمل بصدر الدجاج، أما هذه النسخة النباتية تستعمل التوفو أو السيتان المغلف بالشاپلير المقرمش. أكلة خفيفة ويحبوها الصغار والكبار.",
+    "en": "Originating in Central Europe (from the German \"Schnitz\" meaning slice), Schnitzel became a staple in Jewish homes worldwide, including North Africa and Israel. Traditionally made with pounded chicken breast, this plant-based version uses pressed tofu or seitan coated in crispy breadcrumbs. It is the ultimate comfort food."
   },
   "ingredients": {
     "he": [
@@ -35,15 +35,15 @@
       "Aceite para freír"
     ],
     "ar": [
-      "1 باكو توفو يابس (ولا سيتان)",
+      "1 قالب توفو صلب (أو سيتان)",
       "1 كأس فارينة",
       "1/2 كأس دقيق حمص (مخلط مع 1/2 كأس ماء)",
-      "2 كيسان شابليُر (خبز مرحي) مفوّح",
+      "2 كيسان شاپلير (خبز مرحي) مفوح",
       "زيت للقلي"
     ],
     "en": [
       "1 block firm tofu (or seitan)",
-      "1 cup white flour",
+      "1 cup all-purpose flour",
       "1/2 cup chickpea flour (mixed with 1/2 cup water)",
       "2 cups seasoned breadcrumbs",
       "Oil for deep frying"
@@ -51,28 +51,28 @@
   },
   "steps": {
     "he": [
-      "פורסים את הטופו או הסייטן (בטופו יש לסחוט נוזלים היטב; בסייטן ניתן לדפוק קלות).",
-      "מכינים 3 צלחות: קמח, בלילת קמח חומוס ומים (במרקם ביצה), ופירורי לחם.",
-      "טובלים כל פרוסה בקמח, מעבירים לבלילה ולבסוף מצפים היטב בפירורי הלחם.",
-      "מטגנים בשמן עמוק וחם (אך לא לוהט מדי) עד להזהבה משני הצדדים."
+      "פורסים את הטופו ומייבשים היטב בנייר סופג (או משטחים מעט את הסייטן).",
+      "מכינים שלוש צלחות: קמח, בלילת קמח חומוס ומים (במרקם של ביצה טרופה), ופירורי לחם מתובלים.",
+      "טובלים כל פרוסה בקמח, לאחר מכן בבלילה, ולבסוף מצפים היטב בפירורי הלחם.",
+      "מטגנים בשמן עמוק וחם (אך לא לוהט מדי) משני הצדדים עד להזהבה יפה."
     ],
     "es": [
-      "Cortar el tofu o seitán en rodajas (escurrir bien el tofu; golpear ligeramente el seitán).",
-      "Preparar 3 platos: harina, mezcla de harina de garbanzo con agua (textura de huevo) y pan rallado.",
-      "Pasar cada rodaja por harina, luego por la mezcla líquida y finalmente cubrir bien con pan rallado.",
-      "Freír en aceite abundante y caliente hasta que estén dorados por ambos lados."
+      "Cortar el tofu en láminas y secar bien (o aplanar ligeramente el seitán).",
+      "Preparar tres platos: harina, mezcla de harina de garbanzo con agua (textura de huevo batido) y pan rallado condimentado.",
+      "Pasar cada rebanada por harina, luego por la mezcla líquida y finalmente cubrir bien con el pan rallado.",
+      "Freír en abundante aceite caliente (pero no humeante) por ambos lados hasta que estén dorados."
     ],
     "ar": [
-      "قص التوفو ولا السيتان طروف (كان تستعمل توفو اعصره مليح من الماء؛ السيتان تنجم تدقدقه شوية).",
-      "حضّر 3 صحانات: واحد فيه الفارينة، واحد فيه خليط دقيق الحمص والماء (كي العظم المركوض)، وواحد فيه الشابليُر.",
-      "مرمد كل طرف في الفارينة، مبعد غطسه في الخليط السائل، وفي لخر لفّه في الشابليُر بالباهي.",
-      "اقلي في زيت غزير وسخون (أما مش محروق) من الجهتين لين يحمار ويولي ذهبي."
+      "قص التوفو طرنشات ونشفه مليح (أو رقق السيتان شوية).",
+      "حضر ثلاثة صحاني: فارينة، خليط دقيق الحمص والماء (خاثر كما العظمة)، وشاپلير مفوح.",
+      "غطّس كل كعبة في الفارينة، ومبعد في الخليط، وفي اللخر رمدها مليح في الشاپلير.",
+      "اقلي في زيت غزير وسخون لين تحمار وتولي ذهبية من الجهتين."
     ],
     "en": [
-      "Slice tofu or seitan (press liquid out of tofu; lightly pound seitan).",
-      "Prepare 3 plates: flour, chickpea flour and water batter (egg texture), and breadcrumbs.",
-      "Dredge each slice in flour, dip in batter, and coat thoroughly in breadcrumbs.",
-      "Deep fry in hot oil until golden brown on both sides."
+      "Slice the tofu and press dry well (or slightly flatten the seitan).",
+      "Prepare three shallow bowls: flour, chickpea flour batter (whisked with water to egg consistency), and seasoned breadcrumbs.",
+      "Dredge each slice in flour, dip into the batter, and finally coat thoroughly with breadcrumbs.",
+      "Deep fry in hot oil until golden brown and crispy on both sides."
     ]
   }
 }

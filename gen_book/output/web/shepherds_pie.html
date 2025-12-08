@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shepherd&#x27;s Pie – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Pastel de Papa</span></div>
+        <div class="title-word lang-he"><span>פאי רועים</span></div>
+        <div class="title-word lang-en"><span>Shepherd&#x27;s Pie</span></div>
+        <div class="title-word lang-ar"><span>كوشة بطاطا</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>גרסה טבעונית למאפה הקלאסי שבמקורו הכיל בשר טחון, וכאן מוגש עם שבבי סויה מתובלים בטעמי שווארמה. שכבות של פירה תפוחי אדמה צהוב מכורכום ומלית עסיסית יוצרות מנה משפחתית מנחמת.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Originalmente un plato de carne, esta adaptación vegana utiliza proteína de soja sazonada con especias de shawarma. Capas de puré de patatas dorado con cúrcuma y un relleno jugoso crean una comida reconfortante.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>نسخة نباتية للطبق الكلاسيكي اللي يتعمل عادة باللحم المفروم، وعوضناه هنا بفواكه الصوجا المفوّحة بتابل الشوارمة. طبقات من البطاطا المهروسة (بيوري) الصفراء بالكركم والحشو البنين يعملوا وجبة عائلية تشبّع.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Traditionally a meat-based dish, this vegan adaptation features soy crumbles seasoned with shawarma spices. Layers of turmeric-infused mashed potatoes and a savory filling make for a comforting family meal.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4–6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/shepherds_pie_dish.png" alt="Shepherd&#x27;s Pie dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1 kg de patatas</li>
+              <li>2 tazas de proteína de soja texturizada</li>
+              <li>1 cdta de cúrcuma</li>
+              <li>1 cda de especias para shawarma</li>
+              <li>1 cdta de ajo en polvo</li>
+              <li>1 cdta de pimentón</li>
+              <li>1 cda de caldo vegetal sabor pollo</li>
+              <li>Sal y pimienta negra</li>
+              <li>Aceite para freír</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Hervir las patatas hasta que estén tiernas, escurrir y hacer un puré con cúrcuma, sal y un poco de caldo en polvo.</li>
+              <li class="step"><span class="step-num">2.</span>Hidratar la soja, escurrir bien y sofreír en aceite con las especias de shawarma, pimentón, ajo, pimienta y sal hasta que se dore.</li>
+              <li class="step"><span class="step-num">3.</span>Engrasar un molde y montar las capas: mitad del puré, relleno de soja, y cubrir con el resto del puré.</li>
+              <li class="step"><span class="step-num">4.</span>Hornear a 180°C durante unos 25 minutos hasta que la parte superior esté dorada.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1 ק״ג תפוחי אדמה</li>
+              <li>2 כוסות שבבי סויה (יבשים)</li>
+              <li>1 כפית כורכום</li>
+              <li>1 כף תבלין שווארמה</li>
+              <li>1 כפית אבקת שום</li>
+              <li>1 כפית פפריקה</li>
+              <li>1 כף אבקת מרק בטעם עוף (פרווה)</li>
+              <li>מלח ופלפל שחור</li>
+              <li>שמן לטיגון</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מבשלים את תפוחי האדמה במים עד לריכוך, מסננים ומועכים לפירה עם כורכום, מלח ומעט אבקת מרק.</li>
+              <li class="step"><span class="step-num">2.</span>משרים את שבבי הסויה במים חמים, סוחטים היטב ומטגנים במחבת עם שמן, תבלין שווארמה, פפריקה, שום, פלפל ומלח עד להשחמה.</li>
+              <li class="step"><span class="step-num">3.</span>משמנים תבנית ומסדרים שכבות: חצי מכמות הפירה, מעליו מלית הסויה, ומסיימים בשאר הפירה.</li>
+              <li class="step"><span class="step-num">4.</span>אופים בתנור שחומם מראש ל-180 מעלות כ-25 דקות עד שהחלק העליון מזהיב.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1 kg potatoes</li>
+              <li>2 cups soy crumbles (TVP)</li>
+              <li>1 tsp turmeric</li>
+              <li>1 tbsp shawarma seasoning</li>
+              <li>1 tsp garlic powder</li>
+              <li>1 tsp paprika</li>
+              <li>1 tbsp vegan chicken-style bouillon</li>
+              <li>Salt and black pepper</li>
+              <li>Oil for frying</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Boil potatoes until tender, drain, and mash with turmeric, salt, and a little bouillon powder.</li>
+              <li class="step"><span class="step-num">2.</span>Rehydrate soy crumbles, squeeze dry, and sauté in oil with shawarma spice, paprika, garlic, pepper, and salt until browned.</li>
+              <li class="step"><span class="step-num">3.</span>Grease a baking dish and layer: half the mashed potatoes, the soy filling, then cover with the remaining potatoes.</li>
+              <li class="step"><span class="step-num">4.</span>Bake at 180°C (350°F) for about 25 minutes until the top is golden brown.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1 كغ بطاطا</li>
+              <li>2 كيسان صوجا (بروتين الصويا)</li>
+              <li>1 مغرفة صغيرة كركم</li>
+              <li>1 مغرفة كبيرة تابل شوارمة</li>
+              <li>1 مغرفة صغيرة ثوم مرحي</li>
+              <li>1 مغرفة صغيرة فلفل أحمر (زينة)</li>
+              <li>1 مغرفة كبيرة بودرة مرقة (نكهة دجاج نباتي)</li>
+              <li>ملح وفلفل أكحل</li>
+              <li>زيت للقلي</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>نصمطوا البطاطا في الماء لين تطيب، نستقطروها ونرحيوها (نعملوها بيوري) مع الكركم والملح وشوية بودرة مرقة.</li>
+              <li class="step"><span class="step-num">2.</span>نفخو الصوجا في ماء سخون، نعصروها مليح، ومبعد نقليوها في الزيت مع تابل الشوارمة والفلفل الأحمر والثوم والملح والفلفل الأكحل لين تتحمر.</li>
+              <li class="step"><span class="step-num">3.</span>ندهنو طبق الكوشة بالزيت، ونفرشو طبقة بطاطا، فوقها حشو الصوجا، ونغطيو بالباقي متاع البطاطا.</li>
+              <li class="step"><span class="step-num">4.</span>ندخلوها للكوشة (فرن) سخونة 180 درجة مدة 25 دقيقة لين الوجه يحمار.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

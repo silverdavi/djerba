@@ -1,0 +1,98 @@
+{
+  "id": "pastel",
+  "image": "pastel.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "40 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פסטל",
+    "es": "El Pastel",
+    "ar": "باستيل",
+    "en": "Pastel"
+  },
+  "description": {
+    "he": "מאפה שכבות מנחם המוכר כ\"פסטל\" בקרב יהודי מרוקו וטנג'יר, המשלב פירה צהוב (בזכות הכורכום) ומלית מתובלת. במקור המנה מוכנת עם בשר טחון, אך גירסה טבעונית זו משתמשת בשבבי סויה או טחון מהצומח עם תבליני שווארמה מסורתיים.",
+    "es": "Un reconfortante pastel en capas, común entre los judíos de Tánger y Marruecos, que combina puré de papas amarillo (por la cúrcuma) con un relleno especiado. Tradicionalmente hecho con carne molida, esta adaptación vegana utiliza carne vegetal sazonada con especias de shawarma.",
+    "ar": "طبق \"الباستيل\" هو صينية بطاطا محبوبة عند يهود طنجة والمغرب، يتميز بلونه الأصفر بفضل الكركم. في الأصل يُحضّر باللحم المفروم، لكن هذه النسخة النباتية تستخدم \"الصوجا\" أو اللحم النباتي المتبّل بتابل الشاورمة.",
+    "en": "A comforting layered casserole known as \"Pastel\" in Tangier and Moroccan Jewish communities, featuring turmeric-infused yellow mashed potatoes. While traditionally made with ground meat, this vegan adaptation uses plant-based crumbles seasoned with warming shawarma spices."
+  },
+  "ingredients": {
+    "he": [
+      "5-6 תפוחי אדמה גדולים (קלופים)",
+      "1 כפית כורכום",
+      "1 חבילה טחון מהצומח (או שבבי סויה מושרים)",
+      "1 כף תבלין שווארמה",
+      "1 כפית אבקת שום",
+      "1 כפית פפריקה",
+      "2 כפות אבקת מרק בטעם עוף (פרווה)",
+      "מלח ופלפל שחור",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "5-6 papas grandes (peladas)",
+      "1 cucharadita de cúrcuma",
+      "1 paquete de carne vegetal molida (o soja texturizada)",
+      "1 cucharada de especias para Shawarma",
+      "1 cucharadita de ajo en polvo",
+      "1 cucharadita de pimentón (paprika)",
+      "2 cucharadas de caldo de pollo vegano en polvo",
+      "Sal y pimienta negra",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "5-6 كعبات بطاطا كبار (مقشرين)",
+      "1 مغرفة صغيرة كركم",
+      "1 باكو لحم نباتي (أو صوجا)",
+      "1 مغرفة كبيرة تابل شوارمة",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "2 مغارف مرقة دجاج نباتية (بودر)",
+      "ملح وفلفل أكحل",
+      "زيت للقلي"
+    ],
+    "en": [
+      "5-6 large potatoes (peeled)",
+      "1 tsp turmeric",
+      "1 pack plant-based ground meat (or soy crumbles)",
+      "1 tbsp Shawarma seasoning",
+      "1 tsp garlic powder",
+      "1 tsp paprika",
+      "2 tbsp vegan chicken bouillon powder",
+      "Salt and black pepper",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את תפוחי האדמה במים רותחים עד לריכוך מלא.",
+      "מועכים לפירה ומתבלים בכורכום, מלח, ומעט אבקת מרק לקבלת צבע צהוב עמוק.",
+      "במחבת נפרדת, מטגנים את הטחון מהצומח עם פפריקה, תבלין שווארמה, אבקת שום, פלפל ואבקת המרק הנותרת.",
+      "משמנים תבנית, מסדרים שכבת פירה, מעליה את המלית, ומכסים בשכבת פירה נוספת.",
+      "אופים בתנור שחומם מראש ל-180 מעלות עד להזהבה יפה."
+    ],
+    "es": [
+      "Hervir las papas hasta que estén completamente tiernas.",
+      "Hacer un puré y sazonar con cúrcuma, sal y un poco de caldo en polvo para obtener un color amarillo.",
+      "En una sartén, sofreír la carne vegetal con pimentón, especias de shawarma, ajo en polvo, pimienta y el resto del caldo.",
+      "Engrasar un molde, colocar una capa de puré, luego el relleno y cubrir con el resto del puré.",
+      "Hornear a 180°C hasta que esté dorado."
+    ],
+    "ar": [
+      "غلي البطاطا في الماء حتى تطيب مليح.",
+      "ارحي البطاطا وفوّحها بالكركم والملح وشوية بودر مرقة باش تولي صفراء.",
+      "في مقلى، قلّي اللحم النباتي مع الفلفل الأحمر، تابل الشوارمة، الثوم، الفلفل الأكحل وباقي بودر المرقة.",
+      "ادهن الطبق بالزيت، حط طبقة بطاطا، فوقها الحشو، وغطّي بالباقي متاع البطاطا.",
+      "طيّبها في الكوشة (فرن) سخونة في 180 درجة حتى تحمار."
+    ],
+    "en": [
+      "Boil the potatoes in water until fully tender.",
+      "Mash potatoes and season with turmeric, salt, and a little bouillon powder for a deep yellow color.",
+      "In a separate pan, fry the plant-based meat with paprika, shawarma spice, garlic powder, pepper, and remaining bouillon.",
+      "Grease a baking dish, layer half the potatoes, add the filling, and cover with the remaining potatoes.",
+      "Bake at 180°C (350°F) until golden brown."
+    ]
+  }
+}

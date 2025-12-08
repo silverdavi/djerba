@@ -4,95 +4,83 @@
   "meta": {
     "servings": "4–6",
     "prep_time": "20 min",
-    "cook_time": "1 hr 15 min",
+    "cook_time": "1 hr",
     "difficulty": "Medium"
   },
   "name": {
     "he": "טפינה",
-    "es": "La Tefina",
-    "ar": "التفينة",
+    "es": "Tefina",
+    "ar": "الطفينة",
     "en": "Tefina"
   },
   "description": {
-    "he": "טפינה היא תבשיל קדרה מסורתי ליום השבת מהמטבח התוניסאי-ג'רבאי, המתאפיין בשימוש בסוכר מקורמל המעניק לו צבע עמוק. שמה נגזר מהמילה הערבית 'טפינה' (מכוסה/טמונה), רמז לבישול האיטי המסורתי. גירסה זו טבעונית ועשירה, עם גריסים, תפוחי אדמה וסייטן.",
-    "es": "La Tefina es un estofado tradicional del sábado de la cocina tunecina-djerbana, caracterizado por el uso de azúcar caramelizado que le da un color profundo. Su nombre deriva del árabe 'ṭafīna' (enterrado), refiriéndose a la cocción lenta tradicional. Esta versión vegana es rica y sustanciosa con cebada, patatas y seitán.",
-    "ar": "التفينة هي مرقة تقليدية تطيب نهار السبت في المطبخ التونسي والجربي، وتتميز بلونها الغامق اللي يجي من السكر المكرمل. اسمها جاي من كلمة 'طفينا' (مطمورة)، إشارة لطريقة الطياب التقليدية على الجمر. هذي النسخة نباتية وفيها الشعير، البطاطا والسيتان.",
-    "en": "Tefina is a traditional Tunisian-Djerban Sabbath stew, characterized by a deep color achieved by caramelizing sugar at the start. The name comes from the Arabic word 'ṭafīna' (buried), referring to the traditional slow-cooking method. This vegan version is hearty, featuring barley, potatoes, and seitan."
+    "he": "תבשיל שבת מסורתי מהמטבח היהודי-ג'רבאי, ששמו נגזר מהמילה הערבית \"טפינה\" (מוטמנת). הגרסה הטבעונית הזו מחליפה את הבשר בסייטן או טופו, אך שומרת על הצבע העמוק והטעם הייחודי המושג באמצעות קרמול סוכר בשמן בתחילת הבישול.",
+    "es": "Un guiso tradicional de Shabat de los judíos de Djerba, cuyo nombre deriva del árabe 'ṭafīna' (enterrado). Esta versión vegana sustituye la carne por seitán o tofu, logrando su característico color oscuro y sabor profundo gracias al azúcar caramelizado en la base.",
+    "ar": "الطفينة هي أكلة يهودية جربية تقليدية، وأصل اسمها من \"المطونة\" لأنها كانت تطهى ببطء. في هذه النسخة النباتية، نعوض اللحم بالسيتان أو التوفو، مع الحفاظ على اللون الغامق والمذاق المميز بفضل السكر المحروق (الكراميل) في الزيت.",
+    "en": "A traditional Djerban Jewish Shabbat stew, named from the Arabic 'ṭafīna' (buried) for its slow-cooking method. While originally a meat dish, this vegan adaptation uses seitan or tofu, achieving its signature dark color and depth from sugar caramelization."
   },
   "ingredients": {
     "he": [
-      "500 גרם נתחי סייטן או טופו קשה",
-      "3-4 תפוחי אדמה, חתוכים לרבעים",
-      "1 בצל גדול, חתוך גס",
-      "1/2 כוס גריסי פנינה",
-      "1/2 כוס שעועית לבנה (מושרת, אופציונלי)",
-      "3 כפות שמן",
+      "500 גרם נתחי סייטן, טופו מוצק או טמפה",
+      "3 תפוחי אדמה, קלופים וחתוכים",
+      "1 כוס גריסים",
+      "1 בצל גדול, קצוץ",
+      "1/2 כוס שעועית לבנה (אופציונלי)",
       "1 כף סוכר (לקרמול)",
-      "1 כף פפריקה מתוקה",
-      "מלח גס ופלפל שחור לפי הטעם"
+      "שמן, פפריקה, מלח ופלפל שחור"
     ],
     "es": [
-      "500g de seitán o tofu firme (en trozos)",
-      "3-4 patatas (cortadas en cuartos)",
-      "1 cebolla grande (troceada)",
-      "1/2 taza de cebada perlada",
-      "1/2 taza de alubias blancas (remojadas, opcional)",
-      "3 cdas de aceite",
+      "500g de seitán, tofu firme o tempeh",
+      "3 patatas, peladas y troceadas",
+      "1 taza de cebada perlada",
+      "1 cebolla grande, picada",
+      "1/2 taza de alubias blancas (opcional)",
       "1 cda de azúcar (para caramelizar)",
-      "1 cda de pimentón dulce",
-      "Sal gruesa y pimienta negra"
+      "Aceite, pimentón dulce, sal y pimienta negra"
     ],
     "ar": [
-      "500 غرام سيتان أو طופو يابس (مقطع)",
-      "3-4 كعبات بطاطا (مقصوصين أرباع)",
-      "1 بصلة كبيرة (مقصوصة)",
-      "نص كأس شعير (جريسيم)",
-      "نص كأس لوبيا بيضاء (منفخة، اختياري)",
-      "3 مغارف زيت",
-      "1 مغرفة سكر (باش يتكرمل)",
-      "1 مغرفة فلفل أحمر (زينة)",
-      "ملح خشين وفلفل أكحل"
+      "500غ سيتان، توفو أو تمبيه",
+      "3 كعبات بطاطا مقشرة ومقطعة",
+      "1 كأس شعير (تيمزارت/فريك)",
+      "1 بصلة كبيرة مقطعة",
+      "نص كأس لوبيا بيضاء (اختياري)",
+      "1 مغرفة سكر (للكراميل)",
+      "زيت، فلفل أحمر، ملح وفلفل أكحل"
     ],
     "en": [
-      "500g seitan or firm tofu chunks",
-      "3-4 potatoes (quartered)",
-      "1 large onion (chopped)",
-      "1/2 cup pearl barley",
-      "1/2 cup white beans (soaked, optional)",
-      "3 tbsp vegetable oil",
+      "500g seitan chunks, firm tofu, or tempeh",
+      "3 potatoes, peeled and cut",
+      "1 cup pearl barley",
+      "1 large onion, chopped",
+      "1/2 cup white beans (optional)",
       "1 tbsp sugar (for caramelizing)",
-      "1 tbsp sweet paprika",
-      "Coarse salt and black pepper"
+      "Oil, paprika, salt, and black pepper"
     ]
   },
   "steps": {
     "he": [
-      "מכינים בקערה את נתחי הסייטן/טופו, תפוחי האדמה, הבצל, הגריסים והשעועית (אם משתמשים).",
-      "בסיר כבד, מחממים שמן וסוכר עד שהסוכר משחים ומתקרמל היטב (זהירות לא לשרוף).",
-      "מוסיפים את הפפריקה ואז מיד את תערובת הירקות והסייטן שבקערה.",
-      "מתבלים במלח ופלפל, ומאדים תוך כדי ערבוב כ-10 דקות לספיגת טעמים.",
-      "מוסיפים מים רותחים לכיסוי, מנמיכים את האש ומבשלים כשעה עד שהכל רך והרוטב סמיך."
+      "בסיר כבד, מחממים שמן וסוכר עד שהסוכר משחים היטב והופך לקרמל כהה.",
+      "מוסיפים את הפפריקה ואחריה מיד את יתר המצרכים: סייטן/טופו, תפו\"א, גריסים, בצל ושעועית.",
+      "מתבלים במלח ופלפל שחור ומאדים הכל יחד כ-10 דקות תוך ערבוב.",
+      "מוסיפים מים רותחים לכיסוי, מנמיכים את האש ומבשלים כשעה עד שהגריסים רכים והרוטב סמיך."
     ],
     "es": [
-      "Preparar en un bol el seitán/tofu, las patatas, la cebolla, la cebada y las alubias.",
-      "En una olla pesada, calentar aceite y azúcar hasta que el azúcar se dore y caramelice bien.",
-      "Añadir el pimentón y seguidamente la mezcla de verduras y seitán.",
-      "Condimentar con sal y pimienta; sofreír unos 10 minutos para absorber los sabores.",
-      "Añadir agua hirviendo hasta cubrir, bajar el fuego y cocinar una hora hasta que esté tierno."
+      "En una olla pesada, calentar aceite y azúcar hasta que el azúcar se dore bien y se caramelice.",
+      "Añadir el pimentón e inmediatamente el resto de ingredientes: seitán/tofu, patatas, cebada, cebolla y alubias.",
+      "Sazonar con sal y pimienta negra, y sofreír todo junto durante unos 10 minutos.",
+      "Añadir agua hirviendo hasta cubrir, bajar el fuego y cocinar a fuego lento durante una hora hasta que espese."
     ],
     "ar": [
-      "حضّر في صحفة السيتان (أو الطופو)، البطاطا، البصل، الشعير واللوبيا.",
-      "في طنجرة ثقيلة، سخّن الزيت والسكر حتى يحمار السكر ويتكرمل بالباهي.",
-      "زيد الفلفل الأحمر (الزينة) ومبعد صب الخضرة والسيتان الكل مع بعضهم.",
-      "فوّح بالملح والفلفل الأكحل، وقلّيهم مدة 10 دقايق باش يشربوا البنة.",
-      "مرّق بالماء السخون (يغلي)، نقص في النار وخلّيها تطيب سلة سلة لمدة ساعة لين تختار المرقة."
+      "في طنجرة ثقيلة، سخن الزيت والسكر لين السكر يحمار ويولي كراميل غامق.",
+      "زيد الفلفل الأحمر وديراكت ارمي باقي المكونات: السيتان/التوفو، البطاطا، الشعير، البصل واللوبيا.",
+      "فوّح بالملح والفلفل الأكحل وقلّيهم الكل مع بعضهم حكاية 10 دقايق.",
+      "مرّق بالماء السخون يغلي، نقص في النار وخليه يطيب سلة سلة لمدة ساعة لين المرقة تختار."
     ],
     "en": [
-      "Combine seitan/tofu, potatoes, onion, barley, and beans in a bowl.",
-      "In a heavy pot, heat oil and sugar until the sugar browns and caramelizes deeply.",
-      "Add paprika, followed immediately by the vegetable and seitan mixture.",
-      "Season with salt and pepper; sauté for 10 minutes to absorb flavors.",
-      "Add boiling water to cover, reduce heat, and simmer for about an hour until thick and tender."
+      "In a heavy pot, heat oil and sugar until the sugar turns dark brown and caramelizes.",
+      "Add paprika immediately, followed by all other ingredients: seitan/tofu, potatoes, barley, onion, and beans.",
+      "Season with salt and black pepper, and sauté everything together for about 10 minutes.",
+      "Add boiling water to cover, reduce heat to low, and simmer for about one hour until the stew thickens."
     ]
   }
 }

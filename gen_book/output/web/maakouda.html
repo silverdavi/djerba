@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Maakouda – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>La Maakouda</span></div>
+        <div class="title-word lang-he"><span>מעקודה</span></div>
+        <div class="title-word lang-en"><span>Maakouda</span></div>
+        <div class="title-word lang-ar"><span>المعقودة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>מעקודה היא פשטידת תפוחי אדמה צפון-אפריקאית קלאסית, שבמקור מתבססת על ביצים רבות לייצוב. הגרסה הטבעונית הזו משתמשת בבלילת קמח חומוס להשגת המרקם האוורירי. השם נגזר מהמילה הערבית &quot;מַעְקוּדַה&quot; (קשורה או סמיכה), ומתייחס לאופן שבו המרכיבים מתאחדים.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>La Maakouda es un pastel de papa clásico del norte de África, tradicionalmente unido con muchos huevos. Esta versión vegana logra la misma textura esponjosa usando harina de garbanzo. Su nombre proviene del árabe &quot;ma&#x27;aqouda&quot; (anudada o espesada), refiriéndose a la unión de sus ingredientes.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>المعقودة هي طبق بطاطا كلاسيكي في شمال إفريقيا، يُحضر تقليدياً بالبيض لتماسك المكونات. هذه النسخة النباتية تستخدم دقيق الحمص للحصول على نفس القوام. الاسم مشتق من الكلمة العربية &quot;معقودة&quot; (مربوطة أو خاثرة)، إشارةً إلى تماسك الخليط.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Maakouda is a classic North African potato pie, traditionally bound with many eggs. This vegan version achieves the same fluffy texture using a chickpea flour batter. The name comes from the Arabic word &quot;ma&#x27;aqouda&quot; (knotted or thickened), referring to how the ingredients bind together.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4–6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">40 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/maakouda_dish.png" alt="Maakouda dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>4 papas rojas</li>
+              <li>12 cdas harina de garbanzo (mezclada con 12 cdas agua)</li>
+              <li>1/4 taza harina blanca</li>
+              <li>1 cdita polvo de hornear</li>
+              <li>1 cda aceite</li>
+              <li>Sal y pimienta negra</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Rallar las papas y exprimir bien para eliminar el líquido (muy importante).</li>
+              <li class="step"><span class="step-num">2.</span>Mezclar la harina de garbanzo con el agua para crear una masa suave.</li>
+              <li class="step"><span class="step-num">3.</span>Combinar las papas exprimidas con la masa y el resto de los ingredientes.</li>
+              <li class="step"><span class="step-num">4.</span>Extender en un molde engrasado y hornear a 180°C durante unos 40 minutos hasta que se dore.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>4 תפוחי אדמה אדומים</li>
+              <li>12 כפות קמח חומוס (מעורבב עם 12 כפות מים)</li>
+              <li>1/4 כוס קמח לבן</li>
+              <li>1 כפית אבקת אפייה</li>
+              <li>1 כף שמן</li>
+              <li>מלח ופלפל שחור</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מגרדים את תפוחי האדמה וסוחטים היטב להוצאת הנוזלים (חשוב מאוד).</li>
+              <li class="step"><span class="step-num">2.</span>מערבבים את קמח החומוס עם המים ליצירת בלילה חלקה.</li>
+              <li class="step"><span class="step-num">3.</span>מערבבים את תפוחי האדמה הסחוטים עם הבלילה ושאר המרכיבים.</li>
+              <li class="step"><span class="step-num">4.</span>משטחים בתבנית משומנת ואופים ב-180 מעלות כ-40 דקות עד להשחמה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>4 red potatoes</li>
+              <li>12 tbsp chickpea flour (mixed with 12 tbsp water)</li>
+              <li>1/4 cup white flour</li>
+              <li>1 tsp baking powder</li>
+              <li>1 tbsp oil</li>
+              <li>Salt and black pepper</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Grate the potatoes and squeeze well to remove excess liquid (very important).</li>
+              <li class="step"><span class="step-num">2.</span>Mix the chickpea flour with water to create a smooth batter.</li>
+              <li class="step"><span class="step-num">3.</span>Combine the squeezed potatoes with the batter and the remaining ingredients.</li>
+              <li class="step"><span class="step-num">4.</span>Spread into a greased baking dish and bake at 180°C (350°F) for about 40 minutes until golden brown.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>4 كعبات بطاطا حمراء</li>
+              <li>12 مغرفة دقيق حمص (مخلطة مع 12 مغرفة ماء)</li>
+              <li>ربع كأس دقيق (فرينة)</li>
+              <li>ملعقة صغيرة خميرة حلويات</li>
+              <li>مغرفة زيت</li>
+              <li>ملح وفلفل أكحل</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>ابشر البطاطا واعصرها مليح باش تخرج الماء منها (مهم برشة).</li>
+              <li class="step"><span class="step-num">2.</span>خلّط دقيق الحمص مع الماء حتى تتحصل على خليط أرطب.</li>
+              <li class="step"><span class="step-num">3.</span>خلّط البطاطا المعصورة مع خليط الحمص وباقي المكونات.</li>
+              <li class="step"><span class="step-num">4.</span>حط الخليط في طبق مدهون بالزيت وطيّبه في الكوشة (الفرن) في درجة 180 لمدة 40 دقيقة لين يحمار.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

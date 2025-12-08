@@ -1,0 +1,98 @@
+{
+  "id": "bolo_banan",
+  "image": "bolo_banan.png",
+  "meta": {
+    "servings": "8–10",
+    "prep_time": "15 min",
+    "cook_time": "50 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "בולו בננות",
+    "es": "Bolo de Banana",
+    "ar": "بولو بالبنان",
+    "en": "Banana Bolo"
+  },
+  "description": {
+    "he": "עוגה לחה ומתוקה, המוגשת באופן מסורתי לארוחת בוקר של שבת או לצד התה. השם \"בולו\" מקורו בפורטוגזית/לדינו ומתייחס לעוגות הבית של יהודי תוניסיה. בעוד שהמתכון המקורי מתבסס על ביצים, גרסה טבעונית זו משיגה מרקם רך הודות לרסק תפוחים ובננות בשלות.",
+    "es": "Un pastel húmedo y dulce, servido tradicionalmente para el desayuno de Shabat o con el té. El nombre 'Bolo' proviene del portugués/ladino. Aunque la receta tradicional lleva huevos, esta versión vegana logra una miga tierna utilizando puré de manzana y plátanos maduros.",
+    "ar": "كيكة (بولو) طرية وحلوة، تتقدم عادةً في فطور السبت أو مع التاي. كلمة 'بولو' أصلها برتغالي وتطلق على أنواع القاطو عند اليهود التوانسة. الوصفة الأصلية فيها العظم (البيض)، لكن هذي النسخة النباتية تستعمل عصيدة التفاح والبنان باش تجي خفيفة وبنينة.",
+    "en": "A moist, sweet cake traditionally served for Shabbat breakfast or tea time. The name 'Bolo' reflects the Portuguese/Ladino linguistic heritage of Tunisian Jews. While traditionally egg-based, this vegan adaptation achieves a tender crumb using applesauce and mashed bananas."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס חמאה טבעונית או שמן",
+      "1.5 כוסות סוכר",
+      "6 כפות רסק תפוחים (ללא סוכר)",
+      "1 כפית תמצית וניל",
+      "1/2 כוס חלב צמחי (+ 1 כפית חומץ)",
+      "1 כפית סודה לשתייה",
+      "2 בננות גדולות בשלות (מעוכות)",
+      "1.5 כוסות קמח",
+      "1 כפית אבקת אפייה"
+    ],
+    "es": [
+      "1/2 taza de mantequilla vegana o aceite",
+      "1.5 tazas de azúcar",
+      "6 cdas de puré de manzana (sin azúcar)",
+      "1 cdta de extracto de vainilla",
+      "1/2 taza de leche vegetal (+ 1 cdta de vinagre)",
+      "1 cdta de bicarbonato de sodio",
+      "2 plátanos grandes maduros (machacados)",
+      "1.5 tazas de harina",
+      "1 cdta de polvo de hornear"
+    ],
+    "ar": [
+      "نصف كأس زبدة نباتية (أو زيت)",
+      "كأس ونصف سكر",
+      "6 مغارف كبار كمبوت تفاح (بدون سكر)",
+      "مغرفة صغيرة فانيليا",
+      "نصف كأس حليب نباتي (مع مغرفة خل)",
+      "مغرفة صغيرة بيكربونات",
+      "2 كعبات بنان كبار (مرفوسين)",
+      "كأس ونصف فرينة",
+      "مغرفة صغيرة خميرة ڨاطو"
+    ],
+    "en": [
+      "1/2 cup vegan butter or oil",
+      "1.5 cups sugar",
+      "6 tbsp unsweetened applesauce",
+      "1 tsp vanilla extract",
+      "1/2 cup plant-based milk (+ 1 tsp vinegar)",
+      "1 tsp baking soda",
+      "2 large ripe bananas (mashed)",
+      "1.5 cups flour",
+      "1 tsp baking powder"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את החלב הצמחי עם החומץ וממיסים בתוכו את הסודה לשתייה.",
+      "בקערה גדולה, מקציפים חמאה, סוכר, רסק תפוחים ווניל לתערובת אחידה.",
+      "מוסיפים את תערובת החלב והבננות המעוכות ומערבבים היטב.",
+      "מוסיפים את הקמח ואבקת האפייה ומערבבים רק עד שהקמח נטמע (לא לערבב יותר מדי).",
+      "יוצקים לתבנית משומנת ואופים ב-175 מעלות למשך 45-50 דקות."
+    ],
+    "es": [
+      "Mezclar la leche vegetal con el vinagre y disolver el bicarbonato en ella.",
+      "En un bol grande, batir la mantequilla, el azúcar, el puré de manzana y la vainilla.",
+      "Añadir la mezcla de leche y los plátanos machacados; mezclar bien.",
+      "Incorporar la harina y el polvo de hornear, mezclando solo hasta integrar.",
+      "Verter en un molde engrasado y hornear a 175°C durante 45-50 minutos."
+    ],
+    "ar": [
+      "خلّط الحليب النباتي مع الخل وذوّب فيه البيكربونات.",
+      "في صحفة كبيرة، ركّض الزبدة والسكر والكمبوت والفانيليا بالباهي.",
+      "زيد خليط الحليب والبنان المرفوس وخلّط مليح.",
+      "زيد الفرينة وخميرة الڨاطو وحرّك شوية بركة لين يتخلطوا (ما تركضش برشا).",
+      "صب الخليط في طبق مدهون وطيّب في الفور (175 درجة) مدة 45-50 دقيقة."
+    ],
+    "en": [
+      "Mix plant milk with vinegar and dissolve the baking soda into it.",
+      "In a large bowl, beat butter, sugar, applesauce, and vanilla until combined.",
+      "Add the milk mixture and mashed bananas; mix well.",
+      "Add flour and baking powder, mixing just until blended (do not overmix).",
+      "Pour into a greased pan and bake at 350°F (175°C) for 45-50 minutes."
+    ]
+  }
+}

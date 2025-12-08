@@ -14,77 +14,77 @@
     "en": "Dwida"
   },
   "description": {
-    "he": "תבשיל פסטה דקה או ספגטי שבור ברוטב עגבניות פיקנטי, הדומה למחמסה אך עדין יותר במרקמו. השם נגזר מהמילה הערבית ל\"תולעים קטנות\", המתייחסת לצורת הפסטה הדקה.",
-    "es": "Un guiso picante de tomate con pasta fina o espaguetis rotos, similar a la Mhamsa pero con una textura más suave. El nombre deriva de la palabra árabe para \"gusanitos\", refiriéndose a la forma de la pasta.",
-    "ar": "الدويدة هي أكلة تونسية زمنية، تشبه المحمصة لكن تتعمل بالشعيرية (الفداوش) أو السباغيتي المكسرة في مرقة حمراء. اسمها جاي من شكل العجين اللي يشبه الدود الصغير.",
-    "en": "A spicy tomato-based stew made with thin pasta or broken spaghetti, similar to Mhamsa but with a finer texture. The name derives from the Arabic word for \"little worms,\" referring to the pasta's shape."
+    "he": "דווידה היא מרק פסטה מנחם על בסיס עגבניות, הדומה למחמסה אך מוכן עם אטריות דקות או ספגטי שבור. השם נגזר מהמילה הערבית 'דווידה' (תולעת קטנה), המתייחסת לצורת האטריות. מנה פשוטה זו נהוגה בקהילות צפון אפריקה, ולעיתים קרובות מוגשת לשבירת הצום.",
+    "es": "La Dwida es una reconfortante sopa de pasta a base de tomate, similar a la Mhamsa pero hecha con fideos finos o espaguetis rotos. El nombre deriva del árabe 'Duwayda' (gusanito), refiriéndose a la forma de la pasta. Este plato sencillo se sirve tradicionalmente para romper el ayuno en las comunidades judías del norte de África.",
+    "ar": "الدويدة هي جاري (حساء) بالمقرونة رقيقة أو الشعيرية، تشبه المحمصة ولكن بنوع مختلف من العجين. الاسم مشتق من 'دويدة' (تصغير دودة) إشارة لشكل المعجنات. هذه الأكلة الساخنة والبسيطة معروفة عند اليهود في شمال إفريقيا وغالباً ما تقدم لكسر الصيام.",
+    "en": "Dwida is a comforting tomato-based pasta soup, similar to Mhamsa but made with thin noodles or broken spaghetti. The name derives from the Arabic 'Duwayda' (little worm), referring to the pasta shape. This simple, warming dish is traditionally served to break fasts in North African Jewish communities."
   },
   "ingredients": {
     "he": [
       "2 כפות שמן",
-      "1 בצל קטן, קצוץ",
-      "1 עגבניה בשלה, מגוררת",
       "1 כף רסק עגבניות",
+      "1 עגבניה קצוצה",
+      "1 פלפל חריף (או לפי הטעם)",
       "1 כף פפריקה מתוקה",
-      "1 פלפל חריף (או כפית אריסה)",
-      "250 גרם ספגטי (שבור לחתיכות קטנות)",
-      "מים לפי הצורך (כ-1.5 ליטר)"
+      "מלח",
+      "1.5 ליטר מים",
+      "250 גרם ספגטי דק (שבור) או אטריות דקות"
     ],
     "es": [
-      "2 cdas de aceite",
-      "1 cebolla pequeña, picada",
-      "1 tomate maduro, rallado",
-      "1 cda de pasta de tomate",
-      "1 cda de pimentón dulce",
-      "1 pimiento picante (o harissa)",
-      "250g de espaguetis (rotos en trozos pequeños)",
-      "Agua según sea necesario (aprox. 1.5L)"
+      "2 cucharadas de aceite",
+      "1 cucharada de pasta de tomate",
+      "1 tomate picado",
+      "1 pimiento picante (al gusto)",
+      "1 cucharada de pimentón dulce",
+      "Sal",
+      "1.5 litros de agua",
+      "250g de espaguetis finos (rotos) o fideos"
     ],
     "ar": [
-      "2 مغارف زيت",
-      "1 بصلة صغيرة مقصوصة",
-      "1 كعبة طماطم مرحية",
-      "1 مغرفة طماطم حكة",
-      "1 مغرفة فلفل زينة (بابريكا)",
-      "1 فلفل حار (أو مغرفة هريسة)",
-      "250 غرام سباغيتي (مكسرة طروف صغار)",
-      "ماء (تقريب 1.5 لتر)"
+      "2 ملاعق زيت",
+      "1 ملعقة طماطم حكة (معجون)",
+      "1 كعبة طماطم مقطعة",
+      "1 فلفل حار (حسب الرغبة)",
+      "1 ملعقة فلفل أحمر حلو",
+      "ملح",
+      "1.5 لتر ماء",
+      "250 غرام سباغيتي (مكسرة) أو شعيرية (دويدة)"
     ],
     "en": [
       "2 tbsp oil",
-      "1 small onion, chopped",
-      "1 ripe tomato, grated",
       "1 tbsp tomato paste",
+      "1 chopped tomato",
+      "1 hot pepper (to taste)",
       "1 tbsp sweet paprika",
-      "1 hot pepper (or tsp harissa)",
-      "250g spaghetti (broken into small pieces)",
-      "Water as needed (approx 1.5L)"
+      "Salt",
+      "1.5 liters water",
+      "250g thin spaghetti (broken) or vermicelli"
     ]
   },
   "steps": {
     "he": [
-      "מטגנים את הבצל בשמן בסיר עד לשקיפות.",
-      "מוסיפים את העגבניות, הפלפל החריף והתבלינים ומבשלים דקה תוך כדי ערבוב.",
-      "מוסיפים את המים ומביאים לרתיחה.",
-      "מוסיפים את הספגטי השבור ומבשלים כ-10 דקות עד שהפסטה רכה והרוטב מסמיך מעט."
+      "מחממים שמן בסיר ומטגנים קלות את רסק העגבניות, העגבניה הקצוצה, הפלפל החריף והתבלינים לפתיחת טעמים.",
+      "מוסיפים מים ומביאים לרתיחה.",
+      "מוסיפים את הספגטי השבור או האטריות הדקות.",
+      "מבשלים כ-10 דקות עד שהפסטה רכה והמרק מסמיך מעט."
     ],
     "es": [
-      "Sofreír la cebolla en aceite hasta que esté transparente.",
-      "Añadir los tomates, el pimiento picante y las especias; cocinar un minuto removiendo.",
-      "Agregar el agua y llevar a ebullición.",
-      "Añadir los espaguetis rotos y cocinar unos 10 minutos hasta que la pasta esté tierna y la salsa espese."
+      "Calentar aceite en una olla y sofreír la pasta de tomate, el tomate fresco, el pimiento picante y las especias.",
+      "Añadir el agua y llevar a ebullición.",
+      "Agregar los espaguetis rotos o fideos finos.",
+      "Cocinar unos 10 minutos hasta que la pasta esté tierna y la sopa espese ligeramente."
     ],
     "ar": [
-      "قلّي البصل في الزيت في الطنجرة لين يذبل.",
-      "زيد الطماطم والفلفل والفاحات وحرك دقيقة.",
-      "مرق بالماء وخلي الطنجرة تغلي.",
-      "ارمي السباغيتي المكسرة وطيبها حكاية 10 دقايق لين تطيب وتعقاد المرقة شوية."
+      "سخن الزيت في طنجرة وقلّي طماطم الحكة، الطماطم المقطعة، الفلفل الحار والتوابل باش تخرج نكهتهم.",
+      "زيد الماء وخليه يغلي.",
+      "ارمي السباغيتي (مكسرة) أو الشعيرية (الدويدة) في المرقة.",
+      "طيبها حوالي 10 دقايق لين تطيب العجينة وتخثار المرقة شوية."
     ],
     "en": [
-      "Sauté the onion in oil in a pot until transparent.",
-      "Add tomatoes, hot pepper, and spices; cook for a minute while stirring.",
+      "Heat oil in a pot and sauté tomato paste, chopped tomato, hot pepper, and spices to release flavors.",
       "Add water and bring to a boil.",
-      "Add the broken spaghetti and cook for about 10 minutes until tender and the sauce thickens slightly."
+      "Add the broken spaghetti or thin vermicelli.",
+      "Cook for about 10 minutes until the pasta is tender and the soup thickens slightly."
     ]
   }
 }

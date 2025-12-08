@@ -1,0 +1,24 @@
+{
+  "name": "Chocolate peanut butter muffins",
+  "ingredients": [
+    "1 1/2 cups flour",
+    "1 cup chocolate chips",
+    "1/3 cup sugar",
+    "1 tablespoon baking powder",
+    "1/4 teaspoon salt",
+    "3/4 cup milk/water",
+    "1/2 cup peanut butter",
+    "1/3 cup oil",
+    "1 egg"
+  ],
+  "instructions": [
+    "Preheat oven to 180 degrees. Grease 12 muffin tins.",
+    "In one bowl, mix: flour, chocolate chips, sugar, baking powder, and salt.",
+    "In a small bowl, mix: milk/water, peanut butter, oil, and egg.",
+    "Mix in a bowl of dry ingredients until dry ingredients are blended.",
+    "Fill each muffin tin 3/4 full.",
+    "Bake for 20 minutes or until a toothpick inserted in the center comes out clean."
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

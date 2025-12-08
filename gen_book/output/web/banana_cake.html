@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Banana Cake – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Pastel de Plátano</span></div>
+        <div class="title-word lang-he"><span>עוגת בננות</span></div>
+        <div class="title-word lang-en"><span>Banana Cake</span></div>
+        <div class="title-word lang-ar"><span>كيكة الموز</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>עוגה לחה ומנחמת, המוגשת לרוב בארוחת הבוקר או לצד התה בשבת בבוקר. בעוד שהמתכון המסורתי מתבסס על ביצים למבנה, גרסה טבעונית זו משתמשת ברסק תפוחים המעניק לחות ויציבות. המילה &#x27;מוז&#x27; (בננה) משותפת לכל הניבים הערביים בצפון אפריקה.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Un pastel húmedo y reconfortante, servido a menudo en el desayuno o con el té. Aunque la receta tradicional depende de los huevos para su estructura, esta versión vegana utiliza puré de manzana para aportar humedad y estabilidad. El nombre deriva de la palabra árabe &#x27;mouz&#x27; (plátano).</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>كيكة رطبة وبنينة، تتقدم عادة مع التاي أو القهوة في صباح السبت. الوصفة التقليدية فيها العظم (البيض)، لكن هذي النسخة النباتية تستعمل عصيدة التفاح باش تجي طرية ومتماسكة. كلمة &#x27;موز&#x27; معروفة ومستعملة في كل لهجات شمال إفريقيا.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A moist, comforting tea cake often served for breakfast or Shabbat morning. While traditional North African cakes rely heavily on eggs for structure, this vegan adaptation uses applesauce for moisture and binding. The name derives from the common Arabic word &#x27;mouz&#x27; (banana).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">8–10</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">50 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/banana_cake_dish.png" alt="Banana Cake dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1/2 taza de mantequilla vegana o aceite de coco</li>
+              <li>1 1/2 tazas de azúcar</li>
+              <li>6 cdas de puré de manzana (reemplaza huevos)</li>
+              <li>1 cdta de vainilla</li>
+              <li>1 cdta de bicarbonato de sodio</li>
+              <li>1/2 taza de leche vegetal mezclada con 1 cdta de vinagre</li>
+              <li>1 taza de plátanos maduros machacados (2 grandes)</li>
+              <li>1 1/2 tazas de harina</li>
+              <li>1 cdta de polvo de hornear</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Mezclar la leche vegetal con el vinagre y el bicarbonato; dejar reposar unos minutos para que cuaje.</li>
+              <li class="step"><span class="step-num">2.</span>Batir la mantequilla vegana, el azúcar, el puré de manzana y la vainilla hasta que estén bien combinados.</li>
+              <li class="step"><span class="step-num">3.</span>Añadir la mezcla de leche a la masa y batir bien.</li>
+              <li class="step"><span class="step-num">4.</span>Agregar los plátanos y luego los ingredientes secos tamizados. Mezclar solo hasta integrar.</li>
+              <li class="step"><span class="step-num">5.</span>Verter en un molde engrasado y hornear a 175°C (350°F) durante 45 a 50 minutos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1/2 כוס חמאה טבעונית או שמן קוקוס</li>
+              <li>1 1/2 כוסות סוכר</li>
+              <li>6 כפות רסק תפוחים (תחליף לביצים)</li>
+              <li>1 כפית תמצית וניל</li>
+              <li>1 כפית סודה לשתייה</li>
+              <li>1/2 כוס חלב סויה/שקדים מעורבב עם 1 כפית חומץ</li>
+              <li>1 כוס בננות בשלות מעוכות (כ-2 גדולות)</li>
+              <li>1 1/2 כוסות קמח</li>
+              <li>1 כפית אבקת אפייה</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מערבבים את החלב הצמחי עם החומץ והסודה לשתייה ומניחים בצד לכמה דקות עד שנוצר מרקם הדומה לריוויון.</li>
+              <li class="step"><span class="step-num">2.</span>בקערה גדולה, מקציפים את החמאה הטבעונית, הסוכר, רסק התפוחים והווניל עד לקבלת תערובת אחידה.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים את תערובת החלב לקערה ומערבבים היטב.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים את הבננות המעוכות, ולבסוף את הקמח ואבקת האפייה. מערבבים רק עד שהקמח נטמע.</li>
+              <li class="step"><span class="step-num">5.</span>יוצקים לתבנית משומנת ואופים ב-175 מעלות כ-45 עד 50 דקות.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1/2 cup vegan butter or coconut oil</li>
+              <li>1 1/2 cups sugar</li>
+              <li>6 tbsp applesauce (egg replacer)</li>
+              <li>1 tsp vanilla extract</li>
+              <li>1 tsp baking soda</li>
+              <li>1/2 cup plant milk mixed with 1 tsp vinegar</li>
+              <li>1 cup mashed ripe bananas (2 large)</li>
+              <li>1 1/2 cups flour</li>
+              <li>1 tsp baking powder</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Mix plant milk with vinegar and baking soda; let sit for a few minutes to curdle.</li>
+              <li class="step"><span class="step-num">2.</span>Beat vegan butter, sugar, applesauce, and vanilla until well combined.</li>
+              <li class="step"><span class="step-num">3.</span>Add the milk mixture to the batter and mix well.</li>
+              <li class="step"><span class="step-num">4.</span>Add mashed bananas, then fold in sifted dry ingredients just until blended.</li>
+              <li class="step"><span class="step-num">5.</span>Pour into a prepared pan and bake at 350°F (175°C) for 45 to 50 minutes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1/2 كأس زبدة نباتية أو زيت جوز الهند</li>
+              <li>1 1/2 كأس سكر</li>
+              <li>6 مغارف كبار عصيدة تفاح (في بلاصة العظم)</li>
+              <li>1 مغرفة صغيرة فانيليا</li>
+              <li>1 مغرفة صغيرة بيكربونات</li>
+              <li>1/2 كأس حليب نباتي مخلط مع مغرفة صغيرة خل</li>
+              <li>1 كأس موز مهروس (2 كعبات كبار)</li>
+              <li>1 1/2 كأس فرينة (دقيق)</li>
+              <li>1 مغرفة صغيرة خميرة ڨاطو</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>خلّط الحليب النباتي مع الخل والبيكربونات وخليهم يرتاحو شوية حتى يولي رايب.</li>
+              <li class="step"><span class="step-num">2.</span>ركّض الزبدة النباتية مع السكر وعصيدة التفاح والفانيليا بالباهي حتى يتخلطو.</li>
+              <li class="step"><span class="step-num">3.</span>زيد خليط الحليب وخلّط مليح، ومبعد زيد الموز المهروس.</li>
+              <li class="step"><span class="step-num">4.</span>زيد الفرينة وخميرة الڨاطو وخلّط جيست قيس ما تتلم العجينة.</li>
+              <li class="step"><span class="step-num">5.</span>صب الخليط في طبق مدهون وطيّب في الكوشة (فرن) سخونة 175 درجة لمدة 45-50 دقيقة.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

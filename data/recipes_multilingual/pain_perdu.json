@@ -1,0 +1,82 @@
+{
+  "id": "pain_perdu",
+  "image": "pain_perdu.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פאן פרדו",
+    "es": "Torrijas",
+    "ar": "بان بردو",
+    "en": "Pain Perdu"
+  },
+  "description": {
+    "he": "מנה זו, הידועה כ\"פאן פרדו\" (לחם אבוד) בצפון אפריקה או \"טוריחאס\" במסורת הספרדית, נועדה במקור להציל חלה יבשה בעזרת ביצים. הגרסה הטבעונית מחליפה את הביצים בבלילת קמח חומוס המעניקה ציפוי זהוב ופריך ללחם.",
+    "es": "Conocidas como 'Pain Perdu' (pan perdido) en el Magreb o 'Torrijas' en la tradición española, este plato originalmente usaba huevos para aprovechar el pan duro. Esta adaptación vegana reemplaza el huevo con una mezcla de harina de garbanzos que logra una corteza dorada perfecta.",
+    "ar": "معروف باسم 'بان بردو' (الخبز الضايع) في تونس والمغرب، كانت هذه الوصفة تُعمل تقليدياً بالبيض باش نستحفظوا بالخبز البايت. هذي النسخة النباتية تستعمل دقيق الحمص في عوض البيض وتعطي قرمشة بنينة.",
+    "en": "Known as 'Pain Perdu' (lost bread) in North Africa or 'Torrijas' in Spanish traditions, this dish was originally a way to use up stale Challah with eggs. This vegan adaptation replaces the egg batter with a chickpea flour mixture that mimics the classic golden crust."
+  },
+  "ingredients": {
+    "he": [
+      "6 פרוסות לחם (או חלה) יבשות",
+      "1/2 כוס קמח חומוס",
+      "1/2 כוס חלב צמחי (סויה/שקדים)",
+      "1 כפית תמצית וניל",
+      "שמן לטיגון",
+      "סוכר או סירופ להגשה"
+    ],
+    "es": [
+      "6 rebanadas de pan duro",
+      "1/2 taza de harina de garbanzo",
+      "1/2 taza de leche vegetal (soja/almendra)",
+      "1 cucharadita de esencia de vainilla",
+      "Aceite para freír",
+      "Azúcar o jarabe para servir"
+    ],
+    "ar": [
+      "6 طروف خبز (أو حالاً) بايت",
+      "نصف كأس دقيق حمص",
+      "نصف كأس حليب نباتي (لوز/صوجا)",
+      "مغرفة صغيرة فانيليا",
+      "زيت للقلي",
+      "سكر أو شحور للتقديم"
+    ],
+    "en": [
+      "6 slices stale bread (or Challah)",
+      "1/2 cup chickpea flour",
+      "1/2 cup plant-based milk",
+      "1 tsp vanilla extract",
+      "Oil for frying",
+      "Sugar or syrup for serving"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה רחבה, טורפים את קמח החומוס, החלב הצמחי והווניל לבלילה חלקה ללא גושים.",
+      "מחממים מעט שמן במחבת על אש בינונית.",
+      "טובלים כל פרוסת לחם בבלילה משני הצדדים (לא להשרות יותר מדי כדי שהלחם לא יתפרק).",
+      "מטגנים עד להזהבה יפה משני הצדדים ומגישים חם עם סוכר או סירופ."
+    ],
+    "es": [
+      "En un plato hondo, batir la harina de garbanzos, la leche vegetal y la vainilla hasta obtener una mezcla suave.",
+      "Calentar un poco de aceite en una sartén a fuego medio.",
+      "Sumergir cada rebanada de pan en la mezcla por ambos lados.",
+      "Freír hasta que estén doradas por ambos lados y servir caliente con azúcar."
+    ],
+    "ar": [
+      "في صحن غارق، خلّط دقيق الحمص مع الحليب النباتي والفانيليا مليح حتى تولي عجينة جارية ورطبة.",
+      "سخّن شوية زيت في المقلاة على نار متوسطة.",
+      "غمّس طروف الخبز في الخليط من الجهتين (رد بالك تخليه برشا باش ما يطيحش).",
+      "قلّي الخبز حتى يحمار ويولي لونه ذهبي من الجهتين، وقدمه سخون مع السكر."
+    ],
+    "en": [
+      "In a wide bowl, whisk chickpea flour, plant milk, and vanilla into a smooth batter.",
+      "Heat a little oil in a frying pan over medium heat.",
+      "Dip each slice of bread into the batter, coating both sides.",
+      "Fry until golden brown on both sides and serve warm with sugar or syrup."
+    ]
+  }
+}

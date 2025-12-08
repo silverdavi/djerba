@@ -1,0 +1,102 @@
+{
+  "id": "green_beans",
+  "image": "green_beans.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "שעועית ירוקה",
+    "es": "Judías Verdes",
+    "ar": "لوبيا خضراء",
+    "en": "Green Beans"
+  },
+  "description": {
+    "he": "תבשיל צפון-אפריקאי קלאסי המכונה \"לוביה ח'דרה\" (שעועית ירוקה בערבית), המוגש ברוטב עגבניות עשיר ופיקנטי. המתכון הזה מדגיש את המתיקות הטבעית של העגבניות והשום ללא שימוש בבשר, ומשמש כתוספת נהדרת לקוסקוס או אורז.",
+    "es": "Un estofado clásico norteafricano conocido como \"Loubia Khadra\", que presenta judías verdes tiernas en una salsa de tomate rica y picante. Esta versión vegana resalta la dulzura natural de los tomates y el ajo, perfecta para acompañar cuscús.",
+    "ar": "مرقة \"لوبيا خضراء\" كلاسيكية بصوص طماطم حارة ومفوّحة. هذه الوصفة نباتية وتعتمد على نكهة الطماطم والثوم والفلفل الأحمر، وتُقدم عادةً بجانب الكسكسي أو الأرز.",
+    "en": "A classic North African stew known as \"Loubia Khadra,\" featuring tender green beans in a rich, spicy tomato sauce. This naturally vegan version highlights the sweetness of tomatoes and garlic, making it a perfect side for couscous or rice."
+  },
+  "ingredients": {
+    "he": [
+      "1 חבילת שעועית ירוקה (טרייה או קפואה)",
+      "1 בצל בינוני, קצוץ לקוביות",
+      "2-3 כפות שמן",
+      "1 כף פפריקה מתוקה",
+      "1 עגבניה טרייה, קצוצה",
+      "1 פלפל חריף קטן (אופציונלי)",
+      "3-4 שיני שום כתושות",
+      "1 קופסה קטנה רסק עגבניות",
+      "מלח ופלפל שחור לפי הטעם",
+      "שומשום קלוי (להגשה)"
+    ],
+    "es": [
+      "1 paquete de judías verdes (frescas o congeladas)",
+      "1 cebolla mediana, picada en cubos",
+      "2-3 cdas de aceite",
+      "1 cda de pimentón dulce (paprika)",
+      "1 tomate fresco, picado",
+      "1 chile pequeño (opcional)",
+      "3-4 dientes de ajo, machacados",
+      "1 lata pequeña de pasta de tomate",
+      "Sal y pimienta negra al gusto",
+      "Sésamo tostado (para servir)"
+    ],
+    "ar": [
+      "1 ساشي لوبيا خضراء (فريشك أو كونجلي)",
+      "1 بصلة متوسطة مقصوصة",
+      "2-3 مغارف زيت",
+      "1 مغرفة فلفل أحمر (بابريكا)",
+      "1 كعبة طماطم مقصوصة",
+      "1 فلفل حار صغير (اختياري)",
+      "3-4 سنون ثوم مرحي",
+      "1 حكة طماطم معجونة صغيرة",
+      "ملح وفلفل أكحل حسب الذوق",
+      "جلجلان (سمسم) مقلي للزينة"
+    ],
+    "en": [
+      "1 package green beans (fresh or frozen)",
+      "1 medium onion, diced",
+      "2-3 tbsp oil",
+      "1 tbsp sweet paprika",
+      "1 fresh tomato, chopped",
+      "1 small chili pepper (optional)",
+      "3-4 cloves garlic, crushed",
+      "1 small can tomato paste",
+      "Salt and black pepper to taste",
+      "Toasted sesame seeds (for garnish)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן במחבת רחבה ומטגנים את הבצל עד להזהבה קלה.",
+      "מוסיפים את הפפריקה, מערבבים, ולאחר 2 דקות מוסיפים את העגבניה הקצוצה והפלפל החריף.",
+      "מתבלים במלח, פלפל שחור ושום, ומוסיפים את רסק העגבניות (ניתן להוסיף מעט מים אם סמיך מדי).",
+      "כשהרוטב מבעבע, מוסיפים את השעועית הירוקה ומבשלים כ-10 דקות נוספות.",
+      "מכבים את האש ומפזרים שומשום קלוי מעל לפני ההגשה."
+    ],
+    "es": [
+      "Calentar aceite en una sartén grande y sofreír la cebolla hasta que esté ligeramente dorada.",
+      "Añadir el pimentón, mezclar, y después de 2 minutos agregar el tomate picado y el chile.",
+      "Sazonar con sal, pimienta negra y ajo, luego incorporar la pasta de tomate (añadir un poco de agua si es necesario).",
+      "Cuando la salsa hierva, añadir las judías verdes y cocinar por unos 10 minutos.",
+      "Apagar el fuego y espolvorear sésamo tostado por encima antes de servir."
+    ],
+    "ar": [
+      "سخّن الزيت في طنجرة أو مقلاة واسعة وقلّي البصل حتى يصفر لونه.",
+      "زيد الفلفل الأحمر وحرّك، وبعد دقيقتين زيد الطماطم المقصوصة والفلفل الحار.",
+      "فوّح بالملح والفلفل الأكحل والثوم، وزيد الطماطم المعجونة (زيد شوية ماء إذا لزم).",
+      "كيف تغلي المرقة، ارمي اللوبيا الخضراء وخلّيها تطيب لمدة 10 دقائق.",
+      "طفّي النار ورش شوية جلجلان (سمسم) مقلي من الفوق قبل التقديم."
+    ],
+    "en": [
+      "Heat oil in a large pan and sauté the onion until slightly golden.",
+      "Add paprika, stir, and after 2 minutes add the chopped tomato and chili pepper.",
+      "Season with salt, black pepper, and garlic, then stir in the tomato paste (add a splash of water if too thick).",
+      "Once the sauce is bubbling, add the green beans and cook for about 10 minutes.",
+      "Turn off the heat and sprinkle with toasted sesame seeds before serving."
+    ]
+  }
+}

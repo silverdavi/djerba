@@ -1,0 +1,94 @@
+{
+  "id": "shlomit_dressing",
+  "image": "shlomit_dressing.png",
+  "meta": {
+    "servings": "1 cup",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "רוטב שלומית",
+    "es": "Aderezo Shlomit",
+    "ar": "صلصة شلوميت",
+    "en": "Shlomit’s Dressing"
+  },
+  "description": {
+    "he": "רוטב עשיר וקרמי שהפך למנה קבועה בשולחן השבת של המשפחה, מצוין לתיבול סלטי כרוב או חסה. המנה נקראת על שם בת המשפחה שהביאה את המתכון, והיא משתלבת נהדר לצד המנות הצפון-אפריקאיות המסורתיות.",
+    "es": "Un aderezo rico y cremoso que se ha convertido en un básico en la mesa de Shabat de la familia, perfecto para ensaladas de repollo o lechuga. Lleva el nombre del familiar que compartió la receta y acompaña muy bien los platos tradicionales.",
+    "ar": "صلصة خاثرة وبنينة ولات أساسية في طاولة السبت عند العائلة، تواتي برشا سلاطة الكرنب ولا الخس. تسمات على اسم قريبة العائلة اللي جابت الوصفة، وتجي هايلة مع الماكلة التقليدية.",
+    "en": "A rich, creamy dressing that has become a staple at the family Shabbat table, perfect for seasoning cabbage or lettuce salads. Named after the family member who shared the recipe, it pairs wonderfully with traditional North African dishes."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס שמן",
+      "1/4 כוס מים",
+      "1 כף מיונז טבעוני",
+      "1 כפית חרדל",
+      "1 כף מיץ לימון",
+      "3 כפות סוכר",
+      "1 כף רוטב סויה",
+      "1 שן שום כתושה",
+      "מלח"
+    ],
+    "es": [
+      "1/2 taza de aceite",
+      "1/4 taza de agua",
+      "1 cda mayonesa vegana",
+      "1 cdta mostaza",
+      "1 cda jugo de limón",
+      "3 cdas azúcar",
+      "1 cda salsa de soja",
+      "1 diente de ajo machacado",
+      "Sal"
+    ],
+    "ar": [
+      "نص كأس زيت",
+      "ربع كأس ماء",
+      "مغرفة كبيرة مايونيز نباتي",
+      "مغرفة صغيرة موتارد",
+      "مغرفة كبيرة عصير قارص",
+      "3 مغارف كبار سكر",
+      "مغرفة كبيرة صلصة صوجا",
+      "سنة ثوم مرحية",
+      "ملح"
+    ],
+    "en": [
+      "1/2 cup oil",
+      "1/4 cup water",
+      "1 tbsp vegan mayonnaise",
+      "1 tsp mustard",
+      "1 tbsp lemon juice",
+      "3 tbsp sugar",
+      "1 tbsp soy sauce",
+      "1 crushed garlic clove",
+      "Salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכניסים את כל המרכיבים לבלנדר וטוחנים עד לקבלת מרקם אחיד.",
+      "טועמים ומתקנים תיבול לפי הצורך.",
+      "יוצקים מעל סלט כרוב (לבן או סגול) או חסה.",
+      "מומלץ לפזר שקדים קלויים או חטיף פריך מלמעלה לפני ההגשה."
+    ],
+    "es": [
+      "Colocar todos los ingredientes en una licuadora y mezclar hasta obtener una textura uniforme.",
+      "Probar y ajustar la sazón si es necesario.",
+      "Verter sobre ensalada de repollo (blanco o morado) o lechuga.",
+      "Se recomienda espolvorear almendras tostadas o un snack crujiente antes de servir."
+    ],
+    "ar": [
+      "حط كل المكونات في الخلاط (blender) وارحيهم مليح حتى تولي صلصة رطبة.",
+      "ذوق وريڨل التفوِيح كان لازم.",
+      "صب الصلصة فوق سلاطة الكرنب (الأبيض ولا الأحمر) ولا الخس.",
+      "من المستحسن ترش عليها لوز محمص ولا حاجة تقرمش قبل التقديم."
+    ],
+    "en": [
+      "Place all ingredients in a blender and blend until smooth.",
+      "Taste and adjust seasoning as needed.",
+      "Pour over cabbage salad (white or purple) or lettuce.",
+      "It is recommended to sprinkle roasted almonds or a crunchy snack on top before serving."
+    ]
+  }
+}

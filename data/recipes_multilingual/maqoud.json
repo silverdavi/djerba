@@ -3,88 +3,88 @@
   "image": "maqoud.png",
   "meta": {
     "servings": "4–6",
-    "prep_time": "20 min",
+    "prep_time": "30 min",
     "cook_time": "30 min",
     "difficulty": "Medium"
   },
   "name": {
     "he": "מעקוד",
     "es": "Maqoud",
-    "ar": "المعقود",
+    "ar": "المعقودة",
     "en": "Maqoud"
   },
   "description": {
-    "he": "מעקוד הוא פשטידת תפוחי אדמה תוניסאית, אהובה בבתים יהודיים בג'רבה לשבת ולחגים. השם נגזר מהשורש הערבי ל\"מכווון\" או \"קשור\", ומתייחס לאופן ההכנה המוקפד של המנה המנחמת והמשביעה.",
-    "es": "El Maqoud es un pastel de papa tunecino, apreciado en los hogares judíos de Djerba para Shabat y fiestas. Su nombre deriva de la raíz árabe para 'intencionado' o 'ligado', refiriéndose a la cuidadosa preparación de este plato reconfortante.",
-    "ar": "المعقود هو طاجين بطاطا تونسي، محبوب عند اليهود الجرابة في السبت والأعياد. الاسم جاي من كلمة 'مقصود' أو 'معقود' (مربوط)، ويرمز لطريقة تحضير هالأكلة البنينة والمشبّعة.",
-    "en": "Maqoud is a savory Tunisian potato pie, cherished in Djerban Jewish homes for Shabbat and holidays. The name likely derives from the Arabic root for 'intended' or 'bound,' referring to the careful preparation of this comforting dish."
+    "he": "פשטידת תפוחי אדמה תוניסאית מסורתית, שבמקור מבוססת על ביצים אך בגרסה זו מתייצבת בעזרת קמח חומוס המעניק מרקם נימוח וקרום זהוב. השם נגזר מהשורש הערבי ע-ק-ד (קשור או סמיך). מנה אהובה במיוחד בשבתות ובחגים בקרב יהודי ג'רבה.",
+    "es": "Un pastel de papa tunecino tradicional, reinventado aquí sin huevos utilizando harina de garbanzo para lograr una textura suave y dorada. El nombre deriva del árabe 'ma'qouda' (anudado o espesado). Es un plato reconfortante básico, servido a menudo en Shabat y festividades.",
+    "ar": "طاجين أو فطيرة البطاطا التونسية المحبوبة، في هذه الوصفة النباتية نستبدل البيض بدقيق الحمص للحصول على قوام متماسك ولذيذ. الاسم مشتق من الكلمة العربية 'معقودة'. أكلة مريحة تقدم عادة في أيام السبت والأعياد لدى يهود جربة.",
+    "en": "A traditional Tunisian potato pie, reimagined here without eggs by using chickpea flour to create a tender texture and golden crust. The name derives from the Arabic 'ma'qouda' (knotted or thickened). It is a staple comfort food, often served on Shabbat and holidays."
   },
   "ingredients": {
     "he": [
-      "4-5 תפוחי אדמה",
+      "5 תפוחי אדמה בינוניים",
       "1 כוס קמח חומוס + 1 כוס מים (תחליף לביצים)",
-      "1/2 כוס אפונה וגזר (מבושלים)",
-      "חופן פטרוזיליה קצוצה",
-      "1 כף קמח רגיל",
-      "תבלינים (מלח, פלפל, כורכום)",
+      "1/2 צרור פטרוזיליה קצוצה",
+      "1 כוס אפונה וגזר (שימורים או מבושל)",
+      "1 כף קמח לבן",
+      "תבלינים: מלח, פלפל, כורכום",
       "שמן לטיגון"
     ],
     "es": [
-      "4-5 papas",
-      "1 taza harina de garbanzo + 1 taza agua (sustituto de huevo)",
-      "1/2 taza guisantes y zanahorias (cocidos)",
-      "Un puñado de perejil picado",
-      "1 cda harina común",
-      "Especias (sal, pimienta, cúrcuma)",
+      "5 papas medianas",
+      "1 taza de harina de garbanzo + 1 taza de agua (sustituto de huevo)",
+      "1/2 manojo de perejil picado",
+      "1 taza de guisantes y zanahorias (cocidos)",
+      "1 cucharada de harina de trigo",
+      "Especias: sal, pimienta, cúrcuma",
       "Aceite para freír"
     ],
     "ar": [
-      "4-5 كعبات بطاطا",
-      "1 كأس دقيق حمص + 1 كأس ماء (في عوض العظم)",
-      "نص كأس جلبانة وسفنارية (طايبة)",
-      "شوي معدנוس مقصوص",
-      "1 مغرفة فرينة",
-      "فاحات (ملح، فلفل أكحل، كركم)",
-      "زيت للقليان"
+      "5 كعبات بطاطا متوسطة",
+      "1 كأس دقيق حمص + 1 كأس ماء (بديل العظم)",
+      "نصف ربطة معدنوس مقصوص",
+      "1 كأس جلبانة وسفنارية (طايبة)",
+      "1 مغرفة كبيرة فرينة",
+      "توابل: ملح، فلفل أكحل، كركم",
+      "زيت للقلي"
     ],
     "en": [
-      "4-5 potatoes",
-      "1 cup chickpea flour + 1 cup water (egg substitute)",
-      "1/2 cup peas and carrots (cooked)",
-      "Handful chopped parsley",
-      "1 tbsp all-purpose flour",
-      "Spices (salt, pepper, turmeric)",
+      "5 medium potatoes",
+      "1 cup chickpea flour + 1 cup water (egg replacer)",
+      "1/2 bunch chopped parsley",
+      "1 cup peas and carrots (cooked/canned)",
+      "1 tbsp wheat flour",
+      "Spices: salt, pepper, turmeric",
       "Oil for frying"
     ]
   },
   "steps": {
     "he": [
       "מבשלים את תפוחי האדמה במים עד לריכוך ומועכים לפירה.",
-      "מערבבים את קמח החומוס עם המים בקערה נפרדת עד לקבלת בלילה חלקה.",
-      "מוסיפים לפירה את בלילת החומוס, כף הקמח, הפטרוזיליה, הירקות והתבלינים ומערבבים היטב.",
-      "מחממים שמן במחבת עמוקה, שופכים את הבלילה ומבשלים על אש נמוכה עם מכסה עד להתייצבות.",
-      "הופכים את המעקוד בעזרת צלחת ומחזירים למחבת לטיגון הצד השני עד להזהבה."
+      "בקערה נפרדת, מערבבים קמח חומוס ומים לבלילה חלקה ללא גושים.",
+      "מערבבים את הפירה עם בלילת החומוס, כף קמח, פטרוזיליה, ירקות ותבלינים.",
+      "מחממים שמן במחבת עמוקה (נון-סטיק), יוצקים את הבלילה ומבשלים על אש נמוכה במכסה סגור עד להתייצבות (לוקח יותר זמן מביצים).",
+      "הופכים בזהירות בעזרת צלחת ומחזירים למחבת לטיגון הצד השני עד להזהבה."
     ],
     "es": [
-      "Hervir las papas hasta que estén suaves y hacerlas puré.",
-      "Mezclar la harina de garbanzo con el agua en un bol aparte hasta obtener una masa suave.",
-      "Añadir al puré la mezcla de garbanzo, la harina extra, el perejil, las verduras y las especias; mezclar bien.",
-      "Calentar aceite en una sartén profunda, verter la mezcla y cocinar a fuego lento tapado hasta que cuaje.",
-      "Dar la vuelta al Maqoud con ayuda de un plato y freír el otro lado hasta que se dore."
+      "Hervir las papas hasta que estén tiernas y hacerlas puré.",
+      "En un tazón aparte, mezclar la harina de garbanzo y el agua hasta obtener una masa suave.",
+      "Combinar el puré con la mezcla de garbanzo, harina de trigo, perejil, verduras y especias.",
+      "Calentar aceite en una sartén profunda antiadherente, verter la mezcla y cocinar a fuego lento tapado hasta que cuaje (tarda más que con huevos).",
+      "Dar la vuelta con cuidado usando un plato y cocinar el otro lado hasta que esté dorado."
     ],
     "ar": [
-      "اسمط البطاطا في الماء لين تطيب وارحيها بش تولي پيري.",
-      "خلّط دقيق الحمص مع الماء بالباهي لين يولي جاري.",
-      "زيد خليط الحمص للبطاطا مع مغرفة الفرينة، المعدנוس، الجلبانة والسفنارية والفاحات وحرّك.",
-      "سخّن الزيت في مقلة غارقة، صب الخليط وطيّب على نار هادية وغطّيها لين تشد روحها.",
-      "اقلب المعقود بالسياسة باستعمال صحن ورجّعو للمقلة يطيب من الشيرة لخرى."
+      "اسمط البطاطا في الماء حتى تطيب وارحيها (بيّرية).",
+      "خلط دقيق الحمص مع الماء في صحفة وحدها حتى تولي عجينة جارية بلاش كعابر.",
+      "خلط البطاطا مع خليط الحمص، مغرفة الفرينة، المعدنوس، الجلبانة والسفنارية والفاحات.",
+      "سخّن الزيت في مقلة غارقة (ما تلصقش)، صب الخليط وطيبها على نار هادية ومغطية حتى تشد روحها (تاخو وقت أكثر من العظم).",
+      "اقلب المعقودة بحذر باستعمال تبسي ورجعها للمقلة باش تطيب من الجهة الأخرى."
     ],
     "en": [
-      "Boil the potatoes until soft and mash into a puree.",
-      "Mix the chickpea flour with water in a separate bowl until smooth.",
-      "Add the chickpea batter, extra flour, parsley, vegetables, and spices to the potatoes and mix well.",
-      "Heat oil in a deep pan, pour in the batter, and cook on low heat covered until set.",
-      "Flip the Maqoud using a plate and fry the other side until golden brown."
+      "Boil potatoes until tender and mash them.",
+      "In a separate bowl, whisk chickpea flour and water into a smooth batter.",
+      "Combine mashed potatoes with the chickpea mixture, wheat flour, parsley, vegetables, and spices.",
+      "Heat oil in a deep non-stick pan, pour in the batter, cover, and cook on low heat until set (takes longer than eggs).",
+      "Flip carefully using a plate and cook the other side until golden."
     ]
   }
 }

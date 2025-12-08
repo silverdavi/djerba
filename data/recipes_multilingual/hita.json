@@ -1,0 +1,90 @@
+{
+  "id": "hita",
+  "image": "hita.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "Overnight",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חיטה",
+    "es": "Trigo de Hamin",
+    "ar": "القمح",
+    "en": "Hita"
+  },
+  "description": {
+    "he": "מרכיב קלאסי של החמין (סחינה או תפינה), המתבשל בתוך שקית בד או קוקי בתוך הסיר הראשי. במקור החיטה סופגת את שומן הבשר, אך גרסה טבעונית זו משתמשת בבצל מטוגן היטב וציר עשיר כדי להשיג את הטעם העמוק והמרקם הנימוח המוכר.",
+    "es": "Un componente esencial de la Adafina o Hamin, cocinado lentamente en una bolsa dentro de la olla principal. Aunque tradicionalmente se cocina con la grasa de la carne, esta versión vegana utiliza cebollas muy caramelizadas y un caldo rico para lograr esa textura suave y sabor profundo.",
+    "ar": "عنصر أساسي في السخينة أو التدفينة، يطيب بمهل داخل صرة أو كيس في وسط الطنجرة. في الأصل يمتص ليدام متاع اللحم، لكن في هاد الوصفة النباتية عوّضنا اللحم بالبصل المقلي مليح ومرقة خاثرة باش يجي القمح بنين وذايب.",
+    "en": "A classic component of the Shabbat stew (Hamin/Adafina), slow-cooked in a bag submerged in the main pot. While traditionally flavored by meat juices, this vegan version relies on deeply caramelized onions and savory broth to achieve the signature melting texture and nutty flavor."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות חיטה שלמה (שטופה)",
+      "1 בצל גדול",
+      "10-11 שיני שום (שלמות)",
+      "1 כף פפריקה מתוקה",
+      "1/2 כפית פלפל לבן",
+      "מלח לפי הטעם",
+      "ציר ירקות עשיר (מומלץ עם מעט שמרי בירה)"
+    ],
+    "es": [
+      "2 tazas de trigo en grano (lavado)",
+      "1 cebolla grande",
+      "10-11 dientes de ajo (enteros)",
+      "1 cda de pimentón dulce (paprika)",
+      "1/2 cdta de pimienta blanca",
+      "Sal al gusto",
+      "Caldo de verduras rico (con levadura nutricional)"
+    ],
+    "ar": [
+      "2 كؤوس قمح (مغسول)",
+      "1 بصلة كبيرة",
+      "10-11 فص ثوم (صحيح)",
+      "1 مغرفة كبيرة فلفل أحمر (بابريكا)",
+      "نصف مغرفة صغيرة فلفل أبيض",
+      "ملح حسب الذوق",
+      "مرقة خضار بنينة (مع شوية خميرة بيرة)"
+    ],
+    "en": [
+      "2 cups whole wheat berries (rinsed)",
+      "1 large onion",
+      "10-11 whole garlic cloves",
+      "1 tbsp sweet paprika",
+      "1/2 tsp white pepper",
+      "Salt to taste",
+      "Rich vegetable broth (with nutritional yeast)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל במחבת על אש נמוכה עד שהוא משחים מאוד (צבע חום כהה).",
+      "מוסיפים את השום והחיטה השטופה ומטגנים קלות יחד עם התבלינים.",
+      "מעבירים את התערובת לשקית קוקי (או שקית בד לבישול).",
+      "מוסיפים לשקית מים או ציר ירקות (ביחס של 1/2 כוס נוזלים על כל כוס חיטה).",
+      "קושרים את השקית היטב (משאירים מעט רווח לתפיחה) ומניחים בתוך סיר החמין לבישול איטי ללילה."
+    ],
+    "es": [
+      "Sofreír la cebolla a fuego lento hasta que esté muy oscura (casi caramelizada).",
+      "Añadir el ajo, el trigo lavado y las especias, y sofreír brevemente.",
+      "Transferir la mezcla a una bolsa de hornear o bolsa de tela para cocinar.",
+      "Añadir agua o caldo a la bolsa (proporción: 1/2 taza de líquido por 1 taza de trigo).",
+      "Atar bien la bolsa y colocarla dentro de la olla de Hamin/Adafina para cocinar durante la noche."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت على نار هادية حتى يتحمر مليح ويولي لونه بني غامق.",
+      "زيد الثوم والقمح المغسول والفواحات، وقلّيهم شوية مع بعض.",
+      "حط الخليط الكل في كيس الطهي (كيس الشواء أو صرة قماش).",
+      "صب الماء أو المرقة في الكيس (نص كأس ماء لكل كأس قمح).",
+      "اربط الكيس مليح وحطه في طنجرة السخينة/التدفينة باش يطيب ليلة كاملة."
+    ],
+    "en": [
+      "Sauté the onion on low heat until it turns dark brown (deeply caramelized).",
+      "Add the garlic, rinsed wheat, and spices, frying briefly to toast the grain.",
+      "Transfer the mixture into a cooking bag (oven bag or muslin cloth).",
+      "Add water or broth to the bag (ratio: 1/2 cup liquid per 1 cup wheat).",
+      "Tie the bag securely (leaving room for expansion) and place inside the Shabbat stew pot to cook overnight."
+    ]
+  }
+}

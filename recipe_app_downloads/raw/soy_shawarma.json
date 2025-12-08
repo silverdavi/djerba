@@ -1,0 +1,20 @@
+{
+  "name": "Soy Shawarma",
+  "ingredients": [
+    "Soy strips",
+    "Shawarma spice",
+    "Salt",
+    "White pepper",
+    "Garlic powder",
+    "Was Al hanot",
+    "Amba",
+    "Cumin"
+  ],
+  "instructions": [
+    "Prepare vegetable soup",
+    "Cook the dried soy strips in the stock along with spices: shawarma spice, salt, white pepper, garlic powder, ras al hanout. (No more than 20 minutes assuming the vegetable stock is boiling when you add the strips).",
+    "heat a pan with a little oil, fry the onion, add the strips until they are browned, add shawarma spice, a little cumin and ras al hanout to the pan, and most importantly a little amba at the end of frying."
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

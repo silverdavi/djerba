@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bsisa – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>La Bsisa</span></div>
+        <div class="title-word lang-he"><span>בשישה</span></div>
+        <div class="title-word lang-en"><span>Bsisa</span></div>
+        <div class="title-word lang-ar"><span>البسيسة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>תערובת דגנים ותבלינים קלויים, המזוהה במיוחד עם יהדות תוניסיה (ג&#x27;רבה) וטקס &quot;בשישת המפתח&quot; בראש חודש ניסן. השם נגזר מהמילה הערבית &quot;בסיסה&quot; (לערבב), ומתייחס לשיטה העתיקה של ערבוב הקמח עם שמן ותמרים. מנה טבעונית במקורה המסמלת שפע והתחלות חדשות.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Una mezcla tradicional de granos tostados y especias, famosa entre los judíos de Túnez por la ceremonia de la llave en Rosh Jodesh Nisán. El nombre proviene del árabe &quot;bsisa&quot; (mezclar), refiriéndose al método de combinar la harina con aceite. Naturalmente vegana, simboliza la abundancia.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>خليط تقليدي من الحبوب والتوابل المحمصة، يشتهر عند يهود تونس (جربة) خاصة في احتفال &quot;بسيسة المفتاح&quot; في رأس شهر نيسان. الاسم مشتق من العربية &quot;بسيسة&quot; (المزج)، وهي أكلة نباتية بطبعها ترمز للوفرة والبدايات الجديدة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A traditional roasted grain and spice mixture, central to the Tunisian Jewish &quot;Bsisa of the Key&quot; ceremony on Rosh Chodesh Nissan. The name comes from the Arabic &quot;bsisa&quot; (to mix). Naturally vegan, this ancient energy food symbolizes abundance and new beginnings.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">1 jar</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/bsisa_dish.png" alt="Bsisa dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>2 tazas de granos de trigo</li>
+              <li>2 tazas de cebada</li>
+              <li>2 cdas de semillas de cilantro</li>
+              <li>1 cda de comino</li>
+              <li>1 cda de semillas de hinojo</li>
+              <li>Aceite de oliva (para servir)</li>
+              <li>Dátiles picados o azúcar</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Tostar los granos de trigo y cebada en una sartén seca hasta que estén dorados.</li>
+              <li class="step"><span class="step-num">2.</span>Añadir las especias (cilantro, comino, hinojo) y tostar brevemente.</li>
+              <li class="step"><span class="step-num">3.</span>Moler todo junto hasta obtener una harina gruesa.</li>
+              <li class="step"><span class="step-num">4.</span>Para servir: mezclar en un bol con aceite de oliva y dátiles (o azúcar) hasta formar una pasta.</li>
+              <li class="step"><span class="step-num">5.</span>En Rosh Jodesh Nisán, es tradición mezclar la masa con una llave para la buena fortuna.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>2 כוסות גרגירי חיטה</li>
+              <li>2 כוסות גרגירי שעורה</li>
+              <li>2 כפות זרעי כוסברה</li>
+              <li>1 כף כמון</li>
+              <li>1 כף זרעי שומר</li>
+              <li>שמן זית (להגשה)</li>
+              <li>תמרים קצוצים או סוכר</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>קולים את גרגירי החיטה והשעורה במחבת יבשה עד להזהבה ופריכות.</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את התבלינים (כוסברה, כמון, שומר) לקלייה קצרה נוספת לפתיחת ארומה.</li>
+              <li class="step"><span class="step-num">3.</span>טוחנים את הכל יחד לקמח גס במעבד מזון או מטחנת תבלינים.</li>
+              <li class="step"><span class="step-num">4.</span>להגשה: מערבבים בקערה עם שמן זית ותמרים (או סוכר) עד לקבלת מרקם משחתי.</li>
+              <li class="step"><span class="step-num">5.</span>בראש חודש ניסן, נהוג לערבב את הבלילה בעזרת מפתח כסגולה לפרנסה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>2 cups wheat berries</li>
+              <li>2 cups barley grains</li>
+              <li>2 tbsp coriander seeds</li>
+              <li>1 tbsp cumin</li>
+              <li>1 tbsp fennel seeds</li>
+              <li>Olive oil (for serving)</li>
+              <li>Chopped dates or sugar</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Roast the wheat and barley grains in a dry pan until golden and crisp.</li>
+              <li class="step"><span class="step-num">2.</span>Add the spices (coriander, cumin, fennel) for a brief roast to release aromas.</li>
+              <li class="step"><span class="step-num">3.</span>Grind everything together into a coarse flour using a food processor.</li>
+              <li class="step"><span class="step-num">4.</span>To serve: Mix in a bowl with olive oil and dates (or sugar) to create a paste.</li>
+              <li class="step"><span class="step-num">5.</span>On Rosh Chodesh Nissan, it is traditional to mix the batter using a key for good fortune.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>2 كأس قمح</li>
+              <li>2 كأس شعير</li>
+              <li>2 ملاعق كزبرة (تابل)</li>
+              <li>1 ملعقة كمون</li>
+              <li>1 ملعقة بسباس (شمار)</li>
+              <li>زيت زيتون (للتقديم)</li>
+              <li>تمر مقطع أو سكر</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>حمّس القمح والشعير في طاوة (مقلاة) ناشفة حتى يحمار لونه.</li>
+              <li class="step"><span class="step-num">2.</span>زيد التوابل (تابل، كمون، بسباس) وحمّس شوية باش تطلع الريحة.</li>
+              <li class="step"><span class="step-num">3.</span>ارحي كل شيء مع بعضه حتى يولي دقيق (بودرة) خشن شوية.</li>
+              <li class="step"><span class="step-num">4.</span>للتقديم: خلّط في صحفة مع زيت الزيتون والتمر (أو السكر) حتى تولي عجينة.</li>
+              <li class="step"><span class="step-num">5.</span>في عادة &quot;بسيسة المفتاح&quot;، نخلطوها بمفتاح للبركة والرزق.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

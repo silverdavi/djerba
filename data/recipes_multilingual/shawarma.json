@@ -1,0 +1,90 @@
+{
+  "id": "shawarma",
+  "image": "shawarma.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "שווארמה",
+    "es": "Shawarma",
+    "ar": "الشاورما",
+    "en": "Shawarma"
+  },
+  "description": {
+    "he": "במקור מנה של שכבות בשר צלוי, שמה נגזר מהמילה הטורקית \"צ'בירימה\" (סיבוב). גרסה טבעונית זו משתמשת ברצועות סויה מתובלות בראס אל חנות ועמבה כדי לשחזר את טעמי הרחוב האהובים והעסיסיים, ללא שימוש בבעלי חיים.",
+    "es": "Tradicionalmente carne asada en un asador vertical, su nombre proviene del turco *çevirme* (girar). Esta adaptación vegana utiliza tiras de soja sazonadas con Ras el Hanout y Amba para recrear los sabores especiados de la comida callejera, sin ingredientes animales.",
+    "ar": "الشاورما أصلها لحم مشوي، واسمها جاي من الكلمة التركية \"تشيفيرمة\" (تدوير). هذي النسخة النباتية معمولة بشرائح الصويا ومفوحة براس الحانوت والعمبة باش تعطي نفس البنة متاع ماكلة الشارع، أما بلاش لحم.",
+    "en": "Traditionally made with meat roasted on a vertical spit, the name comes from the Turkish word *çevirme* (turning). This vegan adaptation uses textured soy strips seasoned with Ras el Hanout and Amba to recreate the savory, spiced street-food experience."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות רצועות סויה יבשות",
+      "4 כוסות ציר ירקות",
+      "1 בצל גדול",
+      "תבלינים לבישול: תבלין שווארמה, מלח, פלפל לבן, אבקת שום, ראס אל חנות",
+      "תבלינים לטיגון: כמון, תבלין שווארמה, ראס אל חנות",
+      "1 כף עמבה",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "2 tazas de tiras de soja texturizada (seca)",
+      "4 tazas de caldo de verduras",
+      "1 cebolla grande",
+      "Especias (caldo): mezcla para shawarma, sal, pimienta blanca, ajo en polvo, Ras el Hanout",
+      "Especias (sartén): comino, mezcla para shawarma, Ras el Hanout",
+      "1 cucharada de Amba (salsa de mango)",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "2 كيسان شرائح صويا شايحة",
+      "4 كيسان مرقة خضرة",
+      "1 بصلة كبيرة",
+      "فاحات السليق: تابل شاورما، ملح، فلفل أبيض، ثوم مرحي، راس الحانوت",
+      "فاحات القليان: كمون، تابل شاورما، راس الحانوت",
+      "1 مغرفة كبيرة عمبة",
+      "زيت للقليان"
+    ],
+    "en": [
+      "2 cups dry soy strips/curls",
+      "4 cups vegetable stock",
+      "1 large onion",
+      "Boiling spices: Shawarma mix, salt, white pepper, garlic powder, Ras el Hanout",
+      "Frying spices: Cumin, Shawarma mix, Ras el Hanout",
+      "1 tbsp Amba (pickled mango sauce)",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מרתיחים סיר עם ציר הירקות ותבליני הבישול (שווארמה, מלח, פלפל, שום, ראס אל חנות).",
+      "מוסיפים את רצועות הסויה ומבשלים כ-20 דקות עד לריכוך. מסננים היטב.",
+      "במחבת רחבה, מטגנים את הבצל בשמן עד להזהבה.",
+      "מוסיפים את הסויה למחבת ומטגנים עד להשחמה.",
+      "מתבלים בתבלין שווארמה, מעט כמון וראס אל חנות. בסוף הטיגון מוסיפים את העמבה ומערבבים היטב."
+    ],
+    "es": [
+      "Hervir el caldo de verduras con las especias de cocción (mezcla shawarma, sal, pimienta, ajo, Ras el Hanout).",
+      "Añadir la soja y cocinar 20 minutos hasta que esté tierna. Escurrir bien.",
+      "En una sartén, sofreír la cebolla en aceite hasta que esté dorada.",
+      "Añadir la soja a la sartén y freír hasta que se dore.",
+      "Sazonar con especias para shawarma, un poco de comino y Ras el Hanout. Al final, añadir el Amba y mezclar bien."
+    ],
+    "ar": [
+      "غلّي مرقة الخضرة في طنجرة مع فاحات السليق (تابل شاورما، ملح، فلفل، ثوم، راس الحانوت).",
+      "رمي شرائح الصويا وخلّيها تطيب 20 دقيقة لين تطرى،  ومبعد قطّرها مليح.",
+      "في مقلاة، قلّي البصل في الزيت لين يحمار.",
+      "زيد الصويا للمقلاة وقلّيها لين تاخو لون (تتحمّر).",
+      "فوّח بتابل الشاورما، شوية كمون وراس الحانوت. في الآخر زيد العمبة وخلّط مليح."
+    ],
+    "en": [
+      "Boil vegetable stock in a pot with the boiling spices (shawarma mix, salt, pepper, garlic, Ras el Hanout).",
+      "Add soy strips and cook for 20 minutes until tender. Drain well.",
+      "In a pan, sauté the onion in oil until golden.",
+      "Add the soy strips to the pan and fry until browned.",
+      "Season with shawarma spice, a little cumin, and Ras el Hanout. Stir in the Amba at the very end of frying."
+    ]
+  }
+}

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apple Crumble – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Crumble de Manzana</span></div>
+        <div class="title-word lang-he"><span>קראמבל תפוחים</span></div>
+        <div class="title-word lang-en"><span>Apple Crumble</span></div>
+        <div class="title-word lang-ar"><span>كرامبل التفاح</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>אף על פי שאינו קינוח צפון-אפריקאי מסורתי, הקראמבל הפך לאהוב מאוד במטבחים יהודיים מודרניים כשדרוג לקינוחי פירות. הגרסה הטבעונית הזו מחליפה את החמאה בשמן קוקוס או מרגרינה כדי ליצור ציפוי פריך מעל תפוחים רכים ומתובלים בקינמון.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Aunque no es tradicionalmente norteafricano, este postre se ha convertido en un favorito de la familia moderna para Shabat. Esta adaptación vegana reemplaza la mantequilla con aceite de coco para crear una cubierta crujiente sobre manzanas especiadas.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>رغم أنه مش من الحلويات التقليدية متاعنا، الكرامبل ولاّ محبوب برشا في العايلات اليهودية الحديثة. هذي النسخة النباتية تعوض الزبدة بزيت جوز الهند باش تعمل طبقة مقرمشة فوق التفاح الطايب والمفوح بالقرفة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>While not a traditional North African dish, this dessert has become a modern family favorite for Shabbat. This vegan adaptation replaces dairy butter with coconut oil to create a perfectly crisp topping over soft, cinnamon-spiced apples.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">6–8</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">50–60 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/apple_crumble_dish.png" alt="Apple Crumble dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>8 manzanas medianas, peladas y en rodajas</li>
+              <li>3/4 taza de azúcar blanco</li>
+              <li>1/2 cdta de canela</li>
+              <li>1/8 cdta de sal</li>
+              <li>1/2 taza de avena</li>
+              <li>1/2 taza de harina</li>
+              <li>1/2 taza de azúcar moreno</li>
+              <li>1/4 cdta de polvo de hornear</li>
+              <li>1/8 cdta de bicarbonato</li>
+              <li>3 cdas de margarina vegana o aceite de coco sólido (frío)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 180°C.</li>
+              <li class="step"><span class="step-num">2.</span>Mezclar las manzanas con el azúcar blanco, la canela y la sal; colocar en un molde engrasado.</li>
+              <li class="step"><span class="step-num">3.</span>En otro bol, mezclar la avena, harina, azúcar moreno, polvos de hornear y bicarbonato.</li>
+              <li class="step"><span class="step-num">4.</span>Incorporar la grasa fría con los dedos hasta obtener una textura arenosa (migas).</li>
+              <li class="step"><span class="step-num">5.</span>Esparcir la mezcla sobre las manzanas.</li>
+              <li class="step"><span class="step-num">6.</span>Hornear 50-60 minutos hasta que las manzanas estén tiernas y la cubierta dorada.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>8 תפוחים בינוניים, קלופים ופרוסים</li>
+              <li>3/4 כוס סוכר לבן</li>
+              <li>1/2 כפית קינמון</li>
+              <li>1/8 כפית מלח</li>
+              <li>1/2 כוס שיבולת שועל (קוואקר)</li>
+              <li>1/2 כוס קמח</li>
+              <li>1/2 כוס סוכר חום</li>
+              <li>1/4 כפית אבקת אפייה</li>
+              <li>1/8 כפית סודה לשתייה</li>
+              <li>3 כפות מרגרינה טבעונית או שמן קוקוס מוצק (קר)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-180 מעלות.</li>
+              <li class="step"><span class="step-num">2.</span>מערבבים את התפוחים עם הסוכר הלבן, הקינמון והמלח ומסדרים בתבנית בינונית משומנת.</li>
+              <li class="step"><span class="step-num">3.</span>בקערה נפרדת, מערבבים את הקוואקר, הקמח, הסוכר החום, אבקת האפייה והסודה.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים את המרגרינה הקרה/שמן הקוקוס ומעבדים בידיים עד לקבלת פירורים.</li>
+              <li class="step"><span class="step-num">5.</span>מפזרים את תערובת הפירורים מעל התפוחים.</li>
+              <li class="step"><span class="step-num">6.</span>אופים במשך 50-60 דקות עד שהתפוחים רכים והציפוי שחום.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>8 medium apples, peeled and sliced</li>
+              <li>3/4 cup white sugar</li>
+              <li>1/2 tsp cinnamon</li>
+              <li>1/8 tsp salt</li>
+              <li>1/2 cup oatmeal</li>
+              <li>1/2 cup flour</li>
+              <li>1/2 cup brown sugar</li>
+              <li>1/4 tsp baking powder</li>
+              <li>1/8 tsp baking soda</li>
+              <li>3 tbsp cold vegan margarine or solid coconut oil</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Preheat oven to 180°C (350°F).</li>
+              <li class="step"><span class="step-num">2.</span>Mix apples, white sugar, cinnamon, and salt; place in a greased medium pan.</li>
+              <li class="step"><span class="step-num">3.</span>In a separate bowl, mix oatmeal, flour, brown sugar, baking powder, and baking soda.</li>
+              <li class="step"><span class="step-num">4.</span>Work in the cold vegan margarine/oil with your fingers until the mixture becomes crumbly.</li>
+              <li class="step"><span class="step-num">5.</span>Pour the crumble mixture evenly over the apples.</li>
+              <li class="step"><span class="step-num">6.</span>Bake for 50-60 minutes until the apples are soft and the topping is browned.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>8 تفاحات متوسطة (مقشرة ومقطعة شرائح)</li>
+              <li>3/4 كأس سكر أبيض</li>
+              <li>1/2 مغرفة صغيرة قرفة</li>
+              <li>رشة ملح</li>
+              <li>1/2 كأس شوفان</li>
+              <li>1/2 كأس فرينة</li>
+              <li>1/2 كأس سكر أسمر</li>
+              <li>1/4 مغرفة خميرة قاطو</li>
+              <li>رشة بيكربونات</li>
+              <li>3 مغارف كبار مارجرين نباتية أو زيت جوز الهند (بارد)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>سخّن الفور (الفرن) لدرجة 180.</li>
+              <li class="step"><span class="step-num">2.</span>خلّط التفاح مع السكر الأبيض والقرفة والملح وحطهم في طبق مدهون بالزيت.</li>
+              <li class="step"><span class="step-num">3.</span>في صحفة أخرى، خلّط الشوفان والفرينة والسكر الأسمر والخميرة والبيكربونات.</li>
+              <li class="step"><span class="step-num">4.</span>زيد عليهم المارجرين الباردة وخلط بأطراف صوابعك حتى تولي فتافيت (crumble).</li>
+              <li class="step"><span class="step-num">5.</span>صب الخليط فوق التفاح وغطيه مليح.</li>
+              <li class="step"><span class="step-num">6.</span>طيّبها في الفور لمدة 50-60 دقيقة حتى تتحمر من الفوق والتفاح يطيب.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

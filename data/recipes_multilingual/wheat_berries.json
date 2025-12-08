@@ -1,0 +1,90 @@
+{
+  "id": "wheat_berries",
+  "image": "wheat_berries.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "15 min",
+    "cook_time": "Overnight",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חיטה",
+    "es": "Trigo",
+    "ar": "القمح",
+    "en": "Wheat Berries"
+  },
+  "description": {
+    "he": "מרכיב קלאסי בחמין (אדפינה), שבמקור מתבשל לצד בשר וסופג את שומניו. גרסה טבעונית זו מקבלת את עומק הטעמים מבצל מטוגן היטב וציר ירקות עשיר, ומתבשלת בתוך שקית בתוך סיר החמין. השם אדפינה מגיע מהשורש הערבי ד.פ.נ (לקבור/להטמין).",
+    "es": "Tradicionalmente cocinado junto a la carne en el guiso de Shabat para absorber sus jugos, esta adaptación vegana utiliza cebolla caramelizada y caldo vegetal para lograr profundidad. Se cocina dentro de una bolsa en la olla de cocción lenta (Adafina/Hamin).",
+    "ar": "القمح هذا يطيب عادةً مع اللحم في طنجرة السخانة (الدفينة) نهار السبت. في هذه الوصفة النباتية، نستعمل مرقة خضرة وبصل مقلي مليح باش يعطي بنة قوية بلا شحم. يطيب في شكارة وسط الطنجرة.",
+    "en": "Traditionally cooked alongside meat in the Shabbat stew to absorb fats, this vegan adaptation relies on deeply caramelized onions and rich vegetable broth for flavor. It is cooked inside a roasting bag within the larger slow cooker pot."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות חיטה שלמה",
+      "1 בצל גדול",
+      "10-11 שיני שום שלמות",
+      "1 כף פפריקה",
+      "1/2 כפית פלפל לבן",
+      "1 כף אבקת מרק או ציר ירקות",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "2 tazas de trigo entero",
+      "1 cebolla grande",
+      "10-11 dientes de ajo enteros",
+      "1 cda de pimentón (paprika)",
+      "1/2 cdta de pimienta blanca",
+      "1 cda de caldo de verduras en polvo",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "2 كيسان قمح",
+      "1 بصلة كبيرة",
+      "10-11 سنة ثوم",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "نصف مغرفة صغيرة فلفل أبيض",
+      "1 مغرفة مرقة خضرة (بودر)",
+      "ملح"
+    ],
+    "en": [
+      "2 cups whole wheat berries",
+      "1 large onion",
+      "10-11 whole garlic cloves",
+      "1 tbsp paprika",
+      "1/2 tsp white pepper",
+      "1 tbsp vegetable broth powder",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל במחבת עד להשחמה עמוקה (חום כהה).",
+      "מוסיפים את השום והחיטה השטופה ומטגנים קלות יחד.",
+      "מעבירים את התערובת לשקית קוקי (רצוי כפולה למניעת קרעים).",
+      "מוסיפים מים או ציר ירקות (בין חצי כוס לכוס נוזלים על כל כוס חיטה) ואת התבלינים לשקית.",
+      "קושרים את השקית היטב ומניחים בתוך סיר החמין לבישול איטי לכל הלילה."
+    ],
+    "es": [
+      "Sofreír la cebolla en una sartén hasta que esté marrón oscuro.",
+      "Añadir el ajo y el trigo lavado, y saltear brevemente.",
+      "Transferir la mezcla a una bolsa de hornear (doble bolsa recomendada).",
+      "Añadir agua o caldo (1/2 a 1 taza de líquido por taza de trigo) y las especias dentro de la bolsa.",
+      "Atar bien la bolsa y colocarla dentro de la olla de cocción lenta durante la noche."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت لين يحمار مليح ويولي لونه غامق.",
+      "زيد الثوم والقمح المغسول وقلّيهم شوية مع بعض.",
+      "حط الخليط الكل في شكارة (كيس طياب) ودوبلها باش ما تتقطعش.",
+      "صب الماء ولا المرقة (نصف كأس أو كأس ماء لكل كأس قمح) وفوّح لداخل في الشكارة.",
+      "اربط الشكارة مليح وحطها في طنجرة السخانة (الدفينة) تبات تطيب."
+    ],
+    "en": [
+      "Fry the onion in a pan until dark brown.",
+      "Add the garlic and washed wheat, sautéing briefly together.",
+      "Transfer the mixture into a roasting bag (double bagging is recommended).",
+      "Add water or vegetable stock (1/2 to 1 cup liquid per cup of wheat) and spices directly into the bag.",
+      "Tie the bag tightly and place inside the slow cooker (Hamin pot) overnight."
+    ]
+  }
+}

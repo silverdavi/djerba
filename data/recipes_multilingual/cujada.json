@@ -1,0 +1,86 @@
+{
+  "id": "cujada",
+  "image": "cujada.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "40 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קוחדה",
+    "es": "La Cujada",
+    "ar": "كوجادة",
+    "en": "Cujada"
+  },
+  "description": {
+    "he": "פשטידת תפוחי אדמה אפויה, שבמקור מתבססת על ביצים רבות וכאן מוגשת בגרסה טבעונית עם קמח חומוס המעניק לה מרקם אוורירי. השם מגיע מהמילה הספרדית Cuajada (מקריש), והמנה אופיינית ליהודי טנג'יר.",
+    "es": "Un pastel de papa horneado, tradicionalmente hecho con huevos pero reimaginado aquí con harina de garbanzos para lograr la textura clásica. Su nombre proviene del español \"cuajada\", reflejando cómo cuaja el plato, típico de los judíos de Tánger.",
+    "ar": "طاجين بطاطا في الفرن، في الأصل يتحضّر بالبيض ولكن في هذي الوصفة النباتية عوّضناه بفرينة الحمص باش يعطي نفس القوام. الاسم جاي من الكلمة الإسبانية \"cuajada\" (جامدة)، وهي أكلة معروفة عند يهود طنجة.",
+    "en": "A savory baked potato pie, traditionally made with many eggs but reimagined here using chickpea flour to create the classic fluffy texture. The name comes from the Spanish *cuajada* (curdled), reflecting its setting process."
+  },
+  "ingredients": {
+    "he": [
+      "4 תפוחי אדמה",
+      "2 כוסות קמח חומוס מעורבב עם 2 כוסות מים (תחליף ל-8 ביצים)",
+      "¼ כפית אבקת אפייה",
+      "תבלינים: כורכום, פלפל לבן, זעפרן, אבקת שום, מלח",
+      "אבקת מרק ירקות עשירה ושמרי בירה (לכיזוב טעם הביצים)",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "4 papas",
+      "2 tazas de harina de garbanzos mezclada con 2 tazas de agua (reemplazo de 8 huevos)",
+      "¼ cucharadita de polvo de hornear",
+      "Especias: cúrcuma, pimienta blanca, azafrán, ajo en polvo, sal",
+      "Caldo de verduras en polvo y levadura nutricional",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "4 كعبات بطاطا",
+      "2 كيسان فرينة حمص مخلطة مع 2 كيسان ماء (في عوض 8 عظمات)",
+      "¼ مغرفة صغيرة خميرة قاطو",
+      "توابل: كركم، فلفل أبيض، زعفران، ثوم مرحي، ملح",
+      "بودرة مرقة خضرة وخميرة غذائية (باش تعطي طعمة بنينة)",
+      "زيت للقلي"
+    ],
+    "en": [
+      "4 potatoes",
+      "2 cups chickpea flour mixed with 2 cups water (replaces 8 eggs)",
+      "¼ tsp baking powder",
+      "Spices: turmeric, white pepper, saffron, garlic powder, salt",
+      "Rich vegetable broth powder and nutritional yeast",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את תפוחי האדמה במים עד לריכוך מלא ומועכים אותם לפירה.",
+      "מתבלים בזעפרן, פלפל לבן, אבקת מרק, שמרי בירה, מלח ושום.",
+      "מוסיפים את תערובת קמח החומוס והמים עם אבקת האפייה ומערבבים היטב.",
+      "מחממים מעט שמן בסיר (שאפשר להכניס לתנור), יוצקים את התערובת ומטגנים קלות עד שהתחתית מתייצבת.",
+      "מעבירים לתנור ואופים עד שקיסם שננעץ במרכז יוצא יבש."
+    ],
+    "es": [
+      "Hervir las papas hasta que estén suaves y hacerlas puré.",
+      "Condimentar con azafrán, pimienta blanca, caldo vegetal, levadura nutricional, sal y ajo.",
+      "Añadir la mezcla de harina de garbanzos, agua y polvo de hornear; mezclar bien.",
+      "Calentar aceite en una olla apta para horno, verter la mezcla y sofreír brevemente hasta que la base cuaje.",
+      "Transferir al horno y hornear hasta que al insertar un palillo salga seco."
+    ],
+    "ar": [
+      "اسمط البطاطا في الماء حتى تطيب مليح وارحيها.",
+      "فوّحها بالزعفران، فلفل أبيض، بودرة مرقة خضرة، خميرة غذائية، ملح وثوم.",
+      "زيد خليط فرينة الحمص والماء مع خميرة القاطو وخلّط كل شيء.",
+      "سخّن شوي زيت في طنجرة (تدخل للفور)، صب الخليط وقلّيه شوي لين تشد روحها من لوطة.",
+      "دخّله للفور حتى يطيب ويشيح (جرّب بكيراس الأسنان)."
+    ],
+    "en": [
+      "Boil potatoes until fully soft and mash them.",
+      "Season with saffron, white pepper, broth powder, nutritional yeast, salt, and garlic.",
+      "Add the chickpea flour mixture and baking powder, mixing thoroughly.",
+      "Heat oil in an oven-safe pot, pour in the mixture, and fry briefly to set the bottom.",
+      "Transfer to the oven and bake until a toothpick inserted in the center comes out dry."
+    ]
+  }
+}

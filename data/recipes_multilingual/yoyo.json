@@ -2,89 +2,97 @@
   "id": "yoyo",
   "image": "yoyo.png",
   "meta": {
-    "servings": "20 units",
+    "servings": "15–20 units",
     "prep_time": "40 min",
-    "cook_time": "30 min",
+    "cook_time": "20 min",
     "difficulty": "Medium"
   },
   "name": {
     "he": "יויו",
     "es": "Yoyos",
     "ar": "يويو",
-    "en": "Yoyos"
+    "en": "Yoyo"
   },
   "description": {
-    "he": "עוגיות מטוגנות בצורת טבעת, טבולות בסירופ מתוק בניחוח הדרים. מנה תוניסאית קלאסית האהובה בחנוכה ובאירועים חגיגיים, ששמה נגזר ככל הנראה מצורתה המזכירה את הצעצוע.",
-    "es": "Rosquillas fritas bañadas en almíbar cítrico, clásicas de la repostería tunecina judía. Muy populares en Hanukkah y celebraciones, su nombre probablemente deriva de su forma redonda similar al juguete.",
-    "ar": "حلويات مقلية على شكل كعك، مغطسة في \"الشحور\" بنكهة الحمضيات. أكلة تونسية كلاسيكية محبوبة في المناسبات والأعياد، واسمها مستمد غالباً من شكلها الذي يشبه لعبة اليويو.",
-    "en": "Sweet fried dough rings dipped in citrus-infused syrup, a classic Tunisian pastry. Popular during Hanukkah and celebrations, the name likely refers to their round shape resembling the toy."
+    "he": "יויו הוא דונאט תוניסאי מסורתי, המזוהה במיוחד עם יהודי ג'רבה ומוגש בחנוכה ובשמחות. במקור המאכל מבוסס על ביצים, אך בגרסה טבעונית זו אנו משתמשים ברסק תפוחים לקבלת המרקם הרך והמוכר. השם נובע ככל הנראה מהדמיון בצורה לצעצוע היויו.",
+    "es": "El Yoyo es una rosquilla judía tunecina, típica de Djerba y servida en Janucá. Tradicionalmente hecho con huevos, esta versión vegana utiliza puré de manzana para lograr su textura tierna clásica. Su nombre proviene de su parecido con el juguete.",
+    "ar": "اليويو هو كعك تونسي يهودي تقليدي، معروف خاصة في جربة ويتقدم في الحانوكا والأفراح. الوصفة الأصلية فيها العظم (البيض)، لكن في هذي النسخة النباتية استعملنا عصيدة التفاح باش نحافظوا على الطراوة. الاسم جاي من شكل لعبة اليويو.",
+    "en": "Yoyo is a beloved Tunisian Jewish donut from Djerba, traditionally served during Hanukkah. While originally egg-based, this vegan adaptation uses applesauce to achieve the classic tender texture inside the crispy exterior. The name likely derives from its resemblance to the toy."
   },
   "ingredients": {
     "he": [
-      "500 גרם קמח",
+      "3 כוסות קמח",
+      "1 שקית אבקת אפייה",
       "1/2 כוס סוכר",
       "1/2 כוס שמן",
-      "1/2 כוס רסק תפוחים (תחליף ביצה)",
+      "1/2 כוס רסק תפוחים (במקום 3 ביצים)",
       "1/2 כוס מיץ תפוזים",
       "1 כפית תמצית וניל",
       "שמן לטיגון עמוק",
-      "לסירופ: 2 כוסות סוכר, 1 כוס מים, מיץ מחצי לימון"
+      "לסירופ: 1 כוס סוכר, 1 כוס מים, מיץ מ-1/2 לימון"
     ],
     "es": [
-      "500g de harina",
+      "3 tazas de harina",
+      "1 sobre de polvo de hornear (levadura química)",
       "1/2 taza de azúcar",
-      "1/2 taza de aceite",
+      "1/2 taza de aceite vegetal",
       "1/2 taza de puré de manzana (sustituto de huevo)",
       "1/2 taza de jugo de naranja",
-      "1 cdta de vainilla",
+      "1 cdta de extracto de vainilla",
       "Aceite para freír",
-      "Almíbar: 2 tazas de azúcar, 1 taza de agua, jugo de 1/2 limón"
+      "Para el almíbar: 1 taza de azúcar, 1 taza de agua, jugo de 1/2 limón"
     ],
     "ar": [
-      "500 غ فرينة (دقيق)",
+      "3 كيسان فرينة",
+      "1 خميرة ڨاطو",
       "نصف كأس سكر",
       "نصف كأس زيت",
-      "نصف كأس \"compote\" تفاح (عوض العظم)",
+      "نصف كأس عصيدة تفاح (في عوض العظم)",
       "نصف كأس عصير برتقال",
       "مغرفة صغيرة فانيليا",
       "زيت للقلي",
-      "للشحور: 2 كؤوس سكر، كأس ماء، عصير نصف قارصة (ليمونة)"
+      "للشحور: كأس سكر، كأس ماء، عصير نصف قارصة"
     ],
     "en": [
-      "500g flour",
+      "3 cups flour",
+      "1 packet baking powder",
       "1/2 cup sugar",
-      "1/2 cup oil",
-      "1/2 cup applesauce (egg substitute)",
+      "1/2 cup vegetable oil",
+      "1/2 cup applesauce (egg replacer)",
       "1/2 cup orange juice",
       "1 tsp vanilla extract",
       "Oil for deep frying",
-      "Syrup: 2 cups sugar, 1 cup water, juice of 1/2 lemon"
+      "For syrup: 1 cup sugar, 1 cup water, juice of 1/2 lemon"
     ]
   },
   "steps": {
     "he": [
-      "מערבבים את כל חומרי הבצק למרקם רך ולא דביק, ומניחים בצד לחצי שעה.",
-      "יוצרים כדורים, עושים חור במרכז ליצירת טבעת, ומטגנים בשמן עמוק וחם עד להזהבה.",
-      "מבשלים את חומרי הסירופ (סוכר, מים ולימון) כ-7 דקות עד להסמכה קלה.",
-      "מוציאים את העוגיות לנייר סופג וטובלים אותן בסירופ."
+      "מערבבים את כל חומרי הבצק עד לקבלת בצק רך ולא דביק. מניחים למנוחה של חצי שעה.",
+      "בינתיים מכינים את הסירופ: מבשלים סוכר, מים ומיץ לימון כ-7 דקות עד להסמכה קלה.",
+      "יוצרים מהבצק עיגולים עם חור באמצע (צורת בייגלה).",
+      "מטגנים בשמן עמוק וחם עד להזהבה ומוציאים לנייר סופג.",
+      "טובלים את היויו בסירופ המוכן ומגישים."
     ],
     "es": [
-      "Mezclar todos los ingredientes de la masa hasta obtener una textura suave y no pegajosa; dejar reposar 30 min.",
-      "Formar rosquillas con un agujero en el centro y freír en aceite hondo caliente hasta que estén doradas.",
-      "Cocinar los ingredientes del almíbar (azúcar, agua, limón) durante unos 7 minutos.",
-      "Escurrir los yoyos sobre papel absorbente y bañarlos en el almíbar."
+      "Mezclar todos los ingredientes de la masa hasta obtener una textura suave y no pegajosa. Dejar reposar 30 minutos.",
+      "Mientras, preparar el almíbar: cocinar el azúcar, agua y limón durante 7 minutos hasta que espese ligeramente.",
+      "Formar aros con la masa (haciendo un agujero en el centro de cada bola).",
+      "Freír en aceite hondo caliente hasta que estén dorados y escurrir en papel absorbente.",
+      "Bañar los Yoyos en el almíbar y servir."
     ],
     "ar": [
-      "خلّط كل مكونات العجينة حتى تولي طرية وما تتلصقش، وخليها ترتاح نص ساعة.",
-      "شكّل كعكات صغار (دوائر منقوبة في الوسط) واقليهم في زيت سخون وعميق حتى يحماروا.",
-      "طيّب الشحور (سكر وماء وقارص) لمدة 7 دقايق.",
-      "قطّر اليويو من الزيت وغطّسه في الشحور."
+      "خلّط كل مكونات العجينة لين تتحصل على عجينة طرية وما تتلصقش. خلّيها ترتاح نص ساعة.",
+      "في هذا الوقت حضّر الشحور: طيّب السكر والماء والقارص مدة 7 دقايق لين يعقد شوية.",
+      "شكّل كعكات صغار واعمل نقبة في الوسط (كيف الكعك).",
+      "اقليهم في زيت غزير وسخون لين يحمارو، ومن بعد قطّرهم.",
+      "غطّس كعبات اليويو في الشحور وقدمهم."
     ],
     "en": [
-      "Mix all dough ingredients into a soft, non-sticky dough and let rest for 30 minutes.",
-      "Form rings with a hole in the center and deep fry in hot oil until golden.",
-      "Cook the syrup ingredients (sugar, water, lemon) for about 7 minutes.",
-      "Drain on paper towels and dip the pastries into the syrup."
+      "Mix all dough ingredients to form a soft, non-sticky dough. Let rest for 30 minutes.",
+      "Meanwhile, make the syrup: boil sugar, water, and lemon juice for about 7 minutes until slightly thickened.",
+      "Form the dough into small rings (create a hole in the center of each ball).",
+      "Deep fry in hot oil until golden brown, then drain on paper towels.",
+      "Dip the warm Yoyos into the syrup and serve."
     ]
   }
 }

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Soly&#x27;s Pancakes – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Tortitas de Soly</span></div>
+        <div class="title-word lang-he"><span>פנקייק סולי</span></div>
+        <div class="title-word lang-en"><span>Soly&#x27;s Pancakes</span></div>
+        <div class="title-word lang-ar"><span>بانكيك سولي</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>מתכון משפחתי אהוב לפנקייקים אווריריים ומתוקים, מושלמים לארוחת בוקר. הגרסה הטבעונית מחליפה את הביצים ברסק תפוחים לקבלת מרקם רך ולח. המנה נקראת על שם סולי, בן המשפחה ששכלל את המתכון.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Una receta familiar muy querida de tortitas esponjosas y dulces. Aunque tradicionalmente llevan huevo, esta versión vegana utiliza puré de manzana para lograr una textura suave. Nombrada en honor a Soly, el familiar que perfeccionó la receta.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>وصفة عائلية محبوبة لبانكيك خفيف وحلو، مثالي لفطور الصباح. في العادة يتعمل بالعظم، أما في هذه النسخة النباتية استعملنا &quot;كمبوت&quot; التفاح باش يجي طري. تسمات على اسم &quot;سولي&quot; اللي تفنن فيها.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A beloved family recipe for fluffy, sweet pancakes. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve a light texture. Named after Soly, the family member who perfected the dish.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">3-4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/pancakes_soly_dish.png" alt="Soly&#x27;s Pancakes dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1 taza de harina</li>
+              <li>3 cucharadas de azúcar</li>
+              <li>Una pizca de sal</li>
+              <li>1/2 sobre de levadura química (polvo de hornear)</li>
+              <li>1.5 sobres de azúcar vainillado</li>
+              <li>1/2 cucharadita de bicarbonato</li>
+              <li>3 cucharadas de puré de manzana</li>
+              <li>3 cucharadas de aceite</li>
+              <li>3/4 taza de agua</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Mezclar todos los ingredientes secos en un bol grande.</li>
+              <li class="step"><span class="step-num">2.</span>Añadir los ingredientes húmedos (puré de manzana, aceite, agua) y mezclar solo hasta integrar.</li>
+              <li class="step"><span class="step-num">3.</span>Calentar un poco de aceite en una sartén a fuego medio.</li>
+              <li class="step"><span class="step-num">4.</span>Verter porciones de masa en la sartén y cocinar por ambos lados hasta que doren.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1 כוס קמח</li>
+              <li>3 כפות סוכר</li>
+              <li>קורט מלח</li>
+              <li>1/2 שקית אבקת אפייה</li>
+              <li>1.5 שקיות סוכר וניל</li>
+              <li>1/2 כפית סודה לשתייה</li>
+              <li>3 כפות רסק תפוחים (במקום ביצה)</li>
+              <li>3 כפות שמן</li>
+              <li>3/4 כוס מים</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מערבבים את כל החומרים היבשים (קמח, סוכר, מלח, אבקת אפייה, סודה לשתייה) בקערה.</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את החומרים הרטובים (רסק תפוחים, שמן, מים) ומערבבים רק עד לאיחוד (לא לערבב יותר מדי).</li>
+              <li class="step"><span class="step-num">3.</span>מחממים מעט שמן במחבת על אש בינונית.</li>
+              <li class="step"><span class="step-num">4.</span>יוצקים מהבלילה למחבת ומטגנים משני הצדדים עד להזהבה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1 cup flour</li>
+              <li>3 tbsp sugar</li>
+              <li>Pinch of salt</li>
+              <li>1/2 packet baking powder</li>
+              <li>1.5 packets vanilla sugar</li>
+              <li>1/2 tsp baking soda</li>
+              <li>3 tbsp applesauce (egg substitute)</li>
+              <li>3 tbsp oil</li>
+              <li>3/4 cup water</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Mix all dry ingredients in a bowl.</li>
+              <li class="step"><span class="step-num">2.</span>Add the wet ingredients (applesauce, oil, water) and mix just until combined (do not overmix).</li>
+              <li class="step"><span class="step-num">3.</span>Heat a little oil in a pan over medium heat.</li>
+              <li class="step"><span class="step-num">4.</span>Pour batter into the pan and cook on both sides until golden brown.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1 كأس فارينة</li>
+              <li>3 مغارف كبار سكر</li>
+              <li>رشة ملح</li>
+              <li>نص باكوا خميرة قاطو</li>
+              <li>1.5 باكو سكر فانيليا</li>
+              <li>نص مغرفة صغيرة بيكربونات</li>
+              <li>3 مغارف كبار &quot;كمبوت&quot; تفاح (عصيدة تفاح)</li>
+              <li>3 مغارف كبار زيت</li>
+              <li>3/4 كأس ماء</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>خلط النواشف الكل (فارينة، سكر، ملح، خميرة، بيكربونات) مع بعضهم في صحفة.</li>
+              <li class="step"><span class="step-num">2.</span>زيد السوائل (&quot;الكمبوت&quot;، الزيت، الماء) وخلط لين تتلم العجينة (ما تخلطش برشا).</li>
+              <li class="step"><span class="step-num">3.</span>سخن شوية زيت في المقلاة على نار متوسطة.</li>
+              <li class="step"><span class="step-num">4.</span>صب شوية من الخليط في المقلاة وطيبهم من الجهتين لين يحماروا ويطيبوا.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

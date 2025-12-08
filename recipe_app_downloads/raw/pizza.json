@@ -1,0 +1,17 @@
+{
+  "name": "Pizza",
+  "ingredients": [
+    "Bread dough",
+    "Salt",
+    "Oil",
+    "Chicken seasoning",
+    "Oregano",
+    "Garlic powder",
+    "Tomato paste",
+    "Tuna",
+    "Olives"
+  ],
+  "instructions": [],
+  "serves": "",
+  "source": "recime_raw"
+}

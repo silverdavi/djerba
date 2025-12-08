@@ -1,0 +1,105 @@
+{
+  "id": "mocha_java_cake",
+  "image": "mocha_java_cake.png",
+  "meta": {
+    "servings": "8–10",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת מוקה ושוקולד",
+    "es": "Pastel de Moca y Chocolate",
+    "ar": "كيكة القهوة والشكلاطة",
+    "en": "Mocha Java Cake"
+  },
+  "description": {
+    "he": "עוגה עשירה ונימוחה המשלבת טעמי קפה ושוקולד, המשקפת את ההשפעה הצרפתית (Patisserie) על המטבח היהודי בצפון אפריקה. במקור עוגת \"פרווה\" לשבת שהוכנה עם מרגרינה וביצים, גרסה טבעונית זו משתמשת ברסק תפוחים להדבקה ובקרם קוקוס לציפוי העשיר.",
+    "es": "Un pastel rico y húmedo que combina sabores de café y chocolate, reflejando la influencia francesa en la cocina judía del norte de África. Tradicionalmente \"Parve\" para Shabat hecha con huevos, esta adaptación vegana utiliza puré de manzana y crema de coco.",
+    "ar": "كيكة غنية بطعم القهوة والشكلاطة، تعكس التأثير الفرنسي على الحلويات في المطبخ اليهودي بشمال إفريقيا. في الأصل كانت تُحضر \"بارفي\" (بدون حليب) بالبيض ليوم السبت، وهذه النسخة النباتية تستعمل \"compote\" التفاح وكريمة جوز الهند.",
+    "en": "A rich, moist cake combining coffee and chocolate, reflecting the French patisserie influence on North African Jewish cuisine. Traditionally a \"Pareve\" Shabbat treat made with eggs, this vegan adaptation uses applesauce as a binder and coconut cream for the ganache."
+  },
+  "ingredients": {
+    "he": [
+      "100 גרם מרגרינה טבעונית או שמן קוקוס",
+      "1/3 כוס מים",
+      "1 כוס סוכר",
+      "3 כפות קפה נמס (מחולק)",
+      "200 גרם שנטפי שוקולד מריר (מחולק)",
+      "9 כפות רסק תפוחים (תחליף ל-3 ביצים)",
+      "1 כוס קמח",
+      "1/4 כפית מלח",
+      "1/2 כפית אבקת אפייה",
+      "3/4 כוס קרם קוקוס",
+      "2/3 כוס אבקת סוכר"
+    ],
+    "es": [
+      "100g margarina vegana o aceite de coco",
+      "1/3 taza de agua",
+      "1 taza de azúcar",
+      "3 cdas de café soluble (dividido)",
+      "200g chispas de chocolate amargo (dividido)",
+      "9 cdas puré de manzana (reemplaza 3 huevos)",
+      "1 taza de harina",
+      "1/4 cdta sal",
+      "1/2 cdta polvo de hornear",
+      "3/4 taza crema de coco",
+      "2/3 taza azúcar glass"
+    ],
+    "ar": [
+      "100 غ مارغرين نباتية أو زيت جوز الهند",
+      "1/3 كأس ماء",
+      "1 كأس سكر",
+      "3 مغارف قهوة سريعة الذوبان",
+      "200 غ شكلاطة سوداء (بيبيتو)",
+      "9 مغارف \"compote\" تفاح (بديل البيض)",
+      "1 كأس فرينة",
+      "ملح وخميرة قاطو",
+      "3/4 كأس كريمة جوز الهند",
+      "2/3 كأس سكر ناعم (glace)"
+    ],
+    "en": [
+      "100g vegan margarine or coconut oil",
+      "1/3 cup water",
+      "1 cup sugar",
+      "3 tbsp instant coffee (divided)",
+      "200g dark chocolate chips (divided)",
+      "9 tbsp applesauce (replaces 3 eggs)",
+      "1 cup flour",
+      "1/4 tsp salt",
+      "1/2 tsp baking powder",
+      "3/4 cup coconut cream",
+      "2/3 cup powdered sugar"
+    ]
+  },
+  "steps": {
+    "he": [
+      "ממיסים בסיר מרגרינה, מים, סוכר וכף וחצי קפה עד סף רתיחה.",
+      "מוסיפים כוס שוקולד (100 גרם), מערבבים להמסה, מסירים מהאש ובוחשים פנימה את רסק התפוחים.",
+      "מוסיפים קמח, מלח ואבקת אפייה ומערבבים לבלילה אחידה.",
+      "אופים בתבנית משומנת ב-180 מעלות כ-20 דקות (עד שקיסם יוצא נקי) ומצננים.",
+      "לציפוי: מחממים בסיר קטן קרם קוקוס ושארית הקפה, ממיסים בפנים את יתרת השוקולד, מסירים מהאש, מערבבים פנימה אבקת סוכר ויוצקים על העוגה."
+    ],
+    "es": [
+      "Derretir margarina, agua, azúcar y 1.5 cdas de café hasta casi hervir.",
+      "Añadir 1 taza de chocolate, mezclar bien, retirar del fuego y agregar el puré de manzana.",
+      "Incorporar la harina, sal y polvo de hornear hasta obtener una mezcla homogénea.",
+      "Hornear en molde engrasado a 180°C por 20 min. Dejar enfriar.",
+      "Para la cobertura: Calentar crema de coco con el resto del café, derretir el chocolate restante, retirar del fuego, mezclar con azúcar glass y verter sobre el pastel."
+    ],
+    "ar": [
+      "ذوّب المارغرين مع الماء والسكر ومغرفة ونص قهوة في كسرونة فوق النار حتى تغلي.",
+      "زيد شطر كمية الشكلاطة وخلط مليح، نحيها من النار وزيد \"compote\" التفاح.",
+      "زيد الفرينة، الملح والخميرة وخلط مليح حتى تتجانس.",
+      "حط الخليط في طبق مدهون ودخله للكوشة (180 درجة) مدة 20 دقيقة، ومبعد خليه يبرد.",
+      "للزينة: سخن كريمة جوز الهند مع باقي القهوة، ذوّب فيها باقي الشكلاطة، نحيها من النار، زيد السكر الناعم وصبها فوق الكيكة."
+    ],
+    "en": [
+      "Melt margarine, water, sugar, and 1.5 tbsp coffee in a pot until almost boiling.",
+      "Add 1 cup chocolate chips, stir to melt, remove from heat, and mix in applesauce.",
+      "Stir in flour, salt, and baking powder until well combined.",
+      "Bake in a greased pan at 180°C (350°F) for 20 mins. Let cool.",
+      "For glaze: Heat coconut cream and remaining coffee, melt in remaining chocolate, remove from heat, stir in powdered sugar, and pour over cake."
+    ]
+  }
+}

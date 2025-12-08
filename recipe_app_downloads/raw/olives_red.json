@@ -1,0 +1,22 @@
+{
+  "name": "Olives red",
+  "ingredients": [
+    "Olives",
+    "Garlic",
+    "Tomato paste",
+    "Salt",
+    "Pepper",
+    "Chicken seasoning",
+    "Cilantro",
+    "Paprika"
+  ],
+  "instructions": [
+    "Boil olives with turmeric",
+    "Fry garlic",
+    "Add seasoning: salt, Paprika, pepper, chicken seasoning",
+    "Add tomato paste",
+    "Add cilantro"
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

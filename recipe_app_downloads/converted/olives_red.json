@@ -1,0 +1,27 @@
+{
+  "name_hebrew": "Olives red",
+  "ingredients": [
+    "Olives",
+    "Garlic",
+    "Tomato paste",
+    "Salt",
+    "Pepper",
+    "Chicken seasoning",
+    "Cilantro",
+    "Paprika"
+  ],
+  "instructions": [
+    "Boil olives with turmeric",
+    "Fry garlic",
+    "Add seasoning: salt, Paprika, pepper, chicken seasoning",
+    "Add tomato paste",
+    "Add cilantro"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "olives_red"
+}

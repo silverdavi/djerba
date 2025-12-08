@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kta&#x27;a – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Kta&#x27;a</span></div>
+        <div class="title-word lang-he"><span>קטעה</span></div>
+        <div class="title-word lang-en"><span>Kta&#x27;a</span></div>
+        <div class="title-word lang-ar"><span>القطعة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>מרק פסטה תוניסאי כפרי המורכב מבצק טרי הקרוע ביד ומבושל ברוטב עשיר. השם נגזר מהשורש הערבי קט&quot;ע (חתיכות), ומתייחס לשיטה המסורתית של צביטת פיסות בצק קטנות ישירות לסיר המבעבע. זוהי מנה מנחמת מג&#x27;רבה, המזכירה בטעמיה את המחמסה.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Una sopa rústica tunecina de pasta fresca hecha a mano, cocida a fuego lento en un caldo sabroso. El nombre deriva del árabe *qata&#x27;a* (trozos), refiriéndose al método tradicional de pellizcar la masa directamente en la olla. Es un plato reconfortante de Djerba con sabores similares a la Mhamsa.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>أكلة تونسية تقليدية تتكون من قطع عجين طازجة مقطعة باليد ومطبوخة في مرقة حمراء. الاسم مشتق من &quot;القطع&quot;، إشارة إلى طريقة تقطيع العجين ورميه مباشرة في القدر وهو يغلي. هي وجبة دافئة من جربة تشبه المحمصة في نكهتها.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A rustic Tunisian fresh pasta soup featuring hand-torn dough pieces simmered in a savory broth. The name derives from the Arabic *qata&#x27;a* (pieces), referring to the traditional method of pinching dough directly into the boiling pot. A comforting Djerban dish with flavors similar to Mhamsa.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/ktaa_dish.png" alt="Kta&#x27;a dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>3 tazas de harina</li>
+              <li>Agua (para la masa y el caldo)</li>
+              <li>1 cebolla pequeña picada</li>
+              <li>2 cucharadas de pasta de tomate</li>
+              <li>Aceite para freír</li>
+              <li>Sal, pimienta negra, pimentón</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Preparar una masa suave mezclando la harina, un poco de sal y agua según sea necesario.</li>
+              <li class="step"><span class="step-num">2.</span>En una olla, preparar el caldo base: sofreír la cebolla, añadir pasta de tomate y especias, agregar agua y llevar a ebullición.</li>
+              <li class="step"><span class="step-num">3.</span>Cuando hierva, pellizcar trozos muy pequeños de masa y echarlos a la olla. Remover ocasionalmente para evitar que se peguen.</li>
+              <li class="step"><span class="step-num">4.</span>Hacia el final, mezclar un poco de harina y agua en un vaso, verter en la olla removiendo bien y cocinar hasta que la sopa espese.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>3 כוסות קמח</li>
+              <li>מים (לפי הצורך לבצק ולמרק)</li>
+              <li>1 בצל קטן קצוץ</li>
+              <li>2 כפות רסק עגבניות</li>
+              <li>שמן לטיגון</li>
+              <li>מלח, פלפל שחור, פפריקה</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מכינים בצק רך ונעים מ-3 כוסות קמח, מעט מלח ומים לפי הצורך.</li>
+              <li class="step"><span class="step-num">2.</span>בסיר, מכינים ציר (כמו למחמסה): מטגנים בצל בשמן, מוסיפים רסק ותבלינים, מוסיפים מים ומביאים לרתיחה.</li>
+              <li class="step"><span class="step-num">3.</span>כשהמים רותחים, צובטים חתיכות קטנות מאוד מהבצק וזורקים לסיר. מערבבים מדי פעם כדי שלא ידבקו.</li>
+              <li class="step"><span class="step-num">4.</span>לקראת סוף הבישול, מערבבים בכוס מעט קמח ומים לבלילה נוזלית, שופכים לסיר תוך כדי ערבוב ומבשלים עד שהמרק מסמיך.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>3 cups flour</li>
+              <li>Water (for dough and broth)</li>
+              <li>1 small onion, chopped</li>
+              <li>2 tbsp tomato paste</li>
+              <li>Oil for frying</li>
+              <li>Salt, black pepper, paprika</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Prepare a soft dough using the flour, a pinch of salt, and water as needed.</li>
+              <li class="step"><span class="step-num">2.</span>In a pot, make the broth base: sauté onion, add tomato paste and spices, add water, and bring to a boil.</li>
+              <li class="step"><span class="step-num">3.</span>Once boiling, pinch very small pieces of dough and drop them into the pot. Stir occasionally to prevent sticking.</li>
+              <li class="step"><span class="step-num">4.</span>Towards the end, mix a little flour and water in a cup, pour into the pot while stirring, and cook until the soup thickens.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>3 كيسان فرينة (دقيق)</li>
+              <li>ماء (للعجين وللمرقة)</li>
+              <li>1 بصلة صغيرة مقطعة</li>
+              <li>2 مغارف طماطم حكة</li>
+              <li>زيت للقلي</li>
+              <li>ملح، فلفل أكحل، فلفل أحمر</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>خلّط الفرينة مع شوية ملح وماء باش تتحصل على عجينة رطبة.</li>
+              <li class="step"><span class="step-num">2.</span>في الطنجرة، حضّر المرقة (كيف المحمصة): قلّي البصل في الزيت، زيد الطماطم والفاحات، صب الماء وخليه يغلي.</li>
+              <li class="step"><span class="step-num">3.</span>كيف يغلي الماء، اقطع طروف صغار من العجينة وارميهم في الطنجرة. حرّك مرة مرة باش ما يلصقوش.</li>
+              <li class="step"><span class="step-num">4.</span>في لخر، خلّط شوية فرينة مع ماء في كأس، صبهم في المرقة وحرّك بالباهي حتى تعقاد (تخثار) المرقة.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

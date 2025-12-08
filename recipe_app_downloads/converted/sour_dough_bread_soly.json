@@ -1,0 +1,31 @@
+{
+  "name_hebrew": "Sour dough bread Soly",
+  "ingredients": [
+    "300 grams of warm water",
+    "50 gram starter",
+    "500 grams flour",
+    "11 grams salt"
+  ],
+  "instructions": [
+    "Mix well water and starter",
+    "Add flour and salt",
+    "Mix until shaggy",
+    "Set aside for an hour to rest",
+    "Knead well until it is not sticky (you can use the folds, and some people put it in a mixer)",
+    "Set aside for half an hour",
+    "Make folds stretch and fold",
+    "Set aside for half an hour",
+    "Fold again and rest again",
+    "Fold 4-6 times in total",
+    "Place in a bowl to rise for about 10 to 12 hours (overnight covered on the counter)",
+    "Create a shape and put in the refrigerator for about 24 hours",
+    "Bake according to the instructions"
+  ],
+  "metadata": {
+    "source": "recime_app",
+    "source_file": "recime_raw",
+    "original_serves": "",
+    "imported_date": "2025-12-08"
+  },
+  "id": "sour_dough_bread_soly"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "admeshushah",
+  "image": "admeshushah.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "אדמשושה",
+    "es": "Admeshushah",
+    "ar": "الأدمشوشة",
+    "en": "Admeshushah"
+  },
+  "description": {
+    "he": "תבשיל מסורתי מהמטבח היהודי-ג'רבאי, המוגש לרוב בחגים. במקור המנה מבוססת על ביצים עלומות ברוטב עגבניות פיקנטי (דמוי שקשוקה נוזלית), אך בגרסה זו הטופו מחליף את הביצים וסופג את הטעמים העשירים. ייתכן שמקור השם במילה העברית 'אדמה'.",
+    "es": "Un guiso tradicional de los judíos de Yerba (Túnez), servido a menudo en festividades. Originalmente preparado con huevos escalfados en un caldo de tomate picante, esta versión vegetal utiliza tofu para absorber los ricos sabores. El nombre podría derivar de la palabra hebrea para 'tierra'.",
+    "ar": "أكلة جربية يهودية تقليدية، تشبه الشكشوكة ولكن بمرقة جارية، وتتقدم عادة في الأعياد. الوصفة الأصلية تتعمل بالعظم (البيض)، وفي هذي النسخة النباتية استعملنا التوفو باش يتشرب النكهة. اسم الأكلة ممكن يرجع لكلمة 'أدماه' العبرية.",
+    "en": "A traditional Djerban Jewish stew often served during festivals. While originally featuring eggs poached in a spicy tomato broth, this plant-based version uses tofu to soak up the rich flavors. The name likely derives from the Hebrew word for 'earth' (Adama)."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל בינוני",
+      "1 עגבניה בשלה",
+      "1 פלפל חריף קטן",
+      "1 חבילת טופו נוקשה (בקוביות) או טופו משי",
+      "1 תפוח אדמה (אופציונלי)",
+      "1 כף פפריקה מתוקה",
+      "מים",
+      "מלח (מומלץ מלח הודי שחור 'קאלה נמק' לטעם ביצתי)"
+    ],
+    "es": [
+      "1 cebolla mediana",
+      "1 tomate maduro",
+      "1 pimiento picante pequeño",
+      "1 bloque de tofu firme (en cubos) o sedoso",
+      "1 patata (opcional)",
+      "1 cda pimentón dulce",
+      "Agua",
+      "Sal (se recomienda sal negra 'Kala Namak')"
+    ],
+    "ar": [
+      "1 بصلة متوسطة",
+      "1 كعبة طماطم طايبة",
+      "1 فلفل حار صغير",
+      "1 قالب توفو (مقصوص مكعبات)",
+      "1 كعبة بطاطا (اختياري)",
+      "1 مغرفة فلفل أحمر حلو",
+      "ماء",
+      "ملح (يستحسن ملح كالا ناماك لنكهة البيض)"
+    ],
+    "en": [
+      "1 medium onion",
+      "1 ripe tomato",
+      "1 small hot pepper",
+      "1 block firm tofu (cubed) or silken tofu",
+      "1 potato (optional)",
+      "1 tbsp sweet paprika",
+      "Water",
+      "Salt (Kala Namak/Black salt recommended)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל עד לשקיפות.",
+      "מוסיפים פפריקה, עגבניה קצוצה, פלפל חריף ומלח (או מלח שחור). מאדים קלות.",
+      "מוסיפים מים וקוביות תפוח אדמה (אם משתמשים) ומביאים לרתיחה.",
+      "מוסיפים את קוביות הטופו לתוך המרק הרותח (במקום הביצים המסורתיות).",
+      "מבשלים כ-10 דקות נוספות לספיגת טעמים וריכוך תפוח האדמה."
+    ],
+    "es": [
+      "Sofreír la cebolla hasta que esté transparente.",
+      "Añadir el pimentón, tomate picado, pimiento picante y sal (o sal negra). Rehogar brevemente.",
+      "Añadir agua y las patatas en cubos (si se usan) y llevar a ebullición.",
+      "Incorporar los cubos de tofu al caldo hirviendo (sustituyendo los huevos tradicionales).",
+      "Cocinar unos 10 minutos más para que se absorban los sabores."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت لين يذبل ويولي شفاف.",
+      "زيد الفلفل الأحمر، الطماطم المقصوصة، الفلفل الحار والملح. قلّيهم شوية.",
+      "مرّق بالماء وزيد مكعبات البطاطا (كان تحب) وخلي المرقة تغلي.",
+      "ارمي مكعبات التوفو في المرقة (في بلاصة العظم).",
+      "طيّبها 10 دقايق أخرين لين التوفو يتشرب البنة والبطاطا تطيب."
+    ],
+    "en": [
+      "Sauté the onion until transparent.",
+      "Add paprika, chopped tomato, hot pepper, and salt (or black salt). Sauté briefly.",
+      "Add water and potato cubes (if using) and bring to a boil.",
+      "Add the tofu cubes into the boiling broth (replacing the traditional eggs).",
+      "Simmer for about 10 minutes to allow flavors to absorb."
+    ]
+  }
+}

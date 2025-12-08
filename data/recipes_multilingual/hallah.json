@@ -1,0 +1,86 @@
+{
+  "id": "hallah",
+  "image": "hallah.png",
+  "meta": {
+    "servings": "2 loaves",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "חלה",
+    "es": "Jalá",
+    "ar": "خبز",
+    "en": "Hallah"
+  },
+  "description": {
+    "he": "חלת מים ספרדית מסורתית זו היא טבעונית באופן טבעי (ללא ביצים), ומתאפיינת בקרום פריך ותוך אוורירי. המנה חיונית לשולחן השבת במשפחות צפון אפריקה, ושמה נגזר ממצוות הפרשת חלה.",
+    "es": "Esta Jalá de agua sefardí es naturalmente vegana, caracterizada por una corteza crujiente y un interior aireado, a diferencia de las versiones con huevo. Esencial para la cena de Shabat, su nombre deriva del mandamiento bíblico de separar una porción de masa.",
+    "ar": "هذا الخبز التقليدي (خبز السبت) خالٍ من البيض طبيعياً، مقرمش من الخارج وطري من الداخل. يُعتبر أساسياً لمائدة السبت في العائلات اليهودية بشمال إفريقيا، ويُعرف ببساطته وطعمه الأصيل.",
+    "en": "This traditional Sephardic water challah is naturally vegan, characterized by a crisp crust and airy interior unlike egg-based versions. Essential for Shabbat dinner, the name derives from the biblical commandment to separate a portion of dough."
+  },
+  "ingredients": {
+    "he": [
+      "2 כפות שמרים יבשים",
+      "1 1/4 כפות סוכר",
+      "3 כוסות מים פושרים",
+      "1/2 כוס שמן",
+      "1 ק\"ג קמח",
+      "1 כף מלח"
+    ],
+    "es": [
+      "2 cdas levadura seca",
+      "1 1/4 cdas azúcar",
+      "3 tazas agua tibia",
+      "1/2 taza aceite",
+      "1 kg harina",
+      "1 cda sal"
+    ],
+    "ar": [
+      "2 مغارف كبار خميرة خبز",
+      "1 1/4 مغارف كبار سكر",
+      "3 كؤوس ماء دافئ",
+      "1/2 كأس زيت",
+      "1 كغ فارينة",
+      "1 مغرفة كبيرة ملح"
+    ],
+    "en": [
+      "2 tbsp dry yeast",
+      "1 1/4 tbsp sugar",
+      "3 cups lukewarm water",
+      "1/2 cup oil",
+      "1 kg flour",
+      "1 tbsp salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה את השמרים, הסוכר והמים הפושרים וממתינים עד שהשמרים תוססים.",
+      "מוסיפים את השמן לתערובת הנוזלים.",
+      "מערבבים את המלח עם הקמח בנפרד, ואז מאחדים עם הנוזלים.",
+      "לשים את הבצק במשך 10 דקות עד שהוא חלק וגמיש.",
+      "מניחים לבצק לנוח ולתפוח כשעה, לאחר מכן קולעים חלות ואופים ב-180 מעלות עד להזהבה."
+    ],
+    "es": [
+      "Mezclar la levadura, el azúcar y el agua tibia hasta que espume.",
+      "Añadir el aceite a la mezcla líquida.",
+      "Mezclar la sal con la harina por separado, luego unir con los líquidos.",
+      "Amasar la masa durante 10 minutos hasta que esté suave y elástica.",
+      "Dejar reposar y levar por una hora, luego trenzar y hornear a 180°C hasta que estén doradas."
+    ],
+    "ar": [
+      "خلّط الخميرة والسكر والماء الدافئ في صحفة وخليها لين تتفاعل وتطلع.",
+      "زيد الزيت للخليط.",
+      "خلّط الملح مع الفارينة وحدو، ومبعد زيدهم للخليط.",
+      "اعجن العجينة مليح لمدة 10 دقايق لين تولي رطبة.",
+      "خلي العجينة ترتاح وتخمر ساعة، ومبعد شكّل الخبز (ضفيرة) وطيّبه في الكوشة (180 درجة) لين يحمار."
+    ],
+    "en": [
+      "Mix yeast, sugar, and lukewarm water in a bowl until frothy.",
+      "Add the oil to the liquid mixture.",
+      "Mix salt into the flour separately, then combine with the liquids.",
+      "Knead the dough for 10 minutes until smooth and elastic.",
+      "Let rest and rise for about an hour, then braid into loaves and bake at 180°C (350°F) until golden."
+    ]
+  }
+}

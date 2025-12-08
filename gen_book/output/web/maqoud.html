@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Maqoud – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Maqoud</span></div>
+        <div class="title-word lang-he"><span>מעקוד</span></div>
+        <div class="title-word lang-en"><span>Maqoud</span></div>
+        <div class="title-word lang-ar"><span>المعقودة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>פשטידת תפוחי אדמה תוניסאית מסורתית, שבמקור מבוססת על ביצים אך בגרסה זו מתייצבת בעזרת קמח חומוס המעניק מרקם נימוח וקרום זהוב. השם נגזר מהשורש הערבי ע-ק-ד (קשור או סמיך). מנה אהובה במיוחד בשבתות ובחגים בקרב יהודי ג&#x27;רבה.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Un pastel de papa tunecino tradicional, reinventado aquí sin huevos utilizando harina de garbanzo para lograr una textura suave y dorada. El nombre deriva del árabe &#x27;ma&#x27;qouda&#x27; (anudado o espesado). Es un plato reconfortante básico, servido a menudo en Shabat y festividades.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>طاجين أو فطيرة البطاطا التونسية المحبوبة، في هذه الوصفة النباتية نستبدل البيض بدقيق الحمص للحصول على قوام متماسك ولذيذ. الاسم مشتق من الكلمة العربية &#x27;معقودة&#x27;. أكلة مريحة تقدم عادة في أيام السبت والأعياد لدى يهود جربة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A traditional Tunisian potato pie, reimagined here without eggs by using chickpea flour to create a tender texture and golden crust. The name derives from the Arabic &#x27;ma&#x27;qouda&#x27; (knotted or thickened). It is a staple comfort food, often served on Shabbat and holidays.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4–6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/maqoud_dish.png" alt="Maqoud dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>5 papas medianas</li>
+              <li>1 taza de harina de garbanzo + 1 taza de agua (sustituto de huevo)</li>
+              <li>1/2 manojo de perejil picado</li>
+              <li>1 taza de guisantes y zanahorias (cocidos)</li>
+              <li>1 cucharada de harina de trigo</li>
+              <li>Especias: sal, pimienta, cúrcuma</li>
+              <li>Aceite para freír</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Hervir las papas hasta que estén tiernas y hacerlas puré.</li>
+              <li class="step"><span class="step-num">2.</span>En un tazón aparte, mezclar la harina de garbanzo y el agua hasta obtener una masa suave.</li>
+              <li class="step"><span class="step-num">3.</span>Combinar el puré con la mezcla de garbanzo, harina de trigo, perejil, verduras y especias.</li>
+              <li class="step"><span class="step-num">4.</span>Calentar aceite en una sartén profunda antiadherente, verter la mezcla y cocinar a fuego lento tapado hasta que cuaje (tarda más que con huevos).</li>
+              <li class="step"><span class="step-num">5.</span>Dar la vuelta con cuidado usando un plato y cocinar el otro lado hasta que esté dorado.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>5 תפוחי אדמה בינוניים</li>
+              <li>1 כוס קמח חומוס + 1 כוס מים (תחליף לביצים)</li>
+              <li>1/2 צרור פטרוזיליה קצוצה</li>
+              <li>1 כוס אפונה וגזר (שימורים או מבושל)</li>
+              <li>1 כף קמח לבן</li>
+              <li>תבלינים: מלח, פלפל, כורכום</li>
+              <li>שמן לטיגון</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מבשלים את תפוחי האדמה במים עד לריכוך ומועכים לפירה.</li>
+              <li class="step"><span class="step-num">2.</span>בקערה נפרדת, מערבבים קמח חומוס ומים לבלילה חלקה ללא גושים.</li>
+              <li class="step"><span class="step-num">3.</span>מערבבים את הפירה עם בלילת החומוס, כף קמח, פטרוזיליה, ירקות ותבלינים.</li>
+              <li class="step"><span class="step-num">4.</span>מחממים שמן במחבת עמוקה (נון-סטיק), יוצקים את הבלילה ומבשלים על אש נמוכה במכסה סגור עד להתייצבות (לוקח יותר זמן מביצים).</li>
+              <li class="step"><span class="step-num">5.</span>הופכים בזהירות בעזרת צלחת ומחזירים למחבת לטיגון הצד השני עד להזהבה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>5 medium potatoes</li>
+              <li>1 cup chickpea flour + 1 cup water (egg replacer)</li>
+              <li>1/2 bunch chopped parsley</li>
+              <li>1 cup peas and carrots (cooked/canned)</li>
+              <li>1 tbsp wheat flour</li>
+              <li>Spices: salt, pepper, turmeric</li>
+              <li>Oil for frying</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Boil potatoes until tender and mash them.</li>
+              <li class="step"><span class="step-num">2.</span>In a separate bowl, whisk chickpea flour and water into a smooth batter.</li>
+              <li class="step"><span class="step-num">3.</span>Combine mashed potatoes with the chickpea mixture, wheat flour, parsley, vegetables, and spices.</li>
+              <li class="step"><span class="step-num">4.</span>Heat oil in a deep non-stick pan, pour in the batter, cover, and cook on low heat until set (takes longer than eggs).</li>
+              <li class="step"><span class="step-num">5.</span>Flip carefully using a plate and cook the other side until golden.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>5 كعبات بطاطا متوسطة</li>
+              <li>1 كأس دقيق حمص + 1 كأس ماء (بديل العظم)</li>
+              <li>نصف ربطة معدنوس مقصوص</li>
+              <li>1 كأس جلبانة وسفنارية (طايبة)</li>
+              <li>1 مغرفة كبيرة فرينة</li>
+              <li>توابل: ملح، فلفل أكحل، كركم</li>
+              <li>زيت للقلي</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>اسمط البطاطا في الماء حتى تطيب وارحيها (بيّرية).</li>
+              <li class="step"><span class="step-num">2.</span>خلط دقيق الحمص مع الماء في صحفة وحدها حتى تولي عجينة جارية بلاش كعابر.</li>
+              <li class="step"><span class="step-num">3.</span>خلط البطاطا مع خليط الحمص، مغرفة الفرينة، المعدنوس، الجلبانة والسفنارية والفاحات.</li>
+              <li class="step"><span class="step-num">4.</span>سخّن الزيت في مقلة غارقة (ما تلصقش)، صب الخليط وطيبها على نار هادية ومغطية حتى تشد روحها (تاخو وقت أكثر من العظم).</li>
+              <li class="step"><span class="step-num">5.</span>اقلب المعقودة بحذر باستعمال تبسي ورجعها للمقلة باش تطيب من الجهة الأخرى.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+{
+  "id": "tfina",
+  "image": "tfina.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "2 h",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "טפינה",
+    "es": "Tfina",
+    "ar": "التفينة",
+    "en": "Tfina"
+  },
+  "description": {
+    "he": "גירסה טבעונית לתבשיל השבת המסורתי שהכיל במקור בשר וביצים, וכאן עושה שימוש בסייטן או טופו למרקם עשיר. השם נגזר מהמילה הערבית 'דפינה' (קבורה), זכר להטמנת הסיר בגחלים ללילה שלם.",
+    "es": "Adaptación vegana del estofado tradicional de Shabat que originalmente llevaba carne, aquí recreado con seitán o tofu. El nombre proviene del árabe 'dafina' (enterrada), refiriéndose a la cocción lenta bajo las brasas.",
+    "ar": "نسخة نباتية من طبق السبت التقليدي الذي يُطبخ عادة باللحم والبيض، وتستخدم هنا السيتان أو التوفو. الاسم مشتق من كلمة 'دفينة'، إشارة إلى طريقة طهيه قديماً بدفن القدر في الجمر.",
+    "en": "Traditionally a slow-cooked Sabbath meat stew, this vegan adaptation uses seitan or tofu to mimic the rich, savory texture. The name comes from the Arabic word for 'buried,' referring to the pot being buried in embers overnight."
+  },
+  "ingredients": {
+    "he": [
+      "3 בצלים גדולים, קצוצים",
+      "500 גרם סייטן או טופו קשה",
+      "3 תפוחי אדמה, חתוכים",
+      "1 כוס שעועית (לבנה וחומה)",
+      "1/2 כוס גריסי פנינה",
+      "1 כף פפריקה",
+      "תבלינים: פלפל שחור, אבקת שום, מלח",
+      "2 כפות סילאן (או סירופ מייפל)"
+    ],
+    "es": [
+      "3 cebollas grandes picadas",
+      "500g de seitán o tofu firme",
+      "3 papas cortadas",
+      "1 taza de frijoles (blancos y oscuros)",
+      "1/2 taza de cebada perlada",
+      "1 cda de pimentón (paprika)",
+      "Especias: pimienta negra, ajo en polvo, sal",
+      "2 cdas de silan (miel de dátiles) o arce"
+    ],
+    "ar": [
+      "3 بصلات كبار مقصوصين",
+      "500 غرام سيتان أو توفو",
+      "3 كعبات بطاطا مقصوصين",
+      "1 كأس لوبيا (بيضاء وحمراء)",
+      "نص كأس شعير (تزريقة)",
+      "مغرفة فلفل أحمر",
+      "فاحات: فلفل أكحل، ثوم مرحي، ملح",
+      "2 مغارف رب (عسل تمر) أو سيرو"
+    ],
+    "en": [
+      "3 large onions, chopped",
+      "500g seitan chunks or firm tofu",
+      "3 potatoes, cut into chunks",
+      "1 cup beans (white and brown)",
+      "1/2 cup pearl barley",
+      "1 tbsp paprika",
+      "Spices: Black pepper, garlic powder, salt",
+      "2 tbsp Silan (date syrup) or maple syrup"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצלים בשמן עד להשחמה עמוקה.",
+      "מוסיפים את קוביות הסייטן או הטופו ומטגנים מכל הצדדים.",
+      "מוסיפים לסיר את תפוחי האדמה, השעועית והגריסים.",
+      "מכסים במים ומוסיפים את התבלינים והסילאן.",
+      "מביאים לרתיחה, מנמיכים להבה ומבשלים כשעה וחצי (או כל הלילה על פלטה)."
+    ],
+    "es": [
+      "Sofreír las cebollas hasta que estén bien oscuras.",
+      "Añadir el seitán o tofu y dorar por todos lados.",
+      "Incorporar las papas, los frijoles y la cebada.",
+      "Cubrir con agua, añadir las especias y el silan.",
+      "Hervir y cocinar a fuego lento durante 1.5 horas (o toda la noche)."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت لين يحمار ويولي لونه غامق.",
+      "زيد السيتان ولاّ التوفو وقلّيهم مع البصل من الجهات الكل.",
+      "رمي البطاطا، اللوبيا، والشعير في الطنجرة.",
+      "مرّق بالماء وزيد الفاحات والرب (عسل التمر).",
+      "خليها تغلي، ومن بعد نقص للنار وخلّيها تطيب ساعة ونص (أو ليلة كاملة)."
+    ],
+    "en": [
+      "Fry the onions until they turn a deep dark brown.",
+      "Add the seitan or tofu chunks and fry on all sides.",
+      "Add the potatoes, beans, and barley to the pot.",
+      "Cover with water and add the spices and Silan syrup.",
+      "Bring to a boil, then simmer on low heat for 1.5 hours (or overnight)."
+    ]
+  }
+}

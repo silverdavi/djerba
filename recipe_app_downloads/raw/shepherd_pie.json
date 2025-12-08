@@ -1,0 +1,24 @@
+{
+  "name": "Shepherd pie",
+  "ingredients": [
+    "Potatoes",
+    "Turmeric",
+    "Salt",
+    "Chicken seasoning",
+    "Grind meat",
+    "Paprika",
+    "Salt",
+    "Chicken seasoning",
+    "Shawarma seasoning",
+    "Garlic powder",
+    "Black pepper"
+  ],
+  "instructions": [
+    "Boil the potatoes",
+    "Mash with seasoning",
+    "Fry the meat with seasoning",
+    "Layer in pan potatoes meat potatoes"
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

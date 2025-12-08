@@ -1,0 +1,21 @@
+{
+  "name": "Yellow meat",
+  "ingredients": [
+    "Salt",
+    "Pepper",
+    "Chicken seasoning",
+    "Onion",
+    "Bay leafs",
+    "Whole grain black pepper",
+    "Turmeric"
+  ],
+  "instructions": [
+    "Massage meats with onion powder",
+    "Cook in oven closed well with foil paper for 2.5 hours",
+    "Cut meat to slices",
+    "Fry onion until golden brown",
+    "Cook in pot with seasoning"
+  ],
+  "serves": "",
+  "source": "recime_raw"
+}

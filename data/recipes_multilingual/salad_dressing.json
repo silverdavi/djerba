@@ -1,0 +1,94 @@
+{
+  "id": "salad_dressing",
+  "image": "salad_dressing.png",
+  "meta": {
+    "servings": "1 jar",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Very Easy"
+  },
+  "name": {
+    "he": "רוטב לסלט",
+    "es": "Aderezo para Ensalada",
+    "ar": "صوص السلطة",
+    "en": "Salad Dressing"
+  },
+  "description": {
+    "he": "רוטב עשיר וקרמי המשלב טעמים מתוקים, מלוחים וחמצמצים. הוא מצוין לסלטי כרוב פריכים או חסה, ומוגש לרוב עם תוספת אגוזים או חטיפים מלוחים מעל. המתכון המודרני הזה משתמש במיונז טבעוני למרקם חלק.",
+    "es": "Un aderezo rico y cremoso que equilibra sabores dulces, salados y ácidos. Perfecto para ensaladas de repollo crujientes o lechuga fresca, a menudo servido con nueces o snacks salados. Esta receta moderna utiliza mayonesa vegana para una textura suave.",
+    "ar": "صوص بنينة وعاقدة تخلط بين الحلاوة والملوحة والحموضة. تجي هايلة مع سلطة الكرنب (الملفوف) ولا الخس، وتتقدم عادة مع مكسرات ولا حاجة مالحة تتقرمش من فوق. هالوصفة العصرية تستعمل مايونيز نباتي باش تجي رطبة.",
+    "en": "A rich and creamy dressing that balances sweet, savory, and tangy flavors. It is excellent for crisp cabbage salads or fresh lettuce, often served with crunchy toppings. This modern recipe uses vegan mayonnaise for a smooth texture."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס שמן",
+      "1/4 כוס מים",
+      "1 כף מיונז טבעוני",
+      "1 כפית חרדל",
+      "1 כף מיץ לימון",
+      "3 כפות סוכר",
+      "1 כף רוטב סויה",
+      "1 שן שום כתושה",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "1/2 taza de aceite",
+      "1/4 taza de agua",
+      "1 cda mayonesa vegana",
+      "1 cdta mostaza",
+      "1 cda jugo de limón",
+      "3 cdas azúcar",
+      "1 cda salsa de soja",
+      "1 diente de ajo machacado",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "نص كأس زيت",
+      "ربع كأس ماء",
+      "مغرفة كبيرة مايونيز نباتي",
+      "مغرفة صغيرة موتارد (خردل)",
+      "مغرفة كبيرة عصير قارص (ليمون)",
+      "3 مغارف كبار سكر",
+      "مغرفة كبيرة صوجا",
+      "سنة ثوم مرحية",
+      "ملح"
+    ],
+    "en": [
+      "1/2 cup oil",
+      "1/4 cup water",
+      "1 tbsp vegan mayonnaise",
+      "1 tsp mustard",
+      "1 tbsp lemon juice",
+      "3 tbsp sugar",
+      "1 tbsp soy sauce",
+      "1 crushed garlic clove",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "טוחנים את כל המרכיבים בבלנדר למרקם אחיד (או משקשקים היטב בצנצנת סגורה).",
+      "טועמים ומתקנים תיבול לפי הצורך.",
+      "שומרים במקרר בצנצנת סגורה (נשמר לאורך זמן).",
+      "מומלץ להגיש על כרוב לבן/סגול או חסה, ולפזר מעל שקדים קלויים או חטיף מלוח."
+    ],
+    "es": [
+      "Licuar todos los ingredientes hasta obtener una mezcla homogénea (o agitar bien en un frasco cerrado).",
+      "Probar y ajustar la sazón si es necesario.",
+      "Guardar en el refrigerador en un frasco cerrado (se conserva por mucho tiempo).",
+      "Se recomienda servir sobre repollo blanco/morado o lechuga, y espolvorear con almendras tostadas o snacks salados."
+    ],
+    "ar": [
+      "ارحي كل المكونات في الخلاط لين تتجانس (ولا خضهم مليح في دبوزة مسكرة).",
+      "ذوق وريڨل الملح والسكر كان لازم.",
+      "خبيها في الفريجيدير في دبوزة مسكرة (تصبر مدة طويلة).",
+      "ننصحك تقدمها فوق سلطة الكرنب ولا الخس، ورش عليها شوية لوز مقلي ولا حاجة تتقرمش."
+    ],
+    "en": [
+      "Blend all ingredients until smooth (or shake vigorously in a sealed jar).",
+      "Taste and adjust seasoning as needed.",
+      "Store in the refrigerator in a sealed jar (keeps for a long time).",
+      "Best served over white/purple cabbage or lettuce, sprinkled with roasted almonds or crunchy snacks."
+    ]
+  }
+}

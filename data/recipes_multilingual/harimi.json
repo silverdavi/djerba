@@ -2,93 +2,105 @@
   "id": "harimi",
   "image": "harimi.png",
   "meta": {
-    "servings": "4",
-    "prep_time": "15 min",
+    "servings": "4–5",
+    "prep_time": "20 min",
     "cook_time": "30 min",
     "difficulty": "Medium"
   },
   "name": {
-    "he": "חריימה",
-    "es": "El Harimi",
+    "he": "חרימי",
+    "es": "Harimi",
     "ar": "الحرايمي",
     "en": "Harimi"
   },
   "description": {
-    "he": "תבשיל עשיר וחריף ברוטב עגבניות, שום ותבלינים, המוגש באופן מסורתי בערב שבת. הגרסה הטבעונית מחליפה את הדג בטופו או תחליף צמחי, אך שומרת על הרוטב החריף המפורסם. השם נגזר מהמילה הערבית 'חראם' (אסור/חריף) המרמזת על חריפותו.",
-    "es": "Un guiso picante y rico en salsa de tomate, ajo y especias, servido tradicionalmente los viernes por la noche. Esta versión vegana sustituye el pescado por tofu, manteniendo la famosa salsa ardiente. Su nombre deriva de 'Haram' (prohibido/picante), aludiendo a su intensidad.",
-    "ar": "مرقة حارة وغنية بالطماطم والثوم والتوابل، تعتبر من أركان المائدة التونسية ليلة السبت. في هذه النسخة النباتية نستبدل السمك بالتوفو أو بديل نباتي مع الحفاظ على 'التحرحيرة' الأصلية. الاسم مشتق من كلمة 'حرام' إشارة لشدة حرارتها.",
-    "en": "A rich, spicy tomato stew packed with garlic and spices, traditionally served on Friday nights. This vegan version swaps fish for tofu or plant-based alternatives while keeping the famous fiery sauce. The name derives from 'Haram' (hot/forbidden), referring to its intense heat."
+    "he": "חרימי הוא תבשיל מסורתי חריף, המוגש בדרך כלל בערב שבת. במקור מבוסס על דגים, אך גירסה טבעונית זו משתמשת בטופו ואצות וואקמה לקבלת טעם ים ומרקם נימוח. השם נגזר מהשורש הערבי לחריפות או 'חראם' (אסור), המעיד על עוצמת התבלינים ברוטב.",
+    "es": "El Harimi es un guiso picante tradicional, servido típicamente en Shabat. Originalmente hecho con pescado, esta adaptación vegana utiliza tofu y algas wakame para replicar el sabor y la textura del mar. El nombre deriva de la raíz árabe para 'picante' o 'prohibido', refiriéndose a la intensidad de la salsa.",
+    "ar": "الحرايمي هو طبق حار تقليدي يُقدم عادة في عشاء السبت. في الأصل يُحضّر بالسمك، لكن هذه النسخة النباتية تستخدم التوفو وأعشاب البحر (الواكامي) للحصول على نكهة البحر وقوام طري. الاسم مشتق من 'حار' أو 'حرام'، إشارة إلى حدة الصلصة وتوابلها القوية.",
+    "en": "Harimi is a traditional spicy stew, typically served on Shabbat eve. Originally a fish dish, this plant-based adaptation uses tofu and wakame seaweed to replicate the oceanic flavor and tender texture. The name derives from the Arabic root for 'hot' or 'forbidden,' referring to the sauce's intense spiciness."
   },
   "ingredients": {
     "he": [
-      "1/4 כוס שמן",
-      "1 ראש שום קלוף וכתוש",
-      "2 כפות רסק עגבניות",
-      "1 כף פפריקה חריפה",
-      "1/2 כפית כמון",
-      "1 כפית קימל (כרוויה)",
-      "2 פלפלים חריפים",
-      "טופו מעושן / 'דג' טבעוני",
-      "מיץ מלימון אחד",
-      "2 תפוחי אדמה (אופציונלי)"
+      "600 גרם טופו קשה (סחוט היטב)",
+      "20 גרם אצות וואקמה (מושרות וסחוטות)",
+      "6 כפיות קמח שקדים",
+      "1 כפית קמח לבן או חומוס",
+      "תבלינים לקציצות (מלח, אבקת שום, כמון)",
+      "שמן לטיגון",
+      "5 שיני שום טריות (פרוסות)",
+      "1 פלפל אדום (רצועות)",
+      "4 עגבניות (קצוצות/מרוסקות)",
+      "צרור כוסברה (קצוצה)",
+      "תבלינים לרוטב (פפריקה מתוקה/חריפה, כורכום, מלח)"
     ],
     "es": [
-      "1/4 taza de aceite",
-      "1 cabeza de ajo (pelada y machacada)",
-      "2 cdas de pasta de tomate",
-      "1 cda de pimentón picante",
-      "1/2 cdta de comino",
-      "1 cdta de alcaravea",
-      "2 pimientos picantes",
-      "Tofu ahumado / 'Pescado' vegano",
-      "Zumo de 1 limón",
-      "2 patatas (opcional)"
+      "600g tofu firme (bien escurrido)",
+      "20g algas wakame (remojadas y escurridas)",
+      "6 cditas harina de almendra",
+      "1 cdita harina de trigo o garbanzo",
+      "Especias albóndigas (sal, ajo en polvo, comino)",
+      "Aceite para freír",
+      "5 dientes de ajo frescos (laminados)",
+      "1 pimiento rojo (en tiras)",
+      "4 tomates (picados o triturados)",
+      "1 manojo de cilantro (picado)",
+      "Especias salsa (pimentón dulce/picante, cúrcuma, sal)"
     ],
     "ar": [
-      "ربع كأس زيت",
-      "1 رأس ثوم مقشر ومهروس",
-      "2 ملاعق طماطم حكة",
-      "1 مغرفة فلفل زينة حار",
-      "نصف مغرفة صغيرة كمون",
-      "1 مغرفة صغيرة كروية",
-      "2 قرون فلفل حار",
-      "توفو مدخن / بديل سمك نباتي",
-      "عصير كعبة قارص",
-      "2 كعبات بطاطا (اختياري)"
+      "600غ توفو يابس (معصور مليح)",
+      "20غ طحالب واكامي (منقوعة ومعصورة)",
+      "6 ملاعق صغيرة دقيق اللوز",
+      "1 ملعقة صغيرة فارينة أو دقيق حمص",
+      "توابل الكعابر (ملح، ثوم مرحي، كمون)",
+      "زيت للقلي",
+      "5 سنون ثوم (مقصوصين)",
+      "1 فلفل أحمر (شرائح)",
+      "4 كعبات طماطم (مرحية)",
+      "ربطة قزبر (كزبرة مقصوصة)",
+      "توابل المرقة (فلفل أحمر، كركم، ملح)"
     ],
     "en": [
-      "1/4 cup oil",
-      "1 head garlic (peeled and crushed)",
-      "2 tbsp tomato paste",
-      "1 tbsp hot paprika",
-      "1/2 tsp cumin",
-      "1 tsp caraway",
-      "2 hot peppers",
-      "Smoked tofu / Vegan 'fish'",
-      "Juice of 1 lemon",
-      "2 potatoes (optional)"
+      "600g firm tofu (drained well)",
+      "20g wakame seaweed (soaked and drained)",
+      "6 tsp almond flour",
+      "1 tsp white or chickpea flour",
+      "Patty spices (salt, garlic powder, cumin)",
+      "Oil for frying",
+      "5 fresh garlic cloves (sliced)",
+      "1 red bell pepper (strips)",
+      "4 tomatoes (chopped/crushed)",
+      "1 bunch fresh cilantro (chopped)",
+      "Sauce spices (paprika sweet/hot, turmeric, salt)"
     ]
   },
   "steps": {
     "he": [
-      "מחממים שמן בסיר ומטגנים קלות את השום, הפלפלים החריפים, רסק העגבניות והתבלינים כ-5 דקות לפתיחת טעמים.",
-      "מוסיפים מים ומביאים לרתיחה. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת ומבשלים עד לריכוך.",
-      "מוסיפים את הטופו (או תחליף הדג) ומיץ הלימון, ומבשלים כ-10 דקות נוספות לספיגת הטעמים."
+      "סוחטים את הטופו היטב ומעבדים במעבד מזון עם האצות והתבלינים היבשים. מוסיפים קמח שקדים בהדרגה (עיבוד קצר למרקם גס).",
+      "משהים ל-10 דקות. יוצרים קציצות בידיים לחות, משמנים קלות ואופים 10 דקות ב-250 מעלות לצריבה ראשונית.",
+      "במחבת רחבה מחממים שמן ופותחים את התבלינים (מלח, כורכום, פפריקה).",
+      "מוסיפים את העגבניות, הפלפל האדום, השום הטרי והכוסברה. מבשלים עד לקבלת רוטב סמיך ועשיר.",
+      "מוסיפים את הקציצות האפויות לרוטב ומבשלים דקות ספורות לספיגת טעמים."
     ],
     "es": [
-      "Calentar el aceite en una olla y sofreír el ajo, los pimientos, la pasta de tomate y las especias durante 5 minutos.",
-      "Añadir agua y llevar a ebullición. Si se usan patatas, añadirlas ahora y cocinar hasta que estén tiernas.",
-      "Incorporar el tofu (o sustituto de pescado) y el zumo de limón, cocinando 10 minutos más para que absorba los sabores."
+      "Escurrir bien el tofu y procesar con algas y especias secas. Añadir harina de almendra gradualmente (procesar poco tiempo).",
+      "Reposar 10 min. Formar albóndigas con manos húmedas, rociar con aceite y hornear 10 min a 250°C para sellar.",
+      "Calentar aceite en una sartén ancha y sofreír las especias (sal, cúrcuma, pimentón) para liberar aromas.",
+      "Añadir tomates, pimiento, ajo fresco y cilantro. Cocinar hasta obtener una salsa espesa y rica.",
+      "Incorporar las albóndigas horneadas a la salsa y cocinar brevemente para absorber los sabores."
     ],
     "ar": [
-      "حط الزيت في الطنجرة وقلّي الثوم، الفلفل الحار، طماطم الحكة والفاحات (فلفل زينة، كمون، كروية) لمدة 5 دقايق.",
-      "زيد الماء وخلي المرقة تغلي. كان باش تحط بطاطا، ارميها توا وخليها تطيب لين تطرى.",
-      "ارمي التوفو (أو بديل الحوت) وعصير القارص، وخليهم يغلوا 10 دقايق أخرين باش يشربوا الصوص."
+      "اعصر التوفو مليح وارحيه في الميكسور مع الطحالب والتوابل الشايحة. زيد دقيق اللوز بشوية (ما ترحيش برشا بش يبقى شادد روحو).",
+      "خلي الخليط يرتاح 10 دقايق. شكّل كعابر بيدي مبلولة، رش عليهم شوية زيت وحطهم في الفور 10 دقايق (250 درجة) يتشمعوا.",
+      "سخن الزيت في طنجرة واسعة وقلي التوابل (ملح، كركم، فلفل أحمر) بش تخرج ريحتهم.",
+      "زيد الطماطم، الفلفل الأحمر، الثوم والقزبر. طيب لين تعقاد المرقة وتولي خاثرة.",
+      "رمي كعابر التوفو في المرقة وخليهم يغلو شوية بش يشربوا البنة."
     ],
     "en": [
-      "Heat oil in a pot and sauté garlic, hot peppers, tomato paste, and spices for 5 minutes to release flavors.",
-      "Add water and bring to a boil. If using potatoes, add them now and cook until tender.",
-      "Add the tofu (or fish alternative) and lemon juice, simmering for another 10 minutes to absorb the sauce."
+      "Drain tofu well and pulse in a food processor with seaweed and dry spices. Gradually add almond flour (do not overmix).",
+      "Rest for 10 mins. Form patties with wet hands, spray with oil, and bake for 10 mins at 250°C to sear.",
+      "Heat oil in a wide pan and bloom the spices (salt, turmeric, paprika).",
+      "Add tomatoes, bell pepper, fresh garlic, and cilantro. Cook until a thick, rich sauce forms.",
+      "Add the baked patties to the sauce and simmer briefly to absorb flavors."
     ]
   }
 }

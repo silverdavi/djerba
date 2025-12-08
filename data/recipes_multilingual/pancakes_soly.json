@@ -1,0 +1,94 @@
+{
+  "id": "pancakes_soly",
+  "image": "pancakes_soly.png",
+  "meta": {
+    "servings": "3-4",
+    "prep_time": "10 min",
+    "cook_time": "15 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פנקייק סולי",
+    "es": "Tortitas de Soly",
+    "ar": "بانكيك سولي",
+    "en": "Soly's Pancakes"
+  },
+  "description": {
+    "he": "מתכון משפחתי אהוב לפנקייקים אווריריים ומתוקים, מושלמים לארוחת בוקר. הגרסה הטבעונית מחליפה את הביצים ברסק תפוחים לקבלת מרקם רך ולח. המנה נקראת על שם סולי, בן המשפחה ששכלל את המתכון.",
+    "es": "Una receta familiar muy querida de tortitas esponjosas y dulces. Aunque tradicionalmente llevan huevo, esta versión vegana utiliza puré de manzana para lograr una textura suave. Nombrada en honor a Soly, el familiar que perfeccionó la receta.",
+    "ar": "وصفة عائلية محبوبة لبانكيك خفيف وحلو، مثالي لفطور الصباح. في العادة يتعمل بالعظم، أما في هذه النسخة النباتية استعملنا \"كمبوت\" التفاح باش يجي طري. تسمات على اسم \"سولي\" اللي تفنن فيها.",
+    "en": "A beloved family recipe for fluffy, sweet pancakes. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve a light texture. Named after Soly, the family member who perfected the dish."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס קמח",
+      "3 כפות סוכר",
+      "קורט מלח",
+      "1/2 שקית אבקת אפייה",
+      "1.5 שקיות סוכר וניל",
+      "1/2 כפית סודה לשתייה",
+      "3 כפות רסק תפוחים (במקום ביצה)",
+      "3 כפות שמן",
+      "3/4 כוס מים"
+    ],
+    "es": [
+      "1 taza de harina",
+      "3 cucharadas de azúcar",
+      "Una pizca de sal",
+      "1/2 sobre de levadura química (polvo de hornear)",
+      "1.5 sobres de azúcar vainillado",
+      "1/2 cucharadita de bicarbonato",
+      "3 cucharadas de puré de manzana",
+      "3 cucharadas de aceite",
+      "3/4 taza de agua"
+    ],
+    "ar": [
+      "1 كأس فارينة",
+      "3 مغارف كبار سكر",
+      "رشة ملح",
+      "نص باكوا خميرة قاطو",
+      "1.5 باكو سكر فانيليا",
+      "نص مغرفة صغيرة بيكربونات",
+      "3 مغارف كبار \"كمبوت\" تفاح (عصيدة تفاح)",
+      "3 مغارف كبار زيت",
+      "3/4 كأس ماء"
+    ],
+    "en": [
+      "1 cup flour",
+      "3 tbsp sugar",
+      "Pinch of salt",
+      "1/2 packet baking powder",
+      "1.5 packets vanilla sugar",
+      "1/2 tsp baking soda",
+      "3 tbsp applesauce (egg substitute)",
+      "3 tbsp oil",
+      "3/4 cup water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את כל החומרים היבשים (קמח, סוכר, מלח, אבקת אפייה, סודה לשתייה) בקערה.",
+      "מוסיפים את החומרים הרטובים (רסק תפוחים, שמן, מים) ומערבבים רק עד לאיחוד (לא לערבב יותר מדי).",
+      "מחממים מעט שמן במחבת על אש בינונית.",
+      "יוצקים מהבלילה למחבת ומטגנים משני הצדדים עד להזהבה."
+    ],
+    "es": [
+      "Mezclar todos los ingredientes secos en un bol grande.",
+      "Añadir los ingredientes húmedos (puré de manzana, aceite, agua) y mezclar solo hasta integrar.",
+      "Calentar un poco de aceite en una sartén a fuego medio.",
+      "Verter porciones de masa en la sartén y cocinar por ambos lados hasta que doren."
+    ],
+    "ar": [
+      "خلط النواشف الكل (فارينة، سكر، ملح، خميرة، بيكربونات) مع بعضهم في صحفة.",
+      "زيد السوائل (\"الكمبوت\"، الزيت، الماء) وخلط لين تتلم العجينة (ما تخلطش برشا).",
+      "سخن شوية زيت في المقلاة على نار متوسطة.",
+      "صب شوية من الخليط في المقلاة وطيبهم من الجهتين لين يحماروا ويطيبوا."
+    ],
+    "en": [
+      "Mix all dry ingredients in a bowl.",
+      "Add the wet ingredients (applesauce, oil, water) and mix just until combined (do not overmix).",
+      "Heat a little oil in a pan over medium heat.",
+      "Pour batter into the pan and cook on both sides until golden brown."
+    ]
+  }
+}

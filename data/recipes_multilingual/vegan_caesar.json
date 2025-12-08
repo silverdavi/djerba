@@ -1,0 +1,86 @@
+{
+  "id": "vegan_caesar",
+  "image": "vegan_caesar.png",
+  "meta": {
+    "servings": "1 cup",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "רוטב קיסר",
+    "es": "Aderezo César",
+    "ar": "صوص سيزر",
+    "en": "Caesar Dressing"
+  },
+  "description": {
+    "he": "רוטב עשיר וקרמי שבמקור מבוסס על אנשובי וביצים, אך בגירסה זו מקבל את טעמו העמוק מצלפים ומי כבישה. תוספת מודרנית ונהדרת לסלטים טריים בשולחן השבת.",
+    "es": "Un aderezo cremoso clásico, adaptado aquí sin las anchoas ni huevos tradicionales. Esta versión vegana utiliza alcaparras y su salmuera para capturar ese sabor profundo y salado característico.",
+    "ar": "صوص 'سيزر' المعروفة، حضرناها بطريقة نباتية من غير عظم (بيض) ولا أنشوة. استعملنا الكبار (Capers) باش يعطينا طعمة الملوحية والبنة القوية للسلطة.",
+    "en": "Originally reliant on anchovies and eggs, this plant-based adaptation uses capers and brine to replicate the signature savory depth. A creamy, modern addition to the family table."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס מיונז טבעוני",
+      "1 כפית צלפים",
+      "1-2 כפיות מי צלפים (מהצנצנת)",
+      "2 כפות מיץ לימון",
+      "1-2 כפיות חרדל דיז'ון",
+      "1 כף פטרוזיליה טרייה (או 1/2 כפית יבשה)",
+      "1-2 שיני שום",
+      "מלח ופלפל לפי הטעם"
+    ],
+    "es": [
+      "1/2 taza de mayonesa vegana",
+      "1 cdta de alcaparras",
+      "1-2 cdtas de salmuera de alcaparras",
+      "2 cdas de jugo de limón",
+      "1-2 cdtas de mostaza Dijon",
+      "1 cda de perejil fresco (o 1/2 seca)",
+      "1-2 dientes de ajo, pelados",
+      "Sal y pimienta al gusto"
+    ],
+    "ar": [
+      "1/2 كأس مايونيز نباتي",
+      "1 مغرفة صغيرة كبار (capers)",
+      "1-2 مغرفة صغيرة ماء الكبار",
+      "2 مغارف كبار عصير قارص",
+      "1-2 مغرفة صغيرة موتارد (خردل)",
+      "1 مغرفة كبيرة معدنوس (أو شايح)",
+      "1-2 سنات ثوم",
+      "ملح وفلفل أكحل"
+    ],
+    "en": [
+      "1/2 cup vegan mayonnaise",
+      "1 tsp capers",
+      "1-2 tsp caper brine",
+      "2 tbsp lemon juice",
+      "1-2 tsp Dijon mustard",
+      "1 tbsp fresh parsley (or 1/2 tsp dried)",
+      "1-2 garlic cloves, peeled",
+      "Salt and pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכניסים את כל המרכיבים למעבד מזון או בלנדר.",
+      "מערבלים היטב עד לקבלת רוטב במרקם חלק ואחיד.",
+      "טועמים ומתקנים תיבול (מלח/לימון) לפי הצורך לפני ההגשה."
+    ],
+    "es": [
+      "Colocar todos los ingredientes en un procesador de alimentos o licuadora.",
+      "Mezclar bien hasta obtener una salsa suave y homogénea.",
+      "Probar y ajustar la sazón si es necesario antes de servir."
+    ],
+    "ar": [
+      "حط كل المكونات في الخلاط (mixeur) أو محضرة الطعام.",
+      "ارحيهم مليح حتى يولي الخليط أرطب ومتجانس.",
+      "ذوق الصوص وشوف إذا ناقصة ملح ولا قارص، وزيد حسب الرغبة."
+    ],
+    "en": [
+      "Add all ingredients to a food processor or blender.",
+      "Blend thoroughly until the dressing is completely smooth.",
+      "Taste and adjust seasonings as needed before serving."
+    ]
+  }
+}

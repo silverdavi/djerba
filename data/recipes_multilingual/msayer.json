@@ -1,0 +1,86 @@
+{
+  "id": "msayer",
+  "image": "msayer.png",
+  "meta": {
+    "servings": "6–8",
+    "prep_time": "15 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "משייר",
+    "es": "Msayer",
+    "ar": "المسيّر",
+    "en": "Msayer"
+  },
+  "description": {
+    "he": "משייר הוא סלט ירקות כבושים צבעוני, חלק בלתי נפרד משולחן ה'קמיה' (סלטי הפתיחה) היהודי-צפון אפריקאי. השם נגזר מהמילה הערבית לשימור או החמצה. המנה הטבעונית והפריכה משלבת פלפלים, גזר ולימון לביס רענן וחמוץ.",
+    "es": "El Msayer es una mezcla vibrante de verduras encurtidas, un elemento básico de la 'Kemia' (mesa de aperitivos) judía del norte de África. El nombre proviene del árabe para 'preservado' o 'encurtido'. Naturalmente vegana, esta ensalada crujiente combina pimientos, zanahorias y limón.",
+    "ar": "المسيّر هو مخلل خضروات ملونة، يعتبر ركناً أساسياً في 'الكمية' (المقبلات) اليهودية بشمال إفريقيا. الاسم مشتق من التخليل والحفظ. هذه الوصفة نباتية بطبيعتها وتجمع بين الفلفل والجزر والليمون لمذاق حامض ومنعش.",
+    "en": "Msayer is a vibrant medley of pickled vegetables, a staple of the North African Jewish 'Kemia' (appetizer) table. The name derives from the Arabic root for 'preserved' or 'pickled'. Naturally vegan, this crunchy salad combines peppers, carrots, and lemon for a refreshing tangy bite."
+  },
+  "ingredients": {
+    "he": [
+      "2-3 גמבות (בצבעים שונים)",
+      "2 גזרים",
+      "1 פלפל חריף",
+      "1 לימון גדול",
+      "1 קולרבי (אופציונלי)",
+      "מים",
+      "מלח גס"
+    ],
+    "es": [
+      "2-3 pimientos morrones (varios colores)",
+      "2 zanahorias",
+      "1 pimiento picante (chile)",
+      "1 limón grande",
+      "1 colinabo (opcional)",
+      "Agua",
+      "Sal gruesa"
+    ],
+    "ar": [
+      "2-3 فلفل حلو (ألوان مختلفة)",
+      "2 سفنارية (جزر)",
+      "1 فلفل حار",
+      "1 كعبة قارص (ليمون) كبيرة",
+      "1 كرنب (لفت ألماني - اختياري)",
+      "ماء",
+      "ملح خشين"
+    ],
+    "en": [
+      "2-3 bell peppers (mixed colors)",
+      "2 carrots",
+      "1 hot pepper (chili)",
+      "1 large lemon",
+      "1 kohlrabi (optional)",
+      "Water",
+      "Coarse salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חותכים את הגמבות, הגזר והקולרבי (אם משתמשים) לרצועות או פסים ארוכים.",
+      "חותכים את הפלפל החריף לפסים ארוכים.",
+      "מקלפים את הלימון, סוחטים את המיץ מעל כל הירקות, ואז חותכים את לימון עצמו לחתיכות קטנות ומוסיפים.",
+      "מוסיפים מים לכיסוי ומלח גס לפי הטעם, מערבבים היטב ומגישים."
+    ],
+    "es": [
+      "Cortar los pimientos, las zanahorias y el colinabo (si se usa) en tiras largas.",
+      "Cortar el pimiento picante en tiras.",
+      "Pelar el limón, exprimir el jugo sobre las verduras, luego cortar la pulpa del limón en trozos pequeños y añadir.",
+      "Cubrir con agua, agregar sal gruesa al gusto, mezclar bien y servir."
+    ],
+    "ar": [
+      "قص الفلفل الحلو، السفنارية (الجزر)، والكرنب (إذا استعملته) طروف طوال.",
+      "قص الفلفل الحار طروف طوال.",
+      "قشّر القارص، اعصر العصير فوق الخضرة، ومبعد قص القارص بيدو طروف صغار وزيدهم.",
+      "صب الماء باش تغطي الخضرة، زيد الملح الخشين، خلّط مليح وقدم."
+    ],
+    "en": [
+      "Cut the bell peppers, carrots, and kohlrabi (if using) into long strips.",
+      "Slice the hot pepper into strips.",
+      "Peel the lemon, squeeze the juice over the vegetables, then chop the lemon flesh itself into small pieces and add to the mix.",
+      "Add enough water to cover, season generously with coarse salt, mix well and serve."
+    ]
+  }
+}

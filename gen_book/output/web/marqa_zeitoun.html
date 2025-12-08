@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Marqa Zeitoun – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.5in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Marqa Zeitoun</span></div>
+        <div class="title-word lang-he"><span>מרקה זיתון</span></div>
+        <div class="title-word lang-en"><span>Marqa Zeitoun</span></div>
+        <div class="title-word lang-ar"><span>مرقة زيتون</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>במקור תבשיל עוף או בשר, גרסה טבעונית זו משמרת את הטעמים העשירים בעזרת תיבול מדויק. השם נגזר מהמילה הערבית &quot;מרקה&quot; (תבשיל/רוטב) ו&quot;זיתון&quot; (זיתים). מנה קלאסית במטבח היהודי התוניסאי והמרוקאי.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Tradicionalmente un guiso de carne, esta adaptación vegana recrea el sabor profundo usando condimentos vegetales. El nombre proviene del árabe &quot;marqa&quot; (guiso) y &quot;zeitoun&quot; (aceitunas). Un clásico de los hogares judíos del norte de África.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>في الأصل تُطبخ باللحم أو الدجاج، ولكن هذه النسخة النباتية تحافظ على النكهة الغنية. كلمة &quot;مرقة&quot; تعني اليخنة، و&quot;زيتون&quot; هو المكون الأساسي. أكلة شائعة في المطبخ اليهودي المغاربي.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>While traditionally made with chicken or beef, this vegan adaptation captures the savory depth using plant-based seasonings. The name derives from Arabic &quot;marqa&quot; (stew) and &quot;zeitoun&quot; (olives). Common across North African Jewish communities.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/marqa_zeitoun_dish.png" alt="Marqa Zeitoun dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>2 tazas de aceitunas verdes deshuesadas</li>
+              <li>5 dientes de ajo picados</li>
+              <li>1 cda de pasta de tomate</li>
+              <li>1 cdta de pimentón dulce</li>
+              <li>1/2 cdta de cúrcuma</li>
+              <li>1 cda de caldo sabor pollo (vegano)</li>
+              <li>Un puñado de cilantro fresco</li>
+              <li>Sal y pimienta al gusto</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Hervir las aceitunas con agua y un poco de cúrcuma para quitar el amargor, luego escurrir.</li>
+              <li class="step"><span class="step-num">2.</span>Sofreír el ajo ligeramente, añadir pimentón, sal, pimienta y el caldo en polvo.</li>
+              <li class="step"><span class="step-num">3.</span>Agregar la pasta de tomate y mezclar para liberar los sabores.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir agua para formar la salsa e incorporar las aceitunas.</li>
+              <li class="step"><span class="step-num">5.</span>Cocinar a fuego lento hasta que la salsa espese y terminar con cilantro picado.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>2 כוסות זיתים ירוקים מגולענים</li>
+              <li>5 שיני שום כתושות</li>
+              <li>1 כף רסק עגבניות</li>
+              <li>1 כפית פפריקה מתוקה</li>
+              <li>1/2 כפית כורכום</li>
+              <li>1 כף אבקת מרק בטעם עוף (פרווה)</li>
+              <li>חופן כוסברה טרייה</li>
+              <li>מלח ופלפל לפי הטעם</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מרתיחים את הזיתים בסיר עם מים ומעט כורכום כדי להוציא את המרירות, ומסננים.</li>
+              <li class="step"><span class="step-num">2.</span>מטגנים את השום קלות בשמן, מוסיפים פפריקה, מלח, פלפל ואבקת מרק.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים את רסק העגבניות ומערבבים לפתיחת טעמים.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים מים ליצירת רוטב ואת הזיתים המסוננים.</li>
+              <li class="step"><span class="step-num">5.</span>מבשלים על אש קטנה עד שהרוטב מסמיך, ומסיימים עם כוסברה קצוצה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>2 cups pitted green olives</li>
+              <li>5 cloves garlic, minced</li>
+              <li>1 tbsp tomato paste</li>
+              <li>1 tsp sweet paprika</li>
+              <li>1/2 tsp turmeric</li>
+              <li>1 tbsp vegan chicken bouillon powder</li>
+              <li>Handful of fresh cilantro</li>
+              <li>Salt and pepper to taste</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Boil olives in water with a pinch of turmeric to remove bitterness, then drain.</li>
+              <li class="step"><span class="step-num">2.</span>Sauté garlic briefly in oil, then add paprika, salt, pepper, and bouillon powder.</li>
+              <li class="step"><span class="step-num">3.</span>Add tomato paste and stir to bloom the flavors.</li>
+              <li class="step"><span class="step-num">4.</span>Add water to create a sauce and stir in the olives.</li>
+              <li class="step"><span class="step-num">5.</span>Simmer until the sauce thickens, then finish with chopped cilantro.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>2 كؤوس زيتون أخضر (بدون عظم)</li>
+              <li>5 فصوص ثوم مهروس</li>
+              <li>1 مغرفة طماطم حكة (معجون)</li>
+              <li>1 ملعقة صغيرة فلفل أحمر</li>
+              <li>1/2 ملعقة صغيرة كركم</li>
+              <li>1 ملعقة كبيرة تابل دجاج نباتي</li>
+              <li>حفنة قزبر (كسبرة) طازج</li>
+              <li>ملح وفلفل أكحل حسب الذوق</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>نغلي الزيتون في الماء مع قليل من الكركم لنزع المرارة، ثم نصفيه.</li>
+              <li class="step"><span class="step-num">2.</span>نقلي الثوم قليلاً في الزيت، ونضيف الفلفل الأحمر، الملح، الفلفل الأكحل وتابل الدجاج.</li>
+              <li class="step"><span class="step-num">3.</span>نضيف طماطم الحكة ونقلب جيداً.</li>
+              <li class="step"><span class="step-num">4.</span>نمرق بالماء ونضيف الزيتون المصفى.</li>
+              <li class="step"><span class="step-num">5.</span>نترك الطنجرة تغلي على نار هادئة حتى يعقد الصوص، وفي الأخير نضيف القزبر المفروم.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
