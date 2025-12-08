@@ -6,7 +6,7 @@ Quick reference for using the new disambiguation module.
 
 ### Problem 1: "What kind of pepper is it?"
 ```
-Original recipe: "פפר" (pepper)
+Original recipe: "פלפל" (pepper)
 ```
 
 **Before:** Is it bell pepper? Hot pepper? Black pepper? 🤔  

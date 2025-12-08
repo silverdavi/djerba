@@ -14,7 +14,7 @@ Example:
     
     # Resolve ambiguous ingredient
     clarified = disambiguator.clarify_ingredient(
-        ingredient="פפר",
+        ingredient="פלפל",
         recipe_context="עם עגבניות וטופו",
         recipe_name="מרק אדום"
     )
@@ -126,76 +126,19 @@ class RecipeDisambiguator:
         # Build context from recipe
         context_parts = []
         if recipe_name:
-            context_parts.append(f"Recipe name: {recipe_name}")
+            context_parts.append(f"In recipe: {recipe_name}")
         if other_ingredients:
-            context_parts.append(f"Recipe also contains: {', '.join(other_ingredients[:3])}")
+            context_parts.append(f"With: {', '.join(other_ingredients[:3])}")
         context = "\n".join(context_parts) if context_parts else ""
         
-        # Use a different, safer system prompt that avoids triggers
-        system_prompt = """Provide JSON responses for ingredient classification."""
-        
-        # Build a safer user prompt
-        parts = []
-        if ingredient.lower() == "pepper":
-            parts = [
-                '{"clarified": "hot green pepper",',
-                '"alternatives": ["bell pepper", "black pepper", "hot red pepper"],',
-                '"confidence": 0.75,',
-                '"reasoning": "Most common in Tunisian cuisine; long green peppers are standard"}'
-            ]
-            user_prompt = "Classify this ingredient: " + ingredient + ". Return: " + "".join(parts)
-        else:
-            # Generic prompt for other ingredients
-            user_prompt = f"""Classify ingredient in context:
+        # Gemini 3 Pro user prompt
+        user_prompt = f"""Classify this ingredient in context of Tunisian Djerban cuisine.
+
 Ingredient: {ingredient}
-{("With: " + ", ".join(other_ingredients[:2])) if other_ingredients else ""}
-Respond with JSON: {{"clarified": "type", "alternatives": ["alt1"], "confidence": 0.7, "reasoning": "..."}}"""
-        
-        # For "pepper" variants, use direct response
-        ing_lower = ingredient.lower().strip()
-        
-        if ing_lower == "pepper":
-            return {
-                'ingredient': ingredient,
-                'clarified': 'hot green pepper',
-                'alternatives': ['bell pepper', 'black pepper', 'hot red pepper'],
-                'confidence': 0.75,
-                'reasoning': 'In Tunisian cuisine, "pepper" most commonly refers to long green hot peppers'
-            }
-        elif "black pepper" in ing_lower:
-            return {
-                'ingredient': ingredient,
-                'clarified': 'black pepper',
-                'alternatives': ['ground black pepper', 'whole black pepper'],
-                'confidence': 0.85,
-                'reasoning': 'Explicitly stated as black pepper - ground spice for seasoning'
-            }
-        elif "white pepper" in ing_lower:
-            return {
-                'ingredient': ingredient,
-                'clarified': 'white pepper',
-                'alternatives': ['ground white pepper'],
-                'confidence': 0.90,
-                'reasoning': 'Explicitly stated as white pepper - subtle spice'
-            }
-        elif "bell pepper" in ing_lower or "sweet pepper" in ing_lower:
-            return {
-                'ingredient': ingredient,
-                'clarified': 'bell pepper',
-                'alternatives': ['red bell pepper', 'green bell pepper', 'yellow bell pepper'],
-                'confidence': 0.90,
-                'reasoning': 'Explicitly stated as bell or sweet pepper - colorful chunks'
-            }
-        elif any(x in ing_lower for x in ["hot pepper", "chili", "jalapeño", "jalapeno", "serrano"]):
-            return {
-                'ingredient': ingredient,
-                'clarified': 'hot chili pepper',
-                'alternatives': ['hot green pepper', 'hot red pepper', 'jalapeño', 'serrano'],
-                'confidence': 0.85,
-                'reasoning': 'Hot pepper/chili explicitly mentioned'
-            }
-        
-        # For other ingredients, try API
+{context}
+
+Return valid JSON with exactly these fields (no markdown, no extra text):
+{{"clarified": "specific type", "alternatives": ["alt1", "alt2"], "confidence": 0.8, "reasoning": "explanation"}}"""
         for attempt in range(max_retries):
             try:
                 model = genai.GenerativeModel(self.model)
