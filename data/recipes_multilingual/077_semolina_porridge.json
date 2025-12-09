@@ -1,0 +1,86 @@
+{
+  "id": "077_semolina_porridge",
+  "image": "semolina_porridge.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "דייסת סולת",
+    "es": "Gachas de Sémola",
+    "ar": "الدايسة",
+    "en": "Semolina Porridge"
+  },
+  "description": {
+    "he": "מנת ניחומים קלאסית ומהירה, המוכרת במטבח היהודי-תוניסאי כגרסה דלילה וממותקת של ה'עסידה'. מוגשת לרוב כארוחת בוקר חמה או קינוח קליל, מועשרת בקינמון ואגוזים.",
+    "es": "Un plato reconfortante clásico, conocido en la cocina tunecina como una versión dulce y ligera de la 'Assida'. Se sirve caliente como desayuno o postre, decorado tradicionalmente con canela y frutos secos.",
+    "ar": "أكلة خفيفة وبنينة، معروفة في المطبخ التونسي باسم 'الدايسة' وهي نوع خفيف من العصيدة الحلوة. تتقدم سخونة في فطور الصباح أو كتحلية، ونزينوها بالقرفة والفاكية.",
+    "en": "A classic comfort food, known in Tunisian Jewish cuisine as a thinner, sweet version of 'Assida'. Served warm as a quick breakfast or light dessert, traditionally garnished with cinnamon and nuts."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס סולת",
+      "4 כוסות חלב צמחי (סויה, שקדים או שיבולת שועל)",
+      "3-4 כפות סוכר (או סירופ מייפל)",
+      "קורט מלח",
+      "1 כף שמן קוקוס או חמאה טבעונית",
+      "להגשה: קינמון, אגוזים קצוצים"
+    ],
+    "es": [
+      "1/2 taza de sémola de trigo",
+      "4 tazas de leche vegetal (soja, almendra o avena)",
+      "3-4 cdas de azúcar (o jarabe de arce)",
+      "Una pizca de sal",
+      "1 cda de aceite de coco o mantequilla vegana",
+      "Para servir: canela, nueces picadas"
+    ],
+    "ar": [
+      "نصف كأس سميد",
+      "4 كيسان حليب نباتي (صوجا، لوز أو شوفان)",
+      "3-4 مغارف كبار سكر (أو شحور)",
+      "رشة ملح",
+      "مغرفة كبيرة زيت جوز الهند أو زبدة نباتية",
+      "للزينة: قرفة، فاكية مهروشة"
+    ],
+    "en": [
+      "1/2 cup semolina",
+      "4 cups plant-based milk (soy, almond, or oat)",
+      "3-4 tbsp sugar (or maple syrup)",
+      "Pinch of salt",
+      "1 tbsp coconut oil or vegan butter",
+      "To serve: cinnamon, chopped nuts"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר בינוני, מחממים את החלב הצמחי עם הסוכר והמלח עד לסף רתיחה.",
+      "מנמיכים את הלהבה ומוסיפים את הסולת בהדרגה תוך כדי ערבוב מתמיד במטרפה למניעת גושים.",
+      "מבשלים על אש קטנה 3-5 דקות עד שהדייסה מסמיכה.",
+      "מוסיפים את השמן או החמאה הטבעונית ומערבבים היטב.",
+      "מוזגים לקערות ומגישים חם עם קינמון ותוספות."
+    ],
+    "es": [
+      "Calentar la leche vegetal con el azúcar y la sal en una olla mediana hasta que esté a punto de hervir.",
+      "Bajar el fuego y añadir la sémola poco a poco, batiendo constantemente para evitar grumos.",
+      "Cocinar a fuego lento durante 3-5 minutos hasta que espese.",
+      "Incorporar el aceite o mantequilla vegana y mezclar bien.",
+      "Servir caliente en cuencos con canela y nueces."
+    ],
+    "ar": [
+      "في طنجرة، سخّن الحليب النباتي مع السكر والملح حتى يقرب يغلي.",
+      "نقّص النار وصب السميد بالشوية مع التحريك المستمر بالمغرفة باش ما يتكركبش.",
+      "طيّب على نار هادية لمدة 3-5 دقايق حتى تعقاد الدايسة.",
+      "زيد الزيت أو الزبدة النباتية وخلّط مليح.",
+      "صب في صحافي وقدمها سخونة مع القرفة والفاكية."
+    ],
+    "en": [
+      "Heat the plant-based milk with sugar and salt in a medium saucepan until simmering.",
+      "Lower the heat and gradually add the semolina, whisking constantly to prevent lumps.",
+      "Cook on low heat for 3-5 minutes until thickened.",
+      "Stir in the coconut oil or vegan butter.",
+      "Pour into bowls and serve warm with cinnamon and toppings."
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "022_chocolate_chip_cookies",
+  "image": "chocolate_chip_cookies.png",
+  "meta": {
+    "servings": "60 cookies",
+    "prep_time": "15 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגיות שוקולד צ'יפס",
+    "es": "Galletas con Chispas de Chocolate",
+    "ar": "كوكيز بالشوكولاتة",
+    "en": "Chocolate Chip Cookies"
+  },
+  "description": {
+    "he": "הקלאסיקה האמריקאית המפורסמת מבית 'Toll House', בגרסה טבעונית המותאמת למטבח המשפחתי שלנו. במקום ביצים, אנו משתמשים ברסק תפוחים המעניק לעוגיות מרקם רך ולעיס. למרות שאינה מנה צפון-אפריקאית, היא הפכה לקינוח אהוב על הילדים והנכדים.",
+    "es": "El clásico americano de 'Toll House', adaptado a una versión vegana para nuestra cocina familiar. En lugar de huevos, utilizamos puré de manzana, lo que mantiene la textura suave y masticable. Aunque no es un plato norteafricano, se ha convertido en un postre favorito para los niños.",
+    "ar": "الكلاسيكية الأمريكية المعروفة، عملناها بنسخة نباتية (vegan) باستعمال \"compote\" التفاح في بلاصة العظم باش تجي طرية وبنينة. صح هي مش أكلة تونسية ولا مغربية، أما العايلة تحبها برشا والصغار يموتوا عليها.",
+    "en": "The famous American 'Toll House' classic, adapted here to be vegan using applesauce instead of eggs to maintain that signature chewy texture. While not of North African origin, this has become a beloved staple for the children in the family."
+  },
+  "ingredients": {
+    "he": [
+      "2 1/4 כוסות קמח לבן",
+      "1 כפית סודה לשתייה",
+      "1 כפית מלח",
+      "1 כוס (225 גרם) חמאה טבעונית, רכה",
+      "3/4 כוס סוכר לבן",
+      "3/4 כוס סוכר חום דחוס",
+      "1 כפית תמצית וניל",
+      "6 כפות רסק תפוחים ללא סוכר (תחליף ל-2 ביצים)",
+      "2 כוסות שוקולד צ'יפס מריר/טבעוני",
+      "1 כוס אגוזים קצוצים (אופציונלי)"
+    ],
+    "es": [
+      "2 1/4 tazas de harina de trigo",
+      "1 cucharadita de bicarbonato de sodio",
+      "1 cucharadita de sal",
+      "1 taza de mantequilla vegana, blanda",
+      "3/4 taza de azúcar blanco",
+      "3/4 taza de azúcar moreno compactado",
+      "1 cucharadita de extracto de vainilla",
+      "6 cucharadas de puré de manzana sin azúcar (sustituto de huevo)",
+      "2 tazas de chispas de chocolate veganas",
+      "1 taza de nueces picadas (opcional)"
+    ],
+    "ar": [
+      "2 ¼ كيسان فرينة",
+      "1 مغرفة صغيرة بيكربونات",
+      "1 مغرفة صغيرة ملح",
+      "1 كأس زبدة نباتية طرية",
+      "¾ كأس سكر أحرش (أبيض)",
+      "¾ كأس سكر أسمر",
+      "1 مغرفة صغيرة فانيليا",
+      "6 مغارف \"compote\" تفاح (في بلاصة 2 عظم)",
+      "2 كيسان حبيبات شوكولاتة (pépites de chocolat)",
+      "1 كأس فاكية مهروشة (لوز أو جوز)"
+    ],
+    "en": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup vegan butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "1 tsp vanilla extract",
+      "6 tbsp unsweetened applesauce (egg substitute)",
+      "2 cups vegan semi-sweet chocolate chips",
+      "1 cup chopped nuts (optional)"
+    ]
+  },
+  "variants": [
+    {
+      "name": {
+        "he": "עוגיות קלאסיות",
+        "es": "Galletas Clásicas",
+        "ar": "كعبات كوكيز",
+        "en": "Classic Cookies"
+      },
+      "steps": {
+        "he": [
+          "מחממים תנור ל-190 מעלות (375°F).",
+          "בקערה קטנה מערבבים קמח, סודה לשתייה ומלח.",
+          "בקערת מיקסר גדולה מקציפים חמאה טבעונית, סוכר לבן, סוכר חום ווניל עד לקבלת קרם. מוסיפים את רסק התפוחים ומערבבים.",
+          "מוסיפים בהדרגה את תערובת הקמח. מערבבים פנימה את השוקולד צ'יפס והאגוזים.",
+          "מניחים כפות גדושות מהבצק על תבנית אפייה (אין צורך לשמן).",
+          "אופים 9-11 דקות עד שהשוליים מזהיבים. מצננים לחלוטין."
+        ],
+        "es": [
+          "Precalentar el horno a 190°C (375°F).",
+          "En un bol pequeño, mezclar la harina, el bicarbonato y la sal.",
+          "Batir la mantequilla vegana, los azúcares y la vainilla hasta obtener una crema. Añadir el puré de manzana.",
+          "Incorporar gradualmente la mezcla de harina. Añadir las chispas de chocolate y las nueces.",
+          "Colocar cucharadas de masa en bandejas para hornear (sin engrasar).",
+          "Hornear de 9 a 11 minutos hasta que los bordes estén dorados. Dejar enfriar."
+        ],
+        "ar": [
+          "سخّن الكوشة (الفرن) על 190 درجة.",
+          "في صحفة صغيرة، خلّط الفرينة مع البيكربونات والملح.",
+          "في صحفة كبيرة، ركّض الزبدة مع السكر والفانيليا لين يولي كي الكريمة. زيد الـ\"compote\" متاع التفاح وخلّط.",
+          "زيد خليط الفرينة بالشوية. مبعد زيد الشوكولاتة والفاكية.",
+          "حط بالمغرفة كعبات العجين فوق طبق الكوشة.",
+          "طيّبهم بين 9 و 11 دقيقة لين يحماروا من الأجناب. خلّيهم يبردوا."
+        ],
+        "en": [
+          "Preheat oven to 375°F (190°C).",
+          "Combine flour, baking soda, and salt in a small bowl.",
+          "Beat vegan butter, sugars, and vanilla until creamy. Beat in applesauce.",
+          "Gradually add flour mixture. Stir in chocolate chips and nuts.",
+          "Drop rounded tablespoonfuls onto ungreased baking sheets.",
+          "Bake 9-11 minutes until edges are golden. Cool completely."
+        ]
+      }
+    },
+    {
+      "name": {
+        "he": "עוגת עוגיות בתבנית",
+        "es": "Estilo Barra (En Bandeja)",
+        "ar": "خبزة كوكيز (في الطبق)",
+        "en": "Pan Cookie Bars"
+      },
+      "steps": {
+        "he": [
+          "מחממים תנור ל-190 מעלות (375°F) ומשמנים תבנית בגודל 39x26 ס\"מ.",
+          "משטחים את הבצק בתבנית המשומנת.",
+          "אופים 20-25 דקות. מצננים לחלוטין וחותכים לריבועים."
+        ],
+        "es": [
+          "Precalentar el horno a 190°C y engrasar una bandeja de horno rectangular.",
+          "Extender la masa uniformemente en la bandeja.",
+          "Hornear de 20 a 25 minutos. Enfriar completamente y cortar en cuadrados."
+        ],
+        "ar": [
+          "سخّن الكوشة (الفرن) על 190 درجة وادهن طبق مستطيل بالزيت.",
+          "افرح العجين الكل في الطبق.",
+          "طيّبها بين 20 و 25 دقيقة. خلّيها تبرد مليح ومبعد قصّها مربعات."
+        ],
+        "en": [
+          "Preheat oven to 375°F (190°C). Grease a 15x10-inch baking pan.",
+          "Spread dough into the prepared pan.",
+          "Bake 20-25 minutes. Cool completely before cutting into squares."
+        ]
+      }
+    }
+  ]
+}

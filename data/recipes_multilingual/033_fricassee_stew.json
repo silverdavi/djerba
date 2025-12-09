@@ -1,0 +1,86 @@
+{
+  "id": "033_fricassee_stew",
+  "image": "fricassee_stew.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פריקסה (תבשיל)",
+    "es": "Fricasé (Estofado)",
+    "ar": "فريكاسي (مرقة)",
+    "en": "Fricassee Stew"
+  },
+  "description": {
+    "he": "תבשיל מסורתי שכלל במקור עוף וכופתאות בצק, וכאן מוגש בגרסה טבעונית עם סייטן או טופו. השם מגיע מהמילה הצרפתית Fricassée (נזיד), ומתייחס לשיטת הבישול ברוטב, בשונה מהכריך התוניסאי המטוגן המפורסם בעל אותו השם.",
+    "es": "Un estofado reconfortante tradicionalmente hecho con pollo y bolas de masa, adaptado aquí con seitán o tofu. A diferencia del famoso sándwich tunecino del mismo nombre, este plato toma su nombre del método francés de guisar carne en salsa blanca.",
+    "ar": "طبق يختلف عن السندويش التونسي المعروف (الفريكاسي)؛ فهو مرقة كانت تُطبخ أصلاً بالدجاج وكعابر العجين، وهذه نسخة نباتية بالسيتان أو التوفو. الاسم مشتق من المطبخ الفرنسي ويعني طهي اللحم في مرقة بيضاء.",
+    "en": "A comforting stew traditionally made with chicken and dough dumplings, reimagined here with seitan or tofu. Unlike the famous Tunisian fried sandwich, this dish takes its name from the French method of stewing meat in sauce."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם סייטן או טופו מוצק (חתוך לקוביות)",
+      "1 בצל (קצוץ)",
+      "1 גזר (חתוך לקוביות)",
+      "מים או ציר ירקות",
+      "מלח ופלפל שחור",
+      "לכופתאות: 1 כוס קמח, מים, קורט מלח"
+    ],
+    "es": [
+      "500g de seitán o tofu firme (en cubos)",
+      "1 cebolla (picada)",
+      "1 zanahoria (en cubos)",
+      "Agua o caldo de verduras",
+      "Sal y pimienta negra",
+      "Para las bolas: 1 taza de harina, agua, pizca de sal"
+    ],
+    "ar": [
+      "500غ سيتان أو توفو (مقطع مكعبات)",
+      "1 بصلة (مقصوصة)",
+      "1 سفنارية (جزر - مقصوصة)",
+      "ماء أو مرق خضار",
+      "ملح وفلفل أكحل",
+      "للعجين: 1 كأس فرينة، ماء، رشة ملح"
+    ],
+    "en": [
+      "500g seitan or firm tofu (cubed)",
+      "1 onion (diced)",
+      "1 carrot (diced)",
+      "Water or vegetable broth",
+      "Salt and black pepper",
+      "For dumplings: 1 cup flour, water, pinch of salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים מעט שמן בסיר ומטגנים את הסייטן או הטופו כ-10 דקות עד להשחמה קלה.",
+      "מוסיפים את הבצל והגזר, מתבלים במלח ופלפל, ומאדים יחד.",
+      "מוסיפים מים או ציר ירקות עד לכיסוי ומביאים לרתיחה.",
+      "מכינים את הכופתאות: מערבבים קמח, מים ומלח בקערה עד לקבלת בלילה רכה.",
+      "בעזרת כף, מזלפים גושי בצק לתוך הנוזל הרותח ומבשלים עד שהכופתאות מוכנות."
+    ],
+    "es": [
+      "Calentar aceite en una olla y sofreír el seitán o tofu unos 10 minutos hasta que se dore.",
+      "Añadir la cebolla y la zanahoria, sazonar con sal y pimienta, y rehogar.",
+      "Agregar agua o caldo hasta cubrir y llevar a ebullición.",
+      "Preparar las bolas: mezclar harina, agua y sal hasta obtener una masa suave.",
+      "Con una cuchara, dejar caer porciones de masa en el líquido hirviendo y cocinar hasta que estén hechas."
+    ],
+    "ar": [
+      "سخّن الزيت في طنجرة وقلّي السيتان أو التوفو لمدة 10 دقائق حتى يحمر قليلاً.",
+      "زيد البصل والسفنارية (الجزر)، فوّح بالملح والفلفل الأكحل، وخليهم يتقلاو.",
+      "مرّق بالماء أو مرق الخضار وخلي الطنجرة تغلي.",
+      "حضّر العجين: خلّط الفرينة والماء والملح حتى تتحصل على عجينة طرية.",
+      "بالمغرفة، ارمي كعابر العجين في المرقة وهي تغلي وطيّبهم."
+    ],
+    "en": [
+      "Heat oil in a pot and sauté the seitan or tofu for about 10 minutes until lightly browned.",
+      "Add onion and carrot, season with salt and pepper, and sauté together.",
+      "Add water or broth to cover and bring to a boil.",
+      "Prepare dumplings: mix flour, water, and salt into a soft batter.",
+      "Using a spoon, drop portions of batter into the boiling liquid and cook until dumplings are set."
+    ]
+  }
+}

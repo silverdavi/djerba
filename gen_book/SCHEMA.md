@@ -30,6 +30,11 @@ Each recipe is stored as a JSON file in `recipes/` directory.
     "en": "string"
   },
   
+  "image_prompt": "string (optional)",  // Custom image generation prompt override
+                                        // If provided, this exact prompt will be used
+                                        // instead of auto-generated prompt. Allows manual
+                                        // correction of image generation issues.
+  
   "ingredients": {
     "he": ["string", ...],  // List of ingredients in Hebrew
     "es": ["string", ...],

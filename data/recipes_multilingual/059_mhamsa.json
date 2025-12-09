@@ -1,0 +1,134 @@
+{
+  "id": "059_mhamsa",
+  "image": "mhamsa.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "15 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מחמסה",
+    "es": "La Mhamsa",
+    "ar": "المحمصة",
+    "en": "Mhamsa"
+  },
+  "description": {
+    "he": "מנה תוניסאית-ג'רבאית קלאסית של פתיתים, המוגשת כתוספת יבשה או כנזיד אדום עשיר. השם נגזר מהשורש הערבי ח.מ.ס (קלויה), ומתייחס לשיטה המסורתית של קליית פתיתי הסולת. במקור המנה הוכנה לעיתים עם בשר מיובש (קדיד) או נקניקיות מרגז, אך גרסה צמחית זו משתמשת בציר ירקות עשיר לקבלת עומק הטעמים.",
+    "es": "Un plato clásico tunecino-djerbano de perlas de pasta, servido seco o como un guiso rojo rico. El nombre deriva de la raíz árabe para 'tostado', refiriéndose al método tradicional de tostar la sémola. Aunque tradicionalmente se hacía con carne seca o merguez, esta versión vegana utiliza un caldo vegetal rico para lograr profundidad de sabor.",
+    "ar": "أكلة تونسية جربية تقليدية، تجي شايحة ولا جارية (مرقة حمراء). الاسم جاي من كلمة 'تحميس'، خاطر العادة يحمصوا حبات العجين في الشمس ولا الكوشة. الوصفة الأصلية كانت تتعمل بالقديد ولا المرقاز، أما في هالوصفة النباتية نستعملوا مرقة خضرة بنينة باش تجي نفوحة.",
+    "en": "A classic Tunisian-Djerban pearl pasta dish, served either dry like pilaf or as a rich red stew. The name derives from the Arabic root for 'roasted,' referring to the traditional method of toasting the semolina grains. While originally often made with dried meat or merguez, this plant-based version relies on rich vegetable broth for deep flavor."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל קטן",
+      "1 כוס פתיתים (מחמסה)",
+      "1 כף פפריקה מתוקה",
+      "מלח ופלפל שחור",
+      "2 עגבניות קצוצות (לגרסת הרוטב)",
+      "ירקות חתוכים לפי הטעם (גזר/אפונה/קישוא)",
+      "שמן לטיגון",
+      "מים רותחים או ציר ירקות"
+    ],
+    "es": [
+      "1 cebolla pequeña",
+      "1 taza de Mhamsa (cuscús israelí / perlas de pasta)",
+      "1 cda de pimentón dulce",
+      "Sal y pimienta negra",
+      "2 tomates picados (para versión con salsa)",
+      "Verduras picadas al gusto (zanahoria/guisantes)",
+      "Aceite para freír",
+      "Agua hirviendo o caldo vegetal"
+    ],
+    "ar": [
+      "1 بصلة صغيرة",
+      "1 كأس محمصة (بركوكش / بتيتيم)",
+      "1 مغرفة كبيرة فلفل أحمر (زينة)",
+      "ملح وفلفل أكحل",
+      "2 كعبات طماطم (للنوع الجاري)",
+      "خضرة مقصوصة (سفنارية/جلبانة/قرع)",
+      "زيت للقلي",
+      "ماء سخون ولا مرقة خضرة"
+    ],
+    "en": [
+      "1 small onion",
+      "1 cup Mhamsa (Israeli couscous / pearl pasta)",
+      "1 tbsp sweet paprika",
+      "Salt and black pepper",
+      "2 chopped tomatoes (for sauce version)",
+      "Chopped vegetables of choice (carrots/peas)",
+      "Oil for frying",
+      "Boiling water or vegetable broth"
+    ]
+  },
+  "variants": [
+    {
+      "name": {
+        "he": "מחמסה יבשה",
+        "es": "Mhamsa Seca",
+        "ar": "المحمصة الشايحة",
+        "en": "Dry Mhamsa"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל קטן בשמן עד שהוא נהיה שקוף.",
+          "מוסיפים את הפתיתים ומערבבים דקה כדי 'לסגור' אותם בשמן.",
+          "מוסיפים 1.25 כוסות מים רותחים (או ציר) על כל כוס פתיתים, מתבלים במלח ופלפל.",
+          "מכסים ומבשלים על אש נמוכה עד שכל הנוזלים נספגים (כמו אורז)."
+        ],
+        "es": [
+          "Sofreír la cebolla en aceite hasta que esté transparente.",
+          "Añadir la Mhamsa y remover un minuto para tostar ligeramente.",
+          "Añadir 1.25 tazas de agua hirviendo (o caldo) por taza de pasta, salpimentar.",
+          "Tapar y cocinar a fuego lento hasta que se absorba todo el líquido."
+        ],
+        "ar": [
+          "قلّي البصلة في الزيت حتى تذبل وتولي شفافة.",
+          "زيد المحمصة وحرّك دقيقة باش تتقلى شوية في الزيت.",
+          "صب 1.25 كأس ماء سخون (ولا مرقة) على كل كأس محمصة، فوّح بالملح والفلفل الأكحل.",
+          "غطّي الطنجرة وطيّب على نار هادية لين يشيح الماء الكل (كيف الروز)."
+        ],
+        "en": [
+          "Sauté the onion in oil until transparent.",
+          "Add the Mhamsa and stir for a minute to toast slightly in the oil.",
+          "Add 1.25 cups boiling water (or broth) per cup of pasta, season with salt and pepper.",
+          "Cover and cook on low heat until all liquid is absorbed (like rice)."
+        ]
+      }
+    },
+    {
+      "name": {
+        "he": "מחמסה עם רוטב",
+        "es": "Mhamsa con Salsa",
+        "ar": "المحمصة الجارية (بالمرقة)",
+        "en": "Mhamsa with Sauce"
+      },
+      "steps": {
+        "he": [
+          "מטגנים בצל עד להזהבה, מוסיפים פפריקה ומערבבים שניות ספורות (זהירות לא לשרוף).",
+          "מוסיפים עגבניות קצוצות וירקות חתוכים, מלח ופלפל, ומכסים במים רותחים או ציר.",
+          "מביאים לרתיחה ואז מוסיפים את הפתיתים.",
+          "מבשלים על אש בינונית בכיסוי חלקי עד שהפתיתים רכים והרוטב מסמיך."
+        ],
+        "es": [
+          "Sofreír la cebolla hasta dorar, añadir pimentón y remover brevemente.",
+          "Añadir tomates picados y verduras, sal y pimienta, cubrir con agua hirviendo o caldo.",
+          "Llevar a ebullición y añadir la Mhamsa.",
+          "Cocinar a fuego medio, parcialmente tapado, hasta que la pasta esté tierna y la salsa espese."
+        ],
+        "ar": [
+          "قلّي البصلة لين تصفار، زيد الفلفل الأحمر وحرّك فيسع باش ما يتحرقش.",
+          "زيد الطماطم والخضرة المقطعة، الملح والفلفل الأكحل، ومرّق بالماء السخون.",
+          "كي تغلي المرقة، ارمي المحمصة.",
+          "طيّب على نار متوسطة والطنجرة مغطية نص طياب لين تطيب المحمصة وتخثار المرقة."
+        ],
+        "en": [
+          "Fry onion until golden, add paprika and stir briefly (don't burn).",
+          "Add chopped tomatoes and vegetables, salt and pepper, cover with boiling water or broth.",
+          "Bring to a boil, then add the Mhamsa.",
+          "Cook on medium heat, partially covered, until pasta is tender and sauce thickens."
+        ]
+      }
+    }
+  ]
+}

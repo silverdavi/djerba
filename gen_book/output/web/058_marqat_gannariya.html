@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Marqat Gannariya – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Marqat Gannariya</span></div>
+        <div class="title-word lang-he"><span>מרקת גנרייה</span></div>
+        <div class="title-word lang-en"><span>Marqat Gannariya</span></div>
+        <div class="title-word lang-ar"><span>مرقة قنارية</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>תבשיל מסורתי שבמקור הוכן עם כבש או עוף, אך בגירסה הטבעונית הפטריות מעניקות מרקם עשיר לצד לבבות הארטישוק. הרוטב הצהוב (&quot;זערה&quot;) מקבל את טעמו הלימוני מכורכום ומיץ לימון טרי. המילה &quot;גנרייה&quot; מתייחסת לארטישוק בערבית תוניסאית.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Tradicionalmente preparado con cordero o pollo, esta adaptación vegana utiliza champiñones para complementar los tiernos corazones de alcachofa. Se sirve con una salsa amarilla ácida (&#x27;za&#x27;ara&#x27;) de limón y cúrcuma. &#x27;Gannariya&#x27; significa alcachofa en el dialecto tunecino.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>في الأصل تُطبخ هذه المرقة باللحم أو الدجاج، لكن في هذه النسخة النباتية نستخدم الفطر (شامبينون) لتعويض اللحم مع القنارية. تتميز بالمرقة الصفراء (زعرى) المنكهة بالكركم والليمون.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Traditionally prepared with lamb or chicken, this vegan adaptation uses mushrooms to complement the tender artichoke hearts. Ideally served with bread, it features a tangy yellow sauce (&#x27;za&#x27;ara&#x27;) flavored with lemon and turmeric. The name refers to the artichoke itself.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">3–4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">35 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/current/058_marqat_gannariya/dish.png" alt="Marqat Gannariya dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es compact">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>400g corazones de alcachofa</li>
+              <li>1 bandeja de champiñones cortados</li>
+              <li>4 dientes de ajo machacados</li>
+              <li>3 cdas de aceite</li>
+              <li>1 cdta de cúrcuma</li>
+              <li>1 cda condimento sabor pollo vegano</li>
+              <li>Sal y pimienta negra</li>
+              <li>Jugo de 1/2 limón</li>
+              <li>Manojo de perejil picado</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Sofreír ligeramente el ajo en aceite (con cuidado de no quemarlo).</li>
+              <li class="step"><span class="step-num">2.</span>Añadir sal, pimienta, condimento vegano, cúrcuma y jugo de limón.</li>
+              <li class="step"><span class="step-num">3.</span>Agregar los champiñones y las alcachofas, mezclando bien.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir agua hasta cubrir las verduras y llevar a ebullición.</li>
+              <li class="step"><span class="step-num">5.</span>Cocinar a fuego lento hasta que la salsa reduzca y las verduras estén tiernas.</li>
+              <li class="step"><span class="step-num">6.</span>Decorar con perejil fresco antes de servir.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he tight">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>400 גרם לבבות ארטישוק (קפוא או טרי)</li>
+              <li>1 סלסילת פטריות חתוכות</li>
+              <li>4 שיני שום כתושות</li>
+              <li>3 כפות שמן</li>
+              <li>1 כפית כורכום</li>
+              <li>1 כף אבקת מרק בטעם עוף (פרווה)</li>
+              <li>מלח ופלפל שחור לפי הטעם</li>
+              <li>מיץ מ-1/2 לימון</li>
+              <li>חופן פטרוזיליה קצוצה</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מטגנים קלות את השום הכתוש בשמן (זהירות לא לשרוף).</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים מלח, פלפל, אבקת מרק, כורכום ומיץ לימון ומערבבים ליצירת בסיס רוטב.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים את הפטריות ולבבות הארטישוק ומערבבים היטב עם התבלינים.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים מים עד לכיסוי הירקות ומביאים לרתיחה.</li>
+              <li class="step"><span class="step-num">5.</span>מנמיכים את האש ומבשלים עד שהרוטב מצטמצם והירקות רכים.</li>
+              <li class="step"><span class="step-num">6.</span>מפזרים פטרוזיליה טרייה לפני ההגשה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en compact">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>400g artichoke hearts</li>
+              <li>1 punnet sliced mushrooms</li>
+              <li>4 garlic cloves, crushed</li>
+              <li>3 tbsp oil</li>
+              <li>1 tsp turmeric</li>
+              <li>1 tbsp vegan chicken-style seasoning</li>
+              <li>Salt and black pepper</li>
+              <li>Juice of 1/2 lemon</li>
+              <li>Handful chopped parsley</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Lightly fry the crushed garlic in oil (do not burn).</li>
+              <li class="step"><span class="step-num">2.</span>Add salt, pepper, vegan seasoning, turmeric, and lemon juice to create a base.</li>
+              <li class="step"><span class="step-num">3.</span>Add mushrooms and artichoke hearts, stirring well to coat.</li>
+              <li class="step"><span class="step-num">4.</span>Add water to cover vegetables and bring to a boil.</li>
+              <li class="step"><span class="step-num">5.</span>Simmer until sauce reduces and vegetables are tender.</li>
+              <li class="step"><span class="step-num">6.</span>Garnish with fresh parsley before serving.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar compact">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>400غ قنارية (مجمدة أو طازجة)</li>
+              <li>علبة فطر (شامبينون) مقطعة</li>
+              <li>4 سنون ثوم مرحي</li>
+              <li>3 مغارف زيت</li>
+              <li>مغرفة صغيرة كركم</li>
+              <li>مغرفة كبيرة تابل دجاج نباتي</li>
+              <li>ملح وفلفل أكحل</li>
+              <li>عصير نصف قارصة</li>
+              <li>شوية معدنوس مقصوص</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>قلّي الثوم المرحي في الزيت شوية (رد بالك يتحرق).</li>
+              <li class="step"><span class="step-num">2.</span>زيد الملح، الفلفل الأكحل، تابل الدجاج، الكركم وعصير القارص وخلط.</li>
+              <li class="step"><span class="step-num">3.</span>رمي الفطر والقنارية وحركهم مليح بش يشربو الفاح.</li>
+              <li class="step"><span class="step-num">4.</span>مرق بالماء لين تتغطى الخضرة وخلي الطنجرة تغلي.</li>
+              <li class="step"><span class="step-num">5.</span>نقّص النار وخليها تطيب لين تخثار المرقة وتقر زيتها.</li>
+              <li class="step"><span class="step-num">6.</span>في اللخر، رش المعدنوس من فوق وقدمها.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

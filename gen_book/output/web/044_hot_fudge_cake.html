@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hot Fudge Cake – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Pastel de Chocolate Caliente</span></div>
+        <div class="title-word lang-he"><span>עוגת שוקולד חמה</span></div>
+        <div class="title-word lang-en"><span>Hot Fudge Cake</span></div>
+        <div class="title-word lang-ar"><span>كعكة الشكلاطة</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>עוגת שוקולד אהובה בסגנון מודרני, המייצרת את רוטב השוקולד של עצמה במהלך האפייה. במקור מתכון חלבי עשיר בחמאה, הגרסה הטבעונית הזו משתמשת בקקאו ומים רותחים ליצירת המרקם העשיר והנימוח ללא ביצים או חלב.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Un favorito moderno de la familia que crea su propia salsa de chocolate mientras se hornea. Aunque tradicionalmente se hace con lácteos, esta adaptación vegana utiliza cacao y agua hirviendo para lograr una textura rica y cremosa sin huevos ni mantequilla.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>كعكة شكلاطة عصرية محبوبة، تعمل الصوص متاعها وحدها وهي تطيب في الكوشة. الوصفة الأصلية فيها الحليب والزبدة، أما هذي النسخة نباتية وتجي بنينة ومعلكة بالماء السخون والكاكاو.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A modern family favorite, this self-saucing cake creates its own fudge sauce while baking. While traditional versions rely on dairy, this vegan adaptation uses cocoa and boiling water to achieve a rich, gooey texture without eggs or milk.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">6–8</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">45 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/current/044_hot_fudge_cake/dish.png" alt="Hot Fudge Cake dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es tight">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1 taza de azúcar blanca</li>
+              <li>1/2 taza de harina común</li>
+              <li>1/2 taza de cacao sin azúcar</li>
+              <li>1.5 cditas de polvo de hornear</li>
+              <li>1/2 cdita de sal</li>
+              <li>1/2 taza de leche de soja o almendra</li>
+              <li>1/3 taza de aceite vegetal</li>
+              <li>1 cdita de vainilla</li>
+              <li>1 taza de azúcar morena compacta</li>
+              <li>1.75 tazas de agua hirviendo</li>
+              <li>1/2 taza de nueces picadas (opcional)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 180°C y engrasar un molde cuadrado (23 cm).</li>
+              <li class="step"><span class="step-num">2.</span>En un bol, mezclar el azúcar blanca, harina, cacao, polvo de hornear y sal. Añadir la leche, aceite y vainilla hasta integrar.</li>
+              <li class="step"><span class="step-num">3.</span>Extender la masa en el molde y espolvorear el azúcar morena y las nueces por encima.</li>
+              <li class="step"><span class="step-num">4.</span>Verter el agua hirviendo sobre todo. ¡No mezclar!</li>
+              <li class="step"><span class="step-num">5.</span>Hornear 40-45 minutos hasta que el pastel esté firme y burbujee en los bordes. Servir caliente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he tight">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1 כוס סוכר לבן</li>
+              <li>1/2 כוס קמח לבן</li>
+              <li>1/2 כוס קקאו לא ממותק</li>
+              <li>1.5 כפיות אבקת אפייה</li>
+              <li>1/2 כפית מלח</li>
+              <li>1/2 כוס חלב סויה או שקדים</li>
+              <li>1/3 כוס שמן צמחי</li>
+              <li>1 כפית תמצית וניל</li>
+              <li>1 כוס סוכר חום דחוס</li>
+              <li>1.75 כוסות מים רותחים</li>
+              <li>1/2 כוס אגוזים קצוצים (אופציונלי)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-180 מעלות ומשמנים תבנית מרובעת (כ-23 ס״מ).</li>
+              <li class="step"><span class="step-num">2.</span>בקערה, מערבבים סוכר לבן, קמח, קקאו, אבקת אפייה ומלח. מוסיפים את החלב, השמן והוניל ומערבבים לאיחוד.</li>
+              <li class="step"><span class="step-num">3.</span>משטחים את הבלילה בתבנית ומפזרים מעל את הסוכר החום והאגוזים.</li>
+              <li class="step"><span class="step-num">4.</span>יוצקים בזהירות את המים הרותחים מעל הכל. לא לערבב!</li>
+              <li class="step"><span class="step-num">5.</span>אופים 40-45 דקות עד שהעוגה יציבה והרוטב מבעבע בצדדים. מגישים חם.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en tight">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1 cup white sugar</li>
+              <li>1/2 cup all-purpose flour</li>
+              <li>1/2 cup unsweetened cocoa</li>
+              <li>1.5 tsp baking powder</li>
+              <li>1/2 tsp salt</li>
+              <li>1/2 cup soy or almond milk</li>
+              <li>1/3 cup vegetable oil</li>
+              <li>1 tsp vanilla extract</li>
+              <li>1 cup packed brown sugar</li>
+              <li>1.75 cups hot water</li>
+              <li>1/2 cup chopped nuts (optional)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Preheat oven to 350°F (180°C). Grease a 9-inch square pan.</li>
+              <li class="step"><span class="step-num">2.</span>In a bowl, mix white sugar, flour, cocoa, baking powder, and salt. Stir in milk, oil, and vanilla until smooth.</li>
+              <li class="step"><span class="step-num">3.</span>Spread batter in the pan. Sprinkle brown sugar and nuts over the top.</li>
+              <li class="step"><span class="step-num">4.</span>Pour hot water over everything. Do not stir.</li>
+              <li class="step"><span class="step-num">5.</span>Bake 40-45 minutes until set and bubbling at edges. Serve warm.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar tight">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1 كأس سكر أبيض</li>
+              <li>1/2 كأس فرينة</li>
+              <li>1/2 كأس كاكاو خام</li>
+              <li>1.5 مغرفة صغيرة خميرة قاطو</li>
+              <li>1/2 مغرفة صغيرة ملح</li>
+              <li>1/2 كأس حليب صوجا أو لوز</li>
+              <li>1/3 كأس زيت نباتي</li>
+              <li>1 مغرفة صغيرة فانيليا</li>
+              <li>1 كأس سكر أسمر</li>
+              <li>1.75 كأس ماء سخون يغلي</li>
+              <li>1/2 كأس جوز مهروش (اختياري)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>سخن الكوشة لـ 180 درجة وادهن طبق مربع (23 سم) بشوية زيت.</li>
+              <li class="step"><span class="step-num">2.</span>في صحفة، خلّط السكر الأبيض، الفرينة، الكاكاو، الخميرة والملح. زيد الحليب، الزيت والفانيليا وخلّط مليح لين يتجانس الخليط.</li>
+              <li class="step"><span class="step-num">3.</span>صب الخليط في الطبق ورش السكر الأسمر والجوز من الفوق.</li>
+              <li class="step"><span class="step-num">4.</span>صب الماء السخون يغلي بشوية فوق الخليط الكل. رد بالك تحرّك! (ما تخلطش).</li>
+              <li class="step"><span class="step-num">5.</span>طيّبها في الكوشة 40-45 دقيقة لين تشد روحها وتعمل فقاعات في الجناب. قدمها سخونة.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

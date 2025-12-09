@@ -1,0 +1,106 @@
+{
+  "id": "039_harimi",
+  "image": "harimi.png",
+  "meta": {
+    "servings": "4–5",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "חרימי",
+    "es": "Harimi",
+    "ar": "الحرايمي",
+    "en": "Harimi"
+  },
+  "description": {
+    "he": "חרימי הוא תבשיל מסורתי חריף, המוגש בדרך כלל בערב שבת. במקור מבוסס על דגים, אך גירסה טבעונית זו משתמשת בטופו ואצות וואקמה לקבלת טעם ים ומרקם נימוח. השם נגזר מהשורש הערבי לחריפות או 'חראם' (אסור), המעיד על עוצמת התבלינים ברוטב.",
+    "es": "El Harimi es un guiso picante tradicional, servido típicamente en Shabat. Originalmente hecho con pescado, esta adaptación vegana utiliza tofu y algas wakame para replicar el sabor y la textura del mar. El nombre deriva de la raíz árabe para 'picante' o 'prohibido', refiriéndose a la intensidad de la salsa.",
+    "ar": "الحرايمي هو طبق حار تقليدي يُقدم عادة في عشاء السبت. في الأصل يُحضّر بالسمك، لكن هذه النسخة النباتية تستخدم التوفو وأعشاب البحر (الواكامي) للحصول على نكهة البحر وقوام طري. الاسم مشتق من 'حار' أو 'حرام'، إشارة إلى حدة الصلصة وتوابلها القوية.",
+    "en": "Harimi is a traditional spicy stew, typically served on Shabbat eve. Originally a fish dish, this plant-based adaptation uses tofu and wakame seaweed to replicate the oceanic flavor and tender texture. The name derives from the Arabic root for 'hot' or 'forbidden,' referring to the sauce's intense spiciness."
+  },
+  "ingredients": {
+    "he": [
+      "600 גרם טופו קשה (סחוט היטב)",
+      "20 גרם אצות וואקמה (מושרות וסחוטות)",
+      "6 כפיות קמח שקדים",
+      "1 כפית קמח לבן או חומוס",
+      "תבלינים לקציצות (מלח, אבקת שום, כמון)",
+      "שמן לטיגון",
+      "5 שיני שום טריות (פרוסות)",
+      "1 פלפל אדום (רצועות)",
+      "4 עגבניות (קצוצות/מרוסקות)",
+      "צרור כוסברה (קצוצה)",
+      "תבלינים לרוטב (פפריקה מתוקה/חריפה, כורכום, מלח)"
+    ],
+    "es": [
+      "600g tofu firme (bien escurrido)",
+      "20g algas wakame (remojadas y escurridas)",
+      "6 cditas harina de almendra",
+      "1 cdita harina de trigo o garbanzo",
+      "Especias albóndigas (sal, ajo en polvo, comino)",
+      "Aceite para freír",
+      "5 dientes de ajo frescos (laminados)",
+      "1 pimiento rojo (en tiras)",
+      "4 tomates (picados o triturados)",
+      "1 manojo de cilantro (picado)",
+      "Especias salsa (pimentón dulce/picante, cúrcuma, sal)"
+    ],
+    "ar": [
+      "600غ توفو يابس (معصور مليح)",
+      "20غ طحالب واكامي (منقوعة ومعصورة)",
+      "6 ملاعق صغيرة دقيق اللوز",
+      "1 ملعقة صغيرة فارينة أو دقيق حمص",
+      "توابل الكعابر (ملح، ثوم مرحي، كمون)",
+      "زيت للقلي",
+      "5 سنون ثوم (مقصوصين)",
+      "1 فلفل أحمر (شرائح)",
+      "4 كعبات طماطم (مرحية)",
+      "ربطة قزبر (كزبرة مقصوصة)",
+      "توابل المرقة (فلفل أحمر، كركم، ملح)"
+    ],
+    "en": [
+      "600g firm tofu (drained well)",
+      "20g wakame seaweed (soaked and drained)",
+      "6 tsp almond flour",
+      "1 tsp white or chickpea flour",
+      "Patty spices (salt, garlic powder, cumin)",
+      "Oil for frying",
+      "5 fresh garlic cloves (sliced)",
+      "1 red bell pepper (strips)",
+      "4 tomatoes (chopped/crushed)",
+      "1 bunch fresh cilantro (chopped)",
+      "Sauce spices (paprika sweet/hot, turmeric, salt)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "סוחטים את הטופו היטב ומעבדים במעבד מזון עם האצות והתבלינים היבשים. מוסיפים קמח שקדים בהדרגה (עיבוד קצר למרקם גס).",
+      "משהים ל-10 דקות. יוצרים קציצות בידיים לחות, משמנים קלות ואופים 10 דקות ב-250 מעלות לצריבה ראשונית.",
+      "במחבת רחבה מחממים שמן ופותחים את התבלינים (מלח, כורכום, פפריקה).",
+      "מוסיפים את העגבניות, הפלפל האדום, השום הטרי והכוסברה. מבשלים עד לקבלת רוטב סמיך ועשיר.",
+      "מוסיפים את הקציצות האפויות לרוטב ומבשלים דקות ספורות לספיגת טעמים."
+    ],
+    "es": [
+      "Escurrir bien el tofu y procesar con algas y especias secas. Añadir harina de almendra gradualmente (procesar poco tiempo).",
+      "Reposar 10 min. Formar albóndigas con manos húmedas, rociar con aceite y hornear 10 min a 250°C para sellar.",
+      "Calentar aceite en una sartén ancha y sofreír las especias (sal, cúrcuma, pimentón) para liberar aromas.",
+      "Añadir tomates, pimiento, ajo fresco y cilantro. Cocinar hasta obtener una salsa espesa y rica.",
+      "Incorporar las albóndigas horneadas a la salsa y cocinar brevemente para absorber los sabores."
+    ],
+    "ar": [
+      "اعصر التوفو مليح وارحيه في الميكسور مع الطحالب والتوابل الشايحة. زيد دقيق اللوز بشوية (ما ترحيش برشا بش يبقى شادد روحو).",
+      "خلي الخليط يرتاح 10 دقايق. شكّل كعابر بيدي مبلولة، رش عليهم شوية زيت وحطهم في الفور 10 دقايق (250 درجة) يتشمعوا.",
+      "سخن الزيت في طنجرة واسعة وقلي التوابل (ملح، كركم، فلفل أحمر) بش تخرج ريحتهم.",
+      "زيد الطماطم، الفلفل الأحمر، الثوم والقزبر. طيب لين تعقاد المرقة وتولي خاثرة.",
+      "رمي كعابر التوفو في المرقة وخليهم يغلو شوية بش يشربوا البنة."
+    ],
+    "en": [
+      "Drain tofu well and pulse in a food processor with seaweed and dry spices. Gradually add almond flour (do not overmix).",
+      "Rest for 10 mins. Form patties with wet hands, spray with oil, and bake for 10 mins at 250°C to sear.",
+      "Heat oil in a wide pan and bloom the spices (salt, turmeric, paprika).",
+      "Add tomatoes, bell pepper, fresh garlic, and cilantro. Cook until a thick, rich sauce forms.",
+      "Add the baked patties to the sauce and simmer briefly to absorb flavors."
+    ]
+  }
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cholent – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>El Cholent</span></div>
+        <div class="title-word lang-he"><span>צ&#x27;ולנט</span></div>
+        <div class="title-word lang-en"><span>Cholent</span></div>
+        <div class="title-word lang-ar"><span>الشولنت</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>גירסה טבעונית לתבשיל השבת המסורתי (חמין), שבמקור הוכן עם בשר בקר וביצים וכאן מוגש עם נתחי סייטן או טופו עסיסיים. השם מגיע מצרפתית עתיקה (chalant) ומתייחס לבישול האיטי, אם כי המנה משלבת שעועית וגריסים האופייניים למטבח היהודי-אירופאי לצד השפעות מקומיות.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Una adaptación vegana del tradicional estofado de Sabbat, originalmente hecho con carne pero aquí recreado con seitán o tofu sazonado. Su nombre deriva del francés antiguo *chalant* (caliente), refiriéndose a su cocción lenta. Combina alubias y cebada en un caldo rico y ligeramente dulce.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>نسخة نباتية لطبق السبت التقليدي (يشبه السخينة أو الدفينة)، اللي كان يتحضّر باللحم، وهوني عوّضناهم بـ&quot;السيتان&quot; أو &quot;التوفو&quot;. الاسم أصله من كلمة فرنسية قديمة تعني &quot;سخون&quot;، وتتميز هذه الوصفة بخلطة اللوبيا والشعير مع مرقة عاقدة وبنينة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A plant-based reimagining of the traditional Sabbath stew, originally synonymous with beef and eggs, now featuring savory seitan or tofu. The name derives from Old French *chalant* (warming), referring to the slow-cooking method. This hearty dish combines beans, barley, and potatoes in a rich, slightly sweet broth.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4–6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">1h 30m</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Easy</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/current/025_cholent/dish.png" alt="Cholent dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es compact">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>3 cebollas picadas</li>
+              <li>500g de trozos de seitán o tofu firme</li>
+              <li>4 patatas cortadas en cubos</li>
+              <li>1 taza de alubias (blancas y marrones), remojadas</li>
+              <li>1/2 taza de cebada perlada</li>
+              <li>2 cdas de jarabe de arce</li>
+              <li>Especias: pimentón, pimienta negra, ajo en polvo, sal</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Sofreír las cebollas hasta que estén bien doradas y oscuras.</li>
+              <li class="step"><span class="step-num">2.</span>Añadir el seitán (o tofu) y freír brevemente por todos lados.</li>
+              <li class="step"><span class="step-num">3.</span>Agregar las patatas, las alubias y la cebada a la olla.</li>
+              <li class="step"><span class="step-num">4.</span>Cubrir con agua, añadir las especias y el jarabe de arce, y llevar a ebullición.</li>
+              <li class="step"><span class="step-num">5.</span>Bajar el fuego y cocinar durante una hora y media hasta que espese.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he compact">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>3 בצלים, קצוצים</li>
+              <li>500 גרם נתחי סייטן או טופו קשה</li>
+              <li>4 תפוחי אדמה, חתוכים</li>
+              <li>1 כוס שעועית (חומה ולבנה), מושרית</li>
+              <li>1/2 כוס גריסי פנינה</li>
+              <li>2 כפות סירופ מייפל</li>
+              <li>תבלינים: פפריקה, פלפל שחור, אבקת שום, מלח</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מטגנים את הבצלים בשמן עד להזהבה עמוקה (צבע חום כהה).</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את נתחי הסייטן (או הטופו) ומטגנים קלות מכל הצדדים.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים לסיר את תפוחי האדמה, השעועית והגריסים.</li>
+              <li class="step"><span class="step-num">4.</span>מכסים במים, מוסיפים את התבלינים וסירופ המייפל ומביאים לרתיחה.</li>
+              <li class="step"><span class="step-num">5.</span>מנמיכים את האש ומבשלים כשעה וחצי עד שהרוטב מסמיך והקטניות רכות.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en compact">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>3 onions, chopped</li>
+              <li>500g seitan chunks or firm tofu</li>
+              <li>4 potatoes, cubed</li>
+              <li>1 cup mixed beans (white and brown), soaked</li>
+              <li>1/2 cup pearl barley</li>
+              <li>2 tbsp maple syrup</li>
+              <li>Spices: paprika, black pepper, garlic powder, salt</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Fry the onions until they turn a deep golden brown.</li>
+              <li class="step"><span class="step-num">2.</span>Add the seitan chunks (or tofu) and fry briefly on all sides.</li>
+              <li class="step"><span class="step-num">3.</span>Add the potatoes, beans, and barley to the pot.</li>
+              <li class="step"><span class="step-num">4.</span>Cover with water, add the spices and maple syrup, and bring to a boil.</li>
+              <li class="step"><span class="step-num">5.</span>Lower heat and simmer for 1.5 hours until the stew thickens and beans are tender.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar compact">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>3 بصلات مقصوصين</li>
+              <li>500 غرام سيتان أو توفو كاسح</li>
+              <li>4 كعبات بطاطا مقصوصين</li>
+              <li>1 كأس لوبيا (بيضاء وحمراء) منفوخة</li>
+              <li>1/2 كأس شعير (Grisim)</li>
+              <li>2 مغارف كبار سيرو إرابيل (Maple syrup)</li>
+              <li>فاحات: فلفل أحمر، فلفل أكحل، ثوم مرحي، ملح</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>قلّي البصل في الزيت مليح حتى يحمار ويولي لونه غامق.</li>
+              <li class="step"><span class="step-num">2.</span>زيد طروف السيتان (أو التوفو) وقلّيهم شوية مع البصل.</li>
+              <li class="step"><span class="step-num">3.</span>رمي البطاطا، اللوبيا المنفوخة، والشعير في الطنجرة.</li>
+              <li class="step"><span class="step-num">4.</span>مرّق بالماء وزيد الفاحات والسيرو (Maple) وخلّي المرقة تغلي.</li>
+              <li class="step"><span class="step-num">5.</span>نقص للنار وخلّيها تطيب سلة سلة ساعة ونص حتى تختار المرقة وتطيب اللوبيا.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

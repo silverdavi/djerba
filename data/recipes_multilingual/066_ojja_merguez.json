@@ -1,0 +1,82 @@
+{
+  "id": "066_ojja_merguez",
+  "image": "ojja_merguez.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "עג'ה מרגז",
+    "es": "Ojja Merguez",
+    "ar": "عجة بالمرقاز",
+    "en": "Ojja Merguez"
+  },
+  "description": {
+    "he": "קלאסיקה תוניסאית חריפה המוכנת באופן מסורתי עם ביצים ונקניקיות טלה. גרסה טבעונית זו משתמשת בנקניקיות פיקנטיות ובלילת קמח חומוס המחליפה את הביצים. השם נגזר מהשורש הערבי 'עג'ה' (לערבב/לקשקש).",
+    "es": "Un clásico tunecino picante, tradicionalmente hecho con huevos y salchichas de cordero. Esta adaptación vegana utiliza merguez vegetal y una mezcla de harina de garbanzo para reemplazar los huevos. El nombre proviene del árabe 'Ojja' (mezclar).",
+    "ar": "أكلة تونسية حارة ومحبوبة، تُحضّر تقليدياً بالعظم (البيض) والمرقاز. في هذه النسخة النباتية، نستعمل المرقاز النباتي ونعوض العظم بخليط دقيق الحمص. اسم الأكلة مشتق من 'العجة' أي الخليط.",
+    "en": "A spicy Tunisian classic traditionally made with eggs and lamb sausage. This plant-based adaptation uses spicy vegan merguez and savory chickpea flour 'puddles' to replace the eggs. The name derives from the Arabic 'Ojja' (to mix/scramble)."
+  },
+  "ingredients": {
+    "he": [
+      "2 בצלים גדולים",
+      "2 כפות רסק עגבניות",
+      "3-4 נקניקיות טבעוניות (מרגז)",
+      "1 כף פפריקה מתוקה/חריפה",
+      "1/2 כוס קמח חומוס (+ 1/2 כוס מים)",
+      "שמן, מלח, פלפל שחור"
+    ],
+    "es": [
+      "2 cebollas grandes",
+      "2 cdas de pasta de tomate",
+      "3-4 salchichas veganas (tipo Merguez)",
+      "1 cda de pimentón (dulce/picante)",
+      "1/2 taza de harina de garbanzo (+ agua)",
+      "Aceite, sal, pimienta negra"
+    ],
+    "ar": [
+      "2 بصلات كبار",
+      "2 مغارف طماطم حكة (معجون)",
+      "3-4 كعبات مرقاز نباتي",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "نص كأس دقيق حمص (+ نص كأس ماء)",
+      "زيت، ملح، فلفل أكحل"
+    ],
+    "en": [
+      "2 large onions",
+      "2 tbsp tomato paste",
+      "3-4 vegan sausages (Merguez style)",
+      "1 tbsp paprika (sweet/hot)",
+      "1/2 cup chickpea flour (+ 1/2 cup water)",
+      "Oil, salt, black pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל בשמן על אש נמוכה זמן ממושך עד להזהבה עמוקה.",
+      "מוסיפים רסק עגבניות ותבלינים, מערבבים, ומוסיפים את הנקניקיות הפרוסות ומעט מים ליצירת רוטב סמיך.",
+      "מערבבים בקערה נפרדת את קמח החומוס והמים לבלילה חלקה.",
+      "יוצקים 'שלוליות' מהבלילה לתוך הרוטב (במקום ביצים), מכסים ומבשלים עד שהבלילה מתייצבת."
+    ],
+    "es": [
+      "Sofreír la cebolla a fuego lento durante mucho tiempo hasta que esté bien dorada.",
+      "Añadir la pasta de tomate y las especias, mezclar, luego agregar las salchichas troceadas y un poco de agua para formar una salsa.",
+      "Batir la harina de garbanzo con el agua hasta obtener una mezcla suave.",
+      "Verter 'charcos' de la mezcla en la salsa (sustituyendo los huevos), tapar y cocinar hasta que cuaje."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت على نار هادية برشا وقت لين يذبل ويحمار بالباهي.",
+      "زيد طماطم الحكة والفاحات، حرّك، ومبعد زيد المرقاز المقطع وشوي ماء باش تعمل صوص عاقدة.",
+      "خلّط دقيق الحمص مع الماء لين يولي سائل أرطب.",
+      "صبّ الخليط في الصوص كيما 'كعبات العظم'، غطّي الطنجرة وخلّيها تطيب لين يشد روحو."
+    ],
+    "en": [
+      "Sauté onions on low heat for a long time until deeply golden brown.",
+      "Add tomato paste and spices, mix, then add sliced sausages and a little water to form a thick sauce.",
+      "Whisk chickpea flour and water in a separate bowl until smooth.",
+      "Pour 'puddles' of batter into the sauce (replacing eggs), cover, and cook until set."
+    ]
+  }
+}

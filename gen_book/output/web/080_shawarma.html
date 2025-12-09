@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shawarma – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Shawarma</span></div>
+        <div class="title-word lang-he"><span>שווארמה</span></div>
+        <div class="title-word lang-en"><span>Shawarma</span></div>
+        <div class="title-word lang-ar"><span>الشاورما</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>במקור מנה של שכבות בשר צלוי, שמה נגזר מהמילה הטורקית &quot;צ&#x27;בירימה&quot; (סיבוב). גרסה טבעונית זו משתמשת ברצועות סויה מתובלות בראס אל חנות ועמבה כדי לשחזר את טעמי הרחוב האהובים והעסיסיים, ללא שימוש בבעלי חיים.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Tradicionalmente carne asada en un asador vertical, su nombre proviene del turco *çevirme* (girar). Esta adaptación vegana utiliza tiras de soja sazonadas con Ras el Hanout y Amba para recrear los sabores especiados de la comida callejera, sin ingredientes animales.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>الشاورما أصلها لحم مشوي، واسمها جاي من الكلمة التركية &quot;تشيفيرمة&quot; (تدوير). هذي النسخة النباتية معمولة بشرائح الصويا ومفوحة براس الحانوت والعمبة باش تعطي نفس البنة متاع ماكلة الشارع، أما بلاش لحم.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Traditionally made with meat roasted on a vertical spit, the name comes from the Turkish word *çevirme* (turning). This vegan adaptation uses textured soy strips seasoned with Ras el Hanout and Amba to recreate the savory, spiced street-food experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">3–4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">10 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/current/080_shawarma/dish.png" alt="Shawarma dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es tight">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>2 tazas de tiras de soja texturizada (seca)</li>
+              <li>4 tazas de caldo de verduras</li>
+              <li>1 cebolla grande</li>
+              <li>Especias (caldo): mezcla para shawarma, sal, pimienta blanca, ajo en polvo, Ras el Hanout</li>
+              <li>Especias (sartén): comino, mezcla para shawarma, Ras el Hanout</li>
+              <li>1 cucharada de Amba (salsa de mango)</li>
+              <li>Aceite para freír</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Hervir el caldo de verduras con las especias de cocción (mezcla shawarma, sal, pimienta, ajo, Ras el Hanout).</li>
+              <li class="step"><span class="step-num">2.</span>Añadir la soja y cocinar 20 minutos hasta que esté tierna. Escurrir bien.</li>
+              <li class="step"><span class="step-num">3.</span>En una sartén, sofreír la cebolla en aceite hasta que esté dorada.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir la soja a la sartén y freír hasta que se dore.</li>
+              <li class="step"><span class="step-num">5.</span>Sazonar con especias para shawarma, un poco de comino y Ras el Hanout. Al final, añadir el Amba y mezclar bien.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he tight">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>2 כוסות רצועות סויה יבשות</li>
+              <li>4 כוסות ציר ירקות</li>
+              <li>1 בצל גדול</li>
+              <li>תבלינים לבישול: תבלין שווארמה, מלח, פלפל לבן, אבקת שום, ראס אל חנות</li>
+              <li>תבלינים לטיגון: כמון, תבלין שווארמה, ראס אל חנות</li>
+              <li>1 כף עמבה</li>
+              <li>שמן לטיגון</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מרתיחים סיר עם ציר הירקות ותבליני הבישול (שווארמה, מלח, פלפל, שום, ראס אל חנות).</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את רצועות הסויה ומבשלים כ-20 דקות עד לריכוך. מסננים היטב.</li>
+              <li class="step"><span class="step-num">3.</span>במחבת רחבה, מטגנים את הבצל בשמן עד להזהבה.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים את הסויה למחבת ומטגנים עד להשחמה.</li>
+              <li class="step"><span class="step-num">5.</span>מתבלים בתבלין שווארמה, מעט כמון וראס אל חנות. בסוף הטיגון מוסיפים את העמבה ומערבבים היטב.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en tight">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>2 cups dry soy strips/curls</li>
+              <li>4 cups vegetable stock</li>
+              <li>1 large onion</li>
+              <li>Boiling spices: Shawarma mix, salt, white pepper, garlic powder, Ras el Hanout</li>
+              <li>Frying spices: Cumin, Shawarma mix, Ras el Hanout</li>
+              <li>1 tbsp Amba (pickled mango sauce)</li>
+              <li>Oil for frying</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Boil vegetable stock in a pot with the boiling spices (shawarma mix, salt, pepper, garlic, Ras el Hanout).</li>
+              <li class="step"><span class="step-num">2.</span>Add soy strips and cook for 20 minutes until tender. Drain well.</li>
+              <li class="step"><span class="step-num">3.</span>In a pan, sauté the onion in oil until golden.</li>
+              <li class="step"><span class="step-num">4.</span>Add the soy strips to the pan and fry until browned.</li>
+              <li class="step"><span class="step-num">5.</span>Season with shawarma spice, a little cumin, and Ras el Hanout. Stir in the Amba at the very end of frying.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar tight">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>2 كيسان شرائح صويا شايحة</li>
+              <li>4 كيسان مرقة خضرة</li>
+              <li>1 بصلة كبيرة</li>
+              <li>فاحات السليق: تابل شاورما، ملح، فلفل أبيض، ثوم مرحي، راس الحانوت</li>
+              <li>فاحات القليان: كمون، تابل شاورما، راس الحانوت</li>
+              <li>1 مغرفة كبيرة عمبة</li>
+              <li>زيت للقليان</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>غلّي مرقة الخضرة في طنجرة مع فاحات السليق (تابل شاورما، ملح، فلفل، ثوم، راس الحانوت).</li>
+              <li class="step"><span class="step-num">2.</span>رمي شرائح الصويا وخلّيها تطيب 20 دقيقة لين تطرى،  ومبعد قطّرها مليح.</li>
+              <li class="step"><span class="step-num">3.</span>في مقلاة، قلّي البصل في الزيت لين يحمار.</li>
+              <li class="step"><span class="step-num">4.</span>زيد الصويا للمقلاة وقلّيها لين تاخو لون (تتحمّر).</li>
+              <li class="step"><span class="step-num">5.</span>فوّח بتابل الشاورما، شوية كمون وراس الحانوت. في الآخر زيد العمبة وخلّط مليح.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

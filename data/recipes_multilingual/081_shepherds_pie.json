@@ -1,0 +1,94 @@
+{
+  "id": "081_shepherds_pie",
+  "image": "shepherds_pie.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פאי רועים",
+    "es": "Pastel de Papa",
+    "ar": "كوشة بطاطا",
+    "en": "Shepherd's Pie"
+  },
+  "description": {
+    "he": "גרסה טבעונית למאפה הקלאסי שבמקורו הכיל בשר טחון, וכאן מוגש עם שבבי סויה מתובלים בטעמי שווארמה. שכבות של פירה תפוחי אדמה צהוב מכורכום ומלית עסיסית יוצרות מנה משפחתית מנחמת.",
+    "es": "Originalmente un plato de carne, esta adaptación vegana utiliza proteína de soja sazonada con especias de shawarma. Capas de puré de patatas dorado con cúrcuma y un relleno jugoso crean una comida reconfortante.",
+    "ar": "نسخة نباتية للطبق الكلاسيكي اللي يتعمل عادة باللحم المفروم، وعوضناه هنا بفواكه الصوجا المفوّحة بتابل الشوارمة. طبقات من البطاطا المهروسة (بيوري) الصفراء بالكركم والحشو البنين يعملوا وجبة عائلية تشبّع.",
+    "en": "Traditionally a meat-based dish, this vegan adaptation features soy crumbles seasoned with shawarma spices. Layers of turmeric-infused mashed potatoes and a savory filling make for a comforting family meal."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק״ג תפוחי אדמה",
+      "2 כוסות שבבי סויה (יבשים)",
+      "1 כפית כורכום",
+      "1 כף תבלין שווארמה",
+      "1 כפית אבקת שום",
+      "1 כפית פפריקה",
+      "1 כף אבקת מרק בטעם עוף (פרווה)",
+      "מלח ופלפל שחור",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "1 kg de patatas",
+      "2 tazas de proteína de soja texturizada",
+      "1 cdta de cúrcuma",
+      "1 cda de especias para shawarma",
+      "1 cdta de ajo en polvo",
+      "1 cdta de pimentón",
+      "1 cda de caldo vegetal sabor pollo",
+      "Sal y pimienta negra",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "1 كغ بطاطا",
+      "2 كيسان صوجا (بروتين الصويا)",
+      "1 مغرفة صغيرة كركم",
+      "1 مغرفة كبيرة تابل شوارمة",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "1 مغرفة صغيرة فلفل أحمر (زينة)",
+      "1 مغرفة كبيرة بودرة مرقة (نكهة دجاج نباتي)",
+      "ملح وفلفل أكحل",
+      "زيت للقلي"
+    ],
+    "en": [
+      "1 kg potatoes",
+      "2 cups soy crumbles (TVP)",
+      "1 tsp turmeric",
+      "1 tbsp shawarma seasoning",
+      "1 tsp garlic powder",
+      "1 tsp paprika",
+      "1 tbsp vegan chicken-style bouillon",
+      "Salt and black pepper",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את תפוחי האדמה במים עד לריכוך, מסננים ומועכים לפירה עם כורכום, מלח ומעט אבקת מרק.",
+      "משרים את שבבי הסויה במים חמים, סוחטים היטב ומטגנים במחבת עם שמן, תבלין שווארמה, פפריקה, שום, פלפל ומלח עד להשחמה.",
+      "משמנים תבנית ומסדרים שכבות: חצי מכמות הפירה, מעליו מלית הסויה, ומסיימים בשאר הפירה.",
+      "אופים בתנור שחומם מראש ל-180 מעלות כ-25 דקות עד שהחלק העליון מזהיב."
+    ],
+    "es": [
+      "Hervir las patatas hasta que estén tiernas, escurrir y hacer un puré con cúrcuma, sal y un poco de caldo en polvo.",
+      "Hidratar la soja, escurrir bien y sofreír en aceite con las especias de shawarma, pimentón, ajo, pimienta y sal hasta que se dore.",
+      "Engrasar un molde y montar las capas: mitad del puré, relleno de soja, y cubrir con el resto del puré.",
+      "Hornear a 180°C durante unos 25 minutos hasta que la parte superior esté dorada."
+    ],
+    "ar": [
+      "نصمطوا البطاطا في الماء لين تطيب، نستقطروها ونرحيوها (نعملوها بيوري) مع الكركم والملح وشوية بودرة مرقة.",
+      "نفخو الصوجا في ماء سخون، نعصروها مليح، ومبعد نقليوها في الزيت مع تابل الشوارمة والفلفل الأحمر والثوم والملح والفلفل الأكحل لين تتحمر.",
+      "ندهنو طبق الكوشة بالزيت، ونفرشو طبقة بطاطا، فوقها حشو الصوجا، ونغطيو بالباقي متاع البطاطا.",
+      "ندخلوها للكوشة (فرن) سخونة 180 درجة مدة 25 دقيقة لين الوجه يحمار."
+    ],
+    "en": [
+      "Boil potatoes until tender, drain, and mash with turmeric, salt, and a little bouillon powder.",
+      "Rehydrate soy crumbles, squeeze dry, and sauté in oil with shawarma spice, paprika, garlic, pepper, and salt until browned.",
+      "Grease a baking dish and layer: half the mashed potatoes, the soy filling, then cover with the remaining potatoes.",
+      "Bake at 180°C (350°F) for about 25 minutes until the top is golden brown."
+    ]
+  }
+}

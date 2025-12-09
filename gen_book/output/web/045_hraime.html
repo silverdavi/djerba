@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hraime – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+}
+
+.page-inner {
+  padding: 0.6in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es,
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-latin);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.12in;
+  margin-bottom: 0.35in;
+}
+
+.title-word {
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.15in 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0.9in;
+  position: relative;
+  background: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   ============================================ */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3in;
+  height: 100%;
+  overflow: hidden;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.05in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.05em;
+}
+
+.step {
+  margin-bottom: 0.12em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.12in;
+  margin-bottom: 0.05in;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
+}
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-row">
+        <div class="title-word lang-es"><span>Hraime</span></div>
+        <div class="title-word lang-he"><span>חריימה</span></div>
+        <div class="title-word lang-en"><span>Hraime</span></div>
+        <div class="title-word lang-ar"><span>حرايمي</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>תבשיל דגים חריף מסורתי המוגש לרוב בערבי שבת וחגים. הגרסה הטבעונית הזו מחליפה את הדג בטופו ואצות ים כדי לשחזר את טעם הים העמוק. השם נגזר מהשורש הערבי המרמז על חריפות וחום.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Un guiso tradicional de pescado picante servido en vísperas de Shabat. Esta adaptación vegana utiliza tofu y algas para recrear el sabor del mar. El nombre deriva de la raíz árabe que sugiere calor y picante.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>طبق حوت حار تقليدي مشهور في تونس وليبيا، يتقدم عادة ليلة السبت. في هذي النسخة النباتية، عوضنا الحوت بالتوفو والطحالب باش نحافظو على نكهة البحر. الاسم جاي من &#x27;الحرارة&#x27; والحروية متاع الصوص.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>A traditional spicy fish stew typically served on Shabbat eve. This plant-based adaptation replaces fish with tofu and seaweed to recreate the oceanic flavor. The name derives from the Arabic root suggesting heat and spiciness.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/current/045_hraime/dish.png" alt="Hraime dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH + HEBREW -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-es compact">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>600g tofu extra firme (escurrido)</li>
+              <li>20g algas wakame (remojadas)</li>
+              <li>6 cdta harina de almendra</li>
+              <li>1 pimiento rojo picado</li>
+              <li>4 tomates picados</li>
+              <li>1 manojo de cilantro picado</li>
+              <li>6 dientes de ajo laminados</li>
+              <li>Especias: pimentón, comino, cúrcuma, sal</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Procesar el tofu, las algas y las especias, añadiendo harina de almendra hasta obtener una masa uniforme.</li>
+              <li class="step"><span class="step-num">2.</span>Formar bolas con manos húmedas, rociar con aceite y hornear a 250°C por 10 minutos.</li>
+              <li class="step"><span class="step-num">3.</span>Calentar aceite en una sartén ancha y sofreír brevemente las especias para liberar su aroma.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir tomates, pimiento, ajo y cilantro; cocinar hasta obtener una salsa espesa.</li>
+              <li class="step"><span class="step-num">5.</span>Incorporar las albóndigas horneadas a la salsa y cocinar brevemente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he tight">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>600 גרם טופו קשה (סחוט היטב)</li>
+              <li>20 גרם אצות וואקמה (מושרות וסחוטות)</li>
+              <li>6 כפיות קמח שקדים</li>
+              <li>1 גמבה אדומה חתוכה</li>
+              <li>4 עגבניות קצוצות</li>
+              <li>צרור כוסברה קצוצה</li>
+              <li>6 שיני שום פרוסות</li>
+              <li>תבלינים: פפריקה, כמון, כורכום, מלח</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>טוחנים במעבד מזון טופו, אצות ותבלינים יבשים, ומוסיפים קמח שקדים בהדרגה עד לקבלת מסה אחידה.</li>
+              <li class="step"><span class="step-num">2.</span>יוצרים קציצות בידיים לחות, משמנים מעט ואופים בתנור שחומם ל-250 מעלות כ-10 דקות.</li>
+              <li class="step"><span class="step-num">3.</span>מחממים שמן במחבת רחבה ופותחים את התבלינים (מלח, כורכום, פפריקה) בשמן.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים עגבניות, גמבה, שום וכוסברה ומבשלים עד לקבלת רוטב עשיר.</li>
+              <li class="step"><span class="step-num">5.</span>מוסיפים את הקציצות האפויות לרוטב ומבשלים דקות ספורות לספיגת טעמים.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="two-col">
+        <div class="column lang-en tight">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>600g extra firm tofu (drained)</li>
+              <li>20g wakame seaweed (soaked)</li>
+              <li>6 tsp almond flour</li>
+              <li>1 red bell pepper, chopped</li>
+              <li>4 tomatoes, chopped</li>
+              <li>1 bunch cilantro, chopped</li>
+              <li>6 garlic cloves, sliced</li>
+              <li>Spices: paprika, cumin, turmeric, salt</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Blend tofu, seaweed, and spices in a processor, gradually adding almond flour until uniform.</li>
+              <li class="step"><span class="step-num">2.</span>Form balls with damp hands, spray with oil, and bake at 250°C (480°F) for 10 minutes.</li>
+              <li class="step"><span class="step-num">3.</span>Heat oil in a wide pan and briefly sauté spices to release flavors.</li>
+              <li class="step"><span class="step-num">4.</span>Add tomatoes, peppers, garlic, and cilantro; cook until a rich sauce forms.</li>
+              <li class="step"><span class="step-num">5.</span>Add the baked balls to the sauce and simmer briefly to absorb flavors.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar tight">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>600غ تופو يابس (معصور مليح)</li>
+              <li>20غ طحالب واكامي (منفخة ومعصورة)</li>
+              <li>6 م ص دقيق اللوز</li>
+              <li>1 فلفل أحمر حلو مقصوص</li>
+              <li>4 كعبات طماطم مقصوصين</li>
+              <li>ربطة قزبر مقصوصة</li>
+              <li>6 سنون ثوم مقصوصين</li>
+              <li>فاحات: فلفل زينة، كمون، كركم، ملح</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>ارحي التوفو والطحالب والفاحات في الميكسور، وزيد دقيق اللوز بشوية لين تتلم العجينة.</li>
+              <li class="step"><span class="step-num">2.</span>كعبر الكعابر بيدك مبلولة، رش عليهم شوية زيت وحطهم في الفور (250 درجة) لمدة 10 دقايق.</li>
+              <li class="step"><span class="step-num">3.</span>سخن الزيت في طنجرة واسعة وقلي الفاحات (ملح، كركم، فلفل زينة) شوية باش تخرج ريحتهم.</li>
+              <li class="step"><span class="step-num">4.</span>زيد الطماطم والفلفل والثوم والقزبر، وطيبهم لين تولي عندك مرقة خاثرة.</li>
+              <li class="step"><span class="step-num">5.</span>حط الكعابر في الصوص وخليهم يغليو شوية باش يشربو البنة.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

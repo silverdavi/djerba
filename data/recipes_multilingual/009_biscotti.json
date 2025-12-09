@@ -1,0 +1,94 @@
+{
+  "id": "009_biscotti",
+  "image": "biscotti.png",
+  "meta": {
+    "servings": "2 rolls",
+    "prep_time": "10 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "ביסקוטי",
+    "es": "Biscotti",
+    "ar": "كروكاون",
+    "en": "Biscotti"
+  },
+  "description": {
+    "he": "עוגייה פריכה ואהובה, מושלמת לטבילה בקפה או בתה. במטבח הצפון-אפריקאי מוכרת גרסה דומה בשם \"קרוקנט\" (Croquant) או \"פקאס\". מתכון זה הוא טבעוני במקורו הודות לשימוש בשמן במקום חמאה, המעניק לעוגיות מרקם פציח וטעם עשיר.",
+    "es": "Una galleta crujiente, perfecta para mojar en café o té. Aunque de origen italiano, los judíos del norte de África disfrutan de galletas similares llamadas \"Croquant\". Esta versión vegana utiliza aceite en lugar de mantequilla para lograr un crujido perfecto.",
+    "ar": "حلوى مقرمشة (كاطو) مثالية للتغميس في القهوة أو الشاي. في شمال إفريقيا، تُعرف هذه الحلوى باسم \"كروكاون\" (Croquant) أو \"فقاص\". هذه النسخة النباتية تستخدم الزيت بدلاً من الزبدة للحصول على قرمشة رائعة.",
+    "en": "A crunchy cookie perfect for dipping in coffee or tea. While Italian in origin (*biscotto* means twice-cooked), North African Jews serve similar treats called *Croquant*. This vegan version relies on oil rather than butter for a crisp texture and rich flavor."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס שמן",
+      "1 כוס סוכר לבן",
+      "1 כוס סוכר חום",
+      "2 כפיות תמצית וניל",
+      "3 כוסות קמח",
+      "1 כפית סודה לשתייה",
+      "1 כפית מלח",
+      "1 כוס שוקולד צ'יפס טבעוני"
+    ],
+    "es": [
+      "1 taza de aceite",
+      "1 taza de azúcar blanca",
+      "1 taza de azúcar morena",
+      "2 cditas de extracto de vainilla",
+      "3 tazas de harina",
+      "1 cdita de bicarbonato de sodio",
+      "1 cdita de sal",
+      "1 taza de chispas de chocolate vegano"
+    ],
+    "ar": [
+      "1 كأس زيت",
+      "1 كأس سكر أبيض",
+      "1 كأس سكر أسمر",
+      "2 م ص فانيليا",
+      "3 كؤوس فرينة (طحين)",
+      "1 م ص بيكربونات (كربوناتو)",
+      "1 م ص ملح",
+      "1 كأس حبيبات شكلاطة (نباتية)"
+    ],
+    "en": [
+      "1 cup oil",
+      "1 cup white sugar",
+      "1 cup brown sugar",
+      "2 tsp vanilla extract",
+      "3 cups flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup vegan chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-180 מעלות.",
+      "מערבבים את כל המרכיבים בקערה, למעט השוקולד צ'יפס.",
+      "מוסיפים את השוקולד ומערבבים (הבצק יהיה פירורי, וזה בסדר).",
+      "יוצרים מהבצק שני גלילים, מניחים בתבנית ואופים 20-30 דקות עד להזהבה.",
+      "מצננים מעט ופורסים לפרוסות בעוד הגלילים עדיין חמימים."
+    ],
+    "es": [
+      "Precalentar el horno a 180°C.",
+      "Mezclar todos los ingredientes excepto las chispas de chocolate.",
+      "Añadir el chocolate (la masa quedará grumosa, es normal).",
+      "Formar dos rollos con la masa y hornear durante 20-30 minutos hasta que estén dorados.",
+      "Dejar enfriar un poco y cortar en rebanadas mientras aún están tibios."
+    ],
+    "ar": [
+      "سخّن الكوشة (الفرن) لـ 180 درجة.",
+      "خلّط كل المكونات في صحفة ما عدا الشكلاطة.",
+      "زيد الشكلاطة وخلّط (العجينة تكون مفرتتة شوية، هذا عادي).",
+      "شكّل زوز حرابيش (budins) من العجينة، وطيّبهم 20-30 دقيقة حتى يحماروا.",
+      "خلّيهم يبردوا شوية وقصّهم طروف (شرائح) وهم مازالوا دافيين."
+    ],
+    "en": [
+      "Preheat oven to 180°C (350°F).",
+      "Mix all ingredients except the chocolate chips.",
+      "Add the chocolate chips (don't be alarmed if the dough is crumbly).",
+      "Form two logs from the dough and bake for 20–30 minutes until golden.",
+      "Cool slightly, then cut into slices while still warm."
+    ]
+  }
+}

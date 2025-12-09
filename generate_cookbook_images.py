@@ -421,6 +421,204 @@ class AppearanceAnalyzer:
         return ", ".join(textures) if textures else "appetizing home-cooked texture"
 
 
+class DishResearcher:
+    """
+    Researches dish visual appearance using Perplexity API to improve
+    image generation accuracy. Caches results to avoid repeated API calls.
+    """
+    
+    def __init__(self, cache_dir: Optional[Path] = None):
+        """
+        Initialize the researcher.
+        
+        Args:
+            cache_dir: Directory for caching research results.
+                      Defaults to data/image_research_cache
+        """
+        self._client = None
+        
+        if cache_dir:
+            self.cache_dir = Path(cache_dir)
+        else:
+            self.cache_dir = Path(__file__).parent / "data" / "image_research_cache"
+        
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+    
+    def _get_client(self):
+        """Lazy load the Perplexity client."""
+        if self._client is None:
+            try:
+                from perplexipy import PerplexityClient
+            except ImportError:
+                print("❌ PerplexiPy package not installed.")
+                print("Install with: pip install perplexipy")
+                sys.exit(1)
+            
+            api_key = os.getenv('PERPLEXITY_API_KEY')
+            if not api_key or api_key == 'your_perplexity_api_key_here':
+                raise ValueError(
+                    "PERPLEXITY_API_KEY not found in environment. "
+                    "Please set it in your .env file."
+                )
+            
+            self._client = PerplexityClient(key=api_key)
+        
+        return self._client
+    
+    def _get_cache_path(self, dish_name: str) -> Path:
+        """Get the cache file path for a dish."""
+        safe_name = dish_name.lower().replace(" ", "_").replace("'", "").replace("/", "_")
+        return self.cache_dir / f"{safe_name}.json"
+    
+    def _load_cache(self, dish_name: str) -> Optional[Dict]:
+        """Load cached research if available."""
+        cache_path = self._get_cache_path(dish_name)
+        if cache_path.exists():
+            try:
+                import json
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"⚠️  Warning: Could not load cache for {dish_name}: {e}")
+        return None
+    
+    def _save_cache(self, dish_name: str, research: Dict) -> None:
+        """Save research to cache."""
+        cache_path = self._get_cache_path(dish_name)
+        try:
+            import json
+            with open(cache_path, 'w', encoding='utf-8') as f:
+                json.dump(research, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"⚠️  Warning: Could not save cache for {dish_name}: {e}")
+    
+    def research_dish(self, dish_name: str, description: str = "") -> Dict:
+        """
+        Research a dish's visual appearance using Perplexity API.
+        
+        Args:
+            dish_name: Name of the dish
+            description: Optional description for context
+            
+        Returns:
+            Dict with keys: visual_description, consistency, protein_size,
+            serving_style, research_date
+        """
+        # Check cache first
+        cached = self._load_cache(dish_name)
+        if cached:
+            print(f"📚 Using cached research for {dish_name}")
+            return cached
+        
+        print(f"🔍 Researching visual appearance of {dish_name}...")
+        
+        # Build research query
+        query = f"""What does {dish_name} look like? 
+Describe the visual appearance, consistency (soupy/stew/solid), 
+serving style (bowl/plate), typical presentation, and size of protein pieces.
+Focus on how it appears when served, not just ingredients.
+{dish_name} is a Tunisian Jewish Djerban dish. {description}"""
+        
+        try:
+            client = self._get_client()
+            response = client.query(query)
+            
+            # Parse response to extract key information
+            research = self._parse_research_response(dish_name, response, description)
+            
+            # Save to cache
+            self._save_cache(dish_name, research)
+            
+            return research
+            
+        except Exception as e:
+            print(f"⚠️  Research failed for {dish_name}: {e}")
+            # Return default research based on description
+            return self._default_research(dish_name, description)
+    
+    def _parse_research_response(self, dish_name: str, response: str, description: str) -> Dict:
+        """
+        Parse Perplexity response to extract structured research data.
+        
+        Args:
+            dish_name: Name of the dish
+            response: Raw response from Perplexity
+            description: Original description for fallback
+            
+        Returns:
+            Structured research dict
+        """
+        from datetime import datetime
+        import re
+        
+        response_lower = response.lower()
+        
+        # Extract consistency
+        consistency = "stew"  # default
+        if any(word in response_lower for word in ["soup", "soupy", "broth", "liquid", "soup-like"]):
+            consistency = "soupy stew"
+        elif any(word in response_lower for word in ["solid", "casserole", "baked", "firm"]):
+            consistency = "solid"
+        elif any(word in response_lower for word in ["stew", "simmered", "braised"]):
+            consistency = "stew"
+        
+        # Extract serving style
+        serving_style = "bowl"  # default
+        if "plate" in response_lower or "served on" in response_lower:
+            serving_style = "plate"
+        elif "bowl" in response_lower or "soup" in response_lower:
+            serving_style = "bowl with broth"
+        
+        # Extract protein size hints
+        protein_size = "small pieces"  # default
+        if any(word in response_lower for word in ["cubes", "cubed", "diced"]):
+            protein_size = "small cubes (1-2cm)"
+        elif any(word in response_lower for word in ["chunks", "large pieces"]):
+            protein_size = "medium chunks"
+        elif any(word in response_lower for word in ["sliced", "strips"]):
+            protein_size = "thin slices"
+        
+        # Create visual description (first 200 chars of response)
+        visual_description = response[:300].strip()
+        if len(response) > 300:
+            visual_description += "..."
+        
+        return {
+            "dish_name": dish_name,
+            "visual_description": visual_description,
+            "consistency": consistency,
+            "protein_size": protein_size,
+            "serving_style": serving_style,
+            "research_date": datetime.now().strftime("%Y-%m-%d"),
+            "raw_response": response[:500]  # Keep first 500 chars for reference
+        }
+    
+    def _default_research(self, dish_name: str, description: str) -> Dict:
+        """Generate default research when API call fails."""
+        from datetime import datetime
+        
+        # Infer from description
+        desc_lower = description.lower()
+        consistency = "stew"
+        if "soup" in desc_lower or "broth" in desc_lower:
+            consistency = "soupy stew"
+        elif "baked" in desc_lower or "casserole" in desc_lower:
+            consistency = "solid"
+        
+        serving_style = "bowl with broth" if "soup" in desc_lower or "broth" in desc_lower else "plate"
+        
+        return {
+            "dish_name": dish_name,
+            "visual_description": description[:200] if description else f"{dish_name} dish",
+            "consistency": consistency,
+            "protein_size": "small pieces",
+            "serving_style": serving_style,
+            "research_date": datetime.now().strftime("%Y-%m-%d"),
+            "raw_response": "",
+            "note": "Default research (API call failed)"
+        }
+
+
 class CookbookImageGenerator:
     """
     Generates high-quality cookbook images using Gemini 3 Pro Image.
@@ -529,6 +727,7 @@ class CookbookImageGenerator:
         self._client = None
         self._genai = None
         self._types = None
+        self._researcher = None
         
         # Set output directory
         if output_dir:
@@ -537,6 +736,12 @@ class CookbookImageGenerator:
             self.output_dir = Path(__file__).parent / "data" / "images" / "generated"
         
         self.output_dir.mkdir(parents=True, exist_ok=True)
+    
+    def _get_researcher(self):
+        """Lazy load the dish researcher."""
+        if self._researcher is None:
+            self._researcher = DishResearcher()
+        return self._researcher
     
     def _get_scene_variation(self, seed: Optional[str] = None) -> str:
         """
@@ -619,7 +824,8 @@ Humble, sturdy furniture. A modest Jewish home, well-loved and lived-in."""
         output_path: Optional[str] = None,
         cultural_context: str = "Tunisian Jewish Djerban",
         cooking_method: str = "",
-        additional_styling: str = ""
+        additional_styling: str = "",
+        recipe_id: Optional[str] = None
     ) -> Path:
         """
         Generate a high-quality image of a finished dish with accurate colors.
@@ -640,6 +846,40 @@ Humble, sturdy furniture. A modest Jewish home, well-loved and lived-in."""
         
         # Clean description - remove references to other dishes that might confuse
         clean_desc = self._clean_description(description)
+        
+        # Detect dish category for appropriate styling
+        category = self._detect_dish_category(dish_name, clean_desc, recipe_id)
+        category_styling = self._get_category_styling(category)
+        
+        # Research dish visual appearance
+        researcher = self._get_researcher()
+        research = researcher.research_dish(dish_name, clean_desc)
+        
+        # Use provided recipe_id or extract from output_path
+        recipe_id_for_corrections = recipe_id
+        if not recipe_id_for_corrections and output_path:
+            recipe_id_for_corrections = Path(output_path).stem.replace("_dish", "")
+        
+        # Apply recipe-specific corrections/overrides
+        recipe_corrections = self._get_recipe_specific_corrections(dish_name, recipe_id=recipe_id_for_corrections)
+        if recipe_corrections:
+            # Override research with specific corrections
+            for key, value in recipe_corrections.items():
+                if key in research and key != "specific_instructions":
+                    research[key] = value
+        
+        # Build research-based visual requirements
+        research_section = f"""
+=== RESEARCH-BASED VISUAL REQUIREMENTS ===
+Based on research of traditional {dish_name}:
+- Consistency: This is a {research['consistency']} dish, NOT a {self._get_opposite_consistency(research['consistency'])}
+- Protein size: {self._get_protein_guidance(ingredients, research['protein_size'])}
+- Serving: {research['serving_style']}
+- Visual appearance: {research['visual_description'][:200]}"""
+        
+        # Add recipe-specific corrections if any
+        if recipe_corrections and recipe_corrections.get('specific_instructions'):
+            research_section += f"\n\n=== SPECIFIC CORRECTIONS ===\n{recipe_corrections['specific_instructions']}"
         
         # Build ingredient requirements
         ingredient_section = ""
@@ -691,6 +931,8 @@ All proteins shown must be plant-based alternatives:
 - Any "egg" = tofu scramble
 
 Brief description: {clean_desc}
+{category_styling}
+{research_section}
 {ingredient_section}
 {excluded_section}
 
@@ -932,6 +1174,193 @@ This is VEGAN food - no animal products whatsoever."""
         # Remove duplicates and limit
         return list(set(exclusions))[:20]
     
+    def _get_opposite_consistency(self, consistency: str) -> str:
+        """Get the opposite consistency for contrast in prompt."""
+        opposites = {
+            "soupy stew": "solid casserole",
+            "stew": "dry baked dish",
+            "solid": "soupy liquid dish",
+            "soup": "solid meal"
+        }
+        return opposites.get(consistency, "different consistency")
+    
+    def _detect_dish_category(self, dish_name: str, description: str = "", recipe_id: Optional[str] = None) -> str:
+        """
+        Detect the category of dish (dessert, main, dressing, bread, etc.)
+        to apply appropriate styling.
+        
+        Returns:
+            Category string: "dessert", "dressing", "bread", "main", "appetizer", etc.
+        """
+        dish_lower = dish_name.lower()
+        desc_lower = description.lower()
+        combined = f"{dish_lower} {desc_lower}"
+        
+        # Dessert keywords
+        dessert_keywords = [
+            'cake', 'cookie', 'crumble', 'biscotti', 'muffin', 'brownie',
+            'sufganiyot', 'sfenj', 'sfinj', 'donut', 'doughnut', 'sweet',
+            'chocolate', 'honey', 'fudge', 'nougat', 'granola', 'balls',
+            'dessert', 'treat', 'pastry', 'pie', 'tart'
+        ]
+        
+        # Dressing/sauce keywords
+        dressing_keywords = [
+            'dressing', 'sauce', 'dip', 'marinade', 'vinaigrette',
+            'caesar', 'tahini', 'mayonnaise', 'aioli'
+        ]
+        
+        # Bread keywords
+        bread_keywords = [
+            'bread', 'hallah', 'challah', 'khobz', 'sfenj', 'pita',
+            'loaf', 'roll', 'bun', 'bagel'
+        ]
+        
+        # Appetizer/salad keywords
+        appetizer_keywords = [
+            'salad', 'appetizer', 'kemia', 'mezze', 'hummus', 'dip',
+            'pickle', 'msayer', 'msiyer'
+        ]
+        
+        # Check categories in order of specificity
+        if any(kw in combined for kw in dessert_keywords):
+            return "dessert"
+        elif any(kw in combined for kw in dressing_keywords):
+            return "dressing"
+        elif any(kw in combined for kw in bread_keywords):
+            return "bread"
+        elif any(kw in combined for kw in appetizer_keywords):
+            return "appetizer"
+        else:
+            return "main"
+    
+    def _get_category_styling(self, category: str) -> str:
+        """
+        Get category-specific styling instructions for image generation.
+        
+        Args:
+            category: Dish category (dessert, dressing, bread, main, appetizer)
+            
+        Returns:
+            Styling instructions string
+        """
+        styling_map = {
+            "dessert": """=== DESSERT STYLING ===
+CRITICAL: This is a DESSERT/SWEET TREAT, NOT a main dish or stew!
+- Show on a dessert plate, cake stand, or small serving dish
+- Should look sweet, appetizing, and dessert-like
+- If it's a cake/cookie: show slices or individual pieces, golden-brown baked appearance
+- If it's fried (like sfenj): show golden-brown, dusted with sugar
+- NO bowls of liquid, NO stew-like appearance
+- Should look like something you'd serve after a meal, not as a main course""",
+            
+            "dressing": """=== DRESSING/SAUCE STYLING ===
+CRITICAL: This is a DRESSING or SAUCE, NOT a soup or main dish!
+- Show in a small bowl, jar, or drizzled over salad/greens
+- Should be a CONDIMENT, not a meal
+- If it's a dressing: show it in a small bowl or being drizzled
+- If it's a sauce: show it in a small serving dish or on the side
+- NO large bowls, NO main dish presentation
+- Should look like something you'd use to flavor other foods""",
+            
+            "bread": """=== BREAD STYLING ===
+CRITICAL: This is BREAD, NOT a main dish!
+- Show whole loaves, rolls, or individual pieces
+- Should look baked, golden-brown, with proper bread texture
+- Can be on a bread board, basket, or plate
+- NO bowls, NO stew-like appearance
+- Should look like bread you'd serve with a meal""",
+            
+            "appetizer": """=== APPETIZER/SALAD STYLING ===
+- Show in a small serving dish or on a plate
+- Should look fresh, colorful, and appetizing
+- Can be part of a mezze/kemia spread
+- Portion should be smaller than a main dish""",
+            
+            "main": """=== MAIN DISH STYLING ===
+- Show as a complete main course
+- Can be in a bowl, on a plate, or in a serving dish
+- Should look substantial and satisfying
+- Portion should be appropriate for a main meal"""
+        }
+        
+        return styling_map.get(category, styling_map["main"])
+    
+    def _get_recipe_specific_corrections(self, dish_name: str, recipe_id: Optional[str] = None) -> Dict:
+        """
+        Get recipe-specific corrections/overrides for image generation.
+        These override the research findings for known issues.
+        
+        Args:
+            dish_name: Name of the dish
+            recipe_id: Optional recipe ID for lookup
+            
+        Returns:
+            Dict with corrections or empty dict
+        """
+        corrections = {}
+        dish_lower = dish_name.lower()
+        
+        # Adafina: potatoes should be sliced, not unpeeled
+        if dish_lower == "adafina" or (recipe_id and recipe_id == "adafina"):
+            corrections.update({
+                "specific_instructions": """CRITICAL: Potatoes must be SLICED (cut into rounds or chunks), 
+NOT whole unpeeled potatoes. The dish shows layers of sliced potatoes, chickpeas, and seitan/tofu. 
+Potatoes are peeled and sliced before cooking."""
+            })
+        
+        # Apple crumble: should be cake-like/baked, not soupy
+        if "apple crumble" in dish_lower or (recipe_id and recipe_id == "apple_crumble"):
+            corrections.update({
+                "consistency": "baked dessert",
+                "specific_instructions": """CRITICAL: This is a BAKED DESSERT with a CRISP CRUMBLE TOPPING, 
+NOT a soupy liquid. The apples should be soft and cooked, but the dish is SOLID with a golden-brown 
+crumbly topping. It's served as a sliceable cake-like dessert, not a liquid soup."""
+            })
+        
+        # Artichoke mushroom stew: whole portobello/baby mushrooms, mostly dominant
+        if ("artichoke" in dish_lower and "mushroom" in dish_lower) or (recipe_id and recipe_id == "artichoke_mushroom_stew"):
+            corrections.update({
+                "specific_instructions": """CRITICAL: Mushrooms should be WHOLE portobello or baby portobello mushrooms, 
+NOT sliced. Mushrooms are the MOST DOMINANT visible ingredient - they should be the main feature of the dish, 
+larger and more prominent than the artichoke hearts. Show whole mushrooms as the star of the dish."""
+            })
+        
+        return corrections
+    
+    def _get_protein_guidance(self, ingredients: Optional[List[str]], research_size: str) -> str:
+        """Build protein sizing guidance based on research and ingredients."""
+        if not ingredients:
+            return research_size
+        
+        # Check if recipe has protein
+        has_protein = any(
+            word in ' '.join(ingredients).lower() 
+            for word in ['tofu', 'seitan', 'meat', 'chicken', 'fish', 'lamb', 'beef']
+        )
+        
+        if not has_protein:
+            return "No protein pieces (vegetable-based dish)"
+        
+        # Determine protein type
+        ing_lower = ' '.join(ingredients).lower()
+        if 'tofu' in ing_lower:
+            protein_type = "Tofu"
+        elif 'seitan' in ing_lower:
+            protein_type = "Seitan"
+        else:
+            protein_type = "Plant-based protein"
+        
+        # Combine with research
+        if "cubes" in research_size or "1-2cm" in research_size:
+            return f"{protein_type} pieces should be small 1-2cm cubes, NOT large chunks"
+        elif "chunks" in research_size:
+            return f"{protein_type} pieces should be medium-sized chunks, NOT oversized"
+        elif "slices" in research_size:
+            return f"{protein_type} should be thin slices, NOT thick pieces"
+        else:
+            return f"{protein_type} pieces: {research_size}, NOT oversized"
+    
     def generate_ingredients_image(
         self,
         dish_name: str,
@@ -1075,6 +1504,9 @@ high-end cookbook quality, 8K detail, photorealistic."""
         Generate all images for a recipe from its JSON data.
         Uses ingredients to determine accurate dish colors.
         
+        If recipe_data contains 'image_prompt' field, it will be used
+        as a custom prompt override for dish image generation.
+        
         Args:
             recipe_data: Recipe dictionary with 'name', 'description', 'ingredients'
             generate_dish: Whether to generate the dish image
@@ -1113,13 +1545,23 @@ high-end cookbook quality, 8K detail, photorealistic."""
         # Generate dish image with ingredient-accurate colors
         if generate_dish:
             dish_path = self.output_dir / f"{recipe_id}_dish.png"
-            results['dish'] = self.generate_dish_image(
-                dish_name=dish_name,
-                description=dish_desc,
-                ingredients=ingredients_list,
-                cooking_method=cooking_method,
-                output_path=str(dish_path)
-            )
+            
+            # Check for custom image_prompt override
+            custom_prompt = recipe_data.get('image_prompt')
+            if custom_prompt:
+                # Use custom prompt directly
+                print(f"📝 Using custom image_prompt for {recipe_id}")
+                results['dish'] = self._generate_and_save(custom_prompt, dish_path)
+            else:
+                # Use standard generation
+                results['dish'] = self.generate_dish_image(
+                    dish_name=dish_name,
+                    description=dish_desc,
+                    ingredients=ingredients_list,
+                    cooking_method=cooking_method,
+                    output_path=str(dish_path),
+                    recipe_id=recipe_id  # Pass recipe_id for corrections
+                )
         
         # Generate ingredients image
         if generate_ingredients and ingredients_list:

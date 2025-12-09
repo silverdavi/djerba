@@ -1,0 +1,94 @@
+{
+  "id": "091_tirshi",
+  "image": "tirshi.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "תירשי",
+    "es": "Tirshi",
+    "ar": "الطرشي",
+    "en": "Tirshi"
+  },
+  "description": {
+    "he": "ממרח דלעת פיקנטי וחמצמץ, המהווה מנת חובה במטבח היהודי-תוניסאי, במיוחד בג'רבה. השם נגזר מהמילה הפרסית \"טורש\" (חמוץ), ומתייחס לתיבול הלימוני הדומיננטי. מוגש באופן מסורתי כסלט מבושל או מאזה לצד קוסקוס.",
+    "es": "Una crema de calabaza picante y ácida, básica en la cocina judía tunecina, especialmente de Yerba. El nombre deriva del persa \"torsh\" (ácido), refiriéndose a su condimento con limón. Se sirve tradicionalmente como ensalada cocida o mezze junto al cuscús.",
+    "ar": "سلطة قرع (يقطين) حارة وحامضة، تعتبر ركيزة في المطبخ اليهودي التونسي، وخاصة في جربة. الاسم مشتق من الكلمة الفارسية \"ترش\" (حامض)، إشارة إلى طعم القارص القوي فيها. تُقدم عادةً كسلطة مطبوخة أو مقبلات.",
+    "en": "A spicy and tangy pumpkin spread, staple of Tunisian Jewish cuisine, particularly from Djerba. The name derives from the Persian \"torsh\" (sour), referring to its lemon-heavy seasoning. It is traditionally served as a cooked salad or mezze alongside couscous."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם דלעת קלופה וחתוכה",
+      "1 תפוח אדמה קטן (לא חובה)",
+      "3-4 שיני שום כתושות",
+      "מיץ מלימון אחד",
+      "1 כף פפריקה (מתוקה או חריפה)",
+      "1 כפית כמון",
+      "2 כפות שמן",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "500g de calabaza pelada y cortada",
+      "1 patata pequeña (opcional)",
+      "3-4 dientes de ajo machacados",
+      "Zumo de 1 limón",
+      "1 cda de pimentón (dulce o picante)",
+      "1 cdta de comino",
+      "2 cdas de aceite",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "500 غرام قرع (يقطين) مقشر ومقطع",
+      "1 كعبة بطاطا صغيرة (اختياري)",
+      "3-4 سنون ثوم مرحي",
+      "عصير قارصة (ليمونة)",
+      "1 مغرفة كبيرة فلفل أحمر (حلو أو حار)",
+      "1 مغرفة صغيرة كمون",
+      "2 مغارف زيت",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "500g pumpkin, peeled and cubed",
+      "1 small potato (optional)",
+      "3-4 garlic cloves, crushed",
+      "Juice of 1 lemon",
+      "1 tbsp paprika (sweet or hot)",
+      "1 tsp cumin",
+      "2 tbsp vegetable oil",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מקלפים וחותכים את הדלעת (ואת תפוח האדמה אם משתמשים) לקוביות.",
+      "מבשלים במים מומלחים עד לריכוך מלא.",
+      "מסננים היטב את הנוזלים במסננת (חשוב מאוד למרקם).",
+      "מועכים את הירקות במזלג למחית גסה.",
+      "מוסיפים שמן, שום כתוש, מיץ לימון ותבלינים, מערבבים ומגישים בטמפרטורת החדר."
+    ],
+    "es": [
+      "Pelar y cortar la calabaza (y la patata si se usa) en cubos.",
+      "Hervir en agua con sal hasta que estén tiernas.",
+      "Escurrir muy bien en un colador para eliminar el exceso de líquido.",
+      "Machacar con un tenedor hasta obtener un puré rústico.",
+      "Añadir aceite, ajo machacado, zumo de limón y especias; mezclar y servir a temperatura ambiente."
+    ],
+    "ar": [
+      "قشّر القرع (والبطاطا إذا تحب) وقصهم مكعبات.",
+      "اطبخهم في ماء وملح حتى يطيبوا ويطروا بالقدا.",
+      "قطّرهم مليح من الماء في كسكاس (مهم برشا).",
+      "ارحي الخضرة بفرشيطة (شوكة) حتى تولّي بوري (purée).",
+      "زيد الزيت، الثوم المرحي، عصير القارص والفواحات، خلّط وقدمها باردة."
+    ],
+    "en": [
+      "Peel and cube the pumpkin (and potato, if using).",
+      "Boil in salted water until completely tender.",
+      "Drain very well in a colander to remove excess liquid.",
+      "Mash vegetables with a fork into a coarse purée.",
+      "Add oil, crushed garlic, lemon juice, and spices; mix well and serve at room temperature."
+    ]
+  }
+}

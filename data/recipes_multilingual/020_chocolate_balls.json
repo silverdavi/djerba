@@ -1,0 +1,82 @@
+{
+  "id": "020_chocolate_balls",
+  "image": "chocolate_balls.png",
+  "meta": {
+    "servings": "20–25",
+    "prep_time": "20 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "כדורי שוקולד",
+    "es": "Bolitas de Chocolate",
+    "ar": "كعابر الشكلاطة",
+    "en": "Chocolate Balls"
+  },
+  "description": {
+    "he": "קינוח ישראלי קלאסי ואהוב על ילדים, המהווה חלק בלתי נפרד מימי הולדת וקבלות שבת. הגרסה הטבעונית הזו מחליפה את החמאה והחלב בשמן קוקוס או שמנת צמחית, אך שומרת על הטעם הנוסטלגי והמרקם העשיר.",
+    "es": "Un postre clásico israelí, favorito de los niños e imprescindible en cumpleaños y Shabat. Esta versión vegana sustituye la mantequilla y la leche por crema de coco, manteniendo el sabor nostálgico y la textura rica.",
+    "ar": "حلوى محبوبة عند الصغار والكبار، وتتحضر ديما في أعياد الميلاد والسبت. الوصفة هذي نباتية، بدّلنا الزبدة والحليب بزيت جوز الهند أو الكريمة النباتية، والبنة هي هي.",
+    "en": "A quintessential Israeli childhood treat found at every birthday party and Shabbat gathering. While traditionally dairy-based, this vegan adaptation uses coconut cream to replicate the nostalgic, rich texture without animal products."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם ביסקוויטים פתי בר (ללא רכיבים מן החי)",
+      "200 גרם שוקולד מריר",
+      "1/2 כוס קרם קוקוס (לפחות 17% שומן)",
+      "1/2 כוס אגוזים קצוצים (אופציונלי)",
+      "קוקוס טחון או סוכריות לציפוי"
+    ],
+    "es": [
+      "250g galletas tipo 'Petit Beurre' (veganas)",
+      "200g chocolate negro",
+      "1/2 taza de crema de coco (min 17% grasa)",
+      "1/2 taza de nueces picadas (opcional)",
+      "Coco rallado o granas para decorar"
+    ],
+    "ar": [
+      "250 غرام بسكويت 'بوتي بور' (بدون بيض/حليب)",
+      "200 غرام شكلاطة كحلة",
+      "نصف كأس كريمة جوز الهند (خاثرة)",
+      "نصف كأس جوز مهروش (اختياري)",
+      "جوز هند (نوا د كوكو) للزينة"
+    ],
+    "en": [
+      "250g vegan tea biscuits ('Petit Beurre')",
+      "200g dark chocolate",
+      "1/2 cup full-fat coconut cream",
+      "1/2 cup chopped nuts (optional)",
+      "Desiccated coconut or sprinkles for coating"
+    ]
+  },
+  "steps": {
+    "he": [
+      "טוחנים או כותשים את הביסקוויטים לפירורים גסים (מוסיפים אגוזים אם רוצים).",
+      "ממיסים במיקרוגל את השוקולד עם קרם הקוקוס לתערובת חלקה ומבריקה.",
+      "מערבבים את רוטב השוקולד עם הפירורים עד לקבלת עיסה אחידה.",
+      "יוצרים כדורים קטנים בידיים ומגלגלים בקוקוס טחון.",
+      "מקררים במקרר כשעה לפחות לפני ההגשה."
+    ],
+    "es": [
+      "Triturar las galletas en migas gruesas (añadir nueces si se desea).",
+      "Derretir el chocolate con la crema de coco hasta obtener una mezcla suave.",
+      "Mezclar el líquido con las migas hasta integrar bien.",
+      "Formar bolitas pequeñas con las manos y rebozar en coco rallado.",
+      "Refrigerar durante al menos una hora antes de servir."
+    ],
+    "ar": [
+      "ارحي البسكويت وتخليه مهروش شوية (زيد الجوز كان تحب).",
+      "ذوّب الشكلاطة مع الكريمة في الميكرو-أوند حتى تولي رطبة وتلمع.",
+      "صب الشكلاطة على البسكويت وخلّط مليح لين تتلم العجينة.",
+      "كوّر العجينة كعابر صغار ولفهم في جوز الهند.",
+      "حطهم في الفريجيدير ساعة على الأقل قبل التقديم."
+    ],
+    "en": [
+      "Crush biscuits into coarse crumbs (add nuts if desired).",
+      "Melt chocolate with coconut cream until smooth and glossy.",
+      "Mix the chocolate sauce into the crumbs until well combined.",
+      "Form small balls with your hands and roll in coconut.",
+      "Refrigerate for at least one hour before serving."
+    ]
+  }
+}

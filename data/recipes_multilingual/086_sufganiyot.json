@@ -1,0 +1,94 @@
+{
+  "id": "086_sufganiyot",
+  "image": "sufganiyot.png",
+  "meta": {
+    "servings": "20–25",
+    "prep_time": "2 hrs",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "סופגניות",
+    "es": "Sufganiyot",
+    "ar": "سوفجانيوت",
+    "en": "Sufganiyot"
+  },
+  "description": {
+    "he": "הסופגניות הן המאכל הסמלי של חנוכה בישראל, המציין את נס פך השמן. בעוד יהודי צפון אפריקה נוהגים לאכול ספינג' או יו-יו, הגרסה הממולאת הזו הפכה לאהובה בכל הקהילות. המתכון הטבעוני הזה משתמש ברסק תפוחים במקום ביצים לקבלת מרקם אוורירי.",
+    "es": "Las Sufganiyot son las donas rellenas clásicas de Janucá en Israel, fritas para celebrar el milagro del aceite. Aunque en el norte de África es más común el Sfenj, estas donas rellenas son universales hoy en día. Esta versión vegana utiliza puré de manzana en lugar de huevos para una textura esponjosa.",
+    "ar": "سوفجانيوت هي فطاير مقلية ومعمرة بالمعجون، مشهورة في إسرائيل في عيد الحانوكا باش يتفكرو معجزة الزيت. الوصفة هذي نباتية (vegan)، استعملنا فيها \"compote\" متاع التفاح في بلاصة العظم باش تجي خفيفة وهشوشة، وهي بديل عصري للسفنج التقليدي.",
+    "en": "Sufganiyot are the iconic jelly-filled doughnuts of Hanukkah, fried to celebrate the miracle of the oil. While North African Jews traditionally serve Sfenj or Yo-yos, these filled pastries are now universal. This vegan adaptation uses applesauce instead of eggs to create a perfectly fluffy dough."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח לבן מנופה",
+      "2 כפות שמרים יבשים",
+      "1/2 כוס סוכר",
+      "2 כוסות חלב סויה / שקדים פושר",
+      "6 כפות רסק תפוחים (תחליף לביצים)",
+      "100 גרם שמן קוקוס / מרגרינה",
+      "1 כף ברנדי או ערק",
+      "ריבה ואבקת סוכר להגשה"
+    ],
+    "es": [
+      "1 kg de harina tamizada",
+      "2 cdas de levadura seca",
+      "1/2 taza de azúcar",
+      "2 tazas de leche de soja / almendra tibia",
+      "6 cdas de puré de manzana (sustituto de huevo)",
+      "100g de aceite de coco / margarina",
+      "1 cda de brandy o arak",
+      "Mermelada y azúcar glas para servir"
+    ],
+    "ar": [
+      "1 كغ فارينة مغربلة",
+      "2 مغارف كبار خميرة خبز",
+      "1/2 كأس سكر",
+      "2 كيسان حليب صوجا / لوز دافي",
+      "6 مغارف \"compote\" تفاح (في بلاصة العظم)",
+      "100 غرام زيت جوز الهند / مارغرين",
+      "1 مغرفة كبيرة براندي أو بوخة",
+      "معجون وسكر محور للزينة"
+    ],
+    "en": [
+      "1 kg sifted flour",
+      "2 tbsp dry yeast",
+      "1/2 cup sugar",
+      "2 cups warm soy / almond milk",
+      "6 tbsp applesauce (egg substitute)",
+      "100g coconut oil / margarine",
+      "1 tbsp brandy or arak",
+      "Jam and powdered sugar for serving"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים קמח, שמרים וסוכר. מוסיפים חלב פושר, רסק תפוחים, שמן, ברנדי ווניל.",
+      "לשים 5 דקות, מוסיפים מעט מלח ולשים 3 דקות נוספות עד לקבלת בצק רך ודביק מעט.",
+      "מתפיחים בקערה משומנת כשעה. מחלקים לכדורים (50 גרם) ומניחים על ריבועי נייר אפייה להתפחה שנייה של 30 דקות.",
+      "מטגנים בשמן עמוק (170 מעלות) כ-2 דקות מכל צד עד להזהבה.",
+      "ממלאים בריבה בעזרת מזרק ובוזקים אבקת סוכר."
+    ],
+    "es": [
+      "Mezclar harina, levadura y azúcar. Añadir leche tibia, puré de manzana, aceite, brandy y vainilla.",
+      "Amasar 5 min, añadir una pizca de sal y amasar 3 min más hasta obtener una masa suave.",
+      "Levar 1 hora. Dividir en bolas (50g) sobre papel horno y dejar levar de nuevo 30 min.",
+      "Freír en aceite hondo (170°C) 2 min por lado hasta dorar.",
+      "Rellenar con mermelada usando una jeringa y espolvorear azúcar glas."
+    ],
+    "ar": [
+      "خلّط الفارينة والخميرة والسكر. زيد الحليب الدافي، الـ \"compote\"، الزيت، البراندي والفانيليا.",
+      "اعجن 5 دقايق، زيد شوية ملح وكمل اعجن 3 دقايق لين تولي عجينة طرية.",
+      "خليها تخمر ساعة. قصها كعابر (50 غرام) وحطهم فوق ورق طبخ، وخليهم يخمرو مرة اخرى 30 دقيقة.",
+      "اقلي في زيت سخون (170 درجة) دقيقتين من كل شيرة لين يحمارو.",
+      "عمّرهم بالمعجون بالـ \"seringue\" ورش عليهم السكر المحور."
+    ],
+    "en": [
+      "Mix flour, yeast, and sugar. Add warm milk, applesauce, oil, brandy, and vanilla.",
+      "Knead for 5 mins, add a pinch of salt, and knead 3 more mins until dough is soft and slightly sticky.",
+      "Rise for 1 hour. Divide into balls (50g) on parchment squares and rise again for 30 mins.",
+      "Deep fry at 170°C for 2 mins per side until golden.",
+      "Fill with jam using a syringe and dust with powdered sugar."
+    ]
+  }
+}

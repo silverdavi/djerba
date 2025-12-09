@@ -1,0 +1,90 @@
+{
+  "id": "025_cholent",
+  "image": "cholent.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "1h 30m",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "צ'ולנט",
+    "es": "El Cholent",
+    "ar": "الشولنت",
+    "en": "Cholent"
+  },
+  "description": {
+    "he": "גירסה טבעונית לתבשיל השבת המסורתי (חמין), שבמקור הוכן עם בשר בקר וביצים וכאן מוגש עם נתחי סייטן או טופו עסיסיים. השם מגיע מצרפתית עתיקה (chalant) ומתייחס לבישול האיטי, אם כי המנה משלבת שעועית וגריסים האופייניים למטבח היהודי-אירופאי לצד השפעות מקומיות.",
+    "es": "Una adaptación vegana del tradicional estofado de Sabbat, originalmente hecho con carne pero aquí recreado con seitán o tofu sazonado. Su nombre deriva del francés antiguo *chalant* (caliente), refiriéndose a su cocción lenta. Combina alubias y cebada en un caldo rico y ligeramente dulce.",
+    "ar": "نسخة نباتية لطبق السبت التقليدي (يشبه السخينة أو الدفينة)، اللي كان يتحضّر باللحم، وهوني عوّضناهم بـ\"السيتان\" أو \"التوفو\". الاسم أصله من كلمة فرنسية قديمة تعني \"سخون\"، وتتميز هذه الوصفة بخلطة اللوبيا والشعير مع مرقة عاقدة وبنينة.",
+    "en": "A plant-based reimagining of the traditional Sabbath stew, originally synonymous with beef and eggs, now featuring savory seitan or tofu. The name derives from Old French *chalant* (warming), referring to the slow-cooking method. This hearty dish combines beans, barley, and potatoes in a rich, slightly sweet broth."
+  },
+  "ingredients": {
+    "he": [
+      "3 בצלים, קצוצים",
+      "500 גרם נתחי סייטן או טופו קשה",
+      "4 תפוחי אדמה, חתוכים",
+      "1 כוס שעועית (חומה ולבנה), מושרית",
+      "1/2 כוס גריסי פנינה",
+      "2 כפות סירופ מייפל",
+      "תבלינים: פפריקה, פלפל שחור, אבקת שום, מלח"
+    ],
+    "es": [
+      "3 cebollas picadas",
+      "500g de trozos de seitán o tofu firme",
+      "4 patatas cortadas en cubos",
+      "1 taza de alubias (blancas y marrones), remojadas",
+      "1/2 taza de cebada perlada",
+      "2 cdas de jarabe de arce",
+      "Especias: pimentón, pimienta negra, ajo en polvo, sal"
+    ],
+    "ar": [
+      "3 بصلات مقصوصين",
+      "500 غرام سيتان أو توفو كاسح",
+      "4 كعبات بطاطا مقصوصين",
+      "1 كأس لوبيا (بيضاء وحمراء) منفوخة",
+      "1/2 كأس شعير (Grisim)",
+      "2 مغارف كبار سيرو إرابيل (Maple syrup)",
+      "فاحات: فلفل أحمر، فلفل أكحل، ثوم مرحي، ملح"
+    ],
+    "en": [
+      "3 onions, chopped",
+      "500g seitan chunks or firm tofu",
+      "4 potatoes, cubed",
+      "1 cup mixed beans (white and brown), soaked",
+      "1/2 cup pearl barley",
+      "2 tbsp maple syrup",
+      "Spices: paprika, black pepper, garlic powder, salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצלים בשמן עד להזהבה עמוקה (צבע חום כהה).",
+      "מוסיפים את נתחי הסייטן (או הטופו) ומטגנים קלות מכל הצדדים.",
+      "מוסיפים לסיר את תפוחי האדמה, השעועית והגריסים.",
+      "מכסים במים, מוסיפים את התבלינים וסירופ המייפל ומביאים לרתיחה.",
+      "מנמיכים את האש ומבשלים כשעה וחצי עד שהרוטב מסמיך והקטניות רכות."
+    ],
+    "es": [
+      "Sofreír las cebollas hasta que estén bien doradas y oscuras.",
+      "Añadir el seitán (o tofu) y freír brevemente por todos lados.",
+      "Agregar las patatas, las alubias y la cebada a la olla.",
+      "Cubrir con agua, añadir las especias y el jarabe de arce, y llevar a ebullición.",
+      "Bajar el fuego y cocinar durante una hora y media hasta que espese."
+    ],
+    "ar": [
+      "قلّي البصل في الزيت مليح حتى يحمار ويولي لونه غامق.",
+      "زيد طروف السيتان (أو التوفو) وقلّيهم شوية مع البصل.",
+      "رمي البطاطا، اللوبيا المنفوخة، والشعير في الطنجرة.",
+      "مرّق بالماء وزيد الفاحات والسيرو (Maple) وخلّي المرقة تغلي.",
+      "نقص للنار وخلّيها تطيب سلة سلة ساعة ونص حتى تختار المرقة وتطيب اللوبيا."
+    ],
+    "en": [
+      "Fry the onions until they turn a deep golden brown.",
+      "Add the seitan chunks (or tofu) and fry briefly on all sides.",
+      "Add the potatoes, beans, and barley to the pot.",
+      "Cover with water, add the spices and maple syrup, and bring to a boil.",
+      "Lower heat and simmer for 1.5 hours until the stew thickens and beans are tender."
+    ]
+  }
+}

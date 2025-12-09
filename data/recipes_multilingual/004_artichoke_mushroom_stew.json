@@ -1,0 +1,98 @@
+{
+  "id": "004_artichoke_mushroom_stew",
+  "image": "artichoke_mushroom_stew.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "15 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "תבשיל ארטישוק ופטריות",
+    "es": "Guiso de Alcachofas y Champiñones",
+    "ar": "مرقة قرنون وفڨاع",
+    "en": "Artichoke and Mushroom Stew"
+  },
+  "description": {
+    "he": "תבשיל צהוב עשיר בלבבות ארטישוק ופטריות. במקור המנה הוכנה לרוב עם עוף או עגל, אך הגרסה הטבעונית הזו משמרת את הטעמים החמצמצים והמתובלים האופייניים למטבח הצפון-אפריקאי בעזרת כורכום ולימון.",
+    "es": "Un guiso amarillo sabroso con corazones de alcachofa y champiñones. Aunque tradicionalmente se prepara con pollo o ternera, esta versión vegana captura los sabores ácidos y especiados típicos de la cocina norteafricana.",
+    "ar": "مرقة صفراء بقلوب القرنون والفڨاع (الفطر). هذه الوصفة نباتية تعوض اللحم أو الدجاج بالتوابل الغنية والليمون، لتحافظ على الطعم التقليدي المالح والحامض المحبوب في المطبخ التونسي والمغربي.",
+    "en": "A savory yellow stew featuring artichoke hearts and mushrooms. While traditionally prepared with chicken or veal in North African Jewish kitchens, this vegan adaptation relies on turmeric and lemon for a rich, tangy flavor."
+  },
+  "ingredients": {
+    "he": [
+      "2 כפות שמן",
+      "4 שיני שום כתושות",
+      "1 סלסלת פטריות פרוסות",
+      "1 חבילת לבבות ארטישוק (קפואים)",
+      "1 כפית כורכום",
+      "1 כף אבקת מרק בטעם עוף (פרווה)",
+      "מיץ מ-1/2 לימון",
+      "מלח ופלפל שחור",
+      "פטרוזיליה קצוצה"
+    ],
+    "es": [
+      "2 cdas de aceite",
+      "4 dientes de ajo machacados",
+      "1 bandeja de champiñones laminados",
+      "1 bolsa de corazones de alcachofa",
+      "1 cdta de cúrcuma",
+      "1 cda de condimento sabor pollo (vegano)",
+      "Zumo de 1/2 limón",
+      "Sal y pimienta negra",
+      "Perejil picado"
+    ],
+    "ar": [
+      "2 ملاعق زيت",
+      "4 فصوص ثوم مهروس",
+      "علبة فڨاع (فطر) مقطع",
+      "كيس قلوب قرنون (مجمد)",
+      "ملعقة صغيرة كركم",
+      "ملعقة كبيرة توابل دجاج نباتية",
+      "عصير نصف ليمونة",
+      "ملح وفلفل أكحل",
+      "معدنوس مقطع"
+    ],
+    "en": [
+      "2 tbsp oil",
+      "4 cloves garlic, crushed",
+      "1 punnet sliced mushrooms",
+      "1 bag artichoke hearts (frozen)",
+      "1 tsp turmeric",
+      "1 tbsp vegan chicken-style seasoning",
+      "Juice of 1/2 lemon",
+      "Salt and black pepper",
+      "Chopped parsley"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר ומטגנים קלות את השום (זהירות לא לשרוף).",
+      "מוסיפים את התבלינים, מיץ הלימון, הפטריות והארטישוק ומערבבים היטב.",
+      "מוסיפים מים עד לכיסוי הירקות ומביאים לרתיחה.",
+      "מנמיכים להבה ומבשלים כ-20 דקות עד שהרוטב מסמיך והירקות רכים.",
+      "מפזרים פטרוזיליה טרייה ומגישים חם."
+    ],
+    "es": [
+      "Calentar el aceite en una olla y sofreír brevemente el ajo.",
+      "Añadir las especias, el zumo de limón, los champiñones y las alcachofas; mezclar bien.",
+      "Cubrir con agua y llevar a ebullición.",
+      "Cocinar a fuego lento unos 20 minutos hasta que la salsa espese.",
+      "Espolvorear perejil fresco y servir."
+    ],
+    "ar": [
+      "سخن الزيت في الطنجرة وقلّي الثوم شوية (رد بالك يتحرق).",
+      "زيد التوابل، عصير الليمون، الفڨاع والقرنون وخلطهم مليح.",
+      "مرّق بالماء (حتى يتغطى الخضار) وخليه يغلي.",
+      "نقص النار وخليه يطيب 20 دقيقة حتى تعقاد المرقة.",
+      "رش المعدنوس من فوق وقدمه."
+    ],
+    "en": [
+      "Heat oil in a pot and briefly sauté the garlic.",
+      "Add spices, lemon juice, mushrooms, and artichokes, stirring well to coat.",
+      "Add enough water to cover the vegetables and bring to a boil.",
+      "Simmer for about 20 minutes until the sauce thickens.",
+      "Garnish with fresh parsley and serve warm."
+    ]
+  }
+}

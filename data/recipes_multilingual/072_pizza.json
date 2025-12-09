@@ -1,0 +1,94 @@
+{
+  "id": "072_pizza",
+  "image": "pizza.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פיצה",
+    "es": "Pizza",
+    "ar": "بيتزا",
+    "en": "Pizza"
+  },
+  "description": {
+    "he": "מנה אהובה בבתים יהודיים בצפון אפריקה, המוכנה לעיתים קרובות משאריות בצק לחם ומשקפת את ההשפעה האיטלקית על המטבח התוניסאי. באופן מסורתי היא מוגשת עם טונה וגבינה, אך גירסה זו משתמשת בטונה טבעונית או טופו מעושן.",
+    "es": "Un clásico en los hogares judíos del norte de África, a menudo hecha con masa de pan sobrante, reflejando la influencia italiana en Túnez. Tradicionalmente cubierta con atún, esta versión vegetal utiliza atún vegano o tofu ahumado.",
+    "ar": "أكلة محبوبة في الديار اليهودية في شمال إفريقيا، وتتعمل عادة بعجينة الخبز، وهي تبين التأثير الإيطالي على الكوجينة التونسية. في الأصل تكون بالتن والجبن، لكن هذه النسخة النباتية تستعمل \"تن نباتي\" أو توفو مدخن.",
+    "en": "A staple in North African Jewish homes reflecting Italian influence, often made using leftover bread dough. While traditionally topped with tuna and cheese, this plant-based adaptation uses vegan tuna or smoked tofu."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם בצק לחם (או בצק פיצה)",
+      "3 כפות רסק עגבניות",
+      "1 כף אבקת מרק בטעם עוף (פרווה)",
+      "1 כפית אורגנו",
+      "1/2 כפית אבקת שום",
+      "1 קופסה טונה טבעונית (או טופו מעושן מפורר)",
+      "חופן זיתים",
+      "שמן זית"
+    ],
+    "es": [
+      "500g de masa de pan (o pizza)",
+      "3 cdas de pasta de tomate",
+      "1 cda de sazonador sabor pollo (vegano)",
+      "1 cdita de orégano",
+      "1/2 cdita de ajo en polvo",
+      "1 lata de atún vegano (o tofu ahumado desmenuzado)",
+      "Un puñado de aceitunas",
+      "Aceite de oliva"
+    ],
+    "ar": [
+      "500 غرام عجينة خبز (أو عجينة بيتزا)",
+      "3 مغارف كبار طماطم حكة (معجون طماطم)",
+      "1 مغرفة كبيرة تابل دجاج نباتي",
+      "1 مغرفة صغيرة زعتر",
+      "1/2 مغرفة صغيرة ثوم مرحي",
+      "1 حكة تن نباتي (أو توفو مدخن مفرفت)",
+      "حفنة زيتون",
+      "زيت زيتونة"
+    ],
+    "en": [
+      "500g bread dough (or pizza dough)",
+      "3 tbsp tomato paste",
+      "1 tbsp vegan chicken-style seasoning",
+      "1 tsp oregano",
+      "1/2 tsp garlic powder",
+      "1 can vegan tuna (or crumbled smoked tofu)",
+      "Handful of olives",
+      "Olive oil"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-200 מעלות.",
+      "משטחים את בצק הלחם על תבנית משומנת.",
+      "מערבבים בקערה את רסק העגבניות עם מעט שמן, אבקת המרק, אורגנו ואבקת שום ליצירת רוטב.",
+      "מורחים את הרוטב על הבצק ומפזרים מעל את הטונה הטבעונית (או הטופו) והזיתים.",
+      "אופים כ-20-25 דקות עד שהבצק זהוב ופריך."
+    ],
+    "es": [
+      "Precalentar el horno a 200°C.",
+      "Extender la masa de pan en una bandeja engrasada.",
+      "Mezclar la pasta de tomate con un poco de aceite, el sazonador, orégano y ajo en polvo para hacer la salsa.",
+      "Untar la salsa sobre la masa y cubrir con el atún vegano (o tofu) y las aceitunas.",
+      "Hornear 20–25 minutos hasta que esté dorada y crujiente."
+    ],
+    "ar": [
+      "سخّن الفور (الكووشة) على 200 درجة.",
+      "حلّ عجينة الخبز في طبق مدهون بالزيت.",
+      "خلّط طماطم الحكة مع شوية زيت، تابل الدجاج، الزعتر والثوم المرحي باش تعمل الصلصة.",
+      "ادهن الصلصة فوق العجينة وحط فوقها التن النباتي (أو التوفو) والزيتون.",
+      "طيّبها في الفور مدة 20-25 دقيقة لين تحمار وتولي مقرمشة."
+    ],
+    "en": [
+      "Preheat oven to 200°C (400°F).",
+      "Flatten the bread dough onto a greased baking sheet.",
+      "Mix tomato paste with a little oil, seasoning, oregano, and garlic powder to make a sauce.",
+      "Spread sauce over the dough and top with vegan tuna (or tofu) and olives.",
+      "Bake for 20–25 minutes until golden and crisp."
+    ]
+  }
+}

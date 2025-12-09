@@ -1,0 +1,82 @@
+{
+  "id": "047_ktaa",
+  "image": "ktaa.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קטעה",
+    "es": "Kta'a",
+    "ar": "القطعة",
+    "en": "Kta'a"
+  },
+  "description": {
+    "he": "מרק פסטה תוניסאי כפרי המורכב מבצק טרי הקרוע ביד ומבושל ברוטב עשיר. השם נגזר מהשורש הערבי קט\"ע (חתיכות), ומתייחס לשיטה המסורתית של צביטת פיסות בצק קטנות ישירות לסיר המבעבע. זוהי מנה מנחמת מג'רבה, המזכירה בטעמיה את המחמסה.",
+    "es": "Una sopa rústica tunecina de pasta fresca hecha a mano, cocida a fuego lento en un caldo sabroso. El nombre deriva del árabe *qata'a* (trozos), refiriéndose al método tradicional de pellizcar la masa directamente en la olla. Es un plato reconfortante de Djerba con sabores similares a la Mhamsa.",
+    "ar": "أكلة تونسية تقليدية تتكون من قطع عجين طازجة مقطعة باليد ومطبوخة في مرقة حمراء. الاسم مشتق من \"القطع\"، إشارة إلى طريقة تقطيع العجين ورميه مباشرة في القدر وهو يغلي. هي وجبة دافئة من جربة تشبه المحمصة في نكهتها.",
+    "en": "A rustic Tunisian fresh pasta soup featuring hand-torn dough pieces simmered in a savory broth. The name derives from the Arabic *qata'a* (pieces), referring to the traditional method of pinching dough directly into the boiling pot. A comforting Djerban dish with flavors similar to Mhamsa."
+  },
+  "ingredients": {
+    "he": [
+      "3 כוסות קמח",
+      "מים (לפי הצורך לבצק ולמרק)",
+      "1 בצל קטן קצוץ",
+      "2 כפות רסק עגבניות",
+      "שמן לטיגון",
+      "מלח, פלפל שחור, פפריקה"
+    ],
+    "es": [
+      "3 tazas de harina",
+      "Agua (para la masa y el caldo)",
+      "1 cebolla pequeña picada",
+      "2 cucharadas de pasta de tomate",
+      "Aceite para freír",
+      "Sal, pimienta negra, pimentón"
+    ],
+    "ar": [
+      "3 كيسان فرينة (دقيق)",
+      "ماء (للعجين وللمرقة)",
+      "1 بصلة صغيرة مقطعة",
+      "2 مغارف طماطم حكة",
+      "زيت للقلي",
+      "ملح، فلفل أكحل، فلفل أحمر"
+    ],
+    "en": [
+      "3 cups flour",
+      "Water (for dough and broth)",
+      "1 small onion, chopped",
+      "2 tbsp tomato paste",
+      "Oil for frying",
+      "Salt, black pepper, paprika"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכינים בצק רך ונעים מ-3 כוסות קמח, מעט מלח ומים לפי הצורך.",
+      "בסיר, מכינים ציר (כמו למחמסה): מטגנים בצל בשמן, מוסיפים רסק ותבלינים, מוסיפים מים ומביאים לרתיחה.",
+      "כשהמים רותחים, צובטים חתיכות קטנות מאוד מהבצק וזורקים לסיר. מערבבים מדי פעם כדי שלא ידבקו.",
+      "לקראת סוף הבישול, מערבבים בכוס מעט קמח ומים לבלילה נוזלית, שופכים לסיר תוך כדי ערבוב ומבשלים עד שהמרק מסמיך."
+    ],
+    "es": [
+      "Preparar una masa suave mezclando la harina, un poco de sal y agua según sea necesario.",
+      "En una olla, preparar el caldo base: sofreír la cebolla, añadir pasta de tomate y especias, agregar agua y llevar a ebullición.",
+      "Cuando hierva, pellizcar trozos muy pequeños de masa y echarlos a la olla. Remover ocasionalmente para evitar que se peguen.",
+      "Hacia el final, mezclar un poco de harina y agua en un vaso, verter en la olla removiendo bien y cocinar hasta que la sopa espese."
+    ],
+    "ar": [
+      "خلّط الفرينة مع شوية ملح وماء باش تتحصل على عجينة رطبة.",
+      "في الطنجرة، حضّر المرقة (كيف المحمصة): قلّي البصل في الزيت، زيد الطماطم والفاحات، صب الماء وخليه يغلي.",
+      "كيف يغلي الماء، اقطع طروف صغار من العجينة وارميهم في الطنجرة. حرّك مرة مرة باش ما يلصقوش.",
+      "في لخر، خلّط شوية فرينة مع ماء في كأس، صبهم في المرقة وحرّك بالباهي حتى تعقاد (تخثار) المرقة."
+    ],
+    "en": [
+      "Prepare a soft dough using the flour, a pinch of salt, and water as needed.",
+      "In a pot, make the broth base: sauté onion, add tomato paste and spices, add water, and bring to a boil.",
+      "Once boiling, pinch very small pieces of dough and drop them into the pot. Stir occasionally to prevent sticking.",
+      "Towards the end, mix a little flour and water in a cup, pour into the pot while stirring, and cook until the soup thickens."
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "064_naja",
+  "image": "naja.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "נעז'ה",
+    "es": "Naja",
+    "ar": "الناجة",
+    "en": "Naja"
+  },
+  "description": {
+    "he": "חביתת ירק תוניסאית עשירה ועשבי תיבול. במקור המנה מבוססת על ביצים טרופות (בדומה ל\"עיג'ה\" או \"מעג'ה\"), אך בגרסה זו אנו משתמשים בבלילת קמח חומוס המעניקה למנה מרקם יציב וטעם אגוזי עדין. מנה זו נפוצה בקרב יהודי ג'רבה כמנה ראשונה קלילה.",
+    "es": "Una rica frittata de hierbas tunecina. Originalmente basada en huevos batidos (similar a la 'Ijja'), esta adaptación vegana utiliza una masa de harina de garbanzos que le da una textura firme y un sabor a nuez. Común entre los judíos de Djerba como aperitivo ligero.",
+    "ar": "عجة تونسية غنية بالأعشاب والخضرة. في الأصل تحضر بالبيض (مثل \"العجة\" أو \"المعجة\")، لكن في هذه النسخة النباتية نستخدم دقيق الحمص (الحمص المرحي) للحصول على قوام متماسك ومذاق لذيذ. أكلة معروفة عند يهود جربة.",
+    "en": "A rich Tunisian herb frittata. While traditionally made with beaten eggs (similar to 'Ijja' or 'M'ajjah'), this vegan adaptation uses a chickpea flour batter to create a firm texture and nutty flavor. A common light meal in Djerban Jewish cuisine."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס קמח חומוס",
+      "1 כוס מים",
+      "צרור בצל ירוק, קצוץ",
+      "1/2 כוס פטרוזיליה קצוצה",
+      "1/4 כוס שמיר קצוץ",
+      "1/4 כוס כוסברה קצוצה",
+      "מלח ופלפל לפי הטעם",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "1 taza de harina de garbanzos",
+      "1 taza de agua",
+      "Un manojo de cebolleta picada",
+      "1/2 taza de perejil picado",
+      "1/4 taza de eneldo picado",
+      "1/4 taza de cilantro picado",
+      "Sal y pimienta al gusto",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "1 كأس دقيق حمص (حمص مرحي)",
+      "1 كأس ماء",
+      "ربطة بصل أخضر مقصوص",
+      "1/2 كأس معدنوس مقصوص",
+      "1/4 كأس شبت مقصوص",
+      "1/4 كأس كزبرة مقصوصة",
+      "ملح وفلفل أكحل",
+      "زيت للقلي"
+    ],
+    "en": [
+      "1 cup chickpea flour (besan)",
+      "1 cup water",
+      "1 bunch green onions, chopped",
+      "1/2 cup parsley, chopped",
+      "1/4 cup dill, chopped",
+      "1/4 cup cilantro, chopped",
+      "Salt and pepper to taste",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה את קמח החומוס והמים עד לקבלת בלילה חלקה ללא גושים.",
+      "מוסיפים לבלילה את כל הירק הקצוץ (בצל, פטרוזיליה, שמיר וכוסברה) ומתבלים במלח ופלפל.",
+      "מחממים מעט שמן במחבת על אש נמוכה ויוצקים את הבלילה.",
+      "מטגנים עד להתייצבות, הופכים בזהירות ומטגנים מהצד השני עד להזהבה."
+    ],
+    "es": [
+      "Mezclar la harina de garbanzos y el agua en un bol hasta obtener una masa suave y sin grumos.",
+      "Añadir todas las hierbas picadas a la masa y sazonar con sal y pimienta.",
+      "Calentar un poco de aceite en una sartén a fuego lento y verter la mezcla.",
+      "Freír hasta que cuaje, dar la vuelta con cuidado y dorar por el otro lado."
+    ],
+    "ar": [
+      "خلّط دقيق الحمص مع الماء في صحفة لين تولي عجينة جارية ورطبة بلاش كعابر.",
+      "زيد البصل الأخضر، والمعدنوس، والشبت، والكزبرة للخليط وفوّח بالملح والفلفل الأكحل.",
+      "حمّي شوية زيت في المقلاة على نار هادية وصب الخليط.",
+      "طيّبها لين تشد روحها، ومبعد اقلبها بالشوية باش تحمار من الشيرة الأخرى."
+    ],
+    "en": [
+      "Whisk chickpea flour and water in a bowl until you have a smooth, lump-free batter.",
+      "Add all chopped herbs to the batter and season with salt and pepper.",
+      "Heat a little oil in a pan over low heat and pour in the mixture.",
+      "Fry until set, carefully flip, and cook on the other side until golden."
+    ]
+  }
+}

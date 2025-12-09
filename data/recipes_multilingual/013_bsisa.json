@@ -1,0 +1,90 @@
+{
+  "id": "013_bsisa",
+  "image": "bsisa.png",
+  "meta": {
+    "servings": "1 jar",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בשישה",
+    "es": "La Bsisa",
+    "ar": "البسيسة",
+    "en": "Bsisa"
+  },
+  "description": {
+    "he": "תערובת דגנים ותבלינים קלויים, המזוהה במיוחד עם יהדות תוניסיה (ג'רבה) וטקס \"בשישת המפתח\" בראש חודש ניסן. השם נגזר מהמילה הערבית \"בסיסה\" (לערבב), ומתייחס לשיטה העתיקה של ערבוב הקמח עם שמן ותמרים. מנה טבעונית במקורה המסמלת שפע והתחלות חדשות.",
+    "es": "Una mezcla tradicional de granos tostados y especias, famosa entre los judíos de Túnez por la ceremonia de la llave en Rosh Jodesh Nisán. El nombre proviene del árabe \"bsisa\" (mezclar), refiriéndose al método de combinar la harina con aceite. Naturalmente vegana, simboliza la abundancia.",
+    "ar": "خليط تقليدي من الحبوب والتوابل المحمصة، يشتهر عند يهود تونس (جربة) خاصة في احتفال \"بسيسة المفتاح\" في رأس شهر نيسان. الاسم مشتق من العربية \"بسيسة\" (المزج)، وهي أكلة نباتية بطبعها ترمز للوفرة والبدايات الجديدة.",
+    "en": "A traditional roasted grain and spice mixture, central to the Tunisian Jewish \"Bsisa of the Key\" ceremony on Rosh Chodesh Nissan. The name comes from the Arabic \"bsisa\" (to mix). Naturally vegan, this ancient energy food symbolizes abundance and new beginnings."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות גרגירי חיטה",
+      "2 כוסות גרגירי שעורה",
+      "2 כפות זרעי כוסברה",
+      "1 כף כמון",
+      "1 כף זרעי שומר",
+      "שמן זית (להגשה)",
+      "תמרים קצוצים או סוכר"
+    ],
+    "es": [
+      "2 tazas de granos de trigo",
+      "2 tazas de cebada",
+      "2 cdas de semillas de cilantro",
+      "1 cda de comino",
+      "1 cda de semillas de hinojo",
+      "Aceite de oliva (para servir)",
+      "Dátiles picados o azúcar"
+    ],
+    "ar": [
+      "2 كأس قمح",
+      "2 كأس شعير",
+      "2 ملاعق كزبرة (تابل)",
+      "1 ملعقة كمون",
+      "1 ملعقة بسباس (شمار)",
+      "زيت زيتون (للتقديم)",
+      "تمر مقطع أو سكر"
+    ],
+    "en": [
+      "2 cups wheat berries",
+      "2 cups barley grains",
+      "2 tbsp coriander seeds",
+      "1 tbsp cumin",
+      "1 tbsp fennel seeds",
+      "Olive oil (for serving)",
+      "Chopped dates or sugar"
+    ]
+  },
+  "steps": {
+    "he": [
+      "קולים את גרגירי החיטה והשעורה במחבת יבשה עד להזהבה ופריכות.",
+      "מוסיפים את התבלינים (כוסברה, כמון, שומר) לקלייה קצרה נוספת לפתיחת ארומה.",
+      "טוחנים את הכל יחד לקמח גס במעבד מזון או מטחנת תבלינים.",
+      "להגשה: מערבבים בקערה עם שמן זית ותמרים (או סוכר) עד לקבלת מרקם משחתי.",
+      "בראש חודש ניסן, נהוג לערבב את הבלילה בעזרת מפתח כסגולה לפרנסה."
+    ],
+    "es": [
+      "Tostar los granos de trigo y cebada en una sartén seca hasta que estén dorados.",
+      "Añadir las especias (cilantro, comino, hinojo) y tostar brevemente.",
+      "Moler todo junto hasta obtener una harina gruesa.",
+      "Para servir: mezclar en un bol con aceite de oliva y dátiles (o azúcar) hasta formar una pasta.",
+      "En Rosh Jodesh Nisán, es tradición mezclar la masa con una llave para la buena fortuna."
+    ],
+    "ar": [
+      "حمّس القمح والشعير في طاوة (مقلاة) ناشفة حتى يحمار لونه.",
+      "زيد التوابل (تابل، كمون، بسباس) وحمّس شوية باش تطلع الريحة.",
+      "ارحي كل شيء مع بعضه حتى يولي دقيق (بودرة) خشن شوية.",
+      "للتقديم: خلّط في صحفة مع زيت الزيتون والتمر (أو السكر) حتى تولي عجينة.",
+      "في عادة \"بسيسة المفتاح\"، نخلطوها بمفتاح للبركة والرزق."
+    ],
+    "en": [
+      "Roast the wheat and barley grains in a dry pan until golden and crisp.",
+      "Add the spices (coriander, cumin, fennel) for a brief roast to release aromas.",
+      "Grind everything together into a coarse flour using a food processor.",
+      "To serve: Mix in a bowl with olive oil and dates (or sugar) to create a paste.",
+      "On Rosh Chodesh Nissan, it is traditional to mix the batter using a key for good fortune."
+    ]
+  }
+}

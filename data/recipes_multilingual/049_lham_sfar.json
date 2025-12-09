@@ -1,0 +1,90 @@
+{
+  "id": "049_lham_sfar",
+  "image": "lham_sfar.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "15 min",
+    "cook_time": "1 hr 15 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "לחם צפאר",
+    "es": "Lham Sfar",
+    "ar": "اللحم لصفر",
+    "en": "Lham Sfar"
+  },
+  "description": {
+    "he": "\"לחם צפאר\" (בשר צהוב) הוא תבשיל צפון-אפריקאי מסורתי שקיבל את שמו מהמילה הערבית \"צפאר\" (צהוב), הודות לצבע הכורכום. במקור המנה מבוססת על בקר בבישול ארוך, אך גרסה טבעונית זו משתמשת בסייטן או טופו הסופגים את טעמי הבצל ועלי הדפנה.",
+    "es": "\"Lham Sfar\" significa literalmente \"carne amarilla\", llamado así por su vibrante salsa de cúrcuma. Aunque tradicionalmente es un guiso de carne a fuego lento, esta adaptación vegana utiliza seitán o tofu sazonado para absorber los ricos sabores de la cebolla y el laurel.",
+    "ar": "\"اللحم لصفر\" هو طبق تقليدي سمي بهذا الاسم نسبة للون الكركم المميز (الأصفر). في الأصل يُحضر باللحم، لكن هذه النسخة النباتية تستخدم السيتان أو التوفو لامتصاص نكهة البصل والرند (ورق الغار) في مرقة خاثرة.",
+    "en": "\"Lham Sfar\" literally means \"yellow meat,\" named for its vibrant turmeric sauce. Traditionally a slow-cooked beef stew, this vegan adaptation uses seasoned seitan or tofu to absorb the savory flavors of caramelized onions and bay leaves."
+  },
+  "ingredients": {
+    "he": [
+      "1 גוש סייטן או טופו קשה",
+      "1 בצל גדול, קצוץ",
+      "1 כפית כורכום",
+      "2-3 עלי דפנה",
+      "פלפל אנגלי שלם (גרגרים)",
+      "אבקת מרק בטעם עוף (פרווה)",
+      "אבקת בצל"
+    ],
+    "es": [
+      "1 bloque de seitán o tofu firme",
+      "1 cebolla grande picada",
+      "1 cucharadita de cúrcuma",
+      "2-3 hojas de laurel",
+      "Granos de pimienta negra entera",
+      "Sazonador vegano sabor pollo",
+      "Cebolla en polvo"
+    ],
+    "ar": [
+      "1 طرف سيتان أو توفو",
+      "1 بصلة كبيرة مقطعة",
+      "1 مغرفة صغيرة كركم",
+      "2-3 ورقات رند (غار)",
+      "فلفل أكحل حب (كعب)",
+      "توابل دجاج نباتي",
+      "بودرة البصل"
+    ],
+    "en": [
+      "1 block Seitan or Firm Tofu",
+      "1 large onion, chopped",
+      "1 tsp turmeric",
+      "2-3 bay leaves",
+      "Whole black peppercorns",
+      "Vegan chicken-style seasoning",
+      "Onion powder"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מעסים את גוש הסייטן או הטופו עם אבקת בצל ושמן.",
+      "עוטפים היטב בנייר כסף ואופים בתנור כ-45-60 דקות (זמן קצר יותר מבשר למניעת התייבשות).",
+      "מוציאים מהתנור ופורסים את הגוש לפרוסות.",
+      "בסיר רחב, מטגנים את הבצל הקצוץ עד להזהבה עמוקה.",
+      "מוסיפים לסיר את התבלינים (כורכום, עלי דפנה, פלפל אנגלי, אבקת מרק), את פרוסות הסייטן/טופו ומעט מים, ומבשלים יחד לספיגת טעמים."
+    ],
+    "es": [
+      "Masajear el bloque de seitán o tofu con la cebolla en polvo.",
+      "Envolver bien en papel de aluminio y hornear durante 45-60 minutos.",
+      "Retirar del horno y cortar el bloque en rodajas.",
+      "En una olla, sofreír la cebolla picada hasta que esté dorada.",
+      "Añadir el resto de las especias, las rodajas y un poco de agua a la olla; cocinar a fuego lento para integrar los sabores."
+    ],
+    "ar": [
+      "فوّح السيتان أو التوفو ببودرة البصل وشوية زيت.",
+      "لفه مليح في ورق ألومنيوم وحطه في الكوشة (الفرن) لمدة 45-60 دقيقة.",
+      "خرج القالب من الكوشة وقصه إلى شرائح (طرنشات).",
+      "في طنجرة، قلّي البصل حتى يولي لونه ذهبي.",
+      "زيد الفاحات (الكركم، الرند، الفلفل)، الشرائح، وشوية ماء للمرقة، وخليها تطيب وتتخثر."
+    ],
+    "en": [
+      "Massage the Seitan or Tofu block with onion powder.",
+      "Wrap tightly in foil and bake for 45-60 minutes (check to prevent drying).",
+      "Remove from oven and cut into slices.",
+      "In a pot, fry the chopped onion until golden brown.",
+      "Add the remaining seasonings (turmeric, bay leaves, peppercorns), the slices, and a little water; simmer to combine flavors."
+    ]
+  }
+}

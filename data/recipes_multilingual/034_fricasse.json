@@ -1,0 +1,90 @@
+{
+  "id": "034_fricasse",
+  "image": "fricasse.png",
+  "meta": {
+    "servings": "15–20",
+    "prep_time": "2.5 hrs",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פריקסה",
+    "es": "Fricasé",
+    "ar": "فريكاسي",
+    "en": "Fricassé"
+  },
+  "description": {
+    "he": "לחמנייה מטוגנת מהמטבח התוניסאי-יהודי, ששמה נגזר מהמילה הצרפתית ל\"טיגון\". באופן מסורתי המנה מכילה טונה וביצים, אך בגרסה הטבעונית הזו אנו ממלאים אותה באריסה, תפוחי אדמה, לימון כבוש וחומוס מתובל או \"טונה\" טבעונית.",
+    "es": "Un panecillo frito clásico de la cocina judía tunecina, cuyo nombre deriva del francés para \"frito\". Aunque tradicionalmente lleva atún y huevo, esta versión vegana se rellena con harissa, papas cocidas, limón encurtido y garbanzos aliñados.",
+    "ar": "سندويش مقلي مشهور في المطبخ اليهودي التونسي، واسمه مشتق من الكلمة الفرنسية للقلي. الوصفة التقليدية تحتوي على التونة والبيض، لكن هذه النسخة النباتية تُحشى بالهريسة، البطاطا المسلوقة، الليمون المالح (قارص مصير)، والحمص المتبل.",
+    "en": "A classic Tunisian-Jewish fried sandwich roll, named after the French word for \"fried.\" While traditionally filled with tuna and eggs, this vegan adaptation features harissa, boiled potatoes, preserved lemon, and seasoned chickpeas or vegan tuna."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח",
+      "1 כף שמרים יבשים",
+      "1/2 כוס סוכר",
+      "3 כוסות מים",
+      "1/2 כוס שמן",
+      "1 כף מלח",
+      "שמן לטיגון עמוק",
+      "למילוי: אריסה, תפו\"א מבושל, לימון כבוש, זיתים"
+    ],
+    "es": [
+      "1 kg de harina",
+      "1 cda de levadura seca",
+      "1/2 taza de azúcar",
+      "3 tazas de agua",
+      "1/2 taza de aceite",
+      "1 cda de sal",
+      "Aceite para freír",
+      "Relleno: Harissa, papas cocidas, limón encurtido, aceitunas"
+    ],
+    "ar": [
+      "1 كيلو فرينة (دقيق)",
+      "1 مغرفة كبيرة خميرة",
+      "½ كأس سكر",
+      "3 كيسان ماء",
+      "½ كأس زيت",
+      "1 مغرفة ملح",
+      "زيت للقلي",
+      "للحشو: هريسة، بطاطا مسلوقة، قارص مصير، زيتون"
+    ],
+    "en": [
+      "1 kg flour",
+      "1 tbsp dry yeast",
+      "1/2 cup sugar",
+      "3 cups water",
+      "1/2 cup oil",
+      "1 tbsp salt",
+      "Oil for deep frying",
+      "Filling: Harissa, boiled potatoes, preserved lemon, olives"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את כל חומרי הבצק ולשים היטב. מתפיחים כשעתיים.",
+      "יוצרים צורות אליפטיות ומניחים על משטח משומן היטב. מתפיחים עוד חצי שעה.",
+      "מחממים שמן עמוק ומטגנים את הלחמניות עד להזהבה משני הצדדים.",
+      "מוציאים לנייר סופג, חותכים לאורך וממלאים באריסה, תפוחי אדמה, לימון כבוש ומילויים טבעוניים."
+    ],
+    "es": [
+      "Mezclar todos los ingredientes de la masa y amasar bien. Dejar levar durante 2 horas.",
+      "Formar óvalos y colocar sobre una superficie bien engrasada. Dejar levar 30 minutos más.",
+      "Calentar abundante aceite y freír los panecillos hasta que estén dorados por ambos lados.",
+      "Escurrir, abrir por la mitad y rellenar con harissa, papas, limón encurtido y rellenos veganos."
+    ],
+    "ar": [
+      "خلط كل مكونات العجينة واعجنها مليح. خليها تخمر مدة ساعتين.",
+      "شكّل العجينة كعابر (أشكال بيضاوية) وحطهم على سطح مدهون بالزيت، وخليهم يخمروا نص ساعة أخرى.",
+      "سخّن زيت غزير واقلي كعبات الفريكاسي حتى يحمار لونهم من الجهتين.",
+      "قطّرهم من الزيت، شق الكعبات واحشيهم بالهريسة والبطاطا والقارص والمكونات النباتية."
+    ],
+    "en": [
+      "Mix all dough ingredients and knead well. Let rise for 2 hours.",
+      "Shape into ovals and place on a well-oiled surface. Let rise for another 30 minutes.",
+      "Heat deep oil and fry the rolls until golden brown on both sides.",
+      "Drain, slice open, and stuff with harissa, potatoes, preserved lemon, and vegan fillings."
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "041_khobz_dar",
+  "image": "khobz_dar.png",
+  "meta": {
+    "servings": "2–3 loaves",
+    "prep_time": "20 min (+ rise)",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "לחם בית",
+    "es": "Pan Casero",
+    "ar": "خبز الدار",
+    "en": "Homemade Bread"
+  },
+  "description": {
+    "he": "לחם הבית הוא מרכיב יסוד בשולחן הג'רבאי, בעל מרקם אוורירי ורך האידיאלי לניגוב רטבים. במקור נמשך לעיתים בביצה למראה מבריק, אך גרסה טבעונית זו משתמשת בשמן או מים לקבלת קרום כפרי ופריך.",
+    "es": "Un elemento básico de la mesa djerbana, este pan casero tiene una miga suave y aireada, perfecta para mojar en salsas. Aunque tradicionalmente se pincela con huevo para dar brillo, esta versión vegana utiliza aceite o agua para lograr una corteza rústica.",
+    "ar": "خبز الدار هو أساس الماكلة الجربية، يجي خفيف وقطني باش تغمّس بيه المرقة. في العادة يندهن بالعظم باش يلمع، أما في هالوصفة النباتية ندهنوه بشوية زيت ولا ماء باش تجي القشرة مقرمشة وبنينة.",
+    "en": "A staple of the Djerban table, this simple homemade bread creates a soft, airy crumb perfect for dipping in sauces. While traditionally brushed with egg for shine, this vegan adaptation relies on an oil glaze or water for a rustic crust."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח",
+      "2 כפות שמרים יבשים",
+      "1.25 כפות סוכר",
+      "3 כוסות מים פושרים",
+      "1/2 כוס שמן",
+      "1 כף מלח"
+    ],
+    "es": [
+      "1 kg de harina",
+      "2 cdas de levadura seca",
+      "1.25 cdas de azúcar",
+      "3 tazas de agua tibia",
+      "1/2 taza de aceite",
+      "1 cda de sal"
+    ],
+    "ar": [
+      "1 كغ فارينة",
+      "2 مغارف خميرة خبز",
+      "1.25 مغرفة سكر",
+      "3 كيسان ماء دافي",
+      "1/2 كأس زيت",
+      "1 مغرفة ملح"
+    ],
+    "en": [
+      "1 kg flour",
+      "2 tbsp dry yeast",
+      "1.25 tbsp sugar",
+      "3 cups lukewarm water",
+      "1/2 cup oil",
+      "1 tbsp salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים שמרים, סוכר ומים פושרים וממתינים לתסיסה.",
+      "מערבבים קמח ומלח בקערה נפרדת, מוסיפים את תערובת השמרים והשמן.",
+      "לשים את הבצק במשך 10 דקות עד לקבלת מרקם חלק וגמיש.",
+      "מכסים ומתפיחים במקום חמים כשעה עד להכפלת הנפח.",
+      "מעצבים כיכרות, מתפיחים שוב כ-20 דקות ואופים ב-200 מעלות כ-30 דקות עד להזהבה."
+    ],
+    "es": [
+      "Mezclar la levadura, el azúcar y el agua tibia; dejar activar.",
+      "Mezclar la harina y la sal, luego añadir la mezcla de levadura y el aceite.",
+      "Amasar durante 10 minutos hasta obtener una masa suave y elástica.",
+      "Cubrir y dejar levar en un lugar cálido hasta que duplique su tamaño.",
+      "Formar los panes, dejar reposar 20 min y hornear a 200°C unos 30 min hasta que doren."
+    ],
+    "ar": [
+      "خلّط الخميرة والسكر والماء الدافي وخليها تتفاعل شوية.",
+      "خلّط الفارينة والملح، وزيد عليهم خليط الخميرة والزيت.",
+      "اعجن العجينة مليح لمدة 10 دقايق لين تولي رطبة ولينة.",
+      "غطّيها وخليها تخمر في بلاصة دافية حتى يتضاعف حجمها.",
+      "شكّل الخبزات، خليهم يرتاحو 20 دقيقة، وطيبهم في الفور (200 درجة) لمدة 30 دقيقة لين يحمارو."
+    ],
+    "en": [
+      "Mix yeast, sugar, and lukewarm water; let sit until frothy.",
+      "Combine flour and salt, then add the yeast mixture and oil.",
+      "Knead for 10 minutes until the dough is smooth and elastic.",
+      "Cover and let rise in a warm place until doubled in size.",
+      "Shape into loaves, rest for 20 mins, and bake at 200°C (400°F) for about 30 mins until golden."
+    ]
+  }
+}

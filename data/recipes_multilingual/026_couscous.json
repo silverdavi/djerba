@@ -1,0 +1,82 @@
+{
+  "id": "026_couscous",
+  "image": "couscous.png",
+  "meta": {
+    "servings": "6–8",
+    "prep_time": "30 min",
+    "cook_time": "50 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קוסקוס",
+    "es": "Cuscús",
+    "ar": "كسكسي",
+    "en": "Couscous"
+  },
+  "description": {
+    "he": "אבן היסוד של המטבח הצפון אפריקאי; מתכון זה מפרט את השיטה המסורתית לאידוי גרגירי סולת בסיר קוסקוס (קסקס). השם נגזר מהמילה הברברית \"סקסו\" (מעוגל היטב), ושיטה זו מניבה מרקם אוורירי במיוחד להגשה לצד מרק ירקות עשיר.",
+    "es": "La piedra angular de la cocina norteafricana, esta receta detalla el método tradicional de cocer sémola al vapor en una cuscusera. El nombre deriva del bereber 'seksu', y esta preparación auténtica logra una textura famosa por ser ligera y esponjosa.",
+    "ar": "أساس المطبخ المغاربي، هذه الوصفة تبين الطريقة التقليدية لتفوير السميد في الكسكاس. الاسم مشتق من الأمازيغية 'سكسو'، وهذا التحضير الأصيل يعطينا كسكسي خفيف ورطب يتقدم عادة مع مرقة خضرة.",
+    "en": "The cornerstone of North African cuisine, this recipe details the traditional method of steaming semolina in a couscoussier. Derived from the Berber 'seksu', this authentic preparation yields a famously fluffy texture perfect for soaking up vegetable stews."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג סולת",
+      "3-4 כוסות מים (לפי הצורך)",
+      "1/2 כוס שמן",
+      "מלח (לפי הטעם)"
+    ],
+    "es": [
+      "1 kg de sémola",
+      "3-4 tazas de agua",
+      "1/2 taza de aceite vegetal",
+      "Sal (al gusto)"
+    ],
+    "ar": [
+      "1 كغ سميد",
+      "3-4 كؤوس ماء",
+      "نصف كأس زيت",
+      "ملح"
+    ],
+    "en": [
+      "1 kg semolina",
+      "3-4 cups water (as needed)",
+      "1/2 cup vegetable oil",
+      "Salt (to taste)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מנפים את הסולת לקערה רחבה. מוסיפים בהדרגה מעט מים תוך כדי ערבוב ידני ליצירת גרגירים.",
+      "מעבירים את הסולת הלחה דרך מסננת רחבה (עבה) לאוורור, ומוסיפים מעט שמן.",
+      "מניחים בסיר אידוי (קסקס) מעל סיר עם מים רותחים ומאדים כ-30 דקות.",
+      "שופכים לקערה, מוסיפים מים בזהירות ומפוררים את הגרגירים כדי למנוע גושים.",
+      "מחזירים לאידוי נוסף עד שיוצאים אדים מבין הגרגירים.",
+      "מעבירים לקערה, מוסיפים מעט שמן לשימון סופי ומגישים."
+    ],
+    "es": [
+      "Tamizar la sémola en un tazón amplio. Añadir agua gradualmente mientras se frotan los granos con la mano.",
+      "Pasar la sémola húmeda por un tamiz grueso para airearla y mezclar con un poco de aceite.",
+      "Colocar en la parte superior de la cuscusera sobre agua hirviendo y cocinar al vapor por 30 minutos.",
+      "Verter en el tazón, rociar con agua y separar los granos para deshacer grumos.",
+      "Volver a poner al vapor hasta que el vapor salga a través de los granos.",
+      "Pasar al tazón, añadir un poco de aceite final y servir."
+    ],
+    "ar": [
+      "غربل السميد في قصعة. رش شوية ماء وحرك بيدك باش يتفتل كعبات.",
+      "عدّي السميد في الغربال الخشين باش يتحل، وزيده شوية زيت.",
+      "حط الكسكسي في الكسكاس فوق المقفول اللي فيه ماء يغلي، وخليه يفور 30 دقيقة.",
+      "فرغ الكسكسي في القصعة، رشه بالماء وحله بيدك باش ما يتلكدش.",
+      "رجع الكسكسي للكسكاس يفور المرة الثانية حتى يخرج البخار مليح.",
+      "فرغه في القصعة، زيده شوية زيت وملح وحله مليح وصحة وبالشفاء."
+    ],
+    "en": [
+      "Sift semolina into a wide bowl. Gradually add water while rolling grains by hand to form texture.",
+      "Pass moist grains through a coarse sieve to fluff, then mix with a little oil.",
+      "Place in the steamer top (couscoussier) over boiling water and steam for 30 minutes.",
+      "Transfer to the bowl, splash with water, and break apart any lumps.",
+      "Return to the steamer for a second round until steam rises through the grains.",
+      "Transfer to bowl, mix with a final drizzle of oil to separate grains, and serve."
+    ]
+  }
+}

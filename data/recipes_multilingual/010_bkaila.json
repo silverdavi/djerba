@@ -1,0 +1,90 @@
+{
+  "id": "010_bkaila",
+  "image": "bkaila.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "90 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בקילה",
+    "es": "Bkaila",
+    "ar": "بكيلة",
+    "en": "Bkaila"
+  },
+  "description": {
+    "he": "תבשיל קדירה עשיר בצבע ירוק כהה, המבוסס על עלי סלק (מנגולד) מטוגנים ושעועית לבנה, המוגש מסורתית בשבתות וחגים. השם נגזר מהמילה הערבית ל\"ירק\", והגרסה הטבעונית מחליפה את הבשר בסייטן או טופו תוך שמירה על הטעם העמוק.",
+    "es": "Un guiso rico y oscuro de acelgas fritas y alubias blancas, servido tradicionalmente en Shabat y festividades. El nombre deriva de la palabra judeoárabe para \"verduras\", y esta versión vegana sustituye la carne por seitán o tofu manteniendo su sabor profundo.",
+    "ar": "مرقة خاقرة ولونها أخضر غامق، تطيب بالسلق المقلي واللوبيا، وتتقدم عادة في السبت والأعياد. الاسم جاي من كلمة \"بقول\"، وفي هالوصفة النباتية بدّلنا اللحم بالسيتان أو التوفو مع الحفاظ على نفس البنة.",
+    "en": "A rich, dark green stew made from fried chard and white beans, traditionally served on Shabbat and holidays. The name derives from the Judeo-Arabic word for \"greens,\" and this vegan version replaces meat with seitan or tofu while maintaining the deep flavor."
+  },
+  "ingredients": {
+    "he": [
+      "2 חבילות עלי מנגולד (ללא גבעולים)",
+      "1/2 כוס שמן",
+      "2 כוסות שעועית לבנה (מבושלת)",
+      "300 גרם סייטן / טמפה / טופו (קוביות)",
+      "5 שיני שום",
+      "צרור כוסברה טרייה",
+      "צרור שמיר טרי",
+      "מים או ציר ירקות"
+    ],
+    "es": [
+      "2 manojos de acelgas (solo hojas)",
+      "1/2 taza de aceite",
+      "2 tazas de alubias blancas (cocidas)",
+      "300g de seitán / tempeh / tofu (en cubos)",
+      "5 dientes de ajo",
+      "Un manojo de cilantro fresco",
+      "Un manojo de eneldo fresco",
+      "Agua o caldo vegetal"
+    ],
+    "ar": [
+      "2 ربطات سلق (الأوراق برك)",
+      "نص كاس زيت",
+      "2 كيسان لوبيا بيضاء (طايبة)",
+      "300غ سيتان / تيمبي / توفو (مكعبات)",
+      "5 سنون ثوم",
+      "ربطة كسبر",
+      "ربطة شبت",
+      "ماء أو مرقة خضرة"
+    ],
+    "en": [
+      "2 bunches Swiss chard (leaves only)",
+      "1/2 cup oil",
+      "2 cups white beans (cooked)",
+      "300g seitan / tempeh / tofu (cubed)",
+      "5 garlic cloves",
+      "Fresh coriander bunch",
+      "Fresh dill bunch",
+      "Water or vegetable broth"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שוטפים וקוצצים את עלי המנגולד, ומאדים בסיר רחב יבש על אש נמוכה עד שהנוזלים מתאדים לחלוטין.",
+      "מוסיפים את השמן ומטגנים בזהירות עד שהעלים משחירים ומצטמצמים (זהירות לא לשרוף).",
+      "מוסיפים מים/ציר, שעועית, שום וקוביות סייטן/טופו ומבשלים בישול ארוך על אש קטנה.",
+      "לקראת סוף הבישול מוסיפים כוסברה ושמיר קצוצים ומתקנים תיבול."
+    ],
+    "es": [
+      "Lavar y picar las acelgas; cocinar en una olla ancha y seca a fuego lento hasta que el agua se evapore totalmente.",
+      "Añadir el aceite y freír con cuidado hasta que las hojas se tornen verde oscuro (casi negro).",
+      "Agregar agua/caldo, alubias, ajo y el seitán/tofu; cocinar a fuego lento durante un tiempo prolongado.",
+      "Hacia el final, añadir cilantro y eneldo picados y sazonar al gusto."
+    ],
+    "ar": [
+      "اغسل السلق وقصّه، وحطّه في طنجرة واسعة شايحة (بلا ماء) على نار هادية لين ينشف ماه جملة.",
+      "زيد الزيت وقلّي السلق لين يكحال ويقر زيته (رد بالك يتحرق).",
+      "مرّق بالماء، وزيد اللوبيا والثوم ومكعبات السيتان/التوفو وخلّيها تطيب سلة سلة.",
+      "في الآخر زيد الكسبر والشبت مقصوصين وفوّح بالملح."
+    ],
+    "en": [
+      "Wash and chop chard; steam in a dry wide pot over low heat until water evaporates completely.",
+      "Add oil and fry gently until leaves turn dark green (almost black) and shrink significantly.",
+      "Add water/broth, beans, garlic, and protein cubes; simmer for a long time to develop flavor.",
+      "Add chopped coriander and dill near the end and season to taste."
+    ]
+  }
+}

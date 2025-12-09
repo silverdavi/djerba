@@ -1,0 +1,94 @@
+{
+  "id": "078_sfenj",
+  "image": "sfenj.png",
+  "meta": {
+    "servings": "20–25",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "ספינג'",
+    "es": "Sfenj",
+    "ar": "السفنج",
+    "en": "Sfenj"
+  },
+  "description": {
+    "he": "סופגנייה מגרבית אהובה, המוגשת באופן מסורתי בחנוכה לציון נס פך השמן. השם מגיע מהמילה הערבית \"ספנג'\" (ספוג), המתייחס למרקם האוורירי והסופג של הבצק. הספינג' פריך מבחוץ ורך מבפנים, ומוגש טבול בסוכר.",
+    "es": "Una querida masa frita magrebí, servida tradicionalmente en Janucá para celebrar el milagro del aceite. Su nombre proviene del árabe \"sfinj\" (esponja), refiriéndose a su textura aireada. Crujiente por fuera y esponjoso por dentro, se sirve bañado en azúcar.",
+    "ar": "فطائر مقلية محبوبة في المغرب العربي، تقدم عادة في عيد \"الحنوكا\" وتجمعات العائلة. الاسم مشتق من كلمة \"إسفنج\" نظراً لقوام العجينة الخفيف الذي يتشرب النكهات. تكون مقرمشة من الخارج وطرية من الداخل، وتُغمس في السكر.",
+    "en": "A beloved Maghrebi fried dough, traditionally served during Hanukkah to celebrate the miracle of oil. Its name comes from the Arabic \"sfinj\" (sponge), referring to its airy, absorbent texture. Crispy on the outside and fluffy on the inside, it is dipped in sugar."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח לבן",
+      "2 כפות שמרים יבשים",
+      "1/4 כוס סוכר",
+      "1 כפית מלח",
+      "4 כוסות מים חמים",
+      "שמן קנולה לטיגון עמוק",
+      "סוכר וקינמון לציפוי"
+    ],
+    "es": [
+      "1 kg de harina blanca",
+      "2 cucharadas de levadura seca",
+      "1/4 taza de azúcar",
+      "1 cucharadita de sal",
+      "4 tazas de agua tibia",
+      "Aceite de canola para freír",
+      "Azúcar y canela para rebozar"
+    ],
+    "ar": [
+      "1 كغ دقيق (فرينة)",
+      "2 ملاعق كبار خميرة خبز",
+      "1/4 كأس سكر",
+      "1 ملعقة صغيرة ملح",
+      "4 كؤوس ماء دافئ",
+      "زيت للقلي",
+      "سكر وقرفة للتزيين"
+    ],
+    "en": [
+      "1 kg white flour",
+      "2 tbsp dry yeast",
+      "1/4 cup sugar",
+      "1 tsp salt",
+      "4 cups warm water",
+      "Canola oil for deep frying",
+      "Sugar and cinnamon for coating"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את הקמח, השמרים, הסוכר, המלח והמים ולשים היטב. הבצק צריך להיות דביק מאוד.",
+      "מכסים ומתפיחים במקום חמים עד שהנפח מוכפל.",
+      "מחממים שמן עמוק בסיר רחב (כ-180 מעלות / בודקים עם קיסם שיש בועות).",
+      "בידיים רטובות, קורצים כדור בצק (בגודל כדור פינג-פונג), יוצרים חור במרכזו ומותחים לצורת טבעת.",
+      "מטגנים בזהירות עד להזהבה עמוקה משני הצדדים.",
+      "מוציאים, טובלים מיד בצלחת עם סוכר (אפשר להוסיף קינמון) ומגישים חם."
+    ],
+    "es": [
+      "Mezclar la harina, levadura, azúcar, sal y agua, y amasar bien. La masa debe quedar muy pegajosa.",
+      "Cubrir y dejar levar en un lugar cálido hasta que duplique su volumen.",
+      "Calentar abundante aceite en una olla ancha (aprox. 180°C).",
+      "Con las manos mojadas, tomar una bola de masa, hacer un agujero en el centro y estirar en forma de anillo.",
+      "Freír con cuidado hasta que estén bien dorados por ambos lados.",
+      "Sacar, rebozar inmediatamente en un plato con azúcar (y canela opcional) y servir caliente."
+    ],
+    "ar": [
+      "خلط الفرينة، الخميرة، السكر، الملح والماء واعجن مليح. العجينة لازم تكون تتلصق برشا.",
+      "غطّيها وخليها تخمر في بلاصة دافية حتى يتضاعف حجمها.",
+      "سخّن الزيت مليح في طنجرة واسعة (للقلي).",
+      "بلّل يديك بالماء، هز كويرة عجين، أعمل ثقب في الوسط وجبّدها باش تولي كيف الكعكة.",
+      "ارميها في الزيت واقليها حتى تحمار مليح من الجهتين.",
+      "خرجها ورمدها ديريكت في السكر (والقرفة كان تحب) وقدمها سخونة."
+    ],
+    "en": [
+      "Mix flour, yeast, sugar, salt, and water, kneading well. The dough must be very sticky.",
+      "Cover and let rise in a warm place until doubled in volume.",
+      "Heat deep oil in a wide pot (approx. 180°C / test with a toothpick for bubbles).",
+      "With wet hands, take a ball of dough, make a hole in the center, and stretch into a ring shape.",
+      "Fry carefully until deeply golden brown on both sides.",
+      "Remove, coat immediately in sugar (cinnamon optional), and serve warm."
+    ]
+  }
+}

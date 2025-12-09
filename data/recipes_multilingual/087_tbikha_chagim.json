@@ -1,0 +1,98 @@
+{
+  "id": "087_tbikha_chagim",
+  "image": "tbikha_chagim.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "60 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "טביכה חגים",
+    "es": "Tbikha Festiva",
+    "ar": "طبيخة الأعياد",
+    "en": "Tbikha Chagim"
+  },
+  "description": {
+    "he": "תבשיל קדירה חגיגי עשיר בירק ודלעת, המוגש באופן מסורתי בחגים (כמו ראש השנה). השם מגיע מהשורש הערבי ט.ב.ח (לבשל) ומתייחס לנזיד בבישול איטי. במקור המנה מוכנה עם עוף, אך גירסה צמחית זו משתמשת בטופו או סייטן הסופגים את טעמי הרוטב.",
+    "es": "Un guiso festivo rico en hierbas y calabaza, servido tradicionalmente en fiestas judías. El nombre deriva del árabe 'tabakha' (cocinar). Aunque tradicionalmente se hace con pollo, esta adaptación vegana utiliza tofu o seitán para absorber la rica salsa.",
+    "ar": "طبيخة (مرقة) خاصة بالأعياد، غنية بالخضرة والقرع الأحمر. كلمة 'طبيخة' جاية من فعل الطبخ وتدل على مرقة عاقدة. الوصفة الأصلية بالدجاج، لكن في هذه النسخة النباتية نستعمل التوفو أو السيتان باش يشرب البنة.",
+    "en": "A festive stew rich in fresh herbs and pumpkin, traditionally served on holidays like Rosh Hashanah. The name derives from the Arabic 'tabakha' (to cook), referring to a slow-cooked ragout. While traditionally made with chicken, this vegan version uses tofu or seitan to absorb the savory sauce."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל",
+      "500 גרם דלעת (חתוכה לקוביות)",
+      "1 צרור פטרוזיליה",
+      "1 צרור שמיר",
+      "1 צרור כוסברה",
+      "2-3 תפוחי אדמה (קלופים וחתוכים)",
+      "1 חבילת טופו מוצק או סייטן (חתוך לקוביות)",
+      "שמן, פפריקה מתוקה, מלח, פלפל שחור",
+      "אופציונלי: קישוא או גזר"
+    ],
+    "es": [
+      "1 cebolla",
+      "500g de calabaza (en cubos)",
+      "1 manojo de perejil",
+      "1 manojo de eneldo",
+      "1 manojo de cilantro",
+      "2-3 patatas (peladas y cortadas)",
+      "1 bloque de tofu firme o seitán (en cubos)",
+      "Aceite, pimentón dulce, sal, pimienta negra",
+      "Opcional: calabacín o zanahoria"
+    ],
+    "ar": [
+      "1 بصلة",
+      "500 غرام قرع أحمر (مقصوص)",
+      "1 ربطة معدنوس",
+      "1 ربطة شبث",
+      "1 ربطة كزبر (كسبر)",
+      "2-3 كعبات بطاطا",
+      "باكو توفو أو سيتان (مقصوص مكعبات)",
+      "زيت، فلفل أحمر (زينة)، ملح، فلفل أكحل",
+      "اختياري: قرع (courgette) أو سفنارية"
+    ],
+    "en": [
+      "1 onion",
+      "500g pumpkin (cubed)",
+      "1 bunch parsley",
+      "1 bunch dill",
+      "1 bunch cilantro",
+      "2-3 potatoes (peeled and cubed)",
+      "1 block firm tofu or seitan (cubed)",
+      "Oil, sweet paprika, salt, black pepper",
+      "Optional: zucchini or carrot"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים בסיר שמן ופפריקה למשך כ-3 דקות לפתיחת התבלין.",
+      "מוסיפים את הבצל (פרוס או קצוץ) ומטגנים מספר דקות.",
+      "מוסיפים את כל הירקות הירוקים, הדלעת והתבלינים. מאדים על אש נמוכה כחצי שעה.",
+      "מוסיפים את קוביות הטופו או הסייטן ומאדים דקות נוספות.",
+      "מוסיפים מים ואת תפוחי האדמה, ומבשלים עד שהתפו\"א רכים והרוטב מסמיך."
+    ],
+    "es": [
+      "Calentar aceite y pimentón en una olla durante 3 minutos para activar la especia.",
+      "Añadir la cebolla y sofreír unos minutos.",
+      "Agregar todas las hierbas, la calabaza y las especias. Cocinar al vapor a fuego lento durante 30 minutos.",
+      "Incorporar el tofu o seitán y cocinar unos minutos más.",
+      "Añadir agua y las patatas; cocinar hasta que las patatas estén tiernas."
+    ],
+    "ar": [
+      "حط الزيت والفلفل الأحمر في الطنجرة لمدة 3 دقائق باش يتحل الفاح.",
+      "زيد البصل وقليه شوية.",
+      "ارمي كل الخضرة (معدنوس، شبث، كزبر، قرع) والملح والفلفل الأكحل. غطي الطنجرة وخليهم يتقلاو (يتبخوا) 30 دقيقة.",
+      "زيد مكعبات التوفو أو السيتان وخليهم يطيبو شوية.",
+      "مرّق بالماء وارمي البطاطا، وطيب لين تطيب البطاطا وتخثار المرقة."
+    ],
+    "en": [
+      "Heat oil and paprika in a pot for about 3 minutes to bloom the spice.",
+      "Add the onion and sauté for a few minutes.",
+      "Add all the herbs, pumpkin, and seasonings. Steam on low heat for 30 minutes.",
+      "Add the tofu or seitan cubes and steam for a few more minutes.",
+      "Add water and potatoes; cook until the potatoes are tender and the sauce thickens."
+    ]
+  }
+}

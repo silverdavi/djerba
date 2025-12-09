@@ -1,0 +1,86 @@
+{
+  "id": "063_nazha",
+  "image": "nazha.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "נעז'ה",
+    "es": "N'azha",
+    "ar": "النعجة",
+    "en": "N'azha"
+  },
+  "description": {
+    "he": "חביתת ירק עשירה ואוורירית מהמטבח התוניסאי-ג'רבאי, המוכרת גם כסוג של 'מעקודה'. במקום ביצים, גרסה זו משתמשת בקמח חומוס לקבלת מרקם יציב וזהוב. היא מוגשת לרוב בכריך או כמנה ראשונה קלה.",
+    "es": "Una tortilla de hierbas rica y esponjosa de la cocina tunecina, también conocida como una variante de 'Ma'aqouda'. Esta versión vegana utiliza harina de garbanzo para lograr una textura dorada y firme. Se sirve comúnmente en sándwiches o como aperitivo.",
+    "ar": "عجة خضرة (معدنوس وبصل) من المطبخ التونسي الجربي، وتتسمى زادة نوع من 'المعقودة'. في عوض العظم، الوصفة هذه تستعمل دقيق الحمص باش تجي شادة روحها وبنينة. تتكل عادة في كسكروت ولا كمقبلات.",
+    "en": "A rich and fluffy herb omelet from Tunisian-Djerban cuisine, also known as a variety of 'Ma'aqouda'. This vegan version uses chickpea flour to achieve a firm, golden texture. It is commonly served in sandwiches or as a light appetizer."
+  },
+  "ingredients": {
+    "he": [
+      "9 כפות קמח חומוס",
+      "9 כפות מים",
+      "1 צרור בצל ירוק",
+      "1/2 צרור פטרוזיליה",
+      "1/2 צרור כוסברה",
+      "מעט שמיר",
+      "שמן לטיגון, מלח ופלפל"
+    ],
+    "es": [
+      "9 cdas de harina de garbanzo",
+      "9 cdas de agua",
+      "1 manojo de cebolla verde (cebolleta)",
+      "1/2 manojo de perejil",
+      "1/2 manojo de cilantro",
+      "Un poco de eneldo",
+      "Aceite, sal y pimienta"
+    ],
+    "ar": [
+      "9 مغارف دقيق حمص",
+      "9 مغارف ماء",
+      "ربطة بصل أخضر",
+      "نص ربطة معدنوس",
+      "نص ربطة كزبر (كسبر)",
+      "شويه شبث",
+      "زيت للقلي، ملح وفلفل أكحل"
+    ],
+    "en": [
+      "9 tbsp chickpea flour",
+      "9 tbsp water",
+      "1 bunch green onions",
+      "1/2 bunch parsley",
+      "1/2 bunch cilantro",
+      "A little dill",
+      "Oil, salt, and pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה את קמח החומוס והמים עד לקבלת בלילה חלקה ללא גושים.",
+      "קוצצים את כל הירקות הירוקים ומוסיפים לבלילה יחד עם מלח ופלפל.",
+      "מחממים שמן במחבת, יוצקים את הבלילה ומכסים (חשוב לבישול אחיד) על אש נמוכה.",
+      "כשהתחתית יציבה וזהובה, הופכים בזהירות בעזרת מרית ומטגנים את הצד השני."
+    ],
+    "es": [
+      "Mezclar la harina de garbanzo y el agua en un bol hasta obtener una masa suave y sin grumos.",
+      "Picar todas las hierbas y añadirlas a la mezcla junto con sal y pimienta.",
+      "Calentar aceite en una sartén, verter la mezcla y cocinar tapado a fuego lento.",
+      "Cuando la base esté firme y dorada, dar la vuelta con cuidado y cocinar el otro lado."
+    ],
+    "ar": [
+      "خلّط دقيق الحمص مع الماء في صحفة لين تولي عجينة رطبة (Bland) ومافيهاش كعابر.",
+      "قصّ الخضرة (بصل، معدنوس، كزبر...) وزيدهم للخليط مع الملح والفلفل الأكحل.",
+      "سخّن الزيت في المقلاة، صب الخليط وغطّي المقلاة وخليها تطيب على نار هادية.",
+      "كيف تحمار وتشد روحها من اللوطة، اقلبها بالشوية وطيّب الجهة الأخرى."
+    ],
+    "en": [
+      "Whisk chickpea flour and water in a bowl until you have a smooth, lump-free batter.",
+      "Chop all the herbs and fold them into the batter along with salt and pepper.",
+      "Heat oil in a pan, pour in the mixture, and cook covered on low heat.",
+      "Once the bottom is firm and golden, flip carefully with a spatula and cook the other side."
+    ]
+  }
+}

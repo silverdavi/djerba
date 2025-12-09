@@ -11,20 +11,70 @@ Reads recipe JSON files and generates:
 import json
 import html
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict
 
 # Paths
 ROOT = Path(__file__).parent.parent  # Go up to RecipeDjerba root
 RECIPES_DIR = ROOT / "data" / "recipes_multilingual"
-IMAGES_DIR = ROOT / "data" / "images" / "generated"
+IMAGES_DIR = ROOT / "data" / "images"
+IMAGES_INDEX = IMAGES_DIR / "index.json"
 OUTPUT_WEB = ROOT / "gen_book" / "output" / "web"
 OUTPUT_PRINT = ROOT / "gen_book" / "output" / "print"
 CSS_FILE = ROOT / "gen_book" / "cookbook.css"
 
+# Load image index
+_image_index_cache = None
 
-def get_image_path(recipe_id: str, base_path: str = "") -> str:
-    """Get the image path for a recipe, using {id}_dish.png convention."""
-    return f"{base_path}{recipe_id}_dish.png"
+def load_image_index() -> Dict:
+    """Load the image index, caching it."""
+    global _image_index_cache
+    if _image_index_cache is None:
+        if IMAGES_INDEX.exists():
+            with open(IMAGES_INDEX, 'r', encoding='utf-8') as f:
+                _image_index_cache = json.load(f)
+        else:
+            _image_index_cache = {}
+    return _image_index_cache
+
+
+def get_image_path(recipe_id: str, base_path: str = "", use_absolute: bool = False) -> str:
+    """
+    Get the image path for a recipe using the index system.
+    Falls back to generated/ convention if index not available.
+    
+    Args:
+        recipe_id: Recipe identifier
+        base_path: Base path prefix (for relative paths)
+        use_absolute: If True, return absolute path (for print/PDF)
+        
+    Returns:
+        Image path string
+    """
+    index = load_image_index()
+    
+    # Try organized path first (current/recipe_id/dish.png)
+    if recipe_id in index and index[recipe_id].get("dish_image"):
+        # Check if organized file exists
+        organized_path = IMAGES_DIR / "current" / recipe_id / "dish.png"
+        if organized_path.exists():
+            if use_absolute:
+                return str(organized_path)
+            else:
+                # For web: relative path from base_path
+                return f"{base_path}current/{recipe_id}/dish.png"
+        
+        # Fallback to generated/ if organized doesn't exist yet
+        generated_path = IMAGES_DIR / "generated" / f"{recipe_id}_dish.png"
+        if generated_path.exists():
+            if use_absolute:
+                return str(generated_path)
+            else:
+                return f"{base_path}generated/{recipe_id}_dish.png"
+    
+    # Fallback to generated/ convention
+    if use_absolute:
+        return str(IMAGES_DIR / "generated" / f"{recipe_id}_dish.png")
+    return f"{base_path}generated/{recipe_id}_dish.png"
 
 # Language configuration
 LANGUAGES = ["he", "es", "ar", "en"]
@@ -55,11 +105,45 @@ def load_all_recipes() -> list[dict[str, Any]]:
     return recipes
 
 
+def get_title_size_class(name: str, lang: str) -> str:
+    """
+    Determine title size class based on name length and language.
+    
+    Returns:
+        CSS class: "title-small", "title-medium", or "title-large"
+    """
+    length = len(name)
+    
+    # Language-specific thresholds (based on statistics)
+    # Large: short names (bottom third), Medium: medium names (middle third), Small: long names (top third)
+    thresholds = {
+        "he": {"large": 6, "medium": 13},   # large <=6, medium 7-13, small >13
+        "es": {"large": 8, "medium": 14},   # large <=8, medium 9-14, small >14
+        "ar": {"large": 7, "medium": 13},   # large <=7, medium 8-13, small >13
+        "en": {"large": 7, "medium": 13},   # large <=7, medium 8-13, small >13
+    }
+    
+    threshold = thresholds.get(lang, {"large": 7, "medium": 13})
+    
+    if length <= threshold["large"]:
+        return "title-large"
+    elif length <= threshold["medium"]:
+        return "title-medium"
+    else:
+        return "title-small"
+
+
 def render_page1(recipe: dict, page_num: int) -> str:
     """Render Page 1: Title + Description + Meta footer."""
     name = recipe["name"]
     desc = recipe["description"]
     meta = recipe["meta"]
+    
+    # Get size classes for each language
+    size_es = get_title_size_class(name["es"], "es")
+    size_he = get_title_size_class(name["he"], "he")
+    size_en = get_title_size_class(name["en"], "en")
+    size_ar = get_title_size_class(name["ar"], "ar")
     
     return f'''
   <!-- PAGE {page_num}: NAME + DESCRIPTION -->
@@ -67,10 +151,10 @@ def render_page1(recipe: dict, page_num: int) -> str:
     <div class="page-inner">
 
       <div class="title-row">
-        <div class="title-word lang-es"><span>{escape(name["es"])}</span></div>
-        <div class="title-word lang-he"><span>{escape(name["he"])}</span></div>
-        <div class="title-word lang-en"><span>{escape(name["en"])}</span></div>
-        <div class="title-word lang-ar"><span>{escape(name["ar"])}</span></div>
+        <div class="title-word lang-es {size_es}"><span>{escape(name["es"])}</span></div>
+        <div class="title-word lang-he {size_he}"><span>{escape(name["he"])}</span></div>
+        <div class="title-word lang-en {size_en}"><span>{escape(name["en"])}</span></div>
+        <div class="title-word lang-ar {size_ar}"><span>{escape(name["ar"])}</span></div>
       </div>
 
       <div class="section">
@@ -166,10 +250,61 @@ def render_variant_steps(variant: dict, lang: str, start_num: int) -> str:
             </ul>'''
 
 
+def detect_overflow(recipe: dict, lang: str) -> str:
+    """
+    Detect if content is likely to overflow and return appropriate CSS class.
+    Uses statistics-based thresholds (33rd and 66th percentiles).
+    
+    Args:
+        recipe: Recipe dictionary
+        lang: Language code
+        
+    Returns:
+        CSS class name: "" (normal), "compact", or "tight"
+    """
+    ingredients = recipe["ingredients"][lang]
+    variants = recipe.get("variants", [])
+    simple_steps = recipe.get("steps", {}).get(lang, [])
+    
+    # Calculate total character count
+    total_chars = sum(len(ing) for ing in ingredients)
+    
+    if variants:
+        for variant in variants:
+            total_chars += sum(len(step) for step in variant["steps"][lang])
+            total_chars += len(variant["name"][lang])  # Variant label
+    elif simple_steps:
+        total_chars += sum(len(step) for step in simple_steps)
+    
+    # Statistics-based thresholds (33rd and 66th percentiles from actual data)
+    # Normal: < 33rd percentile, Compact: 33rd-66th, Tight: > 66th
+    thresholds = {
+        "he": {"compact": 412, "tight": 499},  # 33rd: 412, 66th: 499
+        "ar": {"compact": 402, "tight": 497},  # 33rd: 402, 66th: 497
+        "es": {"compact": 521, "tight": 650},  # 33rd: 521, 66th: 650
+        "en": {"compact": 465, "tight": 573},  # 33rd: 465, 66th: 573
+    }
+    
+    threshold = thresholds.get(lang, {"compact": 465, "tight": 573})
+    
+    if total_chars >= threshold["tight"]:
+        return "tight"
+    elif total_chars >= threshold["compact"]:
+        return "compact"
+    else:
+        return ""
+
+
 def render_column(recipe: dict, lang: str) -> str:
     """Render a single language column with ingredients and instructions."""
     labels = LANG_LABELS[lang]
     ingredients = recipe["ingredients"][lang]
+    
+    # Detect overflow and get appropriate class
+    overflow_class = detect_overflow(recipe, lang)
+    column_class = f"column lang-{lang}"
+    if overflow_class:
+        column_class += f" {overflow_class}"
     
     # Render ingredients
     ing_html = render_ingredients(ingredients)
@@ -192,7 +327,7 @@ def render_column(recipe: dict, lang: str) -> str:
     else:
         steps_combined = ""
     
-    return f'''        <div class="column lang-{lang}">
+    return f'''        <div class="{column_class}">
           <div>
             <div class="section-label">{escape(labels["ingredients"])}</div>
 {ing_html}
@@ -252,13 +387,13 @@ def render_recipe(recipe: dict, start_page: int, image_path: str) -> str:
     return "\n".join(pages)
 
 
-def render_html(recipes: list[dict], css_content: str, image_base_path: str = "../images/") -> str:
+def render_html(recipes: list[dict], css_content: str, image_base_path: str = "../images/", use_absolute: bool = False) -> str:
     """Render complete HTML document."""
     recipe_html_parts = []
     page_num = 1
     
     for recipe in recipes:
-        image_path = get_image_path(recipe["id"], image_base_path)
+        image_path = get_image_path(recipe["id"], image_base_path, use_absolute=use_absolute)
         recipe_html_parts.append(render_recipe(recipe, page_num, image_path))
         page_num += 4  # Each recipe is 4 pages
     
@@ -433,9 +568,9 @@ def build_print(recipes: list[dict], css_content: str) -> None:
     """Build combined HTML for print/PDF."""
     OUTPUT_PRINT.mkdir(parents=True, exist_ok=True)
     
-    # Use absolute path for images in print version
-    image_base = f"{IMAGES_DIR}/"
-    html_content = render_html(recipes, css_content, image_base)
+    # Use absolute paths for images in print version
+    image_base_path = ""  # Will use absolute paths via use_absolute flag
+    html_content = render_html(recipes, css_content, image_base_path, use_absolute=True)
     
     output_path = OUTPUT_PRINT / "full-cookbook.html"
     output_path.write_text(html_content, encoding="utf-8")

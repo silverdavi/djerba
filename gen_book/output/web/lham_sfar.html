@@ -261,6 +261,7 @@ h2 {
   flex-direction: column;
   gap: 0.15in;
   overflow: hidden;
+  max-height: min(100%, calc(8in - 1.2in));
 }
 
 .section-label {
@@ -276,8 +277,8 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.75rem;
-  line-height: 1.4;
+  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
+  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
 }
 
 .ingredients-list li + li {
@@ -285,7 +286,7 @@ h2 {
 }
 
 .step {
-  margin-bottom: 0.12em;
+  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
 }
 
 .step-num {
@@ -302,9 +303,45 @@ h2 {
 .variant-label {
   margin-top: 0.12in;
   margin-bottom: 0.05in;
-  font-size: 0.72rem;
+  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
   font-weight: 600;
   color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+.column.compact .ingredients-list,
+.column.compact .steps-list {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+.column.compact .step {
+  margin-bottom: 0.08em;
+}
+
+.column.compact .variant-label {
+  font-size: 0.68rem;
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+}
+
+.column.tight .ingredients-list,
+.column.tight .steps-list {
+  font-size: 0.68rem;
+  line-height: 1.3;
+}
+
+.column.tight .step {
+  margin-bottom: 0.06em;
+}
+
+.column.tight .variant-label {
+  font-size: 0.66rem;
+  margin-top: 0.08in;
+  margin-bottom: 0.03in;
 }
 
 /* ============================================

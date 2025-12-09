@@ -1,0 +1,86 @@
+{
+  "id": "032_french_toast",
+  "image": "french_toast.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פרנץ' טוסט",
+    "es": "Torrijas",
+    "ar": "بان بردو",
+    "en": "French Toast"
+  },
+  "description": {
+    "he": "במקור מנה לניצול לחם יבש עם ביצים וחלב, גרסה טבעונית זו משתמשת בבלילת קמח חומוס לקבלת המעטה הזהוב. בתוניסיה המנה מוכרת כ'פאן פרדו' (לחם אבוד), וזו דרך מצוינת להחיות חלה שנשארה משבת.",
+    "es": "Tradicionalmente hecho con huevos para aprovechar el pan duro, esta versión vegana utiliza harina de garbanzos para lograr la costra dorada. Conocido en Túnez como 'Pain Perdu', es ideal para usar la Jalá sobrante.",
+    "ar": "في الأصل تُحضر هذه الوصفة بالبيض والخبز البايت، لكن هذه النسخة النباتية تستعمل دقيق الحمص للحصول على القشرة الذهبية. معروفة في تونس باسم 'بان بردو'، وهي طريقة ممتازة لاستغلال بقايا خبز الشبات.",
+    "en": "Traditionally made with eggs to use up stale bread, this vegan adaptation uses a chickpea flour batter to create the classic golden crust. Known in Tunisia as 'Pain Perdu' (lost bread), it is perfect for rescuing leftover Challah."
+  },
+  "ingredients": {
+    "he": [
+      "6 פרוסות לחם (או חלה)",
+      "3 כפות קמח חומוס",
+      "3 כפות מים",
+      "1/2 כוס חלב סויה / שקדים",
+      "מעט תמצית וניל",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "6 rebanadas de pan (o Jalá)",
+      "3 cucharadas de harina de garbanzo",
+      "3 cucharadas de agua",
+      "1/2 taza de leche de soja / almendras",
+      "Extracto de vainilla",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "6 طروف خبز (أو شلة)",
+      "3 مغارف دقيق حمص",
+      "3 مغارف ماء",
+      "نصف كأس حليب صوجا / لوز",
+      "شويه فانيليا",
+      "زيت للقلي"
+    ],
+    "en": [
+      "6 slices of bread (or Challah)",
+      "3 tbsp chickpea flour",
+      "3 tbsp water",
+      "1/2 cup soy / almond milk",
+      "Vanilla extract",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה רחבה את קמח החומוס והמים למחית חלקה ללא גושים.",
+      "מוסיפים את החלב והווניל ומערבבים היטב.",
+      "מחממים מעט שמן במחבת רחבה.",
+      "טובלים כל פרוסת לחם בבלילה משני הצדדים ומעבירים מיד למחבת.",
+      "מטגנים עד להזהבה משני הצדדים ומגישים חם."
+    ],
+    "es": [
+      "Mezclar la harina de garbanzos y el agua en un tazón ancho hasta obtener una pasta suave.",
+      "Añadir la leche y la vainilla y mezclar bien.",
+      "Calentar un poco de aceite en una sartén.",
+      "Remojar cada rebanada de pan en la mezcla por ambos lados.",
+      "Freír hasta que estén doradas por ambos lados y servir caliente."
+    ],
+    "ar": [
+      "خلّط دقيق الحمص مع الماء في صحفة واسعة مليح حتى يولي أرطب وما فيهش كعابر.",
+      "زيد الحليب والفانيليا وحرّك بالباهي.",
+      "سخّن شوية زيت في المقلاة.",
+      "غمّس طروف الخبز في الخليط من الجهتين وحطهم في المقلاة.",
+      "قلّيهم حتى يحماروا ويولي لونهم ذهبي من الجهتين وقدمهم سخونين."
+    ],
+    "en": [
+      "Whisk chickpea flour and water in a wide bowl until smooth and lump-free.",
+      "Add the milk and vanilla and mix well.",
+      "Heat a little oil in a frying pan.",
+      "Dip each slice of bread into the batter on both sides.",
+      "Fry until golden brown on both sides and serve warm."
+    ]
+  }
+}

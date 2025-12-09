@@ -1,0 +1,94 @@
+{
+  "id": "048_kuklot",
+  "image": "kuklot.png",
+  "meta": {
+    "servings": "10-12 pcs",
+    "prep_time": "15 min",
+    "cook_time": "4+ hours",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קוקלות",
+    "es": "Kuklot",
+    "ar": "كوكلوت",
+    "en": "Kuklot"
+  },
+  "description": {
+    "he": "קוקלות הן כופתאות סולת דחוסות ומתובלות, שמקורן בקהילה היהודית של ג'רבה, טוניסיה. באופן מסורתי הן מכילות ביצים ושומן, אך גרסה זו משתמשת בקמח חומוס כחומר מקשר. השם נגזר ככל הנראה מהמילה היוונית 'קוקלוס' (עיגול), והן מתבשלות שעות ארוכות בתוך סיר החמין וסופגות את טעמיו.",
+    "es": "Las Kuklot son albóndigas densas de sémola, originarias de la comunidad judía de Djerba, Túnez. Tradicionalmente hechas con huevo, esta adaptación vegana utiliza harina de garbanzo como ligante. Su nombre deriva del griego 'kuklos' (círculo) y se cocinan lentamente dentro del guiso de Hamin para absorber sus sabores.",
+    "ar": "كوكلوت هي كعابر (كويرات) سميد مفوحة، أصلها من يهود جربة في تونس. الوصفة التقليدية فيها العظم، أما هذي النسخة نباتية وتستعمل دقيق الحمص باش تشد العجينة. اسمها جاي من الكلمة اليونانية 'كوكلس' (دائرة)، وتطيب سوايع طويلة في وسط طنجرة السخينة (الدفينة) باش تشرب البنة متاع المرقة.",
+    "en": "Kuklot are dense, spiced semolina dumplings originating from the Jewish community of Djerba, Tunisia. While traditionally bound with eggs, this vegan adaptation uses chickpea flour to achieve the classic texture. The name likely derives from the Greek 'kuklos' (circle), and they are cooked slowly inside the Shabbat stew to absorb its rich flavors."
+  },
+  "ingredients": {
+    "he": [
+      "3 כפות קמח חומוס + 3 כפות מים (תחליף לביצה)",
+      "1/4 כוס שמן",
+      "1 כוס מים",
+      "1 כפית מלח",
+      "1/2 כפית פלפל שחור",
+      "1 כפית פפריקה מתוקה",
+      "1 כפית אבקת אפייה",
+      "סולת (כמות לפי הצורך, כ-2-3 כוסות)"
+    ],
+    "es": [
+      "3 cda harina de garbanzo + 3 cda agua (sustituto de huevo)",
+      "1/4 taza de aceite",
+      "1 taza de agua",
+      "1 cdta de sal",
+      "1/2 cdta de pimienta negra",
+      "1 cdta de pimentón dulce",
+      "1 cdta de polvo de hornear",
+      "Sémola (la necesaria, aprox. 2-3 tazas)"
+    ],
+    "ar": [
+      "3 ملاعق دقيق حمص + 3 ملاعق ماء (في بلاصة العظم)",
+      "1/4 كأس زيت",
+      "1 كأس ماء",
+      "ملح",
+      "فلفل أكحل",
+      "فلفل أحمر (عكري)",
+      "ملعقة صغيرة خميرة مرطبات",
+      "سميد (حسب الحاجة، تقريب 2-3 كيسان)"
+    ],
+    "en": [
+      "3 tbsp chickpea flour + 3 tbsp water (egg replacer)",
+      "1/4 cup oil",
+      "1 cup water",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1 tsp sweet paprika",
+      "1 tsp baking powder",
+      "Semolina (as needed, approx. 2-3 cups)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה עמוקה את קמח החומוס והמים עד לקבלת בלילה אחידה.",
+      "מוסיפים לבלילה את השמן, כוס המים, התבלינים ואבקת האפייה ומערבבים היטב.",
+      "מוסיפים את הסולת בהדרגה, תוך כדי ערבוב ולישה, עד שמתקבל בצק נח לעבודה שאינו דביק מדי.",
+      "יוצרים מהבצק כדורים או קציצות אובליות.",
+      "מכניסים את הקוקלות לתוך סיר החמין (או תבשיל בבישול ארוך) ומבשלים יחד שעות ארוכות."
+    ],
+    "es": [
+      "Mezclar la harina de garbanzo con las 3 cucharadas de agua en un bol hondo hasta obtener una pasta uniforme.",
+      "Añadir el aceite, la taza de agua, las especias y el polvo de hornear; mezclar bien.",
+      "Agregar la sémola poco a poco mientras se amasa, hasta obtener una masa manejable que no se pegue.",
+      "Formar bolas o albóndigas ovaladas con la masa.",
+      "Introducir las Kuklot dentro de la olla del Hamin (o estofado de larga cocción) y cocinar durante varias horas."
+    ],
+    "ar": [
+      "خلّط دقيق الحمص مع 3 ملاعق ماء في صحفة غارقة لين يولي خليط متجانس (هذا يعوض العظم).",
+      "زيد الزيت، كاس الماء، الفاحات (التوابل) والخميرة وخلّط مليح.",
+      "زيد السميد بشوية بشوية وانت تعجن لين تتحصل على عجينة متماسكة وما تتلصقش.",
+      "شكّل العجينة كعابر (كويرات) ولا أصابع غليظة.",
+      "ارمي الكوكلوت في وسط طنجرة السخينة (الدفينة) وخليهم يطيبوا سوايع طويلة مع المرقة."
+    ],
+    "en": [
+      "In a deep bowl, whisk the chickpea flour and 3 tbsp water until smooth to create the binder.",
+      "Add the oil, 1 cup water, spices, and baking powder; mix well.",
+      "Gradually add semolina while kneading until a workable, non-sticky dough forms.",
+      "Shape the dough into round balls or oval dumplings.",
+      "Place the Kuklot directly into the Hamin pot (or slow-cooked stew) and cook for several hours to absorb flavors."
+    ]
+  }
+}

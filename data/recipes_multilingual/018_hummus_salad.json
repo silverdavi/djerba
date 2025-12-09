@@ -1,0 +1,90 @@
+{
+  "id": "018_hummus_salad",
+  "image": "hummus_salad.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט חומוס",
+    "es": "Ensalada de Garbanzos",
+    "ar": "سلطة حمص",
+    "en": "Chickpea Salad"
+  },
+  "description": {
+    "he": "סלט \"קמיה\" (מזט) קלאסי ומרענן, המוגש באופן מסורתי בפתיחת ארוחת השבת. המנה משלבת גרגרי חומוס עם הטעם החמצמץ של לימון כבוש וכוסברה טרייה. השם נגזר מהמילה הערבית לגרגרי החימצה, \"חומוס\".",
+    "es": "Una ensalada refrescante tipo 'kemia' que se sirve tradicionalmente al comienzo de la comida de Shabat. Combina garbanzos con el sabor ácido del limón encurtido y cilantro fresco. El nombre proviene de la palabra árabe para el garbanzo, 'hummus'.",
+    "ar": "سلطة 'كيميا' (مقبلات) كلاسيكية ومنعشة، تقدم عادة في بداية وجبة السبت. تمزج هذه الوصفة الحمص مع نكهة القارص المصير (المخلل) والكزبر الأخضر. الاسم يأتي من الكلمة العربية للبقولية نفسها.",
+    "en": "A refreshing classic 'kemia' (appetizer) salad traditionally served at the start of the Shabbat meal. It combines chickpeas with the tangy flavor of preserved lemon and fresh cilantro. The name derives simply from the Arabic word for the legume, 'hummus'."
+  },
+  "ingredients": {
+    "he": [
+      "1 קופסת שימורי חומוס (שטופים ומסוננים)",
+      "1/2 לימון כבוש (קצוץ דק)",
+      "חופן כוסברה טרייה (קצוצה)",
+      "1 כפית פפריקה מתוקה",
+      "1/2 כפית כמון",
+      "2 כפות שמן זית",
+      "1 שן שום (כתושה)",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "1 lata de garbanzos (lavados y escurridos)",
+      "1/2 limón encurtido (picado fino)",
+      "Un puñado de cilantro fresco (picado)",
+      "1 cdta de pimentón dulce",
+      "1/2 cdta de comino",
+      "2 cdas de aceite de oliva",
+      "1 diente de ajo (machacado)",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1 حكة حمص (مغسول ومقطر)",
+      "1/2 كعبة قارص مصير (مقطع جويد)",
+      "حفنة كزبر أخضر (مقطع)",
+      "1 مغرفة صغيرة فلفل أحمر (زينة)",
+      "1/2 مغرفة صغيرة كمون",
+      "2 مغارف زيت زيتونة",
+      "1 سنة ثوم (مهروسة)",
+      "ملح حسب الرغبة"
+    ],
+    "en": [
+      "1 can chickpeas (rinsed and drained)",
+      "1/2 preserved lemon (finely chopped)",
+      "Handful fresh cilantro (chopped)",
+      "1 tsp sweet paprika",
+      "1/2 tsp cumin",
+      "2 tbsp olive oil",
+      "1 garlic clove (crushed)",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שוטפים היטב את גרגרי החומוס ומסננים מהנוזלים.",
+      "בקערה בינונית, מערבבים את החומוס עם שמן הזית, השום, הפפריקה, הכמון והמלח.",
+      "מוסיפים את הלימון הכבוש והכוסברה הקצוצה ומערבבים בעדינות.",
+      "טועמים ומתקנים תיבול. מגישים בטמפרטורת החדר."
+    ],
+    "es": [
+      "Enjuagar bien los garbanzos y escurrir el líquido.",
+      "En un bol mediano, mezclar los garbanzos con el aceite de oliva, el ajo, el pimentón, el comino y la sal.",
+      "Añadir el limón encurtido y el cilantro picado y mezclar suavemente.",
+      "Probar y ajustar la sazón. Servir a temperatura ambiente."
+    ],
+    "ar": [
+      "اغسل الحمص بالماء وقطّره مليح.",
+      "في صحفة، خلّط الحمص مع زيت الزيتونة، الثوم، الفلفل الأحمر، الكمون والملح.",
+      "زيد القارص المصير والكزبر المقطع وحرك بشوية.",
+      "ذوق وعدّل الملح إذا لازم. قدمها بحرارة الغرفة."
+    ],
+    "en": [
+      "Rinse the chickpeas thoroughly and drain well.",
+      "In a medium bowl, mix the chickpeas with olive oil, garlic, paprika, cumin, and salt.",
+      "Add the chopped preserved lemon and cilantro and toss gently.",
+      "Taste and adjust seasoning. Serve at room temperature."
+    ]
+  }
+}

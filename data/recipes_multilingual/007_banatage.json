@@ -1,0 +1,86 @@
+{
+  "id": "007_banatage",
+  "image": "banatage.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "30 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בנטאז'",
+    "es": "Banatage",
+    "ar": "بناطاج",
+    "en": "Banatage"
+  },
+  "description": {
+    "he": "קציצות תפוחי אדמה ממולאות, מנה ראשונה קלאסית מהמטבח היהודי-תוניסאי. במקור המנה ממולאות בעוף או בקר, אך הגרסה הטבעונית הזו משתמשת בשבבי סויה או טופו מתובלים. השם מגיע ככל הנראה מהשפעה צרפתית בתוניסיה, בהתייחס לצורת הקציצה.",
+    "es": "Croquetas de patata rellenas, un aperitivo clásico de la cocina judía tunecina. Tradicionalmente rellenas de pollo o carne picada, esta versión vegana utiliza proteína de soja o tofu sazonado. El nombre probablemente deriva de la influencia francesa en Túnez.",
+    "ar": "كعيبة بطاطا محشية، مقبلات مشهورة في الكوجينة اليهودية التونسية. في الأصل تتحشا بالدجاج أو اللحم المفروم، وفي هالوصفة النباتية نستعملو الصويا أو التوفو المفوّح. يعتبر البناطاج من ركائز المائدة في المناسبات.",
+    "en": "Stuffed potato croquettes, a classic appetizer in Tunisian Jewish cuisine. While traditionally filled with ground chicken or beef, this vegan adaptation captures the savory flavor using seasoned soy protein or tofu. The name likely reflects French culinary influence in Tunisia."
+  },
+  "ingredients": {
+    "he": [
+      "4-5 תפוחי אדמה גדולים (מבושלים ומעוכים לפירה)",
+      "1 כוס שבבי סויה (מושרים וסחוטים) או טופו מפורר",
+      "תבלינים: מלח, פלפל שחור, כורכום",
+      "קמח לבן (לציפוי)",
+      "בלילת קמח חומוס (3 כפות קמח חומוס + 3 כפות מים)",
+      "פירורי לחם",
+      "שמן לטיגון עמוק"
+    ],
+    "es": [
+      "4-5 patatas grandes (cocidas y hechas puré)",
+      "1 taza de soja texturizada (hidratada) o tofu desmenuzado",
+      "Especias: sal, pimienta negra, cúrcuma",
+      "Harina de trigo (para rebozar)",
+      "Mezcla de harina de garbanzo (3 cdas harina + 3 cdas agua)",
+      "Pan rallado",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "4-5 كعبات بطاطا كبار (مسموطة ومرّحيه)",
+      "1 كأس صويا (منفخة ومعصورة) أو توفو مفتفت",
+      "توابل: ملح، فلفل أكحل، كركم",
+      "فرينة (للتغليف)",
+      "خليط دقيق الحمص (3 مغارف دقيق + 3 مغارف ماء)",
+      "شاپلير (خبز مرحي)",
+      "زيت للقلي"
+    ],
+    "en": [
+      "4-5 large potatoes (boiled and mashed)",
+      "1 cup textured soy protein (rehydrated) or crumbled tofu",
+      "Spices: salt, black pepper, turmeric",
+      "All-purpose flour (for dredging)",
+      "Chickpea flour batter (3 tbsp flour + 3 tbsp water)",
+      "Breadcrumbs",
+      "Oil for deep frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מתבלים את הפירה במלח ופלפל. בנפרד, מטגנים את הסויה או הטופו במחבת עם מעט שמן ותבלינים עד להזהבה.",
+      "לוקחים חופן פירה, משטחים בכף היד, מניחים כפית מהמלית במרכז, וסוגרים לצורת קציצה אליפטית.",
+      "טובלים כל קציצה בקמח, לאחר מכן בבלילת קמח החומוס (המשמשת כדבק במקום ביצה), ולבסוף בפירורי הלחם.",
+      "מטגנים בשמן עמוק וחם עד שהקציצות מקבלות גוון זהוב-שחום."
+    ],
+    "es": [
+      "Sazonar el puré de patata. Por separado, sofreír la soja o el tofu con especias hasta que estén dorados.",
+      "Tomar una porción de puré, aplastarla en la mano, colocar una cucharadita de relleno en el centro y cerrar formando una croqueta ovalada.",
+      "Pasar cada croqueta por harina, luego por la mezcla de harina de garbanzo (sustituto del huevo) y finalmente por pan rallado.",
+      "Freír en abundante aceite caliente hasta que estén bien doradas."
+    ],
+    "ar": [
+      "فوّح البطاطا المهروسة. في مقلاة، قلّي حشو الصويا أو التوفو في شوي زيت وتوابل حتى يحمار.",
+      "خود شوي بطاطا في يدك، حط مغرفة صغيرة حشو في الوسط وسكّرها مليح على شكل كعيبة (بيضاوي).",
+      "مرمد الكعيبة في الفرينة، مبعد غطسها في خليط دقيق الحمص (في بلاصة العظم)، ومبعد في الشاپلير.",
+      "اقلي البناطاج في زيت غزير وسخون حتى يولي لونه ذهبي."
+    ],
+    "en": [
+      "Season the mashed potatoes. Separately, sauté the soy or tofu filling with spices until golden brown.",
+      "Flatten a portion of potato in your hand, place a teaspoon of filling in the center, and seal it into an oval croquette shape.",
+      "Dredge each croquette in flour, dip into the chickpea flour batter (egg replacement), and coat with breadcrumbs.",
+      "Deep fry in hot oil until golden and crispy."
+    ]
+  }
+}

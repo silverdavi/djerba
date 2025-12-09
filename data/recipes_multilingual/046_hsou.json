@@ -1,0 +1,90 @@
+{
+  "id": "046_hsou",
+  "image": "hsou.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "5 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חשו",
+    "es": "Hsou",
+    "ar": "الحسو",
+    "en": "Hsou"
+  },
+  "description": {
+    "he": "מרק תוניסאי סמיך ומחמם, המאופיין בטעמים עזים של חמיצות וחריפות. השם נגזר מהמילה הערבית 'חסו' (ללגום מרק). בעוד שלעיתים הוא מוגש עם קציצות בשר, גרסה קטיפתית זו היא טבעונית לחלוטין ומוסמכת בעזרת קמח ושום.",
+    "es": "Una sopa tunecina espesa y reconfortante, famosa por su perfil de sabor ácido y picante. El nombre deriva del árabe para 'beber caldo'. Aunque a veces se sirve con albóndigas, esta versión vegana es una crema aterciopelada espesada con harina y rica en ajo.",
+    "ar": "مرقة تونسية خاثرة (عاقدة) وحارة، معروفة بطعمها الحامض والحار المميز. أصل الكلمة من 'حسا' أي شرب المرق. في العادة قد تطبخ بكعابر اللحم، لكن هذه الوصفة نباتية تعتمد على الثوم والهريسة والفارينة لتعقيد المرق.",
+    "en": "A thick, warming Tunisian soup known for its bold sour and spicy profile. The name derives from the Arabic word for sipping broth. While traditionally sometimes served with meatballs, this vegan adaptation is a velvety garlic soup thickened with flour."
+  },
+  "ingredients": {
+    "he": [
+      "4-6 שיני שום כתושות",
+      "2 כפות שמן",
+      "1 כף פפריקה חריפה (או אריסה)",
+      "4 כוסות מים",
+      "3 כפות קמח (להסמכה)",
+      "1/4 כוס מיץ לימון טרי",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "4-6 dientes de ajo machacados",
+      "2 cucharadas de aceite",
+      "1 cucharada de pimentón picante (o harissa)",
+      "4 tazas de agua",
+      "3 cucharadas de harina (para espesar)",
+      "1/4 taza de jugo de limón fresco",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "4-6 سنون ثوم مهروس",
+      "2 ملاعق زيت",
+      "1 ملعقة فلفل زينة حار (أو هريسة عربي)",
+      "4 كؤوس ماء",
+      "3 ملاعق فارينة (دقيق)",
+      "1/4 كأس عصير قارص (ليمون)",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "4-6 cloves garlic, crushed",
+      "2 tbsp vegetable oil",
+      "1 tbsp hot paprika (or harissa)",
+      "4 cups water",
+      "3 tbsp flour (for thickening)",
+      "1/4 cup fresh lemon juice",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר מרק, מטגנים קלות את השום והפפריקה בשמן (זהירות לא לשרוף).",
+      "מוסיפים את רוב המים ומביאים לרתיחה.",
+      "בקערה נפרדת, מערבבים את הקמח עם מעט מים קרים ליצירת רביכה חלקה ללא גושים.",
+      "מוזגים את הרביכה לסיר לאט תוך כדי בחישה מתמדת עד שהמרק מסמיך.",
+      "מבשלים על אש קטנה כ-20 דקות, מוסיפים את הלימון והמלח, טועמים ומגישים."
+    ],
+    "es": [
+      "En una olla, sofreír ligeramente el ajo y el pimentón en aceite (sin quemar).",
+      "Añadir la mayor parte del agua y llevar a ebullición.",
+      "En un tazón aparte, mezclar la harina con un poco de agua fría hasta obtener una mezcla suave sin grumos.",
+      "Verter la mezcla en la sopa lentamente mientras se bate constantemente hasta que espese.",
+      "Cocinar a fuego lento durante 20 minutos, añadir el limón y la sal, probar y servir."
+    ],
+    "ar": [
+      "في طنجرة، قلّي الثوم وفلفل الزينة في الزيت شوية (رد بالك يتحرق).",
+      "مرّق بالماء وخلي الطنجرة تغلي.",
+      "في صحفة، حل الفارينة في شوية ماء بارد باش تولي سائلة وما فيهاش كعابر.",
+      "صب خليط الفارينة في الطنجرة بالشوية مع التحريك المستمر باش يعقد المرق.",
+      "طيبها على نار هادية 20 دقيقة، زيد القارص والملح، ذوق وقدمها سخونة."
+    ],
+    "en": [
+      "In a pot, lightly sauté the garlic and paprika in oil (be careful not to burn).",
+      "Add most of the water and bring to a boil.",
+      "In a separate bowl, mix the flour with a little cold water to create a smooth slurry without lumps.",
+      "Pour the slurry into the soup slowly while whisking constantly until thickened.",
+      "Simmer for 20 minutes, stir in lemon juice and salt, taste and serve."
+    ]
+  }
+}

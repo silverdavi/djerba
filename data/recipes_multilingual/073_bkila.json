@@ -1,0 +1,86 @@
+{
+  "id": "073_bkila",
+  "image": "bkila.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "20 min",
+    "cook_time": "3 hours",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בקילה",
+    "es": "Pkaïla",
+    "ar": "البكيلة",
+    "en": "Pkaïla"
+  },
+  "description": {
+    "he": "תבשיל תוניסאי מסורתי (במיוחד מג'רבה) המוגש בשבתות וחגים. שמו נגזר מהמילה הערבית ל\"ירק\", והוא מבוסס על עלי סלק המטוגנים ממושכות עד השחרה ליצירת בסיס עשיר בריבת סלק. בעוד שהמנה המקורית מכילה בשר בקר, גרסה טבעונית זו משתמשת בקוביות סייטן או טופו בבישול ארוך עם שעועית.",
+    "es": "Un estofado tradicional tunecino, emblemático de la cocina judía de Yerba. Su nombre deriva del árabe para 'verduras', basándose en acelgas fritas lentamente hasta volverse oscuras como una mermelada. Tradicionalmente hecho con carne, esta adaptación vegana utiliza seitán o tofu cocinado a fuego lento con alubias blancas.",
+    "ar": "مرقة تونسية يهودية عريقة، مشهورة في جربة وتتطيب نهار السبت. اسمها جاي من 'البقول'، وتتحضر بالسلق المقلي في الزيت لين يكحال ويولي كيف المعجون. في العادة تطيب باللحم البقري، لكن في هذي الوصفة النباتية عوضناه بقطع السيتان أو التوفو مع اللوبيا البيضاء.",
+    "en": "A traditional Tunisian stew, particularly from Djerba, named after the Arabic word for 'greens.' It features Swiss chard fried until nearly black to create a rich, jam-like base. While traditionally made with beef for Shabbat, this plant-based adaptation uses seasoned seitan or tofu simmered slowly with white beans."
+  },
+  "ingredients": {
+    "he": [
+      "2 חבילות עלי סלק (מנגולד)",
+      "1/2 כוס שמן",
+      "2 כוסות שעועית לבנה (מושרית ומבושלת)",
+      "1 חבילת סייטן או טופו קשה (חתוך לקוביות)",
+      "שיני שום כתושות",
+      "צרור כוסברה ושמיר",
+      "מלח ומים לפי הצורך"
+    ],
+    "es": [
+      "2 manojos de acelgas (solo las hojas)",
+      "1/2 taza de aceite vegetal",
+      "2 tazas de alubias blancas (cocidas)",
+      "1 bloque de seitán o tofu firme (en cubos)",
+      "Dientes de ajo machacados",
+      "Un manojo de cilantro y eneldo",
+      "Sal y agua"
+    ],
+    "ar": [
+      "2 ربطات سلق (الأوراق فقط)",
+      "نصف كأس زيت",
+      "2 كيسان لوبيا بيضاء (منفخة وطايبة)",
+      "قطع سيتان أو توفو يابس",
+      "سنينات ثوم مرحي",
+      "ربطة قزبر وشبت",
+      "ملح وماء"
+    ],
+    "en": [
+      "2 bunches Swiss chard (leaves only)",
+      "1/2 cup vegetable oil",
+      "2 cups white beans (cooked)",
+      "1 block seitan or firm tofu (cubed)",
+      "Garlic cloves (crushed)",
+      "Fresh cilantro and dill",
+      "Salt and water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שוטפים את עלי הסלק היטב, קוצצים ושמים בסיר רחב ללא מים על אש נמוכה. מאדים עד שכל הנוזלים מתייבשים.",
+      "מוסיפים את השמן ומטגנים בסבלנות תוך כדי ערבוב עד שהעלים משחירים ומקבלים מרקם של ריבה (זהירות לא לשרוף).",
+      "מוסיפים לסיר את השעועית הלבנה, קוביות הסייטן/טופו, השום, הכוסברה והשמיר.",
+      "מוסיפים מים לכיסוי, מתבלים במלח ומבשלים בבישול ארוך על אש קטנה עד שהטעמים מתמזגים והרוטב סמיך."
+    ],
+    "es": [
+      "Lavar y picar las acelgas. Cocinar en una olla ancha sin agua a fuego lento hasta que se evapore todo el líquido.",
+      "Añadir el aceite y freír pacientemente, removiendo hasta que las hojas se oscurezcan y tengan textura de mermelada.",
+      "Agregar las alubias blancas, los cubos de seitán/tofu, el ajo, el cilantro y el eneldo.",
+      "Cubrir con agua, añadir sal y cocinar a fuego lento durante mucho tiempo hasta que los sabores se integren."
+    ],
+    "ar": [
+      "اغسل أوراق السلق وقطعهم، حطهم في طنجرة واسعة شايحة (بلاش ماء) على نار هادية لين ينشف الماء متاعهم الكل.",
+      "زيد الزيت وقلّي بالشوية مع التحريك لين السلق يكحال ويولي كيف المعجون (رد بالك يتحرق).",
+      "زيد اللوبيا البيضاء، مكعبات السيتان أو التوفو، الثوم، القزبر والشبت.",
+      "مرّق بالماء، ملّح، وخلّي الطنجرة تطيب سلة سلة (على نار هادية) لين المرقة تعقاد وتدخل البنة في بعضها."
+    ],
+    "en": [
+      "Wash and chop the chard leaves. Place in a wide pot without water over low heat until all liquid evaporates.",
+      "Add the oil and fry patiently, stirring constantly, until the leaves turn dark green/black and reach a jam-like consistency.",
+      "Add the white beans, seitan/tofu cubes, garlic, cilantro, and dill to the pot.",
+      "Cover with water, season with salt, and simmer for a long time until the sauce thickens and flavors meld."
+    ]
+  }
+}

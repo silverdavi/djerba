@@ -1,0 +1,94 @@
+{
+  "id": "042_honey_cake",
+  "image": "honey_cake.png",
+  "meta": {
+    "servings": "8–10",
+    "prep_time": "15 min",
+    "cook_time": "40 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת דבש",
+    "es": "Pastel de Miel",
+    "ar": "كيكة العسل",
+    "en": "Honey Cake"
+  },
+  "description": {
+    "he": "עוגה מסורתית לראש השנה המסמלת שנה מתוקה. בעוד שהמתכון המקורי מבוסס על ביצים ודבש דבורים, גרסה טבעונית זו משתמשת בסילאן (דבש תמרים), מרכיב צפון-אפריקאי קלאסי המעניק לעוגה עסיסיות, צבע עמוק וטעם עשיר ללא שימוש במוצרים מן החי.",
+    "es": "Un pastel esencial en Rosh Hashaná para desear un año dulce. Aunque tradicionalmente se hace con huevos y miel, esta adaptación vegana utiliza Silan (miel de dátil), un ingrediente básico del norte de África que aporta humedad y un sabor profundo sin productos animales.",
+    "ar": "كيكة تقليدية تُقدّم في رأس السنة العبرية (روش هاشانة) تفاؤلاً بسنة حلوة. الوصفة الأصلية تُحضّر بالبيض والعسل، لكن هذه النسخة النباتية تعتمد على 'السلّان' (رب التمر)، وهو مكوّن أساسي في المطبخ المغاربي، ليعطي طراوة ومذاقاً غنياً.",
+    "en": "A traditional Rosh Hashanah staple symbolizing a sweet new year. While originally made with eggs and honey, this vegan adaptation relies on Silan (date syrup), a classic North African ingredient that creates a moist texture and deep flavor without animal products."
+  },
+  "ingredients": {
+    "he": [
+      "1/3 כוס סילאן",
+      "1/2 כוס שמן",
+      "1/4 כוס ועוד 1 כף סוכר",
+      "1/2 כוס ועוד 1 כף חלב סויה",
+      "1 כפית קפה נמס",
+      "1 כפית קינמון",
+      "1 כוס ועוד 1 כף קמח",
+      "2 כפיות אבקת אפייה"
+    ],
+    "es": [
+      "1/3 taza de Silan (miel de dátil)",
+      "1/2 taza de aceite",
+      "1/4 taza + 1 cda de azúcar",
+      "1/2 taza + 1 cda de leche de soja",
+      "1 cdta de café soluble",
+      "1 cdta de canela",
+      "1 taza + 1 cda de harina",
+      "2 cdtas de polvo de hornear"
+    ],
+    "ar": [
+      "1/3 كأس سلّان (رب التمر)",
+      "1/2 كأس زيت",
+      "1/4 كأس + 1 مغرفة سكر",
+      "1/2 كأس + 1 مغرفة حليب صويا",
+      "1 مغرفة صغيرة قهوة سريعة الذوبان",
+      "1 مغرفة صغيرة قرفة",
+      "1 كأس + 1 مغرفة فرينة (طحين)",
+      "2 مغارف صغار خميرة حلويات"
+    ],
+    "en": [
+      "1/3 cup Silan (date syrup)",
+      "1/2 cup oil",
+      "1/4 cup + 1 tbsp sugar",
+      "1/2 cup + 1 tbsp soy milk",
+      "1 tsp instant coffee",
+      "1 tsp cinnamon",
+      "1 cup + 1 tbsp flour",
+      "2 tsp baking powder"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות.",
+      "מערבבים בקערה את הסילאן, השמן, הסוכר, חלב הסויה, הקפה והקינמון. מניחים בצד ל-10 דקות.",
+      "מוסיפים את הקמח ואבקת האפייה וטורפים היטב עד שאין גושים.",
+      "מעבירים לתבנית אינגליש קייק ואופים כ-40 דקות עד שקיסם יוצא יבש.",
+      "מוציאים מהתנור ומברישים מיד במעט סילאן או סירופ מייפל לזיגוג."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C.",
+      "En un bol, mezclar el silan, aceite, azúcar, leche de soja, café y canela. Dejar reposar 10 minutos.",
+      "Añadir la harina y el polvo de hornear, batiendo hasta que no queden grumos.",
+      "Verter en un molde rectangular y hornear unos 40 minutos hasta que un palillo salga seco.",
+      "Sacar del horno y pincelar inmediatamente con un poco de silan o jarabe de arce."
+    ],
+    "ar": [
+      "سخّن الكوشة (الفرن) لدرجة 175 مئوية.",
+      "خلط في صحفة السلّان، الزيت، السكر، حليب الصويا، القهوة والقرفة، وخلّيهم يرتاحوا 10 دقايق.",
+      "زيد الفرينة وخميرة الحلويات وخلّط مليح حتى يتنحى التكتل ويولي الخليط رطب.",
+      "صب الخليط في مول (قالب) مستطيل وطيّبها مدة 40 دقيقة تقريباً حتى ينشف العود.",
+      "خرّجها من الكوشة وادهنها وهي سخونة بشوية سلّان أو عسل نباتي."
+    ],
+    "en": [
+      "Preheat oven to 175°C (350°F).",
+      "In a bowl, mix silan, oil, sugar, soy milk, coffee, and cinnamon. Let sit for 10 minutes.",
+      "Add flour and baking powder, whisking until smooth and lump-free.",
+      "Pour into a loaf pan and bake for about 40 minutes until a toothpick comes out dry.",
+      "Remove from oven and immediately brush with a little silan or maple syrup for glaze."
+    ]
+  }
+}

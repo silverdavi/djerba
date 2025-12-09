@@ -1,0 +1,114 @@
+{
+  "id": "036_granola_cookies",
+  "image": "granola_cookies.png",
+  "meta": {
+    "servings": "20–25",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגיות גרנולה",
+    "es": "Galletas de Granola",
+    "ar": "كوكيز الشوفان",
+    "en": "Granola Cookies"
+  },
+  "description": {
+    "he": "תוספת מודרנית ואהובה לשולחן המשפחתי, עוגיות אלו עשירות בשיבולת שועל, אגוזים ושוקולד. במתכון זה, שבאופן מסורתי מכיל ביצים, אנו משתמשים ברסק תפוחים כדי לקבל את המרקם הלעיס והרך ללא שימוש במוצרים מן החי.",
+    "es": "Una adición moderna y favorita a la mesa familiar, estas galletas están llenas de avena, nueces y chocolate. Aunque tradicionalmente se hacen con huevos, esta versión vegana utiliza puré de manzana para lograr una textura perfectamente masticable.",
+    "ar": "تعتبر هذه الكوكيز الغنية بالشوفان والمكسرات والشكلاطة إضافة عصرية محبوبة للمائدة. في هذه الوصفة النباتية، نستعمل \"compote\" التفاح (مرحي التفاح) في عوض البيض باش نتحصلوا على قوام طري ولذيذ.",
+    "en": "A favorite modern addition to the family table, these cookies are packed with oats, nuts, and chocolate. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve the perfect chewy texture."
+  },
+  "ingredients": {
+    "he": [
+      "250 גר' חמאה טבעונית או שמן קוקוס מוצק",
+      "150 גר' סוכר לבן",
+      "300 גר' סוכר חום כהה",
+      "180 גר' רסק תפוחים (תחליף לביצים)",
+      "280 גר' קמח לבן",
+      "1 כפית אבקת סודה לשתייה",
+      "1 כפית קינמון",
+      "1/2 כפית מלח",
+      "350 גר' שיבולת שועל",
+      "100 גר' אגוזי מלך קצוצים",
+      "150 גר' צימוקים",
+      "200 גר' שוקולד צ'יפס מריר"
+    ],
+    "es": [
+      "250g de mantequilla vegana o aceite de coco sólido",
+      "150g de azúcar blanco",
+      "300g de azúcar moreno oscuro",
+      "180g de puré de manzana (sustituto de huevo)",
+      "280g de harina",
+      "1 cdta de bicarbonato de sodio",
+      "1 cdta de canela",
+      "1/2 cdta de sal",
+      "350g de avena",
+      "100g de nueces picadas",
+      "150g de pasas",
+      "200g de chispas de chocolate negro"
+    ],
+    "ar": [
+      "250 غ زبدة نباتية أو زيت جوز الهند جامد",
+      "150 غ سكر أبيض",
+      "300 غ سكر أسمر غامق",
+      "180 غ مرحي التفاح (عوض البيض)",
+      "280 غ فرينة",
+      "مغرفة صغيرة بيكربونات",
+      "مغرفة صغيرة قرفة",
+      "نصف مغرفة صغيرة ملح",
+      "350 غ شوفان",
+      "100 غ زوزة (جوز) مهروشة",
+      "150 غ زبيب",
+      "200 غ حبيبات الشكلاطة السوداء"
+    ],
+    "en": [
+      "250g vegan butter or solid coconut oil",
+      "150g white sugar",
+      "300g dark brown sugar",
+      "180g applesauce (egg replacer)",
+      "280g all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp cinnamon",
+      "1/2 tsp salt",
+      "350g rolled oats",
+      "100g chopped walnuts",
+      "150g raisins",
+      "200g dark chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-160 מעלות.",
+      "במיקסר, מעבדים את החמאה הטבעונית ושני סוגי הסוכר לתערובת קרמית, ואז מוסיפים את רסק התפוחים ומערבבים היטב.",
+      "מוסיפים קמח, סודה לשתייה, קינמון ומלח ומעבדים רק עד לקבלת בצק אחיד.",
+      "מוסיפים את שיבולת השועל, האגוזים, הצימוקים והשוקולד ומערבבים קצרות לפיזור אחיד.",
+      "מניחים גבעות מהתערובת במרווחים על תבנית מרופדת בנייר אפייה.",
+      "אופים 18–20 דקות עד שהשוליים יציבים וזהובים והמרכז עדיין רך."
+    ],
+    "es": [
+      "Precalentar el horno a 160°C.",
+      "Batir la mantequilla vegana y ambos azúcares hasta obtener una crema, luego agregar el puré de manzana y mezclar bien.",
+      "Añadir la harina, bicarbonato, canela y sal, mezclando solo hasta integrar.",
+      "Incorporar la avena, nueces, pasas y chocolate, mezclando brevemente para distribuir.",
+      "Colocar montoncitos de masa separados en una bandeja forrada con papel de hornear.",
+      "Hornear 18–20 minutos hasta que los bordes estén dorados pero el centro siga suave."
+    ],
+    "ar": [
+      "سخّن الفور لدرجة 160 مئوية.",
+      "ركّض الزبدة النباتية مع السكر بنوعيه حتى يولي الخليط كريمي، مبعد زيد مرحي التفاح وخلّط مليح.",
+      "زيد الفرينة، البيكربونات، القرفة والملح وخلّط جيست باش تتلم العجينة.",
+      "صب الشوفان، الزوزة (الجوز)، الزبيب والشكلاطة وخلّط شوية باش يتوزعوا بالباهي.",
+      "شكّل كعبات بالمغرفة وحطهم في طبق مفروش بورق الطبخ، وخلي مسافة بيناتهم.",
+      "طيّبهم في الفور مدة 18–20 دقيقة حتى يحماروا من الجناب ويبقوا طرايا من الوسط."
+    ],
+    "en": [
+      "Preheat oven to 160°C (320°F).",
+      "Cream the vegan butter and both sugars until creamy, then add applesauce and mix well.",
+      "Add flour, baking soda, cinnamon, and salt, mixing just until a dough forms.",
+      "Fold in oats, nuts, raisins, and chocolate chips until evenly distributed.",
+      "Drop mounds of dough onto a parchment-lined baking sheet, spacing them apart.",
+      "Bake for 18–20 minutes until edges are golden and set but centers remain soft."
+    ]
+  }
+}

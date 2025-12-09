@@ -1,0 +1,82 @@
+{
+  "id": "019_slata_homs",
+  "image": "slata_homs.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט חומוס",
+    "es": "Ensalada de Garbanzos",
+    "ar": "سلطة حمص",
+    "en": "Chickpea Salad"
+  },
+  "description": {
+    "he": "סלט 'קמיה' (מתאבן) רענן ופשוט, המוגש באופן מסורתי על השולחן הג'רבאי. מנה זו היא טבעונית במקור ומדגישה את טעם החומוס בשילוב לימון כבוש וכוסברה טרייה. השם משמעותו פשוט 'סלט חומוס' בערבית.",
+    "es": "Una kemia (aperitivo) refrescante y sencilla, presente en toda mesa djerbana. Naturalmente vegano, este plato resalta el sabor de los garbanzos con limón encurtido y cilantro fresco. Su nombre se traduce simplemente como 'ensalada de garbanzos'.",
+    "ar": "سلطة 'كيمية' منعشة وبنينة، موجودة ديما فوق الطاولة الجربية. هذي الوصفة نباتية من أصلها، وتبرز بنة الحمص مع القارص المرقد والكسبر الأخضر.",
+    "en": "A refreshing and simple 'kemia' (appetizer) found on every Djerban table. Naturally vegan, this dish highlights the nutty flavor of chickpeas paired with tangy preserved lemon and fresh cilantro. The name simply translates to 'chickpea salad'."
+  },
+  "ingredients": {
+    "he": [
+      "1 קופסת שימורי חומוס (או חומוס מבושל)",
+      "1 כף לימון כבוש, קצוץ",
+      "1 כפית פפריקה מתוקה",
+      "חופן כוסברה טרייה, קצוצה",
+      "2 כפות שמן זית",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "1 lata de garbanzos (o cocidos)",
+      "1 cda de limón encurtido (picado)",
+      "1 cdta de pimentón dulce (paprika)",
+      "Un puñado de cilantro fresco picado",
+      "2 cdas de aceite de oliva",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1 حكة حمص (أو حمص طايب)",
+      "1 مغرفة قارص مرقد مقصو ص",
+      "1 مغرفة صغيرة فلفل أحمر (بابريكا)",
+      "شويا كسبر أخضر (حشيش)",
+      "2 مغارف زيت زيتونة",
+      "ملح"
+    ],
+    "en": [
+      "1 can chickpeas (or cooked chickpeas)",
+      "1 tbsp preserved lemon, chopped",
+      "1 tsp sweet paprika",
+      "Handful of fresh cilantro, chopped",
+      "2 tbsp olive oil",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים ושוטפים את החומוס היטב.",
+      "בקערה, מערבבים את החומוס עם הלימון הכבוש, הפפריקה, המלח ושמן הזית.",
+      "מפזרים מעל כוסברה טרייה קצוצה.",
+      "מגישים קר או בטמפרטורת החדר כתוספת."
+    ],
+    "es": [
+      "Escurrir y enjuagar bien los garbanzos.",
+      "En un bol, mezclar los garbanzos con el limón encurtido, el pimentón, la sal y el aceite de oliva.",
+      "Espolvorear con cilantro fresco picado.",
+      "Servir frío o a temperatura ambiente como acompañamiento."
+    ],
+    "ar": [
+      "قطّر الحمص وشللو مليح بالماء.",
+      "في صحفة، خلط الحمص مع القارص المرقد، الفلفل الأحمر، الملح وزيت الزيتونة.",
+      "رش عليه الكسبر الأخضر من الفوق.",
+      "قدمها باردة وإلا دافية شوية."
+    ],
+    "en": [
+      "Drain and rinse the chickpeas well.",
+      "In a bowl, mix the chickpeas with the preserved lemon, paprika, salt, and olive oil.",
+      "Top with chopped fresh cilantro.",
+      "Serve cold or at room temperature as a side dish."
+    ]
+  }
+}

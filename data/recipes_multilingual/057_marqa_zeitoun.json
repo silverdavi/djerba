@@ -1,0 +1,94 @@
+{
+  "id": "057_marqa_zeitoun",
+  "image": "marqa_zeitoun.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרקה זיתון",
+    "es": "Marqa Zeitoun",
+    "ar": "مرقة زيتون",
+    "en": "Marqa Zeitoun"
+  },
+  "description": {
+    "he": "במקור תבשיל עוף או בשר, גרסה טבעונית זו משמרת את הטעמים העשירים בעזרת תיבול מדויק. השם נגזר מהמילה הערבית \"מרקה\" (תבשיל/רוטב) ו\"זיתון\" (זיתים). מנה קלאסית במטבח היהודי התוניסאי והמרוקאי.",
+    "es": "Tradicionalmente un guiso de carne, esta adaptación vegana recrea el sabor profundo usando condimentos vegetales. El nombre proviene del árabe \"marqa\" (guiso) y \"zeitoun\" (aceitunas). Un clásico de los hogares judíos del norte de África.",
+    "ar": "في الأصل تُطبخ باللحم أو الدجاج، ولكن هذه النسخة النباتية تحافظ على النكهة الغنية. كلمة \"مرقة\" تعني اليخنة، و\"زيتون\" هو المكون الأساسي. أكلة شائعة في المطبخ اليهودي المغاربي.",
+    "en": "While traditionally made with chicken or beef, this vegan adaptation captures the savory depth using plant-based seasonings. The name derives from Arabic \"marqa\" (stew) and \"zeitoun\" (olives). Common across North African Jewish communities."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות זיתים ירוקים מגולענים",
+      "5 שיני שום כתושות",
+      "1 כף רסק עגבניות",
+      "1 כפית פפריקה מתוקה",
+      "1/2 כפית כורכום",
+      "1 כף אבקת מרק בטעם עוף (פרווה)",
+      "חופן כוסברה טרייה",
+      "מלח ופלפל לפי הטעם"
+    ],
+    "es": [
+      "2 tazas de aceitunas verdes deshuesadas",
+      "5 dientes de ajo picados",
+      "1 cda de pasta de tomate",
+      "1 cdta de pimentón dulce",
+      "1/2 cdta de cúrcuma",
+      "1 cda de caldo sabor pollo (vegano)",
+      "Un puñado de cilantro fresco",
+      "Sal y pimienta al gusto"
+    ],
+    "ar": [
+      "2 كؤوس زيتون أخضر (بدون عظم)",
+      "5 فصوص ثوم مهروس",
+      "1 مغرفة طماطم حكة (معجون)",
+      "1 ملعقة صغيرة فلفل أحمر",
+      "1/2 ملعقة صغيرة كركم",
+      "1 ملعقة كبيرة تابل دجاج نباتي",
+      "حفنة قزبر (كسبرة) طازج",
+      "ملح وفلفل أكحل حسب الذوق"
+    ],
+    "en": [
+      "2 cups pitted green olives",
+      "5 cloves garlic, minced",
+      "1 tbsp tomato paste",
+      "1 tsp sweet paprika",
+      "1/2 tsp turmeric",
+      "1 tbsp vegan chicken bouillon powder",
+      "Handful of fresh cilantro",
+      "Salt and pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מרתיחים את הזיתים בסיר עם מים ומעט כורכום כדי להוציא את המרירות, ומסננים.",
+      "מטגנים את השום קלות בשמן, מוסיפים פפריקה, מלח, פלפל ואבקת מרק.",
+      "מוסיפים את רסק העגבניות ומערבבים לפתיחת טעמים.",
+      "מוסיפים מים ליצירת רוטב ואת הזיתים המסוננים.",
+      "מבשלים על אש קטנה עד שהרוטב מסמיך, ומסיימים עם כוסברה קצוצה."
+    ],
+    "es": [
+      "Hervir las aceitunas con agua y un poco de cúrcuma para quitar el amargor, luego escurrir.",
+      "Sofreír el ajo ligeramente, añadir pimentón, sal, pimienta y el caldo en polvo.",
+      "Agregar la pasta de tomate y mezclar para liberar los sabores.",
+      "Añadir agua para formar la salsa e incorporar las aceitunas.",
+      "Cocinar a fuego lento hasta que la salsa espese y terminar con cilantro picado."
+    ],
+    "ar": [
+      "نغلي الزيتون في الماء مع قليل من الكركم لنزع المرارة، ثم نصفيه.",
+      "نقلي الثوم قليلاً في الزيت، ونضيف الفلفل الأحمر، الملح، الفلفل الأكحل وتابل الدجاج.",
+      "نضيف طماطم الحكة ونقلب جيداً.",
+      "نمرق بالماء ونضيف الزيتون المصفى.",
+      "نترك الطنجرة تغلي على نار هادئة حتى يعقد الصوص، وفي الأخير نضيف القزبر المفروم."
+    ],
+    "en": [
+      "Boil olives in water with a pinch of turmeric to remove bitterness, then drain.",
+      "Sauté garlic briefly in oil, then add paprika, salt, pepper, and bouillon powder.",
+      "Add tomato paste and stir to bloom the flavors.",
+      "Add water to create a sauce and stir in the olives.",
+      "Simmer until the sauce thickens, then finish with chopped cilantro."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "017_charoset",
+  "image": "charoset.png",
+  "meta": {
+    "servings": "6–8",
+    "prep_time": "15 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חרוסת",
+    "es": "Jaroset",
+    "ar": "حروست",
+    "en": "Charoset"
+  },
+  "description": {
+    "he": "ממרח מתוק המוגש בליל הסדר ומסמל את הטיט ששימש את בני ישראל במצרים. הגרסה הצפון-אפריקאית משלבת תמרים, אגוזים ותפוחים עם יין מתוק, ויוצרת מרקם עשיר ושונה מהגרסאות האשכנזיות. השם נגזר מהמילה העברית 'חרס' (טיט).",
+    "es": "Una pasta dulce servida en el Séder de Pésaj que simboliza la argamasa usada por los esclavos israelitas en Egipto. Esta versión norteafricana mezcla dátiles Medjool, nueces y manzanas con vino dulce, creando una textura rica. El nombre deriva de la palabra hebrea 'cheres' (arcilla).",
+    "ar": "عجينة حلوة تتقدم في ليلة السدر (عيد الفصح) وترمز للطين اللي استعملوه بنو إسرائيل في مصر. هذي الوصفة الشمال أفريقية تخلط التمر والفاكية والتفاح مع النبيذ الحلو. الاسم جاي من الكلمة العبرية 'حيرس' (طين).",
+    "en": "A sweet paste served at the Passover Seder symbolizing the mortar used by Israelite slaves in Egypt. This North African version blends Medjool dates, nuts, and apples with sweet wine for a rich texture. The name derives from the Hebrew word 'cheres' (clay)."
+  },
+  "ingredients": {
+    "he": [
+      "2 כוסות אגוזים (מלך ושקדים)",
+      "10 תמרי מג'הול (מגולענים)",
+      "1 תפוח עץ",
+      "יין אדום מתוק (טבעוני) לפי הצורך"
+    ],
+    "es": [
+      "2 tazas de nueces y almendras",
+      "10 dátiles Medjool (sin hueso)",
+      "1 manzana",
+      "Vino tinto dulce (vegano) según sea necesario"
+    ],
+    "ar": [
+      "2 كيسان فاكية (لوز وجوز)",
+      "10 كعبات تمر مجهول (منحي القلوب)",
+      "1 تفاحة",
+      "نبيذ أحمر حلو (نبيذ نباتي) حسب الحاجة"
+    ],
+    "en": [
+      "2 cups mixed nuts (walnuts and almonds)",
+      "10 Medjool dates (pitted)",
+      "1 apple",
+      "Sweet red wine (vegan) as needed"
+    ]
+  },
+  "steps": {
+    "he": [
+      "טוחנים את האגוזים והתמרים במעבד מזון למרקם גס.",
+      "מגררים את התפוח דק.",
+      "מערבבים את כל המרכיבים בקערה.",
+      "מוסיפים יין בהדרגה תוך כדי ערבוב עד לקבלת מרקם סמיך המזכיר טיט."
+    ],
+    "es": [
+      "Triturar las nueces y los dátiles en un procesador de alimentos hasta obtener una textura gruesa.",
+      "Rallar la manzana finamente.",
+      "Mezclar todos los ingredientes en un bol.",
+      "Añadir el vino gradualmente mientras se mezcla hasta obtener una consistencia espesa parecida a la argamasa."
+    ],
+    "ar": [
+      "ارحي الفاكية والتمر في الخلاط (mixeur) بشوية باش يبقوا خشان.",
+      "رابّي (ابشر) التفاحة.",
+      "خلّط كل شيء في صحفة.",
+      "زيد النبيذ بالشوية وانت تخلّط لين تولي عجينة عاقدة كيف الطين."
+    ],
+    "en": [
+      "Pulse nuts and dates in a food processor to a coarse texture.",
+      "Finely grate the apple.",
+      "Mix all ingredients together in a bowl.",
+      "Add wine gradually while mixing until a thick, mortar-like paste forms."
+    ]
+  }
+}

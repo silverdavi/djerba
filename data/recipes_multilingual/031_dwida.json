@@ -1,0 +1,90 @@
+{
+  "id": "031_dwida",
+  "image": "dwida.png",
+  "meta": {
+    "servings": "3–4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "דווידה",
+    "es": "Dwida",
+    "ar": "دويدة",
+    "en": "Dwida"
+  },
+  "description": {
+    "he": "דווידה היא מרק פסטה מנחם על בסיס עגבניות, הדומה למחמסה אך מוכן עם אטריות דקות או ספגטי שבור. השם נגזר מהמילה הערבית 'דווידה' (תולעת קטנה), המתייחסת לצורת האטריות. מנה פשוטה זו נהוגה בקהילות צפון אפריקה, ולעיתים קרובות מוגשת לשבירת הצום.",
+    "es": "La Dwida es una reconfortante sopa de pasta a base de tomate, similar a la Mhamsa pero hecha con fideos finos o espaguetis rotos. El nombre deriva del árabe 'Duwayda' (gusanito), refiriéndose a la forma de la pasta. Este plato sencillo se sirve tradicionalmente para romper el ayuno en las comunidades judías del norte de África.",
+    "ar": "الدويدة هي جاري (حساء) بالمقرونة رقيقة أو الشعيرية، تشبه المحمصة ولكن بنوع مختلف من العجين. الاسم مشتق من 'دويدة' (تصغير دودة) إشارة لشكل المعجنات. هذه الأكلة الساخنة والبسيطة معروفة عند اليهود في شمال إفريقيا وغالباً ما تقدم لكسر الصيام.",
+    "en": "Dwida is a comforting tomato-based pasta soup, similar to Mhamsa but made with thin noodles or broken spaghetti. The name derives from the Arabic 'Duwayda' (little worm), referring to the pasta shape. This simple, warming dish is traditionally served to break fasts in North African Jewish communities."
+  },
+  "ingredients": {
+    "he": [
+      "2 כפות שמן",
+      "1 כף רסק עגבניות",
+      "1 עגבניה קצוצה",
+      "1 פלפל חריף (או לפי הטעם)",
+      "1 כף פפריקה מתוקה",
+      "מלח",
+      "1.5 ליטר מים",
+      "250 גרם ספגטי דק (שבור) או אטריות דקות"
+    ],
+    "es": [
+      "2 cucharadas de aceite",
+      "1 cucharada de pasta de tomate",
+      "1 tomate picado",
+      "1 pimiento picante (al gusto)",
+      "1 cucharada de pimentón dulce",
+      "Sal",
+      "1.5 litros de agua",
+      "250g de espaguetis finos (rotos) o fideos"
+    ],
+    "ar": [
+      "2 ملاعق زيت",
+      "1 ملعقة طماطم حكة (معجون)",
+      "1 كعبة طماطم مقطعة",
+      "1 فلفل حار (حسب الرغبة)",
+      "1 ملعقة فلفل أحمر حلو",
+      "ملح",
+      "1.5 لتر ماء",
+      "250 غرام سباغيتي (مكسرة) أو شعيرية (دويدة)"
+    ],
+    "en": [
+      "2 tbsp oil",
+      "1 tbsp tomato paste",
+      "1 chopped tomato",
+      "1 hot pepper (to taste)",
+      "1 tbsp sweet paprika",
+      "Salt",
+      "1.5 liters water",
+      "250g thin spaghetti (broken) or vermicelli"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר ומטגנים קלות את רסק העגבניות, העגבניה הקצוצה, הפלפל החריף והתבלינים לפתיחת טעמים.",
+      "מוסיפים מים ומביאים לרתיחה.",
+      "מוסיפים את הספגטי השבור או האטריות הדקות.",
+      "מבשלים כ-10 דקות עד שהפסטה רכה והמרק מסמיך מעט."
+    ],
+    "es": [
+      "Calentar aceite en una olla y sofreír la pasta de tomate, el tomate fresco, el pimiento picante y las especias.",
+      "Añadir el agua y llevar a ebullición.",
+      "Agregar los espaguetis rotos o fideos finos.",
+      "Cocinar unos 10 minutos hasta que la pasta esté tierna y la sopa espese ligeramente."
+    ],
+    "ar": [
+      "سخن الزيت في طنجرة وقلّي طماطم الحكة، الطماطم المقطعة، الفلفل الحار والتوابل باش تخرج نكهتهم.",
+      "زيد الماء وخليه يغلي.",
+      "ارمي السباغيتي (مكسرة) أو الشعيرية (الدويدة) في المرقة.",
+      "طيبها حوالي 10 دقايق لين تطيب العجينة وتخثار المرقة شوية."
+    ],
+    "en": [
+      "Heat oil in a pot and sauté tomato paste, chopped tomato, hot pepper, and spices to release flavors.",
+      "Add water and bring to a boil.",
+      "Add the broken spaghetti or thin vermicelli.",
+      "Cook for about 10 minutes until the pasta is tender and the soup thickens slightly."
+    ]
+  }
+}

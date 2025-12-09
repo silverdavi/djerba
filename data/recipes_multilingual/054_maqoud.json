@@ -1,0 +1,90 @@
+{
+  "id": "054_maqoud",
+  "image": "maqoud.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "30 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מעקוד",
+    "es": "Maqoud",
+    "ar": "المعقودة",
+    "en": "Maqoud"
+  },
+  "description": {
+    "he": "פשטידת תפוחי אדמה תוניסאית מסורתית, שבמקור מבוססת על ביצים אך בגרסה זו מתייצבת בעזרת קמח חומוס המעניק מרקם נימוח וקרום זהוב. השם נגזר מהשורש הערבי ע-ק-ד (קשור או סמיך). מנה אהובה במיוחד בשבתות ובחגים בקרב יהודי ג'רבה.",
+    "es": "Un pastel de papa tunecino tradicional, reinventado aquí sin huevos utilizando harina de garbanzo para lograr una textura suave y dorada. El nombre deriva del árabe 'ma'qouda' (anudado o espesado). Es un plato reconfortante básico, servido a menudo en Shabat y festividades.",
+    "ar": "طاجين أو فطيرة البطاطا التونسية المحبوبة، في هذه الوصفة النباتية نستبدل البيض بدقيق الحمص للحصول على قوام متماسك ولذيذ. الاسم مشتق من الكلمة العربية 'معقودة'. أكلة مريحة تقدم عادة في أيام السبت والأعياد لدى يهود جربة.",
+    "en": "A traditional Tunisian potato pie, reimagined here without eggs by using chickpea flour to create a tender texture and golden crust. The name derives from the Arabic 'ma'qouda' (knotted or thickened). It is a staple comfort food, often served on Shabbat and holidays."
+  },
+  "ingredients": {
+    "he": [
+      "5 תפוחי אדמה בינוניים",
+      "1 כוס קמח חומוס + 1 כוס מים (תחליף לביצים)",
+      "1/2 צרור פטרוזיליה קצוצה",
+      "1 כוס אפונה וגזר (שימורים או מבושל)",
+      "1 כף קמח לבן",
+      "תבלינים: מלח, פלפל, כורכום",
+      "שמן לטיגון"
+    ],
+    "es": [
+      "5 papas medianas",
+      "1 taza de harina de garbanzo + 1 taza de agua (sustituto de huevo)",
+      "1/2 manojo de perejil picado",
+      "1 taza de guisantes y zanahorias (cocidos)",
+      "1 cucharada de harina de trigo",
+      "Especias: sal, pimienta, cúrcuma",
+      "Aceite para freír"
+    ],
+    "ar": [
+      "5 كعبات بطاطا متوسطة",
+      "1 كأس دقيق حمص + 1 كأس ماء (بديل العظم)",
+      "نصف ربطة معدنوس مقصوص",
+      "1 كأس جلبانة وسفنارية (طايبة)",
+      "1 مغرفة كبيرة فرينة",
+      "توابل: ملح، فلفل أكحل، كركم",
+      "زيت للقلي"
+    ],
+    "en": [
+      "5 medium potatoes",
+      "1 cup chickpea flour + 1 cup water (egg replacer)",
+      "1/2 bunch chopped parsley",
+      "1 cup peas and carrots (cooked/canned)",
+      "1 tbsp wheat flour",
+      "Spices: salt, pepper, turmeric",
+      "Oil for frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את תפוחי האדמה במים עד לריכוך ומועכים לפירה.",
+      "בקערה נפרדת, מערבבים קמח חומוס ומים לבלילה חלקה ללא גושים.",
+      "מערבבים את הפירה עם בלילת החומוס, כף קמח, פטרוזיליה, ירקות ותבלינים.",
+      "מחממים שמן במחבת עמוקה (נון-סטיק), יוצקים את הבלילה ומבשלים על אש נמוכה במכסה סגור עד להתייצבות (לוקח יותר זמן מביצים).",
+      "הופכים בזהירות בעזרת צלחת ומחזירים למחבת לטיגון הצד השני עד להזהבה."
+    ],
+    "es": [
+      "Hervir las papas hasta que estén tiernas y hacerlas puré.",
+      "En un tazón aparte, mezclar la harina de garbanzo y el agua hasta obtener una masa suave.",
+      "Combinar el puré con la mezcla de garbanzo, harina de trigo, perejil, verduras y especias.",
+      "Calentar aceite en una sartén profunda antiadherente, verter la mezcla y cocinar a fuego lento tapado hasta que cuaje (tarda más que con huevos).",
+      "Dar la vuelta con cuidado usando un plato y cocinar el otro lado hasta que esté dorado."
+    ],
+    "ar": [
+      "اسمط البطاطا في الماء حتى تطيب وارحيها (بيّرية).",
+      "خلط دقيق الحمص مع الماء في صحفة وحدها حتى تولي عجينة جارية بلاش كعابر.",
+      "خلط البطاطا مع خليط الحمص، مغرفة الفرينة، المعدنوس، الجلبانة والسفنارية والفاحات.",
+      "سخّن الزيت في مقلة غارقة (ما تلصقش)، صب الخليط وطيبها على نار هادية ومغطية حتى تشد روحها (تاخو وقت أكثر من العظم).",
+      "اقلب المعقودة بحذر باستعمال تبسي ورجعها للمقلة باش تطيب من الجهة الأخرى."
+    ],
+    "en": [
+      "Boil potatoes until tender and mash them.",
+      "In a separate bowl, whisk chickpea flour and water into a smooth batter.",
+      "Combine mashed potatoes with the chickpea mixture, wheat flour, parsley, vegetables, and spices.",
+      "Heat oil in a deep non-stick pan, pour in the batter, cover, and cook on low heat until set (takes longer than eggs).",
+      "Flip carefully using a plate and cook the other side until golden."
+    ]
+  }
+}

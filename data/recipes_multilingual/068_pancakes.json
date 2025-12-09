@@ -1,0 +1,94 @@
+{
+  "id": "068_pancakes",
+  "image": "pancakes.png",
+  "meta": {
+    "servings": "2–3",
+    "prep_time": "5 min",
+    "cook_time": "15 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פנקייק",
+    "es": "Tortitas",
+    "ar": "بان كيك",
+    "en": "Pancakes"
+  },
+  "description": {
+    "he": "מתכון משפחתי אהוב (של סולי) לארוחות בוקר מפנקות. במקור המנה מבוססת על ביצים וחלב, אך גרסה זו הותאמה למטבח הטבעוני בעזרת רסק תפוחים המעניק אווריריות ורכות לבלילה.",
+    "es": "Una receta familiar favorita (de Soly) para desayunos especiales. Aunque tradicionalmente se hace con huevos y leche, esta versión vegana utiliza compota de manzana para lograr una textura suave y esponjosa.",
+    "ar": "وصفة عائلية محبوبة (من سولي) لفطور الصباح. في الأصل تُحضر بالعظم (البيض) والحليب، لكن هذه النسخة النباتية تستخدم \"compote\" التفاح باش تجي العجينة خفيفة وطرية.",
+    "en": "A beloved family recipe (Soly's version) for indulgent breakfasts. While traditionally made with eggs and milk, this vegan adaptation uses applesauce to create a light and fluffy batter."
+  },
+  "ingredients": {
+    "he": [
+      "1 כוס קמח",
+      "3 כפות סוכר",
+      "קורט מלח",
+      "1/2 שקית אבקת אפייה",
+      "1.5 שקיות סוכר וניל",
+      "1/2 כפית סודה לשתייה",
+      "3 כפות רסק תפוחים",
+      "3 כפות שמן",
+      "3/4 כוס מים"
+    ],
+    "es": [
+      "1 taza de harina",
+      "3 cdas de azúcar",
+      "Una pizca de sal",
+      "1/2 sobre de levadura química (polvo de hornear)",
+      "1.5 sobres de azúcar avainillado",
+      "1/2 cdta de bicarbonato de sodio",
+      "3 cdas de compota de manzana",
+      "3 cdas de aceite",
+      "3/4 taza de agua"
+    ],
+    "ar": [
+      "1 كأس فارينة",
+      "3 ملاعق سكر",
+      "رشة ملح",
+      "1/2 كيس خميرة مرطبات (خميرة قاطو)",
+      "1.5 كيس سكر فانيليا",
+      "1/2 ملعقة صغيرة بيكربونات",
+      "3 ملاعق \"compote\" تفاح (عصيدة تفاح)",
+      "3 ملاعق زيت",
+      "3/4 كأس ماء"
+    ],
+    "en": [
+      "1 cup flour",
+      "3 tbsp sugar",
+      "A pinch of salt",
+      "1/2 sachet baking powder",
+      "1.5 sachets vanilla sugar",
+      "1/2 tsp baking soda",
+      "3 tbsp applesauce",
+      "3 tbsp oil",
+      "3/4 cup water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים בקערה את כל החומרים היבשים: קמח, סוכר, מלח, אבקת אפייה, סוכר וניל וסודה לשתייה.",
+      "מוסיפים את החומרים הרטובים: רסק תפוחים, שמן ומים.",
+      "מערבבים בעדינות רק עד שהקמח נטמע (חשוב לא לערבב יותר מדי כדי לשמור על האווריריות).",
+      "מחממים מחבת משומנת קלות ומטגנים את הפנקייקים משני הצדדים עד להזהבה."
+    ],
+    "es": [
+      "Mezclar en un bol todos los ingredientes secos: harina, azúcar, sal, levadura, azúcar avainillado y bicarbonato.",
+      "Añadir los ingredientes húmedos: compota de manzana, aceite y agua.",
+      "Mezclar suavemente solo hasta integrar (no batir en exceso para mantener la esponjosidad).",
+      "Calentar una sartén ligeramente engrasada y cocinar las tortitas por ambos lados hasta que estén doradas."
+    ],
+    "ar": [
+      "خلط في صحفة كل المكونات الشايحة: الفارينة، السكر، الملح، خميرة القاطو، سكر الفانيليا والبيكربونات.",
+      "زيد المكونات السائلة: \"compote\" التفاح، الزيت والماء.",
+      "خلط بشوية لين تتجانس العجينة (رد بالك تخلط برشا باش تقعد خفيفة).",
+      "سخن المقلاة وادهنها بشوية زيت، وطيب \"البان كيك\" من الجهتين لين يحمارو."
+    ],
+    "en": [
+      "In a bowl, mix all dry ingredients: flour, sugar, salt, baking powder, vanilla sugar, and baking soda.",
+      "Add the wet ingredients: applesauce, oil, and water.",
+      "Mix gently just until combined (do not overmix to keep them fluffy).",
+      "Heat a lightly oiled pan and cook the pancakes on both sides until golden brown."
+    ]
+  }
+}

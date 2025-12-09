@@ -1,0 +1,94 @@
+{
+  "id": "053_mahshi",
+  "image": "mahshi.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "45 min",
+    "cook_time": "60 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מחשי",
+    "es": "Mahshi",
+    "ar": "المحشي",
+    "en": "Mahshi"
+  },
+  "description": {
+    "he": "מחשי (מהמילה הערבית \"ממולא\") היא מנה חגיגית קלאסית במטבח היהודי-תוניסאי, המוגשת לרוב בשבתות ובחגים. בעוד שהגרסה המסורתית משתמשת בבשר וביצים, גרסה טבעונית זו משמרת את המרקם העשיר בעזרת סייטן קצוץ וקמח חומוס כחומר מקשר.",
+    "es": "Mahshi (de la palabra árabe para \"relleno\") es un plato festivo clásico en la cocina judía tunecina. Aunque tradicionalmente se hace con carne y huevo, esta adaptación vegana conserva la textura rica utilizando seitán picado y harina de garbanzos como aglutinante.",
+    "ar": "المحشي هي أكلة احتفالية معروفة عند اليهود التوانسة، وتتكون من خضرة معمرة. الوصفة التقليدية فيها العظم (البيض) واللحم، لكن في هذي النسخة النباتية استعملنا دقيق الحمص والسيتان أو التوفو باش نحافظوا على البنة والقوام الأصلي.",
+    "en": "Mahshi (from the Arabic for \"stuffed\") is a festive staple in Tunisian Jewish cuisine, often served on Shabbat and holidays. While traditionally bound with eggs and meat, this vegan adaptation uses minced seitan and chickpea flour to recreate the classic rich texture."
+  },
+  "ingredients": {
+    "he": [
+      "6-8 ירקות למילוי (תפו\"א, קישוא, חציל, כרוב)",
+      "1 כוס אורז שטוף",
+      "200 גרם סייטן או טופו, קצוץ דק",
+      "3 כפות קמח חומוס + 3 כפות מים (תחליף ביצה)",
+      "1 בצל קצוץ",
+      "2-3 עגבניות חתוכות",
+      "ירקות לרוטב (קוביות דלעת/קישוא)",
+      "תבלינים: מלח, פלפל"
+    ],
+    "es": [
+      "6-8 verduras para rellenar (patata, calabacín, berenjena)",
+      "1 taza de arroz lavado",
+      "200g de seitán o tofu, picado fino",
+      "3 cdas harina de garbanzo + 3 cdas agua (huevo vegano)",
+      "1 cebolla picada",
+      "2-3 tomates troceados",
+      "Verduras para la salsa (calabaza/calabacín)",
+      "Especias: sal, pimienta"
+    ],
+    "ar": [
+      "8-6 خضرة للحشو (بطاطا، قرع، باذنجان، كرنب)",
+      "1 كأس روز مغسول",
+      "200غ سيتان أو توفو مفروم",
+      "3 مغارف دقيق حمص + 3 مغارف ماء (في بلاصة العظم)",
+      "1 بصلة مقصوصة",
+      "3-2 كعبات طماطم مقصوصة",
+      "خضرة للمرقة (طرف قرع أحمر/قرع بوطزينة)",
+      "فاحات: ملح، فلفل أكحل"
+    ],
+    "en": [
+      "6-8 veggies to stuff (potato, zucchini, eggplant)",
+      "1 cup rice, rinsed",
+      "200g seitan or tofu, finely minced",
+      "3 tbsp chickpea flour + 3 tbsp water (egg replacer)",
+      "1 onion, chopped",
+      "2-3 tomatoes, chopped",
+      "Sauce vegetables (pumpkin/zucchini chunks)",
+      "Spices: Salt, pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מרוקנים את הירקות המיועדים למילוי (תפו\"א, קישוא, חציל וכד').",
+      "מערבבים בקערה את קמח החומוס והמים, מוסיפים אורז, סייטן/טופו קצוץ ותבלינים לתערובת אחידה.",
+      "ממלאים את הירקות בתערובת האורז.",
+      "בסיר רחב, מטגנים בצל, מוסיפים עגבניות, ירקות נוספים (כמו דלעת), מים ותבלינים.",
+      "מסדרים בזהירות את הירקות הממולאים בתוך הרוטב ומבשלים עד שהאורז והירקות רכים."
+    ],
+    "es": [
+      "Vaciar las verduras elegidas (patatas, calabacines, berenjenas).",
+      "Mezclar la harina de garbanzos con agua, añadir el arroz, el seitán/tofu picado y las especias.",
+      "Rellenar las verduras con la mezcla.",
+      "En una olla, sofreír la cebolla, añadir tomates, verduras extra (como calabaza), agua y especias.",
+      "Colocar con cuidado las verduras rellenas en la salsa y cocinar hasta que estén tiernas."
+    ],
+    "ar": [
+      "قوّر الخضرة (بطاطا، قرع، باذنجان) باش تعمرها.",
+      "خلّط دقيق الحمص مع الماء (في بلاصة العظم)، وزيد الروز، السيتان أو التوفو المفروم، والفاحات.",
+      "عمّر الخضرة بالحشو.",
+      "في طنجرة، قلّي البصل في الزيت، زيد الطماطم وخضرة أخرى (كيف القرع الأحمر)، الماء والفاحات.",
+      "حط الخضرة المعمرة في المرقة بشوية بشوية، وطيّبها لين يحضر الروز والخضرة."
+    ],
+    "en": [
+      "Hollow out the vegetables (potatoes, zucchini, eggplant, etc.).",
+      "Mix chickpea flour and water, then combine with rice, minced seitan/tofu, and spices.",
+      "Stuff the hollowed vegetables with the mixture.",
+      "In a pot, sauté onion, add tomatoes, extra vegetables (like pumpkin), water, and spices.",
+      "Carefully place stuffed vegetables into the sauce and simmer until cooked through."
+    ]
+  }
+}
