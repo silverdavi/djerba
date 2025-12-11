@@ -102,5 +102,6 @@
       "Pour the crumble mixture evenly over the apples.",
       "Bake for 50-60 minutes until the apples are soft and the topping is browned."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Apple Crumble.\n\nCRITICAL: This is a CAKE - show it in a CAKE PAN, not a bowl!\n\nShow:\n- Apple crumble baked in a round or square cake pan\n- Golden-brown crumble topping\n- Visible apple filling\n- Perhaps a slice cut to show layers\n- Cake pan visible (not just the dish)\n\nProfessional food photography, bakery style, warm lighting."
 }

@@ -16,7 +16,7 @@
   "description": {
     "he": "רוטב עשיר וקרמי שבמקור מבוסס על אנשובי וביצים, אך בגירסה זו מקבל את טעמו העמוק מצלפים ומי כבישה. תוספת מודרנית ונהדרת לסלטים טריים בשולחן השבת.",
     "es": "Un aderezo cremoso clásico, adaptado aquí sin las anchoas ni huevos tradicionales. Esta versión vegana utiliza alcaparras y su salmuera para capturar ese sabor profundo y salado característico.",
-    "ar": "صوص 'سيزر' المعروفة، حضرناها بطريقة نباتية من غير عظم (بيض) ولا أنشوة. استعملنا الكبار (Capers) باش يعطينا طعمة الملوحية والبنة القوية للسلطة.",
+    "ar": "صوص 'سيزر' المعروفة، حضرناها بطريقة نباتية من غير عظم (بيض) ولا أنشوة. استعملنا الكبار باش يعطينا طعمة الملوحية والبنة القوية للسلطة.",
     "en": "Originally reliant on anchovies and eggs, this plant-based adaptation uses capers and brine to replicate the signature savory depth. A creamy, modern addition to the family table."
   },
   "ingredients": {
@@ -42,7 +42,7 @@
     ],
     "ar": [
       "1/2 كأس مايونيز نباتي",
-      "1 مغرفة صغيرة كبار (capers)",
+      "1 مغرفة صغيرة كبار",
       "1-2 مغرفة صغيرة ماء الكبار",
       "2 مغارف كبار عصير قارص",
       "1-2 مغرفة صغيرة موتارد (خردل)",
@@ -82,5 +82,6 @@
       "Blend thoroughly until the dressing is completely smooth.",
       "Taste and adjust seasonings as needed before serving."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Vegan Caesar Dressing.\n\nTHIS IS A DRESSING/SAUCE, NOT A SOUP!\n\nShow:\n- A small jar or bowl with creamy dressing\n- Rich, thick, pourable consistency\n- Creamy off-white/pale yellow color\n- Perhaps drizzled over salad greens nearby\n\nProfessional food photography, natural light, cookbook quality."
 }

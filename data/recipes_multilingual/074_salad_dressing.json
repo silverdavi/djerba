@@ -90,5 +90,6 @@
       "Store in the refrigerator in a sealed jar (keeps for a long time).",
       "Best served over white/purple cabbage or lettuce, sprinkled with roasted almonds or crunchy snacks."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Salad Dressing.\n\nCRITICAL: This is a DRESSING, NOT a cake!\n\nShow:\n- Small jar or bowl with dressing\n- Liquid/pourable consistency\n- Fresh appearance\n- Perhaps some salad greens nearby\n- NO cake, NO baked goods\n\nProfessional food photography, natural light."
 }

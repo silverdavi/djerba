@@ -58,13 +58,15 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
   padding: 0.6in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -150,6 +152,7 @@ h2 {
   min-height: 0.9in;
   position: relative;
   background: transparent;
+  width: 100%;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -158,6 +161,8 @@ h2 {
           contrast(1.05)
           saturate(1.1);
   transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .title-word::before {
@@ -195,6 +200,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -205,6 +213,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 3rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.5rem;
+}
+
+.title-word.title-small {
+  font-size: 2rem;
 }
 
 /* ============================================
@@ -221,6 +245,14 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -257,23 +289,48 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 0.3in;
   height: 100%;
-  overflow: hidden;
+  max-height: 100%;
+  overflow: visible;
   align-items: start;
+  position: relative;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Vertical divider between columns - minimal but visible */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   gap: 0.15in;
-  overflow: hidden;
+  overflow: visible;
   justify-content: flex-start;
   align-items: stretch;
+  padding: 0 0.1in;
+  position: relative;
+  z-index: 1;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .column > div {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: 100%;
 }
 
 .section-label {
@@ -369,6 +426,7 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
@@ -384,6 +442,8 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -395,6 +455,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -424,6 +485,21 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .two-col {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .column {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 
@@ -438,10 +514,10 @@ h2 {
     <div class="page-inner">
 
       <div class="title-row">
-        <div class="title-word lang-es"><span>Marqat Gannariya</span></div>
-        <div class="title-word lang-he"><span>מרקת גנרייה</span></div>
-        <div class="title-word lang-en"><span>Marqat Gannariya</span></div>
-        <div class="title-word lang-ar"><span>مرقة قنارية</span></div>
+        <div class="title-word lang-es title-small"><span>Marqat Gannariya</span></div>
+        <div class="title-word lang-he title-medium"><span>מרקת גנרייה</span></div>
+        <div class="title-word lang-en title-small"><span>Marqat Gannariya</span></div>
+        <div class="title-word lang-ar title-medium"><span>مرقة قنارية</span></div>
       </div>
 
       <div class="section">
@@ -494,39 +570,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: HEBREW + SPANISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-es compact">
-          <div>
-            <div class="section-label">Ingredientes</div>
-            <ul class="ingredients-list">
-              <li>400g corazones de alcachofa</li>
-              <li>1 bandeja de champiñones cortados</li>
-              <li>4 dientes de ajo machacados</li>
-              <li>3 cdas de aceite</li>
-              <li>1 cdta de cúrcuma</li>
-              <li>1 cda condimento sabor pollo vegano</li>
-              <li>Sal y pimienta negra</li>
-              <li>Jugo de 1/2 limón</li>
-              <li>Manojo de perejil picado</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instrucciones</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sofreír ligeramente el ajo en aceite (con cuidado de no quemarlo).</li>
-              <li class="step"><span class="step-num">2.</span>Añadir sal, pimienta, condimento vegano, cúrcuma y jugo de limón.</li>
-              <li class="step"><span class="step-num">3.</span>Agregar los champiñones y las alcachofas, mezclando bien.</li>
-              <li class="step"><span class="step-num">4.</span>Añadir agua hasta cubrir las verduras y llevar a ebullición.</li>
-              <li class="step"><span class="step-num">5.</span>Cocinar a fuego lento hasta que la salsa reduzca y las verduras estén tiernas.</li>
-              <li class="step"><span class="step-num">6.</span>Decorar con perejil fresco antes de servir.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-he tight">
           <div>
             <div class="section-label">מצרכים</div>
@@ -555,6 +602,35 @@ h2 {
             </ul>
           </div>
         </div>
+
+        <div class="column lang-es compact">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>400g corazones de alcachofa</li>
+              <li>1 bandeja de champiñones cortados</li>
+              <li>4 dientes de ajo machacados</li>
+              <li>3 cdas de aceite</li>
+              <li>1 cdta de cúrcuma</li>
+              <li>1 cda condimento sabor pollo vegano</li>
+              <li>Sal y pimienta negra</li>
+              <li>Jugo de 1/2 limón</li>
+              <li>Manojo de perejil picado</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Sofreír ligeramente el ajo en aceite (con cuidado de no quemarlo).</li>
+              <li class="step"><span class="step-num">2.</span>Añadir sal, pimienta, condimento vegano, cúrcuma y jugo de limón.</li>
+              <li class="step"><span class="step-num">3.</span>Agregar los champiñones y las alcachofas, mezclando bien.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir agua hasta cubrir las verduras y llevar a ebullición.</li>
+              <li class="step"><span class="step-num">5.</span>Cocinar a fuego lento hasta que la salsa reduzca y las verduras estén tiernas.</li>
+              <li class="step"><span class="step-num">6.</span>Decorar con perejil fresco antes de servir.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="page-num">3</div>
@@ -562,39 +638,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ARABIC + ENGLISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-en compact">
-          <div>
-            <div class="section-label">Ingredients</div>
-            <ul class="ingredients-list">
-              <li>400g artichoke hearts</li>
-              <li>1 punnet sliced mushrooms</li>
-              <li>4 garlic cloves, crushed</li>
-              <li>3 tbsp oil</li>
-              <li>1 tsp turmeric</li>
-              <li>1 tbsp vegan chicken-style seasoning</li>
-              <li>Salt and black pepper</li>
-              <li>Juice of 1/2 lemon</li>
-              <li>Handful chopped parsley</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instructions</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Lightly fry the crushed garlic in oil (do not burn).</li>
-              <li class="step"><span class="step-num">2.</span>Add salt, pepper, vegan seasoning, turmeric, and lemon juice to create a base.</li>
-              <li class="step"><span class="step-num">3.</span>Add mushrooms and artichoke hearts, stirring well to coat.</li>
-              <li class="step"><span class="step-num">4.</span>Add water to cover vegetables and bring to a boil.</li>
-              <li class="step"><span class="step-num">5.</span>Simmer until sauce reduces and vegetables are tender.</li>
-              <li class="step"><span class="step-num">6.</span>Garnish with fresh parsley before serving.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-ar compact">
           <div>
             <div class="section-label">المكونات</div>
@@ -620,6 +667,35 @@ h2 {
               <li class="step"><span class="step-num">4.</span>مرق بالماء لين تتغطى الخضرة وخلي الطنجرة تغلي.</li>
               <li class="step"><span class="step-num">5.</span>نقّص النار وخليها تطيب لين تخثار المرقة وتقر زيتها.</li>
               <li class="step"><span class="step-num">6.</span>في اللخر، رش المعدنوس من فوق وقدمها.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-en compact">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>400g artichoke hearts</li>
+              <li>1 punnet sliced mushrooms</li>
+              <li>4 garlic cloves, crushed</li>
+              <li>3 tbsp oil</li>
+              <li>1 tsp turmeric</li>
+              <li>1 tbsp vegan chicken-style seasoning</li>
+              <li>Salt and black pepper</li>
+              <li>Juice of 1/2 lemon</li>
+              <li>Handful chopped parsley</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Lightly fry the crushed garlic in oil (do not burn).</li>
+              <li class="step"><span class="step-num">2.</span>Add salt, pepper, vegan seasoning, turmeric, and lemon juice to create a base.</li>
+              <li class="step"><span class="step-num">3.</span>Add mushrooms and artichoke hearts, stirring well to coat.</li>
+              <li class="step"><span class="step-num">4.</span>Add water to cover vegetables and bring to a boil.</li>
+              <li class="step"><span class="step-num">5.</span>Simmer until sauce reduces and vegetables are tender.</li>
+              <li class="step"><span class="step-num">6.</span>Garnish with fresh parsley before serving.</li>
             </ul>
           </div>
         </div>

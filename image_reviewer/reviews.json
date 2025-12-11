@@ -1,0 +1,522 @@
+{
+  "059_mhamsa": {
+    "rating": 7,
+    "notes": "No meat please. Just the ptitim.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "060_mocha_java_cake": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "062_msiyer": {
+    "rating": 8,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "063_nazha": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "064_naja": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "065_nougat_peanut_cake": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "066_ojja_merguez": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "067_pain_perdu": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "068_pancakes": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "069_pastel": {
+    "rating": 6,
+    "notes": "The eggs should not be visible, and no olives....",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "070_chocolate_peanut_bars": {
+    "rating": 8,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "071_peanut_chocolate_bars": {
+    "rating": 8,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "072_pizza": {
+    "rating": 10,
+    "notes": "Should be thick, open top, like foccacia with green olives ",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "073_bkila": {
+    "rating": 8,
+    "notes": "No need for tofu",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "074_salad_dressing": {
+    "rating": 7,
+    "notes": "You drew a cake. No dressing here.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "075_schnitzel": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "076_assida": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "077_semolina_porridge": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "078_sfenj": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "080_shawarma": {
+    "rating": 10,
+    "notes": "It should be dry shwarmw (spiced) not a stew",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "081_shepherds_pie": {
+    "rating": 6,
+    "notes": "The bottom is grounded meat, not runny stew.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "082_shlomit_dressing": {
+    "rating": 10,
+    "notes": "WRONG COLOR. Should be yelowish...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "083_shmid": {
+    "rating": 10,
+    "notes": "No vegetabales! It's just soupy/stew of semolina cooked it paprika and oil and water...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "084_pancakes_soly": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "085_sourdough_bread": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "086_sufganiyot": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "087_tbikha_chagim": {
+    "rating": 10,
+    "notes": "The color should be a tiny bit greener.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "088_tbikhat_tmatem": {
+    "rating": 9,
+    "notes": "Add one mushroom and some cubed potatoes. and more in the bowl",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "090_tfina": {
+    "rating": 10,
+    "notes": "Less tofu, more dark color.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "091_tirshi": {
+    "rating": 10,
+    "notes": "No need to add potatoes and stuf... it's just a dip. Also, better dip bowl, not soup bowl...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "092_wheat_berries": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "093_yoyo": {
+    "rating": 10,
+    "notes": "Very good but they should have a hole",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "001_adafina": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "002_admeshushah": {
+    "rating": 7,
+    "notes": "Less peppers, more wet -- should be soup liquidy!",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "003_apple_crumble": {
+    "rating": 9,
+    "notes": "IT's a cake, put in cake pan. ",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "004_artichoke_mushroom_stew": {
+    "rating": 8,
+    "notes": "it's good but too creamy. The sauce is less opaque...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "005_bolo_banan": {
+    "rating": 7,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "006_banana_cake": {
+    "rating": 7,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "007_banatage": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "008_beshisha": {
+    "rating": 4,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "009_biscotti": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "010_bkaila": {
+    "rating": 7,
+    "notes": "Remove the min",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "011_brik": {
+    "rating": 7,
+    "notes": "No powdered sugar.. it's savory! Also, it's not trianlge, its half a circle (a folded circle)",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "012_brodo": {
+    "rating": 9,
+    "notes": "Good, but it should be more soup than stew.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "013_bsisa": {
+    "rating": 7,
+    "notes": "Pretty good, but should not be visible oil... but still the powder is mixed with oil and some dates on top is nice, and an old key on it.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "014_bunutage": {
+    "rating": 7,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "015_caesar_dressing": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "016_vegan_caesar": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "017_charoset": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "018_hummus_salad": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "019_slata_homs": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false
+  },
+  "020_chocolate_balls": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "021_chocolate_cake": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "022_chocolate_chip_cookies": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "023_chocolate_peanut_butter_muffins": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false
+  },
+  "024_chocolate_peanut_muffins": {
+    "rating": 7,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "025_cholent": {
+    "rating": 10,
+    "notes": "VERY GOOD, but tth epotaoes should be peeled. Instead of eggs put small mushrtooms",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "026_couscous": {
+    "rating": 10,
+    "notes": "IT should be smllaer grains (Semolina coarse), and no water...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "027_couscous_soup": {
+    "rating": 10,
+    "notes": "Focus on the soup with the vegatbales. Couscous should be maybe in the background.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "028_cujada": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "029_dabikh": {
+    "rating": 8,
+    "notes": "no, redo it. It's soup/runny stew, with potatoes and pumpkins and greens like dill and parsley coooked well. some brown green tint.",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "031_dwida": {
+    "rating": 8,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "032_french_toast": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "033_fricassee_stew": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "034_fricasse": {
+    "rating": 9,
+    "notes": "IT's not borrito. It's filled in a half cut like bun...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "035_frikaseh": {
+    "rating": 0,
+    "notes": "I don't know if it's chicken fricasse or the fried bun",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "036_granola_cookies": {
+    "rating": 7,
+    "notes": "No almonds...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "037_green_beans": {
+    "rating": 10,
+    "notes": "WTH is the pastry there? It's a stew of grean beans in red sauce.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "038_hallah": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "039_harimi": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "040_hita": {
+    "rating": 9,
+    "notes": "This should be wheat grains cooked with gralic and spices, not the stew itself...",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "041_khobz_dar": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "042_honey_cake": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "043_fudge_cake": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "044_hot_fudge_cake": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "045_hraime": {
+    "rating": 10,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "046_hsou": {
+    "rating": 9,
+    "notes": "It's a light red soop with semolina, not cakes.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "047_ktaa": {
+    "rating": 10,
+    "notes": "It's soup (onions, red with paprika a bit etc) with peices of torn dough by hand to be cooked in...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "048_kuklot": {
+    "rating": 9,
+    "notes": "They are not gray gray. They should be brownish light balls of semolina with oil and spices...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "049_lham_sfar": {
+    "rating": 8,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "050_loubia_khadra": {
+    "rating": 9,
+    "notes": "No seasame, no uncooked peppers, please,",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "051_maakouda": {
+    "rating": 8,
+    "notes": "tiny bits of peas and carrots should be visible.",
+    "needs_regen": false,
+    "is_duplicate": true
+  },
+  "053_mahshi": {
+    "rating": 9,
+    "notes": "they need to be more cooked an in light red sauce.",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "054_maqoud": {
+    "rating": 9,
+    "notes": "",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "055_marmouma": {
+    "rating": 10,
+    "notes": "The red peppers should be sliced. It's tomatoes, garlic and peppers cooked for many hours with paprika and kosher salt...",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "057_marqa_zeitoun": {
+    "rating": 8,
+    "notes": "It's only olives in runny tomato sauce. No potatoes and carrots... NO CHIcjkpeas... THE OLIVES MUST BE PITTED!",
+    "needs_regen": false,
+    "is_duplicate": false
+  },
+  "058_marqat_gannariya": {
+    "rating": 7,
+    "notes": "Smaller atichockes, smaller baby mushrooms. color sho",
+    "needs_regen": false,
+    "is_duplicate": true
+  }
+}

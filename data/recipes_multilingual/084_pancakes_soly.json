@@ -14,10 +14,10 @@
     "en": "Soly's Pancakes"
   },
   "description": {
-    "he": "מתכון משפחתי אהוב לפנקייקים אווריריים ומתוקים, מושלמים לארוחת בוקר. הגרסה הטבעונית מחליפה את הביצים ברסק תפוחים לקבלת מרקם רך ולח. המנה נקראת על שם סולי, בן המשפחה ששכלל את המתכון.",
-    "es": "Una receta familiar muy querida de tortitas esponjosas y dulces. Aunque tradicionalmente llevan huevo, esta versión vegana utiliza puré de manzana para lograr una textura suave. Nombrada en honor a Soly, el familiar que perfeccionó la receta.",
+    "he": "מתכון משפחתי אהוב לפנקייקים אווריריים ומתוקים, מושלמים לארוחת בוקר. הגרסה הטבעונית מחליפה את הביצים ברסק תפוחים לקבלת מרקם רך ולח. המנה נקראת על שם סולי, בת המשפחה ששכללה את המתכון.",
+    "es": "Una receta familiar muy querida de tortitas esponjosas y dulces. Aunque tradicionalmente llevan huevo, esta versión vegana utiliza puré de manzana para lograr una textura suave. Nombrada en honor a Soly, la familiar que perfeccionó la receta.",
     "ar": "وصفة عائلية محبوبة لبانكيك خفيف وحلو، مثالي لفطور الصباح. في العادة يتعمل بالعظم، أما في هذه النسخة النباتية استعملنا \"كمبوت\" التفاح باش يجي طري. تسمات على اسم \"سولي\" اللي تفنن فيها.",
-    "en": "A beloved family recipe for fluffy, sweet pancakes. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve a light texture. Named after Soly, the family member who perfected the dish."
+    "en": "A beloved family recipe for fluffy, sweet pancakes. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve a light texture. Named after Soly, who perfected the dish."
   },
   "ingredients": {
     "he": [
@@ -90,5 +90,6 @@
       "Heat a little oil in a pan over medium heat.",
       "Pour batter into the pan and cook on both sides until golden brown."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of homestyle pancakes.\n\nShow:\n- Stacked fluffy pancakes\n- Golden brown color\n- Perhaps some fruit topping\n- Syrup\n\nProfessional food photography, warm morning light."
 }

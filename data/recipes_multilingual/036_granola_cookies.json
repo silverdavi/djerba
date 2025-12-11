@@ -110,5 +110,6 @@
       "Drop mounds of dough onto a parchment-lined baking sheet, spacing them apart.",
       "Bake for 18–20 minutes until edges are golden and set but centers remain soft."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Granola Cookies.\n\nCRITICAL REQUIREMENTS:\n- NO almonds\n- Granola should be BAKED (toasted, golden), NOT raw\n- NO pumpkin seeds\n- Round, rustic cookies\n- Golden-brown baked color\n- Visible oats and baked granola pieces\n\nProfessional food photography, warm bakery lighting."
 }

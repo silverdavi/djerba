@@ -58,13 +58,15 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
   padding: 0.6in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -150,6 +152,7 @@ h2 {
   min-height: 0.9in;
   position: relative;
   background: transparent;
+  width: 100%;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -158,6 +161,8 @@ h2 {
           contrast(1.05)
           saturate(1.1);
   transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .title-word::before {
@@ -195,6 +200,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -205,6 +213,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 3rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.5rem;
+}
+
+.title-word.title-small {
+  font-size: 2rem;
 }
 
 /* ============================================
@@ -221,6 +245,14 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -257,23 +289,48 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 0.3in;
   height: 100%;
-  overflow: hidden;
+  max-height: 100%;
+  overflow: visible;
   align-items: start;
+  position: relative;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Vertical divider between columns - minimal but visible */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   gap: 0.15in;
-  overflow: hidden;
+  overflow: visible;
   justify-content: flex-start;
   align-items: stretch;
+  padding: 0 0.1in;
+  position: relative;
+  z-index: 1;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .column > div {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: 100%;
 }
 
 .section-label {
@@ -369,6 +426,7 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
@@ -384,6 +442,8 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -395,6 +455,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -424,6 +485,21 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .two-col {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .column {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 
@@ -438,10 +514,10 @@ h2 {
     <div class="page-inner">
 
       <div class="title-row">
-        <div class="title-word lang-es"><span>Gachas de Sémola</span></div>
-        <div class="title-word lang-he"><span>דייסת סולת</span></div>
-        <div class="title-word lang-en"><span>Semolina Porridge</span></div>
-        <div class="title-word lang-ar"><span>الدايسة</span></div>
+        <div class="title-word lang-es title-small"><span>Gachas de Sémola</span></div>
+        <div class="title-word lang-he title-medium"><span>דייסת סולת</span></div>
+        <div class="title-word lang-en title-small"><span>Semolina Porridge</span></div>
+        <div class="title-word lang-ar title-large"><span>الدايسة</span></div>
       </div>
 
       <div class="section">
@@ -494,35 +570,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: HEBREW + SPANISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-es compact">
-          <div>
-            <div class="section-label">Ingredientes</div>
-            <ul class="ingredients-list">
-              <li>1/2 taza de sémola de trigo</li>
-              <li>4 tazas de leche vegetal (soja, almendra o avena)</li>
-              <li>3-4 cdas de azúcar (o jarabe de arce)</li>
-              <li>Una pizca de sal</li>
-              <li>1 cda de aceite de coco o mantequilla vegana</li>
-              <li>Para servir: canela, nueces picadas</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instrucciones</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Calentar la leche vegetal con el azúcar y la sal en una olla mediana hasta que esté a punto de hervir.</li>
-              <li class="step"><span class="step-num">2.</span>Bajar el fuego y añadir la sémola poco a poco, batiendo constantemente para evitar grumos.</li>
-              <li class="step"><span class="step-num">3.</span>Cocinar a fuego lento durante 3-5 minutos hasta que espese.</li>
-              <li class="step"><span class="step-num">4.</span>Incorporar el aceite o mantequilla vegana y mezclar bien.</li>
-              <li class="step"><span class="step-num">5.</span>Servir caliente en cuencos con canela y nueces.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-he compact">
           <div>
             <div class="section-label">מצרכים</div>
@@ -547,6 +598,31 @@ h2 {
             </ul>
           </div>
         </div>
+
+        <div class="column lang-es compact">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1/2 taza de sémola de trigo</li>
+              <li>4 tazas de leche vegetal (soja, almendra o avena)</li>
+              <li>3-4 cdas de azúcar (o jarabe de arce)</li>
+              <li>Una pizca de sal</li>
+              <li>1 cda de aceite de coco o mantequilla vegana</li>
+              <li>Para servir: canela, nueces picadas</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Calentar la leche vegetal con el azúcar y la sal en una olla mediana hasta que esté a punto de hervir.</li>
+              <li class="step"><span class="step-num">2.</span>Bajar el fuego y añadir la sémola poco a poco, batiendo constantemente para evitar grumos.</li>
+              <li class="step"><span class="step-num">3.</span>Cocinar a fuego lento durante 3-5 minutos hasta que espese.</li>
+              <li class="step"><span class="step-num">4.</span>Incorporar el aceite o mantequilla vegana y mezclar bien.</li>
+              <li class="step"><span class="step-num">5.</span>Servir caliente en cuencos con canela y nueces.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="page-num">3</div>
@@ -554,35 +630,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ARABIC + ENGLISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-en compact">
-          <div>
-            <div class="section-label">Ingredients</div>
-            <ul class="ingredients-list">
-              <li>1/2 cup semolina</li>
-              <li>4 cups plant-based milk (soy, almond, or oat)</li>
-              <li>3-4 tbsp sugar (or maple syrup)</li>
-              <li>Pinch of salt</li>
-              <li>1 tbsp coconut oil or vegan butter</li>
-              <li>To serve: cinnamon, chopped nuts</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instructions</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Heat the plant-based milk with sugar and salt in a medium saucepan until simmering.</li>
-              <li class="step"><span class="step-num">2.</span>Lower the heat and gradually add the semolina, whisking constantly to prevent lumps.</li>
-              <li class="step"><span class="step-num">3.</span>Cook on low heat for 3-5 minutes until thickened.</li>
-              <li class="step"><span class="step-num">4.</span>Stir in the coconut oil or vegan butter.</li>
-              <li class="step"><span class="step-num">5.</span>Pour into bowls and serve warm with cinnamon and toppings.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-ar compact">
           <div>
             <div class="section-label">المكونات</div>
@@ -604,6 +655,31 @@ h2 {
               <li class="step"><span class="step-num">3.</span>طيّب على نار هادية لمدة 3-5 دقايق حتى تعقاد الدايسة.</li>
               <li class="step"><span class="step-num">4.</span>زيد الزيت أو الزبدة النباتية وخلّط مليح.</li>
               <li class="step"><span class="step-num">5.</span>صب في صحافي وقدمها سخونة مع القرفة والفاكية.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-en compact">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1/2 cup semolina</li>
+              <li>4 cups plant-based milk (soy, almond, or oat)</li>
+              <li>3-4 tbsp sugar (or maple syrup)</li>
+              <li>Pinch of salt</li>
+              <li>1 tbsp coconut oil or vegan butter</li>
+              <li>To serve: cinnamon, chopped nuts</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Heat the plant-based milk with sugar and salt in a medium saucepan until simmering.</li>
+              <li class="step"><span class="step-num">2.</span>Lower the heat and gradually add the semolina, whisking constantly to prevent lumps.</li>
+              <li class="step"><span class="step-num">3.</span>Cook on low heat for 3-5 minutes until thickened.</li>
+              <li class="step"><span class="step-num">4.</span>Stir in the coconut oil or vegan butter.</li>
+              <li class="step"><span class="step-num">5.</span>Pour into bowls and serve warm with cinnamon and toppings.</li>
             </ul>
           </div>
         </div>

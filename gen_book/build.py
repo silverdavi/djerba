@@ -10,20 +10,166 @@ Reads recipe JSON files and generates:
 
 import json
 import html
+import csv
+import random
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 # Paths
 ROOT = Path(__file__).parent.parent  # Go up to RecipeDjerba root
 RECIPES_DIR = ROOT / "data" / "recipes_multilingual"
 IMAGES_DIR = ROOT / "data" / "images"
 IMAGES_INDEX = IMAGES_DIR / "index.json"
+INGREDIENTS_DIR = IMAGES_DIR / "ingredients" / "final"
+INGREDIENTS_MATRIX = ROOT / "recipes_ingredients_matrix.csv"
 OUTPUT_WEB = ROOT / "gen_book" / "output" / "web"
 OUTPUT_PRINT = ROOT / "gen_book" / "output" / "print"
 CSS_FILE = ROOT / "gen_book" / "cookbook.css"
 
 # Load image index
 _image_index_cache = None
+_ingredients_matrix_cache = None
+_ingredient_name_to_file = None
+
+def load_ingredients_matrix() -> Dict[str, List[str]]:
+    """Load the ingredients matrix and return dict of recipe_id -> list of ingredient image filenames."""
+    global _ingredients_matrix_cache, _ingredient_name_to_file
+    
+    if _ingredients_matrix_cache is not None:
+        return _ingredients_matrix_cache
+    
+    _ingredients_matrix_cache = {}
+    
+    if not INGREDIENTS_MATRIX.exists():
+        return _ingredients_matrix_cache
+    
+    # Create mapping from ingredient column names to image filenames
+    # E.g., "Chickpeas" -> "chickpeas.png"
+    def name_to_filename(name: str) -> str:
+        """Convert ingredient column name to image filename."""
+        # Remove parentheses content and clean up
+        import re
+        # "Flour (All-purpose, Bread, Whole Wheat)" -> "flour_all_purpose_bread_whole_wheat"
+        cleaned = name.lower()
+        cleaned = cleaned.replace(" / ", "_")
+        cleaned = cleaned.replace("/", "_")
+        cleaned = cleaned.replace(" ", "_")
+        cleaned = cleaned.replace(",", "")
+        cleaned = cleaned.replace("(", "")
+        cleaned = cleaned.replace(")", "")
+        cleaned = cleaned.replace("-", "_")
+        cleaned = re.sub(r'_+', '_', cleaned)  # Multiple underscores to single
+        cleaned = cleaned.strip('_')
+        return f"{cleaned}.png"
+    
+    with open(INGREDIENTS_MATRIX, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        header = next(reader)
+        ingredient_names = header[2:]  # Skip recipe_id, recipe_name
+        
+        # Build name to file mapping
+        _ingredient_name_to_file = {
+            name: name_to_filename(name) 
+            for name in ingredient_names
+        }
+        
+        for row in reader:
+            recipe_id = row[0]
+            recipe_ingredients = []
+            for i, val in enumerate(row[2:]):
+                if val == '1':
+                    img_file = _ingredient_name_to_file[ingredient_names[i]]
+                    img_path = INGREDIENTS_DIR / img_file
+                    if img_path.exists():
+                        recipe_ingredients.append(str(img_path))
+            _ingredients_matrix_cache[recipe_id] = recipe_ingredients
+    
+    return _ingredients_matrix_cache
+
+
+def render_page_decorations(recipe_id: str, page_variant: str, use_absolute: bool = False) -> str:
+    """
+    Render decorative ingredient icons for a page.
+    Each ingredient appears ONCE, with smart grid-based positioning.
+    Both page 3 and page 4 use IDENTICAL positions (same seed).
+    
+    Args:
+        recipe_id: Recipe identifier
+        page_variant: 'hs' for Hebrew/Spanish page, 'ae' for Arabic/English page
+        use_absolute: If True, use absolute file paths
+        
+    Returns:
+        HTML string with positioned ingredient icons
+    """
+    ingredients_map = load_ingredients_matrix()
+    ingredient_paths = ingredients_map.get(recipe_id, [])
+    
+    if not ingredient_paths:
+        return ""
+    
+    # SAME seed for both pages - positions will be identical
+    random.seed(hash(recipe_id))
+    
+    # Pre-planned grid positions for optimal spacing:
+    # Empty areas: Top-right (50-100% x, 0-35% y) and Bottom-left (0-45% x, 65-95% y)
+    #
+    # Grid layout (6 slots total, 3 per area):
+    # 
+    #  Top-right area (above RTL column):
+    #    [1]----[2]----[3]
+    #       \       /
+    #        -------
+    #
+    #  Bottom-left area (below LTR column):
+    #        -------
+    #       /       \
+    #    [4]----[5]----[6]
+    #
+    grid_positions = [
+        # Top-right area - 3 positions in a gentle arc
+        (0.55, 0.06),   # Position 1: left side of top-right
+        (0.73, 0.14),   # Position 2: center of top-right  
+        (0.88, 0.04),   # Position 3: right side of top-right
+        # Bottom-left area - 3 positions in a gentle arc
+        (0.04, 0.72),   # Position 4: top of bottom-left
+        (0.20, 0.82),   # Position 5: center of bottom-left
+        (0.08, 0.92),   # Position 6: bottom of bottom-left
+    ]
+    
+    # Select ingredients (deterministic for this recipe)
+    num_icons = min(len(ingredient_paths), len(grid_positions))
+    shuffled_ingredients = ingredient_paths.copy()
+    random.shuffle(shuffled_ingredients)
+    selected = shuffled_ingredients[:num_icons]
+    
+    # Assign ingredients to grid positions (1:1 mapping)
+    icons_html = []
+    for i, img_path in enumerate(selected):
+        pos = grid_positions[i]
+        left_pct = pos[0] * 100
+        top_pct = pos[1] * 100
+        
+        # Subtle random transformations (deterministic per recipe)
+        rotation = random.randint(-20, 20)
+        skew_x = random.randint(-6, 6)
+        skew_y = random.randint(-4, 4)
+        scale = random.uniform(0.85, 1.15)
+        
+        # Use relative or absolute path
+        if use_absolute:
+            src = f"file://{img_path}"
+        else:
+            src = img_path
+        
+        transform = f"rotate({rotation}deg) skewX({skew_x}deg) skewY({skew_y}deg) scale({scale})"
+        
+        icons_html.append(f'''<img class="corner-ingredient" 
+             src="{src}" 
+             alt="" 
+             style="left: {left_pct:.1f}%; top: {top_pct:.1f}%; transform: {transform};">''')
+    
+    return "\n        ".join(icons_html)
+
 
 def load_image_index() -> Dict:
     """Load the image index, caching it."""
@@ -114,13 +260,13 @@ def get_title_size_class(name: str, lang: str) -> str:
     """
     length = len(name)
     
-    # Language-specific thresholds (based on statistics)
-    # Large: short names (bottom third), Medium: medium names (middle third), Small: long names (top third)
+    # Language-specific thresholds - lowered to avoid overflow
+    # Large: very short names, Medium: short names, Small: anything longer
     thresholds = {
-        "he": {"large": 6, "medium": 13},   # large <=6, medium 7-13, small >13
-        "es": {"large": 8, "medium": 14},   # large <=8, medium 9-14, small >14
-        "ar": {"large": 7, "medium": 13},   # large <=7, medium 8-13, small >13
-        "en": {"large": 7, "medium": 13},   # large <=7, medium 8-13, small >13
+        "he": {"large": 5, "medium": 9},    # more aggressive sizing
+        "es": {"large": 6, "medium": 11},   # Spanish tends to be longer
+        "ar": {"large": 5, "medium": 9},    
+        "en": {"large": 6, "medium": 11},   
     }
     
     threshold = thresholds.get(lang, {"large": 7, "medium": 13})
@@ -133,8 +279,162 @@ def get_title_size_class(name: str, lang: str) -> str:
         return "title-small"
 
 
-def render_page1(recipe: dict, page_num: int) -> str:
-    """Render Page 1: Title + Description + Meta footer."""
+def render_front_matter() -> str:
+    """Render title page, copyright page, introduction (2 pages), and blank page."""
+    
+    # Page 1: Title page - all four languages
+    title_page = '''
+  <!-- TITLE PAGE -->
+  <section class="page page--title">
+    <div class="page-inner title-page-inner">
+      <div class="title-page-content">
+        <div class="book-titles">
+          <div class="book-title-row">
+            <span class="book-title book-title-he">מטבח מצפון</span>
+            <span class="book-title book-title-ar">مطبخ بالأصل</span>
+          </div>
+          <div class="book-title-row">
+            <span class="book-title book-title-en">Oriented Kitchen</span>
+            <span class="book-title book-title-es">Cocina con Conciencia</span>
+          </div>
+        </div>
+        
+        <div class="book-subtitle-block">
+          <div class="book-subtitle">Plant-Based Recipes from Djerba &amp; Tangier</div>
+          <div class="book-subtitle">Recetas a Base de Plantas de Djerba y Tánger</div>
+          <div class="book-subtitle book-subtitle-he">מתכונים מבוססי צמחים מג׳רבה וטנג׳יר</div>
+          <div class="book-subtitle book-subtitle-ar">وصفات نباتية من جربة وطنجة</div>
+        </div>
+        
+        <div class="title-divider"></div>
+        
+        <div class="family-lines">
+          <div class="family-line">Cohen-Trabelsi · כהן-טרבלסי · كوهين-طرابلسي</div>
+          <div class="family-origin">Djerba, Tunisia · ג׳רבה, תוניסיה · جربة، تونس</div>
+        </div>
+        <div class="family-lines">
+          <div class="family-line">Kadoch-Muyal · קדוש-מויאל · قدوش-مويال</div>
+          <div class="family-origin">Tangier, Morocco · טנג׳יר, מרוקו · طنجة، المغرب</div>
+        </div>
+        
+        <div class="title-divider"></div>
+        
+        <div class="authors">David &amp; Enny Silver</div>
+      </div>
+    </div>
+  </section>
+'''
+    
+    # Page 2: Copyright page - centered, all languages
+    copyright_page = '''
+  <!-- COPYRIGHT PAGE -->
+  <section class="page page--copyright">
+    <div class="page-inner copyright-inner">
+      <div class="copyright-content">
+        <p class="copyright-text">© 2025 David Silver &amp; Enny Silver</p>
+        <p class="copyright-text">Poughkeepsie, NY</p>
+        <p class="copyright-text copyright-edition">First Edition · מהדורה ראשונה · Primera Edición · الطبعة الأولى</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-note">Preserving family traditions through plant-based cooking</p>
+        <p class="copyright-note">לשמר את מסורת המשפחה דרך מטבח מבוסס צמחים</p>
+        <p class="copyright-note">Preservando tradiciones familiares a través de la cocina vegetal</p>
+        <p class="copyright-note copyright-note-ar">نحافظو على تقاليد العايلة من خلال الطبخ النباتي</p>
+      </div>
+    </div>
+  </section>
+'''
+    
+    # Page 3: Introduction - English (left) & Hebrew (right)
+    intro_page_1 = '''
+  <!-- INTRODUCTION PAGE 1: ENGLISH & HEBREW -->
+  <section class="page page--intro">
+    <div class="page-inner intro-inner">
+      <div class="intro-title">Introduction · הקדמה</div>
+      
+      <div class="intro-columns">
+        <div class="intro-col intro-text-en">
+          <p>This cookbook preserves recipes from two North African Jewish family lines: the <strong>Cohen-Trabelsi</strong> family from the island of Djerba, Tunisia, and the <strong>Kadoch-Muyal</strong> family from Tangier, Morocco.</p>
+          
+          <p>Djerba's Jewish community was one of the oldest continuous Jewish settlements in the world. The recipes passed down through Ruth Cohen-Trabelsi carry the distinct flavors of Tunisian Jewish cooking—the slow-cooked Shabbat stews, the spiced fish dishes, the semolina-based sweets.</p>
+          
+          <p>From Tangier came a different tradition: Moroccan Jewish cuisine shaped by Andalusian heritage and the vibrant port city's crossroads of cultures.</p>
+          
+          <p>All recipes have been adapted for plant-based cooking while preserving their authentic character. Each dish name includes its etymology—tracing roots through Arabic, Berber, Hebrew, and the Judeo-Arabic dialects of our grandparents.</p>
+          
+          <p>The book is presented in four languages: Hebrew, English, Spanish, and Tunisian Arabic—reflecting the diaspora that scattered these communities, and the languages in which these recipes were shared, remembered, and written down.</p>
+        </div>
+        
+        <div class="intro-col intro-text-he">
+          <p>ספר בישול זה משמר מתכונים משני קווי משפחה יהודיים צפון-אפריקאיים: משפחת <strong>כהן-טרבלסי</strong> מהאי ג׳רבה שבתוניסיה, ומשפחת <strong>קדוש-מויאל</strong> מטנג׳יר שבמרוקו.</p>
+          
+          <p>הקהילה היהודית בג׳רבה הייתה אחת ההתיישבויות היהודיות הרציפות העתיקות בעולם. המתכונים שעברו דרך רות כהן-טרבלסי נושאים את הטעמים המיוחדים של הבישול היהודי-תוניסאי—התבשילים האיטיים של שבת, מנות הדגים המתובלות, והממתקים מבוססי הסולת.</p>
+          
+          <p>מטנג׳יר הגיעה מסורת אחרת: המטבח היהודי-מרוקאי שעוצב על ידי המורשת האנדלוסית וצומת התרבויות של עיר הנמל התוססת.</p>
+          
+          <p>כל המתכונים הותאמו למטבח מבוסס צמחים תוך שמירה על אופיים המקורי. כל שם מנה כולל את האטימולוגיה שלו—מעקב אחר השורשים בערבית, ברברית, עברית, והניבים היהודיים-ערביים של סבינו.</p>
+          
+          <p>הספר מוגש בארבע שפות: עברית, אנגלית, ספרדית, וערבית תוניסאית—המשקפות את התפוצות שפיזרו קהילות אלה, ואת השפות שבהן המתכונים שותפו, נזכרו ונכתבו.</p>
+        </div>
+      </div>
+      
+      <div class="page-num">iii</div>
+    </div>
+  </section>
+'''
+    
+    # Page 4: Introduction - Spanish (left) & Arabic (right, Djerba dialect)
+    intro_page_2 = '''
+  <!-- INTRODUCTION PAGE 2: SPANISH & ARABIC -->
+  <section class="page page--intro">
+    <div class="page-inner intro-inner">
+      <div class="intro-title">Introducción · مقدمة</div>
+      
+      <div class="intro-columns">
+        <div class="intro-col intro-text-es">
+          <p>Este libro de cocina preserva recetas de dos líneas familiares judías del norte de África: la familia <strong>Cohen-Trabelsi</strong> de la isla de Djerba, Túnez, y la familia <strong>Kadoch-Muyal</strong> de Tánger, Marruecos.</p>
+          
+          <p>La comunidad judía de Djerba fue uno de los asentamientos judíos continuos más antiguos del mundo. Las recetas transmitidas a través de Ruth Cohen-Trabelsi llevan los sabores distintivos de la cocina judía tunecina—los guisos lentos del Shabat, los platos de pescado especiados, los dulces a base de sémola.</p>
+          
+          <p>De Tánger llegó una tradición diferente: la cocina judía marroquí moldeada por la herencia andaluza y el cruce de culturas de la vibrante ciudad portuaria.</p>
+          
+          <p>Todas las recetas han sido adaptadas para la cocina basada en plantas, preservando su carácter auténtico. Cada nombre de plato incluye su etimología—rastreando raíces a través del árabe, bereber, hebreo y los dialectos judeo-árabes de nuestros abuelos.</p>
+          
+          <p>El libro se presenta en cuatro idiomas: hebreo, inglés, español y árabe tunecino—reflejando la diáspora que dispersó estas comunidades, y los idiomas en los que estas recetas fueron compartidas, recordadas y escritas.</p>
+        </div>
+        
+        <div class="intro-col intro-text-ar">
+          <p>الكتاب هذا يحفظ وصفات من عايلتين يهوديتين من شمال أفريقيا: عايلة <strong>كوهين-طرابلسي</strong> من جزيرة جربة في تونس، وعايلة <strong>قدوش-مويال</strong> من طنجة في المغرب.</p>
+          
+          <p>الجالية اليهودية في جربة كانت من أقدم التجمعات اليهودية المتواصلة في العالم. الوصفات اللي وصلتنا من روث كوهين-طرابلسي فيها نكهات المطبخ اليهودي التونسي—الطبيخ البطيء متاع السبت، أطباق الحوت المتبّلة، والحلويات اللي أساسها السميد.</p>
+          
+          <p>من طنجة جات تقاليد مختلفة: المطبخ اليهودي المغربي اللي تشكّل بالموروث الأندلسي وتقاطع الثقافات في مدينة الميناء.</p>
+          
+          <p>كل الوصفات تمّ تكييفها للطبخ النباتي مع الحفاظ على طابعها الأصيل. كل اسم طبق فيه أصله اللغوي—نتبّعو الجذور في العربية والأمازيغية والعبرية واللهجات اليهودية-العربية متاع أجدادنا.</p>
+          
+          <p>الكتاب مكتوب بأربع لغات: العبرية والإنجليزية والإسبانية والعربية التونسية—يعكسو الشتات اللي فرّق هالجاليات، واللغات اللي فيها الوصفات تشاركت وتذكرت وتكتبت.</p>
+        </div>
+      </div>
+      
+      <div class="page-num">iv</div>
+    </div>
+  </section>
+'''
+    
+    # Page 5: Blank (so recipes start on right-hand page)
+    blank_page = '''
+  <!-- BLANK PAGE -->
+  <section class="page page--blank">
+    <div class="page-inner"></div>
+  </section>
+'''
+    
+    return title_page + copyright_page + intro_page_1 + intro_page_2 + blank_page
+
+
+def render_page1(recipe: dict, page_num: int, chapter_index: int = 1) -> str:
+    """Render Page 1: Title + Description + Meta footer with chapter number."""
     name = recipe["name"]
     desc = recipe["description"]
     meta = recipe["meta"]
@@ -146,13 +446,14 @@ def render_page1(recipe: dict, page_num: int) -> str:
     size_ar = get_title_size_class(name["ar"], "ar")
     
     return f'''
-  <!-- PAGE {page_num}: NAME + DESCRIPTION -->
+  <!-- PAGE {page_num}: NAME + DESCRIPTION (Chapter {chapter_index}) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
+      <div class="title-grid">
         <div class="title-word lang-es {size_es}"><span>{escape(name["es"])}</span></div>
         <div class="title-word lang-he {size_he}"><span>{escape(name["he"])}</span></div>
+        <div class="chapter-number"><span>{chapter_index}</span></div>
         <div class="title-word lang-en {size_en}"><span>{escape(name["en"])}</span></div>
         <div class="title-word lang-ar {size_ar}"><span>{escape(name["ar"])}</span></div>
       </div>
@@ -250,18 +551,8 @@ def render_variant_steps(variant: dict, lang: str, start_num: int) -> str:
             </ul>'''
 
 
-def detect_overflow(recipe: dict, lang: str) -> str:
-    """
-    Detect if content is likely to overflow and return appropriate CSS class.
-    Uses statistics-based thresholds (33rd and 66th percentiles).
-    
-    Args:
-        recipe: Recipe dictionary
-        lang: Language code
-        
-    Returns:
-        CSS class name: "" (normal), "compact", or "tight"
-    """
+def get_content_length(recipe: dict, lang: str) -> int:
+    """Calculate total content length for a recipe in a given language."""
     ingredients = recipe["ingredients"][lang]
     variants = recipe.get("variants", [])
     simple_steps = recipe.get("steps", {}).get(lang, [])
@@ -269,30 +560,57 @@ def detect_overflow(recipe: dict, lang: str) -> str:
     # Calculate total character count
     total_chars = sum(len(ing) for ing in ingredients)
     
+    # Count number of items too (each item takes a line)
+    num_items = len(ingredients)
+    
     if variants:
         for variant in variants:
             total_chars += sum(len(step) for step in variant["steps"][lang])
-            total_chars += len(variant["name"][lang])  # Variant label
+            total_chars += len(variant["name"][lang])
+            num_items += len(variant["steps"][lang]) + 1  # +1 for variant label
     elif simple_steps:
         total_chars += sum(len(step) for step in simple_steps)
+        num_items += len(simple_steps)
     
-    # Statistics-based thresholds (33rd and 66th percentiles from actual data)
-    # Normal: < 33rd percentile, Compact: 33rd-66th, Tight: > 66th
-    thresholds = {
-        "he": {"compact": 412, "tight": 499},  # 33rd: 412, 66th: 499
-        "ar": {"compact": 402, "tight": 497},  # 33rd: 402, 66th: 497
-        "es": {"compact": 521, "tight": 650},  # 33rd: 521, 66th: 650
-        "en": {"compact": 465, "tight": 573},  # 33rd: 465, 66th: 573
-    }
+    # Weight by both character count and number of lines
+    # Each line takes vertical space regardless of length
+    weighted_score = total_chars + (num_items * 30)  # ~30 chars per line equivalent
     
-    threshold = thresholds.get(lang, {"compact": 465, "tight": 573})
+    return weighted_score
+
+
+def calculate_adaptive_style(recipe: dict, lang: str) -> str:
+    """
+    Calculate adaptive inline styles based on content length.
+    Returns CSS style string with appropriate font-size and line-height.
     
-    if total_chars >= threshold["tight"]:
-        return "tight"
-    elif total_chars >= threshold["compact"]:
-        return "compact"
+    Uses smooth interpolation between min and max font sizes.
+    """
+    content_length = get_content_length(recipe, lang)
+    
+    # Define thresholds - content length to font size mapping
+    # Short content (< 400 weighted chars) -> largest font (0.85rem)
+    # Long content (> 1000 weighted chars) -> smallest font (0.68rem)
+    min_content = 400
+    max_content = 1000
+    max_font = 0.85   # rem - for short recipes
+    min_font = 0.68   # rem - for very long recipes
+    
+    # Calculate font size with smooth interpolation
+    if content_length <= min_content:
+        font_size = max_font
+    elif content_length >= max_content:
+        font_size = min_font
     else:
-        return ""
+        # Linear interpolation
+        ratio = (content_length - min_content) / (max_content - min_content)
+        font_size = max_font - ratio * (max_font - min_font)
+    
+    # Line height scales inversely with font size (smaller fonts need less line height)
+    # Range: 1.35 (for 0.78rem) to 1.2 (for 0.58rem)
+    line_height = 1.35 - ((max_font - font_size) / (max_font - min_font)) * 0.15
+    
+    return f"font-size: {font_size:.3f}rem; line-height: {line_height:.2f};"
 
 
 def render_column(recipe: dict, lang: str) -> str:
@@ -300,11 +618,9 @@ def render_column(recipe: dict, lang: str) -> str:
     labels = LANG_LABELS[lang]
     ingredients = recipe["ingredients"][lang]
     
-    # Detect overflow and get appropriate class
-    overflow_class = detect_overflow(recipe, lang)
+    # Calculate adaptive styles based on content length
+    adaptive_style = calculate_adaptive_style(recipe, lang)
     column_class = f"column lang-{lang}"
-    if overflow_class:
-        column_class += f" {overflow_class}"
     
     # Render ingredients
     ing_html = render_ingredients(ingredients)
@@ -327,7 +643,7 @@ def render_column(recipe: dict, lang: str) -> str:
     else:
         steps_combined = ""
     
-    return f'''        <div class="{column_class}">
+    return f'''        <div class="{column_class}" style="{adaptive_style}">
           <div>
             <div class="section-label">{escape(labels["ingredients"])}</div>
 {ing_html}
@@ -340,12 +656,18 @@ def render_column(recipe: dict, lang: str) -> str:
         </div>'''
 
 
-def render_page3(recipe: dict, page_num: int) -> str:
+def render_page3(recipe: dict, page_num: int, use_absolute: bool = False) -> str:
     """Render Page 3: Spanish (left) + Hebrew (right)."""
+    recipe_id = recipe.get("id", "")
+    decorations = render_page_decorations(recipe_id, "hs", use_absolute)
+    
     return f'''
-  <!-- PAGE {page_num}: SPANISH + HEBREW -->
+  <!-- PAGE {page_num}: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        {decorations}
+      </div>
       <div class="two-col">
 {render_column(recipe, "es")}
 
@@ -358,12 +680,18 @@ def render_page3(recipe: dict, page_num: int) -> str:
 '''
 
 
-def render_page4(recipe: dict, page_num: int) -> str:
+def render_page4(recipe: dict, page_num: int, use_absolute: bool = False) -> str:
     """Render Page 4: English (left) + Arabic (right)."""
+    recipe_id = recipe.get("id", "")
+    decorations = render_page_decorations(recipe_id, "ae", use_absolute)
+    
     return f'''
-  <!-- PAGE {page_num}: ENGLISH + ARABIC -->
+  <!-- PAGE {page_num}: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        {decorations}
+      </div>
       <div class="two-col">
 {render_column(recipe, "en")}
 
@@ -376,28 +704,31 @@ def render_page4(recipe: dict, page_num: int) -> str:
 '''
 
 
-def render_recipe(recipe: dict, start_page: int, image_path: str) -> str:
+def render_recipe(recipe: dict, start_page: int, image_path: str, use_absolute: bool = False, chapter_index: int = 1) -> str:
     """Render all 4 pages for a recipe."""
     pages = [
-        render_page1(recipe, start_page),
+        render_page1(recipe, start_page, chapter_index),
         render_page2(recipe, start_page + 1, image_path),
-        render_page3(recipe, start_page + 2),
-        render_page4(recipe, start_page + 3),
+        render_page3(recipe, start_page + 2, use_absolute),
+        render_page4(recipe, start_page + 3, use_absolute),
     ]
     return "\n".join(pages)
 
 
 def render_html(recipes: list[dict], css_content: str, image_base_path: str = "../images/", use_absolute: bool = False) -> str:
     """Render complete HTML document."""
-    recipe_html_parts = []
-    page_num = 1
+    # Render front matter (title, copyright, intro, blank)
+    front_matter = render_front_matter()
     
-    for recipe in recipes:
+    recipe_html_parts = []
+    page_num = 1  # Recipes start at page 1 (front matter uses roman numerals)
+    
+    for chapter_index, recipe in enumerate(recipes, start=1):
         image_path = get_image_path(recipe["id"], image_base_path, use_absolute=use_absolute)
-        recipe_html_parts.append(render_recipe(recipe, page_num, image_path))
+        recipe_html_parts.append(render_recipe(recipe, page_num, image_path, use_absolute, chapter_index))
         page_num += 4  # Each recipe is 4 pages
     
-    recipes_html = "\n".join(recipe_html_parts)
+    recipes_html = front_matter + "\n".join(recipe_html_parts)
     
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -460,14 +791,15 @@ def build_web(recipes: list[dict], css_content: str) -> None:
     """Build individual HTML pages for web deployment."""
     OUTPUT_WEB.mkdir(parents=True, exist_ok=True)
     
-    for recipe in recipes:
+    for i, recipe in enumerate(recipes, 1):
         recipe_id = recipe["id"]
         image_path = get_image_path(recipe_id, "../images/generated/")
         html_content = render_single_recipe_html(recipe, css_content, image_path)
         
         output_path = OUTPUT_WEB / f"{recipe_id}.html"
         output_path.write_text(html_content, encoding="utf-8")
-        print(f"  ✓ {output_path.name}")
+        if i % 10 == 0 or i == len(recipes):
+            print(f"  [{i}/{len(recipes)}] ✓ {output_path.name}")
     
     # Build index page
     build_index(recipes, css_content)
@@ -577,7 +909,7 @@ def build_print(recipes: list[dict], css_content: str) -> None:
     print(f"  ✓ full-cookbook.html")
 
 
-def build_pdf() -> None:
+def build_pdf(num_recipes: int = 0) -> None:
     """Generate PDF from HTML using WeasyPrint."""
     try:
         from weasyprint import HTML
@@ -594,8 +926,18 @@ def build_pdf() -> None:
         return
     
     print("  Generating PDF (this may take a moment)...")
-    HTML(filename=str(html_path)).write_pdf(str(pdf_path))
-    print(f"  ✓ full-cookbook.pdf")
+    if num_recipes > 0:
+        print(f"    Processing {num_recipes} recipes ({num_recipes * 4} pages)...")
+        print("    (WeasyPrint is working, please wait...)")
+    import sys
+    sys.stdout.flush()  # Force output
+    
+    try:
+        HTML(filename=str(html_path)).write_pdf(str(pdf_path))
+        print(f"  ✓ full-cookbook.pdf ({pdf_path.stat().st_size / 1024 / 1024:.1f} MB)")
+    except Exception as e:
+        print(f"  ❌ PDF generation failed: {e}")
+        raise
 
 
 def main():
@@ -624,7 +966,7 @@ def main():
     
     # Build PDF
     print("\nBuilding PDF...")
-    build_pdf()
+    build_pdf(len(recipes))
     
     print("\n" + "=" * 40)
     print("Build complete!")

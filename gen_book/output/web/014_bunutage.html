@@ -58,13 +58,15 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
   padding: 0.6in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -150,6 +152,7 @@ h2 {
   min-height: 0.9in;
   position: relative;
   background: transparent;
+  width: 100%;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -158,6 +161,8 @@ h2 {
           contrast(1.05)
           saturate(1.1);
   transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .title-word::before {
@@ -195,6 +200,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -205,6 +213,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 3rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.5rem;
+}
+
+.title-word.title-small {
+  font-size: 2rem;
 }
 
 /* ============================================
@@ -221,6 +245,14 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -257,23 +289,48 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 0.3in;
   height: 100%;
-  overflow: hidden;
+  max-height: 100%;
+  overflow: visible;
   align-items: start;
+  position: relative;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Vertical divider between columns - minimal but visible */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   gap: 0.15in;
-  overflow: hidden;
+  overflow: visible;
   justify-content: flex-start;
   align-items: stretch;
+  padding: 0 0.1in;
+  position: relative;
+  z-index: 1;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .column > div {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: 100%;
 }
 
 .section-label {
@@ -369,6 +426,7 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
@@ -384,6 +442,8 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -395,6 +455,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -424,6 +485,21 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .two-col {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .column {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 
@@ -438,10 +514,10 @@ h2 {
     <div class="page-inner">
 
       <div class="title-row">
-        <div class="title-word lang-es"><span>Bunutage</span></div>
-        <div class="title-word lang-he"><span>בונוטאז</span></div>
-        <div class="title-word lang-en"><span>Bunutage</span></div>
-        <div class="title-word lang-ar"><span>بونتاج</span></div>
+        <div class="title-word lang-es title-large"><span>Bunutage</span></div>
+        <div class="title-word lang-he title-medium"><span>בונוטאז</span></div>
+        <div class="title-word lang-en title-medium"><span>Bunutage</span></div>
+        <div class="title-word lang-ar title-large"><span>بونتاج</span></div>
       </div>
 
       <div class="section">
@@ -494,36 +570,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: HEBREW + SPANISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-es tight">
-          <div>
-            <div class="section-label">Ingredientes</div>
-            <ul class="ingredients-list">
-              <li>4 patatas cocidas y hechas puré</li>
-              <li>1 taza de soja texturizada (hidratada) o tofu desmenuzado</li>
-              <li>1/2 taza de harina (para enharinar)</li>
-              <li>1 taza de mezcla de harina de garbanzo y agua</li>
-              <li>1 taza de pan rallado</li>
-              <li>Aceite para freír</li>
-              <li>Especias (sal, pimienta, baharat)</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instrucciones</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sofreír la soja o el tofu en una sartén con especias hasta que estén dorados.</li>
-              <li class="step"><span class="step-num">2.</span>Machacar bien las patatas hasta obtener un puré suave.</li>
-              <li class="step"><span class="step-num">3.</span>Aplastar un poco de puré en la mano, poner una cucharadita de relleno en el centro y cerrar formando una croqueta ovalada.</li>
-              <li class="step"><span class="step-num">4.</span>Pasar cada croqueta por harina, luego por la mezcla de harina de garbanzo, y finalmente por pan rallado.</li>
-              <li class="step"><span class="step-num">5.</span>Freír en aceite abundante y caliente hasta que estén doradas.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-he compact">
           <div>
             <div class="section-label">מצרכים</div>
@@ -549,6 +599,32 @@ h2 {
             </ul>
           </div>
         </div>
+
+        <div class="column lang-es tight">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>4 patatas cocidas y hechas puré</li>
+              <li>1 taza de soja texturizada (hidratada) o tofu desmenuzado</li>
+              <li>1/2 taza de harina (para enharinar)</li>
+              <li>1 taza de mezcla de harina de garbanzo y agua</li>
+              <li>1 taza de pan rallado</li>
+              <li>Aceite para freír</li>
+              <li>Especias (sal, pimienta, baharat)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Sofreír la soja o el tofu en una sartén con especias hasta que estén dorados.</li>
+              <li class="step"><span class="step-num">2.</span>Machacar bien las patatas hasta obtener un puré suave.</li>
+              <li class="step"><span class="step-num">3.</span>Aplastar un poco de puré en la mano, poner una cucharadita de relleno en el centro y cerrar formando una croqueta ovalada.</li>
+              <li class="step"><span class="step-num">4.</span>Pasar cada croqueta por harina, luego por la mezcla de harina de garbanzo, y finalmente por pan rallado.</li>
+              <li class="step"><span class="step-num">5.</span>Freír en aceite abundante y caliente hasta que estén doradas.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="page-num">3</div>
@@ -556,36 +632,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ARABIC + ENGLISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-en compact">
-          <div>
-            <div class="section-label">Ingredients</div>
-            <ul class="ingredients-list">
-              <li>4 boiled and mashed potatoes</li>
-              <li>1 cup soaked TVP or crumbled tofu</li>
-              <li>1/2 cup flour (for dusting)</li>
-              <li>1 cup chickpea flour batter (water + flour)</li>
-              <li>1 cup breadcrumbs</li>
-              <li>Oil for deep frying</li>
-              <li>Spices (salt, pepper, baharat)</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instructions</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sauté the TVP or tofu with spices until golden brown.</li>
-              <li class="step"><span class="step-num">2.</span>Mash the boiled potatoes thoroughly into a smooth purée.</li>
-              <li class="step"><span class="step-num">3.</span>Flatten some potato in your palm, place a spoonful of filling in the center, and seal into an oval shape.</li>
-              <li class="step"><span class="step-num">4.</span>Dredge each croquette in flour, dip in chickpea flour batter, and coat with breadcrumbs.</li>
-              <li class="step"><span class="step-num">5.</span>Deep fry in hot oil until golden brown.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-ar compact">
           <div>
             <div class="section-label">المكونات</div>
@@ -608,6 +658,32 @@ h2 {
               <li class="step"><span class="step-num">3.</span>حط شوية بطاطا في كف يدك، حط مغرفة صغيرة حشو في الوسط، وسكّر عليها بش تولي كعبورة.</li>
               <li class="step"><span class="step-num">4.</span>مرمد الكعبات في الفرينة، مبعد في خليط دقيق الحمص (في بلاصة العظم)، وفي لخر في الشاپلور.</li>
               <li class="step"><span class="step-num">5.</span>اقليهم في زيت غزير وسخون لين يولّي لونهم ذهبي.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-en compact">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>4 boiled and mashed potatoes</li>
+              <li>1 cup soaked TVP or crumbled tofu</li>
+              <li>1/2 cup flour (for dusting)</li>
+              <li>1 cup chickpea flour batter (water + flour)</li>
+              <li>1 cup breadcrumbs</li>
+              <li>Oil for deep frying</li>
+              <li>Spices (salt, pepper, baharat)</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Sauté the TVP or tofu with spices until golden brown.</li>
+              <li class="step"><span class="step-num">2.</span>Mash the boiled potatoes thoroughly into a smooth purée.</li>
+              <li class="step"><span class="step-num">3.</span>Flatten some potato in your palm, place a spoonful of filling in the center, and seal into an oval shape.</li>
+              <li class="step"><span class="step-num">4.</span>Dredge each croquette in flour, dip in chickpea flour batter, and coat with breadcrumbs.</li>
+              <li class="step"><span class="step-num">5.</span>Deep fry in hot oil until golden brown.</li>
             </ul>
           </div>
         </div>

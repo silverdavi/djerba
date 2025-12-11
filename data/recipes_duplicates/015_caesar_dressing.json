@@ -1,0 +1,87 @@
+{
+  "id": "015_caesar_dressing",
+  "image": "caesar_dressing.png",
+  "meta": {
+    "servings": "4–6",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "רוטב קיסר",
+    "es": "Aderezo César",
+    "ar": "صلصة السيزر",
+    "en": "Caesar Dressing"
+  },
+  "description": {
+    "he": "הגרסה הטבעונית הזו לרוטב הקלאסי, שבמקור מכיל אנשובי וביצים, משחזרת את הטעם המלוח והעמוק בעזרת צלפים ומי כבישה. אף שאינה מנה צפון-אפריקאית מסורתית, היא משתלבת נהדר בארוחות משפחתיות מודרניות.",
+    "es": "Originalmente hecho con anchoas y huevos, esta versión vegana captura el sabor clásico y salado usando alcaparras y su salmuera. Aunque no es un plato tradicional del norte de África, es un acompañamiento moderno perfecto.",
+    "ar": "هذي النسخة النباتية لصلصة السيزر المعروفة، اللي في الأصل تتعمل بالأنشوة والعظم (البيض). عوّضنا الأنشوة بالكبار باش يعطي نفس الملوحة والبنة، وتجي هايلة مع السلطات في الماكلة العصرية.",
+    "en": "Traditionally made with anchovies and eggs, this vegan adaptation captures the classic savory umami flavor using capers and brine. While not a traditional Maghrebi recipe, it is a staple for modern family salads."
+  },
+  "ingredients": {
+    "he": [
+      "1/2 כוס מיונז טבעוני",
+      "1 כפית צלפים",
+      "1-2 כפיות מי צלפים (נוזל השימור)",
+      "2 כפות מיץ לימון",
+      "1 כפית חרדל דיז'ון",
+      "1 כף פטרוזיליה קצוצה",
+      "1-2 שיני שום",
+      "מלח ופלפל שחור לפי הטעם"
+    ],
+    "es": [
+      "1/2 taza de mayonesa vegana",
+      "1 cdta de alcaparras",
+      "1-2 cdtas de salmuera de alcaparras",
+      "2 cdas de jugo de limón",
+      "1 cdta de mostaza Dijon",
+      "1 cda de perejil picado",
+      "1-2 dientes de ajo",
+      "Sal y pimienta negra al gusto"
+    ],
+    "ar": [
+      "1/2 كأس مايونيز نباتي",
+      "1 مغرفة صغيرة كبار",
+      "1-2 مغرفة صغيرة ماء الكبار",
+      "2 مغارف كبار عصير قارص",
+      "1 مغرفة صغيرة موتارد (خردل)",
+      "1 مغرفة معدنوس مقصوص",
+      "1-2 سنات ثوم",
+      "ملح وفلفل أكحل حسب الرغبة"
+    ],
+    "en": [
+      "1/2 cup vegan mayonnaise",
+      "1 tsp capers",
+      "1-2 tsp caper brine",
+      "2 tbsp lemon juice",
+      "1 tsp Dijon mustard",
+      "1 tbsp chopped parsley",
+      "1-2 garlic cloves",
+      "Salt and black pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכניסים את כל המרכיבים לבלנדר או מעבד מזון.",
+      "מעבדים עד למרקם חלק ואחיד.",
+      "טועמים ומתקנים תיבול במידת הצורך לפני ההגשה."
+    ],
+    "es": [
+      "Colocar todos los ingredientes en una licuadora o procesador de alimentos.",
+      "Mezclar hasta obtener una textura suave y cremosa.",
+      "Probar y ajustar la sazón si es necesario antes de servir."
+    ],
+    "ar": [
+      "حط كل المكونات في الخلاط (blender) أو الميكسور.",
+      "ارحيهم مليح حتى تتحصل على صلصة رطبة ومتجانسة.",
+      "ذوق وفوّح بالملح والفلفل حسب الرغبة قبل التقديم."
+    ],
+    "en": [
+      "Place all ingredients into a blender or food processor.",
+      "Blend until smooth and creamy.",
+      "Taste and adjust seasoning if necessary before serving."
+    ]
+  },
+  "image_prompt": "Create a photograph of Caesar Dressing - a creamy salad dressing.\n\nTHIS IS A DRESSING/SAUCE, NOT A SOUP!\n\nShow:\n- A small glass jar or ceramic bowl with creamy white-ish dressing\n- Smooth, pourable consistency (like mayonnaise-based dressing)\n- Perhaps a spoon showing the creamy texture\n- A few capers or herbs as garnish\n- Maybe a romaine lettuce leaf in background\n\nSetting: Modern kitchen, clean aesthetic.\nProfessional food photography, natural soft light, 8K detail."
+}

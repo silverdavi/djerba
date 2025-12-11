@@ -82,5 +82,6 @@
       "Prepare dumplings: mix flour, water, and salt into a soft batter.",
       "Using a spoon, drop portions of batter into the boiling liquid and cook until dumplings are set."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Fricassee Stew - Tunisian style.\n\nShow a rich vegetable and protein stew. Protein should NOT look like obvious tofu.\n\nShow:\n- Light-colored, creamy sauce\n- Vegetables (potatoes, carrots, peas)\n- Protein pieces that look tender and stewed\n- Fresh herbs\n\nProfessional food photography, soft lighting."
 }

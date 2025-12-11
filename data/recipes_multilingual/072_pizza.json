@@ -90,5 +90,6 @@
       "Spread sauce over the dough and top with vegan tuna (or tofu) and olives.",
       "Bake for 20–25 minutes until golden and crisp."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Pizza.\n\nCRITICAL REQUIREMENTS:\n- THICK crust (like focaccia)\n- OPEN TOP (not covered)\n- Green olives visible\n- Focaccia-style appearance\n- Rustic, thick pizza\n\nProfessional food photography, appetizing."
 }

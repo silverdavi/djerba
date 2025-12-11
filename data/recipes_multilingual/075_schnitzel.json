@@ -74,5 +74,6 @@
       "Dredge each slice in flour, dip into the batter, and finally coat thoroughly with breadcrumbs.",
       "Deep fry in hot oil until golden brown and crispy on both sides."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Schnitzel - crispy breaded cutlets.\n\nThis should look like traditional schnitzel - golden, crispy cutlets.\nDo NOT show that it's made from tofu - should look like regular schnitzel.\n\nShow:\n- Golden-brown crispy breaded cutlets\n- Flat, pounded thin shape (not thick cubes)\n- Visible crispy breadcrumb coating\n- Served on plate with lemon wedge\n- Maybe some salad or fries on the side\n\nThe cutlets should look uniformly breaded and fried.\nProfessional food photography, appetizing golden color."
 }

@@ -86,5 +86,6 @@
       "Add the soy strips to the pan and fry until browned.",
       "Season with shawarma spice, a little cumin, and Ras el Hanout. Stir in the Amba at the very end of frying."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Shawarma.\n\nCRITICAL: This should be DRY SPICED SHAWARMA, NOT a stew!\n\nShow:\n- Thinly sliced, spiced protein\n- DRY appearance (not saucy)\n- Served on plate or in wrap\n- Spices visible\n- Traditional shawarma look\n- NO stew, NO sauce\n\nProfessional food photography, appetizing."
 }

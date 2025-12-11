@@ -90,5 +90,6 @@
       "Pour over cabbage salad (white or purple) or lettuce.",
       "It is recommended to sprinkle roasted almonds or a crunchy snack on top before serving."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Shlomit Dressing.\n\nCRITICAL: Should be YELLOWISH color!\n\nShow:\n- Creamy dressing in small bowl/jar\n- YELLOWISH color (not white, not brown)\n- Smooth, pourable consistency\n- Fresh appearance\n\nProfessional food photography, natural light."
 }

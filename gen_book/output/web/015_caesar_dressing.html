@@ -58,13 +58,15 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
   padding: 0.6in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -150,6 +152,7 @@ h2 {
   min-height: 0.9in;
   position: relative;
   background: transparent;
+  width: 100%;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -158,6 +161,8 @@ h2 {
           contrast(1.05)
           saturate(1.1);
   transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .title-word::before {
@@ -195,6 +200,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -205,6 +213,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 3rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.5rem;
+}
+
+.title-word.title-small {
+  font-size: 2rem;
 }
 
 /* ============================================
@@ -221,6 +245,14 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -257,23 +289,48 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 0.3in;
   height: 100%;
-  overflow: hidden;
+  max-height: 100%;
+  overflow: visible;
   align-items: start;
+  position: relative;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Vertical divider between columns - minimal but visible */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   gap: 0.15in;
-  overflow: hidden;
+  overflow: visible;
   justify-content: flex-start;
   align-items: stretch;
+  padding: 0 0.1in;
+  position: relative;
+  z-index: 1;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .column > div {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: 100%;
 }
 
 .section-label {
@@ -369,6 +426,7 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
@@ -384,6 +442,8 @@ h2 {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -395,6 +455,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -424,6 +485,21 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .page {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  .two-col {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .column {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 
@@ -438,10 +514,10 @@ h2 {
     <div class="page-inner">
 
       <div class="title-row">
-        <div class="title-word lang-es"><span>Aderezo César</span></div>
-        <div class="title-word lang-he"><span>רוטב קיסר</span></div>
-        <div class="title-word lang-en"><span>Caesar Dressing</span></div>
-        <div class="title-word lang-ar"><span>صلصة السيزر</span></div>
+        <div class="title-word lang-es title-medium"><span>Aderezo César</span></div>
+        <div class="title-word lang-he title-medium"><span>רוטב קיסר</span></div>
+        <div class="title-word lang-en title-small"><span>Caesar Dressing</span></div>
+        <div class="title-word lang-ar title-medium"><span>صلصة السيزر</span></div>
       </div>
 
       <div class="section">
@@ -453,7 +529,7 @@ h2 {
             <p>Originalmente hecho con anchoas y huevos, esta versión vegana captura el sabor clásico y salado usando alcaparras y su salmuera. Aunque no es un plato tradicional del norte de África, es un acompañamiento moderno perfecto.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>هذي النسخة النباتية لصلصة السيزر المعروفة، اللي في الأصل تتعمل بالأنشوة والعظم (البيض). عوّضنا الأنشوة بالكبار (capers) باش يعطي نفس الملوحة والبنة، وتجي هايلة مع السلطات في الماكلة العصرية.</p>
+            <p>هذي النسخة النباتية لصلصة السيزر المعروفة، اللي في الأصل تتعمل بالأنشوة والعظم (البيض). عوّضنا الأنشوة بالكبار باش يعطي نفس الملوحة والبنة، وتجي هايلة مع السلطات في الماكلة العصرية.</p>
           </div>
           <div class="info-item lang-en">
             <p>Traditionally made with anchovies and eggs, this vegan adaptation captures the classic savory umami flavor using capers and brine. While not a traditional Maghrebi recipe, it is a staple for modern family salads.</p>
@@ -494,35 +570,10 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: HEBREW + SPANISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
-        <div class="column lang-es">
-          <div>
-            <div class="section-label">Ingredientes</div>
-            <ul class="ingredients-list">
-              <li>1/2 taza de mayonesa vegana</li>
-              <li>1 cdta de alcaparras</li>
-              <li>1-2 cdtas de salmuera de alcaparras</li>
-              <li>2 cdas de jugo de limón</li>
-              <li>1 cdta de mostaza Dijon</li>
-              <li>1 cda de perejil picado</li>
-              <li>1-2 dientes de ajo</li>
-              <li>Sal y pimienta negra al gusto</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">Instrucciones</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Colocar todos los ingredientes en una licuadora o procesador de alimentos.</li>
-              <li class="step"><span class="step-num">2.</span>Mezclar hasta obtener una textura suave y cremosa.</li>
-              <li class="step"><span class="step-num">3.</span>Probar y ajustar la sazón si es necesario antes de servir.</li>
-            </ul>
-          </div>
-        </div>
-
         <div class="column lang-he">
           <div>
             <div class="section-label">מצרכים</div>
@@ -547,6 +598,31 @@ h2 {
             </ul>
           </div>
         </div>
+
+        <div class="column lang-es">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1/2 taza de mayonesa vegana</li>
+              <li>1 cdta de alcaparras</li>
+              <li>1-2 cdtas de salmuera de alcaparras</li>
+              <li>2 cdas de jugo de limón</li>
+              <li>1 cdta de mostaza Dijon</li>
+              <li>1 cda de perejil picado</li>
+              <li>1-2 dientes de ajo</li>
+              <li>Sal y pimienta negra al gusto</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Colocar todos los ingredientes en una licuadora o procesador de alimentos.</li>
+              <li class="step"><span class="step-num">2.</span>Mezclar hasta obtener una textura suave y cremosa.</li>
+              <li class="step"><span class="step-num">3.</span>Probar y ajustar la sazón si es necesario antes de servir.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class="page-num">3</div>
@@ -554,10 +630,35 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ARABIC + ENGLISH -->
   <section class="page">
     <div class="page-inner">
       <div class="two-col">
+        <div class="column lang-ar">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1/2 كأس مايونيز نباتي</li>
+              <li>1 مغرفة صغيرة كبار</li>
+              <li>1-2 مغرفة صغيرة ماء الكبار</li>
+              <li>2 مغارف كبار عصير قارص</li>
+              <li>1 مغرفة صغيرة موتارد (خردل)</li>
+              <li>1 مغرفة معدنوس مقصوص</li>
+              <li>1-2 سنات ثوم</li>
+              <li>ملح وفلفل أكحل حسب الرغبة</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>حط كل المكونات في الخلاط (blender) أو الميكسور.</li>
+              <li class="step"><span class="step-num">2.</span>ارحيهم مليح حتى تتحصل على صلصة رطبة ومتجانسة.</li>
+              <li class="step"><span class="step-num">3.</span>ذوق وفوّح بالملح والفلفل حسب الرغبة قبل التقديم.</li>
+            </ul>
+          </div>
+        </div>
+
         <div class="column lang-en">
           <div>
             <div class="section-label">Ingredients</div>
@@ -579,31 +680,6 @@ h2 {
               <li class="step"><span class="step-num">1.</span>Place all ingredients into a blender or food processor.</li>
               <li class="step"><span class="step-num">2.</span>Blend until smooth and creamy.</li>
               <li class="step"><span class="step-num">3.</span>Taste and adjust seasoning if necessary before serving.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="column lang-ar">
-          <div>
-            <div class="section-label">المكونات</div>
-            <ul class="ingredients-list">
-              <li>1/2 كأس مايونيز نباتي</li>
-              <li>1 مغرفة صغيرة كبار (capers)</li>
-              <li>1-2 مغرفة صغيرة ماء الكبار</li>
-              <li>2 مغارف كبار عصير قارص</li>
-              <li>1 مغرفة صغيرة موتارد (خردل)</li>
-              <li>1 مغرفة معدنوس مقصوص</li>
-              <li>1-2 سنات ثوم</li>
-              <li>ملح وفلفل أكحل حسب الرغبة</li>
-            </ul>
-          </div>
-
-          <div>
-            <div class="section-label">طريقة التحضير</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>حط كل المكونات في الخلاط (blender) أو الميكسور.</li>
-              <li class="step"><span class="step-num">2.</span>ارحيهم مليح حتى تتحصل على صلصة رطبة ومتجانسة.</li>
-              <li class="step"><span class="step-num">3.</span>ذوق وفوّح بالملح والفلفل حسب الرغبة قبل التقديم.</li>
             </ul>
           </div>
         </div>

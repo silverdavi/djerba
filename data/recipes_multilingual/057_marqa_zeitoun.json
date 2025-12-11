@@ -90,5 +90,6 @@
       "Add water to create a sauce and stir in the olives.",
       "Simmer until the sauce thickens, then finish with chopped cilantro."
     ]
-  }
+  },
+  "image_prompt": "Create a photograph of Marqa Zeitoun - olive stew.\n\n*** ABSOLUTELY CRITICAL REQUIREMENTS ***\n\n1. OLIVES MUST BE PITTED (NO PITS VISIBLE):\n   - Show GREEN olives that are clearly PITTED (no pits, olives should look whole but without seeds)\n   - The olives should appear as whole pitted green olives floating in sauce\n   - NOT black olives\n   - NOT olives with visible pits\n\n2. ONLY OLIVES IN RUNNY TOMATO SAUCE:\n   - The dish is ONLY pitted green olives in a RUNNY (liquid, not thick) tomato sauce\n   - The sauce should be clearly liquid/runny, not thick or pasty\n   - Simple composition: just pitted green olives in liquid tomato sauce\n\n3. ABSOLUTELY FORBIDDEN (DO NOT SHOW):\n   - NO potatoes (zero potatoes)\n   - NO carrots (zero carrots)\n   - NO chickpeas (zero chickpeas)\n   - NO lemon slices\n   - NO meat or meat alternatives\n   - NO other vegetables\n   - NO garnishes\n\n*** THIS IS A 100% VEGAN COOKBOOK ***\n\nSetting: Traditional North African kitchen, warm natural lighting.\nStyle: Professional food photography, high-end cookbook quality, 8K detail, photorealistic.\n\nFINAL CHECK: The image must show ONLY pitted green olives in runny tomato sauce. Nothing else."
 }
