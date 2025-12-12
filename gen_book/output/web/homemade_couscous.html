@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Homemade Couscous – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15in;
+  margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.8in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 35) -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Cuscús Casero</span></div>
+        <div class="title-word lang-he title-medium"><span>קוסקוס</span></div>
+        <div class="chapter-number"><span>35</span></div>
+        <div class="title-word lang-en title-small"><span>Homemade Couscous</span></div>
+        <div class="title-word lang-ar title-large"><span>كسكسي</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>קוסקוס ביתי מגיע מהמילה הברברית סקסו שמשמעותה מגולגל היטב. שיטה מסורתית זו כוללת הרטבה ואידוי כפול של סולת גולמית למרקם אוורירי. למרות שלרוב הוא מוגש עם בשר, דגן טבעוני זה הוא הבסיס המושלם לתבשילי ירקות עשירים במטבח הצפון אפריקאי.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>El Cuscús Casero proviene de la palabra bereber seksu que significa bien enrollado. Este método tradicional implica hidratar y cocer al vapor dos veces la sémola cruda para obtener una textura esponjosa. Aunque a menudo se sirve con carne, este grano naturalmente vegano es la base perfecta para ricos guisos de verduras en la cocina norteafricana.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>الكسكسي العربي يجي من الكلمة البربرية سكسو اللي معناها مفتول بالقدة. الطريقة التقليدية هذي فيها تبليل وتفوير السميد مرتين باش يجي خفيف ومفرك. بالرغم اللي هو عادة يتقدم باللحم، الكسكسي هذا نباتي وهو القاعدة المثالية لمرقة الخضرة في الكوجينة متاع شمال إفريقيا.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Homemade Couscous comes from the Berber word seksu meaning well-rolled. This traditional method involves hydrating and double-steaming raw semolina for a fluffy texture. While often served with meat, this naturally vegan grain is the perfect base for rich vegetable stews in North African cuisine.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">6-8</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">60 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/current/026_couscous/dish.png" alt="Homemade Couscous dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
+      <div class="two-col">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1000 g de sémola</li>
+              <li>500 ml de agua</li>
+              <li>60 ml de aceite vegetal</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Vierta la sémola en un tazón ancho a través de un tamiz grueso. Gire el tazón para revisar la sémola; retire cualquier impureza que suba a la superficie.</li>
+              <li class="step"><span class="step-num">2.</span>Agregue 1/4 de taza de agua y mezcle con la sémola. Agregue otro 1/4 de taza de agua (con cuidado de no agregar demasiada) y mezcle bien.</li>
+              <li class="step"><span class="step-num">3.</span>Pase la mezcla nuevamente por un tamiz ancho/grueso para crear granos uniformes. Agregue una pequeña cantidad de aceite con la mano y mezcle para cubrir.</li>
+              <li class="step"><span class="step-num">4.</span>Coloque los granos en la olla de vapor (cuscusera/keskas) con agujeros. Coloque esta olla sobre una olla inferior llena de agua hirviendo.</li>
+              <li class="step"><span class="step-num">5.</span>Cocine al vapor durante aproximadamente 30 minutos.</li>
+              <li class="step"><span class="step-num">6.</span>Retire del fuego y vierta el cuscús nuevamente en el tazón ancho. Vierta agua sobre el cuscús y deshaga los grumos.</li>
+              <li class="step"><span class="step-num">7.</span>Regrese a la vaporera y cocine al vapor nuevamente hasta que el vapor suba claramente a través de los granos.</li>
+              <li class="step"><span class="step-num">8.</span>Retire del fuego, vierta un poco de aceite sobre el cuscús, esponje una última vez y transfiera a un tazón para servir.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1000 גרם סולת</li>
+              <li>500 מ״ל מים</li>
+              <li>60 מ״ל שמן צמחי</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>שופכים את הסולת לקערה רחבה דרך נפה גסה. מסובבים את הקערה לבדיקת הסולת ומסירים לכלוך שעולה למעלה.</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים 1/4 כוס מים ומערבבים לתוך הסולת. מוסיפים עוד 1/4 כוס מים (בזהירות לא לשים יותר מדי) ומערבבים היטב.</li>
+              <li class="step"><span class="step-num">3.</span>מעבירים את התערובת שוב דרך נפה רחבה/גסה ליצירת גרגרים אחידים. מוסיפים מעט שמן ביד ומערבבים לציפוי.</li>
+              <li class="step"><span class="step-num">4.</span>מניחים את הגרגרים בסיר האידוי (קוסקוסייר/קסקס) עם החורים. מניחים סיר זה מעל סיר תחתון מלא במים רותחים.</li>
+              <li class="step"><span class="step-num">5.</span>מאדים במשך כ-30 דקות.</li>
+              <li class="step"><span class="step-num">6.</span>מסירים מהאש ושופכים את הקוסקוס חזרה לקערה הרחבה. שופכים מים על הקוסקוס ומפוררים גושים.</li>
+              <li class="step"><span class="step-num">7.</span>מחזירים לסיר האידוי ומאדים שוב עד שהאדים עולים בבירור דרך הגרגרים.</li>
+              <li class="step"><span class="step-num">8.</span>מסירים מהאש, שופכים מעט שמן על הקוסקוס, מאווררים אותו פעם אחרונה ומעבירים לקערת הגשה.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
+      <div class="two-col">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>6 cups semolina</li>
+              <li>2.1 cups water</li>
+              <li>0.25 cups vegetable oil</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Pour the semolina into a wide bowl through a coarse sieve. Rotate the bowl to check the semolina; remove any impurities that rise to the top.</li>
+              <li class="step"><span class="step-num">2.</span>Add 1/4 cup of water and mix into the semolina. Add another 1/4 cup of water (be careful not to add too much) and mix thoroughly.</li>
+              <li class="step"><span class="step-num">3.</span>Pass the mixture through a wide/coarse sieve again to create uniform grains. Add a small amount of oil by hand and mix to coat.</li>
+              <li class="step"><span class="step-num">4.</span>Place the grains in the steamer pot (couscoussier/keskas) with holes. Place this pot over a bottom pot filled with boiling water.</li>
+              <li class="step"><span class="step-num">5.</span>Steam for approximately 30 minutes.</li>
+              <li class="step"><span class="step-num">6.</span>Remove from heat and pour the couscous back into the wide bowl. Pour water over the couscous and break apart any lumps.</li>
+              <li class="step"><span class="step-num">7.</span>Return to the steamer and steam again until steam rises clearly through the grains.</li>
+              <li class="step"><span class="step-num">8.</span>Remove from heat, pour a little oil over the couscous, fluff it one last time, and transfer to a serving bowl.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar" style="font-size: 0.689rem; line-height: 1.21;">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>6 كيسان سميد</li>
+              <li>2.1 كيسان ماء</li>
+              <li>0.25 كاس زيت</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>حط السميد في قصعة واسعة وعديه في الغربال الخشين. دور القصعة باش تثبت في السميد ونحي أي حاجة زايدة تطلع الفوق.</li>
+              <li class="step"><span class="step-num">2.</span>زيد ربع كاس ماء وخلطو مع السميد. زيد ربع كاس ماء آخر (رد بالك تكثر) وخلط بالباهي.</li>
+              <li class="step"><span class="step-num">3.</span>عاود عدي الخليط في غربال واسع/خشين باش يولي كعبات قد قد. زيد شوية زيت بيدك وخلط باش يتدهن الكل.</li>
+              <li class="step"><span class="step-num">4.</span>حط الكسكسي في الكسكاس (اللي فيه نقب). حط الكسكاس فوق المقفول اللي معبي بالماء يغلي.</li>
+              <li class="step"><span class="step-num">5.</span>فورو تقريباً 30 دقيقة.</li>
+              <li class="step"><span class="step-num">6.</span>نحيه من النار ورجع الكسكسي للقصعة. صب الماء على الكسكسي وحل أي كعابر.</li>
+              <li class="step"><span class="step-num">7.</span>رجعو للكسكاس وفورو مرة أخرى لين تشوف البخار طالع بالباهي من الكسكسي.</li>
+              <li class="step"><span class="step-num">8.</span>نحيه من النار، صب شوية زيت على الكسكسي، فركو مرة لخرة وحطو في تبسي التقديم.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

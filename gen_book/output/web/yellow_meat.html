@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Yellow Meat (Basar Tzahov) – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15in;
+  margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.8in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 80) -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Carne Amarilla (Basar Tzahov)</span></div>
+        <div class="title-word lang-he title-medium"><span>בשר צהוב</span></div>
+        <div class="chapter-number"><span>80</span></div>
+        <div class="title-word lang-en title-small"><span>Yellow Meat (Basar Tzahov)</span></div>
+        <div class="title-word lang-ar title-small"><span>لحم أصفر (روتي)</span></div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>בשר צהוב (בסר צהוב) הוא תרגום למסורת הצפון-אפריקאית של סיווג תבשילים לפי צבע הרוטב. גרסה צמחית זו מחליפה את הבקר בסייטן עשיר בטעמים, תוך שמירה על פרופיל הכורכום והבצל הקלאסי. המנה לוכדת את המהות של סגנון ה&#x27;זערה&#x27; הזהוב מהמטבח הג&#x27;רבאי.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Basar Tzahov significa Carne Amarilla en hebreo y sigue la tradición norteafricana de categorizar los guisos por el color de su salsa. Esta versión vegetal sustituye la carne de res por seitán sabroso, manteniendo el perfil clásico de cúrcuma y cebolla. Captura la esencia del estilo dorado Za&#x27;ara de la cocina de Djerba.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>البسر צהוב (اللحم الأصفر) يتبع العادة في شمال إفريقيا بتصنيف المرقة حسب لونها. هذي الوصفة نباتية، بدلنا اللحم بالسيتان (seitan) أما حافظنا على بنة الكركم والبصل التقليدية. الوصفة هذي فيها ريحة المرقة الزعرة الذهبية متاع جربة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Basar Tzahov means Yellow Meat in Hebrew and follows the North African tradition of categorizing stews by sauce color. This plant-based version replaces beef with savory seitan while maintaining the classic turmeric and onion profile. It captures the essence of the golden Za&#x27;ara style found in Djerban cuisine.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4-6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">180 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/generated/yellow_meat_dish.png" alt="Yellow Meat (Basar Tzahov) dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
+      <div class="two-col">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1.5 kg de asado de seitán (bloque de gluten)</li>
+              <li>8 g de cebolla en polvo</li>
+              <li>2 cebollas grandes, picadas</li>
+              <li>30 ml de aceite vegetal</li>
+              <li>9 g de cúrcuma</li>
+              <li>11 g de caldo de pollo vegano en polvo</li>
+              <li>3 hojas de laurel</li>
+              <li>6 granos de pimienta negra enteros</li>
+              <li>Pimienta negra molida al gusto</li>
+              <li>Sal al gusto</li>
+              <li>250 ml de agua</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 160°C. Masajear bien la pieza de carne vegetal con la cebolla en polvo.</li>
+              <li class="step"><span class="step-num">2.</span>Colocar la carne en una fuente y sellar herméticamente con papel de aluminio. Hornear durante 2,5 horas hasta que esté tierna.</li>
+              <li class="step"><span class="step-num">3.</span>Sacar del horno y dejar enfriar un poco. Cortar la carne en rodajas para servir.</li>
+              <li class="step"><span class="step-num">4.</span>En una olla ancha, calentar el aceite y sofreír las cebollas picadas hasta que estén doradas.</li>
+              <li class="step"><span class="step-num">5.</span>Añadir la cúrcuma, el caldo en polvo, la sal, la pimienta molida, los granos de pimienta y el laurel. Remover brevemente para liberar los aromas.</li>
+              <li class="step"><span class="step-num">6.</span>Añadir las rodajas de carne a la olla. Agregar agua (aprox. 250 ml, suficiente para crear salsa pero sin cubrir totalmente). Tapar y cocinar a fuego lento otros 20-30 minutos para que se mezclen los sabores.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1.5 ק&quot;ג צלי סייטן (גוש גלוטן)</li>
+              <li>8 גרם אבקת בצל</li>
+              <li>2 בצלים גדולים, קצוצים</li>
+              <li>30 מ&quot;ל שמן צמחי</li>
+              <li>9 גרם כורכום</li>
+              <li>11 גרם אבקת מרק בטעם עוף (פרווה)</li>
+              <li>3 עלי דפנה</li>
+              <li>6 גרגירי פלפל שחור שלמים</li>
+              <li>פלפל שחור גרוס לפי הטעם</li>
+              <li>מלח לפי הטעם</li>
+              <li>250 מ&quot;ל מים</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-160 מעלות. מעסים היטב את נתח הסייטן באבקת הבצל.</li>
+              <li class="step"><span class="step-num">2.</span>מניחים את הנתח בתבנית ואוטמים היטב בנייר כסף. אופים בתנור במשך שעתיים וחצי עד שהנתח רך.</li>
+              <li class="step"><span class="step-num">3.</span>מוציאים מהתנור ומניחים להתקרר מעט. פורסים את הנתח לפרוסות הגשה.</li>
+              <li class="step"><span class="step-num">4.</span>בסיר רחב, מחממים את השמן ומטגנים את הבצל הקצוץ עד להזהבה.</li>
+              <li class="step"><span class="step-num">5.</span>מוסיפים לבצל את הכורכום, אבקת המרק, מלח, פלפל טחון, גרגירי הפלפל ועלי הדפנה. מערבבים קלות לפתיחת הטעמים.</li>
+              <li class="step"><span class="step-num">6.</span>מוסיפים את פרוסות הנתח לסיר. מוסיפים מים (כ-250 מ&quot;ל או עד ליצירת רוטב, אך לא לכיסוי מלא). מכסים ומבשלים על אש נמוכה כ-20-30 דקות נוספות לספיגת טעמים.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
+      <div class="two-col">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1.5 kg seitan roast (wheat gluten log)</li>
+              <li>1 tbsp onion powder</li>
+              <li>2 large onions, diced</li>
+              <li>2 tbsp vegetable oil</li>
+              <li>1 tbsp turmeric</li>
+              <li>1 tbsp vegan chicken-style bouillon powder</li>
+              <li>3 bay leaves</li>
+              <li>6 whole black peppercorns</li>
+              <li>Ground black pepper to taste</li>
+              <li>Salt to taste</li>
+              <li>~1 cup water</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Preheat oven to 160°C (320°F). Massage the whole piece of meat thoroughly with onion powder.</li>
+              <li class="step"><span class="step-num">2.</span>Place the meat in a baking dish and seal tightly with aluminum foil. Cook in the oven for 2.5 hours until tender.</li>
+              <li class="step"><span class="step-num">3.</span>Remove meat from the oven and let it cool slightly. Slice the meat into serving portions.</li>
+              <li class="step"><span class="step-num">4.</span>In a wide pot, heat the oil and fry the diced onions until they turn golden brown.</li>
+              <li class="step"><span class="step-num">5.</span>Add the turmeric, chicken seasoning, salt, ground pepper, whole peppercorns, and bay leaves to the onions. Stir briefly to release aromatics.</li>
+              <li class="step"><span class="step-num">6.</span>Add the sliced meat to the pot. Add water (approx 250ml or enough to create a sauce but not submerge completely). Cover and simmer on low heat for another 20-30 minutes to let flavors meld.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1.5 كغ روتي سيتان (جلوتين)</li>
+              <li>1 مغرفة بودرة بصل</li>
+              <li>2 بصلات كبار، مقصوصين</li>
+              <li>2 مغارف زيت</li>
+              <li>1 مغرفة كركم</li>
+              <li>1 مغرفة تابل دجاج نباتي (أو كنور)</li>
+              <li>3 ورقات رند</li>
+              <li>6 كعبات فلفل أكحل</li>
+              <li>فلفل أكحل مرحي حسب الذوق</li>
+              <li>ملح حسب الذوق</li>
+              <li>1 كاس (تقريباً) ماء</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>سخّن الفور (الكوشة) في 160 درجة. ادهن الروتي مليح ببودرة البصل.</li>
+              <li class="step"><span class="step-num">2.</span>حط الروتي في طبق وغطيه مليح بالبابיי ألومنيوم. طيّب في الفور ساعتين ونص حتى يولي طري.</li>
+              <li class="step"><span class="step-num">3.</span>خرّج الطبق من الفور وخليه يبرد شوية. قص الروتي طروف طروف (شرائح).</li>
+              <li class="step"><span class="step-num">4.</span>في طنجرة واسعة، سخّن الزيت وقلي البصل المقصوص لين يولي لونه ذهبي.</li>
+              <li class="step"><span class="step-num">5.</span>زيد الكركم، تابل الدجاج، الملح، الفلفل الأكحل، كعبات الفلفل، والرند للبصل. حرك شوية بش تخرج الريحة.</li>
+              <li class="step"><span class="step-num">6.</span>حط طروف الروتي في الطنجرة. زيد الماء (تقريباً كاس، بش تعمل مرقة أما ما تغمّش اللحم الكل). غطي الطنجرة وخلّيها تطيب (تكتك) على نار هادية 20-30 دقيقة بش تدخل البنة في بعضها.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

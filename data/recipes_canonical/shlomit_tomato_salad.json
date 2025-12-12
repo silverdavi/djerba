@@ -1,0 +1,249 @@
+{
+  "id": "shlomit_tomato_salad",
+  "slug": "shlomit-tomato-salad",
+  "source_file": "user_input_2024_12",
+  "name": "Yerachmiel's Shlomit's Tomato Salad",
+  "name_hebrew": "סלט העגבניות של שלומית",
+  "name_origin": "Named after Shlomit, a family member whose simple but perfect tomato salad became a beloved tradition. The recipe was passed down through Yerachmiel.",
+  "description": "A simple cherry tomato salad dressed with oil, salt, sugar, and oregano. The addition of fresh herbs or sunflower seeds adds texture and nutrition.",
+  "cultural_context": "Family recipes like this one are treasured heirlooms, passed down through generations with love.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 10,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry_tomatoes",
+      "name": "Cherry tomatoes",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "halved",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 18,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 12.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "oregano",
+      "name": "Oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "fresh_herbs",
+      "name": "Fresh herbs (parsley, basil)",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sunflower_seeds",
+      "name": "Sunflower seeds",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 17,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Cut cherry tomatoes in half and place in a serving bowl.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a small bowl, mix olive oil with salt, sugar, and oregano.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Pour dressing over tomatoes and toss gently.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add fresh herbs or sunflower seeds if using. Serve immediately.",
+      "time_minutes": 2,
+      "tips": "Best served fresh"
+    }
+  ],
+  "tags": [
+    "salad",
+    "appetizer",
+    "quick",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "Named for Shlomit, a beloved family member, this salad represents the simple culinary traditions passed down through Yerachmiel. This naturally vegan dish highlights the sweetness of cherry tomatoes balanced with savory oregano and crunch from sunflower seeds, capturing the essence of fresh Mediterranean flavors in every bite.",
+  "image": {
+    "generation_prompt": "A vibrant close-up of a rustic ceramic bowl filled with glistening halved cherry tomatoes in various shades of red and orange. The salad is dressed in golden olive oil and speckled with dried oregano and coarse salt crystals. Fresh green chopped parsley and basil leaves are scattered on top alongside crunchy sunflower seeds adding texture. The bowl sits on an antique wooden table inside an early 1900s Safed stone kitchen with arched windows letting in soft natural light. In the background, blurred stone walls and vintage copper cookware create a warm and nostalgic atmosphere. The lighting highlights the juiciness of the tomatoes and the freshness of the herbs. A crusty loaf of bread sits nearby on a linen cloth, ready to soak up the dressing. The scene evokes a sense of family tradition and simple, wholesome plant-based eating in a historic Galilean setting."
+  },
+  "veganization_complete": true
+}

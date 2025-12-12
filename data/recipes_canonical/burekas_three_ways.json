@@ -1,0 +1,584 @@
+{
+  "id": "burekas_three_ways",
+  "slug": "burekas-three-ways",
+  "source_file": "user_input_2024_12",
+  "name": "Burekas Three Ways",
+  "name_hebrew": "בורקס בשלוש גרסאות",
+  "name_origin": "Burekas comes from the Turkish borek, meaning filled pastry. This Sephardic staple traveled with Jews throughout the Ottoman Empire and became a beloved part of Israeli cuisine.",
+  "description": "Three delicious vegan burekas variations using puff pastry: pizza flower rolls with tomato and olives, potato-filled rectangles with sesame, and a large minced meat roll with plant-based filling.",
+  "cultural_context": "Burekas are iconic Sephardic pastries that have become a cornerstone of Israeli bakery culture. These vegan versions maintain all the traditional flavors.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Uses vegan cheese, plant-based milk, and vegan minced meat",
+  "meta": {
+    "servings": "12-15",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 55,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "puff_pastry",
+      "name": "Puff pastry dough",
+      "amount": 250,
+      "unit": "g",
+      "preparation": "thawed if frozen",
+      "notes": "Ensure butter-free/vegan certified",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 70,
+      "unit": "g",
+      "preparation": null,
+      "notes": "1 tube, for pizza and meat fillings",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 70,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 70,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "oregano",
+      "name": "Oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nutritional_yeast",
+      "name": "Nutritional yeast",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Adds savory cheesy flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegan_cheese",
+      "name": "Vegan cheese",
+      "amount": 70,
+      "unit": "g",
+      "preparation": "shredded",
+      "notes": "Use a melting variety like Daiya or Violife",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 70,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.66,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 70,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "green_olives",
+      "name": "Green olives",
+      "amount": 50,
+      "unit": "g",
+      "preparation": "chopped into bits",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato_flakes",
+      "name": "Potato flakes",
+      "amount": 1,
+      "unit": "cup",
+      "preparation": null,
+      "notes": "Instant mashed potatoes",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion_flakes",
+      "name": "Dried onion bits",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "parsley_flakes",
+      "name": "Dried parsley",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 0.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.02,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Ensure vegan certified",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 0.25,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "For golden color",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 0.8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.03,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "plant_based_meat",
+      "name": "Plant-based minced meat",
+      "amount": 400,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Soy or pea protein crumbles",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 400,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "plant_milk",
+      "name": "Unsweetened plant milk",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Soy or oat milk for brushing",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sesame_seeds",
+      "name": "Sesame seeds",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For topping",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 27,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.95,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "PIZZA FLOWERS: Mix tomato paste with oregano, nutritional yeast, garlic powder, pepper, and salt. Spread on pastry. Sprinkle cheese and olives. Roll into a log, cut 1cm slices, place cut-side up.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "POTATO RECTANGLES: Make mashed potatoes with 1 cup flakes and 2-2.5 cups water. Add oil, onion bits, parsley, bouillon, pepper, turmeric. Cut 12 rectangles, fill each with 1-2 tbsp, fold and seal.",
+      "time_minutes": 10,
+      "tips": "Keep fold underneath"
+    },
+    {
+      "step": 3,
+      "instruction": "MEAT ROLL: Mix tomato paste with paprika, garlic powder, pepper, salt. Combine with plant-based meat. Spread on pastry and roll into one large log.",
+      "time_minutes": 8,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Brush all pastries with plant milk mixed with oil. Top generously with sesame seeds.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Bake at 190-200°C until golden brown.",
+      "time_minutes": 25,
+      "tips": "Watch carefully for browning"
+    }
+  ],
+  "variants": [
+    {
+      "name": "Pizza Flowers",
+      "description": "Round pinwheel-shaped burekas with pizza filling"
+    },
+    {
+      "name": "Potato Rectangles",
+      "description": "Classic rectangular burekas with mashed potato filling"
+    },
+    {
+      "name": "Meat Roll",
+      "description": "One large rolled burekas with plant-based meat"
+    }
+  ],
+  "tags": [
+    "pastry",
+    "appetizer",
+    "sephardic",
+    "vegan"
+  ],
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Egg wash",
+      "replacement": "Plant milk mixed with oil",
+      "notes": "Provides golden browning and binds sesame seeds"
+    },
+    {
+      "original": "Dairy cheese",
+      "replacement": "Vegan cheese shreds",
+      "notes": "Use a high-quality melting variety like Daiya or Violife"
+    },
+    {
+      "original": "Minced meat (beef/lamb)",
+      "replacement": "Plant-based minced meat",
+      "notes": "Soy or pea protein based crumbles"
+    },
+    {
+      "original": "Butter (in pastry)",
+      "replacement": "Oil-based puff pastry",
+      "notes": "Most commercial puff pastry is accidentally vegan"
+    }
+  ],
+  "intro_paragraph": "Burekas derive from the Turkish borek meaning filled pastry. These Sephardic treats traveled across the Ottoman Empire to become an Israeli staple. This plant-based version recreates the flaky texture and savory fillings without animal products. It captures the essence of traditional bakery culture in every golden bite.",
+  "image": {
+    "generation_prompt": "A rustic, weathered wooden table set inside an authentic early 1900s stone kitchen in Safed displays a generous ceramic platter of golden-brown vegan burekas prepared in three distinct styles. In the center sits a substantial, flaky pastry roll filled with savory plant-based minced meat and rich tomato sauce, sliced to reveal the dark, textured filling. Arranged neatly around the roll are classic rectangular pockets filled with bright yellow turmeric-spiced mashed potatoes, their tops generously studded with white sesame seeds. Interspersed are intricate pinwheel-shaped pizza flower pastries, showcasing swirls of red tomato paste, chopped green olives, and melted dairy-free cheese. The puff pastry appears incredibly airy, flaky, and crisp, having been brushed with plant milk for a deep, appetizing golden sheen. Soft, warm natural light streams through a small arched window, casting gentle shadows and illuminating the texture of the ancient stone walls in the background. Fresh parsley sprigs and a small bowl of crushed tomatoes accompany the pastries on the table."
+  },
+  "veganization_complete": true
+}

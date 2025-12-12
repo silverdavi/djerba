@@ -50,7 +50,7 @@
       "amount": 60,
       "unit": "ml",
       "preparation": null,
-      "notes": "for frying base",
+      "notes": "Olive oil is recommended for better flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -68,6 +68,30 @@
         "original": {
           "value": 60,
           "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "preparation": "minced",
+      "notes": "Added to enhance the savory base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "cloves"
+        },
+        "imperial": {
+          "value": 3,
+          "unit": "cloves"
+        },
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "cloves"
         }
       }
     },
@@ -229,7 +253,8 @@
   ],
   "image": {
     "filename": "images/current/031_dwida/dish.png",
-    "prompt": "Bowl of Tunisian Dwida soup, red tomato broth with broken spaghetti pieces and green chili peppers, rustic style"
+    "prompt": "Bowl of Tunisian Dwida soup, red tomato broth with broken spaghetti pieces and green chili peppers, rustic style",
+    "generation_prompt": "A close-up, high-angle shot of a rustic earthenware bowl filled with Dwida, a traditional Tunisian spicy pasta soup. The broth is a deep, vibrant crimson red, colored by tomatoes and generous sweet paprika. Short, broken pieces of spaghetti are visible just beneath the surface, cooked to tenderness. Diced green hot peppers provide a striking visual contrast against the red liquid. The soup looks glossy and rich. The scene is set in a historic Safed stone house kitchen from the early 1900s. The bowl rests on a heavy, distressed oak table with visible grain. In the background, blurred slightly, are rough-hewn limestone walls and copper cookware hanging from hooks. Soft, warm lighting mimics the glow of an oil lamp or afternoon sun entering a small window, casting gentle shadows. A piece of crusty bread sits on the side to dip into the plant-based broth. The texture of the soup appears velvety and warming, capturing the essence of simple, peasant-style comfort food."
   },
   "tags": [
     "north-african",
@@ -294,5 +319,8 @@
       "key_difference": "Chorba typically uses frik (green wheat) or barley, whereas Dwida uses pasta"
     }
   ],
-  "intro_paragraph": "Dwida—translating to \"little worm\" in Arabic, akin to Italian vermicelli—is a spicy Tunisian pasta soup. While the name implies fine noodles, this Djerban Jewish version uses spaghetti broken into small pieces. Cooked directly in a rich, garlic-infused tomato broth, it serves as a warming comfort food sharing the same savory base as Mhamsa."
+  "intro_paragraph": "Dwida translates to little worm in Arabic which refers to the vermicelli shape. This spicy Tunisian soup uses broken spaghetti cooked in a rich tomato broth. It is a warming comfort food from Djerban Jewish cuisine that shares a savory base with Mhamsa and is naturally plant-based.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

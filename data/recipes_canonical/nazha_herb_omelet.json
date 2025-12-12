@@ -52,7 +52,7 @@
   ],
   "description": "A traditional Tunisian herb omelet packed with fresh greens. Similar to a frittata or the Persian Kuku Sabzi, this dish relies on a generous amount of scallions, dill, cilantro, and parsley mixed with eggs and fried until golden and stable.",
   "cultural_context": "A staple in Djerban and Tunisian Jewish households, often served as a light lunch, dinner, or sandwich filling. It is characterized by the high ratio of herbs to eggs.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with chickpea flour batter or a commercial vegan egg substitute.",
   "meta": {
     "servings": "2-3",
@@ -63,21 +63,58 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
-      "amount": 4,
-      "unit": "unit",
-      "size": "large",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour (Besan)",
+      "amount": 1,
+      "unit": "cup",
+      "size": null,
       "preparation": null,
-      "notes": null,
+      "notes": "The base for the egg-free batter",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 120,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
         "original": {
-          "value": 4,
-          "unit": "unit"
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 1,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": "mix with flour for batter",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
         }
       }
     },
@@ -158,6 +195,34 @@
       }
     },
     {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "for fluffiness",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
       "ingredient_id": "vegetable_oil",
       "name": "Vegetable oil",
       "amount": 30,
@@ -186,30 +251,58 @@
       }
     },
     {
-      "ingredient_id": "salt",
-      "name": "Salt",
-      "amount": null,
-      "unit": null,
+      "ingredient_id": "kala_namak",
+      "name": "Kala Namak (Black Salt)",
+      "amount": 0.5,
+      "unit": "tsp",
       "size": null,
       "preparation": null,
-      "notes": "to taste",
+      "notes": "or regular salt to taste",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 2.5,
+          "unit": "g"
         },
         "imperial": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.1,
+          "unit": "oz"
         },
         "volume": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.5,
+          "unit": "tsp"
         },
         "original": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric powder",
+      "amount": 0.25,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "for golden color",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.03,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
         }
       }
     },
@@ -277,7 +370,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/063_nazha/dish.png",
-    "prompt": "Tunisian herb omelet Na'zha, golden brown disk filled with green herbs like parsley dill and green onion, sitting on a plate, rustic style"
+    "prompt": "Tunisian herb omelet Na'zha, golden brown disk filled with green herbs like parsley dill and green onion, sitting on a plate, rustic style",
+    "generation_prompt": "A rustic close-up of a golden-brown vegan Na'zha herb omelet resting on a vintage ceramic plate. The thick disk is speckled with vibrant green flecks of fresh parsley, dill, cilantro, and scallions embedded in a savory chickpea flour base. The texture appears fluffy yet crisp on the edges. The plate sits on a weathered wooden table inside an old stone kitchen in Safed with soft natural light streaming through a small window. In the background, bunches of fresh herbs and a small bowl of olives add context. The atmosphere is warm and inviting, capturing the essence of a traditional Djerban lunch adapted for a plant-based diet."
   },
   "tags": [
     "tunisian",
@@ -288,5 +382,19 @@
     "passover"
   ],
   "related_recipes": [],
-  "intro_paragraph": "Na'zha is a staple Djerban Jewish herb omelet featuring a dense mixture of scallions, dill, cilantro, and parsley bound by eggs. Its name likely stems from the Arabic for \"freshness\" (*nuzha*) or \"ewe\" (*na'ja*), alluding to its soft texture. Fried until golden, this fragrant dish is commonly enjoyed as a light lunch or sandwich filling."
+  "intro_paragraph": "Na'zha is a fragrant Djerban dish named after the Arabic word for freshness or ewe. This vegan version replaces eggs with savory chickpea flour to bind the dense mixture of scallions and herbs. It is fried until golden and served as a light lunch or sandwich filling.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "4 Eggs",
+      "replacement": "Chickpea flour batter (chickpea flour, water, baking powder)",
+      "notes": "Creates a savory, protein-rich binder similar to the traditional egg base"
+    },
+    {
+      "original": "Salt",
+      "replacement": "Kala Namak (Black Salt)",
+      "notes": "Optional but recommended for authentic sulfurous egg flavor"
+    }
+  ],
+  "veganization_complete": true
 }

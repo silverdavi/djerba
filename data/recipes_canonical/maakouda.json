@@ -7,7 +7,7 @@
   "name_origin": "The name is derived directly from the Arabic trilateral root ʿ-Q-D (ع-ق-d). Grammatically, 'Ma'akouda' (معقودة) is the feminine passive participle (ism maf'ūl) of the verb 'aqada' (عقد). In a culinary context, this verb means 'to thicken,' 'to coagulate,' or 'to bind together.' The name literally describes the chemical action of the eggs binding the mashed potatoes and other ingredients into a cohesive mass that will not fall apart during frying. It shares the same root as 'aqid' (knot/contract).",
   "description": "A thick, savory potato cake or frittata that is a staple of North African Jewish cuisine. Soft and fluffy on the inside with a golden, crispy exterior, it is often filled with vegetables and herbs.",
   "cultural_context": "A classic dish in Tunisian and Moroccan Jewish households, often served as an appetizer, street food (in a sandwich), or part of a Shabbat meal. It is traditionally cooked in a round pan and flipped whole.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Difficult to adapt as eggs are the primary binder.",
   "meta": {
     "servings": "4-6",
@@ -36,20 +36,110 @@
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
-      "amount": 4,
-      "unit": "unit",
-      "preparation": "beaten",
-      "notes": "Large",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour (Besan)",
+      "amount": 120,
+      "unit": "g",
+      "preparation": null,
+      "notes": "The primary binder replacing eggs",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 120,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
         "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 240,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "To mix with chickpea flour",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nutritional_yeast",
+      "name": "Nutritional yeast",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For savory, egg-like flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Provides fluffiness",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
           "value": 4,
-          "unit": "unit"
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
         }
       }
     },
@@ -99,39 +189,12 @@
       }
     },
     {
-      "ingredient_id": "flour",
-      "name": "Flour",
-      "amount": 1,
-      "unit": "tbsp",
-      "preparation": null,
-      "notes": "Helps bind the mixture",
-      "is_optional": false,
-      "measurements": {
-        "metric": {
-          "value": 8,
-          "unit": "g"
-        },
-        "imperial": {
-          "value": 0.3,
-          "unit": "oz"
-        },
-        "volume": {
-          "value": 1,
-          "unit": "tbsp"
-        },
-        "original": {
-          "value": 1,
-          "unit": "tbsp"
-        }
-      }
-    },
-    {
       "ingredient_id": "turmeric",
       "name": "Turmeric",
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "For color and flavor (inferred from 'spices')",
+      "notes": "Essential for golden color",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -158,7 +221,7 @@
       "amount": null,
       "unit": null,
       "preparation": null,
-      "notes": "To taste",
+      "notes": "To taste (Kala Namak recommended for egg flavor)",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -302,7 +365,8 @@
   ],
   "image": {
     "filename": "images/current/051_maakouda/dish.png",
-    "prompt": "Golden brown thick potato frittata maakouda on a plate, north african style, parsley garnish"
+    "prompt": "Golden brown thick potato frittata maakouda on a plate, north african style, parsley garnish",
+    "generation_prompt": "A high-resolution, photorealistic close-up of a golden-brown Vegan Ma'akouda, a thick Tunisian potato frittata, resting on an antique ceramic plate with intricate blue patterns. The dish is a perfect round disk, approximately two inches thick, with a crispy, turmeric-stained exterior. A triangular slice has been cut away to reveal the fluffy, vibrant yellow interior made from mashed potatoes and chickpea flour, speckled with bright green parsley, orange carrot cubes, and green peas. The plate sits on a weathered wooden table inside a dimly lit, early 20th-century stone kitchen in Safed, with rough-hewn limestone walls visible in the background. Soft, natural light streams from a side window, illuminating the steam rising from the warm potato cake. In the background, small bowls of olives and harissa accompany the dish, alongside a rustic loaf of bread, emphasizing its role as a hearty plant-based appetizer or sandwich filling."
   },
   "tags": [
     "north-african",
@@ -363,5 +427,19 @@
       "key_difference": "Croquettes are breaded (flour/egg/breadcrumbs) before frying; Ma'akouda is usually fried directly or lightly dusted with flour, and relies on the egg inside the mix for the 'skin'."
     }
   ],
-  "intro_paragraph": "Ma'akouda derives its name from the Arabic for \"bound\" or \"thickened,\" describing how eggs unite mashed potatoes into a cohesive cake. This thick, savory frittata features a golden crust and fluffy, herb-flecked interior. A fixture of the Djerban Jewish table, it is enjoyed warm on Shabbat or stuffed into sandwiches for a hearty snack."
+  "intro_paragraph": "Ma'akouda comes from the Arabic word for \"bound,\" referring to how ingredients are knotted into a cohesive cake. This vegan adaptation replaces eggs with chickpea flour to bind the mashed potatoes while maintaining the classic golden crust. It is a beloved North African dish often served warm or in sandwiches.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "4 Eggs",
+      "replacement": "Chickpea flour batter (chickpea flour, water, baking powder)",
+      "notes": "Provides binding structure and protein"
+    },
+    {
+      "original": "Flavor profile of eggs",
+      "replacement": "Nutritional yeast and turmeric",
+      "notes": "Replicates the savory umami flavor and golden color"
+    }
+  ],
+  "veganization_complete": true
 }

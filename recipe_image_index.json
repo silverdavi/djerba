@@ -1,0 +1,441 @@
+{
+  "summary": {
+    "total_recipes": 81,
+    "total_images": 86,
+    "matched": 71,
+    "recipes_without_images": 10,
+    "unused_images": 21
+  },
+  "matches": [
+    {
+      "recipe": "adafina",
+      "image": "001_adafina",
+      "method": "current_path"
+    },
+    {
+      "recipe": "adafinawheatside_dish",
+      "image": "092_wheat_berries",
+      "method": "manual"
+    },
+    {
+      "recipe": "adamshusha",
+      "image": "002_admeshushah",
+      "method": "current_path"
+    },
+    {
+      "recipe": "apple_crumble",
+      "image": "003_apple_crumble",
+      "method": "normalized"
+    },
+    {
+      "recipe": "artichokemushroomsstew",
+      "image": "004_artichoke_mushroom_stew",
+      "method": "manual"
+    },
+    {
+      "recipe": "banana_cake",
+      "image": "006_banana_cake",
+      "method": "normalized"
+    },
+    {
+      "recipe": "banatagestuffedpotato_croquettes",
+      "image": "007_banatage",
+      "method": "current_path"
+    },
+    {
+      "recipe": "binas_thick_sour_spicy_soup",
+      "image": "046_hsou",
+      "method": "current_path"
+    },
+    {
+      "recipe": "binasthicksourspicysoup",
+      "image": "046_hsou",
+      "method": "manual"
+    },
+    {
+      "recipe": "biscoti_judy",
+      "image": "009_biscotti",
+      "method": "current_path"
+    },
+    {
+      "recipe": "bkailatunisianstew",
+      "image": "010_bkaila",
+      "method": "current_path"
+    },
+    {
+      "recipe": "bread",
+      "image": "085_sourdough_bread",
+      "method": "partial"
+    },
+    {
+      "recipe": "brikot",
+      "image": "011_brik",
+      "method": "current_path"
+    },
+    {
+      "recipe": "brodochickensoup",
+      "image": "012_brodo",
+      "method": "current_path"
+    },
+    {
+      "recipe": "bshisha_bsisa",
+      "image": "008_beshisha",
+      "method": "current_path"
+    },
+    {
+      "recipe": "charoset",
+      "image": "017_charoset",
+      "method": "current_path"
+    },
+    {
+      "recipe": "chickenfricasseestew",
+      "image": "033_fricassee_stew",
+      "method": "partial"
+    },
+    {
+      "recipe": "chocolate_balls",
+      "image": "020_chocolate_balls",
+      "method": "normalized"
+    },
+    {
+      "recipe": "chocolate_cake",
+      "image": "021_chocolate_cake",
+      "method": "normalized"
+    },
+    {
+      "recipe": "chocolatepeanutbuddy_bars",
+      "image": "070_chocolate_peanut_bars",
+      "method": "manual"
+    },
+    {
+      "recipe": "chocolatepeanutbutter_muffins",
+      "image": "023_chocolate_peanut_butter_muffins",
+      "method": "normalized"
+    },
+    {
+      "recipe": "cholent",
+      "image": "025_cholent",
+      "method": "current_path"
+    },
+    {
+      "recipe": "chraimespicyfish_stew",
+      "image": "045_hraime",
+      "method": "current_path"
+    },
+    {
+      "recipe": "cujada",
+      "image": "028_cujada",
+      "method": "current_path"
+    },
+    {
+      "recipe": "dabikh_hagim",
+      "image": "087_tbikha_chagim",
+      "method": "manual"
+    },
+    {
+      "recipe": "dwida",
+      "image": "031_dwida",
+      "method": "current_path"
+    },
+    {
+      "recipe": "french_toast",
+      "image": "032_french_toast",
+      "method": "normalized"
+    },
+    {
+      "recipe": "fricassee_rolls",
+      "image": "034_fricasse",
+      "method": "current_path"
+    },
+    {
+      "recipe": "granola_cookies",
+      "image": "036_granola_cookies",
+      "method": "normalized"
+    },
+    {
+      "recipe": "greenbeanstomato_sauce",
+      "image": "050_loubia_khadra",
+      "method": "manual"
+    },
+    {
+      "recipe": "homemade_couscous",
+      "image": "026_couscous",
+      "method": "current_path"
+    },
+    {
+      "recipe": "honeycakelior_benmosheh",
+      "image": "042_honey_cake",
+      "method": "partial"
+    },
+    {
+      "recipe": "honeycakemami",
+      "image": "042_honey_cake",
+      "method": "partial"
+    },
+    {
+      "recipe": "hotfudgepudding_cake",
+      "image": "044_hot_fudge_cake",
+      "method": "manual"
+    },
+    {
+      "recipe": "humus_salad",
+      "image": "018_hummus_salad",
+      "method": "manual"
+    },
+    {
+      "recipe": "kataa_soup",
+      "image": "047_ktaa",
+      "method": "current_path"
+    },
+    {
+      "recipe": "kouklotsemolinadumplings",
+      "image": "048_kuklot",
+      "method": "current_path"
+    },
+    {
+      "recipe": "maakouda",
+      "image": "051_maakouda",
+      "method": "current_path"
+    },
+    {
+      "recipe": "mahshistuffedvegetables",
+      "image": "053_mahshi",
+      "method": "current_path"
+    },
+    {
+      "recipe": "marmouma",
+      "image": "055_marmouma",
+      "method": "current_path"
+    },
+    {
+      "recipe": "marmuma",
+      "image": "055_marmouma",
+      "method": "manual"
+    },
+    {
+      "recipe": "mhamsa",
+      "image": "059_mhamsa",
+      "method": "current_path"
+    },
+    {
+      "recipe": "mochajavacake",
+      "image": "060_mocha_java_cake",
+      "method": "normalized"
+    },
+    {
+      "recipe": "msiyar",
+      "image": "062_msiyer",
+      "method": "current_path"
+    },
+    {
+      "recipe": "nazhaherbomelet",
+      "image": "063_nazha",
+      "method": "current_path"
+    },
+    {
+      "recipe": "nougatandpeanutcakemor_abergil",
+      "image": "065_nougat_peanut_cake",
+      "method": "manual"
+    },
+    {
+      "recipe": "originaltollhousechocolatechip_cookies",
+      "image": "022_chocolate_chip_cookies",
+      "method": "partial"
+    },
+    {
+      "recipe": "pancakes_soly",
+      "image": "084_pancakes_soly",
+      "method": "normalized"
+    },
+    {
+      "recipe": "pancakesefratshachor",
+      "image": "068_pancakes",
+      "method": "current_path"
+    },
+    {
+      "recipe": "pizza",
+      "image": "072_pizza",
+      "method": "current_path"
+    },
+    {
+      "recipe": "redstewedolives",
+      "image": "057_marqa_zeitoun",
+      "method": "manual"
+    },
+    {
+      "recipe": "schnitzel",
+      "image": "075_schnitzel",
+      "method": "current_path"
+    },
+    {
+      "recipe": "semolina_porridge",
+      "image": "077_semolina_porridge",
+      "method": "normalized"
+    },
+    {
+      "recipe": "sfenj",
+      "image": "078_sfenj",
+      "method": "current_path"
+    },
+    {
+      "recipe": "sfingh",
+      "image": "078_sfenj",
+      "method": "manual"
+    },
+    {
+      "recipe": "shakshukacaramelizedonion_sausage",
+      "image": "066_ojja_merguez",
+      "method": "manual"
+    },
+    {
+      "recipe": "shepherdpienorth_african",
+      "image": "081_shepherds_pie",
+      "method": "manual"
+    },
+    {
+      "recipe": "shlomit_perl_dressing",
+      "image": "074_salad_dressing",
+      "method": "manual"
+    },
+    {
+      "recipe": "shlomitperldressing",
+      "image": "082_shlomit_dressing",
+      "method": "manual"
+    },
+    {
+      "recipe": "shmid",
+      "image": "083_shmid",
+      "method": "current_path"
+    },
+    {
+      "recipe": "sourdoughbread_soly",
+      "image": "085_sourdough_bread",
+      "method": "partial"
+    },
+    {
+      "recipe": "soy_shawarma",
+      "image": "080_shawarma",
+      "method": "current_path"
+    },
+    {
+      "recipe": "sufganiyot",
+      "image": "086_sufganiyot",
+      "method": "current_path"
+    },
+    {
+      "recipe": "tbikha_tomatem",
+      "image": "088_tbikhat_tmatem",
+      "method": "manual"
+    },
+    {
+      "recipe": "tfina_stew",
+      "image": "090_tfina",
+      "method": "current_path"
+    },
+    {
+      "recipe": "tirshipumpkinsalad",
+      "image": "091_tirshi",
+      "method": "current_path"
+    },
+    {
+      "recipe": "vegancaesardressing",
+      "image": "015_caesar_dressing",
+      "method": "partial"
+    },
+    {
+      "recipe": "veganfishchraime",
+      "image": "045_hraime",
+      "method": "manual"
+    },
+    {
+      "recipe": "vegetablesoupfor_couscous",
+      "image": "027_couscous_soup",
+      "method": "manual"
+    },
+    {
+      "recipe": "yellow_meat",
+      "image": "049_lham_sfar",
+      "method": "manual"
+    },
+    {
+      "recipe": "yoyotunisiandoughnuts",
+      "image": "093_yoyo",
+      "method": "current_path"
+    }
+  ],
+  "unmatched_recipes": [
+    {
+      "file": "bakedpotatolevivot",
+      "name_en": "Baked Potato Levivot (Ma'akouda)",
+      "name_he": "לביבות תפו\"א"
+    },
+    {
+      "file": "burekasthreeways",
+      "name_en": "Burekas Three Ways",
+      "name_he": "בורקס בשלוש גרסאות"
+    },
+    {
+      "file": "ciceritos",
+      "name_en": "Ciceritos (Chickpea Stew)",
+      "name_he": "ציצריטוס"
+    },
+    {
+      "file": "greenpeasoup",
+      "name_en": "Green Pea Soup",
+      "name_he": "מרק אפונה ירוקה"
+    },
+    {
+      "file": "lentechalentilstew",
+      "name_en": "Lentecha (Lentil Stew)",
+      "name_he": "לנטכה"
+    },
+    {
+      "file": "potachewhitebean_stew",
+      "name_en": "Potache (White Bean Stew)",
+      "name_he": "פוטאצ'ה (נזיד שעועית לבנה)"
+    },
+    {
+      "file": "shlomittomatosalad",
+      "name_en": "Yerachmiel's Shlomit's Tomato Salad",
+      "name_he": "סלט העגבניות של שלומית"
+    },
+    {
+      "file": "spice_mixes",
+      "name_en": "Spice Mixes (Pizza, Fries, Egg)",
+      "name_he": "תערובות תבלינים (פיצה, צ'יפס, ביצה)"
+    },
+    {
+      "file": "umami_mushrooms",
+      "name_en": "Umami Mushrooms",
+      "name_he": "פטריות אומאמי"
+    },
+    {
+      "file": "veganeggsalad",
+      "name_en": "Vegan Egg Salad",
+      "name_he": "סלט ביצים טבעוני"
+    }
+  ],
+  "unused_images": [
+    "005_bolo_banan",
+    "013_bsisa",
+    "014_bunutage",
+    "016_vegan_caesar",
+    "019_slata_homs",
+    "024_chocolate_peanut_muffins",
+    "035_frikaseh",
+    "037_green_beans",
+    "038_hallah",
+    "039_harimi",
+    "040_hita",
+    "041_khobz_dar",
+    "043_fudge_cake",
+    "054_maqoud",
+    "058_marqat_gannariya",
+    "064_naja",
+    "067_pain_perdu",
+    "069_pastel",
+    "071_peanut_chocolate_bars",
+    "073_bkila",
+    "076_assida"
+  ]
+}

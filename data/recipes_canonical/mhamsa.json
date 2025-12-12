@@ -290,7 +290,8 @@
   ],
   "image": {
     "filename": "images/current/059_mhamsa/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic clay bowl filled with Mhamsa, a Tunisian pearl pasta stew, sitting on an aged wooden table in an early 1900s stone kitchen in Safed. The dish features small, round pasta pearls glistening in a vibrant red tomato sauce, mixed with tender cubes of carrots, potatoes, and zucchini. Steam rises gently from the hot stew, highlighting its comforting texture. The lighting is soft and natural, streaming through a small arched window, casting warm shadows on the rough stone walls in the background. Antique copper pots and bunches of dried herbs hang on the walls, enhancing the authentic, old-world atmosphere. The food looks hearty, saucy, and completely plant-based."
   },
   "tags": [
     "north-african",
@@ -357,5 +358,8 @@
       "key_difference": "Often richer, sometimes containing milk, butter, and preserved meats (gueddid) in a way distinct from the Djerban Jewish tomato base."
     }
   ],
-  "intro_paragraph": "Mhamsa derives its name from the Arabic verb \"to toast,\" referring to the traditional method of drying hand-rolled semolina pearls to deepen their nutty flavor. A versatile Djerban staple often substituted with Israeli ptitim, it is served either as a simple dry pilaf or, more commonly in winter, simmered in a hearty tomato and vegetable sauce."
+  "intro_paragraph": "Mhamsa comes from the Arabic word for toasting which refers to the traditional method of drying semolina pearls. This Djerban staple is naturally vegan and features pasta simmered in a rich tomato and vegetable sauce. It offers a comforting and hearty meal perfect for cold winter nights.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

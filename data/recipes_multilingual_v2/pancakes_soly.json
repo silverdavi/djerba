@@ -14,44 +14,44 @@
     "en": "Soly's Pancakes"
   },
   "description": {
-    "he": "פנקייק סולי - הקרוי על שם כינוי חיבה צפון אפריקאי נפוץ לשלמה - הוא עיבוד מעשי למאכל הבוקר המערבי. על ידי החלפת חלב וחמאה במים ושמן, הפנקייקים האווריריים נשארים פרווה, מה שהופך אותם לקינוח מתאים לאחר ארוחה בשרית. המתכון משקף השפעה ישראלית מודרנית, תוך שימוש בשקיות אפייה סטנדרטיות הנפוצות במטבחי התפוצות.",
-    "es": "Los Panqueques de Soly, llamados así por un diminutivo norteafricano común de Salomón, son una adaptación práctica del desayuno occidental básico. Al sustituir los lácteos por agua y aceite, estos esponjosos panqueques se mantienen parve, lo que los hace un postre adecuado después de una comida con carne. La receta refleja la influencia israelí moderna, utilizando sobres de repostería estándar comunes en las cocinas de la Diáspora.",
-    "ar": "بانكيك سولي، المسمي على اسم دلع معروف في شمال إفريقيا لاسم سليمان، هو تكييف عملي لفطور الصباح الغربي. بتبديل الحليب والزبدة بالماء والزيت، البانكيك هذا يجي خفيف ويقعد بارف (parve)، باش يتكل ديسير بعد ماكلة باللحم. الوصفة توري التأثير الإسرائيلي الحديث، باستعمال ساشيات الخميرة والسكر فانيليا المعروفين في الكوجينة.",
-    "en": "Soly’s Pancakes—named for a common North African diminutive of Solomon—are a practical adaptation of the Western breakfast staple. By substituting water and oil for dairy, these fluffy cakes remain parve, making them a suitable dessert following a meat meal. The recipe reflects modern Israeli influence, utilizing standard baking packets common in Diaspora kitchens."
+    "he": "פנקייק סולי נקראים על שם כינוי צפון אפריקאי נפוץ לשלמה. גרסה טבעונית זו מחליפה את הביצה בפשתן כדי לשמור על המרקם האוורירי תוך שמירה על המנה פרווה. המתכון משקף השפעה ישראלית מודרנית על ידי שימוש בשקיות אפייה סטנדרטיות הנמצאות במטבחי התפוצות לארוחת בוקר מענגת.",
+    "es": "Los Panqueques de Soly llevan el nombre de un apodo norteafricano común para Salomón. Esta adaptación vegana reemplaza el huevo con lino para mantener la textura esponjosa y mantener el plato parve. Refleja la influencia israelí moderna mediante el uso de sobres de hornear estándar que se encuentran en las cocinas de la diáspora para un desayuno delicioso.",
+    "ar": "بانكيك سولي تسمّى على اسم دلع معروف في شمال إفريقيا لاسم سليمان. هالوصفة النباتية تبدّل العظمة بذور الكتان باش تقعد خفيفة ومنفخة وتكون بارف. الوصفة توري التأثير الإسرائيلي العصري باستعمال باكوات الخميرة والسكر فانيليا المعروفين، وتجي بنينة برشا لفطور الصباح.",
+    "en": "Soly's Pancakes are named for a common North African nickname for Solomon. This vegan adaptation replaces the egg with flax to maintain the fluffy texture while keeping the dish parve. It reflects modern Israeli influence by using standard baking packets found in Diaspora kitchens for a delightful breakfast treat."
   },
   "ingredients": {
     "he": [
       "140 גרם קמח רגיל",
       "38 גרם סוכר",
       "מלח לפי הטעם",
-      "5 גרם אבקת אפייה (1/2 שקית)",
-      "15 גרם סוכר וניל (1.5 שקיות)",
+      "5 גרם אבקת אפייה (חצי שקית)",
+      "15 גרם סוכר וניל (שקית וחצי)",
       "3 גרם סודה לשתייה",
-      "1 ביצה (L)",
-      "45 מ\"ל שמן צמחי (ועוד לטיגון)",
+      "1 ביצת פשתן (כף פשתן טחון עם 3 כפות מים)",
+      "45 מ\"ל שמן צמחי",
       "180 מ\"ל מים"
     ],
     "es": [
       "140 g de harina común",
       "38 g de azúcar",
       "Sal al gusto",
-      "5 g de polvo de hornear (1/2 sobre)",
-      "15 g de azúcar avainillado (1.5 sobres)",
+      "5 g de polvo de hornear",
+      "15 g de azúcar vainillado",
       "3 g de bicarbonato de sodio",
-      "1 huevo (grande)",
-      "45 ml de aceite vegetal (y más para freír)",
+      "1 huevo de lino (1 cda lino molido con 3 cdas agua)",
+      "45 ml de aceite vegetal",
       "180 ml de agua"
     ],
     "ar": [
-      "1.15 كاس فرينة",
+      "1.15 كيسان فرينة",
       "3 مغارف سكر",
       "ملح حسب الذوق",
-      "1 مغرفة صغيرة خميرة (شطر ساشي)",
-      "1.2 مغرفة سكر فانيليا (1.5 ساشي)",
-      "0.5 مغرفة صغيرة بيكربونات",
-      "1 عظمة (كبيرة)",
-      "3 مغارف زيت (وشوية للقلي)",
-      "0.75 كاس ماء"
+      "1 مغرفة صغيرة خميرة قاطو (شطر باكو)",
+      "1.2 مغرفة سكر فانيليا (باكو ونص)",
+      "نص مغرفة صغيرة بيكربونات",
+      "1 عظمة كتان (مغرفة بذور كتان مرحية مع 3 مغارف ماء)",
+      "3 مغارف زيت نباتي",
+      "3/4 كاس ماء"
     ],
     "en": [
       "1.15 cups all-purpose flour",
@@ -60,36 +60,36 @@
       "1 tsp baking powder (1/2 standard packet)",
       "1.2 tbsp vanilla sugar (1.5 standard packets)",
       "0.5 tsp baking soda",
-      "1 egg (large)",
-      "3 tbsp vegetable oil (plus more for frying)",
+      "1 flax egg (1 tbsp ground flaxseed with 3 tbsp warm water)",
+      "3 tbsp vegetable oil",
       "0.75 cups water"
     ]
   },
   "steps": {
     "he": [
-      "בקערת ערבוב גדולה, טורפים יחד את הקמח, הסוכר, המלח, אבקת האפייה, סוכר הווניל והסודה לשתייה.",
-      "יוצרים גומה במרכז ומוסיפים את הביצה, השמן והמים.",
-      "מערבבים רק עד שהחומרים מתאחדים. אין לערבב יתר על המידה; מעט גושים זה בסדר.",
-      "מחממים מחבת משומנת קלות על חום בינוני.",
-      "יוצקים או מעבירים בכף את הבלילה למחבת (כ-1/4 כוס לפנקייק). משחימים משני הצדדים ומגישים חם."
+      "בקערת ערבוב גדולה, טורפים יחד את הקמח, הסוכר, המלח, אבקת האפייה, סוכר הוניל והסודה לשתייה.",
+      "יוצרים גומה במרכז ומוסיפים את ביצת הפשתן, השמן והמים.",
+      "מערבבים רק עד לאיחוד. אין לערבב יתר על המידה; מעט גושים זה בסדר.",
+      "מחממים מחבת משומנת קלות על אש בינונית.",
+      "יוצקים מהבלילה למחבת (כ-1/4 כוס לכל פנקייק). מטגנים משני הצדדים עד להשחמה ומגישים חם."
     ],
     "es": [
-      "En un bol grande, mezcle la harina, el azúcar, la sal, el polvo de hornear, el azúcar avainillado y el bicarbonato de sodio.",
-      "Haga un hueco en el centro y añada el huevo, el aceite y el agua.",
-      "Mezcle hasta que esté apenas combinado. No mezcle demasiado; está bien si quedan algunos grumos.",
-      "Caliente una sartén o plancha ligeramente engrasada a fuego medio.",
-      "Vierta la masa en la plancha (aprox. 1/4 de taza por panqueque). Dore por ambos lados y sirva caliente."
+      "En un bol grande, mezclar la harina, el azúcar, la sal, el polvo de hornear, el azúcar vainillado y el bicarbonato.",
+      "Hacer un hueco en el centro y añadir el huevo de lino, el aceite y el agua.",
+      "Mezclar hasta que esté apenas combinado. No mezclar demasiado; está bien si quedan algunos grumos.",
+      "Calentar una sartén o plancha ligeramente engrasada a fuego medio.",
+      "Verter la masa en la plancha (aprox. 1/4 taza por panqueque). Dorar por ambos lados y servir caliente."
     ],
     "ar": [
-      "في صحفة كبيرة، خلط الفرينة، السكر، الملح، الخميرة، سكر فانيليا والبيكربونات مع بعضهم.",
-      "أعمل حفرة في الوسط وحط العظمة، الزيت والماء.",
-      "خلط لين يتلم الخليط. ما تخلطش برشا؛ ميسالش كان يقعدو كعابر صغار.",
-      "سخن مقلة مدهونة بشوية زيت على نار متوسطة.",
-      "صب الخليط في المقلة (تقريب ربع كاس لكل كعبة). حمرها من الشيرتين وقدمها سخونة."
+      "في صحفة كبيرة، خلط الفرينة، السكر، الملح، خميرة القاطو، سكر فانيليا والبيكربونات.",
+      "أعمل حفرة في الوسط وحط عظمة الكتان، الزيت والماء.",
+      "خلط لين يتلم الخليط برك. ما تخلطش برشا، ميسالش كان قعدو كعابر صغار.",
+      "سخن طاوة ولا مقلة مدهونة بشوية زيت.",
+      "صب شوية من الخليط في الطاوة (تقريب ربع كاس لكل كعبة). طيبها من الجهتين لين تحمار وقدمها سخونة."
     ],
     "en": [
       "In a large mixing bowl, whisk together the flour, sugar, salt, baking powder, vanilla sugar, and baking soda.",
-      "Make a well in the center and add the egg, oil, and water.",
+      "Make a well in the center and add the flax egg, oil, and water.",
       "Mix until just combined. Do not overmix; a few lumps are okay.",
       "Heat a lightly oiled frying pan or griddle over medium heat.",
       "Pour or scoop the batter onto the griddle (approx. 1/4 cup per pancake). Brown on both sides and serve hot."

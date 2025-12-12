@@ -281,7 +281,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/016_vegan_caesar/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot captures a rustic, hand-thrown ceramic bowl filled with creamy Vegan Caesar Dressing, resting on a weathered oak table inside a sun-drenched 1900s Safed stone kitchen. The dressing is a rich ivory color, luxuriously thick and glossy, visibly speckled with coarse cracked black pepper and vibrant green flecks of chopped fresh parsley. A vintage silver spoon rests in the sauce, creating a luscious swirl that highlights its smooth texture. Surrounding the main bowl are culinary elements evoking the preparation: a small glass jar of dark green capers, a halved lemon glistening with juice, and a few cloves of garlic with papery skins. To the side, a plate of crisp romaine lettuce leaves and golden croutons awaits dressing. The background features blurred rough-hewn limestone walls and an arched window letting in soft, warm Mediterranean light, casting gentle shadows that emphasize the rustic, authentic atmosphere of the historic home while showcasing this modern plant-based creation."
   },
   "tags": [
     "salad-dressing",
@@ -330,5 +331,8 @@
       "key_difference": "Standard Tunisian mayonnaise is egg-based and often spicy; this specific recipe is seasoned with capers to mimic the 'Caesar' profile."
     }
   ],
-  "intro_paragraph": "Rotev Keisar Tiv'oni offers a creamy, plant-based alternative to the classic salad topper. The name combines *Keisar* (Caesar) with *Tiv'oni*, a Modern Hebrew term for vegan rooted in *teva* (nature). Blending vegan mayonnaise, capers, and lemon juice, this modern pareve addition replicates the signature savory tang without anchovies, making it suitable for any meal."
+  "intro_paragraph": "Rotev Keisar Tiv'oni is a modern plant-based adaptation of the classic Caesar dressing. The name blends Keisar, meaning Caesar, with Tiv'oni, the Hebrew word for vegan rooted in nature. By using capers and brine instead of anchovies, this creamy sauce delivers authentic savory flavor perfect for crisp salads.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

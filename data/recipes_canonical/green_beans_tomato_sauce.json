@@ -326,7 +326,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/037_green_beans/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic clay bowl filled with Loubia Khadra, a vibrant Tunisian green bean stew. The dish features tender bright green beans coated in a rich, deep red tomato sauce that glistens with oil. Visible flecks of minced garlic, diced onions, and small pieces of green hot pepper add texture to the sauce. A light sprinkling of toasted golden sesame seeds garnishes the top. The bowl sits on a weathered wooden table inside an old stone kitchen in Safed, illuminated by soft, warm natural light streaming from a nearby arched window. In the background, blurred details include a vintage copper pot, a jar of dried spices, and a woven cloth, evoking an authentic early 20th-century atmosphere. The steam rising gently from the hot stew suggests it was just served, highlighting the comforting and home-cooked nature of this traditional North African plant-based side dish. The texture of the sauce looks thick and clingy, not watery, showcasing the blooming technique used for the paprika."
   },
   "tags": [
     "north-african",
@@ -386,5 +387,8 @@
       "key_difference": "Often includes lamb or beef; the Jewish version described might be 'parve' (meatless) to accompany dairy meals, or simply a side dish."
     }
   ],
-  "intro_paragraph": "Loubia Khadra—Arabic for \"green beans\"—is a classic stew where fresh beans simmer in a piquant tomato sauce. The recipe relies on blooming paprika and garlic in oil, a foundational technique in Djerban Jewish cooking. Served warm or at room temperature, it makes an essential side dish for Shabbat tables."
+  "intro_paragraph": "Loubia Khadra means green beans in Arabic and refers to this classic North African stew. Fresh beans simmer in a rich tomato sauce flavored by blooming paprika and garlic in oil. This naturally vegan dish is a staple side for Shabbat meals or simple weeknight dinners in Djerban Jewish cuisine.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

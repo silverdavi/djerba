@@ -230,7 +230,8 @@
   ],
   "image": {
     "filename": "images/current/078_sfenj/dish.png",
-    "prompt": "Golden brown Moroccan sfenj doughnuts being fried in oil, rustic shape, sprinkled with sugar, high resolution food photography"
+    "prompt": "Golden brown Moroccan sfenj doughnuts being fried in oil, rustic shape, sprinkled with sugar, high resolution food photography",
+    "generation_prompt": "A close-up high-resolution shot of golden brown Sfenj doughnuts resting on an antique ceramic platter inside a rustic 1900s stone kitchen in Safed. The doughnuts are rustic and uneven rings with a bubbly and crispy exterior that glistens with a light coating of oil, showcasing the sponge texture they are named for. A generous dusting of white granulated sugar clings to the hot fried dough, catching the light. In the background, soft natural light streams through an arched window, illuminating a weathered wooden table, clay jars, and rough-hewn stone walls typical of Old Safed architecture. A small vintage bowl of amber maple syrup sits nearby as a modern vegan dipping option. The texture of the sfenj looks incredibly airy and porous, capturing the authentic essence of this traditional North African treat. The scene evokes a warm, cozy, and nostalgic atmosphere suitable for a high-end heritage cookbook, highlighting the simple yet delicious nature of these naturally plant-based fritters. Steam rises gently from the freshly fried dough, suggesting they are piping hot and ready to be eaten immediately."
   },
   "tags": [
     "north-african",
@@ -292,5 +293,8 @@
       "key_difference": "Sufganiyot are round, filled with jelly/custard, and contain eggs/butter, whereas traditional Sfenj is a lean dough (flour, water, yeast) and unfilled."
     }
   ],
-  "intro_paragraph": "Sfenj—derived from the Arabic word for \"sponge\"—are rustic, deep-fried yeast doughnuts known for their airy, porous texture. These golden fritters are typically enjoyed hot, either plain or dusted with sugar. A staple North African street food, they hold special significance in Jewish homes during Hanukkah, celebrating the miracle of the oil."
+  "intro_paragraph": "Sfenj comes from the Arabic word for sponge which perfectly describes the airy texture of these Maghrebi doughnuts. These rustic fried fritters are a beloved street food and Hanukkah treat. Naturally vegan and made from simple yeast dough, they are best enjoyed hot with a dusting of sugar.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

@@ -7,7 +7,7 @@
   "name_origin": "The name is a hybrid of Judeo-Arabic and Hebrew, typical of North African Jewish communities. 'Dabikh' (דביח) is a dialectal variation of the Arabic root 'T-B-Kh' (to cook). In the Maghreb (Tunisia/Libya/Algeria), 'Tbikha' (طبيخة) or 'Tabikh' refers specifically to a thick, slow-cooked vegetable ragout or stew. The spelling with a Dalet (ד) rather than the standard Arabic emphatic Tet (ט) likely reflects a specific Djerban pronunciation (voicing the emphatic consonant) or a local orthographic convention. 'Hagim' is the Hebrew plural for 'Holidays'. The use of pumpkin strongly suggests this is specifically for Rosh Hashanah, where pumpkin (Qra' or Kara) is a symbolic food (Simanim). (Confidence: likely)",
   "description": "A festive Tunisian stew rich in fresh herbs and vegetables. It starts with a traditional oil and paprika base, followed by a slow sauté of onions, pumpkin, and generous amounts of parsley, dill, and cilantro before simmering with chicken and potatoes.",
   "cultural_context": "A traditional Djerban/Tunisian dish often served during holidays. The technique of 'steaming' the vegetables in oil and their own juices before adding water is characteristic of North African Jewish cooking.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with a plant-based protein or chickpeas; the vegetable base is naturally vegan.",
   "meta": {
     "servings": "4-6",
@@ -261,29 +261,29 @@
       }
     },
     {
-      "ingredient_id": "chicken",
-      "name": "Chicken",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "pieces",
-      "notes": "or meat substitute",
+      "ingredient_id": "seitan_chunks",
+      "name": "Seitan chunks",
+      "amount": 800,
+      "unit": "g",
+      "preparation": "cut into bite-sized pieces",
+      "notes": "or soy curls/chickpeas",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 800,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 28,
           "unit": "oz"
         },
         "volume": {
-          "value": 4.5,
+          "value": 4,
           "unit": "cups"
         },
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 800,
+          "unit": "g"
         }
       }
     },
@@ -374,7 +374,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/087_tbikha_chagim/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with Vegan Dabikh Hagim, set in an early 20th-century stone kitchen in Safed. The stew is thick and hearty, featuring vibrant orange cubes of pumpkin, yellow potato quarters, and savory chunks of browned seitan that mimic the texture of slow-cooked meat. The broth is a deep, glistening red-orange from paprika and oil, heavily speckled with chopped green herbs like parsley, dill, and cilantro. Soft natural light streams from a nearby window, illuminating the steam rising from the hot dish. In the background, blurred slightly, are rough-hewn stone walls and a wooden table set with crusty bread and a small dish of coarse salt. The overall atmosphere is warm, inviting, and steeped in tradition, highlighting the rich textures of the plant-based ingredients."
   },
   "tags": [
     "north-african",
@@ -429,5 +430,14 @@
       "key_difference": "Tfina is the Shabbat stew (Adafina) cooked overnight, whereas Dabikh/Tbikha is typically a stovetop ragout cooked for a shorter duration."
     }
   ],
-  "intro_paragraph": "Dabikh Hagim, blending the Judeo-Arabic dialect for \"stew\" with the Hebrew for \"holidays,\" is a festive Djerban ragout. Chicken, pumpkin, and potatoes are slow-cooked in a paprika-infused oil base packed with fresh parsley, dill, and cilantro. The vegetables are traditionally sautéed in their own juices before simmering, resulting in a thick, herbaceous main course."
+  "intro_paragraph": "Dabikh Hagim blends the Judeo-Arabic word for stew with the Hebrew for holidays. This vegan adaptation replaces traditional chicken with savory seitan while maintaining the festive Djerban spirit. Pumpkin and potatoes simmer in a rich paprika oil base filled with fresh parsley, dill, and cilantro for a hearty meal.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken",
+      "replacement": "Seitan chunks",
+      "notes": "Provides a chewy, meat-like texture suitable for stews"
+    }
+  ],
+  "veganization_complete": true
 }

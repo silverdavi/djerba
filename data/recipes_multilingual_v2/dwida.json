@@ -14,15 +14,16 @@
     "en": "Dwida (Spicy Pasta Soup)"
   },
   "description": {
-    "he": "דווידה - שפירושה \"תולעת קטנה\" בערבית, בדומה לוורמיצ'לי האיטלקי - היא מרק פסטה תוניסאי חריף. בעוד שהשם מרמז על אטריות דקות, גרסה יהודית-ג'רבאית זו משתמשת בספגטי שבור לחתיכות קטנות. המנה מבושלת ישירות בציר עגבניות עשיר ומתובל בשום, ומשמשת כמאכל מנחם ומחמם החולק את אותו בסיס עשיר כמו המאמסה.",
-    "es": "Dwida —que se traduce como \"gusanito\" en árabe, similar al vermicelli italiano— es una sopa de pasta tunecina picante. Aunque el nombre implica fideos finos, esta versión judía de Djerba utiliza espaguetis rotos en trozos pequeños. Cocinada directamente en un rico caldo de tomate con ajo, sirve como una comida reconfortante que comparte la misma base sabrosa que la Mhamsa.",
-    "ar": "الدويدة - ومعناها \"دود\" صغير بالعربي، كيف الفرميسال الطليان - هي مرقة مقرونة تونسية حارة. الاسم يوحي بالشعيرية الجويدة، أما هذي الوصفة اليهودية الجربية تستعمل السباغيتي مكسرة طروف صغار. تطيب ديركت في مرقة طماطم ثقيلة ومفوحة بالثوم، وهي ماكلة دافية وتعمل الكيف، عندها نفس الباز متاع المحمصة.",
-    "en": "Dwida—translating to \"little worm\" in Arabic, akin to Italian vermicelli—is a spicy Tunisian pasta soup. While the name implies fine noodles, this Djerban Jewish version uses spaghetti broken into small pieces. Cooked directly in a rich, garlic-infused tomato broth, it serves as a warming comfort food sharing the same savory base as Mhamsa."
+    "he": "דווידה פירושה תולעת קטנה בערבית, שם המתייחס לצורת הוורמיצ'לי. מרק תוניסאי חריף זה משתמש בספגטי שבור המבושל בציר עגבניות עשיר. זהו אוכל מנחם ומחמם מהמטבח היהודי בג'רבה, החולק בסיס טעמים עם מחמסה והוא טבעוני מטבעו.",
+    "es": "Dwida se traduce como gusanito en árabe, refiriéndose a la forma de los fideos. Esta sopa tunecina picante utiliza espaguetis rotos cocinados en un rico caldo de tomate. Es una comida reconfortante de la cocina judía de Djerba que comparte una base sabrosa con la Mhamsa y es naturalmente vegetal.",
+    "ar": "دويدة تعني دودة صغيرة بالعربي، وهالاسم يرجع لشكل الشعيرية. هالجاري التونسي الحار يتطيب بسباغيتي مكسرة في مرقة طماطم حمراء. هي ماكلة دافية من كوجينة يهود جربة، تشبه للمحمص في التفويح متاعها وتجي بلاش لحم.",
+    "en": "Dwida translates to little worm in Arabic which refers to the vermicelli shape. This spicy Tunisian soup uses broken spaghetti cooked in a rich tomato broth. It is a warming comfort food from Djerban Jewish cuisine that shares a savory base with Mhamsa and is naturally plant-based."
   },
   "ingredients": {
     "he": [
       "500 גרם ספגטי, שבור לחתיכות קטנות",
       "60 מ\"ל שמן צמחי",
+      "3 שיני שום, כתושות",
       "2 עגבניות, מגורדות או חתוכות לקוביות",
       "1 פלפל ירוק חריף, קצוץ",
       "7 גרם פפריקה מתוקה",
@@ -32,7 +33,8 @@
     "es": [
       "500 g de espaguetis, rotos en trozos pequeños",
       "60 ml de aceite vegetal",
-      "2 tomates, rallados o en cubitos",
+      "3 dientes de ajo, picados",
+      "2 tomates, rallados o cortados en cubitos",
       "1 pimiento verde picante, picado",
       "7 g de pimentón dulce",
       "Sal al gusto",
@@ -40,16 +42,18 @@
     ],
     "ar": [
       "5 كيسان سباغيتي، مكسرة طروف صغار",
-      "ربع كاس زيت نباتي",
+      "ربع كاس زيت",
+      "3 سنون ثوم، مرحي",
       "2 كعبات طماطم، مرحية ولا مقصوصة",
       "1 فلفل أخضر حار، مقصوص",
-      "مغرفة كبيرة فلفل أحمر حلو",
+      "1 مغرفة فلفل أحمر (بابريكا)",
       "ملح حسب الذوق",
-      "6 كيسان وربع ماء، يغلي"
+      "6.25 كيسان ماء، يغلي"
     ],
     "en": [
       "5 cups spaghetti, broken into small pieces",
       "1/4 cup vegetable oil",
+      "3 cloves garlic, minced",
       "2 tomatoes, grated or diced",
       "1 hot green pepper, chopped",
       "1 tbsp sweet paprika",
@@ -59,25 +63,25 @@
   },
   "steps": {
     "he": [
-      "בסיר, מחממים את השמן ומטגנים את העגבניות והפלפל החריף עד לריכוך.",
+      "בסיר, מחממים את השמן ומטגנים קלות את העגבניות והפלפל החריף עד שהם מתרככים.",
       "מוסיפים את הפפריקה והמלח, ומערבבים בקצרה כדי לשחרר את הארומה מבלי לשרוף את התבלינים.",
-      "מוסיפים את המים ומביאים את הציר לרתיחה חזקה.",
-      "מוסיפים את שברי הספגטי לציר הרותח.",
+      "מוסיפים את המים ומביאים את המרק לרתיחה חזקה.",
+      "מוסיפים את שברי הספגטי למרק הרותח.",
       "מבשלים עד שהפסטה רכה והרוטב הסמיך מעט."
     ],
     "es": [
       "En una olla, caliente el aceite y sofría los tomates y el pimiento picante hasta que se ablanden.",
-      "Agregue el pimentón y la sal, revolviendo brevemente para liberar el aroma sin quemar las especias.",
-      "Agregue el agua y lleve el caldo a ebullición fuerte.",
-      "Añada los trozos de espagueti al caldo hirviendo.",
+      "Añada el pimentón y la sal, removiendo brevemente para liberar el aroma sin quemar las especias.",
+      "Añada el agua y lleve el caldo a ebullición fuerte.",
+      "Añada los trozos de espagueti rotos al caldo hirviendo.",
       "Cocine hasta que la pasta esté tierna y la salsa se haya espesado ligeramente."
     ],
     "ar": [
       "في طنجرة، سخن الزيت وقلي الطماطم والفلفل الحار لين يذبالو.",
-      "زيد الفلفل الأحمر والملح، وحرك شوية باش تخرج الريحة من غير ما تحرق الفاحات.",
-      "زيد الماء وخلي المرقة تغلي بالقدا.",
-      "ارمي طروف السباغيتي في المرقة وهي تغلي.",
-      "طيب لين تطيب المقرونة والمرقة تختار شوية."
+      "زيد الفلفل الأحمر والملح، وحرك شوية باش تخرج الريحة من غير ما تحرق الفاح.",
+      "صب الماء وخلي المرقة تغلي بالقدا.",
+      "ارمي السباغيتي المكسرة في المرقة وهي تغلي.",
+      "طيب لين تعقد المرقة شوية وتطيب المقرونة."
     ],
     "en": [
       "In a pot, heat the oil and sauté the tomatoes and hot pepper until softened.",

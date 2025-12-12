@@ -1,0 +1,94 @@
+{
+  "id": "greenpeasoup",
+  "image": "greenpeasoup.png",
+  "meta": {
+    "servings": "6",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרק אפונה ירוקה",
+    "es": "Sopa de Guisantes Verdes",
+    "ar": "شربة جلبانة",
+    "en": "Green Pea Soup"
+  },
+  "description": {
+    "he": "מרק אפונה ירוקה הוא מאכל מנחם ובסיסי בחורף הישראלי. מרק קרמי זה מסתמך על אפונה ירוקה יבשה במקום שמנת למרקם העשיר שלו. המרק טבעוני באופן טבעי, ומשלב ירקות שורש פשוטים וכורכום ליצירת קערה מחממת שמרגישה כמו חיבוק ביום קר.",
+    "es": "El Marak Afuna Yeruka es un alimento reconfortante básico en los inviernos israelíes. Esta sopa cremosa se basa en guisantes verdes secos en lugar de crema para su rica textura. Naturalmente vegetal, combina hortalizas de raíz simples y cúrcuma para crear un plato cálido que se siente como un abrazo en un día frío.",
+    "ar": "هالشربة متاع الجلبانة هي ماكلة دافية ومعروفة برشا في الشتاء. القوام الكريمي يجي من الجلبانة الشايحة موش من الكريمة. هي شربة نباتية بطبيعتها، فيها خضرة وكعبر كركم باش تعطي بنة ودفء، وتخليك تحس بروحك مرتاح في نهار بارد.",
+    "en": "Marak Afuna Yeruka is a staple comfort food in Israeli winters. This creamy soup relies on dried green peas rather than cream for its rich texture. Naturally plant-based, it combines simple root vegetables and turmeric to create a warming bowl that feels like a hug on a cold day."
+  },
+  "ingredients": {
+    "he": [
+      "400 גרם אפונה ירוקה יבשה, שטופה היטב",
+      "2 גזרים, חתוכים לחתיכות",
+      "1 בצל, חתוך לרבעים",
+      "3 גרם כורכום",
+      "1.2 גרם פלפל לבן או שחור",
+      "4 גרם אבקת מרק ירקות",
+      "מלח לפי הטעם",
+      "1440 מ\"ל מים"
+    ],
+    "es": [
+      "400 g de guisantes verdes secos, muy bien lavados",
+      "2 zanahorias, cortadas en trozos",
+      "1 cebolla, cortada en cuartos",
+      "3 g de cúrcuma",
+      "1.2 g de pimienta blanca o negra",
+      "4 g de caldo de verduras en polvo",
+      "Sal al gusto",
+      "1440 ml de agua"
+    ],
+    "ar": [
+      "2 كيسان جلبانة شايحة، مغسولة مليح",
+      "2 سفنارية، مقصوصين طروف",
+      "1 بصلة، مقسومة على أربعة",
+      "1 مغرفة صغيرة كركم",
+      "نص مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة صغيرة بودر مرقة خضرة",
+      "ملح حسب الذوق",
+      "6 كيسان ماء"
+    ],
+    "en": [
+      "2 cups dried green peas, washed very well",
+      "2 carrots, cut into chunks",
+      "1 onion, quartered",
+      "1 tsp turmeric",
+      "0.5 tsp white or black pepper",
+      "1 tsp vegetable bouillon powder",
+      "Salt to taste",
+      "6 cups water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "לשטוף את האפונה היבשה היטב כדי להסיר את כל הקצף.",
+      "לשים את האפונה בסיר עם מים. להוסיף את חתיכות הגזר והבצל החתוך לרבעים (לא מטוגן).",
+      "להוסיף כורכום, פלפל, אבקת מרק ומלח. להביא לרתיחה.",
+      "להנמיך את האש ולבשל עד שהאפונה רכה מאוד.",
+      "לטחון הכל בעזרת בלנדר מוט עד לקבלת מרקם חלק וקרמי."
+    ],
+    "es": [
+      "Lavar muy bien los guisantes secos para eliminar toda la espuma.",
+      "Colocar los guisantes en una olla con agua. Añadir los trozos de zanahoria y la cebolla en cuartos (sin sofreír).",
+      "Añadir la cúrcuma, la pimienta, el caldo en polvo y la sal. Llevar a ebullición.",
+      "Reducir el fuego y cocinar a fuego lento hasta que los guisantes estén muy blandos.",
+      "Triturar todo con una batidora de mano hasta obtener una mezcla suave y cremosa."
+    ],
+    "ar": [
+      "اغسل الجلبانة الشايحة مليح باش تنحي الكشكوشة الكل.",
+      "حط الجلبانة في طنجرة مع الماء. زيد السفنارية والبصل المقصوص (من غير ما تقلي).",
+      "زيد الكركم، الفلفل الأكحل، بودر المرقة والملح. خليها تغلي.",
+      "نقص في النار وخليها تطيب لين الجلبانة تولي طرية برشا.",
+      "ارحي كل شيء بالميكسور لين تولي رطبة وكريمية."
+    ],
+    "en": [
+      "Wash the dried green peas very thoroughly to remove all the foam (spumas).",
+      "Place peas in a pot with water. Add carrot chunks and quartered onion (not fried).",
+      "Add turmeric, pepper, bouillon powder, and salt. Bring to a boil.",
+      "Reduce heat and simmer until peas are very soft.",
+      "Blend everything with an immersion blender until smooth and creamy."
+    ]
+  }
+}

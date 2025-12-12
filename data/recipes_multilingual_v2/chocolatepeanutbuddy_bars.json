@@ -14,97 +14,97 @@
     "en": "Chocolate Peanut Buddy Bars"
   },
   "description": {
-    "he": "חטיפי שוקולד וחמאת בוטנים כוללים בסיס בלונדיס לעיס עם חמאת בוטנים ומעליו שוקולד מומס. שמם העברי, חטיפי שוקולד וחמאת בוטנים, משתמש במילה המודרנית \"חטיף\", הנגזרת מהשורש ח-ט-ף. מתכון זה מייצג את שילוב האפייה האמריקאית ברפרטואר המשפחתי, וניתן להכין אותו בקלות בגרסת פרווה להגשה לאחר ארוחות בשריות.",
-    "es": "Las Barras de Chocolate y Mantequilla de Maní presentan una base masticable de blondie de mantequilla de maní cubierta con chocolate derretido. Su nombre hebreo, Hatifey Shokolad ve-Hemat Botnim, utiliza la palabra moderna para \"bocadillo\", derivada de la raíz \"arrebatar\". Representando la integración de la repostería americana en el repertorio familiar, estas ricas golosinas se hacen fácilmente pareve para servir después de comidas con carne.",
-    "ar": "بارات الشوكولاتة وزبدة الكاكاوية فيهم قاعدة طرية متاع زبدة الكاكاوية ومغطية بالشوكولاتة الذايبة. اسمهم بالعبرية، حطيفي شوكولاد في-حمات بوطنيم، يستعمل الكلمة العصرية \"سناك\". الوصفة هذي تمثل دخول الحلويات الأمريكية للكوجينة متاع العايلة، وسهل باش تعملها \"بارف\" (بلاش حليب) باش تتاكل وراء الماكلة باللحم.",
-    "en": "Chocolate Peanut Buddy Bars feature a chewy peanut butter blondie base topped with melted chocolate. Their Hebrew name, Hatifey Shokolad ve-Hemat Botnim, uses the modern word for \"snack,\" derived from the root \"to snatch.\" Representing the integration of American baking into the family repertoire, these rich treats are easily made pareve for serving after meat meals."
+    "he": "חטיפי שוקולד וחמאת בוטנים אלו כוללים בסיס בלונדיס לעיס מחמאת בוטנים בציפוי שוקולד מומס ללא חלב. השם העברי משתמש במילה המודרנית חטיף הנגזרת מהשורש ח-ט-ף. גרסה טבעונית זו מחליפה ביצים בפשתן לפינוק עשיר מהצומח.",
+    "es": "Estas Barras de Chocolate y Mantequilla de Maní presentan una base masticable de mantequilla de maní cubierta con chocolate derretido sin lácteos. Su nombre hebreo Hatifey Shokolad ve-Hemat Botnim usa la palabra moderna para bocadillo derivada de la raíz arrebatar. Esta adaptación vegana reemplaza los huevos con lino para un rico postre vegetal.",
+    "ar": "هالحلوى متاع الشوكولاتة وزبدة الكاكاوية فيها قاعدة طرية مغطية بالشوكولاتة الذايبة من غير حليب. اسمها بالعبرية حطيفي شوكولاد وتستعمل كلمة حطيف اللي تعني حاجة تتخطف فيسع. هالوصفة نباتية وتعوض العظم بذور الكتان باش تعطي بنة غنية وصحية.",
+    "en": "These Chocolate Peanut Buddy Bars feature a chewy peanut butter blondie base topped with melted dairy-free chocolate. Their Hebrew name Hatifey Shokolad ve-Hemat Botnim uses the modern word for snack derived from the root to snatch. This vegan adaptation replaces eggs with flax for a rich plant-based treat."
   },
   "ingredients": {
     "he": [
       "250 גרם חמאת בוטנים",
-      "85 גרם חמאה או מרגרינה, רכה",
+      "85 גרם חמאה טבעונית, רכה",
       "250 גרם סוכר",
-      "3 ביצים",
+      "21 גרם פשתן טחון (מעורבב עם 9 כפות מים חמים)",
       "5 מ\"ל תמצית וניל",
       "125 גרם קמח רגיל",
       "1.5 גרם מלח",
-      "325 גרם שוקולד צ'יפס חלבי, מחולק"
+      "325 גרם שוקולד צ'יפס ללא חלב, מחולק"
     ],
     "es": [
       "250 g de mantequilla de maní",
-      "85 g de mantequilla o margarina, ablandada",
+      "85 g de mantequilla vegana, ablandada",
       "250 g de azúcar",
-      "3 huevos",
+      "21 g de harina de linaza (mezclada con 9 cucharadas de agua tibia)",
       "5 ml de extracto de vainilla",
       "125 g de harina común",
       "1.5 g de sal",
-      "325 g de chispas de chocolate con leche, dividido"
+      "325 g de chispas de chocolate sin lácteos, divididas"
     ],
     "ar": [
-      "1 كاس زبدة كاكاوية",
-      "6 مغارف زبدة أو مارغرين، طرية",
-      "1 وربع كاس سكر",
-      "3 عظمات",
+      "1 كأس زبدة كاكاوية",
+      "6 مغارف زبدة نباتية، طرية",
+      "1 وربع كأس سكر",
+      "3 مغارف بذور كتان مرحية (مخلطة مع 9 مغارف ماء دافي)",
       "1 مغرفة صغيرة فانيليا",
-      "1 كاس فرينة",
+      "1 كأس فرينة",
       "ربع مغرفة صغيرة ملح",
-      "2 كيسان حبيبات شوكولاتة بالحليب، مقسومة"
+      "2 كيسان شوكولاتة حبيبات من غير حليب، مقسومة"
     ],
     "en": [
       "1 cup peanut butter",
-      "6 tbsp butter or margarine, softened",
+      "6 tbsp vegan butter, softened",
       "1 1/4 cups sugar",
-      "3 eggs",
+      "3 tbsp ground flaxseed meal (mixed with 9 tbsp warm water)",
       "1 tsp vanilla extract",
       "1 cup all-purpose flour",
       "1/4 tsp salt",
-      "2 cups milk chocolate morsels, divided"
+      "2 cups dairy-free chocolate chips, divided"
     ]
   },
   "steps": {
     "he": [
-      "חממו תנור ל-175 מעלות צלזיוס. הכינו תבנית אפייה בגודל 13x9 אינץ' (ללא שימון).",
-      "בקערת מיקסר גדולה, ערבלו את חמאת הבוטנים והחמאה הרכה (או המרגרינה) עד לקבלת תערובת חלקה, כדקה אחת.",
-      "הוסיפו את הסוכר, הביצים ותמצית הוניל; ערבלו עד שהתערובת קרמית.",
-      "הוסיפו בהדרגה את הקמח והמלח וערבלו עד לאיחוד.",
-      "ערבבו פנימה חצי מכמות השוקולד צ'יפס (כ-160 גרם) לתוך הבלילה.",
-      "שטחו את הבלילה באופן אחיד בתבנית האפייה הלא משומנת.",
-      "אפו במשך 25 עד 30 דקות, או עד שהשוליים מתחילים להשחים.",
-      "הוציאו מהתנור ומיד פזרו את יתרת השוקולד צ'יפס מלמעלה. הניחו לעמוד כ-5 דקות עד שהשוקולד מבריק ורך, ואז מרחו אותו באופן אחיד ליצירת שכבת שוקולד.",
-      "הניחו להצטנן לחלוטין. הכניסו למקרר ל-5 עד 10 דקות כדי לעזור לשוקולד להתייצב לפני החיתוך לריבועים."
+      "מחממים תנור ל-175 מעלות צלזיוס. מכינים תבנית אפייה בגודל 33x23 ס\"מ (ללא שימון).",
+      "בקערת מיקסר גדולה, מקציפים את חמאת הבוטנים והחמאה הרכה עד לקבלת תערובת חלקה, כדקה אחת.",
+      "מוסיפים את הסוכר, תערובת הפשתן ותמצית הווניל; מקציפים עד שהתערובת קרמית.",
+      "מוסיפים בהדרגה את הקמח והמלח ומערבבים עד לאיחוד.",
+      "מערבבים פנימה חצי מכמות השוקולד צ'יפס (כוס אחת) לתוך הבלילה.",
+      "משטחים את הבלילה באופן שווה בתבנית האפייה הלא משומנת.",
+      "אופים במשך 25 עד 30 דקות, או עד שהקצוות מתחילים להשחים.",
+      "מוציאים מהתנור ומפזרים מיד את יתרת השוקולד צ'יפס מלמעלה. מניחים ל-5 דקות עד שהשוקולד מבריק ורך, ואז מורחים אותו לשכבה אחידה.",
+      "מניחים להצטנן לחלוטין. מקררים במקרר 5 עד 10 דקות להתייצבות השוקולד לפני שחותכים לריבועים."
     ],
     "es": [
-      "Precaliente el horno a 175°C (350°F). Prepare un molde para hornear de 13x9 pulgadas (sin engrasar).",
-      "En un tazón grande de batidora, bata la mantequilla de maní y la mantequilla ablandada (o margarina) hasta que quede suave, aproximadamente 1 minuto.",
-      "Agregue el azúcar, los huevos y el extracto de vainilla; bata hasta que la mezcla esté cremosa.",
-      "Incorpore gradualmente la harina y la sal hasta que se combinen.",
-      "Mezcle la mitad de las chispas de chocolate (aprox. 160 g) en la masa.",
+      "Precaliente el horno a 175°C. Prepare un molde para hornear de 33x23 cm (sin engrasar).",
+      "En un tazón grande, bata la mantequilla de maní y la mantequilla ablandada hasta que quede suave, aproximadamente 1 minuto.",
+      "Agregue el azúcar, la mezcla de linaza y el extracto de vainilla; bata hasta que la mezcla esté cremosa.",
+      "Agregue gradualmente la harina y la sal hasta que se combinen.",
+      "Incorpore la mitad de las chispas de chocolate (aprox. 1 taza) a la masa.",
       "Extienda la masa uniformemente en el molde para hornear sin engrasar.",
       "Hornee de 25 a 30 minutos, o hasta que los bordes comiencen a dorarse.",
-      "Retire del horno e inmediatamente espolvoree las chispas de chocolate restantes por encima. Deje reposar durante 5 minutos hasta que las chispas estén brillantes y suaves, luego extiéndalas uniformemente para crear una capa de chocolate.",
-      "Deje enfriar completamente. Refrigere de 5 a 10 minutos para ayudar a que el chocolate se asiente antes de cortar en cuadrados."
+      "Retire del horno e inmediatamente espolvoree las chispas de chocolate restantes por encima. Deje reposar 5 minutos hasta que se ablanden, luego extiéndalas para crear una capa de chocolate.",
+      "Deje enfriar completamente. Refrigere de 5 a 10 minutos para que el chocolate se asiente antes de cortar en cuadrados."
     ],
     "ar": [
-      "سخّن الكوشة (الفور) على 175 درجة. حضّر طبق 13x9 إينش (من غير دهن).",
-      "في صحفة كبيرة، ركّض زبدة الكاكاوية والزبدة الطرية (أو المارغرين) لين تولي رطبة، حكاية دقيقة.",
-      "زيد السكر، والعظمات، والفانيليا؛ وركّض لين الخليط يولي كريمي.",
-      "زيد الفرينة والملح بشوية بشوية وركّض لين يتخلطو.",
-      "خلّط شطر كمية حبيبات الشوكولاتة (حكاية كاس) في العجينة.",
-      "افresh العجينة بالقدى في الطبق (ما تدهنوش).",
-      "طيّبها في الكوشة بين 25 و 30 دقيقة، لين الجناب يبداو يحمارو.",
-      "خرّجها من الكوشة وديراكت ذرذر باقي حبيبات الشوكولاتة من فوق. خلّيها ترتاح 5 دقايق لين الشوكولاتة تذوب وتلمع، ومبعد ادهنها بالقدى باش تعمل طبقة شوكولاتة.",
-      "خلّيها تبرد جملة. حطها في الفريجيدير 5 ولا 10 دقايق باش الشوكولاتة تشد روحها قبل ما تقصها مربعات."
+      "سخن الفور لـ 175 درجة. حضر طبق متاع 33x23 صم (من غير زيت).",
+      "في صحفة كبيرة، ركض زبدة الكاكاوية والزبدة الطرية لين تولي رطبة، حكاية دقيقة.",
+      "زيد السكر، وخليط الكتان، والفانيليا؛ وركض لين الخليط يولي كريمي.",
+      "زيد الفرينة والملح بشوية بشوية لين يتخلطوا بالباهي.",
+      "خلط شطر كمية الشوكولاتة (كأس واحد) في العجينة.",
+      "افرح العجينة بالتساوي في الطبق من غير ما تدهنه.",
+      "طيبها بين 25 و 30 دقيقة، ولا لين الحراف تبدا تحمار.",
+      "خرجها من الفور ورش باقي الشوكولاتة من فوق بالوقت. خليها ترتاح 5 دقايق لين الشوكولاتة تذوب وتولي تلمع، ومبعد ادهنها باش تعمل طبقة شوكولاتة.",
+      "خليها تبرد جملة. حطها في الفريجيدير 5 ولا 10 دقايق باش الشوكولاتة تشد روحها قبل ما تقصها مربعات."
     ],
     "en": [
-      "Preheat oven to 175°C (350°F). Prepare a 13x9-inch baking pan (ungreased).",
-      "In a large mixer bowl, beat the peanut butter and softened butter (or margarine) until smooth, about 1 minute.",
-      "Add the sugar, eggs, and vanilla extract; beat until the mixture is creamy.",
+      "Preheat oven to 350°F (175°C). Prepare a 13x9-inch baking pan (ungreased).",
+      "In a large mixer bowl, beat the peanut butter and softened vegan butter until smooth, about 1 minute.",
+      "Add the sugar, flax egg mixture, and vanilla extract; beat until the mixture is creamy.",
       "Gradually beat in the flour and salt until combined.",
-      "Stir in half of the chocolate morsels (approx. 1 cup / 160g) into the batter.",
+      "Stir in half of the chocolate chips (approx. 1 cup) into the batter.",
       "Spread the batter evenly into the ungreased baking pan.",
       "Bake for 25 to 30 minutes, or until the edges begin to brown.",
-      "Remove from oven and immediately sprinkle the remaining chocolate morsels over the top. Let stand for 5 minutes until the morsels become shiny and soft, then spread them evenly over the top to create a chocolate layer.",
-      "Allow to cool completely. Refrigerate for 5 to 10 minutes to help the chocolate set before cutting into 1 1/2-inch squares."
+      "Remove from oven and immediately sprinkle the remaining chocolate chips over the top. Let stand for 5 minutes until shiny and soft, then spread evenly to create a chocolate layer.",
+      "Allow to cool completely. Refrigerate for 5 to 10 minutes to help the chocolate set before cutting into squares."
     ]
   }
 }

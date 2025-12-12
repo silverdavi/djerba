@@ -7,7 +7,7 @@
   "name_origin": "The name 'Pancake' (פנקייק) is a direct loanword from English into Modern Hebrew. It is not of Judeo-Arabic, Ladino, or French origin. Its presence in a Djerban cookbook indicates a modern addition to the culinary repertoire, likely reflecting the assimilation of Western/American foods into the modern Israeli-Tunisian kitchen. While the name is English, the cooking method described ('generous layer of oil') suggests a technique influenced by traditional Maghrebi frying methods used for dishes like 'Ftas' or 'Sfenj', rather than the lightly greased griddle method used for American pancakes.",
   "description": "A fluffy, comforting pancake recipe featuring chocolate chips. The batter is rested briefly to ensure airiness and fried in a generous layer of oil, resulting in a crispy exterior and a soft, melt-in-your-mouth interior.",
   "cultural_context": "A modern family favorite likely adopted into the repertoire, distinguished by the frying method (using a 'nice layer' of oil rather than a lightly greased pan), which is typical of North African cooking styles applied to Western dishes.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with flax eggs or applesauce; replace milk with oat or soy milk.",
   "meta": {
     "servings": "4",
@@ -126,12 +126,12 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "flax_egg",
+      "name": "Flax eggs",
       "amount": 2,
       "unit": "unit",
-      "preparation": null,
-      "notes": null,
+      "preparation": "mixed with water",
+      "notes": "Mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -144,8 +144,8 @@
       }
     },
     {
-      "ingredient_id": "milk",
-      "name": "Milk",
+      "ingredient_id": "plant_milk",
+      "name": "Soy or oat milk",
       "amount": 240,
       "unit": "ml",
       "preparation": null,
@@ -171,12 +171,12 @@
       }
     },
     {
-      "ingredient_id": "chocolate_chips",
-      "name": "Chocolate chips",
+      "ingredient_id": "vegan_chocolate_chips",
+      "name": "Vegan chocolate chips",
       "amount": 0.5,
       "unit": "cup",
       "preparation": null,
-      "notes": null,
+      "notes": "dairy-free",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -260,7 +260,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/068_pancakes/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, photorealistic close-up of a stack of golden-brown vegan pancakes sitting on a rustic ceramic plate. The pancakes are thick and fluffy, studded with melting dark vegan chocolate chips. They have a distinctively crispy, fried exterior edge, glistening slightly from the generous oil used in the Maghrebi frying technique, differing from the smooth surface of American pancakes. A drizzle of maple syrup cascades down the side. The setting is an authentic early 20th-century stone kitchen in Safed, with textured limestone walls and soft, natural window light illuminating the steam rising from the hot dish. In the background, a vintage copper frying pan sits on a stove. The color palette features warm golds, deep chocolate browns, and the earthy tones of the stone surroundings."
   },
   "tags": [
     "breakfast",
@@ -314,5 +315,24 @@
       "key_difference": "These are closer to crepes or Moroccan Moufleta, lacking the fluffiness of the described pancake."
     }
   ],
-  "intro_paragraph": "Pancakes—adopted directly from English into the modern Israeli kitchen—demonstrate how Western favorites are adapted by Djerban cooks. This fluffy, chocolate-studded batter rests briefly before being fried in a generous layer of oil, a traditional North African technique that yields a distinctively crispy exterior and soft interior."
+  "intro_paragraph": "The name Pancake comes directly from English into Hebrew, marking a modern addition to the Djerban kitchen. This vegan version replaces eggs with flax to maintain the classic texture. Fried in generous oil, these treats offer a crispy crust and soft interior that honors North African cooking techniques.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Eggs",
+      "replacement": "Flax eggs",
+      "notes": "2 tbsp ground flaxseed mixed with 6 tbsp water"
+    },
+    {
+      "original": "Milk",
+      "replacement": "Soy or oat milk",
+      "notes": "Plant-based alternative"
+    },
+    {
+      "original": "Chocolate chips",
+      "replacement": "Vegan chocolate chips",
+      "notes": "Dairy-free dark chocolate"
+    }
+  ],
+  "veganization_complete": true
 }

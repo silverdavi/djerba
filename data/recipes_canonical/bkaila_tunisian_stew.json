@@ -7,7 +7,7 @@
   "name_origin": "The name derives from the Arabic root B-Q-L (ب-ق-l), which relates to herbs, legumes, or sprouting vegetation. In Classical Arabic, 'Baql' (بقل) refers generally to herbs or pot-herbs, and 'Baqla' (بقلة) often refers to specific greens (like purslane in the Levant). In the context of Tunisian Judeo-Arabic, 'Bkaila' (or Pkaila) is a specific noun formation—likely a diminutive—meaning 'The Little Green' or simply 'The Greens.' It is distinct from the standard Tunisian words for spinach ('Sbanakh') or chard ('Salk'), indicating that the name refers specifically to the dish's primary characteristic: the immense volume of greens reduced to a concentrated essence.",
   "description": "A rich, traditional Tunisian Jewish stew characterized by its deep, dark green color. The unique flavor comes from slowly frying Swiss chard (or spinach) until it creates a concentrated confit, which is then simmered with white beans, beef, and fresh herbs.",
   "cultural_context": "A staple of Tunisian Jewish cuisine, traditionally served on Shabbat or holidays. The preparation of the greens (the 'pkaila' base) is a technique specific to this community.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace beef with extra beans or potatoes; the dark chard confit provides enough richness for a hearty vegan dish.",
   "meta": {
     "servings": "4-6",
@@ -90,12 +90,12 @@
       }
     },
     {
-      "ingredient_id": "beef_stew_meat",
-      "name": "Beef stew meat",
+      "ingredient_id": "seitan_chunks",
+      "name": "Seitan chunks",
       "amount": 750,
       "unit": "g",
       "preparation": "cut into cubes",
-      "notes": "Chuck or brisket recommended",
+      "notes": "Or large textured vegetable protein chunks",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -171,12 +171,12 @@
       }
     },
     {
-      "ingredient_id": "water",
-      "name": "Water",
+      "ingredient_id": "vegetable_broth",
+      "name": "Vegetable broth",
       "amount": null,
       "unit": null,
       "preparation": null,
-      "notes": "for stewing",
+      "notes": "for stewing, rich flavor preferred",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -266,7 +266,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/010_bkaila/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic clay bowl filled with vegan Bkaila, a Tunisian stew with a deep, dark forest-green color bordering on black. The stew features creamy white beans and succulent chunks of seitan that mimic slow-cooked beef, glistening with a rich, herbaceous oil. Fresh chopped cilantro and dill garnish the top, adding bright green contrast to the dark, confit-like chard base. The bowl sits on a weathered wooden table inside an early 1900s Safed stone kitchen, surrounded by rough-hewn limestone walls and soft, natural light filtering through a small window. In the background, a crusty loaf of bread and a vintage metal spoon rest nearby. The atmosphere is warm and homey, capturing the essence of a traditional Shabbat meal adapted for a plant-based diet, highlighting the textures of the beans and the glossy sheen of the reduced greens."
   },
   "tags": [
     "north-african",
@@ -320,5 +321,19 @@
       "key_difference": "Usually lighter in color; the chard is often added later or not fried down to a black paste (confit) as in the Djerban/Tunisian tradition."
     }
   ],
-  "intro_paragraph": "Bkaila, deriving its name from the Arabic for \"little greens,\" is a rich Tunisian Jewish stew famous for its deep, dark color. Swiss chard is slowly fried into a concentrated confit, then simmered with white beans, beef, and herbs. A staple of the Shabbat table, this dish highlights a unique community technique for preserving vegetables."
+  "intro_paragraph": "Bkaila derives its name from the Arabic root for greens, referring to the massive amount of chard reduced into a dark essence. This vegan adaptation uses savory seitan chunks instead of beef, preserving the traditional confit technique. It is a hearty, historic Tunisian stew perfect for Shabbat.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Beef stew meat",
+      "replacement": "Seitan chunks",
+      "notes": "Provides a chewy, savory texture similar to slow-cooked meat"
+    },
+    {
+      "original": "Water",
+      "replacement": "Vegetable broth",
+      "notes": "Adds depth of flavor in the absence of beef fat"
+    }
+  ],
+  "veganization_complete": true
 }

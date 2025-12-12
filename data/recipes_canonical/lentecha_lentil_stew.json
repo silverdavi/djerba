@@ -1,0 +1,285 @@
+{
+  "id": "lentecha_lentil_stew",
+  "slug": "lentecha-lentil-stew",
+  "source_file": "user_input_2024_12",
+  "name": "Lentecha (Lentil Stew)",
+  "name_hebrew": "לנטכה",
+  "name_origin": "From the Spanish 'lentejas' (lentils), Lentecha is the Ladino name for this classic lentil stew. The name evolved through Judeo-Spanish to its current form.",
+  "description": "A thick, comforting lentil stew with onions and tomatoes. Unlike other stews, nothing is fried first. Fresh coriander added at the end brings brightness to this hearty dish.",
+  "cultural_context": "A Sephardic Jewish comfort food, lentils were among the first cultivated crops and have been a staple of Jewish cuisine since biblical times.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Uses vegetable bouillon instead of chicken",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 50,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lentils",
+      "name": "Lentils",
+      "amount": 2,
+      "unit": "cups",
+      "preparation": "rinsed",
+      "notes": "brown or green",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 384,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 13.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cups"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": "not fried",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomatoes",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "ensure vegan certified",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 4,
+      "unit": "cups",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 960,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 32,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 4,
+          "unit": "cups"
+        }
+      }
+    },
+    {
+      "ingredient_id": "fresh_coriander",
+      "name": "Fresh coriander",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": "chopped",
+      "notes": "add near end of cooking",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Place lentils in a pot with water, chopped onion, and tomatoes. Do not fry anything.",
+      "time_minutes": 3,
+      "tips": "This is a no-fry recipe"
+    },
+    {
+      "step": 2,
+      "instruction": "Add turmeric, white pepper, bouillon powder, and salt.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Bring to a boil, then reduce heat and simmer until lentils are soft and stew is thick.",
+      "time_minutes": 35,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Near the end of cooking, add fresh coriander if using. Stir and serve.",
+      "time_minutes": 2,
+      "tips": "Coriander adds wonderful freshness"
+    }
+  ],
+  "tags": [
+    "main",
+    "legumes",
+    "sephardic",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "Lentecha derives its name from the Spanish word for lentils, lentejas. This Sephardic stew is a classic comfort food that has always been naturally plant-based. The unique preparation involves boiling ingredients without frying first, creating a light yet hearty dish finished with fresh coriander.",
+  "image": {
+    "generation_prompt": "A close-up, high-angle shot captures a rustic, hand-thrown clay bowl brimming with Lentecha, a traditional Sephardic lentil stew. The thick, hearty soup features tender brown lentils mingled with soft chunks of stewed red tomatoes and translucent onions, all submerged in a rich, golden-hued broth deeply colored by turmeric and white pepper. A vibrant garnish of freshly chopped green coriander rests atop the steaming surface, providing a striking color contrast against the earthy, warm tones of the legumes. The scene is set within an authentic early 1900s Safed kitchen with rough-hewn limestone walls and antique cookware in the background. The bowl sits on a worn, dark oak table, accompanied by a crusty heel of rustic bread and a tarnished vintage silver spoon. Soft, warm natural light streams from a nearby window, illuminating the steam rising from the hot stew and accentuating the wholesome, 100% plant-based ingredients. The atmosphere evokes a sense of timeless comfort and humble culinary tradition, highlighting the rich, creamy texture of the slow-cooked lentils without any animal products."
+  },
+  "veganization_complete": true
+}

@@ -7,7 +7,7 @@
   "name_origin": "While the provided name is Modern Hebrew ('Marak Yerakot'), the traditional Djerban Judeo-Arabic term for the liquid and vegetable stew served over couscous is 'Marga' (or 'Margat'). This derives from the Classical Arabic root 'm-r-q' (م-ر-ق), referring to broth or stock. In Tunisian cuisine, the technique described (sweating vegetables with spices before adding water) is known as the 'teklia' method, which forms the base of the 'Marga'. The Hebrew name is a literal translation used in Israel, but the dish's linguistic roots are firmly Maghrebi Arabic. (Confidence: likely)",
   "description": "A rich, hearty vegetable and chicken soup designed to be ladled over steamed couscous. The vegetables are slowly sweated with spices before adding water, creating a deep, flavorful broth typical of North African cuisine.",
   "cultural_context": "In Tunisian and Djerban tradition, this soup (often called 'Marak') is the centerpiece of the meal, providing both the sauce and the protein/vegetables to accompany the couscous grain.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Omit the chicken. The method of sweating the vegetables provides enough flavor for a robust vegan soup.",
   "meta": {
     "servings": "4-6",
@@ -243,29 +243,29 @@
       }
     },
     {
-      "ingredient_id": "chicken",
-      "name": "Chicken",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "cut into pieces",
-      "notes": "drumsticks, thighs, or breast",
+      "ingredient_id": "seitan",
+      "name": "Seitan chunks",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "cut into bite-sized pieces",
+      "notes": "replaces chicken",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 500,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 17.6,
           "unit": "oz"
         },
         "volume": {
-          "value": 4.4,
+          "value": 3,
           "unit": "cups"
         },
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 500,
+          "unit": "g"
         }
       }
     },
@@ -329,7 +329,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/027_couscous_soup/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, high-resolution close-up of a large ceramic tureen filled with rich, red-orange vegetable soup for couscous, set in a sunlit 1900s stone kitchen in Safed. The soup features large, tender chunks of bright orange pumpkin, pale green zucchini, green beans, and golden chickpeas, alongside savory, browned chunks of seitan that mimic traditional stewed meat. The broth is glossy and vibrant with paprika oil. Next to the tureen sits a mound of fluffy steamed couscous on a decorative ceramic platter. The scene is illuminated by soft natural light filtering through an arched window, highlighting the textures of the stone walls and the steam rising from the hot soup. Fresh herbs garnish the dish, adding a pop of green to the warm, earthy color palette."
   },
   "tags": [
     "soup",
@@ -383,5 +384,14 @@
       "key_difference": "Lacks the complex spice blend (tabil, caraway, coriander) and the steaming of grain; served as a standalone soup/plate."
     }
   ],
-  "intro_paragraph": "Marga, the traditional Judeo-Arabic term for the rich stew served atop couscous, derives from the root for broth. Chicken and seasonal vegetables are slowly sweated with spices using the teklia method, creating a deep, flavorful stock. As the centerpiece of the Djerban table, it transforms steamed grains into a complete meal."
+  "intro_paragraph": "Marga is the traditional Judeo-Arabic term for the rich stew served atop couscous and derives from the root for broth. This plant-based adaptation replaces chicken with savory seitan while maintaining the teklia method. Seasonal vegetables sweat with spices to create a deep stock that transforms steamed grains into a complete meal.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken",
+      "replacement": "Seitan chunks",
+      "notes": "Provides a chewy, meaty texture that absorbs the broth flavors perfectly."
+    }
+  ],
+  "veganization_complete": true
 }

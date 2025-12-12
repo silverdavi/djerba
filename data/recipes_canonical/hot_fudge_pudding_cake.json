@@ -7,7 +7,7 @@
   "name_origin": "This is a direct translation (calque) and transliteration from American English into Modern Hebrew. The word 'Fudge' (פאדג׳) is a loanword from English, as there is no traditional Judeo-Arabic or North African term for this specific confection. 'Ugat' (עוגת) is the construct state of the Hebrew word for cake, and 'Hama' (חמה) means hot. This indicates the dish is a modern addition to the culinary repertoire, likely introduced via American or Israeli cultural influence rather than traditional Djerban heritage.",
   "description": "A magical self-saucing chocolate dessert where a moist cake layer rises to the top while a rich, hot fudge sauce forms underneath during baking. Best served warm, this comfort food is a popular modern addition to many family repertoires.",
   "cultural_context": "While not a traditional North African dish, this American-style pudding cake is a common favorite in modern Jewish households for its ease of preparation and pareve adaptability (if using non-dairy milk).",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace milk with soy or almond milk to make this recipe vegan/pareve.",
   "meta": {
     "servings": "6-8",
@@ -153,12 +153,12 @@
       }
     },
     {
-      "ingredient_id": "milk",
-      "name": "Milk",
+      "ingredient_id": "milk_substitute",
+      "name": "Soy or almond milk",
       "amount": 120,
       "unit": "ml",
       "preparation": null,
-      "notes": "approx. 1/2 cup; use non-dairy for pareve",
+      "notes": "approx. 1/2 cup",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -315,8 +315,8 @@
       }
     },
     {
-      "ingredient_id": "whipped_cream",
-      "name": "Whipped cream",
+      "ingredient_id": "whipped_cream_substitute",
+      "name": "Coconut whipped cream",
       "amount": null,
       "unit": null,
       "preparation": null,
@@ -389,7 +389,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/044_hot_fudge_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic ceramic square baking dish sits on an aged wooden table inside a sunlit 1900s stone kitchen in Safed. The dish contains a rich dark chocolate pudding cake with a cracked brownie-like top. A large serving spoon lifts a portion to reveal a thick glossy pool of hot fudge sauce bubbling underneath the cake layer. The texture is moist and decadent. A dollop of white coconut whipped cream melts slightly on the warm surface. Scattered walnuts and a dusting of cocoa powder garnish the top. Soft natural light streams through an arched stone window illuminating the steam rising from the hot dessert."
   },
   "tags": [
     "dessert",
@@ -443,5 +444,19 @@
       "key_difference": "Often steamed rather than baked, and the sauce is usually poured over after cooking rather than forming during baking."
     }
   ],
-  "intro_paragraph": "Hot Fudge Pudding Cake—known in Israel as Ugat Fudge Hama—is a self-saucing chocolate dessert where a moist cake rises above a rich, gooey sauce during baking. While a modern American import rather than a traditional North African staple, it has become a favorite in Jewish households for its comforting warmth and easy pareve adaptation."
+  "intro_paragraph": "Ugat Fudge Hama is a modern classic known for its magical self-saucing layers. This vegan adaptation replaces dairy with plant-based milk while keeping the rich chocolate flavor. The name comes from the English word fudge which highlights its Western roots rather than traditional North African heritage.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Milk",
+      "replacement": "Soy or almond milk",
+      "notes": "Maintains the batter consistency perfectly"
+    },
+    {
+      "original": "Whipped cream",
+      "replacement": "Coconut whipped cream",
+      "notes": "For serving"
+    }
+  ],
+  "veganization_complete": true
 }

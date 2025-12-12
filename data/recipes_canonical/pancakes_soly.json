@@ -7,7 +7,7 @@
   "name_origin": "The name is a modern construct found in Israeli/Diaspora Jewish culture rather than a traditional North African dialect. It combines the English loanword 'Pancake' (transliterated phonetically into Hebrew as פנקייק) with the possessive nickname 'Soly'. 'Soly' is a common affectionate diminutive for the name Solomon (Shlomo) among North African (Sephardic/Mizrahi) Jews. The use of the English loanword instead of traditional Tunisian terms like 'Ghraif' or 'Baghrir' indicates this is a Western recipe adopted by the family and adapted to be Kosher Parve, rather than an indigenous Djerban dish.",
   "description": "A simple, dairy-free pancake recipe. By using water and oil instead of milk and butter, these pancakes are 'Parve' (kosher neutral), making them suitable to serve after a meat meal or for those avoiding dairy.",
   "cultural_context": "The use of 'bags' for baking powder and vanilla sugar indicates an Israeli influence on the family cooking, where these ingredients are sold in standard 10g packets.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace the egg with a flax egg or commercial egg replacer.",
   "meta": {
     "servings": "10-12 pancakes",
@@ -180,17 +180,26 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Egg",
+      "ingredient_id": "flax_egg",
+      "name": "Flax egg",
       "amount": 1,
       "unit": "unit",
-      "preparation": null,
-      "notes": "large",
+      "preparation": "Mix 1 tbsp ground flaxseed with 3 tbsp warm water, let sit 5 mins",
+      "notes": "Replaces 1 large egg",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 45,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "unit"
+        },
         "original": {
           "value": 1,
           "unit": "unit"
@@ -287,7 +296,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/084_pancakes_soly/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A mouthwatering stack of golden-brown, fluffy vegan pancakes resting on an antique ceramic plate with a hand-painted blue rim. The pancakes appear light and airy, with crisp, lacy edges and a soft interior visible from a cut section. Rich amber maple syrup flows generously down the stack, pooling on the plate, garnished with a few fresh mint leaves and a light dusting of powdered sugar. The scene is set within an authentic early 1900s stone kitchen in Safed, featuring rough-hewn limestone walls and a deep arched window sill. Soft, diffused morning sunlight streams in, illuminating the steam rising from the hot cakes. On the weathered wooden table surrounding the plate, there are subtle hints of the preparation: a small jar of ground flaxseed, a vintage wire whisk, and a linen napkin. The composition emphasizes the rustic warmth of the home and the appetizing texture of this plant-based adaptation, blending traditional atmosphere with modern culinary ethics."
   },
   "tags": [
     "breakfast",
@@ -335,5 +345,14 @@
       "key_difference": "Standard American pancakes use milk and butter; Soly's version substitutes water and oil to remain Parve (neutral) for Kosher dietary laws."
     }
   ],
-  "intro_paragraph": "Soly’s Pancakes—named for a common North African diminutive of Solomon—are a practical adaptation of the Western breakfast staple. By substituting water and oil for dairy, these fluffy cakes remain parve, making them a suitable dessert following a meat meal. The recipe reflects modern Israeli influence, utilizing standard baking packets common in Diaspora kitchens."
+  "intro_paragraph": "Soly’s Pancakes are named for a common North African nickname for Solomon. This vegan adaptation replaces the egg with flax to maintain the fluffy texture while keeping the dish parve. It reflects modern Israeli influence by using standard baking packets found in Diaspora kitchens for a delightful breakfast treat.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "1 large egg",
+      "replacement": "1 flax egg (1 tbsp ground flaxseed meal + 3 tbsp warm water)",
+      "notes": "Provides binding and structure without animal products"
+    }
+  ],
+  "veganization_complete": true
 }

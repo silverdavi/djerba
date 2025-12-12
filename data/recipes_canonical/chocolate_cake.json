@@ -7,7 +7,7 @@
   "name_origin": "The name provided, 'Ugat Shokolad' (עוגת שוקולד), is Modern Hebrew. 'Ugah' (עוגה) comes from the Biblical Hebrew root 'Ayin-Vav-Gimel' (ע-ו-ג), meaning to draw a circle or be round, referring to the shape of baked goods (seen in Genesis 18:6). 'Shokolad' is a modern loanword into Hebrew, derived from European languages (likely German 'Schokolade' or French 'Chocolat'), which ultimately traces back to the Nahuatl (Aztec) word 'xocolātl'. In the context of Djerban cuisine, chocolate cake is not an ancient indigenous dish but a modern addition, likely introduced during the French Protectorate era (1881–1956) and adapted to Kashrut laws.",
   "description": "A rich, moist chocolate cake. This recipe uses oil and orange juice instead of dairy, making it 'Pareve' and suitable for serving after meat meals in accordance with Kosher dietary laws.",
   "cultural_context": "While chocolate cake is a universal dessert, this specific formulation (using oil, boiling water, and orange juice) is a staple in many Jewish households for Shabbat and holidays because it is dairy-free (Pareve).",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer to make vegan.",
   "meta": {
     "servings": "1 cake",
@@ -261,17 +261,26 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "flax_egg",
+      "name": "Flax Eggs",
       "amount": 3,
       "unit": "unit",
-      "preparation": "whole",
-      "notes": null,
+      "preparation": "mixed",
+      "notes": "Mix 3 tbsp ground flaxseed with 9 tbsp warm water; let sit 5 mins",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 45,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
         "original": {
           "value": 3,
           "unit": "unit"
@@ -333,12 +342,12 @@
       }
     },
     {
-      "ingredient_id": "margarine",
-      "name": "Margarine",
+      "ingredient_id": "vegan_margarine",
+      "name": "Vegan Margarine",
       "amount": null,
       "unit": null,
       "preparation": null,
-      "notes": "for greasing the pan",
+      "notes": "or coconut oil, for greasing the pan",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -401,7 +410,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/021_chocolate_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, photorealistic close-up of a rich, dark vegan Ugat Shokolad resting on an antique ceramic platter with intricate blue patterns. The cake is sliced to reveal an incredibly moist, tender crumb structure, achieved without eggs, glistening slightly from the oil and cocoa. A light dusting of powdered sugar settles on the dark, cracked crust. The setting is a rustic stone kitchen in early 1900s Safed, illuminated by soft, natural window light that casts gentle shadows on a worn wooden table. In the background, vintage copper baking tools and a small glass of fresh orange juice hint at the citrus notes within. The atmosphere is warm and nostalgic, capturing the essence of a traditional Shabbat dessert adapted for modern plant-based cuisine. The texture looks dense and fudgy, inviting and decadent, emphasizing the pure chocolate richness."
   },
   "tags": [
     "dessert",
@@ -449,5 +459,19 @@
       "key_difference": "Traditional Meskouta is usually vanilla/citrus; the Djerban dish applies this oil-and-citrus technique to a chocolate profile."
     }
   ],
-  "intro_paragraph": "Ugat Shokolad combines the Biblical Hebrew word for a round cake with the modern term for chocolate. This rich, moist dessert relies on oil and orange juice rather than dairy to remain pareve. A beloved staple for Shabbat, it is essential for serving after meat meals in accordance with kosher dietary laws."
+  "intro_paragraph": "Ugat Shokolad blends the Hebrew word for cake with the modern term for chocolate. This vegan adaptation replaces traditional eggs with flaxseed to maintain a rich texture while staying pareve. It remains a beloved Shabbat staple perfect for serving after meat meals in kosher households.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "3 whole eggs",
+      "replacement": "3 flax eggs (3 tbsp ground flaxseed + 9 tbsp warm water)",
+      "notes": "Provides binding and structure without animal products"
+    },
+    {
+      "original": "Margarine",
+      "replacement": "Vegan margarine or coconut oil",
+      "notes": "Ensures the recipe is 100% plant-based"
+    }
+  ],
+  "veganization_complete": true
 }

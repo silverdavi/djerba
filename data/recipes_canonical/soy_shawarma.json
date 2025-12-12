@@ -354,7 +354,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/080_shawarma/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic ceramic plate piled high with golden-brown, pan-seared soy shawarma strips, glistening with oil and spices. The textured vegetable protein looks tender and crisp at the edges, mixed with translucent caramelized onions and dusted with aromatic cumin and paprika. A vibrant drizzle of yellow amba sauce adds a pop of color to the savory pile. The dish is set on a weathered wooden table inside an early 20th-century Safed stone kitchen, illuminated by soft natural light streaming through an arched window. In the background, small bowls of pickles, fresh pita bread, and jars of dried spices create a warm, inviting atmosphere. The scene captures the rustic charm of a traditional home kitchen while highlighting the modern, plant-based adaptation of this beloved street food. The textures are rich and appetizing, emphasizing the savory appeal of the vegan protein."
   },
   "tags": [
     "vegetarian",
@@ -404,5 +405,8 @@
       "key_difference": "Uses layers of fat and meat (lamb, turkey, chicken) rather than textured vegetable protein."
     }
   ],
-  "intro_paragraph": "Soy Shawarma takes its name from the Turkish *çevirme*, meaning \"turning,\" but replaces rotisserie meat with textured soy protein for a modern twist. Rehydrated in spiced broth and pan-seared with onions, the strips are finished with tangy amba. This pareve dish uses traditional seasoning to capture the savory essence of street food without the meat."
+  "intro_paragraph": "Derived from the Turkish *çevirme* meaning turning, this Soy Shawarma captures the essence of the classic rotisserie dish without meat. Textured soy protein absorbs a rich blend of Ras el Hanout and cumin before being pan-seared with onions. It offers a savory and satisfying plant-based alternative to the street food favorite.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

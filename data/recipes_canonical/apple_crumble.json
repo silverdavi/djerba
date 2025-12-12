@@ -261,13 +261,13 @@
       }
     },
     {
-      "ingredient_id": "margarine",
-      "name": "Margarine",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan butter or coconut oil",
       "amount": 3,
       "unit": "tbsp",
       "size": null,
-      "preparation": "cold",
-      "notes": "or butter if dairy is permitted",
+      "preparation": "cold and cubed",
+      "notes": "use solid coconut oil if preferred",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -336,7 +336,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/003_apple_crumble/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, medium-sized ceramic baking dish filled with golden-brown Apple Crumble, resting on a heavy, weathered wooden table inside an early 20th-century stone kitchen in Safed. The dessert features tender baked apples bubbling with dark, cinnamon-spiced syrup underneath a highly textured, crispy topping of rolled oats and flour. Soft, warm natural light streams through a deep-set arched stone window, illuminating the steam gently rising from the hot dish and casting soft shadows on the limestone walls. Nearby, a vintage tarnished silver spoon, a small bowl of loose oats, and a few scattered raw apples with cinnamon sticks add to the culinary atmosphere. The scene captures the comforting warmth of a traditional home, highlighting the rich, crunchy textures of the 100% plant-based crumble topping. The composition focuses on the wholesome, earthy colors of the baked fruit and grains, presenting an inviting and authentic moment of culinary history adapted for modern plant-based living."
   },
   "tags": [
     "dessert",
@@ -384,5 +385,14 @@
       "key_difference": "Deep-fried yeast dough ring (donut), completely different cooking method and ingredients from a crumble."
     }
   ],
-  "intro_paragraph": "Crumble Tapuchim—a Modern Hebrew adaptation of the British wartime classic—illustrates the influence of Western cuisine on Djerban tables. Tender apples spiced with cinnamon are baked under a crisp oat topping. By substituting margarine for butter, this dessert remains pareve, serving as a perfect conclusion to meat-heavy Shabbat feasts."
+  "intro_paragraph": "Crumble Tapuchim combines the English culinary term with the Hebrew word for apples. This modern adaptation of the British wartime classic features spiced fruit under a crisp oat topping. By using plant-based fats instead of butter, this dessert remains pareve and serves as a perfect conclusion to any festive meal.",
+  "was_veganized": false,
+  "vegan_substitutions": [
+    {
+      "original": "Margarine",
+      "replacement": "Vegan butter or coconut oil",
+      "notes": "Ensures the recipe is high-quality and 100% plant-based, as some margarines contain dairy whey."
+    }
+  ],
+  "veganization_complete": true
 }

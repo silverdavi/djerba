@@ -7,7 +7,7 @@
   "name_origin": "The name provided is a linguistic hybrid, indicating a modern or diasporic evolution rather than an ancient Judeo-Arabic root. 'Chicken' (צ׳יקן) is a direct transliteration of the English word, which is not native to Djerban or Tunisian dialects (where chicken is 'djaj'). 'Fricassee' (פריקסה) derives from the French culinary term 'fricassée' (from the Middle French 'frire' [to fry] and 'casser' [to break/cut up]). While 'Fricassé' in Tunisia almost exclusively refers to the famous fried sandwich, the French colonial influence (1881–1956) introduced the classic French 'fricassée' stew to the Jewish bourgeoisie. The presence of 'dumplings' suggests this may be a variation of a 'Ragout' or 'Marqa' adapted with European techniques, or a family-specific name for a dish resembling American 'Chicken and Dumplings'.",
   "description": "A comforting homestyle chicken stew with carrots and onions, thickened with simple flour-and-water drop dumplings cooked directly in the broth.",
   "cultural_context": "While 'Fricassé' in Tunisian Jewish cuisine typically refers to a fried savory donut sandwich, this recipe is a literal interpretation of the French 'fricassee' stew, adapted with simple drop dumplings common in frugal home cooking.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with mushrooms or seitan; the dumplings are already vegan.",
   "meta": {
     "servings": "4",
@@ -45,26 +45,26 @@
       }
     },
     {
-      "ingredient_id": "chicken_pieces",
-      "name": "Chicken pieces",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "cut into serving pieces",
-      "notes": "Original text specifies 'tefalei of' (parts/giblets), but standard pieces work well",
+      "ingredient_id": "seitan_chunks",
+      "name": "Seitan chunks",
+      "amount": 800,
+      "unit": "g",
+      "preparation": "torn into bite-sized pieces",
+      "notes": "Or large soy curls (rehydrated)",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 800,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 28,
           "unit": "oz"
         },
         "volume": null,
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 800,
+          "unit": "g"
         }
       }
     },
@@ -159,12 +159,12 @@
       }
     },
     {
-      "ingredient_id": "water",
-      "name": "Water",
+      "ingredient_id": "vegetable_broth",
+      "name": "Vegetable broth",
       "amount": null,
       "unit": null,
       "preparation": null,
-      "notes": "enough to cover chicken + extra for batter",
+      "notes": "enough to cover ingredients + extra for batter",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -266,7 +266,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/033_fricassee_stew/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with a hearty vegan Fricassee stew, set on a weathered wooden table inside an early 1900s stone kitchen in Safed. The stew features large, golden-brown chunks of seitan that resemble tender chicken, simmered alongside soft, orange carrot rounds and translucent onions. Fluffy, irregular white flour dumplings float on the surface of the rich, golden-hued vegetable broth, glistening with droplets of oil. Fresh parsley is scattered on top for color. The lighting is warm and natural, streaming from a nearby window with iron bars, illuminating the steam rising from the hot dish. In the background, blurred limestone walls and vintage copper cookware hanging on hooks suggest a traditional Old City home setting. The texture looks thick and comforting, highlighting the wholesome, plant-based adaptation of this classic diasporic comfort food, inviting the viewer to dip a spoon into the savory sauce."
   },
   "tags": [
     "chicken",
@@ -326,5 +327,19 @@
       "key_difference": "Mhamsa uses tiny pasta beads (berkoukes) rather than large drop dumplings."
     }
   ],
-  "intro_paragraph": "Chicken Fricassee takes its name from the French term for cut-up meat rather than the popular Tunisian fried sandwich. This comforting stew features chicken, carrots, and onions simmered together and thickened with simple flour-and-water drop dumplings. It reflects a diasporic evolution of Djerban cuisine, adapting classic French techniques into a frugal, hearty family meal."
+  "intro_paragraph": "This vegan adaptation of Chicken Fricassee reclaims the French term for stew rather than the Tunisian sandwich. Tender seitan chunks simmer with carrots and onions in a savory broth thickened by rustic flour dumplings. It honors the diasporic evolution of Djerban cuisine while using plant-based ingredients for a hearty meal.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken pieces",
+      "replacement": "Seitan chunks or Soy Curls",
+      "notes": "Provides a chewy, meat-like texture suitable for stews"
+    },
+    {
+      "original": "Water",
+      "replacement": "Vegetable broth",
+      "notes": "Adds savory depth in the absence of animal fat"
+    }
+  ],
+  "veganization_complete": true
 }

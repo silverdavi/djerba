@@ -10,66 +10,66 @@
   "name": {
     "he": "דייסת סולת",
     "es": "Gachas de Sémola",
-    "ar": "عصيدة بالحليب",
+    "ar": "عصيدة",
     "en": "Semolina Porridge"
   },
   "description": {
-    "he": "נקראת לעתים קרובות דייסת סולת בישראל, דייסה חלבית וקרמית זו מושרשת במסורת הצפון אפריקאית של העסידה. גרגרי סולת דקים מתבשלים בעדינות בחלב במקום במים, ויוצרים מרקם מנחם וחלק. זהו מאכל ילדות אהוב בג'רבה, המוגש באופן מסורתי עם מעט קינמון וסוכר מעל.",
-    "es": "A menudo llamada Daysat Solet en Israel, estas gachas cremosas para el desayuno tienen sus raíces en la tradición norteafricana de la Assida. Los granos finos de sémola se cocinan suavemente en leche en lugar de agua, creando una textura suave y reconfortante. Un alimento básico de la infancia en Djerba, se termina tradicionalmente con un toque de canela y azúcar.",
-    "ar": "هذي العصيدة الكريمية، اللي يسميوها في إسرائيل ديسات سوليت، أصلها من تقاليد العصيدة في شمال إفريقيا. السميد الرطب يطيب في الحليب في عوض الماء، باش يجي رطب وبنين ويعمل الكيف. هي أكلة متاع صغر محبوبة في جربة، وتتقدم عادة مع رشة قرفة وسكر من الفوق.",
-    "en": "Often called Daysat Solet in Israel, this creamy breakfast porridge is rooted in the North African tradition of Assida. Fine semolina grains are cooked gently in milk rather than water, creating a comforting, smooth texture. A cherished childhood staple across Djerba, it is traditionally finished with a simple dusting of cinnamon and sugar."
+    "he": "המנה ידועה בשם דייסת סולת בעברית או עסידה בערבית, שמשמעותן גרעינים גרוסים או פודינג בחוש. גרסה טבעונית זו מחליפה את החלב בחלב צמחי קרמי תוך שמירה על המסורת הצפון אפריקאית. סולת דקה מתבשלת למאכל בוקר חלק ומוגשת עם קינמון וסוכר.",
+    "es": "Conocido como Daysat Solet en hebreo o Assida en árabe, este plato significa grano triturado o pudín revuelto. Esta adaptación vegana reemplaza los lácteos con leche vegetal cremosa mientras honra la tradición norteafricana. La sémola fina se cocina hasta convertirse en un desayuno suave terminado con canela y azúcar.",
+    "ar": "معروفة باسم دايסת סולת بالعبرية أو عصيدة بالعربي، ومعناها حبوب مرحية أو عصيدة محركة. هالوصفة النباتية تبدل الحليب بحليب نباتي كريمي وتحافظ على التقاليد متاع شمال إفريقيا. السميد الرطب يطيب ويولي فطور صباح رطب ومزين بالقرفة والسكر.",
+    "en": "Known as Daysat Solet in Hebrew or Assida in Arabic, this porridge means \"crushed grain\" or \"stirred pudding.\" This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar."
   },
   "ingredients": {
     "he": [
-      "500 מ\"ל חלב",
+      "500 מ\"ל חלב סויה או שיבולת שועל לא ממותק",
       "60 גרם סולת (דקה)",
       "15 גרם סוכר",
-      "15 גרם חמאה (לא חובה)",
-      "קינמון לפי הטעם"
+      "15 גרם חמאה טבעונית (אופציונלי)",
+      "קינמון טחון לפי הטעם"
     ],
     "es": [
-      "500 ml de leche",
+      "500 ml de leche de soja o avena sin azúcar",
       "60 g de sémola (fina)",
       "15 g de azúcar",
-      "15 g de mantequilla (opcional)",
-      "Canela al gusto"
+      "15 g de mantequilla vegana (opcional)",
+      "Canela molida al gusto"
     ],
     "ar": [
-      "2 كيسان حليب",
+      "2.1 كيسان حليب صوجا ولا خرطال مش حلو",
       "5 مغارف سميد (رطب)",
-      "1 مغرفة سكر",
-      "1 مغرفة زبدة (اختياري)",
-      "قرفة حسب الذوق"
+      "1.2 مغرفة سكر",
+      "1 مغرفة زبدة نباتية (اختياري)",
+      "قرفة مرحية حسب الذوق"
     ],
     "en": [
-      "2.1 cups milk",
+      "2.1 cups unsweetened soy or oat milk",
       "5 tbsp semolina (fine)",
       "1.2 tbsp sugar",
-      "1 tbsp butter (optional)",
-      "Cinnamon to taste"
+      "1 tbsp vegan butter (optional)",
+      "Ground cinnamon to taste"
     ]
   },
   "steps": {
     "he": [
-      "יוצקים את החלב לסיר קטן ומניחים על להבה בינונית.",
-      "רגע לפני שהחלב רותח, מנמיכים את האש ומוסיפים את הסולת בהדרגה תוך כדי טריפה מתמדת למניעת גושים.",
-      "מוסיפים את הסוכר וממשיכים לבשל ולערבב במשך כ-3-5 דקות עד שהתערובת מסמיכה למרקם של דייסה.",
-      "מסירים מהאש. מערבבים פנימה את החמאה (אם משתמשים) עד להמסה.",
+      "שופכים את החלב לסיר קטן ומניחים על להבה בינונית.",
+      "רגע לפני שהחלב רותח, מנמיכים את האש ומוסיפים בהדרגה את הסולת תוך כדי טריפה מתמדת למניעת גושים.",
+      "מוסיפים את הסוכר וממשיכים לבשל ולערבב כ-3-5 דקות עד שהתערובת מסמיכה למרקם של דייסה.",
+      "מסירים מהאש. מערבבים פנימה את החמאה (אם משתמשים) עד שהיא נמסה.",
       "יוצקים לקערות ומפזרים קינמון טחון לפני ההגשה."
     ],
     "es": [
       "Vierta la leche en una olla pequeña y colóquela a fuego medio.",
       "Justo antes de que hierva la leche, baje el fuego y vierta gradualmente la sémola mientras bate constantemente para evitar grumos.",
-      "Añada el azúcar y continúe cocinando y removiendo durante unos 3-5 minutos hasta que la mezcla espese con la consistencia de unas gachas.",
+      "Añada el azúcar y continúe cocinando y revolviendo durante unos 3-5 minutos hasta que la mezcla espese con consistencia de gachas.",
       "Retire del fuego. Incorpore la mantequilla (si la usa) hasta que se derrita.",
       "Vierta en tazones y espolvoree con canela molida antes de servir."
     ],
     "ar": [
       "صب الحليب في طنجرة صغيرة وحطها على نار متوسطة.",
       "قبل ما يغلي الحليب بشوية، نقص النار وصب السميد بالشوية مع التحريك المستمر باش ما يتكعبرش.",
-      "زيد السكر وكمل طيب وحرك لمدة 3-5 دقايق لين تولي عاقدة كيف العصيدة.",
-      "نحيها من فوق النار. خلط معاها الزبدة (كان تحب) لين تذوب.",
-      "صب في صحافي ورش عليها القرفة المرحية قبل ما تقدمها."
+      "زيد السكر وكمل طيب وحرك لمدة 3-5 دقايق لين الخليط يعقاد ويولي كيف العصيدة.",
+      "نحيها من فوق النار. خلط معاها الزبدة (كان باش تستعملها) لين تذوب.",
+      "صب في صحافي ورش عليها قرفة مرحية قبل التقديم."
     ],
     "en": [
       "Pour the milk into a small pot and place over medium heat.",

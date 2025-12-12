@@ -9,49 +9,49 @@
   },
   "name": {
     "he": "פאי רועים",
-    "es": "Pastel de Carne (Estilo Norteafricano)",
-    "ar": "سنيّة بطاطا (Siniyat Batata)",
+    "es": "Pastel de Papa (Estilo Norteafricano)",
+    "ar": "صينية بطاطا (Siniyat Batata)",
     "en": "Shepherd's Pie (North African Style)"
   },
   "description": {
-    "he": "פאי רועים הוא תרגום ישיר לעברית של המנה האנגלית, אך גרסה זו ככל הנראה התפתחה מהמנה הצרפתית האשי פרמנטייה בתקופת הקולוניאליזם בתוניסיה. התאמה כשרה זו מחליפה את החמאה בשמן, וכוללת שכבת בשר טחון מתובל בתבליני שווארמה בין שתי שכבות של פירה תפוחי אדמה צהוב מכורכום. התוצאה היא מאפה זהוב ומנחם המוגש לעתים קרובות בארוחת צהריים של שבת.",
-    "es": "Pai Ro'im, una traducción hebrea directa de Shepherd's Pie, probablemente evolucionó del hachis parmentier francés introducido durante la era colonial de Túnez. Esta adaptación kosher reemplaza la mantequilla con aceite, intercalando carne molida sabrosa y especiada con shawarma entre capas de puré de papas con infusión de cúrcuma. El resultado es una cacerola dorada y reconfortante que a menudo se sirve para el almuerzo de Shabat.",
-    "ar": "سنيّة بطاطا، أو باي روعيم بالعبرية، هي أكلة أصلها من الطبق الفرنسي hachis parmentier اللي دخل تونس وقت الاستعمار. في هذي الوصفة الكوشر، نبدلو الزبدة بالزيت، ونعملو طبقة متاع لحم مفروم مفوّح بتابل الشوارمة بين طبقتين متاع بطاطا مرحية صفراء بالكركم. النتيجة هي طبق بنين ولونو ذهبي، يطيبوه برشة مرات لفطور السبت.",
-    "en": "Pai Ro'im, a direct Hebrew translation of Shepherd's Pie, likely evolved from the French hachis parmentier introduced during Tunisia's colonial era. This kosher adaptation replaces butter with oil, sandwiching savory, shawarma-spiced ground beef between layers of turmeric-infused mashed potatoes. The result is a golden, comforting casserole often served for Shabbat lunch."
+    "he": "פאי רועים הוא התרגום העברי ל-Shepherd's Pie ומקורו ככל הנראה במנת ההאשי פרמנטייה הצרפתית שהגיעה לתוניסיה הקולוניאלית. גרסה טבעונית זו מחליפה את הבשר בטחון מהצומח תוך שמירה על שכבות תפוחי האדמה הצהובים מתבלין הכורכום. התוצאה היא פשטידה זהובה ומנחמת, מושלמת לארוחת שבת דשנה.",
+    "es": "Pai Ro'im es la traducción hebrea del Shepherd's Pie y probablemente proviene del hachis parmentier francés introducido en la Túnez colonial. Esta adaptación vegana reemplaza la carne con picadillo vegetal sabroso mientras mantiene las capas de papa infundidas con cúrcuma. Crea una cazuela dorada y reconfortante perfecta para un almuerzo abundante de Shabat.",
+    "ar": "باي روعيم هو الترجمة العبرية لطبق فطيرة الراعي، وأصله يرجع لطبق الهاشي بارمانتيي الفرنساوي اللي دخل وقت الاستعمار في تونس. هالوصفة النباتية تبدل اللحم بفرشيلو نباتي وتخلي طبقات البطاطا الصفراء المفوحة بالكركم. النتيجة هي طاجين ذهبي وبنين، يواتي فطور السبت.",
+    "en": "Pai Ro'im is the Hebrew translation of Shepherd's Pie and likely stems from the French hachis parmentier introduced in colonial Tunisia. This vegan adaptation replaces meat with savory plant-based mince while keeping the signature turmeric-infused potato layers. It creates a golden and comforting casserole perfect for a hearty Shabbat lunch."
   },
   "ingredients": {
     "he": [
       "1 ק\"ג תפוחי אדמה, קלופים וחתוכים לקוביות",
       "3 גרם כורכום",
-      "12 גרם אבקת מרק עוף (פרווה)",
+      "12 גרם אבקת מרק בטעם עוף (פרווה)",
       "מלח לפי הטעם",
-      "500 גרם בשר טחון",
-      "30 מ\"ל שמן",
+      "500 גרם טחון מהצומח",
+      "30 מ\"ל שמן צמחי",
       "2.5 גרם פפריקה מתוקה",
       "3 גרם תבלין שווארמה",
       "3 גרם אבקת שום",
-      "1.2 גרם פלפל שחור"
+      "1.2 גרם פלפל שחור גרוס"
     ],
     "es": [
       "1 kg de papas, peladas y cortadas en cubos",
       "3 g de cúrcuma",
-      "12 g de polvo de caldo de pollo (Parve)",
+      "12 g de caldo de pollo vegano en polvo",
       "Sal al gusto",
-      "500 g de carne molida",
+      "500 g de carne picada vegetal",
       "30 ml de aceite vegetal",
       "2.5 g de pimentón dulce",
       "3 g de condimento para shawarma",
       "3 g de ajo en polvo",
-      "1.2 g de pimienta negra"
+      "1.2 g de pimienta negra molida"
     ],
     "ar": [
       "5-6 كعبات بطاطا، مقشرين ومقصوصين مكعبات",
       "1 مغرفة صغيرة كركم",
-      "1 مغرفة كبيرة تابل دجاج (بودرة)",
+      "1 مغرفة كبيرة بودرة مرقة (نباتية)",
       "ملح حسب الذوق",
-      "500 غرام لحم مفروم",
+      "500 غرام لحم مرحي نباتي",
       "2 مغارف زيت",
-      "1 مغرفة صغيرة فلفل أحمر (zina)",
+      "1 مغرفة صغيرة فلفل أحمر (بابريكا)",
       "1 مغرفة صغيرة تابل شوارمة",
       "1 مغرفة صغيرة ثوم مرحي",
       "1/2 مغرفة صغيرة فلفل أكحل"
@@ -59,9 +59,9 @@
     "en": [
       "5-6 medium potatoes, peeled and cubed",
       "1 tsp turmeric",
-      "1 tbsp chicken seasoning powder (Pareve)",
+      "1 tbsp vegan chicken-style bouillon powder",
       "Salt to taste",
-      "500g ground beef",
+      "17.6 oz plant-based mince",
       "2 tbsp vegetable oil",
       "1 tsp sweet paprika",
       "1 tsp shawarma seasoning",
@@ -71,38 +71,38 @@
   },
   "steps": {
     "he": [
-      "קולפים וחותכים את תפוחי האדמה לקוביות. שמים בסיר עם מים מומלחים ומבשלים עד לריכוך.",
-      "מסננים את תפוחי האדמה. מועכים היטב עם הכורכום, מחצית מאבקת המרק וקורט מלח עד לקבלת מחית חלקה וצהובה.",
-      "במחבת, מחממים את השמן ומטגנים את הבשר הטחון. מפוררים אותו בעזרת כף תוך כדי הבישול.",
-      "מתבלים את הבשר בפפריקה, תבלין שווארמה, אבקת שום, פלפל שחור ויתרת אבקת המרק. מבשלים עד שהבשר שחום לחלוטין.",
-      "מחממים תנור ל-180 מעלות. משמנים תבנית אפייה.",
-      "הרכבת הפאי: משטחים מחצית ממחית תפוחי האדמה בשכבה אחידה בתחתית. מפזרים את תערובת הבשר המתובלת מעל. מכסים ביתרת המחית ומחליקים את פני השטח.",
-      "אופים במשך 20-30 דקות עד שהחלק העליון מזהיב קלות והמאפה חם."
+      "קלפו וחיתכו את תפוחי האדמה לקוביות. הניחו אותם בסיר עם מים מומלחים ובשלו עד שהם רכים מספיק למעיכה.",
+      "סננו את תפוחי האדמה. מעכו אותם היטב עם הכורכום, מחצית מאבקת המרק וקורט מלח עד לקבלת מחית חלקה וצהובה.",
+      "במחבת, חממו את השמן וטגנו את הטחון מהצומח. פוררו אותו בעזרת כף תוך כדי הבישול.",
+      "תבלו את הטחון בפפריקה, תבלין שווארמה, אבקת שום, פלפל שחור ושארית אבקת המרק. בשלו עד שהתערובת שחומה וריחנית.",
+      "חממו תנור ל-180 מעלות צלזיוס. שמן תבנית אפייה.",
+      "הרכבת הפאי: שטחו מחצית מהפירה בשכבה אחידה בתחתית. פזרו את תערובת הטחון המתובלת מעל תפוחי האדמה. כסו בשארית הפירה והחליקו את פני השטח.",
+      "אפו במשך כ-20-30 דקות עד שהחלק העליון מזהיב קלות והמאפה חם."
     ],
     "es": [
       "Pele y corte las papas en cubos. Colóquelas en una olla con agua salada y hierva hasta que estén lo suficientemente suaves para hacer puré.",
-      "Escurra las papas. Triture bien con la cúrcuma, la mitad del condimento de pollo y una pizca de sal hasta obtener un puré suave y amarillo.",
-      "En una sartén, caliente el aceite y fría la carne molida. Desmenúcela con una cuchara mientras se cocina.",
-      "Sazone la carne con pimentón, condimento para shawarma, ajo en polvo, pimienta negra y el resto del condimento de pollo. Cocine hasta que la carne esté completamente dorada.",
+      "Escurra las papas. Macháquelas bien con la cúrcuma, la mitad del caldo en polvo y una pizca de sal hasta obtener un puré suave y amarillo.",
+      "En una sartén, caliente el aceite y fría la carne vegetal. Desmenúcela con una cuchara mientras se cocina.",
+      "Condimente la carne con pimentón, especias para shawarma, ajo en polvo, pimienta negra y el resto del caldo en polvo. Cocine hasta que la carne esté bien dorada y fragante.",
       "Precaliente el horno a 180°C. Engrase una fuente para hornear.",
-      "Arme el pastel: Extienda la mitad del puré de papas en una capa uniforme en el fondo. Esparza la mezcla de carne especiada sobre las papas. Cubra con el resto del puré y alise la superficie.",
+      "Arme el pastel: Extienda la mitad del puré de papas en una capa uniforme en el fondo. Esparza la mezcla de carne condimentada sobre las papas. Cubra con el resto del puré y alise la superficie.",
       "Hornee durante unos 20-30 minutos hasta que la parte superior esté ligeramente dorada y el plato esté bien caliente."
     ],
     "ar": [
-      "قشر البطاطا وقصها مكعبات. حطها في طنجرة فيها ماء وملح واغليها لين تطيب وتولي ساهلة للرحيان.",
-      "صفي البطاطا. ارحيها مليح مع الكركم، وشطر تابل الدجاج، وشوية ملح لين تولي رطب وصفراء.",
-      "في مقلة، سخن الزيت واقلي اللحم المفروم. فتفت اللحم بالمغرفة وانت تطيب فيه.",
-      "فوّح اللحم بالفلفل الأحمر، تابل الشوارمة، الثوم المرحي، الفلفل الأكحل، وباقي تابل الدجاج. طيب لين اللحم يطيب ويحمار.",
-      "سخن الفور (Koucha) لـ 180 درجة. ادهن الطبق بالزيت.",
-      "حضّر الطبق: فرش شطر البطاطا المرحية في قاع الطبق. حط فوقها خليط اللحم المفوّح. غطي بالبطاطا اللي بقات وسوي الوجه من فوق.",
-      "طيبها في الفور حكاية 20-30 دقيقة لين الوجه يحمار شوية وتولي سخونة."
+      "قشر البطاطا وقصها مكعبات. حطها في طنجرة مع ماء وملح واغليها لين تطيب وتولي ساهلة باش ترحيها.",
+      "صفي البطاطا من الماء. ارحيها مليح مع الكركم، وشطر كمية بودرة المرقة، وشوية ملح لين تولي رطب وصفراء.",
+      "في مقلاة، سخن الزيت واقلي اللحم المرحي (النباتي). حلحل اللحم بالمغرفة وانت تطيب فيه.",
+      "فوّح اللحم بالفلفل الأحمر، تابل الشوارمة، الثوم المرحي، الفلفل الأكحل، وباقي بودرة المرقة. طيب لين يولي لونه بني وريحته فاوحة.",
+      "سخن الكوشة (الفور) على 180 درجة. ادهن طبق الفور بالزيت.",
+      "حضّر الطبق: فرش شطر كمية البطاطا المرحية في قاع الطبق. حط فوقها خليط اللحم المفوح. غطي بالبطاطا اللي بقات وسوي الوجه من فوق.",
+      "حطها في الكوشة لمدة 20-30 دقيقة لين يحمار الوجه شوية ويطيب الكل مع بعضه."
     ],
     "en": [
       "Peel and cube the potatoes. Place them in a pot of salted water and boil until soft enough to mash.",
       "Drain the potatoes. Mash them thoroughly with the turmeric, half of the chicken seasoning, and a pinch of salt until smooth and yellow.",
       "In a frying pan, heat the oil and fry the ground meat. Break it apart with a spoon as it cooks.",
       "Season the meat with paprika, shawarma seasoning, garlic powder, black pepper, and the remaining chicken seasoning. Cook until the meat is fully browned and fragrant.",
-      "Preheat oven to 180°C (350°F). Grease a baking dish.",
+      "Preheat oven to 350°F (180°C). Grease a baking dish.",
       "Assemble the pie: Spread half of the mashed potatoes in an even layer on the bottom. Spread the spiced meat mixture over the potatoes. Top with the remaining mashed potatoes and smooth the surface.",
       "Bake for about 20-30 minutes until the top is slightly golden and the dish is heated through."
     ]

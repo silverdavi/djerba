@@ -208,11 +208,11 @@
     },
     {
       "ingredient_id": "chocolate_chips",
-      "name": "Chocolate chips",
+      "name": "Dairy-free chocolate chips",
       "amount": 170,
       "unit": "g",
       "preparation": null,
-      "notes": "1 cup or 1 standard pack",
+      "notes": "Ensure 100% vegan certification",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -275,7 +275,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/009_biscotti/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, rustic food photography shot of Judy's Biscotti displayed on an antique ceramic platter with blue floral patterns. The setting is a sunlit, early 1900s stone kitchen in Safed with textured limestone walls. The golden-brown cookie logs have been sliced into thick, tender wedges that reveal generous pockets of melted dark vegan chocolate chips. The texture appears crumbly and shortbread-like rather than hard and dry. Soft, natural light streams through an arched window, illuminating the vintage lace tablecloth and casting gentle shadows. In the background, a small glass of mint tea with pine nuts and scattered loose chocolate chips add depth to the composition. The scene captures the warmth of home baking with an authentic, old-world atmosphere suitable for a heritage cookbook."
   },
   "tags": [
     "cookies",
@@ -335,5 +336,8 @@
       "key_difference": "Ghoriba are shaped as individual balls/rounds, not sliced from a loaf, and have a distinct sandy texture."
     }
   ],
-  "intro_paragraph": "Judy’s Biscotti is a tender, oil-based variation of Sephardic mandelbrot rather than a traditional hard Italian cookie. While the name derives from *biscotto* (twice-baked), the use of oil instead of butter ensures these chocolate-studded treats are *parve*. This crumbly texture makes them a perfect, kosher-friendly ending to a heavy meat meal."
+  "intro_paragraph": "Judy’s Biscotti derives its name from the Italian *biscotto* meaning twice-baked, though this version is a tender variation of Sephardic mandelbrot. Using oil instead of butter ensures these chocolate-studded treats are naturally vegan. The crumbly texture makes them a perfect sweet ending to any meal.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

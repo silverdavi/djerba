@@ -10,71 +10,79 @@
   "name": {
     "he": "לחם מטוגן",
     "es": "Tostadas Francesas (Pain Perdu)",
-    "ar": "خبز مقلي (بان بردو)",
-    "en": "French Toast"
+    "ar": "خبز مقلي (Pain Perdu)",
+    "en": "French Toast (Pain Perdu)"
   },
   "description": {
-    "he": "המונח Pain Perdu - שמשמעותו המילולית \"לחם אבוד\" - משקף את ההשפעה הצרפתית על יהודי צפון אפריקה. המנה נועדה להציל כיכרות לחם ישנות על ידי טבילת הפרוסות בבלילת ביצים וחלב וטיגונן עד להזהבה. בעוד שמשפחות ישראליות מודרניות מכירות את המנה כ\"לחם מטוגן\", ארוחת בוקר מנחמת זו נותרת קשר מתוק לעבר הקולוניאלי של הקהילה.",
-    "es": "El Pain Perdu —literalmente \"pan perdido\"— captura la aculturación francófona de los judíos del norte de África. Diseñado para rescatar el pan duro, las rebanadas se remojan en una mezcla de huevo y leche y se fríen hasta dorarse. Aunque las familias israelíes modernas lo conocen como Lechem Metugan, este reconfortante desayuno sigue siendo un dulce vínculo con el pasado colonial de la comunidad.",
-    "ar": "بان بردو (Pain Perdu) - يعني \"الخبز الضايع\" - يوري التأثير الفرنساوي على يهود شمال إفريقيا. الوصفة هذي معمولة باش نستحفظوا بالخبز البايت، نغطسوا الطروف في خليط عظم وحليب ونقليوهم لين يحماروا. في وقتنا توة العايلات يسميوه \"לחם מטוגן\" (Lechem Metugan)، أما فطور الصباح هذا يقعد رابط حلو مع تاريخ الجالية.",
-    "en": "Pain Perdu—literally \"lost bread\"—captures the Francophone acculturation of North African Jews. Designed to rescue stale loaves, slices are soaked in an egg-milk custard and fried until golden. While modern Israeli families know it as Lechem Metugan, this comforting breakfast dish remains a sweet link to the community’s colonial past."
+    "he": "\"Pain Perdu\" פירושו לחם אבוד והוא משקף את ההשפעה הצרפתית על יהודי תוניסיה. גרסה טבעונית זו מחליפה את בלילת הביצים המסורתית בבלילת קמח חומוס כדי להציל כיכרות לחם יבשות. זוהי מנת ארוחת בוקר מנחמת המכבדת את העבר הקולוניאלי של הקהילה תוך התאמה למטבחים מודרניים מבוססי צמחים.",
+    "es": "\"Pain Perdu\" significa pan perdido y refleja la influencia francesa en los judíos tunecinos. Esta versión vegana reemplaza la mezcla tradicional de huevo con una masa de harina de garbanzos para rescatar el pan duro. Sigue siendo un reconfortante desayuno que honra el pasado colonial de la comunidad mientras se adapta a las cocinas modernas basadas en plantas.",
+    "ar": "\"Pain Perdu\" يعني الخبز الضايع ويعكس التأثير الفرنساوي على يهود تونس. هذي النسخة النباتية تبدل العظم بخلطة دقيق الحمص باش نمنعوا الخبز البايت. هي فطور صباح يعمل الكيف ويحترم تاريخ الجالية وفي نفس الوقت يواتي الكوجينة العصرية.",
+    "en": "Pain Perdu means lost bread and reflects the French influence on Tunisian Jews. This vegan version replaces the traditional egg custard with a chickpea flour batter to rescue stale loaves. It remains a comforting breakfast dish that honors the community's colonial past while adapting to modern plant-based kitchens."
   },
   "ingredients": {
     "he": [
-      "2 ביצים גדולות",
-      "60 מ\"ל חלב",
-      "5 גרם אבקת וניל (או סוכר וניל)",
-      "4 פרוסות לחם (לחם יבש עדיף)",
-      "חמאה או שמן לטיגון לפי הטעם"
+      "25 גרם קמח חומוס",
+      "8 גרם קורנפלור",
+      "150 מ\"ל חלב סויה או שיבולת שועל",
+      "5 גרם אבקת וניל",
+      "קורט כורכום",
+      "4 פרוסות לחם עבות",
+      "חמאה טבעונית או שמן קוקוס לפי הטעם"
     ],
     "es": [
-      "2 huevos grandes",
-      "60 ml de leche",
-      "5 g de polvo de vainilla (o azúcar vainillado)",
-      "4 rebanadas de pan (mejor si es del día anterior)",
-      "Mantequilla o aceite para freír al gusto"
+      "25 g de harina de garbanzos",
+      "8 g de maicena",
+      "150 ml de leche de soja o avena",
+      "5 g de polvo de vainilla",
+      "1 pizca de cúrcuma",
+      "4 rebanadas de pan gruesas",
+      "Mantequilla vegana o aceite de coco al gusto"
     ],
     "ar": [
-      "2 عظمات كبار",
-      "ربع كاس حليب",
-      "مغرفة صغيرة فانيليا",
-      "4 طروف خبز (بايت خير)",
-      "زبدة ولا زيت للقلي حسب الذوق"
+      "3 مغارف دقيق حمص",
+      "1 مغرفة نشاء",
+      "0.6 كاس حليب صويا ولا شوفان",
+      "1 مغرفة صغيرة فانيليا",
+      "رشة كركم",
+      "4 طروف خبز خشين",
+      "زبدة نباتية ولا زيت جوز هند حسب الذوق"
     ],
     "en": [
-      "2 large eggs",
-      "1/4 cup milk",
-      "1 tsp vanilla powder (or vanilla sugar)",
-      "4 slices bread (thick slices, stale works best)",
-      "Butter or Oil for frying to taste"
+      "3 tbsp chickpea flour",
+      "1 tbsp cornstarch",
+      "0.6 cups soy or oat milk",
+      "1 tsp vanilla powder",
+      "1 pinch turmeric",
+      "4 thick slices bread",
+      "Vegan butter or coconut oil to taste"
     ]
   },
   "steps": {
     "he": [
-      "בקערה רחבה ושטוחה, טורפים את הביצים, החלב ואבקת הוניל עד לקבלת תערובת אחידה.",
+      "בקערה רחבה ושטוחה, טורפים את קמח החומוס, הקורנפלור, החלב והווניל עד לקבלת תערובת אחידה.",
       "מחממים מחבת על אש בינונית ומשמנים בחמאה או שמן.",
-      "טובלים כל פרוסת לחם בתערובת הביצים, ומניחים לה לספוג את הנוזלים במשך כמה שניות מכל צד. טיפ: לא להשרות יותר מדי כדי שהלחם לא יתפרק.",
+      "טובלים כל פרוסת לחם בבלילה, ומניחים לה לספוג את הנוזלים למשך מספר שניות מכל צד.",
       "מניחים את הלחם הספוג במחבת החמה ומטגנים עד להזהבה משני הצדדים.",
-      "מגישים חם, ניתן לפזר מעל סוכר או סירופ."
+      "מגישים חם, ניתן לפזר סוכר או סירופ מעל."
     ],
     "es": [
-      "En un plato hondo y ancho, batir los huevos, la leche y el polvo de vainilla hasta que estén bien combinados.",
+      "En un bol ancho y poco profundo, batir la harina de garbanzos, la maicena, la leche y la vainilla hasta que estén bien combinados.",
       "Calentar una sartén a fuego medio y engrasar con mantequilla o aceite.",
-      "Sumergir cada rebanada de pan en la mezcla de huevo, dejándola remojar unos segundos por cada lado. Consejo: No remojar demasiado o el pan se deshará.",
-      "Colocar el pan remojado en la sartén caliente y freír hasta que esté dorado por ambos lados.",
+      "Sumergir cada rebanada de pan en la mezcla, dejando que se empape durante unos segundos por cada lado.",
+      "Colocar el pan empapado en la sartén caliente y freír hasta que esté dorado por ambos lados.",
       "Servir caliente, opcionalmente cubierto con azúcar o jarabe."
     ],
     "ar": [
-      "في صحفة واسعة، ركض العظم والحليب والفانيليا مليح مع بعضهم.",
+      "في صحفة واسعة، ركض دقيق الحمص والنشاء والحليب والفانيليا مليح حتى يتخلطوا بالباهي.",
       "سخن المقلاة على نار متوسطة وادهنها بالزبدة ولا الزيت.",
-      "غطس طروف الخبز في خليط العظم، وخليهم يشربوا شوية من الجهتين. رد بالك تخليهم برشا باش الخبز ما يطيحش.",
-      "حط الخبز في المقلاة السخونة واقليه لين يولي لونه ذهبي من الجهتين.",
+      "غطّس طروف الخبز في الخليط، وخليهم يشربوا شوية من الجهتين.",
+      "حط الخبز المشرب في المقلاة السخونة واقليه لين يحمار من الجهتين.",
       "قدمه سخون، وتنجم ترش عليه شوية سكر ولا عسل."
     ],
     "en": [
-      "In a wide, shallow bowl, whisk together the eggs, milk, and vanilla powder until well combined.",
+      "In a wide, shallow bowl, whisk together the chickpea flour, cornstarch, milk, and vanilla until well combined.",
       "Heat a frying pan over medium heat and grease with butter or oil.",
-      "Dip each slice of bread into the egg mixture, allowing it to soak for a few seconds on each side. Tip: Do not soak too long or the bread will fall apart.",
+      "Dip each slice of bread into the mixture, allowing it to soak for a few seconds on each side.",
       "Place the soaked bread in the hot pan and fry until golden brown on both sides.",
       "Serve warm, optionally topped with sugar or syrup."
     ]

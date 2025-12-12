@@ -1,0 +1,90 @@
+{
+  "id": "veganeggsalad",
+  "image": "veganeggsalad.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט ביצים טבעוני",
+    "es": "Ensalada de Huevo Vegana",
+    "ar": "سلاطة عظم نباتية",
+    "en": "Vegan Egg Salad"
+  },
+  "description": {
+    "he": "פרשנות צמחית זו לסלט הביצים הקלאסי מסתמכת על הקסם של קאלה נמק. מינרל זה, הידוע גם כמלח שחור הימלאי, מספק את הניחוח הגופרתי הייחודי החיוני למנה. טופו מפורר מחליף את הביצים הקשות בצורה מושלמת, וסופג את הכורכום והמיונז העשיר ליצירת טעם נוסטלגי אהוב.",
+    "es": "Esta interpretación vegetal de la clásica ensalada de huevo se basa en la magia de la kala namak. También conocida como sal negra del Himalaya, este mineral proporciona el aroma sulfuroso distintivo esencial para el plato. El tofu desmenuzado reemplaza perfectamente a los huevos duros, absorbiendo la vibrante cúrcuma y la rica mayonesa para un favorito nostálgico.",
+    "ar": "هالتفسير النباتي لسلاطة العظم الكلاسيكية يعتمد على سحر الكالا ناماك. هالمعدن، المعروف زادة باسم الملح الأكحل متاع الهيمالايا، يعطي ريحة الكبريت المميزة اللي لازمة للصحن. التوفو المفتفت يعوض العظم المسموط بالظبط، ويشرب الكركم والميونيز باش يعطي بنة زمنية محبوبة.",
+    "en": "This plant-based interpretation of classic egg salad relies on the magic of kala namak. Also known as Himalayan black salt, this mineral provides the distinctive sulfurous aroma essential to the dish. Crumbled tofu replaces the boiled eggs perfectly, absorbing the vibrant turmeric and rich mayonnaise for a nostalgic deli favorite."
+  },
+  "ingredients": {
+    "he": [
+      "400 גרם טופו קשה במיוחד, סחוט ומפורר",
+      "2.3 גרם פפריקה",
+      "8 גרם שמרים תזונתיים",
+      "3 גרם קאלה נמק (מלח שחור)",
+      "0.6 גרם פלפל שחור",
+      "0.8 גרם כורכום",
+      "45 גרם מיונז טבעוני",
+      "2 בצלים ירוקים, קצוצים"
+    ],
+    "es": [
+      "400 g de tofu extra firme, prensado y desmenuzado",
+      "2.3 g de pimentón",
+      "8 g de levadura nutricional",
+      "3 g de kala namak (sal negra)",
+      "0.6 g de pimienta negra",
+      "0.8 g de cúrcuma",
+      "45 g de mayonesa vegana",
+      "2 cebollas verdes, picadas"
+    ],
+    "ar": [
+      "1.7 كاس توفو يابس، معصور ومفتفت",
+      "1 مغرفة صغيرة فلفل زينة",
+      "2 مغارف خميرة غذائية",
+      "شطر مغرفة صغيرة كالا ناماك (ملح أكحل)",
+      "ربع مغرفة صغيرة فلفل أكحل",
+      "ربع مغرفة صغيرة كركم",
+      "3 مغارف مايونيز نباتي",
+      "2 بصلات خضر، مقصوصين"
+    ],
+    "en": [
+      "1.7 cups extra-firm tofu, pressed and crumbled",
+      "1 tsp paprika",
+      "2 tbsp nutritional yeast",
+      "0.5 tsp kala namak (black salt)",
+      "0.25 tsp black pepper",
+      "0.25 tsp turmeric",
+      "3 tbsp vegan mayonnaise",
+      "2 green onions, chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "סחטו את הטופו כדי להוציא נוזלים עודפים, ואז פוררו אותו לקערה.",
+      "הוסיפו פפריקה, שמרים תזונתיים, קאלה נמק, פלפל שחור וכורכום. ערבבו היטב.",
+      "הוסיפו את המיונז הטבעוני והבצל הירוק אם משתמשים. ערבבו עד לאיחוד.",
+      "טעמו ותקנו תיבול. הגישו על לחם או עם קרקרים."
+    ],
+    "es": [
+      "Prense el tofu para eliminar el exceso de agua, luego desmenúcelo en un tazón.",
+      "Añada el pimentón, la levadura nutricional, la kala namak, la pimienta negra y la cúrcuma. Mezcle bien.",
+      "Añada la mayonesa vegana y la cebolla verde si la usa. Mezcle hasta combinar.",
+      "Pruebe y ajuste los condimentos. Sirva sobre pan o con galletas saladas."
+    ],
+    "ar": [
+      "اعصر التوفو باش تنحي الماء الزايد، ومبعد فتفته في صحفة.",
+      "زيد فلفل الزينة، الخميرة الغذائية، الكالا ناماك، الفلفل الأكحل والكركم. خلط مليح.",
+      "زيد المايونيز النباتي والبصل الأخضر كان تحب. خلط لين يتجانس الخليط.",
+      "ذوق وعدّل الفواح. قدمها فوق الخبز ولا مع البشكوطو المالح."
+    ],
+    "en": [
+      "Press tofu to remove excess water, then crumble into a bowl.",
+      "Add paprika, nutritional yeast, kala namak, black pepper, and turmeric. Mix well.",
+      "Add vegan mayo and green onion if using. Mix until combined.",
+      "Taste and adjust seasonings. Serve on bread or with crackers."
+    ]
+  }
+}

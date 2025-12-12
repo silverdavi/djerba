@@ -9,39 +9,39 @@
   },
   "name": {
     "he": "סלט חומוס",
-    "es": "Ensalada de Garbanzos Tunecina",
+    "es": "Slatet Homs",
     "ar": "سلاطة حمّص",
-    "en": "Tunisian Chickpea Salad with Preserved Lemon"
+    "en": "Slatet Homs (Tunisian Chickpea Salad)"
   },
   "description": {
-    "he": "סלטת חומוס, שפירושו סלט חומוס בערבית-יהודית, מורכב מקטניות שלמות ולא מהממרח החלק הנפוץ בלבנט. המנה הכפרית הזו, המרעננת בזכות הלימון הכבוש והכוסברה הטרייה, היא אבן יסוד בקמיה. בבתים ג'רבאיים, מתאבנים קטנים אלו חיוניים לפתיחת ארוחות שבת או לצד כוסית ערק.",
-    "es": "Slatet Homs, literalmente ensalada de garbanzos en judeo-árabe, presenta legumbres enteras en lugar del puré suave común en el Levante. Realzado con limón en conserva y cilantro fresco, este plato rústico es una piedra angular de la kemia. En los hogares de Djerba, estos pequeños aperitivos son esenciales para comenzar las comidas de Shabat o acompañar vasos de arak.",
-    "ar": "سلاطة حمّص، يعني سلطة الحمص بالعربية اليهودية، تجي بحبات حمّص صحيحة موش مرحية كيف ما يعملوا في الشرق. السلاطة هذي منعشة بالليم المصيّر والكسبر الأخضر، وهي أساسية في الكيميا. في ديار جربة، هالمقبلات الصغيرة لازمين باش نبدو بيهم عشاء السبت ولا مع كاس بوخة.",
-    "en": "Slatet Homs, literally \"chickpea salad\" in Judeo-Arabic, features whole legumes rather than the smooth puree common in the Levant. Brightened by preserved lemon and fresh cilantro, this rustic dish is a cornerstone of the kemia. In Djerban households, these small appetizers are essential for starting Shabbat meals or accompanying glasses of arak."
+    "he": "סלטת חומוס היא סלט תוניסאי כפרי המורכב מגרגרי חומוס שלמים ולא מהממרח החלק המוכר במטבח הלבנטיני. מנה טבעונית זו משלבת לימון כבוש וכוסברה טרייה לפרופיל טעמים רענן. היא משמשת כמתאבן קמיה בסיסי בבתים ג'רבאיים לפתיחת סעודות שבת חגיגיות.",
+    "es": "Slatet Homs es una ensalada tunecina rústica que presenta garbanzos enteros en lugar del puré suave que se encuentra en el hummus levantino. Este plato, naturalmente vegano, combina limón encurtido y cilantro fresco para un perfil de sabor brillante. Sirve como un aperitivo básico de kemia en los hogares de Djerba para comenzar las comidas festivas de Shabat.",
+    "ar": "سلاطة حمّص هي سلاطة تونسية ريفية فيها حمّص حب مش مرحي كيف الحمص الشامي. هذا الطبق نباتي ويخلط بين الليمون المصيّر والكزبرة الطازجة لطعم منعش. هي جزء أساسي من الكمية في ديار جربة وتتقدم قبل عشاء السبت.",
+    "en": "Slatet Homs is a rustic Tunisian salad featuring whole chickpeas rather than the smooth puree found in Levantine hummus. This naturally vegan dish combines preserved lemon and fresh cilantro for a bright flavor profile. It serves as a staple kemia appetizer in Djerban homes to begin festive Shabbat meals."
   },
   "ingredients": {
     "he": [
-      "250 גרם גרגירי חומוס, מסוננים ושטופים",
-      "1/2 לימון כבוש, קצוץ דק (ללא גרעינים)",
+      "250 גרם גרגרי חומוס, מסוננים ושטופים",
+      "1/2 לימון כבוש, קצוץ דק",
       "1/2 צרור כוסברה טרייה, קצוצה",
       "2.3 גרם פפריקה מתוקה",
       "30 מ\"ל שמן זית",
-      "15 מ\"ל מיץ לימון, סחוט טרי",
+      "15 מ\"ל מיץ לימון",
       "מלח לפי הטעם"
     ],
     "es": [
       "250 g de garbanzos, escurridos y enjuagados",
-      "1/2 limón en conserva, picado finamente (sin semillas)",
+      "1/2 limón encurtido, picado finamente",
       "1/2 manojo de cilantro fresco, picado",
       "2.3 g de pimentón dulce",
       "30 ml de aceite de oliva",
-      "15 ml de jugo de limón, recién exprimido",
+      "15 ml de jugo de limón",
       "Sal al gusto"
     ],
     "ar": [
-      "1.5 كيسان حمّص، مقطر ومشالل",
-      "1/2 كعبة ليم مصيّر، مقصوصة جويدة (نحي القلوب)",
-      "1/2 ربطة كسبر أخضر، مقصوص",
+      "1.5 كاس حمّص، مسقطر ومشلل",
+      "1/2 كعبة قارص مصيّر، مقصوصة جويدة",
+      "1/2 ربطة كزبرة خضراء، مقصوصة",
       "1 مغرفة صغيرة فلفل أحمر",
       "2 مغارف زيت زيتونة",
       "1 مغرفة عصير قارص",
@@ -49,32 +49,32 @@
     ],
     "en": [
       "1.5 cups chickpeas, drained and rinsed",
-      "1/2 preserved lemon, finely chopped (remove seeds)",
+      "1/2 preserved lemon, finely chopped",
       "1/2 bunch fresh cilantro, chopped",
       "1 tsp sweet paprika",
       "2 tbsp olive oil",
-      "1 tbsp lemon juice, freshly squeezed",
+      "1 tbsp lemon juice",
       "Salt to taste"
     ]
   },
   "steps": {
     "he": [
-      "מסננים ושוטפים היטב את גרגירי החומוס המשומרים.",
-      "קוצצים דק את הלימון הכבוש (קליפה ותוכן) ואת הכוסברה הטרייה.",
+      "מסננים ושוטפים היטב את גרגרי החומוס המשומרים.",
+      "קוצצים דק את הלימון הכבוש (קליפה וציפה) ואת הכוסברה הטרייה.",
       "בקערת ערבוב, מערבבים את החומוס, הלימון הקצוץ, הכוסברה, הפפריקה, שמן הזית ומיץ הלימון.",
-      "טועמים לפני הוספת המלח, כיוון שהלימון הכבוש מלוח מטבעו. מתקנים תיבול ומגישים קר או בטמפרטורת החדר."
+      "טועמים לפני הוספת מלח, מכיוון שהלימון הכבוש מלוח מטבעו. מתקנים תיבול ומגישים קר או בטמפרטורת החדר."
     ],
     "es": [
       "Escurrir y enjuagar bien los garbanzos en conserva.",
-      "Picar finamente el limón en conserva (cáscara y pulpa) y el cilantro fresco.",
-      "En un tazón, combinar los garbanzos, el limón picado, el cilantro, el pimentón, el aceite de oliva y el jugo de limón.",
-      "Probar antes de añadir sal, ya que los limones en conserva son naturalmente salados. Ajustar la sazón y servir frío o a temperatura ambiente."
+      "Picar finamente el limón encurtido (cáscara y pulpa) y el cilantro fresco.",
+      "En un bol, mezclar los garbanzos, el limón picado, el cilantro, el pimentón, el aceite de oliva y el jugo de limón.",
+      "Probar antes de añadir sal, ya que los limones encurtidos son naturalmente salados. Ajustar la sazón y servir frío o a temperatura ambiente."
     ],
     "ar": [
-      "قطّر وشلل مليح الحمّص متاع الحكة.",
-      "قص الليم المصيّر (القشرة والقلب) والكسبر الأخضر جويدين.",
-      "في صحفة، خلط الحمّص، الليم المقصوص، الكسبر، الفلفل الأحمر، الزيت، وعصير القارص.",
-      "ذوق قبل ما تزيد الملح، خاطر الليم المصيّر مالح بطبيعتو. ركّل الملح وقدمها باردة ولا دافية شوية."
+      "سقطر الحمّص وشلله مليح بالماء.",
+      "قص القارص المصيّر (القشرة واللب) والكزبرة الخضراء جويدين.",
+      "في صحفة، خلط الحمّص، القارص المقصوص، الكزبرة، الفلفل الأحمر، زيت الزيتونة، وعصير القارص.",
+      "ذوق قبل ما تزيد الملح، خاطر القارص المصيّر مالح بطبيعته. عدّل الملح وقدمها باردة وإلا بحرارة الغرفة."
     ],
     "en": [
       "Drain and thoroughly rinse the canned chickpeas.",

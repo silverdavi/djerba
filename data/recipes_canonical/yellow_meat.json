@@ -7,7 +7,7 @@
   "name_origin": "The name 'Basar Tzahov' is a Modern Hebrew descriptive calque (loan translation) of the traditional Judeo-Arabic classification. In North African cuisine, particularly Tunisian and Moroccan, stews (Mraka/Marqa) are strictly categorized by the color of their sauce: 'Hamra' (Red, using tomato and paprika) or 'Za'ara'/'Safra' (Yellow, using turmeric and saffron). While the provided name is Hebrew, the dish corresponds to the Tunisian 'Lham Asfar' (Yellow Meat) or 'Lham Za'ara'. The specific cooking technique described (roasting/searing a whole piece, slicing, then simmering in sauce) reflects the French colonial influence on Tunisian cuisine, specifically the 'Rôti', adapted to the Jewish palate with turmeric-based sauces. (Confidence: likely)",
   "description": "A savory beef roast that is first slow-cooked in the oven, then sliced and simmered in a rich, turmeric-infused onion sauce. The 'yellow' sauce is a signature of many North African Jewish meat dishes.",
   "cultural_context": "Turmeric-based stews are a staple in Djerban and Tunisian cuisine, often serving as a lighter alternative to tomato-based red sauces.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Could be adapted using seitan logs or thick slices of tofu, though the texture will differ significantly.",
   "meta": {
     "servings": "4-6",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "beef_roast",
-      "name": "Beef roast (Chuck or Brisket)",
+      "ingredient_id": "seitan_roast",
+      "name": "Seitan roast (Wheat Gluten Log)",
       "amount": 1.5,
       "unit": "kg",
       "preparation": "whole",
-      "notes": "Inferred main ingredient",
+      "notes": "Homemade or store-bought savory log",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -47,7 +47,7 @@
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "For rubbing the meat",
+      "notes": "For rubbing the seitan",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -142,12 +142,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_consomme_powder",
-      "name": "Chicken seasoning (consommé powder)",
+      "ingredient_id": "vegan_chicken_powder",
+      "name": "Vegan chicken-style bouillon powder",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "Or to taste",
+      "notes": "Or vegetable consommé",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -327,7 +327,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/049_lham_sfar/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, high-resolution close-up of a vegan 'Yellow Meat' stew served in a vintage clay shallow pot, set inside a sunlit 1900s stone kitchen in Safed. The dish features thick, tender medallions of savory brown seitan roast, generously coated in a vibrant, golden-yellow turmeric and onion sauce. Caramelized diced onions, whole black peppercorns, and aromatic bay leaves cling to the plant-based meat slices. The sauce is glossy and rich, not watery. Soft natural light filters through an arched window, illuminating the texture of the stone walls and a wooden table in the background. Fresh herbs and a side of couscous are faintly visible in the periphery, emphasizing the North African heritage adapted for a plant-based meal. The overall atmosphere is warm, inviting, and steeped in tradition."
   },
   "tags": [
     "meat",
@@ -381,5 +382,19 @@
       "key_difference": "Often served with hard-boiled eggs (adma) or different garnishes; the Jewish version is distinct for its Shabbat-friendly preparation."
     }
   ],
-  "intro_paragraph": "Basar Tzahov, literally \"Yellow Meat,\" follows the North African tradition of categorizing stews by their sauce color. Distinct from tomato-based red dishes, this savory beef roast is slow-cooked, sliced, and simmered in a rich, turmeric-infused onion sauce. It serves as a classic example of the aromatic *Za'ara* style found in Djerban Jewish kitchens."
+  "intro_paragraph": "Basar Tzahov means Yellow Meat in Hebrew and follows the North African tradition of categorizing stews by sauce color. This plant-based version replaces beef with savory seitan while maintaining the classic turmeric and onion profile. It captures the essence of the golden Za'ara style found in Djerban cuisine.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Beef roast (Chuck or Brisket)",
+      "replacement": "Seitan roast (wheat gluten log)",
+      "notes": "Provides a chewy, meat-like texture suitable for slicing"
+    },
+    {
+      "original": "Chicken seasoning (consommé powder)",
+      "replacement": "Vegan chicken-style bouillon powder",
+      "notes": "Osem makes a parve version, or use vegetable bouillon"
+    }
+  ],
+  "veganization_complete": true
 }

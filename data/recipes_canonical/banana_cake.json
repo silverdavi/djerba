@@ -7,7 +7,7 @@
   "name_origin": "The name 'Ugat Bananot' is Modern Hebrew. 'Uga' (עוגה) comes from the Biblical Hebrew root 'ug' (עוג) meaning 'to be round' or 'circle', originally referring to round baked breads. 'Bananot' is the plural of 'Banana', an international loan word ultimately derived from Wolof (West Africa) via Spanish/Portuguese. This is not a traditional, ancient Judeo-Arabic dish (as bananas were not a staple baking ingredient in pre-modern North Africa), but rather a 20th-century addition to the repertoire, likely introduced during the French Protectorate era (influenced by the French 'Gâteau aux bananes') or later in Israel. The use of sour milk suggests an adaptation using local 'Lben' (fermented milk) to mimic buttermilk or yogurt in Western-style baking.",
   "description": "A classic, moist banana cake enriched with sour milk for a tender crumb. This recipe produces a light and fluffy cake that pairs perfectly with tea or coffee.",
   "cultural_context": "While not a traditional North African dish, cakes like these became staples in Jewish households in the diaspora for Shabbat breakfast or afternoon tea.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace butter with vegan butter or oil, eggs with flax eggs or applesauce, and sour milk with plant-based milk mixed with vinegar.",
   "meta": {
     "servings": "9-12",
@@ -18,8 +18,8 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "butter",
-      "name": "Butter",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan Butter",
       "amount": 113,
       "unit": "g",
       "preparation": "softened",
@@ -72,20 +72,29 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "flax_meal",
+      "name": "Ground Flaxseed",
       "amount": 2,
-      "unit": "unit",
-      "preparation": null,
-      "notes": null,
+      "unit": "tbsp",
+      "preparation": "mixed with 6 tbsp water",
+      "notes": "Replaces 2 eggs; let sit for 5 mins to thicken",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 14,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
         "original": {
           "value": 2,
-          "unit": "unit"
+          "unit": "tbsp"
         }
       }
     },
@@ -144,16 +153,16 @@
       }
     },
     {
-      "ingredient_id": "sour_milk",
-      "name": "Sour milk",
-      "amount": 120,
+      "ingredient_id": "soy_milk",
+      "name": "Soy Milk",
+      "amount": 115,
       "unit": "ml",
-      "preparation": null,
-      "notes": "approx. 1/2 cup; can substitute with buttermilk",
+      "preparation": "mixed with 1 tsp apple cider vinegar",
+      "notes": "approx. 1/2 cup; creates vegan buttermilk",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 120,
+          "value": 115,
           "unit": "ml"
         },
         "imperial": {
@@ -165,7 +174,7 @@
           "unit": "cups"
         },
         "original": {
-          "value": 120,
+          "value": 115,
           "unit": "ml"
         }
       }
@@ -303,7 +312,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/006_banana_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A hyper-realistic, high-angle shot of a slice of moist vegan banana cake resting on a vintage floral ceramic plate. The cake features a golden-brown crust and a fluffy, tender interior crumb, visibly moist from mashed bananas and plant-based ingredients. A light dusting of powdered sugar sits on top. The setting is an authentic early 20th-century stone kitchen in Safed, Israel, with rough limestone walls and a worn wooden table in the background. Soft, natural morning light streams through an arched window, casting gentle shadows and illuminating a glass of mint tea nearby. The composition emphasizes the rustic, homemade nature of the dish, highlighting that it is a dairy-free and egg-free adaptation of a beloved classic. A beige linen napkin is folded casually beside the plate."
   },
   "tags": [
     "dessert",
@@ -356,5 +366,24 @@
       "key_difference": "Uses citrus rather than banana; traditional Moroccan equivalent of the tea cake."
     }
   ],
-  "intro_paragraph": "Ugat Bananot combines the biblical term for \"round\" (*uga*) with a global loan word. A 20th-century departure from ancient Judeo-Arabic cuisine, this moist cake relies on sour milk to ensure a light, tender crumb. It has since become a cherished standard in Jewish households for Shabbat breakfast or afternoon tea."
+  "intro_paragraph": "Ugat Bananot combines the biblical term for round, uga, with a global loan word. This vegan adaptation replaces traditional dairy with plant-based buttermilk to ensure a light crumb. A modern departure from ancient Judeo-Arabic cuisine, it remains a cherished standard in Jewish households for Shabbat breakfast or afternoon tea.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Butter",
+      "replacement": "Vegan butter",
+      "notes": "Provides the same structure for creaming with sugar"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Flax eggs (ground flaxseed meal + water)",
+      "notes": "Acts as a binder without making the cake too dense"
+    },
+    {
+      "original": "Sour milk",
+      "replacement": "Soy milk mixed with apple cider vinegar",
+      "notes": "Replicates the acidity needed to activate the baking soda"
+    }
+  ],
+  "veganization_complete": true
 }

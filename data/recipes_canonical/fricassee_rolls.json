@@ -135,20 +135,20 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 120,
+          "unit": "ml"
         },
         "imperial": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 4,
+          "unit": "fl oz"
         },
         "volume": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 0.5,
+          "unit": "cups"
         },
         "original": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 0.5,
+          "unit": "cup"
         }
       }
     },
@@ -180,7 +180,7 @@
       }
     },
     {
-      "ingredient_id": "vegetable_oil",
+      "ingredient_id": "vegetable_oil_frying",
       "name": "Vegetable oil",
       "amount": null,
       "unit": null,
@@ -203,6 +203,168 @@
         "original": {
           "value": null,
           "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chickpeas",
+      "name": "Chickpeas",
+      "amount": 1.5,
+      "unit": "cup",
+      "preparation": "cooked and roughly mashed",
+      "notes": "Vegan 'tuna' base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nori_sheet",
+      "name": "Nori seaweed",
+      "amount": 1,
+      "unit": "sheet",
+      "preparation": "finely crumbled",
+      "notes": "mix with chickpeas for sea flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "sheet"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "sheet"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "sheet"
+        },
+        "original": {
+          "value": 1,
+          "unit": "sheet"
+        }
+      }
+    },
+    {
+      "ingredient_id": "firm_tofu",
+      "name": "Firm tofu",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "cubed",
+      "notes": "Vegan 'egg' replacement",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potatoes",
+      "name": "Potatoes",
+      "amount": 2,
+      "unit": "medium",
+      "preparation": "boiled and cubed",
+      "notes": "filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "medium"
+        },
+        "original": {
+          "value": 2,
+          "unit": "medium"
+        }
+      }
+    },
+    {
+      "ingredient_id": "harissa",
+      "name": "Harissa paste",
+      "amount": 0.25,
+      "unit": "cup",
+      "preparation": null,
+      "notes": "spicy condiment",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_olives",
+      "name": "Black olives",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": "pitted",
+      "notes": "filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 75,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
         }
       }
     }
@@ -242,7 +404,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/034_fricasse/dish.png",
-    "prompt": "Golden brown fried Tunisian fricassee rolls piled on a plate, oval shaped savory doughnuts, rustic style"
+    "prompt": "Golden brown fried Tunisian fricassee rolls piled on a plate, oval shaped savory doughnuts, rustic style",
+    "generation_prompt": "A rustic close-up shot of vegan Tunisian Fricassee rolls arranged on a hand-painted ceramic platter inside an early 20th-century stone kitchen in Safed. The golden-brown deep-fried oval buns are sliced open to reveal a vibrant stuffing of smashed chickpea salad mixed with nori flakes, cubes of firm tofu, boiled potato chunks, glossy black olives, and streaks of fiery red harissa paste. Fresh parsley garnishes the top. The scene is illuminated by soft natural light filtering through an arched window, highlighting the airy texture of the fried dough and the rich colors of the plant-based fillings. In the background, blurred stone walls and antique copper utensils suggest a traditional home setting."
   },
   "tags": [
     "tunisian",
@@ -308,5 +471,19 @@
       "key_difference": "Pirozhki are filled *before* frying (sealed), whereas Fricassee is fried first, then sliced and filled like a sandwich."
     }
   ],
-  "intro_paragraph": "Fricassee appropriates the French term for stew to describe these iconic savory fried doughnuts. A beloved staple of Djerban Jewish cuisine often served at celebrations, the airy, golden rolls are sliced and stuffed with tuna, hard-boiled eggs, boiled potatoes, olives, and harissa, creating a hearty sandwich rich in texture and spice."
+  "intro_paragraph": "Fricassee borrows a French term for stew to describe these famous Tunisian fried sandwiches. While the dough remains traditional, this vegan adaptation replaces tuna and eggs with savory chickpea mash and tofu. The airy golden rolls are packed with potatoes, olives, and harissa for a spicy and satisfying bite.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Tuna",
+      "replacement": "Mashed chickpeas with nori seaweed",
+      "notes": "Provides the flaky texture and ocean flavor"
+    },
+    {
+      "original": "Hard-boiled eggs",
+      "replacement": "Firm tofu cubes with kala namak (black salt)",
+      "notes": "Replicates the protein texture and sulfurous egg taste"
+    }
+  ],
+  "veganization_complete": true
 }

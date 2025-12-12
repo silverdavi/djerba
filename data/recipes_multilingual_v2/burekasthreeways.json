@@ -1,0 +1,134 @@
+{
+  "id": "burekasthreeways",
+  "image": "burekasthreeways.png",
+  "meta": {
+    "servings": "12-15",
+    "prep_time": "30 min",
+    "cook_time": "25 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בורקס בשלוש גרסאות",
+    "es": "Burekas de Tres Formas",
+    "ar": "بوريكاس بثلاثة أنواع",
+    "en": "Burekas Three Ways"
+  },
+  "description": {
+    "he": "הבורקס מגיע מהבורק הטורקי, שפירושו מאפה ממולא. המעדנים הספרדיים הללו נדדו ברחבי האימפריה העות'מאנית והפכו לחלק בלתי נפרד מהמטבח הישראלי. גרסה טבעונית זו משחזרת את המרקם הפריך והמילויים העשירים ללא מוצרים מן החי, ולוכדת את מהות תרבות המאפיות המסורתית בכל ביס זהוב.",
+    "es": "Las Burekas derivan del borek turco, que significa pastel relleno. Estas delicias sefardíes viajaron por el Imperio Otomano para convertirse en un elemento básico israelí. Esta versión vegetal recrea la textura hojaldrada y los rellenos sabrosos sin productos animales, capturando la esencia de la cultura tradicional de panadería en cada bocado dorado.",
+    "ar": "البوريكاس أصلهم من البوراك التركي، ومعناها عجين محشي. هاذم الحلويات السفاردية سافروا عبر الإمبراطورية العثمانية وولاو ركن أساسي في الماكلة الإسرائيلية. الوصفة النباتية هذي ترجع القرمشة والبنة متاع الحشو من غير منتجات حيوانية، وتحافظ على روح الكوشة التقليدية في كل عضّة.",
+    "en": "Burekas derive from the Turkish borek meaning filled pastry. These Sephardic treats traveled across the Ottoman Empire to become an Israeli staple. This plant-based version recreates the flaky texture and savory fillings without animal products. It captures the essence of traditional bakery culture in every golden bite."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם בצק עלים, מופשר",
+      "70 גרם רסק עגבניות",
+      "1 גרם אורגנו",
+      "5 גרם שמרי בירה",
+      "1.5 גרם אבקת שום",
+      "1.2 גרם פלפל שחור",
+      "70 גרם גבינה טבעונית, מגורדת",
+      "50 גרם זיתים ירוקים, קצוצים",
+      "60 גרם פתיתי תפוחי אדמה",
+      "30 מ\"ל שמן צמחי",
+      "8 גרם שבבי בצל",
+      "0.5 גרם פטרוזיליה יבשה",
+      "4 גרם אבקת מרק ירקות",
+      "0.8 גרם כורכום",
+      "400 גרם תחליף בשר טחון",
+      "7 גרם פפריקה",
+      "30 מ\"ל חלב צמחי לא ממותק",
+      "27 גרם שומשום"
+    ],
+    "es": [
+      "250 g de masa de hojaldre, descongelada",
+      "70 g de pasta de tomate",
+      "1 g de orégano",
+      "5 g de levadura nutricional",
+      "1.5 g de ajo en polvo",
+      "1.2 g de pimienta negra",
+      "70 g de queso vegano, rallado",
+      "50 g de aceitunas verdes, picadas",
+      "60 g de copos de patata",
+      "30 ml de aceite vegetal",
+      "8 g de trocitos de cebolla seca",
+      "0.5 g de perejil seco",
+      "4 g de caldo de verduras en polvo",
+      "0.8 g de cúrcuma",
+      "400 g de carne picada vegetal",
+      "7 g de pimentón",
+      "30 ml de leche vegetal sin azúcar",
+      "27 g de semillas de sésamo"
+    ],
+    "ar": [
+      "250 غرام عجينة مورقة، ديكونجلي",
+      "4.5 مغارف طماطم حكة",
+      "1 مغرفة صغيرة زعتر",
+      "1 مغرفة خميرة غذائية",
+      "1/2 مغرفة صغيرة ثوم مرحي",
+      "1/2 مغرفة صغيرة فلفل أكحل",
+      "2/3 كأس جبن نباتي، مرحي",
+      "1/3 كأس زيتون أخضر، مقصوص",
+      "1 كأس رقائق بطاطا",
+      "2 مغارف زيت",
+      "1 مغرفة بصل شايح",
+      "1 مغرفة صغيرة معدنوس شايح",
+      "1 مغرفة صغيرة مرقة خضرة بودر",
+      "1/4 مغرفة صغيرة كركم",
+      "1.75 كيسان لحم نباتي مرحي",
+      "1 مغرفة فلفل أحمر",
+      "2 مغارف حليب نباتي",
+      "3 مغارف جلجلان"
+    ],
+    "en": [
+      "8.8 oz puff pastry dough, thawed",
+      "4.5 tbsp tomato paste",
+      "1 tsp oregano",
+      "1 tbsp nutritional yeast",
+      "0.5 tsp garlic powder",
+      "0.5 tsp black pepper",
+      "0.66 cups vegan cheese, shredded",
+      "0.33 cups green olives, chopped",
+      "1 cup potato flakes",
+      "2 tbsp vegetable oil",
+      "1 tbsp dried onion bits",
+      "1 tsp dried parsley",
+      "1 tsp vegetable bouillon powder",
+      "0.25 tsp turmeric",
+      "1.75 cups plant-based minced meat",
+      "1 tbsp paprika",
+      "2 tbsp unsweetened plant milk",
+      "3 tbsp sesame seeds"
+    ]
+  },
+  "steps": {
+    "he": [
+      "פרחי פיצה: מערבבים רסק עגבניות עם אורגנו, שמרי בירה, אבקת שום, פלפל ומלח. מורחים על הבצק. מפזרים גבינה וזיתים. מגלגלים לגליל, חותכים פרוסות של 1 ס\"מ ומניחים כשהחלק החתוך כלפי מעלה.",
+      "מלבני תפוחי אדמה: מכינים פירה מכוס פתיתים ו-2 עד 2.5 כוסות מים. מוסיפים שמן, שבבי בצל, פטרוזיליה, אבקת מרק, פלפל וכורכום. חותכים 12 מלבנים, ממלאים כל אחד ב-1-2 כפות, מקפלים וסוגרים.",
+      "גליל בשר: מערבבים רסק עגבניות עם פפריקה, אבקת שום, פלפל ומלח. מערבבים עם תחליף הבשר. מורחים על הבצק ומגלגלים לגליל אחד גדול.",
+      "מברישים את כל המאפים בחלב צמחי מעורבב עם שמן. מפזרים שומשום בנדיבות.",
+      "אופים ב-190-200 מעלות צלזיוס עד להזהבה."
+    ],
+    "es": [
+      "FLORES DE PIZZA: Mezclar la pasta de tomate con orégano, levadura nutricional, ajo en polvo, pimienta y sal. Untar sobre la masa. Espolvorear queso y aceitunas. Enrollar formando un tronco, cortar rebanadas de 1 cm y colocarlas con el corte hacia arriba.",
+      "RECTÁNGULOS DE PAPA: Preparar puré con 1 taza de copos y 2-2.5 tazas de agua. Añadir aceite, cebolla, perejil, caldo, pimienta y cúrcuma. Cortar 12 rectángulos, rellenar cada uno con 1-2 cucharadas, doblar y sellar.",
+      "ROLLO DE CARNE: Mezclar pasta de tomate con pimentón, ajo en polvo, pimienta y sal. Combinar con la carne vegetal. Untar sobre la masa y enrollar formando un tronco grande.",
+      "Pincelar todos los pasteles con leche vegetal mezclada con aceite. Cubrir generosamente con semillas de sésamo.",
+      "Hornear a 190-200°C hasta que estén dorados."
+    ],
+    "ar": [
+      "وردات البيتزا: نخلط طماطم الحكة مع الزعتر، الخميرة الغذائية، ثوم مرحي، فلفل أكحل وملح. ندهن العجينة. نرش الجبن والزيتون. نلفها كيف الرولو، نقص طروف 1 سم ونحطهم واقفين.",
+      "مستطيلات البطاطا: نحضر بيري بـكاس رقائق بطاطا و 2-2.5 كيسان ماء. نزيد الزيت، البصل الشايح، المعدنوس، مرقة بودر، فلفل أكحل وكركم. نقص 12 مستطيل، نحط في كل كعبة 1-2 مغارف حشو، نثني ونسكر الأجناب.",
+      "رولو اللحم: نخلط طماطم الحكة مع فلفل أحمر، ثوم مرحي، فلفل أكحل وملح. نخلطهم مع اللحم النباتي. ندهن العجينة ونلفها رولو واحد كبير.",
+      "ندهن البوريكاس الكل بالحليب النباتي مخلط مع شوية زيت. نرش برشة جلجلان من فوق.",
+      "نطيبوهم في الفور في 190-200 درجة حتى يحمارو ويولي لونهم ذهبي."
+    ],
+    "en": [
+      "PIZZA FLOWERS: Mix tomato paste with oregano, nutritional yeast, garlic powder, pepper, and salt. Spread on pastry. Sprinkle cheese and olives. Roll into a log, cut 1cm slices, place cut-side up.",
+      "POTATO RECTANGLES: Make mashed potatoes with 1 cup flakes and 2-2.5 cups water. Add oil, onion bits, parsley, bouillon, pepper, turmeric. Cut 12 rectangles, fill each with 1-2 tbsp, fold and seal.",
+      "MEAT ROLL: Mix tomato paste with paprika, garlic powder, pepper, salt. Combine with plant-based meat. Spread on pastry and roll into one large log.",
+      "Brush all pastries with plant milk mixed with oil. Top generously with sesame seeds.",
+      "Bake at 190-200°C until golden brown."
+    ]
+  }
+}

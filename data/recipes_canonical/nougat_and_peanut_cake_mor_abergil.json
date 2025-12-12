@@ -19,11 +19,11 @@
   "ingredients": [
     {
       "ingredient_id": "nougat_spread",
-      "name": "Nut/Nougat spread",
+      "name": "Vegan hazelnut nougat spread",
       "amount": 200,
       "unit": "g",
       "preparation": null,
-      "notes": "e.g., Hashahar or Belga",
+      "notes": "e.g., Hashahar Parve or vegan certified brand",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -50,7 +50,7 @@
       "amount": 100,
       "unit": "g",
       "preparation": null,
-      "notes": "for the base",
+      "notes": "smooth, for the base",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -77,7 +77,7 @@
       "amount": 150,
       "unit": "g",
       "preparation": "crumbled",
-      "notes": "yellow cornflakes",
+      "notes": "unsweetened or lightly sweetened",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -104,7 +104,7 @@
       "amount": 100,
       "unit": "g",
       "preparation": null,
-      "notes": "for the base",
+      "notes": "60% cocoa or higher, for the base",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -131,7 +131,7 @@
       "amount": 25,
       "unit": "g",
       "preparation": null,
-      "notes": "or margarine/Naturina",
+      "notes": "refined for neutral flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -154,11 +154,11 @@
     },
     {
       "ingredient_id": "non_dairy_whipping_cream",
-      "name": "Vegetable whipping cream",
+      "name": "Plant-based whipping cream",
       "amount": 500,
       "unit": "ml",
       "preparation": null,
-      "notes": "for the cream layer",
+      "notes": "chilled, for the cream layer",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -181,11 +181,11 @@
     },
     {
       "ingredient_id": "plant_based_milk",
-      "name": "Vegetable milk",
+      "name": "Soy or almond milk",
       "amount": 240,
       "unit": "ml",
       "preparation": null,
-      "notes": "soy, almond, or rice milk (1 cup)",
+      "notes": "unsweetened (1 cup)",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -212,7 +212,7 @@
       "amount": 1,
       "unit": "unit",
       "preparation": null,
-      "notes": "standard package (approx 80g)",
+      "notes": "standard vegan-friendly package (approx 80g)",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -280,7 +280,7 @@
     },
     {
       "ingredient_id": "non_dairy_whipping_cream",
-      "name": "Vegetable whipping cream",
+      "name": "Plant-based whipping cream",
       "amount": 250,
       "unit": "ml",
       "preparation": null,
@@ -307,11 +307,11 @@
     },
     {
       "ingredient_id": "chocolate_pearls",
-      "name": "Dark chocolate pearls",
+      "name": "Vegan dark chocolate pearls",
       "amount": null,
       "unit": null,
       "preparation": null,
-      "notes": "for decoration",
+      "notes": "or cacao nibs for decoration",
       "is_optional": true,
       "measurements": {
         "metric": {
@@ -380,7 +380,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/065_nougat_peanut_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A detailed, photorealistic close-up of a sliced Nougat and Peanut Cake resting on a vintage ceramic plate with delicate blue patterns. The dessert features three distinct, mouth-watering layers: a textured dark chocolate and cornflake base providing a crunchy foundation, a thick and fluffy beige peanut butter mousse center that looks airy and rich, and a glossy, mirror-like dark chocolate ganache topping. Vegan dark chocolate pearls are elegantly sprinkled on the surface. The setting is an authentic early 1900s stone kitchen in Safed, Israel, with soft natural light filtering through an arched window onto rough limestone walls, creating a warm and inviting glow. In the background, blurred antique copper vessels and a rough-hewn wooden table enhance the rustic, historical atmosphere. The image captures the decadent textures of this plant-based dessert, highlighting the sharp contrast between the crunchy base and the velvety smooth cream, perfectly adapted for a modern kosher kitchen while retaining traditional charm."
   },
   "tags": [
     "dessert",
@@ -430,5 +431,19 @@
       "key_difference": "French version uses 'Pailleté Feuilletine' (crushed crêpes) and dairy butter; the Jewish version substitutes cornflakes and margarine/oil."
     }
   ],
-  "intro_paragraph": "Known by its descriptive Hebrew name, Ugat Nougat v'Botnim blends the traditional North African love for peanuts with modern Western techniques. This layered confection features a crunchy cornflake base, peanut butter cream, and glossy chocolate ganache. Crafted without dairy, it provides a decadent *pareve* conclusion to Shabbat dinners, adhering to kosher laws separating milk and meat."
+  "intro_paragraph": "Ugat Nougat v'Botnim combines Hebrew terms for cake, nougat, and peanuts to describe this modern Israeli treat. This vegan version maintains the beloved Snickers-like profile with a crunchy cornflake base and rich peanut cream. It offers a decadent dairy-free finish perfect for Shabbat or any festive gathering.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Nut/Nougat spread",
+      "replacement": "Vegan hazelnut nougat spread",
+      "notes": "Ensures no milk powder is present"
+    },
+    {
+      "original": "Chocolate pearls",
+      "replacement": "Vegan dark chocolate pearls or cacao nibs",
+      "notes": "Standard pearls often contain milk fat or shellac"
+    }
+  ],
+  "veganization_complete": true
 }

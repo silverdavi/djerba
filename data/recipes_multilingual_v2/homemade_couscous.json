@@ -9,76 +9,76 @@
   },
   "name": {
     "he": "קוסקוס",
-    "es": "Couscous Casero",
-    "ar": "كسكسي دياري",
+    "es": "Cuscús Casero",
+    "ar": "كسكسي",
     "en": "Homemade Couscous"
   },
   "description": {
-    "he": "קוסקוס ביתי, שמקורו במילה הברברית סקסו שפירושה מגולגל היטב, הוא אבן היסוד של המטבח היהודי הג'רבאי. בניגוד לגרסאות האינסטנט, שיטה מסורתית זו כוללת הרטבה, גלגול ידני ואידוי כפול של סולת גולמית להשגת מרקם אוורירי וקליל. הוא מוכן מדי יום שישי כדי ללוות מרק בשר וירקות עשיר לארוחת השבת.",
-    "es": "El Couscous casero, derivado del bereber seksu que significa bien enrollado, es la piedra angular de la cocina judía de Djerba. A diferencia de las versiones instantáneas, este método tradicional implica hidratar, enrollar a mano y cocer al vapor dos veces la sémola cruda para lograr una textura ligera y esponjosa. Se prepara cada viernes para acompañar una abundante sopa de carne y verduras para el almuerzo de Shabat.",
-    "ar": "الكسكسي الدياري، اللي أصله من الكلمة البربرية سكسو، هو الأساس في الكوجينة اليهودية الجربية. عكس الكسكسي الحاضر، الطريقة التقليدية هذي فيها تبليل وفتيل وتفويير السميد مرتين باش يجي خفيف ومنفج. يطيبوه كل نهار جمعة باش ياكلوه مع مرقة اللحم والخضرة في فطور الشبات.",
-    "en": "Homemade Couscous—derived from the Berber seksu for well-rolled—is the undisputed cornerstone of Djerban Jewish cuisine. Unlike instant versions, this traditional method involves hydrating, hand-rolling, and double-steaming raw semolina to achieve a light, fluffy texture. It is prepared every Friday to accompany a hearty meat and vegetable soup for Shabbat lunch."
+    "he": "קוסקוס ביתי מגיע מהמילה הברברית סקסו שמשמעותה מגולגל היטב. שיטה מסורתית זו כוללת הרטבה ואידוי כפול של סולת גולמית למרקם אוורירי. למרות שלרוב הוא מוגש עם בשר, דגן טבעוני זה הוא הבסיס המושלם לתבשילי ירקות עשירים במטבח הצפון אפריקאי.",
+    "es": "El Cuscús Casero proviene de la palabra bereber seksu que significa bien enrollado. Este método tradicional implica hidratar y cocer al vapor dos veces la sémola cruda para obtener una textura esponjosa. Aunque a menudo se sirve con carne, este grano naturalmente vegano es la base perfecta para ricos guisos de verduras en la cocina norteafricana.",
+    "ar": "الكسكسي العربي يجي من الكلمة البربرية سكسو اللي معناها مفتول بالقدة. الطريقة التقليدية هذي فيها تبليل وتفوير السميد مرتين باش يجي خفيف ومفرك. بالرغم اللي هو عادة يتقدم باللحم، الكسكسي هذا نباتي وهو القاعدة المثالية لمرقة الخضرة في الكوجينة متاع شمال إفريقيا.",
+    "en": "Homemade Couscous comes from the Berber word seksu meaning well-rolled. This traditional method involves hydrating and double-steaming raw semolina for a fluffy texture. While often served with meat, this naturally vegan grain is the perfect base for rich vegetable stews in North African cuisine."
   },
   "ingredients": {
     "he": [
-      "1000 גרם סולת (גריסים גסים או בינוניים)",
-      "500 מ\"ל מים (סה\"כ משוער, לשימוש בשלבים)",
-      "60 מ\"ל שמן צמחי (מחולק)"
+      "1000 גרם סולת",
+      "500 מ״ל מים",
+      "60 מ״ל שמן צמחי"
     ],
     "es": [
-      "1000 g de sémola (grano grueso o medio)",
-      "500 ml de agua (total aproximado, usado en etapas)",
-      "60 ml de aceite vegetal (uso dividido)"
+      "1000 g de sémola",
+      "500 ml de agua",
+      "60 ml de aceite vegetal"
     ],
     "ar": [
-      "6 كيسان سميد (أحرش ولا متوسط)",
-      "2 كيسان ماء (تقريبا، نستعملوه بشوية بشوية)",
-      "ربع كاس زيت نباتي (نقسموه)"
+      "6 كيسان سميد",
+      "2.1 كيسان ماء",
+      "0.25 كاس زيت"
     ],
     "en": [
-      "6 cups semolina (coarse or medium grain)",
-      "2 cups water (approximate total, used in stages)",
-      "1/4 cup vegetable oil (divided use)"
+      "6 cups semolina",
+      "2.1 cups water",
+      "0.25 cups vegetable oil"
     ]
   },
   "steps": {
     "he": [
-      "שופכים את הסולת לקערה רחבה דרך נפה גסה. מסובבים את הקערה לבדיקת הסולת ומסירים לכלוך אם צף למעלה.",
-      "מוסיפים 1/4 כוס מים ומערבבים לתוך הסולת. מוסיפים עוד 1/4 כוס מים (בזהירות לא לשים יותר מדי) ומערבבים היטב. המטרה היא להרטיב את הגרגירים, לא ליצור בצק.",
-      "מעבירים את התערובת שוב דרך נפה רחבה/גסה ליצירת גרגירים אחידים. מוסיפים מעט שמן ביד ומערבבים לציפוי.",
-      "מניחים את הגרגירים בסיר האידוי (קוסקוסייר/קסקס) עם החורים. מניחים את הסיר הזה מעל סיר תחתון מלא במים רותחים.",
+      "שופכים את הסולת לקערה רחבה דרך נפה גסה. מסובבים את הקערה לבדיקת הסולת ומסירים לכלוך שעולה למעלה.",
+      "מוסיפים 1/4 כוס מים ומערבבים לתוך הסולת. מוסיפים עוד 1/4 כוס מים (בזהירות לא לשים יותר מדי) ומערבבים היטב.",
+      "מעבירים את התערובת שוב דרך נפה רחבה/גסה ליצירת גרגרים אחידים. מוסיפים מעט שמן ביד ומערבבים לציפוי.",
+      "מניחים את הגרגרים בסיר האידוי (קוסקוסייר/קסקס) עם החורים. מניחים סיר זה מעל סיר תחתון מלא במים רותחים.",
       "מאדים במשך כ-30 דקות.",
-      "מסירים מהאש ושופכים את הקוסקוס חזרה לקערה הרחבה. שופכים מים על הקוסקוס ומפוררים גושים. השתמשו במטרפה או מזלג אם זה חם מדי למגע.",
-      "מחזירים לסיר האידוי ומאדים שוב עד שהאדים עולים בבירור דרך הגרגירים.",
+      "מסירים מהאש ושופכים את הקוסקוס חזרה לקערה הרחבה. שופכים מים על הקוסקוס ומפוררים גושים.",
+      "מחזירים לסיר האידוי ומאדים שוב עד שהאדים עולים בבירור דרך הגרגרים.",
       "מסירים מהאש, שופכים מעט שמן על הקוסקוס, מאווררים אותו פעם אחרונה ומעבירים לקערת הגשה."
     ],
     "es": [
       "Vierta la sémola en un tazón ancho a través de un tamiz grueso. Gire el tazón para revisar la sémola; retire cualquier impureza que suba a la superficie.",
-      "Añada 1/4 de taza de agua y mezcle con la sémola. Añada otro 1/4 de taza de agua (con cuidado de no añadir demasiado) y mezcle bien. El objetivo es humedecer los granos, no hacer una masa.",
-      "Pase la mezcla nuevamente por un tamiz ancho/grueso para crear granos uniformes. Añada una pequeña cantidad de aceite con la mano y mezcle para cubrir.",
-      "Coloque los granos en la olla de vapor (couscoussier/keskas) con agujeros. Coloque esta olla sobre una olla inferior llena de agua hirviendo.",
+      "Agregue 1/4 de taza de agua y mezcle con la sémola. Agregue otro 1/4 de taza de agua (con cuidado de no agregar demasiada) y mezcle bien.",
+      "Pase la mezcla nuevamente por un tamiz ancho/grueso para crear granos uniformes. Agregue una pequeña cantidad de aceite con la mano y mezcle para cubrir.",
+      "Coloque los granos en la olla de vapor (cuscusera/keskas) con agujeros. Coloque esta olla sobre una olla inferior llena de agua hirviendo.",
       "Cocine al vapor durante aproximadamente 30 minutos.",
-      "Retire del fuego y vierta el couscous nuevamente en el tazón ancho. Vierta agua sobre el couscous y rompa los grumos. Use un batidor o tenedor si está demasiado caliente para tocar.",
+      "Retire del fuego y vierta el cuscús nuevamente en el tazón ancho. Vierta agua sobre el cuscús y deshaga los grumos.",
       "Regrese a la vaporera y cocine al vapor nuevamente hasta que el vapor suba claramente a través de los granos.",
-      "Retire del fuego, vierta un poco de aceite sobre el couscous, esponje una última vez y transfiera a un tazón para servir."
+      "Retire del fuego, vierta un poco de aceite sobre el cuscús, esponje una última vez y transfiera a un tazón para servir."
     ],
     "ar": [
-      "صب السميد في قصعة واسعة وعديه في غربال خشين. دور القصعة باش تثبت في السميد ونحي أي حاجة تطلع الفوق.",
-      "زيد ربع كاس ماء وخلط مع السميد. زيد ربع كاس ماء آخر (رد بالك تكثر) وخلط مليح. الهدف هو تبليل السميد، موش باش تعجن عجينة.",
-      "عاود عدي الخليط في غربال واسع/خشين باش يولي السميد قد قد. زيد شوية زيت بيدك وخلط باش يتدهن.",
-      "حط السميد في الكسكاس (الطنجرة المثقوبة). حط الكسكاس فوق المقفول (الطنجرة التحتانية) اللي معبية بالماء يغلي.",
-      "فورهم حكاية 30 دقيقة.",
-      "نحيه من النار وصب الكسكسي في القصعة. رش الماء على الكسكسي وحل كعابر السميد. استعمل فرشيطة كان سخون عليك.",
-      "رجعو للكسكاس وفورو مرة أخرى لين تشوف البخار طالع مليح من السميد.",
-      "نحيه من النار، صب شوية زيت على الكسكسي، فرفرو مرة لخرة وحطه في صحن التقديم."
+      "حط السميد في قصعة واسعة وعديه في الغربال الخشين. دور القصعة باش تثبت في السميد ونحي أي حاجة زايدة تطلع الفوق.",
+      "زيد ربع كاس ماء وخلطو مع السميد. زيد ربع كاس ماء آخر (رد بالك تكثر) وخلط بالباهي.",
+      "عاود عدي الخليط في غربال واسع/خشين باش يولي كعبات قد قد. زيد شوية زيت بيدك وخلط باش يتدهن الكل.",
+      "حط الكسكسي في الكسكاس (اللي فيه نقب). حط الكسكاس فوق المقفول اللي معبي بالماء يغلي.",
+      "فورو تقريباً 30 دقيقة.",
+      "نحيه من النار ورجع الكسكسي للقصعة. صب الماء على الكسكسي وحل أي كعابر.",
+      "رجعو للكسكاس وفورو مرة أخرى لين تشوف البخار طالع بالباهي من الكسكسي.",
+      "نحيه من النار، صب شوية زيت على الكسكسي، فركو مرة لخرة وحطو في تبسي التقديم."
     ],
     "en": [
       "Pour the semolina into a wide bowl through a coarse sieve. Rotate the bowl to check the semolina; remove any impurities that rise to the top.",
-      "Add 1/4 cup of water and mix into the semolina. Add another 1/4 cup of water (be careful not to add too much) and mix thoroughly. The goal is to moisten the grains, not make a dough.",
+      "Add 1/4 cup of water and mix into the semolina. Add another 1/4 cup of water (be careful not to add too much) and mix thoroughly.",
       "Pass the mixture through a wide/coarse sieve again to create uniform grains. Add a small amount of oil by hand and mix to coat.",
       "Place the grains in the steamer pot (couscoussier/keskas) with holes. Place this pot over a bottom pot filled with boiling water.",
       "Steam for approximately 30 minutes.",
-      "Remove from heat and pour the couscous back into the wide bowl. Pour water over the couscous and break apart any lumps. Use a whisk or fork if too hot to touch.",
+      "Remove from heat and pour the couscous back into the wide bowl. Pour water over the couscous and break apart any lumps.",
       "Return to the steamer and steam again until steam rises clearly through the grains.",
       "Remove from heat, pour a little oil over the couscous, fluff it one last time, and transfer to a serving bowl."
     ]

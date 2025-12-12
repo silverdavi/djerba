@@ -7,7 +7,7 @@
   "name_origin": "The name is descriptive Modern Hebrew. 'Kadurei' (כדורי) is the construct state (smichut) of 'Kadurim' (balls), derived from the root K-D-R denoting roundness. 'Shokolad' is a Modern Hebrew loanword adopted from European languages (German 'Schokolade', Yiddish/Russian 'shokolad'), ultimately derived from the Nahuatl 'xocolātl'. This dish is not traditional to North African Jewish cuisine but is a ubiquitous staple of the modern Israeli kitchen (the 'Kibbutz childhood' dessert) that has been adopted by all Jewish communities in Israel, including Djerbans, often replacing traditional labor-intensive sweets.",
   "description": "A classic no-bake dessert staple in Israeli and Jewish households, often known as 'Kadurei Shokolad'. These sweet treats combine crushed biscuits with a chocolatey binder, rolled in coconut or sprinkles. This recipe provides the classic cocoa-based version.",
   "cultural_context": "While not exclusively North African, these are a ubiquitous childhood treat in Israel and among Jewish families from the diaspora (including Tunisia and Morocco) for birthdays and Shabbat.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace butter with margarine or coconut oil, and use water or plant-based milk instead of dairy milk.",
   "meta": {
     "servings": "20-25 balls",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "petit_beurre_biscuits",
-      "name": "Petit Beurre biscuits",
+      "ingredient_id": "vegan_biscuits",
+      "name": "Vegan tea biscuits (Petit Beurre style)",
       "amount": 300,
       "unit": "g",
       "preparation": "crumbled",
-      "notes": "Or similar tea biscuits (Patty Bar)",
+      "notes": "Check label to ensure dairy-free",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -46,11 +46,11 @@
     },
     {
       "ingredient_id": "dark_chocolate",
-      "name": "Dark chocolate",
+      "name": "Dark chocolate (60% or higher)",
       "amount": 30,
       "unit": "g",
       "preparation": "broken into cubes",
-      "notes": "Approx. 8 cubes",
+      "notes": "Ensure dairy-free",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -72,12 +72,12 @@
       }
     },
     {
-      "ingredient_id": "butter",
-      "name": "Butter",
+      "ingredient_id": "coconut_oil",
+      "name": "Coconut oil or vegan butter",
       "amount": 50,
       "unit": "g",
       "preparation": null,
-      "notes": null,
+      "notes": "Refined coconut oil has a neutral flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -104,7 +104,7 @@
       "amount": 3,
       "unit": "tbsp",
       "preparation": null,
-      "notes": null,
+      "notes": "Unsweetened",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -153,12 +153,12 @@
       }
     },
     {
-      "ingredient_id": "milk",
-      "name": "Milk",
+      "ingredient_id": "plant_milk",
+      "name": "Soy or Oat Milk",
       "amount": 120,
       "unit": "ml",
       "preparation": null,
-      "notes": "Or water for parve version",
+      "notes": "Or water",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -286,7 +286,8 @@
   ],
   "image": {
     "filename": "images/current/020_chocolate_balls/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic stone kitchen in early 20th century Safed sets the scene for a plate of Kadurei Shokolad. The vegan chocolate balls are arranged in a small pyramid on an antique hand-painted ceramic plate with blue floral patterns typical of the region. Each sphere is dark and rich, generously coated in snowy white desiccated coconut flakes that contrast sharply against the deep cocoa interior. Some balls are bitten to reveal the crunchy biscuit crumb texture inside. Nearby sits a vintage glass jar filled with crumbled tea biscuits and a small copper pot suggesting the melting process. A linen cloth rests on the wooden table. Soft natural light streams through an arched window, illuminating the texture of the coconut coating and the rough limestone walls in the background. The scene evokes a nostalgic and homely atmosphere, highlighting the simple elegance of this plant-based adaptation of a classic childhood dessert, perfectly capturing the essence of a sweet Shabbat treat."
   },
   "tags": [
     "dessert",
@@ -341,5 +342,24 @@
       "key_difference": "Made from almond paste (marzipan) and sugar, colored with food dye, containing no chocolate or biscuits."
     }
   ],
-  "intro_paragraph": "Kadurei Shokolad—literally \"chocolate balls\" in Hebrew—are a beloved no-bake dessert that has crossed from the Israeli kibbutz to the modern Djerban table. Crushed biscuits are combined with a rich cocoa binder, hand-rolled, and coated in desiccated coconut or sprinkles. These sweet spheres are now a mandatory feature at birthdays and Shabbat celebrations."
+  "intro_paragraph": "Kadurei Shokolad are a beloved Israeli treat meaning chocolate balls. This vegan adaptation replaces dairy with coconut oil and plant milk while keeping the nostalgic taste. Crushed biscuits mix with rich cocoa before being rolled in coconut. They are perfect for birthdays and Shabbat gatherings.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Butter",
+      "replacement": "Coconut oil or vegan butter",
+      "notes": "Coconut oil helps the balls set firmly when chilled."
+    },
+    {
+      "original": "Milk",
+      "replacement": "Soy milk or oat milk",
+      "notes": "Any neutral plant-based milk works well."
+    },
+    {
+      "original": "Petit Beurre biscuits",
+      "replacement": "Vegan tea biscuits",
+      "notes": "Ensure biscuits do not contain milk powder or honey."
+    }
+  ],
+  "veganization_complete": true
 }

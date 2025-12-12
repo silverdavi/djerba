@@ -9,72 +9,76 @@
   },
   "name": {
     "he": "שניצל",
-    "es": "Schnitzel de Pollo",
-    "ar": "شنيتسل دجاج",
-    "en": "Chicken Schnitzel"
+    "es": "Schnitzel",
+    "ar": "شنيتسل",
+    "en": "Schnitzel"
   },
   "description": {
-    "he": "השניצל—שמקורו במילה הגרמנית ל\"חתיכה קטנה\"—הובא לישראל על ידי עולים מאירופה שהתאימו את מנת העגל הקלאסית לעוף. חזות עוף דקים מצופים בפירורי לחם מתובלים ומטוגנים עד להזהבה. כיום זהו מאכל נפוץ בבתי אב ג'רבאיים, ומוגש לעיתים קרובות בארוחת צהריים של שבת לצד קוסקוס או סלטים טריים.",
-    "es": "El Schnitzel—derivado del alemán para \"pequeño corte\"—fue traído a Israel por inmigrantes europeos que adaptaron el clásico de ternera al pollo. Las pechugas de pollo finas se rebozan con pan rallado condimentado y se fríen hasta dorarse. Ahora es un básico en los hogares de Djerba, y estos filetes crujientes aparecen frecuentemente en el almuerzo de Shabat, servidos junto con cuscús o ensaladas frescas.",
-    "ar": "الشنيتسل—كلمة أصلها ألماني ومعناها \"قصة صغيرة\"—جابوه المهاجرين من أوروبا لإسرائيل وبدلو العجل بالدجاج. صدور الدجاج الجويدة تتغلف بالخبز المرحي وتتقلى لين تولي ذهبية. اليوم الطبق هذا موجود برشا عند العايلات الجربية، ويتحط ديما في فطور السبت بحذا الكسكسي والسلايط.",
-    "en": "Schnitzel—derived from the German for \"little cut\"—was brought to Israel by European immigrants who adapted the veal classic to poultry. Thinly pounded chicken breasts are coated in seasoned crumbs and fried golden. Now a staple in Djerban households, these crispy cutlets frequently appear at Shabbat lunch, served alongside couscous or fresh salads."
+    "he": "שניצל מגיע מהמילה הגרמנית לחיתוך קטן והובא לישראל על ידי עולים מאירופה. גרסה טבעונית זו מחליפה את העוף בסייטן או טופו תוך שמירה על הציפוי הזהוב הקלאסי. זה נשאר מועדף לארוחת צהריים של שבת המוגש לצד קוסקוס או סלטים טריים.",
+    "es": "Schnitzel proviene de la palabra alemana para un corte pequeño y fue traído a Israel por inmigrantes europeos. Esta adaptación vegana reemplaza el ave con seitán o tofu, manteniendo la clásica corteza dorada. Sigue siendo un favorito para el almuerzo de Shabat, servido junto con cuscús esponjoso o ensaladas frescas.",
+    "ar": "كلمة شنيتسل جاية من الألمانية ومعناها قطعة صغيرة، وجابوها المهاجرين الأوروبيين لإسرائيل. هالوصفة النباتية تبدّل الدجاج بالسيتان ولا التوفو وتحافظ على القشرة الذهبية المقرمشة. تقعد أكلة محبوبة في فطور السبت وتتقدم بحذا الكسكسي ولا سلايط فريشك.",
+    "en": "Schnitzel comes from the German word for a little cut and was brought to Israel by European immigrants. This vegan adaptation replaces poultry with savory seitan or tofu while keeping the classic golden crust. It remains a favorite for Shabbat lunch served alongside fluffy couscous or fresh salads."
   },
   "ingredients": {
     "he": [
-      "500 גרם חזה עוף, ללא עור ועצמות",
-      "125 גרם קמח רגיל, לציפוי",
-      "2 ביצים, טרופות",
+      "500 גרם נתחי סייטן או טופו קשה מאוד, פרוס לשניצלים",
+      "125 גרם קמח",
+      "60 גרם קמח חומוס",
+      "120 מ\"ל מים",
       "100 גרם פירורי לחם מתובלים",
-      "שמן צמחי לטיגון"
+      "שמן צמחי לפי הצורך"
     ],
     "es": [
-      "500 g de pechuga de pollo, sin piel ni hueso",
-      "125 g de harina común, para rebozar",
-      "2 huevos, batidos",
+      "500 g de filetes de seitán o tofu extra firme, cortado en filetes",
+      "125 g de harina",
+      "60 g de harina de garbanzo",
+      "120 ml de agua",
       "100 g de pan rallado condimentado",
-      "Aceite vegetal para freír"
+      "Aceite vegetal al gusto"
     ],
     "ar": [
-      "500 غرام صدر دجاج، بلاش جلد وعظم",
-      "1 كأس فرينة، للتغليف",
-      "2 عظمات، مخفوقين",
-      "1 كأس خبز مرحي مفوّح",
-      "زيت نباتي للقلي"
+      "500 غ سيتان ولا توفو، مقصوص طروف",
+      "1 كأس فرينة",
+      "نص كأس دقيق حمص",
+      "نص كأس ماء",
+      "1 كأس خبز مرحي (شاپلير) مفوّح",
+      "زيت حسب الحاجة"
     ],
     "en": [
-      "17.6 oz chicken breast, boneless, skinless",
-      "1 cup all-purpose flour, for dredging",
-      "2 eggs, beaten",
-      "1 cup seasoned breadcrumbs",
-      "Vegetable oil for frying"
+      "500g Seitan cutlets or Super Firm Tofu, sliced into cutlets",
+      "1 cup All-purpose flour",
+      "0.5 cups Chickpea flour",
+      "0.5 cups Water",
+      "1 cup Seasoned breadcrumbs",
+      "Vegetable oil as needed"
     ]
   },
   "steps": {
     "he": [
-      "דופקים את חזות העוף עם פטיש שניצלים עד שהם דקים, אך נזהרים לא לקרוע את הבשר.",
-      "מכינים עמדת ציפוי עם שלוש צלחות נפרדות: אחת עם קמח, אחת עם ביצים טרופות, ואחת עם פירורי לחם מתובלים.",
-      "מצפים כל חתיכת עוף קודם בקמח (מנערים עודפים), לאחר מכן טובלים בביצה, ולבסוף מצפים היטב בפירורי הלחם.",
+      "דופקים את נתחי הסייטן או הטופו עם פטיש שניצלים עד שהם דקים, אך בזהירות לא לקרוע אותם.",
+      "מכינים עמדת ציפוי עם שלוש צלחות נפרדות: אחת עם קמח, אחת עם בלילת קמח חומוס ומים (תחליף ביצה), ואחת עם פירורי לחם מתובלים.",
+      "מצפים כל חתיכה בקמח (מנערים עודפים), טובלים בבלילה, ולבסוף מצפים היטב בפירורי הלחם.",
       "מחממים כמות נדיבה של שמן במחבת עמוקה. השמן צריך להיות חם אך לא מעשן.",
-      "מטגנים את השניצלים עד להזהבה משני הצדדים. מסננים על נייר סופג לפני ההגשה."
+      "מטגנים את השניצלים עד להזהבה משני הצדדים. מניחים על נייר סופג לפני ההגשה."
     ],
     "es": [
-      "Golpear las pechugas de pollo con un mazo de carne hasta que estén finas, con cuidado de no romper la carne.",
-      "Preparar una estación de rebozado con tres platos separados: uno con harina, otro con huevos batidos y otro con pan rallado condimentado.",
-      "Pasar cada pieza de pollo primero por la harina (sacudir el exceso), luego sumergir en el huevo y finalmente cubrir bien con el pan rallado.",
-      "Calentar una cantidad generosa de aceite en una sartén profunda. El aceite debe estar caliente pero no humeante.",
-      "Freír los schnitzels hasta que estén dorados por ambos lados. Escurrir sobre papel absorbente antes de servir."
+      "Golpee los filetes con un mazo de carne hasta que estén finos, pero tenga cuidado de no romperlos.",
+      "Prepare una estación de rebozado con tres platos separados: uno con harina, otro con la mezcla de harina de garbanzo y agua (sustituto de huevo), y uno con pan rallado condimentado.",
+      "Cubra cada pieza primero con harina (sacuda el exceso), luego sumérjala en la mezcla líquida y finalmente cúbrala bien con el pan rallado.",
+      "Caliente una cantidad generosa de aceite en una sartén profunda. El aceite debe estar caliente pero no humeante.",
+      "Fría los schnitzels hasta que estén dorados por ambos lados. Escurra sobre papel absorbente antes de servir."
     ],
     "ar": [
-      "نضربو صدور الدجاج بمطرقة اللحم لين يولي جويد، أما نردو بالنا ما نقطعوش اللحم.",
-      "نحضرو بلاصة للتغليف فيها ثلاثة صحانية: وحدة فيها الفرينة، ووحدة فيها العظم المخفوق، ووحدة فيها الخبز المرحي المفوّح.",
-      "نغطسو كل طرف دجاج في الفرينة (ننفضو الزايد)، ومبعد نغطسوه في العظم، وفي لخر نلفوه مليح في الخبز المرحي.",
-      "نسخنو كمية باهية متاع زيت في مقلة غارقة. الزيت لازم يكون سخون أما ما يخرجش دخان.",
-      "نقليو الشنيتسل لين يولي لونو ذهبي من الجهتين. نستقطروه فوق ورق نشاف قبل ما نقدموه."
+      "اضرب طروف السيتان ولا التوفو بمطرقة اللحم لين يواليو جويدين، أما رد بالك تقطعهم.",
+      "حضّر 3 صحاني: واحد فيه الفرينة، وواحد فيه خليط دقيق الحمص والماء (في بلاصة العظم)، وواحد فيه الخبز المرحي المفوّح.",
+      "مرمد كل طرف في الفرينة (نفض الزايد)، ومبعد غطّسها في الخليط السائل، وفي لخر مرمدها مليح في الخبز المرحي.",
+      "سخّن كمية باهية متاع زيت في طنجرة ولا مقلة غارقة. الزيت لازم يكون سخون أما ما يخرجش دخان.",
+      "اقلي الشنيتسل لين يحمار ويولي ذهبي من الشيرتين. قطّرهم على كاغط نشاف قبل ما تقدمهم."
     ],
     "en": [
-      "Pound the chicken breasts with a meat mallet until they are thin, but be careful not to tear the meat.",
-      "Prepare a dredging station with three separate plates: one with flour, one with beaten eggs, and one with seasoned breadcrumbs.",
-      "Coat each piece of chicken first in the flour (shake off excess), then dip into the egg, and finally coat thoroughly with the breadcrumbs.",
+      "Pound the cutlets with a meat mallet until they are thin, but be careful not to tear them.",
+      "Prepare a dredging station with three separate plates: one with flour, one with the chickpea flour batter (egg replacement), and one with seasoned breadcrumbs.",
+      "Coat each piece first in the flour (shake off excess), then dip into the batter, and finally coat thoroughly with the breadcrumbs.",
       "Heat a generous amount of oil in a deep pan. The oil should be hot but not smoking.",
       "Fry the schnitzels until golden brown on both sides. Drain on paper towels before serving."
     ]

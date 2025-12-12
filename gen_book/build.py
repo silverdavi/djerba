@@ -17,7 +17,7 @@ from typing import Any, Dict, List
 
 # Paths
 ROOT = Path(__file__).parent.parent  # Go up to RecipeDjerba root
-RECIPES_DIR = ROOT / "data" / "recipes_multilingual"
+RECIPES_DIR = ROOT / "data" / "recipes_multilingual_v2"
 IMAGES_DIR = ROOT / "data" / "images"
 IMAGES_INDEX = IMAGES_DIR / "index.json"
 INGREDIENTS_DIR = IMAGES_DIR / "ingredients" / "final"
@@ -184,19 +184,35 @@ def load_image_index() -> Dict:
     return _image_index_cache
 
 
-def get_image_path(recipe_id: str, base_path: str = "", use_absolute: bool = False) -> str:
+def get_image_path(recipe: dict, base_path: str = "", use_absolute: bool = False) -> str:
     """
-    Get the image path for a recipe using the index system.
-    Falls back to generated/ convention if index not available.
+    Get the image path for a recipe.
     
     Args:
-        recipe_id: Recipe identifier
+        recipe: Recipe dict (may contain 'image' key with path)
         base_path: Base path prefix (for relative paths)
         use_absolute: If True, return absolute path (for print/PDF)
         
     Returns:
         Image path string
     """
+    recipe_id = recipe.get("id", "unknown")
+    
+    # First, check if recipe has embedded image path (new v2 format)
+    if "image" in recipe and recipe["image"]:
+        embedded_path = recipe["image"]
+        # Handle paths like "images/current/059_mhamsa/dish.png"
+        if embedded_path.startswith("images/"):
+            # Convert to absolute path from IMAGES_DIR
+            relative_part = embedded_path.replace("images/", "", 1)
+            abs_path = IMAGES_DIR / relative_part
+            if abs_path.exists():
+                if use_absolute:
+                    return str(abs_path)
+                else:
+                    return f"{base_path}{relative_part}"
+    
+    # Try index-based lookup
     index = load_image_index()
     
     # Try organized path first (current/recipe_id/dish.png)
@@ -436,11 +452,11 @@ def render_front_matter(use_absolute: bool = False) -> str:
           
           <p>Djerba's Jewish community was one of the oldest continuous Jewish settlements in the world. The recipes passed down through Ruth Cohen-Trabelsi carry the distinct flavors of Tunisian Jewish cooking—the slow-cooked Shabbat stews, the spiced fish dishes, the semolina-based sweets.</p>
           
-          <p>From Tangier came a different tradition: Moroccan Jewish cuisine shaped by Andalusian heritage and the vibrant port city's crossroads of cultures.</p>
+          <p>Tangier's Jewish community thrived for centuries as a crossroads of cultures. The recipes from the Kadoch-Muyal family reflect Moroccan Jewish cuisine shaped by Andalusian heritage—the fragrant tagines, the flaky pastries, the preserved lemons and olives of the port city.</p>
           
           <p>All recipes have been adapted for plant-based cooking while preserving their authentic character. Each dish name includes its etymology—tracing roots through Arabic, Berber, Hebrew, and the Judeo-Arabic dialects of our grandparents.</p>
           
-          <p>The book is presented in four languages: Hebrew, English, Spanish, and Tunisian Arabic—reflecting the diaspora that scattered these communities, and the languages in which these recipes were shared, remembered, and written down.</p>
+          <p>The book is presented in four languages: Hebrew, English, Spanish, and Maghrebi Arabic—reflecting the diaspora that scattered these communities, and the languages in which these recipes were shared, remembered, and written down.</p>
         </div>
         
         <div class="intro-col intro-text-he">
@@ -448,11 +464,11 @@ def render_front_matter(use_absolute: bool = False) -> str:
           
           <p>הקהילה היהודית בג׳רבה הייתה אחת ההתיישבויות היהודיות הרציפות העתיקות בעולם. המתכונים שעברו דרך רות כהן-טרבלסי נושאים את הטעמים המיוחדים של הבישול היהודי-תוניסאי—התבשילים האיטיים של שבת, מנות הדגים המתובלות, והממתקים מבוססי הסולת.</p>
           
-          <p>מטנג׳יר הגיעה מסורת אחרת: המטבח היהודי-מרוקאי שעוצב על ידי המורשת האנדלוסית וצומת התרבויות של עיר הנמל התוססת.</p>
+          <p>הקהילה היהודית בטנג׳יר פרחה במשך מאות שנים כצומת תרבויות. המתכונים ממשפחת קדוש-מויאל משקפים את המטבח היהודי-מרוקאי שעוצב על ידי המורשת האנדלוסית—הטאג׳ינים המבושמים, המאפים הפריכים, הלימונים והזיתים הכבושים של עיר הנמל.</p>
           
           <p>כל המתכונים הותאמו למטבח מבוסס צמחים תוך שמירה על אופיים המקורי. כל שם מנה כולל את האטימולוגיה שלו—מעקב אחר השורשים בערבית, ברברית, עברית, והניבים היהודיים-ערביים של סבינו.</p>
           
-          <p>הספר מוגש בארבע שפות: עברית, אנגלית, ספרדית, וערבית תוניסאית—המשקפות את התפוצות שפיזרו קהילות אלה, ואת השפות שבהן המתכונים שותפו, נזכרו ונכתבו.</p>
+          <p>הספר מוגש בארבע שפות: עברית, אנגלית, ספרדית, וערבית מגרבית—המשקפות את התפוצות שפיזרו קהילות אלה, ואת השפות שבהן המתכונים שותפו, נזכרו ונכתבו.</p>
         </div>
       </div>
       
@@ -461,7 +477,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
   </section>
 '''
     
-    # Page 4: Introduction - Spanish (left) & Arabic (right, Djerba dialect)
+    # Page 4: Introduction - Spanish (left) & Arabic (right, Maghrebi dialect)
     intro_page_2 = '''
   <!-- INTRODUCTION PAGE 2: SPANISH & ARABIC -->
   <section class="page page--intro">
@@ -474,23 +490,23 @@ def render_front_matter(use_absolute: bool = False) -> str:
           
           <p>La comunidad judía de Djerba fue uno de los asentamientos judíos continuos más antiguos del mundo. Las recetas transmitidas a través de Ruth Cohen-Trabelsi llevan los sabores distintivos de la cocina judía tunecina—los guisos lentos del Shabat, los platos de pescado especiados, los dulces a base de sémola.</p>
           
-          <p>De Tánger llegó una tradición diferente: la cocina judía marroquí moldeada por la herencia andaluza y el cruce de culturas de la vibrante ciudad portuaria.</p>
+          <p>La comunidad judía de Tánger floreció durante siglos como cruce de culturas. Las recetas de la familia Kadoch-Muyal reflejan la cocina judía marroquí moldeada por la herencia andaluza—los aromáticos tagines, las hojaldradas pastillas, los limones y aceitunas en conserva de la ciudad portuaria.</p>
           
           <p>Todas las recetas han sido adaptadas para la cocina basada en plantas, preservando su carácter auténtico. Cada nombre de plato incluye su etimología—rastreando raíces a través del árabe, bereber, hebreo y los dialectos judeo-árabes de nuestros abuelos.</p>
           
-          <p>El libro se presenta en cuatro idiomas: hebreo, inglés, español y árabe tunecino—reflejando la diáspora que dispersó estas comunidades, y los idiomas en los que estas recetas fueron compartidas, recordadas y escritas.</p>
+          <p>El libro se presenta en cuatro idiomas: hebreo, inglés, español y árabe magrebí—reflejando la diáspora que dispersó estas comunidades, y los idiomas en los que estas recetas fueron compartidas, recordadas y escritas.</p>
         </div>
         
         <div class="intro-col intro-text-ar">
-          <p>الكتاب هذا يحفظ وصفات من عايلتين يهوديتين من شمال أفريقيا: عايلة <strong>كوهين-طرابلسي</strong> من جزيرة جربة في تونس، وعايلة <strong>قدوش-مويال</strong> من طنجة في المغرب.</p>
+          <p>الكتاب هذا يحفظ وصفات من زوز عايلات يهود من شمال أفريقيا: عايلة <strong>كوهين-طرابلسي</strong> من جزيرة جربة في تونس، وعايلة <strong>قدوش-مويال</strong> من طنجة في المغرب.</p>
           
-          <p>الجالية اليهودية في جربة كانت من أقدم التجمعات اليهودية المتواصلة في العالم. الوصفات اللي وصلتنا من روث كوهين-طرابلسي فيها نكهات المطبخ اليهودي التونسي—الطبيخ البطيء متاع السبت، أطباق الحوت المتبّلة، والحلويات اللي أساسها السميد.</p>
+          <p>اليهود في جربة كانوا من أقدم الجماعات اليهودية في العالم. الوصفات اللي وصلتنا من روث كوهين-طرابلسي فيها نكهات المطبخ اليهودي التونسي—الطبيخ البطيء متاع السبت، أطباق الحوت المتبّلة، والحلويات اللي أساسها السميد.</p>
           
-          <p>من طنجة جات تقاليد مختلفة: المطبخ اليهودي المغربي اللي تشكّل بالموروث الأندلسي وتقاطع الثقافات في مدينة الميناء.</p>
+          <p>اليهود في طنجة عاشوا مئات السنين في ملتقى الثقافات. وصفات عايلة قدوش-مويال فيها نكهات المطبخ اليهودي المغربي متاع الأندلس—الطواجن المعطّرة، والبسطيلة المورّقة، والليمون والزيتون المخلّل متاع المرسى.</p>
           
-          <p>كل الوصفات تمّ تكييفها للطبخ النباتي مع الحفاظ على طابعها الأصيل. كل اسم طبق فيه أصله اللغوي—نتبّعو الجذور في العربية والأمازيغية والعبرية واللهجات اليهودية-العربية متاع أجدادنا.</p>
+          <p>كل الوصفات تبدّلت للطبخ النباتي وبقات على أصلها. كل اسم طبق فيه أصله—نتبّعو الجذور في العربية والأمازيغية والعبرية ولهجات أجدادنا.</p>
           
-          <p>الكتاب مكتوب بأربع لغات: العبرية والإنجليزية والإسبانية والعربية التونسية—يعكسو الشتات اللي فرّق هالجاليات، واللغات اللي فيها الوصفات تشاركت وتذكرت وتكتبت.</p>
+          <p>الكتاب مكتوب بأربع لغات: العبرية والإنجليزية والإسبانية والعربية المغاربية—يعكسو التفرّق اللي صار لهالجماعات، واللغات اللي فيها الوصفات اتشاركت واتذكرت واتكتبت.</p>
         </div>
       </div>
       
@@ -801,7 +817,7 @@ def render_html(recipes: list[dict], css_content: str, image_base_path: str = ".
     page_num = 1  # Recipes start at page 1 (front matter uses roman numerals)
     
     for chapter_index, recipe in enumerate(recipes, start=1):
-        image_path = get_image_path(recipe["id"], image_base_path, use_absolute=use_absolute)
+        image_path = get_image_path(recipe, image_base_path, use_absolute=use_absolute)
         recipe_html_parts.append(render_recipe(recipe, page_num, image_path, use_absolute, chapter_index))
         page_num += 4  # Each recipe is 4 pages
     
@@ -921,7 +937,7 @@ def build_web(recipes: list[dict], css_content: str) -> None:
     print("  Building recipe pages...")
     for i, recipe in enumerate(recipes, 1):
         recipe_id = recipe["id"]
-        image_path = get_image_path(recipe_id, "../images/generated/")
+        image_path = get_image_path(recipe, "../images/")
         html_content = render_single_recipe_html(recipe, css_content, image_path, chapter_index=i)
         
         output_path = OUTPUT_WEB / f"{recipe_id}.html"

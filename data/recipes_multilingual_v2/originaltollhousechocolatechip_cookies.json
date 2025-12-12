@@ -9,90 +9,90 @@
   },
   "name": {
     "he": "עוגיות שוקולד צ'יפס (מתכון מקורי)",
-    "es": "Galletas con Chispas de Chocolate (Original Toll House)",
-    "ar": "كوكيز بقطع الشوكولاتة (تول هاوس)",
+    "es": "Galletas con Chispas de Chocolate (Receta Original)",
+    "ar": "كوكيز بقطع الشوكولاتة",
     "en": "Original Toll House Chocolate Chip Cookies"
   },
   "description": {
-    "he": "עוגיות שוקולד צ'יפס המקוריות של טול האוס כוללות בצק חמאתי משובץ בשוקולד מריר ואגוזים. הן נקראות על שם הפונדק במסצ'וסטס בו הומצאו, ובעברית הן נקראות עוגיות, מונח הנגזר מכיכרות לחם עגולות מהתנ\"ך. למרות שאינן מאכל ג'רבאי מסורתי, הקלאסיקה האמריקאית הפכה למצרך בסיסי במטבחים יהודיים מודרניים.",
-    "es": "Las galletas originales Toll House con chispas de chocolate presentan una masa mantecosa con trozos de chocolate semidulce y nueces. Nombradas en honor a la posada de Massachusetts donde se inventaron, en hebreo se conocen como ugiyot. Aunque no son un plato tradicional de Djerba, estos clásicos estadounidenses crujientes y masticables se han convertido en un elemento básico en las cocinas judías modernas.",
-    "ar": "كوكيز تول هاوس الأصلية بقطع الشوكولاتة فيها عجينة بالزبدة مع شوكولاتة وفاكية. تسمات على اسم النزل في ماساتشوستس وين تخترعت، ومعروفة بالعبرية باسم عوجيوت. بالرغم اللي هي ماهيش ماكلة جربية تقليدية، الكلاسيكيات الأمريكية هذي ولات حاجة أساسية في الكوجينة اليهودية العصرية.",
-    "en": "Original Toll House Chocolate Chip Cookies feature a buttery dough studded with semi-sweet chocolate and nuts. Named for the Massachusetts inn where they were invented, they are known in Hebrew as ugiyot, a term derived from Biblical round loaves. While not traditional Djerban fare, these crispy-chewy American classics have become a staple in modern Jewish kitchens."
+    "he": "עוגיות שוקולד צ'יפס המקוריות נקראות על שם הפונדק במסצ'וסטס בו הומצאו. גרסה טבעונית זו מחליפה ביצים ומוצרי חלב תוך שמירה על הטעם הקלאסי. עוגיות פריכות וצמיגיות אלו הפכו למצרך אהוב במטבחים מודרניים מהצומח.",
+    "es": "Las Galletas con Chispas de Chocolate Toll House llevan el nombre de la posada de Massachusetts donde se originaron. Conocidas en hebreo como ugiyot, que significa pasteles pequeños, esta versión vegana sustituye los huevos y lácteos manteniendo el sabor clásico. Estas galletas crujientes y masticables se han convertido en un básico en las cocinas modernas basadas en plantas.",
+    "ar": "كوكيز الشوكولاتة هذي تسمات على اسم النزل في ماساتشوستس وين تخترعت أول مرة. في العبرية يسميوهم عوجיות، يعني كيكات صغار، وهالنسخة النباتية تبدل العظم والحليب وتحافظ على البنة الأصلية. هالكوكيز اللي يتقرمش وطري من داخل ولا حاجة أساسية في الكوجينة العصرية.",
+    "en": "Original Toll House Chocolate Chip Cookies are named after the Massachusetts inn where they originated. Known in Hebrew as ugiyot, meaning little cakes, this vegan version replaces eggs and dairy while keeping the classic taste. These crispy and chewy treats have become a beloved staple in modern plant-based kitchens."
   },
   "ingredients": {
     "he": [
-      "280 גרם קמח רגיל",
+      "280 גרם קמח רב תכליתי",
       "5 גרם סודה לשתייה",
       "6 גרם מלח",
-      "227 גרם חמאה, רכה",
+      "227 גרם חמאה טבעונית, רכה",
       "150 גרם סוכר לבן",
       "150 גרם סוכר חום, דחוס",
       "5 מ\"ל תמצית וניל",
-      "2 ביצים גדולות",
-      "340 גרם שוקולד צ'יפס מריר",
+      "2 תחליפי ביצה מפשתן (מעורבבים)",
+      "340 גרם שוקולד צ'יפס טבעוני",
       "100 גרם אגוזים (מלך או פקאן), קצוצים"
     ],
     "es": [
-      "280 g de harina común",
+      "280 g de harina para todo uso",
       "5 g de bicarbonato de sodio",
       "6 g de sal",
-      "227 g de mantequilla, ablandada",
-      "150 g de azúcar blanca",
+      "227 g de mantequilla vegana, ablandada",
+      "150 g de azúcar granulada",
       "150 g de azúcar morena, compactada",
       "5 ml de extracto de vainilla",
-      "2 huevos grandes",
-      "340 g de chispas de chocolate semidulce",
-      "100 g de nueces (nogal o pacanas), picadas"
+      "2 huevos de lino (mezclados)",
+      "340 g de chispas de chocolate veganas",
+      "100 g de nueces (o pacanas), picadas"
     ],
     "ar": [
-      "2 1/4 كيسان فرينة",
+      "2.25 كيسان فرينة",
       "1 مغرفة صغيرة بيكربونات",
       "1 مغرفة صغيرة ملح",
-      "1 كأس زبدة، طرية",
+      "1 كأس زبدة نباتية، طرية",
       "3/4 كأس سكر",
       "3/4 كأس سكر أسمر",
       "1 مغرفة صغيرة فانيليا",
-      "2 عظمات كبار",
-      "2 كيسان حبيبات شوكولاتة",
-      "1 كأس فاكية (جوز أو بيكان)، مهروشة"
+      "2 بديل عظم بالكتان (مخلطين)",
+      "2 كيسان شوكولاتة (بيبييت)",
+      "1 كأس فاكية (جوز)، مهروشة"
     ],
     "en": [
       "2 1/4 cups all-purpose flour",
       "1 tsp baking soda",
       "1 tsp salt",
-      "1 cup butter, softened",
+      "1 cup vegan butter, softened",
       "3/4 cup granulated sugar",
       "3/4 cup brown sugar, packed",
       "1 tsp vanilla extract",
-      "2 large eggs",
-      "2 cups semi-sweet chocolate morsels",
+      "2 flax eggs, mixed",
+      "2 cups vegan semi-sweet chocolate morsels",
       "1 cup nuts (walnuts or pecans), chopped"
     ]
   },
   "steps": {
     "he": [
-      "לחמם תנור ל-190 מעלות צלזיוס.",
-      "בקערה קטנה, לערבב קמח, סודה לשתייה ומלח; להניח בצד.",
-      "בקערת מיקסר גדולה, להקציף חמאה, סוכר לבן, סוכר חום ותמצית וניל עד לקבלת מרקם קרמי. להוסיף את הביצים אחת אחת תוך כדי ערבוב.",
-      "להוסיף בהדרגה את תערובת הקמח. לערבב פנימה את השוקולד צ'יפס והאגוזים ידנית.",
-      "להניח כפות גדושות של בצק על תבניות אפייה לא משומנות.",
-      "לאפות במשך 9 עד 11 דקות עד שהקצוות מזהיבים. להניח בתבנית למשך 2 דקות לפני העברה לרשת צינון."
+      "מחממים תנור ל-190 מעלות צלזיוס.",
+      "בקערה קטנה, מערבבים את הקמח, הסודה לשתייה והמלח; מניחים בצד.",
+      "בקערת מיקסר גדולה, מקציפים את החמאה, הסוכר הלבן, הסוכר החום ותמצית הוניל עד לקבלת מרקם קרמי. מוסיפים את תחליפי הביצה אחד אחד תוך כדי ערבוב.",
+      "מוסיפים בהדרגה את תערובת הקמח ומערבבים. מערבבים פנימה ידנית את השוקולד צ'יפס והאגוזים.",
+      "מניחים תלוליות בצק בעזרת כף מדידה מעוגלת על תבניות אפייה לא משומנות.",
+      "אופים במשך 9 עד 11 דקות עד שהשוליים מזהיבים. מניחים בתבנית למשך 2 דקות לפני שמעבירים לרשת צינון לקירור מלא."
     ],
     "es": [
       "Precalentar el horno a 190°C (375°F).",
       "En un tazón pequeño, mezclar la harina, el bicarbonato de sodio y la sal; reservar.",
-      "En un tazón grande de batidora, batir la mantequilla, el azúcar blanca, el azúcar morena y la vainilla hasta obtener una crema. Añadir los huevos uno a uno batiendo bien.",
-      "Añadir gradualmente la mezcla de harina. Incorporar las chispas de chocolate y las nueces mezclando a mano.",
-      "Colocar cucharadas colmadas de masa sobre bandejas para hornear sin engrasar.",
-      "Hornear de 9 a 11 minutos hasta que los bordes estén dorados. Dejar reposar en la bandeja 2 minutos antes de pasar a una rejilla para enfriar."
+      "En un tazón grande de batidora, batir la mantequilla, el azúcar granulada, el azúcar morena y la vainilla hasta que esté cremoso. Batir los huevos uno a uno.",
+      "Incorporar gradualmente la mezcla de harina. Añadir las chispas de chocolate y las nueces mezclando a mano.",
+      "Colocar cucharadas redondeadas de masa sobre bandejas para hornear sin engrasar.",
+      "Hornear de 9 a 11 minutos hasta que los bordes estén dorados. Dejar reposar en las bandejas durante 2 minutos antes de pasar a rejillas para enfriar completamente."
     ],
     "ar": [
-      "سخن الكوشة على 190 درجة.",
-      "في صحفة صغيرة، خلط الفرينة والبيكربونات والملح، وخليهم على شيرة.",
-      "في صحفة كبيرة، ركض الزبدة والسكر والسكر الأسمر والفانيليا حتى يولي الخليط كريمي. زيد العظمات بالكعبة وركض.",
-      "زيد خليط الفرينة بالشوية. خلط حبيبات الشوكولاتة والفاكية بيدك.",
-      "حط مغارف معبيين من العجينة في طبق الكوشة مش مدهون.",
-      "طيبهم 9 حتى 11 دقيقة لين الحواشي يحمارو شوية. خليهم يرتاحو في الطبق دقيقتين ومبعد حطهم يبردو."
+      "نسخنوا الكوشة على 190 درجة.",
+      "في صحفة صغيرة، نخلطوا الفرينة والبيكربونات والملح، ونحطوهم على جنب.",
+      "في صحفة كبيرة، نركضوا الزبدة والسكر والسكر الأسمر والفانيليا لين يولي الخليط كريمي. نزيدوا بديل العظم بالكعبة ونركضوا.",
+      "نزيدوا خليط الفرينة بشوية بشوية. نخلطوا الشوكولاتة والفاكية بيدينا.",
+      "نحطوا كعبات العجين بالمغرفة في طبق الكوشة مش مدهون.",
+      "نطيبوهم بين 9 و 11 دقيقة لين يحماروا من الأجناب. نخليوهم يرتاحوا في الطبق دقيقتين مبعد نحطوهم يبردوا بالباهي."
     ],
     "en": [
       "Preheat oven to 375°F (190°C).",

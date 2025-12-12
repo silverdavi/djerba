@@ -7,7 +7,7 @@
   "name_origin": "The Hebrew name provided ('Zeitim b'rotev adom') is a modern descriptive translation used in Israel. The authentic Judeo-Arabic name for this Djerban dish is likely 'Zaytun T'bikh' (Stewed Olives) or 'Zaytun Msharmel' (Olives in Chermoula/Sauce). The word 'Zaytun' is the pan-Semitic word for olive. The preparation method—blanching with turmeric before stewing in a tomato reduction—is distinctively Tunisian. In Djerban dialect, dishes are often named simply by their main ingredient followed by the cooking state (e.g., 'T'bikh'). (Confidence: likely)",
   "description": "A classic North African cooked salad where green olives are simmered in a rich, spicy tomato and garlic sauce. The olives are first blanched with turmeric to remove bitterness before being stewed. It is a staple of the 'kemia' (appetizer spread) served on Shabbat.",
   "cultural_context": "Common in Tunisian and Moroccan Jewish cuisine, often served as a cooked salad or side dish alongside fish or meat. The use of 'chicken seasoning' (consommé powder) is a common modern Israeli-North African home cooking shortcut.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Use pareve (vegetarian) chicken-flavored consommé powder or vegetable stock powder to make this dish vegan.",
   "meta": {
     "servings": "4-6",
@@ -171,12 +171,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_consomme_powder",
-      "name": "Chicken seasoning / Consommé powder",
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "Or to taste",
+      "notes": "Or vegan chicken-style seasoning",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -338,7 +338,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/057_marqa_zeitoun/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic clay bowl filled with Zaytun T'bikh, a North African stewed olive salad. The dish features plump, pitted green olives coated in a thick, vibrant red tomato and paprika reduction. Freshly chopped green cilantro is generously scattered on top, contrasting with the deep red sauce and olive green tones. Steam rises gently from the warm dish. The setting is an authentic early 20th-century stone kitchen in Safed, with textured limestone walls in the background. Soft, natural light filters through a small window, illuminating the glossy texture of the sauce. A piece of torn rustic bread rests on a wooden board nearby, ready for dipping. The atmosphere is warm and inviting, capturing the essence of a traditional Shabbat appetizer spread."
   },
   "tags": [
     "north-african",
@@ -395,5 +396,14 @@
       "key_difference": "Turkish versions often include onions and olive oil but lack the heavy Harissa/spicy red pepper profile of the Tunisian version."
     }
   ],
-  "intro_paragraph": "Zaytun—simply \"olive\" in Judeo-Arabic—transforms firm green olives into a tender cooked salad. First blanched with turmeric to temper their bitterness, the olives are stewed in a piquant tomato and garlic reduction. A staple of the kemia appetizer spread, this savory dish is traditionally served alongside fresh bread to begin the Shabbat meal."
+  "intro_paragraph": "Zaytun means olive in Judeo-Arabic and names this tender cooked salad. Traditionally served as part of the kemia spread, this vegan version simmers blanched green olives in a rich tomato and garlic sauce. It is a savory appetizer perfect for scooping up with fresh bread.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken seasoning / Consommé powder",
+      "replacement": "Vegetable bouillon powder or vegan chicken-style seasoning",
+      "notes": "Replaces meat-based flavor enhancers while maintaining the savory umami profile"
+    }
+  ],
+  "veganization_complete": true
 }

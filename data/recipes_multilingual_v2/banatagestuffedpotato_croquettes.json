@@ -10,30 +10,30 @@
   "name": {
     "he": "בונוטאז",
     "es": "Banatage (Croquetas de Patata Rellenas)",
-    "ar": "بناضج (كعابر بطاطا محشية)",
+    "ar": "بناضج",
     "en": "Banatage (Stuffed Potato Croquettes)"
   },
   "description": {
-    "he": "הבונוטאז שואב את שמו מהמילה הצרפתית beignet, שהפכה למילה המקומית banadhej. קרוקטים פריכים אלה עשויים מבצק תפוחי אדמה חלק וממולאים בעוף טחון מתובל. כמנה עיקרית במטבח היהודי הג'רבאי, הם מטוגנים בשמן עמוק ומוגשים באופן מסורתי כמנה ראשונה אהובה בארוחות שבת ובחגיגות משפחתיות.",
-    "es": "El Banatage deriva su nombre del francés beignet, transformado en el local banadhej. Estas croquetas crujientes consisten en una masa suave de puré de patata rellena de pollo molido sabroso. Piedra angular de las mesas judías de Djerba, se fríen tradicionalmente y se sirven como un aperitivo apreciado para los almuerzos de Shabat y celebraciones familiares.",
-    "ar": "اسم البناضج جاي من الكلمة الفرنسية beignet، وتحول في اللهجة المحلية لبناضج. هالكعابر المقرمشة تتكون من عجينة بطاطا مرحية رطبة محشية بدجاج مفروم مفوّح. البناضج ركن أساسي في الطاولة اليهودية الجربية، يتقلاو في الزيت ويتقدموا كمقبلات محبوبة في فطور السبت والمناسبات العايلية.",
-    "en": "Banatage derives its name from the French beignet, transformed into the local banadhej. These crispy croquettes consist of smooth mashed potato dough stuffed with savory ground chicken. A cornerstone of Djerban Jewish tables, they are traditionally deep-fried and served as a cherished appetizer for Shabbat lunches and family celebrations."
+    "he": "הבונוטאז שואב את שמו מהמילה הצרפתית beignet שהתפתחה למילה המקומית בנאדג'. גרסה צמחית זו כוללת קציצות בצק תפוחי אדמה פריכות במילוי תערובת פטריות ואגוזים עשירה. כמנה עיקרית במטבח הג'רבאי, המטעמים המטוגנים הזהובים הללו הם מתאבנים מושלמים למפגשים חגיגיים ולחגיגות משפחתיות.",
+    "es": "El nombre Banatage deriva del francés beignet, que evolucionó al término local banadhej. Esta versión vegetal presenta croquetas de masa de patata crujientes rellenas de un picadillo sabroso de champiñones y nueces. Un elemento básico de la cocina de Djerba, estas delicias fritas y doradas son aperitivos perfectos para reuniones festivas y celebraciones familiares.",
+    "ar": "اسم البناضج جاي من الكلمة الفرنسية beignet اللي ولات بالتونسي بناضج. هالوصفة النباتية فيها كعابر بطاطا مقرمشة محشية بخلطة بنينة متاع فطر وجوز. البناضج حاجة أساسية في الكوجينة الجربية، وتتقدم كمقبلات في اللمات والمناسبات العائلية.",
+    "en": "Banatage derives its name from the French beignet which evolved into the local banadhej. This plant-based version features crispy potato dough croquettes filled with a savory mushroom and walnut mince. A staple of Djerban cuisine, these golden fried delights are perfect appetizers for festive gatherings and family celebrations."
   },
   "ingredients": {
     "he": [
-      "1 ק\"ג תפוחי אדמה, מבושלים וקלופים",
-      "300 גרם חזה עוף טחון",
-      "2 ביצים, טרופות",
-      "100 גרם קמח",
+      "1000 גרם תפוחי אדמה, מבושלים וקלופים",
+      "300 גרם פטריות ואגוזים, קצוצים דק",
+      "60 גרם קמח חומוס, מעורבב עם 120 מ\"ל מים",
+      "100 גרם קמח רגיל",
       "100 גרם פירורי לחם",
       "שמן צמחי לפי הצורך",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "1 kg de patatas, hervidas y peladas",
-      "300 g de pechuga de pollo molida",
-      "2 huevos, batidos",
+      "1000 g de patatas, hervidas y peladas",
+      "300 g de champiñones y nueces, picados finamente",
+      "60 g de harina de garbanzo, batida con 120 ml de agua",
       "100 g de harina",
       "100 g de pan rallado",
       "Aceite vegetal según sea necesario",
@@ -42,18 +42,18 @@
     ],
     "ar": [
       "4.5 كيسان بطاطا، مسموطة ومقشرة",
-      "1.33 كاس صدر دجاج مفروم",
-      "2 عظمات، مخفوقين",
+      "2 كيسان فطر وجوز، مقصوصين جويد",
+      "0.5 كاس دقيق حمص، مخلط مع شوية ماء",
       "0.8 كاس فرينة",
-      "1 كاس شاپلور (خبز مرحي)",
+      "1 كاس شاپلير (خبز مرحي)",
       "زيت نباتي حسب الحاجة",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
       "4.5 cups potatoes, boiled and peeled",
-      "1.33 cups ground chicken breast",
-      "2 eggs, beaten",
+      "2 cups mushrooms and walnuts, finely chopped",
+      "0.5 cups chickpea flour, whisked with 120ml water",
       "0.8 cups flour",
       "1 cup breadcrumbs",
       "Vegetable oil as needed",
@@ -64,38 +64,38 @@
   "steps": {
     "he": [
       "מועכים היטב את תפוחי האדמה המבושלים עד לקבלת מחית חלקה.",
-      "מבשלים את העוף הטחון במחבת עד שהוא מוכן לגמרי, ומתבלים במלח ופלפל. מפוררים היטב את הבשר כדי שלא יישארו גושים גדולים.",
+      "מבשלים את תערובת הפטריות והאגוזים במחבת עד לבישול מלא, ומתבלים במלח ופלפל.",
       "לוקחים מנה של מחית תפוחי אדמה בכף היד ומשטחים אותה מעט.",
-      "מניחים כפית מהבשר הטחון המבושל במרכז תפוח האדמה.",
-      "סוגרים את תפוח האדמה סביב המילוי ומעצבים לקציצה או לקרוקט אליפטי.",
-      "מכינים עמדת ציפוי: מצפים כל קציצה בקמח, טובלים בביצה טרופה, ולבסוף מצפים בפירורי לחם.",
+      "מניחים כפית מהמילוי המבושל במרכז תפוח האדמה.",
+      "סוגרים את תפוח האדמה מסביב למילוי ומעצבים לקציצה או לצורה אליפטית.",
+      "מכינים עמדת ציפוי: מצפים כל קציצה בקמח, טובלים בבלילת קמח החומוס, ולבסוף מצפים בפירורי לחם.",
       "מטגנים בשמן עמוק חם עד להזהבה וקבלת מרקם פריך."
     ],
     "es": [
-      "Machacar bien las patatas hervidas hasta que queden suaves.",
-      "Cocinar el pollo molido en una sartén hasta que esté completamente cocido, sazonando con sal y pimienta. Desmenuzar bien la carne para que no queden trozos grandes.",
+      "Machacar bien las patatas hervidas hasta obtener un puré suave.",
+      "Cocinar la mezcla de champiñones y nueces en una sartén hasta que esté lista, sazonando con sal y pimienta.",
       "Tomar una porción de puré de patata en la palma de la mano y aplanarla ligeramente.",
-      "Colocar una cucharadita de la carne molida cocida en el centro de la patata.",
+      "Colocar una cucharadita del relleno cocido en el centro de la patata.",
       "Cerrar la patata alrededor del relleno y darle forma de hamburguesa o croqueta ovalada.",
-      "Preparar una estación de rebozado: cubrir cada croqueta con harina, sumergir en huevo batido y finalmente cubrir con pan rallado.",
+      "Preparar una estación de rebozado: cubrir cada croqueta con harina, sumergir en la mezcla de harina de garbanzo y finalmente cubrir con pan rallado.",
       "Freír en abundante aceite caliente hasta que estén doradas y crujientes."
     ],
     "ar": [
-      "نرحي البطاطا المسموطة مليح حتى تولي رطبة.",
-      "نطيّب الدجاج المفروم في مقلاة حتى يطيب بالكامل، ونفوّح بالملح والفلفل الأكحل. نفتفت اللحم مليح باش ما يبقاش كعابر كبار.",
+      "نرفس البطاطا المسموطة مليح لين تولي رطبة.",
+      "نطيّب خليط الفطر والجوز في مقلة لين يطيب مليح، ونفوّح بالملح والفلفل الأكحل.",
       "ناخذ شوية بطاطا مرحية في كف اليد ونحلها شوية.",
-      "نحط مغرفة صغيرة متاع اللحم المفروم الطايب في وسط البطاطا.",
+      "نحط مغرفة صغيرة من الحشو في وسط البطاطا.",
       "نسكر البطاطا على الحشو ونشكلها كعبرة ولا شكل بيضاوي.",
-      "نحضر بلاصة للتغليف: نمرمد كل كعبة في الفرينة، نغطسها في العظم المخفوق، وفي لخر نغلفها بالشاپلور.",
-      "نقلي في زيت سخون وعايم حتى تحمار وتتقرمش."
+      "نحضر بلاصة باش نرمد فيها: نرمد كل كعبة في الفرينة، نغطسها في خليط دقيق الحمص، وفي لخر نرمدها في الشاپلير.",
+      "نقلي في زيت سخون وعايم لين تحمار وتتقرمش."
     ],
     "en": [
       "Mash the boiled potatoes thoroughly until smooth.",
-      "Cook the ground chicken in a pan until fully cooked, seasoning with salt and pepper. Crumble the meat well so there are no large chunks.",
+      "Cook the mushroom and walnut mixture in a pan until fully cooked, seasoning with salt and pepper.",
       "Take a portion of mashed potato in the palm of your hand and flatten it slightly.",
-      "Place a teaspoon of the cooked ground meat in the center of the potato.",
+      "Place a teaspoon of the cooked filling in the center of the potato.",
       "Close the potato around the filling and shape it into a patty or oval croquette.",
-      "Set up a breading station: coat each patty in flour, dip in beaten egg, and finally coat with breadcrumbs.",
+      "Set up a breading station: coat each patty in flour, dip in the chickpea flour mixture, and finally coat with breadcrumbs.",
       "Deep fry in hot oil until golden brown and crispy."
     ]
   }

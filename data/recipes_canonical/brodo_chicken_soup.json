@@ -7,7 +7,7 @@
   "name_origin": "The term 'Brodo' is a direct loanword from Italian, retained in Tunisian dialect (Derja) and specifically Tunisian Judeo-Arabic. Tunisia hosted a significant population of Livornese Jews (the 'Grana') and Sicilian immigrants, whose language heavily influenced local culinary terminology. While 'Shorba' is the general Arabic term for soup, and 'Marqa' for stew, 'Brodo' specifically refers to a clear, light bouillon or stock (usually chicken or beef with root vegetables) that is not heavily spiced with red pepper or tomato paste. It is linguistically distinct from the Spanish/Ladino 'Caldo'.",
   "description": "A simple, comforting chicken broth loaded with root vegetables. This fundamental soup is often served on its own or used as the moistening broth for couscous.",
   "cultural_context": "In Djerban and Tunisian cuisine, 'Brodo' is a staple dish. While simple to prepare, it forms the basis of many meals, particularly the Friday night couscous.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with chickpeas or vegetable bouillon for a vegetable soup.",
   "meta": {
     "servings": "4-6",
@@ -18,36 +18,39 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "chicken_pieces",
-      "name": "Chicken pieces (legs, thighs, or wings)",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "cleaned",
-      "notes": "Or 1 whole chicken cut into parts",
+      "ingredient_id": "chickpeas",
+      "name": "Cooked chickpeas",
+      "amount": 3,
+      "unit": "cups",
+      "preparation": "rinsed and drained",
+      "notes": "Canned or pre-cooked",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 500,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 17.6,
           "unit": "oz"
         },
-        "volume": null,
+        "volume": {
+          "value": 3,
+          "unit": "cups"
+        },
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 3,
+          "unit": "cups"
         }
       }
     },
     {
-      "ingredient_id": "water",
-      "name": "Water",
+      "ingredient_id": "vegetable_broth",
+      "name": "Vegetable broth",
       "amount": 2,
       "unit": "L",
       "preparation": null,
-      "notes": "Enough to cover ingredients",
+      "notes": "Or water with high-quality vegetable bouillon",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -65,6 +68,33 @@
         "original": {
           "value": 2,
           "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For richness",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
         }
       }
     },
@@ -229,7 +259,8 @@
   ],
   "image": {
     "filename": "images/current/012_brodo/dish.png",
-    "prompt": "Tunisian chicken soup brodo in a pot with large chunks of pumpkin zucchini carrots and potatoes, clear broth"
+    "prompt": "Tunisian chicken soup brodo in a pot with large chunks of pumpkin zucchini carrots and potatoes, clear broth",
+    "generation_prompt": "A rustic ceramic pot filled with Tunisian Brodo vegetable soup sitting on an antique wooden table in a stone-walled Safed kitchen from the early 1900s. The clear golden broth is abundant with large chunks of bright orange pumpkin, pale green zucchini, sliced carrots, and quartered potatoes. Plump chickpeas replace the meat, floating among the tender vegetables. Soft natural light streams through a small arched window, illuminating the steam rising from the hot soup. A side of fluffy couscous sits in a clay bowl nearby. The atmosphere is warm, homey, and nostalgic, capturing the essence of a traditional Friday night dinner preparation."
   },
   "tags": [
     "soup",
@@ -285,5 +316,24 @@
       "key_difference": "Algerian version often includes vermicelli, lemon, and egg yolk binding (liason), whereas Brodo is a clearer stock."
     }
   ],
-  "intro_paragraph": "Brodo retains its original Italian name—a legacy of Livornese Jewish influence—to distinguish this clear bouillon from heavier stews. Simmered with chicken and root vegetables, the restorative soup serves as a standalone meal or the essential moistening broth for the traditional Friday night couscous, anchoring the Djerban Shabbat table."
+  "intro_paragraph": "Retaining its Italian name from Livornese influence, Brodo refers to a clear restorative bouillon rather than a heavy stew. This plant-based version replaces chicken with tender chickpeas while keeping the traditional root vegetables. It serves as a comforting standalone soup or the essential moistening broth for Friday night couscous.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken pieces",
+      "replacement": "Cooked chickpeas",
+      "notes": "Provides protein and texture while maintaining the traditional soup format"
+    },
+    {
+      "original": "Water",
+      "replacement": "Rich vegetable broth",
+      "notes": "To compensate for the savory depth usually provided by the chicken"
+    },
+    {
+      "original": "Chicken fat (natural)",
+      "replacement": "Olive oil",
+      "notes": "Added for richness and mouthfeel"
+    }
+  ],
+  "veganization_complete": true
 }

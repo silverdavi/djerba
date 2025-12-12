@@ -7,7 +7,7 @@
   "name_origin": "The name 'Banatage' (בונוטאז) derives from the French word 'beignet' (fritter/fried dough), adapted into Tunisian Arabic as 'bnayej', 'banadj', or 'banadhej' (بناضج). The phonetic transformation from French to Maghrebi Arabic is typical: beignet → b'nayej → banadhej. This etymology is supported by Tunisian culinary heritage sources discussing 'Banadhej' (بناضج) as a category of fried foods. The Djerban Jewish version uses mashed potato as the dough base (possibly a Passover adaptation), stuffed with seasoned meat, then fried - essentially a potato-based beignet. An alternative but less likely theory connects it to Spanish 'albondigas' (meatballs). (Confidence: likely)",
   "description": "A classic Djerban appetizer consisting of mashed potato dough stuffed with savory cooked ground chicken. The croquettes are breaded and deep-fried until golden and crispy.",
   "cultural_context": "A staple of Djerban Jewish cuisine, often served as an appetizer for Shabbat lunch, weddings, and celebrations. While often made with beef, this version specifies chicken.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with mushroom duxelles or spiced lentils. Use a flax egg or starch slurry for binding.",
   "meta": {
     "servings": "4-6",
@@ -45,12 +45,12 @@
       }
     },
     {
-      "ingredient_id": "ground_chicken_breast",
-      "name": "Ground chicken breast",
+      "ingredient_id": "mushrooms_walnuts",
+      "name": "Mushrooms and Walnuts",
       "amount": 300,
       "unit": "g",
-      "preparation": null,
-      "notes": "Filling",
+      "preparation": "finely chopped",
+      "notes": "Filling replacement for chicken",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -62,7 +62,7 @@
           "unit": "oz"
         },
         "volume": {
-          "value": 1.33,
+          "value": 2,
           "unit": "cups"
         },
         "original": {
@@ -72,20 +72,29 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 2,
-      "unit": "unit",
-      "preparation": "beaten",
-      "notes": "For coating",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour",
+      "amount": 60,
+      "unit": "g",
+      "preparation": "whisked with 120ml water",
+      "notes": "Batter for coating (egg replacement)",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
         "original": {
-          "value": 2,
-          "unit": "unit"
+          "value": 0.5,
+          "unit": "cups"
         }
       }
     },
@@ -95,7 +104,7 @@
       "amount": 100,
       "unit": "g",
       "preparation": null,
-      "notes": "For dredging (inferred from instructions)",
+      "notes": "For dredging",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -272,7 +281,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/007_banatage/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A highly detailed, close-up shot of golden-brown Banatage croquettes arranged on an antique ceramic platter with intricate blue geometric patterns. The croquettes are oval-shaped with a visibly crispy breadcrumb coating. One croquette is cut open to reveal a fluffy white mashed potato interior encasing a rich, dark savory mushroom and walnut filling, with gentle steam rising from the center. The setting is a rustic 1900s Safed stone kitchen with textured limestone walls and soft natural light streaming through an arched window. In the background, fresh parsley sprigs, a small bowl of lemon wedges, and a vintage copper oil pitcher add depth and context. The lighting is warm and directional, highlighting the crunch of the fried exterior and the softness of the potato. The overall atmosphere is inviting and steeped in culinary heritage, showcasing this traditional North African dish adapted for a plant-based table."
   },
   "tags": [
     "north-african",
@@ -344,5 +354,19 @@
       "key_difference": "Pastels use a flour/pastry dough; Banatage is the potato equivalent (often for Passover)"
     }
   ],
-  "intro_paragraph": "Banatage derives its name from the French beignet, transformed into the local banadhej. These crispy croquettes consist of smooth mashed potato dough stuffed with savory ground chicken. A cornerstone of Djerban Jewish tables, they are traditionally deep-fried and served as a cherished appetizer for Shabbat lunches and family celebrations."
+  "intro_paragraph": "Banatage derives its name from the French beignet which evolved into the local banadhej. This plant-based version features crispy potato dough croquettes filled with a savory mushroom and walnut mince. A staple of Djerban cuisine, these golden fried delights are perfect appetizers for festive gatherings and family celebrations.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Ground chicken breast",
+      "replacement": "Finely chopped mushrooms and walnuts",
+      "notes": "Provides a savory, meaty texture and rich umami flavor"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Chickpea flour batter",
+      "notes": "Creates a crispy binding layer for the breadcrumbs"
+    }
+  ],
+  "veganization_complete": true
 }

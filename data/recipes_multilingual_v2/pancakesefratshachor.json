@@ -10,81 +10,81 @@
   "name": {
     "he": "פנקייק (אפרת שחור)",
     "es": "Panqueques (Efrat Shachor)",
-    "ar": "بانكيك (إفرات شاحور)",
+    "ar": "بانكيك (إفرات شحور)",
     "en": "Pancakes (Efrat Shachor)"
   },
   "description": {
-    "he": "הפנקייק, שאומץ ישירות מהאנגלית למטבח הישראלי המודרני, מדגים כיצד מאכלים מערביים אהובים מקבלים פרשנות על ידי בשלנים ג'רבאים. הבלילה האוורירית, המשובצת בשוקולד צ'יפס, נחה לזמן קצר לפני הטיגון בשכבת שמן נדיבה, טכניקה צפון אפריקאית מסורתית המעניקה למאכל מעטפת פריכה ותוך רך.",
-    "es": "Los panqueques, adoptados directamente del inglés en la cocina israelí moderna, demuestran cómo los favoritos occidentales son adaptados por los cocineros de Djerba. Esta masa esponjosa con chispas de chocolate reposa brevemente antes de freírse en una generosa capa de aceite, una técnica tradicional norteafricana que produce un exterior crujiente y un interior suave.",
-    "ar": "البانكيك، اللي دخل للمطبخ الإسرائيلي الحديث من الإنجليزية، يوري كيفاش الطباخين الجرابة يبدلوا الماكلة الغربية بطريقتهم. العجينة الخفيفة والمعبية بقطع الشوكولاتة ترتاح شوية قبل ما نقلوها في طبقة باهية متاع زيت، وهذي طريقة تقليدية في شمال إفريقيا تعطي قشرة مقرمشة وقلب طري.",
-    "en": "Pancakes—adopted directly from English into the modern Israeli kitchen—demonstrate how Western favorites are adapted by Djerban cooks. This fluffy, chocolate-studded batter rests briefly before being fried in a generous layer of oil, a traditional North African technique that yields a distinctively crispy exterior and soft interior."
+    "he": "השם פנקייק מגיע ישירות מאנגלית לעברית ומסמן תוספת מודרנית למטבח הג'רבאי. גרסה טבעונית זו מחליפה ביצים בפשתן כדי לשמור על המרקם הקלאסי. הפנקייקים מטוגנים בשכבת שמן נדיבה, מה שמעניק להם מעטה פריך ותוך רך, בטכניקה המכבדת את שיטות הבישול הצפון-אפריקאיות.",
+    "es": "El nombre Pancake proviene directamente del inglés al hebreo, marcando una adición moderna a la cocina de Djerba. Esta versión vegana sustituye los huevos por lino para mantener la textura clásica. Fritos en una generosa capa de aceite, estos dulces ofrecen una corteza crujiente y un interior suave que honra las técnicas de cocina norteafricanas.",
+    "ar": "اسم البانكيك جاي ديركت من الإنجليزية للعبرية، وهو إضافة عصرية للكوجينة الجربية. هالوصفة النباتية تبدل العظم بذور الكتان باش تحافظ على القوام الكلاسيكي. يتقلاو في طبقة باهية متاع زيت، باش يجيو مقرمشين من برا وطريين من داخل، كيف ما نطيّبو في شمال إفريقيا.",
+    "en": "The name Pancake comes directly from English into Hebrew, marking a modern addition to the Djerban kitchen. This vegan version replaces eggs with flax to maintain the classic texture. Fried in generous oil, these treats offer a crispy crust and soft interior that honors North African cooking techniques."
   },
   "ingredients": {
     "he": [
       "210 גרם קמח רגיל",
       "10 גרם אבקת אפייה",
       "6 גרם מלח",
-      "25 גרם סוכר, גדוש",
-      "2 ביצים",
-      "240 מ\"ל חלב",
-      "85 גרם שוקולד צ'יפס",
-      "שמן צמחי לפי הצורך (לטיגון)"
+      "25 גרם סוכר (גדוש)",
+      "2 תחליפי ביצה מפשתן (לערבב 2 כפות פשתן טחון עם 6 כפות מים חמים, להשהות 5 דקות)",
+      "240 מ\"ל חלב סויה או שיבולת שועל",
+      "85 גרם שוקולד צ'יפס טבעוני",
+      "שמן צמחי לפי הטעם (לטיגון, שכבה נדיבה)"
     ],
     "es": [
       "210 g de harina común",
       "10 g de polvo de hornear",
       "6 g de sal",
-      "25 g de azúcar, colmadas",
-      "2 huevos",
-      "240 ml de leche",
-      "85 g de chispas de chocolate",
-      "Aceite vegetal al gusto (para freír)"
+      "25 g de azúcar (colmada)",
+      "2 huevos de lino (mezclar 2 cdas de lino molido con 6 cdas de agua tibia, reposar 5 min)",
+      "240 ml de leche de soja o avena",
+      "85 g de chispas de chocolate veganas",
+      "Aceite vegetal al gusto (para freír, capa generosa)"
     ],
     "ar": [
-      "1.7 كيسان فرينة",
-      "2 مغارف صغار خميرة",
+      "1.7 كاس فرينة",
+      "2 مغارف صغار خميرة قاطو",
       "1 مغرفة صغيرة ملح",
-      "2 مغارف سكر، معبيين",
-      "2 عظمات",
-      "1 كأس حليب",
-      "نص كأس شوكولاتة (chocolat)",
-      "زيت نباتي حسب الحاجة (للقليان)"
+      "2 مغارف سكر (معبيين)",
+      "2 عظمات كتان (خلط 2 مغارف كتان مرحي مع 6 مغارف ماء دافي، خليهم 5 دقايق)",
+      "1 كاس حليب صويا ولا شوفان",
+      "0.5 كاس شوكولاتة (بيبي)",
+      "زيت نباتي حسب الحاجة (للقلي، طبقة باهية)"
     ],
     "en": [
       "1.7 cups all-purpose flour",
       "2 tsp baking powder",
       "1 tsp salt",
-      "2 tbsp sugar, heaped",
-      "2 eggs",
-      "1 cup milk",
-      "0.5 cup chocolate chips",
-      "Vegetable oil to taste (for frying)"
+      "2 tbsp sugar (heaped)",
+      "2 flax eggs (mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins)",
+      "1 cup soy or oat milk",
+      "0.5 cup vegan chocolate chips",
+      "Vegetable oil to taste (for frying, generous layer)"
     ]
   },
   "steps": {
     "he": [
-      "בקערה גדולה, מערבבים את הקמח, אבקת האפייה, המלח, הסוכר, הביצים והשוקולד צ'יפס.",
-      "מוסיפים את החלב לאט תוך כדי ערבוב. מפסיקים להוסיף נוזלים אם הבלילה הופכת דלילה מדי; היא צריכה להיות סמיכה אך ניתנת למזיגה.",
-      "מניחים לבלילה לעמוד בטמפרטורת החדר למשך 5 עד 10 דקות. זה מאפשר לה להיות אוורירית.",
-      "מחממים שכבה נדיבה של שמן במחבת על אש בינונית. השמן לא צריך להיות עמוק, אך יותר מסתם ציפוי דק.",
+      "בקערה גדולה, מערבבים את הקמח, אבקת האפייה, המלח, הסוכר, תחליפי הביצה והשוקולד צ'יפס.",
+      "מוסיפים את החלב לאט תוך כדי ערבוב. מפסיקים להוסיף נוזלים אם הבלילה נהיית דלילה מדי; היא צריכה להיות סמיכה אך ניתנת למזיגה.",
+      "מניחים לבלילה לעמוד בטמפרטורת החדר למשך 5 עד 10 דקות. זה מאפשר לה להתאוורר.",
+      "מחממים שכבה נדיבה של שמן במחבת על אש בינונית. השמן לא צריך להיות עמוק, אבל יותר מסתם שימון קל.",
       "מטגנים את הפנקייקים עד להזהבה. החלק הפנימי יכול להישאר מעט רך אם מעדיפים."
     ],
     "es": [
-      "En un bol grande, mezclar la harina, el polvo de hornear, la sal, el azúcar, los huevos y las chispas de chocolate.",
+      "En un bol grande, mezclar la harina, el polvo de hornear, la sal, el azúcar, los huevos de lino y las chispas de chocolate.",
       "Añadir la leche lentamente mientras se mezcla. Dejar de añadir líquido si la masa se vuelve demasiado líquida; debe ser espesa pero vertible.",
-      "Dejar reposar la masa a temperatura ambiente de 5 a 10 minutos. Esto permite que se vuelva aireada.",
+      "Dejar reposar la masa a temperatura ambiente de 5 a 10 minutos. Esto permite que se airee.",
       "Calentar una capa generosa de aceite en una sartén a fuego medio. El aceite no debe ser profundo, pero sí más que una simple capa fina.",
       "Freír los panqueques hasta que estén dorados. El interior puede quedar ligeramente suave si se prefiere."
     ],
     "ar": [
-      "في صحفة كبيرة، نخلطوا الفرينة، الخميرة، الملح، السكر، العظمات والشوكولاتة.",
-      "نزيدوا الحليب بالشوية وحنا نخلطوا. نوقفوا ما نزيدوش الحليب كان العجينة ولات جارية برشا؛ لازم تكون عاقدة أما تمشي (تتصب).",
-      "نخليو العجينة ترتاح في الكوجينة بين 5 و 10 دقايق. هكاكة تولي خفيفة ومهوية.",
-      "نسخنوا طبقة باهية متاع زيت في المقلاة على نار متوسطة. الزيت ما لازمش يكون غزير برشا، أما أكثر من مجرد مسحة خفيفة.",
-      "نقليو البانكيك لين يحمار ويولي لونه ذهبي. القلب ينجم يقعد طري شوية كان تحبوا هكاكة."
+      "في صحفة كبيرة، خلط الفرينة، خميرة القاطو، الملح، السكر، عظمات الكتان والشوكولاتة.",
+      "زيد الحليب بالشوية وانت تخلط. حبّس ما تزيدش الحليب كان الخليط ولا جاري برشا؛ لازم يكون عاقد أما يتصب.",
+      "خلي الخليط يرتاح بحذاك 5 ولا 10 دقايق. هكاكة يولي فيه الهواء ويخفاف.",
+      "سخّن طبقة باهية زيت في المقلاة على نار متوسطة. الزيت ما لازمش يكون غزير للقلي، أما أكثر من مسحة خفيفة.",
+      "اقلي البانكيك لين يحمار ويولي لونه ذهبي. من داخل ينجم يقعد طري شوية كان تحب."
     ],
     "en": [
-      "In a large bowl, mix the flour, baking powder, salt, sugar, eggs, and chocolate chips.",
+      "In a large bowl, mix the flour, baking powder, salt, sugar, flax eggs, and chocolate chips.",
       "Add the milk slowly while mixing. Stop adding liquid if the batter becomes too runny; it should be thick but pourable.",
       "Let the batter stand at room temperature for 5 to 10 minutes. This allows it to become airy.",
       "Heat a generous layer of oil in a frying pan over medium heat. The oil should not be deep-frying depth, but more than just a flat coating.",

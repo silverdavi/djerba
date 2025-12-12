@@ -9,86 +9,90 @@
   },
   "name": {
     "he": "קוקלות",
-    "es": "Kouklot (Bolas de sémola)",
-    "ar": "كوكلا",
+    "es": "Kouklot (Bolas de Sémola)",
+    "ar": "كوكلا (كعابر سميد)",
     "en": "Kouklot (Semolina Dumplings)"
   },
   "description": {
-    "he": "קוקלות הן קציצות סולת דחוסות ומתובלות, המתבשלות באופן מסורתי בתוך חמין של שבת. שמן נובע ככל הנראה מהמילה הטורקית קוקלה, שמשמעותה \"בובה\", והן משקפות את ההיסטוריה העות'מאנית של האזור. כשהן מתבשלות במשך הלילה, הן סופגות את הטעמים העשירים של התבשיל והופכות לחלק אהוב בארוחת השבת.",
-    "es": "Los Kouklot son bolas de sémola densas y sabrosas que se cocinan tradicionalmente a fuego lento dentro del Hamin de Shabat. Probablemente derivan su nombre de la palabra turca kukla, que significa \"muñeca\", reflejando la historia otomana de la región. Al cocinarse durante la noche, absorben los ricos sabores del guiso, convirtiéndose en una parte muy querida de la comida del sábado.",
-    "ar": "الكوكلا هي كعابر سميد مالحة ورزينين، يطيبوا عادةً داخل تفينة السبت (الحمين). اسمهم جاي من الكلمة التركية \"كوكلا\" يعني \"دمية\"، وهما يعكسوا التاريخ العثماني للمنطقة. كيف يطيبوا ليلة كاملة، يشربوا بنة المرقة واللحم، ويوليو أعز حاجة في فطور السبت.",
-    "en": "Kouklot are dense, savory semolina dumplings traditionally cooked slowly inside the Shabbat Hamin. Likely deriving their name from the Turkish word kukla, meaning \"doll,\" these hand-shaped morsels reflect the region's Ottoman history. As they simmer overnight, they absorb the rich flavors of the surrounding stew, becoming a beloved highlight of the Saturday meal."
+    "he": "כופתאות סולת מלוחות אלו שואבות את שמן מהמילה הטורקית קוקלה שמשמעותה בובה. באופן מסורתי הן מוכנות עם ביצים, אך גרסה טבעונית זו משתמשת בקמח חומוס לשמירה על המרקם הדחוס הקלאסי. בבישול איטי בתוך החמין, הן סופגות טעמים עשירים והופכות לגולת הכותרת של הארוחה.",
+    "es": "Estas sabrosas bolas de sémola derivan su nombre de la palabra turca kukla que significa muñeca. Tradicionalmente unidas con huevos, esta adaptación vegana utiliza harina de garbanzo para mantener la textura densa clásica. Cocinadas a fuego lento en un rico guiso, absorben los sabores y se convierten en el plato fuerte de la comida.",
+    "ar": "هالكعابر متاع السميد المالحين اسمهم جاي من كلمة تركية كوكلا يعني دمية. في العادة يتلموا بالعظم، أما هالوصفة النباتية تستعمل دقيق الحمص باش تحافظ على القوام الرزين. يطيبوا بالشوية في وسط التفاية، يشربوا البنة متاع المرقة ويوليو أحسن حاجة في الماكلة.",
+    "en": "These savory semolina dumplings derive their name from the Turkish word kukla meaning doll. Traditionally bound with eggs, this vegan adaptation uses chickpea flour to maintain the classic dense texture. Simmered slowly in a rich stew, they absorb savory flavors and become the highlight of the meal."
   },
   "ingredients": {
     "he": [
-      "1 ביצה גדולה",
-      "15 מ\"ל שמן צמחי (ועוד לשימון הידיים)",
-      "15 מ\"ל מים",
+      "15 גרם קמח חומוס (תחליף ביצה)",
+      "45 מ\"ל מים (לתערובת הקמח)",
+      "15 מ\"ל שמן צמחי",
+      "15 מ\"ל מים (נוספים)",
       "2.3 גרם פפריקה מתוקה",
-      "פלפל שחור גרוס לפי הטעם",
+      "פלפל שחור לפי הטעם",
       "מלח לפי הטעם",
       "4.8 גרם אבקת אפייה",
-      "150 גרם סולת (בערך, להוסיף עד שהבצק נוח ללישה)"
+      "150 גרם סולת (בערך)"
     ],
     "es": [
-      "1 huevo grande",
-      "15 ml de aceite vegetal (y más para engrasar las manos)",
-      "15 ml de agua",
+      "15 g de harina de garbanzo (sustituto de huevo)",
+      "45 ml de agua (para la mezcla)",
+      "15 ml de aceite vegetal",
+      "15 ml de agua (adicional)",
       "2.3 g de pimentón dulce",
-      "Pimienta negra molida al gusto",
+      "Pimienta negra al gusto",
       "Sal al gusto",
-      "4.8 g de levadura química (polvo de hornear)",
-      "150 g de sémola (aproximadamente, añadir hasta que la masa sea manejable)"
+      "4.8 g de polvo de hornear",
+      "150 g de sémola (aproximadamente)"
     ],
     "ar": [
-      "1 عظمة كبيرة",
-      "1 مغرفة زيت (وشوية لدهن اليدين)",
-      "1 مغرفة ماء",
+      "2 مغارف دقيق حمص (في عوض العظم)",
+      "3 مغارف ماء (للخلط)",
+      "1 مغرفة زيت",
+      "1 مغرفة ماء (زيادة)",
       "1 مغرفة صغيرة فلفل أحمر",
       "فلفل أكحل حسب الذوق",
       "ملح حسب الذوق",
       "1 مغرفة صغيرة خميرة قاطو",
-      "حوالي 1 كاس سميد (زيد لين تتلم العجينة)"
+      "1 كاس سميد (تقريباً)"
     ],
     "en": [
-      "1 large egg",
-      "1 tbsp vegetable oil (plus more for greasing hands)",
-      "1 tbsp water",
+      "2 tbsp chickpea flour (egg replacer)",
+      "3 tbsp water (for binder)",
+      "1 tbsp vegetable oil",
+      "1 tbsp water (additional)",
       "1 tsp sweet paprika",
-      "Ground black pepper to taste",
+      "Black pepper to taste",
       "Salt to taste",
       "1 tsp baking powder",
-      "0.9 cups semolina (approximate; add until dough is kneadable)"
+      "0.9 cups semolina (approx)"
     ]
   },
   "steps": {
     "he": [
-      "בקערה עמוקה, שמים את הביצה.",
-      "מוסיפים לביצה את השמן, המים, אבקת האפייה, המלח, הפלפל והפפריקה ומערבבים.",
-      "מוסיפים בהדרגה את הסולת תוך כדי ערבוב, עד שמתקבל בצק יציב מספיק ללישה. (טיפ: הבצק צריך להיות גמיש אך לא דביק מדי).",
-      "יוצרים מהבצק כדורים עגולים (קוקלות). (טיפ: הרטיבו מעט את הידיים למניעת הידבקות).",
-      "מכניסים את הקוקלות ישירות לסיר החמין לבישול. (טיפ: הן במיטבן בבישול איטי עם התבשיל, לרוב למשך הלילה)."
+      "בקערה עמוקה, מניחים את תחליף הביצה (קמח החומוס המעורבב במים).",
+      "מוסיפים את השמן, המים הנוספים, אבקת האפייה, המלח, הפלפל והפפריקה ומערבבים.",
+      "מוסיפים בהדרגה את הסולת תוך כדי ערבוב, עד שמתקבל בצק יציב שניתן ללוש.",
+      "יוצרים מהבצק כדורים עגולים (קוקלות). רצוי להרטיב מעט את הידיים.",
+      "מניחים את הקוקלות ישירות בתוך סיר החמין לבישול איטי."
     ],
     "es": [
-      "En un bol hondo, colocar el huevo.",
-      "Añadir el aceite, el agua, la levadura química, la sal, la pimienta y el pimentón al huevo y mezclar.",
-      "Añadir gradualmente la sémola mientras se mezcla, hasta que la mezcla forme una masa lo suficientemente firme para amasar. (Consejo: La masa debe ser flexible pero no demasiado pegajosa).",
-      "Formar bolas redondas con la masa. (Consejo: Humedecerse ligeramente las manos para evitar que se pegue).",
-      "Colocar los Kouklot directamente en la olla del Hamin (guiso) para cocinar. (Consejo: Quedan mejor cuando se cocinan lentamente con el guiso, a menudo durante toda la noche)."
+      "En un bol hondo, coloque el sustituto de huevo (harina de garbanzo mezclada con agua).",
+      "Añada el aceite, el agua adicional, el polvo de hornear, la sal, la pimienta y el pimentón, y mezcle.",
+      "Añada gradualmente la sémola mientras mezcla, continuando hasta que se forme una masa firme para amasar.",
+      "Forme bolas redondas con la masa. Humedezca ligeramente sus manos para evitar que se peguen.",
+      "Coloque las bolas directamente en la olla del Hamin (guiso) para cocinar lentamente."
     ],
     "ar": [
-      "في صحفة غارقة، حط العظمة.",
-      "زيد الزيت، والماء، وخميرة القاطو، والملح، والفلفل الأكحل، والفلفل الأحمر للعظمة وخلط مليح.",
-      "زيد السميد بشوية بشوية وأنت تخلط، لين تتلم العجينة وتولي تنجم تعجنها. (نصيحة: العجينة لازم تكون طرية أما ما تتلصقش برشا).",
-      "كعبر العجينة كعابر مدورين (كوكلا). (نصيحة: بل يديك بشوية ماء باش ما تلصقش العجينة).",
-      "حط الكوكلا ديركت في طنجرة التفينة باش يطيبوا. (نصيحة: يجيو أبن كيف يطيبوا سلة سلة مع المرقة، عادة ليلة كاملة)."
+      "في صحفة غارقة، حط خليط دقيق الحمص والماء (اللي يعوض العظمة).",
+      "زيد الزيت، الماء، خميرة القاطو، الملح، الفلفل الأكحل والفلفل الأحمر وخلط.",
+      "زيد السميد بالشوية وأنت تخلط، لين تتلم العجينة وتولي تنجم تعجنها.",
+      "كعبر العجينة كعابر مدورين (كوكلا). بل يديك بشوية ماء باش ما تلصقش.",
+      "حط الكوكلا ديركت في طنجرة التفاية (السخينة) باش يطيبوا."
     ],
     "en": [
-      "In a deep bowl, place the egg.",
-      "Add the oil, water, baking powder, salt, pepper, and paprika to the egg and mix.",
-      "Gradually add the semolina while mixing, continuing until the mixture forms a dough that is firm enough to knead. (Tip: The dough should be pliable but not too sticky.)",
-      "Form the dough into round balls (dumplings). (Tip: Wet your hands slightly to prevent sticking.)",
-      "Place the dumplings directly into the Hamin (stew) pot to cook. (Tip: They are best when cooked slowly with the stew, often overnight.)"
+      "In a deep bowl, place the egg replacer mixture (chickpea flour and water).",
+      "Add the oil, additional water, baking powder, salt, pepper, and paprika, then mix well.",
+      "Gradually add the semolina while mixing, continuing until the mixture forms a dough that is firm enough to knead.",
+      "Form the dough into round balls (dumplings). Wet your hands slightly to prevent sticking.",
+      "Place the dumplings directly into the Hamin (stew) pot to cook slowly."
     ]
   }
 }

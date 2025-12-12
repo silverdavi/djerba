@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pizza – Four-Language Recipe</title>
+<title>Home-Style Tuna Pizza – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 55) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>Pizza</span></div>
-        <div class="title-word lang-he"><span>פיצה</span></div>
-        <div class="title-word lang-en"><span>Pizza</span></div>
-        <div class="title-word lang-ar"><span>بيتزا</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Pizza Casera de Atún</span></div>
+        <div class="title-word lang-he title-large"><span>פיצה</span></div>
+        <div class="chapter-number"><span>55</span></div>
+        <div class="title-word lang-en title-small"><span>Home-Style Tuna Pizza</span></div>
+        <div class="title-word lang-ar title-large"><span>بيتزا</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>מנה אהובה בבתים יהודיים בצפון אפריקה, המוכנה לעיתים קרובות משאריות בצק לחם ומשקפת את ההשפעה האיטלקית על המטבח התוניסאי. באופן מסורתי היא מוגשת עם טונה וגבינה, אך גירסה זו משתמשת בטונה טבעונית או טופו מעושן.</p>
+            <p>פיצה ביתית בסגנון טוניסאי, או פיצה טוניזיאן, משקפת את ההשפעה האיטלקית על המטבח הצפון אפריקאי. בעוד שהשם מרמז על מקורות איטלקיים שמשמעותם נגיסה, גרסה טבעונית זו מחליפה את הדג המסורתי בגרגירי חומוס מעוכים ואצות נורי. הרוטב משתמש בטריק ישראלי קלאסי של אבקת מרק לטעם עמוק.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Un clásico en los hogares judíos del norte de África, a menudo hecha con masa de pan sobrante, reflejando la influencia italiana en Túnez. Tradicionalmente cubierta con atún, esta versión vegetal utiliza atún vegano o tofu ahumado.</p>
+            <p>La Pizza Casera de Atún, o Pizza Tunisienne, refleja la influencia italiana en la cocina norteafricana. Aunque el nombre implica orígenes italianos que significan bocado, esta adaptación vegana reemplaza el pescado tradicional con garbanzos machacados y nori. La salsa utiliza un truco clásico israelí de caldo en polvo para un sabor profundo.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>أكلة محبوبة في الديار اليهودية في شمال إفريقيا، وتتعمل عادة بعجينة الخبز، وهي تبين التأثير الإيطالي على الكوجينة التونسية. في الأصل تكون بالتن والجبن، لكن هذه النسخة النباتية تستعمل &quot;تن نباتي&quot; أو توفو مدخن.</p>
+            <p>بيتزا الدار بالتون، ولا بيتزا تونسيان، توري التأثير الطلياني على الكوجينة متاع شمال إفريقيا. الكلمة أصلها طلياني وتعني لقمة، وهالنسخة النباتية تبدل الحوت التقليدي بالحمص المعبز والنوري. الصالصة تستعمل أستوس إسرائيلي معروف بمرقة دجاج غبرة باش تعطي بنة قوية.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A staple in North African Jewish homes reflecting Italian influence, often made using leftover bread dough. While traditionally topped with tuna and cheese, this plant-based adaptation uses vegan tuna or smoked tofu.</p>
+            <p>Home-Style Tuna Pizza, or Pizza Tunisienne, reflects the Italian influence on North African cuisine. While the name implies Italian origins meaning &quot;bite&quot;, this vegan adaptation replaces traditional fish with savory smashed chickpeas and nori. The sauce uses a classic Israeli hack of bouillon powder for deep flavor.</p>
           </div>
         </div>
       </div>
@@ -450,15 +918,15 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">4–6</span>
+          <span class="meta-value">4</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
-          <span class="meta-value">20 min</span>
+          <span class="meta-value">15 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">25 min</span>
+          <span class="meta-value">20 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
@@ -474,66 +942,77 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/pizza_dish.png" alt="Pizza dish">
+      <img class="hero-image" src="../images/current/072_pizza/dish.png" alt="Home-Style Tuna Pizza dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>500g de masa de pan (o pizza)</li>
-              <li>3 cdas de pasta de tomate</li>
-              <li>1 cda de sazonador sabor pollo (vegano)</li>
-              <li>1 cdita de orégano</li>
-              <li>1/2 cdita de ajo en polvo</li>
-              <li>1 lata de atún vegano (o tofu ahumado desmenuzado)</li>
-              <li>Un puñado de aceitunas</li>
-              <li>Aceite de oliva</li>
+              <li>500 g de masa de pan (o masa de pizza vegana)</li>
+              <li>100 g de pasta de tomate</li>
+              <li>60 ml de agua</li>
+              <li>30 ml de aceite de oliva</li>
+              <li>4 g de caldo sabor pollo vegano en polvo</li>
+              <li>3 g de ajo en polvo</li>
+              <li>1 g de orégano seco</li>
+              <li>200 g de garbanzos cocidos, machacados</li>
+              <li>1 hoja de alga nori, desmenuzada finamente</li>
+              <li>15 g de alcaparras, picadas (opcional)</li>
+              <li>50 g de aceitunas verdes o negras, en rodajas</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 200°C.</li>
-              <li class="step"><span class="step-num">2.</span>Extender la masa de pan en una bandeja engrasada.</li>
-              <li class="step"><span class="step-num">3.</span>Mezclar la pasta de tomate con un poco de aceite, el sazonador, orégano y ajo en polvo para hacer la salsa.</li>
-              <li class="step"><span class="step-num">4.</span>Untar la salsa sobre la masa y cubrir con el atún vegano (o tofu) y las aceitunas.</li>
-              <li class="step"><span class="step-num">5.</span>Hornear 20–25 minutos hasta que esté dorada y crujiente.</li>
+              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 200°C. Cubrir una bandeja para hornear con papel pergamino.</li>
+              <li class="step"><span class="step-num">2.</span>Estirar la masa de pan sobre la bandeja preparada hasta obtener el grosor deseado.</li>
+              <li class="step"><span class="step-num">3.</span>En un tazón pequeño, mezclar la pasta de tomate, agua, aceite de oliva, caldo en polvo, ajo en polvo, orégano y una pizca de sal para crear una salsa suave. Si la salsa está muy espesa, añadir un poco más de agua.</li>
+              <li class="step"><span class="step-num">4.</span>Esparcir la salsa uniformemente sobre la masa.</li>
+              <li class="step"><span class="step-num">5.</span>Distribuir la mezcla de garbanzos (sustituto del atún) y las aceitunas en rodajas sobre la salsa.</li>
+              <li class="step"><span class="step-num">6.</span>Hornear durante 15-20 minutos, o hasta que la corteza esté dorada y crujiente.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>500 גרם בצק לחם (או בצק פיצה)</li>
-              <li>3 כפות רסק עגבניות</li>
-              <li>1 כף אבקת מרק בטעם עוף (פרווה)</li>
-              <li>1 כפית אורגנו</li>
-              <li>1/2 כפית אבקת שום</li>
-              <li>1 קופסה טונה טבעונית (או טופו מעושן מפורר)</li>
-              <li>חופן זיתים</li>
-              <li>שמן זית</li>
+              <li>500 גרם בצק לחם (או בצק פיצה טבעוני)</li>
+              <li>100 גרם רסק עגבניות</li>
+              <li>60 מ&quot;ל מים</li>
+              <li>30 מ&quot;ל שמן זית</li>
+              <li>4 גרם אבקת מרק בטעם עוף (פרווה)</li>
+              <li>3 גרם אבקת שום</li>
+              <li>1 גרם אורגנו יבש</li>
+              <li>200 גרם גרגירי חומוס מבושלים, מעוכים גס</li>
+              <li>1 דף אצת נורי, מפורר דק</li>
+              <li>15 גרם צלפים, קצוצים (אופציונלי)</li>
+              <li>50 גרם זיתים ירוקים או שחורים, פרוסים</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-200 מעלות.</li>
-              <li class="step"><span class="step-num">2.</span>משטחים את בצק הלחם על תבנית משומנת.</li>
-              <li class="step"><span class="step-num">3.</span>מערבבים בקערה את רסק העגבניות עם מעט שמן, אבקת המרק, אורגנו ואבקת שום ליצירת רוטב.</li>
-              <li class="step"><span class="step-num">4.</span>מורחים את הרוטב על הבצק ומפזרים מעל את הטונה הטבעונית (או הטופו) והזיתים.</li>
-              <li class="step"><span class="step-num">5.</span>אופים כ-20-25 דקות עד שהבצק זהוב ופריך.</li>
+              <li class="step"><span class="step-num">1.</span>לחמם תנור ל-200 מעלות צלזיוס. לרפד תבנית אפייה בנייר אפייה.</li>
+              <li class="step"><span class="step-num">2.</span>לרדד את בצק הלחם על התבנית המוכנה לעובי הרצוי.</li>
+              <li class="step"><span class="step-num">3.</span>בקערה קטנה, לערבב את רסק העגבניות, מים, שמן זית, אבקת המרק, אבקת שום, אורגנו וקורט מלח ליצירת רוטב חלק. אם הרוטב סמיך מדי, להוסיף מעט מים.</li>
+              <li class="step"><span class="step-num">4.</span>למרוח את הרוטב באופן אחיד על הבצק.</li>
+              <li class="step"><span class="step-num">5.</span>לפזר את תערובת החומוס (תחליף הטונה) והזיתים הפרוסים על הרוטב.</li>
+              <li class="step"><span class="step-num">6.</span>לאפות במשך 15-20 דקות, או עד שהקרום זהוב ופריך.</li>
             </ul>
           </div>
         </div>
@@ -544,60 +1023,71 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>500g bread dough (or pizza dough)</li>
-              <li>3 tbsp tomato paste</li>
-              <li>1 tbsp vegan chicken-style seasoning</li>
-              <li>1 tsp oregano</li>
-              <li>1/2 tsp garlic powder</li>
-              <li>1 can vegan tuna (or crumbled smoked tofu)</li>
-              <li>Handful of olives</li>
-              <li>Olive oil</li>
+              <li>2 cups bread dough (or vegan pizza dough)</li>
+              <li>6 tbsp tomato paste</li>
+              <li>1/4 cup water</li>
+              <li>2 tbsp olive oil</li>
+              <li>1 tsp vegan chicken-style bouillon powder</li>
+              <li>1 tsp garlic powder</li>
+              <li>1 tsp dried oregano</li>
+              <li>1.5 cups cooked chickpeas, roughly mashed</li>
+              <li>1 sheet nori seaweed sheet, finely crumbled</li>
+              <li>1 tbsp capers, chopped (optional)</li>
+              <li>1/3 cup green or black olives, sliced</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Preheat oven to 200°C (400°F).</li>
-              <li class="step"><span class="step-num">2.</span>Flatten the bread dough onto a greased baking sheet.</li>
-              <li class="step"><span class="step-num">3.</span>Mix tomato paste with a little oil, seasoning, oregano, and garlic powder to make a sauce.</li>
-              <li class="step"><span class="step-num">4.</span>Spread sauce over the dough and top with vegan tuna (or tofu) and olives.</li>
-              <li class="step"><span class="step-num">5.</span>Bake for 20–25 minutes until golden and crisp.</li>
+              <li class="step"><span class="step-num">1.</span>Preheat the oven to 200°C (400°F). Line a baking sheet with parchment paper.</li>
+              <li class="step"><span class="step-num">2.</span>Roll out the bread dough on the prepared baking sheet to your desired thickness.</li>
+              <li class="step"><span class="step-num">3.</span>In a small bowl, mix the tomato paste, water, olive oil, chicken seasoning powder, garlic powder, oregano, and a pinch of salt to create a smooth sauce. If the sauce is too thick, add a little more water.</li>
+              <li class="step"><span class="step-num">4.</span>Spread the sauce evenly over the dough.</li>
+              <li class="step"><span class="step-num">5.</span>Scatter the chickpea mixture (tuna alternative) and sliced olives over the sauce.</li>
+              <li class="step"><span class="step-num">6.</span>Bake for 15-20 minutes, or until the crust is golden brown and crispy.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>500 غرام عجينة خبز (أو عجينة بيتزا)</li>
-              <li>3 مغارف كبار طماطم حكة (معجون طماطم)</li>
-              <li>1 مغرفة كبيرة تابل دجاج نباتي</li>
-              <li>1 مغرفة صغيرة زعتر</li>
-              <li>1/2 مغرفة صغيرة ثوم مرحي</li>
-              <li>1 حكة تن نباتي (أو توفو مدخن مفرفت)</li>
-              <li>حفنة زيتون</li>
-              <li>زيت زيتونة</li>
+              <li>2 كيسان عجينة خبز (أو عجينة بيتزا نباتية)</li>
+              <li>6 مغارف طماطم حكة</li>
+              <li>ربع كاس ماء</li>
+              <li>2 مغارف زيت زيتونة</li>
+              <li>1 مغرفة صغيرة مرقة دجاج غبرة (نباتي)</li>
+              <li>1 مغرفة صغيرة ثوم مرحي</li>
+              <li>1 مغرفة صغيرة زعتر شايح</li>
+              <li>كاس ونص حمص طايب، معبز شوية</li>
+              <li>1 ورقة نوري، مفتفتة مليح</li>
+              <li>1 مغرفة كبار، مقصوص (اختياري)</li>
+              <li>ثلث كاس زيتون أخضر ولا أكحل، مقصوص</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>سخّن الفور (الكووشة) على 200 درجة.</li>
-              <li class="step"><span class="step-num">2.</span>حلّ عجينة الخبز في طبق مدهون بالزيت.</li>
-              <li class="step"><span class="step-num">3.</span>خلّط طماطم الحكة مع شوية زيت، تابل الدجاج، الزعتر والثوم المرحي باش تعمل الصلصة.</li>
-              <li class="step"><span class="step-num">4.</span>ادهن الصلصة فوق العجينة وحط فوقها التن النباتي (أو التوفو) والزيتون.</li>
-              <li class="step"><span class="step-num">5.</span>طيّبها في الفور مدة 20-25 دقيقة لين تحمار وتولي مقرمشة.</li>
+              <li class="step"><span class="step-num">1.</span>سخن الفور لـ 200 درجة. فرش طبق الفور بورق طبخ.</li>
+              <li class="step"><span class="step-num">2.</span>حل عجينة الخبز فوق الطبق باش تجي بالعلو اللي تحب عليه.</li>
+              <li class="step"><span class="step-num">3.</span>في صحفة صغيرة، خلط طماطم الحكة، الماء، زيت الزيتونة، مرقة الدجاج غبرة، الثوم المرحي، الزعتر، ورشة ملح باش تعمل صالصة رطبة. كان جات عاقدة برشا، زيد شوية ماء.</li>
+              <li class="step"><span class="step-num">4.</span>ادهن الصالصة بالقدى فوق العجينة.</li>
+              <li class="step"><span class="step-num">5.</span>رش خليط الحمص (في بلاصة التون) والزيتون المقصوص فوق الصالصة.</li>
+              <li class="step"><span class="step-num">6.</span>طيبها في الفور لمدة 15-20 دقيقة، لين تولي العجينة محمرة وتتقرمش.</li>
             </ul>
           </div>
         </div>

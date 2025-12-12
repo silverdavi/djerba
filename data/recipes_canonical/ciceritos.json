@@ -1,0 +1,285 @@
+{
+  "id": "ciceritos",
+  "slug": "ciceritos-chickpea-stew",
+  "source_file": "user_input_2024_12",
+  "name": "Ciceritos (Chickpea Stew)",
+  "name_hebrew": "ציצריטוס",
+  "name_origin": "From the Spanish 'garbanzos' (chickpeas), the name Ciceritos is a Ladino diminutive meaning 'little chickpeas'. This reflects the Sephardic Jewish heritage of the dish.",
+  "description": "A simple chickpea stew flavored with turmeric and white pepper. The onion and celery base creates a rich foundation for this comforting legume dish.",
+  "cultural_context": "A classic Sephardic Jewish dish brought from Spain to North Africa. The celery addition enhances the flavor significantly.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Uses vegetable bouillon instead of chicken",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "celery",
+      "name": "Celery",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "adds great flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Oil for frying",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chickpeas",
+      "name": "Chickpeas (Ciceritos)",
+      "amount": 2,
+      "unit": "cups",
+      "preparation": "cooked or canned",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 360,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 12.7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cups"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 2,
+      "unit": "cups",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 480,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 16,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cups"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Fry the onion and celery in oil until softened and fragrant.",
+      "time_minutes": 8,
+      "tips": "The celery adds wonderful flavor"
+    },
+    {
+      "step": 2,
+      "instruction": "Add turmeric, white pepper, bouillon powder, and salt. Stir to combine.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add chickpeas and water. Bring to a boil.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Reduce heat and simmer until flavors meld and liquid reduces slightly.",
+      "time_minutes": 30,
+      "tips": null
+    }
+  ],
+  "tags": [
+    "main",
+    "legumes",
+    "sephardic",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "Derived from the Spanish word for chickpeas, Ciceritos means little chickpeas in Ladino. This comforting Sephardic stew features tender legumes simmered in a golden turmeric broth. Naturally plant-based, it relies on a savory base of fried onions and celery to deliver deep flavor without any meat products.",
+  "image": {
+    "generation_prompt": "A rustic, hand-thrown clay bowl filled with Ciceritos, a vibrant golden-hued Sephardic chickpea stew. The rich broth is deeply yellow from turmeric, glistening with savory droplets of vegetable oil. Plump, tender chickpeas are abundant and piled high, mixed with softened translucent diced onions and tender pale green celery pieces that provide texture. Freshly chopped parsley is generously scattered on top for a pop of green contrast. The bowl sits on a dark, weathered wooden table inside an early 1900s Safed kitchen characterized by rough-hewn limestone walls and arched doorways. Soft, natural light streams through a small deep-set window, illuminating the steam gently rising from the hot, comforting dish. In the background, antique copper cookware hangs on the stone wall, and a traditional woven textile rests nearby. The texture of the stew looks thick, hearty, and creamy, highlighting the wholesome plant-based ingredients in this traditional meat-free comfort dish. The atmosphere is warm, historic, and inviting, perfectly capturing the essence of authentic old-world Jewish home cooking."
+  },
+  "veganization_complete": true
+}

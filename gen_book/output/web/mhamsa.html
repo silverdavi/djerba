@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Mhamsa – Four-Language Recipe</title>
+<title>Mhamsa (Tunisian Pasta Pearls) – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 47) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>La Mhamsa</span></div>
-        <div class="title-word lang-he"><span>מחמסה</span></div>
-        <div class="title-word lang-en"><span>Mhamsa</span></div>
-        <div class="title-word lang-ar"><span>المحمصة</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Mhamsa (Perlas de Pasta Tunecina)</span></div>
+        <div class="title-word lang-he title-large"><span>מחמסה</span></div>
+        <div class="chapter-number"><span>47</span></div>
+        <div class="title-word lang-en title-small"><span>Mhamsa (Tunisian Pasta Pearls)</span></div>
+        <div class="title-word lang-ar title-large"><span>محمصة</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>מנה תוניסאית-ג&#x27;רבאית קלאסית של פתיתים, המוגשת כתוספת יבשה או כנזיד אדום עשיר. השם נגזר מהשורש הערבי ח.מ.ס (קלויה), ומתייחס לשיטה המסורתית של קליית פתיתי הסולת. במקור המנה הוכנה לעיתים עם בשר מיובש (קדיד) או נקניקיות מרגז, אך גרסה צמחית זו משתמשת בציר ירקות עשיר לקבלת עומק הטעמים.</p>
+            <p>מחמסה מגיעה מהמילה הערבית לקלייה, המתייחסת לשיטה המסורתית לייבוש פניני הסולת. מנה ג&#x27;רבאית זו היא טבעונית מטבעה וכוללת פסטה המבושלת ברוטב עגבניות וירקות עשיר. זוהי ארוחה מנחמת ומשביעה המושלמת ללילות חורף קרים.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Un plato clásico tunecino-djerbano de perlas de pasta, servido seco o como un guiso rojo rico. El nombre deriva de la raíz árabe para &#x27;tostado&#x27;, refiriéndose al método tradicional de tostar la sémola. Aunque tradicionalmente se hacía con carne seca o merguez, esta versión vegana utiliza un caldo vegetal rico para lograr profundidad de sabor.</p>
+            <p>Mhamsa proviene de la palabra árabe para tostar, que se refiere al método tradicional de secar las perlas de sémola. Este plato básico de Djerba es naturalmente vegano y presenta pasta cocida a fuego lento en una rica salsa de tomate y verduras. Ofrece una comida reconfortante y abundante, perfecta para las frías noches de invierno.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>أكلة تونسية جربية تقليدية، تجي شايحة ولا جارية (مرقة حمراء). الاسم جاي من كلمة &#x27;تحميس&#x27;، خاطر العادة يحمصوا حبات العجين في الشمس ولا الكوشة. الوصفة الأصلية كانت تتعمل بالقديد ولا المرقاز، أما في هالوصفة النباتية نستعملوا مرقة خضرة بنينة باش تجي نفوحة.</p>
+            <p>المحمصة جاية من كلمة التحميص، اللي هي الطريقة التقليدية لتجفيف كعبات السميد. هالأكلة الجربية نباتية بطبيعتها وفيها مقرونة طايبة في مرقة طماطم وخضرة بنينة. هي وجبة دافية وتشبع، مثالية لليالي الشتاء الباردة.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A classic Tunisian-Djerban pearl pasta dish, served either dry like pilaf or as a rich red stew. The name derives from the Arabic root for &#x27;roasted,&#x27; referring to the traditional method of toasting the semolina grains. While originally often made with dried meat or merguez, this plant-based version relies on rich vegetable broth for deep flavor.</p>
+            <p>Mhamsa comes from the Arabic word for toasting which refers to the traditional method of drying semolina pearls. This Djerban staple is naturally vegan and features pasta simmered in a rich tomato and vegetable sauce. It offers a comforting and hearty meal perfect for cold winter nights.</p>
           </div>
         </div>
       </div>
@@ -450,15 +918,15 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">3–4</span>
+          <span class="meta-value">4</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
-          <span class="meta-value">10 min</span>
+          <span class="meta-value">15 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">15 min</span>
+          <span class="meta-value">20 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
@@ -474,82 +942,73 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/mhamsa_dish.png" alt="Mhamsa dish">
+      <img class="hero-image" src="../images/current/059_mhamsa/dish.png" alt="Mhamsa (Tunisian Pasta Pearls) dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>1 cebolla pequeña</li>
-              <li>1 taza de Mhamsa (cuscús israelí / perlas de pasta)</li>
-              <li>1 cda de pimentón dulce</li>
-              <li>Sal y pimienta negra</li>
-              <li>2 tomates picados (para versión con salsa)</li>
-              <li>Verduras picadas al gusto (zanahoria/guisantes)</li>
-              <li>Aceite para freír</li>
-              <li>Agua hirviendo o caldo vegetal</li>
+              <li>45 ml de aceite vegetal (para freír)</li>
+              <li>1 cebolla, cortada en cubitos</li>
+              <li>7 g de pimentón dulce</li>
+              <li>2 tomates, picados</li>
+              <li>150 g de verduras de temporada, en cubitos (papas, zanahorias o calabacín)</li>
+              <li>300 g de Ptitim (Mhamsa / Cuscús israelí)</li>
+              <li>Agua hirviendo (suficiente para cubrir y crear salsa)</li>
+              <li>Sal al gusto</li>
+              <li>Pimienta negra al gusto</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
-            <div class="variant-label">Mhamsa Seca</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sofreír la cebolla en aceite hasta que esté transparente.</li>
-              <li class="step"><span class="step-num">2.</span>Añadir la Mhamsa y remover un minuto para tostar ligeramente.</li>
-              <li class="step"><span class="step-num">3.</span>Añadir 1.25 tazas de agua hirviendo (o caldo) por taza de pasta, salpimentar.</li>
-              <li class="step"><span class="step-num">4.</span>Tapar y cocinar a fuego lento hasta que se absorba todo el líquido.</li>
-            </ul>
-
-            <div class="variant-label">Mhamsa con Salsa</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">5.</span>Sofreír la cebolla hasta dorar, añadir pimentón y remover brevemente.</li>
-              <li class="step"><span class="step-num">6.</span>Añadir tomates picados y verduras, sal y pimienta, cubrir con agua hirviendo o caldo.</li>
-              <li class="step"><span class="step-num">7.</span>Llevar a ebullición y añadir la Mhamsa.</li>
-              <li class="step"><span class="step-num">8.</span>Cocinar a fuego medio, parcialmente tapado, hasta que la pasta esté tierna y la salsa espese.</li>
+              <li class="step"><span class="step-num">1.</span>Caliente el aceite en una olla y sofría la cebolla picada hasta que empiece a dorarse (caramelizarse).</li>
+              <li class="step"><span class="step-num">2.</span>Añada la cucharada de pimentón dulce y remueva unos segundos para liberar el aroma (con cuidado de no quemarlo).</li>
+              <li class="step"><span class="step-num">3.</span>Agregue inmediatamente los tomates picados y las verduras elegidas. Sazone con sal y pimienta negra.</li>
+              <li class="step"><span class="step-num">4.</span>Vierta agua hirviendo. Para una consistencia más caldosa, use más agua; para un guiso, use menos. Lleve a ebullición.</li>
+              <li class="step"><span class="step-num">5.</span>Añada los Ptitim (Mhamsa). Vuelva a llevar a ebullición y luego baje el fuego.</li>
+              <li class="step"><span class="step-num">6.</span>Cubra la olla parcialmente y cocine hasta que la pasta y las verduras estén tiernas. Remueva de vez en cuando para evitar que se peguen.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>1 בצל קטן</li>
-              <li>1 כוס פתיתים (מחמסה)</li>
-              <li>1 כף פפריקה מתוקה</li>
-              <li>מלח ופלפל שחור</li>
-              <li>2 עגבניות קצוצות (לגרסת הרוטב)</li>
-              <li>ירקות חתוכים לפי הטעם (גזר/אפונה/קישוא)</li>
-              <li>שמן לטיגון</li>
-              <li>מים רותחים או ציר ירקות</li>
+              <li>45 מ&quot;ל שמן צמחי (לטיגון)</li>
+              <li>1 בצל, קצוץ לקוביות</li>
+              <li>7 גרם פפריקה מתוקה</li>
+              <li>2 עגבניות, קצוצות</li>
+              <li>150 גרם ירקות העונה, חתוכים לקוביות (תפוחי אדמה, גזר או קישוא)</li>
+              <li>300 גרם פתיתים (מחמסה)</li>
+              <li>מים רותחים (לכיסוי ויצירת רוטב)</li>
+              <li>מלח לפי הטעם</li>
+              <li>פלפל שחור לפי הטעם</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
-            <div class="variant-label">מחמסה יבשה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מטגנים בצל קטן בשמן עד שהוא נהיה שקוף.</li>
-              <li class="step"><span class="step-num">2.</span>מוסיפים את הפתיתים ומערבבים דקה כדי &#x27;לסגור&#x27; אותם בשמן.</li>
-              <li class="step"><span class="step-num">3.</span>מוסיפים 1.25 כוסות מים רותחים (או ציר) על כל כוס פתיתים, מתבלים במלח ופלפל.</li>
-              <li class="step"><span class="step-num">4.</span>מכסים ומבשלים על אש נמוכה עד שכל הנוזלים נספגים (כמו אורז).</li>
-            </ul>
-
-            <div class="variant-label">מחמסה עם רוטב</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">5.</span>מטגנים בצל עד להזהבה, מוסיפים פפריקה ומערבבים שניות ספורות (זהירות לא לשרוף).</li>
-              <li class="step"><span class="step-num">6.</span>מוסיפים עגבניות קצוצות וירקות חתוכים, מלח ופלפל, ומכסים במים רותחים או ציר.</li>
-              <li class="step"><span class="step-num">7.</span>מביאים לרתיחה ואז מוסיפים את הפתיתים.</li>
-              <li class="step"><span class="step-num">8.</span>מבשלים על אש בינונית בכיסוי חלקי עד שהפתיתים רכים והרוטב מסמיך.</li>
+              <li class="step"><span class="step-num">1.</span>מחממים את השמן בסיר ומטגנים את הבצל הקצוץ עד שהוא מתחיל להשחים (להתקרמל).</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את כף הפפריקה המתוקה ומערבבים מספר שניות לפתיחת הטעמים (נזהרים לא לשרוף).</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים מיד את העגבניות הקצוצות ואת הירקות שבחרתם. מתבלים במלח ופלפל שחור.</li>
+              <li class="step"><span class="step-num">4.</span>יוצקים פנימה מים רותחים. למרקם מרקי יותר, משתמשים ביותר מים; לתבשיל סמיך, פחות. מביאים לרתיחה.</li>
+              <li class="step"><span class="step-num">5.</span>מוסיפים את הפתיתים (מחמסה). מביאים שוב לרתיחה ואז מנמיכים את האש.</li>
+              <li class="step"><span class="step-num">6.</span>מכסים את הסיר חלקית ומבשלים כ-12 דקות עד שהפסטה והירקות רכים. מערבבים מדי פעם כדי למנוע הידבקות.</li>
             </ul>
           </div>
         </div>
@@ -560,76 +1019,67 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>1 small onion</li>
-              <li>1 cup Mhamsa (Israeli couscous / pearl pasta)</li>
+              <li>3 tbsp vegetable oil (for frying)</li>
+              <li>1 onion, diced</li>
               <li>1 tbsp sweet paprika</li>
-              <li>Salt and black pepper</li>
-              <li>2 chopped tomatoes (for sauce version)</li>
-              <li>Chopped vegetables of choice (carrots/peas)</li>
-              <li>Oil for frying</li>
-              <li>Boiling water or vegetable broth</li>
+              <li>2 tomatoes, chopped</li>
+              <li>1 cup seasonal vegetables, diced (potatoes, carrots, or zucchini)</li>
+              <li>2 cups Ptitim (Israeli Couscous / Mhamsa)</li>
+              <li>Boiling water (enough to cover and create sauce)</li>
+              <li>Salt to taste</li>
+              <li>Black pepper to taste</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
-            <div class="variant-label">Dry Mhamsa</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sauté the onion in oil until transparent.</li>
-              <li class="step"><span class="step-num">2.</span>Add the Mhamsa and stir for a minute to toast slightly in the oil.</li>
-              <li class="step"><span class="step-num">3.</span>Add 1.25 cups boiling water (or broth) per cup of pasta, season with salt and pepper.</li>
-              <li class="step"><span class="step-num">4.</span>Cover and cook on low heat until all liquid is absorbed (like rice).</li>
-            </ul>
-
-            <div class="variant-label">Mhamsa with Sauce</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">5.</span>Fry onion until golden, add paprika and stir briefly (don&#x27;t burn).</li>
-              <li class="step"><span class="step-num">6.</span>Add chopped tomatoes and vegetables, salt and pepper, cover with boiling water or broth.</li>
-              <li class="step"><span class="step-num">7.</span>Bring to a boil, then add the Mhamsa.</li>
-              <li class="step"><span class="step-num">8.</span>Cook on medium heat, partially covered, until pasta is tender and sauce thickens.</li>
+              <li class="step"><span class="step-num">1.</span>Heat the oil in a pot and fry the diced onion until it begins to brown (caramelize).</li>
+              <li class="step"><span class="step-num">2.</span>Add the tablespoon of sweet paprika and stir for a few seconds to release the aroma (be careful not to burn it).</li>
+              <li class="step"><span class="step-num">3.</span>Immediately add the chopped tomatoes and your chosen vegetables. Season with salt and black pepper.</li>
+              <li class="step"><span class="step-num">4.</span>Pour in boiling water. For a soupier consistency, use more water; for a stew, use less. Bring to a boil.</li>
+              <li class="step"><span class="step-num">5.</span>Add the Ptitim (Mhamsa). Bring back to a boil, then lower the heat.</li>
+              <li class="step"><span class="step-num">6.</span>Cover the pot partially and cook until the pasta and vegetables are tender. Stir occasionally to prevent sticking.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>1 بصلة صغيرة</li>
-              <li>1 كأس محمصة (بركوكش / بتيتيم)</li>
-              <li>1 مغرفة كبيرة فلفل أحمر (زينة)</li>
-              <li>ملح وفلفل أكحل</li>
-              <li>2 كعبات طماطم (للنوع الجاري)</li>
-              <li>خضرة مقصوصة (سفنارية/جلبانة/قرع)</li>
-              <li>زيت للقلي</li>
-              <li>ماء سخون ولا مرقة خضرة</li>
+              <li>3 مغارف زيت نباتي (للقلي)</li>
+              <li>1 بصلة، مقصوصة</li>
+              <li>1 مغرفة فلفل أحمر (بابريكا)</li>
+              <li>2 كعبات طماطم، مقصوصين</li>
+              <li>1 كأس خضرة في وقتها، مقصوصة (بطاطا، سفنارية، ولا قرع)</li>
+              <li>2 كيسان محمصة (Ptitim)</li>
+              <li>ماء سخون (باش نغطيو ونعملو مرقة)</li>
+              <li>ملح حسب الذوق</li>
+              <li>فلفل أكحل حسب الذوق</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
-            <div class="variant-label">المحمصة الشايحة</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>قلّي البصلة في الزيت حتى تذبل وتولي شفافة.</li>
-              <li class="step"><span class="step-num">2.</span>زيد المحمصة وحرّك دقيقة باش تتقلى شوية في الزيت.</li>
-              <li class="step"><span class="step-num">3.</span>صب 1.25 كأس ماء سخون (ولا مرقة) على كل كأس محمصة، فوّح بالملح والفلفل الأكحل.</li>
-              <li class="step"><span class="step-num">4.</span>غطّي الطنجرة وطيّب على نار هادية لين يشيح الماء الكل (كيف الروز).</li>
-            </ul>
-
-            <div class="variant-label">المحمصة الجارية (بالمرقة)</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">5.</span>قلّي البصلة لين تصفار، زيد الفلفل الأحمر وحرّك فيسع باش ما يتحرقش.</li>
-              <li class="step"><span class="step-num">6.</span>زيد الطماطم والخضرة المقطعة، الملح والفلفل الأكحل، ومرّق بالماء السخون.</li>
-              <li class="step"><span class="step-num">7.</span>كي تغلي المرقة، ارمي المحمصة.</li>
-              <li class="step"><span class="step-num">8.</span>طيّب على نار متوسطة والطنجرة مغطية نص طياب لين تطيب المحمصة وتخثار المرقة.</li>
+              <li class="step"><span class="step-num">1.</span>نسخنو الزيت في طنجرة ونقليو البصل المقصوص لين يبدا يحمار (يتكرمل).</li>
+              <li class="step"><span class="step-num">2.</span>نزيدو مغرفة الفلفل الأحمر ونحركو شوية باش تخرج ريحتو (رد بالك يتحرق).</li>
+              <li class="step"><span class="step-num">3.</span>فيسع نزيدو الطماطم المقصوصة والخضرة اللي اخترتها. نفوحو بالملح والفلفل الأكحل.</li>
+              <li class="step"><span class="step-num">4.</span>نمرقو بالماء السخون. كان تحبها جارية زيد الماء، وكان تحبها عاقدة نقص. نخليوها تغلي.</li>
+              <li class="step"><span class="step-num">5.</span>نرميو المحمصة. نخليوها تغلي مرة أخرى ومبعد نقصو النار.</li>
+              <li class="step"><span class="step-num">6.</span>نغطيو الطنجرة نص طياب ونخليوها تطيب لين المحمصة والخضرة يطراو. نحركو مرة مرة باش ما تلصقش.</li>
             </ul>
           </div>
         </div>

@@ -10,88 +10,88 @@
   "name": {
     "he": "עוגת דבש (סילאן) ליאור בן משה",
     "es": "Pastel de Silan (Miel de Dátil) de Lior Ben Mosheh",
-    "ar": "كيكة سيلان (الرُب) ليور بن موشي",
+    "ar": "كيكة السيلان (الرب) لليور بن موشي",
     "en": "Lior Ben Mosheh's Silan (Date Honey) Cake"
   },
   "description": {
-    "he": "עוגת הסילאן של ליאור בן משה היא גרסה מחודשת לעוגת הדבש המסורתית של ראש השנה, המשתמשת בסירופ תמרים, שנקרא היסטורית בג'רבה רוב אך כיום מוכר כסילאן. כיכר עוגה לחה וטבעונית זו מסתמכת על קפה וקינמון לעומק הטעם במקום ביצים או מוצרי חלב, מה שהופך אותה לקינוח פרווה אידיאלי לסיום ארוחה בשרית חגיגית.",
-    "es": "El Pastel de Silan de Lior Ben Mosheh reinventa el tradicional pastel de miel de Rosh Hashaná utilizando jarabe de dátil, conocido históricamente en Djerba como rubb pero ahora llamado comúnmente silan. Este pastel húmedo y vegano confía en el café y la canela para dar profundidad en lugar de huevos o lácteos, lo que lo convierte en un postre parve ideal para concluir una comida festiva con carne.",
-    "ar": "كيكة السيلان متاع ليور بن موشي تعاود تصيغ كيكة العسل التقليدية متاع راس العام باستعمال عسل التمر، اللي معروف تاريخيا في جربة باسم الرُب ولكن توة يتسمى سيلان. هالكيكة الطرية والنباتية تعتمد على القهوة والقرفة للبنة في عوض العظم والحليب، وهكا تكون ديسير بارف (parve) مثالي باش تكمل بيه وجبة باللحم في العيد.",
-    "en": "Lior Ben Mosheh’s Silan Cake reimagines the traditional Rosh Hashanah honey cake using date syrup, known historically in Djerba as rubb but now commonly called silan. This moist, vegan loaf relies on coffee and cinnamon for depth rather than eggs or dairy, making it an ideal parve dessert to conclude a festive meat meal."
+    "he": "עוגת הסילאן של ליאור בן משה היא גרסה מותאמת לעוגת הדבש הקלאסית של ראש השנה, המשתמשת בסירופ תמרים, הידוע היסטורית בג'רבה בשם רוב. עוגה טבעונית זו מסתמכת על קפה וקינמון לטעם עמוק במקום ביצים או מוצרי חלב, ויוצרת קינוח פרווה מושלם לכל ארוחה חגיגית.",
+    "es": "El Pastel de Silan de Lior Ben Mosheh adapta el clásico pastel de miel de Rosh Hashaná usando jarabe de dátil, conocido históricamente como rubb en Djerba. Este pan naturalmente vegano se basa en café y canela para un sabor profundo en lugar de huevos o lácteos, creando un postre parve perfecto para cualquier comida festiva.",
+    "ar": "كيكة السيلان متاع ليور بن موشي هي تبديلة لكيكة العسل التقليدية متاع راس العام، وتستعمل رب التمر المعروف في جربة. الكيكة هذي نباتية وتعتمد على القهوة والقرفة باش تعطي بنة قوية في عوض العظم والحليب، وهي ديسير بارفي مثالي لأي وجبة احتفالية.",
+    "en": "Lior Ben Mosheh’s Silan Cake adapts the classic Rosh Hashanah honey cake by using date syrup, historically known as rubb in Djerba. This naturally vegan loaf relies on coffee and cinnamon for deep flavor instead of eggs or dairy, creating a perfect parve dessert for any festive meal."
   },
   "ingredients": {
     "he": [
       "80 מ\"ל סילאן (סירופ תמרים)",
       "120 מ\"ל שמן צמחי",
       "65 גרם סוכר",
-      "135 מ\"ל חלב סויה",
-      "2 גרם קפה נמס (גרגירים)",
-      "2.6 גרם קינמון טחון",
-      "150 גרם קמח לבן, מנופה",
-      "9.6 גרם אבקת אפייה",
-      "סילאן, סירופ מייפל או אגבה לפי הטעם (להברשה)"
+      "135 מ\"ל חלב סויה (או חלב שיבולת שועל)",
+      "2 גרם קפה נמס",
+      "3 גרם קינמון טחון",
+      "150 גרם קמח רגיל, מנופה",
+      "10 גרם אבקת אפייה",
+      "סילאן, סירופ מייפל או אגבה להברשה"
     ],
     "es": [
-      "80 ml de jarabe de dátil (Silan)",
+      "80 ml de silan (jarabe de dátil)",
       "120 ml de aceite vegetal",
       "65 g de azúcar",
-      "135 ml de leche de soja",
-      "2 g de café instantáneo (gránulos)",
-      "2.6 g de canela molida",
+      "135 ml de leche de soja (o leche de avena)",
+      "2 g de café instantáneo",
+      "3 g de canela molida",
       "150 g de harina común, tamizada",
-      "9.6 g de polvo de hornear",
-      "Silan, jarabe de arce o agave al gusto (para pincelar)"
+      "10 g de polvo de hornear",
+      "Silan, jarabe de arce o agave para pincelar"
     ],
     "ar": [
-      "1/3 كاس سيلان (عسل التمر)",
-      "1/2 كاس زيت",
-      "1/3 كاس سكر",
-      "1/2 كاس حليب صويا (مع مغرفة زايدة)",
-      "1 مغرفة صغيرة قهوة سريعة الذوبان",
-      "1 مغرفة صغيرة قرفة",
-      "1.2 كاس فرينة، مغربلة",
+      "ثلث كاس سيلان (رب التمر)",
+      "نص كاس زيت",
+      "ثلث كاس سكر",
+      "نص كاس وشوية حليب صويا",
+      "مغرفة صغيرة قهوة سريعة الذوبان",
+      "مغرفة صغيرة قرفة",
+      "كاس وشوية فرينة، مغربلة",
       "2 مغارف صغار خميرة قاطو",
-      "سيلان، شحور، أو عسل حسب الذوق (باش تدهن الكيكة)"
+      "سيلان ولا شحور للدهين"
     ],
     "en": [
-      "1/3 cup Date syrup (Silan)",
-      "1/2 cup Vegetable oil",
-      "1/3 cup Sugar",
-      "1/2 cup Soy milk (+ 1 tbsp)",
-      "1 tsp Instant coffee",
-      "1 tsp Ground cinnamon",
-      "1.2 cups All-purpose flour, sifted",
-      "2 tsp Baking powder",
-      "Silan, Maple syrup, or Agave to taste (for brushing)"
+      "1/3 cup date syrup (Silan)",
+      "1/2 cup vegetable oil",
+      "1/3 cup sugar",
+      "1/2 cup plus 1 tbsp soy milk",
+      "1 tsp instant coffee",
+      "1 tsp ground cinnamon",
+      "1 cup plus 1 tbsp all-purpose flour, sifted",
+      "2 tsp baking powder",
+      "Silan, maple syrup, or agave for brushing"
     ]
   },
   "steps": {
     "he": [
       "מחממים תנור ל-175 מעלות צלזיוס.",
-      "בקערת ערבוב, מערבבים את הסילאן, השמן, הסוכר, חלב הסויה, הקפה הנמס והקינמון. מערבבים היטב ומניחים לתערובת לנוח למשך 10 דקות כדי שהטעמים יתמזגו.",
+      "בקערת ערבוב, מערבבים את הסילאן, השמן, הסוכר, חלב הסויה, הקפה הנמס והקינמון. מערבבים היטב ומניחים לתערובת לעמוד למשך 10 דקות.",
       "לאחר 10 דקות, מוסיפים את הקמח ואבקת האפייה. טורפים עד שהבלילה חלקה וללא גושי קמח.",
       "יוצקים את הבלילה לתבנית אינגליש קייק ואופים במשך כ-40 דקות, או עד שקיסם הננעץ במרכז יוצא יבש.",
-      "מוציאים מהתנור ומברישים מיד את חלק העליון של העוגה במעט סילאן, סירופ מייפל או אגבה לגימור מבריק."
+      "מוציאים מהתנור ומברישים מיד את החלק העליון של העוגה במעט סילאן, סירופ מייפל או אגבה לגימור מבריק."
     ],
     "es": [
       "Precalentar el horno a 175°C.",
       "En un bol, combinar el silan, el aceite, el azúcar, la leche de soja, el café instantáneo y la canela. Mezclar bien y dejar reposar la mezcla durante 10 minutos.",
-      "Después de 10 minutos, añadir la harina y el polvo de hornear. Batir hasta que la masa esté suave y sin grumos de harina.",
+      "Después de 10 minutos, añadir la harina y el polvo de hornear. Batir hasta que la masa esté suave y sin grumos.",
       "Verter la masa en un molde rectangular (tipo budín) y hornear durante aproximadamente 40 minutos, o hasta que un palillo insertado en el centro salga seco.",
-      "Retirar del horno e inmediatamente pincelar la parte superior del pastel con un poco de silan, jarabe de arce o néctar de agave para un acabado brillante."
+      "Retirar del horno y pincelar inmediatamente la parte superior del pastel con un poco de silan, jarabe de arce o néctar de agave para un acabado brillante."
     ],
     "ar": [
-      "سخن الكوشة على 175 درجة.",
-      "في صحفة، خلط السيلان (الرُب)، الزيت، السكر، حليب الصويا، القهوة والقرفة. خلط مليح وخلي الخليط يرتاح 10 دقايق باش السكر يذوب.",
-      "بعد 10 دقايق، زيد الفرينة وخميرة القاطو. ركض بالقدى لين يولي الخليط أرطب وما فيهوش كعابر فرينة.",
-      "صب الخليط في طبق كيك مستطيل وحطه في الكوشة لمدة 40 دقيقة تقريبا، أو لين تجرب بفرشيطة أو عود وتخرج شايحة من الوسط.",
-      "خرجها من الكوشة وادهن وجه الكيكة ديركت بشوية سيلان، شحور، أو عسل باش تولي تلمع."
+      "سخّن الفور (الكوشة) على 175 درجة.",
+      "في صحفة، خلّط السيلان (الرب)، الزيت، السكر، حليب الصويا، القهوة والقرفة. خلّط مليح وخلّي الخليط يرتاح 10 دقايق.",
+      "بعد 10 دقايق، زيد الفرينة وخميرة القاطو. ركّض مليح لين يولي الخليط أرطب وما فيهوش كعابر فرينة.",
+      "صب الخليط في طبق مستطיל (متاع كيك) وطيّب في الفور حكاية 40 دقيقة، ولا لين تدخل كردون يخرج شايح.",
+      "خرّجها من الفور وادهن الوجه ديريكت بشوية سيلان، شحور، ولا عسل باش تولي تلمع."
     ],
     "en": [
       "Preheat the oven to 175°C (350°F).",
       "In a mixing bowl, combine the date syrup (silan), oil, sugar, soy milk, instant coffee, and cinnamon. Mix well and let the mixture sit for 10 minutes.",
       "After 10 minutes, add the flour and baking powder. Whisk until the batter is smooth and no lumps of flour remain.",
-      "Pour the batter into a loaf pan (English cake tin) and bake for approximately 40 minutes, or until a toothpick inserted into the center comes out dry.",
+      "Pour the batter into a loaf pan and bake for approximately 40 minutes, or until a toothpick inserted into the center comes out dry.",
       "Remove from the oven and immediately brush the top of the cake with a little silan, maple syrup, or agave nectar for a glossy finish."
     ]
   }

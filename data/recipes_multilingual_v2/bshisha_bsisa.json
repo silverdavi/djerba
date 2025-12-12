@@ -10,23 +10,23 @@
   "name": {
     "he": "בשישה",
     "es": "Bshisha (Bsisa)",
-    "ar": "بسيسة",
+    "ar": "بشيشة (بسيسة)",
     "en": "Bshisha (Bsisa)"
   },
   "description": {
-    "he": "בשישה שואבת את שמה מהפועל הערבי להרטבת קמח בשמן. ממרח דחוס ומתובל זה מורכב מחיטה ושעורה קלויות וטחונות, המעורבבות עם שמן זית וממתיק. בראש חודש ניסן, משפחות ג'רבאיות נוהגות לערבב את התערובת עם מפתח, טקס שנועד לפתוח את שערי הפרנסה והכלכלה לשנה הקרובה.",
-    "es": "La Bshisha deriva su nombre del verbo árabe para humedecer la harina con aceite. Esta pasta densa y especiada consiste en trigo y cebada tostados y molidos, mezclados con aceite de oliva y endulzante. En Rosh Jodesh Nisán, las familias de Djerba mezclan la preparación con una llave, un ritual destinado a abrir las puertas del sustento para el año venidero.",
-    "ar": "اسم البسيسة جاي من كلمة بسّ يعني تخلط الدقيق بالزيت. هذي العجينة الفاوحة تتكون من قمح وشعير مقليين ومرحيين مخلطين بزيت الزيتونة والتمر ولا السكر. في راس شهر نيسان، العايلات الجربية يخلطوا البسيسة بمفتاح، عادة باش يطلبوا من ربي يفتحلهم بيبان الرزق للعام الجديد.",
-    "en": "Bshisha derives its name from the Arabic verb for moistening flour with oil. This dense, spiced paste consists of roasted ground wheat and barley blended with olive oil and sweetener. On Rosh Chodesh Nissan, Djerban families stir the mixture with a key, a ritual meant to unlock the gates of livelihood and sustenance for the year ahead."
+    "he": "בשישה מגיעה מהשורש הערבי המתאר הרטבת קמח בשמן. מאכל אנרגיה עתיק זה משלב חיטה ושעורה קלויות עם תבלינים ותמרים. המנה הטבעונית נאכלת באופן מסורתי בראש חודש ניסן, ומערבבים אותה עם מפתח כסמל לפתיחת שערי הפרנסה.",
+    "es": "La Bshisha proviene de la raíz árabe que describe humedecer harina con aceite. Este antiguo alimento energético mezcla trigo y cebada tostados con especias y dátiles. Tradicionalmente consumido en Rosh Jodesh Nissan, este plato vegano se mezcla con una llave para simbolizar la apertura de las puertas del sustento.",
+    "ar": "البشيشة جاية من كلمة بس يعني تخلط الدقيق بالزيت. هالأكلة القديمة تخلط القمح والشعير المقليين مع الفاحات والتمر. ناكلوها عادة في راس شهر نيسان، ونخلطوها بمفتاح باش نطلبوا من ربي يحل بيبان الرزق.",
+    "en": "Bshisha comes from the Arabic root for moistening flour with oil. This ancient energy food blends roasted wheat and barley with spices and dates. Traditionally eaten on Rosh Chodesh Nissan, this naturally vegan dish involves stirring the paste with a key to symbolize unlocking the gates of livelihood."
   },
   "ingredients": {
     "he": [
-      "250 גרם גרעיני חיטה מלאה, נקיים",
-      "250 גרם גריסי פנינה או גרעיני שעורה, נקיים",
+      "250 גרם גרעיני חיטה מלאה, שטופים",
+      "250 גרם גריסי פנינה או שעורה, שטופים",
       "10 גרם זרעי כוסברה, שלמים",
       "6 גרם זרעי כמון, שלמים",
       "6 גרם זרעי שומר, שלמים",
-      "שמן זית לפי הטעם, לאיחוד",
+      "שמן זית לפי הטעם, לחיבור התערובת",
       "200 גרם תמרים, מגולענים וקצוצים (או ממרח תמרים)",
       "סוכר לפי הטעם (אופציונלי)",
       "מים לפי הצורך (למרקם)"
@@ -40,18 +40,18 @@
       "Aceite de oliva al gusto, para ligar",
       "200 g de dátiles, deshuesados y picados (o pasta de dátiles)",
       "Azúcar al gusto (opcional)",
-      "Agua si es necesaria (para la consistencia)"
+      "Agua al gusto (si es necesario para la consistencia)"
     ],
     "ar": [
-      "1.3 كيسان قمح، منقي",
-      "1.25 كيسان شعير، منقي",
+      "1.3 كيسان قمح، منظف",
+      "1.25 كيسان شعير، منظف",
       "2 مغارف تابل (كزبر)، حب",
       "1 مغرفة كمون، حب",
       "1 مغرفة بسباس، حب",
-      "زيت زيتونة حسب الذوق، باش تتلم",
+      "زيت زيتون حسب الذوق، باش نلمو العجينة",
       "1.33 كيسان تمر، منحي العلفة ومقصوص (أو عجين تمر)",
       "سكر حسب الذوق (اختياري)",
-      "ماء حسب الحاجة (للتخليط)"
+      "ماء حسب الحاجة (للقوام)"
     ],
     "en": [
       "1.3 cups whole wheat grains, cleaned",
@@ -67,30 +67,30 @@
   },
   "steps": {
     "he": [
-      "קולים את גרעיני החיטה והשעורה יחד עם זרעי הכוסברה, הכמון והשומר במחבת יבשה על אש בינונית עד שעולה ריח והם משחימים מעט.",
-      "מצננים את התערובת וטוחנים הכל יחד לקמח גס (או אבקה דקה, לפי ההעדפה).",
-      "להגשה, מערבבים את האבקה הטחונה עם שמן זית ותמרים קצוצים (או סוכר).",
+      "קולים את גרעיני החיטה והשעורה יחד עם זרעי הכוסברה, הכמון והשומר במחבת יבשה על אש בינונית עד שעולה ריח והם משחימים קלות. מערבבים כל הזמן כדי למנוע שריפה.",
+      "מצננים את התערובת, ואז טוחנים הכל יחד לקמח גס (או אבקה דקה, לפי ההעדפה). באופן מסורתי עושים זאת במטחנה, אך מטחנת תבלינים חזקה תעבוד.",
+      "להגשה, מערבבים את האבקה הטחונה עם שמן זית ותמרים קצוצים (או סוכר). המרקם יכול להיות משחתי או בצורת כדורים מוצקים.",
       "אפשר ליצור מהתערובת כדורים קטנים להגשה.",
       "מגישים עם שמן נוסף או מים בצד להתאמת המרקם לפי הטעם."
     ],
     "es": [
-      "Tueste los granos de trigo y cebada junto con las semillas de cilantro, comino e hinojo en una sartén seca a fuego medio hasta que estén fragantes y ligeramente dorados.",
-      "Deje enfriar la mezcla y muela todo junto hasta obtener una harina gruesa (o polvo fino, según prefiera).",
-      "Para servir, mezcle el polvo molido con aceite de oliva y dátiles picados (o azúcar).",
-      "Opcionalmente, forme pequeñas bolas con la mezcla para servir.",
-      "Sirva con aceite o agua adicional al lado para ajustar la textura al gusto."
+      "Tueste los granos de trigo y cebada junto con las semillas de cilantro, comino e hinojo en una sartén seca a fuego medio hasta que estén fragantes y ligeramente dorados. Remueva constantemente para evitar que se quemen.",
+      "Deje enfriar la mezcla y luego muela todo junto hasta obtener una harina gruesa (o un polvo fino, según prefiera). Tradicionalmente se hace en un molino, pero un molinillo de especias potente funciona bien.",
+      "Para servir, mezcle el polvo molido con aceite de oliva y dátiles picados (o azúcar). La consistencia puede ser pastosa o formada en bolas sólidas.",
+      "Opcionalmente, forme la mezcla en pequeñas bolas para servir.",
+      "Sirva con aceite adicional o agua al lado para ajustar la textura al gusto."
     ],
     "ar": [
-      "قلي القمح والشعير مع التابل والكمون والبسباس في طنجرة شايحة (من غير زيت) على نار متوسطة لين تطلع ريحتهم ويحماروا شوية.",
-      "خلي الخليط يبرد، ومبعد ارحي كل شيء مع بعضه لين يولي دقيق حرش (أو أرطب، كيما تحب).",
-      "وقت التقديم، خلط البسيسة المرحية بزيت الزيتونة والتمر المقصوص (أو السكر).",
-      "تنجم تكعبرها كعابر صغار للتقديم.",
-      "قدمها مع زيت زايد ولا ماء باش تريقل القوام حسب الذوق."
+      "قلي القمح والشعير مع التابل والكمون والبسباس في طنجرة شايحة (بلا زيت) على نار متوسطة لين تطلع ريحتهم ويحمارو شوية. حرك ديما باش ما يتحرقوش.",
+      "خلي الخليط يبرد، ومبعد ارحي كل شيء مع بعضو لين يولي دقيق حرش (أو رطب، كيما تحب). العادة يترحي في الطاحونة، أما تنجم تستعمل رحاية قوية.",
+      "للتقديم، خلط الدقيق المرحي مع زيت الزيتون والتمر المقصوص (أو السكر). القوام ينجم يكون جاري شوية ولا مكعبر كعابر يابسة.",
+      "تنجم تكعبر الخليط كعابر صغار للتقديم.",
+      "قدمها مع زيت زايد ولا ماء بحذاها باش تعدل القوام حسب الذوق."
     ],
     "en": [
-      "Roast the wheat and barley grains together with the coriander, cumin, and fennel seeds in a dry pan over medium heat until fragrant and slightly browned.",
-      "Allow the mixture to cool, then grind everything together into a coarse flour (or fine powder, depending on preference).",
-      "To serve, mix the ground powder with olive oil and chopped dates (or sugar).",
+      "Roast the wheat and barley grains together with the coriander, cumin, and fennel seeds in a dry pan over medium heat until fragrant and slightly browned. Stir constantly to prevent burning.",
+      "Allow the mixture to cool, then grind everything together into a coarse flour (or fine powder, depending on preference). Traditionally done at a mill, but a high-powered spice grinder or blender works.",
+      "To serve, mix the ground powder with olive oil and chopped dates (or sugar). The consistency can be paste-like or formed into solid balls.",
       "Optionally, form the mixture into small balls for serving.",
       "Serve with additional oil or water on the side to adjust texture to taste."
     ]

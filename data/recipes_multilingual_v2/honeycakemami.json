@@ -10,101 +10,105 @@
   "name": {
     "he": "עוגת דבש (מאמי)",
     "es": "Pastel de Miel de Mami",
-    "ar": "قاتو عسل (مامي)",
+    "ar": "كيكة العسل (مامي)",
     "en": "Mami's Honey Cake"
   },
   "description": {
-    "he": "עוגת הדבש של מאמי שואבת את שמה מהמילה הצרפתית לסבתא, שריד לשוני מתקופת החסות. עוגה לחה זו, החיונית לראש השנה כסמל לשנה מתוקה, מועשרת בקפה חזק ותבלינים חמים כמו קינמון, היוצרים גרסה כהה וארומטית יותר של הלייקח הקלאסי לחג.",
-    "es": "El Pastel de Miel de Mami deriva su título del término francés para abuela, un remanente lingüístico de la era del Protectorado. Esencial para Rosh Hashaná para simbolizar un año nuevo dulce, este pan húmedo se enriquece con café fuerte y especias cálidas como canela, creando una variación más oscura y aromática del clásico lekach festivo.",
-    "ar": "اسم قاتو العسل متاع مامي جاي من الكلمة الفرنسية للجدة، وهذا من وقت الحماية الفرنسية. الكيكة هذه ضرورية في راس العام باش تكون السنة حلوة، وهي طرية ومعمولة بقهوة قوية وفاحات دافية كيف القرفة، وتجي أغمق وأبن من اللكاك العادي متاع العيد.",
-    "en": "Mami’s Honey Cake derives its title from the French term for grandmother, a linguistic remnant of the Protectorate era. Essential for Rosh Hashanah to symbolize a sweet new year, this moist loaf is enriched with strong coffee and warm spices like cinnamon, creating a darker, more aromatic variation of the classic holiday lekach."
+    "he": "עוגת הדבש של מאמי שואבת את שמה מהמילה הצרפתית לסבתא, זכר לתקופת החסות. גרסה צמחית זו מחליפה ביצים ברסק תפוחים תוך שמירה על המרקם הלח הקלאסי. מועשרת בקפה חזק ותבלינים חמים כמו קינמון, היא מסמלת שנה חדשה ומתוקה.",
+    "es": "El Pastel de Miel de Mami deriva su nombre de la palabra francesa para abuela, reflejando la influencia de la era del Protectorado. Esta adaptación vegetal reemplaza los huevos con puré de manzana manteniendo la textura húmeda clásica. Enriquecido con café fuerte y especias cálidas como la canela, simboliza un dulce año nuevo.",
+    "ar": "كيكة العسل متاع مامي خذات اسمها من الكلمة الفرنسية للجدة، وهذا يرجع لوقت الحماية. الوصفة هذي نباتية وبدلنا العظم بصوص التفاح باش تقعد طرية ومندّية. زدنا فيها قهوة قوية وفاحات دافية كيف القرفة، وهي ترمز لعام جديد وحلو.",
+    "en": "Mami’s Honey Cake derives its name from the French word for grandmother reflecting the Protectorate era influence. This plant-based adaptation replaces eggs with applesauce while maintaining the classic moist texture. Enriched with strong coffee and warm spices like cinnamon it symbolizes a sweet new year."
   },
   "ingredients": {
     "he": [
-      "5 ביצים, בטמפרטורת החדר",
+      "240 גרם רסק תפוחים לא ממותק (תחליף לביצים)",
       "200 גרם סוכר",
-      "120 מ\"ל שמן צמחי (ניטרלי כמו קנולה)",
-      "170 גרם דבש",
-      "240 מ\"ל מים חמים (לקפה)",
-      "3 גרם קפה נמס (גרגירים)",
+      "120 מ\"ל שמן צמחי",
+      "170 גרם סירופ אגבה או סילאן (תחליף לדבש)",
+      "240 מ\"ל מים חמים",
+      "3 גרם קפה נמס",
       "2.6 גרם קינמון טחון",
       "0.5 גרם ציפורן טחון",
       "210 גרם קמח רגיל, מנופה",
-      "10 גרם אבקת אפייה"
+      "10 גרם אבקת אפייה",
+      "5 גרם סודה לשתייה"
     ],
     "es": [
-      "5 huevos, a temperatura ambiente",
+      "240 g de puré de manzana sin azúcar (sustituto de huevo)",
       "200 g de azúcar",
-      "120 ml de aceite vegetal (neutro como canola)",
-      "170 g de miel",
-      "240 ml de agua caliente (para el café)",
-      "3 g de café instantáneo granulado",
+      "120 ml de aceite vegetal",
+      "170 g de néctar de agave o jarabe de dátiles (Silan)",
+      "240 ml de agua caliente",
+      "3 g de café instantáneo",
       "2.6 g de canela molida",
       "0.5 g de clavo molido",
       "210 g de harina común, tamizada",
-      "10 g de polvo de hornear"
+      "10 g de polvo de hornear",
+      "5 g de bicarbonato de sodio"
     ],
     "ar": [
-      "5 عظمات، بحرارة الغرفة",
+      "1 كأس صوص تفاح (كومبوت) بلاش سكر",
       "1 كأس سكر",
-      "نص كأس زيت نباتي",
-      "نص كأس عسل",
-      "1 كأس ماء سخون (للقهوة)",
+      "نص كأس زيت",
+      "نص كأس سيرو دقلة (سلان) أو أغاف",
+      "1 كأس ماء سخون",
       "1.5 مغرفة صغيرة قهوة سريعة الذوبان",
       "1 مغرفة صغيرة قرفة مرحية",
       "ربع مغرفة صغيرة قرنفل مرحي",
-      "1.75 كأس فرينة، منخولة",
-      "2 مغارف صغار خميرة قاطو"
+      "1.75 كيسان فرينة، منخولة",
+      "2 مغارف صغار خميرة قاطو",
+      "1 مغرفة صغيرة بيكربونات"
     ],
     "en": [
-      "5 eggs, room temperature",
+      "1 cup unsweetened applesauce (replaces eggs)",
       "1 cup sugar",
-      "1/2 cup vegetable oil (neutral like canola)",
-      "1/2 cup honey",
-      "1 cup hot water (for coffee)",
-      "1.5 tsp instant coffee granules",
+      "1/2 cup vegetable oil",
+      "1/2 cup agave nectar or date syrup (Silan)",
+      "1 cup hot water",
+      "1 1/2 tsp instant coffee granules",
       "1 tsp ground cinnamon",
       "1/4 tsp ground cloves",
-      "1.75 cups all-purpose flour, sifted",
-      "2 tsp baking powder"
+      "1 3/4 cups all-purpose flour, sifted",
+      "2 tsp baking powder",
+      "1 tsp baking soda"
     ]
   },
   "steps": {
     "he": [
-      "מחממים תנור ל-170 מעלות. משמנים היטב תבנית אינגליש קייק או תבנית קוגלהוף.",
-      "מכינים את הקפה על ידי ערבוב גרגירי הקפה הנמס עם המים החמים. מניחים בצד להצטנן מעט.",
-      "בקערה גדולה או במיקסר, מקציפים את הביצים והסוכר יחד עד שהתערובת בהירה ואוורירית.",
-      "מוסיפים בהדרגה את השמן, הדבש והקפה המוכן לתערובת הביצים, ומערבבים במהירות נמוכה עד לאיחוד. טיפ: אם הדבש סמיך מדי, חממו אותו מעט כדי שיהיה נוזלי.",
-      "בקערה נפרדת, מנפים יחד את הקמח, אבקת האפייה, הקינמון והציפורן.",
+      "מחממים תנור ל-170 מעלות צלזיוס. משמנים היטב תבנית אינגליש קייק או תבנית קוגלהוף.",
+      "מכינים את הקפה על ידי ערבוב גרגירי הקפה הנמס עם המים החמים. מניחים בצד לצינון קל.",
+      "בקערה גדולה או במיקסר, טורפים את רסק התפוחים והסוכר יחד עד שהתערובת אחידה.",
+      "מוסיפים בהדרגה את השמן, הסילאן (או האגבה) והקפה המוכן לתערובת, ומערבבים במהירות נמוכה עד לאיחוד.",
+      "בקערה נפרדת, מנפים יחד את הקמח, אבקת האפייה, הסודה לשתייה, הקינמון והציפורן.",
       "מקפלים בעדינות את החומרים היבשים לתוך התערובת הרטובה עד לאיחוד בלבד. אין לערבב יתר על המידה.",
-      "יוצקים את הבלילה לתבנית המשומנת ואופים כ-45 דקות, או עד שקיסם הננעץ במרכז יוצא נקי. טיפ: בדקו את העוגה לאחר 35 דקות; אם היא משחימה מהר מדי, כסו אותה ברפיון בנייר כסף."
+      "יוצקים את הבלילה לתבנית המוכנה ואופים כ-45 דקות, או עד שקיסם הננעץ במרכז יוצא נקי."
     ],
     "es": [
       "Precaliente el horno a 170°C. Engrase bien un molde rectangular o de rosca.",
-      "Prepare el café mezclando el café instantáneo con el agua caliente. Reserve para que se enfríe un poco.",
-      "En un tazón grande o batidora, bata los huevos y el azúcar hasta que la mezcla esté pálida y esponjosa.",
-      "Agregue gradualmente el aceite, la miel y el café preparado a la mezcla de huevo, batiendo a baja velocidad hasta integrar. Consejo: Si la miel está muy espesa, caliéntela un poco para que fluya mejor.",
-      "En un tazón aparte, tamice la harina, el polvo de hornear, la canela y el clavo.",
-      "Incorpore suavemente los ingredientes secos a la mezcla húmeda con movimientos envolventes hasta que se integren. No mezcle demasiado.",
-      "Vierta la masa en el molde preparado y hornee por aproximadamente 45 minutos, o hasta que un palillo insertado en el centro salga limpio. Consejo: Revise el pastel a los 35 minutos; si se dora muy rápido, cúbralo flojamente con papel aluminio."
+      "Prepare el café mezclando los gránulos de café instantáneo con el agua caliente. Reserve para que se enfríe un poco.",
+      "En un tazón grande o batidora, bata el puré de manzana y el azúcar hasta que la mezcla esté uniforme.",
+      "Agregue gradualmente el aceite, el jarabe y el café preparado a la mezcla, batiendo a baja velocidad hasta que se integren.",
+      "En un tazón aparte, tamice la harina, el polvo de hornear, el bicarbonato, la canela y el clavo.",
+      "Incorpore suavemente los ingredientes secos a la mezcla húmeda hasta que estén apenas combinados. No mezcle demasiado.",
+      "Vierta la masa en el molde preparado y hornee por aproximadamente 45 minutos, o hasta que un palillo insertado en el centro salga limpio."
     ],
     "ar": [
-      "سخن الفور على 170 درجة. ادهن طبق الكيك ولا القالب بالزيت مليح.",
-      "حضّر القهوة بخلط القهوة سريعة الذوبان مع الماء السخون. خليها تبرد شوي.",
-      "في صحفة كبيرة ولا بالماكينة، ركض العظم والسكر مع بعضهم لين يولي الخليط لونه فاتح ومنفخ.",
-      "زيد الزيت والعسل والقهوة بالشوية لخليط العظم، وخلط بشوية لين يتجانسوا. نصيحة: كان العسل عاقد برشا، سخنه شوي باش يجري.",
-      "في صحفة أخرى، غربل الفرينة وخميرة القاطو والقرفة والقرنفل مع بعضهم.",
-      "خلط المكونات الشايحة مع الخليط السائل بالشوية لين يتخلطوا. رد بالك تخلط برشا.",
-      "صب الخليط في الطبق وطيبها حكاية 45 دقيقة، ولا لين تدخل عود ويخرج شايح. نصيحة: تفقد الكيكة بعد 35 دقيقة؛ كان حمارة فيسع، غطيها بpapier aluminium من الفوق."
+      "سخن الكوشة (الفور) على 170 درجة. ادهن طبق الكيك ولا القالب بالزيت مليح.",
+      "حضّر القهوة بخلط القهوة سريعة الذوبان مع الماء السخون. خليها تبرد شوية على جنب.",
+      "في صحفة كبيرة ولا في الماكينة، ركض صوص التفاح والسكر مع بعضهم لين يتخلطوا مليح.",
+      "زيد بالشوية الزيت، والسيرو (سلان ولا أغاف)، والقهوة اللي حضرتها للخليط، وخلط بشوية لين يتجانسوا.",
+      "في صحفة أخرى، غربل الفرينة، وخميرة القاطو، والبيكربونات، والقرفة، والقرنفل مع بعضهم.",
+      "خلط المكونات الشايحة مع الخليط السائل بالشوية لين يتلموا. رد بالك تخلط برشا.",
+      "صب الخليط في الطبق وحطه يطيب حكاية 45 دقيقة، ولا لين تدخل كردون في الوسط ويخرج شايح."
     ],
     "en": [
       "Preheat the oven to 170°C (340°F). Grease a loaf pan or bundt pan well.",
       "Prepare the coffee by mixing the instant coffee granules with the hot water. Set aside to cool slightly.",
-      "In a large bowl or mixer, beat the eggs and sugar together until the mixture is pale and fluffy.",
-      "Gradually add the oil, honey, and the prepared coffee to the egg mixture, mixing on low speed until combined. Tip: If the honey is too thick, warm it slightly to make it pourable.",
-      "In a separate bowl, sift together the flour, baking powder, cinnamon, and cloves.",
+      "In a large bowl or mixer, beat the applesauce and sugar together until the mixture is uniform.",
+      "Gradually add the oil, syrup, and the prepared coffee to the mixture, mixing on low speed until combined.",
+      "In a separate bowl, sift together the flour, baking powder, baking soda, cinnamon, and cloves.",
       "Gently fold the dry ingredients into the wet mixture until just combined. Do not overmix.",
-      "Pour the batter into the prepared pan and bake for approximately 45 minutes, or until a toothpick inserted into the center comes out clean. Tip: Check the cake after 35 minutes; if it is browning too quickly, cover loosely with foil."
+      "Pour the batter into the prepared pan and bake for approximately 45 minutes, or until a toothpick inserted into the center comes out clean."
     ]
   }
 }

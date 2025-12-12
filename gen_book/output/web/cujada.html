@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cujada – Four-Language Recipe</title>
+<title>Cujada (Potato and Egg Pie) – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 27) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>La Cujada</span></div>
-        <div class="title-word lang-he"><span>קוחדה</span></div>
-        <div class="title-word lang-en"><span>Cujada</span></div>
-        <div class="title-word lang-ar"><span>كوجادة</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Cujada (Pastel de Patata y Huevo)</span></div>
+        <div class="title-word lang-he title-small"><span>קוז&#x27;אדה (פשטידת תפוחי אדמה וביצים)</span></div>
+        <div class="chapter-number"><span>27</span></div>
+        <div class="title-word lang-en title-small"><span>Cujada (Potato and Egg Pie)</span></div>
+        <div class="title-word lang-ar title-small"><span>كوجادا (معقودة بطاطا)</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>פשטידת תפוחי אדמה אפויה, שבמקור מתבססת על ביצים רבות וכאן מוגשת בגרסה טבעונית עם קמח חומוס המעניק לה מרקם אוורירי. השם מגיע מהמילה הספרדית Cuajada (מקריש), והמנה אופיינית ליהודי טנג&#x27;יר.</p>
+            <p>קוז&#x27;אדה מגיעה מהמילה הספרדית cuajar שמשמעותה להקריש. גרסה טבעונית זו מחליפה את הביצים המסורתיות בבלילת חומוס עשירה כדי לקשור את מחית תפוחי האדמה המתובלת. זהו מאכל זהוב ואוורירי מהמטבח הג&#x27;רבאי, מושלם לארוחת שבת בטמפרטורת החדר.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Un pastel de papa horneado, tradicionalmente hecho con huevos pero reimaginado aquí con harina de garbanzos para lograr la textura clásica. Su nombre proviene del español &quot;cuajada&quot;, reflejando cómo cuaja el plato, típico de los judíos de Tánger.</p>
+            <p>Cujada deriva de la palabra española cuajar. Esta adaptación vegana sustituye los huevos tradicionales por una masa de garbanzos para ligar el puré de patatas especiado. Sigue siendo un plato dorado y esponjoso, básico en la cocina de Djerba, perfecto para el almuerzo de Shabat a temperatura ambiente.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>طاجين بطاطا في الفرن، في الأصل يتحضّر بالبيض ولكن في هذي الوصفة النباتية عوّضناه بفرينة الحمص باش يعطي نفس القوام. الاسم جاي من الكلمة الإسبانية &quot;cuajada&quot; (جامدة)، وهي أكلة معروفة عند يهود طنجة.</p>
+            <p>الكوجادا جاية من الكلمة الإسبانية cuajar يعني يجمّد. هذي الوصفة النباتية تبدّل العظم بخلطة دقيق الحمص باش تشد البطاطا المهروسة والمفوّحة. تبقى أكلة ذهبية وخفيفة من المطبخ الجربي، وتتاكل دافية ولا باردة في فطور السبت.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A savory baked potato pie, traditionally made with many eggs but reimagined here using chickpea flour to create the classic fluffy texture. The name comes from the Spanish *cuajada* (curdled), reflecting its setting process.</p>
+            <p>Cujada derives from the Spanish word cuajar meaning to set. This vegan adaptation replaces the traditional eggs with a savory chickpea batter to bind the spiced mashed potatoes. It remains a golden and fluffy staple of Djerban cuisine that is perfect for a room temperature Shabbat lunch.</p>
           </div>
         </div>
       </div>
@@ -450,7 +918,7 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">4–6</span>
+          <span class="meta-value">6-8</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
@@ -458,11 +926,11 @@ h2 {
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">40 min</span>
+          <span class="meta-value">45 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
-          <span class="meta-value">Medium</span>
+          <span class="meta-value">Easy</span>
         </div>
       </div>
 
@@ -474,62 +942,77 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/cujada_dish.png" alt="Cujada dish">
+      <img class="hero-image" src="../images/current/028_cujada/dish.png" alt="Cujada (Potato and Egg Pie) dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>4 papas</li>
-              <li>2 tazas de harina de garbanzos mezclada con 2 tazas de agua (reemplazo de 8 huevos)</li>
-              <li>¼ cucharadita de polvo de hornear</li>
-              <li>Especias: cúrcuma, pimienta blanca, azafrán, ajo en polvo, sal</li>
-              <li>Caldo de verduras en polvo y levadura nutricional</li>
-              <li>Aceite para freír</li>
+              <li>4 patatas, peladas (medianas)</li>
+              <li>240 g de harina de garbanzo</li>
+              <li>600 ml de agua</li>
+              <li>4.8 g de levadura química</li>
+              <li>3 g de cúrcuma</li>
+              <li>1.2 g de pimienta blanca</li>
+              <li>11 g de caldo de verduras en polvo</li>
+              <li>3 g de ajo en polvo</li>
+              <li>3 g de sal negra (Kala Namak)</li>
+              <li>45 ml de aceite vegetal</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Hervir las papas hasta que estén suaves y hacerlas puré.</li>
-              <li class="step"><span class="step-num">2.</span>Condimentar con azafrán, pimienta blanca, caldo vegetal, levadura nutricional, sal y ajo.</li>
-              <li class="step"><span class="step-num">3.</span>Añadir la mezcla de harina de garbanzos, agua y polvo de hornear; mezclar bien.</li>
-              <li class="step"><span class="step-num">4.</span>Calentar aceite en una olla apta para horno, verter la mezcla y sofreír brevemente hasta que la base cuaje.</li>
-              <li class="step"><span class="step-num">5.</span>Transferir al horno y hornear hasta que al insertar un palillo salga seco.</li>
+              <li class="step"><span class="step-num">1.</span>Hierva las patatas en agua hasta que estén completamente blandas.</li>
+              <li class="step"><span class="step-num">2.</span>Escurra las patatas y májelas bien en un bol grande.</li>
+              <li class="step"><span class="step-num">3.</span>Condimente el puré de patatas con cúrcuma, pimienta blanca, caldo en polvo, sal, ajo en polvo y la levadura química. Mezcle bien.</li>
+              <li class="step"><span class="step-num">4.</span>Añada la mezcla de harina de garbanzo y agua (sustituto de huevo) al puré y mezcle hasta obtener una masa uniforme.</li>
+              <li class="step"><span class="step-num">5.</span>Precaliente el horno a 180°C. Vierta el aceite en una olla apta para horno o fuente profunda y caliéntelo hasta que esté bien caliente.</li>
+              <li class="step"><span class="step-num">6.</span>Vierta con cuidado la mezcla de patata en el aceite caliente.</li>
+              <li class="step"><span class="step-num">7.</span>Hornee hasta que el pastel cuaje, esté dorado por encima y al insertar un palillo en el centro salga seco.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>4 תפוחי אדמה</li>
-              <li>2 כוסות קמח חומוס מעורבב עם 2 כוסות מים (תחליף ל-8 ביצים)</li>
-              <li>¼ כפית אבקת אפייה</li>
-              <li>תבלינים: כורכום, פלפל לבן, זעפרן, אבקת שום, מלח</li>
-              <li>אבקת מרק ירקות עשירה ושמרי בירה (לכיזוב טעם הביצים)</li>
-              <li>שמן לטיגון</li>
+              <li>4 תפוחי אדמה, קלופים (בינוניים)</li>
+              <li>240 גרם קמח חומוס</li>
+              <li>600 מ&quot;ל מים</li>
+              <li>4.8 גרם אבקת אפייה</li>
+              <li>3 גרם כורכום</li>
+              <li>1.2 גרם פלפל לבן</li>
+              <li>11 גרם אבקת מרק ירקות</li>
+              <li>3 גרם אבקת שום</li>
+              <li>3 גרם מלח הודי שחור (קאלה נמק)</li>
+              <li>45 מ&quot;ל שמן צמחי</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מבשלים את תפוחי האדמה במים עד לריכוך מלא ומועכים אותם לפירה.</li>
-              <li class="step"><span class="step-num">2.</span>מתבלים בזעפרן, פלפל לבן, אבקת מרק, שמרי בירה, מלח ושום.</li>
-              <li class="step"><span class="step-num">3.</span>מוסיפים את תערובת קמח החומוס והמים עם אבקת האפייה ומערבבים היטב.</li>
-              <li class="step"><span class="step-num">4.</span>מחממים מעט שמן בסיר (שאפשר להכניס לתנור), יוצקים את התערובת ומטגנים קלות עד שהתחתית מתייצבת.</li>
-              <li class="step"><span class="step-num">5.</span>מעבירים לתנור ואופים עד שקיסם שננעץ במרכז יוצא יבש.</li>
+              <li class="step"><span class="step-num">1.</span>הרתיחו את תפוחי האדמה במים עד שהם רכים לחלוטין.</li>
+              <li class="step"><span class="step-num">2.</span>סננו את תפוחי האדמה ומעכו אותם היטב בקערה גדולה.</li>
+              <li class="step"><span class="step-num">3.</span>תבלו את מחית תפוחי האדמה בכורכום, פלפל לבן, אבקת מרק, מלח, אבקת שום ואבקת האפייה. ערבבו היטב.</li>
+              <li class="step"><span class="step-num">4.</span>הוסיפו את תערובת קמח החומוס והמים (תחליף הביצים) למחית תפוחי האדמה וערבבו עד לקבלת בלילה אחידה.</li>
+              <li class="step"><span class="step-num">5.</span>חממו תנור ל-180 מעלות. צקו את השמן לסיר חסין חום או תבנית עמוקה וחממו אותו (על הכיריים או בתנור) עד שהוא חם.</li>
+              <li class="step"><span class="step-num">6.</span>צקו בזהירות את תערובת תפוחי האדמה לתוך השמן החם.</li>
+              <li class="step"><span class="step-num">7.</span>אפו בתנור עד שהפשטידה מתייצבת, מזהיבה מלמעלה, וקיסם הננעץ במרכז יוצא יבש.</li>
             </ul>
           </div>
         </div>
@@ -540,56 +1023,71 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>4 potatoes</li>
-              <li>2 cups chickpea flour mixed with 2 cups water (replaces 8 eggs)</li>
-              <li>¼ tsp baking powder</li>
-              <li>Spices: turmeric, white pepper, saffron, garlic powder, salt</li>
-              <li>Rich vegetable broth powder and nutritional yeast</li>
-              <li>Oil for frying</li>
+              <li>4 potatoes, peeled (medium)</li>
+              <li>2 cups chickpea flour (Besan)</li>
+              <li>2.5 cups water</li>
+              <li>1 tsp baking powder</li>
+              <li>1 tsp turmeric</li>
+              <li>0.5 tsp white pepper</li>
+              <li>1 tbsp vegetable bouillon powder</li>
+              <li>1 tsp garlic powder</li>
+              <li>0.5 tsp Kala Namak (Black Salt)</li>
+              <li>3 tbsp vegetable oil</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Boil potatoes until fully soft and mash them.</li>
-              <li class="step"><span class="step-num">2.</span>Season with saffron, white pepper, broth powder, nutritional yeast, salt, and garlic.</li>
-              <li class="step"><span class="step-num">3.</span>Add the chickpea flour mixture and baking powder, mixing thoroughly.</li>
-              <li class="step"><span class="step-num">4.</span>Heat oil in an oven-safe pot, pour in the mixture, and fry briefly to set the bottom.</li>
-              <li class="step"><span class="step-num">5.</span>Transfer to the oven and bake until a toothpick inserted in the center comes out dry.</li>
+              <li class="step"><span class="step-num">1.</span>Boil the potatoes in water until they are completely soft.</li>
+              <li class="step"><span class="step-num">2.</span>Drain the potatoes and mash them well in a large bowl.</li>
+              <li class="step"><span class="step-num">3.</span>Season the mashed potatoes with turmeric, white pepper, vegetable bouillon powder, salt, garlic powder, and baking powder. Mix well.</li>
+              <li class="step"><span class="step-num">4.</span>Add the chickpea flour mixture (egg replacer) to the potato mixture and mix until fully combined into a uniform batter.</li>
+              <li class="step"><span class="step-num">5.</span>Preheat oven to 180°C (350°F). Pour the oil into an oven-safe pot or deep baking dish and heat it (on the stove or in the oven) until hot.</li>
+              <li class="step"><span class="step-num">6.</span>Carefully pour the potato mixture into the hot oil.</li>
+              <li class="step"><span class="step-num">7.</span>Bake in the oven until the pie is set, golden on top, and a toothpick inserted into the center comes out dry.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>4 كعبات بطاطا</li>
-              <li>2 كيسان فرينة حمص مخلطة مع 2 كيسان ماء (في عوض 8 عظمات)</li>
-              <li>¼ مغرفة صغيرة خميرة قاطو</li>
-              <li>توابل: كركم، فلفل أبيض، زعفران، ثوم مرحي، ملح</li>
-              <li>بودرة مرقة خضرة وخميرة غذائية (باش تعطي طعمة بنينة)</li>
-              <li>زيت للقلي</li>
+              <li>4 كعبات بطاطا، مقشرين (متوسطين)</li>
+              <li>2 كيسان دقيق حمص</li>
+              <li>2.5 كيسان ماء</li>
+              <li>مغرفة صغيرة خميرة قاطو</li>
+              <li>مغرفة صغيرة كركم</li>
+              <li>نص مغرفة صغيرة فلفل أبيض</li>
+              <li>مغرفة كبيرة بودرة مرقة خضرة</li>
+              <li>مغرفة صغيرة ثوم مرحي</li>
+              <li>نص مغرفة صغيرة ملح كالا ناماك (للنكهة)</li>
+              <li>3 مغارف زيت</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>اسمط البطاطا في الماء حتى تطيب مليح وارحيها.</li>
-              <li class="step"><span class="step-num">2.</span>فوّحها بالزعفران، فلفل أبيض، بودرة مرقة خضرة، خميرة غذائية، ملح وثوم.</li>
-              <li class="step"><span class="step-num">3.</span>زيد خليط فرينة الحمص والماء مع خميرة القاطو وخلّط كل شيء.</li>
-              <li class="step"><span class="step-num">4.</span>سخّن شوي زيت في طنجرة (تدخل للفور)، صب الخليط وقلّيه شوي لين تشد روحها من لوطة.</li>
-              <li class="step"><span class="step-num">5.</span>دخّله للفور حتى يطيب ويشيح (جرّب بكيراس الأسنان).</li>
+              <li class="step"><span class="step-num">1.</span>اسمط البطاطا في الماء لين تطيب وتولي طرية بالباهي.</li>
+              <li class="step"><span class="step-num">2.</span>قطّر البطاطا وارفسها مليح في صحفة كبيرة.</li>
+              <li class="step"><span class="step-num">3.</span>فوّح البطاطا المرفوسة بالكركم، فلفل أبيض، بودرة المرقة، ملح، ثوم مرحي والخميرة. خلط مليح.</li>
+              <li class="step"><span class="step-num">4.</span>زيد خليط دقيق الحمص والماء (في بلاصة العظم) للبطاطا وخلط لين تولي عجينة متجانسة.</li>
+              <li class="step"><span class="step-num">5.</span>سخّن الفور لـ 180 درجة. صب الزيت في طنجرة تدخل للفور ولا طبق غارق وسخنه لين يولي حامي.</li>
+              <li class="step"><span class="step-num">6.</span>صب خليط البطاطا بالشوية في الزيت السخون.</li>
+              <li class="step"><span class="step-num">7.</span>طيّبها في الفور لين تشد روحها، وتحمار من فوق، وكي تجرب بكوندون يخرج شايح.</li>
             </ul>
           </div>
         </div>

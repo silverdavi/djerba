@@ -7,7 +7,7 @@
   "name_origin": "The term 'Mami' (מאמי) in this context is not a specific culinary root but a familial honorific derived from the French 'Mamie' (Grandma). Following the French Protectorate in Tunisia (1881–1956), many Tunisian Jewish families adopted French familial terms. The cake itself—a soft honey cake using coffee and spices—is likely a local adaptation of the French 'Pain d'épices' or an adoption of the Ashkenazi 'Lekach' which became popular in Israel and the diaspora, rather than an ancient Djerban dish (which would typically be 'Boulou'). The Hebrew 'Ougat Dvash' is a modern descriptive translation. (Confidence: likely)",
   "description": "A traditional moist honey cake, essential for Rosh Hashanah. This recipe uses coffee to deepen the color and flavor, balanced with warm spices like cinnamon and cloves.",
   "cultural_context": "Honey cake (Lekach) is traditionally eaten during the Jewish High Holidays, specifically Rosh Hashanah, to symbolize the wish for a sweet new year. In North African families, these cakes are often darkened with tea or coffee.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with applesauce or flax eggs; use agave or date syrup instead of honey.",
   "meta": {
     "servings": "10-12",
@@ -18,21 +18,30 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 5,
-      "unit": "unit",
-      "size": "large",
-      "preparation": null,
-      "notes": "room temperature",
+      "ingredient_id": "applesauce",
+      "name": "Unsweetened applesauce",
+      "amount": 240,
+      "unit": "g",
+      "size": null,
+      "preparation": "smooth",
+      "notes": "(approx. 1 cup) - replaces eggs",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 240,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
         "original": {
-          "value": 5,
-          "unit": "unit"
+          "value": 240,
+          "unit": "g"
         }
       }
     },
@@ -93,13 +102,13 @@
       }
     },
     {
-      "ingredient_id": "honey",
-      "name": "Honey",
+      "ingredient_id": "agave_or_silan",
+      "name": "Agave nectar or Date syrup (Silan)",
       "amount": 170,
       "unit": "g",
       "size": null,
       "preparation": null,
-      "notes": "(approx. 1/2 cup)",
+      "notes": "(approx. 1/2 cup) - replaces honey",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -287,6 +296,34 @@
           "unit": "tsp"
         }
       }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "essential for lift in vegan honey cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
     }
   ],
   "steps": [
@@ -336,7 +373,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/042_honey_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A hyper-realistic close-up of a sliced vegan honey cake loaf resting on an antique ceramic platter with intricate blue patterns. The cake has a deep mahogany color derived from coffee and date syrup with a visibly moist and tender crumb structure. Several thick slices are cut to reveal the soft, airy texture, proving its plant-based lightness. The setting is a sunlit stone kitchen in early 1900s Safed with textured limestone walls in the background. Beside the cake sits a vintage glass cup of black coffee and scattered cinnamon sticks and whole cloves. The lighting is warm and natural, highlighting the sticky, glossy top of the dessert. The composition is rustic and inviting, evoking a sense of holiday tradition and warmth."
   },
   "tags": [
     "dessert",
@@ -391,5 +429,19 @@
       "key_difference": "Basbousa is semolina-based and soaked in syrup after baking, whereas this Honey Cake has the sweetener (honey) baked into the batter."
     }
   ],
-  "intro_paragraph": "Mami’s Honey Cake derives its title from the French term for grandmother, a linguistic remnant of the Protectorate era. Essential for Rosh Hashanah to symbolize a sweet new year, this moist loaf is enriched with strong coffee and warm spices like cinnamon, creating a darker, more aromatic variation of the classic holiday lekach."
+  "intro_paragraph": "Mami’s Honey Cake derives its name from the French word for grandmother reflecting the Protectorate era influence. This plant-based adaptation replaces eggs with applesauce while maintaining the classic moist texture. Enriched with strong coffee and warm spices like cinnamon it symbolizes a sweet new year.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Eggs (5 large)",
+      "replacement": "Unsweetened applesauce and baking soda",
+      "notes": "Applesauce provides moisture and binding, while baking soda reacts with the acidity to provide lift in the absence of eggs."
+    },
+    {
+      "original": "Honey",
+      "replacement": "Agave nectar or Date syrup (Silan)",
+      "notes": "Agave mimics the neutral sweetness of honey, while Silan offers a deeper, more traditional Middle Eastern flavor."
+    }
+  ],
+  "veganization_complete": true
 }

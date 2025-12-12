@@ -9,55 +9,55 @@
   },
   "name": {
     "he": "תירשי",
-    "es": "Tirshi (Ensalada de Calabaza Tunecina)",
-    "ar": "تيرشي (سلطة قرع تونسية)",
+    "es": "Tirshi (Ensalada Tunecina de Calabaza)",
+    "ar": "تيرشي (سلاطة قرع تونسية)",
     "en": "Tirshi (Tunisian Pumpkin Salad)"
   },
   "description": {
-    "he": "תירשי נגזר מהמילה הערבית ל\"חמוצים\", בהתייחס לחמיצות החריפה המאפיינת סלט מבושל תוסס זה. עשוי מדלעת מעוכה מתובלת בכרוויה, שום וחומץ, הוא הופך את הדלעת המתוקה לממרח מלוח. מנה עיקרית במטבח הג'רבאי, המוגשת באופן מסורתי קרה כחלק מהקמיה של שבת.",
-    "es": "El Tirshi deriva de la palabra árabe para encurtidos, en referencia a la acidez aguda que define esta vibrante ensalada cocida. Hecho de calabaza triturada sazonada fuertemente con alcaravea, ajo y vinagre, transforma la calabaza dulce en un dip salado. Un elemento básico de la cocina de Djerba, se sirve tradicionalmente frío como parte de la kemia de Shabat.",
-    "ar": "التيرشي جاية من كلمة طرشي، وتدل على الحموضة القوية اللي تميز هالسلطة المطبوخة. تتعمل بالقرع المهروس والمفوح بالكروية والثوم والخل، وتحول القرع الحلو لصوص مالح وبنين. هي ركيزة في الماكلة الجربية، وتتقدم عادة باردة مع الكيمية نهار السبت.",
-    "en": "Tirshi derives from the Arabic for \"pickles,\" referencing the sharp acidity that defines this vibrant cooked salad. Made from mashed pumpkin seasoned heavily with caraway, garlic, and vinegar, it transforms sweet squash into a savory dip. A staple of Djerban cuisine, it is traditionally served cold as part of the Shabbat kemia."
+    "he": "תירשי נגזר מהמילה הערבית לחמוצים, בהתייחס לחמיצות החריפה המגדירה את הסלט המבושל התוסס הזה. עשוי מדלעת מעוכה מתובלת בשום ולימון, הוא הופך את הדלעת המתוקה למטבל מלוח. מנה טבעונית זו, שהיא חלק בלתי נפרד מהמטבח הג'רבאי, מוגשת באופן מסורתי קרה כחלק משולחן השבת.",
+    "es": "El Tirshi deriva de la palabra árabe para encurtidos, haciendo referencia a la acidez aguda que define esta vibrante ensalada cocida. Hecho de calabaza triturada sazonada con ajo y limón, transforma la calabaza dulce en un dip sabroso. Este plato básico de la cocina de Djerba, naturalmente vegano, se sirve tradicionalmente frío como parte de la mesa de Shabat.",
+    "ar": "كلمة تيرشي جاية من كلمة طرشي، وهذا يرجع للمذاق الحامض والقوي اللي يميّز هالسلاطة المطيّبة. معمولة من القرع المهروس ومفوّحة بالثوم والقارص، وتحوّل القرع الحلو لصوص مالح وبنين. هالأكلة النباتية المشهورة في كوجينة جربة تتقدم عادة باردة مع كمية الشبات.",
+    "en": "Tirshi derives from the Arabic word for pickles, referencing the sharp acidity defining this vibrant cooked salad. Made from mashed pumpkin seasoned with garlic and lemon, it transforms sweet squash into a savory dip. This naturally vegan staple of Djerban cuisine is traditionally served cold as part of the Shabbat spread."
   },
   "ingredients": {
     "he": [
       "500 גרם דלעת או דלורית, קלופה וחתוכה לקוביות",
-      "1 תפוח אדמה, קטן, קלוף וחתוך לקוביות",
+      "1 תפוח אדמה קטן, קלוף וחתוך לקוביות",
       "30 מ\"ל שמן צמחי",
       "3 שיני שום, כתושות",
       "7 גרם פפריקה מתוקה",
-      "2.5 גרם כמון, טחון",
-      "30 מ\"ל מיץ לימון, סחוט טרי",
+      "2.5 גרם כמון טחון",
+      "30 מ\"ל מיץ לימון סחוט טרי",
       "מלח לפי הטעם"
     ],
     "es": [
       "500 g de calabaza, pelada y cortada en cubos",
-      "1 patata, pequeña, pelada y cortada en cubos",
+      "1 patata pequeña, pelada y cortada en cubos",
       "30 ml de aceite vegetal",
       "3 dientes de ajo, machacados",
       "7 g de pimentón dulce",
-      "2.5 g de comino, molido",
-      "30 ml de jugo de limón, recién exprimido",
+      "2.5 g de comino molido",
+      "30 ml de jugo de limón recién exprimido",
       "Sal al gusto"
     ],
     "ar": [
-      "3.5 كيسان قرع أحمر، مقشر ومقصوص مكعبات",
-      "1 كعبة بطاطا، صغيرة، مقشرة ومقصوصة مكعبات",
+      "3.5 كيسان قرع أحمر، مقشر ومقصوص",
+      "1 كعبة بطاطا صغيرة، مقشرة ومقصوصة",
       "2 مغارف زيت",
       "3 سنون ثوم، مرحي",
-      "1 مغرفة فلفل زينة (بابريكا)",
-      "1 مغرفة صغيرة كمون، مرحي",
+      "1 مغرفة فلفل أحمر (بابريكا)",
+      "1 مغرفة صغيرة كمون",
       "2 مغارف عصير قارص",
       "ملح حسب الذوق"
     ],
     "en": [
       "3.5 cups pumpkin or butternut squash, peeled and cubed",
-      "1 potato, small, peeled and cubed",
+      "1 small potato, peeled and cubed",
       "2 tbsp vegetable oil",
-      "3 garlic cloves, crushed",
-      "1 tbsp paprika",
-      "1 tsp cumin, ground",
-      "2 tbsp lemon juice, freshly squeezed",
+      "3 cloves garlic, crushed",
+      "1 tbsp sweet paprika",
+      "1 tsp ground cumin",
+      "2 tbsp fresh lemon juice",
       "Salt to taste"
     ]
   },
@@ -70,18 +70,18 @@
       "מגישים קר או בטמפרטורת החדר."
     ],
     "es": [
-      "Hervir los cubos de calabaza (y la patata, si se usa) en agua hasta que estén completamente tiernos.",
-      "Escurrir bien las verduras. Es importante eliminar la mayor cantidad de agua posible para evitar que el dip quede aguado.",
-      "Triturar las verduras con un tenedor mientras aún están calientes.",
-      "Añadir el aceite, el ajo machacado, el pimentón, el comino, la sal y el jugo de limón. Mezclar bien para combinar.",
-      "Servir frío o a temperatura ambiente."
+      "Hierva los cubos de calabaza (y la patata, si la usa) en agua hasta que estén completamente tiernos y suaves.",
+      "Escurra bien las verduras. Es importante eliminar la mayor cantidad de agua posible para evitar que el dip quede aguado.",
+      "Triture las verduras con un tenedor mientras aún estén calientes.",
+      "Añada el aceite, el ajo machacado, el pimentón, el comino, la sal y el jugo de limón. Mezcle bien para combinar.",
+      "Sirva frío o a temperatura ambiente."
     ],
     "ar": [
-      "تغلي مكعبات القرع (والبطاطا كان باش تحطها) في الماء لين يطيبوا ويوليو طريين بالباهي.",
-      "تقطر الخضرة بالباهي. لازم تنحي الماء الكل باش التيرشي ما يجيش مايه برشا.",
+      "تغلي القرع (والبطاطا كان باش تستعملها) في الماء لين يطيبوا ويوليو طرايا بالباهي.",
+      "تقطّر الخضرة بالباهي. لازم تنحي الماء الكل باش التيرشي ما يجيش مايه برشا.",
       "ترفس الخضرة بالفرشيطة وهي مازالت سخونة.",
-      "تزيد الزيت، والثوم المرحي، وفلفل الزينة، والكمون، والملح، وعصير القارص. تخلطهم بالباهي مع بعضهم.",
-      "تقدم باردة ولا بدرجة حرارة الغرفة."
+      "تزيد الزيت، الثوم المرحي، الفلفل الأحمر، الكمون، الملح وعصير القارص. تخلطهم بالباهي مع بعضهم.",
+      "تقدم باردة ولا بحرارة الغرفة."
     ],
     "en": [
       "Boil the pumpkin cubes (and potato, if using) in water until completely soft and tender.",

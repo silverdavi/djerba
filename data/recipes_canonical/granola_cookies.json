@@ -7,7 +7,7 @@
   "name_origin": "The name is a modern Hebrew construction consisting of two parts. 'Ugiot' (עוגיות) is the plural of 'Ugiah', the Modern Hebrew word for cookie/cake, derived from the Biblical root 'Oog' (ע-ו-ג) meaning 'to draw a circle' or 'round', referring to the shape of traditional baked goods (seen in Biblical Hebrew 'Ugah'). 'Granola' is a direct loanword from English. The term 'Granola' was coined in the United States in the late 19th century by W.K. Kellogg (modified from James Caleb Jackson's 'Granula') based on the Latin root 'granum' (grain). This dish represents the modernization of the North African Jewish kitchen, incorporating Western/Israeli baking trends.",
   "description": "Rich and chewy oatmeal cookies packed with walnuts, raisins, and chocolate chips. These cookies have a soft center with crispy edges, enriched with dark brown sugar and cinnamon.",
   "cultural_context": "While found in a North African Jewish family collection, this is a modern Western-style baking recipe, likely adopted for its hearty ingredients and pareve adaptability (if margarine is substituted, though butter is specified here).",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace butter with vegan butter or coconut oil, and replace eggs with flax eggs or applesauce.",
   "meta": {
     "servings": "25-30 cookies",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "butter",
-      "name": "Butter",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan butter block",
       "amount": 250,
       "unit": "g",
       "preparation": "softened",
-      "notes": null,
+      "notes": "Do not melt; soften at room temperature",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -99,38 +99,56 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 2,
-      "unit": "unit",
-      "preparation": "whole",
-      "notes": null,
+      "ingredient_id": "ground_flaxseeds",
+      "name": "Ground flaxseeds",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Mix with water to replace eggs",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 21,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.75,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
         "original": {
-          "value": 2,
-          "unit": "unit"
+          "value": 3,
+          "unit": "tbsp"
         }
       }
     },
     {
-      "ingredient_id": "egg_yolk",
-      "name": "Egg yolk",
-      "amount": 1,
-      "unit": "unit",
+      "ingredient_id": "water",
+      "name": "Warm water",
+      "amount": 9,
+      "unit": "tbsp",
       "preparation": null,
-      "notes": "additional to the whole eggs",
+      "notes": "To mix with flaxseeds",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 135,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
         "original": {
-          "value": 1,
-          "unit": "unit"
+          "value": 9,
+          "unit": "tbsp"
         }
       }
     },
@@ -248,7 +266,7 @@
       "amount": 350,
       "unit": "g",
       "preparation": null,
-      "notes": "Source text contained a volume typo; weight is accurate",
+      "notes": "Use old-fashioned oats, not instant",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -324,8 +342,8 @@
       }
     },
     {
-      "ingredient_id": "chocolate_chips",
-      "name": "Chocolate chips",
+      "ingredient_id": "vegan_chocolate_chips",
+      "name": "Vegan dark chocolate chips",
       "amount": 200,
       "unit": "g",
       "preparation": null,
@@ -398,7 +416,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/036_granola_cookies/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic close-up shot of a ceramic plate piled high with golden-brown vegan granola cookies, set in a sunlit stone kitchen typical of early 1900s Safed. The cookies feature a textured surface visible with rolled oats, chunks of walnuts, plump raisins, and melted vegan dark chocolate chips. They have crispy caramelized edges and soft chewy centers. The lighting is warm and natural, streaming through an arched window, highlighting the craggy texture of the oats and the sheen of the chocolate. In the background, blurred slightly, is an antique wooden table with a linen cloth, a glass jar of rolled oats, and a small bowl of ground flaxseeds to indicate the plant-based ingredients. The stone walls of the room provide a cool, textured contrast to the warm, inviting baked goods. The scene evokes a cozy, nostalgic atmosphere, blending traditional baking aesthetics with modern vegan adaptation."
   },
   "tags": [
     "cookies",
@@ -446,5 +465,24 @@
       "key_difference": "The Jewish version is often made parve (non-dairy) using oil or margarine instead of butter to be eaten after meat meals."
     }
   ],
-  "intro_paragraph": "Ugiot Granola combines the Modern Hebrew word for cookies—derived from a Biblical root meaning \"round\"—with the American breakfast staple. These chewy oatmeal cookies are packed with walnuts, raisins, and chocolate chips. Though a modern Western addition to the family repertoire, their hearty texture and dark brown sugar richness make them a beloved staple alongside traditional sweets."
+  "intro_paragraph": "Ugiot Granola combines the Hebrew word for round baked goods with the American breakfast staple. This vegan adaptation replaces traditional dairy and eggs with plant-based alternatives while maintaining the beloved chewy texture. Packed with walnuts and dark chocolate, these cookies honor the modern evolution of Jewish cuisine.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Butter",
+      "replacement": "Vegan butter block",
+      "notes": "Use a firm block style rather than tub margarine for better cookie structure"
+    },
+    {
+      "original": "Eggs and Egg yolk",
+      "replacement": "Flax eggs",
+      "notes": "Mixture of ground flaxseeds and warm water to bind the oats"
+    },
+    {
+      "original": "Chocolate chips",
+      "replacement": "Vegan dark chocolate chips",
+      "notes": "Ensure 60% cocoa or higher and dairy-free"
+    }
+  ],
+  "veganization_complete": true
 }

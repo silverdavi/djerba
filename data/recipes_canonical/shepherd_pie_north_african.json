@@ -7,7 +7,7 @@
   "name_origin": "The Hebrew name 'Pai Ro'im' is a direct calque (literal word-for-word translation) of the English 'Shepherd's Pie'. It is not a traditional Judeo-Arabic or Ladino term from Djerba. The dish itself, however, likely entered the North African Jewish repertoire via the French colonial influence in Tunisia (1881–1956), based on the French dish 'Hachis Parmentier'. The Djerban/Tunisian adaptation involves replacing butter/milk with oil/chicken fat (to keep it Kosher/Pareve for meat meals) and coloring the potatoes with turmeric, a staple spice in Tunisian cooking.",
   "description": "A comforting casserole featuring a savory layer of spiced ground meat sandwiched between two layers of golden, turmeric-infused mashed potatoes. This version incorporates shawarma spices and chicken seasoning, typical of Israeli and North African home cooking.",
   "cultural_context": "While Shepherd's Pie is Western, this specific preparation—using turmeric in the potatoes and shawarma spice in the meat—reflects the flavor profile common in Djerban and Israeli kitchens. It is often served as a Shabbat lunch dish or a hearty weeknight meal.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace ground meat with plant-based mince or lentils; use vegetable bouillon instead of chicken seasoning.",
   "meta": {
     "servings": "4-6",
@@ -72,12 +72,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_seasoning_powder",
-      "name": "Chicken seasoning powder (Pareve)",
+      "ingredient_id": "vegan_bouillon",
+      "name": "Vegan chicken-style bouillon powder",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "divided use (for mash and meat)",
+      "notes": "divided use (for mash and filling)",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -126,12 +126,12 @@
       }
     },
     {
-      "ingredient_id": "ground_beef",
-      "name": "Ground beef",
+      "ingredient_id": "plant_based_mince",
+      "name": "Plant-based mince",
       "amount": 500,
       "unit": "g",
       "preparation": null,
-      "notes": null,
+      "notes": "soy crumbles, seitan, or lentil-walnut mix",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -158,7 +158,7 @@
       "amount": 2,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "for frying meat",
+      "notes": "for frying mince",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -185,7 +185,7 @@
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "for the meat",
+      "notes": "for the filling",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -340,7 +340,8 @@
   ],
   "image": {
     "filename": "images/current/081_shepherds_pie/dish.png",
-    "prompt": "Casserole dish with layers of yellow turmeric mashed potatoes and spiced ground beef, slice removed showing the layers, rustic kitchen setting"
+    "prompt": "Casserole dish with layers of yellow turmeric mashed potatoes and spiced ground beef, slice removed showing the layers, rustic kitchen setting",
+    "generation_prompt": "A rustic ceramic casserole dish sits on a weathered wooden table inside an early 1900s stone kitchen in Safed. The dish contains a North African style vegan Shepherd's Pie featuring vibrant golden-yellow mashed potatoes infused with turmeric. A slice has been removed to reveal the distinct layers: a bottom layer of yellow potato, a rich dark brown savory filling made of spiced lentils and plant-based mince, and a top layer of crispy golden potato with fork-tine patterns. Soft natural light streams through a small arched window, illuminating the steam rising from the hot casserole. Surrounding the dish are small bowls of raw turmeric powder, whole peppercorns, and a vintage metal spoon. The texture of the potato looks fluffy and creamy, while the plant-based meat filling appears juicy and robustly spiced. The atmosphere is warm, inviting, and steeped in history."
   },
   "tags": [
     "meat",
@@ -401,5 +402,19 @@
       "key_difference": "In Batata Mbatna, raw potato slices are stuffed with meat and then fried/stewed, rather than using mashed potatoes."
     }
   ],
-  "intro_paragraph": "Pai Ro'im, a direct Hebrew translation of \"Shepherd's Pie,\" likely evolved from the French *hachis parmentier* introduced during Tunisia's colonial era. This kosher adaptation replaces butter with oil, sandwiching savory, shawarma-spiced ground beef between layers of turmeric-infused mashed potatoes. The result is a golden, comforting casserole often served for Shabbat lunch."
+  "intro_paragraph": "Pai Ro'im is the Hebrew translation of Shepherd's Pie and likely stems from the French hachis parmentier introduced in colonial Tunisia. This vegan adaptation replaces meat with savory plant-based mince while keeping the signature turmeric-infused potato layers. It creates a golden and comforting casserole perfect for a hearty Shabbat lunch.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Ground beef",
+      "replacement": "Plant-based mince (lentil-walnut mix or soy crumbles)",
+      "notes": "Provides the savory, crumbled texture of the original"
+    },
+    {
+      "original": "Chicken seasoning powder",
+      "replacement": "Vegan chicken-style bouillon or vegetable consommé",
+      "notes": "Maintains the savory umami depth without animal products"
+    }
+  ],
+  "veganization_complete": true
 }

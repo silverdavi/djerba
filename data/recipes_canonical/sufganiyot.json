@@ -7,7 +7,7 @@
   "name_origin": "The word derives from the Hebrew root S-F-G (ס-פ-ג), meaning 'to absorb' or 'sponge,' referring to the dough's spongy texture and its absorption of oil during deep-frying. The term 'Sufgan' (סופגן) appears in the Mishnah (Challah 1:4) and Tosefta referring to a spongy dough. The modern form 'Sufganiyah' was standardized by the Hebrew Language Committee (likely David Yellin) in the early 20th century to describe the Hanukkah doughnut. It shares an ancient etymological link with the Greek word 'spongos' and the Maghrebi Arabic word 'Sfenj'.",
   "description": "Recipe entry for Sufganiyot (Hanukkah doughnuts). Note: The source text for this recipe was blank, containing only the title.",
   "cultural_context": "Traditional fried dough eaten during Hanukkah to celebrate the miracle of the oil. In North African tradition, these are often similar to Sfenj (yeast dough rings) or Fricassee dough, though 'Sufganiyot' usually refers to the jelly-filled variety.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": null,
   "meta": {
     "servings": null,
@@ -16,12 +16,274 @@
     "total_time_minutes": null,
     "difficulty": "medium"
   },
-  "ingredients": [],
+  "ingredients": [
+    {
+      "name": "All-purpose flour",
+      "quantity": "500",
+      "unit": "g",
+      "notes": "Sifted",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Instant dry yeast",
+      "quantity": "1",
+      "unit": "tbsp",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Sugar",
+      "quantity": "50",
+      "unit": "g",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Warm soy milk",
+      "quantity": "240",
+      "unit": "ml",
+      "notes": "Or oat milk; roughly 1 cup",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Vegan butter",
+      "quantity": "60",
+      "unit": "g",
+      "notes": "Melted and cooled",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Brandy or Vodka",
+      "quantity": "1",
+      "unit": "tbsp",
+      "notes": "Optional; helps prevent oil absorption",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Vanilla extract",
+      "quantity": "1",
+      "unit": "tsp",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Salt",
+      "quantity": "0.5",
+      "unit": "tsp",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Vegetable oil",
+      "quantity": "1",
+      "unit": "L",
+      "notes": "For deep frying (canola or sunflower)",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Strawberry jam",
+      "quantity": "200",
+      "unit": "g",
+      "notes": "Smooth jam for filling",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Powdered sugar",
+      "quantity": "50",
+      "unit": "g",
+      "notes": "For dusting",
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    }
+  ],
   "steps": [],
   "variants": null,
   "image": {
     "filename": "images/current/086_sufganiyot/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, close-up shot of a rustic ceramic platter piled high with golden-brown vegan Sufganiyot. The doughnuts are puffy and round, generously dusted with a snow-white layer of powdered sugar that contrasts with the golden fried dough. A vibrant drop of red strawberry jam peeks out from the top center of the foremost doughnut. The setting is an authentic early 1900s stone kitchen in Safed, featuring textured limestone walls and a worn wooden table. Warm, natural window light illuminates the scene, highlighting the fine texture of the sugar and the steam rising gently from the fresh pastries. In the background, a vintage brass menorah and a small bowl of raw strawberry jam sit on a woven cloth. The composition focuses on the airy texture and festive sweetness of this plant-based Hanukkah treat."
   },
   "tags": [
     "dessert",
@@ -85,5 +347,24 @@
       "key_difference": "Made from a batter poured through a funnel (funnel cake style) and soaked in syrup, rather than a risen dough ball."
     }
   ],
-  "intro_paragraph": "Sufganiyot derive their name from the Hebrew root meaning \"to absorb,\" referencing how the spongy yeast dough soaks up oil during deep-frying. Eaten during Hanukkah to commemorate the miracle of the oil, these golden treats are traditionally filled with strawberry jam and dusted with powdered sugar, though Djerban versions often resemble the simpler, ring-shaped sfenj."
+  "intro_paragraph": "Sufganiyot get their name from the Hebrew root for \"sponge\" because the dough absorbs oil while frying. This vegan adaptation creates airy, golden rounds without eggs or dairy. Traditionally eaten during Hanukkah to celebrate the miracle of the oil, they are filled with sweet jam and dusted with sugar.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Eggs",
+      "replacement": "None (hydration adjusted)",
+      "notes": "Traditional yeast doughs can be made fluffy without eggs by ensuring proper hydration and kneading."
+    },
+    {
+      "original": "Milk",
+      "replacement": "Warm soy or oat milk",
+      "notes": "Provides the liquid base for the dough."
+    },
+    {
+      "original": "Butter",
+      "replacement": "Melted vegan butter or coconut oil",
+      "notes": "Enriches the dough for a tender crumb."
+    }
+  ],
+  "veganization_complete": true
 }

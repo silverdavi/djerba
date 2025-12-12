@@ -7,7 +7,7 @@
   "name_origin": "The name is derived from the Arabic root 'ḥ-r-m' (حرم), meaning 'forbidden', 'sacred', or 'taboo'. The specific form 'Chraime' (or 'Hraime') follows the Arabic diminutive pattern (Fu'ayl), literally translating to 'a little forbidden thing' or 'a little sin'. This is a metaphorical name, likely referring to the intense, 'punishing' heat of the dish or the idea that it is so delicious it is sinful. It is important to correct the common misconception in the provided note: the Arabic word for 'hot/spicy' is 'ḥārr' (حار), not 'ḥarām'. However, the phonetics of 'Chraime' align with the root for 'forbidden' (ḥ-r-m), not 'hot' (ḥ-r-r). (Confidence: likely)",
   "description": "A classic North African Jewish spicy fish stew featuring a rich, thick red sauce made from garlic, paprika, tomato paste, and caraway. Traditionally served as the first course of the Shabbat dinner.",
   "cultural_context": "A staple of Libyan and Tunisian Jewish cuisine, specifically associated with Shabbat and holidays. Unlike Moroccan fish dishes which often include carrots and cilantro, Chraime relies heavily on the 'pilpelchuma' flavor profile (garlic and chili).",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace fish with firm tofu or thick slices of eggplant and potatoes.",
   "meta": {
     "servings": "4-6",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "white_fish",
-      "name": "White fish fillets (Sea Bass, Grouper, or Tilapia)",
+      "ingredient_id": "firm_tofu",
+      "name": "Firm Tofu",
       "amount": 1,
       "unit": "kg",
-      "preparation": "cut into portions",
-      "notes": null,
+      "preparation": "pressed, cut into triangles or thick slabs",
+      "notes": "Replaces white fish",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -38,6 +38,24 @@
         "original": {
           "value": 1,
           "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nori_sheets",
+      "name": "Nori Seaweed Sheets",
+      "amount": 2,
+      "unit": "sheets",
+      "preparation": "finely ground or crumbled",
+      "notes": "Essential for authentic sea flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "sheets"
         }
       }
     },
@@ -299,8 +317,8 @@
       "amount": 2,
       "unit": "unit",
       "preparation": "peeled and sliced into rounds",
-      "notes": "optional addition mentioned in instructions",
-      "is_optional": true,
+      "notes": "highly recommended for texture variety",
+      "is_optional": false,
       "measurements": {
         "metric": null,
         "imperial": null,
@@ -347,7 +365,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/045_hraime/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A hyper-realistic, atmospheric food photography shot set in a rustic 1900s stone-walled kitchen in Safed. The focal point is a wide, shallow earthenware casserole dish filled with Vegan Chraime. Large, thick triangular slabs of pan-seared firm tofu replace traditional fish, submerged in a glossy, intense crimson-red sauce made of tomato paste, garlic, and oil. The texture of the sauce is thick and rich, clinging to the tofu and slices of yellow potatoes. Finely crumbled nori flecks are visible in the sauce, hinting at the ocean flavor. Fresh green chili peppers are sliced on top for vibrant contrast. To the side, a braided Challah bread is torn open, ready for dipping. The lighting is moody and natural, casting soft shadows from the stone walls, highlighting the steam rising from the spicy stew. The scene evokes a warm, traditional Shabbat dinner atmosphere, emphasizing the authentic texture of the plant-based adaptation without losing the soul of the original North African dish."
   },
   "tags": [
     "north-african",
@@ -409,5 +428,14 @@
       "key_difference": "Uses wine and French herbs; lacks the aggressive chili heat and caraway of the Maghrebi version."
     }
   ],
-  "intro_paragraph": "Chraime—literally \"a little sin\" in Arabic, likely referencing its intense heat—is a staple spicy fish stew in Djerban and Libyan households. White fish simmers in a thick, concentrated sauce of garlic, paprika, tomato paste, and caraway. Traditionally served as the first course of Shabbat dinner, it requires plenty of bread to mop up the fiery gravy."
+  "intro_paragraph": "Derived from the Arabic word for forbidden, Chraime is named for its sinful spiciness. This plant-based version swaps traditional fish for firm tofu triangles simmered in the classic rich tomato and garlic sauce. Serve this fiery North African stew with fresh challah to soak up every drop of flavor.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "White fish fillets",
+      "replacement": "Firm tofu pressed and marinated with nori",
+      "notes": "Provides the protein structure and ocean flavor"
+    }
+  ],
+  "veganization_complete": true
 }

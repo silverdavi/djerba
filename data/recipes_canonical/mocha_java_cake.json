@@ -7,7 +7,7 @@
   "name_origin": "The name is not of Judeo-Arabic or North African origin, but rather a Western loan phrase adopted into the modern Israeli-Tunisian repertoire. 'Mocha' refers to the port city of Al Mokha in Yemen (historically the center of the coffee trade), and 'Java' refers to the Indonesian island. Together, 'Mocha Java' is historically the world's oldest coffee blend. In a culinary context, 'Mocha' has come to signify the combination of chocolate and coffee. The presence of this dish in a Djerban cookbook reflects the strong French and later Western influence on Tunisian Jewish cuisine during the 20th century, where French patisserie terms were adopted and adapted for Kosher (parve) requirements.",
   "description": "A rich, dairy-free (parve) chocolate coffee cake. The base is prepared by melting ingredients together for a fudgy texture, topped with a glossy coffee-chocolate ganache.",
   "cultural_context": "A typical modern Jewish-Israeli dessert recipe designed to be 'Parve' (dairy-free), allowing it to be served after a meat meal on Shabbat or holidays. It uses margarine and vegan whipping cream (common kosher substitutes) to achieve a rich texture without dairy.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer to make fully vegan.",
   "meta": {
     "servings": "10-12",
@@ -18,8 +18,8 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "margarine",
-      "name": "Margarine",
+      "ingredient_id": "vegan_margarine",
+      "name": "Vegan Margarine",
       "amount": 100,
       "unit": "g",
       "preparation": null,
@@ -131,7 +131,7 @@
       "amount": 200,
       "unit": "g",
       "preparation": "broken into pieces or chips",
-      "notes": "for the cake",
+      "notes": "dairy-free; for the cake",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -153,20 +153,29 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "ground_flaxseed",
+      "name": "Ground flaxseed",
       "amount": 3,
-      "unit": "unit",
-      "preparation": null,
-      "notes": "medium/large",
+      "unit": "tbsp",
+      "preparation": "mixed with 9 tbsp warm water",
+      "notes": "flax egg replacement for 3 eggs",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 21,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.75,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
         "original": {
           "value": 3,
-          "unit": "unit"
+          "unit": "tbsp"
         }
       }
     },
@@ -311,7 +320,7 @@
       "amount": 150,
       "unit": "g",
       "preparation": "broken into pieces or chips",
-      "notes": "for the glaze",
+      "notes": "dairy-free; for the glaze",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -431,7 +440,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/060_mocha_java_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A highly detailed, close-up shot of a sliced Mocha Java Cake resting on an antique ceramic platter with intricate blue patterns. The cake is dense and dark, exhibiting a rich fudgy texture, covered in a glossy, mirror-like chocolate coffee ganache that drips slightly down the sides. A slice is pulled away to reveal the moist, dense crumb structure achieved without eggs. Scattered around the plate are roasted coffee beans and shavings of dark chocolate. The setting is a rustic early 1900s stone kitchen in Safed, with soft natural light filtering through an arched window to illuminate the texture of the stone table. In the background, a vintage copper coffee pot and a small bowl of ground flaxseeds subtly suggest the vegan preparation method. The atmosphere is warm, nostalgic, and inviting, highlighting the artisanal quality of this plant-based dessert."
   },
   "tags": [
     "dessert",
@@ -481,5 +491,14 @@
       "key_difference": "Bouscoutou is a light, airy sponge (often citrus), whereas the Mocha Java is described as fudgy, rich, and dense."
     }
   ],
-  "intro_paragraph": "Mocha Java Cake combines chocolate and coffee in a dense, fudgy dessert named for the historic coffee blend from Yemen and Indonesia. A modern staple in Israeli-Djerban households, this recipe is strictly parve, utilizing margarine and non-dairy cream to create a rich finish suitable for serving after a traditional meat Shabbat dinner."
+  "intro_paragraph": "Named after the historic coffee trade ports of Mocha and Java, this dessert blends rich chocolate with bold coffee notes. This vegan adaptation replaces eggs with flax to maintain the signature fudgy texture. It is a decadent plant-based treat perfect for ending a festive meal.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "3 Eggs",
+      "replacement": "3 Flax Eggs (3 tbsp ground flaxseed + 9 tbsp warm water)",
+      "notes": "Provides binding and a fudgy texture"
+    }
+  ],
+  "veganization_complete": true
 }

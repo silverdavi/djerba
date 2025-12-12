@@ -9,75 +9,99 @@
   },
   "name": {
     "he": "פריקסה",
-    "es": "Fricassee",
+    "es": "Fricassee (Panecillos Tunecinos Fritos)",
     "ar": "فريكاسي",
-    "en": "Fricassee"
+    "en": "Fricassee (Tunisian Fried Sandwich Rolls)"
   },
   "description": {
-    "he": "פריקסה משתמש במונח הצרפתי לתבשיל כדי לתאר את הסופגניות המלוחות והמטוגנות הללו. מאכל אהוב במטבח היהודי בג'רבה המוגש לעתים קרובות בחגיגות, הלחמניות האווריריות והזהובות נחתכות וממולאות בטונה, ביצים קשות, תפוחי אדמה מבושלים, זיתים ואריסה, ליצירת כריך עשיר במרקם ותבלינים.",
-    "es": "El Fricassee se apropia del término francés para guiso para describir estas icónicas donas saladas fritas. Un alimento básico de la cocina judía de Djerba servido a menudo en celebraciones, estos bollos aireados y dorados se cortan y rellenan con atún, huevos duros, papas hervidas, aceitunas y harissa, creando un sándwich abundante rico en textura y especias.",
-    "ar": "الفريكاسي خذا الاسم الفرنساوي متاع المرقة باش يوصف هالبنادق المالحين والمقليين. هالأكلة معروفة برشة في كوجينة يهود جربة وتتقدم في الفرحات، كعيبات الفريكاسي الخفاف والذهبيين يتحلوا ويتحشاو بالطون، العظم المسموط، البطاطا المسموطة، الزيتون والهريسة، باش يعطيو سندويتش بنين ومعبي بالنكهات.",
-    "en": "Fricassee appropriates the French term for stew to describe these iconic savory fried doughnuts. A beloved staple of Djerban Jewish cuisine often served at celebrations, the airy, golden rolls are sliced and stuffed with tuna, hard-boiled eggs, boiled potatoes, olives, and harissa, creating a hearty sandwich rich in texture and spice."
+    "he": "הפריקסה שואל מונח צרפתי לתבשיל כדי לתאר את הכריכים המטוגנים הטוניסאיים המפורסמים הללו. בעוד שהבצק נשאר מסורתי, גרסה טבעונית זו מחליפה את הטונה והביצים במחית חומוס עשירה וטופו. הלחמניות הזהובות והאווריריות מלאות בתפוחי אדמה, זיתים ואריסה לביס חריף ומשביע.",
+    "es": "El Fricassee toma prestado un término francés de guiso para describir estos famosos sándwiches fritos tunecinos. Aunque la masa sigue siendo tradicional, esta adaptación vegana reemplaza el atún y los huevos con un puré de garbanzos y tofu. Los panecillos dorados y aireados están rellenos de papas, aceitunas y harissa para un bocado picante y satisfactorio.",
+    "ar": "الفريكاسي خذا اسمو من كلمة فرنساوي متاع مرقة باش يوصف هالسندويشات التونسية المقلية المشهورة. العجينة بقات هي بيدها، أما في هالنسخة النباتية بدلنا التن والعظم بحمص مرحي وطופو. الكعيبات الذهبيه والخفيفة معبية بالبطاطا والزيتون والهريسة لبنة حارة وتشبع.",
+    "en": "Fricassee borrows a French term for stew to describe these famous Tunisian fried sandwiches. While the dough remains traditional, this vegan adaptation replaces tuna and eggs with savory chickpea mash and tofu. The airy golden rolls are packed with potatoes, olives, and harissa for a spicy and satisfying bite."
   },
   "ingredients": {
     "he": [
-      "1 ק\"ג קמח, מנופה",
+      "1000 גרם קמח רב תכליתי, מנופה",
       "10 גרם שמרים יבשים",
       "100 גרם סוכר",
       "720 מ\"ל מים, חמימים",
-      "120 מ\"ל שמן צמחי (לבצק)",
+      "120 מ\"ל שמן צמחי, לבצק",
       "18 גרם מלח",
-      "שמן צמחי, לטיגון עמוק"
+      "שמן צמחי, לטיגון עמוק",
+      "250 גרם גרגירי חומוס, מבושלים ומעוכים גס",
+      "1 דף אצת נורי, מפורר דק",
+      "200 גרם טופו קשה, חתוך לקוביות",
+      "300 גרם תפוחי אדמה, מבושלים וחתוכים לקוביות",
+      "60 גרם ממרח אריסה",
+      "75 גרם זיתים שחורים, מגולענים"
     ],
     "es": [
-      "1 kg de harina, tamizada",
+      "1000 g de harina de trigo, tamizada",
       "10 g de levadura seca",
       "100 g de azúcar",
       "720 ml de agua, tibia",
-      "120 ml de aceite vegetal (para la masa)",
+      "120 ml de aceite vegetal, para la masa",
       "18 g de sal",
-      "Aceite vegetal, para freír"
+      "Aceite vegetal, para freír",
+      "250 g de garbanzos, cocidos y machacados",
+      "1 hoja de alga nori, desmenuzada finamente",
+      "200 g de tofu firme, en cubos",
+      "300 g de papas, hervidas y en cubos",
+      "60 g de pasta de harissa",
+      "75 g de aceitunas negras, deshuesadas"
     ],
     "ar": [
-      "8 كيسان فرينة، مغربلة",
+      "8 كيسان فرينة، منخولة",
       "1 مغرفة خميرة",
-      "نص كاس سكر",
+      "1/2 كاس سكر",
       "3 كيسان ماء، دافي",
-      "نص كاس زيت (للعجينة)",
+      "1/2 كاس زيت، للعجينة",
       "1 مغرفة ملح",
-      "زيت، للقليان"
+      "زيت، للقلي",
+      "1.5 كاس حمص، طايب ومرحي شوية",
+      "1 ورقة نوري، مفتفتة",
+      "1 كاس طופو يابس، مقصوص مكعبات",
+      "2 بطاطا، مسموطة ومقصوصة مكعبات",
+      "1/4 كاس هريسة",
+      "1/2 كاس زيتون أكحل، بلاش قلوب"
     ],
     "en": [
       "8 cups all-purpose flour, sifted",
       "1 tbsp dry yeast",
       "1/2 cup sugar",
       "3 cups water, warm",
-      "1/2 cup vegetable oil (for the dough)",
+      "1/2 cup vegetable oil, for the dough",
       "1 tbsp salt",
-      "Vegetable oil, for deep frying"
+      "Vegetable oil, for deep frying",
+      "1.5 cups chickpeas, cooked and roughly mashed",
+      "1 sheet nori seaweed, finely crumbled",
+      "1 cup firm tofu, cubed",
+      "2 medium potatoes, boiled and cubed",
+      "1/4 cup harissa paste",
+      "1/2 cup black olives, pitted"
     ]
   },
   "steps": {
     "he": [
       "מערבבים את הקמח, השמרים, הסוכר, המים, חצי כוס שמן והמלח. לשים היטב עד לקבלת בצק חלק.",
-      "מכסים את הבצק ומניחים לו לתפוח במשך כ-2 שעות.",
-      "יוצרים מהבצק לחמניות אליפטיות קטנות. מניחים אותן על משטח משומן היטב כדי למנוע הידבקות.",
+      "מכסים את הבצק ומתפיחים אותו למשך כשעתיים.",
+      "מעצבים את הבצק ללחמניות אובליות קטנות. מניחים אותן על משטח משומן היטב למניעת הידבקות.",
       "מתפיחים את הלחמניות המעוצבות למשך 30 דקות נוספות.",
-      "מחממים שמן עמוק בסיר או במטגנת. מטגנים את הלחמניות עד להזהבה משני הצדדים."
+      "מחממים שמן עמוק בסיר או בצ'יפסר. מטגנים את הלחמניות עד להזהבה משני הצדדים."
     ],
     "es": [
       "Combine la harina, la levadura, el azúcar, el agua, 1/2 taza de aceite y la sal. Amase bien hasta formar una masa suave.",
       "Cubra la masa y déjela levar durante aproximadamente 2 horas.",
-      "Forme pequeños bollos ovalados con la masa. Colóquelos sobre una superficie bien engrasada para evitar que se peguen.",
-      "Deje levar los bollos formados durante otros 30 minutos.",
-      "Caliente abundante aceite en una olla o freidora. Fría los bollos hasta que estén dorados por ambos lados."
+      "Forme pequeños rollos ovalados con la masa. Colóquelos sobre una superficie bien engrasada para evitar que se peguen.",
+      "Deje levar los rollos formados durante otros 30 minutos.",
+      "Caliente abundante aceite en una olla o freidora. Fría los rollos hasta que estén dorados por ambos lados."
     ],
     "ar": [
-      "خلط الفرينة، الخميرة، السكر، الماء، نص كاس زيت والملح. اعجن مليح لين تولي العجينة رطبة.",
+      "خلط الفرينة والخميرة والسكر والماء ونص كاس زيت والملح. اعجن مليح لين تولي العجينة رطبة.",
       "غطي العجينة وخليها تخمر حكاية ساعتين.",
-      "شكل العجينة كعيبات صغار بالطول. حطهم فوق بلاصة مدهونة بالزيت باش ما يلصقوش.",
-      "خلي الكعيبات يخمروا مرة أخرى لمدة 30 دقيقة.",
-      "سخن الزيت مليح في طنجرة ولا مقلة غارقة. اقلي الكعيبات لين يحمارو من الشيرتين."
+      "شكل العجينة كعيبات صغار بالطول. حطهم فوق بلاصة مدهونة مليح بالزيت باش ما يلصقوش.",
+      "خلي الكعيبات يزيدوا يخمروا 30 دقيقة أخرى.",
+      "سخن زيت غزير في طنجرة ولا مقلاة. اقلي الكعيبات لين يحماروا من الشيرتين."
     ],
     "en": [
       "Combine flour, yeast, sugar, water, 1/2 cup oil, and salt. Knead thoroughly to form a smooth dough.",

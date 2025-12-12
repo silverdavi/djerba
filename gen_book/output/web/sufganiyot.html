@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Sufganiyot – Four-Language Recipe</title>
+<title>Sufganiyot (Doughnuts) – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 71) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>Sufganiyot</span></div>
-        <div class="title-word lang-he"><span>סופגניות</span></div>
-        <div class="title-word lang-en"><span>Sufganiyot</span></div>
-        <div class="title-word lang-ar"><span>سوفجانيوت</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Sufganiyot (Donas)</span></div>
+        <div class="title-word lang-he title-medium"><span>סופגניות</span></div>
+        <div class="chapter-number"><span>71</span></div>
+        <div class="title-word lang-en title-small"><span>Sufganiyot (Doughnuts)</span></div>
+        <div class="title-word lang-ar title-medium"><span>سوفغانيوت</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>הסופגניות הן המאכל הסמלי של חנוכה בישראל, המציין את נס פך השמן. בעוד יהודי צפון אפריקה נוהגים לאכול ספינג&#x27; או יו-יו, הגרסה הממולאת הזו הפכה לאהובה בכל הקהילות. המתכון הטבעוני הזה משתמש ברסק תפוחים במקום ביצים לקבלת מרקם אוורירי.</p>
+            <p>הסופגניות מקבלות את שמן מהשורש העברי ס-פ-ג, כיוון שהבצק סופג את השמן בזמן הטיגון. גרסה טבעונית זו יוצרת עיגולים אווריריים וזהובים ללא ביצים או מוצרי חלב. באופן מסורתי הן נאכלות בחנוכה לציון נס פך השמן, ממולאות בריבה מתוקה ומפודרות באבקת סוכר.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Las Sufganiyot son las donas rellenas clásicas de Janucá en Israel, fritas para celebrar el milagro del aceite. Aunque en el norte de África es más común el Sfenj, estas donas rellenas son universales hoy en día. Esta versión vegana utiliza puré de manzana en lugar de huevos para una textura esponjosa.</p>
+            <p>Las Sufganiyot reciben su nombre de la raíz hebrea para &quot;esponja&quot; porque la masa absorbe el aceite al freírse. Esta adaptación vegana crea rondas doradas y aireadas sin huevos ni lácteos. Tradicionalmente consumidas durante Hanukkah para celebrar el milagro del aceite, se rellenan con mermelada dulce y se espolvorean con azúcar.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>سوفجانيوت هي فطاير مقلية ومعمرة بالمعجون، مشهورة في إسرائيل في عيد الحانوكا باش يتفكرو معجزة الزيت. الوصفة هذي نباتية (vegan)، استعملنا فيها &quot;compote&quot; متاع التفاح في بلاصة العظم باش تجي خفيفة وهشوشة، وهي بديل عصري للسفنج التقليدي.</p>
+            <p>السوفغانيوت خذاو اسمهم من الكلمة العبرية اللي تعني &quot;سفنجة&quot; خاطر العجينة تشرب الزيت وقت القليان. الوصفة النباتية هذه تعطينا كعبات مدورة، خفيفة ومحمرة بلاش عظم وبلاش حليب. في العادة ناكلوهم في حنوكة باش نحتفلو بمعجزة الزيت، ويبداو محشيين بالمعجون ومرشوشين بالسكر المحور.</p>
           </div>
           <div class="info-item lang-en">
-            <p>Sufganiyot are the iconic jelly-filled doughnuts of Hanukkah, fried to celebrate the miracle of the oil. While North African Jews traditionally serve Sfenj or Yo-yos, these filled pastries are now universal. This vegan adaptation uses applesauce instead of eggs to create a perfectly fluffy dough.</p>
+            <p>Sufganiyot get their name from the Hebrew root for &quot;sponge&quot; because the dough absorbs oil while frying. This vegan adaptation creates airy, golden rounds without eggs or dairy. Traditionally eaten during Hanukkah to celebrate the miracle of the oil, they are filled with sweet jam and dusted with sugar.</p>
           </div>
         </div>
       </div>
@@ -450,15 +918,15 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">20–25</span>
+          <span class="meta-value">None</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
-          <span class="meta-value">2 hrs</span>
+          <span class="meta-value">None min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">20 min</span>
+          <span class="meta-value">None min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
@@ -474,67 +942,64 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/sufganiyot_dish.png" alt="Sufganiyot dish">
+      <img class="hero-image" src="../images/current/086_sufganiyot/dish.png" alt="Sufganiyot (Doughnuts) dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.771rem; line-height: 1.28;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>1 kg de harina tamizada</li>
-              <li>2 cdas de levadura seca</li>
-              <li>1/2 taza de azúcar</li>
-              <li>2 tazas de leche de soja / almendra tibia</li>
-              <li>6 cdas de puré de manzana (sustituto de huevo)</li>
-              <li>100g de aceite de coco / margarina</li>
-              <li>1 cda de brandy o arak</li>
-              <li>Mermelada y azúcar glas para servir</li>
+              <li>500 g de harina de todo uso, tamizada</li>
+              <li>1 cucharada de levadura seca instantánea</li>
+              <li>50 g de azúcar</li>
+              <li>240 ml de leche de soja tibia (o leche de avena)</li>
+              <li>60 g de mantequilla vegana, derretida</li>
+              <li>1 cucharada de brandy o vodka</li>
+              <li>1 cucharadita de extracto de vainilla</li>
+              <li>0.5 cucharadita de sal</li>
+              <li>1 litro de aceite vegetal (para freír)</li>
+              <li>200 g de mermelada de fresa</li>
+              <li>50 g de azúcar glas</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mezclar harina, levadura y azúcar. Añadir leche tibia, puré de manzana, aceite, brandy y vainilla.</li>
-              <li class="step"><span class="step-num">2.</span>Amasar 5 min, añadir una pizca de sal y amasar 3 min más hasta obtener una masa suave.</li>
-              <li class="step"><span class="step-num">3.</span>Levar 1 hora. Dividir en bolas (50g) sobre papel horno y dejar levar de nuevo 30 min.</li>
-              <li class="step"><span class="step-num">4.</span>Freír en aceite hondo (170°C) 2 min por lado hasta dorar.</li>
-              <li class="step"><span class="step-num">5.</span>Rellenar con mermelada usando una jeringa y espolvorear azúcar glas.</li>
-            </ul>
+
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.804rem; line-height: 1.31;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>1 ק&quot;ג קמח לבן מנופה</li>
-              <li>2 כפות שמרים יבשים</li>
-              <li>1/2 כוס סוכר</li>
-              <li>2 כוסות חלב סויה / שקדים פושר</li>
-              <li>6 כפות רסק תפוחים (תחליף לביצים)</li>
-              <li>100 גרם שמן קוקוס / מרגרינה</li>
-              <li>1 כף ברנדי או ערק</li>
-              <li>ריבה ואבקת סוכר להגשה</li>
+              <li>500 גרם קמח רב-תכליתי, מנופה</li>
+              <li>1 כף שמרים יבשים</li>
+              <li>50 גרם סוכר</li>
+              <li>240 מ&quot;ל חלב סויה חמים (או חלב שיבולת שועל)</li>
+              <li>60 גרם חמאה טבעונית, מומסת</li>
+              <li>1 כף ברנדי או וודקה</li>
+              <li>1 כפית תמצית וניל</li>
+              <li>0.5 כפית מלח</li>
+              <li>1 ליטר שמן צמחי (לטיגון)</li>
+              <li>200 גרם ריבת תות, חלקה</li>
+              <li>50 גרם אבקת סוכר</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מערבבים קמח, שמרים וסוכר. מוסיפים חלב פושר, רסק תפוחים, שמן, ברנדי ווניל.</li>
-              <li class="step"><span class="step-num">2.</span>לשים 5 דקות, מוסיפים מעט מלח ולשים 3 דקות נוספות עד לקבלת בצק רך ודביק מעט.</li>
-              <li class="step"><span class="step-num">3.</span>מתפיחים בקערה משומנת כשעה. מחלקים לכדורים (50 גרם) ומניחים על ריבועי נייר אפייה להתפחה שנייה של 30 דקות.</li>
-              <li class="step"><span class="step-num">4.</span>מטגנים בשמן עמוק (170 מעלות) כ-2 דקות מכל צד עד להזהבה.</li>
-              <li class="step"><span class="step-num">5.</span>ממלאים בריבה בעזרת מזרק ובוזקים אבקת סוכר.</li>
-            </ul>
+
           </div>
         </div>
       </div>
@@ -544,61 +1009,58 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.795rem; line-height: 1.30;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>1 kg sifted flour</li>
-              <li>2 tbsp dry yeast</li>
-              <li>1/2 cup sugar</li>
-              <li>2 cups warm soy / almond milk</li>
-              <li>6 tbsp applesauce (egg substitute)</li>
-              <li>100g coconut oil / margarine</li>
-              <li>1 tbsp brandy or arak</li>
-              <li>Jam and powdered sugar for serving</li>
+              <li>4 cups all-purpose flour, sifted</li>
+              <li>1 tbsp instant dry yeast</li>
+              <li>1/4 cup sugar</li>
+              <li>1 cup warm soy milk (or oat milk)</li>
+              <li>1/4 cup vegan butter, melted</li>
+              <li>1 tbsp Brandy or Vodka</li>
+              <li>1 tsp vanilla extract</li>
+              <li>0.5 tsp salt</li>
+              <li>1 liter vegetable oil (for frying)</li>
+              <li>3/4 cup strawberry jam</li>
+              <li>1/2 cup powdered sugar</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mix flour, yeast, and sugar. Add warm milk, applesauce, oil, brandy, and vanilla.</li>
-              <li class="step"><span class="step-num">2.</span>Knead for 5 mins, add a pinch of salt, and knead 3 more mins until dough is soft and slightly sticky.</li>
-              <li class="step"><span class="step-num">3.</span>Rise for 1 hour. Divide into balls (50g) on parchment squares and rise again for 30 mins.</li>
-              <li class="step"><span class="step-num">4.</span>Deep fry at 170°C for 2 mins per side until golden.</li>
-              <li class="step"><span class="step-num">5.</span>Fill with jam using a syringe and dust with powdered sugar.</li>
-            </ul>
+
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.806rem; line-height: 1.31;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>1 كغ فارينة مغربلة</li>
-              <li>2 مغارف كبار خميرة خبز</li>
-              <li>1/2 كأس سكر</li>
-              <li>2 كيسان حليب صوجا / لوز دافي</li>
-              <li>6 مغارف &quot;compote&quot; تفاح (في بلاصة العظم)</li>
-              <li>100 غرام زيت جوز الهند / مارغرين</li>
-              <li>1 مغرفة كبيرة براندي أو بوخة</li>
-              <li>معجون وسكر محور للزينة</li>
+              <li>4 كيسان فرينة، مغربلة</li>
+              <li>1 مغرفة خميرة</li>
+              <li>ربع كاس سكر</li>
+              <li>1 كاس حليب صويا دافي (أو حليب شوفان)</li>
+              <li>ربع كاس زبدة نباتية، ذايبة</li>
+              <li>1 مغرفة براندي أو فودكا</li>
+              <li>1 مغرفة صغيرة فانيليا</li>
+              <li>نص مغرفة صغيرة ملح</li>
+              <li>1 لتر زيت (للقليان)</li>
+              <li>كاس غير ربع معجون فريز</li>
+              <li>نص كاس سكر محور</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
-            <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>خلّط الفارينة والخميرة والسكر. زيد الحليب الدافي، الـ &quot;compote&quot;، الزيت، البراندي والفانيليا.</li>
-              <li class="step"><span class="step-num">2.</span>اعجن 5 دقايق، زيد شوية ملح وكمل اعجن 3 دقايق لين تولي عجينة طرية.</li>
-              <li class="step"><span class="step-num">3.</span>خليها تخمر ساعة. قصها كعابر (50 غرام) وحطهم فوق ورق طبخ، وخليهم يخمرو مرة اخرى 30 دقيقة.</li>
-              <li class="step"><span class="step-num">4.</span>اقلي في زيت سخون (170 درجة) دقيقتين من كل شيرة لين يحمارو.</li>
-              <li class="step"><span class="step-num">5.</span>عمّرهم بالمعجون بالـ &quot;seringue&quot; ورش عليهم السكر المحور.</li>
-            </ul>
+
           </div>
         </div>
       </div>

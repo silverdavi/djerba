@@ -1,0 +1,337 @@
+{
+  "id": "spice_mixes",
+  "slug": "spice-mixes-three-ways",
+  "source_file": "user_input_2024_12",
+  "name": "Spice Mixes (Pizza, Fries, Egg)",
+  "name_hebrew": "תערובות תבלינים",
+  "name_origin": "Custom spice blends created for specific uses. Each mix is designed to enhance particular dishes with perfectly balanced flavors.",
+  "description": "Three essential spice blends for the vegan kitchen: a cheesy pizza seasoning, a crispy fries mix, and an egg-flavored blend using kala namak black salt.",
+  "cultural_context": "Homemade spice mixes are a hallmark of traditional cooking, allowing cooks to season dishes consistently with their personal touch.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "makes about 1/4 cup each",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 10,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nutritional_yeast",
+      "name": "Nutritional yeast",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for pizza and fries mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.53,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for all mixes",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 14,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.49,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "oregano",
+      "name": "Oregano",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for pizza mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.11,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.11,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "zaatar",
+      "name": "Za'atar",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for pizza mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.09,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.21,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for pizza mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.07,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for fries and egg mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "kala_namak",
+      "name": "Kala namak (black salt)",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for egg mix only",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "PIZZA MIX: Combine nutritional yeast, paprika, oregano, garlic powder, za'atar, black pepper, salt, and sugar in order of decreasing amounts.",
+      "time_minutes": 3,
+      "tips": "Store in airtight container"
+    },
+    {
+      "step": 2,
+      "instruction": "FRIES MIX: Combine paprika, salt, black pepper, nutritional yeast, and turmeric in order of decreasing amounts.",
+      "time_minutes": 3,
+      "tips": "Great on roasted potatoes too"
+    },
+    {
+      "step": 3,
+      "instruction": "EGG MIX: Combine paprika, nutritional yeast, kala namak black salt, black pepper, and turmeric. The kala namak provides sulfurous egg flavor.",
+      "time_minutes": 3,
+      "tips": "Use on tofu scramble"
+    }
+  ],
+  "variants": [
+    {
+      "name": "Pizza Spice",
+      "description": "Cheesy, herby blend for pizza and Italian dishes"
+    },
+    {
+      "name": "Fries Spice",
+      "description": "Savory seasoning for crispy fries and potatoes"
+    },
+    {
+      "name": "Egg Spice",
+      "description": "Sulfurous blend that mimics egg flavor"
+    }
+  ],
+  "tags": [
+    "spice-mix",
+    "pantry",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "These custom spice blends derive their names from the specific dishes they enhance. While traditional cooking relies on dairy or eggs for flavor, this collection utilizes nutritional yeast and sulfurous black salt to replicate those savory profiles. They transform simple plant ingredients into rich and nostalgic culinary experiences.",
+  "image": {
+    "generation_prompt": "A rustic culinary scene set in an early 1900s stone kitchen in Safed featuring three distinct artisanal spice blends displayed in small, handmade ceramic bowls. The first bowl holds a textured reddish-green mixture with visible dried oregano and paprika flakes. Beside it, a vibrant orange-gold powder captures the light, ready to season crispy potatoes. The third bowl contains a pale yellow, fine powder essential for tofu scrambles. Scattered around the bowls are whole ingredients like dried chili peppers, a small mound of nutritional yeast flakes, and coarse black salt crystals. The scene is illuminated by soft, natural light filtering through an arched window, highlighting the rough texture of the limestone walls and the grain of the antique wooden table. A vintage metal spoon rests nearby, suggesting preparation is underway. The atmosphere is warm and inviting, emphasizing the transformation of simple pantry staples into essential flavor enhancers for plant-based cooking."
+  },
+  "veganization_complete": true
+}

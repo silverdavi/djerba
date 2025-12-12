@@ -9,21 +9,21 @@
   },
   "name": {
     "he": "מרק סמיך חמוץ וחריף של בינה",
-    "es": "Hsou de Bina (Sopa Espesa Agria y Picante)",
-    "ar": "حسو بيـنة",
-    "en": "Bina's Hsou (Thick Sour and Spicy Soup)"
+    "es": "Hsou (Sopa Espesa Agria y Picante de Bina)",
+    "ar": "حسو (شربة حارة وقارصة)",
+    "en": "Bina's Thick Sour and Spicy Soup (Hsou)"
   },
   "description": {
-    "he": "חסו—שמקורו במילה הערבית ללגום—הוא מרק כפרי המאופיין במרקם קטיפתי המושג באמצעות רביכת קמח פשוטה. המרק המחמם הזה, השופע בשילוב הג'רבאי המובהק של אריסה חריפה וחומץ חמוץ, מוכן באופן מסורתי כארוחת ערב מהירה וחסכונית או כתרופה מרגיעה להצטננות.",
-    "es": "El Hsou, que deriva del árabe sorber, es una sopa rústica definida por una textura aterciopelada lograda a través de una simple mezcla de harina. Repleto de la combinación distintiva de Djerba de harissa picante y vinagre agrio, este caldo reconfortante se prepara tradicionalmente como una cena rápida y frugal o como un remedio calmante para los resfriados.",
-    "ar": "الحسو، اللي جاي من كلمة حسا، هو جاري عربي يتميز بقوام خاثر بفضل تخلطية الفرينة والماء. هالجاري السخون يفوح بنكهة جربة المعروفة بالحار والقارص، وهو عشاء خفيف وسريع أو دواء باهي للبرد والگريب.",
-    "en": "Hsou—deriving from the Arabic \"to sip\"—is a rustic soup defined by a velvety texture achieved through a simple flour slurry. Bursting with the signature Djerban combination of spicy harissa and sour vinegar, this warming broth is traditionally prepared as a frugal, quick dinner or a soothing remedy for colds."
+    "he": "חשו מגיע מהמילה הערבית ללגימה ומגדיר את המרק הטוניסאי הכפרי הזה. המרקם הקטיפתי שלו מגיע מבלילת קמח פשוטה ולא משמנת. עם שפע שום ופפריקה חריפה, המרק הטבעוני הזה משמש כתרופה מחממת או כארוחת ערב מהירה וחסכונית.",
+    "es": "El Hsou deriva de la palabra árabe para sorber y define esta rústica sopa tunecina. Su textura aterciopelada proviene de una simple mezcla de harina en lugar de crema. Repleto de ajo y pimentón picante, este caldo naturalmente vegano sirve como un remedio reconfortante o una cena rápida y económica.",
+    "ar": "الحسو كلمة جاية من فعل حسا، وهو اسم هالجاري التونسي العربي. القوام الخاثر متاعو يجي من العقدة (تخليطة الفرينة والماء) مش مالكريم. فيه برشة ثوم وفلفل أحمر حار، وهو مرقة نباتية تسخّن العظام، وتصلح دواء للبرد أو عشاء خفيف واقتصادي.",
+    "en": "Hsou derives from the Arabic word for sipping and defines this rustic Tunisian soup. Its velvety texture comes from a simple flour slurry rather than cream. Bursting with garlic and hot paprika, this naturally vegan broth serves as a warming remedy or a quick frugal dinner."
   },
   "ingredients": {
     "he": [
       "1.5 ליטר מים",
-      "5 שיני שום, כתושות",
-      "60 מ\"ל מיץ לימון, סחוט טרי",
+      "5 שיני שום, כתושות או קצוצות",
+      "60 מ\"ל מיץ לימון",
       "7 גרם פפריקה חריפה",
       "23 גרם קמח רגיל",
       "100 מ\"ל מים (קרים)",
@@ -31,8 +31,8 @@
     ],
     "es": [
       "1.5 L de agua",
-      "5 dientes de ajo, machacados",
-      "60 ml de jugo de limón, recién exprimido",
+      "5 dientes de ajo, machacados o picados",
+      "60 ml de jugo de limón",
       "7 g de pimentón picante",
       "23 g de harina común",
       "100 ml de agua (fría)",
@@ -42,15 +42,15 @@
       "6 كيسان وربع ماء",
       "5 سنون ثوم، مرحي",
       "ربع كاس عصير قارص",
-      "مغرفة فلفل أحمر حار",
+      "1 مغرفة فلفل أحمر حار",
       "3 مغارف فرينة",
       "نص كاس ماء (بارد)",
       "ملح حسب الذوق"
     ],
     "en": [
       "6 1/4 cups water",
-      "5 garlic cloves, crushed",
-      "1/4 cup lemon juice, freshly squeezed",
+      "5 garlic cloves, crushed or minced",
+      "1/4 cup lemon juice",
       "1 tbsp hot paprika",
       "3 tbsp all-purpose flour",
       "1/2 cup water (cold)",
@@ -59,32 +59,32 @@
   },
   "steps": {
     "he": [
-      "בסיר, מערבבים את המים העיקריים (1.5 ליטר), השום הכתוש, מיץ הלימון והפפריקה החריפה.",
+      "בסיר, מערבבים את המים (1.5 ליטר), השום הכתוש, מיץ הלימון והפפריקה החריפה.",
       "מבשלים על אש נמוכה, תוך ערבוב מדי פעם, במשך כ-20 דקות למיזוג הטעמים.",
-      "מכינים את הרביכה (להסמכה) על ידי ערבוב הקמח עם המים הקרים (100 מ\"ל) בקערה נפרדת עד לקבלת תערובת חלקה וללא גושים.",
-      "יוצקים לאט את תערובת הקמח למרק החם תוך כדי ערבוב מתמיד כדי להסמיך את המרקם.",
-      "טועמים את המרק ומוסיפים מלח או מתקנים את החמיצות/חריפות לפי הצורך לפני ההגשה."
+      "מכינים את ההסמכה (בלילה) על ידי ערבוב הקמח עם המים הקרים (100 מ\"ל) בקערה נפרדת עד לקבלת תערובת חלקה וללא גושים.",
+      "יוצקים לאט את תערובת הקמח למרק החם תוך ערבוב מתמיד כדי להסמיך את המרקם.",
+      "טועמים את המרק ומוסיפים מלח או מתקנים את החמיצות והחריפות לפי הצורך לפני ההגשה."
     ],
     "es": [
-      "En una olla, combine el agua principal (1.5 L), el ajo machacado, el jugo de limón y el pimentón picante.",
+      "En una olla, combine el agua principal, el ajo machacado, el jugo de limón y el pimentón picante.",
       "Cocine a fuego lento, revolviendo ocasionalmente, durante unos 20 minutos para infundir los sabores.",
-      "Prepare el agente espesante mezclando la harina con el agua fría (100 ml) en un tazón aparte hasta que quede suave y sin grumos.",
+      "Prepare un espesante mezclando la harina con el agua fría en un tazón aparte hasta que quede suave y sin grumos.",
       "Vierta lentamente la mezcla de harina en la sopa caliente mientras revuelve continuamente para espesar la textura.",
-      "Pruebe la sopa y agregue sal o ajuste los niveles de agrio/picante según sea necesario antes de servir."
+      "Pruebe la sopa y agregue sal o ajuste los niveles de agrio y picante según sea necesario antes de servir."
     ],
     "ar": [
-      "في طنجرة، حط الماء الكبير، الثوم المرحي، عصير القارص، والفلفل الأحمر الحار.",
+      "في طنجرة، خلط الماء، الثوم المرحي، عصير القارص والفلفل الأحمر الحار.",
       "طيّب على نار هادية، وحرّك مرة مرة، لمدة 20 دقيقة باش تتخلط النكهات.",
-      "حضّر تخلطية الفرينة: خلّط الفرينة مع الماء البارد في صحفة وحدها لين تولي رطبة وما فيهاش كعابر.",
-      "صب خليط الفرينة بالشوية في المرقة السخونة وانت تحرّك ديما باش تخثار.",
-      "ذوق المرقة وزيد الملح أو القارص والحار حسب الذوق قبل ما تحط تفطر."
+      "حضّر العقدة: خلط الفرينة مع الماء البارد في صحفة وحدها لين تولي رطبة وما فيهاش كعابر.",
+      "صب خليط الفرينة بالشوية في المرق السخون وأنت تحرّك ديما باش تختار المرقة.",
+      "ذوق المرقة وزيد الملح ولا عدّل القروصية والحرورية حسب الذوق قبل ما تحط."
     ],
     "en": [
       "In a pot, combine the main water, crushed garlic, lemon juice, and hot paprika.",
       "Cook on low heat, stirring occasionally, for about 20 minutes to infuse the flavors.",
       "Prepare a thickening agent (slurry) by mixing the flour with the cold water in a separate bowl until smooth and lump-free.",
       "Slowly pour the flour mixture into the hot soup while stirring continuously to thicken the texture.",
-      "Taste the soup and add salt or adjust the sour/spicy levels as needed before serving."
+      "Taste the soup and add salt or adjust the sour and spicy levels as needed before serving."
     ]
   }
 }

@@ -7,7 +7,7 @@
   "name_origin": "The Hebrew name 'Hamin' (חמין) is derived from Mishnaic Hebrew, originating from the Semitic root H-M-M (ח-מ-ם), meaning 'to be hot' or 'warm'. It literally translates to 'hot things' or 'warmth', referring to the rabbinic injunction to keep food warm for the Sabbath. The English/Yiddish name 'Cholent', while Ashkenazi, is widely accepted to derive from Old French 'chault' (hot) and 'lent' (slow), reflecting the cooking method. In the specific context of Djerban and Tunisian Jewry, while 'Hamin' is the religious term, the dish is historically known as 'Tfina' or 'Dafina'.",
   "description": "A traditional slow-cooked Sabbath stew featuring meat, beans, barley, and potatoes. While 'Cholent' is the Ashkenazi term, this recipe follows the universal Jewish tradition of a heavy stew cooked overnight for lunch on Shabbat.",
   "cultural_context": "Although the source uses the Yiddish term 'Cholent', this style of slow-cooked dish is known as 'Hamin' in Hebrew or 'Skhina'/'Dafina' in North African traditions. The addition of eggs (Haminados) is typical of Sephardic and North African versions.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace meat with root vegetables (sweet potatoes, carrots) or plant-based meat chunks. Omit eggs.",
   "meta": {
     "servings": "6-8",
@@ -64,12 +64,12 @@
       }
     },
     {
-      "ingredient_id": "beef_chuck",
-      "name": "Beef stew meat (chuck or brisket)",
+      "ingredient_id": "seitan",
+      "name": "Seitan chunks (wheat gluten)",
       "amount": 1,
       "unit": "kg",
-      "preparation": "cut into chunks",
-      "notes": null,
+      "preparation": "cut into large chunks",
+      "notes": "or use large chunks of portobello mushrooms",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -97,7 +97,7 @@
       "unit": "unit",
       "size": "medium",
       "preparation": "peeled and halved",
-      "notes": null,
+      "notes": "waxy varieties work best",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -299,8 +299,8 @@
       }
     },
     {
-      "ingredient_id": "maple_syrup",
-      "name": "Maple syrup (or honey)",
+      "ingredient_id": "date_syrup",
+      "name": "Date syrup (Silan) or Maple syrup",
       "amount": 30,
       "unit": "ml",
       "preparation": null,
@@ -326,12 +326,12 @@
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
+      "ingredient_id": "baby_potatoes",
+      "name": "Baby potatoes",
       "amount": 6,
       "unit": "unit",
-      "preparation": "whole in shell",
-      "notes": "washed well",
+      "preparation": "whole, peeled",
+      "notes": "replaces the traditional whole eggs",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -424,7 +424,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/025_cholent/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, close-up shot of a steaming bowl of vegan Hamin (Cholent) served in a vintage ceramic bowl, set in an early 1900s stone kitchen in Safed. The stew is rich and dark brown, featuring large, textured chunks of savory seitan that resemble slow-cooked meat, alongside tender white and brown beans, pearl barley, and golden potato chunks. Six small whole baby potatoes sit atop the stew, mimicking traditional eggs. The sauce is thick, glossy, and caramelized from overnight cooking. Soft, natural light streams through a small arched window, illuminating the steam rising from the hot dish and highlighting the textures of the legumes and grains. In the background, antique copper pots hang on rough limestone walls, and a crusty loaf of challah bread sits on the wooden table. The atmosphere is warm, historic, and deeply comforting."
   },
   "tags": [
     "shabbat",
@@ -483,5 +484,24 @@
       "key_difference": "Usually lamb and spices only (no grains/beans); traditionally a 'bachelor's dish' rather than a family Sabbath meal."
     }
   ],
-  "intro_paragraph": "Hamin—derived from the Hebrew root for \"hot\"—is a rich, slow-cooked stew prepared before sundown to serve for Sabbath lunch. While often called Cholent, this North African version combines meat, beans, barley, and potatoes simmered overnight. The addition of haminados, eggs browned in the savory broth, marks the Djerban style."
+  "intro_paragraph": "Hamin comes from the Hebrew root for hot and refers to the warmth of this slow-cooked Sabbath stew. This vegan version replaces meat with savory seitan while preserving the traditional technique. Beans and barley simmer overnight to create a deeply caramelized and comforting winter meal.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Beef stew meat",
+      "replacement": "Seitan chunks",
+      "notes": "Provides the chewy, savory texture essential for the stew"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Small whole potatoes (baby potatoes)",
+      "notes": "Mimics the visual and structural element of whole eggs (Haminados)"
+    },
+    {
+      "original": "Honey",
+      "replacement": "Date syrup (Silan)",
+      "notes": "A traditional vegan sweetener that adds deep color"
+    }
+  ],
+  "veganization_complete": true
 }

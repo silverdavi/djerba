@@ -7,7 +7,7 @@
   "name_origin": "The word 'Schnitzel' is of German origin, derived from the verb 'schnitzen', meaning 'to carve' or 'to cut'. The suffix '-el' is a diminutive, so the word literally translates to 'a little cut' or 'a slice'. While the dish originated in Austria (Wiener Schnitzel, made with veal), it was brought to Israel by Central European (Ashkenazi) immigrants. In Israel, due to the scarcity of veal, turkey and chicken became the standard proteins. It was subsequently adopted by North African Jewish communities (including Djerbans) in Israel and France, often replacing more complex traditional fried dishes due to its convenience and popularity with children.",
   "description": "Thinly pounded chicken breasts coated in seasoned breadcrumbs and fried until golden and crispy. While originally a European dish, it has become a ubiquitous staple in Israeli and North African Jewish kitchens, often served for Shabbat lunch.",
   "cultural_context": "Adopted by North African Jewish families in Israel and the diaspora, often replacing traditional fried fish or meat patties. It is typically served with couscous, mashed potatoes, or Israeli salad.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with tofu or seitan; use chickpea flour batter instead of eggs.",
   "meta": {
     "servings": "4",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "chicken_breast",
-      "name": "Chicken breast",
+      "ingredient_id": "seitan_or_tofu",
+      "name": "Seitan cutlets or Super Firm Tofu",
       "amount": 500,
       "unit": "g",
-      "preparation": "boneless, skinless",
-      "notes": null,
+      "preparation": "sliced into cutlets",
+      "notes": "if using tofu, press firmly to remove liquid",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -35,8 +35,8 @@
           "unit": "oz"
         },
         "volume": {
-          "value": 3.3,
-          "unit": "cups"
+          "value": null,
+          "unit": null
         },
         "original": {
           "value": 500,
@@ -72,20 +72,56 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Egg",
-      "amount": 2,
-      "unit": "unit",
-      "preparation": "beaten",
-      "notes": null,
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour",
+      "amount": 60,
+      "unit": "g",
+      "preparation": null,
+      "notes": "for batter (egg replacement)",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
         "original": {
-          "value": 2,
-          "unit": "unit"
+          "value": 60,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for batter",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
         }
       }
     },
@@ -95,7 +131,7 @@
       "amount": 100,
       "unit": "g",
       "preparation": null,
-      "notes": "or plain breadcrumbs mixed with paprika, garlic powder, and salt",
+      "notes": "ensure vegan; or plain crumbs with paprika, garlic, and salt",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -179,7 +215,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/075_schnitzel/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, appetizing photograph of golden-brown vegan schnitzel cutlets resting on an antique ceramic platter, set within a sunlit, early 20th-century stone kitchen in Safed. The cutlets, crafted from savory seitan, boast a deeply textured, crispy breadcrumb coating that appears hot and crunchy. Slices of fresh lemon and vibrant sprigs of parsley are scattered over the schnitzels, providing a fresh contrast to the rich, fried golden hues. In the softly blurred background, rough limestone walls and a sturdy wooden table suggest a historic home setting. Accompaniments include a colorful bowl of finely chopped Israeli salad with cucumbers and tomatoes, and a serving of fluffy couscous. The lighting is natural and warm, highlighting the jagged, crispy edges of the breading and the steam rising gently from the dish. The composition evokes a comforting, traditional Shabbat meal adapted for a modern plant-based lifestyle, focusing on the authentic texture and inviting warmth of the food."
   },
   "tags": [
     "chicken",
@@ -233,5 +270,19 @@
       "key_difference": "Usually bone-in veal chop, whereas Jewish Schnitzel is boneless pounded chicken breast."
     }
   ],
-  "intro_paragraph": "Schnitzel—derived from the German for \"little cut\"—was brought to Israel by European immigrants who adapted the veal classic to poultry. Thinly pounded chicken breasts are coated in seasoned crumbs and fried golden. Now a staple in Djerban households, these crispy cutlets frequently appear at Shabbat lunch, served alongside couscous or fresh salads."
+  "intro_paragraph": "Schnitzel comes from the German word for a little cut and was brought to Israel by European immigrants. This vegan adaptation replaces poultry with savory seitan or tofu while keeping the classic golden crust. It remains a favorite for Shabbat lunch served alongside fluffy couscous or fresh salads.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken breast",
+      "replacement": "Seitan cutlets or Super Firm Tofu",
+      "notes": "Seitan provides a chewier, meatier texture, while tofu is softer."
+    },
+    {
+      "original": "Egg",
+      "replacement": "Chickpea flour batter",
+      "notes": "A mix of chickpea flour and water creates a strong binder."
+    }
+  ],
+  "veganization_complete": true
 }

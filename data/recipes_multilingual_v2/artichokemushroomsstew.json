@@ -9,15 +9,15 @@
   },
   "name": {
     "he": "ארטישוק ופטריות",
-    "es": "Guiso de Alcachofas y Champiñones",
+    "es": "Guiso de Alcachofas y Champiñones (Gannariya)",
     "ar": "قنارية بالفڨاع",
-    "en": "Artichoke and Mushroom Stew"
+    "en": "Artichoke and Mushroom Stew (Gannariya)"
   },
   "description": {
-    "he": "גנאריה מגיעה מהמילה הלטינית Cynara, ומשקפת את המורשת החקלאית הרומית של צפון אפריקה. לבבות ארטישוק רכים ופטריות מתבשלים ברוטב כורכום, שום ולימון תוסס ליצירת תבשיל חמצמץ ואדמתי זה. מנה זו היא נכס צאן ברזל במטבחים יהודיים בג'רבה, ומוגשת בדרך כלל כסלט מבושל, חם או בטמפרטורת החדר.",
-    "es": "Gannariya deriva del latín Cynara, reflejando la herencia agrícola romana del norte de África. Corazones de alcachofa tiernos y champiñones se cuecen a fuego lento en una salsa vibrante de cúrcuma, ajo y limón para crear este guiso ácido y terroso. Un elemento básico de las mesas judías de Djerba, se disfruta típicamente como una ensalada cocida, servida caliente o a temperatura ambiente.",
-    "ar": "القنارية جاية من الكلمة اللاتينية Cynara، وهكا نشوفو التاريخ الفلاحي الروماني في شمال إفريقيا. قلوب القنارية الطرية والفڨاع يطيبو في مرقة صفراء بالكركم والثوم والليم، باش يعطيو بنة حامضة وتعمل الكيف. الطبق هذا معروف برشة في كوجينة يهود جربة، ويتاكل كسلطة طايبة، سخون وإلا بارد.",
-    "en": "Gannariya derives from the Latin Cynara, reflecting North Africa's Roman agricultural heritage. Tender artichoke hearts and mushrooms simmer in a vibrant turmeric, garlic, and lemon sauce to create this tangy, earthy stew. A staple of Djerban Jewish tables, it is typically enjoyed as a cooked salad, served either warm or at room temperature."
+    "he": "גנאריה (Gannariya) מגיעה מהמילה הלטינית Cynara, ומשקפת את המורשת הרומית של צפון אפריקה. תבשיל חמצמץ זה מכיל לבבות ארטישוק ופטריות המתבשלים ברוטב כורכום, שום ולימון תוסס. מנה זו, המוגשת באופן מסורתי כתוספת, לוכדת בגרסתה הצמחית את הטעמים האותנטיים של המטבח היהודי בג'רבה.",
+    "es": "Gannariya deriva del latín Cynara, reflejando la herencia romana del norte de África. Este guiso ácido presenta corazones de alcachofa y champiñones cocidos a fuego lento en una vibrante salsa de cúrcuma, ajo y limón. Tradicionalmente una guarnición, esta versión vegetal captura los auténticos sabores terrosos de la cocina judía de Djerba.",
+    "ar": "القنارية (Gannariya) جاية من الكلمة اللاتينية Cynara، وهكا نشوفو التاريخ الروماني في شمال إفريقيا. هذي المرقة القارصة فيها قلوب القنارية والفڨاع (champignon) طايبين في صوص صفراء بالكركم والثوم والليم. في العادة تتقدم كمقبلات، وهذي الوصفة النباتية فيها البنة الأصلية متاع الكوجينة اليهودية الجربية.",
+    "en": "Gannariya derives from the Latin Cynara, reflecting North Africa’s Roman heritage. This tangy stew features tender artichoke hearts and mushrooms simmered in a vibrant turmeric, garlic, and lemon sauce. Traditionally a side dish, this plant-based version captures the authentic earthy flavors of Djerban Jewish cuisine."
   },
   "ingredients": {
     "he": [
@@ -25,7 +25,7 @@
       "4 שיני שום, פרוסות או כתושות",
       "3 גרם כורכום",
       "1 גרם פלפל שחור, טחון",
-      "12 גרם אבקת מרק עוף",
+      "12 גרם אבקת מרק (בטעם עוף פרווה או ירקות)",
       "45 מ\"ל מיץ לימון, סחוט טרי",
       "מלח לפי הטעם",
       "400 גרם פטריות, פרוסות או חתוכות לרבעים",
@@ -38,7 +38,7 @@
       "4 dientes de ajo, laminados o picados",
       "3 g de cúrcuma",
       "1 g de pimienta negra, molida",
-      "12 g de caldo de pollo en polvo",
+      "12 g de caldo de verduras en polvo",
       "45 ml de jugo de limón, recién exprimido",
       "Sal al gusto",
       "400 g de champiñones, laminados o en cuartos",
@@ -48,56 +48,56 @@
     ],
     "ar": [
       "2 مغارف زيت نباتي ولا زيت زيتونة",
-      "4 سنون ثوم، مقصوصين ولا مرحيين",
+      "4 سنات ثوم، مقصوصين جويدين ولا مرحيين",
       "1 مغرفة صغيرة كركم",
-      "1/2 مغرفة صغيرة فلفل أكحل",
-      "1 مغرفة تابل دجاج (بودر)",
-      "3 مغارف عصير ليم (قارص)",
+      "½ مغرفة صغيرة فلفل أكحل، مرحي",
+      "1 مغرفة كبيرة بودر مرقة خضرة",
+      "3 مغارف عصير قارص، معصور جديد",
       "ملح حسب الذوق",
-      "5.5 كيسان فڨاع (شامبينيو)، مقصوصين",
+      "5.5 كيسان فڨاع (champignon)، مقصوصين",
       "2.3 كيسان قلوب قنارية، مقصوصين",
       "1 كأس ماء",
-      "1/2 كأس معدنوس، مقصوص"
+      "½ كأس معدنوس، مقصوص"
     ],
     "en": [
       "2 tbsp vegetable or olive oil",
-      "4 cloves garlic, sliced or minced",
+      "4 garlic cloves, sliced or minced",
       "1 tsp turmeric",
       "0.5 tsp black pepper, ground",
-      "1 tbsp chicken seasoning powder",
+      "1 tbsp vegetable bouillon powder",
       "3 tbsp lemon juice, freshly squeezed",
       "Salt to taste",
       "5.5 cups mushrooms, sliced or quartered",
-      "2.3 cups artichoke hearts or bottoms, quartered",
+      "2.3 cups artichoke hearts, quartered",
       "1 cup water",
       "0.5 cups fresh parsley, chopped"
     ]
   },
   "steps": {
     "he": [
-      "מחממים את השמן בסיר רחב או במחבת עמוקה על להבה בינונית. מוסיפים את השום ומטגנים קלות עד שעולה ריח (להיזהר לא לשרוף).",
-      "מוסיפים לסיר את הכורכום, הפלפל השחור, אבקת מרק העוף, המלח ומיץ הלימון. מערבבים ליצירת בסיס מתובל.",
+      "מחממים את השמן בסיר רחב או במחבת עמוקה על להבה בינונית. מוסיפים את השום ומטגנים קלות עד שעולה ריח (נזהרים לא לשרוף).",
+      "מוסיפים לסיר את הכורכום, הפלפל השחור, אבקת המרק, המלח ומיץ הלימון. מערבבים ליצירת בסיס מתובל.",
       "מוסיפים את הפטריות והארטישוק לסיר ומערבבים כדי לצפות אותם בשמן המתובל.",
-      "מוסיפים את המים. מביאים לרתיחה, מנמיכים את האש, מכסים ומבשלים ברתיחה איטית עד שהירקות רכים.",
+      "מוסיפים את המים. מביאים לרתיחה, מנמיכים את הלהבה, מכסים ומבשלים בבעבוע עדין עד שהירקות רכים.",
       "מכבים את האש ומערבבים פנימה את הפטרוזיליה הקצוצה לפני ההגשה."
     ],
     "es": [
-      "Caliente el aceite en una olla ancha o sartén a fuego medio. Agregue el ajo y sofría brevemente hasta que esté fragante (no deje que se queme).",
-      "Añada la cúrcuma, la pimienta negra, el caldo de pollo en polvo, la sal y el jugo de limón a la olla. Remueva para crear una base condimentada.",
+      "Caliente el aceite en una olla ancha o sartén a fuego medio. Añada el ajo y sofría brevemente hasta que esté fragante (sin dejar que se queme).",
+      "Añada la cúrcuma, la pimienta negra, el caldo en polvo, la sal y el jugo de limón a la olla. Remueva para crear una base condimentada.",
       "Incorpore los champiñones y las alcachofas a la olla y mezcle para cubrirlos con el aceite condimentado.",
-      "Agregue el agua. Lleve la mezcla a ebullición, luego reduzca el fuego a bajo, tape y cocine a fuego lento hasta que las verduras estén tiernas.",
+      "Añada el agua. Lleve la mezcla a ebullición, luego reduzca el fuego a bajo, tape y cocine a fuego lento hasta que las verduras estén tiernas.",
       "Apague el fuego e incorpore el perejil picado antes de servir."
     ],
     "ar": [
-      "سخن الزيت في طنجرة واسعة ولا مقلاة غارقة على نار متوسطة. حط الثوم واقليه شوية لين تطلع ريحته (رد بالك يتحرق).",
-      "زيد الكركم، الفلفل الأكحل، تابل الدجاج، الملح، وعصير القارص في الطنجرة. حرك باش تعمل صوص مفوحة.",
-      "حط الفڨاع والقنارية في الطنجرة وخلطهم باش يشربو الفاح والزيت.",
-      "صب الماء. خليها تغلي، ومن بعد نقص في النار، غطي الطنجرة، وخليها تطيب سلة سلة لين الخضرة تطرى.",
-      "طفي النار وخلط معاهم المعدنوس المقصوص قبل ما تقدم."
+      "سخن الزيت في طنجرة واسعة ولا مقلة غارقة على نار متوسطة. زيد الثوم وقليه شوية لين تطلع ريحته (رد بالك يتحرق).",
+      "زيد الكركم، الفلفل الأكحل، بودر المرقة، الملح، وعصير القارص للطنجرة. حرك مليح باش تتحصل على صوص مفوحة.",
+      "ارمي الفڨاع والقنارية في الطنجرة وخلطهم باش يشربو الفاح والزيت.",
+      "زيد الماء. خلي المرقة تغلي، ومبعد نقص النار، غطي الطنجرة وخليها تطيب سلة سلة لين الخضرة تطرى.",
+      "طفي النار وخلط المعدنوس المقصوص قبل ما تقدم الماكلة."
     ],
     "en": [
       "Heat the oil in a wide pot or sauté pan over medium heat. Add the garlic and fry briefly until fragrant (do not let it burn).",
-      "Add the turmeric, black pepper, chicken seasoning, salt, and lemon juice to the pot. Stir to create a seasoned base.",
+      "Add the turmeric, black pepper, vegetable bouillon powder, salt, and lemon juice to the pot. Stir to create a seasoned base.",
       "Add the mushrooms and artichokes to the pot and toss to coat in the seasoned oil.",
       "Add the water. Bring the mixture to a boil, then reduce heat to low, cover, and simmer until the vegetables are tender.",
       "Turn off the heat and stir in the chopped parsley before serving."

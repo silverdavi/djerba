@@ -7,7 +7,7 @@
   "name_origin": "The name is a classic example of the 'diglossia' found in North African Jewish languages, combining a Judeo-Arabic noun with a Hebrew modifier. 'Dabikh' is a dialectal variation of the Maghrebi Arabic term 'Tabikh' or 'Tbeikha' (طبيخة), meaning 'stew' or 'cooked dish.' The standard Arabic root is Ṭ-B-Kh (ط-ب-خ). The shift from the emphatic 'T' (Ṭa) to 'D' (Dalet) suggests a specific Djerban voicing assimilation or a local phonetic quirk. The ending 'Hagim' is the Hebrew word for 'Holidays' (חגים). Therefore, it literally translates to 'The Holiday Stew.' (Confidence: likely)",
   "description": "A traditional Djerban holiday stew characterized by a rich base of oil and paprika, loaded with fresh herbs (parsley, dill, cilantro), pumpkin, and chicken. The vegetables are sweated slowly to release their juices before water is added.",
   "cultural_context": "Common in Djerban cuisine for holidays like Rosh Hashanah or Sukkot. The technique of frying paprika in oil ('tekelia') and sweating the greens is typical of Tunisian cooking.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "The recipe explicitly mentions using a 'substitute' instead of chicken. Seitan or firm tofu works well, or simply increase the vegetables (chickpeas are a common addition in similar stews).",
   "meta": {
     "servings": "4-6",
@@ -261,29 +261,29 @@
       }
     },
     {
-      "ingredient_id": "chicken",
-      "name": "Chicken",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "cut into pieces",
-      "notes": "Or vegetarian substitute",
+      "ingredient_id": "seitan",
+      "name": "Seitan chunks or Soy Curls",
+      "amount": 700,
+      "unit": "g",
+      "preparation": "cut into bite-sized pieces",
+      "notes": "Replaces chicken",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 700,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 24.7,
           "unit": "oz"
         },
         "volume": {
-          "value": 7,
+          "value": 4,
           "unit": "cups"
         },
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 700,
+          "unit": "g"
         }
       }
     },
@@ -374,7 +374,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/087_tbikha_chagim/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, close-up shot of a rich North African holiday stew served in a vintage clay bowl, set in a sunlit stone kitchen in early 1900s Safed. The stew features large, tender chunks of bright orange pumpkin, quartered potatoes, and browned pieces of seitan that mimic the texture of slow-cooked meat. The sauce is a deep, vibrant red-orange from paprika and oil, glistening under natural light. Generous amounts of chopped fresh green herbs—parsley, dill, and cilantro—are visible throughout the stew, adding texture and color contrast. The scene includes a side of rustic bread or couscous, with soft shadows cast on a weathered wooden table, evoking a warm, festive atmosphere."
   },
   "tags": [
     "north-african",
@@ -425,5 +426,14 @@
       "key_difference": "Tirshi is a cooked salad/dip served cold or room temp, usually with a sour/spicy profile (caraway/garlic), whereas Dabikh is a hot main stew with chicken."
     }
   ],
-  "intro_paragraph": "Dabikh Hagim combines the Judeo-Arabic dialectal term for \"stew\" with the Hebrew for \"holidays.\" A festive staple for Rosh Hashanah and Sukkot, this Djerban specialty features chicken and pumpkin simmered in a vibrant oil-and-paprika base. Abundant fresh herbs—parsley, dill, and cilantro—are sweated slowly to release their juices, creating a rich, aromatic sauce."
+  "intro_paragraph": "Dabikh Hagim blends the Judeo-Arabic word for stew with the Hebrew for holidays. This vegan adaptation of the Djerban classic replaces chicken with seitan while maintaining the vibrant oil and paprika base. Fresh herbs and pumpkin sweat slowly to create a rich aromatic sauce perfect for festive gatherings.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken",
+      "replacement": "Seitan chunks or thick soy curls",
+      "notes": "Seitan provides a chewy, meat-like texture that absorbs the paprika oil well. Chickpeas are also a traditional addition."
+    }
+  ],
+  "veganization_complete": true
 }

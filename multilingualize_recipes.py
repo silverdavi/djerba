@@ -272,7 +272,7 @@ def multilingualize_recipe(canonical: dict, max_retries: int = 5) -> dict:
                 prompt,
                 generation_config=genai.GenerationConfig(
                     temperature=0.4 + (attempt * 0.1),
-                    max_output_tokens=8192,
+                    max_output_tokens=16384,
                 )
             )
             

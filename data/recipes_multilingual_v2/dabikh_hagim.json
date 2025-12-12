@@ -4,7 +4,7 @@
   "meta": {
     "servings": "4-6",
     "prep_time": "20 min",
-    "cook_time": "60 min",
+    "cook_time": "70 min",
     "difficulty": "Medium"
   },
   "name": {
@@ -14,109 +14,109 @@
     "en": "Dabikh Hagim (Holiday Stew)"
   },
   "description": {
-    "he": "דביח חגים משלב את המונח בערבית-יהודית לתבשיל עם המילה העברית חגים. מנה ג'רבאית חגיגית זו, המוגשת בראש השנה ובסוכות, כוללת עוף ודלעת המתבשלים בבסיס עשיר של שמן ופפריקה. שפע של עשבי תיבול טריים - פטרוזיליה, שמיר וכוסברה - מאודים לאט כדי לשחרר את מיציהם וליצור רוטב עשיר וארומטי.",
-    "es": "Dabikh Hagim combina el término dialectal judeo-árabe para estofado con la palabra hebrea para fiestas. Un plato festivo básico para Rosh Hashaná y Sucot, esta especialidad de Djerba presenta pollo y calabaza cocidos a fuego lento en una base vibrante de aceite y pimentón. Abundantes hierbas frescas (perejil, eneldo y cilantro) se sudan lentamente para liberar sus jugos, creando una salsa rica y aromática.",
-    "ar": "دبيخ حڨيم يجمع بين كلمة طبيخة بالدارجة اليهودية وكلمة حڨيم بالعبرية. هالمكلة الجربية الخاصة بالأعياد كيف راس العام وسوכות، فيها الدجاج والقرع يطيبو في مرقة حمراء بالزيت والفلفل مرحي. برشا حشيش مقصوص - معدنوس، شبث، وقزبر - يتقلاو بالشوية باش يسيبو ماهم ويعملو مرقة خاثرة وبنينة.",
-    "en": "Dabikh Hagim combines the Judeo-Arabic dialectal term for stew with the Hebrew for holidays. A festive staple for Rosh Hashanah and Sukkot, this Djerban specialty features chicken and pumpkin simmered in a vibrant oil-and-paprika base. Abundant fresh herbs—parsley, dill, and cilantro—are sweated slowly to release their juices, creating a rich, aromatic sauce."
+    "he": "דביח חגים משלב את המילה היהודית-ערבית לתבשיל עם המילה העברית לחגים. גרסה טבעונית זו מחליפה את העוף המסורתי בסייטן עסיסי תוך שמירה על הרוח הג'רבאית החגיגית. דלעת ותפוחי אדמה מתבשלים בבסיס עשיר של שמן ופפריקה עם פטרוזיליה, שמיר וכוסברה לארוחה דשנה.",
+    "es": "Dabikh Hagim combina la palabra judeo-árabe para estofado con la palabra hebrea para fiestas. Esta adaptación vegana reemplaza el pollo tradicional con seitán sabroso, manteniendo el espíritu festivo de Djerba. La calabaza y las papas se cocinan a fuego lento en una rica base de aceite y pimentón llena de perejil fresco, eneldo y cilantro para una comida abundante.",
+    "ar": "دبيخ حڨيم يخلط كلمة دبيخ (طبيخة) مع كلمة حڨيم العبرية للأعياد. هذي الوصفة النباتية تبدل الدجاج التقليدي بالسيتان مع الحفاظ على الروح الجربية. القرع والبطاطا يطيبوا في مرقة خاثرة بالزيت والفلفل أحمر مع المعدנוس والشبت والكزبر لطبيخة بنينة وتعمل الكيف.",
+    "en": "Dabikh Hagim blends the Judeo-Arabic word for stew with the Hebrew for holidays. This vegan adaptation replaces traditional chicken with savory seitan while maintaining the festive Djerban spirit. Pumpkin and potatoes simmer in a rich paprika oil base filled with fresh parsley, dill, and cilantro for a hearty meal."
   },
   "ingredients": {
     "he": [
-      "60 מ\"ל שמן צמחי (כמות נדיבה לבסיס)",
+      "60 מ\"ל שמן צמחי (לטיגון הבסיס)",
       "7 גרם פפריקה מתוקה",
-      "1 בצל, פרוס או קצוץ (גדול)",
-      "400 גרם דלעת, חתוכה לקוביות (חתיכה גדולה)",
+      "1 בצל, פרוס או קצוץ",
+      "300 גרם דלעת, חתוכה לקוביות",
       "1 צרור פטרוזיליה, קצוצה",
       "1 צרור שמיר, קצוץ",
       "1 צרור כוסברה, קצוצה",
-      "2 קישואים, פרוסים (אופציונלי)",
-      "2 גזרים, פרוסים (אופציונלי)",
+      "1 קישוא, חתוך לקוביות (אופציונלי)",
+      "1 גזר, פרוס (אופציונלי)",
       "מלח גס לפי הטעם",
-      "פלפל שחור גרוס לפי הטעם",
-      "1 ק\"ג עוף, מחולק לחלקים (או תחליף צמחוני)",
-      "3 תפוחי אדמה, קלופים וחתוכים לרבעים (להוסיף בסוף)",
-      "מים לכיסוי המרכיבים"
+      "פלפל שחור לפי הטעם",
+      "800 גרם נתחי סייטן, חתוכים לחתיכות בגודל ביס",
+      "3 תפוחי אדמה, קלופים וחתוכים לרבעים",
+      "מים לכיסוי"
     ],
     "es": [
-      "60 ml de aceite vegetal (cantidad generosa para la base)",
+      "60 ml de aceite vegetal (para freír la base)",
       "7 g de pimentón dulce",
-      "1 cebolla, en rodajas o picada (grande)",
-      "400 g de calabaza, en cubos (un trozo grande)",
+      "1 cebolla, en rodajas o picada",
+      "300 g de calabaza, en cubos",
       "1 manojo de perejil, picado",
       "1 manojo de eneldo, picado",
       "1 manojo de cilantro, picado",
-      "2 calabacines, en rodajas (opcional)",
-      "2 zanahorias, en rodajas (opcional)",
+      "1 calabacín, en cubos (opcional)",
+      "1 zanahoria, en rodajas (opcional)",
       "Sal gruesa al gusto",
-      "Pimienta negra molida al gusto",
-      "1 kg de pollo, cortado en piezas (o sustituto vegetariano)",
-      "3 patatas, peladas y cortadas en cuartos (añadir al final)",
-      "Agua para cubrir los ingredientes"
+      "Pimienta negra al gusto",
+      "800 g de trozos de seitán, cortados en trozos del tamaño de un bocado",
+      "3 papas, peladas y cortadas en cuartos",
+      "Agua para cubrir"
     ],
     "ar": [
-      "ربع كاس زيت نباتي (كمية باهية للقاعدة)",
-      "مغرفة كبيرة فلفل مرحي حلو",
-      "1 بصلة، مقصوصة (كبيرة)",
-      "3 كيسان قرع أحمر، مقصوص (طرف كبير)",
-      "1 ربطة معدنوس، مقصوص",
-      "1 ربطة شبث، مقصوص",
-      "1 ربطة قزبر، مقصوص",
-      "2 كعبات قرع بو طزينة، مقصوصين (اختياري)",
-      "2 سفنارية، مقصوصين (اختياري)",
-      "ملح حرش حسب الذوق",
+      "ربع كاس زيت (للقليان)",
+      "1 مغرفة كبيرة فلفل أحمر حلو",
+      "1 بصلة، مقصوصة جويدة",
+      "2 كيسان ونص قرع أحمر، مقصوص مكعبات",
+      "1 ربطة معدנוس، مقصوص",
+      "1 ربطة شبت، مقصوص",
+      "1 ربطة كزبر، مقصوص",
+      "1 كعبة قرع أخضر، مقصوصة (اختياري)",
+      "1 سفنارية، مقصوصة (اختياري)",
+      "ملح أحرش حسب الذوق",
       "فلفل أكحل حسب الذوق",
-      "1 كيلو دجاج، مقصوص طروف (أو بديل نباتي)",
-      "3 كعبات بطاطا، مقشرين ومقصوصين على أربعة (نزيدوهم في الآخر)",
-      "ماء باش نغموا الماكلة"
+      "4 كيسان سيتان، مقصوص طروف صغار",
+      "3 كعبات بطاطا، مقشرين ومقصوصين على أربعة",
+      "ماء باش نغموا الطنجرة"
     ],
     "en": [
-      "1/4 cup vegetable oil (generous amount for the base)",
+      "1/4 cup vegetable oil (for frying base)",
       "1 tbsp sweet paprika",
-      "1 onion, sliced or diced (large)",
-      "2 3/4 cups pumpkin, cubed (a large piece)",
+      "1 onion, sliced or diced",
+      "2.5 cups pumpkin, cubed",
       "1 bunch parsley, chopped",
       "1 bunch dill, chopped",
       "1 bunch cilantro, chopped",
-      "2 zucchini, sliced (optional)",
-      "2 carrots, sliced (optional)",
+      "1 zucchini, cubed (optional)",
+      "1 carrot, sliced (optional)",
       "Coarse salt to taste",
-      "Ground black pepper to taste",
-      "2.2 lb chicken, cut into pieces (or vegetarian substitute)",
-      "3 potatoes, peeled and quartered (added in the final stage)",
-      "Water to cover ingredients"
+      "Black pepper to taste",
+      "4 cups seitan chunks, cut into bite-sized pieces",
+      "3 potatoes, peeled and quartered",
+      "Water to cover"
     ]
   },
   "steps": {
     "he": [
-      "בסיר גדול, מחממים את השמן ומוסיפים את הפפריקה. מבשלים כ-3 דקות לפתיחת התבלינים (להיזהר לא לשרוף).",
-      "מוסיפים את הבצל (פרוס או קצוץ) ומאדים מספר דקות.",
-      "מוסיפים את הדלעת, כל עשבי התיבול הטריים (פטרוזיליה, שמיר, כוסברה) ואת הקישואים/גזרים האופציונליים. מתבלים במלח גס ופלפל שחור.",
-      "מכסים ומאדים את הירקות על אש נמוכה כ-30 דקות. לא להוסיף מים עדיין; תנו לירקות להגיר נוזלים.",
-      "מוסיפים את העוף (או התחליף הצמחוני) ומאדים מספר דקות נוספות.",
-      "לבסוף, מוסיפים את תפוחי האדמה ומים לכיסוי. מביאים לרתיחה, ואז מבשלים על אש קטנה עד שתפוחי האדמה רכים והעוף מבושל לחלוטין."
+      "בסיר, מחממים את השמן והפפריקה במשך כ-3 דקות לפתיחת הטעמים. יש להיזהר לא לשרוף את הפפריקה.",
+      "מוסיפים את הבצל (פרוס או קצוץ) ומאדים במשך מספר דקות.",
+      "מוסיפים את כל הירקות (דלעת, עשבי תיבול, וקישוא/גזר אם משתמשים). מתבלים במעט מלח גס ופלפל שחור.",
+      "מכסים ומאדים על אש נמוכה במשך כ-30 דקות כדי לאפשר לירקות להתרכך ולהגיר נוזלים.",
+      "מוסיפים את הסייטן (או תחליף הבשר) ומאדים יחד למשך מספר דקות נוספות.",
+      "לבסוף, מוסיפים את תפוחי האדמה ומים עד לכיסוי. מבשלים עד שתפוחי האדמה רכים."
     ],
     "es": [
-      "En una olla grande, calentar el aceite y añadir el pimentón. Cocinar unos 3 minutos para abrir las especias (con cuidado de no quemarlo).",
-      "Añadir la cebolla (en rodajas o picada) y sofreír unos minutos.",
-      "Añadir la calabaza, todas las hierbas frescas (perejil, eneldo, cilantro) y los calabacines/zanahorias opcionales. Sazonar con sal gruesa y pimienta negra.",
-      "Tapar y sudar (cocinar al vapor) las verduras a fuego lento durante aproximadamente 30 minutos. No añadir agua todavía; dejar que las verduras suelten sus líquidos.",
-      "Añadir el pollo (o sustituto vegetariano) y sudar unos minutos más.",
-      "Finalmente, añadir las patatas y agua suficiente para cubrir. Llevar a ebullición, luego cocinar a fuego lento hasta que las patatas estén tiernas y el pollo esté bien cocido."
+      "En una olla, caliente el aceite y el pimentón durante aproximadamente 3 minutos para liberar el sabor. Tenga cuidado de no quemar el pimentón.",
+      "Agregue la cebolla (en rodajas o picada) y sofría por unos minutos.",
+      "Agregue todas las verduras (calabaza, hierbas y calabacín/zanahoria opcionales). Sazone con un poco de sal gruesa y pimienta negra.",
+      "Tape y cocine al vapor a fuego lento durante unos 30 minutos para permitir que las verduras se ablanden y suelten líquidos.",
+      "Agregue el seitán (o sustituto de carne) y cocine al vapor juntos por unos minutos más.",
+      "Finalmente, agregue las papas y suficiente agua para cubrir. Cocine hasta que las papas estén blandas."
     ],
     "ar": [
-      "في طنجرة كبيرة، نسxنو الزيت ونحطو الفلفل مرحي. نقليوهم حكاية 3 دقايق باش تتحل الفاحات (رد بالك لا يتحرق).",
-      "نزيدو البصل (مقصوص جويد ولا خشين) ونقليو دريجين هكاكة.",
-      "نرميو القرع الأحمر، والحشيش الكل (معدنوس، شبث، قزبر)، والقرع الأخضر والسفنارية كان تحب. نفوحو بالملح والفلفل أكحل.",
-      "نغطي الطنجرة ونخليو الخضرة تتقلى وتطيب في ماها (تتكمر) على نار هادية حكاية نص ساعة. ما تزيدش الماء توة؛ خلي الخضرة تسيب الماء متاعها.",
-      "نزيدو الدجاج (ولا البديل النباتي) ونخليوه يتقلى معاهم شوية دقائق.",
-      "في الآخر، نزيدو البطاطا ونمرقو بالماء لين تتغم الماكلة. نخليوها تغلي، ومبعد نوطيو النار ونخليوها تطيب لين البطاطا تولي طرية والدجاج يطيب بالباهي."
+      "في طنجرة، سخن الزيت والفلفل أحمر لمدة 3 دقايق باش تخرج النكهة. رد بالك تحرق الفلفل.",
+      "زيد البصل (مقصوص جويد ولا شرائح) وفوّح شوية دقايق.",
+      "حط الخضرة الكل (القرع الأحمر، الحشيش، والقرع الأخضر/السفنارية كان تحب). فوّح بشوية ملح أحرش وفلفل أكحل.",
+      "غطي الطنجرة وخليهم يطيبوا على نار هادية حكاية 30 دقيقة باش الخضرة تطرى وتسيب ماها.",
+      "زيد السيتان (ولا بديل اللحم) وخليهم يطيبوا مع بعضهم شوية دقايق أخرين.",
+      "في اللخر، زيد البطاطا والماء باش تغم الماكلة. طيب لين البطاطا تطرى."
     ],
     "en": [
-      "In a large pot, heat the oil and add the paprika. Cook for about 3 minutes to open the spices (be careful not to burn it).",
-      "Add the onion (sliced or diced) and sauté for a few minutes.",
-      "Add the pumpkin, all the fresh herbs (parsley, dill, cilantro), and the optional zucchini/carrots. Season with coarse salt and black pepper.",
-      "Cover and sweat (steam) the vegetables on low heat for approximately 30 minutes. Do not add water yet; let the vegetables release their liquids.",
-      "Add the chicken (or vegetarian substitute) and sweat for a few more minutes.",
-      "Finally, add the potatoes and enough water to cover. Bring to a boil, then simmer until the potatoes are soft and the chicken is cooked through."
+      "In a pot, heat the oil and paprika for approximately 3 minutes to release the flavor. Be careful not to burn the paprika.",
+      "Add the onion (either sliced or diced) and sauté for a few minutes.",
+      "Add all the vegetables (pumpkin, herbs, and optional zucchini/carrot). Season with a little coarse salt and black pepper.",
+      "Cover and steam/sauté on low heat for about 30 minutes to allow the vegetables to soften and release liquids.",
+      "Add the seitan chunks (or meat substitute) and steam together for another few minutes.",
+      "Finally, add the potatoes and enough water to cover. Cook until the potatoes are soft."
     ]
   }
 }

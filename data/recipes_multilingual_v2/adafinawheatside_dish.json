@@ -9,47 +9,47 @@
   },
   "name": {
     "he": "חיטה לאדפינה",
-    "es": "Trigo para Adafina (Hita)",
-    "ar": "هيتا للأدفينة",
+    "es": "Trigo de Adafina (Hita)",
+    "ar": "قمح أدفينة",
     "en": "Adafina Wheat (Hita)"
   },
   "description": {
-    "he": "חיטה לאדפינה משלבת את המילה חיטה עם אדפינה, תבשיל ששמו נגזר מהשורש הערבי שמשמעותו לקבור בגחלים לוהטות. גרגירי חיטה שלמים נקלים עם תבלינים, מוכנסים לשקית ומושקעים בסיר השבת. בבישול איטי למשך הלילה, הגרגירים סופגים את טעמי התבשיל ליצירת תוספת רכה ועשירה.",
-    "es": "Hita l'Adafina combina hita (hebreo para trigo) con Adafina, un guiso llamado así por la raíz árabe que significa enterrar en brasas calientes. Los granos de trigo entero se tuestan con especias, luego se encierran en una bolsa y se sumergen en la olla de Shabat. Cocinados a fuego lento durante la noche, los granos absorben la esencia del guiso para crear un acompañamiento tierno y sabroso.",
-    "ar": "هيتا للأدفينة تخلط كلمة هيتا (قمح بالعبرية) مع أدفينة، اللي اسمها جاي من كلمة دفن في الجمر. نحمصوا القمح الكامل مع الفاحات، ونحطوه في شكارة ونغطسوه في طنجرة السبت. يطيب سلة سلة ليلة كاملة، ويشرب القمح بنة المرقة ويولي طري وبنين.",
-    "en": "Hita l'Adafina combines hita (Hebrew for wheat) with Adafina, a stew named for the Arabic root meaning to bury in hot embers. Whole wheat berries are toasted with aromatics, then enclosed in a bag and submerged in the Shabbat pot. Slow-cooked overnight, the grains absorb the stew's essence to create a tender, savory pudding."
+    "he": "חיטה לאדפינה משלבת את המילה העברית חיטה עם אדפינה, שפירושה בערבית לקבור. בגרסה טבעונית זו קולים את הגרגרים השלמים עם תבלינים לפני שמכניסים אותם לשקית. החיטה, שנקברת בסיר השבת למשך הלילה, סופגת את טעמי התבשיל והופכת לרכה ועשירה בטעמים.",
+    "es": "Hita l'Adafina combina la palabra hebrea hita para trigo con Adafina, que significa enterrar en árabe. Esta adaptación vegana tuesta los granos enteros con aromáticos antes de encerrarlos en una bolsa. Enterrado en la olla de Shabat durante la noche, el trigo absorbe la esencia del guiso para convertirse en un acompañamiento tierno y sabroso.",
+    "ar": "هيطة الأدفينة تجمع بين كلمة هيطة بالعבריة للقمح وكلمة أدفينة اللي تعني دفن بالعربي. في هالوصفة النباتية، نحمصوا حبوب القمح الكاملة مع الفواح قبل ما نحطوها في شكارة. كي تتدفن في طنجرة السخينة ليلة كاملة، القمح يشرب بنة المرقة ويولي طري وبنين برشا.",
+    "en": "Hita l'Adafina pairs Hebrew hita for wheat with Adafina, meaning \"to bury\" in Arabic. This vegan adaptation toasts whole grains with aromatics before enclosing them in a bag. Buried in the Shabbat pot overnight, the wheat absorbs the stew's essence to become a tender and savory pudding."
   },
   "ingredients": {
     "he": [
-      "380 גרם גרגירי חיטה מלאה, שטופים ונקיים",
+      "380 גרם חיטה מלאה, שטופה ונקייה",
       "30 מ\"ל שמן צמחי (לטיגון)",
       "1 בצל בינוני, קצוץ",
       "10 שיני שום, שלמות וקלופות",
       "2.3 גרם פפריקה מתוקה",
       "1.2 גרם פלפל לבן (לפי הטעם)",
-      "3 גרם אבקת מרק עוף (או מעט ציר)",
+      "3 גרם אבקת מרק ירקות",
       "מלח לפי הטעם",
-      "350 מ\"ל מים (כ-1.5 כוסות)"
+      "350 מ\"ל מים"
     ],
     "es": [
-      "380 g de granos de trigo integral, lavados y limpios",
+      "380 g de granos de trigo integral, enjuagados y limpios",
       "30 ml de aceite vegetal (para freír)",
-      "1 cebolla mediana, picada",
+      "1 cebolla mediana, picada en cubitos",
       "10 dientes de ajo, enteros y pelados",
       "2.3 g de pimentón dulce",
       "1.2 g de pimienta blanca (al gusto)",
-      "3 g de polvo de sopa de pollo (o un poco de caldo)",
+      "3 g de caldo de verduras en polvo",
       "Sal al gusto",
-      "350 ml de agua (aprox. 1.5 tazas)"
+      "350 ml de agua"
     ],
     "ar": [
       "2 كيسان قمح، مغسول ونظيف",
-      "2 مغارف زيت (للقلي)",
+      "2 مغارف زيت نباتي (للقلي)",
       "1 بصلة متوسطة، مقصوصة",
       "10 سنات ثوم، مقشرين وكاملين",
       "1 مغرفة صغيرة فلفل أحمر",
-      "نصف مغرفة صغيرة فلفل أبيض (حسب الذوق)",
-      "1 مغرفة صغيرة بودرة مرقة دجاج",
+      "1/2 مغرفة صغيرة فلفل أبيض (حسب الذوق)",
+      "1 مغرفة صغيرة بودرة مرقة خضرة",
       "ملح حسب الذوق",
       "1.5 كاس ماء"
     ],
@@ -60,42 +60,42 @@
       "10 garlic cloves, whole peeled",
       "1 tsp sweet paprika",
       "0.5 tsp white pepper (to taste)",
-      "1 tsp chicken soup powder (or a small amount of bouillon)",
+      "1 tsp vegetable bouillon powder",
       "Salt to taste",
-      "1.5 cups water (approx 0.5 to 1 cup water per cup of wheat)"
+      "1.5 cups water"
     ]
   },
   "steps": {
     "he": [
-      "במחבת, מחממים את השמן ומטגנים את הבצל הקצוץ על אש נמוכה עד להשחמה עמוקה. יש להיזהר לא לשרוף אותו.",
+      "במחבת, מחממים את השמן ומטגנים את הבצל הקצוץ על אש נמוכה עד שהוא הופך לחום כהה. יש להיזהר לא לשרוף אותו.",
       "מוסיפים את שיני השום השלמות ומטגנים טיגון קצר מאוד.",
-      "מוסיפים למחבת את גרגירי החיטה הנקיים והיבשים יחד עם הפפריקה, הפלפל הלבן, אבקת מרק העוף והמלח. מטגנים קלות לקליית הגרגירים.",
-      "מעבירים את התערובת לשקית קוקי (שקית צלייה) עמידה בחום. למניעת נזילות, ניתן להכניס את השקית לתוך שקית נוספת.",
+      "מוסיפים למחבת את החיטה הנקייה והיבשה יחד עם הפפריקה, הפלפל הלבן, אבקת המרק והמלח. מטגנים קלות לקליית הגרגרים.",
+      "מעבירים את התערובת לשקית קוקי (שקית צלייה) עמידה בחום. ליתר ביטחון מפני דליפות, ניתן להכניס שקית זו בתוך שקית נוספת.",
       "מוסיפים מים לשקית. היחס הוא בין חצי כוס לכוס מים על כל כוס חיטה.",
-      "קושרים את השקיות היטב, משאירים מעט רווח להתפחות, ומניחים אותן בתוך סיר החמין (אדפינה) לבישול במשך הלילה עם שאר התבשיל."
+      "קושרים את השקיות היטב, משאירים מעט מקום להתפשטות, ומניחים אותן בתוך סיר החמין (אדפינה) לבישול במשך הלילה עם שאר התבשיל."
     ],
     "es": [
-      "En una sartén, caliente el aceite y fría la cebolla picada a fuego lento hasta que se dore mucho. Tenga cuidado de no quemarla.",
-      "Agregue los dientes de ajo enteros y fría muy brevemente.",
-      "Añada los granos de trigo limpios y secos a la sartén junto con el pimentón, la pimienta blanca, el polvo de sopa de pollo y la sal. Fría brevemente para tostar los granos.",
+      "En una sartén, caliente el aceite y sofría la cebolla picada a fuego lento hasta que se torne marrón oscuro. Tenga cuidado de no quemarla.",
+      "Agregue los dientes de ajo enteros y sofría muy brevemente.",
+      "Añada los granos de trigo limpios y secos a la sartén junto con el pimentón, la pimienta blanca, el caldo en polvo y la sal. Sofría brevemente para tostar los granos.",
       "Transfiera la mezcla a una bolsa de cocción resistente al calor (bolsa para horno). Para mayor seguridad contra fugas, puede colocar esta bolsa dentro de una segunda bolsa.",
       "Añada agua a la bolsa. La proporción es entre media y una taza de agua por cada taza de trigo utilizada.",
-      "Ate las bolsas firmemente, dejando un poco de espacio para la expansión, y colóquelas en la olla caliente (Adafina/Hamin) para cocinar durante la noche con el resto del guiso."
+      "Ate las bolsas firmemente, dejando un poco de espacio para la expansión, y colóquelas dentro de la olla caliente (Adafina/Hamin) para cocinar durante la noche con el resto del guiso."
     ],
     "ar": [
-      "في مقلاة، سخن الزيت واقلي البصل المقصوص على نار هادية لين يحمار مليح ويولي لونه غامق. رد بالك لا يتحرق.",
+      "في مقلاة، سخن الزيت واقلي البصل المقصوص على نار هادية لين يولي لونه قهوي غامق. رد بالك لا يتحرق.",
       "زيد سنات الثوم الكاملين واقليهم شوية برك.",
-      "حط القمح النظيف والشايح في المقلاة مع الفلفل الأحمر، الفلفل الأبيض، بودرة مرقة الدجاج والملح. قليهم شوية باش يتحمص القمح.",
-      "فرغ الخليط في شكارة طياب (sachet cuisson) اللي تستحمل السخانة. باش تضمن ما تخرجش المرقة، تنجم تحط الشكارة في وسط شكارة أخرى.",
-      "زيد الماء في الشكارة. الحسبة هي بين نص كاس وكاس ماء لكل كاس قمح.",
-      "اربط الشكارة مليح، وخلي شوية وساع باش القمح يتنفخ، وحطها في طنجرة الأدفينة (التفينة) باش تطيب ليلة كاملة مع باقي المرقة."
+      "حط القمح النظيف والشايح في المقلاة مع الفلفل الأحمر، الفلفل الأبيض، بودرة المرقة والملح. قليهم شوية باش يتحمص القمح.",
+      "فرغ الخليط في شكارة طياب (شكارة كوكي) اللي تستحمل السخانة. باش تضمن ما تخرجش المرقة، تنجم تحط الشكارة هذي في وسط شكارة أخرى.",
+      "زيد الماء للشكارة. الحسبة هي بين نص كاس لكاس ماء لكل كاس قمح.",
+      "اربط الشكارة مليح، وخلي شوية وساع باش القمح يتنفخ، وحطها في طنجرة السخينة (أدفينة) باش تطيب ليلة كاملة مع باقي الماكلة."
     ],
     "en": [
       "In a frying pan, heat the oil and fry the diced onion over low heat until it turns dark brown. Be careful not to burn it.",
       "Add the whole garlic cloves and fry very briefly.",
-      "Add the clean, dry wheat berries to the pan along with the paprika, white pepper, chicken soup powder, and salt. Fry briefly to toast the grains.",
+      "Add the clean, dry wheat berries to the pan along with the paprika, white pepper, vegetable bouillon powder, and salt. Fry briefly to toast the grains.",
       "Transfer the mixture into a heat-resistant cooking bag (oven bag). For extra security against leaks, you may place this bag inside a second bag.",
-      "Add water to the bag. The ratio is between 1/2 to 1 cup of water for every 1 cup of wheat used.",
+      "Add water to the bag. The ratio is between ½ to 1 cup of water for every 1 cup of wheat used.",
       "Tie the bags tightly, leaving a little room for expansion, and place them into the hot pot (Adafina/Hamin) to cook overnight with the rest of the stew."
     ]
   },

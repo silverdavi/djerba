@@ -7,7 +7,7 @@
   "name_origin": "The provided name 'Levivot' (לביבות) is Biblical Hebrew, derived from the root L-B-B (ל-ב-ב), associated with the heart ('lev') or the action of kneading/mixing. In 2 Samuel 13:6, Tamar makes 'levivot' for Amnon. In Modern Hebrew, the term was adopted to refer to latkes or fritters. However, the dish described—a baked potato casserole from Djerba—is historically known in Judeo-Arabic as 'Ma'akouda' (معقودة) or 'Ma'akouda fil-Koucha' (baked Ma'akouda). The use of 'Levivot' here represents a Hebraization of the traditional dish, likely occurring after immigration to Israel, despite the cooking method (baking) differing from the standard definition of levivot (frying).",
   "description": "A simple, savory baked potato casserole. Unlike traditional fried latkes, this mixture is spread into a pan and baked until golden brown, resulting in a dish similar to a Potato Kugel or a baked Ma'akouda.",
   "cultural_context": "While 'Levivot' usually implies Hanukkah fried pancakes, this baked version is a common everyday side dish in Israeli and North African Jewish households, offering a lighter alternative to frying.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with flax eggs or a commercial egg replacer; results may vary in texture.",
   "meta": {
     "servings": "4-6",
@@ -37,21 +37,86 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 4,
-      "unit": "unit",
-      "size": "large",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour (Besan)",
+      "amount": 0.75,
+      "unit": "cup",
+      "size": null,
       "preparation": null,
-      "notes": null,
+      "notes": "Replaces eggs for binding",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 90,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cup"
+        },
         "original": {
-          "value": 4,
-          "unit": "unit"
+          "value": 0.75,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 0.75,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": "mixed with chickpea flour",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 180,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 6,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.75,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric powder",
+      "amount": 0.25,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "for golden color",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
         }
       }
     },
@@ -114,28 +179,28 @@
     {
       "ingredient_id": "vegetable_oil",
       "name": "Vegetable oil",
-      "amount": 15,
+      "amount": 30,
       "unit": "ml",
       "size": null,
       "preparation": null,
-      "notes": "plus extra for greasing the pan",
+      "notes": "Increased slightly for moisture",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 15,
+          "value": 30,
           "unit": "ml"
         },
         "imperial": {
-          "value": 0.5,
+          "value": 1,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 1,
+          "value": 2,
           "unit": "tbsp"
         },
         "original": {
-          "value": 15,
-          "unit": "ml"
+          "value": 2,
+          "unit": "tbsp"
         }
       }
     },
@@ -236,8 +301,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": "images/current/076_assida/dish.png",
-    "prompt": null
+    "filename": null,
+    "prompt": null,
+    "generation_prompt": "A rustic, golden-brown baked potato casserole known as Ma'akouda, served in a vintage ceramic baking dish on a weathered wooden table. The dish features a crispy, textured top layer of grated potatoes baked to perfection. A slice is being lifted, revealing a moist, savory interior bound with chickpea flour rather than eggs, glowing with a subtle turmeric yellow hue. Fresh chopped parsley is scattered on top. The setting is an early 1900s stone kitchen in Safed with arched windows, soft natural lighting illuminating the steam rising from the warm casserole. In the background, clay jars and woven textiles suggest a North African Jewish heritage adapted to life in the Galilee. The image captures the warmth of home cooking with purely plant-based ingredients."
   },
   "tags": [
     "side-dish",
@@ -297,5 +363,14 @@
       "key_difference": "Often includes sirene cheese and mint; uses grated potatoes."
     }
   ],
-  "intro_paragraph": "Baked Potato Levivot, historically called *Ma'akouda* in Judeo-Arabic, transforms the concept of fried fritters into a savory casserole. Deriving its Hebrew name from the root for \"heart,\" this comforting dish features seasoned mashed potatoes baked until golden. It serves as a lighter, everyday staple in Djerban kitchens, offering a simple alternative to oil-heavy Hanukkah latkes."
+  "intro_paragraph": "This vegan adaptation of Baked Potato Levivot, historically known as Ma'akouda in Judeo-Arabic, honors the root word for 'bound' by using a savory chickpea batter. The golden casserole offers a comforting texture perfect for everyday meals, maintaining the savory heart of the original Djerban tradition without using eggs.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "4 Eggs",
+      "replacement": "Chickpea flour and water batter with turmeric",
+      "notes": "Provides binding structure and protein"
+    }
+  ],
+  "veganization_complete": true
 }

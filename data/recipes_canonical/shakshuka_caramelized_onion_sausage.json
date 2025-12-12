@@ -7,7 +7,7 @@
   "name_origin": "The term 'Shakshuka' (Arabic: شكشوكة) derives from the Maghrebi Arabic and Amazigh (Berber) root 'sh-k-sh-k', which is onomatopoeic for the sound of bubbling or sizzling, and implies the action 'to mix' or 'shake together'. While the Hebrew name provided ('Shakshuka shel batzal metugan aroch') is a modern descriptive title, the traditional Tunisian name for a version relying heavily on onions is 'Shakshukat Bsal'. However, the specific description provided (tomato paste base rather than fresh tomatoes, plus sausage) linguistically and culinarily aligns more closely with the Tunisian dish 'Ojja' (عجة), specifically 'Ojja bil Merguez'. In Tunisian dialect, 'Shakshuka' typically implies a ragout of fresh chopped vegetables (peppers/tomatoes), while 'Ojja' implies a sauce made from tomato concentrate, harissa, and garlic.",
   "description": "A rich, savory variation of the classic North African Shakshuka. This version relies on a base of deeply caramelized onions and tomato paste rather than fresh tomatoes, fortified with sliced sausages for a hearty meal.",
   "cultural_context": "While standard Shakshuka is often vegetarian, the addition of sausages (often Merguez in North African cuisine) turns this into a substantial dinner dish. The emphasis on 'long fried' onions suggests a Djerban preference for a sweeter, deeper flavor base.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace sausages with vegan sausage or eggplant, and replace eggs with silken tofu or chickpea flour batter.",
   "meta": {
     "servings": "3-4",
@@ -117,12 +117,12 @@
       }
     },
     {
-      "ingredient_id": "sausages",
-      "name": "Sausages",
+      "ingredient_id": "vegan_sausages",
+      "name": "Vegan sausages",
       "amount": 4,
       "unit": "unit",
       "preparation": "sliced into rounds",
-      "notes": "Merguez or kosher hot dogs",
+      "notes": "Spicy vegan Merguez or seitan-based sausage",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -216,20 +216,53 @@
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
-      "amount": 5,
-      "unit": "unit",
-      "preparation": null,
-      "notes": null,
+      "ingredient_id": "silken_tofu",
+      "name": "Silken tofu",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "sliced into thick rounds",
+      "notes": "Replaces the eggs",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.5,
+          "unit": "oz"
+        },
         "volume": null,
         "original": {
-          "value": 5,
-          "unit": "unit"
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "kala_namak",
+      "name": "Kala Namak (Black Salt)",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Optional, for eggy flavor",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
         }
       }
     }
@@ -269,7 +302,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/066_ojja_merguez/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic overhead shot of a steaming cast iron pan containing a rich vegan Shakshuka inside an early 1900s stone-walled kitchen in Safed. The dish features a deep red sauce made from tomato paste and caramelized onions, studded with sliced spicy plant-based sausages and rounds of soft silken tofu that mimic poached eggs. Fresh cilantro and parsley garnish the bubbling sauce. A loaf of crusty rustic bread sits on the worn wooden table nearby. The lighting is warm and natural, casting soft shadows on the limestone walls, highlighting the texture of the thick sauce and the glistening vegan sausage slices. The atmosphere is cozy, authentic, and inviting."
   },
   "tags": [
     "shakshuka",
@@ -329,5 +363,19 @@
       "key_difference": "Uses Italian herbs (basil/oregano) instead of the Maghrebi profile of caraway, coriander, and harissa."
     }
   ],
-  "intro_paragraph": "Shakshuka, deriving from the Maghrebi Arabic for \"mixed together,\" is traditionally a vegetarian breakfast. This robust Djerban adaptation builds a sweeter, deeper foundation using slowly caramelized onions and concentrated tomato paste instead of fresh tomatoes. Fortified with spicy sliced sausages, the dish transforms into a substantial dinner, best served hot with crusty bread."
+  "intro_paragraph": "Shakshuka derives from the Maghrebi Arabic word for mixing together. This vegan adaptation of the Djerban classic replaces traditional eggs with silken tofu and uses spicy plant-based sausages. The rich sauce relies on deeply caramelized onions and concentrated tomato paste for a hearty and savory dinner dish.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Sausages",
+      "replacement": "Vegan Merguez or spicy plant-based sausages",
+      "notes": "Maintains the spicy, savory protein element"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Silken tofu rounds",
+      "notes": "Mimics the texture of poached egg whites"
+    }
+  ],
+  "veganization_complete": true
 }

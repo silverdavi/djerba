@@ -179,7 +179,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/055_marmouma/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "Capture a high-resolution, appetizing image of Marmouma, a deep red Tunisian cooked salad, served in a hand-painted glazed ceramic bowl. The dish features a thick, jam-like consistency of stewed tomatoes and roasted red peppers, glistening with golden olive oil and speckled with minced garlic. The texture should look soft and spreadable, not watery. Place the bowl on a weathered wooden table within an authentic early 20th-century Safed kitchen, characterized by rough-hewn limestone walls and a soft, natural light filtering through an arched window. In the background, hint at vintage copper cookware and dried herbs hanging from the stone ceiling. In the foreground, arrange a rustic loaf of braided challah or flatbread, partially torn to suggest dipping, alongside a small dish of olives. The scene should evoke a warm, inviting Shabbat appetizer spread, emphasizing the rich, vibrant colors of this naturally plant-based heritage dish."
   },
   "tags": [
     "tunisian",
@@ -241,5 +242,8 @@
       "key_difference": "Chakchouka includes poached eggs and is a hot meal; Marmouma is a salad/dip served cold or room temp."
     }
   ],
-  "intro_paragraph": "Marmouma, a rich cooked salad of tomatoes, peppers, and garlic, takes its name from a dialectal root describing vegetables stewed until soft. Slow-cooked to a jam-like consistency, this Djerban Jewish staple is distinct from generic matbucha. It is traditionally served as part of the Shabbat kemia appetizer spread alongside bread."
+  "intro_paragraph": "Marmouma gets its name from an Arabic root meaning stewed or mashed. This Djerban Jewish staple features tomatoes and peppers slow-cooked into a rich jam. Distinct from matbucha, it relies on time to concentrate flavors. Serve this naturally vegan delight cold with fresh bread as a classic appetizer.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

@@ -7,7 +7,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 7) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>Pastel de Plátano</span></div>
-        <div class="title-word lang-he"><span>עוגת בננות</span></div>
-        <div class="title-word lang-en"><span>Banana Cake</span></div>
-        <div class="title-word lang-ar"><span>كيكة الموز</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Pastel de Plátano</span></div>
+        <div class="title-word lang-he title-small"><span>עוגת בננות</span></div>
+        <div class="chapter-number"><span>7</span></div>
+        <div class="title-word lang-en title-medium"><span>Banana Cake</span></div>
+        <div class="title-word lang-ar title-small"><span>كيكة الموز</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>עוגה לחה ומנחמת, המוגשת לרוב בארוחת הבוקר או לצד התה בשבת בבוקר. בעוד שהמתכון המסורתי מתבסס על ביצים למבנה, גרסה טבעונית זו משתמשת ברסק תפוחים המעניק לחות ויציבות. המילה &#x27;מוז&#x27; (בננה) משותפת לכל הניבים הערביים בצפון אפריקה.</p>
+            <p>עוגת בננות משלבת את המונח המקראי עוגה עם מילה בינלאומית. גרסה טבעונית זו מחליפה מוצרי חלב ברוויון צמחי כדי להבטיח מרקם אוורירי. כשינוי מודרני מהמטבח היהודי-ערבי העתיק, היא נותרה נכס אהוב בבתים יהודיים לארוחת בוקר של שבת או לתה של אחר הצהריים.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Un pastel húmedo y reconfortante, servido a menudo en el desayuno o con el té. Aunque la receta tradicional depende de los huevos para su estructura, esta versión vegana utiliza puré de manzana para aportar humedad y estabilidad. El nombre deriva de la palabra árabe &#x27;mouz&#x27; (plátano).</p>
+            <p>Ugat Bananot combina el término bíblico para redondo, uga, con un préstamo lingüístico global. Esta adaptación vegana reemplaza los lácteos tradicionales con suero de leche vegetal para asegurar una miga ligera. Una desviación moderna de la antigua cocina judeo-árabe, sigue siendo un estándar apreciado en los hogares judíos para el desayuno de Shabat o el té de la tarde.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>كيكة رطبة وبنينة، تتقدم عادة مع التاي أو القهوة في صباح السبت. الوصفة التقليدية فيها العظم (البيض)، لكن هذي النسخة النباتية تستعمل عصيدة التفاح باش تجي طرية ومتماسكة. كلمة &#x27;موز&#x27; معروفة ومستعملة في كل لهجات شمال إفريقيا.</p>
+            <p>عوجات بنانوت (Ugat Bananot) تجمع بين الكلمة التوراتية عوجا واسم عالمي. هالوصفة النباتية تبدل الحليب العادي باللبن النباتي باش تجي الكيكة خفيفة وهشوشة. هي حاجة جديدة مقارنة بالماكلة اليهودية العربية القديمة، أما ولات أساسية ومحبوبة في ديار اليهود لفطور الصباح نهار السبت ولا مع التاي في العشية.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A moist, comforting tea cake often served for breakfast or Shabbat morning. While traditional North African cakes rely heavily on eggs for structure, this vegan adaptation uses applesauce for moisture and binding. The name derives from the common Arabic word &#x27;mouz&#x27; (banana).</p>
+            <p>Ugat Bananot combines the biblical term for round, uga, with a global loan word. This vegan adaptation replaces traditional dairy with plant-based buttermilk to ensure a light crumb. A modern departure from ancient Judeo-Arabic cuisine, it remains a cherished standard in Jewish households for Shabbat breakfast or afternoon tea.</p>
           </div>
         </div>
       </div>
@@ -450,7 +918,7 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">8–10</span>
+          <span class="meta-value">9-12</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
@@ -480,62 +948,73 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>1/2 taza de mantequilla vegana o aceite de coco</li>
-              <li>1 1/2 tazas de azúcar</li>
-              <li>6 cdas de puré de manzana (reemplaza huevos)</li>
-              <li>1 cdta de vainilla</li>
-              <li>1 cdta de bicarbonato de sodio</li>
-              <li>1/2 taza de leche vegetal mezclada con 1 cdta de vinagre</li>
-              <li>1 taza de plátanos maduros machacados (2 grandes)</li>
-              <li>1 1/2 tazas de harina</li>
-              <li>1 cdta de polvo de hornear</li>
+              <li>113 g de mantequilla vegana, ablandada</li>
+              <li>300 g de azúcar</li>
+              <li>14 g de harina de linaza, mezclada con 6 cucharadas de agua</li>
+              <li>5 ml de extracto de vainilla</li>
+              <li>5 g de bicarbonato de sodio</li>
+              <li>115 ml de leche de soja, mezclada con 1 cdta de vinagre de manzana</li>
+              <li>2 plátanos grandes, machacados</li>
+              <li>190 g de harina común, tamizada</li>
+              <li>5 g de polvo de hornear</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mezclar la leche vegetal con el vinagre y el bicarbonato; dejar reposar unos minutos para que cuaje.</li>
-              <li class="step"><span class="step-num">2.</span>Batir la mantequilla vegana, el azúcar, el puré de manzana y la vainilla hasta que estén bien combinados.</li>
-              <li class="step"><span class="step-num">3.</span>Añadir la mezcla de leche a la masa y batir bien.</li>
-              <li class="step"><span class="step-num">4.</span>Agregar los plátanos y luego los ingredientes secos tamizados. Mezclar solo hasta integrar.</li>
-              <li class="step"><span class="step-num">5.</span>Verter en un molde engrasado y hornear a 175°C (350°F) durante 45 a 50 minutos.</li>
+              <li class="step"><span class="step-num">1.</span>Precalentar el horno a 175°C. Preparar un molde cuadrado de 23 cm engrasándolo o forrándolo.</li>
+              <li class="step"><span class="step-num">2.</span>En un bol grande, batir la mantequilla, el azúcar, la mezcla de linaza y la vainilla hasta que la mezcla esté ligera y esponjosa.</li>
+              <li class="step"><span class="step-num">3.</span>En un recipiente pequeño aparte, disolver el bicarbonato de sodio en la mezcla de leche agria.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir la mezcla de leche a la masa de mantequilla y batir bien.</li>
+              <li class="step"><span class="step-num">5.</span>Tamizar juntos la harina y el polvo de hornear.</li>
+              <li class="step"><span class="step-num">6.</span>Añadir los plátanos machacados alternando con los ingredientes secos tamizados a la masa. Mezclar solo hasta que se integren; no mezclar en exceso.</li>
+              <li class="step"><span class="step-num">7.</span>Verter la masa en el molde preparado.</li>
+              <li class="step"><span class="step-num">8.</span>Hornear de 45 a 50 minutos, o hasta que un palillo insertado en el centro salga limpio.</li>
+              <li class="step"><span class="step-num">9.</span>Dejar enfriar. Opcionalmente cubrir con glaseado de plátano o de chocolate.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>1/2 כוס חמאה טבעונית או שמן קוקוס</li>
-              <li>1 1/2 כוסות סוכר</li>
-              <li>6 כפות רסק תפוחים (תחליף לביצים)</li>
-              <li>1 כפית תמצית וניל</li>
-              <li>1 כפית סודה לשתייה</li>
-              <li>1/2 כוס חלב סויה/שקדים מעורבב עם 1 כפית חומץ</li>
-              <li>1 כוס בננות בשלות מעוכות (כ-2 גדולות)</li>
-              <li>1 1/2 כוסות קמח</li>
-              <li>1 כפית אבקת אפייה</li>
+              <li>113 גרם חמאה טבעונית, רכה</li>
+              <li>300 גרם סוכר</li>
+              <li>14 גרם פשתן טחון, מעורבב עם 6 כפות מים</li>
+              <li>5 מ&quot;ל תמצית וניל</li>
+              <li>5 גרם סודה לשתייה</li>
+              <li>115 מ&quot;ל חלב סויה, מעורבב עם כפית חומץ תפוחים</li>
+              <li>2 בננות גדולות, מעוכות</li>
+              <li>190 גרם קמח לבן, מנופה</li>
+              <li>5 גרם אבקת אפייה</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מערבבים את החלב הצמחי עם החומץ והסודה לשתייה ומניחים בצד לכמה דקות עד שנוצר מרקם הדומה לריוויון.</li>
-              <li class="step"><span class="step-num">2.</span>בקערה גדולה, מקציפים את החמאה הטבעונית, הסוכר, רסק התפוחים והווניל עד לקבלת תערובת אחידה.</li>
-              <li class="step"><span class="step-num">3.</span>מוסיפים את תערובת החלב לקערה ומערבבים היטב.</li>
-              <li class="step"><span class="step-num">4.</span>מוסיפים את הבננות המעוכות, ולבסוף את הקמח ואבקת האפייה. מערבבים רק עד שהקמח נטמע.</li>
-              <li class="step"><span class="step-num">5.</span>יוצקים לתבנית משומנת ואופים ב-175 מעלות כ-45 עד 50 דקות.</li>
+              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-175 מעלות צלזיוס. משמנים או מרפדים תבנית אפייה מרובעת בגודל 23 ס&quot;מ.</li>
+              <li class="step"><span class="step-num">2.</span>בקערה גדולה, מקציפים את החמאה, הסוכר, תערובת הפשתן והווניל עד שהתערובת בהירה ואוורירית.</li>
+              <li class="step"><span class="step-num">3.</span>בכלי נפרד קטן, ממיסים את הסודה לשתייה בתוך תערובת החלב החמוץ.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים את תערובת החלב לבלילת החמאה ומערבבים היטב.</li>
+              <li class="step"><span class="step-num">5.</span>מנפים יחד את הקמח ואבקת האפייה.</li>
+              <li class="step"><span class="step-num">6.</span>מוסיפים את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים לבלילה. מערבבים רק עד לאיחוד; אין לערבב יתר על המידה.</li>
+              <li class="step"><span class="step-num">7.</span>יוצקים את הבלילה לתבנית האפייה המוכנה.</li>
+              <li class="step"><span class="step-num">8.</span>אופים במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.</li>
+              <li class="step"><span class="step-num">9.</span>מניחים להתקרר. אפשר לצפות בציפוי בננה או ציפוי שוקולד.</li>
             </ul>
           </div>
         </div>
@@ -546,22 +1025,25 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>1/2 cup vegan butter or coconut oil</li>
+              <li>1/2 cup vegan butter, softened</li>
               <li>1 1/2 cups sugar</li>
-              <li>6 tbsp applesauce (egg replacer)</li>
+              <li>2 tbsp ground flaxseed, mixed with 6 tbsp water</li>
               <li>1 tsp vanilla extract</li>
               <li>1 tsp baking soda</li>
-              <li>1/2 cup plant milk mixed with 1 tsp vinegar</li>
-              <li>1 cup mashed ripe bananas (2 large)</li>
-              <li>1 1/2 cups flour</li>
+              <li>1/2 cup soy milk, mixed with 1 tsp apple cider vinegar</li>
+              <li>2 large bananas, mashed</li>
+              <li>1 1/2 cups all-purpose flour, sifted</li>
               <li>1 tsp baking powder</li>
             </ul>
           </div>
@@ -569,39 +1051,47 @@ h2 {
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mix plant milk with vinegar and baking soda; let sit for a few minutes to curdle.</li>
-              <li class="step"><span class="step-num">2.</span>Beat vegan butter, sugar, applesauce, and vanilla until well combined.</li>
-              <li class="step"><span class="step-num">3.</span>Add the milk mixture to the batter and mix well.</li>
-              <li class="step"><span class="step-num">4.</span>Add mashed bananas, then fold in sifted dry ingredients just until blended.</li>
-              <li class="step"><span class="step-num">5.</span>Pour into a prepared pan and bake at 350°F (175°C) for 45 to 50 minutes.</li>
+              <li class="step"><span class="step-num">1.</span>Preheat oven to 350°F (175°C). Prepare a 9-inch square baking pan by greasing or lining it.</li>
+              <li class="step"><span class="step-num">2.</span>In a large bowl, beat the butter, sugar, flax mixture, and vanilla until the mixture is light and fluffy.</li>
+              <li class="step"><span class="step-num">3.</span>In a separate small container, dissolve the baking soda into the sour milk mixture.</li>
+              <li class="step"><span class="step-num">4.</span>Add the milk mixture to the butter batter and beat well.</li>
+              <li class="step"><span class="step-num">5.</span>Sift the flour and baking powder together.</li>
+              <li class="step"><span class="step-num">6.</span>Add the mashed bananas alternately with the sifted dry ingredients to the batter. Mix just until blended; do not overmix.</li>
+              <li class="step"><span class="step-num">7.</span>Pour the batter into the prepared baking pan.</li>
+              <li class="step"><span class="step-num">8.</span>Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.</li>
+              <li class="step"><span class="step-num">9.</span>Allow to cool. Optionally ice with Banana Icing or Chocolate Icing.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>1/2 كأس زبدة نباتية أو زيت جوز الهند</li>
-              <li>1 1/2 كأس سكر</li>
-              <li>6 مغارف كبار عصيدة تفاح (في بلاصة العظم)</li>
-              <li>1 مغرفة صغيرة فانيليا</li>
-              <li>1 مغرفة صغيرة بيكربونات</li>
-              <li>1/2 كأس حليب نباتي مخلط مع مغرفة صغيرة خل</li>
-              <li>1 كأس موز مهروس (2 كعبات كبار)</li>
-              <li>1 1/2 كأس فرينة (دقيق)</li>
-              <li>1 مغرفة صغيرة خميرة ڨاطو</li>
+              <li>نصف كاس زبدة نباتية، طرية</li>
+              <li>كاس ونص سكر</li>
+              <li>2 مغارف كتان مرحي، مخلطين مع 6 مغارف ماء</li>
+              <li>مغرفة صغيرة فانيليا</li>
+              <li>مغرفة صغيرة بيكربونات</li>
+              <li>نصف كاس حليب صوجا، مخلط مع مغرفة صغيرة خل تفاح</li>
+              <li>2 كعبات موز كبار، معفوسين</li>
+              <li>كاس ونص فرينة، منخولة</li>
+              <li>مغرفة صغيرة خميرة ڨاطو</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>خلّط الحليب النباتي مع الخل والبيكربونات وخليهم يرتاحو شوية حتى يولي رايب.</li>
-              <li class="step"><span class="step-num">2.</span>ركّض الزبدة النباتية مع السكر وعصيدة التفاح والفانيليا بالباهي حتى يتخلطو.</li>
-              <li class="step"><span class="step-num">3.</span>زيد خليط الحليب وخلّط مليح، ومبعد زيد الموز المهروس.</li>
-              <li class="step"><span class="step-num">4.</span>زيد الفرينة وخميرة الڨاطو وخلّط جيست قيس ما تتلم العجينة.</li>
-              <li class="step"><span class="step-num">5.</span>صب الخليط في طبق مدهون وطيّب في الكوشة (فرن) سخونة 175 درجة لمدة 45-50 دقيقة.</li>
+              <li class="step"><span class="step-num">1.</span>سخن الفور لـ 175 درجة. حضّر طبق الفور (23 سم) وادهנו بالزيت ولا حط فيه ورق طبخ.</li>
+              <li class="step"><span class="step-num">2.</span>في صحفة كبيرة، ركض الزبدة والسكر وخليط الكتان والفانيليا لين يولي الخليط خفيف ومنفخ.</li>
+              <li class="step"><span class="step-num">3.</span>في صحفة صغيرة وحدها، ذوّب البيكربونات في خليط الحليب الرايب.</li>
+              <li class="step"><span class="step-num">4.</span>زيد خليط الحليب لخليط الزبدة وركض مليح.</li>
+              <li class="step"><span class="step-num">5.</span>غربل الفرينة وخميرة الڨاطو مع بعضهم.</li>
+              <li class="step"><span class="step-num">6.</span>زيد الموز المعفوس بالتناوب مع المكونات الشايحة للخليط. خلط جيست لين يتلموا؛ ما تخلطش برشا باش الكيكة ما تجيش يابسة.</li>
+              <li class="step"><span class="step-num">7.</span>صب الخليط في طبق الفور اللي حضرته.</li>
+              <li class="step"><span class="step-num">8.</span>طيبها بين 45 و 50 دقيقة، ولا لين تدخل كردون في الوسط ويخرج شايح.</li>
+              <li class="step"><span class="step-num">9.</span>خليها تبرد. تنجم تزينها بڨلاصاج الموز ولا الشوكولاتة كان تحب.</li>
             </ul>
           </div>
         </div>

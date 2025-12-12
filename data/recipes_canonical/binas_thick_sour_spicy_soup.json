@@ -3,7 +3,7 @@
   "slug": "binas-thick-sour-spicy-soup",
   "source_file": "data/safed_recipes/33_מרק_סמיך_חמוץ_וחריף_של_בינה.json",
   "name": "Bina's Thick Sour and Spicy Soup",
-  "name_hebrew": "מרק סמיך חמוץ וחריף של בינה",
+  "name_hebrew": "מרק טלבינה",
   "name_origin": "The Hebrew name provided ('Bina's Thick Sour and Spicy Soup') is a descriptive title rather than a traditional name. Based on the specific culinary profile (thick texture via flour slurry, sour vinegar/lemon base, and spicy harissa/caraway profile), this dish is almost certainly the Tunisian classic known as **Hsou** (or **H'sou** / **Hassu**). The name derives from the Classical Arabic verb 'ḥasā' (حسا), meaning 'to sip' or 'to drink soup'. In Tunisian Derja, it refers specifically to this style of thick, spicy pottage thickened with grain (semolina or flour). (Confidence: likely)",
   "description": "A simple, warming soup characterized by its thick texture and bold sour and spicy flavors. It relies on a flour slurry for thickening, a technique common in traditional frugal home cooking.",
   "cultural_context": "A simple North African style soup, likely used as a quick dinner or a warming remedy. The combination of hot paprika and lemon is typical of the Tunisian/Djerban palate.",
@@ -233,7 +233,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/046_hsou/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot captures a rustic ceramic bowl filled with Hsou, a traditional Tunisian soup with a vibrant reddish-orange hue. The soup appears thick and velvety, thickened with flour rather than cream, with a glossy sheen reflecting the natural light. Steam rises gently from the hot surface, carrying the aroma of garlic and paprika. The bowl rests on a weathered wooden table inside an early 20th-century stone kitchen in Safed, surrounded by textured limestone walls. Soft daylight streams through a small window, illuminating the rich color of the broth. Beside the bowl sits a piece of crusty rustic bread and a fresh lemon wedge, emphasizing the sour profile. A vintage metal spoon lies on a coarse linen napkin nearby. The scene evokes a cozy, frugal, and warming atmosphere, highlighting the comforting essence of this naturally plant-based winter meal. The composition focuses on the smooth, opaque consistency of the soup, showcasing its hearty nature without the need for meat or dairy ingredients."
   },
   "tags": [
     "soup",
@@ -288,5 +289,8 @@
       "key_difference": "Thickened by the starch of green wheat (frik) rather than a flour slurry; usually tomato-based."
     }
   ],
-  "intro_paragraph": "Hsou—deriving from the Arabic \"to sip\"—is a rustic soup defined by a velvety texture achieved through a simple flour slurry. Bursting with the signature Djerban combination of spicy harissa and sour vinegar, this warming broth is traditionally prepared as a frugal, quick dinner or a soothing remedy for colds."
+  "intro_paragraph": "Deriving from the Arabic word for sipping, Hsou is a classic Tunisian comfort dish. This naturally plant-based version relies on a flour slurry for its signature velvety texture. Boldly flavored with garlic, hot paprika, and lemon, it offers a warming and frugal remedy for cold winter nights.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

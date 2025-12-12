@@ -10,14 +10,14 @@
   "name": {
     "he": "רוטב קיסר טבעוני",
     "es": "Aderezo César Vegano",
-    "ar": "صوص سيزر نباتي",
+    "ar": "صوص سيزر نباتية",
     "en": "Vegan Caesar Dressing"
   },
   "description": {
-    "he": "רוטב קיסר טבעוני מציע תחליף שמנתי וצמחי לרוטב הסלט הקלאסי. השם משלב את המילה קיסר עם טבעוני, מונח בעברית מודרנית שמקורו במילה טבע. השילוב של מיונז טבעוני, צלפים ומיץ לימון יוצר תוספת פרווה מודרנית המשחזרת את הטעם המלוח והחמצמץ האופייני ללא אנשובי, ומתאימה לכל ארוחה.",
-    "es": "Rotev Keisar Tiv'oni ofrece una alternativa cremosa y vegetal al clásico aderezo para ensaladas. El nombre combina Keisar (César) con Tiv'oni, un término hebreo moderno para vegano arraigado en teva (naturaleza). Mezclando mayonesa vegana, alcaparras y jugo de limón, esta moderna adición pareve replica el sabor salado característico sin anchoas, haciéndolo adecuado para cualquier comida.",
-    "ar": "روتڤ قيصر طڤعوني هو بديل نباتي وكريمي لصوص السلطة المعروفة. الاسم يجمع بين قيصر و طڤعوني، كلمة عبرية جديدة للنباتي جاية من كلمة طيڤع (طبيعة). بتخليط المايونيز النباتي، والكبار، وعصير القارص، هالإضافة البارڤ الحديثة تعطي نفس الطعم المالح والحامض من غير أنشوة، وتواتي أي ماكلة.",
-    "en": "Rotev Keisar Tiv'oni offers a creamy, plant-based alternative to the classic salad topper. The name combines Keisar (Caesar) with Tiv'oni, a Modern Hebrew term for vegan rooted in teva (nature). Blending vegan mayonnaise, capers, and lemon juice, this modern pareve addition replicates the signature savory tang without anchovies, making it suitable for any meal."
+    "he": "רוטב קיסר טבעוני הוא גרסה מודרנית מהצומח לרוטב הקיסר הקלאסי. השם משלב את המילה קיסר עם טבעוני, המילה העברית ששורשה בטבע. על ידי שימוש בצלפים ומי מלח במקום אנשובי, הרוטב הקרמי הזה מספק טעם מלוח ואותנטי המושלם לסלטים פריכים.",
+    "es": "Rotev Keisar Tivoni es una adaptación moderna a base de plantas del clásico aderezo César. El nombre combina Keisar, que significa César, con Tivoni, la palabra hebrea para vegano arraigada en la naturaleza. Al usar alcaparras y salmuera en lugar de anchoas, esta salsa cremosa ofrece un auténtico sabor sabroso perfecto para ensaladas crujientes.",
+    "ar": "هذي صوص سيزر نباتية عصرية بديلة للصوص الكلاسيكية. الاسم يخلط بين كلمة قيصر وكلمة تيفعوني اللي تعني نباتي بالعبرية. في بلاصة الأنشوفة، نستعملوا الكبار والماء متاعو باش يعطي بنة مالحة وقوية، وتجي صوص عاقدة وبنينة برشا مع السلطة.",
+    "en": "Rotev Keisar Tiv'oni is a modern plant-based adaptation of the classic Caesar dressing. The name blends Keisar, meaning Caesar, with Tiv'oni, the Hebrew word for vegan rooted in nature. By using capers and brine instead of anchovies, this creamy sauce delivers authentic savory flavor perfect for crisp salads."
   },
   "ingredients": {
     "he": [
@@ -28,7 +28,7 @@
       "8 גרם חרדל דיז'ון",
       "4 גרם פטרוזיליה טרייה, קצוצה (או 1/2 כפית יבשה)",
       "2 שיני שום, קלופות",
-      "1.2 גרם פלפל שחור, טחון (לפי הטעם)",
+      "1.2 גרם פלפל שחור, טחון",
       "מלח לפי הטעם"
     ],
     "es": [
@@ -39,18 +39,18 @@
       "8 g de mostaza Dijon",
       "4 g de perejil fresco, picado (o 1/2 cdta seco)",
       "2 dientes de ajo, pelados",
-      "1.2 g de pimienta negra, molida (al gusto)",
+      "1.2 g de pimienta negra, molida",
       "Sal al gusto"
     ],
     "ar": [
-      "1/2 كأس مايونيز نباتي",
-      "1 مغرفة صغيرة كبار",
+      "نص كاس مايونيز نباتي",
+      "مغرفة صغيرة كبار",
       "1.5 مغرفة صغيرة ماء الكبار (من الحكة)",
-      "2 مغارف عصير قارص (فريشك)",
+      "2 مغارف عصير قارص",
       "1.5 مغرفة صغيرة موتارد ديجون",
-      "1 مغرفة معدنوس فريشك، مقصوص (أو شطر مغرفة صغيرة شايح)",
+      "مغرفة معدنوس طري، مقصوص (أو نص مغرفة صغيرة شايح)",
       "2 سنات ثوم، مقشرين",
-      "1/2 مغرفة صغيرة فلفل أكحل، مرحي (حسب الذوق)",
+      "نص مغرفة صغيرة فلفل أكحل، مرحي",
       "ملح حسب الذوق"
     ],
     "en": [
@@ -60,17 +60,17 @@
       "2 tbsp lemon juice (freshly squeezed)",
       "1.5 tsp Dijon mustard",
       "1 tbsp fresh parsley, chopped (or 1/2 tsp dried parsley)",
-      "2 garlic cloves, peeled",
-      "0.5 tsp black pepper, ground (to taste)",
+      "2 cloves garlic, peeled",
+      "0.5 tsp black pepper, ground",
       "Salt to taste"
     ]
   },
   "steps": {
     "he": [
-      "הוסיפו את המיונז הטבעוני, הצלפים, מי הצלפים, מיץ הלימון, החרדל, הפטרוזיליה, השום והפלפל למעבד מזון או בלנדר.",
-      "עבדו את התערובת עד לקבלת מרקם חלק לחלוטין.",
-      "טעמו את הרוטב ותקנו תיבול עם מלח או תבלינים נוספים לפי הצורך.",
-      "הגישו מיד עם סלטים, קערות בריאות או כריכים, או שמררו במקרר."
+      "הכניסו את המיונז הטבעוני, הצלפים, מי הצלפים, מיץ הלימון, החרדל, הפטרוזיליה, השום והפלפל למעבד מזון או בלנדר.",
+      "ערבלו עד שהתערובת חלקה לחלוטין.",
+      "טעמו את הרוטב ותקנו תיבול עם מלח או תבלינים אחרים לפי הצורך.",
+      "הגישו מיד עם סלטים, קערות בודהה או כריכים, או אחסנו במקרר."
     ],
     "es": [
       "Agregue la mayonesa vegana, las alcaparras, la salmuera, el jugo de limón, la mostaza, el perejil, el ajo y la pimienta a un procesador de alimentos o licuadora.",
@@ -80,9 +80,9 @@
     ],
     "ar": [
       "حط المايونيز النباتي، والكبار، وماء الكبار، وعصير القارص، والموتارد، والمعدنوس، والثوم، والفلفل الأكحل في ميكسور أو رحاية.",
-      "ارحي كل شيء مليح حتى يولي الخليط أرطب جملة.",
-      "ذوق الصوص وزيد الملح ولا الفواح كان لازم.",
-      "قدمها ديركت مع السلطة، ولا السندويتشات، ولا خبيها في الفريجيدار."
+      "رحيهم مليح لين يولي الخليط أرطب ومتجانس.",
+      "ذوق الصوص وزيد الملح ولا الفاحات لخرين كان لازم.",
+      "قدمها ديريكت مع السلطة، ولا السندويتشات، ولا خبيها في الفريجيدير."
     ],
     "en": [
       "Add the vegan mayonnaise, capers, caper brine, lemon juice, dijon mustard, parsley, garlic, and pepper to a food processor or blender.",

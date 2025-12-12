@@ -3,11 +3,11 @@
   "slug": "shlomit-perl-dressing",
   "source_file": "data/safed_recipes/shlomit_perl_dressing.json",
   "name": "Shlomit Perl's Salad Dressing",
-  "name_hebrew": "Shlomit Perl Dressing",
+  "name_hebrew": "רוטב שלומית",
   "name_origin": "This is an eponymous name, derived directly from the recipe contributor, Shlomit Perl. Unlike traditional Djerban dishes which are named after ingredients (e.g., 'B'hilat') or cooking methods (e.g., 'Mhamsa'), this title reflects the modern practice in community cookbooks of attributing specific non-traditional or fusion recipes to their source. The ingredients (soy sauce, mayonnaise, mustard) indicate this is a modern addition to the culinary repertoire, likely influenced by the 'Chinese Cabbage Salad' (Salat Kruv Sini) trend popular in Israel and the Jewish diaspora from the 1980s onwards, rather than a heritage Maghrebi dish.",
   "description": "A versatile, sweet and savory salad dressing that balances soy sauce, mustard, and mayonnaise. It pairs exceptionally well with cabbage salads and crunchy toppings.",
   "cultural_context": "While from a Djerban family collection, this reflects modern Israeli cooking styles, particularly the suggestion to top the salad with 'Apropo' (a popular Israeli corn snack) or Doritos.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Use vegan mayonnaise to make this recipe vegan.",
   "meta": {
     "servings": "1 cup",
@@ -72,12 +72,12 @@
       }
     },
     {
-      "ingredient_id": "mayonnaise",
-      "name": "Mayonnaise",
+      "ingredient_id": "vegan_mayonnaise",
+      "name": "Vegan mayonnaise",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": null,
+      "notes": "Store-bought or homemade",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -281,7 +281,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/082_shlomit_dressing/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic ceramic bowl filled with a vibrant shredded cabbage salad, featuring green and purple cabbage mixed with chopped green onions. The salad is glistening with a creamy, emulsified vegan dressing that has a light beige hue. Scattered on top are crunchy, golden corn bugle snacks, adding texture to the dish. Beside the salad bowl sits a small glass jar containing the remaining dressing, showing its smooth consistency. The scene is set on a weathered wooden table inside an early 20th-century stone kitchen in Safed, illuminated by soft natural light streaming through an arched window. In the background, antique copper utensils and stone walls create a warm, historical atmosphere. The composition highlights the freshness of the vegetables and the rich texture of the plant-based dressing."
   },
   "tags": [
     "salad-dressing",
@@ -329,5 +330,14 @@
       "key_difference": "Usually oil-based rather than mayonnaise-based; less sweet/creamy than the Israeli/Jewish version."
     }
   ],
-  "intro_paragraph": "Shlomit Perl’s Salad Dressing bears the name of its contributor, marking a shift from traditional descriptive titles to modern attributions. This sweet and savory blend of soy sauce, mustard, and mayonnaise highlights contemporary Israeli influences within the community. It is best enjoyed tossed with fresh cabbage and finished with crunchy corn snacks like Apropo."
+  "intro_paragraph": "Shlomit Perl’s Dressing is a modern Israeli condiment named after its contributor rather than its ingredients. This plant-based version swaps egg mayonnaise for a vegan alternative while keeping the sweet and savory soy profile. It pairs perfectly with shredded cabbage and crunchy corn snacks for a nostalgic flavor.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Mayonnaise",
+      "replacement": "Vegan mayonnaise",
+      "notes": "Use store-bought vegan mayo or a homemade aquafaba emulsion"
+    }
+  ],
+  "veganization_complete": true
 }

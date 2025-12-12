@@ -7,7 +7,7 @@
   "name_origin": "This is a Modern Hebrew descriptive name for a distinctly Western (American) dish. The word 'Muffins' (מאפינס) is a direct loanword from English into Modern Hebrew. 'Shokolad' (שוקולד) is a loanword ultimately derived from Nahuatl 'xocolātl'. 'Chemat Botnim' (חמאת בוטנים) is the Modern Hebrew calque for 'Peanut Butter'. The word 'Botnim' (בוטנים) appears in the Bible (Genesis 43:11) referring to pistachios or terebinth nuts, but was repurposed in Modern Hebrew to mean 'peanuts' (which are New World in origin). In Tunisian Arabic (Derja), peanuts are called 'Kakawiya' (from the Spanish 'cacahuete'), but this dish does not carry a Judeo-Arabic name because it is a modern addition to the repertoire, likely introduced via Israeli or French influence after emigration from Djerba.",
   "description": "Rich and moist muffins combining the classic duo of chocolate and peanut butter. A simple batter that comes together quickly, perfect for a sweet breakfast or snack.",
   "cultural_context": "While not a traditional North African dish, this recipe represents the modern baking repertoire found in contemporary Jewish kitchens. The option to use water instead of milk makes these pareve, suitable for dessert after a meat meal.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace the egg with a flax egg or applesauce to make vegan.",
   "meta": {
     "servings": "12",
@@ -37,20 +37,16 @@
         "volume": {
           "value": 1.5,
           "unit": "cups"
-        },
-        "original": {
-          "value": 210,
-          "unit": "g"
         }
       }
     },
     {
-      "ingredient_id": "chocolate_chips",
-      "name": "Chocolate chips",
+      "ingredient_id": "vegan_chocolate_chips",
+      "name": "Dairy-free chocolate chips",
       "amount": 170,
       "unit": "g",
       "preparation": null,
-      "notes": "approx. 1 cup",
+      "notes": "approx. 1 cup; ensure vegan certification",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -64,10 +60,6 @@
         "volume": {
           "value": 1,
           "unit": "cups"
-        },
-        "original": {
-          "value": 170,
-          "unit": "g"
         }
       }
     },
@@ -91,10 +83,6 @@
         "volume": {
           "value": 0.33,
           "unit": "cups"
-        },
-        "original": {
-          "value": 70,
-          "unit": "g"
         }
       }
     },
@@ -116,10 +104,6 @@
           "unit": "oz"
         },
         "volume": {
-          "value": 1,
-          "unit": "tbsp"
-        },
-        "original": {
           "value": 1,
           "unit": "tbsp"
         }
@@ -145,20 +129,16 @@
         "volume": {
           "value": 0.25,
           "unit": "tsp"
-        },
-        "original": {
-          "value": 0.25,
-          "unit": "tsp"
         }
       }
     },
     {
-      "ingredient_id": "milk",
-      "name": "Milk or Water",
+      "ingredient_id": "plant_milk",
+      "name": "Oat milk or Soy milk",
       "amount": 180,
       "unit": "ml",
       "preparation": null,
-      "notes": "3/4 cup; use water for pareve",
+      "notes": "3/4 cup; use water for lighter texture",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -172,10 +152,6 @@
         "volume": {
           "value": 0.75,
           "unit": "cups"
-        },
-        "original": {
-          "value": 180,
-          "unit": "ml"
         }
       }
     },
@@ -199,10 +175,6 @@
         "volume": {
           "value": 0.5,
           "unit": "cups"
-        },
-        "original": {
-          "value": 125,
-          "unit": "g"
         }
       }
     },
@@ -226,29 +198,21 @@
         "volume": {
           "value": 0.33,
           "unit": "cups"
-        },
-        "original": {
-          "value": 80,
-          "unit": "ml"
         }
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Egg",
+      "ingredient_id": "flax_egg",
+      "name": "Flax egg",
       "amount": 1,
       "unit": "unit",
-      "preparation": null,
-      "notes": "large",
+      "preparation": "Mix 1 tbsp ground flaxseed with 3 tbsp warm water, let sit for 5 mins",
+      "notes": "Replaces 1 large egg",
       "is_optional": false,
       "measurements": {
         "metric": null,
         "imperial": null,
-        "volume": null,
-        "original": {
-          "value": 1,
-          "unit": "unit"
-        }
+        "volume": null
       }
     }
   ],
@@ -293,7 +257,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/023_chocolate_peanut_butter_muffins/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-resolution shot of freshly baked vegan chocolate peanut butter muffins arranged on a rustic, hand-thrown ceramic platter. The muffins boast a high, golden-brown domed top with generous pockets of melted dairy-free dark chocolate chips and a visible swirl of creamy peanut butter. One muffin is broken open to reveal a moist, fluffy interior texture that rivals traditional baking, steaming slightly to show freshness. The scene is set in an authentic early 1900s stone kitchen in Safed, with soft, moody natural light streaming through an arched window, casting gentle shadows on a weathered wooden table. Background details include a small antique bowl of raw peanuts in their shells and a vintage glass jar of dark chocolate chunks. The rough-hewn stone walls provide a textural contrast to the soft, inviting crumb of the muffins. A beige linen napkin with subtle traditional embroidery sits beneath the platter. The composition focuses on the appetizing richness of this plant-based dessert, highlighting the glossy melted chocolate and the tender structure achieved without eggs or dairy."
   },
   "tags": [
     "dessert",
@@ -341,5 +306,24 @@
       "key_difference": "Bjawia is a dense confection of nuts and syrup, not a baked flour-based cake."
     }
   ],
-  "intro_paragraph": "Muffins Shokolad ve'Chemat Botnim utilize the biblical word botnim, originally meaning pistachios, to describe peanuts in Modern Hebrew. While a departure from traditional North African cuisine, these rich American-style muffins represent the global influences in contemporary Jewish baking. Often prepared with water rather than milk, they offer a moist pareve treat suitable after a meat meal."
+  "intro_paragraph": "Muffins Shokolad ve'Chemat Botnim uses the modern Hebrew term for peanuts, originally meaning pistachios in the Bible. This vegan adaptation replaces eggs with flaxseed while preserving the rich American-style flavor. It represents the global evolution of Jewish baking and offers a perfect plant-based treat for any time of day.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Egg",
+      "replacement": "Flax egg (1 tbsp ground flaxseed + 3 tbsp water)",
+      "notes": "Provides binding and a nutty flavor profile"
+    },
+    {
+      "original": "Milk",
+      "replacement": "Oat milk or soy milk",
+      "notes": "Adds richness while keeping it dairy-free"
+    },
+    {
+      "original": "Chocolate chips",
+      "replacement": "Dairy-free dark chocolate chips",
+      "notes": "Ensures no milk solids are present"
+    }
+  ],
+  "veganization_complete": true
 }

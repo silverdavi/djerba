@@ -7,7 +7,7 @@
   "name_origin": "The name derives directly from the Ladino (Judeo-Spanish) word 'Quajado' or Spanish 'Cuajada'. It comes from the verb 'cuajar' (to coagulate, curdle, or set). While in modern Spain 'cuajada' refers to a dairy curd dessert, in Sephardic culinary terminology, it refers to a savory casserole where eggs are used as the binding agent to 'set' the vegetables (potatoes, spinach, or leeks). The presence of this name in a Djerban cookbook likely reflects the influence of the 'Grana' (Livornese/European Jewish community in Tunisia) or general Sephardic diaspora terminology, as the indigenous Tunisian Arabic term for this exact dish is 'Maaqouda'.",
   "description": "A savory North African potato and egg pie, similar to a Tunisian Maaqouda or a crustless quiche. The potatoes are mashed and seasoned with turmeric and garlic before being baked into a golden, fluffy casserole.",
   "cultural_context": "A staple in Djerban and North African Jewish households, often served at room temperature for Shabbat lunch or as a side dish for holidays.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Requires eggs for binding; difficult to adapt while maintaining traditional texture.",
   "meta": {
     "servings": "6-8",
@@ -37,47 +37,82 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 8,
-      "unit": "unit",
-      "size": "large",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour (Besan)",
+      "amount": 2,
+      "unit": "cup",
       "preparation": null,
-      "notes": null,
+      "notes": "Replaces the eggs for binding",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 240,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cup"
+        },
         "original": {
-          "value": 8,
-          "unit": "unit"
+          "value": 2,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 2.5,
+      "unit": "cup",
+      "preparation": null,
+      "notes": "To create batter",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 600,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 20,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 2.5,
+          "unit": "cup"
         }
       }
     },
     {
       "ingredient_id": "baking_powder",
       "name": "Baking powder",
-      "amount": 0.25,
+      "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": null,
+      "notes": "Increased slightly for lift",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1.2,
+          "value": 4.8,
           "unit": "g"
         },
         "imperial": {
-          "value": 0.04,
+          "value": 0.17,
           "unit": "oz"
         },
         "volume": {
-          "value": 0.25,
+          "value": 1,
           "unit": "tsp"
         },
         "original": {
-          "value": 0.25,
+          "value": 1,
           "unit": "tsp"
         }
       }
@@ -88,7 +123,7 @@
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "Or saffron threads",
+      "notes": "Essential for color",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -137,12 +172,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_bouillon_powder",
-      "name": "Chicken bouillon powder",
+      "ingredient_id": "vegetable_bouillon_powder",
+      "name": "Vegetable bouillon powder",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "Listed as 'Chicken broth' in original; powder is typical for binding",
+      "notes": "Replaces chicken bouillon",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -191,55 +226,55 @@
       }
     },
     {
-      "ingredient_id": "salt",
-      "name": "Salt",
-      "amount": null,
-      "unit": null,
+      "ingredient_id": "kala_namak",
+      "name": "Kala Namak (Black Salt)",
+      "amount": 0.5,
+      "unit": "tsp",
       "preparation": null,
-      "notes": "To taste",
+      "notes": "For authentic egg flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 3,
+          "unit": "g"
         },
         "imperial": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.1,
+          "unit": "oz"
         },
         "volume": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.5,
+          "unit": "tsp"
         },
         "original": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.5,
+          "unit": "tsp"
         }
       }
     },
     {
       "ingredient_id": "vegetable_oil",
       "name": "Vegetable oil",
-      "amount": 30,
+      "amount": 45,
       "unit": "ml",
       "preparation": null,
       "notes": "For greasing the pot/dish",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 30,
+          "value": 45,
           "unit": "ml"
         },
         "imperial": {
-          "value": 1,
+          "value": 1.5,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 2,
+          "value": 3,
           "unit": "tbsp"
         },
         "original": {
-          "value": 30,
+          "value": 45,
           "unit": "ml"
         }
       }
@@ -297,7 +332,8 @@
   ],
   "image": {
     "filename": "images/current/028_cujada/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, photorealistic top-down shot of a freshly baked Vegan Cujada potato pie in a rustic ceramic deep-dish casserole. The surface is a vibrant golden-yellow from turmeric, with a slightly browned and cracked crust. A triangular slice has been lifted out, revealing the fluffy, dense interior texture of mashed potatoes bound with chickpea flour, steaming slightly. The dish sits on an antique wooden table inside a sunlit 1900s stone kitchen in Safed, surrounded by small bowls of olives and harissa. The lighting is warm and natural, highlighting the rustic texture of the stone walls in the background. No animal products are visible; the texture mimics a traditional egg-based casserole perfectly but is entirely plant-based. Fresh parsley sprigs garnish the top for a pop of green against the yellow."
   },
   "tags": [
     "north-african",
@@ -359,5 +395,24 @@
       "key_difference": "Sfereeya specifically incorporates chicken, whereas Cujada/Maaqouda is often vegetarian."
     }
   ],
-  "intro_paragraph": "Cujada takes its name from the Spanish *cuajar* (\"to set\"), referring to the eggs that bind this savory potato pie. Similar to a crustless quiche or *maaqouda*, the mashed potato mixture is spiced with turmeric and garlic, then baked until golden. A fixture of Djerban Jewish tables, it is traditionally served at room temperature for Shabbat lunch."
+  "intro_paragraph": "Cujada derives from the Spanish word cuajar meaning to set. This vegan adaptation replaces the traditional eggs with a savory chickpea batter to bind the spiced mashed potatoes. It remains a golden and fluffy staple of Djerban cuisine that is perfect for a room temperature Shabbat lunch.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "8 Eggs",
+      "replacement": "Chickpea flour batter (chickpea flour + water)",
+      "notes": "Provides the binding and setting properties of eggs"
+    },
+    {
+      "original": "Chicken bouillon powder",
+      "replacement": "Vegetable bouillon powder",
+      "notes": "Maintains savory umami flavor without meat"
+    },
+    {
+      "original": "None",
+      "replacement": "Kala Namak (Black Salt)",
+      "notes": "Added to mimic the sulfurous taste of eggs"
+    }
+  ],
+  "veganization_complete": true
 }

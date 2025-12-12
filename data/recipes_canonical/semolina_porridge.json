@@ -7,7 +7,7 @@
   "name_origin": "The name provided ('Daysat Solet') is a Modern Hebrew descriptive term composed of ancient roots, used to translate the traditional North African dish name. 'Daysa' (דַּיְסָה) originates from Mishnaic Hebrew and Jewish Babylonian Aramaic ('daisa'), referring to a dish made of pounded or crushed grain. 'Solet' (סֹלֶת) is Biblical Hebrew for the finest wheaten flour or semolina. However, in the Djerban and Tunisian Judeo-Arabic context, this dish is traditionally known as 'Assida' (عصيدة) or 'Assida bil-hlib' (Porridge with milk).",
   "description": "A classic, comforting warm breakfast dish made from fine semolina grains cooked in milk. It is a staple comfort food in many Israeli and North African Jewish homes, traditionally served with a dusting of cinnamon and sugar.",
   "cultural_context": "While simple, this dish is a common childhood memory for many. In North African cuisine, semolina is a primary staple, used for couscous, breads, and porridges like this one (often related to the thicker 'Assida').",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Can be made with almond milk, oat milk, or soy milk instead of dairy milk.",
   "meta": {
     "servings": "2",
@@ -18,8 +18,8 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "milk",
-      "name": "Milk",
+      "ingredient_id": "plant_milk",
+      "name": "Unsweetened soy or oat milk",
       "amount": 500,
       "unit": "ml",
       "preparation": null,
@@ -99,8 +99,8 @@
       }
     },
     {
-      "ingredient_id": "butter",
-      "name": "Butter",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan butter",
       "amount": 15,
       "unit": "g",
       "preparation": null,
@@ -197,7 +197,8 @@
   ],
   "image": {
     "filename": "images/current/077_semolina_porridge/dish.png",
-    "prompt": "Warm bowl of creamy white semolina porridge topped with a dusting of cinnamon, wooden spoon, rustic setting"
+    "prompt": "Warm bowl of creamy white semolina porridge topped with a dusting of cinnamon, wooden spoon, rustic setting",
+    "generation_prompt": "A close-up, high-angle shot of a warm, creamy bowl of vegan semolina porridge, known as Assida or Daysat Solet. The porridge is smooth and velvety white, served in a vintage ceramic bowl with intricate blue patterns typical of the region. A generous dusting of ground cinnamon creates a fragrant contrast on top, alongside a sprinkle of sugar crystals catching the light. A small pat of melting vegan butter sits in the center. The setting is an authentic early 1900s Safed stone kitchen, featuring textured limestone walls and a rustic wooden table. Soft morning light streams through a small arched window, illuminating the steam rising from the hot porridge. In the background, a small copper pot and a jar of cinnamon sticks add to the cozy, nostalgic atmosphere of this traditional North African Jewish breakfast adapted for a plant-based diet."
   },
   "tags": [
     "breakfast",
@@ -257,5 +258,19 @@
       "key_difference": "Uses whole rice grains rather than semolina wheat."
     }
   ],
-  "intro_paragraph": "Often called Daysat Solet in Israel, this creamy breakfast porridge is rooted in the North African tradition of Assida. Fine semolina grains are cooked gently in milk rather than water, creating a comforting, smooth texture. A cherished childhood staple across Djerba, it is traditionally finished with a simple dusting of cinnamon and sugar."
+  "intro_paragraph": "Known as Daysat Solet in Hebrew or Assida in Arabic, this porridge means 'crushed grain' or 'stirred pudding.' This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Milk",
+      "replacement": "Unsweetened soy or oat milk",
+      "notes": "Soy milk provides a protein-rich structure similar to dairy, while oat milk offers a creamier texture."
+    },
+    {
+      "original": "Butter",
+      "replacement": "Vegan butter or refined coconut oil",
+      "notes": "Adds richness without dairy."
+    }
+  ],
+  "veganization_complete": true
 }

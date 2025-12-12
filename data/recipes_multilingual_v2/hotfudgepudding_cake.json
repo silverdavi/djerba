@@ -9,15 +9,15 @@
   },
   "name": {
     "he": "עוגת פאדג׳ חמה",
-    "es": "Pastel de Fudge de Chocolate Caliente",
-    "ar": "كيكة الشوكولاتة السخونة",
+    "es": "Pastel de Fudge Caliente",
+    "ar": "كيكة فادج سخونة",
     "en": "Hot Fudge Pudding Cake"
   },
   "description": {
-    "he": "עוגת פאדג׳ חמה היא קינוח שוקולד קסום שיוצר רוטב בעצמו, בו שכבת עוגה לחה עולה מעל רוטב עשיר ודביק במהלך האפייה. למרות שזהו ייבוא אמריקאי מודרני ולא מאכל צפון אפריקאי מסורתי, העוגה הפכה לאהובה במשקי בית יהודיים בזכות החמימות המנחמת והאפשרות הקלה להכנתה בגרסת פרווה.",
-    "es": "El Pastel de Fudge de Chocolate Caliente, conocido en Israel como Ugat Fudge Hama, es un postre de chocolate mágico que crea su propia salsa. Una capa de pastel húmedo sube a la superficie mientras se forma una salsa rica y pegajosa debajo durante el horneado. Aunque es una importación estadounidense moderna, se ha convertido en un favorito en los hogares judíos por su calidez reconfortante y su fácil adaptación pareve.",
-    "ar": "كيكة الشوكولاتة السخونة، المعروفة في إسرائيل باسم 'عوجات فادج حما'، هي ديسير سحري يعمل الصوص متاعو وحدو. الكيكة تطلع لفوق والصوص الخاثرة تتكون لوطة وقت التطيب في الكوشة. بالرغم اللي هي وصفة أمريكية عصرية وماهيش من التراث التونسي، ولات محبوبة برشا في العايلات اليهودية خاطرها بنينة وسخونة وساهل باش تعملها بارف (بلاش حليب).",
-    "en": "Hot Fudge Pudding Cake—known in Israel as Ugat Fudge Hama—is a self-saucing chocolate dessert where a moist cake rises above a rich, gooey sauce during baking. While a modern American import rather than a traditional North African staple, it has become a favorite in Jewish households for its comforting warmth and easy pareve adaptation."
+    "he": "עוגת פאדג' חמה היא קלאסיקה מודרנית הידועה בשכבות הקסומות שלה שיוצרות רוטב מעצמן. גרסה טבעונית זו מחליפה מוצרי חלב בחלב צמחי תוך שמירה על טעם השוקולד העשיר. השם מגיע מהמילה האנגלית fudge המדגישה את שורשיה המערביים ולא את המורשת הצפון אפריקאית המסורתית.",
+    "es": "El Pastel de Fudge Caliente es un clásico moderno conocido por sus capas mágicas que crean su propia salsa. Esta adaptación vegana reemplaza los lácteos con leche vegetal manteniendo el rico sabor a chocolate. El nombre proviene de la palabra inglesa fudge, lo que destaca sus raíces occidentales en lugar de la herencia tradicional norteafricana.",
+    "ar": "كيكة فادج سخونة هي كلاسيكية عصرية معروفة بطبقاتها السحرية اللي تعمل صوص وحدها. هالوصفة نباتية وتبدل الحليب بحليب نباتي مع الحفاظ على بنة الشوكولاتة القوية. الاسم جاي من كلمة فادج الإنجليزية اللي تبين أصلها الغربي مش التراث الشمال إفريقي التقليدي.",
+    "en": "Ugat Fudge Hama is a modern classic known for its magical self-saucing layers. This vegan adaptation replaces dairy with plant-based milk while keeping the rich chocolate flavor. The name comes from the English word fudge which highlights its Western roots rather than traditional North African heritage."
   },
   "ingredients": {
     "he": [
@@ -26,91 +26,91 @@
       "45 גרם אבקת קקאו לא ממותק",
       "7.5 גרם אבקת אפייה",
       "3 גרם מלח",
-      "120 מ\"ל חלב (או תחליף פרווה)",
+      "120 מ\"ל חלב סויה או שקדים",
       "80 מ\"ל שמן צמחי",
       "5 מ\"ל תמצית וניל",
-      "200 גרם סוכר חום",
+      "200 גרם סוכר חום, דחוס",
       "420 מ\"ל מים חמים",
       "60 גרם אגוזים קצוצים (אופציונלי)",
-      "קצפת להגשה (לפי הטעם)"
+      "קצפת קוקוס להגשה (אופציונלי)"
     ],
     "es": [
-      "200 g de azúcar blanca",
+      "200 g de azúcar blanco",
       "65 g de harina común",
       "45 g de cacao en polvo sin azúcar",
       "7.5 g de polvo de hornear",
       "3 g de sal",
-      "120 ml de leche (o sustituto pareve)",
+      "120 ml de leche de soja o almendras",
       "80 ml de aceite vegetal",
       "5 ml de extracto de vainilla",
-      "200 g de azúcar morena",
+      "200 g de azúcar moreno, compactado",
       "420 ml de agua caliente",
       "60 g de nueces picadas (opcional)",
-      "Crema batida para servir (al gusto)"
+      "Crema de coco batida para servir (opcional)"
     ],
     "ar": [
-      "1 كأس سكر أبيض",
-      "1/2 كأس فرينة",
-      "1/2 كأس كاكاو",
-      "1.5 مغرفة صغيرة خميرة قاطو",
-      "1/2 مغرفة صغيرة ملح",
-      "1/2 كأس حليب (أو حليب نباتي)",
-      "1/3 كأس زيت",
+      "1 كاس سكر أبيض",
+      "نصف كاس فرينة",
+      "نصف كاس كاكاو مر",
+      "1.5 مغرفة صغيرة خميرة ڨاطو",
+      "نصف مغرفة صغيرة ملح",
+      "نصف كاس حليب صوجا ولا لوز",
+      "ثلث كاس زيت نباتي",
       "1 مغرفة صغيرة فانيليا",
-      "1 كأس سكر أسمر",
-      "1 و 3/4 كأس ماء سخون",
-      "1/2 كأس فاكية مهروشة (لوز أو جوز)",
-      "كرام شانتيي للتقديم (حسب الذوق)"
+      "1 كاس سكر أسمر",
+      "1 و 3/4 كاس ماء سخون",
+      "نصف كاس فاكية مهروشة (اختياري)",
+      "كريمة جوز الهند للتقديم (اختياري)"
     ],
     "en": [
       "1 cup white sugar",
       "1/2 cup all-purpose flour",
       "1/2 cup unsweetened cocoa powder",
       "1.5 tsp baking powder",
-      "1/2 tsp salt",
-      "1/2 cup milk (use non-dairy for pareve)",
+      "0.5 tsp salt",
+      "1/2 cup soy or almond milk",
       "1/3 cup vegetable oil",
       "1 tsp vanilla extract",
       "1 cup brown sugar, packed",
       "1 3/4 cups hot water",
       "1/2 cup chopped nuts (optional)",
-      "Whipped cream for serving"
+      "Coconut whipped cream to taste (optional)"
     ]
   },
   "steps": {
     "he": [
-      "מחממים תנור ל-175 מעלות. משמנים תבנית אפייה מרובעת בגודל 23 ס\"מ.",
-      "בקערת ערבוב, מערבבים את הסוכר הלבן, הקמח, הקקאו, אבקת האפייה והמלח.",
-      "מוסיפים את החלב, השמן ותמצית הוניל ומערבבים עד שהבלילה חלקה. משטחים את הבלילה באופן שווה בתבנית המוכנה.",
-      "מפזרים את הסוכר החום והאגוזים הקצוצים (אם משתמשים) באופן שווה מעל הבלילה.",
-      "יוצקים בעדינות את המים החמים על כל התערובת. לא לערבב! זה נראה נוזלי ומבולגן, אבל זה מה שיוצר את הרוטב.",
-      "אופים במשך 40 עד 45 דקות, או עד שמרכז העוגה יציב והרוטב מבעבע בצדדים.",
-      "מגישים חם, עם קצפת אם רוצים."
+      "חממו תנור ל-175 מעלות צלזיוס. שמנו תבנית מרובעת בגודל 23 ס\"מ.",
+      "בקערת ערבוב, ערבבו את הסוכר הלבן, הקמח, הקקאו, אבקת האפייה והמלח.",
+      "הוסיפו את החלב, השמן ותמצית הוניל וערבבו עד שהבלילה חלקה. שטחו את הבלילה באופן שווה בתבנית המשומנת.",
+      "פזרו את הסוכר החום והאגוזים הקצוצים (אם משתמשים) באופן שווה מעל הבלילה.",
+      "מזגו בעדינות את המים החמים על כל התערובת. אל תערבבו. זה ייראה נוזלי ומבולגן, אבל זה מה שיוצר את הרוטב.",
+      "אפו במשך 40 עד 45 דקות, או עד שמרכז העוגה יציב והרוטב מבעבע בצדדים.",
+      "הגישו חם, עם קצפת מעל אם רוצים."
     ],
     "es": [
-      "Precalentar el horno a 175°C. Engrasar un molde cuadrado de 23 cm.",
-      "En un tazón, mezclar el azúcar blanca, la harina, el cacao, el polvo de hornear y la sal.",
-      "Incorporar la leche, el aceite y la vainilla hasta obtener una masa suave. Esparcir la masa uniformemente en el molde preparado.",
-      "Espolvorear el azúcar morena y las nueces picadas (si se usan) uniformemente sobre la masa.",
-      "Verter suavemente el agua caliente sobre toda la mezcla. No revolver.",
-      "Hornear de 40 a 45 minutos, o hasta que el centro del pastel esté firme y la salsa burbujee alrededor de los bordes.",
-      "Servir caliente, cubierto con crema batida si se desea."
+      "Precaliente el horno a 175°C. Engrase un molde cuadrado de 23 cm.",
+      "En un tazón, mezcle el azúcar blanco, la harina, el cacao, el polvo de hornear y la sal.",
+      "Incorpore la leche, el aceite vegetal y el extracto de vainilla hasta que la masa esté suave. Extienda la masa uniformemente en el molde preparado.",
+      "Espolvoree el azúcar moreno y las nueces picadas (si las usa) uniformemente sobre la masa.",
+      "Vierta suavemente el agua caliente sobre toda la mezcla. No revuelva. Se verá desordenado y aguado, pero esto es lo que crea la salsa.",
+      "Hornee de 40 a 45 minutos, o hasta que el centro del pastel esté firme y la salsa burbujee alrededor de los bordes.",
+      "Sirva caliente, cubierto con crema batida si lo desea."
     ],
     "ar": [
-      "سخّن الكوشة على 175 درجة. ادهن طبق مربع (23 سم) بشوية زيت أو زبدة.",
-      "في صحفة، خلط السكر الأبيض، الفرينة، الكاكاو، خميرة القاطو والملح.",
-      "زيد الحليب، الزيت، والفانيليا وخلط مليح لين تولي العجينة رطبة. صب الخليط في الطبق واستويه بالمغرفة.",
-      "رش السكر الأسمر والفاكية المهروشة (كان تحب) فوق الخليط الكل.",
-      "صب الماء السخون بشوية بشوية فوق الخليط الكل. رد بالك تخلط. خليها هكاكة.",
-      "طيّبها في الكوشة لمدة 40 حتى 45 دقيقة، لين الكيكة تشد روحها في الوسط والصوص تبقبق في الأجناب.",
-      "قدمها سخونة، ومعاها شوية كرام شانتيي كان تحب."
+      "سخن الفور لـ 175 درجة. ادهن طبق مربع 23 سم بالزيت.",
+      "في صحفة، خلط السكر الأبيض، الفرينة، الكاكاو، الخميرة، والملح.",
+      "زيد الحليب، الزيت، والفانيليا وخلط مليح لين يولي الخليط رطب. صب الخليط في الطبق واستويه.",
+      "رش السكر الأسمر والفاكية المهروشة (كان تحب) فوق الخليط بالتساوي.",
+      "صب الماء السخون بالشوية فوق الخليط الكل. رد بالك تخلط. المنظر بش يبان مخلط وبرشا ماء، أما هكاكة باش تتكون المرقـة (الصوص).",
+      "طيبها في الفور بين 40 و 45 دقيقة، لين يشد الكيك روحو من الوسط والصوص تبقبق في الجناب.",
+      "قدمها سخونة، ومعاها شوية كريمة من الفوق كان تحب."
     ],
     "en": [
       "Preheat oven to 175°C (350°F). Grease a 23cm (9-inch) square baking pan.",
       "In a mixing bowl, combine the white sugar, flour, cocoa, baking powder, and salt.",
       "Stir in the milk, vegetable oil, and vanilla extract until the batter is smooth. Spread the batter evenly into the prepared pan.",
       "Sprinkle the packed brown sugar and chopped nuts (if using) evenly over the top of the batter.",
-      "Gently pour the hot water over the entire mixture. Do not stir.",
+      "Gently pour the hot water over the entire mixture. Do not stir. It will look messy and watery, but do not mix it. This creates the sauce.",
       "Bake for 40 to 45 minutes, or until the center of the cake is set and the pudding sauce is bubbling around the edges.",
       "Serve warm, topped with whipped cream if desired."
     ]

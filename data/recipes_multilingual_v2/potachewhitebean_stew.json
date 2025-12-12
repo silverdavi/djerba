@@ -1,0 +1,90 @@
+{
+  "id": "potachewhitebean_stew",
+  "image": "potachewhitebean_stew.png",
+  "meta": {
+    "servings": "6",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פוטאצ'ה (נזיד שעועית לבנה)",
+    "es": "Potache (Estofado de Alubias Blancas)",
+    "ar": "بوتاشي (مرقة لوبيا بيضاء)",
+    "en": "Potache (White Bean Stew)"
+  },
+  "description": {
+    "he": "השם פוטאצ'ה מגיע מהמילה בלדינו לנזיד או תבשיל סמיך. מנה מנחמת זו, המכונה לעתים קרובות אספסיטו בבתים ספרדיים, מתבססת על שעועית לבנה קרמית במקום בשר. הגרסה הטבעונית שלנו שומרת על המרקם האותנטי בעזרת ציר ירקות עשיר ותבלינים ארומטיים לארוחה משביעה.",
+    "es": "El nombre Potache deriva de la palabra ladina para un potaje o estofado espeso. A menudo llamado Espesito en hogares sefardíes, este plato reconfortante se basa en alubias blancas cremosas en lugar de carne. Nuestra versión vegana mantiene la textura auténtica utilizando caldo de verduras sabroso y especias aromáticas para una comida abundante.",
+    "ar": "اسم بوتاشي جاي من كلمة باللادينو تعني مرقة عاقدة. يسميوها برشا مرات إسباسيتو في ديار اليهود، وتعتمد هالأكلة البنينة على اللوبيا البيضاء الذايبة في بلاصة اللحم. الوصفة النباتية متاعنا تحافظ على القوام الأصلي باستعمال مرقة خضرة فوّاحة وتوابل باش تجي ماكلة تشبّع وتدفّي.",
+    "en": "The name Potache derives from the Ladino word for a thick potage or stew. Often called Espesito in Sephardic homes, this comforting dish relies on creamy white beans rather than meat. Our vegan version maintains the authentic texture using savory vegetable broth and aromatic spices for a hearty meal."
+  },
+  "ingredients": {
+    "he": [
+      "380 גרם שעועית לבנה, מושרית כל הלילה",
+      "4 שיני שום, כתושות",
+      "2.3 גרם פפריקה",
+      "1.2 גרם פלפל לבן",
+      "4 גרם אבקת מרק ירקות",
+      "מלח לפי הטעם",
+      "33 גרם רסק עגבניות (שפופרת קטנה)",
+      "960 מ\"ל מים"
+    ],
+    "es": [
+      "380 g de alubias blancas, remojadas toda la noche",
+      "4 dientes de ajo, picados o machacados",
+      "2.3 g de pimentón",
+      "1.2 g de pimienta blanca",
+      "4 g de caldo de verduras en polvo",
+      "Sal al gusto",
+      "33 g de pasta de tomate (tubo pequeño)",
+      "960 ml de agua"
+    ],
+    "ar": [
+      "2 كيسان لوبيا بيضاء، منفخة ليلة كاملة",
+      "4 سنات ثوم، مرحي",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "نص مغرفة صغيرة فلفل أبيض",
+      "1 مغرفة صغيرة بودرة مرقة خضرة",
+      "ملح حسب الذوق",
+      "2 مغارف طماطم حكة",
+      "4 كيسان ماء"
+    ],
+    "en": [
+      "2 cups white beans, soaked overnight",
+      "4 cloves garlic, minced or crushed",
+      "1 tsp paprika",
+      "0.5 tsp white pepper",
+      "1 tsp vegetable bouillon powder",
+      "Salt to taste",
+      "2 tbsp tomato paste, small tube",
+      "4 cups water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים את השעועית הלבנה המושרית ומעבירים לסיר לחץ.",
+      "מוסיפים את השום, הפפריקה, הפלפל הלבן, אבקת המרק והמלח.",
+      "מוסיפים את רסק העגבניות והמים. מערבבים היטב לאיחוד.",
+      "סוגרים את סיר הלחץ ומבשלים עד שהשעועית רכה וקרמית."
+    ],
+    "es": [
+      "Escurrir las alubias blancas remojadas y colocarlas en una olla a presión.",
+      "Añadir el ajo, el pimentón, la pimienta blanca, el caldo en polvo y la sal.",
+      "Añadir la pasta de tomate y el agua. Remover para combinar.",
+      "Cerrar la olla a presión y cocinar hasta que las alubias estén tiernas y cremosas."
+    ],
+    "ar": [
+      "صفي اللوبيا المنفخة وحطها في كوكوت (طنجرة ضغط).",
+      "زيد الثوم، الفلفل الأحمر، الفلفل الأبيض، بودرة المرقة والملح.",
+      "زيد طماطم الحكة والماء. حرك مليح باش يتخلطو.",
+      "سكر الكوكوت وطيب لين اللوبيا تولي طرية وعاقدة."
+    ],
+    "en": [
+      "Drain the soaked white beans and place in a pressure cooker.",
+      "Add garlic, paprika, white pepper, bouillon powder, and salt.",
+      "Add tomato paste and water. Stir to combine.",
+      "Close pressure cooker and cook until beans are soft and creamy."
+    ]
+  }
+}

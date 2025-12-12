@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cholent – Four-Language Recipe</title>
+<title>Cholent (Hamin) – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 24) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>El Cholent</span></div>
-        <div class="title-word lang-he"><span>צ&#x27;ולנט</span></div>
-        <div class="title-word lang-en"><span>Cholent</span></div>
-        <div class="title-word lang-ar"><span>الشولنت</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Hamin (Cholent)</span></div>
+        <div class="title-word lang-he title-large"><span>חמין</span></div>
+        <div class="chapter-number"><span>24</span></div>
+        <div class="title-word lang-en title-small"><span>Cholent (Hamin)</span></div>
+        <div class="title-word lang-ar title-small"><span>حمين (تفينـة)</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>גירסה טבעונית לתבשיל השבת המסורתי (חמין), שבמקור הוכן עם בשר בקר וביצים וכאן מוגש עם נתחי סייטן או טופו עסיסיים. השם מגיע מצרפתית עתיקה (chalant) ומתייחס לבישול האיטי, אם כי המנה משלבת שעועית וגריסים האופייניים למטבח היהודי-אירופאי לצד השפעות מקומיות.</p>
+            <p>חמין מגיע מהשורש העברי ח.מ.ם ומתייחס לחום של תבשיל השבת הזה בבישול איטי. גרסה טבעונית זו מחליפה את הבשר בסייטן עשיר תוך שמירה על הטכניקה המסורתית. שעועית וגריסים מתבשלים כל הלילה ליצירת ארוחת חורף מנחמת ומקורמלת עמוקות.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Una adaptación vegana del tradicional estofado de Sabbat, originalmente hecho con carne pero aquí recreado con seitán o tofu sazonado. Su nombre deriva del francés antiguo *chalant* (caliente), refiriéndose a su cocción lenta. Combina alubias y cebada en un caldo rico y ligeramente dulce.</p>
+            <p>Hamin proviene de la raíz hebrea para caliente y se refiere a la calidez de este estofado de Shabat cocinado a fuego lento. Esta versión vegana reemplaza la carne con seitán sabroso mientras conserva la técnica tradicional. Los frijoles y la cebada se cocinan a fuego lento durante la noche para crear una comida de invierno profundamente caramelizada y reconfortante.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>نسخة نباتية لطبق السبت التقليدي (يشبه السخينة أو الدفينة)، اللي كان يتحضّر باللحم، وهوني عوّضناهم بـ&quot;السيتان&quot; أو &quot;التوفو&quot;. الاسم أصله من كلمة فرنسية قديمة تعني &quot;سخون&quot;، وتتميز هذه الوصفة بخلطة اللوبيا والشعير مع مرقة عاقدة وبنينة.</p>
+            <p>الحمين يجي من الكلمة العبرية للسخونة ويرمز لدفء هالتفينة متاع السبت اللي تطيب بالشوية. هالوصفة النباتية تبدل اللحم بالسيتان مع الحفاظ على الطريقة التقليدية. اللوبيا والشعير يطيبو ليلة كاملة باش يعطيو ماكلة شتوية بنينة ومعسلة.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A plant-based reimagining of the traditional Sabbath stew, originally synonymous with beef and eggs, now featuring savory seitan or tofu. The name derives from Old French *chalant* (warming), referring to the slow-cooking method. This hearty dish combines beans, barley, and potatoes in a rich, slightly sweet broth.</p>
+            <p>Hamin comes from the Hebrew root for hot and refers to the warmth of this slow-cooked Sabbath stew. This vegan version replaces meat with savory seitan while preserving the traditional technique. Beans and barley simmer overnight to create a deeply caramelized and comforting winter meal.</p>
           </div>
         </div>
       </div>
@@ -450,19 +918,19 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">4–6</span>
+          <span class="meta-value">6-8</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
-          <span class="meta-value">20 min</span>
+          <span class="meta-value">30 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">1h 30m</span>
+          <span class="meta-value">90 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
-          <span class="meta-value">Easy</span>
+          <span class="meta-value">Medium</span>
         </div>
       </div>
 
@@ -474,64 +942,87 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/cholent_dish.png" alt="Cholent dish">
+      <img class="hero-image" src="../images/current/025_cholent/dish.png" alt="Cholent (Hamin) dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>3 cebollas picadas</li>
-              <li>500g de trozos de seitán o tofu firme</li>
-              <li>4 patatas cortadas en cubos</li>
-              <li>1 taza de alubias (blancas y marrones), remojadas</li>
-              <li>1/2 taza de cebada perlada</li>
-              <li>2 cdas de jarabe de arce</li>
-              <li>Especias: pimentón, pimienta negra, ajo en polvo, sal</li>
+              <li>3 cebollas grandes, cortadas en cubitos</li>
+              <li>45 ml de aceite vegetal</li>
+              <li>1000 g de trozos de seitán (o champiñones grandes), cortados en trozos grandes</li>
+              <li>5 papas medianas, peladas y cortadas por la mitad</li>
+              <li>200 g de alubias blancas, remojadas durante la noche</li>
+              <li>200 g de frijoles marrones (Pinto o Kidney), remojados durante la noche</li>
+              <li>150 g de cebada perlada, enjuagada</li>
+              <li>7 g de pimentón dulce</li>
+              <li>2.3 g de pimienta negra molida</li>
+              <li>3 g de ajo en polvo</li>
+              <li>Sal al gusto</li>
+              <li>30 ml de jarabe de dátiles (Silan) o jarabe de arce</li>
+              <li>6 papas pequeñas (baby), enteras y peladas</li>
+              <li>Agua hirviendo para cubrir</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Sofreír las cebollas hasta que estén bien doradas y oscuras.</li>
-              <li class="step"><span class="step-num">2.</span>Añadir el seitán (o tofu) y freír brevemente por todos lados.</li>
-              <li class="step"><span class="step-num">3.</span>Agregar las patatas, las alubias y la cebada a la olla.</li>
-              <li class="step"><span class="step-num">4.</span>Cubrir con agua, añadir las especias y el jarabe de arce, y llevar a ebullición.</li>
-              <li class="step"><span class="step-num">5.</span>Bajar el fuego y cocinar durante una hora y media hasta que espese.</li>
+              <li class="step"><span class="step-num">1.</span>Caliente el aceite en una olla grande de fondo grueso. Agregue las cebollas picadas y fríalas pacientemente hasta que se tornen de un color dorado oscuro. Esto proporciona el color base para el estofado.</li>
+              <li class="step"><span class="step-num">2.</span>Agregue los trozos de seitán a la olla y dore por todos lados hasta que estén dorados.</li>
+              <li class="step"><span class="step-num">3.</span>Agregue las papas, los frijoles remojados (blancos y marrones) y la cebada a la olla.</li>
+              <li class="step"><span class="step-num">4.</span>Llene la olla con agua hasta cubrir todos los ingredientes.</li>
+              <li class="step"><span class="step-num">5.</span>Agregue las especias: pimentón, pimienta negra, ajo en polvo, sal y el jarabe de arce (o miel).</li>
+              <li class="step"><span class="step-num">6.</span>Lleve la olla a ebullición. Una vez que hierva, reduzca el fuego a bajo.</li>
+              <li class="step"><span class="step-num">7.</span>Coloque suavemente las papas pequeñas (que reemplazan los huevos) encima del estofado.</li>
+              <li class="step"><span class="step-num">8.</span>Tape y cocine a fuego lento durante aproximadamente 1,5 horas. Para la preparación tradicional de Shabat, transfiera a una placa caliente o olla de cocción lenta para cocinar durante la noche hasta el almuerzo del día siguiente.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>3 בצלים, קצוצים</li>
-              <li>500 גרם נתחי סייטן או טופו קשה</li>
-              <li>4 תפוחי אדמה, חתוכים</li>
-              <li>1 כוס שעועית (חומה ולבנה), מושרית</li>
-              <li>1/2 כוס גריסי פנינה</li>
-              <li>2 כפות סירופ מייפל</li>
-              <li>תבלינים: פפריקה, פלפל שחור, אבקת שום, מלח</li>
+              <li>3 בצלים גדולים, קצוצים לקוביות</li>
+              <li>45 מ&quot;ל שמן צמחי</li>
+              <li>1000 גרם נתחי סייטן (או פטריות גדולות), חתוכים גס</li>
+              <li>5 תפוחי אדמה בינוניים, קלופים וחצויים</li>
+              <li>200 גרם שעועית לבנה, מושרית ללילה</li>
+              <li>200 גרם שעועית חומה (פינטו או קידני), מושרית ללילה</li>
+              <li>150 גרם גריסי פנינה, שטופים</li>
+              <li>7 גרם פפריקה מתוקה</li>
+              <li>2.3 גרם פלפל שחור טחון</li>
+              <li>3 גרם אבקת שום</li>
+              <li>מלח לפי הטעם</li>
+              <li>30 מ&quot;ל סילאן (או סירופ מייפל)</li>
+              <li>6 תפוחי אדמה קטנים (בייבי), שלמים וקלופים</li>
+              <li>מים רותחים לכיסוי</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מטגנים את הבצלים בשמן עד להזהבה עמוקה (צבע חום כהה).</li>
-              <li class="step"><span class="step-num">2.</span>מוסיפים את נתחי הסייטן (או הטופו) ומטגנים קלות מכל הצדדים.</li>
-              <li class="step"><span class="step-num">3.</span>מוסיפים לסיר את תפוחי האדמה, השעועית והגריסים.</li>
-              <li class="step"><span class="step-num">4.</span>מכסים במים, מוסיפים את התבלינים וסירופ המייפל ומביאים לרתיחה.</li>
-              <li class="step"><span class="step-num">5.</span>מנמיכים את האש ומבשלים כשעה וחצי עד שהרוטב מסמיך והקטניות רכות.</li>
+              <li class="step"><span class="step-num">1.</span>מחממים שמן בסיר גדול עם תחתית עבה. מוסיפים את הבצל הקצוץ ומטגנים בסבלנות עד להזהבה עמוקה וכהה. זה נותן את צבע הבסיס לתבשיל.</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את נתחי הסייטן לסיר וצורבים מכל הצדדים עד להשחמה.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים לסיר את תפוחי האדמה, השעועית המושרית (הלבנה והחומה) והגריסים.</li>
+              <li class="step"><span class="step-num">4.</span>ממלאים את הסיר במים עד לכיסוי כל המרכיבים.</li>
+              <li class="step"><span class="step-num">5.</span>מוסיפים את התבלינים: פפריקה, פלפל שחור, אבקת שום, מלח ואת הסילאן (או המייפל).</li>
+              <li class="step"><span class="step-num">6.</span>מביאים את הסיר לרתיחה. לאחר הרתיחה, מנמיכים את האש ללהבה נמוכה.</li>
+              <li class="step"><span class="step-num">7.</span>מניחים בעדינות את תפוחי האדמה הקטנים (המחליפים את הביצים) מעל התבשיל.</li>
+              <li class="step"><span class="step-num">8.</span>מכסים ומבשלים על אש נמוכה כ-1.5 שעות. להכנה מסורתית לשבת, מעבירים לפלטה או לבישול איטי לכל הלילה עד לארוחת הצהריים למחרת.</li>
             </ul>
           </div>
         </div>
@@ -542,58 +1033,81 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>3 onions, chopped</li>
-              <li>500g seitan chunks or firm tofu</li>
-              <li>4 potatoes, cubed</li>
-              <li>1 cup mixed beans (white and brown), soaked</li>
-              <li>1/2 cup pearl barley</li>
-              <li>2 tbsp maple syrup</li>
-              <li>Spices: paprika, black pepper, garlic powder, salt</li>
+              <li>3 large onions, diced</li>
+              <li>3 tbsp vegetable oil</li>
+              <li>4.4 cups seitan chunks (or large mushrooms), cut into large chunks</li>
+              <li>5 medium potatoes, peeled and halved</li>
+              <li>1 cup white beans, soaked overnight</li>
+              <li>1 cup brown beans (Pinto or Kidney), soaked overnight</li>
+              <li>0.75 cup pearl barley, rinsed</li>
+              <li>1 tbsp sweet paprika</li>
+              <li>1 tsp black pepper, ground</li>
+              <li>1 tsp garlic powder</li>
+              <li>Salt to taste</li>
+              <li>2 tbsp date syrup (Silan) or maple syrup</li>
+              <li>6 baby potatoes, whole and peeled</li>
+              <li>Boiling water to cover ingredients</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Fry the onions until they turn a deep golden brown.</li>
-              <li class="step"><span class="step-num">2.</span>Add the seitan chunks (or tofu) and fry briefly on all sides.</li>
-              <li class="step"><span class="step-num">3.</span>Add the potatoes, beans, and barley to the pot.</li>
-              <li class="step"><span class="step-num">4.</span>Cover with water, add the spices and maple syrup, and bring to a boil.</li>
-              <li class="step"><span class="step-num">5.</span>Lower heat and simmer for 1.5 hours until the stew thickens and beans are tender.</li>
+              <li class="step"><span class="step-num">1.</span>Heat oil in a large heavy-bottomed pot. Add the diced onions and fry patiently until they turn a dark golden brown. This provides the base color for the stew.</li>
+              <li class="step"><span class="step-num">2.</span>Add the seitan chunks to the pot and sear on all sides until browned.</li>
+              <li class="step"><span class="step-num">3.</span>Add the potatoes, soaked beans (white and brown), and pearl barley to the pot.</li>
+              <li class="step"><span class="step-num">4.</span>Fill the pot with water until all ingredients are covered.</li>
+              <li class="step"><span class="step-num">5.</span>Add the spices: paprika, black pepper, garlic powder, salt, and the maple syrup (or honey).</li>
+              <li class="step"><span class="step-num">6.</span>Bring the pot to a boil. Once boiling, reduce heat to low.</li>
+              <li class="step"><span class="step-num">7.</span>Gently place the baby potatoes (replacing the eggs) on top of the stew.</li>
+              <li class="step"><span class="step-num">8.</span>Cover and simmer on low heat for about 1.5 hours. For traditional Sabbath preparation, transfer to a hot plate (blech) or slow cooker to cook overnight until lunch the next day.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>3 بصلات مقصوصين</li>
-              <li>500 غرام سيتان أو توفو كاسح</li>
-              <li>4 كعبات بطاطا مقصوصين</li>
-              <li>1 كأس لوبيا (بيضاء وحمراء) منفوخة</li>
-              <li>1/2 كأس شعير (Grisim)</li>
-              <li>2 مغارف كبار سيرو إرابيل (Maple syrup)</li>
-              <li>فاحات: فلفل أحمر، فلفل أكحل، ثوم مرحي، ملح</li>
+              <li>3 بصلات كبار، مقصوصين مكعبات</li>
+              <li>3 مغارف زيت نباتي</li>
+              <li>4.4 كيسان طروف سيتان (أو فطر كبير)، مقصوصين طروف كبار</li>
+              <li>5 كعبات بطاطا متوسطين، مقشرين ومقصوصين على زوز</li>
+              <li>1 كأس لوبيا بيضاء، منفخة ليلة كاملة</li>
+              <li>1 كأس لوبيا حمراء، منفخة ليلة كاملة</li>
+              <li>3/4 كأس شعير، مشلل</li>
+              <li>1 مغرفة فلفل أحمر</li>
+              <li>1 مغرفة صغيرة فلفل أكحل</li>
+              <li>1 مغرفة صغيرة ثوم مرحي</li>
+              <li>ملح حسب الذوق</li>
+              <li>2 مغارف عسل تمر (رب) أو عسل</li>
+              <li>6 كعبات بطاطا جويدة، مقشرين وكاملين</li>
+              <li>ماء سخون يغلي باش نغموا الطنجرة</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>قلّي البصل في الزيت مليح حتى يحمار ويولي لونه غامق.</li>
-              <li class="step"><span class="step-num">2.</span>زيد طروف السيتان (أو التوفو) وقلّيهم شوية مع البصل.</li>
-              <li class="step"><span class="step-num">3.</span>رمي البطاطا، اللوبيا المنفوخة، والشعير في الطنجرة.</li>
-              <li class="step"><span class="step-num">4.</span>مرّق بالماء وزيد الفاحات والسيرو (Maple) وخلّي المرقة تغلي.</li>
-              <li class="step"><span class="step-num">5.</span>نقص للنار وخلّيها تطيب سلة سلة ساعة ونص حتى تختار المرقة وتطيب اللوبيا.</li>
+              <li class="step"><span class="step-num">1.</span>سخن الزيت في طنجرة كبيرة وثقيلة. حط البصل المقصوص واقليه بالشوية لين يولي لونه ذهبي غامق برشا. هذا هو اللي يعطي اللون للمرقة.</li>
+              <li class="step"><span class="step-num">2.</span>زيد طروف السيتان للطنجرة وقليهم من الجهات الكل لين يحمارو.</li>
+              <li class="step"><span class="step-num">3.</span>حط البطاطا، واللوبيا المنفخة (البيضاء والحمراء)، والشعير في الطنجرة.</li>
+              <li class="step"><span class="step-num">4.</span>صب الماء في الطنجرة لين تغم المكونات الكل.</li>
+              <li class="step"><span class="step-num">5.</span>زيد الفواحات: فلفل أحمر، فلفل أكحل، ثوم مرحي، ملح، وعسل التمر (الرب).</li>
+              <li class="step"><span class="step-num">6.</span>خلي الطنجرة تغلي. كيف تبدأ تغلي، نقص في النار وخليها هادية.</li>
+              <li class="step"><span class="step-num">7.</span>حط بالشوية كعبات البطاطا الجويدة (في بلاصة العظم) من فوق.</li>
+              <li class="step"><span class="step-num">8.</span>غطي الطنجرة وخليها تطيب سلة سلة ساعة ونص. كان باش تحضرها للسبت، حطها فوق الكانون أو في السلو كوكر (slow cooker) تبات تطيب ليلة كاملة لفطور غدوة.</li>
             </ul>
           </div>
         </div>

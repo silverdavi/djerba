@@ -1,0 +1,94 @@
+{
+  "id": "lentechalentilstew",
+  "image": "lentechalentilstew.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "10 min",
+    "cook_time": "40 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "לנטכה",
+    "es": "Lentecha (Guiso de Lentejas)",
+    "ar": "لانتشا (مرقة عدس)",
+    "en": "Lentecha (Lentil Stew)"
+  },
+  "description": {
+    "he": "לנטכה שואבת את שמה מהמילה הספרדית לעדשים, Lentejas. תבשיל ספרדי זה הוא אוכל מנחם קלאסי שתמיד היה צמחי באופן טבעי. ההכנה הייחודית כוללת בישול המרכיבים ללא טיגון מקדים, מה שיוצר מנה קלילה אך משביעה המוגשת עם כוסברה טרייה.",
+    "es": "Lentecha deriva su nombre de la palabra española para lentejas. Este guiso sefardí es una comida reconfortante clásica que siempre ha sido naturalmente de origen vegetal. La preparación única implica hervir los ingredientes sin freírlos primero, creando un plato ligero pero sustancioso terminado con cilantro fresco.",
+    "ar": "اسم لانتشا جاي من الكلمة الإسبانية للعدس، Lentejas. هذي المرقة السفاردية هي ماكلة دافية وكلاسيكية وكانت ديما نباتية بطبيعتها. الطريقة المميزة في تحضيرها هي غليان المكونات من غير قليان في الأول، باش تجي ماكلة خفيفة وتشبع في نفس الوقت، ونكملوها بكسبر أخضر فريشك.",
+    "en": "Lentecha derives its name from the Spanish word for lentils, lentejas. This Sephardic stew is a classic comfort food that has always been naturally plant-based. The unique preparation involves boiling ingredients without frying first, creating a light yet hearty dish finished with fresh coriander."
+  },
+  "ingredients": {
+    "he": [
+      "384 גרם עדשים (חומות או ירוקות), שטופות",
+      "1 בצל, קצוץ (לא מטוגן)",
+      "2 עגבניות, קצוצות",
+      "3 גרם כורכום",
+      "1.5 גרם פלפל לבן",
+      "4 גרם אבקת מרק ירקות",
+      "מלח לפי הטעם",
+      "960 מ\"ל מים",
+      "10 גרם כוסברה טרייה, קצוצה"
+    ],
+    "es": [
+      "384 g de lentejas (marrones o verdes), enjuagadas",
+      "1 cebolla, picada (sin freír)",
+      "2 tomates, picados",
+      "3 g de cúrcuma",
+      "1.5 g de pimienta blanca",
+      "4 g de caldo de verduras en polvo",
+      "Sal al gusto",
+      "960 ml de agua",
+      "10 g de cilantro fresco, picado"
+    ],
+    "ar": [
+      "2 كيسان عدس (أحمر أو أخضر)، مشلل",
+      "1 بصلة، مقصوصة (مش مقلية)",
+      "2 كعبات طماطم، مقصوصين",
+      "1 مغرفة صغيرة كركم",
+      "نصف مغرفة صغيرة فلفل أبيض",
+      "1 مغرفة صغيرة بودرة مرقة خضرة",
+      "ملح حسب الذوق",
+      "4 كيسان ماء",
+      "نصف كاس كسبر أخضر، مقصوص"
+    ],
+    "en": [
+      "2 cups lentils (brown or green), rinsed",
+      "1 onion, chopped (not fried)",
+      "2 tomatoes, chopped",
+      "1 tsp turmeric",
+      "0.5 tsp white pepper",
+      "1 tsp vegetable bouillon powder",
+      "Salt to taste",
+      "4 cups water",
+      "0.5 cup fresh coriander, chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שימו את העדשים בסיר עם המים, הבצל הקצוץ והעגבניות. אין לטגן שום דבר בשלב זה.",
+      "הוסיפו את הכורכום, הפלפל הלבן, אבקת המרק והמלח.",
+      "הביאו לרתיחה, ואז הנמיכו את האש ובשלו בבעבוע עדין עד שהעדשים רכות והתבשיל סמיך.",
+      "לקראת סוף הבישול, הוסיפו את הכוסברה הטרייה אם משתמשים. ערבבו והגישו."
+    ],
+    "es": [
+      "Coloque las lentejas en una olla con el agua, la cebolla picada y los tomates. No fría nada.",
+      "Añada la cúrcuma, la pimienta blanca, el caldo en polvo y la sal.",
+      "Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento hasta que las lentejas estén tiernas y el guiso esté espeso.",
+      "Cerca del final de la cocción, añada el cilantro fresco si lo usa. Remueva y sirva."
+    ],
+    "ar": [
+      "حط العدس في طنجرة مع الماء، والبصل المقصوص، والطماطم. ما تقلي شي.",
+      "زيد الكركم، والفلفل الأبيض، وبودرة المرقة، والملح.",
+      "خليها تغلي، ومبعد نقص في النار وخليها تطيب سلة سلة لين العدس يطيب والمرقة تخثار.",
+      "في لخر، زيد الكسبر الأخضر كان تحب. حرك وقدم."
+    ],
+    "en": [
+      "Place lentils in a pot with water, chopped onion, and tomatoes. Do not fry anything.",
+      "Add turmeric, white pepper, bouillon powder, and salt.",
+      "Bring to a boil, then reduce heat and simmer until lentils are soft and stew is thick.",
+      "Near the end of cooking, add fresh coriander if using. Stir and serve."
+    ]
+  }
+}

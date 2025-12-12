@@ -7,7 +7,7 @@
   "name_origin": "The name derives from the Arabic root 'd-f-n' (د ف ن), meaning 'to bury'. This refers to the historical cooking method where the pot was hermetically sealed with a flour-water paste and buried in the hot embers (ashes) of a communal oven (hammam or bakery) or a pit in the ground on Friday afternoon to cook slowly until Saturday lunch. The specific form 'Adafina' (with the initial 'A') represents the assimilation of the Arabic definite article 'al-' into 'ad-' before the 'd' sound (sun letter), resulting in 'ad-dafina'. This specific pronunciation was preserved in Medieval Spain and Ladino, appearing frequently in Spanish Inquisition records as a sign of secret Jewish practice. In modern Moroccan Judeo-Arabic, the initial vowel is often dropped, resulting simply in 'Dafina'.",
   "description": "A traditional Moroccan Jewish slow-cooked stew served for Shabbat lunch. Similar to Ashkenazi Cholent, it features layers of meat, chickpeas, potatoes, and eggs, often with a separate bag of wheat or rice, all cooked overnight to develop a deep, caramelized flavor.",
   "cultural_context": "This is the quintessential Shabbat dish of Moroccan Jewry. The addition of burnt sugar (caramel) gives the stew its characteristic dark color and subtle sweetness.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": null,
   "meta": {
     "servings": "6-8",
@@ -45,12 +45,12 @@
       }
     },
     {
-      "ingredient_id": "beef_chuck",
-      "name": "Beef (Chuck or Brisket)",
+      "ingredient_id": "seitan_chunks",
+      "name": "Seitan (Wheat Gluten)",
       "amount": 1,
       "unit": "kg",
       "preparation": "cut into large chunks",
-      "notes": "Suitable for slow cooking",
+      "notes": "Or large textured vegetable protein chunks",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -90,12 +90,12 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "firm_tofu",
+      "name": "Firm Tofu",
       "amount": 6,
       "unit": "unit",
-      "preparation": "washed well",
-      "notes": "Added whole in shell (Haminados)",
+      "preparation": "pressed and cut into large blocks",
+      "notes": "Replaces the whole eggs",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -103,7 +103,7 @@
         "volume": null,
         "original": {
           "value": 6,
-          "unit": "unit"
+          "unit": "blocks"
         }
       }
     },
@@ -297,8 +297,8 @@
       }
     },
     {
-      "ingredient_id": "chicken_bouillon_powder",
-      "name": "Chicken seasoning/Bouillon",
+      "ingredient_id": "vegetable_bouillon_powder",
+      "name": "Vegetable Bouillon",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
@@ -437,7 +437,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/001_adafina/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, high-resolution close-up of a steaming bowl of vegan Adafina stew, set inside a stone-walled kitchen in early 1900s Safed. The lighting is warm and natural, streaming from a small window, illuminating the rich, dark brown broth colored by caramelized sugar. Large, succulent chunks of savory seitan mimic the texture of traditional meat, nestled alongside tender whole chickpeas, golden potato halves, and large cubes of firm tofu that have absorbed the dark spices. A separate cheesecloth bag reveals plump cooked wheat berries. The stew is served in a vintage, hand-painted ceramic bowl with Moroccan geometric patterns. In the background, an antique clay pot sits on a woven mat near a stone hearth. The texture looks thick and gelatinous, steaming hot, garnished with a fresh sprig of parsley. The scene evokes a sense of ancient tradition and Sabbath warmth, highlighting the hearty and comforting nature of this plant-based adaptation without any animal products visible."
   },
   "tags": [
     "moroccan",
@@ -502,5 +503,24 @@
       "key_difference": "Usually cooked until the meat dissolves into a porridge texture, whereas Adafina ingredients retain their shape."
     }
   ],
-  "intro_paragraph": "Adafina takes its name from the Arabic for \"buried,\" referring to the traditional method of nesting the pot in hot embers overnight. This quintessential Moroccan Shabbat stew features layers of meat, chickpeas, potatoes, and eggs simmered until tender. Often darkened with caramelized sugar, the rich, slow-cooked meal is the centerpiece of Saturday lunch."
+  "intro_paragraph": "Adafina derives from the Arabic word for \"buried,\" recalling how pots were hidden in embers overnight. This plant-based adaptation of the Moroccan Shabbat classic replaces meat with savory seitan while maintaining the traditional caramelized depth. Layers of chickpeas, potatoes, and wheat simmer slowly to create a rich and comforting lunch.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Beef (Chuck or Brisket)",
+      "replacement": "Seitan chunks or large soy curls",
+      "notes": "Provides the hearty, chewy texture required for long cooking"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Firm tofu blocks or small whole potatoes",
+      "notes": "Mimics the protein component; tofu absorbs the caramelized flavors well"
+    },
+    {
+      "original": "Chicken seasoning/Bouillon",
+      "replacement": "Vegetable bouillon powder",
+      "notes": "Maintains savory depth without animal products"
+    }
+  ],
+  "veganization_complete": true
 }

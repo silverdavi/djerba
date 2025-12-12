@@ -7,7 +7,7 @@
   "name_origin": "The term 'Pizza' is of Italian origin, universally adopted. However, in the context of North African Jewish cuisine (specifically Tunisia and Djerba), the inclusion of this dish reflects the profound influence of the Italian community (Livornese Jews and Sicilian immigrants) in Tunisia during the 19th and 20th centuries. The specific combination described—tuna and olives—is the hallmark of 'Pizza Tunisienne' (Pizza au thon). The use of 'chicken consommé powder' (likely parve/imitation to maintain Kashrut if cheese is used, or simply for umami in a cheeseless version) indicates a modern Israeli-Maghrebi adaptation, as this is a staple pantry ingredient in Israeli households used to season tomato bases.",
   "description": "A quick, home-style pizza using prepared bread dough. This version features a savory tomato sauce seasoned with chicken consommé powder and is topped with tuna and olives, a classic combination in North African and Israeli households.",
   "cultural_context": "In Tunisian and Israeli home cooking, pizza is frequently topped with canned tuna and olives rather than pepperoni. The use of 'chicken seasoning' (pareve consommé powder) in the tomato sauce is a distinctively Israeli/North African hack to add umami and depth to quick sauces.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Omit the tuna or replace with vegan tuna alternative. Ensure the chicken seasoning is pareve (vegan) or use vegetable bouillon.",
   "meta": {
     "servings": "4",
@@ -23,7 +23,7 @@
       "amount": 500,
       "unit": "g",
       "preparation": "ready-made",
-      "notes": "Or pizza dough",
+      "notes": "Or vegan pizza dough",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -126,12 +126,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_consomme_powder",
-      "name": "Chicken seasoning powder",
+      "ingredient_id": "vegan_bouillon",
+      "name": "Vegan chicken-style bouillon powder",
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "Pareve soup mix/bouillon powder",
+      "notes": "Essential for the authentic savory flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -207,56 +207,83 @@
       }
     },
     {
-      "ingredient_id": "salt",
-      "name": "Salt",
-      "amount": null,
-      "unit": null,
-      "preparation": null,
-      "notes": "To taste",
+      "ingredient_id": "chickpeas",
+      "name": "Cooked chickpeas",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "roughly mashed",
+      "notes": "Tuna replacement base",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 200,
+          "unit": "g"
         },
         "imperial": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 7,
+          "unit": "oz"
         },
         "volume": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 1.5,
+          "unit": "cups"
         },
         "original": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 200,
+          "unit": "g"
         }
       }
     },
     {
-      "ingredient_id": "canned_tuna",
-      "name": "Canned tuna",
-      "amount": 160,
-      "unit": "g",
-      "preparation": "drained and flaked",
-      "notes": "1 standard can",
+      "ingredient_id": "nori_sheet",
+      "name": "Nori seaweed sheet",
+      "amount": 1,
+      "unit": "sheet",
+      "preparation": "finely crumbled",
+      "notes": "Mix with chickpeas for ocean flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 160,
+          "value": 1,
+          "unit": "sheet"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "sheet"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "sheet"
+        },
+        "original": {
+          "value": 1,
+          "unit": "sheet"
+        }
+      }
+    },
+    {
+      "ingredient_id": "capers",
+      "name": "Capers",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": "chopped",
+      "notes": "Mix with chickpeas for brininess",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 15,
           "unit": "g"
         },
         "imperial": {
-          "value": 5.6,
+          "value": 0.5,
           "unit": "oz"
         },
         "volume": {
           "value": 1,
-          "unit": "cups"
+          "unit": "tbsp"
         },
         "original": {
-          "value": 160,
-          "unit": "g"
+          "value": 1,
+          "unit": "tbsp"
         }
       }
     },
@@ -329,7 +356,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/072_pizza/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, rectangular home-style pizza served on a piece of parchment paper atop a weathered wooden table in an early 1900s stone kitchen in Safed. The pizza features a golden-brown, airy bread-dough crust topped with a rich, dark red tomato sauce. The topping consists of smashed chickpeas mixed with dark flecks of nori seaweed to resemble flaked tuna, scattered generously alongside sliced green and black olives. A dusting of dried oregano and a drizzle of olive oil finish the dish. Soft natural light streams through a small window, illuminating the texture of the crust and the rustic stone walls in the background, creating a warm, inviting atmosphere."
   },
   "tags": [
     "baking",
@@ -378,5 +406,19 @@
       "key_difference": "These are traditionally topped with minced meat (lamb/beef) and spices, not tuna and olives."
     }
   ],
-  "intro_paragraph": "Home-Style Tuna Pizza highlights the profound influence of Italian immigrants on Tunisian cuisine. Instead of cured meats, this version features the region’s signature topping of canned tuna and olives. The sauce utilizes a distinctively Djerban and Israeli kitchen hack, adding pareve chicken consommé powder to the tomato base for a quick, savory depth of flavor."
+  "intro_paragraph": "Home-Style Tuna Pizza, or Pizza Tunisienne, reflects the Italian influence on North African cuisine. While the name implies Italian origins meaning 'bite', this vegan adaptation replaces traditional fish with savory smashed chickpeas and nori. The sauce uses a classic Israeli hack of bouillon powder for deep flavor.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken seasoning powder",
+      "replacement": "Vegan chicken-style bouillon powder",
+      "notes": "Maintains the savory umami profile without animal products"
+    },
+    {
+      "original": "Canned tuna",
+      "replacement": "Smashed chickpeas with nori and capers",
+      "notes": "Provides similar texture and ocean flavor"
+    }
+  ],
+  "veganization_complete": true
 }

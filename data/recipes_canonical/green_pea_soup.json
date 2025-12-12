@@ -1,0 +1,264 @@
+{
+  "id": "green_pea_soup",
+  "slug": "green-pea-soup",
+  "source_file": "user_input_2024_12",
+  "name": "Green Pea Soup",
+  "name_hebrew": "מרק אפונה ירוקה",
+  "name_origin": "A simple descriptive name for this creamy dried pea soup. In Hebrew, it is called Marak Afuna Yeruka.",
+  "description": "Dried green peas cooked with carrots and onion, then blended smooth. The key is washing the peas well first to remove the foam (spumas) they create.",
+  "cultural_context": "A hearty winter soup found in many Jewish households. The technique of blending creates a creamy texture without any dairy.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Uses vegetable bouillon instead of chicken",
+  "meta": {
+    "servings": "6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried_green_peas",
+      "name": "Dried green peas",
+      "amount": 2,
+      "unit": "cups",
+      "preparation": "washed very well",
+      "notes": "wash to remove foam",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cups"
+        }
+      }
+    },
+    {
+      "ingredient_id": "carrot",
+      "name": "Carrots",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "cut into chunks",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "quartered",
+      "notes": "not fried",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White or black pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 6,
+      "unit": "cups",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1440,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 48,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 6,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 6,
+          "unit": "cups"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Wash the dried green peas very thoroughly to remove all the foam (spumas).",
+      "time_minutes": 5,
+      "tips": "This step is important for a clean soup"
+    },
+    {
+      "step": 2,
+      "instruction": "Place peas in a pot with water. Add carrot chunks and quartered onion (not fried).",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add turmeric, pepper, bouillon powder, and salt. Bring to a boil.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Reduce heat and simmer until peas are very soft.",
+      "time_minutes": 35,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Blend everything with an immersion blender until smooth and creamy.",
+      "time_minutes": 3,
+      "tips": "Adjust consistency with water if needed"
+    }
+  ],
+  "tags": [
+    "soup",
+    "legumes",
+    "comfort",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "Marak Afuna Yeruka is a staple comfort food in Israeli winters. This creamy soup relies on dried green peas rather than cream for its rich texture. Naturally plant-based, it combines simple root vegetables and turmeric to create a warming bowl that feels like a hug on a cold day.",
+  "image": {
+    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with thick, creamy green pea soup. The soup has a vibrant olive-green hue and a velvety texture, garnished with a drizzle of high-quality olive oil and a sprinkle of cracked black pepper. The bowl sits on an antique, weathered wooden table inside a traditional early 1900s Safed stone kitchen. Soft, natural light streams in from a side window, illuminating the steam rising gently from the hot soup. In the background, blurred rough-hewn stone walls and hanging copper cookware evoke a cozy, historic atmosphere. The scene highlights the hearty, plant-based nature of the dish, focusing on the warmth and simplicity of this vegetable-based comfort food."
+  },
+  "veganization_complete": true
+}

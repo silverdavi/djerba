@@ -7,7 +7,7 @@
   "name_origin": "While the Hebrew name provided ('Lechem Metugan') is a modern descriptive translation meaning 'Fried Bread,' the cultural origin of this dish in the 20th-century Tunisian Jewish context is firmly rooted in the French colonial influence. The community adopted the French term 'Pain Perdu' (Lost Bread). Unlike indigenous dishes with Judeo-Arabic names (like 'Mhamsa' or 'Pkaila'), this dish represents the Francophone acculturation of North African Jewry. The concept utilizes stale bread ('lost' bread) soaked in a custard mixture ('adma' and milk) to revive it.",
   "description": "A classic breakfast dish made by dipping sliced bread into a custard of eggs, milk, and vanilla, then frying until golden brown. A perfect way to use up stale bread.",
   "cultural_context": "In North African Jewish communities with French influence (Tunisia, Morocco), this is often known as 'Pain Perdu'. In Israel, it is a standard household dinner or breakfast known as 'Lechem Metugan'.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Use plant-based milk and a chickpea flour batter or commercial egg replacer.",
   "meta": {
     "servings": "2",
@@ -18,48 +18,85 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
-      "amount": 2,
-      "unit": "unit",
-      "size": "large",
+      "ingredient_id": "chickpea_flour",
+      "name": "Chickpea flour (Besan)",
+      "amount": 3,
+      "unit": "tbsp",
+      "size": null,
       "preparation": null,
-      "notes": null,
+      "notes": "Replaces egg",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 25,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
         "original": {
-          "value": 2,
-          "unit": "unit"
+          "value": 3,
+          "unit": "tbsp"
         }
       }
     },
     {
-      "ingredient_id": "milk",
-      "name": "Milk",
-      "amount": 60,
-      "unit": "ml",
+      "ingredient_id": "cornstarch",
+      "name": "Cornstarch",
+      "amount": 1,
+      "unit": "tbsp",
       "size": null,
       "preparation": null,
-      "notes": null,
+      "notes": "For crispiness",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 60,
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "plant_milk",
+      "name": "Soy or Oat Milk",
+      "amount": 150,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "Unsweetened preferred",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
           "unit": "ml"
         },
         "imperial": {
-          "value": 2,
+          "value": 5,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 0.25,
+          "value": 0.6,
           "unit": "cups"
         },
         "original": {
-          "value": 60,
+          "value": 150,
           "unit": "ml"
         }
       }
@@ -71,7 +108,7 @@
       "unit": "tsp",
       "size": null,
       "preparation": null,
-      "notes": "Or vanilla sugar",
+      "notes": "Or vanilla extract",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -89,6 +126,28 @@
         "original": {
           "value": 1,
           "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "pinch",
+      "size": null,
+      "preparation": null,
+      "notes": "For golden color",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": {
+          "value": 1,
+          "unit": "pinch"
+        },
+        "original": {
+          "value": 1,
+          "unit": "pinch"
         }
       }
     },
@@ -112,8 +171,8 @@
       }
     },
     {
-      "ingredient_id": "butter",
-      "name": "Butter or Oil",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan Butter or Coconut Oil",
       "amount": null,
       "unit": null,
       "size": null,
@@ -175,7 +234,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/032_french_toast/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, photorealistic close-up of a rustic breakfast setting inside an early 1900s stone house in Safed. The centerpiece is a ceramic plate holding four thick slices of golden-brown vegan French toast, perfectly fried with crispy edges. The bread texture looks fluffy and moist, coated in a batter made from chickpea flour and turmeric which gives it a warm, egg-like golden hue. A dusting of white powdered sugar sits on top, with a generous drizzle of amber maple syrup glistening in the natural light. Beside the toast are fresh figs and a small vintage fork. The background features a blurred stone wall and a wooden table surface, evoking a cozy, historical atmosphere. Soft, warm morning sunlight illuminates the steam rising from the hot bread, highlighting the delicious textures of this plant-based adaptation of a classic dish."
   },
   "tags": [
     "breakfast",
@@ -228,5 +288,24 @@
       "key_difference": "It is a baked bread pudding, not pan-fried slices."
     }
   ],
-  "intro_paragraph": "Pain Perdu—literally \"lost bread\"—captures the Francophone acculturation of North African Jews. Designed to rescue stale loaves, slices are soaked in an egg-milk custard and fried until golden. While modern Israeli families know it as Lechem Metugan, this comforting breakfast dish remains a sweet link to the community’s colonial past."
+  "intro_paragraph": "Pain Perdu means lost bread and reflects the French influence on Tunisian Jews. This vegan version replaces the traditional egg custard with a chickpea flour batter to rescue stale loaves. It remains a comforting breakfast dish that honors the community's colonial past while adapting to modern plant-based kitchens.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "2 Eggs",
+      "replacement": "Chickpea flour and cornstarch batter",
+      "notes": "Provides binding and browning similar to eggs"
+    },
+    {
+      "original": "Milk",
+      "replacement": "Soy or Oat milk",
+      "notes": "Rich plant-based alternative"
+    },
+    {
+      "original": "Butter",
+      "replacement": "Coconut oil or vegan margarine",
+      "notes": "For frying"
+    }
+  ],
+  "veganization_complete": true
 }

@@ -199,7 +199,8 @@
   ],
   "image": {
     "filename": "images/current/055_marmouma/dish.png",
-    "prompt": "A bowl of Tunisian Marmuma, a rich red cooked tomato and pepper salad, glistening with olive oil, served in a ceramic bowl with fresh bread on the side, rustic style."
+    "prompt": "A bowl of Tunisian Marmuma, a rich red cooked tomato and pepper salad, glistening with olive oil, served in a ceramic bowl with fresh bread on the side, rustic style.",
+    "generation_prompt": "A close-up, high-angle shot captures a rustic, hand-thrown ceramic bowl filled with Marmuma, a deep crimson Tunisian tomato and pepper jam. The surface glistens with a rich layer of golden olive oil that has separated from the vegetables during the long cooking process, highlighting the thick, confit-like texture. Visible flecks of garlic and seeds from the hot peppers add visual interest to the glossy, dark red spread. Beside the bowl rests a fresh, golden-brown braided challah loaf, with one piece torn off to suggest immediate serving. The scene is set within a sun-drenched stone kitchen in Safed from the early 1900s, featuring textured limestone walls and a worn wooden worktable. Soft, warm natural light filters through an arched window, casting gentle shadows that emphasize the rustic atmosphere. In the background, a heavy cast-iron pot sits near a bundle of dried red chilies and fresh vine tomatoes, reinforcing the authentic, slow-cooked preparation of this traditional plant-based appetizer."
   },
   "tags": [
     "tunisian",
@@ -268,5 +269,8 @@
       "key_difference": "Ezme is usually raw and finely minced, not cooked down into a jam."
     }
   ],
-  "intro_paragraph": "Marmuma derives its name from a dialectal Arabic term for \"broken down,\" describing how fresh tomatoes, hot peppers, and garlic are slowly reduced into a rich, jam-like spread. Essential to the Djerban Jewish table, this spicy cooked salad is traditionally served as part of the kemia course alongside fresh challah."
+  "intro_paragraph": "Marmuma comes from an Arabic term meaning broken down which describes how tomatoes and peppers reduce into a jam. This naturally vegan dish is a staple of Djerban Jewish cuisine. It is traditionally served as part of the appetizer course with fresh bread to scoop up the spicy spread.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

@@ -14,97 +14,101 @@
     "en": "Chraime (Spicy Fish Stew)"
   },
   "description": {
-    "he": "חריימה - שפירושו המילולי בערבית הוא \"חטא קטן\", כנראה בהתייחס לחריפות העזה שלו - הוא תבשיל דגים חריף בסיסי במשקי בית ג'רבאיים ולוביים. דג לבן מתבשל ברוטב סמיך ומרוכז של שום, פפריקה, רסק עגבניות וקימל. מוגש באופן מסורתי כמנה ראשונה בארוחת שבת, ודורש הרבה לחם לניגוב הרוטב הלוהט.",
-    "es": "Chraime —literalmente \"un pequeño pecado\" en árabe, probablemente refiriéndose a su intenso picante— es un estofado de pescado picante básico en los hogares de Djerba y Libia. El pescado blanco se cocina a fuego lento en una salsa espesa y concentrada de ajo, pimentón, pasta de tomate y alcaravea. Tradicionalmente servido como primer plato de la cena de Shabat, requiere mucho pan para mojar en la salsa ardiente.",
-    "ar": "الحرايمي - اللي يعني حرفياً \"حرام صغير\" بالعربي، ويمكن يقصدوا بيه الحرورية القوية متاعو - هو مرقة حوت حارة أساسية في ديار جربة وليبيا. الحوت الأبيض يطيب في صوص عاقدة معمولة بالثوم، والفلفل الأحمر، وطماطم الحكة، والكروية. يتقدم عادةً كطبق أول في عشاء الشبت، ولازم معاه برشا خبز باش تغمس في المرقة الحارة.",
-    "en": "Chraime—literally \"a little sin\" in Arabic, likely referencing its intense heat—is a staple spicy fish stew in Djerban and Libyan households. White fish simmers in a thick, concentrated sauce of garlic, paprika, tomato paste, and caraway. Traditionally served as the first course of Shabbat dinner, it requires plenty of bread to mop up the fiery gravy."
+    "he": "מקור השם במילה הערבית ל'אסור', והחריימה נקרא כך בשל חריפותו החוטאת. גרסה צמחית זו מחליפה את הדג המסורתי במשולשי טופו קשה המבושלים ברוטב העגבניות והשום העשיר והקלאסי. הגישו תבשיל צפון אפריקאי לוהט זה עם חלה טרייה לספיגת כל טיפת טעם.",
+    "es": "Derivado de la palabra árabe para prohibido, el Chraime recibe su nombre por su picante pecaminoso. Esta versión vegetal sustituye el pescado tradicional por triángulos de tofu firme cocidos a fuego lento en la clásica y rica salsa de tomate y ajo. Sirva este ardiente estofado norteafricano con jalá fresca para absorber cada gota de sabor.",
+    "ar": "كلمة حرايمي جاية من كلمة حرام، وتسمات هكا على خاطر الحروية متاعها. في الوصفة النباتية هذه، بدلنا الحوت بمرسوات توفو (tofu) يطيبو في مرقة عاقدة بالثوم والطماطم. قدموا هذا الطبق الشمال إفريقي الحار مع خبز شالاه باش تغمسوا في الصوص البنينة.",
+    "en": "Derived from the Arabic word for forbidden, Chraime is named for its sinful spiciness. This plant-based version swaps traditional fish for firm tofu triangles simmered in the classic rich tomato and garlic sauce. Serve this fiery North African stew with fresh challah to soak up every drop of flavor."
   },
   "ingredients": {
     "he": [
-      "1 ק\"ג פילה דג לבן (לברק, דקר או אמנון), חתוך למנות",
+      "1000 גרם טופו קשה, סחוט וחתוך למשולשים",
+      "2 דפי אצת נורי, טחונים דק או מפוררים",
       "60 מ\"ל שמן צמחי",
       "8 שיני שום, כתושות",
       "32 גרם רסק עגבניות",
       "7 גרם פפריקה חריפה",
-      "2 פלפלים ירוקים חריפים, פרוסים לאורך או קצוצים",
+      "2 פלפלים חריפים ירוקים, פרוסים לאורך",
       "2.5 גרם קימל (כרוויה), טחון",
       "1.25 גרם כמון, טחון",
       "250 מ\"ל מים",
       "30 מ\"ל מיץ לימון, סחוט טרי",
       "מלח לפי הטעם",
-      "2 תפוחי אדמה, קלופים ופרוסים (אופציונלי)"
+      "2 תפוחי אדמה, קלופים ופרוסים לעיגולים"
     ],
     "es": [
-      "1 kg de filetes de pescado blanco (Lubina, Mero o Tilapia), cortado en porciones",
+      "1000 g de tofu firme, prensado y cortado en triángulos",
+      "2 hojas de alga nori, finamente molidas",
       "60 ml de aceite vegetal",
-      "8 dientes de ajo, picados o machacados",
+      "8 dientes de ajo, picados",
       "32 g de pasta de tomate",
       "7 g de pimentón picante",
-      "2 pimientos verdes picantes, cortados a lo largo o picados",
+      "2 pimientos verdes picantes, cortados a lo largo",
       "2.5 g de semillas de alcaravea, molidas",
       "1.25 g de comino, molido",
       "250 ml de agua",
       "30 ml de jugo de limón, recién exprimido",
       "Sal al gusto",
-      "2 papas, peladas y cortadas en rodajas (opcional)"
+      "2 patatas, peladas y cortadas en rodajas"
     ],
     "ar": [
-      "1 كغ فيلي حوت أبيض (قاروص، مناني أو بلطي)، مقصوص طروف",
-      "ربع كاس زيت نباتي",
-      "8 سنات ثوم، مرحي",
+      "1 كغ توفو (tofu) يابس، مقصوص مثلثات",
+      "2 ورقات نوري، مرحيين",
+      "ربع كاس زيت",
+      "8 سنون ثوم، مرحي",
       "2 مغارف طماطم حكة",
-      "مغرفة فلفل أحمر حار",
-      "2 قرون فلفل أخضر حار، مقصوص بالطول",
-      "مغرفة صغيرة كروية، مرحية",
-      "نصف مغرفة صغيرة كمون، مرحي",
-      "كاس ماء",
-      "2 مغارف عصير قارص",
+      "1 مغرفة فلفل أحمر حار",
+      "2 قرون فلفل أخضر حار، مقصوصين",
+      "1 مغرفة صغيرة كروية، مرحية",
+      "نص مغرفة صغيرة كمون، مرحي",
+      "1 كاس ماء",
+      "2 مغارف قارص",
       "ملح حسب الذوق",
-      "2 كعبات بطاطا، مقشرين ومقصوصين دوائر (اختياري)"
+      "2 كعبات بطاطا، مقشرين ومقصوصين دوائر"
     ],
     "en": [
-      "1 kg white fish fillets (Sea Bass, Grouper, or Tilapia), cut into portions",
+      "1 kg firm tofu, pressed and cut into triangles",
+      "2 nori seaweed sheets, finely ground or crumbled",
       "1/4 cup vegetable oil",
-      "8 cloves garlic, minced or crushed",
+      "8 garlic cloves, minced or crushed",
       "2 tbsp tomato paste",
       "1 tbsp hot paprika",
-      "2 green hot peppers, sliced lengthwise or chopped",
+      "2 green hot peppers, sliced lengthwise",
       "1 tsp caraway seeds (ground)",
       "1/2 tsp cumin, ground",
       "1 cup water",
-      "2 tbsp lemon juice, freshly squeezed",
+      "2 tbsp lemon juice",
       "Salt to taste",
-      "2 potatoes, peeled and sliced into rounds (optional)"
+      "2 potatoes, peeled and sliced into rounds"
     ]
   },
   "steps": {
     "he": [
       "מחממים את השמן בסיר רחב ושטוח (סוטאז').",
-      "מוסיפים את השום, רסק העגבניות, הפלפלים החריפים, הפפריקה, הכמון, הקימל והמלח. מטגנים בעדינות כ-5 דקות לפתיחת טעמי התבלינים. יש להיזהר לא לשרוף את השום.",
+      "מוסיפים את השום, רסק העגבניות, הפלפלים החריפים, הפפריקה, הכמון, הקימל והמלח. מטגנים קלות כ-5 דקות לפתיחת טעמי התבלינים. יש להיזהר לא לשרוף את השום.",
       "מוסיפים את המים ומביאים לרתיחה עדינה ליצירת רוטב.",
-      "מוסיפים לסיר את פילה הדג ומיץ הלימון. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת (מסדרים אותם מסביב או מתחת לדג).",
-      "מכסים את הסיר ומבשלים במשך 15-20 דקות עד שהדג מוכן והרוטב מסמיך."
+      "מוסיפים את נתחי הטופו ומיץ הלימון לסיר. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת (מסדרים אותם מסביב או מתחת לטופו).",
+      "מכסים את הסיר ומבשלים במשך 15-20 דקות עד שהטופו סופג טעמים והרוטב מסמיך."
     ],
     "es": [
       "Caliente el aceite en una olla ancha y poco profunda.",
-      "Agregue el ajo, la pasta de tomate, los pimientos picantes, el pimentón, el comino, la alcaravea y la sal. Sofría suavemente durante unos 5 minutos para liberar los sabores de las especias. Tenga cuidado de no quemar el ajo.",
+      "Agregue el ajo, la pasta de tomate, los pimientos picantes, el pimentón, el comino, la alcaravea y la sal. Sofría suavemente durante unos 5 minutos para liberar los sabores. Tenga cuidado de no quemar el ajo.",
       "Agregue el agua y lleve a fuego lento para crear una salsa.",
-      "Agregue los filetes de pescado y el jugo de limón a la olla. Si usa papas, agréguelas ahora también (colóquelas alrededor o debajo del pescado).",
-      "Cubra la olla y cocine por 15-20 minutos hasta que el pescado esté cocido y la salsa se haya espesado."
+      "Agregue los filetes de tofu y el jugo de limón a la olla. Si usa patatas, agréguelas ahora (colóquelas alrededor o debajo del tofu).",
+      "Cubra la olla y cocine por 15-20 minutos hasta que el tofu absorba los sabores y la salsa se espese."
     ],
     "ar": [
       "سخن الزيت في طنجرة واسعة ومسطحة.",
-      "زيد الثوم، طماطم الحكة، الفلفل الحار، الفلفل الأحمر، الكمون، الكروية والملح. فوّح بالشوية لمدة 5 دقايق باش تخرج ريحة الفاحات. رد بالك تحرق الثوم.",
-      "زيد الماء وخلي المرقة تغلي شوية باش تعقاد.",
-      "حط طروف الحوت وعصير القارص في الطنجرة. كان باش تزيد بطاطا، حطها توة (ستفها دايرة بالحوت ولا تحته).",
-      "غطي الطنجرة وطيبها لمدة 15-20 دقيقة لين يطيب الحوت والمرقة تختار."
+      "زيد الثوم، طماطم الحكة، الفلفل الحار، الفلفل الأحمر، الكمون، الكروية والملح. فوّح شوية لمدة 5 دقايق باش تخرج ريحة الفاحات. رد بالك تحرق الثوم.",
+      "زيد الماء وخلي المرقة تغلي شوية.",
+      "حط التوفو (tofu) والقارص في الطنجرة. كان باش تزيد البطاطا، حطها توة (ستفها داير ساير ولا تحت التوفو).",
+      "غطي الطنجرة وخليها تطيب 15-20 دقيقة لين التوفو يشرب المرقة وتخثار."
     ],
     "en": [
       "Heat the oil in a wide, shallow pot (sotage).",
       "Add the garlic, tomato paste, hot peppers, paprika, cumin, caraway, and salt. Sauté gently for about 5 minutes to open the flavors of the spices. Be careful not to burn the garlic.",
       "Add the water and bring to a simmer to create a sauce.",
-      "Add the fish fillets and lemon juice to the pot. If using potatoes, add them now as well (arrange them around or under the fish).",
-      "Cover the pot and cook for 15-20 minutes until the fish is cooked through and the sauce has thickened."
+      "Add the tofu fillets and lemon juice to the pot. If using potatoes, add them now as well (arrange them around or under the fish substitute).",
+      "Cover the pot and cook for 15-20 minutes until the tofu is cooked through and the sauce has thickened."
     ]
   }
 }

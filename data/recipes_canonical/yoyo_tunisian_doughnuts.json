@@ -7,7 +7,7 @@
   "name_origin": "The name 'Yoyo' is widely attributed to the French colonial influence in Tunisia (1881–1956). It is named after the toy 'yo-yo,' which became a global craze in the 1920s and 1930s. The shape of the pastry (a ring, sometimes appearing like two disks joined depending on how the dough puffs) resembled the toy. While the recipe itself—a fried dough soaked in syrup—has older roots in Andalusian and Ottoman confectionery (related to 'Rosquillas'), the specific nomenclature 'Yoyo' is a loan word adopted into Tunisian dialect (Derja) and Judeo-Arabic from French. (Confidence: likely)",
   "description": "Traditional Tunisian Jewish deep-fried dough rings soaked in sugar syrup. These cake-like doughnuts are dense, sweet, and fragrant with orange and vanilla, commonly served at weddings, Hanukkah, and other celebrations.",
   "cultural_context": "A staple of Tunisian Jewish confectionery, often associated with the city of Tunis and Djerba. Unlike yeast doughnuts, these are closer to a cookie dough texture.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Requires egg substitutes for the dough; the rest is vegan.",
   "meta": {
     "servings": "20-25 units",
@@ -45,6 +45,33 @@
       }
     },
     {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 10,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Essential for egg-free lift",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
       "ingredient_id": "sugar",
       "name": "Sugar",
       "amount": 100,
@@ -54,19 +81,19 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 400,
+          "value": 100,
           "unit": "g"
         },
         "imperial": {
-          "value": 14.1,
+          "value": 3.5,
           "unit": "oz"
         },
         "volume": {
-          "value": 2,
+          "value": 0.5,
           "unit": "cups"
         },
         "original": {
-          "value": 400,
+          "value": 100,
           "unit": "g"
         }
       }
@@ -81,38 +108,47 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 120,
           "unit": "ml"
         },
         "imperial": {
-          "value": 33.8,
+          "value": 4,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 4.2,
+          "value": 0.5,
           "unit": "cups"
         },
         "original": {
-          "value": 1,
-          "unit": "L"
+          "value": 120,
+          "unit": "ml"
         }
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
-      "amount": 3,
-      "unit": "unit",
+      "ingredient_id": "applesauce",
+      "name": "Unsweetened applesauce",
+      "amount": 180,
+      "unit": "g",
       "preparation": null,
-      "notes": "Large",
+      "notes": "Egg substitute",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 180,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 6.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
         "original": {
-          "value": 3,
-          "unit": "unit"
+          "value": 180,
+          "unit": "g"
         }
       }
     },
@@ -320,7 +356,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/093_yoyo/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic, hand-painted ceramic platter piled high with golden-brown Yoyos, traditional Tunisian cake-like doughnuts. The doughnuts are ring-shaped with a dense, cookie-like crumb structure rather than a smooth yeasted surface, glistening intensely with a sticky, orange-scented sugar syrup. Subtle flecks of orange zest are visible on the surface, catching the light. The setting is an intimate corner of an early 1900s stone kitchen in Safed, with rough-hewn limestone walls in the background. Soft, warm natural light streams from a side window, highlighting the glossy texture of the syrup and the golden hue of the fried dough. In the background, slightly out of focus, is a vintage copper pot containing the remaining syrup, a few fresh orange slices, and a glass of mint tea with pine nuts. The scene evokes a warm, festive atmosphere suitable for Hanukkah or a wedding celebration. The styling is authentic, messy, and home-cooked, emphasizing the rich, inviting nature of this plant-based adaptation which uses applesauce instead of eggs, ensuring the texture looks moist and tender."
   },
   "tags": [
     "dessert",
@@ -375,5 +412,14 @@
       "key_difference": "Tulumba uses choux pastry extruded through a star nozzle (ridged), whereas Yoyo is hand-formed into smooth rings."
     }
   ],
-  "intro_paragraph": "Yoyos—named after the toy popularized during the French colonial era—are dense, cake-like doughnuts central to Djerban Jewish festivities. Unlike yeasted pastries, this dough resembles a cookie texture before being deep-fried and drenched in orange-scented syrup. These sweet, golden rings are a beloved staple at weddings and Hanukkah celebrations."
+  "intro_paragraph": "Named after the toy popular in the French colonial era, these Yoyos are dense doughnuts shaped like rings. This vegan version captures the authentic Djerban spirit without eggs. They are fried to golden perfection and soaked in orange syrup for a festive Hanukkah treat.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "3 Eggs",
+      "replacement": "180g Unsweetened Applesauce + 10g Baking Powder",
+      "notes": "Applesauce provides the necessary moisture and binding for the cookie-like dough, while baking powder ensures the dense rings puff correctly in the oil."
+    }
+  ],
+  "veganization_complete": true
 }

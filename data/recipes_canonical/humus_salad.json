@@ -118,7 +118,7 @@
       "unit": "ml",
       "size": null,
       "preparation": null,
-      "notes": "Inferred ingredient for dressing",
+      "notes": "Extra virgin recommended",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -146,7 +146,7 @@
       "unit": "ml",
       "size": null,
       "preparation": "freshly squeezed",
-      "notes": "Inferred ingredient for dressing",
+      "notes": null,
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -225,7 +225,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/018_hummus_salad/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a handmade glazed clay bowl filled with Slatet Homs, a traditional Tunisian chickpea salad. The dish features plump, whole golden chickpeas glistening with high-quality olive oil and heavily speckled with vibrant red sweet paprika. Small, distinct pieces of yellow preserved lemon rind and freshly chopped green cilantro add textural contrast and bright pops of color. The salad sits on a weathered, dark wooden table inside an early 1900s Safed stone kitchen. Soft, diffused natural light filters through a deep-set arched window, casting gentle shadows and illuminating the oil's sheen. In the background, blurred slightly to create depth, are small vintage glass cups of arak and a woven basket with flatbread, suggesting a traditional Shabbat kemia spread. The surrounding walls are rough-hewn limestone, characteristic of the region. The atmosphere is warm, inviting, and deeply authentic to North African Jewish heritage, celebrating 100% plant-based ingredients in a rustic, historical setting."
   },
   "tags": [
     "salad",
@@ -280,5 +281,8 @@
       "key_difference": "Turkish version often uses sumac and pomegranate molasses rather than the preserved lemon and harissa found in the Tunisian version."
     }
   ],
-  "intro_paragraph": "Slatet Homs, literally \"chickpea salad\" in Judeo-Arabic, features whole legumes rather than the smooth puree common in the Levant. Brightened by preserved lemon and fresh cilantro, this rustic dish is a cornerstone of the kemia. In Djerban households, these small appetizers are essential for starting Shabbat meals or accompanying glasses of arak."
+  "intro_paragraph": "Slatet Homs is a rustic Tunisian salad featuring whole chickpeas rather than the smooth puree found in Levantine hummus. This naturally vegan dish combines preserved lemon and fresh cilantro for a bright flavor profile. It serves as a staple kemia appetizer in Djerban homes to begin festive Shabbat meals.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

@@ -7,7 +7,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 53) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>Tortitas de Soly</span></div>
-        <div class="title-word lang-he"><span>פנקייק סולי</span></div>
-        <div class="title-word lang-en"><span>Soly&#x27;s Pancakes</span></div>
-        <div class="title-word lang-ar"><span>بانكيك سولي</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Panqueques de Soly</span></div>
+        <div class="title-word lang-he title-small"><span>פנקייק סולי</span></div>
+        <div class="chapter-number"><span>53</span></div>
+        <div class="title-word lang-en title-small"><span>Soly&#x27;s Pancakes</span></div>
+        <div class="title-word lang-ar title-small"><span>بانكيك سولي</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>מתכון משפחתי אהוב לפנקייקים אווריריים ומתוקים, מושלמים לארוחת בוקר. הגרסה הטבעונית מחליפה את הביצים ברסק תפוחים לקבלת מרקם רך ולח. המנה נקראת על שם סולי, בן המשפחה ששכלל את המתכון.</p>
+            <p>פנקייק סולי נקראים על שם כינוי צפון אפריקאי נפוץ לשלמה. גרסה טבעונית זו מחליפה את הביצה בפשתן כדי לשמור על המרקם האוורירי תוך שמירה על המנה פרווה. המתכון משקף השפעה ישראלית מודרנית על ידי שימוש בשקיות אפייה סטנדרטיות הנמצאות במטבחי התפוצות לארוחת בוקר מענגת.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Una receta familiar muy querida de tortitas esponjosas y dulces. Aunque tradicionalmente llevan huevo, esta versión vegana utiliza puré de manzana para lograr una textura suave. Nombrada en honor a Soly, el familiar que perfeccionó la receta.</p>
+            <p>Los Panqueques de Soly llevan el nombre de un apodo norteafricano común para Salomón. Esta adaptación vegana reemplaza el huevo con lino para mantener la textura esponjosa y mantener el plato parve. Refleja la influencia israelí moderna mediante el uso de sobres de hornear estándar que se encuentran en las cocinas de la diáspora para un desayuno delicioso.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>وصفة عائلية محبوبة لبانكيك خفيف وحلو، مثالي لفطور الصباح. في العادة يتعمل بالعظم، أما في هذه النسخة النباتية استعملنا &quot;كمبوت&quot; التفاح باش يجي طري. تسمات على اسم &quot;سولي&quot; اللي تفنن فيها.</p>
+            <p>بانكيك سولي تسمّى على اسم دلع معروف في شمال إفريقيا لاسم سليمان. هالوصفة النباتية تبدّل العظمة بذور الكتان باش تقعد خفيفة ومنفخة وتكون بارف. الوصفة توري التأثير الإسرائيلي العصري باستعمال باكوات الخميرة والسكر فانيليا المعروفين، وتجي بنينة برشا لفطور الصباح.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A beloved family recipe for fluffy, sweet pancakes. While traditionally made with eggs, this vegan adaptation uses applesauce to achieve a light texture. Named after Soly, the family member who perfected the dish.</p>
+            <p>Soly&#x27;s Pancakes are named for a common North African nickname for Solomon. This vegan adaptation replaces the egg with flax to maintain the fluffy texture while keeping the dish parve. It reflects modern Israeli influence by using standard baking packets found in Diaspora kitchens for a delightful breakfast treat.</p>
           </div>
         </div>
       </div>
@@ -450,7 +918,7 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">3-4</span>
+          <span class="meta-value">10-12 pancakes</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
@@ -480,60 +948,65 @@ h2 {
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>1 taza de harina</li>
-              <li>3 cucharadas de azúcar</li>
-              <li>Una pizca de sal</li>
-              <li>1/2 sobre de levadura química (polvo de hornear)</li>
-              <li>1.5 sobres de azúcar vainillado</li>
-              <li>1/2 cucharadita de bicarbonato</li>
-              <li>3 cucharadas de puré de manzana</li>
-              <li>3 cucharadas de aceite</li>
-              <li>3/4 taza de agua</li>
+              <li>140 g de harina común</li>
+              <li>38 g de azúcar</li>
+              <li>Sal al gusto</li>
+              <li>5 g de polvo de hornear</li>
+              <li>15 g de azúcar vainillado</li>
+              <li>3 g de bicarbonato de sodio</li>
+              <li>1 huevo de lino (1 cda lino molido con 3 cdas agua)</li>
+              <li>45 ml de aceite vegetal</li>
+              <li>180 ml de agua</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mezclar todos los ingredientes secos en un bol grande.</li>
-              <li class="step"><span class="step-num">2.</span>Añadir los ingredientes húmedos (puré de manzana, aceite, agua) y mezclar solo hasta integrar.</li>
-              <li class="step"><span class="step-num">3.</span>Calentar un poco de aceite en una sartén a fuego medio.</li>
-              <li class="step"><span class="step-num">4.</span>Verter porciones de masa en la sartén y cocinar por ambos lados hasta que doren.</li>
+              <li class="step"><span class="step-num">1.</span>En un bol grande, mezclar la harina, el azúcar, la sal, el polvo de hornear, el azúcar vainillado y el bicarbonato.</li>
+              <li class="step"><span class="step-num">2.</span>Hacer un hueco en el centro y añadir el huevo de lino, el aceite y el agua.</li>
+              <li class="step"><span class="step-num">3.</span>Mezclar hasta que esté apenas combinado. No mezclar demasiado; está bien si quedan algunos grumos.</li>
+              <li class="step"><span class="step-num">4.</span>Calentar una sartén o plancha ligeramente engrasada a fuego medio.</li>
+              <li class="step"><span class="step-num">5.</span>Verter la masa en la plancha (aprox. 1/4 taza por panqueque). Dorar por ambos lados y servir caliente.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.701rem; line-height: 1.22;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>1 כוס קמח</li>
-              <li>3 כפות סוכר</li>
-              <li>קורט מלח</li>
-              <li>1/2 שקית אבקת אפייה</li>
-              <li>1.5 שקיות סוכר וניל</li>
-              <li>1/2 כפית סודה לשתייה</li>
-              <li>3 כפות רסק תפוחים (במקום ביצה)</li>
-              <li>3 כפות שמן</li>
-              <li>3/4 כוס מים</li>
+              <li>140 גרם קמח רגיל</li>
+              <li>38 גרם סוכר</li>
+              <li>מלח לפי הטעם</li>
+              <li>5 גרם אבקת אפייה (חצי שקית)</li>
+              <li>15 גרם סוכר וניל (שקית וחצי)</li>
+              <li>3 גרם סודה לשתייה</li>
+              <li>1 ביצת פשתן (כף פשתן טחון עם 3 כפות מים)</li>
+              <li>45 מ&quot;ל שמן צמחי</li>
+              <li>180 מ&quot;ל מים</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מערבבים את כל החומרים היבשים (קמח, סוכר, מלח, אבקת אפייה, סודה לשתייה) בקערה.</li>
-              <li class="step"><span class="step-num">2.</span>מוסיפים את החומרים הרטובים (רסק תפוחים, שמן, מים) ומערבבים רק עד לאיחוד (לא לערבב יותר מדי).</li>
-              <li class="step"><span class="step-num">3.</span>מחממים מעט שמן במחבת על אש בינונית.</li>
-              <li class="step"><span class="step-num">4.</span>יוצקים מהבלילה למחבת ומטגנים משני הצדדים עד להזהבה.</li>
+              <li class="step"><span class="step-num">1.</span>בקערת ערבוב גדולה, טורפים יחד את הקמח, הסוכר, המלח, אבקת האפייה, סוכר הוניל והסודה לשתייה.</li>
+              <li class="step"><span class="step-num">2.</span>יוצרים גומה במרכז ומוסיפים את ביצת הפשתן, השמן והמים.</li>
+              <li class="step"><span class="step-num">3.</span>מערבבים רק עד לאיחוד. אין לערבב יתר על המידה; מעט גושים זה בסדר.</li>
+              <li class="step"><span class="step-num">4.</span>מחממים מחבת משומנת קלות על אש בינונית.</li>
+              <li class="step"><span class="step-num">5.</span>יוצקים מהבלילה למחבת (כ-1/4 כוס לכל פנקייק). מטגנים משני הצדדים עד להשחמה ומגישים חם.</li>
             </ul>
           </div>
         </div>
@@ -544,60 +1017,65 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>1 cup flour</li>
+              <li>1.15 cups all-purpose flour</li>
               <li>3 tbsp sugar</li>
-              <li>Pinch of salt</li>
-              <li>1/2 packet baking powder</li>
-              <li>1.5 packets vanilla sugar</li>
-              <li>1/2 tsp baking soda</li>
-              <li>3 tbsp applesauce (egg substitute)</li>
-              <li>3 tbsp oil</li>
-              <li>3/4 cup water</li>
+              <li>Salt to taste</li>
+              <li>1 tsp baking powder (1/2 standard packet)</li>
+              <li>1.2 tbsp vanilla sugar (1.5 standard packets)</li>
+              <li>0.5 tsp baking soda</li>
+              <li>1 flax egg (1 tbsp ground flaxseed with 3 tbsp warm water)</li>
+              <li>3 tbsp vegetable oil</li>
+              <li>0.75 cups water</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Mix all dry ingredients in a bowl.</li>
-              <li class="step"><span class="step-num">2.</span>Add the wet ingredients (applesauce, oil, water) and mix just until combined (do not overmix).</li>
-              <li class="step"><span class="step-num">3.</span>Heat a little oil in a pan over medium heat.</li>
-              <li class="step"><span class="step-num">4.</span>Pour batter into the pan and cook on both sides until golden brown.</li>
+              <li class="step"><span class="step-num">1.</span>In a large mixing bowl, whisk together the flour, sugar, salt, baking powder, vanilla sugar, and baking soda.</li>
+              <li class="step"><span class="step-num">2.</span>Make a well in the center and add the flax egg, oil, and water.</li>
+              <li class="step"><span class="step-num">3.</span>Mix until just combined. Do not overmix; a few lumps are okay.</li>
+              <li class="step"><span class="step-num">4.</span>Heat a lightly oiled frying pan or griddle over medium heat.</li>
+              <li class="step"><span class="step-num">5.</span>Pour or scoop the batter onto the griddle (approx. 1/4 cup per pancake). Brown on both sides and serve hot.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.693rem; line-height: 1.21;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>1 كأس فارينة</li>
-              <li>3 مغارف كبار سكر</li>
-              <li>رشة ملح</li>
-              <li>نص باكوا خميرة قاطو</li>
-              <li>1.5 باكو سكر فانيليا</li>
+              <li>1.15 كيسان فرينة</li>
+              <li>3 مغارف سكر</li>
+              <li>ملح حسب الذوق</li>
+              <li>1 مغرفة صغيرة خميرة قاطو (شطر باكو)</li>
+              <li>1.2 مغرفة سكر فانيليا (باكو ونص)</li>
               <li>نص مغرفة صغيرة بيكربونات</li>
-              <li>3 مغارف كبار &quot;كمبوت&quot; تفاح (عصيدة تفاح)</li>
-              <li>3 مغارف كبار زيت</li>
-              <li>3/4 كأس ماء</li>
+              <li>1 عظمة كتان (مغرفة بذور كتان مرحية مع 3 مغارف ماء)</li>
+              <li>3 مغارف زيت نباتي</li>
+              <li>3/4 كاس ماء</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>خلط النواشف الكل (فارينة، سكر، ملح، خميرة، بيكربونات) مع بعضهم في صحفة.</li>
-              <li class="step"><span class="step-num">2.</span>زيد السوائل (&quot;الكمبوت&quot;، الزيت، الماء) وخلط لين تتلم العجينة (ما تخلطش برشا).</li>
-              <li class="step"><span class="step-num">3.</span>سخن شوية زيت في المقلاة على نار متوسطة.</li>
-              <li class="step"><span class="step-num">4.</span>صب شوية من الخليط في المقلاة وطيبهم من الجهتين لين يحماروا ويطيبوا.</li>
+              <li class="step"><span class="step-num">1.</span>في صحفة كبيرة، خلط الفرينة، السكر، الملح، خميرة القاطو، سكر فانيليا والبيكربونات.</li>
+              <li class="step"><span class="step-num">2.</span>أعمل حفرة في الوسط وحط عظمة الكتان، الزيت والماء.</li>
+              <li class="step"><span class="step-num">3.</span>خلط لين يتلم الخليط برك. ما تخلطش برشا، ميسالش كان قعدو كعابر صغار.</li>
+              <li class="step"><span class="step-num">4.</span>سخن طاوة ولا مقلة مدهونة بشوية زيت.</li>
+              <li class="step"><span class="step-num">5.</span>صب شوية من الخليط في الطاوة (تقريب ربع كاس لكل كعبة). طيبها من الجهتين لين تحمار وقدمها سخونة.</li>
             </ul>
           </div>
         </div>

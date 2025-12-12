@@ -8,98 +8,102 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "קוז'אדה",
-    "es": "Cujada (Pastel de Papa y Huevo)",
-    "ar": "كوجادا (طاجين بطاطا وعظم)",
+    "he": "קוז'אדה (פשטידת תפוחי אדמה וביצים)",
+    "es": "Cujada (Pastel de Patata y Huevo)",
+    "ar": "كوجادا (معقودة بطاطا)",
     "en": "Cujada (Potato and Egg Pie)"
   },
   "description": {
-    "he": "קוז'אדה מקבלת את שמה מהמילה הספרדית cuajar (להקריש), המתייחסת לביצים שמחברות את פשטידת תפוחי האדמה הזו. בדומה לקיש ללא בצק או מעקודה, תערובת תפוחי האדמה המתובלת בכורכום ושום נאפית עד להזהבה. מנה קבועה בשולחנות יהודי ג'רבה, המוגשת באופן מסורתי בטמפרטורת החדר לארוחת צהריים בשבת.",
-    "es": "Cujada toma su nombre del español cuajar, refiriéndose a los huevos que ligan este pastel de papa salado. Similar a un quiche sin masa o una maaqouda, la mezcla de puré de papa se condimenta con cúrcuma y ajo, y luego se hornea hasta dorar. Un elemento fijo en las mesas judías de Djerba, se sirve tradicionalmente a temperatura ambiente para el almuerzo de Shabat.",
-    "ar": "كوجادا تاخو اسمها من الكلمة الإسبانية cuajar (يعني يجمد)، وهذا يرجع للعظم اللي يلم هالطاجين متاع البطاطا. تشبه برشا للمعقودة، البطاطا المرفوسة تتفوح بالكركم والثوم، ومبعد تطيب في الفور لين تحمار. هذي أكلة أساسية في طاولات اليهود الجرابة، وتتقدم عادة باردة فطور نهار السبت.",
-    "en": "Cujada takes its name from the Spanish cuajar (\"to set\"), referring to the eggs that bind this savory potato pie. Similar to a crustless quiche or maaqouda, the mashed potato mixture is spiced with turmeric and garlic, then baked until golden. A fixture of Djerban Jewish tables, it is traditionally served at room temperature for Shabbat lunch."
+    "he": "קוז'אדה מגיעה מהמילה הספרדית cuajar שמשמעותה להקריש. גרסה טבעונית זו מחליפה את הביצים המסורתיות בבלילת חומוס עשירה כדי לקשור את מחית תפוחי האדמה המתובלת. זהו מאכל זהוב ואוורירי מהמטבח הג'רבאי, מושלם לארוחת שבת בטמפרטורת החדר.",
+    "es": "Cujada deriva de la palabra española cuajar. Esta adaptación vegana sustituye los huevos tradicionales por una masa de garbanzos para ligar el puré de patatas especiado. Sigue siendo un plato dorado y esponjoso, básico en la cocina de Djerba, perfecto para el almuerzo de Shabat a temperatura ambiente.",
+    "ar": "الكوجادا جاية من الكلمة الإسبانية cuajar يعني يجمّد. هذي الوصفة النباتية تبدّل العظم بخلطة دقيق الحمص باش تشد البطاطا المهروسة والمفوّحة. تبقى أكلة ذهبية وخفيفة من المطبخ الجربي، وتتاكل دافية ولا باردة في فطور السبت.",
+    "en": "Cujada derives from the Spanish word cuajar meaning to set. This vegan adaptation replaces the traditional eggs with a savory chickpea batter to bind the spiced mashed potatoes. It remains a golden and fluffy staple of Djerban cuisine that is perfect for a room temperature Shabbat lunch."
   },
   "ingredients": {
     "he": [
-      "4 תפוחי אדמה בינוניים, קלופים",
-      "8 ביצים גדולות",
-      "1/4 כפית אבקת אפייה",
-      "1 כפית כורכום (או חוטי זעפרן)",
-      "1/2 כפית פלפל לבן (לפי הטעם)",
-      "1 כף אבקת מרק עוף",
-      "1 כפית אבקת שום",
-      "מלח לפי הטעם",
-      "30 מ\"ל שמן צמחי (לשימון)"
+      "4 תפוחי אדמה, קלופים (בינוניים)",
+      "240 גרם קמח חומוס",
+      "600 מ\"ל מים",
+      "4.8 גרם אבקת אפייה",
+      "3 גרם כורכום",
+      "1.2 גרם פלפל לבן",
+      "11 גרם אבקת מרק ירקות",
+      "3 גרם אבקת שום",
+      "3 גרם מלח הודי שחור (קאלה נמק)",
+      "45 מ\"ל שמן צמחי"
     ],
     "es": [
-      "4 papas medianas, peladas",
-      "8 huevos grandes",
-      "1/4 cucharadita de polvo de hornear",
-      "1 cucharadita de cúrcuma (o hebras de azafrán)",
-      "1/2 cucharadita de pimienta blanca (al gusto)",
-      "1 cucharada de caldo de pollo en polvo",
-      "1 cucharadita de ajo en polvo",
-      "Sal al gusto",
-      "30 ml de aceite vegetal (para engrasar)"
+      "4 patatas, peladas (medianas)",
+      "240 g de harina de garbanzo",
+      "600 ml de agua",
+      "4.8 g de levadura química",
+      "3 g de cúrcuma",
+      "1.2 g de pimienta blanca",
+      "11 g de caldo de verduras en polvo",
+      "3 g de ajo en polvo",
+      "3 g de sal negra (Kala Namak)",
+      "45 ml de aceite vegetal"
     ],
     "ar": [
-      "4 كعبات بطاطا متوسطين، مقشرين",
-      "8 عظمات كبار",
-      "1/4 مغرفة صغيرة خميرة قاطو",
-      "1 مغرفة صغيرة كركم (أو زعفران)",
-      "1/2 مغرفة صغيرة فلفل أبيض (حسب الذوق)",
-      "1 مغرفة كبيرة بودرة مرقة دجاج",
-      "1 مغرفة صغيرة ثوم مرحي",
-      "ملح حسب الذوق",
-      "2 مغارف زيت (للدهن)"
+      "4 كعبات بطاطا، مقشرين (متوسطين)",
+      "2 كيسان دقيق حمص",
+      "2.5 كيسان ماء",
+      "مغرفة صغيرة خميرة قاطو",
+      "مغرفة صغيرة كركم",
+      "نص مغرفة صغيرة فلفل أبيض",
+      "مغرفة كبيرة بودرة مرقة خضرة",
+      "مغرفة صغيرة ثوم مرحي",
+      "نص مغرفة صغيرة ملح كالا ناماك (للنكهة)",
+      "3 مغارف زيت"
     ],
     "en": [
-      "4 medium potatoes, peeled",
-      "8 large eggs",
-      "1/4 tsp baking powder",
-      "1 tsp turmeric (or saffron threads)",
-      "1/2 tsp white pepper (to taste)",
-      "1 tbsp chicken bouillon powder",
+      "4 potatoes, peeled (medium)",
+      "2 cups chickpea flour (Besan)",
+      "2.5 cups water",
+      "1 tsp baking powder",
+      "1 tsp turmeric",
+      "0.5 tsp white pepper",
+      "1 tbsp vegetable bouillon powder",
       "1 tsp garlic powder",
-      "Salt to taste",
-      "2 tbsp vegetable oil (for greasing)"
+      "0.5 tsp Kala Namak (Black Salt)",
+      "3 tbsp vegetable oil"
     ]
   },
   "steps": {
     "he": [
-      "מבשלים את תפוחי האדמה במים עד שהם רכים לחלוטין.",
-      "מסננים את תפוחי האדמה ומועכים אותם היטב בקערה גדולה.",
-      "מתבלים את המחית בכורכום (או זעפרן), פלפל לבן, אבקת מרק, מלח, אבקת שום ואבקת האפייה. מערבבים היטב.",
-      "מוסיפים את הביצים לתערובת תפוחי האדמה ומערבבים עד לקבלת בלילה אחידה.",
-      "מחממים תנור ל-180 מעלות. יוצקים את השמן לסיר המתאים לתנור או לתבנית עמוקה ומחממים אותו (על הכיריים או בתנור) עד שהוא חם.",
-      "יוצקים בזהירות את תערובת תפוחי האדמה והביצים לתוך השמן החם.",
-      "אופים בתנור עד שהפשטידה מתייצבת, מזהיבה מלמעלה, וקיסם הננעץ במרכז יוצא יבש."
+      "הרתיחו את תפוחי האדמה במים עד שהם רכים לחלוטין.",
+      "סננו את תפוחי האדמה ומעכו אותם היטב בקערה גדולה.",
+      "תבלו את מחית תפוחי האדמה בכורכום, פלפל לבן, אבקת מרק, מלח, אבקת שום ואבקת האפייה. ערבבו היטב.",
+      "הוסיפו את תערובת קמח החומוס והמים (תחליף הביצים) למחית תפוחי האדמה וערבבו עד לקבלת בלילה אחידה.",
+      "חממו תנור ל-180 מעלות. צקו את השמן לסיר חסין חום או תבנית עמוקה וחממו אותו (על הכיריים או בתנור) עד שהוא חם.",
+      "צקו בזהירות את תערובת תפוחי האדמה לתוך השמן החם.",
+      "אפו בתנור עד שהפשטידה מתייצבת, מזהיבה מלמעלה, וקיסם הננעץ במרכז יוצא יבש."
     ],
     "es": [
-      "Hierva las papas en agua hasta que estén completamente blandas.",
-      "Escurra las papas y hágalas puré bien en un tazón grande.",
-      "Condimente el puré con cúrcuma (o azafrán), pimienta blanca, caldo de pollo en polvo, sal, ajo en polvo y el polvo de hornear. Mezcle bien.",
-      "Agregue los huevos a la mezcla de papa y mezcle hasta que se integren completamente en una masa uniforme.",
-      "Precaliente el horno a 180°C. Vierta el aceite en una olla apta para horno o fuente profunda y caliéntelo (en la estufa o en el horno) hasta que esté caliente.",
-      "Vierta con cuidado la mezcla de papa y huevo en el aceite caliente.",
-      "Hornee hasta que el pastel cuaje, esté dorado por encima y al insertar un palillo en el centro, este salga seco."
+      "Hierva las patatas en agua hasta que estén completamente blandas.",
+      "Escurra las patatas y májelas bien en un bol grande.",
+      "Condimente el puré de patatas con cúrcuma, pimienta blanca, caldo en polvo, sal, ajo en polvo y la levadura química. Mezcle bien.",
+      "Añada la mezcla de harina de garbanzo y agua (sustituto de huevo) al puré y mezcle hasta obtener una masa uniforme.",
+      "Precaliente el horno a 180°C. Vierta el aceite en una olla apta para horno o fuente profunda y caliéntelo hasta que esté bien caliente.",
+      "Vierta con cuidado la mezcla de patata en el aceite caliente.",
+      "Hornee hasta que el pastel cuaje, esté dorado por encima y al insertar un palillo en el centro salga seco."
     ],
     "ar": [
       "اسمط البطاطا في الماء لين تطيب وتولي طرية بالباهي.",
       "قطّر البطاطا وارفسها مليح في صحفة كبيرة.",
-      "فوّح البطاطا المرفوسة بالكركم (أو الزعفران)، فلفل أبيض، بودرة مرقة الدجاج، ملح، ثوم مرحي وخميرة القاطو. خلط مليح.",
-      "زيد العظم لخليط البطاطا وخلط لين يتجانس الخليط ويولي كيف العجينة الجارية.",
-      "سخن الفور لـ180 درجة. صب الزيت في طنجرة تدخل للفور أو طبق غارق وسخنه (فوق الغاز أو في الفور) لين يسخن بالباهي.",
-      "كب خليط البطاطا والعظم بالشوية في الزيت السخون.",
-      "طيبها في الفور لين يشد الطاجين روحه، ويحمار من فوق، وكيف تجرب بكونردون في الوسط يخرج شايح."
+      "فوّح البطاطا المرفوسة بالكركم، فلفل أبيض، بودرة المرقة، ملح، ثوم مرحي والخميرة. خلط مليح.",
+      "زيد خليط دقيق الحمص والماء (في بلاصة العظم) للبطاطا وخلط لين تولي عجينة متجانسة.",
+      "سخّن الفور لـ 180 درجة. صب الزيت في طنجرة تدخل للفور ولا طبق غارق وسخنه لين يولي حامي.",
+      "صب خليط البطاطا بالشوية في الزيت السخون.",
+      "طيّبها في الفور لين تشد روحها، وتحمار من فوق، وكي تجرب بكوندون يخرج شايح."
     ],
     "en": [
       "Boil the potatoes in water until they are completely soft.",
       "Drain the potatoes and mash them well in a large bowl.",
-      "Season the mashed potatoes with turmeric (or saffron), white pepper, chicken bouillon powder, salt, garlic powder, and the baking powder. Mix well.",
-      "Add the eggs to the potato mixture and mix until fully combined into a uniform batter.",
+      "Season the mashed potatoes with turmeric, white pepper, vegetable bouillon powder, salt, garlic powder, and baking powder. Mix well.",
+      "Add the chickpea flour mixture (egg replacer) to the potato mixture and mix until fully combined into a uniform batter.",
       "Preheat oven to 180°C (350°F). Pour the oil into an oven-safe pot or deep baking dish and heat it (on the stove or in the oven) until hot.",
-      "Carefully pour the potato-egg mixture into the hot oil.",
+      "Carefully pour the potato mixture into the hot oil.",
       "Bake in the oven until the pie is set, golden on top, and a toothpick inserted into the center comes out dry."
     ]
   }

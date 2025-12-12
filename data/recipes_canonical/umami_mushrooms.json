@@ -1,0 +1,195 @@
+{
+  "id": "umami_mushrooms",
+  "slug": "umami-mushrooms",
+  "source_file": "user_input_2024_12",
+  "name": "Umami Mushrooms",
+  "name_hebrew": "פטריות אומאמי",
+  "name_origin": "A modern fusion dish combining Asian umami flavors with simple roasted mushrooms. The name comes from the Japanese word 'umami' meaning savory taste, the fifth basic taste.",
+  "description": "Quick roasted mushrooms marinated in a savory blend of soy sauce, sesame oil, garlic, and date syrup. The marinade creates an intense umami flavor that caramelizes beautifully in the oven.",
+  "cultural_context": "A modern addition to the family cookbook, bringing Asian-inspired flavors to the Djerban table.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mushrooms",
+      "name": "Mushrooms",
+      "amount": 1,
+      "unit": "cup",
+      "preparation": "cleaned and halved",
+      "notes": "any variety works",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 70,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "soy_sauce",
+      "name": "Soy sauce",
+      "amount": 50,
+      "unit": "ml",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3.3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 50,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sesame_oil",
+      "name": "Sesame oil",
+      "amount": 40,
+      "unit": "ml",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 40,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.3,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2.7,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 40,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": "crushed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "silan",
+      "name": "Silan (date syrup)",
+      "amount": 20,
+      "unit": "ml",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 20,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 20,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Mix soy sauce, sesame oil, crushed garlic, and silan in a bowl.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add mushrooms to the marinade and toss to coat. Let soak for 10 minutes.",
+      "time_minutes": 10,
+      "tips": "The longer they soak, the more flavor they absorb"
+    },
+    {
+      "step": 3,
+      "instruction": "Transfer to an oven-safe dish. Cover and bake at medium-high (200°C) for 10 minutes.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Remove cover and bake for another 10 minutes until caramelized.",
+      "time_minutes": 10,
+      "tips": "Watch carefully to prevent burning"
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "quick",
+    "asian-fusion",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "The name Umami Mushrooms derives from the Japanese concept of the fifth savory taste which perfectly describes this dish. This modern fusion recipe brings rich Asian flavors to the table using simple plant-based ingredients like soy sauce and date syrup for a deeply caramelized and savory appetizer.",
+  "image": {
+    "generation_prompt": "A close-up, high-angle shot of glistening Umami Mushrooms served in a shallow, rustic, hand-thrown clay bowl with uneven edges. The mushrooms are roasted to a deep dark brown, showing caramelized edges and coated in a thick, glossy, sticky glaze made of soy sauce and date syrup. They are generously sprinkled with golden toasted sesame seeds and vibrant fresh chopped green onions for color contrast. The setting is an authentic old stone kitchen in Safed from the early 1900s, featuring textured limestone walls and soft, warm natural light filtering through a small arched window. In the background, out of focus, vintage copper utensils hang on the stone wall and a woven straw basket sits on a weathered, scratched wooden table. The composition contrasts the modern Asian-fusion aesthetic of the food with the historic, traditional atmosphere of the room. The lighting is moody and atmospheric, highlighting the rich, savory texture and sheen of the 100% plant-based dish, making the mushrooms look meaty and succulent."
+  },
+  "veganization_complete": true
+}

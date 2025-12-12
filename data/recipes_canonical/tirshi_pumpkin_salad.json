@@ -51,7 +51,7 @@
       "unit": "unit",
       "size": "small",
       "preparation": "peeled and cubed",
-      "notes": "Adds creaminess",
+      "notes": "Adds creaminess to the final texture",
       "is_optional": true,
       "measurements": {
         "metric": null,
@@ -141,7 +141,7 @@
       "amount": 1,
       "unit": "tsp",
       "preparation": "ground",
-      "notes": null,
+      "notes": "Can be substituted with caraway for a more traditional Djerban flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -168,7 +168,7 @@
       "amount": 30,
       "unit": "ml",
       "preparation": "freshly squeezed",
-      "notes": "Approx. 2 tbsp",
+      "notes": "Approx. 2 tbsp, adjust for acidity",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -261,7 +261,8 @@
   ],
   "image": {
     "filename": "images/current/091_tirshi/dish.png",
-    "prompt": "Tunisian tirshi pumpkin salad, orange mashed pumpkin dip in a decorative ceramic bowl, garnished with olive oil and parsley, bright lighting"
+    "prompt": "Tunisian tirshi pumpkin salad, orange mashed pumpkin dip in a decorative ceramic bowl, garnished with olive oil and parsley, bright lighting",
+    "generation_prompt": "A stunning close-up of Tirshi, a vibrant orange Tunisian pumpkin salad, presented in a hand-painted ceramic bowl with intricate blue North African patterns. The texture is rustic and mashed, glistening with a generous drizzle of golden olive oil and garnished with fresh chopped parsley and a dusting of red paprika. The bowl rests on an aged wooden table inside a sunlit stone kitchen in early 1900s Safed, surrounded by the soft shadows of a window frame. In the background, out of focus, sits a woven basket of fresh bread and a clay water jug. The lighting is natural and warm, emphasizing the rich amber and orange hues of the pumpkin against the cool, textured stone walls, capturing the essence of a traditional plant-based Shabbat appetizer."
   },
   "tags": [
     "north-african",
@@ -330,5 +331,8 @@
       "key_difference": "Om Hourieh is made from carrots, though a 'Carrot Tirshi' exists which blurs the lines."
     }
   ],
-  "intro_paragraph": "Tirshi derives from the Arabic for \"pickles,\" referencing the sharp acidity that defines this vibrant cooked salad. Made from mashed pumpkin seasoned heavily with caraway, garlic, and vinegar, it transforms sweet squash into a savory dip. A staple of Djerban cuisine, it is traditionally served cold as part of the Shabbat kemia."
+  "intro_paragraph": "Tirshi derives from the Arabic word for pickles, referencing the sharp acidity defining this vibrant cooked salad. Made from mashed pumpkin seasoned with garlic and lemon, it transforms sweet squash into a savory dip. This naturally vegan staple of Djerban cuisine is traditionally served cold as part of the Shabbat spread.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

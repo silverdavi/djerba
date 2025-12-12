@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Adafina – Four-Language Recipe</title>
+<title>Adafina (Moroccan Shabbat Stew) – Four-Language Recipe</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -58,13 +59,19 @@ body {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
   overflow: hidden;
   page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-inner {
-  padding: 0.6in;
+  padding: 0.4in 0.5in;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .page--image .page-inner {
@@ -97,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -129,24 +141,108 @@ h2 {
 .title-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.12in;
+  gap: 0.15in;
   margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
 }
 
 .title-word {
-  text-align: center;
   font-family: var(--font-title);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.15in 0.2in;
-  letter-spacing: 0.05em;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 0.9in;
+  min-height: 0.8in;
   position: relative;
   background: transparent;
+  box-sizing: border-box;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -154,7 +250,22 @@ h2 {
           brightness(1.02)
           contrast(1.05)
           saturate(1.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title-word::before {
@@ -192,6 +303,9 @@ h2 {
 
 .title-word span {
   color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .title-word.lang-he,
@@ -202,6 +316,22 @@ h2 {
 
 .title-word.lang-es {
   text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
 }
 
 /* ============================================
@@ -218,6 +348,15 @@ h2 {
   text-align: center;
   font-size: 0.85rem;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section {
@@ -246,30 +385,107 @@ h2 {
 
 /* ============================================
    PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
    ============================================ */
 
 .two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.3in;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 0.15in;
+  gap: 0.08in;
   overflow: hidden;
-  max-height: min(100%, calc(8in - 1.2in));
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
 }
 
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--muted);
-  margin-bottom: 0.05in;
+  margin-bottom: 0.03in;
+  text-align: center;
 }
 
 .ingredients-list,
@@ -277,16 +493,17 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: clamp(0.65rem, 0.75rem - 0.1vw, 0.75rem);
-  line-height: clamp(1.3, 1.4 - 0.05vw, 1.4);
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
 }
 
 .ingredients-list li + li {
-  margin-top: 0.05em;
+  margin-top: 0.03em;
 }
 
 .step {
-  margin-bottom: clamp(0.08em, 0.12em - 0.02vw, 0.12em);
+  margin-bottom: 0.1em;
 }
 
 .step-num {
@@ -301,9 +518,9 @@ h2 {
 }
 
 .variant-label {
-  margin-top: 0.12in;
-  margin-bottom: 0.05in;
-  font-size: clamp(0.68rem, 0.72rem - 0.05vw, 0.72rem);
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
   font-weight: 600;
   color: var(--accent);
 }
@@ -312,37 +529,7 @@ h2 {
    COMPACT/TIGHT CLASSES FOR OVERFLOW
    ============================================ */
 
-.column.compact .ingredients-list,
-.column.compact .steps-list {
-  font-size: 0.7rem;
-  line-height: 1.35;
-}
-
-.column.compact .step {
-  margin-bottom: 0.08em;
-}
-
-.column.compact .variant-label {
-  font-size: 0.68rem;
-  margin-top: 0.1in;
-  margin-bottom: 0.04in;
-}
-
-.column.tight .ingredients-list,
-.column.tight .steps-list {
-  font-size: 0.68rem;
-  line-height: 1.3;
-}
-
-.column.tight .step {
-  margin-bottom: 0.06em;
-}
-
-.column.tight .variant-label {
-  font-size: 0.66rem;
-  margin-top: 0.08in;
-  margin-bottom: 0.03in;
-}
+/* Compact/tight classes removed - using adaptive inline styles instead */
 
 /* ============================================
    METADATA ROW
@@ -356,20 +543,24 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   margin-bottom: 0.3in;
+  align-items: center;
 }
 
 .meta-row.meta-footer {
   position: absolute;
-  bottom: 0.5in;
+  bottom: 0.4in;
   left: 0.6in;
   right: 0.6in;
   margin-bottom: 0;
+  z-index: 10;
 }
 
 .meta-item {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+  text-align: center;
 }
 
 .meta-label {
@@ -381,6 +572,7 @@ h2 {
 .meta-value {
   color: var(--ink);
   margin-top: 0.04in;
+  text-align: center;
 }
 
 /* ============================================
@@ -400,6 +592,8 @@ h2 {
   .page {
     box-shadow: none;
     margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
   }
 
   .title-word:hover {
@@ -410,6 +604,279 @@ h2 {
     size: 8in 8in;
     margin: 0;
   }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
 }
 
 
@@ -419,30 +886,31 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 1) -->
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-row">
-        <div class="title-word lang-es"><span>La Adafina</span></div>
-        <div class="title-word lang-he"><span>אדפינה</span></div>
-        <div class="title-word lang-en"><span>Adafina</span></div>
-        <div class="title-word lang-ar"><span>الدفينة</span></div>
+      <div class="title-grid">
+        <div class="title-word lang-es title-small"><span>Adafina (Estofado de Shabat Marroquí)</span></div>
+        <div class="title-word lang-he title-medium"><span>אדפינה</span></div>
+        <div class="chapter-number"><span>1</span></div>
+        <div class="title-word lang-en title-small"><span>Adafina (Moroccan Shabbat Stew)</span></div>
+        <div class="title-word lang-ar title-small"><span>أدفينة (يخنة السبت المغربية)</span></div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>חמין שבת בבישול איטי, שבמקורו הוכן עם בשר וכאן מותאם עם סייטן או טופו הסופגים את הטעמים העשירים. השם נגזר מהמילה הערבית &quot;דפינה&quot; (טמון/קבור), ומתייחס לשיטה העתיקה של הטמנת הסיר בגחלים. התבשיל כולל שכבות של חומוס, תפוחי אדמה ושקית חיטה, ומקבל צבע עמוק מקרמל סוכר שרוף.</p>
+            <p>אדפינה נגזרת מהמילה הערבית ל&quot;קבור&quot;, המזכירה כיצד סירים הוטמנו בגחלים למשך הלילה. גרסה צמחית זו של קלאסיקת השבת המרוקאית מחליפה את הבשר בסייטן עשיר תוך שמירה על העומק המקורמל המסורתי. שכבות של חומוס, תפוחי אדמה וחיטה מתבשלות לאט ליצירת ארוחת צהריים עשירה ומנחמת.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Un guiso de Shabat de cocción lenta, tradicionalmente hecho con carne pero adaptado aquí con seitán o tofu. Su nombre proviene del árabe *dafīnah* (enterrado), refiriéndose al método antiguo de cocinarlo bajo las brasas. Incluye capas de garbanzos, papas y una bolsa de trigo, enriquecido con un caramelo oscuro.</p>
+            <p>Adafina deriva de la palabra árabe para enterrado, recordando cómo las ollas se escondían en las brasas durante la noche. Esta adaptación vegetal del clásico de Shabat marroquí reemplaza la carne con seitán sabroso mientras mantiene la profundidad caramelizada tradicional. Capas de garbanzos, papas y trigo se cocinan a fuego lento para crear un almuerzo rico y reconfortante.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>&quot;الدفينة&quot; هي طبق السبت التقليدي الذي يطبخ على نار هادئة طوال الليل، وفي هذه النسخة النباتية نستبدل اللحم بالسيتان أو التوفو لامتصاص النكهات. الاسم مشتق من الكلمة العربية &quot;دفينة&quot; (أي مدفونة في الجمر). يحتوي الطبق على طبقات من الحمص والبطاطا وصرة القمح، ويكتسب لونه الداكن المميز من السكر المحروق (كراميل).</p>
+            <p>أدفينة جاية من كلمة مدفونة، وتفكّرنا كيفاش كانوا يدمسوا الطناجر في الجمر ليلة كاملة. هالوصفة النباتية لطبق السبت المغربي تبدّل اللحم بالسيتان مع المحافظة على طعمة الكراميل التقليدية. طبقات من الحمص، والبطاطا، والقمح يطيبوا بالشوية باش يعطيو فطور غني وبنين.</p>
           </div>
           <div class="info-item lang-en">
-            <p>A slow-cooked Shabbat stew traditionally prepared with meat, here adapted with seitan or tofu to absorb the rich flavors. The name comes from the Arabic *dafīnah* (buried), referring to the ancient method of burying the pot in embers. It features savory layers of chickpeas, potatoes, and a wheat berry pouch, deepened by caramelized sugar.</p>
+            <p>Adafina derives from the Arabic word for &quot;buried,&quot; recalling how pots were hidden in embers overnight. This plant-based adaptation of the Moroccan Shabbat classic replaces meat with savory seitan while maintaining the traditional caramelized depth. Layers of chickpeas, potatoes, and wheat simmer slowly to create a rich and comforting lunch.</p>
           </div>
         </div>
       </div>
@@ -450,7 +918,7 @@ h2 {
       <div class="meta-row meta-footer">
         <div class="meta-item">
           <span class="meta-label">Servings</span>
-          <span class="meta-value">6–8</span>
+          <span class="meta-value">6-8</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Prep time</span>
@@ -458,7 +926,7 @@ h2 {
         </div>
         <div class="meta-item">
           <span class="meta-label">Cook time</span>
-          <span class="meta-value">12 hr</span>
+          <span class="meta-value">720 min</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Difficulty</span>
@@ -474,70 +942,89 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/adafina_dish.png" alt="Adafina dish">
+      <img class="hero-image" src="../images/current/001_adafina/dish.png" alt="Adafina (Moroccan Shabbat Stew) dish">
       <div class="page-num">2</div>
     </div>
   </section>
 
 
-  <!-- PAGE 3: SPANISH + HEBREW -->
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-es">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredientes</div>
             <ul class="ingredients-list">
-              <li>Trozos de seitán o tofu firme (sustituto de carne)</li>
-              <li>1 taza de garbanzos (remojados toda la noche)</li>
-              <li>4 papas grandes</li>
-              <li>6-8 papas pequeñas enteras (sustituto de huevo)</li>
-              <li>1/2 taza de trigo (en bolsa de tela)</li>
-              <li>Especias: cúrcuma, pimienta blanca, nuez moscada, pimentón, canela</li>
-              <li>1 cucharada de caldo de verduras en polvo</li>
-              <li>2 cucharadas de azúcar (para el caramelo)</li>
-              <li>Sal y agua</li>
+              <li>250 g de garbanzos, remojados toda la noche</li>
+              <li>1000 g de seitán (gluten de trigo), cortado en trozos grandes</li>
+              <li>6 papas, peladas</li>
+              <li>6 bloques de tofu firme, prensado y cortado en bloques grandes</li>
+              <li>200 g de granos de trigo, enjuagados</li>
+              <li>25 g de azúcar</li>
+              <li>3 g de cúrcuma</li>
+              <li>1.5 g de pimienta blanca</li>
+              <li>Nuez moscada rallada al gusto</li>
+              <li>2.5 g de pimentón dulce</li>
+              <li>1.3 g de canela molida</li>
+              <li>10 g de caldo de verduras en polvo</li>
+              <li>Sal al gusto</li>
+              <li>Agua para cubrir</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Cortar el seitán/tofu en trozos grandes (opcional: sellar en aceite para mejorar la textura).</li>
-              <li class="step"><span class="step-num">2.</span>Colocar en capas en la olla: garbanzos abajo, luego la proteína, y encima las papas grandes.</li>
-              <li class="step"><span class="step-num">3.</span>Añadir las especias y el caldo. Agregar las papas pequeñas (en lugar de huevos) y la bolsa de trigo (con pequeños agujeros).</li>
-              <li class="step"><span class="step-num">4.</span>Cubrir con agua, llevar a ebullición y bajar el fuego.</li>
-              <li class="step"><span class="step-num">5.</span>Preparar el caramelo: quemar el azúcar con un poco de agua en una sartén aparte hasta que esté muy oscuro, y añadir con cuidado a la olla hirviendo.</li>
-              <li class="step"><span class="step-num">6.</span>Colocar sobre la placa de Shabat para cocinar lentamente durante toda la noche.</li>
+              <li class="step"><span class="step-num">1.</span>Remoje los garbanzos en agua durante la noche antes de comenzar a cocinar.</li>
+              <li class="step"><span class="step-num">2.</span>Coloque el seitán en una olla con agua y hierva. Escurra el agua, enjuague el seitán y enjuague la olla.</li>
+              <li class="step"><span class="step-num">3.</span>Devuelva el seitán limpio a la olla. Agregue los garbanzos remojados (generalmente en el fondo o debajo del seitán) y coloque las papas encima.</li>
+              <li class="step"><span class="step-num">4.</span>Agregue las especias: cúrcuma (o azafrán), pimienta blanca, una pizca de nuez moscada, pimentón, canela, caldo en polvo y sal.</li>
+              <li class="step"><span class="step-num">5.</span>Agregue los bloques de tofu a la olla.</li>
+              <li class="step"><span class="step-num">6.</span>Prepare el caramelo: En una sartén pequeña aparte, caliente el azúcar con una cantidad muy pequeña de agua hasta que se queme ligeramente y se vuelva marrón oscuro (muy caliente). Viértalo con cuidado en la olla principal.</li>
+              <li class="step"><span class="step-num">7.</span>Cubra el contenido con agua. Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento durante aproximadamente 1.5 horas.</li>
+              <li class="step"><span class="step-num">8.</span>Coloque el trigo en una bolsa de cocción (verificando primero que no tenga agujeros). Antes de Shabat (o antes de ir a dormir), coloque la bolsa en la olla.</li>
+              <li class="step"><span class="step-num">9.</span>Transfiera la olla a una plata de Shabat o un horno bajo (100°C) y cocine durante toda la noche hasta el almuerzo del día siguiente.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-he">
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">מצרכים</div>
             <ul class="ingredients-list">
-              <li>נתחי סייטן או טופו קשה (תחליף בשר)</li>
-              <li>1 כוס חומוס (מושרה לילה)</li>
-              <li>4 תפוחי אדמה גדולים</li>
-              <li>6-8 תפוחי אדמה קטנים שלמים (תחליף ביצים)</li>
-              <li>1/2 כוס חיטה (בתוך שקית בד)</li>
-              <li>תבלינים: כורכום, פלפל לבן, קורט אגוז מוסקט, פפריקה, קינמון</li>
-              <li>1 כף אבקת מרק פרווה</li>
-              <li>2 כפות סוכר (לקרמל)</li>
-              <li>מלח ומים</li>
+              <li>250 גרם חומוס, מושרה כל הלילה</li>
+              <li>1000 גרם סייטן (גלוטן חיטה), חתוך לחתיכות גדולות</li>
+              <li>6 תפוחי אדמה, קלופים</li>
+              <li>6 גושי טופו קשה, סחוטים וחתוכים לקוביות גדולות</li>
+              <li>200 גרם חיטה, שטופה</li>
+              <li>25 גרם סוכר</li>
+              <li>3 גרם כורכום</li>
+              <li>1.5 גרם פלפל לבן</li>
+              <li>אגוז מוסקט מגורר לפי הטעם</li>
+              <li>2.5 גרם פפריקה מתוקה</li>
+              <li>1.3 גרם קינמון טחון</li>
+              <li>10 גרם אבקת מרק ירקות</li>
+              <li>מלח לפי הטעם</li>
+              <li>מים לכיסוי</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>חותכים את הסייטן/טופו לנתחים גדולים (מומלץ לצרוב קלות בשמן לשיפור המרקם).</li>
-              <li class="step"><span class="step-num">2.</span>מסדרים בסיר שכבות: חומוס בתחתית, מעליו הסייטן/טופו, ומעליהם תפוחי אדמה גדולים.</li>
-              <li class="step"><span class="step-num">3.</span>מוסיפים את התבלינים ואבקת המרק. מוסיפים את תפוחי האדמה הקטנים (במקום ביצים) ואת שקית החיטה (מחוררת קלות).</li>
-              <li class="step"><span class="step-num">4.</span>מכסים במים, מביאים לרתיחה ומנמיכים את האש.</li>
-              <li class="step"><span class="step-num">5.</span>מכינים קרמל: מחממים סוכר עם מעט מים במחבת נפרדת עד שהוא הופך כהה מאוד (שרוף), ומוסיפים בזהירות לסיר הרותח לקבלת צבע חום עמוק.</li>
-              <li class="step"><span class="step-num">6.</span>מניחים על פלטת שבת לבישול איטי לכל הלילה.</li>
+              <li class="step"><span class="step-num">1.</span>השרו את החומוס במים למשך הלילה לפני תחילת הבישול.</li>
+              <li class="step"><span class="step-num">2.</span>הניחו את הסייטן בסיר עם מים והביאו לרתיחה. סננו את המים, שטפו את הסייטן ושטפו את הסיר.</li>
+              <li class="step"><span class="step-num">3.</span>החזירו את הסייטן הנקי לסיר. הוסיפו את החומוס המושרה (בדרך כלל בתחתית או מתחת לסייטן) והניחו את תפוחי האדמה מעל.</li>
+              <li class="step"><span class="step-num">4.</span>הוסיפו את התבלינים: כורכום (או זעפרן), פלפל לבן, קורט אגוז מוסקט, פפריקה, קינמון, אבקת מרק ומלח.</li>
+              <li class="step"><span class="step-num">5.</span>הוסיפו את גושי הטופו לסיר.</li>
+              <li class="step"><span class="step-num">6.</span>הכינו את הקרמל: במחבת קטנה נפרדת, חממו את הסוכר עם מעט מאוד מים עד שהוא נשרף קלות והופך לחום כהה (חם מאוד). שפכו בזהירות לסיר הראשי (היזהרו מהתזות).</li>
+              <li class="step"><span class="step-num">7.</span>כסו את התכולה במים. הביאו לרתיחה, הנמיכו את האש ובשלו במשך כ-1.5 שעות.</li>
+              <li class="step"><span class="step-num">8.</span>הניחו את החיטה בשקית בישול (בדקו שאין חורים). לפני שבת (או לפני השינה), הניחו את השקית בסיר.</li>
+              <li class="step"><span class="step-num">9.</span>העבירו את הסיר לפלטת שבת או לתנור בחום נמוך (100 מעלות צלזיוס) ובשלו כל הלילה עד לארוחת הצהריים למחרת.</li>
             </ul>
           </div>
         </div>
@@ -548,64 +1035,83 @@ h2 {
   </section>
 
 
-  <!-- PAGE 4: ENGLISH + ARABIC -->
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
   <section class="page">
     <div class="page-inner">
+      <div class="corner-decorations">
+        
+      </div>
       <div class="two-col">
-        <div class="column lang-en">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">Ingredients</div>
             <ul class="ingredients-list">
-              <li>Seitan chunks or firm tofu (meat substitute)</li>
-              <li>1 cup chickpeas (soaked overnight)</li>
-              <li>4 large potatoes</li>
-              <li>6-8 small whole potatoes (egg substitute)</li>
-              <li>1/2 cup wheat berries (in a cloth bag)</li>
-              <li>Spices: turmeric, white pepper, pinch of nutmeg, paprika, cinnamon</li>
+              <li>1.25 cups chickpeas, soaked overnight</li>
+              <li>4.2 cups seitan (wheat gluten), cut into large chunks</li>
+              <li>6 potatoes, peeled</li>
+              <li>6 blocks firm tofu, pressed and cut into large blocks</li>
+              <li>1.1 cups wheat berries, rinsed</li>
+              <li>2 tbsp sugar</li>
+              <li>1 tsp turmeric</li>
+              <li>0.5 tsp white pepper</li>
+              <li>Grated nutmeg to taste</li>
+              <li>1 tsp sweet paprika</li>
+              <li>0.5 tsp ground cinnamon</li>
               <li>1 tbsp vegetable bouillon powder</li>
-              <li>2 tbsp sugar (for caramel)</li>
-              <li>Salt and water</li>
+              <li>Salt to taste</li>
+              <li>Water to cover</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Cut seitan/tofu into large chunks (optional: sear in oil to improve texture).</li>
-              <li class="step"><span class="step-num">2.</span>Layer in the pot: chickpeas at the bottom, protein on top, then large potatoes.</li>
-              <li class="step"><span class="step-num">3.</span>Add spices and bouillon. Add small whole potatoes (replacing eggs) and the wheat bag (poke small holes in bag).</li>
-              <li class="step"><span class="step-num">4.</span>Cover with water, bring to a boil, then reduce heat.</li>
-              <li class="step"><span class="step-num">5.</span>Make caramel: burn sugar with a little water in a separate pan until very dark, then carefully add to the boiling pot for deep color.</li>
-              <li class="step"><span class="step-num">6.</span>Place on the Shabbat hot plate to slow-cook overnight.</li>
+              <li class="step"><span class="step-num">1.</span>Soak the chickpeas in water overnight before starting cooking.</li>
+              <li class="step"><span class="step-num">2.</span>Place the seitan in a pot with water and bring to a boil. Drain the water, rinse the seitan, and rinse the pot.</li>
+              <li class="step"><span class="step-num">3.</span>Return the clean seitan to the pot. Add the soaked chickpeas (usually at the bottom or under the seitan) and place the potatoes on top.</li>
+              <li class="step"><span class="step-num">4.</span>Add the spices: turmeric (or saffron), white pepper, a pinch of nutmeg, paprika, cinnamon, bouillon powder, and salt.</li>
+              <li class="step"><span class="step-num">5.</span>Add the tofu blocks to the pot.</li>
+              <li class="step"><span class="step-num">6.</span>Prepare the caramel: In a separate small pan, heat the sugar with a tiny amount of water until it burns slightly and turns dark brown (very hot). Carefully pour this into the main pot (use caution as it may splatter).</li>
+              <li class="step"><span class="step-num">7.</span>Cover the contents with water. Bring to a boil, then reduce heat and simmer for about 1.5 hours.</li>
+              <li class="step"><span class="step-num">8.</span>Place the wheat in a cooking bag (checking for holes first). Before Shabbat (or before going to sleep), place the bag in the pot.</li>
+              <li class="step"><span class="step-num">9.</span>Transfer the pot to a Shabbat hot plate or a low oven (100°C/212°F) and cook overnight until lunch the next day.</li>
             </ul>
           </div>
         </div>
 
-        <div class="column lang-ar">
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>قطع سيتان أو توفو صلب (بديل اللحم)</li>
-              <li>1 كأس حمص (منفخ ليلة كاملة)</li>
-              <li>4 كعبات بطاطا كبيرة</li>
-              <li>6-8 كعبات بطاطا صغيرة (بديل العظم/البيض)</li>
-              <li>نصف كأس قمح (في صرة قماش)</li>
-              <li>توابل: كركم، فلفل أبيض، رشة جوزة الطيب، فلفل أحمر، قرفة</li>
-              <li>مغرفة كبيرة بودرة مرقة خضرة</li>
-              <li>2 مغارف سكر (للكراميل)</li>
-              <li>ملح وماء</li>
+              <li>1.25 كاس حمص، منفخ ليلة كاملة</li>
+              <li>4.2 كيسان سيتان (غلوتين القمح)، مقصوص طروف كبار</li>
+              <li>6 كعبات بطاطا، مقشرين</li>
+              <li>6 طروف توפו يابس، معصور ومقصوص طروف كبار</li>
+              <li>1.1 كاس قمح، مشلل</li>
+              <li>2 مغارف سكر</li>
+              <li>1 مغرفة صغيرة كركم</li>
+              <li>0.5 مغرفة صغيرة فلفل أبيض</li>
+              <li>جوزة الطيب مرحية حسب الذوق</li>
+              <li>1 مغرفة صغيرة فلفل أحمر (زينة)</li>
+              <li>0.5 مغرفة صغيرة قرفة مرحية</li>
+              <li>1 مغرفة مرقة خضرة (بودر)</li>
+              <li>ملح حسب الذوق</li>
+              <li>ماء باش نغمّوا الطنجرة</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>قص السيتان أو التوفو طروف كبار (تنجم تقليهم شوية في الزيت باش يشدوا روحهم).</li>
-              <li class="step"><span class="step-num">2.</span>ستّف في الطنجرة طبقات: الحمص اللوطا، فوقه السيتان/التوفو، ومبعد البطاطا الكبيرة.</li>
-              <li class="step"><span class="step-num">3.</span>فوّح بالتوابل وبودرة المرقة. زيد البطاطا الصغيرة (في بلاصة العظم) وصرة القمح (انقب الصرة شوية).</li>
-              <li class="step"><span class="step-num">4.</span>امرق بالماء لين يتغطى الكل، خليها تغلي ومبعد نقص النار.</li>
-              <li class="step"><span class="step-num">5.</span>طيّب الكراميل: حط السكر وشوية ماء في كسرونة لين يتحرق ויولي لونه أكحل، وصبه بحذر في الطنجرة باش يعطي لون &quot;الدفينة&quot; الغامق.</li>
-              <li class="step"><span class="step-num">6.</span>حط الطنجرة على &quot;البلاكة&quot; (سخان السبت) ليلة كاملة حتى تطيب وتخثار.</li>
+              <li class="step"><span class="step-num">1.</span>نفّخ الحمص في الماء ليلة كاملة قبل ما تبدأ تطيّب.</li>
+              <li class="step"><span class="step-num">2.</span>حط السيتان في طنجرة مع الماء وغلّيه. صفّي الماء، وشلّل السيتان وشلّل الطنجرة.</li>
+              <li class="step"><span class="step-num">3.</span>رجّع السيتان النظيف للطنجرة. زيد الحمص المنفخ (عادة في القاع ولا تحت السيتان) وحط البطاطا من فوق.</li>
+              <li class="step"><span class="step-num">4.</span>زيد الفاحات: كركم (ولا زعفران)، فلفل أبيض، رشة جوزة الطيب، فلفل أحمر، قرفة، مرقة خضرة وملح.</li>
+              <li class="step"><span class="step-num">5.</span>زيد طروف التوفو للطنجرة.</li>
+              <li class="step"><span class="step-num">6.</span>حضّر الكراميل: في مقلاة صغيرة، سخّن السكر مع شوية ماء لين يتحرق شوية ويولي لونه قهوي غامق (سخون برشا). صبّه بالشوية في الطنجرة الكبيرة (رد بالك يطرشق).</li>
+              <li class="step"><span class="step-num">7.</span>غم المكونات بالماء. غلّيها، ومبعد نقّص النار وخلّيها تطيب سلة سلة حكاية ساعة ونص.</li>
+              <li class="step"><span class="step-num">8.</span>حط القمح في صرة (ثبت ما فيهاش نقب). قبل السبت (ولا قبل ما ترقد)، حط الصرة في الطنجرة.</li>
+              <li class="step"><span class="step-num">9.</span>حط الطنجرة فوق الفتيلة (كانون) ولا في فور دافي (100 درجة) وخلّيها تطيب ليلة كاملة حتى لفطور غدوة.</li>
             </ul>
           </div>
         </div>

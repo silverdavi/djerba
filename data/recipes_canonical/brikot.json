@@ -7,7 +7,7 @@
   "name_origin": "The term 'Brikot' is the Hebraized plural form of the Tunisian Arabic word 'Brik' (بريك). The root of the word is definitively traced to the Ottoman Turkish 'Börek', a general term for filled pastries. The Ottoman Empire controlled Tunisia from the 16th to the 19th century, introducing the concept of phyllo/yufka doughs. In Tunisia, this evolved into the 'Malsouka' (the specific leaf) and the dish became 'Brik'. The suffix '-ot' (ות) is the Hebrew feminine plural marker, indicating that 'Brikot' is the specific terminology used by Tunisian Jews (and subsequently in Israel) to refer to multiple pieces of the pastry.",
   "description": "A quintessential Tunisian savory pastry consisting of a thin, crispy dough sheet (Malsouka) wrapped around a filling and deep-fried. The most traditional fillings are a whole egg or savory mashed potatoes.",
   "cultural_context": "Djerban/Tunisian Jewish tradition. Brik is a staple of Tunisian cuisine, often served as an appetizer for Shabbat dinners, holidays, and breaking the fast during Ramadan. The 'Egg Brik' requires skill to keep the yolk runny while the pastry becomes crispy.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Use the mashed potato filling without egg. Ensure the pastry leaves are vegan (some brands contain egg).",
   "meta": {
     "servings": "6",
@@ -23,7 +23,7 @@
       "amount": 6,
       "unit": "unit",
       "preparation": null,
-      "notes": "Can substitute with spring roll wrappers or phyllo dough (layered)",
+      "notes": "Ensure vegan (check label for eggs); can substitute with spring roll wrappers",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -63,31 +63,13 @@
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
-      "amount": 6,
-      "unit": "unit",
-      "preparation": null,
-      "notes": "Use 1 per brik if making the egg version",
-      "is_optional": true,
-      "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
-        "original": {
-          "value": 6,
-          "unit": "unit"
-        }
-      }
-    },
-    {
       "ingredient_id": "potatoes",
       "name": "Potatoes",
       "amount": 3,
       "unit": "unit",
       "preparation": "boiled and mashed",
-      "notes": "For the puree filling option",
-      "is_optional": true,
+      "notes": "Yukon Gold or similar starchy potato",
+      "is_optional": false,
       "measurements": {
         "metric": null,
         "imperial": null,
@@ -95,6 +77,105 @@
         "original": {
           "value": 3,
           "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chickpeas",
+      "name": "Chickpeas",
+      "amount": 1,
+      "unit": "cup",
+      "preparation": "cooked and roughly mashed",
+      "notes": "Replaces egg/tuna for texture and protein",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "small",
+      "preparation": "finely chopped and sautéed",
+      "notes": "Adds sweetness and depth",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "small"
+        }
+      }
+    },
+    {
+      "ingredient_id": "parsley",
+      "name": "Fresh parsley",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": "finely chopped",
+      "notes": "Essential for authentic flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "capers",
+      "name": "Capers",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": "drained",
+      "notes": "Adds the traditional briney kick",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
         }
       }
     },
@@ -199,7 +280,8 @@
   ],
   "image": {
     "filename": "images/current/011_brik/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, photorealistic close-up of a plate of vegan Brikot pastries in a rustic 1900s Safed stone kitchen. The pastries are golden-brown, deep-fried half-moon shapes with the signature bubbly, crispy texture of Malsouka dough. One pastry is cut open to reveal a steaming, savory filling of yellow spiced mashed potatoes, chickpeas, and flecks of green parsley. They are arranged on an antique ceramic plate with blue patterns, sitting on a weathered wooden table. Soft, natural light streams from a side window, highlighting the oily sheen and crunch of the pastry. In the background, blurred stone walls and copper cookware suggest a traditional home setting. No animal products visible."
   },
   "tags": [
     "north-african",
@@ -259,5 +341,14 @@
       "key_difference": "Uses a shortcrust or yeast dough, not the transparent, leaf-like Malsouka/Warka."
     }
   ],
-  "intro_paragraph": "Brikot, the Hebraized plural of the Tunisian *brik*, derives from the Ottoman *börek*. These quintessential fried pastries consist of thin *malsouka* dough folded around savory mashed potatoes or a whole egg. A staple appetizer for Djerban Shabbat dinners, they are fried until golden, ideally achieving a crispy shell that yields to a rich, runny yolk."
+  "intro_paragraph": "Brikot are the Hebraized plural of Tunisian brik which comes from Ottoman börek. This vegan adaptation fills thin malsouka dough with savory mashed potatoes and chickpeas instead of the traditional egg. These crispy golden pastries are a beloved appetizer for Shabbat dinners and festive gatherings in North African communities.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Eggs",
+      "replacement": "Mashed chickpeas with capers and herbs",
+      "notes": "Replaces the protein and texture of the egg/tuna filling, creating a savory 'Brik a la Pomme de Terre' style filling."
+    }
+  ],
+  "veganization_complete": true
 }

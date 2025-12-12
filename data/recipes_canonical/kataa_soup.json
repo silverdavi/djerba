@@ -27,20 +27,20 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 15,
+          "value": 420,
           "unit": "g"
         },
         "imperial": {
-          "value": 0.5,
+          "value": 14.8,
           "unit": "oz"
         },
         "volume": {
-          "value": 2,
-          "unit": "tbsp"
+          "value": 3,
+          "unit": "cups"
         },
         "original": {
-          "value": 2,
-          "unit": "tbsp"
+          "value": 3,
+          "unit": "cups"
         }
       }
     },
@@ -54,20 +54,20 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 2000,
+          "value": 250,
           "unit": "ml"
         },
         "imperial": {
-          "value": 66.7,
+          "value": 8.5,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 8.3,
-          "unit": "cups"
+          "value": 1,
+          "unit": "cup"
         },
         "original": {
-          "value": 2,
-          "unit": "L"
+          "value": 250,
+          "unit": "ml"
         }
       }
     },
@@ -112,11 +112,11 @@
           "unit": "ml"
         },
         "imperial": {
-          "value": 66.7,
+          "value": 67.6,
           "unit": "fl oz"
         },
         "volume": {
-          "value": 8.3,
+          "value": 8.5,
           "unit": "cups"
         },
         "original": {
@@ -182,8 +182,8 @@
     {
       "ingredient_id": "all_purpose_flour",
       "name": "All-purpose flour",
-      "amount": 2,
-      "unit": "tbsp",
+      "amount": 15,
+      "unit": "g",
       "preparation": null,
       "notes": "For thickening (slurry)",
       "is_optional": false,
@@ -242,7 +242,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/047_ktaa/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with Kata'a, a traditional Tunisian fresh pasta soup. The soup features irregular, hand-torn pieces of soft white dough floating in a glossy, slightly thickened golden broth. Steam rises gently from the hot liquid. The texture of the soup looks creamy from the flour slurry. Freshly ground black pepper speckles the surface. The bowl sits on a worn wooden table inside an early 20th-century stone kitchen in Safed, with soft natural light filtering through a small window, illuminating the steam. In the background, a vintage metal pot sits on a stove, and a small mound of flour rests on the table, emphasizing the handmade nature of the dish. The atmosphere is warm, comforting, and humble."
   },
   "tags": [
     "north-african",
@@ -298,5 +299,8 @@
       "key_difference": "Hsu is primarily a semolina/flour porridge soup (sometimes with meatballs), whereas Kata'a is defined by the distinct dough pieces."
     }
   ],
-  "intro_paragraph": "Kata'a derives its name from the Arabic root for \"cutting,\" referring to the method of pinching fresh dough directly into boiling water. A rustic Djerban comfort food, the irregular pasta dumplings are simmered in a savory broth thickened with a flour slurry, creating a warming winter meal similar to Mhamsa."
+  "intro_paragraph": "Kata'a comes from the Arabic root for cutting, describing how fresh dough is pinched directly into boiling water. This rustic Djerban comfort food features irregular pasta dumplings simmered in a savory broth thickened with flour. It is a naturally vegan winter meal that warms the soul.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

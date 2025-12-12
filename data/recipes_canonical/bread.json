@@ -221,7 +221,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/041_khobz_dar/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, high-resolution close-up of freshly baked Lechem Bayit loaves resting on a worn wooden paddle in a sunlit stone kitchen. The bread features a golden-brown crust with a soft and airy interior visible through a torn section, revealing its fluffy texture. A light dusting of flour clings to the surface. The setting evokes an early 20th-century Safed home with textured limestone walls in the background. Beside the bread sits a small ceramic bowl of olive oil and coarse salt for dipping. The lighting is warm and natural, highlighting the steam rising from the warm bread. The composition emphasizes the homemade, artisanal quality of this naturally plant-based staple, capturing the essence of traditional North African baking adapted to the Galilee."
   },
   "tags": [
     "baking",
@@ -275,5 +276,8 @@
       "key_difference": "Ashkenazi Challah is enriched with eggs; Djerban/Tunisian bread is typically water-based (sometimes with oil) and rarely contains eggs in the dough itself."
     }
   ],
-  "intro_paragraph": "Lechem Bayit mirrors the Maghrebi concept of Khobz Dar, distinguishing cherished homemade loaves from store-bought market bread. This dense, soft-crumbed white bread is baked in the family oven rather than a communal tannur. A staple of Djerban households, the simple water-based dough is shaped into rustic loaves or rolls for daily meals or Shabbat."
+  "intro_paragraph": "Lechem Bayit translates to House Bread, reflecting the Maghrebi Khobz Dar tradition of baking at home rather than buying from markets. This naturally vegan recipe creates a dense and soft loaf perfect for dipping. It brings the warmth of a North African kitchen to your table with simple ingredients.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

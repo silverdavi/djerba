@@ -152,7 +152,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/026_couscous/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a large, rustic ceramic bowl filled with mounds of freshly steamed, fluffy homemade couscous. The tiny semolina grains are distinct, light, and golden-yellow, glistening slightly with vegetable oil, showing the result of careful hand-rolling. Next to the main bowl is a smaller clay pot containing a vibrant, rich vegetable stew with chunks of orange pumpkin, carrots, zucchini, and chickpeas, emitting soft steam. The setting is an authentic early 20th-century stone kitchen in Safed, Israel, featuring rough-hewn limestone walls and a heavy wooden work table worn smooth by time. Soft, natural light streams from a small arched window, illuminating the steam rising from the hot grains and casting gentle shadows. A vintage brass sieve and a wooden spoon rest on the table, hinting at the traditional preparation method. The atmosphere is warm, inviting, and purely plant-based, capturing the essence of a traditional North African Shabbat lunch prepared with artisanal care."
   },
   "tags": [
     "north-african",
@@ -212,5 +213,8 @@
       "key_difference": "Made from rice flour, millet, or corn rather than wheat semolina; often mixed with moringa."
     }
   ],
-  "intro_paragraph": "Homemade Couscous—derived from the Berber *seksu* for well-rolled—is the undisputed cornerstone of Djerban Jewish cuisine. Unlike instant versions, this traditional method involves hydrating, hand-rolling, and double-steaming raw semolina to achieve a light, fluffy texture. It is prepared every Friday to accompany a hearty meat and vegetable soup for Shabbat lunch."
+  "intro_paragraph": "Homemade Couscous comes from the Berber word seksu meaning well-rolled. This traditional method involves hydrating and double-steaming raw semolina for a fluffy texture. While often served with meat, this naturally vegan grain is the perfect base for rich vegetable stews in North African cuisine.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

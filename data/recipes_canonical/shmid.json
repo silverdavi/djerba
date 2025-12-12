@@ -23,7 +23,7 @@
       "amount": 30,
       "unit": "ml",
       "preparation": null,
-      "notes": "for frying (inferred)",
+      "notes": "for frying",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -141,7 +141,7 @@
       "amount": 1.5,
       "unit": "L",
       "preparation": null,
-      "notes": "approximate (inferred)",
+      "notes": "approximate",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -276,7 +276,8 @@
   ],
   "image": {
     "filename": "images/current/083_shmid/dish.png",
-    "prompt": "Bowl of Tunisian semolina soup shmid, red broth, diced potatoes, steam rising, rustic style"
+    "prompt": "Bowl of Tunisian semolina soup shmid, red broth, diced potatoes, steam rising, rustic style",
+    "generation_prompt": "A warm, inviting close-up of a rustic clay bowl filled with Shmid, a traditional savory semolina porridge. The dish has a creamy, thick consistency with a warm reddish-orange hue from paprika, speckled with small cubes of tender potato and flecks of black pepper. Steam rises gently from the hot surface, emphasizing its comforting nature. The bowl rests on a weathered wooden table inside an authentic early 1900s Safed stone kitchen, with textured limestone walls in the background. Soft, natural light streams in from the side, illuminating the smooth texture of the semolina. A vintage wooden spoon sits on the rim of the bowl, and a small dish of extra paprika is visible in the blurred background, completing this scene of humble, plant-based heritage cooking."
   },
   "tags": [
     "north-african",
@@ -327,5 +328,8 @@
       "key_difference": "Often includes milk and vegetables, whereas the Djerban version focuses on the savory spice profile common to Mhamsa."
     }
   ],
-  "intro_paragraph": "Shmid—derived from samid, the Arabic word for semolina—is a savory Djerban porridge perfect for cold weather. While it shares the rich, tomato-based flavor profile of mhamsa soup, it utilizes fine semolina to create a smooth, thick texture. This winter staple requires patience and constant stirring to prevent lumps and ensure consistency."
+  "intro_paragraph": "Shmid comes from samid which is the Arabic word for semolina. This savory Djerban porridge is naturally plant-based and perfect for cold weather. It shares the rich flavor profile of mhamsa soup but uses fine semolina to create a smooth and thick texture that requires patience to stir.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

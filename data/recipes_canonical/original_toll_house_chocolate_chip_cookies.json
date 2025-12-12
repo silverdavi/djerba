@@ -7,7 +7,7 @@
   "name_origin": "This is a modern American dish name, not of North African or Judeo-Arabic origin. 'Toll House' refers to the Toll House Inn in Whitman, Massachusetts, where Ruth Wakefield invented the cookie in the 1930s. The Hebrew word 'Ugiyot' (עוגיות) is the plural diminutive of 'Ugah' (cake/bread), derived from Biblical Hebrew (baked round loaf). The rest of the Hebrew name is a direct transliteration of the English 'Chocolate Chips'. Its presence in a Djerban cookbook represents modern culinary globalization rather than traditional heritage.",
   "description": "The classic American cookie recipe featuring a buttery dough, semi-sweet chocolate morsels, and nuts. Crispy on the edges and chewy in the center.",
   "cultural_context": "While not of North African origin, this American classic has become a staple in many modern Jewish households.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace butter with vegan butter or margarine; replace eggs with flax eggs or commercial egg replacer.",
   "meta": {
     "servings": "60 cookies",
@@ -99,12 +99,12 @@
       }
     },
     {
-      "ingredient_id": "butter",
-      "name": "Butter",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan butter",
       "amount": 227,
       "unit": "g",
       "preparation": "softened",
-      "notes": "1 cup / 2 sticks",
+      "notes": "1 cup / 2 sticks; use high-quality block style",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -207,12 +207,12 @@
       }
     },
     {
-      "ingredient_id": "eggs",
-      "name": "Eggs",
+      "ingredient_id": "flax_eggs",
+      "name": "Flax eggs",
       "amount": 2,
       "unit": "unit",
-      "preparation": null,
-      "notes": "large",
+      "preparation": "mixed",
+      "notes": "Mix 2 tbsp ground flaxseed meal with 6 tbsp warm water; let sit 5 mins",
       "is_optional": false,
       "measurements": {
         "metric": null,
@@ -225,8 +225,8 @@
       }
     },
     {
-      "ingredient_id": "semi_sweet_chocolate_chips",
-      "name": "Semi-sweet chocolate morsels",
+      "ingredient_id": "vegan_chocolate_chips",
+      "name": "Vegan semi-sweet chocolate morsels",
       "amount": 340,
       "unit": "g",
       "preparation": null,
@@ -326,7 +326,8 @@
   ],
   "image": {
     "filename": "images/current/022_chocolate_chip_cookies/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-resolution shot of a stack of freshly baked vegan chocolate chip cookies resting on a vintage ceramic plate with intricate blue patterns. The cookies are golden brown with crispy edges and soft, chewy centers, featuring generous pools of melted dairy-free semi-sweet chocolate and toasted walnut pieces. The setting is a rustic kitchen in an early 1900s stone house in Safed, illuminated by warm, natural light streaming through an arched window. In the background, blurred details of rough-hewn stone walls and antique copper baking tools create a nostalgic atmosphere. A glass of cold oat milk sits nearby, capturing the essence of a comforting, plant-based afternoon treat in a historic setting."
   },
   "tags": [
     "dessert",
@@ -375,5 +376,24 @@
       "key_difference": "Boulou is a dry, crunchy roll/biscuit (closer to mandelbrot), while Toll House cookies are rich, buttery drop cookies."
     }
   ],
-  "intro_paragraph": "Original Toll House Chocolate Chip Cookies feature a buttery dough studded with semi-sweet chocolate and nuts. Named for the Massachusetts inn where they were invented, they are known in Hebrew as *ugiyot*, a term derived from Biblical round loaves. While not traditional Djerban fare, these crispy-chewy American classics have become a staple in modern Jewish kitchens."
+  "intro_paragraph": "Original Toll House Chocolate Chip Cookies are named after the Massachusetts inn where they originated. Known in Hebrew as *ugiyot*, meaning little cakes, this vegan version replaces eggs and dairy while keeping the classic taste. These crispy and chewy treats have become a beloved staple in modern plant-based kitchens.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Butter",
+      "replacement": "Vegan butter sticks",
+      "notes": "Maintains the buttery flavor and structure"
+    },
+    {
+      "original": "Eggs",
+      "replacement": "Flax eggs",
+      "notes": "Ground flaxseed mixed with water provides binding and chewiness"
+    },
+    {
+      "original": "Semi-sweet chocolate morsels",
+      "replacement": "Vegan semi-sweet chocolate chips",
+      "notes": "Dairy-free alternative"
+    }
+  ],
+  "veganization_complete": true
 }

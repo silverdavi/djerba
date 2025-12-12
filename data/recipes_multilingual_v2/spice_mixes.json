@@ -1,0 +1,94 @@
+{
+  "id": "spice_mixes",
+  "image": "spice_mixes.png",
+  "meta": {
+    "servings": "makes about 1/4 cup each",
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "תערובות תבלינים (פיצה, צ'יפס, ביצה)",
+    "es": "Mezclas de Especias (Pizza, Papas Fritas, Huevo)",
+    "ar": "خلطات فاح (بيتزا، فريت، عظمة)",
+    "en": "Spice Mixes (Pizza, Fries, Egg)"
+  },
+  "description": {
+    "he": "תערובות התבלינים המיוחדות הללו שואבות את שמן מהמנות הספציפיות שהן משדרגות. בעוד שהבישול המסורתי מסתמך על מוצרי חלב או ביצים לטעם, אוסף זה משתמש בשמרי בירה ומלח שחור גופרתי כדי לשחזר את הפרופילים המלוחים הללו. הן הופכות מרכיבים צמחיים פשוטים לחוויות קולינריות עשירות ונוסטלגיות.",
+    "es": "Estas mezclas de especias personalizadas derivan sus nombres de los platos específicos que realzan. Mientras que la cocina tradicional depende de lácteos o huevos para el sabor, esta colección utiliza levadura nutricional y sal negra sulfurosa para replicar esos perfiles sabrosos. Transforman ingredientes vegetales simples en experiencias culinarias ricas y nostálgicas.",
+    "ar": "هاذم خلطات الفاح المخصوصة ياخذو اساميهم من الماكلة اللي يبנنوها. في الوقت اللي الطياب التقليدي يعتمد عالجبن والعظم للبنة، المجموعة هاذي تستعمل الخميرة الغذائية والملح الأكحل باش تعطي نفس المطعم. يحولو المكونات النباتية البسيطة لتجارب ماكلة بنينة وتفكرنا بالزمن الجميل.",
+    "en": "These custom spice blends derive their names from the specific dishes they enhance. While traditional cooking relies on dairy or eggs for flavor, this collection utilizes nutritional yeast and sulfurous black salt to replicate those savory profiles. They transform simple plant ingredients into rich and nostalgic culinary experiences."
+  },
+  "ingredients": {
+    "he": [
+      "15 גרם שמרי בירה (לתערובת פיצה וצ'יפס)",
+      "14 גרם פפריקה (לכל התערובות)",
+      "3 גרם אורגנו (לתערובת פיצה)",
+      "3 גרם אבקת שום",
+      "2.5 גרם זעתר (לתערובת פיצה)",
+      "2.3 גרם פלפל שחור",
+      "6 גרם מלח",
+      "2 גרם סוכר (לתערובת פיצה)",
+      "1.5 גרם כורכום (לתערובת צ'יפס וביצה)",
+      "5 גרם מלח הודי שחור (קאלה נמק) (לתערובת ביצה בלבד)"
+    ],
+    "es": [
+      "15 g de levadura nutricional (para mezcla de pizza y papas fritas)",
+      "14 g de pimentón (para todas las mezclas)",
+      "3 g de orégano (para mezcla de pizza)",
+      "3 g de ajo en polvo",
+      "2.5 g de zaatar (para mezcla de pizza)",
+      "2.3 g de pimienta negra",
+      "6 g de sal",
+      "2 g de azúcar (para mezcla de pizza)",
+      "1.5 g de cúrcuma (para mezcla de papas fritas y huevo)",
+      "5 g de sal negra (kala namak) (solo para mezcla de huevo)"
+    ],
+    "ar": [
+      "3 مغارف خميرة غذائية (لخلطة البيتزا والفريت)",
+      "2 مغارف فلفل زينة (للخلطات الكل)",
+      "1 مغرفة أوريغانو (لخلطة البيتزا)",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "1 مغرفة صغيرة زعتر (لخلطة البيتزا)",
+      "1 مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة صغيرة ملح",
+      "1/2 مغرفة صغيرة سكر (لخلطة البيتزا)",
+      "1/2 مغرفة صغيرة كركم (لخلطة الفريت والعظمة)",
+      "1 مغرفة صغيرة ملح أكحل هندي (كالا ناماك) (لخلطة العظمة كهو)"
+    ],
+    "en": [
+      "3 tbsp nutritional yeast (for pizza and fries mix)",
+      "2 tbsp paprika (for all mixes)",
+      "1 tbsp oregano (for pizza mix)",
+      "1 tsp garlic powder",
+      "1 tsp za'atar (for pizza mix)",
+      "1 tsp black pepper",
+      "1 tsp salt",
+      "0.5 tsp sugar (for pizza mix)",
+      "0.5 tsp turmeric (for fries and egg mix)",
+      "1 tsp kala namak (black salt) (for egg mix only)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "תערובת לפיצה: מערבבים את שמרי הבירה, הפפריקה, האורגנו, אבקת השום, הזעתר, הפלפל השחור, המלח והסוכר לפי סדר הכמויות היורד. שומרים בכלי אטום.",
+      "תערובת לצ'יפס: מערבבים פפריקה, מלח, פלפל שחור, שמרי בירה וכורכום לפי סדר הכמויות היורד. מצוין גם על תפוחי אדמה בתנור.",
+      "תערובת לביצה: מערבבים פפריקה, שמרי בירה, מלח הודי שחור (קאלה נמק), פלפל שחור וכורכום. המלח השחור מעניק טעם גופרתי של ביצה. השתמשו בזה על מקושקשת טופו."
+    ],
+    "es": [
+      "MEZCLA PARA PIZZA: Combine la levadura nutricional, el pimentón, el orégano, el ajo en polvo, el zaatar, la pimienta negra, la sal y el azúcar en orden decreciente de cantidades. Guardar en un recipiente hermético.",
+      "MEZCLA PARA PAPAS FRITAS: Combine el pimentón, la sal, la pimienta negra, la levadura nutricional y la cúrcuma en orden decreciente de cantidades. Excelente también sobre papas asadas.",
+      "MEZCLA PARA HUEVO: Combine el pimentón, la levadura nutricional, la sal negra kala namak, la pimienta negra y la cúrcuma. La sal negra proporciona un sabor sulfuroso a huevo. Úselo en revuelto de tofu."
+    ],
+    "ar": [
+      "خلطة البيتزا: خلط الخميرة الغذائية، فلفل زينة، أوريغانو، ثوم مرحي، زعتر، فلفل أكحل، ملح، وسكر بالترتيب من الأكثر للأقل. خبيها في حكة مسكرة مليح.",
+      "خلطة الفريت: خلط فلفل زينة، ملح، فلفل أكحل، خميرة غذائية، وكركم بالترتيب من الأكثر للأقل. تجي بنينة برشا زادة فوق البطاطا في الكوشة.",
+      "خلطة العظمة: خلط فلفل زينة، خميرة غذائية، ملح أكحل هندي (كالا ناماك)، فلفل أكحل، وكركم. الملح الأكحل هو اللي يعطي طعمة العظمة. استعملها مع شكشوكة التوفو."
+    ],
+    "en": [
+      "PIZZA MIX: Combine nutritional yeast, paprika, oregano, garlic powder, za'atar, black pepper, salt, and sugar in order of decreasing amounts. Store in airtight container.",
+      "FRIES MIX: Combine paprika, salt, black pepper, nutritional yeast, and turmeric in order of decreasing amounts. Great on roasted potatoes too.",
+      "EGG MIX: Combine paprika, nutritional yeast, kala namak black salt, black pepper, and turmeric. The kala namak provides sulfurous egg flavor. Use on tofu scramble."
+    ]
+  }
+}

@@ -197,7 +197,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/085_sourdough_bread/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A stunning, high-resolution close-up of a rustic artisan sourdough loaf resting on an aged olive wood cutting board within a sunlit, early 20th-century stone kitchen in Safed. The bread, known as machmetzet, displays a deeply caramelized, golden-brown crust with significant blistering and a dramatic, raised ear from expert scoring. A light dusting of flour clings to the ridges, contrasting with the dark crust. Several thick slices have been cut to reveal a glossy, open, and airy crumb structure, steaming slightly in the morning light. Surrounding the loaf are elements of the baking process: a vintage ceramic bowl filled with bubbly, active beige sourdough starter, a small pile of raw flour, and a coarse linen towel. An antique iron knife with a wooden handle lies beside the bread. The background features the rough-hewn limestone walls typical of Old Safed architecture, with soft shadows cast by a nearby window. The lighting is natural and directional, emphasizing the crunchy texture of the crust and the soft elasticity of the interior. The overall color palette includes warm browns, creams, and the cool grey of the stone walls, creating a cozy and authentic atmosphere suitable for a high-end cookbook."
   },
   "tags": [
     "bread",
@@ -251,5 +252,8 @@
       "key_difference": "Often uses commercial yeast in modern times; the texture is yellower and denser than European sourdough."
     }
   ],
-  "intro_paragraph": "Soly’s Sourdough Bread relies on natural fermentation to create a rustic, crusty loaf. The Hebrew term *machmetzet* refers to the sour leaven, recalling the traditional Djerban practice of preserving *khmira*—a piece of old dough—to rise the next batch. A long cold proof develops the deep, tangy flavor that makes this bread a daily essential."
+  "intro_paragraph": "Soly’s Sourdough Bread, or *machmetzet* in Hebrew, relies on natural fermentation for its rise. This traditional method recalls the Djerban practice of keeping *khmira* or old dough. Naturally plant-based and simple, this rustic loaf features a crisp crust and tangy crumb developed through a long cold proof.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

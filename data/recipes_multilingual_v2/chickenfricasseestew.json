@@ -9,98 +9,98 @@
   },
   "name": {
     "he": "צ׳יקן פריקסה",
-    "es": "Guiso de Pollo Fricassee con Bolitas de Masa",
-    "ar": "شيكن فريكاسي",
+    "es": "Estofado de Fricasé de Pollo con Bolitas de Masa",
+    "ar": "تشيكن فريكاسي",
     "en": "Chicken Fricassee Stew with Dumplings"
   },
   "description": {
-    "he": "צ'יקן פריקסה מקבל את שמו מהמונח הצרפתי לבשר חתוך ולא מהכריך הטוניסאי המטוגן המפורסם. תבשיל מנחם זה כולל עוף, גזר ובצל המתבשלים יחד ומסמיכים בעזרת בצקניות פשוטות מקמח ומים. המנה משקפת התפתחות של המטבח הג'רבאי בתפוצות, המשלבת טכניקות צרפתיות קלאסיות בארוחה משפחתית חסכונית ומשביעה.",
-    "es": "El Chicken Fricassee toma su nombre del término francés para carne troceada en lugar del popular sándwich frito tunecino. Este reconfortante guiso incluye pollo, zanahorias y cebollas cocidos a fuego lento y espesados con sencillas bolitas de masa de harina y agua. Refleja una evolución diaspórica de la cocina de Djerba, adaptando técnicas francesas clásicas en una comida familiar frugal y abundante.",
-    "ar": "شيكن فريكاسي ياخو اسمه من الكلمة الفرنسية للحم المقصوص موش من السندويتش المقلي التونسي المعروف. هذي مرقة تعمل الكيف فيها الدجاج والسفنارية والبصل يطيبو مع بعضهم وتخثار بكعابر عجين ساهلين بالفرينة والماء. الطبق هذا يوري كيفاش تطورت الماكلة الجربية في الخارج، وكيفاش دخلت الطرق الفرنساوية في ماكلة العايلة البنينة والاقتصادية.",
-    "en": "Chicken Fricassee takes its name from the French term for cut-up meat rather than the popular Tunisian fried sandwich. This comforting stew features chicken, carrots, and onions simmered together and thickened with simple flour-and-water drop dumplings. It reflects a diasporic evolution of Djerban cuisine, adapting classic French techniques into a frugal, hearty family meal."
+    "he": "גרסה טבעונית זו של צ׳יקן פריקסה מחזירה את המונח הצרפתי לתבשיל ולא לכריך הטוניסאי. נתחי סייטן רכים מתבשלים עם גזר ובצל בציר עשיר המוסמך על ידי כופתאות קמח כפריות. המנה מכבדת את ההתפתחות של המטבח הג׳רבאי בתפוצות תוך שימוש במרכיבים מהצומח לארוחה משביעה.",
+    "es": "Esta adaptación vegana del Fricasé de Pollo recupera el término francés para estofado en lugar del sándwich tunecino. Tiernos trozos de seitán se cocinan a fuego lento con zanahorias y cebollas en un caldo sabroso espesado con rústicas bolitas de masa. Honra la evolución de la cocina de Djerba en la diáspora utilizando ingredientes vegetales para una comida abundante.",
+    "ar": "هذي النسخة النباتية من تشيكن فريكاسي ترجع للأصل الفرنساوي متاع المرقة مش السندويتش التونسي المعروف. طروف السيتان الطرية تطيب مع السفنارية والبصل في مرقة بنينة عاقدة بكعابر العجين. الوصفة هذي تحافظ على تاريخ الماكلة الجربية أما بمكونات نباتية باش تكون وجبة تشبّع.",
+    "en": "This vegan adaptation of Chicken Fricassee reclaims the French term for stew rather than the Tunisian sandwich. Tender seitan chunks simmer with carrots and onions in a savory broth thickened by rustic flour dumplings. It honors the diasporic evolution of Djerban cuisine while using plant-based ingredients for a hearty meal."
   },
   "ingredients": {
     "he": [
-      "30 מ\"ל שמן צמחי (לטיגון)",
-      "1 ק\"ג חלקי עוף, חתוכים למנות",
+      "30 מ\"ל שמן צמחי",
+      "800 גרם נתחי סייטן, קרועים לחתיכות בגודל ביס",
       "1 גזר, חתוך לקוביות",
       "1 בצל, חתוך לקוביות",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם",
-      "מים (לכיסוי העוף + לבלילה)",
-      "140 גרם קמח רגיל (לבצקניות)"
+      "ציר ירקות לפי הצורך (לכיסוי המרכיבים + תוספת לבלילה)",
+      "140 גרם קמח רגיל"
     ],
     "es": [
-      "30 ml de aceite vegetal (para freír)",
-      "1 kg de trozos de pollo, cortados en porciones",
+      "30 ml de aceite vegetal",
+      "800 g de trozos de seitán, en trozos del tamaño de un bocado",
       "1 zanahoria, cortada en cubitos",
       "1 cebolla, cortada en cubitos",
       "Sal al gusto",
       "Pimienta negra al gusto",
-      "Agua (suficiente para cubrir el pollo + extra para la masa)",
-      "140 g de harina común (para las bolitas)"
+      "Caldo de verduras según sea necesario (para cubrir + extra para la masa)",
+      "140 g de harina común"
     ],
     "ar": [
-      "2 مغارف زيت (للقلي)",
-      "1 كغ دجاج، مقصوص طروف",
-      "1 سفنارية، مقصوصة",
-      "1 بصلة، مقصوصة",
+      "2 مغارف زيت نباتي",
+      "800 غرام طروف سيتان، مقطعين طروف صغار",
+      "1 سفنارية، مقصوصة مكعبات",
+      "1 بصلة، مقصوصة مكعبات",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق",
-      "ماء (باش تغطي الدجاج + للعجينة)",
-      "1 كاس فرينة (للكعابر)"
+      "مرقة خضرة حسب الحاجة (باش تغطي المكونات + شوية للعجين)",
+      "1.1 كاس فرينة"
     ],
     "en": [
-      "2 tbsp vegetable oil (for frying)",
-      "1 kg chicken pieces, cut into serving pieces",
+      "2 tbsp vegetable oil",
+      "28 oz seitan chunks, torn into bite-sized pieces",
       "1 carrot, diced",
       "1 onion, diced",
       "Salt to taste",
       "Black pepper to taste",
-      "Water (enough to cover chicken + extra for batter)",
-      "1 cup all-purpose flour (approx., for dumplings)"
+      "Vegetable broth as needed (enough to cover ingredients + extra for batter)",
+      "1.1 cups all-purpose flour"
     ]
   },
   "steps": {
     "he": [
-      "מחממים את השמן בסיר על להבה בינונית.",
-      "מוסיפים את חלקי העוף ומאדים/מטגנים קלות במשך כ-10 דקות.",
+      "מחממים את השמן בסיר על אש בינונית.",
+      "מוסיפים את נתחי הסייטן ומאדים כ-10 דקות.",
       "מוסיפים לסיר את הגזר והבצל החתוכים.",
-      "מתבלים במלח ופלפל, וממשיכים לאדות הכל יחד לזמן קצר.",
-      "מוסיפים מים עד לכיסוי המרכיבים ומביאים לרתיחה.",
-      "בזמן שהתבשיל מתחמם, מכינים את הבצקניות: בקערה, מערבבים קמח, מעט מים וקורט מלח ליצירת בלילה רכה.",
-      "כשהתבשיל רותח, משתמשים בכף כדי להטיל או לזלף חתיכות מהבלילה לתוך הנוזל.",
-      "מבשלים עד שהעוף רך והבצקניות מוכנות לגמרי."
+      "מתבלים במלח ופלפל, ומאדים הכל יחד בקצרה.",
+      "מוסיפים מספיק נוזלים (ציר) כדי לכסות את המרכיבים ומביאים לרתיחה.",
+      "בזמן שהתבשיל מתחמם, מכינים את הכופתאות: בקערה, מערבבים קמח, מעט מים/ציר וקורט מלח ליצירת בלילה רכה.",
+      "ברגע שהתבשיל רותח, משתמשים בכף כדי להפיל או לזלף חתיכות מהבלילה לתוך הנוזל.",
+      "מבשלים עד שהסייטן רך והכופתאות מוכנות לגמרי."
     ],
     "es": [
       "Caliente el aceite en una olla a fuego medio.",
-      "Añada los trozos de pollo y saltee/cocine al vapor durante aproximadamente 10 minutos.",
+      "Añada los trozos de seitán y saltee durante aproximadamente 10 minutos.",
       "Agregue la zanahoria y la cebolla picadas a la olla.",
       "Sazone con sal y pimienta, luego saltee todo junto brevemente.",
-      "Añada suficiente agua para cubrir los ingredientes y lleve a ebullición.",
-      "Mientras se calienta el guiso, prepare las bolitas de masa: en un tazón, mezcle la harina, un poco de agua y una pizca de sal para crear una masa suave.",
-      "Una vez que el guiso esté hirviendo, use una cuchara para dejar caer porciones de la masa en el líquido.",
-      "Cocine hasta que el pollo esté tierno y las bolitas de masa estén bien cocidas."
+      "Añada suficiente caldo para cubrir los ingredientes y lleve a ebullición.",
+      "Mientras se calienta el estofado, prepare las bolitas de masa: en un bol, mezcle la harina, un poco de líquido y una pizca de sal para crear una masa suave.",
+      "Una vez que el estofado esté hirviendo, use una cuchara para dejar caer porciones de la masa en el líquido.",
+      "Cocine hasta que el seitán esté tierno y las bolitas de masa estén bien cocidas."
     ],
     "ar": [
-      "سخّن الزيت في طنجرة على نار متوسطة.",
-      "حط طروف الدجاج وخليهم يتقلاو شوية لمدة 10 دقايق تقريباً.",
+      "سخن الزيت في طنجرة على نار متوسطة.",
+      "حط طروف السيتان وخليهم يتقلاو تقريب 10 دقايق.",
       "زيد السفنارية والبصل المقصوصين للطنجرة.",
-      "فوّح بالملح والفلفل الأكحل، ومن بعد قلّي كل شيء مع بعضه شوية.",
-      "صب الماء باش تغطي كل شيء وخليها تغلي.",
-      "في وقت اللي المرقة تطيب، حضّر الكعابر: في صحفة، خلط الفرينة وشوية ماء وقرصة ملح باش تعمل عجينة طرية.",
-      "كيف تغلي المرقة، استعمل مغرفة باش ترمي طروف صغار من العجينة في المرقة.",
-      "طيّب لين يطيب الدجاج والكعابر يحضرو بالباهي."
+      "فوّح بالملح والفلفل الأكحل، وقلي كل شيء مع بعضو شوية.",
+      "صب المرقة باش تغطي المكونات وخليها تغلي.",
+      "في الوقت اللي المرقة تطيب، حضر العجين: في صحفة، خلط الفرينة وشوية ماء (أو مرقة) ورشة ملح باش تعمل عجينة طرية.",
+      "كيف تغلي المرقة، استعمل مغرفة باش ترمي طروف من العجينة في وسط المرقة.",
+      "طيب لين يولي السيتان طري والعجين يطيب بالباهي."
     ],
     "en": [
       "Heat the oil in a pot over medium heat.",
-      "Add the chicken pieces and sauté/steam for approximately 10 minutes.",
+      "Add the seitan chunks and sauté/steam for approximately 10 minutes.",
       "Add the diced carrot and onion to the pot.",
       "Season with salt and pepper, then sauté everything together briefly.",
-      "Add enough water to cover the ingredients and bring to a boil.",
-      "While the stew heats, prepare the dumplings: In a bowl, mix flour, a little water, and a pinch of salt to create a soft batter.",
+      "Add enough vegetable broth to cover the ingredients and bring to a boil.",
+      "While the stew heats, prepare the dumplings: In a bowl, mix flour, a little water/broth, and a pinch of salt to create a soft batter.",
       "Once the stew is boiling, use a spoon to drop or drizzle portions of the batter into the liquid.",
-      "Cook until the chicken is tender and the dumplings are cooked through."
+      "Cook until the seitan is tender and the dumplings are cooked through."
     ]
   }
 }

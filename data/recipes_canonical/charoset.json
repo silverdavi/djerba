@@ -96,7 +96,7 @@
       "amount": 60,
       "unit": "ml",
       "preparation": null,
-      "notes": "Kiddush wine or grape juice",
+      "notes": "Ensure vegan certification if strict (no isinglass)",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -152,7 +152,8 @@
   ],
   "image": {
     "filename": "images/current/017_charoset/dish.png",
-    "prompt": "Traditional Jewish Charoset paste in a bowl, made of dates, apples, and nuts, Passover table setting"
+    "prompt": "Traditional Jewish Charoset paste in a bowl, made of dates, apples, and nuts, Passover table setting",
+    "generation_prompt": "A close-up, high-resolution shot of a rustic, hand-thrown ceramic bowl filled with rich, dark Charoset paste, resting on a weathered antique wooden table inside a sunlit 1900s Safed stone kitchen. The textured mixture clearly highlights glossy chunks of chopped Medjool dates, flecks of light green grated apple, and crushed golden walnuts, visually mimicking the appearance of ancient mortar as per tradition. A small vintage glass of deep red sweet wine sits nearby, casting a ruby glow on the stone surface. The background features blurred rough limestone walls and an arched window letting in soft, warm natural light that illuminates the sticky texture of the fruit and nut blend. Fresh whole dates, a few scattered walnut halves, and a crisp green apple with a peel curling off are arranged artistically around the central bowl. The composition emphasizes the earthy, organic nature of this naturally plant-based dish, capturing an authentic historical atmosphere with warm, inviting tones and high textural contrast."
   },
   "tags": [
     "passover",
@@ -201,5 +202,8 @@
       "key_difference": "Madmouja is a puff pastry dish filled with the mixture, rather than a standalone ritual paste."
     }
   ],
-  "intro_paragraph": "Named for the Hebrew *cheres*, meaning clay, Charoset visually mimics the mortar used by enslaved Israelites in Egypt. While North African versions traditionally rely on dates, this recipe blends that richness with the crunch of apples and nuts. Served at the Passover Seder, the sweet, dark paste provides a vital counterpoint to the bitter herbs."
+  "intro_paragraph": "Named for the Hebrew word *cheres* meaning clay, this ancient paste symbolizes the mortar used by Israelites in Egypt. This naturally vegan recipe combines North African dates with crisp apples and walnuts. The sweet mixture offers a rich texture that perfectly balances the Seder plate's bitter herbs.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

@@ -7,7 +7,7 @@
   "name_origin": "The Hebrew name 'Hatifey Shokolad ve-Hemat Botnim' is a direct, descriptive translation into Modern Hebrew of the American concept. The term 'Hatif' (חטיף) is Modern Hebrew for 'snack' or 'treat' (derived from the root ח-ט-ף meaning to snatch or grab quickly). 'Hemat Botnim' (חמאת בוטנים) is the Modern Hebrew calque for 'Peanut Butter'. The English name 'Buddy Bars' likely references a popular American commercial snack (Little Debbie's Peanut Butter Crunch Bars, historically marketed as 'Buddy Bars') or a specific recipe from the 'Betty Crocker' era of American baking. This is not a traditional North African dish but represents the culinary assimilation of the Jewish diaspora.",
   "description": "Rich and chewy bars featuring a peanut butter blondie base studded with milk chocolate chips, topped with a layer of melted chocolate. A classic sweet treat likely adopted into the family repertoire.",
   "cultural_context": "While not a traditional North African dish, this recipe represents the integration of Western/American baking styles into the modern Jewish kitchen. It uses margarine as an option to keep the dessert pareve (non-dairy) for meals with meat.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer, use vegan butter/margarine, and ensure chocolate chips are dairy-free.",
   "meta": {
     "servings": "24",
@@ -23,7 +23,7 @@
       "amount": 250,
       "unit": "g",
       "preparation": null,
-      "notes": "approx. 1 cup",
+      "notes": "approx. 1 cup; creamy or crunchy",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -45,12 +45,12 @@
       }
     },
     {
-      "ingredient_id": "butter",
-      "name": "Butter or margarine",
+      "ingredient_id": "vegan_butter",
+      "name": "Vegan butter",
       "amount": 85,
       "unit": "g",
       "preparation": "softened",
-      "notes": "approx. 6 tbsp; use margarine for pareve",
+      "notes": "approx. 6 tbsp",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -99,20 +99,29 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Eggs",
+      "ingredient_id": "flax_meal",
+      "name": "Ground flaxseed meal",
       "amount": 3,
-      "unit": "unit",
-      "preparation": null,
-      "notes": null,
+      "unit": "tbsp",
+      "preparation": "mixed with 9 tbsp warm water",
+      "notes": "Let sit for 5 minutes to thicken (replaces 3 eggs)",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 21,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.75,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
         "original": {
           "value": 3,
-          "unit": "unit"
+          "unit": "tbsp"
         }
       }
     },
@@ -198,12 +207,12 @@
       }
     },
     {
-      "ingredient_id": "milk_chocolate_chips",
-      "name": "Milk chocolate morsels",
+      "ingredient_id": "dairy_free_chocolate_chips",
+      "name": "Dairy-free chocolate chips",
       "amount": 325,
       "unit": "g",
       "preparation": "divided",
-      "notes": "11.5 oz package (approx 2 cups); divided into two equal portions",
+      "notes": "approx 2 cups; divided into two equal portions",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -284,7 +293,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/070_chocolate_peanut_bars/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic close-up shot of vegan Chocolate Peanut Buddy Bars arranged on an antique ceramic platter inside a sunlit 1900s Safed stone kitchen. The bars feature a dense golden-brown peanut butter blondie base studded with dark chocolate chunks, topped with a smooth glossy layer of melted dairy-free chocolate. One bar is slightly crumbled to reveal a moist chewy texture. The scene includes a vintage glass jar of peanut butter and a small bowl of flaxseeds in the background. Soft natural light streams through an arched window, illuminating the rough limestone walls and wooden table surface, highlighting the rich contrast between the golden dough and dark chocolate."
   },
   "tags": [
     "dessert",
@@ -334,5 +344,24 @@
       "key_difference": "Ghribia is a shortbread made from flour (or chickpea flour), sugar, and oil/butter, traditionally flavored with cinnamon or lemon zest, not peanut butter or chocolate."
     }
   ],
-  "intro_paragraph": "Chocolate Peanut Buddy Bars feature a chewy peanut butter blondie base topped with melted chocolate. Their Hebrew name, Hatifey Shokolad ve-Hemat Botnim, uses the modern word for \"snack,\" derived from the root \"to snatch.\" Representing the integration of American baking into the family repertoire, these rich treats are easily made pareve for serving after meat meals."
+  "intro_paragraph": "These Chocolate Peanut Buddy Bars feature a chewy peanut butter blondie base topped with melted dairy-free chocolate. Their Hebrew name Hatifey Shokolad ve-Hemat Botnim uses the modern word for snack derived from the root to snatch. This vegan adaptation replaces eggs with flax for a rich plant-based treat.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Butter or margarine",
+      "replacement": "Vegan butter or coconut oil",
+      "notes": "Maintains richness without dairy"
+    },
+    {
+      "original": "Eggs (3)",
+      "replacement": "Flax eggs (3 tbsp ground flaxseed + 9 tbsp water)",
+      "notes": "Provides binding and a nutty flavor that complements peanut butter"
+    },
+    {
+      "original": "Milk chocolate morsels",
+      "replacement": "Dairy-free semi-sweet or rice-milk chocolate chips",
+      "notes": "Ensures the topping is 100% plant-based"
+    }
+  ],
+  "veganization_complete": true
 }

@@ -9,21 +9,69 @@
   },
   "name": {
     "he": "סופגניות",
-    "es": "Sufganiyot (Buñuelos)",
+    "es": "Sufganiyot (Donas)",
     "ar": "سوفغانيوت",
     "en": "Sufganiyot (Doughnuts)"
   },
   "description": {
-    "he": "מקור השם סופגניות הוא מהשורש העברי שמשמעותו לספוג, בהתייחס לאופן שבו בצק השמרים הספוגי סופג שמן במהלך הטיגון העמוק. מאכל זה נאכל בחנוכה לזכר נס פך השמן, והוא ממולא באופן מסורתי בריבת תות ומפודר באבקת סוכר, אם כי הגרסאות הג'רבאיות דומות לעתים קרובות יותר לספינג' הפשוט בצורת טבעת.",
-    "es": "Las Sufganiyot derivan su nombre de la raíz hebrea que significa absorber, refiriéndose a cómo la masa esponjosa absorbe el aceite al freírse. Se comen durante Hanukkah para conmemorar el milagro del aceite; tradicionalmente se rellenan con mermelada de fresa y se espolvorean con azúcar glas, aunque las versiones de Djerba a menudo se asemejan al sfenj en forma de anillo.",
-    "ar": "السوفغانيوت ياخذو اسمهم من كلمة عبرية معناها يمص، خاطر العجينة متاعهم تمص الزيت وقت القليان. ناكلوهم في حانوكا باش نتفكرو معجزة الزيت. العادة نحشيوهم بالمعجون ونرشوا عليهم السكر المحور، أما في جربة يعملوهم كيما السفنج المدور.",
-    "en": "Sufganiyot derive their name from the Hebrew root meaning \"to absorb,\" referencing how the spongy yeast dough soaks up oil during deep-frying. Eaten during Hanukkah to commemorate the miracle of the oil, these golden treats are traditionally filled with strawberry jam and dusted with powdered sugar, though Djerban versions often resemble the simpler, ring-shaped sfenj."
+    "he": "הסופגניות מקבלות את שמן מהשורש העברי ס-פ-ג, כיוון שהבצק סופג את השמן בזמן הטיגון. גרסה טבעונית זו יוצרת עיגולים אווריריים וזהובים ללא ביצים או מוצרי חלב. באופן מסורתי הן נאכלות בחנוכה לציון נס פך השמן, ממולאות בריבה מתוקה ומפודרות באבקת סוכר.",
+    "es": "Las Sufganiyot reciben su nombre de la raíz hebrea para \"esponja\" porque la masa absorbe el aceite al freírse. Esta adaptación vegana crea rondas doradas y aireadas sin huevos ni lácteos. Tradicionalmente consumidas durante Hanukkah para celebrar el milagro del aceite, se rellenan con mermelada dulce y se espolvorean con azúcar.",
+    "ar": "السوفغانيوت خذاو اسمهم من الكلمة العبرية اللي تعني \"سفنجة\" خاطر العجينة تشرب الزيت وقت القليان. الوصفة النباتية هذه تعطينا كعبات مدورة، خفيفة ومحمرة بلاش عظم وبلاش حليب. في العادة ناكلوهم في حنوكة باش نحتفلو بمعجزة الزيت، ويبداو محشيين بالمعجون ومرشوشين بالسكر المحور.",
+    "en": "Sufganiyot get their name from the Hebrew root for \"sponge\" because the dough absorbs oil while frying. This vegan adaptation creates airy, golden rounds without eggs or dairy. Traditionally eaten during Hanukkah to celebrate the miracle of the oil, they are filled with sweet jam and dusted with sugar."
   },
   "ingredients": {
-    "he": [],
-    "es": [],
-    "ar": [],
-    "en": []
+    "he": [
+      "500 גרם קמח רב-תכליתי, מנופה",
+      "1 כף שמרים יבשים",
+      "50 גרם סוכר",
+      "240 מ\"ל חלב סויה חמים (או חלב שיבולת שועל)",
+      "60 גרם חמאה טבעונית, מומסת",
+      "1 כף ברנדי או וודקה",
+      "1 כפית תמצית וניל",
+      "0.5 כפית מלח",
+      "1 ליטר שמן צמחי (לטיגון)",
+      "200 גרם ריבת תות, חלקה",
+      "50 גרם אבקת סוכר"
+    ],
+    "es": [
+      "500 g de harina de todo uso, tamizada",
+      "1 cucharada de levadura seca instantánea",
+      "50 g de azúcar",
+      "240 ml de leche de soja tibia (o leche de avena)",
+      "60 g de mantequilla vegana, derretida",
+      "1 cucharada de brandy o vodka",
+      "1 cucharadita de extracto de vainilla",
+      "0.5 cucharadita de sal",
+      "1 litro de aceite vegetal (para freír)",
+      "200 g de mermelada de fresa",
+      "50 g de azúcar glas"
+    ],
+    "ar": [
+      "4 كيسان فرينة، مغربلة",
+      "1 مغرفة خميرة",
+      "ربع كاس سكر",
+      "1 كاس حليب صويا دافي (أو حليب شوفان)",
+      "ربع كاس زبدة نباتية، ذايبة",
+      "1 مغرفة براندي أو فودكا",
+      "1 مغرفة صغيرة فانيليا",
+      "نص مغرفة صغيرة ملح",
+      "1 لتر زيت (للقليان)",
+      "كاس غير ربع معجون فريز",
+      "نص كاس سكر محور"
+    ],
+    "en": [
+      "4 cups all-purpose flour, sifted",
+      "1 tbsp instant dry yeast",
+      "1/4 cup sugar",
+      "1 cup warm soy milk (or oat milk)",
+      "1/4 cup vegan butter, melted",
+      "1 tbsp Brandy or Vodka",
+      "1 tsp vanilla extract",
+      "0.5 tsp salt",
+      "1 liter vegetable oil (for frying)",
+      "3/4 cup strawberry jam",
+      "1/2 cup powdered sugar"
+    ]
   },
   "steps": {
     "he": [],

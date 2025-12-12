@@ -7,7 +7,7 @@
   "name_origin": "The name derives directly from the Arabic trilateral root D-F-N (د ف ن), meaning 'to bury' or 'to inter'. In the context of North African Jewish cuisine, this refers to the historical cooking method where the pot was hermetically sealed and 'buried' in the embers of the communal oven (ferran) or a charcoal pit on Friday afternoon to cook slowly overnight for Shabbat lunch. In Tunisian and Djerban Judeo-Arabic dialects, the initial 'D' often hardens to a 'T', shifting 'Dafina' to 'Tfina' or 'Tafina'.",
   "description": "A rich North African stew featuring beef, potatoes, and barley. A distinctive Djerban technique involves caramelizing sugar in oil at the start to create a deep, dark color and savory depth before adding the main ingredients.",
   "cultural_context": "Tfina is the Tunisian/Djerban equivalent of Hamin or Cholent, traditionally eaten on Shabbat lunch. While this recipe outlines a shorter stovetop cooking time, these ingredients are classic for the slow-cooked version.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace beef with root vegetables or plant-based meat chunks; the barley and beans provide heartiness.",
   "meta": {
     "servings": "4-6",
@@ -18,12 +18,12 @@
   },
   "ingredients": [
     {
-      "ingredient_id": "beef_stew_meat",
-      "name": "Beef stew meat",
+      "ingredient_id": "seitan_chunks",
+      "name": "Seitan chunks",
       "amount": 1,
       "unit": "kg",
-      "preparation": "cut into chunks",
-      "notes": "Chuck or brisket recommended",
+      "preparation": "cut into large cubes",
+      "notes": "Or large textured vegetable protein (TVP) chunks",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -113,8 +113,8 @@
       "amount": 200,
       "unit": "g",
       "preparation": "soaked overnight",
-      "notes": null,
-      "is_optional": true,
+      "notes": "Highly recommended for protein",
+      "is_optional": false,
       "measurements": {
         "metric": {
           "value": 200,
@@ -337,7 +337,8 @@
   ],
   "image": {
     "filename": "images/current/090_tfina/dish.png",
-    "prompt": "A heavy pot filled with rich, dark brown North African beef stew, visible potatoes, pearl barley, and chunks of meat, steam rising, rustic style"
+    "prompt": "A heavy pot filled with rich, dark brown North African beef stew, visible potatoes, pearl barley, and chunks of meat, steam rising, rustic style",
+    "generation_prompt": "A rustic, heavy iron pot sits on a weathered wooden table in a sunlit, stone-walled kitchen reminiscent of early 1900s Safed. Inside the pot is a rich, dark brown Tfina stew, steaming hot and inviting. Large, succulent chunks of plant-based seitan mimic the texture of traditional meat, nestled alongside soft, golden potato quarters and plump pearl barley grains. The sauce is thick and glossy, colored a deep mahogany hue from the unique caramelized sugar base and sweet paprika. Creamy white beans are visible among the tender grains, adding to the heartiness. The natural lighting highlights the rustic texture of the vegan stew, emphasizing the savory depth and comfort food appeal. A vintage metal ladle rests against the rim of the pot, while a rough linen cloth sits nearby. The scene captures the essence of a slow-cooked Shabbat meal, transformed into a compassionate plant-based feast without losing its cultural heritage."
   },
   "tags": [
     "north-african",
@@ -403,5 +404,14 @@
       "key_difference": "Contains pork and is not cooked overnight."
     }
   ],
-  "intro_paragraph": "Tfina derives its name from the Arabic root for \"to bury,\" referencing the tradition of burying pots in embers for Shabbat lunch. This hearty stew combines beef, potatoes, and barley. Distinctively, Djerban cooks caramelize sugar in oil before adding ingredients, imparting a deep, dark color and savory richness to this classic hamin."
+  "intro_paragraph": "Tfina comes from the Arabic root meaning \"to bury,\" referring to pots buried in embers for Shabbat. This vegan adaptation replaces beef with hearty seitan while maintaining the Djerban tradition of caramelizing sugar. The result is a dark, savory stew rich with potatoes and barley perfect for lunch.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Beef stew meat",
+      "replacement": "Seitan chunks",
+      "notes": "Provides a chewy, meat-like texture that holds up well in stews"
+    }
+  ],
+  "veganization_complete": true
 }

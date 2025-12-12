@@ -7,7 +7,7 @@
   "name_origin": "The name is purely Tunisian Arabic (Derja). 'Tbikha' derives from the Arabic triliteral root Ṭ-B-Kh (ط-ب-خ), meaning 'to cook.' In the Maghreb (Tunisia, Algeria, Libya), the noun form 'Tbikha' (طبيخة) specifically refers to a ragout or thick stew, distinct from a 'Marqa' (which implies a more liquid sauce). 'Tomatem' (طماطم) is the standard Tunisian word for tomato, ultimately derived from the Nahuatl 'tomatl' via Spanish and French. The construction 'b'Tomatem' uses the preposition 'bi' (with/in).",
   "description": "A rich, red Djerban stew featuring chicken and potatoes cooked in a deep sauce made from both fresh tomatoes and tomato paste. The sauce is thickened by a double-sautéing process typical of North African cooking.",
   "cultural_context": "A traditional Tunisian/Djerban dish. The technique of frying the tomato paste ('teklia') before adding water is essential to develop the deep flavor and color characteristic of this cuisine.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with chickpeas or white beans for a traditional vegetarian version.",
   "meta": {
     "servings": "4",
@@ -225,26 +225,26 @@
       }
     },
     {
-      "ingredient_id": "chicken",
-      "name": "Chicken",
-      "amount": 1,
-      "unit": "kg",
-      "preparation": "cut into pieces",
-      "notes": "legs, thighs, or drumsticks",
+      "ingredient_id": "seitan",
+      "name": "Seitan pieces",
+      "amount": 600,
+      "unit": "g",
+      "preparation": "cut into chunks",
+      "notes": "or use rehydrated soy curls",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": 1000,
+          "value": 600,
           "unit": "g"
         },
         "imperial": {
-          "value": 35.3,
+          "value": 21,
           "unit": "oz"
         },
         "volume": null,
         "original": {
-          "value": 1,
-          "unit": "kg"
+          "value": 600,
+          "unit": "g"
         }
       }
     },
@@ -317,7 +317,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/088_tbikhat_tmatem/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic clay bowl filled with Vegan Tbikha b'Tomatem, a vibrant red Tunisian stew. The dish features chunks of savory seitan and tender cubed potatoes submerged in a thick, glossy tomato-based sauce. The deep red color of the sauce contrasts with the golden hues of the potatoes and the browned edges of the seitan pieces. The surface glistens with small pools of red oil, indicating the traditional frying technique. The bowl sits on a weathered wooden table inside an early 20th-century stone kitchen in Safed, with soft natural light filtering through a small window, illuminating the steam rising from the hot stew. In the background, blurred outlines of antique copper pots and a woven bread basket add to the authentic atmosphere. The texture looks hearty and comforting, highlighting the plant-based adaptation of this North African classic."
   },
   "tags": [
     "tunisian",
@@ -377,5 +378,14 @@
       "key_difference": "Uses Turkish salça (paste) but lacks the specific North African 'taqliya' (garlic/caraway/coriander) flavor base."
     }
   ],
-  "intro_paragraph": "Tbikha b'Tomatem, meaning \"tomato ragout\" in Tunisian Arabic, is a hearty stew of chicken and potatoes simmered in a concentrated red sauce. Unlike lighter broths, this dish relies on *teklia*—the traditional method of frying tomato paste in oil—to develop the deep color and rich flavor characteristic of Djerban Jewish cooking."
+  "intro_paragraph": "Tbikha b'Tomatem derives from the Arabic word for cooking and refers to a thick Tunisian ragout. This vegan adaptation replaces traditional chicken with hearty seitan pieces while maintaining the signature red sauce. The dish relies on frying tomato paste to deepen the flavor profile of this Djerban classic.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken (1 kg)",
+      "replacement": "Seitan pieces (600g)",
+      "notes": "Provides a chewy, meaty texture that absorbs the sauce well"
+    }
+  ],
+  "veganization_complete": true
 }

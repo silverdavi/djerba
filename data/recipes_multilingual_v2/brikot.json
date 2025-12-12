@@ -9,46 +9,58 @@
   },
   "name": {
     "he": "בריקות",
-    "es": "Brikot (Pastel Frito Tunecino)",
+    "es": "Brikot",
     "ar": "بريك",
     "en": "Brikot (Tunisian Fried Pastry)"
   },
   "description": {
-    "he": "בריקות, צורת הרבים העברית של הבריק התוניסאי, מקורן בבורק העות'מאני. מאפים מטוגנים אלה מורכבים מבצק מלוסוקה דק המקופל סביב פירה תפוחי אדמה או ביצה שלמה. מנה ראשונה קלאסית לארוחות שבת בג'רבה, המטוגנת עד להזהבה ולקבלת מעטפת פריכה עם חלמון נוזלי ועשיר.",
-    "es": "Brikot, el plural hebraizado del Brik tunecino, deriva del Börek otomano. Estos pasteles fritos consisten en una fina masa Malsouka doblada alrededor de puré de patatas o un huevo entero. Un aperitivo básico para las cenas de Shabat en Djerba, se fríen hasta que estén dorados, logrando una cáscara crujiente que cede a una yema rica y líquida.",
-    "ar": "البريك، وأصله من البوراك العثماني، هو من أشهر المأكولات التونسية. يتكون من ورقة ملسوقة رقيقة محشية ببطاطا مرحية أو عظمة كاملة. يعتبر طبق أساسي في عشاء السبت في جربة، يتقلى في الزيت لين يحمار وتولي الورقة تتقرمش والعظمة مروبة من داخل.",
-    "en": "Brikot, the Hebraized plural of the Tunisian Brik, derives from the Ottoman Börek. These quintessential fried pastries consist of thin Malsouka dough folded around savory mashed potatoes or a whole egg. A staple appetizer for Djerban Shabbat dinners, they are fried until golden, ideally achieving a crispy shell that yields to a rich, runny yolk."
+    "he": "בריקות הן צורת הרבים המעוברתת של הבריק התוניסאי, שמקורו בבורק העות'מאני. גרסה טבעונית זו ממלאת עלי מלוסקה דקים במחית תפוחי אדמה וחומוס במקום הביצה המסורתית. המאפים הזהובים והפריכים הללו הם מתאבן אהוב בארוחות שבת ובחגיגות בקהילות צפון אפריקה.",
+    "es": "Brikot es el plural hebraizado del brik tunecino, que proviene del börek otomano. Esta adaptación vegana rellena finas hojas de masa malsouka con puré de papas y garbanzos en lugar del huevo tradicional. Estos pasteles dorados y crujientes son un aperitivo muy querido para las cenas de Shabat y reuniones festivas en las comunidades del norte de África.",
+    "ar": "البريكات هي الجمع العبري للبريك التونسي اللي أصله من البوراك العثماني. هالوصفة النباتية تحشي ورقة الملسوقة ببطاطا مرحية وحمص في عوض العظمة التقليدية. هالكعبات المقرمشة والذهبية هي مقبلات محبوبة في عشاء السبت واللمّات في مجتمعات شمال إفريقيا.",
+    "en": "Brikot are the Hebraized plural of Tunisian brik which comes from Ottoman börek. This vegan adaptation fills thin malsouka dough with savory mashed potatoes and chickpeas instead of the traditional egg. These crispy golden pastries are a beloved appetizer for Shabbat dinners and festive gatherings in North African communities."
   },
   "ingredients": {
     "he": [
-      "6 עלי בריק (מלוסוקה)",
-      "250 מ\"ל שמן צמחי",
-      "6 ביצים",
+      "6 עלי בריק (מלוסקה)",
+      "250 מ\"ל שמן צמחי, לטיגון",
       "3 תפוחי אדמה, מבושלים ומעוכים",
+      "200 גרם גרגירי חומוס, מבושלים ומעוכים גס",
+      "1 בצל קטן, קצוץ דק ומטוגן",
+      "30 גרם פטרוזיליה טרייה, קצוצה דק",
+      "15 מ\"ל צלפים, מסוננים",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
       "6 hojas de pasta brik (Malsouka)",
-      "250 ml de aceite vegetal",
-      "6 huevos",
-      "3 patatas, hervidas y hechas puré",
+      "250 ml de aceite vegetal, para freír",
+      "3 papas, hervidas y hechas puré",
+      "200 g de garbanzos, cocidos y machacados",
+      "1 cebolla pequeña, picada finamente y salteada",
+      "30 g de perejil fresco, picado finamente",
+      "15 ml de alcaparras, escurridas",
       "Sal al gusto",
       "Pimienta negra al gusto"
     ],
     "ar": [
       "6 ورقات ملسوقة",
-      "1 كأس زيت",
-      "6 عظمات",
+      "1 كاس زيت، للقليان",
       "3 كعبات بطاطا، مسموطة ومرحية",
+      "1 كاس حمص، طايب ومرحي شوية",
+      "1 بصلة صغيرة، مقصوصة جويدة ومقلية",
+      "½ كاس معدنوس، مقصوص جويد",
+      "1 مغرفة كبار، مسقطر",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
-      "6 Brik pastry leaves (Malsouka)",
-      "1 cup vegetable oil",
-      "6 eggs",
+      "6 brik pastry leaves (Malsouka)",
+      "1 cup vegetable oil, for frying",
       "3 potatoes, boiled and mashed",
+      "1 cup chickpeas, cooked and roughly mashed",
+      "1 small onion, finely chopped and sautéed",
+      "0.5 cup fresh parsley, finely chopped",
+      "1 tbsp capers, drained",
       "Salt to taste",
       "Black pepper to taste"
     ]
@@ -57,26 +69,26 @@
     "he": [
       "אם משתמשים במילוי תפוחי אדמה: מבשלים את תפוחי האדמה עד לריכוך, מועכים לפירה ומתבלים במלח ופלפל.",
       "מחממים שמן במחבת רחבה. השמן צריך להיות חם אך לא מעשן.",
-      "לבריק עם ביצה: מניחים עלה בריק בשמן החם (או בצלחת תחילה אם אין ניסיון). שוברים ביצה שלמה למרכז, מתבלים ומקפלים מיד את העלה לחצי לסגירה.",
-      "לבריק תפוחי אדמה: מניחים כף פירה במרכז העלה, מקפלים לחצי (או לצורת משולש/סיגר) ומניחים בשמן החם.",
+      "לבריק עם ביצה: מניחים עלה בריק בשמן החם (או על צלחת תחילה אם אין ניסיון). שוברים ביצה שלמה למרכז, מתבלים, ומקפלים מיד את העלה לחצי לסגירה.",
+      "לבריק תפוחי אדמה: מניחים כף ממחית תפוחי האדמה במרכז העלה, מקפלים לחצי (או לצורת משולש/סיגר), ומניחים בשמן החם.",
       "מטגנים משני הצדדים עד להזהבה וקבלת מרקם פריך.",
-      "מוציאים מהשמן ומניחים על נייר סופג לספיגת עודפי שמן."
+      "מוציאים מהשמן ומניחים על נייר סופג."
     ],
     "es": [
-      "Si usa relleno de patata: Hierva las patatas hasta que estén blandas, haga un puré y sazone con sal y pimienta.",
+      "Si usa relleno de papa: hierva las papas hasta que estén blandas, haga un puré y sazone con sal y pimienta.",
       "Caliente el aceite en una sartén ancha. El aceite debe estar caliente pero no humeante.",
       "Para Brik de Huevo: Coloque una hoja de brik en el aceite caliente (o en un plato primero si tiene menos experiencia). Rompa un huevo entero en el centro, sazone e inmediatamente doble la hoja por la mitad para cerrarla.",
-      "Para Brik de Patata: Coloque una cucharada de puré de patata en el centro de la hoja, doble por la mitad (o en forma de triángulo/cigarro) y colóquela en el aceite caliente.",
+      "Para Brik de Papa: Coloque una cucharada de puré de papa en el centro de la hoja, doble por la mitad (o en forma de triángulo/cigarro) y coloque en el aceite caliente.",
       "Fría por ambos lados hasta que estén dorados y crujientes.",
       "Retire del aceite y escurra sobre papel absorbente."
     ],
     "ar": [
-      "كان باش تعمل حشو البطاطا: اسمط البطاطا لين تطيب، ارحيها وزيدها الملح والفلفل الأكحل.",
-      "سخّن الزيت في مقلاة واسعة. الزيت لازم يكون سخون أما ما يخرجش الدخان.",
-      "لبريك العظمة: حط ورقة الملسوقة في الزيت السخون (ولا في صحن كان ماكش مستانس). فقّص عظمة في الوسط، فوّحها، وطبق الورقة في ثنين باش تتسكر.",
-      "لبريك البطاطا: حط مغرفة بطاطا مرحية في وسط الورقة، طبقها على ثنين (ولا مثلث) وحطها في الزيت السخون.",
-      "اقليها من الشيرتين لين تحمار وتولي تتقرمش.",
-      "خرجها من الزيت وقطرها على ورق نشاف."
+      "كان باش تعمل حشو البطاطا: اسمط البطاطا لين تطيب، ارحيها بيري وفوّحها بالملح والفلفل الأكحل.",
+      "سخّن الزيت في مقلاة واسعة. الزيت لازم يكون سخون أما ما يخرجش دخان.",
+      "لبريك العظمة: حط ورقة الملسوقة في الزيت السخون (ولاّ في صحن قبل كان ما عندكش برشة خبرة). فقّص عظمة كاملة في الوسط، فوّحها، وسكّر الورقة في ثنين فيسع.",
+      "لبريك البطاطا: حط مغرفة بطاطا مرحية في وسط الورقة، اثنيها (ولاّ شكّلها مثلث/صوابع)، وحطها في الزيت السخون.",
+      "اقلي من الشيرتين لين يحمار ويتقرمش.",
+      "خرّج من الزيت وقطّر على ورق نشّاف."
     ],
     "en": [
       "If using potato filling: Boil potatoes until soft, mash into a puree, and season with salt and pepper.",

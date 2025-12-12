@@ -9,86 +9,98 @@
   },
   "name": {
     "he": "נעז'ה - חביתת ירק",
-    "es": "Na'zha (Tortilla Tunecina de Hierbas)",
+    "es": "Na'zha (Tortilla de Hierbas Tunecina)",
     "ar": "نعزة (عجة بالأعشاب)",
     "en": "Na'zha (Tunisian Herb Omelet)"
   },
   "description": {
-    "he": "נעז'ה היא חביתת ירק יהודית-ג'רבאית מסורתית, המכילה תערובת עשירה של בצל ירוק, שמיר, כוסברה ופטרוזיליה המאוחדים על ידי ביצים. שמה נובע ככל הנראה מהמילה הערבית ל\"רעננות\" (נוזהה) או \"כבשה\" (נעג'ה), המרמזת על מרקמה הרך. מנה ריחנית זו מטוגנת עד להזהבה ומוגשת בדרך כלל כארוחת צהריים קלה או כמילוי לכריך.",
-    "es": "Na'zha es una tortilla de hierbas básica de los judíos de Djerba, con una mezcla densa de cebolletas, eneldo, cilantro y perejil unidos por huevos. Su nombre probablemente proviene del árabe para \"frescura\" (nuzha) u \"oveja\" (na'ja), aludiendo a su textura suave. Frita hasta dorarse, este plato fragante se disfruta comúnmente como un almuerzo ligero o relleno de sándwich.",
-    "ar": "النعزة هي عجة بالأعشاب معروفة عند يهود جربة، فيها برشة بصل أخضر وشبت وكزبر ومعدنوس مخلطين بالعظم. اسمها يظهرلي جاي من كلمة \"نزهة\" يعني الفريشك، ولا \"نعجة\" على خاطرها طرية. تتقلى لين تولي مذهبة، وتتاكل عادة فطور خفيف ولا في كسكروت.",
-    "en": "Na'zha is a staple Djerban Jewish herb omelet featuring a dense mixture of scallions, dill, cilantro, and parsley bound by eggs. Its name likely stems from the Arabic for \"freshness\" (nuzha) or \"ewe\" (na'ja), alluding to its soft texture. Fried until golden, this fragrant dish is commonly enjoyed as a light lunch or sandwich filling."
+    "he": "נעז'ה היא מנה ג'רבאית ריחנית הקרויה על שם המילה הערבית לרעננות או כבשה. גרסה טבעונית זו מחליפה את הביצים בקמח חומוס כדי לאחד את תערובת הבצל הירוק ועשבי התיבול. היא מטוגנת עד להזהבה ומוגשת כארוחת צהריים קלה או כמילוי לכריך.",
+    "es": "Na'zha es un plato fragante de Djerba que lleva el nombre de la palabra árabe para frescura u oveja. Esta versión vegana reemplaza los huevos con harina de garbanzo para unir la densa mezcla de cebolletas y hierbas. Se fríe hasta que esté dorada y se sirve como un almuerzo ligero o relleno de sándwich.",
+    "ar": "النعزة هي أكلة جربية فاوحة مسمية على كلمة عربية تعني النزهة أو النعجة. هذي النسخة النباتية تعوض العظم بفرينة الحمص باش تلم خليط البصل الأخضر والحشيش. نقلوها لين تحمار وتتقدم فطور خفيف ولا في وسط كسكروت.",
+    "en": "Na'zha is a fragrant Djerban dish named after the Arabic word for freshness or ewe. This vegan version replaces eggs with savory chickpea flour to bind the dense mixture of scallions and herbs. It is fried until golden and served as a light lunch or sandwich filling."
   },
   "ingredients": {
     "he": [
-      "4 ביצים גדולות",
+      "120 גרם קמח חומוס",
+      "240 מ\"ל מים",
       "4 בצלים ירוקים, קצוצים דק",
       "1/4 צרור פטרוזיליה טרייה, קצוצה דק",
       "1/4 צרור שמיר טרי, קצוץ דק",
       "1/4 צרור כוסברה טרייה, קצוצה דק",
-      "30 מ\"ל שמן צמחי (לטיגון)",
-      "מלח לפי הטעם",
+      "5 גרם אבקת אפייה",
+      "30 מ\"ל שמן צמחי",
+      "2.5 גרם מלח הודי שחור (קאלה נמק)",
+      "1 גרם כורכום",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "4 huevos grandes",
+      "120 g de harina de garbanzo",
+      "240 ml de agua",
       "4 cebolletas, finamente picadas",
-      "1/4 de manojo de perejil fresco, finamente picado",
-      "1/4 de manojo de eneldo fresco, finamente picado",
-      "1/4 de manojo de cilantro fresco, finamente picado",
-      "30 ml de aceite vegetal (para freír)",
-      "Sal al gusto",
+      "1/4 manojo de perejil fresco, finamente picado",
+      "1/4 manojo de eneldo fresco, finamente picado",
+      "1/4 manojo de cilantro fresco, finamente picado",
+      "5 g de polvo de hornear",
+      "30 ml de aceite vegetal",
+      "2.5 g de sal negra (Kala Namak)",
+      "1 g de cúrcuma en polvo",
       "Pimienta negra al gusto"
     ],
     "ar": [
-      "4 عظمات كبار",
-      "4 بصلات خضر، مقصوصين جويد",
+      "1 كأس فرينة حمص",
+      "1 كأس ماء",
+      "4 بصلات خضر، مقصوصين جويدين",
       "1/4 ربطة معدنوس، مقصوص جويد",
       "1/4 ربطة شبت، مقصوص جويد",
-      "1/4 ربطة كزبر، مقصوص جويد",
-      "2 مغارف زيت (للقليان)",
-      "ملح حسب الذوق",
+      "1/4 ربطة كسبر، مقصوص جويد",
+      "1 مغرفة صغيرة خميرة",
+      "2 مغارف زيت",
+      "1/2 مغرفة صغيرة ملح كحل (أو ملح عادي)",
+      "1/4 مغرفة صغيرة كركم",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
-      "4 large eggs",
+      "1 cup chickpea flour (Besan)",
+      "1 cup water",
       "4 green onions (scallions), finely chopped",
       "1/4 bunch fresh parsley, finely chopped",
       "1/4 bunch fresh dill, finely chopped",
       "1/4 bunch fresh cilantro, finely chopped",
-      "2 tbsp vegetable oil (for frying)",
-      "Salt to taste",
+      "1 tsp baking powder",
+      "2 tbsp vegetable oil",
+      "1/2 tsp Kala Namak (Black Salt)",
+      "1/4 tsp turmeric powder",
       "Black pepper to taste"
     ]
   },
   "steps": {
     "he": [
-      "שוברים את הביצים לקערת ערבוב.",
-      "מוסיפים לביצים את הבצל הירוק, הפטרוזיליה, השמיר והכוסברה הקצוצים. מתבלים במלח ופלפל (אם רוצים) וטורפים היטב עד לקבלת תערובת אחידה.",
-      "מחממים את השמן במחבת טיגון על אש נמוכה.",
-      "יוצקים את תערובת הביצים והירק למחבת. מטגנים לאט על אש נמוכה עד שהתחתית מתייצבת ומזהיבה.",
-      "הופכים בזהירות את החביתה בעזרת מרית (או על ידי הפיכה על צלחת) ומטגנים את הצד השני עד שהביצים מוכנות לחלוטין והחביתה יציבה."
+      "ערבבו את קמח החומוס, המים, אבקת האפייה והתבלינים בקערה עד לקבלת בלילה חלקה.",
+      "הוסיפו לבלילה את הבצל הירוק, הפטרוזיליה, השמיר והכוסברה הקצוצים וערבבו היטב.",
+      "חממו את השמן במחבת טיגון על אש נמוכה.",
+      "צקו את תערובת הקמח ועשבי התיבול למחבת. טגנו באיטיות על אש נמוכה עד שהתחתית מתייצבת ומזהיבה.",
+      "הפכו בזהירות את החביתה בעזרת מרית (או על ידי הפיכה על צלחת) וטגנו את הצד השני עד שהיא עשויה לחלוטין ויציבה."
     ],
     "es": [
-      "Rompa los huevos en un bol para mezclar.",
-      "Añada las cebolletas, el perejil, el eneldo y el cilantro picados a los huevos. Sazone con sal y pimienta (si lo desea) y bata hasta que esté bien combinado.",
-      "Caliente el aceite en una sartén a fuego lento.",
-      "Vierta la mezcla de huevo y hierbas en la sartén. Fría lentamente a fuego lento hasta que la parte inferior cuaje y esté dorada.",
-      "Voltee con cuidado la tortilla con una espátula (o invirtiéndola sobre un plato) y fría el otro lado hasta que los huevos estén completamente cocidos y la tortilla esté estable."
+      "Mezcle la harina de garbanzo, el agua, el polvo de hornear y las especias en un bol hasta obtener una masa suave.",
+      "Añada las cebolletas, el perejil, el eneldo y el cilantro picados a la masa y mezcle bien.",
+      "Caliente el aceite en una sartén a fuego bajo.",
+      "Vierta la mezcla de harina y hierbas en la sartén. Fría lentamente a fuego bajo hasta que la base cuaje y esté dorada.",
+      "Voltee cuidadosamente la tortilla con una espátula (o invirtiéndola sobre un plato) y fría el otro lado hasta que esté completamente cocida y estable."
     ],
     "ar": [
-      "فقّص العظمات في صحفة.",
-      "زيد البصل الأخضر والمعدنوس والشبت والكزبر المقصوصين للعظم. فوّح بالملح والفلفل الأكحل وركضهم مليح لين يتخلطوا بالباهي.",
-      "سخّن الزيت في مقلاة (طاوة) على نار هادية.",
-      "صب خليط العظم والحشيش في المقلاة. اقليهم بالشوية على نار هادية لين التحتاني يشد روحو ويحمار.",
-      "اقلب النعزة بالشوية بمغرفة لوح (ولا بقلبانها على صحن) واقلي الشيرة الأخرى لين العظم يطيب بالكامل وتولي شادة روحها."
+      "خلط فرينة الحمص والماء والخميرة والفاحات في صحفة لين تولي عجينة رطبة.",
+      "زيد البصل الأخضر والمعدنوس والشبت والكسبر المقصوصين للخليط وخلط مليح.",
+      "سخن الزيت في طنجرة ولا مقلاة على نار هادية.",
+      "صب خليط الفرينة والحشيش في المقلاة. اقلي بالشوية على نار هادية لين القاع يشد روحو ويحمار.",
+      "اقلب النعزة بالشوية بمغرفة لوح (ولا بقلبانها على صحن) واقلي الشيرة لخرى لين تطيب مليح وتشد روحها."
     ],
     "en": [
-      "Crack the eggs into a mixing bowl.",
-      "Add the chopped green onions, parsley, dill, and cilantro to the eggs. Season with salt and pepper (if using) and whisk until well combined.",
+      "Whisk the chickpea flour, water, baking powder, and spices in a bowl until you have a smooth batter.",
+      "Add the chopped green onions, parsley, dill, and cilantro to the batter and mix well to combine.",
       "Heat the oil in a frying pan over low heat.",
-      "Pour the egg and herb mixture into the pan. Fry slowly on low heat until the bottom is set and golden.",
-      "Carefully flip the omelet using a spatula (or by inverting onto a plate) and fry the other side until the eggs are fully cooked and the omelet is stable."
+      "Pour the flour and herb mixture into the pan. Fry slowly on low heat until the bottom is set and golden.",
+      "Carefully flip the omelet using a spatula (or by inverting onto a plate) and fry the other side until fully cooked and stable."
     ]
   },
   "image_prompt": "Tunisian herb omelet Na'zha, golden brown disk filled with green herbs like parsley dill and green onion, sitting on a plate, rustic style"

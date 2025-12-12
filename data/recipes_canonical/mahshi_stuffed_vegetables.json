@@ -7,7 +7,7 @@
   "name_origin": "Derived directly from the Arabic root 'ḥ-š-y' (ح-ش-y), meaning 'to stuff' or 'to fill'. 'Mahshi' (محشي) is the passive participle (ism maf'ul) of the verb, literally translating to 'that which is stuffed'. While the concept of stuffed vegetables in North Africa was heavily influenced by the Ottoman Turkish 'Dolma', the terminology in the Maghreb is almost exclusively Arabic. In the context of Djerban cuisine, this follows the standard Tunisian naming convention for stuffed vegetables.",
   "description": "A comforting North African dish consisting of vegetables like potatoes, zucchini, and eggplant hollowed out and filled with a savory mixture of rice, chicken, and egg, then simmered in a rich vegetable stew.",
   "cultural_context": "Common in Djerban and Tunisian Jewish cuisine, often served as a hearty family meal. The use of chicken breast rather than ground beef is a common variation in some households.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken with mushrooms or lentils and use a flax egg or starch binder instead of the egg.",
   "meta": {
     "servings": "4-6",
@@ -99,12 +99,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_breast",
-      "name": "Chicken breast",
+      "ingredient_id": "seitan",
+      "name": "Seitan or Oyster Mushrooms",
       "amount": 300,
       "unit": "g",
-      "preparation": "finely chopped or diced",
-      "notes": "For the filling",
+      "preparation": "finely chopped or minced",
+      "notes": "Meat alternative for the filling",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -126,11 +126,11 @@
       }
     },
     {
-      "ingredient_id": "egg",
-      "name": "Egg",
+      "ingredient_id": "flax_egg",
+      "name": "Flax Egg",
       "amount": 1,
       "unit": "unit",
-      "preparation": null,
+      "preparation": "mixed (1 tbsp flax meal + 3 tbsp water)",
       "notes": "Binder for the filling",
       "is_optional": false,
       "measurements": {
@@ -362,7 +362,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/053_mahshi/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic, wide clay serving bowl filled with vibrant Mahshi, a North African stuffed vegetable dish, resting on a weathered wooden table in an early 1900s Safed stone kitchen. The dish features hollowed zucchini, potatoes, and small eggplants generously stuffed with a textured filling of white rice and finely chopped seitan. The vegetables are bathed in a rich, reddish-orange tomato and pumpkin stew that glistens with olive oil. Soft, natural light streams through a deep-set arched stone window, illuminating the steam rising from the hot food. The texture of the stone walls and the rustic pottery emphasizes the historical, home-cooked nature of this hearty plant-based meal."
   },
   "tags": [
     "north-african",
@@ -422,5 +423,19 @@
       "key_difference": "Gemista is typically baked in the oven (roasted) rather than simmered in a stovetop stew, and often relies heavily on olive oil and herbs (dill/mint)."
     }
   ],
-  "intro_paragraph": "Mahshi, literally translating to \"stuffed\" in Arabic, is a beloved Djerban Jewish comfort food. Hollowed potatoes, zucchini, and eggplant are packed with a savory filling of chicken, rice, and egg, then braised in a rich vegetable stew. While similar to Ottoman dolma, this hearty dish serves as a complete family meal."
+  "intro_paragraph": "Mahshi comes from the Arabic word for stuffed and represents a classic Djerban dish. This plant-based version replaces traditional chicken with savory seitan while maintaining the authentic spice profile. Hollowed vegetables simmer in a rich stew to create a comforting meal that honors its North African roots perfectly.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken breast",
+      "replacement": "Finely chopped seitan or oyster mushrooms",
+      "notes": "Provides a meaty texture and savory umami flavor"
+    },
+    {
+      "original": "Egg",
+      "replacement": "Flax egg (1 tbsp ground flax + 3 tbsp water)",
+      "notes": "Acts as a binder to hold the rice filling together"
+    }
+  ],
+  "veganization_complete": true
 }

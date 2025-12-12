@@ -50,7 +50,7 @@
       "amount": 6,
       "unit": "tsp",
       "preparation": null,
-      "notes": "Binder",
+      "notes": "Binder and fat source",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -76,7 +76,7 @@
       "name": "Wakame seaweed",
       "amount": 20,
       "unit": "g",
-      "preparation": "rehydrated",
+      "preparation": "rehydrated and chopped",
       "notes": "Provides the 'fish' flavor",
       "is_optional": false,
       "measurements": {
@@ -89,7 +89,7 @@
           "unit": "oz"
         },
         "volume": {
-          "value": 5,
+          "value": 2,
           "unit": "tbsp"
         },
         "original": {
@@ -108,20 +108,20 @@
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 5,
+          "unit": "g"
         },
         "imperial": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 0.1,
+          "unit": "oz"
         },
         "volume": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 1,
+          "unit": "tsp"
         },
         "original": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 1,
+          "unit": "tsp"
         }
       }
     },
@@ -154,11 +154,11 @@
     },
     {
       "ingredient_id": "flour",
-      "name": "Flour",
+      "name": "All-purpose flour",
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "All-purpose",
+      "notes": "Binder",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -288,7 +288,7 @@
       }
     },
     {
-      "ingredient_id": "salt",
+      "ingredient_id": "salt_sauce",
       "name": "Salt",
       "amount": null,
       "unit": null,
@@ -323,9 +323,18 @@
       "notes": "Ripe",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 4,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "unit"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "unit"
+        },
         "original": {
           "value": 4,
           "unit": "unit"
@@ -341,9 +350,18 @@
       "notes": null,
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 1,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "unit"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "unit"
+        },
         "original": {
           "value": 1,
           "unit": "unit"
@@ -359,9 +377,18 @@
       "notes": "Fresh",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 5,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 5,
+          "unit": "unit"
+        },
+        "volume": {
+          "value": 5,
+          "unit": "unit"
+        },
         "original": {
           "value": 5,
           "unit": "unit"
@@ -377,9 +404,18 @@
       "notes": null,
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
+        "metric": {
+          "value": 1,
+          "unit": "bunch"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "bunch"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "bunch"
+        },
         "original": {
           "value": 1,
           "unit": "bunch"
@@ -446,7 +482,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/045_hraime/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic high-angle close-up captures a wide clay skillet resting on a weathered wooden table inside an early 20th-century stone kitchen in Safed. The dish features golden-seared vegan patties made from tofu and wakame, simmering in a deep crimson Chraime sauce rich with paprika and turmeric. The thick glossy sauce clings to the textured plant-based balls, interspersed with softened strips of red bell pepper and slices of garlic. Fresh vibrant chopped cilantro garnishes the top, adding a pop of green against the fiery red. To the side, a piece of torn crusty bread awaits dipping. Soft natural light streams from a nearby window, illuminating the steam rising from the hot skillet and highlighting the antique copper cookware in the blurred limestone background. The scene evokes a warm Friday afternoon atmosphere, blending traditional North African culinary heritage with modern plant-based adaptation."
   },
   "tags": [
     "vegan",
@@ -500,5 +537,19 @@
       "key_difference": "Usually uses whole fish steaks or pieces rather than ground patties; includes potatoes."
     }
   ],
-  "intro_paragraph": "Inspired by Chraime—from the Arabic for 'hot'—these vegan patties capture the essence of the spicy Friday night fish course. Tofu and wakame seaweed provide a savory, oceanic texture, formed into ktzi'tzot (patties). They are baked, then simmered in a classic Djerban sauce of rich tomatoes, peppers, and garlic."
+  "intro_paragraph": "Derived from the Arabic word for hot, Chraime is a spicy North African staple. This vegan version replaces fish with savory tofu and seaweed patties called ktzi'tzot. They are baked until firm and then simmered in a piquant sauce of tomatoes, peppers, and garlic for a perfect Shabbat meal.",
+  "was_veganized": false,
+  "vegan_substitutions": [
+    {
+      "original": "White fish (Grouper/Sea Bass)",
+      "replacement": "Extra firm tofu with wakame seaweed",
+      "notes": "Tofu provides the protein structure while seaweed imparts the necessary ocean salinity and umami."
+    },
+    {
+      "original": "Egg (binder)",
+      "replacement": "Almond flour and wheat flour",
+      "notes": "Acts as a binding agent to hold the patties together during baking and simmering."
+    }
+  ],
+  "veganization_complete": true
 }

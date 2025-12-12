@@ -7,7 +7,7 @@
   "name_origin": "The name provided is a compound phrase. 'Hita' (חיטה) is the standard Hebrew word for 'wheat'. 'Adafina' is the classic Judeo-Spanish (Ladino) name for the Shabbat stew, which itself derives from the Arabic root 'd-f-n' (دفن), meaning 'to bury', 'to cover', or 'to hide'. This refers to the ancient method of burying the cooking pot in hot embers or sand to maintain heat over the Sabbath without an active flame. The phrase 'Hita l'Adafina' literally translates from Hebrew as 'Wheat for the Adafina'. In the context of Djerban and North African cuisine, this refers to the wheat berries (often hulled) cooked in a muslin bag or separate container within the larger stew to absorb flavors while maintaining a distinct texture.",
   "description": "A savory wheat berry pudding cooked inside a bag within the main Shabbat stew (Adafina/Hamin). The wheat is toasted with onions and garlic before slow-cooking overnight, resulting in a tender, flavorful side dish.",
   "cultural_context": "In Moroccan and North African Jewish tradition, grains like wheat or rice are often cooked in cheesecloth or cooking bags ('kuki') submerged in the main stew pot. This allows them to absorb the ambient flavors while maintaining their own distinct seasoning and texture.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken soup powder with vegetable bouillon or salt.",
   "meta": {
     "servings": "6-8",
@@ -163,12 +163,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_consomme_powder",
-      "name": "Chicken soup powder",
+      "ingredient_id": "vegetable_bouillon_powder",
+      "name": "Vegetable bouillon powder",
       "amount": 1,
       "unit": "tsp",
       "preparation": null,
-      "notes": "or a small amount of bouillon",
+      "notes": "replaces chicken soup powder",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -285,7 +285,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/092_wheat_berries/dish.png",
-    "prompt": "Traditional Moroccan Jewish wheat pudding (Hita) inside a cooking bag, dark brown savory wheat berries with whole garlic cloves, rustic style"
+    "prompt": "Traditional Moroccan Jewish wheat pudding (Hita) inside a cooking bag, dark brown savory wheat berries with whole garlic cloves, rustic style",
+    "generation_prompt": "A rustic close-up of Hita l'Adafina, a savory Moroccan wheat berry pudding, presented in an opened parchment-colored cooking bag resting on an antique clay plate. The wheat berries are plump, glistening, and deeply caramelized to a rich mahogany brown from overnight slow-cooking. Whole cloves of soft, golden-brown confit garlic are visible amongst the grains, adding texture and visual interest. Steam rises gently from the warm, tender heap of wheat, carrying the aroma of paprika and caramelized onions. The setting is an early 20th-century stone kitchen in Safed, featuring textured limestone walls and soft natural light filtering through a small arched window. In the background, a large, heavy clay pot for the Shabbat stew sits on a wrought-iron stand over glowing embers, hinting at the traditional \"buried\" cooking method. The atmosphere is warm, homey, and steeped in history, highlighting the wholesome, plant-based nature of this ancient grain dish with earthy tones and authentic textures."
   },
   "tags": [
     "moroccan",
@@ -350,5 +351,14 @@
       "key_difference": "Ashure is a sweet dessert soup with fruits and nuts, not savory."
     }
   ],
-  "intro_paragraph": "Hita l'Adafina combines *hita* (Hebrew for wheat) with *Adafina*, a stew named for the Arabic root meaning \"to bury\" in hot embers. Whole wheat berries are toasted with aromatics, then enclosed in a bag and submerged in the Shabbat pot. Slow-cooked overnight, the grains absorb the stew's essence to create a tender, savory pudding."
+  "intro_paragraph": "Hita l'Adafina pairs Hebrew *hita* for wheat with *Adafina*, meaning \"to bury\" in Arabic. This vegan adaptation toasts whole grains with aromatics before enclosing them in a bag. Buried in the Shabbat pot overnight, the wheat absorbs the stew's essence to become a tender and savory pudding.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken soup powder",
+      "replacement": "Vegetable bouillon powder",
+      "notes": "Provides savory umami depth without animal products"
+    }
+  ],
+  "veganization_complete": true
 }

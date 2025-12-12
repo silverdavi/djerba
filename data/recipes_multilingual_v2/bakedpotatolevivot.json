@@ -10,58 +10,66 @@
   "name": {
     "he": "לביבות תפו\"א",
     "es": "Levivot de Papa al Horno (Ma'akouda)",
-    "ar": "لبيفوت بطاطا (معقودة)",
-    "en": "Baked Potato Levivot (Kugel)"
+    "ar": "لڤيڤوت بطاطا في الكوشة (معقودة)",
+    "en": "Baked Potato Levivot (Ma'akouda)"
   },
   "description": {
-    "he": "לביבות תפו\"א אפויות, שנקראו היסטורית מעקודה בערבית-יהודית, הופכות את רעיון הלביבות המטוגנות לפשטידה מלוחה. המנה המנחמת הזו, ששמה העברי נגזר מהשורש ל-ב-ב (לב), מורכבת מתפוחי אדמה מתובלים שנאפים עד להזהבה. היא משמשת כמנה יומיומית קלילה במטבחי ג'רבה, ומציעה תחליף פשוט ללביבות החנוכה עתירות השמן.",
-    "es": "Las Levivot de Papa al Horno, llamadas históricamente Ma'akouda en judeoárabe, transforman el concepto de frituras en una cazuela salada. Derivando su nombre hebreo de la raíz para corazón, este plato reconfortante presenta papas sazonadas horneadas hasta dorarse. Sirve como un alimento básico diario más ligero en las cocinas de Djerba, ofreciendo una alternativa simple a las latkes de Hanukkah pesadas en aceite.",
-    "ar": "لبيفوت البطاطا في الكوشة، اللي كانت تتسمى تاريخياً معقودة في العربية اليهودية، تبدل فكرة المقلي لطاجين مالح. هذا الطبق البنين، اللي اسمه بالعبرية جاي من كلمة قلب، فيه بطاطا مفوحة ومطيبّة في الكوشة لين تحمار. هي أكلة خفيفة ويومية في كوجينة جربة، وتعتبر بديل ساهل للبيفوت المقلية بالزيت متاع حنوكا.",
-    "en": "Baked Potato Levivot, historically called Ma'akouda in Judeo-Arabic, transforms the concept of fried fritters into a savory casserole. Deriving its Hebrew name from the root for heart, this comforting dish features seasoned mashed potatoes baked until golden. It serves as a lighter, everyday staple in Djerban kitchens, offering a simple alternative to oil-heavy Hanukkah latkes."
+    "he": "גרסה טבעונית זו של לביבות תפו\"א אפויות, הידועות היסטורית כמעקודה בג'ודאו-ערבית, מכבדת את השורש \"עקד\" (קשור) על ידי שימוש בבלילת חומוס עשירה. המאפה הזהוב מציע מרקם מנחם המושלם לארוחות יומיומיות, ושומר על הלב העשיר של המסורת הג'רבאית המקורית ללא שימוש בביצים.",
+    "es": "Esta adaptación vegana de Levivot de papa al horno, históricamente conocida como Ma'akouda en judeo-árabe, honra la raíz de la palabra atado mediante el uso de una masa sabrosa de garbanzos. La cazuela dorada ofrece una textura reconfortante perfecta para las comidas diarias, manteniendo el corazón sabroso de la tradición original de Djerba sin usar huevos.",
+    "ar": "هذي النسخة النباتية متاع لفيڨوت البطاطا في الكوشة، اللي معروفة تاريخيا باسم معقودة، تستعمل دقيق الحمص باش تشد الخليط في بلاصة العظم. هالمعقودة الذهبية عندها بنة وتكستير هايلة توالم الماكلة متاع كل يوم، وتحافظ على البنة الأصلية متاع التقاليد الجربية من غير ما نستعملو العظم.",
+    "en": "This vegan adaptation of Baked Potato Levivot, historically known as Ma'akouda in Judeo-Arabic, honors the root word for 'bound' by using a savory chickpea batter. The golden casserole offers a comforting texture perfect for everyday meals, maintaining the savory heart of the original Djerban tradition without using eggs."
   },
   "ingredients": {
     "he": [
-      "4 תפוחי אדמה אדומים, בינוניים, מגוררים",
-      "4 ביצים, גדולות",
+      "4 תפוחי אדמה אדומים, מגוררים (בינוניים)",
+      "90 גרם קמח חומוס",
+      "180 מ\"ל מים",
+      "1 גרם כורכום",
       "31 גרם קמח רגיל",
       "5 גרם אבקת אפייה",
-      "15 מ\"ל שמן צמחי (ועוד לשימון)",
+      "30 מ\"ל שמן צמחי",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "4 papas rojas, medianas, ralladas",
-      "4 huevos, grandes",
+      "4 papas rojas, ralladas (medianas)",
+      "90 g de harina de garbanzo",
+      "180 ml de agua",
+      "1 g de cúrcuma en polvo",
       "31 g de harina común",
       "5 g de polvo de hornear",
-      "15 ml de aceite vegetal (y más para engrasar)",
+      "30 ml de aceite vegetal",
       "Sal al gusto",
       "Pimienta negra al gusto"
     ],
     "ar": [
-      "4 كعبات بطاطا حمراء، متوسطين، مرابيين",
-      "4 عظمات، كبار",
+      "4 كعبات بطاطا حمراء، مرحية",
+      "3/4 كاس دقيق حمص",
+      "3/4 كاس ماء",
+      "1/4 مغرفة صغيرة كركم",
       "1/4 كاس فرينة",
-      "1 مغرفة صغيرة خميرة قاطو",
-      "1 مغرفة زيت (وشوية لدهن الطبق)",
+      "1 مغرفة صغيرة خميرة ڨاطو",
+      "2 مغارف زيت",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
-      "4 medium red potatoes, grated",
-      "4 large eggs",
+      "4 red potatoes, grated (medium)",
+      "3/4 cup chickpea flour (besan)",
+      "3/4 cup water",
+      "1/4 tsp turmeric powder",
       "1/4 cup all-purpose flour",
       "1 tsp baking powder",
-      "1 tbsp vegetable oil (plus extra for greasing)",
+      "2 tbsp vegetable oil",
       "Salt to taste",
       "Black pepper to taste"
     ]
   },
   "steps": {
     "he": [
-      "מחממים תנור ל-180 מעלות.",
-      "מגררים את תפוחי האדמה. סוחטים היטב את הנוזלים העודפים מהתפודים המגוררים (הסינון קריטי למרקם).",
-      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם הביצים, הקמח, אבקת האפייה, השמן, המלח והפלפל עד לקבלת תערובת אחידה.",
+      "מחממים תנור ל-180 מעלות צלזיוס.",
+      "מגררים את תפוחי האדמה. סוחטים היטב את הנוזלים העודפים מתפוחי האדמה המגוררים (הסינון קריטי למרקם).",
+      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם תערובת קמח החומוס והמים, הקמח, אבקת האפייה, השמן, המלח והפלפל השחור עד לקבלת תערובת אחידה.",
       "משמנים היטב תבנית אפייה.",
       "משטחים את התערובת באופן שווה בתבנית המשומנת.",
       "אופים במשך כ-40 דקות, או עד שהחלק העליון שחום ופריך."
@@ -69,23 +77,23 @@
     "es": [
       "Precalentar el horno a 180°C.",
       "Rallar las papas. Exprimir el exceso de líquido de las papas ralladas (colar es crucial para la textura).",
-      "En un tazón grande, mezclar las papas ralladas con los huevos, la harina, el polvo de hornear, el aceite, la sal y la pimienta hasta que estén bien combinados.",
+      "En un tazón grande, mezclar las papas ralladas con la mezcla de harina de garbanzo y agua, la harina, el polvo de hornear, el aceite, la sal y la pimienta negra hasta que estén bien combinados.",
       "Engrasar generosamente una fuente o molde para hornear.",
       "Esparcir la mezcla uniformemente en el molde engrasado.",
-      "Hornear por aproximadamente 40 minutos, o hasta que la parte superior esté dorada y crujiente."
+      "Hornear durante aproximadamente 40 minutos, o hasta que la parte superior esté dorada y crujiente."
     ],
     "ar": [
-      "سخن الكوشة في 180 درجة.",
-      "رابي البطاطا. اعصرها مليح باش تخرج الماء الزايد (هذا مهم برشا باش تجي باهية).",
-      "في صحفة كبيرة، خلط البطاطا المرابية مع العظمات، والفرينة، وخميرة القاطو، والزيت، والملح، والفلفل الأكحل لين يتخلطوا مليح.",
-      "ادهن طبق الكوشة بالزيت مليح.",
-      "حط الخليط في الطبق المدهون وسويه مليح.",
-      "طيّبها في الكوشة حكاية 40 دقيقة، ولا لين يحمار الوجه ويتقرمش."
+      "سخن الكوشة لدرجة 180.",
+      "ارحي البطاطا (أبرشها). اعصر البطاطا المرحية مليح باش تخرج الماء الزايد (مهم برشا باش تجي شادة روحها).",
+      "في صحفة كبيرة، خلط البطاطا المرحية مع خليط دقيق الحمص والماء، الفرينة، خميرة الڨاطو، الزيت، الملح والفلفل الأكحل لين يتخلطو مليح.",
+      "ادهن طبق الكوشة مليح بالزيت.",
+      "حط الخليط في الطبق المدهون واستويه مليح.",
+      "طيبها في الكوشة حكاية 40 دقيقة، ولا لين يحمار الوجه ويولي يتقرمش."
     ],
     "en": [
       "Preheat the oven to 180°C (350°F).",
       "Grate the potatoes. Squeeze out excess liquid from the grated potatoes (straining is crucial for texture).",
-      "In a large bowl, mix the grated potatoes with the eggs, flour, baking powder, oil, salt, and black pepper until well combined.",
+      "In a large bowl, mix the grated potatoes with the chickpea flour and water mixture, flour, baking powder, oil, salt, and black pepper until well combined.",
       "Grease a baking dish or pan generously.",
       "Spread the mixture evenly into the greased pan.",
       "Bake for approximately 40 minutes, or until the top is browned and crispy."

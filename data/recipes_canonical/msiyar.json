@@ -22,12 +22,18 @@
       "name": "Bell peppers (mixed colors)",
       "amount": 3,
       "unit": "unit",
-      "preparation": "cut into strips",
+      "preparation": "cut into uniform strips",
       "notes": "Red, yellow, and orange for variety",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 3,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 3,
+          "unit": "unit"
+        },
         "volume": null,
         "original": {
           "value": 3,
@@ -40,12 +46,18 @@
       "name": "Carrots",
       "amount": 3,
       "unit": "unit",
-      "preparation": "cut into strips",
+      "preparation": "peeled and cut into strips",
       "notes": null,
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 3,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 3,
+          "unit": "unit"
+        },
         "volume": null,
         "original": {
           "value": 3,
@@ -55,15 +67,21 @@
     },
     {
       "ingredient_id": "hot_pepper",
-      "name": "Hot pepper",
+      "name": "Hot pepper (green or red)",
       "amount": 1,
       "unit": "unit",
       "preparation": "cut into long strips",
       "notes": "Adjust quantity to taste",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 1,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "unit"
+        },
         "volume": null,
         "original": {
           "value": 1,
@@ -76,12 +94,18 @@
       "name": "Lemon",
       "amount": 1,
       "unit": "unit",
-      "preparation": "peeled",
-      "notes": "Used for both juice and flesh",
+      "preparation": "peeled, juiced, and flesh chopped",
+      "notes": "Use both the juice and the chopped flesh (seeds removed)",
       "is_optional": false,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 1,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "unit"
+        },
         "volume": null,
         "original": {
           "value": 1,
@@ -94,12 +118,18 @@
       "name": "Kohlrabi",
       "amount": 1,
       "unit": "unit",
-      "preparation": "cut into strips or slices",
-      "notes": null,
+      "preparation": "peeled and cut into strips",
+      "notes": "Adds excellent crunch",
       "is_optional": true,
       "measurements": {
-        "metric": null,
-        "imperial": null,
+        "metric": {
+          "value": 1,
+          "unit": "unit"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "unit"
+        },
         "volume": null,
         "original": {
           "value": 1,
@@ -110,23 +140,23 @@
     {
       "ingredient_id": "water",
       "name": "Water",
-      "amount": null,
-      "unit": null,
+      "amount": 500,
+      "unit": "ml",
       "preparation": null,
-      "notes": "Enough to cover vegetables",
+      "notes": "Enough to cover vegetables completely",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 500,
+          "unit": "ml"
         },
         "imperial": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 2,
+          "unit": "cup"
         },
         "volume": {
-          "value": null,
-          "unit": "as_needed"
+          "value": 2,
+          "unit": "cup"
         },
         "original": {
           "value": null,
@@ -137,23 +167,23 @@
     {
       "ingredient_id": "coarse_salt",
       "name": "Coarse salt",
-      "amount": null,
-      "unit": null,
+      "amount": 2,
+      "unit": "tbsp",
       "preparation": null,
-      "notes": "To taste",
+      "notes": "Adjust to taste, but brine should be salty",
       "is_optional": false,
       "measurements": {
         "metric": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 30,
+          "unit": "g"
         },
         "imperial": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 2,
+          "unit": "tbsp"
         },
         "volume": {
-          "value": null,
-          "unit": "to_taste"
+          "value": 2,
+          "unit": "tbsp"
         },
         "original": {
           "value": null,
@@ -197,7 +227,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/062_msiyer/dish.png",
-    "prompt": "Tunisian msiyar salad, glass bowl with strips of red and yellow bell peppers, carrots, and lemon pieces in brine, bright natural lighting"
+    "prompt": "Tunisian msiyar salad, glass bowl with strips of red and yellow bell peppers, carrots, and lemon pieces in brine, bright natural lighting",
+    "generation_prompt": "A close-up, high-angle shot of a rustic, hand-thrown ceramic bowl filled with Msiyar, a vibrant Tunisian pickled vegetable salad. The bowl contains uniform strips of glossy red, yellow, and orange bell peppers mixed with bright orange carrot sticks and pale green kohlrabi slices. Small chunks of yellow lemon with the rind are scattered throughout the mix, submerged in a clear, glistening brine that catches the light. The vegetables look crisp and crunchy, emphasizing their raw freshness. The setting is an atmospheric stone kitchen in Safed from the early 1900s, featuring a textured limestone wall in the background and a worn, dark wooden table. A small clay dish of coarse salt, a vintage knife, and a few whole lemons sit nearby as props to suggest preparation. The lighting is soft, diffused daylight coming from a side window, highlighting the fresh textures of this naturally vegan appetizer and capturing the essence of a traditional North African kemia spread served in a historic home."
   },
   "tags": [
     "north-african",
@@ -254,5 +285,8 @@
       "key_difference": "Often includes vinegar and is sometimes cooked/blanched, whereas the Jewish Msiyar is often raw-cured."
     }
   ],
-  "intro_paragraph": "Msiyar, meaning \"preserved\" in Maghrebi Arabic, is a quick-pickled salad of peppers, carrots, and lemon slices cured in salt and citrus juice. Distinct from vinegar pickles, this crunchy condiment is a staple of the Djerban table. It is traditionally served as a refreshing kemia appetizer to balance rich Shabbat meals."
+  "intro_paragraph": "Msiyar derives from the Arabic root for preserving and refers to this vibrant Tunisian salad. Unlike vinegar pickles, these crunchy peppers and carrots cure in lemon juice and salt. This naturally vegan appetizer serves as a refreshing palate cleanser alongside rich stews or as part of a festive kemia spread.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

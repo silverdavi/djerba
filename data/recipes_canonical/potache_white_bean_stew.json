@@ -1,0 +1,267 @@
+{
+  "id": "potache_white_bean_stew",
+  "slug": "potache-white-bean-stew",
+  "source_file": "user_input_2024_12",
+  "name": "Potache (White Bean Stew)",
+  "name_hebrew": "פוטאצ'ה",
+  "name_origin": "The name Potache comes from the Ladino word for thick stew or potage. Also called Espesito (thick one) in some Sephardic families.",
+  "description": "A hearty white bean stew cooked in a pressure cooker with garlic, paprika, and tomato paste. The beans become creamy and absorb all the savory flavors.",
+  "cultural_context": "A Sephardic Jewish staple, this thick bean stew was brought from Spain and adapted with North African spices.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Uses vegetable bouillon instead of chicken",
+  "meta": {
+    "servings": "6",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 40,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white_beans",
+      "name": "White beans",
+      "amount": 2,
+      "unit": "cups",
+      "preparation": "soaked overnight",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 380,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 13.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cups"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "minced or crushed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "small tube",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 33,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 4,
+      "unit": "cups",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 960,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 32,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 4,
+          "unit": "cups"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Drain the soaked white beans and place in a pressure cooker.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add garlic, paprika, white pepper, bouillon powder, and salt.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add tomato paste and water. Stir to combine.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Close pressure cooker and cook until beans are soft and creamy.",
+      "time_minutes": 25,
+      "tips": "Time varies by pressure cooker"
+    }
+  ],
+  "tags": [
+    "main",
+    "legumes",
+    "sephardic",
+    "vegan"
+  ],
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "intro_paragraph": "The name Potache derives from the Ladino word for a thick potage or stew. Often called Espesito in Sephardic homes, this comforting dish relies on creamy white beans rather than meat. Our vegan version maintains the authentic texture using savory vegetable broth and aromatic spices for a hearty meal.",
+  "image": {
+    "generation_prompt": "A hyper-realistic, high-angle shot of a rustic clay bowl filled with Potache, a thick and creamy Sephardic white bean stew. The stew features a rich, warm terracotta orange hue derived from tomato paste and paprika, showcasing plump white beans that have softened to a luscious, velvety texture. A sprinkle of fresh herbs adds a pop of green. The bowl rests on a distressed, dark wooden table inside an authentic early 1900s Safed kitchen with rough-hewn limestone walls and arched alcoves typical of the region. Soft, moody natural light filters through a small iron-barred window, casting gentle shadows and highlighting the steam rising from the hot, plant-based dish. Beside the bowl, a crusty piece of artisan bread and a tarnished vintage silver spoon suggest a ready-to-eat comforting meal. In the background, blurred jars of spices, scattered dry beans, and garlic cloves add culinary context to the preparation area. The overall atmosphere is cozy, historical, and inviting, emphasizing the hearty, meat-free nature of this traditional winter comfort food served in a timeless setting."
+  },
+  "veganization_complete": true
+}

@@ -50,7 +50,7 @@
       "amount": 120,
       "unit": "ml",
       "preparation": null,
-      "notes": "1/2 cup",
+      "notes": "1/2 cup; neutral oil like canola or grapeseed",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -104,7 +104,7 @@
       "amount": 135,
       "unit": "ml",
       "preparation": null,
-      "notes": "1/2 cup + 1 tbsp",
+      "notes": "1/2 cup + 1 tbsp; or oat milk",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -131,7 +131,7 @@
       "amount": 1,
       "unit": "tsp",
       "preparation": "granules",
-      "notes": null,
+      "notes": "adds depth without strong coffee flavor",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -296,7 +296,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/042_honey_cake/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A high-resolution, appetizing close-up of a freshly baked Silan date syrup cake, presented on an antique ceramic rectangular platter within a sunlit early 1900s Safed stone kitchen. The loaf cake boasts a deep, rich mahogany brown crust, glistening with a sticky glaze of date honey that catches the warm afternoon light filtering through an arched window. A thick slice has been cut and laid flat to showcase the incredibly moist, dense, and tender crumb structure, speckled with dark aromatic spices. The setting features rough-hewn limestone walls and a worn wooden table covered by a textured beige linen runner. Beside the cake, a vintage silver knife and a small glass of steaming mint tea with fresh leaves add to the cultural context. The composition emphasizes the earthy tones of the date syrup and coffee, capturing the essence of a traditional North African Jewish dessert adapted for a modern plant-based table. The lighting is soft and directional, highlighting the sticky texture of the glaze and the steam rising from the tea."
   },
   "tags": [
     "cake",
@@ -346,5 +347,8 @@
       "key_difference": "Boulou is a crunchy biscotti-like roll or bread, whereas this is a moist loaf cake."
     }
   ],
-  "intro_paragraph": "Lior Ben Mosheh’s Silan Cake reimagines the traditional Rosh Hashanah honey cake using date syrup, known historically in Djerba as rubb but now commonly called silan. This moist, vegan loaf relies on coffee and cinnamon for depth rather than eggs or dairy, making it an ideal parve dessert to conclude a festive meat meal."
+  "intro_paragraph": "Lior Ben Mosheh’s Silan Cake adapts the classic Rosh Hashanah honey cake by using date syrup, historically known as rubb in Djerba. This naturally vegan loaf relies on coffee and cinnamon for deep flavor instead of eggs or dairy, creating a perfect parve dessert for any festive meal.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

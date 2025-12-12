@@ -9,20 +9,20 @@
   },
   "name": {
     "he": "דביח תטמטם",
-    "es": "Tbikha b'Tomatem (Estofado de Pollo y Tomate)",
-    "ar": "طبيخة بالطماطم",
-    "en": "Tbikha b'Tomatem (Chicken Tomato Stew)"
+    "es": "Tbikha b'Tomatem",
+    "ar": "طبيخة طماطم",
+    "en": "Tbikha b'Tomatem"
   },
   "description": {
-    "he": "דביח תטמטם, שמשמעותו נזיד עגבניות בערבית תוניסאית, הוא תבשיל עשיר של עוף ותפוחי אדמה המתבשלים ברוטב אדום מרוכז. בשונה ממרקים קלילים יותר, מנה זו מסתמכת על תקליה – השיטה המסורתית של טיגון רסק העגבניות בשמן – לפיתוח הצבע העמוק והטעם העשיר האופייניים למטבח היהודי הג'רבאי.",
-    "es": "Tbikha b'Tomatem, que significa ragú de tomate en árabe tunecino, es un estofado sustancioso de pollo y papas cocido a fuego lento en una salsa roja concentrada. A diferencia de los caldos más ligeros, este plato se basa en la teklia (el método tradicional de freír la pasta de tomate en aceite) para desarrollar el color profundo y el sabor rico característicos de la cocina judía de Djerba.",
-    "ar": "طبيخة بالطماطم هي مرقة عاقدة بالدجاج والبطاطا تطيب في صوص حمراء خاثرة. بخلاف المرقات الخفيفة، الطبق هذا يعتمد على التقلية - الطريقة التقليدية متاع قليان الطماطم المعجونة في الزيت - باش يعطي اللون الغامق والبنة القوية اللي تميز الماكلة اليهودية الجربية.",
-    "en": "Tbikha b'Tomatem, meaning \"tomato ragout\" in Tunisian Arabic, is a hearty stew of chicken and potatoes simmered in a concentrated red sauce. Unlike lighter broths, this dish relies on teklia—the traditional method of frying tomato paste in oil—to develop the deep color and rich flavor characteristic of Djerban Jewish cooking."
+    "he": "דביח תטמטם נגזרת מהמילה הערבית לבישול ומתייחסת לתבשיל תוניסאי סמיך. גרסה טבעונית זו מחליפה את העוף המסורתי בנתחי סייטן עשירים תוך שמירה על הרוטב האדום האופייני. המנה מתבססת על טיגון רסק העגבניות להעמקת הטעמים של קלאסיקה ג'רבאית זו.",
+    "es": "Tbikha b'Tomatem deriva de la palabra árabe para cocinar y se refiere a un ragú tunecino espeso. Esta adaptación vegana sustituye el pollo tradicional por trozos de seitán, manteniendo la salsa roja característica. El plato se basa en freír la pasta de tomate para profundizar el perfil de sabor de este clásico de Djerba.",
+    "ar": "طبيخة طماطم جاية من كلمة الطبخ، وهي مرقة تونسية عاقدة. في ها الوصفة النباتية، بدلنا الدجاج بقطع السيتان وحافظنا على الصوص الحمراء البنينة. السر في ها الأكلة الجربية هو تقلية الطماطم الحكة باش تعطي نكهة ولون قوي للمرقة.",
+    "en": "Tbikha b'Tomatem derives from the Arabic word for cooking and refers to a thick Tunisian ragout. This vegan adaptation replaces traditional chicken with hearty seitan pieces while maintaining the signature red sauce. The dish relies on frying tomato paste to deepen the flavor profile of this Djerban classic."
   },
   "ingredients": {
     "he": [
-      "45 מ\"ל שמן צמחי (לטיגון)",
-      "2 בצלים, קצוצים",
+      "45 מ\"ל שמן צמחי, לטיגון",
+      "2 בצלים, קצוצים לקוביות",
       "7 גרם פפריקה מתוקה",
       "1 עגבניה, קצוצה",
       "1 פלפל ירוק חריף, פרוס",
@@ -30,11 +30,11 @@
       "פלפל שחור לפי הטעם",
       "100 גרם רסק עגבניות",
       "3 תפוחי אדמה, חתוכים לקוביות",
-      "1000 גרם עוף, מחולק לחלקים",
-      "מים (מספיק לכיסוי)"
+      "600 גרם נתחי סייטן",
+      "מים, לכיסוי המרכיבים"
     ],
     "es": [
-      "45 ml de aceite vegetal (para freír)",
+      "45 ml de aceite vegetal, para freír",
       "2 cebollas, picadas en cubitos",
       "7 g de pimentón dulce",
       "1 tomate, picado",
@@ -42,25 +42,25 @@
       "Sal al gusto",
       "Pimienta negra al gusto",
       "100 g de pasta de tomate",
-      "3 papas, cortadas en cubos",
-      "1000 g de pollo, cortado en piezas",
-      "Agua (suficiente para cubrir)"
+      "3 patatas, cortadas en cubos",
+      "600 g de trozos de seitán",
+      "Agua, suficiente para cubrir"
     ],
     "ar": [
-      "3 مغارف زيت (للقليان)",
-      "2 بصلات، مقصوصين جويد",
-      "1 مغرفة فلفل أحمر حلو (زينة)",
+      "3 مغارف زيت، للقلي",
+      "2 بصلات، مقصوصين",
+      "1 مغرفة فلفل أحمر",
       "1 كعبة طماطم، مقصوصة",
-      "1 قرن فلفل أخضر حار، مقصوص دوائر",
+      "1 قرن فلفل أخضر حار، مقصوص",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق",
-      "6 مغارف طماطم معجونة (حكة صغيرة)",
+      "6 مغارف طماطم حكة",
       "3 كعبات بطاطا، مقصوصين مكعبات",
-      "1 كلغ دجاج، مقصوص طروف",
-      "ماء (باش نغموا الماكلة)"
+      "600 غرام سيتان",
+      "ماء، باش تغطي المكونات"
     ],
     "en": [
-      "3 tbsp vegetable oil (for frying)",
+      "3 tbsp vegetable oil, for frying",
       "2 onions, diced",
       "1 tbsp sweet paprika",
       "1 tomato, chopped",
@@ -69,42 +69,42 @@
       "Black pepper to taste",
       "6 tbsp tomato paste",
       "3 potatoes, cubed",
-      "1 kg chicken, cut into pieces",
-      "Water (enough to cover ingredients)"
+      "21 oz seitan pieces",
+      "Water, enough to cover ingredients"
     ]
   },
   "steps": {
     "he": [
-      "מחממים שמן בסיר ומטגנים את 2 הבצלים הקצוצים עד שהם נעשים שקופים.",
-      "מוסיפים את הפפריקה, ומיד לאחר מכן את העגבניה הקצוצה והפלפל החריף הפרוס. מתבלים במלח ופלפל שחור.",
+      "מחממים שמן בסיר ומטגנים את 2 הבצלים הקצוצים עד לשקיפות.",
+      "מוסיפים את הפפריקה, ומיד לאחר מכן את העגבניה הקצוצה והפלפל הירוק הפרוס. מתבלים במלח ופלפל שחור.",
       "מכסים ומבשלים על אש נמוכה כ-10 דקות לריכוך הירקות.",
-      "מוסיפים את רסק העגבניות. מערבבים היטב ומבשלים (מאדים) כ-10 דקות נוספות. שלב זה מסיר את החומציות מהרסק.",
-      "מוסיפים מים לכיסוי, את קוביות תפוחי האדמה ואת חלקי העוף. מביאים לרתיחה.",
-      "מנמיכים את האש ומבשלים עד שהעוף מוכן ותפוחי האדמה רכים."
+      "מוסיפים את רסק העגבניות. מערבבים היטב ומבשלים (מאדים) עוד 10 דקות. שלב זה מסיר את החומציות מהרסק.",
+      "מוסיפים מים לכיסוי, את קוביות תפוחי האדמה ואת נתחי הסייטן. מביאים לרתיחה.",
+      "מנמיכים את האש ומבשלים ברתיחה עדינה עד שהסייטן מוכן ותפוחי האדמה רכים."
     ],
     "es": [
       "Caliente el aceite en una olla y sofría las 2 cebollas picadas hasta que estén transparentes.",
-      "Agregue el pimentón, seguido inmediatamente por el tomate picado y el pimiento verde en rodajas. Sazone con sal y pimienta negra.",
-      "Tape y deje que la mezcla se cocine al vapor a fuego lento durante unos 10 minutos para ablandar las verduras.",
-      "Agregue la pasta de tomate. Mezcle bien y cocine (al vapor) durante otros 10 minutos. Este paso elimina la acidez de la pasta.",
-      "Agregue agua hasta cubrir, las papas en cubos y las piezas de pollo. Lleve a ebullición.",
-      "Baje el fuego y cocine a fuego lento hasta que el pollo esté cocido y las papas estén tiernas."
+      "Añada el pimentón, seguido inmediatamente por el tomate picado y el pimiento verde en rodajas. Sazone con sal y pimienta negra.",
+      "Tape y deje cocinar al vapor a fuego lento durante unos 10 minutos para ablandar las verduras.",
+      "Añada la pasta de tomate. Mezcle bien y cocine (al vapor) durante otros 10 minutos. Este paso elimina la acidez de la pasta.",
+      "Añada agua hasta cubrir, las patatas en cubos y los trozos de seitán. Lleve a ebullición.",
+      "Baje el fuego y cocine a fuego lento hasta que el seitán esté cocido y las patatas estén tiernas."
     ],
     "ar": [
-      "سخّن الزيت في طنجرة وقلي 2 بصلات مقصوصين لين يذبالوا.",
-      "زيد الفلفل الأحمر، ومباشرة وراه الطماطم المقصوصة والفلفل الأخضر. فوّح بالملح والفلفل الأكحل.",
-      "غطّي الطنجرة وخلّيها تتقلى على نار هادية حكاية 10 دقايق باش الخضرة تطرى.",
-      "زيد الطماطم المعجونة. حرّك مليح وخلّيها تتقلى (تطيب عالبخار) 10 دقايق أخرين. الخطوة هاذي تنحّي القروصية متاع الطماطم.",
-      "صب الماء باش تغم المكونات، وزيد البطاطا والدجاج. خلّي المرقة تغلي.",
-      "نقّص في النار وخلّيها تطيب سلة سلة لين الدجاج يطيب والبطاطا تولي طرية."
+      "سخن الزيت في طنجرة وقلي البصلتين المقصوصين لين يذبالو.",
+      "زيد الفلفل الأحمر، وفي-سع حط الطماطم المقصوصة وقرن الفلفل الأخضر. فوّح بالملح والفلفل الأكحل.",
+      "غطي الطنجرة وخلّيها تتقلى على نار هادية حكاية 10 دقايق باش تذبال الخضرة.",
+      "زيد طماطم الحكة. خلط مليح وخلّيها تطيب (تتقلى) 10 دقايق أخرين. هكا تتنحى القروصية متاع الطماطم.",
+      "مرّق بالماء باش تغطي الكل، ارمي كعبات البطاطا وقطع السيتان. خلّي المرقة تغلي.",
+      "نقص النار وخلّيها تطيب سلة سلة لين السيتان يطيب والبطاطا تولي طرية."
     ],
     "en": [
       "Heat oil in a pot and fry the 2 diced onions until translucent.",
       "Add the paprika, followed immediately by the chopped fresh tomato and sliced green pepper. Season with salt and black pepper.",
       "Cover and let the mixture steam/sauté on low heat for about 10 minutes to soften the vegetables.",
       "Add the tomato paste. Stir well and cook (steam) for another 10 minutes. This step removes the acidity from the paste.",
-      "Add water to cover, the cubed potatoes, and the chicken pieces. Bring to a boil.",
-      "Lower heat and simmer until the chicken is cooked through and the potatoes are tender."
+      "Add water to cover, the cubed potatoes, and the seitan pieces. Bring to a boil.",
+      "Lower heat and simmer until the seitan is cooked through and the potatoes are tender."
     ]
   }
 }

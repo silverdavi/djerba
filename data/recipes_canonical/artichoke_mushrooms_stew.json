@@ -7,7 +7,7 @@
   "name_origin": "The provided Hebrew name 'Artichoke ve Pitriot' is a modern descriptive translation. The traditional Djerban/Tunisian name for this dish is 'Gannariya' (قنارية) or 'Marqat Gannariya'. Unlike the English word 'Artichoke' (which derives from the Andalusian Arabic 'al-khurshuf'), the Tunisian word 'Gannariya' derives from the Latin 'Cynara' (or Greek 'Kinnara'), reflecting the Roman agricultural heritage of North Africa. The addition of mushrooms ('Foggâ' in dialect, though often called 'Champignon' due to French influence) suggests a later adaptation, as traditional pre-colonial stews more commonly paired artichokes with peas or fava beans. (Confidence: likely)",
   "description": "A tangy and earthy vegetable stew featuring artichoke hearts and mushrooms. Flavored with turmeric, garlic, and lemon, this dish is a staple side in North African Jewish kitchens, often served warm or at room temperature.",
   "cultural_context": "This style of vegetable stew (often called a 'tbikha' or simply a cooked salad) is typical of Tunisian and Djerban cuisine. The combination of turmeric and lemon creates a bright, yellow sauce that is characteristic of the region's non-tomato-based stews.",
-  "is_vegan": false,
+  "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken seasoning with vegetable consommé powder or salt to make this recipe vegan.",
   "meta": {
     "servings": "4",
@@ -117,12 +117,12 @@
       }
     },
     {
-      "ingredient_id": "chicken_seasoning",
-      "name": "Chicken seasoning powder",
+      "ingredient_id": "vegetable_bouillon",
+      "name": "Vegetable bouillon powder",
       "amount": 1,
       "unit": "tbsp",
       "preparation": null,
-      "notes": "Osem consommé powder or similar",
+      "notes": "Vegan chicken-style or vegetable consommé powder",
       "is_optional": false,
       "measurements": {
         "metric": {
@@ -341,7 +341,8 @@
   "variants": null,
   "image": {
     "filename": "images/current/004_artichoke_mushroom_stew/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A close-up, high-angle shot of a rustic clay bowl filled with Gannariya, a vibrant North African artichoke and mushroom stew. The dish features tender, pale-green quartered artichoke hearts and sliced brown mushrooms swimming in a rich, golden-yellow sauce colored by turmeric and lemon. Freshly chopped bright green parsley is scattered generously over the top. The stew glistens with olive oil. The bowl sits on a weathered wooden table inside an old stone kitchen in Safed, circa 1900, with soft natural light filtering through a small window, illuminating the steam rising from the warm vegetable stew. In the background, blurred stone walls and antique copper cookware suggest a traditional home cooking setting. The food looks hearty, earthy, and completely plant-based."
   },
   "tags": [
     "north-african",
@@ -395,5 +396,14 @@
       "key_difference": "Usually includes carrots and peas inside the artichoke heart; sweeter profile; lacks the turmeric intensity."
     }
   ],
-  "intro_paragraph": "Gannariya derives from the Latin *Cynara*, reflecting North Africa’s Roman agricultural heritage. Tender artichoke hearts and mushrooms simmer in a vibrant turmeric, garlic, and lemon sauce to create this tangy, earthy stew. A staple of Djerban Jewish tables, it is typically enjoyed as a cooked salad, served either warm or at room temperature."
+  "intro_paragraph": "Gannariya derives from the Latin Cynara, reflecting North Africa’s Roman heritage. This tangy stew features tender artichoke hearts and mushrooms simmered in a vibrant turmeric, garlic, and lemon sauce. Traditionally a side dish, this plant-based version captures the authentic earthy flavors of Djerban Jewish cuisine.",
+  "was_veganized": true,
+  "vegan_substitutions": [
+    {
+      "original": "Chicken seasoning powder",
+      "replacement": "Vegetable bouillon powder",
+      "notes": "Maintains savory depth without animal products"
+    }
+  ],
+  "veganization_complete": true
 }

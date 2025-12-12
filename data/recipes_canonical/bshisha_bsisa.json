@@ -301,7 +301,8 @@
   ],
   "image": {
     "filename": "images/current/008_beshisha/dish.png",
-    "prompt": null
+    "prompt": null,
+    "generation_prompt": "A rustic stone kitchen table in early 20th century Safed, bathed in warm natural light filtering through an arched window. Center stage is a handmade ceramic bowl filled with Bshisha, a textured deep golden-brown paste made of roasted ground wheat and barley. Several round energy balls formed from the mixture sit alongside the bowl on a weathered wooden board, showcasing a dense and crumbly texture. A small antique gold key rests symbolically inside the main bowl of paste, half-submerged. Surrounding the dish are small clay bowls containing whole coriander seeds, cumin, and sticky chopped dates. A vintage glass bottle of golden olive oil stands nearby, catching the light. The texture of the Bshisha looks sandy yet moist, rich with oil and aromatic spices. The background features rough limestone walls and a colorful woven tablecloth with North African patterns, evoking a traditional Jewish atmosphere within the historic Galilee setting."
   },
   "tags": [
     "north-african",
@@ -365,5 +366,8 @@
       "key_difference": "The Jewish version is ritually consumed on Rosh Chodesh Nissan (the New Year of Kings) often with a gold key placed inside to symbolize 'Parnassa' (livelihood), whereas the general version is a breakfast staple."
     }
   ],
-  "intro_paragraph": "Bshisha derives its name from the Arabic verb for moistening flour with oil. This dense, spiced paste consists of roasted ground wheat and barley blended with olive oil and sweetener. On Rosh Chodesh Nissan, Djerban families stir the mixture with a key, a ritual meant to unlock the gates of livelihood and sustenance for the year ahead."
+  "intro_paragraph": "Bshisha comes from the Arabic root for moistening flour with oil. This ancient energy food blends roasted wheat and barley with spices and dates. Traditionally eaten on Rosh Chodesh Nissan, this naturally vegan dish involves stirring the paste with a key to symbolize unlocking the gates of livelihood.",
+  "was_veganized": false,
+  "vegan_substitutions": [],
+  "veganization_complete": true
 }

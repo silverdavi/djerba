@@ -14,10 +14,10 @@
     "en": "Soly's Sourdough Bread"
   },
   "description": {
-    "he": "לחם המחמצת של סולי מסתמך על תסיסה טבעית ליצירת כיכר כפרית ופריכה. המונח מחמצת מזכיר את המנהג הג'רבאי המסורתי של שמירת חמירה - חתיכת בצק ישן - להתפחת המנה הבאה. התפחה קרה וארוכה מפתחת את הטעם העמוק והחמצמץ שהופך את הלחם הזה למצרך יומיומי חיוני.",
-    "es": "El Pan de Masa Madre de Soly se basa en la fermentación natural para crear una hogaza rústica y crujiente. El término hebreo machmetzet se refiere a la levadura agria, recordando la práctica tradicional de Djerba de conservar la khmira (un trozo de masa vieja) para fermentar el siguiente lote. Una larga fermentación en frío desarrolla el sabor profundo y ácido que hace de este pan un elemento esencial diario.",
-    "ar": "خبز الخميرة متاع سولي يعتمد على التخمير الطبيعي باش يجي خبز عربي مقرمش. كلمة مخمצת بالعبرية تعني الخميرة الحامضة، وتفكرنا بالعادة الجربية القديمة متاع تخبية الخميرة - طرف عجين بايت - باش نطلعو بيه العجنة الجاية. التخمير البارد الطويل يخلي المطعم قاوي وبنين، وهكا علاش الخبز هذا لازم في الدار كل يوم.",
-    "en": "Soly's Sourdough Bread relies on natural fermentation to create a rustic, crusty loaf. The Hebrew term machmetzet refers to the sour leaven, recalling the traditional Djerban practice of preserving khmira - a piece of old dough - to rise the next batch. A long cold proof develops the deep, tangy flavor that makes this bread a daily essential."
+    "he": "לחם המחמצת של סולי מתבסס על תסיסה טבעית להתפחה. שיטה מסורתית זו מזכירה את המנהג הג'רבאי של שמירת חמירה או בצק ישן. הלחם הכפרי הזה, שהוא טבעוני ופשוט, מתאפיין בקרום פריך ובמרקם חמצמץ המתפתח במהלך התפחה קרה ארוכה.",
+    "es": "El Pan de Masa Madre de Soly, o machmetzet en hebreo, depende de la fermentación natural para subir. Este método tradicional recuerda la práctica de Djerba de guardar khmira o masa vieja. Naturalmente vegano y simple, este pan rústico presenta una corteza crujiente y una miga ácida desarrollada a través de una larga fermentación en frío.",
+    "ar": "خبز بالخميرة متاع سولي، أو ما يسمى مخمצת بالعبرية، يعتمد على التخمير الطبيعي باش يطلع. الطريقة التقليدية هذي تفكرنا بعادة الجرابة في حفظ الخميرة أو العجينة القديمة. هذا الخبز الريفي، اللي هو نباتي وبسيط، عندو قشرة مقرمشة ولب بنين وحامض شوية يجي من التخمير البارد الطويل.",
+    "en": "Soly's Sourdough Bread, or machmetzet in Hebrew, relies on natural fermentation for its rise. This traditional method recalls the Djerban practice of keeping khmira or old dough. Naturally plant-based and simple, this rustic loaf features a crisp crust and tangy crumb developed through a long cold proof."
   },
   "ingredients": {
     "he": [
@@ -34,7 +34,7 @@
     ],
     "ar": [
       "1.25 كاس ماء، دافي",
-      "3.5 مغارف خميرة عربي، ناشطة",
+      "3.5 مغارف خميرة بلدية، ناشطة",
       "4 كيسان فرينة، فرينة خبز أو عادية",
       "2 مغارف صغار ملح"
     ],
@@ -48,42 +48,42 @@
   "steps": {
     "he": [
       "בקערה גדולה, מערבבים את המים החמימים והמחמצת יחד עד לאיחוד מלא.",
-      "מוסיפים את הקמח והמלח לתערובת הנוזלים. מערבבים ביד או בכף עד שנוצר בצק גס ולא נשאר קמח יבש.",
-      "מכסים את הקערה ומניחים בצד למנוחה של שעה אחת.",
+      "מוסיפים את הקמח והמלח לתערובת הנוזלית. מערבבים ביד או בכף עד שנוצר בצק גבישי ולא נשאר קמח יבש.",
+      "מכסים את הקערה ומניחים בצד למנוחה של שעה (אוטוליזה).",
       "לשים את הבצק היטב עד שהוא כבר לא דביק. ניתן לעשות זאת במיקסר או על ידי קיפולים ידניים.",
       "מכסים ומניחים למנוחה של 30 דקות.",
-      "מבצעים סדרת מתיחות וקיפולים: תופסים צד אחד של הבצק, מותחים אותו למעלה ומקפלים מעל המרכז. מסובבים את הקערה וחוזרים על הפעולה לכל הצדדים.",
+      "מבצעים סדרה של מתיחות וקיפולים: תופסים צד אחד של הבצק, מותחים אותו למעלה ומקפלים מעל המרכז. מסובבים את הקערה וחוזרים על הפעולה לכל הצדדים.",
       "מכסים ומניחים למנוחה של 30 דקות נוספות.",
-      "חוזרים על תהליך הקיפול והמנוחה עד להשלמת 4 עד 6 סטים של קיפולים בסך הכל.",
-      "מכסים את הקערה ומתפיחים בטמפרטורת החדר למשך כ-10 עד 12 שעות, או למשך הלילה.",
-      "מעצבים את הבצק לכיכר ומניחים בסלסלת התפחה. מכניסים למקרר למשך כ-24 שעות להתפחה קרה.",
-      "אופים לפי שיטות אפיית מחמצת רגילות (בדרך כלל בסיר יצוק שחומם מראש ל-230 מעלות צלזיוס למשך 20 דקות עם מכסה, ואז 20-25 דקות ללא מכסה)."
+      "חוזרים על תהליך הקיפול והמנוחה עד להשלמת 4 עד 6 סדרות של קיפולים בסך הכל.",
+      "מכסים את הקערה ומניחים לבצק לתפוח בטמפרטורת החדר למשך כ-10 עד 12 שעות, או למשך הלילה.",
+      "מעצבים את הבצק לכיכר ומניחים אותו בסלסלת התפחה. מכניסים למקרר למשך כ-24 שעות להתפחה קרה.",
+      "אופים לפי שיטות אפיית מחמצת רגילות (בדרך כלל בסיר יצוק מחומם מראש ב-230 מעלות למשך 20 דקות עם מכסה, ואז 20-25 דקות ללא מכסה)."
     ],
     "es": [
-      "En un bol grande, mezclar el agua tibia y la masa madre hasta que estén bien combinados.",
-      "Añadir la harina y la sal a la mezcla líquida. Mezclar a mano o con una cuchara hasta formar una masa irregular y que no quede harina seca.",
-      "Cubrir el bol y dejar reposar durante una hora.",
-      "Amasar bien la masa hasta que deje de estar pegajosa. Se puede hacer con batidora o plegando a mano.",
-      "Cubrir y dejar reposar durante 30 minutos.",
-      "Realizar una serie de estiramientos y pliegues: agarrar un lado de la masa, estirarlo hacia arriba y doblarlo sobre el centro. Girar el bol y repetir por todos los lados.",
-      "Cubrir y dejar reposar otros 30 minutos.",
-      "Repetir el proceso de plegado y reposo hasta completar de 4 a 6 series de pliegues en total.",
-      "Cubrir el bol y dejar levar a temperatura ambiente durante unas 10 a 12 horas, o toda la noche.",
-      "Dar forma de hogaza a la masa y colocarla en una cesta de fermentación. Poner en el refrigerador durante aproximadamente 24 horas para una fermentación en frío.",
-      "Hornear según los métodos estándar de masa madre (típicamente en una olla de hierro precalentada a 230°C durante 20 minutos tapado, luego 20-25 minutos destapado)."
+      "En un bol grande, mezcle el agua tibia y la masa madre hasta que estén bien combinadas.",
+      "Agregue la harina y la sal a la mezcla líquida. Mezcle a mano o con una cuchara hasta que se forme una masa irregular y no quede harina seca.",
+      "Cubra el bol y deje reposar durante una hora.",
+      "Amase bien la masa hasta que ya no esté pegajosa. Esto se puede hacer con una batidora o realizando pliegues a mano.",
+      "Cubra y deje reposar durante 30 minutos.",
+      "Realice una serie de estiramientos y pliegues: tome un lado de la masa, estírelo hacia arriba y dóblelo sobre el centro. Gire el bol y repita para todos los lados.",
+      "Cubra y deje reposar otros 30 minutos.",
+      "Repita el proceso de plegado y reposo hasta completar de 4 a 6 series de pliegues en total.",
+      "Cubra el bol y deje que la masa suba a temperatura ambiente durante unas 10 a 12 horas, o durante la noche.",
+      "Forme una hogaza con la masa y colóquela en una cesta de fermentación. Coloque en el refrigerador durante aproximadamente 24 horas para una fermentación en frío.",
+      "Hornee según los métodos estándar de masa madre (típicamente en una olla de hierro precalentada a 230°C durante 20 minutos tapada, luego 20-25 minutos destapada)."
     ],
     "ar": [
-      "في صحفة كبيرة، خلط الماء الدافي والخميرة مع بعضهم مليح.",
-      "زيد الفرينة والملح للخليط. خلط بيدك ولا بمغرفة لين تتلم العجينة وما تقعدش فرينة شايحة.",
+      "في صحفة كبيرة، خلط الماء الدافي والخميرة مع بعضهم لين يتجانسوا مليح.",
+      "زيد الفرينة والملح للخليط السائل. خلط بيدك ولا بمغرفة لين تتلم العجينة وما تبقاش فرينة شايحة.",
       "غطي الصحفة وخليها ترتاح ساعة.",
-      "اعجن العجينة مليح لين ماعادش تتلصق. تنجم تستعمل العجانة ولا تعجن بيدك.",
+      "اعجن العجينة مليح لين ما عادش تتلصق. تنجم تعمل هذا بالعجانة ولا بيدك بالطيان.",
       "غطي وخليها ترتاح 30 دقيقة.",
-      "أعمل طيات للعجينة: شد جنب متاع العجينة، جبدو لفوق واثنيه على الوسط. دور الصحفة وعاود نفس الشيء من الجهات الكل.",
+      "اعمل طيات ومתיחות: شد جنب من العجينة، جبدو للفوق واطويه على الوسط. دور الصحفة وعاود نفس الشيء لكل الجناب.",
       "غطي وخليها ترتاح 30 دقيقة أخرى.",
       "عاود عملية الطي والراحة لين تكمل 4 ولا 6 مرات في المجموع.",
-      "غطي الصحفة وخليها تخمر في بيت عادية لمدة 10 ولا 12 ساعة، ولا ليلة كاملة.",
-      "شكل العجينة خبزة وحطها في سلة تخمير. حطها في الفريجيدير لمدة 24 ساعة باش تخمر بالبارد.",
-      "طيبها كيما يطيبو خبز الخميرة (عادة في طنجرة حديد سخونة مليح على 230 درجة لمدة 20 دقيقة وهي مغطية، ومبعد 20-25 دقيقة وهي عريانة)."
+      "غطي الصحفة وخلي العجينة تخمر في حرارة الغرفة حكاية 10 ولا 12 ساعة، ولا ليلة كاملة.",
+      "شكل العجينة خبزة وحطها في سلة التخمير. حطها في الفريجيدير حكاية 24 ساعة باش تخمر بالبارد.",
+      "طيب الخبز كيف العادة (عادة في طنجرة حديد سخونة من قبل في 230 درجة لمدة 20 دقيقة وهي مغطية، ومبعد 20-25 دقيقة وهي عريانة)."
     ],
     "en": [
       "In a large bowl, mix the warm water and sourdough starter together until well combined.",
@@ -91,7 +91,7 @@
       "Cover the bowl and set aside to rest for one hour.",
       "Knead the dough well until it is no longer sticky. This can be done using a stand mixer or by performing folds by hand.",
       "Cover and let rest for 30 minutes.",
-      "Perform a set of 'stretch and folds': grab one side of the dough, stretch it up, and fold it over the center. Rotate the bowl and repeat for all sides.",
+      "Perform a set of stretch and folds: grab one side of the dough, stretch it up, and fold it over the center. Rotate the bowl and repeat for all sides.",
       "Cover and let rest for another 30 minutes.",
       "Repeat the folding and resting process until you have completed 4 to 6 sets of folds in total.",
       "Cover the bowl and allow the dough to rise at room temperature (bulk fermentation) for about 10 to 12 hours, or overnight.",

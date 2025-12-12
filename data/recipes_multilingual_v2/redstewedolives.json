@@ -9,94 +9,94 @@
   },
   "name": {
     "he": "זיתים ברוטב אדום",
-    "es": "Aceitunas Guisadas en Salsa Roja",
+    "es": "Aceitunas Guisadas Rojas",
     "ar": "زيتون طبيخ",
-    "en": "Red Stewed Olives"
+    "en": "Red Stewed Olives (Zaytun T'bikh)"
   },
   "description": {
-    "he": "זיתון - פשוט \"זית\" בערבית-יהודית - הופך זיתים ירוקים קשים לסלט מבושל ורך. תחילה חולטים אותם עם כורכום כדי למתן את המרירות, ואז מבשלים ברוטב עגבניות ושום פיקנטי. מנה זו היא מרכיב בסיסי בשולחן ה\"קמיה\" (מתאבנים), ומוגשת באופן מסורתי לצד לחם טרי בתחילת סעודת השבת.",
-    "es": "Zaytun —simplemente \"aceituna\" en judeo-árabe— transforma las aceitunas verdes firmes en una tierna ensalada cocida. Primero se blanquean con cúrcuma para atenuar su amargor, y luego se guisan en una reducción picante de tomate y ajo. Un elemento básico de la kemia, este plato sabroso se sirve tradicionalmente junto con pan fresco para comenzar la comida de Shabat.",
-    "ar": "الزيتون يولي سلطة طايبة بنينة في هالوصفة. أول حاجة نغليوه مع الكركم باش نحيوا منو المرارة، ومبعد نطيّبوه في مرقة عاقدة بالطماطم والثوم. هذا الطبق معروف في الكيمية ويتقدم عادة مع الخبز الطازج باش نبداو بيه عشاء السبت.",
-    "en": "Zaytun—simply \"olive\" in Judeo-Arabic—transforms firm green olives into a tender cooked salad. First blanched with turmeric to temper their bitterness, the olives are stewed in a piquant tomato and garlic reduction. A staple of the kemia appetizer spread, this savory dish is traditionally served alongside fresh bread to begin the Shabbat meal."
+    "he": "זיתון פירושו זית בערבית-יהודית וזהו שמו של סלט מבושל ורך זה. מוגש באופן מסורתי כחלק משולחן הקמיה, גרסה טבעונית זו מבשלת זיתים ירוקים חלוטים ברוטב עגבניות ושום עשיר. זוהי מנה ראשונה מלוחה המושלמת לניגוב עם לחם טרי.",
+    "es": "Zaytun significa aceituna en judeoárabe y da nombre a esta tierna ensalada cocida. Servida tradicionalmente como parte de la kemia, esta versión vegana cocina a fuego lento aceitunas verdes blanqueadas en una rica salsa de tomate y ajo. Es un aperitivo sabroso perfecto para acompañar con pan fresco.",
+    "ar": "الزيتون هو أساس هالسلطة المطبوخة الطرية. تتقدم عادة مع الكيمية، وهالنسخة النباتية فيها زيتون أخضر مسموط ومطبوخ في مرقة طماطم وثوم بنينة. هي مقبلات مالحة وتواتي برشا التغماس بالخبز الجديد.",
+    "en": "Zaytun means olive in Judeo-Arabic and names this tender cooked salad. Traditionally served as part of the kemia spread, this vegan version simmers blanched green olives in a rich tomato and garlic sauce. It is a savory appetizer perfect for scooping up with fresh bread."
   },
   "ingredients": {
     "he": [
-      "500 גרם זיתים ירוקים, מגולענים (מקופסה או צנצנת)",
+      "500 גרם זיתים ירוקים, מגולענים (משומרים או בצנצנת)",
       "1.5 גרם כורכום (להרתחת הזיתים)",
       "30 מ\"ל שמן צמחי (לטיגון)",
       "4 שיני שום, כתושות",
       "35 גרם רסק עגבניות",
       "7 גרם פפריקה מתוקה",
-      "5 גרם אבקת מרק עוף (או לפי הטעם)",
+      "5 גרם אבקת מרק ירקות (או אבקת מרק בטעם עוף פרווה)",
       "מלח לפי הטעם (הזיתים כבר מלוחים)",
       "פלפל שחור לפי הטעם",
       "240 מ\"ל מים (בערך)",
       "0.5 צרור כוסברה טרייה, קצוצה"
     ],
     "es": [
-      "500 g de aceitunas verdes, sin hueso (en lata o frasco)",
+      "500 g de aceitunas verdes, sin hueso (en conserva)",
       "1.5 g de cúrcuma (para hervir)",
       "30 ml de aceite vegetal (para freír)",
       "4 dientes de ajo, picados",
       "35 g de pasta de tomate",
       "7 g de pimentón dulce",
-      "5 g de condimento de pollo (o al gusto)",
+      "5 g de caldo de verduras en polvo (o condimento sabor pollo vegano)",
       "Sal al gusto (las aceitunas ya son saladas)",
       "Pimienta negra al gusto",
       "240 ml de agua (aproximadamente)",
       "0.5 manojo de cilantro fresco, picado"
     ],
     "ar": [
-      "3.5 كيسان زيتون أخضر، منحي العلفة (حكة)",
-      "نص مغرفة صغيرة كركم (للغليان)",
-      "2 مغارف زيت نباتي (للقلي)",
-      "4 سنות ثوم، مرحي",
+      "3.5 كيسان زيتون أخضر، منحي القلوب (حكة)",
+      "0.5 مغرفة صغيرة كركم (للسمطان)",
+      "2 مغارف زيت (للقلي)",
+      "4 سنات ثوم، مرحي",
       "2 مغارف طماطم حكة",
-      "1 مغرفة فلفل أحمر (زينة)",
-      "1 مغرفة صغيرة تابل دجاج / بودرة مرقة (أو حسب الذوق)",
-      "ملح حسب الذوق (الزيتون مالح ديجا)",
+      "1 مغرفة فلفل زينة (أحمر)",
+      "1 مغرفة صغيرة تابل دجاج (أو مرقة خضرة)",
+      "ملح حسب الذوق (الزيتون ديجا مالح)",
       "فلفل أكحل حسب الذوق",
-      "1 كأس ماء (تقريباً)",
-      "نص ربطة كسبر أخضر، مقصوص"
+      "1 كأس ماء (تقريب)",
+      "0.5 ربطة كسبر أخضر، مقصوص"
     ],
     "en": [
       "3.5 cups green olives, pitted (canned or jarred)",
-      "1/2 tsp turmeric (for boiling)",
+      "0.5 tsp turmeric (for boiling)",
       "2 tbsp vegetable oil (for frying)",
       "4 cloves garlic, minced",
       "2 tbsp tomato paste",
       "1 tbsp sweet paprika",
-      "1 tsp chicken seasoning / consommé powder (or to taste)",
+      "1 tsp vegetable bouillon powder (or vegan chicken-style seasoning)",
       "Salt to taste (olives are already salty)",
       "Black pepper to taste",
       "1 cup water (approximately)",
-      "1/2 bunch fresh cilantro, chopped"
+      "0.5 bunch fresh cilantro, chopped"
     ]
   },
   "steps": {
     "he": [
-      "שמים את הזיתים בסיר, מכסים במים ומוסיפים את הכורכום. מביאים לרתיחה ומבשלים כ-10-15 דקות. פעולה זו מסירה עודפי מלח ומרירות. מסננים ומניחים בצד.",
-      "בסיר קטן, מחממים את השמן ומטגנים את השום הכתוש בקצרה עד שיעלה ריח (לא לשרוף).",
-      "מוסיפים את רסק עגבניות והתבלינים (פפריקה, מלח, פלפל, אבקת מרק). מערבבים היטב לפתיחת טעמי התבלינים.",
-      "מוסיפים מים (כ-240 מ\"ל) ליצירת רוטב ומביאים לרתיחה עדינה.",
-      "מוסיפים את הזיתים המסוננים לרוטב. מכסים ומבשלים על אש נמוכה כ-15-20 דקות עד שהרוטב מסמיך ועוטף את הזיתים.",
-      "מסירים מהאש ומערבבים פנימה את הכוסברה הקצוצה לפני ההגשה."
+      "הניחו את הזיתים בסיר, כסו במים והוסיפו את הכורכום. הביאו לרתיחה ובשלו כ-10-15 דקות. פעולה זו מסירה עודפי מלח ומרירות. סננו והניחו בצד.",
+      "בסיר קטן, חממו את השמן וטגנו את השום הכתוש קלות עד שיעלה ריח (אל תשרפו).",
+      "הוסיפו את רסק העגבניות והתבלינים (פפריקה, מלח, פלפל, אבקת מרק). ערבבו היטב לפתיחת טעמי התבלינים.",
+      "הוסיפו מים (כ-240 מ\"ל) ליצירת רוטב והביאו לרתיחה עדינה.",
+      "הוסיפו את הזיתים המסוננים לרוטב. כסו ובשלו על אש נמוכה כ-15-20 דקות עד שהרוטב מסמיך ועוטף את הזיתים.",
+      "הורידו מהאש וערבבו פנימה את הכוסברה הקצוצה לפני ההגשה."
     ],
     "es": [
       "Coloque las aceitunas en una olla, cubra con agua y añada la cúrcuma. Lleve a ebullición y cocine durante unos 10-15 minutos. Esto elimina el exceso de sal y el amargor. Escurra y reserve.",
-      "En una cacerola, caliente el aceite y sofría el ajo picado brevemente hasta que esté fragante (no lo queme).",
-      "Añada la pasta de tomate y las especias (pimentón, sal, pimienta, condimento de pollo). Mezcle bien para liberar los sabores de las especias.",
+      "En una cacerola, caliente el aceite y fría el ajo picado brevemente hasta que esté fragante (no lo queme).",
+      "Añada la pasta de tomate y las especias (pimentón, sal, pimienta, condimento de pollo). Remueva bien para liberar los sabores de las especias.",
       "Añada agua (aprox. 240 ml) para crear una salsa y lleve a fuego lento.",
       "Añada las aceitunas escurridas a la salsa. Tape y cocine a fuego lento durante unos 15-20 minutos hasta que la salsa espese y cubra las aceitunas.",
-      "Retire del fuego y mezcle con el cilantro picado antes de servir."
+      "Retire del fuego e incorpore el cilantro picado antes de servir."
     ],
     "ar": [
-      "حط الزيتون في طنجرة، غطيه بالماء وزيد الكركم. خليه يغلي ويطيب حكاية 10-15 دقيقة. هكا تتنحى الملوحية والمرارة الزايدة. صفيه وخليه على شيرة.",
-      "في كسرونة، سخن الزيت وقلي الثوم المرحي شوية لين تطلع ريحتو (رد بالك تحرقو).",
-      "زيد طماطم الحكة والفاحات (فلفل أحمر، ملح، فلفل أكحل، تابل دجاج). حرك مليح باش الفاحات تخرج بنتها.",
+      "حط الزيتون في طنجرة، غمه بالماء وزيد الكركم. خليه يغلي وطيبه حكاية 10-15 دقيقة. هكا يتنحى الملح الزايد والمرارة. صفيه وخليه على شيرة.",
+      "في طنجرة، سخن الزيت وقلي الثوم المرحي شوية لين تطلع ريحته (رد بالك يتحرق).",
+      "زيد طماطم الحكة والفاحات (فلفل زينة، ملح، فلفل أكحل، تابل دجاج). حرك مليح باش الفاحات تخرج بنتها.",
       "زيد الماء (حكاية كأس) باش تعمل مرقة وخليها تغلي شوية.",
-      "ارمي الزيتون المصفى في المرقة. غطي الطنجرة وخليه يطيب على نار هادية حكاية 15-20 دقيقة لين المرقة تعقاد وتشرب الزيتون.",
-      "نحيها من فوق النار وخلط معاها الكسبر المقصوص قبل ما تقدمها."
+      "ارمي الزيتون المصفى في المرقة. غطي الطنجرة وطيّب على نار هادية حكاية 15-20 دقيقة لين المرقة تعقاد وتشرب الزيتون.",
+      "نحيها من النار وخلط معاها الكسبر المقصوص قبل ما تقدمها."
     ],
     "en": [
       "Place the olives in a pot, cover with water, and add the turmeric. Bring to a boil and cook for about 10-15 minutes. This removes excess salt and bitterness. Drain and set aside.",
