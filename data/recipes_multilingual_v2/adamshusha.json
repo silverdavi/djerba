@@ -1,0 +1,102 @@
+{
+  "id": "adamshusha",
+  "image": "images/current/002_admeshushah/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "אדמשושה",
+    "es": "Adamshusha (Sopa Tunecina de Huevo)",
+    "ar": "أدمشوشة (مرقة عظم تونسية)",
+    "en": "Adamshusha (Tunisian Egg Drop Soup)"
+  },
+  "description": {
+    "he": "אדמשושה היא מרק תוניסאי כפרי הכולל ביצים עלומות בציר עגבניות ובצל עשיר. שמה משלב את המילים בניב המקומי ל\"ביצה\" ו\"ציצית\", ומתאר בציוריות כיצד החלבונים נפרסים לרצועות דקיקות. זהו מאכל מנחם אהוב בג'רבה, העושה שימוש במצרכי מזווה בסיסיים ליצירת ארוחה מהירה ומזינה הדומה לשקשוקה נוזלית.",
+    "es": "Adamshusha es una sopa rústica tunecina con huevos escalfados en un sabroso caldo de tomate y cebolla. Su nombre combina las palabras del dialecto local para \"huevo\" y \"borla\", describiendo vívidamente cómo las claras se deshilachan en hebras finas. Una comida reconfortante muy querida en Djerba, utiliza ingredientes básicos de la despensa para crear una comida rápida y nutritiva similar a una shakshuka caldosa.",
+    "ar": "الأدمشوشة هي مرقة تونسية زمنية تتكون من عظم مروب في مرقة طماطم وبصل بنينة. اسمها يجمع بين كلمة \"عظمة\" وكلمة \"شوشة\"، ويوصف كيفاش أبيض العظم يتحل ويولي كي الخيوط. هي أكلة محبوبة برشا في جربة، وتتحضر بمكونات بسيطة موجودة في كل دار باش تعمل وجبة خفيفة ومغذية تشبه للشكشوكة الجارية.",
+    "en": "Adamshusha is a rustic Tunisian soup featuring eggs poached in a savory tomato and onion broth. Its name combines the local dialect words for \"egg\" and \"tassel,\" vividly describing how the whites feather out into wispy strands. A beloved Djerban comfort food, it utilizes humble pantry staples to create a quick, nourishing meal similar to a soupy shakshuka."
+  },
+  "ingredients": {
+    "he": [
+      "30 מ\"ל שמן צמחי (לטיגון)",
+      "1 בצל, חתוך לקוביות (בינוני)",
+      "7 גרם פפריקה מתוקה",
+      "1 עגבניה, קצוצה (טרייה)",
+      "1 פלפל חריף, קצוץ דק (קטן מאוד)",
+      "מלח לפי הטעם",
+      "1000 מ\"ל מים (בערך)",
+      "2 תפוחי אדמה, חתוכים לקוביות (קטנות)",
+      "4 ביצים (שלמות)"
+    ],
+    "es": [
+      "30 ml de aceite vegetal (para freír)",
+      "1 cebolla, cortada en cubitos (mediana)",
+      "7 g de pimentón dulce",
+      "1 tomate, picado (fresco)",
+      "1 chile picante, picado fino (muy pequeño)",
+      "Sal al gusto",
+      "1000 ml de agua (aproximadamente)",
+      "2 papas, cortadas en cubos (pequeños)",
+      "4 huevos (enteros)"
+    ],
+    "ar": [
+      "2 مغارف زيت نباتي (للقلي)",
+      "1 بصلة، مقصوصة (متوسطة)",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "1 كعبة طماطم، مقصوصة (فرشك)",
+      "1 فلفل حار، مقصوص جويد (صغير برشا)",
+      "ملح حسب الذوق",
+      "4 كيسان ماء (تقريباً)",
+      "2 كعبات بطاطا، مقصوصين مكعبات (صغار)",
+      "4 عظمات (كاملين)"
+    ],
+    "en": [
+      "2 tbsp vegetable oil (for frying)",
+      "1 onion, diced (medium size)",
+      "1 tbsp sweet paprika",
+      "1 tomato, chopped (fresh)",
+      "1 hot pepper, minced (very small)",
+      "Salt to taste",
+      "4.2 cups water (approximate)",
+      "2 potatoes, cubed (small cubes)",
+      "4 eggs (whole)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים את השמן בסיר ומטגנים את הבצל הקצוץ עד לשקיפות.",
+      "מוסיפים את הפפריקה המתוקה, העגבניה הקצוצה והפלפל החריף הקטן. מתבלים במעט מלח.",
+      "מטגנים את התערובת בעדינות (מאדים מעט) כדי לרכך את הירקות.",
+      "מוסיפים מים ומביאים לרתיחה. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת ומבשלים עד שהם רכים.",
+      "ברגע שהמרק רותח, שוברים בזהירות ביצים שלמות ישירות לתוך הנוזל.",
+      "מבשלים כ-10 דקות עד שחלבון הביצה מתייצב לחלוטין, אך החלמון נשאר לפי העדפתכם."
+    ],
+    "es": [
+      "Caliente el aceite en una olla y sofría la cebolla picada hasta que esté transparente.",
+      "Añada el pimentón dulce, el tomate picado y el chile picante pequeño. Sazone con un poco de sal.",
+      "Sofría la mezcla suavemente (cocine al vapor ligeramente) para ablandar las verduras.",
+      "Añada el agua y lleve a ebullición. Si usa papas, añádalas ahora y cocine hasta que estén tiernas.",
+      "Una vez que la sopa esté hirviendo, rompa con cuidado los huevos enteros directamente en el caldo.",
+      "Cocine durante unos 10 minutos hasta que las claras estén completamente cuajadas pero las yemas estén a su gusto."
+    ],
+    "ar": [
+      "سخن الزيت في طنجرة وقلي البصل المقصوص لين يذبال.",
+      "زيد الفلفل الأحمر (الزينة)، والطماطم المقصوصة، والفلفل الحار الصغير. فوّح بشوية ملح.",
+      "قلي الخليط بالشوية (خليه يتقلى في بخارو) باش تذبال الخضرة.",
+      "زيد الماء وخلي المرقة تغلي. كان باش تحط بطاطا، ارميها توة وخليها تطيب لين تطرى.",
+      "كيف تغلي المرقة، فقّص العظمات كعبات كاملين ديريكت في وسط المرقة.",
+      "طيبها حكاية 10 دقايق لين أبيض العظم يطيب مليح، والأصفر يقعد كيما تحب."
+    ],
+    "en": [
+      "Heat the oil in a pot and sauté the diced onion until translucent.",
+      "Add the sweet paprika, chopped tomato, and the small hot pepper. Season with a little salt.",
+      "Sauté the mixture gently (steam slightly) to soften the vegetables.",
+      "Add water and bring to a boil. If using potatoes, add them now and cook until they are tender.",
+      "Once the soup is boiling, carefully crack whole eggs directly into the broth.",
+      "Cook for about 10 minutes until the egg whites are fully set but yolks are to your preference."
+    ]
+  }
+}

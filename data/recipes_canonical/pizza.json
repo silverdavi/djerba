@@ -1,0 +1,382 @@
+{
+  "id": "pizza",
+  "slug": "pizza",
+  "source_file": "data/safed_recipes/pizza.json",
+  "name": "Home-Style Tuna Pizza",
+  "name_hebrew": "פיצה",
+  "name_origin": "The term 'Pizza' is of Italian origin, universally adopted. However, in the context of North African Jewish cuisine (specifically Tunisia and Djerba), the inclusion of this dish reflects the profound influence of the Italian community (Livornese Jews and Sicilian immigrants) in Tunisia during the 19th and 20th centuries. The specific combination described—tuna and olives—is the hallmark of 'Pizza Tunisienne' (Pizza au thon). The use of 'chicken consommé powder' (likely parve/imitation to maintain Kashrut if cheese is used, or simply for umami in a cheeseless version) indicates a modern Israeli-Maghrebi adaptation, as this is a staple pantry ingredient in Israeli households used to season tomato bases.",
+  "description": "A quick, home-style pizza using prepared bread dough. This version features a savory tomato sauce seasoned with chicken consommé powder and is topped with tuna and olives, a classic combination in North African and Israeli households.",
+  "cultural_context": "In Tunisian and Israeli home cooking, pizza is frequently topped with canned tuna and olives rather than pepperoni. The use of 'chicken seasoning' (pareve consommé powder) in the tomato sauce is a distinctively Israeli/North African hack to add umami and depth to quick sauces.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Omit the tuna or replace with vegan tuna alternative. Ensure the chicken seasoning is pareve (vegan) or use vegetable bouillon.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bread_dough",
+      "name": "Bread dough",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "ready-made",
+      "notes": "Or pizza dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Base for the sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 6,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "To dilute tomato paste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_consomme_powder",
+      "name": "Chicken seasoning powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Pareve soup mix/bouillon powder",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dried_oregano",
+      "name": "Dried oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "canned_tuna",
+      "name": "Canned tuna",
+      "amount": 160,
+      "unit": "g",
+      "preparation": "drained and flaked",
+      "notes": "1 standard can",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 160,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 160,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pitted_olives",
+      "name": "Green or black olives",
+      "amount": 50,
+      "unit": "g",
+      "preparation": "sliced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 200°C (400°F). Line a baking sheet with parchment paper.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Roll out the bread dough on the prepared baking sheet to your desired thickness.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a small bowl, mix the tomato paste, water, olive oil, chicken seasoning powder, garlic powder, oregano, and a pinch of salt to create a smooth sauce.",
+      "time_minutes": 3,
+      "tips": "If the sauce is too thick, add a little more water."
+    },
+    {
+      "step": 4,
+      "instruction": "Spread the sauce evenly over the dough.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Scatter the drained tuna and sliced olives over the sauce.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 15-20 minutes, or until the crust is golden brown and crispy.",
+      "time_minutes": 20,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/072_pizza/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "baking",
+    "dinner",
+    "kids-friendly",
+    "tunisian",
+    "israeli"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "pizzo (Langobardic) or pinsere (Latin)",
+    "meaning": "Bite/mouthful (Langobardic) or to pound/stamp (Latin)",
+    "confidence": "confirmed",
+    "notes": "While the word is Italian, the dish is a staple of Tunisian street food and home cooking. The Djerban Jewish version distinguishes itself by strict Kosher adherence (often using parve flavor enhancers) and the specific 'home-style' use of bread dough rather than standard pizza dough."
+  },
+  "alternative_names": [
+    {
+      "name": "Pizza Tunisienne",
+      "language": "french",
+      "notes": "The standard name for this variation in Tunisia, defined by the mandatory inclusion of tuna."
+    },
+    {
+      "name": "Pizza b'thon",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Pizza with tuna'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Coca / Cocas",
+      "culture": "Algerian / Tunisian / Pied-Noir",
+      "similarity": "A savory turnover or covered pie often filled with a similar tomato-pepper-onion mixture (tchouktchouka) and sometimes tuna.",
+      "key_difference": "Cocas are usually enclosed pastries (turnovers) rather than open-faced flatbreads."
+    },
+    {
+      "name": "Pissaladière",
+      "culture": "French (Provençal/Niçoise)",
+      "similarity": "A dough-based savory tart topped with olives and fish (anchovies).",
+      "key_difference": "Uses caramelized onions instead of a tomato base; uses anchovies instead of tuna."
+    },
+    {
+      "name": "Sfiha / Lahmacun",
+      "culture": "Levantine / Turkish",
+      "similarity": "Open-faced flatbread with savory toppings.",
+      "key_difference": "These are traditionally topped with minced meat (lamb/beef) and spices, not tuna and olives."
+    }
+  ],
+  "intro_paragraph": "Home-Style Tuna Pizza highlights the profound influence of Italian immigrants on Tunisian cuisine. Instead of cured meats, this version features the region’s signature topping of canned tuna and olives. The sauce utilizes a distinctively Djerban and Israeli kitchen hack, adding pareve chicken consommé powder to the tomato base for a quick, savory depth of flavor."
+}

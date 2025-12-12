@@ -1,0 +1,106 @@
+{
+  "id": "yoyotunisiandoughnuts",
+  "image": "images/current/093_yoyo/dish.png",
+  "meta": {
+    "servings": "20-25 units",
+    "prep_time": "45 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "יויו",
+    "es": "Yoyo",
+    "ar": "يويو",
+    "en": "Yoyo (Tunisian Doughnuts)"
+  },
+  "description": {
+    "he": "יויו—הנקראות על שם הצעצוע שהפך לפופולרי בתקופת השלטון הצרפתי—הן סופגניות דחוסות המזכירות עוגה, המהוות חלק מרכזי בחגיגות יהודי ג'רבה. בשונה ממאפים על בסיס שמרים, הבצק מזכיר במרקמו עוגייה לפני הטיגון העמוק והטבילה בסירופ בניחוח תפוז. טבעות זהובות ומתוקות אלו הן מאכל אהוב בחתונות ובחגיגות חנוכה.",
+    "es": "Los Yoyos, llamados así por el juguete popularizado durante la era colonial francesa, son rosquillas densas tipo pastel, centrales en las festividades judías de Djerba. A diferencia de la masa con levadura, esta masa se asemeja a la textura de una galleta antes de freírse y bañarse en almíbar con aroma a naranja. Estos dulces anillos dorados son un elemento básico en bodas y celebraciones de Hanukkah.",
+    "ar": "اليويو، اللي تسمى على اسم اللعبة اللي تشهرت وقت الاستعمار الفرنسي، هو نوع متاع كعك مقلي ومهم برشة في احتفالات يهود جربة. العجينة متاعو تشبه للبشكوطو وما فيهاش خميرة خبز، وتتقلى في الزيت ومبعد تتشحّر في سيرو (sh'our) فيه ريحة البرتقال. هالكعك الحلو والذهبي محبوب برشة ويتحضر ديما في الأعراس واحتفالات الحنوكا.",
+    "en": "Yoyos—named after the toy popularized during the French colonial era—are dense, cake-like doughnuts central to Djerban Jewish festivities. Unlike yeasted pastries, this dough resembles a cookie texture before being deep-fried and drenched in orange-scented syrup. These sweet, golden rings are a beloved staple at weddings and Hanukkah celebrations."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם קמח רגיל, ועוד קצת לקימוח",
+      "100 גרם סוכר (לבצק)",
+      "120 מ\"ל שמן צמחי (לבצק)",
+      "3 ביצים גדולות",
+      "120 מ\"ל מיץ תפוזים, סחוט טרי",
+      "5 מ\"ל תמצית וניל (או שקית סוכר וניל)",
+      "1 ליטר שמן צמחי (לטיגון עמוק)",
+      "400 גרם סוכר (לסירופ)",
+      "240 מ\"ל מים (לסירופ)",
+      "15 מ\"ל מיץ לימון (לסירופ)"
+    ],
+    "es": [
+      "500 g de harina común, y más para espolvorear",
+      "100 g de azúcar (para la masa)",
+      "120 ml de aceite vegetal (para la masa)",
+      "3 huevos grandes",
+      "120 ml de jugo de naranja, recién exprimido",
+      "5 ml de extracto de vainilla (o 1 sobre de azúcar avainillado)",
+      "1 L de aceite vegetal (para freír)",
+      "400 g de azúcar (para el almíbar)",
+      "240 ml de agua (para el almíbar)",
+      "15 ml de jugo de limón (para el almíbar)"
+    ],
+    "ar": [
+      "4 كيسان فرينة، وشوية آخرين للرش",
+      "نص كاس سكر (للعجينة)",
+      "نص كاس زيت (للعجينة)",
+      "3 عظمات كبار",
+      "نص كاس عصير بردقان، فريشك",
+      "مغرفة صغيرة فانيليا (أو ساشي سكر فانيليا)",
+      "4 كيسان زيت (للقلي)",
+      "2 كيسان سكر (للشحور)",
+      "كاس ماء (للشحور)",
+      "مغرفة قارص (للشحور)"
+    ],
+    "en": [
+      "4 cups all-purpose flour, plus more for dusting",
+      "1/2 cup sugar (for the dough)",
+      "1/2 cup vegetable oil (for the dough)",
+      "3 large eggs",
+      "1/2 cup orange juice, freshly squeezed",
+      "1 tsp vanilla extract (or 1 packet vanilla sugar)",
+      "4 cups vegetable oil (for deep frying)",
+      "2 cups sugar (for the syrup)",
+      "1 cup water (for the syrup)",
+      "1 tbsp lemon juice (for the syrup)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה גדולה, מערבבים את הקמח, 100 גרם סוכר, 120 מ\"ל שמן, הביצים, מיץ התפוזים והווניל.",
+      "לשים עד לקבלת בצק רך ולא דביק. מכסים ומניחים למנוחה של 30 דקות.",
+      "בזמן שהבצק נח, מכינים את הסירופ: בסיר, מערבבים 400 גרם סוכר, מים ומיץ לימון. מבשלים כ-7 דקות עד שהסירופ מסמיך מעט.",
+      "יוצרים מהבצק כדורים קטנים, ואז יוצרים חור במרכז כל כדור ליצירת צורת טבעת.",
+      "מחממים שמן לטיגון עמוק בסיר. מטגנים את הטבעות עד להזהבה משני הצדדים.",
+      "מוציאים מהשמן ומסננים בקצרה על נייר סופג, ואז טובלים בסירופ המוכן בעודן חמות."
+    ],
+    "es": [
+      "En un bol grande, mezclar la harina, 100 g de azúcar, 120 ml de aceite, los huevos, el jugo de naranja y la vainilla.",
+      "Amasar hasta obtener una masa suave y no pegajosa. Cubrir y dejar reposar durante 30 minutos.",
+      "Mientras la masa reposa, preparar el almíbar: combinar 400 g de azúcar, el agua y el jugo de limón en una olla. Cocinar unos 7 minutos hasta que espese ligeramente.",
+      "Formar bolas pequeñas con la masa, luego hacer un agujero en el centro de cada una para formar un anillo.",
+      "Calentar el aceite para freír en una sartén profunda. Freír los anillos hasta que estén dorados por ambos lados.",
+      "Retirar del aceite y escurrir brevemente sobre papel absorbente, luego sumergir en el almíbar preparado mientras aún están calientes."
+    ],
+    "ar": [
+      "في صحفة كبيرة، خلط الفرينة، ونص كاس سكر، ونص كاس زيت، والعظمات، وعصير البردقان، والفانيليا.",
+      "اعجن مليح لين تولي العجينة طرية وما تتلصقش. غطيها وخليها ترتاح 30 دقيقة.",
+      "في الوقت اللي العجينة ترتاح فيه، حضّر الشحور: حط 2 كيسان سكر، والماء، والقارص في طنجرة. طيّبهم حكاية 7 دقايق لين يعقاد شوية.",
+      "كعبر العجينة كعابر صغار، ومبعد انقبهم في الوسط باش تعمل شكل كعكة.",
+      "سخّن الزيت في طنجرة غارقة. اقلي الكعك لين يحمار ويولي ذهبي من الشيرتين.",
+      "خرّجهم من الزيت وقطّرهم شوية، ومبعد غطّسهم في الشحور وهوما مازالوا سخونين."
+    ],
+    "en": [
+      "In a large bowl, mix the flour, 1/2 cup sugar, 1/2 cup oil, eggs, orange juice, and vanilla.",
+      "Knead until you have a soft, non-sticky dough. Cover and let it rest for 30 minutes.",
+      "While the dough rests, prepare the syrup: Combine 2 cups sugar, water, and lemon juice in a pot. Cook for about 7 minutes until slightly thickened.",
+      "Form the dough into small balls, then create a hole in the center of each to form a ring shape.",
+      "Heat the frying oil in a deep pan. Fry the rings until golden brown on both sides.",
+      "Remove from oil and drain briefly on paper towels, then dip them into the prepared syrup while still warm."
+    ]
+  }
+}

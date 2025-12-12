@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is a direct derivation of the Arabic word for semolina, 'Samid' (سميد). In North African dialects (Derja), the vowels are often dropped or shortened, resulting in the pronunciation 'Smid'. The Hebrew spelling provided (שמיד - Shmid) likely reflects a specific Djerban Jewish pronunciation or transliteration convention where the 'S' sound is represented by the letter Shin (ש) or pronounced with a palatal 'Sh' sound in the local dialect. Naming a simple porridge solely after its main ingredient is a common convention in Maghrebi cuisine (e.g., 'Bsis' for the barley dish).",
+    "language_source": "tunisian_arabic",
+    "root_word": "Samid (سميد)",
+    "meaning": "Semolina (specifically fine durum wheat semolina)",
+    "confidence": "likely",
+    "sources_notes": "Linguistic derivation is strong as 'Smid' is the universal Maghrebi word for the ingredient described. The shift from 'S' to 'Sh' (Shmid) is likely a specific Djerban Judeo-Arabic dialectal shift or a Hebraized spelling quirk, as standard Tunisian Arabic is 'Smid'."
+  },
+  "alternative_names": [
+    {
+      "name": "Smid",
+      "language": "tunisian_arabic",
+      "notes": "The standard pronunciation in non-Jewish Tunisian dialects."
+    },
+    {
+      "name": "Hsou",
+      "language": "tunisian_arabic",
+      "notes": "The generic name for a savory, spicy semolina soup/porridge in Tunisia, which 'Shmid' appears to be a variant of."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Hsou / Hasu",
+      "culture": "Tunisian (General/Muslim)",
+      "similarity": "A savory soup made from semolina flour, garlic, harissa, caraway, and sometimes dried mint.",
+      "key_difference": "Often includes meatballs or preserved meat (gedid) in the Muslim version; the Jewish 'Shmid' described is likely a parve or dairy variation depending on the meal."
+    },
+    {
+      "name": "Assida",
+      "culture": "North African (Maghreb)",
+      "similarity": "A cooked semolina dough/porridge.",
+      "key_difference": "Assida is usually cooked to a much thicker, dough-like consistency and is often served sweet (with honey/butter) or with a savory red sauce, whereas Shmid is described as a soup/porridge similar to Mhamsa."
+    },
+    {
+      "name": "Chorba Semoule",
+      "culture": "Algerian",
+      "similarity": "A soup thickened with fine semolina.",
+      "key_difference": "Often includes milk and vegetables, whereas the Djerban version focuses on the savory spice profile common to Mhamsa."
+    }
+  ]
+}

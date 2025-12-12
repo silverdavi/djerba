@@ -1,0 +1,122 @@
+{
+  "id": "granola_cookies",
+  "image": "images/current/036granolacookies/dish.png",
+  "meta": {
+    "servings": "25-30 cookies",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגיות גרנולה",
+    "es": "Galletas de Granola",
+    "ar": "كوكيز الجرانولا",
+    "en": "Granola Cookies"
+  },
+  "description": {
+    "he": "עוגיות גרנולה משלבות את המילה העברית המודרנית לעוגיות - שמקורה בשורש תנ\"כי שמשמעותו עגול - עם מאכל הבוקר האמריקאי. עוגיות שיבולת שועל לעיסות אלו עמוסות באגוזי מלך, צימוקים ושוקולד צ'יפס. למרות שזו תוספת מערבית מודרנית לרפרטואר המשפחתי, המרקם העשיר והסוכר החום הכהה הופכים אותן למאכל אהוב לצד המתוקים המסורתיים.",
+    "es": "Las Ugiot Granola combinan la palabra hebrea moderna para galletas, derivada de una raíz bíblica que significa redondo, con el desayuno básico americano. Estas galletas de avena masticables están repletas de nueces, pasas y chispas de chocolate. Aunque son una adición occidental moderna al repertorio familiar, su textura sustanciosa y la riqueza del azúcar moreno oscuro las convierten en un alimento básico querido junto con los dulces tradicionales.",
+    "ar": "هالكوكيز يجمعوا بين الكلمة العبرية \"عوجيوت\" اللي تعني مدوّر، وبين فطور الصباح الأمريكي المعروف. كعك الشوفان هذا يجي طري ومعبّي بالجوز والزبيب وشوكولا \"بيبيت\". بالرغم اللي هي وصفة غربية عصرية زادتها العايلة، أما بنتها وقوامها الغني بالسكر الأكحل يخليها محبوبة برشا بحذا الحلويات التقليدية متاعنا.",
+    "en": "Ugiot Granola combines the Modern Hebrew word for cookies—derived from a Biblical root meaning \"round\"—with the American breakfast staple. These chewy oatmeal cookies are packed with walnuts, raisins, and chocolate chips. Though a modern Western addition to the family repertoire, their hearty texture and dark brown sugar richness make them a beloved staple alongside traditional sweets."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם חמאה, רכה",
+      "150 גרם סוכר לבן",
+      "300 גרם סוכר חום כהה, דחוס",
+      "2 ביצים",
+      "1 חלמון ביצה (בנוסף לביצים השלמות)",
+      "280 גרם קמח רגיל",
+      "5 גרם סודה לשתייה",
+      "2.6 גרם קינמון",
+      "3 גרם מלח",
+      "350 גרם שיבולת שועל שלמה",
+      "100 גרם אגוזי מלך, קצוצים גס",
+      "150 גרם צימוקים",
+      "200 גרם שוקולד צ'יפס"
+    ],
+    "es": [
+      "250 g de mantequilla, ablandada",
+      "150 g de azúcar blanca",
+      "300 g de azúcar moreno oscuro, compactado",
+      "2 huevos",
+      "1 yema de huevo (adicional a los huevos enteros)",
+      "280 g de harina común",
+      "5 g de bicarbonato de sodio",
+      "2.6 g de canela",
+      "3 g de sal",
+      "350 g de avena en hojuelas",
+      "100 g de nueces, picadas en trozos grandes",
+      "150 g de pasas",
+      "200 g de chispas de chocolate"
+    ],
+    "ar": [
+      "1.1 كيسان زبدة، طرية",
+      "3/4 كاس سكر أبيض",
+      "1.5 كيسان سكر أسمر غامق",
+      "2 عظمات",
+      "أصفر عظمة (زايد على العظمات لخرين)",
+      "2.25 كيسان فرينة",
+      "مغرفة صغيرة بيكربونات",
+      "مغرفة صغيرة قرفة",
+      "نص مغرفة صغيرة ملح",
+      "3.5 كيسان شوفان",
+      "كاس جوز (زوزة)، مهروش",
+      "كاس زبيب",
+      "1.2 كيسان شوكولا \"بيبيت\""
+    ],
+    "en": [
+      "1.1 cups butter, softened",
+      "3/4 cup white sugar",
+      "1.5 cups dark brown sugar, packed",
+      "2 eggs",
+      "1 egg yolk (additional to the whole eggs)",
+      "2.25 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp cinnamon",
+      "1/2 tsp salt",
+      "3.5 cups rolled oats",
+      "1 cup walnuts, coarsely chopped",
+      "1 cup raisins",
+      "1.2 cups chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-160 מעלות צלזיוס.",
+      "במיקסר עם וו גיטרה, מעבדים את החמאה הרכה ושני סוגי הסוכר במהירות בינונית עד לקבלת תערובת קרמית.",
+      "מוסיפים את חלמון הביצה ואת הביצים השלמות אחת אחת, ומערבבים עד שהתערובת אחידה.",
+      "מנמיכים את מהירות המיקסר. מוסיפים את הקמח, הסודה לשתייה, הקינמון והמלח. מעבדים רק עד לקבלת בצק אחיד (לא לערבב יותר מדי).",
+      "מוסיפים את שיבולת השועל, אגוזי המלך, הצימוקים והשוקולד צ'יפס. מערבבים קצרות רק כדי לפזר אותם באופן שווה בתערובת.",
+      "בעזרת שתי כפות, מניחים תלוליות מהתערובת על תבנית אפייה מרופדת בנייר אפייה, תוך שמירה על מרווחים ביניהן.",
+      "אופים במשך 18-20 דקות בלבד, עד שהעוגיות משתטחות מעט ומזהיבות. העוגיות מוכנות כשהשוליים יציבים אך המרכז עדיין רך ובהיר. הן יתייצבו כשהן מתקררות."
+    ],
+    "es": [
+      "Precalentar el horno a 160°C.",
+      "En una batidora con el accesorio de pala, procesar la mantequilla ablandada y ambos tipos de azúcar a velocidad media hasta obtener una mezcla cremosa.",
+      "Añadir la yema de huevo y los huevos enteros uno por uno, mezclando hasta que la mezcla sea uniforme.",
+      "Bajar la velocidad de la batidora. Añadir la harina, el bicarbonato, la canela y la sal. Procesar solo hasta que se forme una masa uniforme (no mezclar en exceso).",
+      "Añadir la avena, las nueces, las pasas y las chispas de chocolate. Mezclar brevemente solo para distribuirlos uniformemente en la mezcla.",
+      "Usando dos cucharas, colocar montículos de la mezcla en una bandeja para hornear forrada con papel pergamino, manteniéndolos separados.",
+      "Hornear durante 18-20 minutos solamente, hasta que las galletas se aplanen ligeramente y se doren. Están listas cuando los bordes están estables pero el centro aún está suave y pálido. Se endurecerán al enfriarse."
+    ],
+    "ar": [
+      "سخّن الفور (الكوشة) على 160 درجة.",
+      "في العجّانة ركّب \"الباليت\"، وخلّط الزبدة الطرية مع السكر الأبيض والأسمر في سرعة متوسطة لين يولي الخليط كريمي.",
+      "زيد أصفر العظمة والعظمات لخرين بالكعبة بالكعبة، وخلّط لين يتجانس الخليط.",
+      "نقّص في سرعة العجّانة. زيد الفرينة، البيكربونات، القرفة والملح. خلّط جيست لين تتلم العجينة (رد بالك تعجنها برشا).",
+      "زيد الشوفان، الجوز (الزوزة)، الزبيب وشوكولا \"بيبيت\". خلّط شوية برك باش يتخلطوا بالباهي في العجينة.",
+      "بمغرفتين، حط كعبات من الخليط فوق طبق الفور مفرّش بورق الطبخ، وخلّي مسافة بيناتهم.",
+      "طيّبهم في الفور لمدة 18-20 دقيقة أكهو، لين الكعك يهبط شوية ويحمار. الكعك يحضر وقت اللي الأجناب يشدوا رواحهم والوسط يقعد طري ولونه فاتح. تو ييبسوا كيف يبردوا."
+    ],
+    "en": [
+      "Preheat the oven to 160°C (320°F).",
+      "In a mixer fitted with a paddle attachment (guitar hook), process the softened butter and both types of sugar on medium speed until a creamy mixture is obtained.",
+      "Add the egg yolk and the whole eggs one by one, mixing until the mixture is uniform.",
+      "Lower the mixer speed. Add the flour, baking soda, cinnamon, and salt. Process only until a uniform dough forms (do not overmix).",
+      "Add the oats, walnuts, raisins, and chocolate chips. Mix briefly just to distribute them evenly throughout the mixture.",
+      "Using two spoons, drop mounds of the mixture onto a baking tray lined with parchment paper, keeping them spaced apart.",
+      "Bake for 18-20 minutes only, until the cookies flatten slightly and turn golden. The cookies are ready when the edges are stable but the center is still soft and pale. They will firm up as they cool."
+    ]
+  }
+}

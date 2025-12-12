@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Silver Cooks – Silver Cooks</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+.title-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15in;
+  margin-bottom: 0.35in;
+  width: 100%;
+}
+
+/* Title grid with centered chapter number */
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0.1in 0.15in;
+  margin-bottom: 0.25in;
+  width: 100%;
+  position: relative;
+}
+
+/* Position titles in the grid:
+   Row 1: ES (left), HE (right)
+   Row 2: Chapter number (centered, spanning both columns)
+   Row 3: EN (left), AR (right)
+*/
+.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
+.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
+.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
+.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
+.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
+
+/* Oriental-styled chapter number */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.08in 0;
+  position: relative;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  position: relative;
+  padding: 0.1in 0.4in;
+  letter-spacing: 0.1em;
+}
+
+/* Decorative oriental frame around number */
+.chapter-number span::before,
+.chapter-number span::after {
+  content: "✦";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--accent-soft);
+  opacity: 0.8;
+}
+
+.chapter-number span::before {
+  left: 0;
+}
+
+.chapter-number span::after {
+  right: 0;
+}
+
+/* Decorative lines extending from the number */
+.chapter-number::before,
+.chapter-number::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    var(--accent-soft) 0%,
+    transparent 100%
+  );
+  opacity: 0.6;
+  margin: 0 0.2in;
+}
+
+.chapter-number::before {
+  --direction: right;
+}
+
+.chapter-number::after {
+  --direction: left;
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.1in 0.15in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.8in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+<section class="page page--title">
+    <div class="title-ingredients-bg">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_chicken_vegetable_bouillon.png" 
+             alt=""
+             style="left: 0.31in; top: 0.53in; width: 0.68in; height: 0.68in; transform: rotate(-10deg) scale(0.9425253088108282);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/plant_based_milk_soy_almond_oat.png" 
+             alt=""
+             style="left: 1.20in; top: 0.52in; width: 0.63in; height: 0.63in; transform: rotate(-21deg) scale(0.9529760332996106);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/pumpkin.png" 
+             alt=""
+             style="left: 1.92in; top: 0.42in; width: 0.55in; height: 0.55in; transform: rotate(7deg) scale(0.985686765458916);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bay_leaves.png" 
+             alt=""
+             style="left: 2.83in; top: 0.36in; width: 0.70in; height: 0.70in; transform: rotate(-22deg) scale(1.001905258735293);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/dill.png" 
+             alt=""
+             style="left: 3.48in; top: 0.26in; width: 0.52in; height: 0.52in; transform: rotate(10deg) scale(0.93199640034449);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/coconut_desiccated.png" 
+             alt=""
+             style="left: 4.45in; top: 0.43in; width: 0.58in; height: 0.58in; transform: rotate(8deg) scale(1.0992242760480195);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/amba_pickled_mango_sauce.png" 
+             alt=""
+             style="left: 5.21in; top: 0.54in; width: 0.67in; height: 0.67in; transform: rotate(-30deg) scale(1.0360566820513037);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/semolina.png" 
+             alt=""
+             style="left: 5.88in; top: 0.52in; width: 0.65in; height: 0.65in; transform: rotate(19deg) scale(1.0281923597159617);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/breadcrumbs.png" 
+             alt=""
+             style="left: 6.68in; top: 0.38in; width: 0.59in; height: 0.59in; transform: rotate(16deg) scale(1.0751705880756388);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/potatoes.png" 
+             alt=""
+             style="left: 7.53in; top: 0.40in; width: 0.54in; height: 0.54in; transform: rotate(28deg) scale(0.921282164559541);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/raisins.png" 
+             alt=""
+             style="left: 0.44in; top: 1.30in; width: 0.60in; height: 0.60in; transform: rotate(-18deg) scale(0.930567853709927);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/beans_white_brown_mixed.png" 
+             alt=""
+             style="left: 1.28in; top: 1.21in; width: 0.66in; height: 0.66in; transform: rotate(3deg) scale(1.0836986988791406);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/orange_juice.png" 
+             alt=""
+             style="left: 2.03in; top: 1.20in; width: 0.52in; height: 0.52in; transform: rotate(-7deg) scale(1.075744375564637);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/spices_general_mix.png" 
+             alt=""
+             style="left: 2.90in; top: 1.14in; width: 0.51in; height: 0.51in; transform: rotate(26deg) scale(1.013471388737782);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/onion_fresh_powder.png" 
+             alt=""
+             style="left: 3.47in; top: 1.27in; width: 0.66in; height: 0.66in; transform: rotate(18deg) scale(1.0065412339059032);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/wakame_seaweed.png" 
+             alt=""
+             style="left: 4.29in; top: 1.25in; width: 0.69in; height: 0.69in; transform: rotate(-20deg) scale(0.9530113257880118);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
+             alt=""
+             style="left: 5.31in; top: 1.18in; width: 0.54in; height: 0.54in; transform: rotate(4deg) scale(1.051053039327161);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/kohlrabi.png" 
+             alt=""
+             style="left: 6.06in; top: 1.26in; width: 0.58in; height: 0.58in; transform: rotate(12deg) scale(1.0299756115278909);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/rice.png" 
+             alt=""
+             style="left: 6.78in; top: 1.21in; width: 0.52in; height: 0.52in; transform: rotate(-16deg) scale(0.912805179265269);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/couscous_israeli_mhamsa.png" 
+             alt=""
+             style="left: 7.46in; top: 1.22in; width: 0.62in; height: 0.62in; transform: rotate(-30deg) scale(0.9141986172018065);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/parsley.png" 
+             alt=""
+             style="left: 0.44in; top: 1.92in; width: 0.68in; height: 0.68in; transform: rotate(25deg) scale(0.9660856978160998);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sourdough_starter.png" 
+             alt=""
+             style="left: 1.20in; top: 1.93in; width: 0.60in; height: 0.60in; transform: rotate(4deg) scale(0.9264623697450051);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/mustard_dijon.png" 
+             alt=""
+             style="left: 2.13in; top: 2.02in; width: 0.59in; height: 0.59in; transform: rotate(20deg) scale(0.9945945885889188);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/dates_medjool.png" 
+             alt=""
+             style="left: 2.77in; top: 1.88in; width: 0.63in; height: 0.63in; transform: rotate(-8deg) scale(0.9847157246039842);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/turmeric.png" 
+             alt=""
+             style="left: 3.59in; top: 2.07in; width: 0.63in; height: 0.63in; transform: rotate(11deg) scale(0.9196835742303918);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/seitan_wheat_gluten.png" 
+             alt=""
+             style="left: 4.37in; top: 1.95in; width: 0.67in; height: 0.67in; transform: rotate(-15deg) scale(0.9383180144283308);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/wheat_berries.png" 
+             alt=""
+             style="left: 5.21in; top: 1.89in; width: 0.54in; height: 0.54in; transform: rotate(-1deg) scale(0.9499612895764201);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/barley_pearl.png" 
+             alt=""
+             style="left: 6.13in; top: 1.98in; width: 0.67in; height: 0.67in; transform: rotate(5deg) scale(0.9195817456403201);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/green_beans.png" 
+             alt=""
+             style="left: 6.85in; top: 2.01in; width: 0.50in; height: 0.50in; transform: rotate(-25deg) scale(1.0852733966016257);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/swiss_chard.png" 
+             alt=""
+             style="left: 7.70in; top: 1.90in; width: 0.60in; height: 0.60in; transform: rotate(-17deg) scale(1.0729300788060432);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tomato_fresh_paste.png" 
+             alt=""
+             style="left: 0.52in; top: 2.70in; width: 0.50in; height: 0.50in; transform: rotate(-6deg) scale(0.9530406116344304);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/nuts_walnuts_almonds.png" 
+             alt=""
+             style="left: 1.29in; top: 2.79in; width: 0.58in; height: 0.58in; transform: rotate(16deg) scale(1.0990845378985428);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/mushrooms.png" 
+             alt=""
+             style="left: 2.02in; top: 2.87in; width: 0.53in; height: 0.53in; transform: rotate(-12deg) scale(0.943540179682835);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/lemon_fresh_juice_preserved.png" 
+             alt=""
+             style="left: 2.67in; top: 2.87in; width: 0.51in; height: 0.51in; transform: rotate(-10deg) scale(0.9114330545814966);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/yeast_dry.png" 
+             alt=""
+             style="left: 3.63in; top: 2.80in; width: 0.67in; height: 0.67in; transform: rotate(-20deg) scale(0.911375915945737);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/olives.png" 
+             alt=""
+             style="left: 4.40in; top: 2.91in; width: 0.51in; height: 0.51in; transform: rotate(-26deg) scale(1.035042510720818);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vanilla_extract.png" 
+             alt=""
+             style="left: 5.12in; top: 2.69in; width: 0.68in; height: 0.68in; transform: rotate(-15deg) scale(1.0157838115014421);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/black_pepper.png" 
+             alt=""
+             style="left: 5.86in; top: 2.67in; width: 0.63in; height: 0.63in; transform: rotate(6deg) scale(1.0045565431063919);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/garlic_fresh_powder.png" 
+             alt=""
+             style="left: 6.93in; top: 2.71in; width: 0.64in; height: 0.64in; transform: rotate(-15deg) scale(0.9531229025062709);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cinnamon.png" 
+             alt=""
+             style="left: 7.49in; top: 2.84in; width: 0.59in; height: 0.59in; transform: rotate(29deg) scale(1.0503728984828804);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/harissa.png" 
+             alt=""
+             style="left: 0.27in; top: 3.59in; width: 0.70in; height: 0.70in; transform: rotate(-24deg) scale(0.9146521442199266);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/hot_peppers_chili.png" 
+             alt=""
+             style="left: 1.11in; top: 3.53in; width: 0.69in; height: 0.69in; transform: rotate(26deg) scale(0.9137582628120039);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/carrots.png" 
+             alt=""
+             style="left: 1.92in; top: 3.54in; width: 0.59in; height: 0.59in; transform: rotate(4deg) scale(1.0407079850174743);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tea_biscuits_petit_beurre.png" 
+             alt=""
+             style="left: 2.83in; top: 3.75in; width: 0.63in; height: 0.63in; transform: rotate(-30deg) scale(1.0335726407425168);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/shawarma_seasoning.png" 
+             alt=""
+             style="left: 3.62in; top: 3.73in; width: 0.52in; height: 0.52in; transform: rotate(26deg) scale(0.9268582228786736);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/pasta_spaghetti_vermicelli.png" 
+             alt=""
+             style="left: 4.28in; top: 3.48in; width: 0.61in; height: 0.61in; transform: rotate(-13deg) scale(0.9563512542915789);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bananas.png" 
+             alt=""
+             style="left: 5.11in; top: 3.55in; width: 0.64in; height: 0.64in; transform: rotate(24deg) scale(0.952796780326082);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/fennel_seeds.png" 
+             alt=""
+             style="left: 6.00in; top: 3.72in; width: 0.67in; height: 0.67in; transform: rotate(-25deg) scale(1.0268568894618388);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tofu_firm_silken_smoked.png" 
+             alt=""
+             style="left: 6.90in; top: 3.46in; width: 0.57in; height: 0.57in; transform: rotate(-22deg) scale(1.027422675460276);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/nutritional_yeast.png" 
+             alt=""
+             style="left: 7.53in; top: 3.67in; width: 0.61in; height: 0.61in; transform: rotate(-3deg) scale(1.0121813729549494);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/apples.png" 
+             alt=""
+             style="left: 0.28in; top: 4.53in; width: 0.64in; height: 0.64in; transform: rotate(-21deg) scale(1.0091180578411045);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/brik_malsouka_sheets.png" 
+             alt=""
+             style="left: 1.30in; top: 4.42in; width: 0.53in; height: 0.53in; transform: rotate(-22deg) scale(0.9083657716337716);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/green_onions_scallions.png" 
+             alt=""
+             style="left: 1.96in; top: 4.53in; width: 0.69in; height: 0.69in; transform: rotate(-28deg) scale(1.079784927305295);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
+             alt=""
+             style="left: 2.71in; top: 4.32in; width: 0.52in; height: 0.52in; transform: rotate(19deg) scale(1.011976703828774);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cilantro_fresh_seeds.png" 
+             alt=""
+             style="left: 3.71in; top: 4.54in; width: 0.65in; height: 0.65in; transform: rotate(29deg) scale(1.085976203138735);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/peas.png" 
+             alt=""
+             style="left: 4.51in; top: 4.54in; width: 0.66in; height: 0.66in; transform: rotate(26deg) scale(0.9824588820707595);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cocoa_powder.png" 
+             alt=""
+             style="left: 5.10in; top: 4.53in; width: 0.66in; height: 0.66in; transform: rotate(-4deg) scale(1.0604470277874278);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_powder.png" 
+             alt=""
+             style="left: 6.11in; top: 4.49in; width: 0.55in; height: 0.55in; transform: rotate(20deg) scale(1.0402556376279826);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_soda.png" 
+             alt=""
+             style="left: 6.76in; top: 4.26in; width: 0.59in; height: 0.59in; transform: rotate(-18deg) scale(1.0633173211193858);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chocolate_dark_chips.png" 
+             alt=""
+             style="left: 7.59in; top: 4.34in; width: 0.66in; height: 0.66in; transform: rotate(-16deg) scale(0.9445847094411618);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oats_oatmeal.png" 
+             alt=""
+             style="left: 0.45in; top: 5.17in; width: 0.56in; height: 0.56in; transform: rotate(-26deg) scale(1.0933778208096723);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/pudding_mix_vanilla.png" 
+             alt=""
+             style="left: 1.13in; top: 5.24in; width: 0.58in; height: 0.58in; transform: rotate(23deg) scale(1.0072431464957445);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_whipping_cream.png" 
+             alt=""
+             style="left: 2.13in; top: 5.08in; width: 0.69in; height: 0.69in; transform: rotate(-19deg) scale(1.0161179467477417);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chickpea_flour_besan.png" 
+             alt=""
+             style="left: 2.95in; top: 5.06in; width: 0.62in; height: 0.62in; transform: rotate(-8deg) scale(1.045709012130541);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/soy_sauce.png" 
+             alt=""
+             style="left: 3.54in; top: 5.23in; width: 0.60in; height: 0.60in; transform: rotate(-6deg) scale(1.07990094658224);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/maple_syrup.png" 
+             alt=""
+             style="left: 4.31in; top: 5.06in; width: 0.59in; height: 0.59in; transform: rotate(3deg) scale(1.0851150330998167);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_butter_margarine.png" 
+             alt=""
+             style="left: 5.21in; top: 5.27in; width: 0.65in; height: 0.65in; transform: rotate(12deg) scale(0.9394070258203469);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chickpeas.png" 
+             alt=""
+             style="left: 5.98in; top: 5.33in; width: 0.68in; height: 0.68in; transform: rotate(9deg) scale(0.962783129011672);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/almond_flour.png" 
+             alt=""
+             style="left: 6.90in; top: 5.27in; width: 0.56in; height: 0.56in; transform: rotate(-11deg) scale(1.033378580821146);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/white_pepper.png" 
+             alt=""
+             style="left: 7.55in; top: 5.26in; width: 0.61in; height: 0.61in; transform: rotate(-18deg) scale(0.9840892667545817);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/peanut_butter.png" 
+             alt=""
+             style="left: 0.53in; top: 6.05in; width: 0.68in; height: 0.68in; transform: rotate(9deg) scale(1.013821050973162);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/water.png" 
+             alt=""
+             style="left: 1.17in; top: 6.10in; width: 0.56in; height: 0.56in; transform: rotate(-17deg) scale(0.985977629997967);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oregano.png" 
+             alt=""
+             style="left: 2.02in; top: 6.05in; width: 0.59in; height: 0.59in; transform: rotate(-2deg) scale(1.03512544663802);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_tuna.png" 
+             alt=""
+             style="left: 2.80in; top: 6.09in; width: 0.69in; height: 0.69in; transform: rotate(17deg) scale(0.9339382792396109);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/coconut_cream_milk.png" 
+             alt=""
+             style="left: 3.48in; top: 6.00in; width: 0.63in; height: 0.63in; transform: rotate(-9deg) scale(0.9186774400151125);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/silan_date_syrup.png" 
+             alt=""
+             style="left: 4.54in; top: 5.92in; width: 0.56in; height: 0.56in; transform: rotate(21deg) scale(0.9398259865453154);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/zucchini.png" 
+             alt=""
+             style="left: 5.06in; top: 5.92in; width: 0.60in; height: 0.60in; transform: rotate(24deg) scale(1.0536978678000395);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/ras_el_hanout.png" 
+             alt=""
+             style="left: 5.99in; top: 6.12in; width: 0.62in; height: 0.62in; transform: rotate(15deg) scale(1.039270850098101);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cornflakes.png" 
+             alt=""
+             style="left: 6.80in; top: 5.92in; width: 0.63in; height: 0.63in; transform: rotate(-30deg) scale(1.0785319652422733);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/coconut_oil.png" 
+             alt=""
+             style="left: 7.71in; top: 6.12in; width: 0.66in; height: 0.66in; transform: rotate(-16deg) scale(0.9351773363413064);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_ground_meat_sausage.png" 
+             alt=""
+             style="left: 0.54in; top: 6.81in; width: 0.51in; height: 0.51in; transform: rotate(-15deg) scale(1.0834940028910882);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/wine_sweet_red.png" 
+             alt=""
+             style="left: 1.09in; top: 6.69in; width: 0.59in; height: 0.59in; transform: rotate(3deg) scale(1.0975784906132897);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/artichoke_hearts.png" 
+             alt=""
+             style="left: 2.03in; top: 6.94in; width: 0.68in; height: 0.68in; transform: rotate(9deg) scale(1.0630013014663369);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/paprika_sweet_hot.png" 
+             alt=""
+             style="left: 2.92in; top: 6.78in; width: 0.68in; height: 0.68in; transform: rotate(-2deg) scale(1.0794416206466526);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sugar_white_brown_powdered_vanilla.png" 
+             alt=""
+             style="left: 3.67in; top: 6.79in; width: 0.55in; height: 0.55in; transform: rotate(-15deg) scale(1.0679725775683842);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bell_peppers_red_green.png" 
+             alt=""
+             style="left: 4.33in; top: 6.88in; width: 0.60in; height: 0.60in; transform: rotate(-15deg) scale(0.9549194893835077);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sesame_seeds.png" 
+             alt=""
+             style="left: 5.07in; top: 6.74in; width: 0.55in; height: 0.55in; transform: rotate(-10deg) scale(1.0786053665580635);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/vegan_mayonnaise.png" 
+             alt=""
+             style="left: 5.87in; top: 6.70in; width: 0.58in; height: 0.58in; transform: rotate(-21deg) scale(1.0412838283389105);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/brandy_or_arak.png" 
+             alt=""
+             style="left: 6.67in; top: 6.77in; width: 0.61in; height: 0.61in; transform: rotate(-4deg) scale(0.9124531421167171);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/capers.png" 
+             alt=""
+             style="left: 7.70in; top: 6.77in; width: 0.65in; height: 0.65in; transform: rotate(30deg) scale(1.0391045972995936);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/coffee_instant.png" 
+             alt=""
+             style="left: 0.51in; top: 7.68in; width: 0.58in; height: 0.58in; transform: rotate(-30deg) scale(1.0885483314868194);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cumin.png" 
+             alt=""
+             style="left: 1.14in; top: 7.57in; width: 0.68in; height: 0.68in; transform: rotate(23deg) scale(0.9838042565259644);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/flour_all_purpose_bread_whole_wheat.png" 
+             alt=""
+             style="left: 2.07in; top: 7.61in; width: 0.62in; height: 0.62in; transform: rotate(-16deg) scale(0.9976458955100501);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/applesauce.png" 
+             alt=""
+             style="left: 2.73in; top: 7.60in; width: 0.58in; height: 0.58in; transform: rotate(12deg) scale(1.03582837700567);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bread_challah.png" 
+             alt=""
+             style="left: 3.57in; top: 7.50in; width: 0.59in; height: 0.59in; transform: rotate(-22deg) scale(1.0961443955037846);">
+        <img class="title-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tvp_soy_crumbles_curls.png" 
+             alt=""
+             style="left: 4.41in; top: 7.72in; width: 0.62in; height: 0.62in; transform: rotate(12deg) scale(0.9054204092680626);">
+    </div>
+    <div class="page-inner title-page-inner">
+      <div class="title-page-content">
+        <div class="book-titles">
+          <div class="book-title-row">
+            <span class="book-title book-title-he">מטבח מצפון</span>
+            <span class="book-title book-title-ar">مطبخ بالأصل</span>
+          </div>
+          <div class="book-title-row">
+            <span class="book-title book-title-en">Oriented Kitchen</span>
+            <span class="book-title book-title-es">Cocina con Conciencia</span>
+          </div>
+        </div>
+        
+        <div class="book-subtitle-block">
+          <div class="book-subtitle">Plant-Based Recipes from Djerba &amp; Tangier</div>
+          <div class="book-subtitle">Recetas a Base de Plantas de Djerba y Tánger</div>
+          <div class="book-subtitle book-subtitle-he">מתכונים מבוססי צמחים מג׳רבה וטנג׳יר</div>
+          <div class="book-subtitle book-subtitle-ar">وصفات نباتية من جربة وطنجة</div>
+        </div>
+        
+        <div class="title-divider"></div>
+        
+        <div class="family-lines">
+          <div class="family-line">Cohen-Trabelsi · כהן-טרבלסי · كوهين-طرابلسي</div>
+          <div class="family-origin">Djerba, Tunisia · ג׳רבה, תוניסיה · جربة، تونس</div>
+        </div>
+        <div class="family-lines">
+          <div class="family-line">Kadoch-Muyal · קדוש-מויאל · قدوش-مويال</div>
+          <div class="family-origin">Tangier, Morocco · טנג׳יר, מרוקו · طنجة، المغرب</div>
+        </div>
+        
+        <div class="title-divider"></div>
+        
+        <div class="authors">David &amp; Enny Silver</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

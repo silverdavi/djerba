@@ -1,0 +1,205 @@
+{
+  "id": "charoset",
+  "slug": "charoset",
+  "source_file": "data/safed_recipes/charost.json",
+  "name": "Charoset",
+  "name_hebrew": "חרוסת",
+  "name_origin": "The name is derived from the Mishnaic Hebrew word 'cheres' (חרס), which translates to 'clay', 'earthenware', or 'shard'. This etymology is explicitly cited in the Babylonian Talmud (Pesachim 116a), where the dish is described as symbolizing the clay or mortar used by the Israelites to make bricks during their enslavement in Egypt. The texture and color of the paste are intended to visually mimic this mortar.",
+  "description": "A sweet, dark paste made of fruits and nuts eaten at the Passover Seder. It symbolizes the mortar used by the Israelites during their enslavement in Egypt. This version combines the richness of Medjool dates with the texture of apples and nuts.",
+  "cultural_context": "While Ashkenazi Charoset is typically apple-based, North African (Tunisian and Moroccan) versions often rely on dates as the primary binder. This recipe bridges the two styles or represents a specific family variation using both.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 15,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "medjool_dates",
+      "name": "Medjool dates",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "pitted and chopped",
+      "notes": "Soft dates are best",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.15,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "apple",
+      "name": "Apple",
+      "amount": 1,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "peeled, cored, and grated",
+      "notes": "Granny Smith or sweet variety depending on preference",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "walnuts",
+      "name": "Walnuts",
+      "amount": 100,
+      "unit": "g",
+      "preparation": "finely chopped or ground",
+      "notes": "Can substitute with almonds or a mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sweet_red_wine",
+      "name": "Sweet red wine",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Kiddush wine or grape juice",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Pit the dates and chop them finely. If they are dry, you may soak them in warm water for 10 minutes first.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Peel and grate the apple finely.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a bowl or food processor, combine the dates, grated apple, and chopped nuts.",
+      "time_minutes": 3,
+      "tips": "For a traditional mortar-like texture, pulse in a food processor until a paste forms but some texture remains."
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually add the wine while mixing until the desired consistency is reached.",
+      "time_minutes": 2,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Spiced Charoset",
+      "description": "Add 1/2 tsp cinnamon and a pinch of ground ginger or cloves."
+    }
+  ],
+  "image": {
+    "filename": "images/current/017_charoset/dish.png",
+    "prompt": "Traditional Jewish Charoset paste in a bowl, made of dates, apples, and nuts, Passover table setting"
+  },
+  "tags": [
+    "passover",
+    "seder",
+    "vegan",
+    "dip",
+    "north-african"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "חרס (Cheres)",
+    "meaning": "Clay / Earthenware",
+    "confidence": "confirmed",
+    "notes": "Standard Talmudic etymology (Mishnah Pesachim 10:3). While the name is Hebrew, the Djerban recipe specifically reflects the 'Halek' tradition (date-based) rather than the Ashkenazi apple-based tradition."
+  },
+  "alternative_names": [
+    {
+      "name": "Halek / Halegh",
+      "language": "judeo_arabic",
+      "notes": "The specific vernacular name used by Tunisian and Djerban Jews for this date-based version of Charoset. It likely refers to the thick, dark consistency."
+    },
+    {
+      "name": "Bilad",
+      "language": "ladino",
+      "notes": "Used in some Sephardic communities, though 'Halek' is the primary term in the Maghreb."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Rfis Tounsi",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "A sweet paste made from mashed dates mixed with toasted semolina or flour.",
+      "key_difference": "Rfis contains semolina/grains and butter, whereas Charoset is grain-free (for Passover) and uses wine."
+    },
+    {
+      "name": "Makroudh Filling",
+      "culture": "North African (Maghreb)",
+      "similarity": "The spiced date paste (ghars) used inside Makroudh pastries is nearly identical in flavor profile to Djerban Charoset.",
+      "key_difference": "The filling is encased in semolina dough and fried/baked, whereas Charoset is eaten as a raw paste."
+    },
+    {
+      "name": "Madmouja",
+      "culture": "Moroccan",
+      "similarity": "A rich confection of dates and nuts.",
+      "key_difference": "Madmouja is a puff pastry dish filled with the mixture, rather than a standalone ritual paste."
+    }
+  ],
+  "intro_paragraph": "Named for the Hebrew *cheres*, meaning clay, Charoset visually mimics the mortar used by enslaved Israelites in Egypt. While North African versions traditionally rely on dates, this recipe blends that richness with the crunch of apples and nuts. Served at the Passover Seder, the sweet, dark paste provides a vital counterpoint to the bitter herbs."
+}

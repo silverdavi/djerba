@@ -1,0 +1,114 @@
+{
+  "id": "soy_shawarma",
+  "image": "images/current/080_shawarma/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "שווארמה סויה",
+    "es": "Shawarma de Soja",
+    "ar": "شوارما صوجا",
+    "en": "Soy Shawarma"
+  },
+  "description": {
+    "he": "שווארמה סויה שואבת את שמה מהמילה הטורקית çevirme, שמשמעותה סיבוב, אך מחליפה את הבשר המסתובב בחלבון סויה מעובד לגרסה מודרנית. הרצועות עוברות הידרציה בציר מתובל, נצרבות במחבת עם בצל ומוגשות עם עמבה חמצמצה. מנה פרווה זו משתמשת בתיבול מסורתי כדי ללכוד את הטעם העשיר של אוכל רחוב ללא הבשר.",
+    "es": "El Soy Shawarma toma su nombre del turco çevirme, que significa girar, pero reemplaza la carne del asador con proteína de soja texturizada para un toque moderno. Rehidratadas en caldo especiado y doradas en sartén con cebollas, las tiras se terminan con salsa amba ácida. Este plato pareve utiliza condimentos tradicionales para capturar la esencia sabrosa de la comida callejera sin la carne.",
+    "ar": "الشوارما صوجا ماخوذة من الكلمة التركية çevirme، يعني التدوير، أما في عوض اللحم نستعملو بروتين الصوجا. الشرائح تترنخ في مرقة مفوحة، ومبعد نقلوهم مع البصل ونزيدوهم شوية عمبة قارصة. الطبق هذا بارف (pareve) ويستعمل الفاحات التقليدية باش يعطي بنة ماكلة الشارع من غير لحم.",
+    "en": "Soy Shawarma takes its name from the Turkish çevirme, meaning turning, but replaces rotisserie meat with textured soy protein for a modern twist. Rehydrated in spiced broth and pan-seared with onions, the strips are finished with tangy amba. This pareve dish uses traditional seasoning to capture the savory essence of street food without the meat."
+  },
+  "ingredients": {
+    "he": [
+      "200 גרם רצועות סויה יבשות (שבבי סויה)",
+      "1500 מ\"ל ציר ירקות",
+      "1 בצל גדול, פרוס",
+      "30 מ\"ל שמן צמחי",
+      "14 גרם תבלין שווארמה",
+      "2.5 גרם ראס אל חנות",
+      "3 גרם אבקת שום",
+      "1.2 גרם פלפל לבן",
+      "1.2 גרם כמון",
+      "15 מ\"ל רוטב עמבה",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "200 g de tiras de soja seca (proteína vegetal texturizada)",
+      "1500 ml de caldo de verduras",
+      "1 cebolla grande, en rodajas",
+      "30 ml de aceite vegetal",
+      "14 g de mezcla de especias para shawarma",
+      "2.5 g de Ras el Hanout",
+      "3 g de ajo en polvo",
+      "1.2 g de pimienta blanca",
+      "1.2 g de comino",
+      "15 ml de salsa amba",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "3.3 كيسان شرائح صوجا شايحة",
+      "6.25 كيسان مرقة خضرة",
+      "1 بصلة كبيرة، مقصوصة",
+      "2 مغارف زيت",
+      "2 مغارف فاح شوارما",
+      "1 مغرفة صغيرة راس الحانوت",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "½ مغرفة صغيرة فلفل أبيض",
+      "½ مغرفة صغيرة كمون",
+      "1 مغرفة عمبة",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "3.3 cups dried soy strips (TVP)",
+      "6.25 cups vegetable stock",
+      "1 large onion, sliced",
+      "2 tbsp vegetable oil",
+      "2 tbsp shawarma spice mix",
+      "1 tsp Ras el Hanout",
+      "1 tsp garlic powder",
+      "0.5 tsp white pepper",
+      "0.5 tsp cumin",
+      "1 tbsp amba sauce",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הביאו את ציר הירקות לרתיחה בסיר גדול.",
+      "הוסיפו את רצועות הסויה היבשות לציר הרותח יחד עם קבוצת התבלינים הראשונה: מחצית מתבלין השווארמה, מלח, פלפל לבן, אבקת שום ומחצית מראס אל חנות.",
+      "בשלו את הרצועות בציר המתובל כ-20 דקות עד שהן ספוגות נוזלים ורכות לגמרי. סננו היטב וסחטו נוזלים עודפים.",
+      "חממו את השמן במחבת. הוסיפו את הבצל הפרוס וטגנו עד להזהבה.",
+      "הוסיפו את רצועות הסויה המסוננות למחבת. טגנו עד שהן מתחילות להשחים ולהפוך לקריספיות מעט.",
+      "תבלו את התערובת המטוגנת עם יתרת תבלין השווארמה, הכמון ושאר ראס אל חנות.",
+      "רגע לפני ההסרה מהאש, ערבבו פנימה את רוטב העמבה לסיום חמצמץ."
+    ],
+    "es": [
+      "Lleve el caldo de verduras a ebullición en una olla grande.",
+      "Añada las tiras de soja seca al caldo hirviendo junto con el primer lote de especias: la mitad de la especia para shawarma, sal, pimienta blanca, ajo en polvo y la mitad del Ras el Hanout.",
+      "Cocine las tiras en el caldo especiado durante unos 20 minutos hasta que estén completamente rehidratadas y tiernas. Escurra bien.",
+      "Caliente el aceite en una sartén. Añada la cebolla en rodajas y fríala hasta que esté dorada.",
+      "Añada las tiras de soja escurridas a la sartén. Fría hasta que empiecen a dorarse y a ponerse ligeramente crujientes.",
+      "Sazone la mezcla frita con el resto de la especia para shawarma, el comino y el resto del Ras el Hanout.",
+      "Justo antes de retirar del fuego, incorpore la salsa amba para un acabado ácido."
+    ],
+    "ar": [
+      "غلي مرقة الخضرة في طنجرة كبيرة.",
+      "حط شرائح الصوجا الشايحة في المرقة اللي تغلي وزيد معاهم النص الأول متاع الفاحات: شطر فاح الشوارما، الملح، الفلفل الأبيض، الثوم المرحي، وشطر راس الحانوت.",
+      "طيّب الشرائح في المرقة المفوحة حكاية 20 دقيقة لين يطراو ويشربو بالباهي. قطّرهم مليح واعصرهم باش تخرج الماء الزايد.",
+      "سخّن الزيت في مقلاة. حط البصل المقصوص واقليه لين يولي ذهبي.",
+      "زيد شرائح الصوجا المقطرة للمقلاة. اقليهم لين يبداو يحمارو ويتقرمشو شوية.",
+      "فوّح الخليط ببقية فاح الشوارما، والكمون، واللي قعد من راس الحانوت.",
+      "قبل ما تطفي النار بشوية، خلط معاهم العمبة باش تعطي طعمة قارصة وبنينة."
+    ],
+    "en": [
+      "Bring the vegetable stock to a boil in a large pot.",
+      "Add the dried soy strips to the boiling stock along with the first batch of spices: half the shawarma spice, salt, white pepper, garlic powder, and half the Ras el Hanout.",
+      "Cook the strips in the spiced broth for about 20 minutes until fully rehydrated and tender. Drain well.",
+      "Heat the oil in a frying pan or skillet. Add the sliced onion and fry until golden.",
+      "Add the drained soy strips to the pan. Fry until they begin to brown and crisp slightly.",
+      "Season the frying mixture with the remaining shawarma spice, cumin, and the rest of the Ras el Hanout.",
+      "Just before removing from heat, stir in the Amba sauce for a tangy finish."
+    ]
+  }
+}

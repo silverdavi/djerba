@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is a classic example of the 'diglossia' found in North African Jewish languages, combining a Judeo-Arabic noun with a Hebrew modifier. 'Dabikh' is a dialectal variation of the Maghrebi Arabic term 'Tabikh' or 'Tbeikha' (طبيخة), meaning 'stew' or 'cooked dish.' The standard Arabic root is Ṭ-B-Kh (ط-ب-خ). The shift from the emphatic 'T' (Ṭa) to 'D' (Dalet) suggests a specific Djerban voicing assimilation or a local phonetic quirk. The ending 'Hagim' is the Hebrew word for 'Holidays' (חגים). Therefore, it literally translates to 'The Holiday Stew.'",
+    "language_source": "tunisian_arabic",
+    "root_word": "Arabic: Ṭ-B-Kh (cook) + Hebrew: Ḥag (holiday)",
+    "meaning": "Holiday Stew / Cooked Dish of the Holidays",
+    "confidence": "likely",
+    "sources_notes": "While 'Tabikh' is the standard Arabic term, the spelling 'Dabikh' (with a Dalet and Het) is idiosyncratic to Djerban Judeo-Arabic. In standard Tunisian Arabic, this category of dish is called 'Tbeikha'. The Djerban dialect is known for retaining archaic forms and distinct phonology which may account for the T-to-D voicing shift."
+  },
+  "alternative_names": [
+    {
+      "name": "Tbeikha Qra",
+      "language": "tunisian_arabic",
+      "notes": "The generic Tunisian name for a pumpkin stew (Qra = Pumpkin), which is the base of this dish."
+    },
+    {
+      "name": "Tbeikha",
+      "language": "libyan_arabic",
+      "notes": "In neighboring Libya (and among Libyan Jews), 'Tbeikha' is the standard term for a main-course stew served over couscous or with bread."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tbikha Qra / Tbeikha bil Qra",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "Both are stews featuring pumpkin (red squash) and spices.",
+      "key_difference": "The Jewish 'Dabikh' typically features a much higher volume of fresh green herbs (dill/cilantro) and is strictly kosher (no dairy/butter), whereas general Tunisian versions might focus more on chickpeas and harissa without the intense herbal profile."
+    },
+    {
+      "name": "Tfina",
+      "culture": "Moroccan Jewish",
+      "similarity": "A slow-cooked holiday/Shabbat stew.",
+      "key_difference": "Tfina (like Cholent) is usually cooked overnight for Shabbat lunch. Dabikh Hagim appears to be a stovetop stew for holiday evenings (Yom Tov) rather than a slow-cooker dish."
+    },
+    {
+      "name": "Tirshi",
+      "culture": "Tripolitan (Libyan) Jewish",
+      "similarity": "A pumpkin-based dish common in the region.",
+      "key_difference": "Tirshi is a cooked salad/dip served cold or room temp, usually with a sour/spicy profile (caraway/garlic), whereas Dabikh is a hot main stew with chicken."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name is derived directly from the Maghrebi Arabic word 'sfenj' (سفنج), which means 'sponge'. This Arabic term itself is a loanword derived from the Ancient Greek 'spongos' (σπόγγος), likely via the Latin 'spongia'. The name refers to the interior texture of the dough, which, when properly leavened and fried, contains large air pockets resembling a sea sponge. In the context of North African Jewish cuisine, the dish is inextricably linked to Hanukkah due to the deep-frying in oil.",
+    "language_source": "moroccan_arabic",
+    "root_word": "Arabic: sfenj (سفنج) < Ancient Greek: spongos (σπόγγος)",
+    "meaning": "Sponge",
+    "confidence": "confirmed",
+    "sources_notes": "Standard linguistic etymology in Maghrebi dialects. The connection between the Arabic 'sfenj' and Greek 'spongos' is well-documented in Semitic linguistics. The dish is ubiquitous across the Maghreb (Morocco, Algeria, Tunisia, Libya)."
+  },
+  "alternative_names": [
+    {
+      "name": "Khfaf",
+      "language": "algerian_arabic",
+      "notes": "Used in Algeria and parts of Tunisia; derived from the Arabic root for 'light' (khafif), referring to the airy texture."
+    },
+    {
+      "name": "Bambalouni",
+      "language": "tunisian_arabic",
+      "notes": "Specifically in Tunisia (famous in Sidi Bou Said), this term is often used for the sweet, sugar-coated version of the ring doughnut, though the dough is essentially identical to sfenj."
+    },
+    {
+      "name": "Ftair",
+      "language": "libyan_arabic",
+      "notes": "In Libya, similar fried doughs are sometimes called Ftair, though this can also refer to flatbreads depending on the region."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Bimuelos / Buñuelos",
+      "culture": "Sephardic / Spanish",
+      "similarity": "Fried dough fritters eaten for Hanukkah.",
+      "key_difference": "Bimuelos are often ball-shaped rather than rings, and the dough sometimes incorporates pumpkin or is closer to a choux paste than the yeast-risen bread dough of sfenj."
+    },
+    {
+      "name": "Sufganiyah",
+      "culture": "Ashkenazi / Modern Israeli",
+      "similarity": "Deep-fried yeast dough eaten for Hanukkah.",
+      "key_difference": "Sufganiyot are round, filled with jelly/custard, and made with a richer dough (eggs/milk), whereas Sfenj is a ring, unfilled, and made with a leaner, sticky dough."
+    },
+    {
+      "name": "Lokma / Awameh",
+      "culture": "Turkish / Levantine",
+      "similarity": "Deep-fried yeast dough.",
+      "key_difference": "These are small, bite-sized spheres soaked in syrup, whereas Sfenj are large rings usually dipped in granulated sugar or honey."
+    },
+    {
+      "name": "Beignet",
+      "culture": "French / Creole",
+      "similarity": "Deep-fried yeast dough served with sugar.",
+      "key_difference": "Beignets are typically square-cut and hollow, served with powdered sugar, while Sfenj are hand-shaped rings with a chewier texture."
+    }
+  ]
+}

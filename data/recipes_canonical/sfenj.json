@@ -1,0 +1,296 @@
+{
+  "id": "sfenj",
+  "slug": "sfenj-maghrebi-doughnuts",
+  "source_file": "data/safed_recipes/05_שפינגות.json",
+  "name": "Sfenj (Maghrebi Doughnuts)",
+  "name_hebrew": "שפינג׳ות",
+  "name_origin": "The name is derived directly from the Arabic word 'isfanj' (سفنج), meaning 'sponge', referring to the dough's porous, airy interior texture when fried. The Arabic term itself is a loanword from the Ancient Greek 'spongos' (σπόγγος). In Maghrebi dialects (Tunisian Derja and Moroccan Darija), the initial vowel is dropped, resulting in 'Sfenj'. The Hebrew form provided, 'Sfinjot' (שפינג׳ות), is a Judeo-Arabic hybridization, applying the Hebrew feminine plural suffix '-ot' to the Arabic noun.",
+  "description": "Traditional North African deep-fried yeast doughnuts. These rustic fritters have a spongy interior and a crispy exterior, typically eaten plain or sprinkled with sugar.",
+  "cultural_context": "A staple street food in Morocco and Tunisia. In Jewish tradition, Sfenj are widely consumed during Hanukkah to celebrate the miracle of the oil, and are also a popular breakfast or tea-time treat.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "10-12",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 100,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "sifted",
+      "notes": "Inferred base quantity",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 350,
+      "unit": "ml",
+      "preparation": "warm",
+      "notes": "Adjust for a sticky dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 350,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 11.8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 350,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dry_yeast",
+      "name": "Active dry yeast",
+      "amount": 10,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Approx 1 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 10,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for deep frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": null
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for coating",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": null
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Prepare the dough: Mix flour, yeast, salt, and warm water to create a soft, sticky dough. Knead well.",
+      "time_minutes": 10,
+      "tips": "The dough should be much wetter than bread dough."
+    },
+    {
+      "step": 2,
+      "instruction": "Cover and let the dough rise in a warm place until it doubles in volume.",
+      "time_minutes": 60,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Heat deep oil in a wide pan.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Once the dough has risen, grease your hands with oil or water. Take a piece of dough (about the size of a tennis ball), stretch it gently to create a ring or rustic shape.",
+      "time_minutes": null,
+      "tips": "Wet hands prevent the sticky dough from clinging to you."
+    },
+    {
+      "step": 5,
+      "instruction": "Place carefully into the hot oil and fry until golden brown on both sides.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from oil and drain. Optionally sprinkle with sugar while hot.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Sfenj bil Asal",
+      "description": "Dipped in honey instead of sugar."
+    },
+    {
+      "name": "Sfenj with Egg",
+      "description": "A Tunisian variation where an egg is fried inside the center of the dough ring."
+    }
+  ],
+  "image": {
+    "filename": "images/current/078_sfenj/dish.png",
+    "prompt": "Golden brown Moroccan sfenj doughnuts being fried in oil, rustic shape, sprinkled with sugar, high resolution food photography"
+  },
+  "tags": [
+    "north-african",
+    "moroccan",
+    "tunisian",
+    "dessert",
+    "hanukkah",
+    "fried",
+    "vegan"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Isfanj (Arabic) < Spongos (Ancient Greek)",
+    "meaning": "Sponge",
+    "confidence": "confirmed",
+    "notes": "Standard etymology in Arabic linguistics. The connection to Greek 'spongos' is well-documented in dictionaries of Arabic loanwords. The texture comparison to a sea sponge is literal."
+  },
+  "alternative_names": [
+    {
+      "name": "Khfaf",
+      "language": "Algerian Arabic",
+      "notes": "Means 'the light ones', referring to the airy texture; common in Algeria and parts of Tunisia."
+    },
+    {
+      "name": "Bambalouni",
+      "language": "Tunisian Arabic",
+      "notes": "A specific Tunisian variant (often ring-shaped) derived from the Italian 'Bomboloni'. While similar, Bambalouni are often associated with street vendors in Sidi Bou Said, whereas Sfenj is the traditional home/rustic term."
+    },
+    {
+      "name": "Ftair",
+      "language": "Libyan/Tunisian Arabic",
+      "notes": "Sometimes used interchangeably in Libya, though Ftair can also refer to flatbreads."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Buñuelos",
+      "culture": "Spanish / Sephardic",
+      "similarity": "Fried yeast dough often eaten with sugar.",
+      "key_difference": "Buñuelos are often smaller, rounder fritters rather than the large rings or rustic discs of Sfenj."
+    },
+    {
+      "name": "Zalabia",
+      "culture": "Middle Eastern / Mizrahi",
+      "similarity": "Deep-fried dough eaten for Hanukkah.",
+      "key_difference": "Zalabia is typically made from a wet batter (poured) rather than a stretchable dough, and is soaked in syrup rather than dusted with sugar."
+    },
+    {
+      "name": "Lokma",
+      "culture": "Turkish",
+      "similarity": "Fried dough balls.",
+      "key_difference": "Much smaller, bite-sized spheres soaked in heavy syrup."
+    },
+    {
+      "name": "Sufganiyot",
+      "culture": "Israeli / Ashkenazi",
+      "similarity": "Hanukkah fried dough.",
+      "key_difference": "Sufganiyot are round, filled with jelly/custard, and contain eggs/butter, whereas traditional Sfenj is a lean dough (flour, water, yeast) and unfilled."
+    }
+  ],
+  "intro_paragraph": "Sfenj—derived from the Arabic word for \"sponge\"—are rustic, deep-fried yeast doughnuts known for their airy, porous texture. These golden fritters are typically enjoyed hot, either plain or dusted with sugar. A staple North African street food, they hold special significance in Jewish homes during Hanukkah, celebrating the miracle of the oil."
+}

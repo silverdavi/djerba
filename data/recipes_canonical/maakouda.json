@@ -1,0 +1,367 @@
+{
+  "id": "maakouda",
+  "slug": "maakouda-potato-frittata",
+  "source_file": "data/safed_recipes/28_מעקוד.json",
+  "name": "Ma'akouda (Tunisian Potato Frittata)",
+  "name_hebrew": "מעקוד",
+  "name_origin": "The name is derived directly from the Arabic trilateral root ʿ-Q-D (ع-ق-d). Grammatically, 'Ma'akouda' (معقودة) is the feminine passive participle (ism maf'ūl) of the verb 'aqada' (عقد). In a culinary context, this verb means 'to thicken,' 'to coagulate,' or 'to bind together.' The name literally describes the chemical action of the eggs binding the mashed potatoes and other ingredients into a cohesive mass that will not fall apart during frying. It shares the same root as 'aqid' (knot/contract).",
+  "description": "A thick, savory potato cake or frittata that is a staple of North African Jewish cuisine. Soft and fluffy on the inside with a golden, crispy exterior, it is often filled with vegetables and herbs.",
+  "cultural_context": "A classic dish in Tunisian and Moroccan Jewish households, often served as an appetizer, street food (in a sandwich), or part of a Shabbat meal. It is traditionally cooked in a round pan and flipped whole.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Difficult to adapt as eggs are the primary binder.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 45,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 5,
+      "unit": "unit",
+      "preparation": "peeled and boiled",
+      "notes": "Medium size (approx. 1kg total)",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "eggs",
+      "name": "Eggs",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "beaten",
+      "notes": "Large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "parsley",
+      "name": "Parsley",
+      "amount": 0.5,
+      "unit": "bunch",
+      "preparation": "finely chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.5,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "peas_and_carrots",
+      "name": "Peas and carrots",
+      "amount": 150,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Canned or pre-cooked (not raw)",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "Flour",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Helps bind the mixture",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "For color and flavor (inferred from 'spices')",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "Generous amount for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Boil the potatoes in water until soft and tender.",
+      "time_minutes": 20,
+      "tips": "Peel them before boiling for easier mashing later."
+    },
+    {
+      "step": 2,
+      "instruction": "Drain the potatoes and mash them well while still warm.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the eggs to the mashed potatoes and mix thoroughly.",
+      "time_minutes": null,
+      "tips": "Ensure the potatoes aren't piping hot so the eggs don't scramble."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the tablespoon of flour, spices (salt, pepper, turmeric), chopped parsley, and the peas and carrots (if using). Mix until combined.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Heat a generous amount of oil in a deep frying pan or skillet over medium heat.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Pour the batter into the pan and smooth the top.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Cook on low heat until the egg mixture sets and the bottom is golden brown.",
+      "time_minutes": 10,
+      "tips": "Covering the pan helps the center set faster."
+    },
+    {
+      "step": 8,
+      "instruction": "Flip the Ma'akouda: Place a large flat plate over the pan, invert the pan so the cake lands on the plate, then slide it back into the pan to cook the other side.",
+      "time_minutes": 5,
+      "tips": "Be careful with the hot oil when flipping."
+    },
+    {
+      "step": 9,
+      "instruction": "Continue cooking on low heat until the second side is golden and the center is fully set.",
+      "time_minutes": 5,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Meat Ma'akouda",
+      "description": "Add cooked ground beef or shredded chicken to the potato mixture."
+    },
+    {
+      "name": "Passover Version",
+      "description": "Substitute the flour with matzah meal or potato starch."
+    }
+  ],
+  "image": {
+    "filename": "images/current/051_maakouda/dish.png",
+    "prompt": "Golden brown thick potato frittata maakouda on a plate, north african style, parsley garnish"
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "moroccan",
+    "vegetarian",
+    "side-dish",
+    "appetizer"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "ʿaqada (عقد)",
+    "meaning": "The knotted one / The bound one / The thickened one",
+    "confidence": "confirmed",
+    "notes": "Standard Maghrebi Arabic culinary terminology. The root is consistent across Tunisian, Algerian, and Moroccan dialects (Darija/Derja). In classical Arabic, 'aqid' refers to the thickening of liquids (like syrup or eggs setting). Confirmed via linguistic analysis of Maghrebi culinary verbs."
+  },
+  "alternative_names": [
+    {
+      "name": "Maâkouda",
+      "language": "french",
+      "notes": "Common French colonial transliteration found in North African cookbooks."
+    },
+    {
+      "name": "Maaqouda",
+      "language": "arabic",
+      "notes": "Standard transliteration utilizing 'q' for the letter Qaf (ق)."
+    },
+    {
+      "name": "Ma'akouda bil djedj",
+      "language": "tunisian_arabic",
+      "notes": "Specific Jewish variation containing chicken (djedj), often served on Shabbat."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tortilla Española",
+      "culture": "Spanish",
+      "similarity": "Thick egg and potato omelet/cake.",
+      "key_difference": "Tortilla uses sliced potatoes fried in oil; Ma'akouda uses boiled, mashed potatoes and includes turmeric/cumin."
+    },
+    {
+      "name": "Tunisian Tagine",
+      "culture": "Tunisian (Muslim & Jewish)",
+      "similarity": "Egg-based savory cake/frittata.",
+      "key_difference": "In Tunisia, 'Tagine' refers to a frittata baked in an oven (like a quiche without crust), whereas Ma'akouda is typically fried (either as one large disk or small patties) on the stovetop."
+    },
+    {
+      "name": "Kuku Sibzamini",
+      "culture": "Persian",
+      "similarity": "Potato and egg frittata with turmeric.",
+      "key_difference": "Persian version often uses baking powder and specific Persian herb profiles; Ma'akouda relies heavily on the starch of the potato and egg for structure."
+    },
+    {
+      "name": "Potato Croquette",
+      "culture": "French",
+      "similarity": "Fried mashed potato cake.",
+      "key_difference": "Croquettes are breaded (flour/egg/breadcrumbs) before frying; Ma'akouda is usually fried directly or lightly dusted with flour, and relies on the egg inside the mix for the 'skin'."
+    }
+  ],
+  "intro_paragraph": "Ma'akouda derives its name from the Arabic for \"bound\" or \"thickened,\" describing how eggs unite mashed potatoes into a cohesive cake. This thick, savory frittata features a golden crust and fluffy, herb-flecked interior. A fixture of the Djerban Jewish table, it is enjoyed warm on Shabbat or stuffed into sandwiches for a hearty snack."
+}

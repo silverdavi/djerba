@@ -1,0 +1,413 @@
+{
+  "id": "chraime_spicy_fish_stew",
+  "slug": "chraime-spicy-fish-stew",
+  "source_file": "data/safed_recipes/26_חרימי.json",
+  "name": "Chraime (Spicy Fish Stew)",
+  "name_hebrew": "חריימה",
+  "name_origin": "The name is derived from the Arabic root 'ḥ-r-m' (حرم), meaning 'forbidden', 'sacred', or 'taboo'. The specific form 'Chraime' (or 'Hraime') follows the Arabic diminutive pattern (Fu'ayl), literally translating to 'a little forbidden thing' or 'a little sin'. This is a metaphorical name, likely referring to the intense, 'punishing' heat of the dish or the idea that it is so delicious it is sinful. It is important to correct the common misconception in the provided note: the Arabic word for 'hot/spicy' is 'ḥārr' (حار), not 'ḥarām'. However, the phonetics of 'Chraime' align with the root for 'forbidden' (ḥ-r-m), not 'hot' (ḥ-r-r). (Confidence: likely)",
+  "description": "A classic North African Jewish spicy fish stew featuring a rich, thick red sauce made from garlic, paprika, tomato paste, and caraway. Traditionally served as the first course of the Shabbat dinner.",
+  "cultural_context": "A staple of Libyan and Tunisian Jewish cuisine, specifically associated with Shabbat and holidays. Unlike Moroccan fish dishes which often include carrots and cilantro, Chraime relies heavily on the 'pilpelchuma' flavor profile (garlic and chili).",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace fish with firm tofu or thick slices of eggplant and potatoes.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white_fish",
+      "name": "White fish fillets (Sea Bass, Grouper, or Tilapia)",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into portions",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "generous amount needed for the sauce base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 8,
+      "unit": "cloves",
+      "preparation": "minced or crushed",
+      "notes": "approx. 1 head",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 8,
+          "unit": "cloves"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 32,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_paprika",
+      "name": "Hot Paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "adjust according to heat preference",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_pepper",
+      "name": "Green hot peppers",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "sliced lengthwise or chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "caraway",
+      "name": "Caraway seeds (ground)",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": "Kimel",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.09,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cumin",
+      "name": "Cumin",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.25,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 250,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx 1 cup, adjust for sauce consistency",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 250,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": "freshly squeezed",
+      "notes": "approx 2 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "peeled and sliced into rounds",
+      "notes": "optional addition mentioned in instructions",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat the oil in a wide, shallow pot (sotage).",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the garlic, tomato paste, hot peppers, paprika, cumin, caraway, and salt. Sauté gently for about 5 minutes to open the flavors of the spices. Be careful not to burn the garlic.",
+      "time_minutes": 5,
+      "tips": "If the mixture is too dry and sticking, add a splash of water."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the water and bring to a simmer to create a sauce.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the fish fillets and lemon juice to the pot. If using potatoes, add them now as well (arrange them around or under the fish).",
+      "time_minutes": null,
+      "tips": "Ensure the fish is coated by the sauce."
+    },
+    {
+      "step": 5,
+      "instruction": "Cover the pot and cook for 15-20 minutes until the fish is cooked through and the sauce has thickened.",
+      "time_minutes": 15,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/045_hraime/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "libyan",
+    "fish",
+    "shabbat",
+    "spicy",
+    "main-course"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥarām (حرام) - meaning forbidden/sacred",
+    "meaning": "Little forbidden thing (diminutive form)",
+    "confidence": "likely",
+    "notes": "Linguistic analysis of Libyan/Tunisian Judeo-Arabic morphology. While 'Harr' means hot, the 'm' at the end of 'Chraime' confirms the root is Ḥ-R-M. Food historians like Gil Marks attribute the name to the 'forbidden' intensity of the spice."
+  },
+  "alternative_names": [
+    {
+      "name": "Hraime",
+      "language": "Libyan Judeo-Arabic",
+      "notes": "The more phonetically accurate transliteration of the guttural 'Het' sound."
+    },
+    {
+      "name": "Chraimeh",
+      "language": "Hebrew",
+      "notes": "Standard Modern Hebrew spelling/pronunciation."
+    },
+    {
+      "name": "Hraimi",
+      "language": "Libyan Arabic",
+      "notes": "The non-Jewish Libyan version of the dish, often served with 'Bazeen' (barley dough)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Samak bi-l-Hraimi",
+      "culture": "Libyan (Muslim)",
+      "similarity": "Virtually identical spicy fish stew base.",
+      "key_difference": "Often served with Asida or Bazeen (doughs) rather than the Challah/bread used in Jewish Shabbat meals."
+    },
+    {
+      "name": "Dag Marokai (Moroccan Fish)",
+      "culture": "Moroccan Jewish",
+      "similarity": "Spicy fish stew served for Shabbat.",
+      "key_difference": "Moroccan version relies on bell peppers, cilantro, and sweet paprika; Chraime relies on tomato paste, caraway, and 'Pilpel Chuma' (garlic-chili paste)."
+    },
+    {
+      "name": "Kabkabou",
+      "culture": "Tunisian",
+      "similarity": "Fish stew with tomato and spices.",
+      "key_difference": "Kabkabou typically includes preserved lemons, capers, and olives, which are not standard in the strict Chraime sauce."
+    },
+    {
+      "name": "Matelote",
+      "culture": "French",
+      "similarity": "Fish stew prepared with wine/sauce.",
+      "key_difference": "Uses wine and French herbs; lacks the aggressive chili heat and caraway of the Maghrebi version."
+    }
+  ],
+  "intro_paragraph": "Chraime—literally \"a little sin\" in Arabic, likely referencing its intense heat—is a staple spicy fish stew in Djerban and Libyan households. White fish simmers in a thick, concentrated sauce of garlic, paprika, tomato paste, and caraway. Traditionally served as the first course of Shabbat dinner, it requires plenty of bread to mop up the fiery gravy."
+}

@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is a modern construct found in Israeli/Diaspora Jewish culture rather than a traditional North African dialect. It combines the English loanword 'Pancake' (transliterated phonetically into Hebrew as פנקייק) with the possessive nickname 'Soly'. 'Soly' is a common affectionate diminutive for the name Solomon (Shlomo) among North African (Sephardic/Mizrahi) Jews. The use of the English loanword instead of traditional Tunisian terms like 'Ghraif' or 'Baghrir' indicates this is a Western recipe adopted by the family and adapted to be Kosher Parve, rather than an indigenous Djerban dish.",
+    "language_source": "hebrew",
+    "root_word": "English 'Pancake' + Name 'Solomon'",
+    "meaning": "Pancakes made by or associated with Soly (Solomon)",
+    "confidence": "confirmed",
+    "sources_notes": "Linguistic analysis of the Hebrew text (פנקייק) confirms it is a modern loanword. Traditional Djerban cuisine would use Judeo-Arabic terms if the dish were pre-colonial/indigenous."
+  },
+  "alternative_names": [
+    {
+      "name": "Ghraif",
+      "language": "tunisian_arabic",
+      "notes": "The traditional Tunisian term for pancakes/crepes, though usually semolina-based."
+    },
+    {
+      "name": "Chavitiyot",
+      "language": "hebrew",
+      "notes": "The standard Modern Hebrew word for pancakes or crepes."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Baghrir",
+      "culture": "Maghreb (Tunisia/Morocco/Algeria)",
+      "similarity": "A pancake-like dish eaten with honey/syrup.",
+      "key_difference": "Baghrir uses semolina and yeast to create a 'honeycomb' texture with holes; Soly's pancakes are likely flour-based and chemically leavened (Western style)."
+    },
+    {
+      "name": "Mofletta",
+      "culture": "Moroccan Jewish",
+      "similarity": "A fried dough/pancake eaten with sweet toppings.",
+      "key_difference": "Mofletta is a thin, stretched dough (like a crepe/rghaif) rather than a batter-based pancake."
+    },
+    {
+      "name": "American Pancakes",
+      "culture": "USA/Western",
+      "similarity": "Identical cooking method and texture.",
+      "key_difference": "Standard American pancakes use milk and butter; Soly's version substitutes water and oil to remain Parve (neutral) for Kosher dietary laws."
+    }
+  ]
+}

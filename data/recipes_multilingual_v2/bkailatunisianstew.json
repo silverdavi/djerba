@@ -1,0 +1,102 @@
+{
+  "id": "bkailatunisianstew",
+  "image": "images/current/010_bkaila/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "30 min",
+    "cook_time": "180 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בקילה",
+    "es": "Bkaila (Estofado Tunecino de Acelgas y Alubias)",
+    "ar": "بكيلة",
+    "en": "Bkaila (Tunisian Chard and Bean Stew)"
+  },
+  "description": {
+    "he": "בקילה, ששמה נגזר מהמילה הערבית ל\"ירק קטן\", היא תבשיל יהודי תוניסאי עשיר המפורסם בצבעו הירוק הכהה והעמוק. עלי מנגולד מטוגנים באיטיות עד להפיכתם לקונפי מרוכז, ואז מתבשלים עם שעועית לבנה, בקר ועשבי תיבול. מנה זו, שהיא מצרך בסיסי בשולחן השבת, מדגישה טכניקה קהילתית ייחודית לשימור ירקות.",
+    "es": "La Bkaila, cuyo nombre deriva del árabe para \"pequeñas verduras\", es un rico estofado judío tunecino famoso por su color verde oscuro y profundo. Las acelgas se fríen lentamente hasta convertirse en un confitado concentrado, luego se cocinan a fuego lento con alubias blancas, carne de res y hierbas. Un elemento básico de la mesa de Shabat, este plato destaca una técnica comunitaria única para conservar verduras.",
+    "ar": "البكيلة، اللي اسمها جاي من كلمة \"بقل\" بالعربية، هي مرقة يهودية تونسية غنية ومشهورة بلونها الأخضر الغامق. السلق يتقلى بالشوية لين يولي كيف \"الكونفي\" المركز، ومبعد يطيب مع اللوبيا البيضاء، اللحم، والحشيش. الطبق هذا أساسي في طاولة الشبات، ويبين طريقة مميزة عند الجالية باش يصبروا الخضرة.",
+    "en": "Bkaila, deriving its name from the Arabic for \"little greens,\" is a rich Tunisian Jewish stew famous for its deep, dark color. Swiss chard is slowly fried into a concentrated confit, then simmered with white beans, beef, and herbs. A staple of the Shabbat table, this dish highlights a unique community technique for preserving vegetables."
+  },
+  "ingredients": {
+    "he": [
+      "2 צרורות עלי מנגולד, שטופים וקצוצים",
+      "120 מ\"ל שמן צמחי",
+      "400 גרם שעועית לבנה, מושרית ללילה",
+      "750 גרם בשר לבישול ארוך, חתוך לקוביות",
+      "6 שיני שום, קלופות",
+      "1 צרור כוסברה טרייה, קצוצה",
+      "1 צרור שמיר טרי, קצוץ",
+      "מים לפי הצורך לבישול",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "2 manojos de hojas de acelga, lavadas y picadas",
+      "120 ml de aceite vegetal",
+      "400 g de alubias blancas, remojadas durante la noche",
+      "750 g de carne de res para estofado, en cubos",
+      "6 dientes de ajo, pelados",
+      "1 manojo de cilantro fresco, picado",
+      "1 manojo de eneldo fresco, picado",
+      "Agua según sea necesario",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "2 ربطات سلق، مغسول ومقصوص",
+      "نصف كاس زيت",
+      "2 كيسان لوبيا بيضاء، منفخة ليلة كاملة",
+      "750 غرام لحم بقري (هبرة)، مقصوص مكعبات",
+      "6 سنون ثوم، مقشرين",
+      "1 ربطة كسبر، مقصوص",
+      "1 ربطة شبت، مقصوص",
+      "ماء حسب الحاجة",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "2 bunches Swiss chard leaves, washed and chopped",
+      "1/2 cup vegetable oil",
+      "2 cups white beans, soaked overnight",
+      "26.5 oz beef stew meat, cut into cubes",
+      "6 cloves garlic, peeled",
+      "1 bunch fresh cilantro, chopped",
+      "1 bunch fresh dill, chopped",
+      "Water as needed for stewing",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שטפו היטב את עלי המנגולד וקצצו אותם. הניחו אותם בסיר רחב ללא שמן או מים.",
+      "בשלו על אש נמוכה כדי לאדות את העלים עד שכל הנוזלים הטבעיים מתאדים. העלים ייראו נבולים וירוקים כהים.",
+      "הוסיפו את השמן (כ-120 מ\"ל) לעלים היבשים. טגנו בעדינות, תוך ערבוב מדי פעם, עד שהעלים הופכים לירוק כהה מאוד (כמעט שחור) והמרקם הופך לקונפי.",
+      "הוסיפו את השעועית הלבנה המושרית, קוביות הבשר, השום ומספיק מים לכיסוי המרכיבים (או 2 כוסות כבסיס, והוסיפו עוד לפי הצורך).",
+      "הביאו לרתיחה, ואז הנמיכו את האש ובשלו בבישול ארוך עד שהבשר והשעועית רכים.",
+      "לקראת סוף הבישול, הוסיפו את הכוסברה הקצוצה, השמיר והמלח לפי הטעם. בשלו מספר דקות נוספות לאיחוד טעמים."
+    ],
+    "es": [
+      "Lave bien las hojas de acelga y píquelas. Colóquelas en una olla ancha sin aceite ni agua.",
+      "Cocine a fuego lento para vaporizar las hojas hasta que todo el líquido natural se evapore. Las hojas se verán marchitas y de color verde oscuro.",
+      "Añada el aceite (aprox. 120 ml) a las hojas secas. Fría suavemente, removiendo ocasionalmente, hasta que las hojas se tornen de un verde muy oscuro (casi negro) y la textura se vuelva como un confitado.",
+      "Agregue las alubias blancas remojadas, los cubos de carne, el ajo y suficiente agua para cubrir los ingredientes.",
+      "Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento hasta que la carne y las alubias estén tiernas.",
+      "Hacia el final de la cocción, añada el cilantro picado, el eneldo y sal al gusto. Cocine a fuego lento unos minutos más para integrar los sabores."
+    ],
+    "ar": [
+      "اغسل أوراق السلق مليح وقصهم. حطهم في طنجرة واسعة من غير زيت ولا ماء.",
+      "طيبهم على نار هادية باش يتبخر الماء متاعهم الكل. الورق يولي ذابل ولونه أخضر غامق.",
+      "زيد الزيت (تقريب نصف كاس) للورق الشايح. اقلي بالشوية، وحرك مرة مرة، لين الورق يولي لونه أخضر غامق برشا (قريب للكحولة) ويولي مزيت كيف \"الكونفي\".",
+      "زيد اللوبيا المنفخة، طروف اللحم، الثوم، والماء باش تغطي كل شيء.",
+      "خليها تغلي، ومبعد نقص النار وطيبها سلة سلة لين اللحم واللوبيا يطيبوا بالباهي.",
+      "في الآخر، زيد الكسبر المقصوص، الشبت، والملح حسب الذوق. خليهم يغلوا شوية باش النكهات تدخل في بعضها."
+    ],
+    "en": [
+      "Thoroughly wash the Swiss chard leaves and chop them. Place them in a wide pot without any oil or water.",
+      "Cook on low heat to steam the leaves until all the natural liquid evaporates. The leaves will look wilted and dark green.",
+      "Add the oil (approx. 1/2 cup) to the dried leaves. Fry gently, stirring occasionally, until the leaves turn a very dark, deep green (almost black) and the texture becomes confit-like.",
+      "Add the soaked white beans, meat cubes, garlic, and enough water to cover the ingredients (or 2 cups as a base, adding more as needed).",
+      "Bring to a boil, then reduce heat and simulate a long cook until the meat and beans are tender.",
+      "Towards the end of cooking, add the chopped cilantro, dill, and salt to taste. Simmer for a final few minutes to integrate flavors."
+    ]
+  }
+}

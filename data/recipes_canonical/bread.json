@@ -1,0 +1,279 @@
+{
+  "id": "bread",
+  "slug": "bread",
+  "source_file": "data/safed_recipes/bread.json",
+  "name": "Homemade Bread",
+  "name_hebrew": "לחם בית",
+  "name_origin": "The Hebrew name 'Lechem Bayit' is a direct calque (loan translation) of the Maghrebi Arabic term 'Khobz Dar' (خبز دار) or the French 'Pain de Maison'. In North African culture, a distinct separation exists between 'Khobz Souq' (market bread/baguettes bought daily) and 'Khobz Dar' (bread made by the housewife). While the name provided is Modern Hebrew, the culinary concept is strictly North African: a dense, soft-crumbed loaf baked in a home oven rather than a communal tannur or bought from a bakery.",
+  "description": "A classic, simple white bread recipe using a standard 1kg flour base. This recipe produces a reliable dough suitable for loaves or rolls.",
+  "cultural_context": "In North African Jewish households, baking bread is a weekly staple, often done on Fridays for Shabbat (Challah). While this recipe does not specify eggs (common in Ashkenazi Challah), water-based breads are common for daily consumption or specific Sephardic traditions.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "2-3 loaves",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 120,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry_yeast",
+      "name": "Dry yeast",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 20,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 1.25,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "to activate yeast",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 16,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.56,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.25,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1.25,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 720,
+      "unit": "ml",
+      "preparation": "lukewarm",
+      "notes": "approx. 3 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 720,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 24,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 720,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "Flour",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "sifted",
+      "notes": "all-purpose or bread flour",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 8,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 18,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.63,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a small bowl, combine the yeast, sugar, and lukewarm water. Let it sit for a few minutes until the yeast activates, bubbles, and grows.",
+      "time_minutes": 10,
+      "tips": "Ensure water is not too hot, or it will kill the yeast."
+    },
+    {
+      "step": 2,
+      "instruction": "In a large mixing bowl, mix the salt into the flour.",
+      "time_minutes": 2,
+      "tips": "Mixing salt with flour first prevents it from coming into direct contact with the yeast initially, which can inhibit rising."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the oil and the activated yeast water mixture to the flour.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Knead the dough thoroughly for at least 10 minutes until smooth and elastic.",
+      "time_minutes": 10,
+      "tips": "If the dough is too sticky, add a small amount of flour; if too dry, add a splash of water."
+    },
+    {
+      "step": 5,
+      "instruction": "Cover the dough and let it rest in a warm place until it doubles in size.",
+      "time_minutes": 60,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Shape into loaves, let rise again for 20 minutes, and bake at 180°C (350°F) until golden brown and hollow sounding when tapped.",
+      "time_minutes": 35,
+      "tips": "Baking time inferred as it was missing from original source."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/041_khobz_dar/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "baking",
+    "bread",
+    "vegan",
+    "pareve",
+    "staple"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Hebrew: לחם (Lechem - Bread) + בית (Bayit - House); Arabic parallel: خبز (Khobz) + دار (Dar)",
+    "meaning": "Bread of the house (Homemade bread)",
+    "confidence": "confirmed",
+    "notes": "The term 'Lechem Bayit' is a generic descriptor in Israeli/Hebrew cookbooks, but in a Djerban context, it specifically refers to the tradition of 'Khobz Dar'. Unlike the crusty French baguettes introduced during the protectorate, this bread typically uses oil and sugar to create a softer texture suitable for dipping in Shabbat sauces."
+  },
+  "alternative_names": [
+    {
+      "name": "Khobz Dar",
+      "language": "tunisian_arabic",
+      "notes": "The vernacular name used by Jews and Muslims in Tunisia for homemade oven bread."
+    },
+    {
+      "name": "Pain de Maison",
+      "language": "french",
+      "notes": "Commonly used by Francophone North African Jews to distinguish this loaf from bakery bread."
+    },
+    {
+      "name": "Khobz Koucha",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Oven Bread' (from the French 'couche' or Latin 'coxere'), distinguishing it from 'Khobz Tabouna' (clay oven bread)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Khobz Dar / Khobz el Dar",
+      "culture": "Maghrebi (Muslim)",
+      "similarity": "Identical concept of homemade white/semolina bread.",
+      "key_difference": "Muslim versions often use nigella seeds (sanouj) more aggressively; Jewish versions for Shabbat are strictly Pareve and often slightly sweeter."
+    },
+    {
+      "name": "Pain Tunisien / Khobz Talian",
+      "culture": "Tunisian",
+      "similarity": "White, airy bread common in Tunisia.",
+      "key_difference": "Khobz Talian is a bakery product with a crispier crust, whereas Lechem Bayit has a softer crust."
+    },
+    {
+      "name": "Challah",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "The function of a Shabbat loaf.",
+      "key_difference": "Ashkenazi Challah is enriched with eggs; Djerban/Tunisian bread is typically water-based (sometimes with oil) and rarely contains eggs in the dough itself."
+    }
+  ],
+  "intro_paragraph": "Lechem Bayit mirrors the Maghrebi concept of Khobz Dar, distinguishing cherished homemade loaves from store-bought market bread. This dense, soft-crumbed white bread is baked in the family oven rather than a communal tannur. A staple of Djerban households, the simple water-based dough is shaped into rustic loaves or rolls for daily meals or Shabbat."
+}

@@ -1,0 +1,334 @@
+{
+  "id": "vegan_caesar_dressing",
+  "slug": "vegan-caesar-dressing",
+  "source_file": "data/safed_recipes/vegan_caesar_dressing.json",
+  "name": "Vegan Caesar Dressing",
+  "name_hebrew": "רוטב קיסר טבעוני",
+  "name_origin": "This is a Modern Hebrew translation of the Western 'Caesar Dressing'. The Hebrew word 'Keisar' (קיסר) is derived from the Latin 'Caesar'. The dish itself is named after Caesar Cardini, an Italian immigrant who invented the salad in Tijuana, Mexico, in 1924. The term 'Tiv'oni' (טבעוני) is a Modern Hebrew neologism for 'vegan', derived from the root 'Teva' (nature), coined in the 1930s/40s. This is not a traditional North African or Judeo-Arabic dish, but a modern addition to the culinary repertoire, likely influenced by the French 'Sauce Rémoulade' (mayonnaise with capers) which is common in colonial Tunisian cuisine.",
+  "description": "A creamy, plant-based alternative to traditional Caesar dressing. It uses vegan mayonnaise as a base with capers, brine, and lemon juice to replicate the signature tangy, savory flavor without anchovies or eggs.",
+  "cultural_context": "A modern addition to the family collection, offering a pareve and vegan option for salads.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Recipe is inherently vegan.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 5,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegan_mayonnaise",
+      "name": "Vegan mayonnaise",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "capers",
+      "name": "Capers",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "caper_brine",
+      "name": "Caper brine",
+      "amount": 1.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "from the jar",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7.5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "freshly squeezed",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dijon_mustard",
+      "name": "Dijon mustard",
+      "amount": 1.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.28,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "fresh_parsley",
+      "name": "Fresh parsley",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": "chopped",
+      "notes": "or 1/2 tsp dried parsley",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.14,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 2,
+      "unit": "clove",
+      "preparation": "peeled",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "clove"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Add the vegan mayonnaise, capers, caper brine, lemon juice, dijon mustard, parsley, garlic, and pepper to a food processor or blender.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Blend until the mixture is completely smooth.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Taste the dressing and adjust salt or other seasonings as needed.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Serve immediately with salads, bowls, or sandwiches, or store in the refrigerator.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/016_vegan_caesar/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "salad-dressing",
+    "vegan",
+    "pareve",
+    "modern",
+    "sauce"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Keisar (from Latin Caesar) + Teva (Nature)",
+    "meaning": "Vegan Caesar Sauce",
+    "confidence": "confirmed",
+    "notes": "The etymology is standard Modern Hebrew. The dish's presence in a Djerban cookbook represents modern dietary adaptation rather than heritage cuisine. However, the use of capers (kabbar) is a staple in Tunisian cooking."
+  },
+  "alternative_names": [
+    {
+      "name": "Sauce César Végétalienne",
+      "language": "French",
+      "notes": "French is the second language of Tunisia; this name would be used in Francophone contexts."
+    },
+    {
+      "name": "Sauce Rémoulade (variation)",
+      "language": "French",
+      "notes": "A mayonnaise-based sauce with capers and herbs, common in French-Tunisian cuisine, which likely served as the template for this vegan adaptation."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Original Caesar Dressing",
+      "culture": "Italian-American / Mexican",
+      "similarity": "The flavor profile target (creamy, savory, tangy).",
+      "key_difference": "The original uses raw egg yolks, parmesan cheese, and anchovies; the Jewish vegan version substitutes these with vegan mayo and capers (for brine/saltiness) to keep it Parve (neutral) and egg-free."
+    },
+    {
+      "name": "Sauce Rémoulade",
+      "culture": "French",
+      "similarity": "A mayonnaise-based sauce traditionally containing capers, pickles, and herbs.",
+      "key_difference": "Traditional Rémoulade often contains anchovies or chopped boiled eggs; the vegan Caesar is a simplified, plant-based derivation."
+    },
+    {
+      "name": "Maionese",
+      "culture": "Tunisian (Modern)",
+      "similarity": "Tunisians consume significant amounts of mayonnaise (often mixed with Harissa).",
+      "key_difference": "Standard Tunisian mayonnaise is egg-based and often spicy; this specific recipe is seasoned with capers to mimic the 'Caesar' profile."
+    }
+  ],
+  "intro_paragraph": "Rotev Keisar Tiv'oni offers a creamy, plant-based alternative to the classic salad topper. The name combines *Keisar* (Caesar) with *Tiv'oni*, a Modern Hebrew term for vegan rooted in *teva* (nature). Blending vegan mayonnaise, capers, and lemon juice, this modern pareve addition replicates the signature savory tang without anchovies, making it suitable for any meal."
+}

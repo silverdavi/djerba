@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Banatage' (or Banatache) is likely a linguistic corruption of the Spanish/Ladino word 'Empanada' (or the archaic 'Panada'), filtered through Tunisian Arabic phonology. In Arabic, the letter 'P' does not exist and is often replaced by 'B' (e.g., 'Pepsi' becomes 'Bebsi'). Therefore, 'Empanada' became 'Mbanada' or 'Banada'. The suffix '-age' or '-ej' likely reflects a Maghrebi pluralization or a French colonial phonetic influence on the ending. Historically, 'Banadhej' appears in medieval Andalusian-Maghrebi cookbooks referring to small stuffed pies. The Djerban Jewish innovation was substituting the wheat dough with a potato-based dough (likely for Passover/Pesach compliance), while retaining the name for 'stuffed vessel'.",
+    "language_source": "ladino",
+    "root_word": "Empanada / Panada",
+    "meaning": "Literally 'breaded' or 'enbreaded' (originally referring to dough-wrapped items)",
+    "confidence": "likely",
+    "sources_notes": "Linguistic shift P -> B is standard in Judeo-Arabic. The dish is culinarily identical to 'Papas Rellenas' but carries a name derived from dough-based pastries, supporting the theory that it is a Passover adaptation of a flour-based pastel."
+  },
+  "alternative_names": [
+    {
+      "name": "Banatache",
+      "language": "tunisian_arabic",
+      "notes": "Phonetic variation common in French transliteration of Tunisian dialects"
+    },
+    {
+      "name": "Boulettes de Pommes de Terre Farcies",
+      "language": "french",
+      "notes": "Descriptive name used in modern Francophone Jewish cookbooks"
+    },
+    {
+      "name": "Kouikates",
+      "language": "tunisian_arabic",
+      "notes": "General term for croquettes, sometimes used interchangeably"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ma'aqouda",
+      "culture": "Maghreb (Morocco/Tunisia/Algeria)",
+      "similarity": "Potato-based fritter bound with egg",
+      "key_difference": "Ma'aqouda is usually a flat omelet/fritter mixed with herbs, rarely stuffed with a distinct meat center like Banatage"
+    },
+    {
+      "name": "Kibbeh Batata",
+      "culture": "Iraqi/Levantine",
+      "similarity": "Mashed potato dough stuffed with spiced ground meat and fried",
+      "key_difference": "Uses Middle Eastern spices (baharat) and often includes bulgur in the shell; Banatage uses turmeric/pepper and pure potato"
+    },
+    {
+      "name": "Papas Rellenas",
+      "culture": "Spanish / Latin American",
+      "similarity": "Identical concept: mashed potato dough stuffed with picadillo (meat) and fried",
+      "key_difference": "Fillings differ (raisins/olives in Spanish version vs. savory chicken/turmeric in Djerban)"
+    },
+    {
+      "name": "Pastel",
+      "culture": "Sephardic",
+      "similarity": "Fried stuffed appetizer",
+      "key_difference": "Pastels use a flour/pastry dough; Banatage is the potato equivalent (often for Passover)"
+    }
+  ]
+}

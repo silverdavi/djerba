@@ -1,0 +1,232 @@
+{
+  "id": "french_toast",
+  "slug": "french-toast",
+  "source_file": "data/safed_recipes/french_toast.json",
+  "name": "French Toast",
+  "name_hebrew": "לחם מטוגן",
+  "name_origin": "While the Hebrew name provided ('Lechem Metugan') is a modern descriptive translation meaning 'Fried Bread,' the cultural origin of this dish in the 20th-century Tunisian Jewish context is firmly rooted in the French colonial influence. The community adopted the French term 'Pain Perdu' (Lost Bread). Unlike indigenous dishes with Judeo-Arabic names (like 'Mhamsa' or 'Pkaila'), this dish represents the Francophone acculturation of North African Jewry. The concept utilizes stale bread ('lost' bread) soaked in a custard mixture ('adma' and milk) to revive it.",
+  "description": "A classic breakfast dish made by dipping sliced bread into a custard of eggs, milk, and vanilla, then frying until golden brown. A perfect way to use up stale bread.",
+  "cultural_context": "In North African Jewish communities with French influence (Tunisia, Morocco), this is often known as 'Pain Perdu'. In Israel, it is a standard household dinner or breakfast known as 'Lechem Metugan'.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Use plant-based milk and a chickpea flour batter or commercial egg replacer.",
+  "meta": {
+    "servings": "2",
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 15,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "size": "large",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "milk",
+      "name": "Milk",
+      "amount": 60,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_powder",
+      "name": "Vanilla powder",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "Or vanilla sugar",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sliced_bread",
+      "name": "Sliced bread",
+      "amount": 4,
+      "unit": "unit",
+      "size": "thick slices",
+      "preparation": null,
+      "notes": "Stale bread works best",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "butter",
+      "name": "Butter or Oil",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a wide, shallow bowl, whisk together the eggs, milk, and vanilla powder until well combined.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Heat a frying pan over medium heat and grease with butter or oil.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Dip each slice of bread into the egg mixture, allowing it to soak for a few seconds on each side.",
+      "time_minutes": 1,
+      "tips": "Do not soak too long or the bread will fall apart."
+    },
+    {
+      "step": 4,
+      "instruction": "Place the soaked bread in the hot pan and fry until golden brown on both sides.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Serve warm, optionally topped with sugar or syrup.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/032_french_toast/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "breakfast",
+    "dairy",
+    "kids-friendly",
+    "quick"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "Pain Perdu",
+    "meaning": "Lost Bread (referring to stale bread saved from waste)",
+    "confidence": "confirmed",
+    "notes": "Tunisia was a French protectorate (1881–1956). Tunisian Jews rapidly adopted French language and culinary habits. While fried bread exists in Sephardic history ('Rebanadas'), the specific use of vanilla-milk custard and the name 'Pain Perdu' cited in the description confirms the French colonial pathway."
+  },
+  "alternative_names": [
+    {
+      "name": "Rebanadas / Rabanadas",
+      "language": "ladino",
+      "notes": "The older Sephardic name for fried bread slices, traditionally eaten by nursing mothers or during Hanukkah. Often soaked in honey syrup rather than just sugar."
+    },
+    {
+      "name": "Khobz Maqli",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation for 'Fried Bread' (Khobz = Bread, Maqli = Fried). Used descriptively in Derja."
+    },
+    {
+      "name": "Torrijas",
+      "language": "spanish",
+      "notes": "The Iberian antecedent to the dish, brought by Spanish exiles (Grana) to North Africa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Torrijas",
+      "culture": "Spain (Catholic)",
+      "similarity": "Stale bread soaked in milk/wine and egg, fried.",
+      "key_difference": "Traditionally eaten during Lent/Semana Santa; often flavored with cinnamon and honey rather than vanilla."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghreb (Tunisia/Morocco)",
+      "similarity": "Fried dough consumed for breakfast or Hanukkah.",
+      "key_difference": "Sfenj is made from raw yeasted dough (like a fritter), whereas Pain Perdu recycles baked stale bread."
+    },
+    {
+      "name": "Om Ali",
+      "culture": "Egypt/Middle East",
+      "similarity": "Uses stale bread (or pastry) soaked in milk and nuts.",
+      "key_difference": "It is a baked bread pudding, not pan-fried slices."
+    }
+  ],
+  "intro_paragraph": "Pain Perdu—literally \"lost bread\"—captures the Francophone acculturation of North African Jews. Designed to rescue stale loaves, slices are soaked in an egg-milk custard and fried until golden. While modern Israeli families know it as Lechem Metugan, this comforting breakfast dish remains a sweet link to the community’s colonial past."
+}

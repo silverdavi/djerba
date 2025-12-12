@@ -1,0 +1,361 @@
+{
+  "id": "mhamsa",
+  "slug": "mhamsa-tunisian-pasta",
+  "source_file": "data/safed_recipes/00_מחמסה.json",
+  "name": "Mhamsa (Tunisian Pasta Pearls)",
+  "name_hebrew": "מחמסה",
+  "name_origin": "Derived from the Arabic trilateral root ḥ-m-ṣ (ح-م-ص), specifically the verb 'ḥammaṣa' (حمّص), meaning 'to roast', 'to toast', or 'to sear'. The name 'Mhamsa' (محمصة) literally translates to 'that which is toasted/roasted'. Historically, these hand-rolled semolina pearls were dried in the sun or lightly toasted in an oven or pan to preserve them and prevent them from turning into mush when cooked in liquid. This toasting process gives the pasta a nutty flavor distinct from standard couscous.",
+  "description": "A comforting North African dish made from pearl pasta. This recipe provides two methods: a simple 'dry' pilaf-style preparation, and a rich, saucy version cooked with tomatoes and vegetables, which is a staple of Djerban cuisine.",
+  "cultural_context": "In Djerban and Tunisian Jewish cuisine, Mhamsa is a versatile staple. The saucy version is often served as a warming winter dish. While traditional Mhamsa was hand-rolled sun-dried semolina, modern Israeli 'Ptitim' is the standard substitute.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 45,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying (approx 3 tbsp)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 45,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "small size",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sweet_paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomato",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": "fresh",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "mixed_vegetables",
+      "name": "Seasonal vegetables",
+      "amount": 1,
+      "unit": "cup",
+      "preparation": "diced",
+      "notes": "potatoes, carrots, or zucchini as desired",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ptitim",
+      "name": "Ptitim (Israeli Couscous / Mhamsa)",
+      "amount": 300,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx 2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": "boiling",
+      "notes": "enough to cover and create sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat the oil in a pot and fry the diced onion until it begins to brown (caramelize).",
+      "time_minutes": 5,
+      "tips": "Don't burn the onion, but let it get a deep golden color for flavor."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the tablespoon of sweet paprika and stir for a few seconds to release the aroma (be careful not to burn it).",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Immediately add the chopped tomatoes and your chosen vegetables. Season with salt and black pepper.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Pour in boiling water. For a soupier consistency, use more water; for a stew, use less. Bring to a boil.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the Ptitim (Mhamsa). Bring back to a boil, then lower the heat.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Cover the pot partially and cook until the pasta and vegetables are tender.",
+      "time_minutes": 12,
+      "tips": "Stir occasionally to prevent sticking."
+    }
+  ],
+  "variants": [
+    {
+      "name": "Dry Mhamsa (Pilaf Style)",
+      "description": "A simpler version without the tomato sauce base.",
+      "instructions": "1. Fry a small onion in oil.\n2. Add the Ptitim (Mhamsa) and sauté for a few minutes to toast them slightly.\n3. Add water using a ratio of 1.25 cups of water for every 1 cup of Ptitim.\n4. Cover and cook until water is absorbed."
+    }
+  ],
+  "image": {
+    "filename": "images/current/059_mhamsa/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "pasta",
+    "side-dish",
+    "vegan",
+    "ptitim"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥammaṣa (حمّص)",
+    "meaning": "The toasted/roasted one",
+    "confidence": "confirmed",
+    "notes": "Standard Maghrebi culinary terminology. The root is shared with 'hummus' (chickpeas), which are also traditionally roasted/toasted. In Tunisian Derja, the feminine ending is pronounced, making it 'Mhamsa'."
+  },
+  "alternative_names": [
+    {
+      "name": "M'hamsa",
+      "language": "french",
+      "notes": "Common Francophone spelling found in North African cookbooks"
+    },
+    {
+      "name": "Berkoukes",
+      "language": "algerian_arabic",
+      "notes": "While sometimes used interchangeably, Berkoukes usually implies a slightly larger grain size than Mhamsa in some regions."
+    },
+    {
+      "name": "Aich",
+      "language": "algerian_arabic",
+      "notes": "Common name for the dish in Eastern Algeria."
+    },
+    {
+      "name": "Ptitim",
+      "language": "hebrew",
+      "notes": "The modern Israeli industrial version ('Ben-Gurion Rice') created in the 1950s to mimic rice, heavily inspired by Mhamsa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fregola / Fregula",
+      "culture": "Sardinian (Italy)",
+      "similarity": "Identical hand-rolled, toasted semolina pasta pearls.",
+      "key_difference": "Often cooked with clams or seafood stock rather than the tomato/harissa base of the Tunisian version."
+    },
+    {
+      "name": "Moghrabieh",
+      "culture": "Levantine (Lebanon/Palestine)",
+      "similarity": "Large pearl couscous dish.",
+      "key_difference": "Grains are larger than Mhamsa; typically spiced with caraway/cinnamon and served with chicken and chickpeas rather than a red sauce."
+    },
+    {
+      "name": "Chorba M'hamsa",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "The same pasta used in a soup.",
+      "key_difference": "The Muslim version is often a thinner soup (chorba) eaten to break the fast during Ramadan, whereas the Jewish Djerban version described is often a thicker stew or 'dry' pilaf for Shabbat."
+    },
+    {
+      "name": "Berkoukes",
+      "culture": "Algerian/Moroccan",
+      "similarity": "Large grain pasta stew.",
+      "key_difference": "Often richer, sometimes containing milk, butter, and preserved meats (gueddid) in a way distinct from the Djerban Jewish tomato base."
+    }
+  ],
+  "intro_paragraph": "Mhamsa derives its name from the Arabic verb \"to toast,\" referring to the traditional method of drying hand-rolled semolina pearls to deepen their nutty flavor. A versatile Djerban staple often substituted with Israeli ptitim, it is served either as a simple dry pilaf or, more commonly in winter, simmered in a hearty tomato and vegetable sauce."
+}

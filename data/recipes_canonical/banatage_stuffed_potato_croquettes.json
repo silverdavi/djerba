@@ -1,0 +1,348 @@
+{
+  "id": "banatage_stuffed_potato_croquettes",
+  "slug": "banatage-stuffed-potato-croquettes",
+  "source_file": "data/safed_recipes/08_בונוטאז.json",
+  "name": "Banatage (Stuffed Potato Croquettes)",
+  "name_hebrew": "בונוטאז",
+  "name_origin": "The name 'Banatage' (בונוטאז) derives from the French word 'beignet' (fritter/fried dough), adapted into Tunisian Arabic as 'bnayej', 'banadj', or 'banadhej' (بناضج). The phonetic transformation from French to Maghrebi Arabic is typical: beignet → b'nayej → banadhej. This etymology is supported by Tunisian culinary heritage sources discussing 'Banadhej' (بناضج) as a category of fried foods. The Djerban Jewish version uses mashed potato as the dough base (possibly a Passover adaptation), stuffed with seasoned meat, then fried - essentially a potato-based beignet. An alternative but less likely theory connects it to Spanish 'albondigas' (meatballs). (Confidence: likely)",
+  "description": "A classic Djerban appetizer consisting of mashed potato dough stuffed with savory cooked ground chicken. The croquettes are breaded and deep-fried until golden and crispy.",
+  "cultural_context": "A staple of Djerban Jewish cuisine, often served as an appetizer for Shabbat lunch, weddings, and celebrations. While often made with beef, this version specifies chicken.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with mushroom duxelles or spiced lentils. Use a flax egg or starch slurry for binding.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 50,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "boiled and peeled",
+      "notes": "Use starchy potatoes for best mash",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ground_chicken_breast",
+      "name": "Ground chicken breast",
+      "amount": 300,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "beaten",
+      "notes": "For coating",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "Flour",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "For dredging (inferred from instructions)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.8,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "For coating",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "For deep frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Mash the boiled potatoes thoroughly until smooth.",
+      "time_minutes": 5,
+      "tips": "Ensure the potatoes are warm when mashing for a smoother texture."
+    },
+    {
+      "step": 2,
+      "instruction": "Cook the ground chicken in a pan until fully cooked, seasoning with salt and pepper. Crumble the meat well so there are no large chunks.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Take a portion of mashed potato in the palm of your hand and flatten it slightly.",
+      "time_minutes": null,
+      "tips": "If the potato sticks to your hands, slightly oil or wet your palms."
+    },
+    {
+      "step": 4,
+      "instruction": "Place a teaspoon of the cooked ground meat in the center of the potato.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Close the potato around the filling and shape it into a patty or oval croquette.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Set up a breading station: coat each patty in flour, dip in beaten egg, and finally coat with breadcrumbs.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Deep fry in hot oil until golden brown and crispy.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/007_banatage/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "appetizer",
+    "fried",
+    "chicken",
+    "potato"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "Beignet",
+    "meaning": "Fritter, fried dough - referring to the deep-fried nature of the dish",
+    "confidence": "likely",
+    "notes": "French 'beignet' → Tunisian 'bnayej/banadj/banadhej' (بناضج). Supported by Tunisian heritage sources. The potato base may be a Passover adaptation of originally flour-based fried pastries."
+  },
+  "alternative_names": [
+    {
+      "name": "Banadhej",
+      "language": "tunisian_arabic",
+      "notes": "Standard Tunisian spelling (بناضج)"
+    },
+    {
+      "name": "Bnayej",
+      "language": "tunisian_arabic",
+      "notes": "Alternate pronunciation closer to French 'beignet'"
+    },
+    {
+      "name": "Banatache",
+      "language": "tunisian_arabic",
+      "notes": "Phonetic variation common in French transliteration of Tunisian dialects"
+    },
+    {
+      "name": "Boulettes de Pommes de Terre Farcies",
+      "language": "french",
+      "notes": "Descriptive name used in modern Francophone Jewish cookbooks"
+    },
+    {
+      "name": "Kouikates",
+      "language": "tunisian_arabic",
+      "notes": "General term for croquettes, sometimes used interchangeably"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ma'aqouda",
+      "culture": "Maghreb (Morocco/Tunisia/Algeria)",
+      "similarity": "Potato-based fritter bound with egg",
+      "key_difference": "Ma'aqouda is usually a flat omelet/fritter mixed with herbs, rarely stuffed with a distinct meat center like Banatage"
+    },
+    {
+      "name": "Kibbeh Batata",
+      "culture": "Iraqi/Levantine",
+      "similarity": "Mashed potato dough stuffed with spiced ground meat and fried",
+      "key_difference": "Uses Middle Eastern spices (baharat) and often includes bulgur in the shell; Banatage uses turmeric/pepper and pure potato"
+    },
+    {
+      "name": "Papas Rellenas",
+      "culture": "Spanish / Latin American",
+      "similarity": "Identical concept: mashed potato dough stuffed with picadillo (meat) and fried",
+      "key_difference": "Fillings differ (raisins/olives in Spanish version vs. savory chicken/turmeric in Djerban)"
+    },
+    {
+      "name": "Pastel",
+      "culture": "Sephardic",
+      "similarity": "Fried stuffed appetizer",
+      "key_difference": "Pastels use a flour/pastry dough; Banatage is the potato equivalent (often for Passover)"
+    }
+  ],
+  "intro_paragraph": "Banatage derives its name from the French beignet, transformed into the local banadhej. These crispy croquettes consist of smooth mashed potato dough stuffed with savory ground chicken. A cornerstone of Djerban Jewish tables, they are traditionally deep-fried and served as a cherished appetizer for Shabbat lunches and family celebrations."
+}

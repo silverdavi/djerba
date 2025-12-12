@@ -1,0 +1,324 @@
+{
+  "id": "bkaila_tunisian_stew",
+  "slug": "bkaila-tunisian-stew",
+  "source_file": "data/safed_recipes/21_בקילה.json",
+  "name": "Bkaila (Tunisian Chard and Bean Stew)",
+  "name_hebrew": "בקילה",
+  "name_origin": "The name derives from the Arabic root B-Q-L (ب-ق-l), which relates to herbs, legumes, or sprouting vegetation. In Classical Arabic, 'Baql' (بقل) refers generally to herbs or pot-herbs, and 'Baqla' (بقلة) often refers to specific greens (like purslane in the Levant). In the context of Tunisian Judeo-Arabic, 'Bkaila' (or Pkaila) is a specific noun formation—likely a diminutive—meaning 'The Little Green' or simply 'The Greens.' It is distinct from the standard Tunisian words for spinach ('Sbanakh') or chard ('Salk'), indicating that the name refers specifically to the dish's primary characteristic: the immense volume of greens reduced to a concentrated essence.",
+  "description": "A rich, traditional Tunisian Jewish stew characterized by its deep, dark green color. The unique flavor comes from slowly frying Swiss chard (or spinach) until it creates a concentrated confit, which is then simmered with white beans, beef, and fresh herbs.",
+  "cultural_context": "A staple of Tunisian Jewish cuisine, traditionally served on Shabbat or holidays. The preparation of the greens (the 'pkaila' base) is a technique specific to this community.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace beef with extra beans or potatoes; the dark chard confit provides enough richness for a hearty vegan dish.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 180,
+    "total_time_minutes": 210,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "swiss_chard",
+      "name": "Swiss chard leaves",
+      "amount": 2,
+      "unit": "bunch",
+      "preparation": "washed and chopped",
+      "notes": "Can substitute with spinach",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4.1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_beans",
+      "name": "White beans",
+      "amount": 400,
+      "unit": "g",
+      "preparation": "soaked overnight",
+      "notes": "approx. 2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 400,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "beef_stew_meat",
+      "name": "Beef stew meat",
+      "amount": 750,
+      "unit": "g",
+      "preparation": "cut into cubes",
+      "notes": "Chuck or brisket recommended",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 750,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 26.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 750,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 6,
+      "unit": "clove",
+      "preparation": "peeled",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 6,
+          "unit": "clove"
+        }
+      }
+    },
+    {
+      "ingredient_id": "fresh_cilantro",
+      "name": "Fresh cilantro",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "fresh_dill",
+      "name": "Fresh dill",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for stewing",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Thoroughly wash the Swiss chard leaves and chop them. Place them in a wide pot without any oil or water.",
+      "time_minutes": 10,
+      "tips": "Ensure the chard is clean as grit can ruin the dish."
+    },
+    {
+      "step": 2,
+      "instruction": "Cook on low heat to steam the leaves until all the natural liquid evaporates. The leaves will look wilted and dark green.",
+      "time_minutes": 20,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the oil (approx. 120ml) to the dried leaves. Fry gently, stirring occasionally, until the leaves turn a very dark, deep green (almost black) and the texture becomes confit-like.",
+      "time_minutes": 30,
+      "tips": "Be careful not to burn the leaves, but they must be very dark to achieve the authentic flavor."
+    },
+    {
+      "step": 4,
+      "instruction": "Add the soaked white beans, meat cubes, garlic, and enough water to cover the ingredients (or 2 cups as a base, adding more as needed).",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Bring to a boil, then reduce heat and simulate a long cook until the meat and beans are tender.",
+      "time_minutes": 120,
+      "tips": "This dish benefits from slow cooking."
+    },
+    {
+      "step": 6,
+      "instruction": "Towards the end of cooking, add the chopped cilantro, dill, and salt to taste. Simmer for a final few minutes to integrate flavors.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/010_bkaila/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "stew",
+    "shabbat",
+    "meat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "بقل (Baql)",
+    "meaning": "Greens / Pot-herbs (Diminutive form: Little Greens)",
+    "confidence": "confirmed",
+    "notes": "The root B-Q-L is standard Semitic for greens/herbs (cognate with Hebrew 'Bakal' - grocer). In Tunisian Jewish dialect, the pronunciation often shifts the 'B' to a 'P' sound (Pkaila), common in Maghrebi Jewish dialects influenced by Romance languages, though the etymological root remains Arabic."
+  },
+  "alternative_names": [
+    {
+      "name": "Pkaila",
+      "language": "french_transliteration",
+      "notes": "The most common spelling in French-Jewish cookbooks; reflects the specific pronunciation of the Tunisian Jewish community."
+    },
+    {
+      "name": "Bqaïla",
+      "language": "tunisian_arabic",
+      "notes": "Strict transliteration of the Arabic spelling."
+    },
+    {
+      "name": "Tfina Pkaila",
+      "language": "judeo_arabic",
+      "notes": "'Tfina' (from Dafina) denotes it as the warm buried stew for Shabbat."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Madfouna",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "A stew also based on chard and meat.",
+      "key_difference": "Madfouna often includes 'Osban' (stuffed intestines) and the greens are not always fried to the same black, confit-like consistency as the Jewish Pkaila."
+    },
+    {
+      "name": "Ghormeh Sabzi",
+      "culture": "Persian (Iranian)",
+      "similarity": "A stew characterized by frying large amounts of herbs/greens until dark and aromatic, simmered with beans and meat.",
+      "key_difference": "Uses kidney beans and dried limes (limoo amani); the herb profile includes fenugreek and parsley rather than just chard/spinach."
+    },
+    {
+      "name": "Lham B'Salk",
+      "culture": "Moroccan",
+      "similarity": "Meat stew with chard.",
+      "key_difference": "Usually lighter in color; the chard is often added later or not fried down to a black paste (confit) as in the Djerban/Tunisian tradition."
+    }
+  ],
+  "intro_paragraph": "Bkaila, deriving its name from the Arabic for \"little greens,\" is a rich Tunisian Jewish stew famous for its deep, dark color. Swiss chard is slowly fried into a concentrated confit, then simmered with white beans, beef, and herbs. A staple of the Shabbat table, this dish highlights a unique community technique for preserving vegetables."
+}

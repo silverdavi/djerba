@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is a modern Hebrew construction consisting of two parts. 'Ugiot' (עוגיות) is the plural of 'Ugiah', the Modern Hebrew word for cookie/cake, derived from the Biblical root 'Oog' (ע-ו-ג) meaning 'to draw a circle' or 'round', referring to the shape of traditional baked goods (seen in Biblical Hebrew 'Ugah'). 'Granola' is a direct loanword from English. The term 'Granola' was coined in the United States in the late 19th century by W.K. Kellogg (modified from James Caleb Jackson's 'Granula') based on the Latin root 'granum' (grain). This dish represents the modernization of the North African Jewish kitchen, incorporating Western/Israeli baking trends.",
+    "language_source": "hebrew",
+    "root_word": "ע-ו-ג (Hebrew root for round) + Latin 'granum' (grain)",
+    "meaning": "Granola cookies (literally: Round baked goods of granola)",
+    "confidence": "confirmed",
+    "sources_notes": "This is not a traditional Judeo-Arabic or Maghrebi dish. Oats (shofan) were not a primary ingredient in traditional Tunisian pastry, which relied heavily on semolina and wheat flour. This recipe reflects the influence of Modern Israeli cuisine or French/American baking trends on the Djerban community in the post-colonial era."
+  },
+  "alternative_names": [
+    {
+      "name": "Ugiot Shofan",
+      "language": "hebrew",
+      "notes": "Literally 'Oatmeal Cookies'; often used interchangeably in Israel and modern diaspora communities."
+    },
+    {
+      "name": "Cookies aux flocons d'avoine",
+      "language": "french",
+      "notes": "Likely used by Francophone Tunisian Jews, reflecting the strong French colonial linguistic influence."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "Boulou is the traditional Djerban equivalent of a dry, tea-time cookie containing nuts and raisins.",
+      "key_difference": "Boulou is made with flour, eggs, oil, and orange juice/zest, whereas Granola cookies rely on oats and butter/margarine."
+    },
+    {
+      "name": "Anzac Biscuits",
+      "culture": "Australian / New Zealand",
+      "similarity": "Uses oats, flour, sugar, and desiccated coconut; similar chewy/crispy texture.",
+      "key_difference": "Anzac biscuits use golden syrup and baking soda (no eggs), while granola cookies usually include eggs and chocolate."
+    },
+    {
+      "name": "Oatmeal Raisin Cookies",
+      "culture": "American",
+      "similarity": "The direct culinary ancestor of this dish.",
+      "key_difference": "The Jewish version is often made parve (non-dairy) using oil or margarine instead of butter to be eaten after meat meals."
+    }
+  ]
+}

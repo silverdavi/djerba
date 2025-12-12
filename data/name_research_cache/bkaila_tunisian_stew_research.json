@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name derives from the Arabic root B-Q-L (ب-ق-l), which relates to herbs, legumes, or sprouting vegetation. In Classical Arabic, 'Baql' (بقل) refers generally to herbs or pot-herbs, and 'Baqla' (بقلة) often refers to specific greens (like purslane in the Levant). In the context of Tunisian Judeo-Arabic, 'Bkaila' (or Pkaila) is a specific noun formation—likely a diminutive—meaning 'The Little Green' or simply 'The Greens.' It is distinct from the standard Tunisian words for spinach ('Sbanakh') or chard ('Salk'), indicating that the name refers specifically to the dish's primary characteristic: the immense volume of greens reduced to a concentrated essence.",
+    "language_source": "tunisian_arabic",
+    "root_word": "بقل (Baql)",
+    "meaning": "Greens / Pot-herbs (Diminutive form: Little Greens)",
+    "confidence": "confirmed",
+    "sources_notes": "The root B-Q-L is standard Semitic for greens/herbs (cognate with Hebrew 'Bakal' - grocer). In Tunisian Jewish dialect, the pronunciation often shifts the 'B' to a 'P' sound (Pkaila), common in Maghrebi Jewish dialects influenced by Romance languages, though the etymological root remains Arabic."
+  },
+  "alternative_names": [
+    {
+      "name": "Pkaila",
+      "language": "french_transliteration",
+      "notes": "The most common spelling in French-Jewish cookbooks; reflects the specific pronunciation of the Tunisian Jewish community."
+    },
+    {
+      "name": "Bqaïla",
+      "language": "tunisian_arabic",
+      "notes": "Strict transliteration of the Arabic spelling."
+    },
+    {
+      "name": "Tfina Pkaila",
+      "language": "judeo_arabic",
+      "notes": "'Tfina' (from Dafina) denotes it as the warm buried stew for Shabbat."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Madfouna",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "A stew also based on chard and meat.",
+      "key_difference": "Madfouna often includes 'Osban' (stuffed intestines) and the greens are not always fried to the same black, confit-like consistency as the Jewish Pkaila."
+    },
+    {
+      "name": "Ghormeh Sabzi",
+      "culture": "Persian (Iranian)",
+      "similarity": "A stew characterized by frying large amounts of herbs/greens until dark and aromatic, simmered with beans and meat.",
+      "key_difference": "Uses kidney beans and dried limes (limoo amani); the herb profile includes fenugreek and parsley rather than just chard/spinach."
+    },
+    {
+      "name": "Lham B'Salk",
+      "culture": "Moroccan",
+      "similarity": "Meat stew with chard.",
+      "key_difference": "Usually lighter in color; the chard is often added later or not fried down to a black paste (confit) as in the Djerban/Tunisian tradition."
+    }
+  ]
+}

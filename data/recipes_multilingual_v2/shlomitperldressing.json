@@ -1,0 +1,94 @@
+{
+  "id": "shlomitperldressing",
+  "image": "images/current/082shlomitdressing/dish.png",
+  "meta": {
+    "servings": "1 cup",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "רוטב שלומית פרל",
+    "es": "Aderezo de Shlomit Perl",
+    "ar": "صوص شلوميت بارل",
+    "en": "Shlomit Perl's Salad Dressing"
+  },
+  "description": {
+    "he": "רוטב הסלט של שלומית פרל נושא את שם התורמת שלו, ומסמן מעבר משמות תיאוריים מסורתיים לייחוס מודרני. תערובת מתוקה-מלוחה זו של רוטב סויה, חרדל ומיונז מדגישה השפעות ישראליות עכשוויות בקהילה. מומלץ להגיש עם כרוב טרי ולסיים עם חטיפי תירס פריכים כמו אפרופו.",
+    "es": "El aderezo para ensalada de Shlomit Perl lleva el nombre de su creadora, marcando un cambio de los títulos descriptivos tradicionales a las atribuciones modernas. Esta mezcla dulce y salada de salsa de soja, mostaza y mayonesa resalta las influencias israelíes contemporáneas dentro de la comunidad. Se disfruta mejor mezclado con repollo fresco y terminado con bocadillos de maíz crujientes como Apropo.",
+    "ar": "صوص شلوميت بارل للسلاطة مسمية على مولاتها، وهكا تبدلت العادة من أسامي الوصفات القديمة للأسامي الحديثة. هالخلطة الحلوة والمالحة بصوص الصوجا والموطارد والمايونيز توري التأثير الإسرائيلي الجديد في الكوجينة. أحسن حاجة تتخلط مع الكرنب الفريشك وتترش من فوق بحاجة تتقرمش كيف أبروبو.",
+    "en": "Shlomit Perl's Salad Dressing bears the name of its contributor, marking a shift from traditional descriptive titles to modern attributions. This sweet and savory blend of soy sauce, mustard, and mayonnaise highlights contemporary Israeli influences within the community. It is best enjoyed tossed with fresh cabbage and finished with crunchy corn snacks like Apropo."
+  },
+  "ingredients": {
+    "he": [
+      "120 מ\"ל שמן צמחי",
+      "60 מ\"ל מים",
+      "14 גרם מיונז",
+      "5 גרם חרדל",
+      "15 מ\"ל מיץ לימון",
+      "38 גרם סוכר",
+      "15 מ\"ל רוטב סויה",
+      "1 שן שום, כתושה",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "120 ml de aceite vegetal",
+      "60 ml de agua",
+      "14 g de mayonesa",
+      "5 g de mostaza",
+      "15 ml de jugo de limón",
+      "38 g de azúcar",
+      "15 ml de salsa de soja",
+      "1 diente de ajo, machacado",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "نص كاس زيت نباتي",
+      "ربع كاس ماء",
+      "مغرفة مايونيز",
+      "مغرفة صغيرة موطارد",
+      "مغرفة قارص",
+      "3 مغارف سكر",
+      "مغرفة صوص صوجا",
+      "سنة ثوم، مرحية",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "1/2 cup vegetable oil",
+      "1/4 cup water",
+      "1 tbsp mayonnaise",
+      "1 tsp mustard",
+      "1 tbsp lemon juice",
+      "3 tbsp sugar",
+      "1 tbsp soy sauce",
+      "1 clove garlic, crushed",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכניסים לבלנדר את השמן, המים, המיונז, החרדל, מיץ הלימון, הסוכר, רוטב הסויה והשום הכתוש.",
+      "מערבלים עד שהתערובת חלקה לגמרי ואחידה.",
+      "טועמים ומתקנים תיבול עם מלח לפי הצורך. מומלץ להכפיל או לשלש כמויות כי הרוטב נשמר היטב במקרר לאורך זמן.",
+      "מגישים מעל הסלט. מומלץ להשתמש בסלט כרוב ירוק וסגול עם בצל ירוק, ולפזר מעל חטיפי אפרופו, דוריטוס או שקדים קלויים לפני ההגשה."
+    ],
+    "es": [
+      "Coloque el aceite, el agua, la mayonesa, la mostaza, el jugo de limón, el azúcar, la salsa de soja y el ajo machacado en una licuadora.",
+      "Licúe hasta que la mezcla esté completamente suave y emulsionada.",
+      "Pruebe y ajuste la sal u otros condimentos según sea necesario. Se recomienda duplicar o triplicar las cantidades ya que se conserva bien en el refrigerador por mucho tiempo.",
+      "Sirva sobre la ensalada. Recomendación: Úselo con una ensalada de repollo verde y morado con cebollín, y cubra con bocadillos crujientes como Apropo, Doritos o almendras tostadas justo antes de servir."
+    ],
+    "ar": [
+      "حط الزيت والماء والمايونيز والموطارد والقارص والسكر وصوص الصوجا والثوم في الخلاط.",
+      "ارحيهم مليح لين يولي الخليط أرطب ومتجانس.",
+      "ذوق وزيد الملح حسب الذوق كان لازم. تنجم تضاعف الكمية خاطر يصبر مليح في الفריז'ידאר.",
+      "صب فوق السلاطة. ننصحوك تستعملو مع سلاطة كرنب أخضر وأحمر وبصل، ورش من فوق أبروبو ولا دوريتوس ولا لوز مقلي قبل ما تقدم."
+    ],
+    "en": [
+      "Place the oil, water, mayonnaise, mustard, lemon juice, sugar, soy sauce, and crushed garlic into a blender.",
+      "Blend until the mixture is completely smooth and emulsified.",
+      "Taste and adjust salt or other seasonings as needed. The recipe author recommends doubling or tripling the quantities as it keeps well in the refrigerator for a long time.",
+      "Serve over salad. Recommended serving: Use with a salad of green cabbage, purple cabbage, and green onions. Top with crunchy items like Apropo (corn bugles), Doritos, or roasted almonds just before serving."
+    ]
+  }
+}

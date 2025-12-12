@@ -1,0 +1,107 @@
+{
+  "id": "tfina_stew",
+  "image": "images/current/090_tfina/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "70 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "טפינה",
+    "es": "Tfina (Estofado de Carne y Cebada)",
+    "ar": "طفينة",
+    "en": "Tfina (Beef and Barley Stew)"
+  },
+  "description": {
+    "he": "השם טפינה מגיע מהשורש הערבי שמשמעותו \"לקבור\", בהתייחס למסורת של הטמנת סירים בגחלים לארוחת השבת. תבשיל עשיר זה משלב בקר, תפוחי אדמה וגריסים. באופן ייחודי, בשלנים ג'רבאים מקרמלים סוכר בשמן לפני הוספת המרכיבים, מה שמעניק צבע כהה ועמוק ועושר טעמים לחמין הקלאסי הזה.",
+    "es": "El nombre Tfina deriva de la raíz árabe para \"enterrar\", en referencia a la tradición de enterrar ollas en las brasas para el almuerzo de Shabat. Este guiso abundante combina carne de res, papas y cebada. Distintivamente, los cocineros de Djerba caramelizan azúcar en aceite antes de añadir los ingredientes, impartiendo un color oscuro profundo y una riqueza sabrosa a este hamin clásico.",
+    "ar": "اسم طفينة جاي من كلمة \"دفن\"، يعني كيف كانوا يدفنوا الطنجرة في الجمر لغداء السبت. هذي المرقـة الغنية فيها اللحم والبطاطا والشعير. الطريقة الجربية الخاصة هي أنهم يكرملوا السكر في الزيت قبل ما يزيدوا باقي المكونات، باش يعطي لون غامق وبنة خاصة لهالحمين التقليدي.",
+    "en": "Tfina derives its name from the Arabic root for \"to bury,\" referencing the tradition of burying pots in embers for Shabbat lunch. This hearty stew combines beef, potatoes, and barley. Distinctively, Djerban cooks caramelize sugar in oil before adding ingredients, imparting a deep, dark color and savory richness to this classic hamin."
+  },
+  "ingredients": {
+    "he": [
+      "1000 גרם בשר לבישול ארוך, חתוך לקוביות",
+      "4 תפוחי אדמה, קלופים וחתוכים לרבעים",
+      "200 גרם גריסי פנינה, שטופים",
+      "2 בצלים, קצוצים",
+      "200 גרם שעועית לבנה, מושרית ללילה (אופציונלי)",
+      "60 מ\"ל שמן",
+      "15 גרם סוכר",
+      "7 גרם פפריקה מתוקה",
+      "מלח גס לפי הטעם",
+      "פלפל שחור לפי הטעם",
+      "מים רותחים לכיסוי"
+    ],
+    "es": [
+      "1000 g de carne para guisar, cortada en trozos",
+      "4 papas, peladas y cortadas en cuartos",
+      "200 g de cebada perlada, enjuagada",
+      "2 cebollas, picadas",
+      "200 g de alubias blancas, remojadas toda la noche (opcional)",
+      "60 ml de aceite vegetal",
+      "15 g de azúcar",
+      "7 g de pimentón dulce",
+      "Sal gruesa al gusto",
+      "Pimienta negra al gusto",
+      "Agua hirviendo para cubrir"
+    ],
+    "ar": [
+      "1 كغ لحم هبرة، مقصوص طروف",
+      "4 كعبات بطاطا، مقشرين ومقصوصين على أربعة",
+      "1 كأس شعير (تيمزين)، مغسول",
+      "2 بصلات، مقصوصين",
+      "1 كأس لوبيا بيضاء، منفخة ليلة كاملة (اختياري)",
+      "1/4 كأس زيت",
+      "1 مغرفة كبيرة سكر",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "ملح حرش حسب الذوق",
+      "فلفل أكحل حسب الذوق",
+      "ماء سخون يغلي باش نغموا المكونات"
+    ],
+    "en": [
+      "35 oz beef stew meat, cut into chunks",
+      "4 potatoes, peeled and quartered",
+      "1 cup pearl barley, rinsed",
+      "2 onions, chopped",
+      "1 cup white beans, soaked overnight (optional)",
+      "1/4 cup vegetable oil",
+      "1 tbsp sugar",
+      "1 tbsp sweet paprika",
+      "Coarse salt to taste",
+      "Black pepper to taste",
+      "Boiling water to cover ingredients"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הכינו את כל המרכיבים: הניחו את הבשר, תפוחי האדמה, הבצל, הגריסים והשעועית (אם משתמשים) בקערה או הכינו אותם בהישג יד.",
+      "בסיר כבד, חממו את השמן והסוכר יחד. בשלו עד שהסוכר נמס ומקבל צבע חום עמוק (מתקרמל). היזהרו לא לשרוף אותו.",
+      "הוסיפו את הפפריקה לתערובת השמן והסוכר החמה, ומיד לאחר מכן הוסיפו את כל שאר המרכיבים: בשר, תפוחי אדמה, גריסים ובצל.",
+      "תבלו במלח גס ופלפל שחור. טגנו קלות ואדו את התערובת במיצים של עצמה למשך כ-10 דקות, תוך ערבוב מדי פעם.",
+      "הוסיפו מים רותחים כדי לכסות את המרכיבים. הנמיכו את האש ללהבה נמוכה ובשלו במשך כשעה."
+    ],
+    "es": [
+      "Prepare todos los ingredientes: coloque la carne, las papas, la cebolla, la cebada y las alubias (si las usa) en un tazón o téngalos listos.",
+      "En una olla pesada, caliente el aceite y el azúcar juntos. Cocine hasta que el azúcar se derrita y adquiera un color marrón oscuro (se caramelice). Tenga cuidado de no quemarlo.",
+      "Añada el pimentón a la mezcla caliente de aceite y azúcar, luego agregue inmediatamente todos los demás ingredientes: carne, papas, cebada y cebolla.",
+      "Sazone con sal gruesa y pimienta negra. Sofría y cocine al vapor la mezcla en sus propios jugos durante unos 10 minutos, revolviendo ocasionalmente.",
+      "Añada agua hirviendo para cubrir los ingredientes. Baje el fuego a lento y cocine durante aproximadamente una hora."
+    ],
+    "ar": [
+      "حضّر كل المكونات: حط اللحم، والبطاطا، والبصل، والشعير، واللوبيا (كان باش تستعملها) في صحفة ولا خليهم حاضرين بحذاك.",
+      "في طنجرة ثقيلة، سخن الزيت والسكر مع بعضهم. طيبهم لين يذوب السكر ويولي لونه قهوي غامق (يتكرمل). رد بالك يتحرق.",
+      "زيد الفلفل الأحمر لخليط الزيت والسكر السخون، ومبعد ارمي ديركت باقي المكونات الكل: اللحم، والبطاطا، والشعير، والبصل.",
+      "فوّح بالملح الحرش والفلفل الأكحل. قلي وخليهم يطيبوا في ماهم تقريب 10 دقايق، وحرك مرة مرة.",
+      "صب الماء السخون لين تغم المكونات. نقص في النار وخليها تطيب سلة سلة تقريب ساعة."
+    ],
+    "en": [
+      "Prepare all ingredients: place the meat, potatoes, onion, barley, and beans (if using) in a bowl or have them ready.",
+      "In a heavy pot, heat the oil and sugar together. Cook until the sugar melts and turns a deep brown color (caramelizes). Watch carefully so it does not burn.",
+      "Add the paprika to the hot oil/sugar mixture, then immediately add all the other ingredients: meat, potatoes, barley, and onion.",
+      "Season with coarse salt and black pepper. Sauté and steam the mixture in its own juices for about 10 minutes, stirring occasionally.",
+      "Add boiling water to cover the ingredients. Lower the heat to a simmer and cook for about one hour."
+    ]
+  },
+  "image_prompt": "A heavy pot filled with rich, dark brown North African beef stew, visible potatoes, pearl barley, and chunks of meat, steam rising, rustic style"
+}

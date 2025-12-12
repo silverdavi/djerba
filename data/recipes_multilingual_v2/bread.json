@@ -1,0 +1,90 @@
+{
+  "id": "bread",
+  "image": "images/current/041khobzdar/dish.png",
+  "meta": {
+    "servings": "2-3 loaves",
+    "prep_time": "20 min",
+    "cook_time": "35 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "לחם בית",
+    "es": "Pan Casero",
+    "ar": "خبز دار",
+    "en": "Homemade Bread"
+  },
+  "description": {
+    "he": "לחם בית משקף את המושג המגרבי של 'חובז דאר', המבדיל בין הלחם הביתי האהוב לבין הלחם הקנוי בשוק. לחם לבן זה, בעל מרקם צפוף ורך, נאפה בתנור המשפחתי ולא בטאבון משותף. כמאכל בסיסי במשקי בית ג'רבאיים, הבצק הפשוט על בסיס מים מעוצב לכיכרות כפריות או לחמניות לארוחות יומיומיות או לשבת.",
+    "es": "El Lechem Bayit refleja el concepto magrebí de Khobz Dar, distinguiendo las preciadas hogazas caseras del pan comprado en el mercado. Este pan blanco de miga densa y suave se hornea en el horno familiar en lugar de un horno comunal. Un alimento básico en los hogares de Djerba, la masa simple a base de agua se forma en hogazas rústicas o bollos para las comidas diarias o Shabat.",
+    "ar": "خبز دار يعكس التقاليد المغاربية، ويفرق بين الخبز اللي يتعمل في الدار والخبز اللي يتشرا من السوق. هذا الخبز الأبيض، اللي لبابتو طرية وكثيفة، يطيب في كوشة الدار مش في الطابونة. هو أساسي في ديار جربة، العجينة متاعو بسيطة بالماء وتتشكل خبزات ولا باقات صغار للماكلة كل يوم ولا للسبت.",
+    "en": "Lechem Bayit mirrors the Maghrebi concept of Khobz Dar, distinguishing cherished homemade loaves from store-bought market bread. This dense, soft-crumbed white bread is baked in the family oven rather than a communal tannur. A staple of Djerban households, the simple water-based dough is shaped into rustic loaves or rolls for daily meals or Shabbat."
+  },
+  "ingredients": {
+    "he": [
+      "20 גרם שמרים יבשים",
+      "16 גרם סוכר (להפעלת השמרים)",
+      "720 מ\"ל מים, פושרים",
+      "120 מ\"ל שמן צמחי",
+      "1000 גרם קמח, מנופה (או קמח לחם)",
+      "18 גרם מלח"
+    ],
+    "es": [
+      "20 g de levadura seca",
+      "16 g de azúcar (para activar la levadura)",
+      "720 ml de agua, tibia",
+      "120 ml de aceite vegetal",
+      "1000 g de harina, tamizada (o harina de fuerza)",
+      "18 g de sal"
+    ],
+    "ar": [
+      "2 مغارف خميرة",
+      "1.25 مغرفة سكر (باش تطلع الخميرة)",
+      "3 كيسان ماء، دافي",
+      "نص كاس زيت",
+      "8 كيسان فرينة، منخولة",
+      "مغرفة ملح"
+    ],
+    "en": [
+      "2 tbsp dry yeast",
+      "1.25 tbsp sugar (to activate yeast)",
+      "3 cups water, lukewarm",
+      "1/2 cup vegetable oil",
+      "8 cups flour, sifted (all-purpose or bread flour)",
+      "1 tbsp salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה קטנה, מערבבים את השמרים, הסוכר והמים הפושרים. מניחים לכמה דקות עד שהשמרים תוססים ומבעבעים.",
+      "בקערת ערבוב גדולה, מערבבים את המלח לתוך הקמח.",
+      "מוסיפים את השמן ואת תערובת השמרים והמים לקמח.",
+      "לשים את הבצק היטב במשך לפחות 10 דקות עד שהוא חלק וגמיש.",
+      "מכסים את הבצק ומניחים לו לנוח במקום חמים עד שהוא מכפיל את נפחו.",
+      "מעצבים לכיכרות, מתפיחים שוב למשך 20 דקות, ואופים ב-180 מעלות עד להזהבה וקבלת צליל חלול בנקישה."
+    ],
+    "es": [
+      "En un tazón pequeño, combine la levadura, el azúcar y el agua tibia. Deje reposar unos minutos hasta que la levadura se active y burbujee.",
+      "En un tazón grande, mezcle la sal con la harina.",
+      "Agregue el aceite y la mezcla de agua con levadura a la harina.",
+      "Amase bien la masa durante al menos 10 minutos hasta que esté suave y elástica.",
+      "Cubra la masa y déjela reposar en un lugar cálido hasta que duplique su tamaño.",
+      "Forme las hogazas, deje levar de nuevo por 20 minutos y hornee a 180°C hasta que estén doradas y suenen huecas al golpearlas."
+    ],
+    "ar": [
+      "في صحفة صغيرة، خلط الخميرة والسكر والماء الدافي. خليها ترتاح شوية لين الخميرة تطلع وتعمل فقاعات.",
+      "في قصعة كبيرة، خلط الملح مع الفرينة.",
+      "زيد الزيت وخليط الخميرة والماء للفرينة.",
+      "اعجن العجينة مليح لمدة 10 دقايق عالأقل لين تولي رطبة وتتجبد.",
+      "غطي العجينة وخليها ترتاح في بلاصة دافية لين يخمر ويضاعف حجمه.",
+      "شكّل الخبزات، خليهم يخمروا مرة أخرى 20 دقيقة، وطيبهم في الكوشة في 180 درجة لين يحماروا ويولي صوتهم فارغ كي تنقر عليهم."
+    ],
+    "en": [
+      "In a small bowl, combine the yeast, sugar, and lukewarm water. Let it sit for a few minutes until the yeast activates, bubbles, and grows.",
+      "In a large mixing bowl, mix the salt into the flour.",
+      "Add the oil and the activated yeast water mixture to the flour.",
+      "Knead the dough thoroughly for at least 10 minutes until smooth and elastic.",
+      "Cover the dough and let it rest in a warm place until it doubles in size.",
+      "Shape into loaves, let rise again for 20 minutes, and bake at 180°C (350°F) until golden brown and hollow sounding when tapped."
+    ]
+  }
+}

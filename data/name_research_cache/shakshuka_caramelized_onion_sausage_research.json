@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Shakshuka' (Arabic: شكشوكة) derives from the Maghrebi Arabic and Amazigh (Berber) root 'sh-k-sh-k', which is onomatopoeic for the sound of bubbling or sizzling, and implies the action 'to mix' or 'shake together'. While the Hebrew name provided ('Shakshuka shel batzal metugan aroch') is a modern descriptive title, the traditional Tunisian name for a version relying heavily on onions is 'Shakshukat Bsal'. However, the specific description provided (tomato paste base rather than fresh tomatoes, plus sausage) linguistically and culinarily aligns more closely with the Tunisian dish 'Ojja' (عجة), specifically 'Ojja bil Merguez'. In Tunisian dialect, 'Shakshuka' typically implies a ragout of fresh chopped vegetables (peppers/tomatoes), while 'Ojja' implies a sauce made from tomato concentrate, harissa, and garlic.",
+    "language_source": "tunisian_arabic",
+    "root_word": "sh-k-sh-k (Amazigh/Arabic root)",
+    "meaning": "A mixture / To mix up / All mixed together",
+    "confidence": "confirmed",
+    "sources_notes": "The Hebrew name provided is descriptive Modern Hebrew, not the traditional Judeo-Arabic name. The etymology of 'Shakshuka' is widely accepted as Maghrebi/Amazigh. The distinction between Shakshuka (fresh veg) and Ojja (paste base) is a key linguistic marker in Tunisian cuisine."
+  },
+  "alternative_names": [
+    {
+      "name": "Ojja bil Merguez",
+      "language": "tunisian_arabic",
+      "notes": "The most accurate traditional name for a tomato-paste based egg dish with sausage."
+    },
+    {
+      "name": "Chakchouka",
+      "language": "french",
+      "notes": "Common French colonial spelling found in North Africa."
+    },
+    {
+      "name": "Shakshukat Bsal",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Onion Shakshuka'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ojja",
+      "culture": "Tunisian (General/Muslim)",
+      "similarity": "Identical base of tomato paste, harissa, garlic, and caraway with eggs.",
+      "key_difference": "The Jewish version often uses specific kosher beef or lamb sausages (merguez) and may omit certain organ meats sometimes found in general Ojja."
+    },
+    {
+      "name": "Menemen",
+      "culture": "Turkish",
+      "similarity": "Eggs cooked in a tomato base.",
+      "key_difference": "Menemen uses fresh tomatoes and peppers and the eggs are usually scrambled into the mix, whereas Shakshuka/Ojja eggs are usually poached whole."
+    },
+    {
+      "name": "Tchouktchouka",
+      "culture": "Algerian",
+      "similarity": "Vegetable stew with eggs.",
+      "key_difference": "Algerian versions often focus heavily on roasted peppers and may not include the sausage or tomato paste intensity of the Tunisian Ojja."
+    },
+    {
+      "name": "Uova in Purgatorio (Eggs in Purgatory)",
+      "culture": "Italian (Neapolitan)",
+      "similarity": "Eggs poached in tomato sauce.",
+      "key_difference": "Uses Italian herbs (basil/oregano) instead of the Maghrebi profile of caraway, coriander, and harissa."
+    }
+  ]
+}

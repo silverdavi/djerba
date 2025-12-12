@@ -1,0 +1,110 @@
+{
+  "id": "tbikha_tomatem",
+  "image": "images/current/088tbikhattmatem/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "60 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "דביח תטמטם",
+    "es": "Tbikha b'Tomatem (Estofado de Pollo y Tomate)",
+    "ar": "طبيخة بالطماطم",
+    "en": "Tbikha b'Tomatem (Chicken Tomato Stew)"
+  },
+  "description": {
+    "he": "דביח תטמטם, שמשמעותו נזיד עגבניות בערבית תוניסאית, הוא תבשיל עשיר של עוף ותפוחי אדמה המתבשלים ברוטב אדום מרוכז. בשונה ממרקים קלילים יותר, מנה זו מסתמכת על תקליה – השיטה המסורתית של טיגון רסק העגבניות בשמן – לפיתוח הצבע העמוק והטעם העשיר האופייניים למטבח היהודי הג'רבאי.",
+    "es": "Tbikha b'Tomatem, que significa ragú de tomate en árabe tunecino, es un estofado sustancioso de pollo y papas cocido a fuego lento en una salsa roja concentrada. A diferencia de los caldos más ligeros, este plato se basa en la teklia (el método tradicional de freír la pasta de tomate en aceite) para desarrollar el color profundo y el sabor rico característicos de la cocina judía de Djerba.",
+    "ar": "طبيخة بالطماطم هي مرقة عاقدة بالدجاج والبطاطا تطيب في صوص حمراء خاثرة. بخلاف المرقات الخفيفة، الطبق هذا يعتمد على التقلية - الطريقة التقليدية متاع قليان الطماطم المعجونة في الزيت - باش يعطي اللون الغامق والبنة القوية اللي تميز الماكلة اليهودية الجربية.",
+    "en": "Tbikha b'Tomatem, meaning \"tomato ragout\" in Tunisian Arabic, is a hearty stew of chicken and potatoes simmered in a concentrated red sauce. Unlike lighter broths, this dish relies on teklia—the traditional method of frying tomato paste in oil—to develop the deep color and rich flavor characteristic of Djerban Jewish cooking."
+  },
+  "ingredients": {
+    "he": [
+      "45 מ\"ל שמן צמחי (לטיגון)",
+      "2 בצלים, קצוצים",
+      "7 גרם פפריקה מתוקה",
+      "1 עגבניה, קצוצה",
+      "1 פלפל ירוק חריף, פרוס",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם",
+      "100 גרם רסק עגבניות",
+      "3 תפוחי אדמה, חתוכים לקוביות",
+      "1000 גרם עוף, מחולק לחלקים",
+      "מים (מספיק לכיסוי)"
+    ],
+    "es": [
+      "45 ml de aceite vegetal (para freír)",
+      "2 cebollas, picadas en cubitos",
+      "7 g de pimentón dulce",
+      "1 tomate, picado",
+      "1 pimiento verde picante, en rodajas",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "100 g de pasta de tomate",
+      "3 papas, cortadas en cubos",
+      "1000 g de pollo, cortado en piezas",
+      "Agua (suficiente para cubrir)"
+    ],
+    "ar": [
+      "3 مغارف زيت (للقليان)",
+      "2 بصلات، مقصوصين جويد",
+      "1 مغرفة فلفل أحمر حلو (زينة)",
+      "1 كعبة طماطم، مقصوصة",
+      "1 قرن فلفل أخضر حار، مقصوص دوائر",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق",
+      "6 مغارف طماطم معجونة (حكة صغيرة)",
+      "3 كعبات بطاطا، مقصوصين مكعبات",
+      "1 كلغ دجاج، مقصوص طروف",
+      "ماء (باش نغموا الماكلة)"
+    ],
+    "en": [
+      "3 tbsp vegetable oil (for frying)",
+      "2 onions, diced",
+      "1 tbsp sweet paprika",
+      "1 tomato, chopped",
+      "1 green hot pepper, sliced",
+      "Salt to taste",
+      "Black pepper to taste",
+      "6 tbsp tomato paste",
+      "3 potatoes, cubed",
+      "1 kg chicken, cut into pieces",
+      "Water (enough to cover ingredients)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר ומטגנים את 2 הבצלים הקצוצים עד שהם נעשים שקופים.",
+      "מוסיפים את הפפריקה, ומיד לאחר מכן את העגבניה הקצוצה והפלפל החריף הפרוס. מתבלים במלח ופלפל שחור.",
+      "מכסים ומבשלים על אש נמוכה כ-10 דקות לריכוך הירקות.",
+      "מוסיפים את רסק העגבניות. מערבבים היטב ומבשלים (מאדים) כ-10 דקות נוספות. שלב זה מסיר את החומציות מהרסק.",
+      "מוסיפים מים לכיסוי, את קוביות תפוחי האדמה ואת חלקי העוף. מביאים לרתיחה.",
+      "מנמיכים את האש ומבשלים עד שהעוף מוכן ותפוחי האדמה רכים."
+    ],
+    "es": [
+      "Caliente el aceite en una olla y sofría las 2 cebollas picadas hasta que estén transparentes.",
+      "Agregue el pimentón, seguido inmediatamente por el tomate picado y el pimiento verde en rodajas. Sazone con sal y pimienta negra.",
+      "Tape y deje que la mezcla se cocine al vapor a fuego lento durante unos 10 minutos para ablandar las verduras.",
+      "Agregue la pasta de tomate. Mezcle bien y cocine (al vapor) durante otros 10 minutos. Este paso elimina la acidez de la pasta.",
+      "Agregue agua hasta cubrir, las papas en cubos y las piezas de pollo. Lleve a ebullición.",
+      "Baje el fuego y cocine a fuego lento hasta que el pollo esté cocido y las papas estén tiernas."
+    ],
+    "ar": [
+      "سخّن الزيت في طنجرة وقلي 2 بصلات مقصوصين لين يذبالوا.",
+      "زيد الفلفل الأحمر، ومباشرة وراه الطماطم المقصوصة والفلفل الأخضر. فوّح بالملح والفلفل الأكحل.",
+      "غطّي الطنجرة وخلّيها تتقلى على نار هادية حكاية 10 دقايق باش الخضرة تطرى.",
+      "زيد الطماطم المعجونة. حرّك مليح وخلّيها تتقلى (تطيب عالبخار) 10 دقايق أخرين. الخطوة هاذي تنحّي القروصية متاع الطماطم.",
+      "صب الماء باش تغم المكونات، وزيد البطاطا والدجاج. خلّي المرقة تغلي.",
+      "نقّص في النار وخلّيها تطيب سلة سلة لين الدجاج يطيب والبطاطا تولي طرية."
+    ],
+    "en": [
+      "Heat oil in a pot and fry the 2 diced onions until translucent.",
+      "Add the paprika, followed immediately by the chopped fresh tomato and sliced green pepper. Season with salt and black pepper.",
+      "Cover and let the mixture steam/sauté on low heat for about 10 minutes to soften the vegetables.",
+      "Add the tomato paste. Stir well and cook (steam) for another 10 minutes. This step removes the acidity from the paste.",
+      "Add water to cover, the cubed potatoes, and the chicken pieces. Bring to a boil.",
+      "Lower heat and simmer until the chicken is cooked through and the potatoes are tender."
+    ]
+  }
+}

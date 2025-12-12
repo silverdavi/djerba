@@ -1,0 +1,1053 @@
+{
+  "_meta": {
+    "description": "Canonical ingredient dictionary for the cookbook",
+    "version": "1.0",
+    "notes": "This file will be auto-populated during canonization"
+  },
+  "ingredients": {
+    "all_purpose_flour": {
+      "en": "Flour",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "almond_flour": {
+      "en": "Almond flour",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "amba_sauce": {
+      "en": "Amba sauce",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "apple": {
+      "en": "Apple",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "artichoke_hearts": {
+      "en": "Artichoke hearts or bottoms",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "baking_powder": {
+      "en": "Baking powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "baking_soda": {
+      "en": "Baking soda",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "banana": {
+      "en": "Bananas",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "barley": {
+      "en": "Pearl barley or barley grains",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "bay_leaf": {
+      "en": "Bay leaves",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "beef_chuck": {
+      "en": "Beef (Chuck or Brisket)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "beef_roast": {
+      "en": "Beef roast (Chuck or Brisket)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "beef_stew_meat": {
+      "en": "Beef stew meat",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "bell_pepper": {
+      "en": "Sweet red peppers (Gambas)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "black_pepper": {
+      "en": "Black pepper",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "black_peppercorns": {
+      "en": "Whole black peppercorns",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "bread_dough": {
+      "en": "Bread dough",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "breadcrumbs": {
+      "en": "Breadcrumbs",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "brik_pastry_leaves": {
+      "en": "Brik pastry leaves (Malsouka)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "brown_beans": {
+      "en": "Brown beans (Pinto or Kidney)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "brown_sugar": {
+      "en": "Brown sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "butter": {
+      "en": "Butter or Oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "canned_tuna": {
+      "en": "Canned tuna",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "canola_oil": {
+      "en": "Canola oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "caper_brine": {
+      "en": "Caper brine",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "capers": {
+      "en": "Capers",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "caraway": {
+      "en": "Caraway seeds (ground)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "carrot": {
+      "en": "Carrot",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken": {
+      "en": "Chicken",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_bouillon_powder": {
+      "en": "Chicken bouillon powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_breast": {
+      "en": "Chicken breast",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_consomme_powder": {
+      "en": "Chicken seasoning / Consommé powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_pieces": {
+      "en": "Chicken pieces (legs, thighs, or wings)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_seasoning": {
+      "en": "Chicken seasoning powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chicken_seasoning_powder": {
+      "en": "Chicken seasoning powder (Pareve)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chickpeas": {
+      "en": "Chickpeas",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chickpeas_canned": {
+      "en": "Chickpeas",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chocolate_chips": {
+      "en": "Chocolate chips",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "chocolate_pearls": {
+      "en": "Dark chocolate pearls",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cilantro": {
+      "en": "Cilantro",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cilantro_fresh": {
+      "en": "Fresh cilantro",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cinnamon": {
+      "en": "Ground cinnamon",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "coarse_salt": {
+      "en": "Coarse salt",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cocoa_powder": {
+      "en": "Unsweetened cocoa powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "coconut_oil": {
+      "en": "Coconut oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "coriander_seeds": {
+      "en": "Coriander seeds",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cornflakes": {
+      "en": "Cornflakes",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cumin": {
+      "en": "Cumin",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "cumin_seeds": {
+      "en": "Cumin seeds",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dark_brown_sugar": {
+      "en": "Dark brown sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dark_chocolate": {
+      "en": "Dark chocolate",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "date_syrup": {
+      "en": "Date syrup (Silan)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dates": {
+      "en": "Dates",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "desiccated_coconut": {
+      "en": "Desiccated coconut",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dijon_mustard": {
+      "en": "Dijon mustard",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dill": {
+      "en": "Dill",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dried_oregano": {
+      "en": "Dried oregano",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "dry_yeast": {
+      "en": "Dried yeast",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "egg": {
+      "en": "Egg",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "egg_yolk": {
+      "en": "Egg yolk",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "eggplant": {
+      "en": "Eggplant",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "eggs": {
+      "en": "Eggs",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "fennel_seeds": {
+      "en": "Fennel seeds",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "flour": {
+      "en": "Flour",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "fresh_cilantro": {
+      "en": "Fresh cilantro",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "fresh_dill": {
+      "en": "Fresh dill",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "fresh_parsley": {
+      "en": "Fresh parsley",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "garlic": {
+      "en": "Garlic",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "garlic_cloves": {
+      "en": "Garlic cloves",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "garlic_powder": {
+      "en": "Garlic powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "granulated_sugar": {
+      "en": "Granulated sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "green_beans": {
+      "en": "Green beans",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "green_chili_pepper": {
+      "en": "Green hot pepper",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "green_olives": {
+      "en": "Green olives",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "green_onion": {
+      "en": "Green onions (scallions)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ground_beef": {
+      "en": "Ground beef",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ground_chicken_breast": {
+      "en": "Ground chicken breast",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ground_cinnamon": {
+      "en": "Ground cinnamon",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ground_cloves": {
+      "en": "Ground cloves",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "honey": {
+      "en": "Honey",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "hot_paprika": {
+      "en": "Hot Paprika",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "hot_pepper": {
+      "en": "Green hot peppers",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "hot_water": {
+      "en": "Hot water",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "instant_coffee": {
+      "en": "Instant coffee",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "instant_vanilla_pudding_mix": {
+      "en": "Instant vanilla pudding mix",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "kohlrabi": {
+      "en": "Kohlrabi",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "lemon": {
+      "en": "Lemon",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "lemon_juice": {
+      "en": "Lemon juice",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "maple_syrup": {
+      "en": "Maple syrup (or honey)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "margarine": {
+      "en": "Margarine",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "mayonnaise": {
+      "en": "Mayonnaise",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "medjool_dates": {
+      "en": "Medjool dates",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "milk": {
+      "en": "Milk or Water",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "milk_chocolate_chips": {
+      "en": "Milk chocolate morsels",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "mixed_vegetables": {
+      "en": "Seasonal vegetables",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "mushrooms": {
+      "en": "Mushrooms",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "mustard": {
+      "en": "Mustard",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "non_dairy_whipping_cream": {
+      "en": "Vegetable whipping cream",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "nougat_spread": {
+      "en": "Nut/Nougat spread",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "nutmeg": {
+      "en": "Nutmeg",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "nuts": {
+      "en": "Chopped nuts",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "oatmeal": {
+      "en": "Oatmeal",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "oil": {
+      "en": "Vegetable oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "olive_oil": {
+      "en": "Olive oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "onion": {
+      "en": "Onion",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "onion_powder": {
+      "en": "Onion powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "orange_juice": {
+      "en": "Orange juice",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "paprika": {
+      "en": "Paprika",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "paprika_sweet": {
+      "en": "Sweet paprika",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "parsley": {
+      "en": "Fresh parsley",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "peanut_butter": {
+      "en": "Peanut butter",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "pearl_barley": {
+      "en": "Pearl barley",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "peas_and_carrots": {
+      "en": "Peas and carrots",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "petit_beurre_biscuits": {
+      "en": "Petit Beurre biscuits",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "pitted_olives": {
+      "en": "Green or black olives",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "plant_based_milk": {
+      "en": "Vegetable milk",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "potato": {
+      "en": "Potatoes",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "potatoes": {
+      "en": "Potatoes",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "powdered_sugar": {
+      "en": "Powdered sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "preserved_lemon": {
+      "en": "Preserved lemon",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ptitim": {
+      "en": "Ptitim (Israeli Couscous / Mhamsa)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "pumpkin": {
+      "en": "Pumpkin or Butternut Squash",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "raisins": {
+      "en": "Raisins",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "ras_el_hanout": {
+      "en": "Ras el Hanout",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "red_bell_pepper": {
+      "en": "Red bell pepper",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "red_potato": {
+      "en": "Red potatoes",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "rice": {
+      "en": "Rice",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "rolled_oats": {
+      "en": "Rolled oats",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "salt": {
+      "en": "Salt",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "salt_coarse": {
+      "en": "Coarse salt",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sausages": {
+      "en": "Sausages",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "seasoned_breadcrumbs": {
+      "en": "Seasoned breadcrumbs",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "semi_sweet_chocolate_chips": {
+      "en": "Semi-sweet chocolate morsels",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "semolina": {
+      "en": "Semolina (fine)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sesame_seeds": {
+      "en": "Sesame seeds",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "shawarma_seasoning": {
+      "en": "Shawarma seasoning",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "shawarma_spice_mix": {
+      "en": "Shawarma spice mix",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sliced_bread": {
+      "en": "Sliced bread",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sour_milk": {
+      "en": "Sour milk",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sourdough_starter": {
+      "en": "Sourdough starter",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "soy_milk": {
+      "en": "Soy milk",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "soy_sauce": {
+      "en": "Soy sauce",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "soy_strips": {
+      "en": "Dried soy strips (TVP)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "spaghetti": {
+      "en": "Spaghetti",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sugar": {
+      "en": "Sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sweet_paprika": {
+      "en": "Sweet paprika",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "sweet_red_wine": {
+      "en": "Sweet red wine",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "swiss_chard": {
+      "en": "Swiss chard leaves",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "syrup_glaze": {
+      "en": "Silan, Maple syrup, or Agave",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "tofu_extra_firm": {
+      "en": "Extra firm tofu",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "tomato": {
+      "en": "Tomatoes",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "tomato_paste": {
+      "en": "Tomato paste",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "turmeric": {
+      "en": "Turmeric",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vanilla_extract": {
+      "en": "Vanilla extract",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vanilla_powder": {
+      "en": "Vanilla powder",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vanilla_sugar": {
+      "en": "Vanilla sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vegan_mayonnaise": {
+      "en": "Vegan mayonnaise",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vegan_whipping_cream": {
+      "en": "Vegan whipping cream",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vegetable_oil": {
+      "en": "Vegetable oil",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "vegetable_stock": {
+      "en": "Vegetable stock",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "wakame_seaweed": {
+      "en": "Wakame seaweed",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "walnuts": {
+      "en": "Walnuts",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "warm_water": {
+      "en": "Warm water",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "water": {
+      "en": "Water",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "water_slurry": {
+      "en": "Water",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "wheat_berries": {
+      "en": "Wheat berries",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "whipped_cream": {
+      "en": "Whipped cream",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "white_beans": {
+      "en": "White beans",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "white_fish": {
+      "en": "White fish fillets (Sea Bass, Grouper, or Tilapia)",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "white_flour": {
+      "en": "White flour",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "white_pepper": {
+      "en": "White pepper",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "white_sugar": {
+      "en": "Regular sugar",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "whole_wheat_berries": {
+      "en": "Whole wheat berries",
+      "he": null,
+      "es": null,
+      "ar": null
+    },
+    "zucchini": {
+      "en": "Zucchini",
+      "he": null,
+      "es": null,
+      "ar": null
+    }
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "id": "red_stewed_olives",
+  "slug": "red-stewed-olives",
+  "source_file": "data/safed_recipes/olives_red.json",
+  "name": "Red Stewed Olives",
+  "name_hebrew": "זיתים ברוטב אדום",
+  "name_origin": "The Hebrew name provided ('Zeitim b'rotev adom') is a modern descriptive translation used in Israel. The authentic Judeo-Arabic name for this Djerban dish is likely 'Zaytun T'bikh' (Stewed Olives) or 'Zaytun Msharmel' (Olives in Chermoula/Sauce). The word 'Zaytun' is the pan-Semitic word for olive. The preparation method—blanching with turmeric before stewing in a tomato reduction—is distinctively Tunisian. In Djerban dialect, dishes are often named simply by their main ingredient followed by the cooking state (e.g., 'T'bikh'). (Confidence: likely)",
+  "description": "A classic North African cooked salad where green olives are simmered in a rich, spicy tomato and garlic sauce. The olives are first blanched with turmeric to remove bitterness before being stewed. It is a staple of the 'kemia' (appetizer spread) served on Shabbat.",
+  "cultural_context": "Common in Tunisian and Moroccan Jewish cuisine, often served as a cooked salad or side dish alongside fish or meat. The use of 'chicken seasoning' (consommé powder) is a common modern Israeli-North African home cooking shortcut.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Use pareve (vegetarian) chicken-flavored consommé powder or vegetable stock powder to make this dish vegan.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 45,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green_olives",
+      "name": "Green olives",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "pitted",
+      "notes": "Canned or jarred",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "For boiling the olives",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 4,
+      "unit": "cloves",
+      "preparation": "minced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "cloves"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 35,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_consomme_powder",
+      "name": "Chicken seasoning / Consommé powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Or to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste (olives are already salty)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 240,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Approximately",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 240,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cilantro",
+      "name": "Fresh cilantro",
+      "amount": 0.5,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.5,
+          "unit": "bunch"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Place the olives in a pot, cover with water, and add the turmeric. Bring to a boil and cook for about 10-15 minutes. This removes excess salt and bitterness. Drain and set aside.",
+      "time_minutes": 15,
+      "tips": "Turmeric helps neutralize the bitterness and gives a nice color."
+    },
+    {
+      "step": 2,
+      "instruction": "In a saucepan, heat the oil and fry the minced garlic briefly until fragrant (do not burn).",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the tomato paste and spices (paprika, salt, pepper, chicken seasoning). Stir well to open the flavors of the spices.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add water (approx 1 cup) to create a sauce and bring to a simmer.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the drained olives to the sauce. Cover and simmer on low heat for about 15-20 minutes until the sauce thickens and coats the olives.",
+      "time_minutes": 20,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from heat and stir in the chopped cilantro before serving.",
+      "time_minutes": null,
+      "tips": "Can be served warm or at room temperature."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/057_marqa_zeitoun/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "moroccan",
+    "salads",
+    "cooked-salad",
+    "side-dish",
+    "shabbat",
+    "vegan-adaptable"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Zaytun (زيتون)",
+    "meaning": "Olives (specifically stewed/cooked)",
+    "confidence": "likely",
+    "notes": "The Hebrew name provided is purely descriptive. In the context of the Djerban 'Kemia' (appetizer table), this dish is a vegetarian reduction of the famous 'Tajine Zaytun'. The specific technique of using turmeric for blanching is a hallmark of Tunisian Jewish cookery to neutralize bitterness."
+  },
+  "alternative_names": [
+    {
+      "name": "Zaytun Msharmel",
+      "language": "moroccan_arabic",
+      "notes": "Common Maghrebi term for olives marinated or cooked in a spicy red chermoula sauce."
+    },
+    {
+      "name": "Zaytun T'bikh",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation: 'Stewed Olives'. Used to differentiate cooked olives from raw cured olives."
+    },
+    {
+      "name": "Salatat Zaytun",
+      "language": "arabic",
+      "notes": "General term for 'Olive Salad', though this usually implies raw ingredients rather than stewed."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tajine Zaytun",
+      "culture": "Tunisian/Moroccan (Muslim & Jewish)",
+      "similarity": "Uses the same flavor profile (olives, lemon, turmeric, tomato).",
+      "key_difference": "Tajine Zaytun is a main course braised with meat (veal or chicken), whereas this dish is a vegetarian appetizer (kemia)."
+    },
+    {
+      "name": "Zaytun Msharmel",
+      "culture": "Moroccan",
+      "similarity": "Olives in a red spicy sauce (chermoula).",
+      "key_difference": "Moroccan versions often rely heavily on cumin and paprika and are sometimes served cold/raw, whereas the Tunisian version is stewed until soft and often features caraway."
+    },
+    {
+      "name": "Zeytin Yahnisi",
+      "culture": "Turkish",
+      "similarity": "An olive stew.",
+      "key_difference": "Turkish versions often include onions and olive oil but lack the heavy Harissa/spicy red pepper profile of the Tunisian version."
+    }
+  ],
+  "intro_paragraph": "Zaytun—simply \"olive\" in Judeo-Arabic—transforms firm green olives into a tender cooked salad. First blanched with turmeric to temper their bitterness, the olives are stewed in a piquant tomato and garlic reduction. A staple of the kemia appetizer spread, this savory dish is traditionally served alongside fresh bread to begin the Shabbat meal."
+}

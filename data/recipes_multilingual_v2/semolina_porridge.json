@@ -1,0 +1,83 @@
+{
+  "id": "semolina_porridge",
+  "image": "images/current/077semolinaporridge/dish.png",
+  "meta": {
+    "servings": "2",
+    "prep_time": "2 min",
+    "cook_time": "8 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "דייסת סולת",
+    "es": "Gachas de Sémola",
+    "ar": "عصيدة بالحليب",
+    "en": "Semolina Porridge"
+  },
+  "description": {
+    "he": "נקראת לעתים קרובות דייסת סולת בישראל, דייסה חלבית וקרמית זו מושרשת במסורת הצפון אפריקאית של העסידה. גרגרי סולת דקים מתבשלים בעדינות בחלב במקום במים, ויוצרים מרקם מנחם וחלק. זהו מאכל ילדות אהוב בג'רבה, המוגש באופן מסורתי עם מעט קינמון וסוכר מעל.",
+    "es": "A menudo llamada Daysat Solet en Israel, estas gachas cremosas para el desayuno tienen sus raíces en la tradición norteafricana de la Assida. Los granos finos de sémola se cocinan suavemente en leche en lugar de agua, creando una textura suave y reconfortante. Un alimento básico de la infancia en Djerba, se termina tradicionalmente con un toque de canela y azúcar.",
+    "ar": "هذي العصيدة الكريمية، اللي يسميوها في إسرائيل ديسات سوليت، أصلها من تقاليد العصيدة في شمال إفريقيا. السميد الرطب يطيب في الحليب في عوض الماء، باش يجي رطب وبنين ويعمل الكيف. هي أكلة متاع صغر محبوبة في جربة، وتتقدم عادة مع رشة قرفة وسكر من الفوق.",
+    "en": "Often called Daysat Solet in Israel, this creamy breakfast porridge is rooted in the North African tradition of Assida. Fine semolina grains are cooked gently in milk rather than water, creating a comforting, smooth texture. A cherished childhood staple across Djerba, it is traditionally finished with a simple dusting of cinnamon and sugar."
+  },
+  "ingredients": {
+    "he": [
+      "500 מ\"ל חלב",
+      "60 גרם סולת (דקה)",
+      "15 גרם סוכר",
+      "15 גרם חמאה (לא חובה)",
+      "קינמון לפי הטעם"
+    ],
+    "es": [
+      "500 ml de leche",
+      "60 g de sémola (fina)",
+      "15 g de azúcar",
+      "15 g de mantequilla (opcional)",
+      "Canela al gusto"
+    ],
+    "ar": [
+      "2 كيسان حليب",
+      "5 مغارف سميد (رطب)",
+      "1 مغرفة سكر",
+      "1 مغرفة زبدة (اختياري)",
+      "قرفة حسب الذوق"
+    ],
+    "en": [
+      "2.1 cups milk",
+      "5 tbsp semolina (fine)",
+      "1.2 tbsp sugar",
+      "1 tbsp butter (optional)",
+      "Cinnamon to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "יוצקים את החלב לסיר קטן ומניחים על להבה בינונית.",
+      "רגע לפני שהחלב רותח, מנמיכים את האש ומוסיפים את הסולת בהדרגה תוך כדי טריפה מתמדת למניעת גושים.",
+      "מוסיפים את הסוכר וממשיכים לבשל ולערבב במשך כ-3-5 דקות עד שהתערובת מסמיכה למרקם של דייסה.",
+      "מסירים מהאש. מערבבים פנימה את החמאה (אם משתמשים) עד להמסה.",
+      "יוצקים לקערות ומפזרים קינמון טחון לפני ההגשה."
+    ],
+    "es": [
+      "Vierta la leche en una olla pequeña y colóquela a fuego medio.",
+      "Justo antes de que hierva la leche, baje el fuego y vierta gradualmente la sémola mientras bate constantemente para evitar grumos.",
+      "Añada el azúcar y continúe cocinando y removiendo durante unos 3-5 minutos hasta que la mezcla espese con la consistencia de unas gachas.",
+      "Retire del fuego. Incorpore la mantequilla (si la usa) hasta que se derrita.",
+      "Vierta en tazones y espolvoree con canela molida antes de servir."
+    ],
+    "ar": [
+      "صب الحليب في طنجرة صغيرة وحطها على نار متوسطة.",
+      "قبل ما يغلي الحليب بشوية، نقص النار وصب السميد بالشوية مع التحريك المستمر باش ما يتكعبرش.",
+      "زيد السكر وكمل طيب وحرك لمدة 3-5 دقايق لين تولي عاقدة كيف العصيدة.",
+      "نحيها من فوق النار. خلط معاها الزبدة (كان تحب) لين تذوب.",
+      "صب في صحافي ورش عليها القرفة المرحية قبل ما تقدمها."
+    ],
+    "en": [
+      "Pour the milk into a small pot and place over medium heat.",
+      "Just before the milk boils, lower the heat and gradually pour in the semolina while whisking constantly to prevent lumps.",
+      "Add the sugar and continue to cook and stir for about 3-5 minutes until the mixture thickens to a porridge consistency.",
+      "Remove from heat. Stir in the butter (if using) until melted.",
+      "Pour into bowls and sprinkle with ground cinnamon before serving."
+    ]
+  },
+  "image_prompt": "Warm bowl of creamy white semolina porridge topped with a dusting of cinnamon, wooden spoon, rustic setting"
+}

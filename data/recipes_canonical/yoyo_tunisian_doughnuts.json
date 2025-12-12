@@ -1,0 +1,379 @@
+{
+  "id": "yoyo_tunisian_doughnuts",
+  "slug": "yoyo-tunisian-doughnuts",
+  "source_file": "data/safed_recipes/25_יויו.json",
+  "name": "Yoyo (Tunisian Doughnuts)",
+  "name_hebrew": "יויו",
+  "name_origin": "The name 'Yoyo' is widely attributed to the French colonial influence in Tunisia (1881–1956). It is named after the toy 'yo-yo,' which became a global craze in the 1920s and 1930s. The shape of the pastry (a ring, sometimes appearing like two disks joined depending on how the dough puffs) resembled the toy. While the recipe itself—a fried dough soaked in syrup—has older roots in Andalusian and Ottoman confectionery (related to 'Rosquillas'), the specific nomenclature 'Yoyo' is a loan word adopted into Tunisian dialect (Derja) and Judeo-Arabic from French. (Confidence: likely)",
+  "description": "Traditional Tunisian Jewish deep-fried dough rings soaked in sugar syrup. These cake-like doughnuts are dense, sweet, and fragrant with orange and vanilla, commonly served at weddings, Hanukkah, and other celebrations.",
+  "cultural_context": "A staple of Tunisian Jewish confectionery, often associated with the city of Tunis and Djerba. Unlike yeast doughnuts, these are closer to a cookie dough texture.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Requires egg substitutes for the dough; the rest is vegan.",
+  "meta": {
+    "servings": "20-25 units",
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 75,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 500,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Plus more for dusting",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "For the dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 400,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 33.8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 4.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "eggs",
+      "name": "Eggs",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "Large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "orange_juice",
+      "name": "Orange juice",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Freshly squeezed preferred",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_extract",
+      "name": "Vanilla extract",
+      "amount": 5,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Or 1 packet vanilla sugar",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 5,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 1,
+      "unit": "L",
+      "preparation": null,
+      "notes": "For deep frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 33.8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 4.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 400,
+      "unit": "g",
+      "preparation": null,
+      "notes": "For the syrup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 400,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 240,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the syrup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 240,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 15,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the syrup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, mix the flour, 100g sugar, 120ml oil, eggs, orange juice, and vanilla.",
+      "time_minutes": 10,
+      "tips": "If the dough is too sticky, add a little more flour."
+    },
+    {
+      "step": 2,
+      "instruction": "Knead until you have a soft, non-sticky dough. Cover and let it rest for 30 minutes.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "While the dough rests, prepare the syrup: Combine 400g sugar, water, and lemon juice in a pot. Cook for about 7 minutes until slightly thickened.",
+      "time_minutes": 10,
+      "tips": "The syrup should be sticky but not caramel."
+    },
+    {
+      "step": 4,
+      "instruction": "Form the dough into small balls, then create a hole in the center of each to form a ring shape.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Heat the frying oil in a deep pan. Fry the rings until golden brown on both sides.",
+      "time_minutes": 15,
+      "tips": "Ensure oil is hot enough so they don't absorb too much grease."
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from oil and drain briefly on paper towels, then dip them into the prepared syrup while still warm.",
+      "time_minutes": 5,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/093_yoyo/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "tunisian",
+    "deep-fried",
+    "hanukkah",
+    "pastry"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "Yo-yo (the toy)",
+    "meaning": "Named after the toy due to the round shape with a hole",
+    "confidence": "likely",
+    "notes": "Common consensus among Maghrebi culinary historians is that the name dates to the French Protectorate era. The dish is distinct from the Arabic 'Sfenj' or 'Bambalouni' because it is a cake doughnut (using baking powder/eggs) rather than a yeast dough, reflecting European pastry techniques adapted to local tastes (honey/syrup soaking)."
+  },
+  "alternative_names": [
+    {
+      "name": "Beignets Tunisiens",
+      "language": "french",
+      "notes": "Generic term used in French-speaking contexts or patisseries."
+    },
+    {
+      "name": "Kaak M'aasel",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Honeyed/Syrup-soaked Cake/Ring'. This is a descriptive term sometimes used for the category of syrup-soaked pastries, though 'Yoyo' is the specific name for this shape."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Rosquillas",
+      "culture": "Spanish",
+      "similarity": "Deep-fried cake dough rings, often flavored with anise or citrus.",
+      "key_difference": "Rosquillas are usually dusted with sugar or glazed, whereas Yoyos are submerged in hot syrup (sh'our)."
+    },
+    {
+      "name": "Bambalouni",
+      "culture": "Tunisian",
+      "similarity": "Deep-fried dough ring, iconic Tunisian street food.",
+      "key_difference": "Bambalouni is made from a yeast-leavened bread dough (chewy/airy like Sfenj) and sugared, while Yoyo is a cake dough (crumbly/dense) and syrup-soaked."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "Fried dough ring, often eaten for Hanukkah.",
+      "key_difference": "Sfenj is strictly yeast-leavened, spongy, and unsweetened (until dipped in sugar/honey), lacking the eggs and vanilla of the Yoyo."
+    },
+    {
+      "name": "Tulumba / Balah el Sham",
+      "culture": "Turkish / Middle Eastern",
+      "similarity": "Fried dough soaked in syrup.",
+      "key_difference": "Tulumba uses choux pastry extruded through a star nozzle (ridged), whereas Yoyo is hand-formed into smooth rings."
+    }
+  ],
+  "intro_paragraph": "Yoyos—named after the toy popularized during the French colonial era—are dense, cake-like doughnuts central to Djerban Jewish festivities. Unlike yeasted pastries, this dough resembles a cookie texture before being deep-fried and drenched in orange-scented syrup. These sweet, golden rings are a beloved staple at weddings and Hanukkah celebrations."
+}

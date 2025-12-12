@@ -1,0 +1,381 @@
+{
+  "id": "tbikha_tomatem",
+  "slug": "tbikha-tomatem-chicken-tomato-stew",
+  "source_file": "data/safed_recipes/03_דביח_תטמטם.json",
+  "name": "Tbikha b'Tomatem (Chicken Tomato Stew)",
+  "name_hebrew": "דביח תטמטם",
+  "name_origin": "The name is purely Tunisian Arabic (Derja). 'Tbikha' derives from the Arabic triliteral root Ṭ-B-Kh (ط-ب-خ), meaning 'to cook.' In the Maghreb (Tunisia, Algeria, Libya), the noun form 'Tbikha' (طبيخة) specifically refers to a ragout or thick stew, distinct from a 'Marqa' (which implies a more liquid sauce). 'Tomatem' (طماطم) is the standard Tunisian word for tomato, ultimately derived from the Nahuatl 'tomatl' via Spanish and French. The construction 'b'Tomatem' uses the preposition 'bi' (with/in).",
+  "description": "A rich, red Djerban stew featuring chicken and potatoes cooked in a deep sauce made from both fresh tomatoes and tomato paste. The sauce is thickened by a double-sautéing process typical of North African cooking.",
+  "cultural_context": "A traditional Tunisian/Djerban dish. The technique of frying the tomato paste ('teklia') before adding water is essential to develop the deep flavor and color characteristic of this cuisine.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with chickpeas or white beans for a traditional vegetarian version.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 75,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 45,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 45,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomato",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": "fresh",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "green_chili_pepper",
+      "name": "Green hot pepper",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "sliced",
+      "notes": "adjust to heat preference",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 small can",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 6,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "cubed",
+      "notes": "medium size",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken",
+      "name": "Chicken",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into pieces",
+      "notes": "legs, thighs, or drumsticks",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "enough to cover ingredients",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat oil in a pot and fry the 2 diced onions until translucent.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the paprika, followed immediately by the chopped fresh tomato and sliced green pepper. Season with salt and black pepper.",
+      "time_minutes": 2,
+      "tips": "Adding the tomato quickly prevents the paprika from burning."
+    },
+    {
+      "step": 3,
+      "instruction": "Cover and let the mixture steam/sauté on low heat for about 10 minutes to soften the vegetables.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the tomato paste. Stir well and cook (steam) for another 10 minutes. This step removes the acidity from the paste.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add water to cover, the cubed potatoes, and the chicken pieces. Bring to a boil.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Lower heat and simmer until the chicken is cooked through and the potatoes are tender.",
+      "time_minutes": 30,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/088_tbikhat_tmatem/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "tunisian",
+    "djerban",
+    "stew",
+    "chicken",
+    "shabbat-lunch"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Arabic root Ṭ-B-Kh (ط-ب-خ)",
+    "meaning": "Tomato Stew (literally 'A cooking of tomato')",
+    "confidence": "confirmed",
+    "notes": "Standard Maghrebi culinary terminology. In Djerba and Libya, 'Tbikha' is the standard term for a main course stew eaten with bread, whereas in Algiers, 'Tbikha' often refers specifically to a vegetarian spring stew of peas and fava beans. The Djerban usage aligns closer to the Libyan usage."
+  },
+  "alternative_names": [
+    {
+      "name": "Tbekha",
+      "language": "tunisian_arabic",
+      "notes": "Common transliteration variant of the short vowel sound."
+    },
+    {
+      "name": "Marqa Batata",
+      "language": "tunisian_arabic",
+      "notes": "While 'Tbikha' refers to the cooking style, if the dish is primarily potatoes and chicken, it may be colloquially called 'Marqa' (sauce) by non-Djerbans."
+    },
+    {
+      "name": "Tbikha Hamra",
+      "language": "libyan_arabic",
+      "notes": "Meaning 'Red Stew,' a term used in neighboring Libya for similar tomato-based stews."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Marqa",
+      "culture": "Tunisian (General)",
+      "similarity": "A tomato-based stew with meat and vegetables.",
+      "key_difference": "Marqa is a broader term for any saucy dish; Tbikha often implies a thicker reduction or specific vegetable focus."
+    },
+    {
+      "name": "Tbikha (Algerian)",
+      "culture": "Algerian",
+      "similarity": "Shares the name and stewing method.",
+      "key_difference": "The famous Algerian Tbikha is usually vegetarian (fava beans, peas, artichokes), whereas the Djerban/Tunisian version features chicken or meat."
+    },
+    {
+      "name": "Tagine Djeij b'Batata",
+      "culture": "Moroccan",
+      "similarity": "Chicken and potato stew.",
+      "key_difference": "Cooked in a conical clay tagine with less liquid; the spice profile uses ginger/saffron rather than the heavy tomato paste and paprika (harissa) base of the Tunisian version."
+    },
+    {
+      "name": "Patates Yahnisi",
+      "culture": "Turkish",
+      "similarity": "Chicken and potato stew with tomato base.",
+      "key_difference": "Uses Turkish salça (paste) but lacks the specific North African 'taqliya' (garlic/caraway/coriander) flavor base."
+    }
+  ],
+  "intro_paragraph": "Tbikha b'Tomatem, meaning \"tomato ragout\" in Tunisian Arabic, is a hearty stew of chicken and potatoes simmered in a concentrated red sauce. Unlike lighter broths, this dish relies on *teklia*—the traditional method of frying tomato paste in oil—to develop the deep color and rich flavor characteristic of Djerban Jewish cooking."
+}

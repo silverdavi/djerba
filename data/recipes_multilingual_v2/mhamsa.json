@@ -1,0 +1,102 @@
+{
+  "id": "mhamsa",
+  "image": "images/current/059_mhamsa/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מחמסה",
+    "es": "Mhamsa (Perlas de Pasta Tunecina)",
+    "ar": "محمصة",
+    "en": "Mhamsa (Tunisian Pasta Pearls)"
+  },
+  "description": {
+    "he": "מחמסה שואבת את שמה מהפועל בערבית \"לקלות\", המתייחס לשיטה המסורתית של ייבוש פניני סולת בעבודת יד להעמקת טעמן האגוזי. מנה ג'רבאית רב-תכליתית זו, המוחלפת לעתים קרובות בפתיתים ישראליים, מוגשת כפילאף יבש פשוט או, לרוב בחורף, מבושלת ברוטב עגבניות וירקות עשיר.",
+    "es": "Mhamsa deriva su nombre del verbo árabe \"tostar\", refiriéndose al método tradicional de secar perlas de sémola hechas a mano para profundizar su sabor a nuez. Un alimento básico de Djerba a menudo sustituido por ptitim israelí, se sirve como un pilaf seco simple o, más comúnmente en invierno, cocinado a fuego lento en una abundante salsa de tomate y verduras.",
+    "ar": "المحمصة جاية من كلمة \"حمّص\"، على خاطر العادة القديمة باش يحمصو كعابر السميد المفتول باليد باش يعطيوهم نكهة بنينة. هي أكلة جربية أساسية وتتعوض برشا مرات بالبثيثيم، وتتقدم يا إما شايحة كيف الروز وإلا، وبالأخص في الشتاء، طايبة في مرقة خاثرة بالطماطم والخضرة.",
+    "en": "Mhamsa derives its name from the Arabic verb \"to toast,\" referring to the traditional method of drying hand-rolled semolina pearls to deepen their nutty flavor. A versatile Djerban staple often substituted with Israeli ptitim, it is served either as a simple dry pilaf or, more commonly in winter, simmered in a hearty tomato and vegetable sauce."
+  },
+  "ingredients": {
+    "he": [
+      "45 מ\"ל שמן צמחי",
+      "1 בצל, קצוץ לקוביות",
+      "7 גרם פפריקה מתוקה",
+      "2 עגבניות, קצוצות",
+      "150 גרם ירקות העונה (תפוחי אדמה, גזר או קישוא), חתוכים לקוביות",
+      "300 גרם פתיתים (או מחמסה)",
+      "מים רותחים לפי הצורך",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם"
+    ],
+    "es": [
+      "45 ml de aceite vegetal",
+      "1 cebolla, picada en cubitos",
+      "7 g de pimentón dulce",
+      "2 tomates, picados",
+      "150 g de verduras de temporada (papas, zanahorias o calabacín), en cubitos",
+      "300 g de Ptitim (o Mhamsa)",
+      "Agua hirviendo al gusto",
+      "Sal al gusto",
+      "Pimienta negra al gusto"
+    ],
+    "ar": [
+      "3 مغارف زيت",
+      "1 بصلة، مقصوصة جويدة",
+      "1 مغرفة فلفل أحمر (فلفل زينة)",
+      "2 كعبات طماطم، مقصوصين",
+      "1 كأس خضرة في وقتها (بطاطا، سفنارية، قرع)، مقصوصين",
+      "2 كيسان محمصة (أو بثيثيم)",
+      "ماء سخون يغلي حسب الحاجة",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق"
+    ],
+    "en": [
+      "3 tbsp vegetable oil",
+      "1 onion, diced",
+      "1 tbsp sweet paprika",
+      "2 tomatoes, chopped",
+      "1 cup seasonal vegetables (potatoes, carrots, or zucchini), diced",
+      "2 cups Ptitim (Israeli Couscous / Mhamsa)",
+      "Boiling water as needed",
+      "Salt to taste",
+      "Black pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים את השמן בסיר ומטגנים את הבצל הקצוץ עד שהוא מתחיל להזהיב.",
+      "מוסיפים את הפפריקה המתוקה ומערבבים מספר שניות לפתיחת הארומה (נזהרים לא לשרוף).",
+      "מוסיפים מיד את העגבניות הקצוצות ואת הירקות שבחרתם. מתבלים במלח ופלפל שחור.",
+      "יוצקים פנימה מים רותחים. למרקם מרקי, השתמשו ביותר מים; לתבשיל סמיך, השתמשו בפחות. מביאים לרתיחה.",
+      "מוסיפים את הפתיתים (מחמסה). מביאים שוב לרתיחה ואז מנמיכים את האש.",
+      "מכסים את הסיר חלקית ומבשלים כ-12 דקות עד שהפסטה והירקות רכים. מערבבים מדי פעם למניעת הידבקות."
+    ],
+    "es": [
+      "Calentar el aceite en una olla y sofreír la cebolla picada hasta que empiece a dorarse.",
+      "Añadir el pimentón dulce y remover unos segundos para liberar el aroma (cuidado de no quemarlo).",
+      "Añadir inmediatamente los tomates picados y las verduras elegidas. Sazonar con sal y pimienta negra.",
+      "Verter agua hirviendo. Para una consistencia más caldosa, usar más agua; para un guiso, usar menos. Llevar a ebullición.",
+      "Añadir los Ptitim (Mhamsa). Llevar de nuevo a ebullición y luego bajar el fuego.",
+      "Tapar parcialmente la olla y cocinar unos 12 minutos hasta que la pasta y las verduras estén tiernas. Remover ocasionalmente."
+    ],
+    "ar": [
+      "تسخن الزيت في طنجرة وتقلي البصل المقصوص لين يبدا يحمار شوية.",
+      "تزيد الفلفل الأحمر وتحرك ثواني باش تخرج ريحته (رد بالك يتحرق).",
+      "ترمي في وقتها الطماطم المقصوصة والخضرة اللي اخترتها. تفوّح بالملح والفلفل الأكحل.",
+      "تمرق بالماء السخون يغلي. كان تحبها جارية زيد الماء، وكان تحبها عاقدة نقص. خليها تغلي.",
+      "تزيد المحمصة. تخليها تغلي مرة أخرى ومبعد تنقص في النار.",
+      "تغطي الطنجرة نص طياب وتخليها تطيب حكاية 12 دقيقة لين المحمصة والخضرة يطراو. حرك مرة مرة باش ما تلصقش."
+    ],
+    "en": [
+      "Heat the oil in a pot and fry the diced onion until it begins to brown.",
+      "Add the sweet paprika and stir for a few seconds to release the aroma (be careful not to burn it).",
+      "Immediately add the chopped tomatoes and your chosen vegetables. Season with salt and black pepper.",
+      "Pour in boiling water. For a soupier consistency, use more water; for a stew, use less. Bring to a boil.",
+      "Add the Ptitim (Mhamsa). Bring back to a boil, then lower the heat.",
+      "Cover the pot partially and cook for about 12 minutes until the pasta and vegetables are tender. Stir occasionally to prevent sticking."
+    ]
+  }
+}

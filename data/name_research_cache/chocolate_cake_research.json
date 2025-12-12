@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name provided, 'Ugat Shokolad' (עוגת שוקולד), is Modern Hebrew. 'Ugah' (עוגה) comes from the Biblical Hebrew root 'Ayin-Vav-Gimel' (ע-ו-ג), meaning to draw a circle or be round, referring to the shape of baked goods (seen in Genesis 18:6). 'Shokolad' is a modern loanword into Hebrew, derived from European languages (likely German 'Schokolade' or French 'Chocolat'), which ultimately traces back to the Nahuatl (Aztec) word 'xocolātl'. In the context of Djerban cuisine, chocolate cake is not an ancient indigenous dish but a modern addition, likely introduced during the French Protectorate era (1881–1956) and adapted to Kashrut laws.",
+    "language_source": "hebrew",
+    "root_word": "עוג (Ugah - Hebrew) / Xocolātl (Nahuatl via European loan)",
+    "meaning": "Chocolate Cake",
+    "confidence": "confirmed",
+    "sources_notes": "The dish represents the intersection of French patisserie influence on North African Jewry and the necessity of Pareve baking (using oil/juice instead of butter/milk) for Shabbat meat meals. The Hebrew name indicates a modern Israeli or diasporic naming convention rather than a traditional Judeo-Arabic dialect name."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau au chocolat",
+      "language": "French",
+      "notes": "Commonly used in Tunisia due to French colonial influence; likely the name used by Djerban Jews before immigration to Israel."
+    },
+    {
+      "name": "Gatou",
+      "language": "Tunisian Arabic (Derja)",
+      "notes": "A loanword from French 'Gâteau', used generally for Western-style cakes in Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Moelleux au chocolat",
+      "culture": "French",
+      "similarity": "A rich, moist chocolate cake that serves as the likely culinary template.",
+      "key_difference": "The French version relies heavily on butter and often milk/cream, whereas the Jewish Djerban version substitutes oil and orange juice to remain Pareve."
+    },
+    {
+      "name": "Wacky Cake / Depression Cake",
+      "culture": "American / Ashkenazi Jewish",
+      "similarity": "A chocolate cake made without eggs, butter, or milk (Pareve).",
+      "key_difference": "Wacky cake typically uses vinegar and baking soda for lift; the Djerban version often utilizes eggs and orange juice for structure and flavor."
+    },
+    {
+      "name": "Meskouta / Meskouta b'l-limun",
+      "culture": "Moroccan / Maghrebi",
+      "similarity": "A popular North African oil-based sponge cake often flavored with citrus (orange/lemon).",
+      "key_difference": "Traditional Meskouta is usually vanilla/citrus; the Djerban dish applies this oil-and-citrus technique to a chocolate profile."
+    }
+  ]
+}

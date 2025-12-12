@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The Hebrew name provided ('Bina's Thick Sour and Spicy Soup') is a descriptive title rather than a traditional name. Based on the specific culinary profile (thick texture via flour slurry, sour vinegar/lemon base, and spicy harissa/caraway profile), this dish is almost certainly the Tunisian classic known as **Hsou** (or **H'sou** / **Hassu**). The name derives from the Classical Arabic verb 'ḥasā' (حسا), meaning 'to sip' or 'to drink soup'. In Tunisian Derja, it refers specifically to this style of thick, spicy pottage thickened with grain (semolina or flour).",
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥasā (حسا) / Ḥasw (حسو)",
+    "meaning": "To sip; a soup/pottage",
+    "confidence": "likely",
+    "sources_notes": "The description of a 'flour slurry' is the defining technique of Hsou (specifically the 'aqda' or binding agent). While the user provided a family descriptive name, the culinary DNA matches the Djerban Hsou perfectly."
+  },
+  "alternative_names": [
+    {
+      "name": "Hsou",
+      "language": "tunisian_arabic",
+      "notes": "Standard transliteration"
+    },
+    {
+      "name": "Hassu",
+      "language": "tunisian_arabic",
+      "notes": "Phonetic variation common in Djerba"
+    },
+    {
+      "name": "حسو",
+      "language": "arabic",
+      "notes": "Original Arabic spelling"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Hsou (Tunisian Muslim)",
+      "culture": "Tunisian (General)",
+      "similarity": "Identical base of garlic, caraway, harissa, and flour/semolina thickening.",
+      "key_difference": "Often includes 'kadid' (dried preserved meat) or sheep fat, whereas Jewish versions might be vegetarian (parve) to accompany dairy meals or use oil/chicken."
+    },
+    {
+      "name": "Harira",
+      "culture": "Moroccan",
+      "similarity": "Uses a similar flour-and-water slurry technique called 'tadouira' to thicken the soup.",
+      "key_difference": "Harira is tomato, lentil, and chickpea based with celery/parsley/cilantro, whereas Hsou is garlic/caraway/harissa based."
+    },
+    {
+      "name": "Chorba Frik",
+      "culture": "Algerian/Tunisian",
+      "similarity": "Spicy and soup-based.",
+      "key_difference": "Thickened by the starch of green wheat (frik) rather than a flour slurry; usually tomato-based."
+    }
+  ]
+}

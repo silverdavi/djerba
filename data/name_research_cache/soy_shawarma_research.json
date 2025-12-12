@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Shawarma' (שווארמה) is an Arabized corruption of the Ottoman Turkish word 'çevirme' (pronounced che-vir-meh), which means 'turning' or 'rotating,' referring to the vertical rotisserie cooking method. The suffix 'Soya' (סויה) is a Modern Hebrew loanword (ultimately from Japanese 'shoyu' via Dutch/English) indicating the vegetarian protein base. While the dish appears in a Djerban context here, the name and concept are Modern Israeli adaptations of Levantine street food, not traditional North African Jewish cuisine.",
+    "language_source": "turkish",
+    "root_word": "çevirmek (Turkish verb)",
+    "meaning": "Turning/Rotating (referring to the spit) + Soy",
+    "confidence": "confirmed",
+    "sources_notes": "Standard culinary etymology. The Turkish 'çevirme' became the Arabic 'shawarma' (changing the 'ch' to 'sh'). It is important to note that this is a modern 'pareve' (neutral) adaptation, likely created to allow the consumption of a shawarma-style dish within a dairy meal or for vegetarians, rather than a historical Djerban dish."
+  },
+  "alternative_names": [
+    {
+      "name": "Shawarma Tiv'onit",
+      "language": "hebrew",
+      "notes": "Means 'Vegan Shawarma'"
+    },
+    {
+      "name": "Chawarma Végétarienne",
+      "language": "french",
+      "notes": "Common nomenclature in modern Tunisia and France"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Döner Kebab",
+      "culture": "Turkish",
+      "similarity": "The original meat-based dish cooked on a vertical rotisserie.",
+      "key_difference": "Made with lamb or beef; the 'soy' version is pan-seared rather than roasted on a spit."
+    },
+    {
+      "name": "Gyros",
+      "culture": "Greek",
+      "similarity": "Vertical rotisserie meat dish derived from the same Ottoman tradition.",
+      "key_difference": "Often made with pork or chicken and served with tzatziki (yogurt), which is forbidden in kosher meat meals (though permissible with this soy version)."
+    },
+    {
+      "name": "Shawarma",
+      "culture": "Levantine / North African",
+      "similarity": "The meat-based street food this dish emulates.",
+      "key_difference": "Uses layers of fat and meat (lamb, turkey, chicken) rather than textured vegetable protein."
+    }
+  ]
+}

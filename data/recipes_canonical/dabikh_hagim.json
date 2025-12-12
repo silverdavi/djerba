@@ -1,0 +1,429 @@
+{
+  "id": "dabikh_hagim",
+  "slug": "dabikh-hagim",
+  "source_file": "data/safed_recipes/04_דביח_חגים.json",
+  "name": "Dabikh Hagim (Holiday Stew)",
+  "name_hebrew": "דביח חגים",
+  "name_origin": "The name is a classic example of the 'diglossia' found in North African Jewish languages, combining a Judeo-Arabic noun with a Hebrew modifier. 'Dabikh' is a dialectal variation of the Maghrebi Arabic term 'Tabikh' or 'Tbeikha' (طبيخة), meaning 'stew' or 'cooked dish.' The standard Arabic root is Ṭ-B-Kh (ط-ب-خ). The shift from the emphatic 'T' (Ṭa) to 'D' (Dalet) suggests a specific Djerban voicing assimilation or a local phonetic quirk. The ending 'Hagim' is the Hebrew word for 'Holidays' (חגים). Therefore, it literally translates to 'The Holiday Stew.' (Confidence: likely)",
+  "description": "A traditional Djerban holiday stew characterized by a rich base of oil and paprika, loaded with fresh herbs (parsley, dill, cilantro), pumpkin, and chicken. The vegetables are sweated slowly to release their juices before water is added.",
+  "cultural_context": "Common in Djerban cuisine for holidays like Rosh Hashanah or Sukkot. The technique of frying paprika in oil ('tekelia') and sweating the greens is typical of Tunisian cooking.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "The recipe explicitly mentions using a 'substitute' instead of chicken. Seitan or firm tofu works well, or simply increase the vegetables (chickpeas are a common addition in similar stews).",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 80,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Generous amount for the base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "sliced or diced",
+      "notes": "Large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pumpkin",
+      "name": "Pumpkin",
+      "amount": 400,
+      "unit": "g",
+      "preparation": "cubed",
+      "notes": "A large piece",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 400,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 14.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.7,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 400,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "parsley",
+      "name": "Parsley",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dill",
+      "name": "Dill",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cilantro",
+      "name": "Cilantro",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "zucchini",
+      "name": "Zucchini",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "sliced",
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "carrot",
+      "name": "Carrot",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "sliced",
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "coarse_salt",
+      "name": "Coarse salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": "ground",
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken",
+      "name": "Chicken",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into pieces",
+      "notes": "Or vegetarian substitute",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 7,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "peeled and quartered",
+      "notes": "Added in the final stage",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To cover ingredients",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_cover"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large pot, heat the oil and add the paprika. Cook for about 3 minutes to open the spices (be careful not to burn it).",
+      "time_minutes": 3,
+      "tips": "This technique creates the flavor base typical of Tunisian stews."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the onion (sliced or diced) and sauté for a few minutes.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the pumpkin, all the fresh herbs (parsley, dill, cilantro), and the optional zucchini/carrots. Season with coarse salt and black pepper.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Cover and sweat (steam) the vegetables on low heat for approximately 30 minutes. Do not add water yet; let the vegetables release their liquids.",
+      "time_minutes": 30,
+      "tips": "This slow sweating process concentrates the flavors."
+    },
+    {
+      "step": 5,
+      "instruction": "Add the chicken (or vegetarian substitute) and sweat for a few more minutes.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Finally, add the potatoes and enough water to cover. Bring to a boil, then simmer until the potatoes are soft and the chicken is cooked through.",
+      "time_minutes": 20,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/087_tbikha_chagim/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "stew",
+    "holiday",
+    "meat",
+    "gluten-free"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Arabic: Ṭ-B-Kh (cook) + Hebrew: Ḥag (holiday)",
+    "meaning": "Holiday Stew / Cooked Dish of the Holidays",
+    "confidence": "likely",
+    "notes": "While 'Tabikh' is the standard Arabic term, the spelling 'Dabikh' (with a Dalet and Het) is idiosyncratic to Djerban Judeo-Arabic. In standard Tunisian Arabic, this category of dish is called 'Tbeikha'. The Djerban dialect is known for retaining archaic forms and distinct phonology which may account for the T-to-D voicing shift."
+  },
+  "alternative_names": [
+    {
+      "name": "Tbeikha Qra",
+      "language": "tunisian_arabic",
+      "notes": "The generic Tunisian name for a pumpkin stew (Qra = Pumpkin), which is the base of this dish."
+    },
+    {
+      "name": "Tbeikha",
+      "language": "libyan_arabic",
+      "notes": "In neighboring Libya (and among Libyan Jews), 'Tbeikha' is the standard term for a main-course stew served over couscous or with bread."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tbikha Qra / Tbeikha bil Qra",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "Both are stews featuring pumpkin (red squash) and spices.",
+      "key_difference": "The Jewish 'Dabikh' typically features a much higher volume of fresh green herbs (dill/cilantro) and is strictly kosher (no dairy/butter), whereas general Tunisian versions might focus more on chickpeas and harissa without the intense herbal profile."
+    },
+    {
+      "name": "Tfina",
+      "culture": "Moroccan Jewish",
+      "similarity": "A slow-cooked holiday/Shabbat stew.",
+      "key_difference": "Tfina (like Cholent) is usually cooked overnight for Shabbat lunch. Dabikh Hagim appears to be a stovetop stew for holiday evenings (Yom Tov) rather than a slow-cooker dish."
+    },
+    {
+      "name": "Tirshi",
+      "culture": "Tripolitan (Libyan) Jewish",
+      "similarity": "A pumpkin-based dish common in the region.",
+      "key_difference": "Tirshi is a cooked salad/dip served cold or room temp, usually with a sour/spicy profile (caraway/garlic), whereas Dabikh is a hot main stew with chicken."
+    }
+  ],
+  "intro_paragraph": "Dabikh Hagim combines the Judeo-Arabic dialectal term for \"stew\" with the Hebrew for \"holidays.\" A festive staple for Rosh Hashanah and Sukkot, this Djerban specialty features chicken and pumpkin simmered in a vibrant oil-and-paprika base. Abundant fresh herbs—parsley, dill, and cilantro—are sweated slowly to release their juices, creating a rich, aromatic sauce."
+}

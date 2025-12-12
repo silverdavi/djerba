@@ -1,0 +1,118 @@
+{
+  "id": "chocolate_cake",
+  "image": "images/current/021chocolatecake/dish.png",
+  "meta": {
+    "servings": "1 cake",
+    "prep_time": "15 min",
+    "cook_time": "55 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת שוקולד",
+    "es": "Pastel de Chocolate",
+    "ar": "كيكة شوكولاتة",
+    "en": "Chocolate Cake"
+  },
+  "description": {
+    "he": "עוגת שוקולד משלבת את המילה המקראית לעוגה עם המונח המודרני לשוקולד. קינוח עשיר ולח זה מסתמך על שמן ומיץ תפוזים במקום מוצרי חלב כדי להישאר פרווה. זהו מאכל אהוב לשבת, החיוני להגשה לאחר ארוחות בשריות בהתאם לחוקי הכשרות.",
+    "es": "Ugat Shokolad combina la palabra hebrea bíblica para pastel redondo con el término moderno para chocolate. Este postre rico y húmedo utiliza aceite y jugo de naranja en lugar de lácteos para ser pareve. Un alimento básico amado para Shabat, es esencial para servir después de comidas con carne según las leyes dietéticas kosher.",
+    "ar": "Ugat Shokolad تجمع بين الكلمة العبرية للكيك والكلمة العصرية للشكلاطة. هذا الديسار البنين والطري يستعمل الزيت وعصير البرتقال في عوض الحليب باش يبقى بارف (pareve). هو طبق محبوب نهار السبت، ولازم يتقدم بعد الماكلة باللحم باش يوافق قوانين الكوشر.",
+    "en": "Ugat Shokolad combines the Biblical Hebrew word for a round cake with the modern term for chocolate. This rich, moist dessert relies on oil and orange juice rather than dairy to remain pareve. A beloved staple for Shabbat, it is essential for serving after meat meals in accordance with kosher dietary laws."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם קמח רגיל",
+      "350 גרם סוכר",
+      "75 גרם אבקת קקאו",
+      "160 מ\"ל שמן צמחי",
+      "2 גרם קפה נמס",
+      "300 מ\"ל מים רותחים",
+      "6 גרם מלח",
+      "2.4 גרם אבקת אפייה",
+      "9 גרם סודה לשתייה",
+      "3 ביצים",
+      "60 מ\"ל מיץ תפוזים",
+      "5 גרם סוכר וניל",
+      "מרגרינה לפי הצורך"
+    ],
+    "es": [
+      "250 g de harina común",
+      "350 g de azúcar",
+      "75 g de cacao en polvo",
+      "160 ml de aceite vegetal",
+      "2 g de café instantáneo",
+      "300 ml de agua hirviendo",
+      "6 g de sal",
+      "2.4 g de polvo de hornear",
+      "9 g de bicarbonato de sodio",
+      "3 huevos",
+      "60 ml de jugo de naranja",
+      "5 g de azúcar de vainilla",
+      "Margarina al gusto"
+    ],
+    "ar": [
+      "2 كيسان فرينة",
+      "1 3/4 كاس سكر",
+      "3/4 كاس كاكاو",
+      "2/3 كاس زيت",
+      "1 مغرفة صغيرة قهوة سريعة الذوبان",
+      "1 1/4 كاس ماء سخون يغلي",
+      "1 مغرفة صغيرة ملح",
+      "1/2 مغرفة صغيرة خميرة قاطو",
+      "1 1/2 مغرفة صغيرة بيكربونات",
+      "3 عظمات",
+      "1/4 كاس عصير برتقال",
+      "1 مغرفة صغيرة سكر فانيليا",
+      "مارغرين حسب الحاجة"
+    ],
+    "en": [
+      "2 cups all-purpose flour",
+      "1 3/4 cups sugar",
+      "3/4 cup cocoa powder",
+      "2/3 cup vegetable oil",
+      "1 tsp instant coffee",
+      "1 1/4 cups boiling water",
+      "1 tsp salt",
+      "1/2 tsp baking powder",
+      "1 1/2 tsp baking soda",
+      "3 eggs",
+      "1/4 cup orange juice",
+      "1 tsp vanilla sugar",
+      "Margarine to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות צלזיוס.",
+      "ממיסים את כפית הקפה הנמס במים הרותחים.",
+      "במיקסר, מערבבים את הקמח, הסוכר, הקקאו, השמן, המלח, אבקת האפייה, הסודה לשתייה ותערובת הקפה החמה.",
+      "מוסיפים את 3 הביצים, מיץ התפוזים וסוכר הווניל למיקסר. מערבבים עד שהבלילה חלקה ואחידה.",
+      "משמנים תבנית אפייה במעט מרגרינה.",
+      "יוצקים את התערובת לתבנית ואופים למשך 55 דקות."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C.",
+      "Disolver la cucharadita de café instantáneo en el agua hirviendo.",
+      "En una batidora, combinar la harina, el azúcar, el cacao, el aceite, la sal, el polvo de hornear, el bicarbonato y la mezcla de café caliente.",
+      "Añadir los 3 huevos enteros, el jugo de naranja y el azúcar de vainilla a la batidora. Mezclar hasta que la masa esté suave y bien combinada.",
+      "Engrasar un molde para hornear con un poco de margarina.",
+      "Verter la mezcla en el molde y hornear durante 55 minutos."
+    ],
+    "ar": [
+      "سخن الفور على 175 درجة.",
+      "ذوّب مغرفة القهوة في الماء السخون اللي يغلي.",
+      "في العجانة، خلط الفرينة، السكر، الكاكاو، الزيت، الملح، خميرة القاطو، البيكربونات، وخلطة القهوة والماء السخون.",
+      "زيد 3 عظمات، عصير البرتقال، وسكر الفانيليا للخليط. خلط مليح لين تولي العجينة رطبة ومتجانسة.",
+      "ادهن طبق الفور بشوية مارغرين.",
+      "صب الخليط في الطبق وطيبو في الفور لمدة 55 دقيقة."
+    ],
+    "en": [
+      "Preheat the oven to 175°C (350°F).",
+      "Dissolve the teaspoon of instant coffee into the hot boiling water.",
+      "In a stand mixer, combine the flour, sugar, cocoa, oil, salt, baking powder, baking soda, and the hot coffee-water mixture.",
+      "Add the 3 whole eggs, orange juice, and vanilla sugar to the mixer. Mix until the batter is smooth and well combined.",
+      "Grease a baking pan with a little margarine.",
+      "Pour the mixture into the pan and bake for 55 minutes."
+    ]
+  }
+}

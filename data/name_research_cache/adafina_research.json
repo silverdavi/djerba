@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "The name derives from the Arabic root 'd-f-n' (د ف ن), meaning 'to bury'. This refers to the historical cooking method where the pot was hermetically sealed with a flour-water paste and buried in the hot embers (ashes) of a communal oven (hammam or bakery) or a pit in the ground on Friday afternoon to cook slowly until Saturday lunch. The specific form 'Adafina' (with the initial 'A') represents the assimilation of the Arabic definite article 'al-' into 'ad-' before the 'd' sound (sun letter), resulting in 'ad-dafina'. This specific pronunciation was preserved in Medieval Spain and Ladino, appearing frequently in Spanish Inquisition records as a sign of secret Jewish practice. In modern Moroccan Judeo-Arabic, the initial vowel is often dropped, resulting simply in 'Dafina'.",
+    "language_source": "ladino",
+    "root_word": "Arabic: Dafina (دفينة) from verb Dafana (دفن)",
+    "meaning": "The buried one / The hidden thing",
+    "confidence": "confirmed",
+    "sources_notes": "The term appears in 15th-century Spanish literature and Inquisition records (e.g., The trial of Gabriel de Granada) specifically referring to the Jewish Shabbat stew. While the root is Arabic, the 'Adafina' form is distinctly Sephardic/Ladino, whereas 'Dafina' or 'Skhina' is used in the Maghreb."
+  },
+  "alternative_names": [
+    {
+      "name": "Dafina",
+      "language": "moroccan_arabic",
+      "notes": "The most common name in Morocco today; simply 'Buried'."
+    },
+    {
+      "name": "Skhina",
+      "language": "moroccan_arabic",
+      "notes": "Literally 'The hot one' or 'Warmth'. Used interchangeably with Dafina in Morocco (e.g., in Marrakesh)."
+    },
+    {
+      "name": "Tfina",
+      "language": "tunisian_arabic",
+      "notes": "The Tunisian/Algerian cognate. In Djerba and Tunis, specific versions exist like 'Tfina Pkaila' (spinach) or 'Tfina Nikitoche' (wheat)."
+    },
+    {
+      "name": "Hamin",
+      "language": "hebrew",
+      "notes": "The Mishnaic/Modern Hebrew generic term for the Shabbat stew (Literally: 'Hot things')."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Cocido Madrileño",
+      "culture": "Spanish",
+      "similarity": "A chickpea and meat stew cooked slowly.",
+      "key_difference": "Historically derived from the Jewish Adafina by 'Conversos' (converts to Christianity) who added pork and chorizo to prove they were no longer practicing Judaism."
+    },
+    {
+      "name": "Tanjia",
+      "culture": "Moroccan (Marrakesh)",
+      "similarity": "Meat cooked in an urn buried in the hot ashes of a hammam (bathhouse) furnace.",
+      "key_difference": "Tanjia is usually just spiced meat and preserved lemon (no grains/eggs) and is traditionally a 'bachelor's dish' rather than a family Shabbat meal."
+    },
+    {
+      "name": "Cholent",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "The functional equivalent: a slow-cooked overnight stew for Shabbat lunch.",
+      "key_difference": "Uses beans and barley instead of chickpeas and rice/wheat; flavor profile is savory/onion rather than the caramelized/sweet/spiced profile of Adafina."
+    },
+    {
+      "name": "Harrisa / Haleem",
+      "culture": "Middle Eastern / Arab",
+      "similarity": "Slow-cooked wheat and meat dish.",
+      "key_difference": "Usually cooked until the meat dissolves into a porridge texture, whereas Adafina ingredients retain their shape."
+    }
+  ]
+}

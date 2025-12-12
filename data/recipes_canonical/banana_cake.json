@@ -1,0 +1,360 @@
+{
+  "id": "banana_cake",
+  "slug": "banana-cake",
+  "source_file": "data/safed_recipes/banana_cake.json",
+  "name": "Banana Cake",
+  "name_hebrew": "עוגת בננות",
+  "name_origin": "The name 'Ugat Bananot' is Modern Hebrew. 'Uga' (עוגה) comes from the Biblical Hebrew root 'ug' (עוג) meaning 'to be round' or 'circle', originally referring to round baked breads. 'Bananot' is the plural of 'Banana', an international loan word ultimately derived from Wolof (West Africa) via Spanish/Portuguese. This is not a traditional, ancient Judeo-Arabic dish (as bananas were not a staple baking ingredient in pre-modern North Africa), but rather a 20th-century addition to the repertoire, likely introduced during the French Protectorate era (influenced by the French 'Gâteau aux bananes') or later in Israel. The use of sour milk suggests an adaptation using local 'Lben' (fermented milk) to mimic buttermilk or yogurt in Western-style baking.",
+  "description": "A classic, moist banana cake enriched with sour milk for a tender crumb. This recipe produces a light and fluffy cake that pairs perfectly with tea or coffee.",
+  "cultural_context": "While not a traditional North African dish, cakes like these became staples in Jewish households in the diaspora for Shabbat breakfast or afternoon tea.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace butter with vegan butter or oil, eggs with flax eggs or applesauce, and sour milk with plant-based milk mixed with vinegar.",
+  "meta": {
+    "servings": "9-12",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 50,
+    "total_time_minutes": 65,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "name": "Butter",
+      "amount": 113,
+      "unit": "g",
+      "preparation": "softened",
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 113,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 113,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 300,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 1/2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_extract",
+      "name": "Vanilla extract",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sour_milk",
+      "name": "Sour milk",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/2 cup; can substitute with buttermilk",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "banana",
+      "name": "Bananas",
+      "amount": 2,
+      "unit": "unit",
+      "size": "large",
+      "preparation": "mashed",
+      "notes": "approx. 1 cup mashed",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "All-purpose flour",
+      "amount": 190,
+      "unit": "g",
+      "preparation": "sifted",
+      "notes": "approx. 1 1/2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 190,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 6.7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 190,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C (350°F). Prepare a 9-inch square baking pan by greasing or lining it.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a large bowl, beat the butter, sugar, eggs, and vanilla until the mixture is light and fluffy.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a separate small container, dissolve the baking soda into the sour milk.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the milk mixture to the butter batter and beat well.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Sift the flour and baking powder together.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Add the mashed bananas alternately with the sifted dry ingredients to the batter. Mix just until blended; do not overmix.",
+      "time_minutes": 3,
+      "tips": "Overmixing can result in a tough cake."
+    },
+    {
+      "step": 7,
+      "instruction": "Pour the batter into the prepared baking pan.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.",
+      "time_minutes": 50,
+      "tips": null
+    },
+    {
+      "step": 9,
+      "instruction": "Allow to cool. Optionally ice with Banana Icing or Chocolate Icing.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/006_banana_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "baking",
+    "dairy"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "עוג (Ug - Round) + Banana (Loan word)",
+    "meaning": "Banana Cake",
+    "confidence": "confirmed",
+    "notes": "The dish represents the modernization of North African Jewish cuisine. While traditional Djerban sweets rely on semolina, honey, and nuts, this sponge-like cake belongs to the 'Bouscoutou' (sponge cake) family of desserts adopted from European influence."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau aux bananes",
+      "language": "french",
+      "notes": "Common name used by Francophone North African Jews during the colonial era."
+    },
+    {
+      "name": "Mouz Cake",
+      "language": "arabic",
+      "notes": "'Mouz' (موز) is Arabic for banana, though this mix of English/Arabic is colloquial and modern."
+    },
+    {
+      "name": "Bouscoutou",
+      "language": "judeo_arabic",
+      "notes": "Generic term for sponge cakes in Tunisia (from Italian 'Biscotto'), sometimes applied to fruit-flavored cakes."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Banana Bread",
+      "culture": "American/British",
+      "similarity": "Uses mashed bananas and chemical leavening.",
+      "key_difference": "Banana bread is denser and loaf-shaped; the Jewish version is often lighter, like a sponge cake (Bouscoutou)."
+    },
+    {
+      "name": "Gâteau au Yaourt",
+      "culture": "French",
+      "similarity": "Uses fermented dairy (yogurt) for a tender crumb, similar to the 'sour milk' in this recipe.",
+      "key_difference": "Standard version is plain or citrus; does not typically contain fruit pulp."
+    },
+    {
+      "name": "Meskouta / Meskouta bil Lchin",
+      "culture": "Moroccan",
+      "similarity": "A distinct oil-based sponge cake often made with orange juice.",
+      "key_difference": "Uses citrus rather than banana; traditional Moroccan equivalent of the tea cake."
+    }
+  ],
+  "intro_paragraph": "Ugat Bananot combines the biblical term for \"round\" (*uga*) with a global loan word. A 20th-century departure from ancient Judeo-Arabic cuisine, this moist cake relies on sour milk to ensure a light, tender crumb. It has since become a cherished standard in Jewish households for Shabbat breakfast or afternoon tea."
+}

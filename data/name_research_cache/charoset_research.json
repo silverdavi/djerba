@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is derived from the Mishnaic Hebrew word 'cheres' (חרס), which translates to 'clay', 'earthenware', or 'shard'. This etymology is explicitly cited in the Babylonian Talmud (Pesachim 116a), where the dish is described as symbolizing the clay or mortar used by the Israelites to make bricks during their enslavement in Egypt. The texture and color of the paste are intended to visually mimic this mortar.",
+    "language_source": "hebrew",
+    "root_word": "חרס (Cheres)",
+    "meaning": "Clay / Earthenware",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Talmudic etymology (Mishnah Pesachim 10:3). While the name is Hebrew, the Djerban recipe specifically reflects the 'Halek' tradition (date-based) rather than the Ashkenazi apple-based tradition."
+  },
+  "alternative_names": [
+    {
+      "name": "Halek / Halegh",
+      "language": "judeo_arabic",
+      "notes": "The specific vernacular name used by Tunisian and Djerban Jews for this date-based version of Charoset. It likely refers to the thick, dark consistency."
+    },
+    {
+      "name": "Bilad",
+      "language": "ladino",
+      "notes": "Used in some Sephardic communities, though 'Halek' is the primary term in the Maghreb."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Rfis Tounsi",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "A sweet paste made from mashed dates mixed with toasted semolina or flour.",
+      "key_difference": "Rfis contains semolina/grains and butter, whereas Charoset is grain-free (for Passover) and uses wine."
+    },
+    {
+      "name": "Makroudh Filling",
+      "culture": "North African (Maghreb)",
+      "similarity": "The spiced date paste (ghars) used inside Makroudh pastries is nearly identical in flavor profile to Djerban Charoset.",
+      "key_difference": "The filling is encased in semolina dough and fried/baked, whereas Charoset is eaten as a raw paste."
+    },
+    {
+      "name": "Madmouja",
+      "culture": "Moroccan",
+      "similarity": "A rich confection of dates and nuts.",
+      "key_difference": "Madmouja is a puff pastry dish filled with the mixture, rather than a standalone ritual paste."
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "id": "chocolate_cake",
+  "slug": "chocolate-cake",
+  "source_file": "data/safed_recipes/chocolate_cake.json",
+  "name": "Chocolate Cake",
+  "name_hebrew": "עוגת שוקולד",
+  "name_origin": "The name provided, 'Ugat Shokolad' (עוגת שוקולד), is Modern Hebrew. 'Ugah' (עוגה) comes from the Biblical Hebrew root 'Ayin-Vav-Gimel' (ע-ו-ג), meaning to draw a circle or be round, referring to the shape of baked goods (seen in Genesis 18:6). 'Shokolad' is a modern loanword into Hebrew, derived from European languages (likely German 'Schokolade' or French 'Chocolat'), which ultimately traces back to the Nahuatl (Aztec) word 'xocolātl'. In the context of Djerban cuisine, chocolate cake is not an ancient indigenous dish but a modern addition, likely introduced during the French Protectorate era (1881–1956) and adapted to Kashrut laws.",
+  "description": "A rich, moist chocolate cake. This recipe uses oil and orange juice instead of dairy, making it 'Pareve' and suitable for serving after meat meals in accordance with Kosher dietary laws.",
+  "cultural_context": "While chocolate cake is a universal dessert, this specific formulation (using oil, boiling water, and orange juice) is a staple in many Jewish households for Shabbat and holidays because it is dairy-free (Pareve).",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer to make vegan.",
+  "meta": {
+    "servings": "1 cake",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 55,
+    "total_time_minutes": 70,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 250,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 350,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 3/4 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 350,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 12.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 350,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cocoa_powder",
+      "name": "Cocoa powder",
+      "amount": 75,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Hershey's or similar; approx. 3/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 75,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 75,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 160,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 2/3 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 160,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.67,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 160,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "instant_coffee",
+      "name": "Instant coffee",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "to be dissolved in the hot water",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.07,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Boiling water",
+      "amount": 300,
+      "unit": "ml",
+      "preparation": "hot boiling",
+      "notes": "approx. 1 1/4 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 10,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 1.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 9,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "whole",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "orange_juice",
+      "name": "Orange juice",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": "freshly squeezed",
+      "notes": "approx. 1/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_sugar",
+      "name": "Vanilla sugar",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "or vanilla extract",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "margarine",
+      "name": "Margarine",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for greasing the pan",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 175°C (350°F).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Dissolve the teaspoon of instant coffee into the hot boiling water.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a stand mixer (KitchenAid), combine the flour, sugar, cocoa, oil, salt, baking powder, baking soda, and the hot coffee-water mixture.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the 3 whole eggs, orange juice, and vanilla sugar to the mixer. Mix until the batter is smooth and well combined.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Grease a baking pan with a little margarine.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Pour the mixture into the pan and bake for 55 minutes.",
+      "time_minutes": 55,
+      "tips": "Check for doneness with a toothpick."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/021_chocolate_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "pareve",
+    "baking"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "עוג (Ugah - Hebrew) / Xocolātl (Nahuatl via European loan)",
+    "meaning": "Chocolate Cake",
+    "confidence": "confirmed",
+    "notes": "The dish represents the intersection of French patisserie influence on North African Jewry and the necessity of Pareve baking (using oil/juice instead of butter/milk) for Shabbat meat meals. The Hebrew name indicates a modern Israeli or diasporic naming convention rather than a traditional Judeo-Arabic dialect name."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau au chocolat",
+      "language": "French",
+      "notes": "Commonly used in Tunisia due to French colonial influence; likely the name used by Djerban Jews before immigration to Israel."
+    },
+    {
+      "name": "Gatou",
+      "language": "Tunisian Arabic (Derja)",
+      "notes": "A loanword from French 'Gâteau', used generally for Western-style cakes in Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Moelleux au chocolat",
+      "culture": "French",
+      "similarity": "A rich, moist chocolate cake that serves as the likely culinary template.",
+      "key_difference": "The French version relies heavily on butter and often milk/cream, whereas the Jewish Djerban version substitutes oil and orange juice to remain Pareve."
+    },
+    {
+      "name": "Wacky Cake / Depression Cake",
+      "culture": "American / Ashkenazi Jewish",
+      "similarity": "A chocolate cake made without eggs, butter, or milk (Pareve).",
+      "key_difference": "Wacky cake typically uses vinegar and baking soda for lift; the Djerban version often utilizes eggs and orange juice for structure and flavor."
+    },
+    {
+      "name": "Meskouta / Meskouta b'l-limun",
+      "culture": "Moroccan / Maghrebi",
+      "similarity": "A popular North African oil-based sponge cake often flavored with citrus (orange/lemon).",
+      "key_difference": "Traditional Meskouta is usually vanilla/citrus; the Djerban dish applies this oil-and-citrus technique to a chocolate profile."
+    }
+  ],
+  "intro_paragraph": "Ugat Shokolad combines the Biblical Hebrew word for a round cake with the modern term for chocolate. This rich, moist dessert relies on oil and orange juice rather than dairy to remain pareve. A beloved staple for Shabbat, it is essential for serving after meat meals in accordance with kosher dietary laws."
+}

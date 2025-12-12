@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name is derived from the Arabic root 'ḥ-r-m' (حرم), meaning 'forbidden', 'sacred', or 'taboo'. The specific form 'Chraime' (or 'Hraime') follows the Arabic diminutive pattern (Fu'ayl), literally translating to 'a little forbidden thing' or 'a little sin'. This is a metaphorical name, likely referring to the intense, 'punishing' heat of the dish or the idea that it is so delicious it is sinful. It is important to correct the common misconception in the provided note: the Arabic word for 'hot/spicy' is 'ḥārr' (حار), not 'ḥarām'. However, the phonetics of 'Chraime' align with the root for 'forbidden' (ḥ-r-m), not 'hot' (ḥ-r-r).",
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥarām (حرام) - meaning forbidden/sacred",
+    "meaning": "Little forbidden thing (diminutive form)",
+    "confidence": "likely",
+    "sources_notes": "Linguistic analysis of Libyan/Tunisian Judeo-Arabic morphology. While 'Harr' means hot, the 'm' at the end of 'Chraime' confirms the root is Ḥ-R-M. Food historians like Gil Marks attribute the name to the 'forbidden' intensity of the spice."
+  },
+  "alternative_names": [
+    {
+      "name": "Hraime",
+      "language": "Libyan Judeo-Arabic",
+      "notes": "The more phonetically accurate transliteration of the guttural 'Het' sound."
+    },
+    {
+      "name": "Chraimeh",
+      "language": "Hebrew",
+      "notes": "Standard Modern Hebrew spelling/pronunciation."
+    },
+    {
+      "name": "Hraimi",
+      "language": "Libyan Arabic",
+      "notes": "The non-Jewish Libyan version of the dish, often served with 'Bazeen' (barley dough)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Samak bi-l-Hraimi",
+      "culture": "Libyan (Muslim)",
+      "similarity": "Virtually identical spicy fish stew base.",
+      "key_difference": "Often served with Asida or Bazeen (doughs) rather than the Challah/bread used in Jewish Shabbat meals."
+    },
+    {
+      "name": "Dag Marokai (Moroccan Fish)",
+      "culture": "Moroccan Jewish",
+      "similarity": "Spicy fish stew served for Shabbat.",
+      "key_difference": "Moroccan version relies on bell peppers, cilantro, and sweet paprika; Chraime relies on tomato paste, caraway, and 'Pilpel Chuma' (garlic-chili paste)."
+    },
+    {
+      "name": "Kabkabou",
+      "culture": "Tunisian",
+      "similarity": "Fish stew with tomato and spices.",
+      "key_difference": "Kabkabou typically includes preserved lemons, capers, and olives, which are not standard in the strict Chraime sauce."
+    },
+    {
+      "name": "Matelote",
+      "culture": "French",
+      "similarity": "Fish stew prepared with wine/sauce.",
+      "key_difference": "Uses wine and French herbs; lacks the aggressive chili heat and caraway of the Maghrebi version."
+    }
+  ]
+}

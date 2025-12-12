@@ -1,0 +1,334 @@
+{
+  "id": "tirshi_pumpkin_salad",
+  "slug": "tirshi-pumpkin-salad",
+  "source_file": "data/safed_recipes/23_תירשי.json",
+  "name": "Tirshi (Tunisian Pumpkin Salad)",
+  "name_hebrew": "תירשי",
+  "name_origin": "Derived from the Arabic word 'turshi' (طرشي), which generally means 'pickles' or 'pickled vegetables' throughout the Middle East and Maghreb. The word ultimately traces back to the Persian 'torsh' (ترش) meaning 'sour' or 'acidic'. In the context of Tunisian and Libyan Jewish cuisine, the meaning shifted from whole pickled vegetables to a specific cooked, mashed salad (usually pumpkin or carrot) that is heavily seasoned with vinegar or lemon juice, garlic, and caraway (karwiya). The name refers to the sour, pungent flavor profile that functions like a pickle to cut through the richness of Shabbat stews or couscous, rather than the texture.",
+  "description": "A classic Tunisian Jewish cooked salad made from mashed pumpkin, garlic, and spices. It is traditionally served cold or at room temperature as part of the 'kemia' (appetizer spread) on Shabbat and holidays.",
+  "cultural_context": "A staple of Djerban and Tunisian cuisine. While 'Tirshi' can refer to various pickled vegetables in other Middle Eastern contexts, for Tunisian Jews, it almost exclusively refers to this specific pumpkin dip. It is known for its vibrant orange color and bold flavor profile.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pumpkin",
+      "name": "Pumpkin or Butternut Squash",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "peeled and cubed",
+      "notes": "Butternut squash is often preferred for better texture",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potato",
+      "amount": 1,
+      "unit": "unit",
+      "size": "small",
+      "preparation": "peeled and cubed",
+      "notes": "Adds creaminess",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Can use neutral oil or light olive oil",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 3,
+      "unit": "clove",
+      "preparation": "crushed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "clove"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Sweet paprika",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cumin",
+      "name": "Cumin",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.09,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": "freshly squeezed",
+      "notes": "Approx. 2 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Boil the pumpkin cubes (and potato, if using) in water until completely soft and tender.",
+      "time_minutes": 20,
+      "tips": "Test with a fork to ensure they are soft enough to mash easily."
+    },
+    {
+      "step": 2,
+      "instruction": "Drain the vegetables thoroughly. It is important to remove as much water as possible to avoid a watery dip.",
+      "time_minutes": 5,
+      "tips": "Letting them sit in a colander for a few minutes helps."
+    },
+    {
+      "step": 3,
+      "instruction": "Mash the vegetables with a fork while they are still warm.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the oil, crushed garlic, paprika, cumin, salt, and lemon juice. Mix well to combine.",
+      "time_minutes": 2,
+      "tips": "Taste and adjust salt or lemon as needed."
+    },
+    {
+      "step": 5,
+      "instruction": "Serve cold or at room temperature.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Spicy Tirshi",
+      "description": "Add harissa or hot paprika for a spicy kick."
+    },
+    {
+      "name": "Caraway Tirshi",
+      "description": "Many traditional recipes use caraway (karwiya) instead of or in addition to cumin."
+    }
+  ],
+  "image": {
+    "filename": "images/current/091_tirshi/dish.png",
+    "prompt": "Tunisian tirshi pumpkin salad, orange mashed pumpkin dip in a decorative ceramic bowl, garnished with olive oil and parsley, bright lighting"
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "salad",
+    "dip",
+    "vegan",
+    "parve",
+    "shabbat",
+    "kemia"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Torsh (Persian) -> Turshi (Arabic)",
+    "meaning": "Sour / Pickled",
+    "confidence": "confirmed",
+    "notes": "The linguistic connection is standard in Judeo-Arabic dialectology. While 'Turshi' is standard Arabic for pickles, the specific pronunciation 'Tirshi' or 'Tershi' in the Maghreb (specifically Tunisia and Libya) refers almost exclusively to this mashed dip. The sour element (vinegar/lemon) is the defining characteristic that links it to the etymological root."
+  },
+  "alternative_names": [
+    {
+      "name": "Tershi",
+      "language": "Judeo-Arabic",
+      "notes": "Common transliteration variant."
+    },
+    {
+      "name": "Tirshi Qra",
+      "language": "Tunisian Arabic",
+      "notes": "'Qra' (قرع) means pumpkin/gourd; specifies the main ingredient."
+    },
+    {
+      "name": "Chershi",
+      "language": "Libyan Judeo-Arabic",
+      "notes": "The Tripolitan (Libyan) pronunciation of the same dish, often served with couscous."
+    },
+    {
+      "name": "Salade de Citrouille",
+      "language": "French",
+      "notes": "Colonial era name often used in French-language Jewish cookbooks."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chershi / Cershi",
+      "culture": "Libyan Jewish",
+      "similarity": "Almost identical dish made of mashed pumpkin, garlic, and caraway.",
+      "key_difference": "Libyan version is often spicier (using pilpelchuma) and sometimes more liquid, used as a sauce for couscous rather than just a salad."
+    },
+    {
+      "name": "Torshi / Turşu",
+      "culture": "Middle Eastern / Turkish",
+      "similarity": "Etymological ancestor.",
+      "key_difference": "These are standard vinegar-brined raw vegetables (pickles), whereas Tunisian Tirshi is cooked and mashed."
+    },
+    {
+      "name": "Zalouk",
+      "culture": "Moroccan",
+      "similarity": "Cooked, mashed vegetable salad served as a dip.",
+      "key_difference": "Zalouk is primarily eggplant and tomato based, whereas Tirshi is pumpkin based."
+    },
+    {
+      "name": "Om Hourieh",
+      "culture": "Tunisian",
+      "similarity": "Mashed vegetable salad (kemia).",
+      "key_difference": "Om Hourieh is made from carrots, though a 'Carrot Tirshi' exists which blurs the lines."
+    }
+  ],
+  "intro_paragraph": "Tirshi derives from the Arabic for \"pickles,\" referencing the sharp acidity that defines this vibrant cooked salad. Made from mashed pumpkin seasoned heavily with caraway, garlic, and vinegar, it transforms sweet squash into a savory dip. A staple of Djerban cuisine, it is traditionally served cold as part of the Shabbat kemia."
+}

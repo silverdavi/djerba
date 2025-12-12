@@ -1,0 +1,138 @@
+{
+  "id": "mochajavacake",
+  "image": "images/current/060mochajava_cake/dish.png",
+  "meta": {
+    "servings": "10-12",
+    "prep_time": "20 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "עוגת מוקה ג'אווה",
+    "es": "Pastel Mocha Java",
+    "ar": "كيكة موكا جافا",
+    "en": "Mocha Java Cake"
+  },
+  "description": {
+    "he": "עוגת מוקה ג'אווה משלבת שוקולד וקפה לקינוח דחוס ועשיר, הקרוי על שם תערובת הקפה ההיסטורית מתימן ואינדונזיה. כקינוח מודרני בבתים ג'רבאיים-ישראליים, מתכון זה הוא פרווה לחלוטין, ומשתמש במרגרינה ושמנת צמחית ליצירת סיום עשיר המתאים להגשה לאחר ארוחת שבת בשרית.",
+    "es": "El Pastel Mocha Java combina chocolate y café en un postre denso y suave, llamado así por la histórica mezcla de café de Yemen e Indonesia. Un elemento básico moderno en los hogares israelíes-djerbanos, esta receta es estrictamente parve, utilizando margarina y crema no láctea para crear un acabado rico adecuado para servir después de una cena tradicional de Shabat con carne.",
+    "ar": "كيكة موكا جافا تخلط بين الشكلاطة والقهوة في ديسير عاقد وبنين، مسمية على اسم خلطة القهوة التاريخية من اليمن وإندونيسيا. هالوصفة عصرية ومعروفة عند العايلات الجربية في إسرائيل، وهي بارفي (بلاش حليب)، مخدومة بالمارغرين والكريم النباتية باش تجي بنينة وتتاكل بعد عشاء اللحم نهار السبت.",
+    "en": "Mocha Java Cake combines chocolate and coffee in a dense, fudgy dessert named for the historic coffee blend from Yemen and Indonesia. A modern staple in Israeli-Djerban households, this recipe is strictly parve, utilizing margarine and non-dairy cream to create a rich finish suitable for serving after a traditional meat Shabbat dinner."
+  },
+  "ingredients": {
+    "he": [
+      "100 גרם מרגרינה (לעוגה)",
+      "80 מ\"ל מים (לעוגה)",
+      "200 גרם סוכר (לעוגה)",
+      "1.5 כפות קפה נמס (לעוגה)",
+      "200 גרם שוקולד מריר, שבור לחתיכות (לעוגה)",
+      "3 ביצים (בינוניות/גדולות)",
+      "140 גרם קמח רב תכליתי, מנופה",
+      "1.5 גרם מלח",
+      "2.4 גרם אבקת אפייה",
+      "1.5 כפות קפה נמס (לציפוי)",
+      "180 מ\"ל שמנת צמחית להקצפה (לציפוי)",
+      "150 גרם שוקולד מריר, שבור לחתיכות (לציפוי)",
+      "80 גרם אבקת סוכר (לציפוי)"
+    ],
+    "es": [
+      "100 g de margarina (para el pastel)",
+      "80 ml de agua (para el pastel)",
+      "200 g de azúcar (para el pastel)",
+      "1.5 cucharadas de café instantáneo (para el pastel)",
+      "200 g de chocolate negro, en trozos (para el pastel)",
+      "3 huevos",
+      "140 g de harina para todo uso, tamizada",
+      "1.5 g de sal",
+      "2.4 g de polvo de hornear",
+      "1.5 cucharadas de café instantáneo (para el glaseado)",
+      "180 ml de crema para batir vegana (para el glaseado)",
+      "150 g de chocolate negro, en trozos (para el glaseado)",
+      "80 g de azúcar glass (para el glaseado)"
+    ],
+    "ar": [
+      "7 مغارف مارغرين (للكيكة)",
+      "1/3 كأس ماء (للكيكة)",
+      "1 كأس سكر (للكيكة)",
+      "1.5 مغرفة قهوة سريعة الذوبان (للكيكة)",
+      "1.2 كأس شكلاطة كحلة، مقصوصة (للكيكة)",
+      "3 عظمات",
+      "1.15 كأس فرينة، منخولة",
+      "0.25 مغرفة صغيرة ملح",
+      "0.5 مغرفة صغيرة خميرة ڨاطو",
+      "1.5 مغرفة قهوة سريعة الذوبان (للجلاصاج)",
+      "3/4 كأس كرام شانتيي نباتية (للجلاصاج)",
+      "0.9 كأس شكلاطة كحلة (للجلاصاج)",
+      "0.67 كأس سكر محور (للجلاصاج)"
+    ],
+    "en": [
+      "7 tbsp margarine (for the cake)",
+      "0.33 cups water (for the cake)",
+      "1 cups sugar (for the cake)",
+      "1.5 tbsp instant coffee granules (for the cake)",
+      "0.9 cups dark chocolate, broken into pieces (for the cake)",
+      "3 eggs",
+      "1.15 cups all-purpose flour, sifted",
+      "0.25 tsp salt",
+      "0.5 tsp baking powder",
+      "1.5 tbsp instant coffee granules (for the glaze)",
+      "0.75 cups vegan whipping cream (for the glaze)",
+      "0.9 cups dark chocolate, broken into pieces (for the glaze)",
+      "0.67 cups powdered sugar (for the glaze)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "לחמם תנור ל-180 מעלות. לשמן תבנית אפייה בינונית.",
+      "בסיר על אש בינונית, לערבב את המרגרינה, המים, הסוכר והחלק הראשון של הקפה (1.5 כפות). לחמם עד להמסה וכמעט רתיחה.",
+      "להוסיף את החלק הראשון של השוקולד (200 גרם) לתערובת החמה ולערבב עד להמסה מלאה וקבלת מרקם חלק.",
+      "להסיר מהאש. להוסיף את הביצים אחת אחת, תוך ערבוב נמרץ בין כל הוספה כדי למנוע מהביצים להתבשל.",
+      "להוסיף את הקמח, המלח ואבקת האפייה. לערבב עד לאיחוד.",
+      "לצקת את הבלילה לתבנית המוכנה. לאפות כ-20 דקות, או עד שהעוגה יציבה וקיסם הננעץ במרכזה יוצא נקי.",
+      "להוציא את העוגה מהתנור ולתת לה להצטנן.",
+      "להכנת הציפוי: בסיר קטן על אש נמוכה, לערבב את השמנת הצמחית עם החלק השני של הקפה (1.5 כפות).",
+      "ברגע שהשמנת חמה והקפה נמס, להוסיף את החלק השני של השוקולד (150 גרם). לערבב עד להמסה.",
+      "להסיר את הציפוי מהאש ולערבב פנימה את אבקת הסוכר עד לקבלת מרקם חלק. לתת לזה להצטנן מעט.",
+      "לצקת את הציפוי החמים על העוגה המצוננת לפני ההגשה."
+    ],
+    "es": [
+      "Precalentar el horno a 180°C. Engrasar un molde para hornear mediano.",
+      "En una cacerola a fuego medio, combinar la margarina, el agua, el azúcar y la primera porción de café (1.5 cucharadas). Calentar hasta que se derrita y esté a punto de hervir.",
+      "Añadir la primera porción de chocolate (200 g) a la mezcla caliente y remover hasta que esté completamente derretido y suave.",
+      "Retirar del fuego. Añadir los huevos uno a uno, removiendo vigorosamente entre cada adición para evitar que los huevos se cocinen.",
+      "Añadir la harina, la sal y el polvo de hornear. Mezclar hasta que esté bien combinado.",
+      "Verter la masa en el molde preparado. Hornear durante unos 20 minutos, o hasta que el pastel esté firme y al insertar un palillo en el centro salga limpio.",
+      "Sacar el pastel del horno y dejar enfriar.",
+      "Para preparar el glaseado: En una cacerola pequeña a fuego lento, mezclar la crema batida vegana con la segunda porción de café (1.5 cucharadas).",
+      "Una vez que la mezcla de crema esté caliente y el café se haya disuelto, añadir la segunda porción de chocolate (150 g). Remover hasta que se derrita.",
+      "Retirar el glaseado del fuego e incorporar el azúcar glass hasta que quede suave. Dejar enfriar un poco.",
+      "Verter el glaseado tibio sobre el pastel enfriado antes de servir."
+    ],
+    "ar": [
+      "سخّن الفور على 180 درجة. ادهن طبق الفور بالزيت.",
+      "في طنجرة على نار متوسطة، خلط المارغرين، الماء، السكر، والجزء الأول متاع القهوة (1.5 مغرفة). سخّن لين يذوب الخليط ويقرب يغلي.",
+      "زيد الجزء الأول متاع الشكلاطة (200 غرام) للخليط السخون وحرّك لين تذوب وتولي رطبة.",
+      "نحّي الطنجرة من النار. زيد العظمات بالكعبة بالكعبة، وحرّك بالزربة بين كل كعبة باش العظم ما يطيبش.",
+      "زيد الفرينة، الملح، وخميرة الڨاطو. خلط مليح لين يتجانس الخليط.",
+      "صب الخليط في الطبق المحضر. طيّب في الفور حكاية 20 دقيقة، ولا لين الكيكة تشد روحها والكيوردون يخرج نظيف كي تجرب في الوسط.",
+      "خرّج الكيكة من الفور وخليها تبرد.",
+      "باش تحضر الجلاصاج: في طنجرة صغيرة على نار هادية، خلط الكرام شانتيي مع الجزء الثاني متاع القهوة (1.5 مغرفة).",
+      "كيف تسخن الكرام والقهوة تذوب، زيد الجزء الثاني متاع الشكلاطة (150 غرام). حرّك لين تذوب.",
+      "نحّي الجلاصاج من النار وخلط معاه السكر المحور لين يولي رطب. خليه يبرد شوية.",
+      "صب الجلاصاج الدافي فوق الكيكة الباردة قبل ما تقدمها."
+    ],
+    "en": [
+      "Preheat oven to 180°C (350°F). Grease a medium baking pan.",
+      "In a saucepan over medium heat, combine the margarine, water, sugar, and the first portion of coffee (1.5 tbsp). Heat until melted and almost boiling.",
+      "Add the first portion of chocolate (200g) to the hot mixture and stir until completely melted and smooth.",
+      "Remove from heat. Add the eggs one by one, stirring vigorously between each addition to prevent the eggs from cooking.",
+      "Add the flour, salt, and baking powder. Mix until well combined.",
+      "Pour the batter into the prepared pan. Bake for about 20 minutes, or until the cake is firm and a skewer inserted into the center comes out clean.",
+      "Remove cake from oven and allow it to cool.",
+      "To prepare the glaze: In a small saucepan over low heat, mix the vegan whipped cream with the second portion of coffee (1.5 tbsp).",
+      "Once the cream mixture is hot and coffee is dissolved, add the second portion of chocolate (150g). Stir until melted.",
+      "Remove glaze from heat and stir in the powdered sugar until smooth. Let it cool slightly.",
+      "Pour the warm glaze over the cooled cake before serving."
+    ]
+  }
+}

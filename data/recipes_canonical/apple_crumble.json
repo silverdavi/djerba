@@ -1,0 +1,388 @@
+{
+  "id": "apple_crumble",
+  "slug": "apple-crumble",
+  "source_file": "data/safed_recipes/apple_crumble.json",
+  "name": "Apple Crumble",
+  "name_hebrew": "קראמבל תפוחים",
+  "name_origin": "The name 'Crumble Tapuchim' (קראמבל תפוחים) is a Modern Hebrew construction. 'Crumble' is a direct transliteration of the English culinary term, which originated in Britain during World War II as a rationing-friendly alternative to pies. 'Tapuchim' is the Hebrew plural for apples (from the root n-p-ch, meaning to blow or swell). This dish is not indigenous to North African Jewish cuisine. Its presence in a Djerban cookbook indicates modern culinary assimilation, likely introduced via the French Jewish diaspora (where 'Le Crumble' became extremely popular in the 1980s) or through modern Israeli culture.",
+  "description": "A comforting dessert featuring tender sliced apples spiced with cinnamon and sugar, topped with a crunchy oat and flour crumble. This version uses margarine to keep it pareve, making it suitable for serving after meat meals.",
+  "cultural_context": "While Western in origin, apple crumble is a staple in many Jewish households for Shabbat and holidays because it is easily made pareve (non-dairy).",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Recipe uses margarine, making it naturally vegan.",
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 80,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple",
+      "name": "Apples",
+      "amount": 8,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "peeled and sliced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 8,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_sugar",
+      "name": "Regular sugar",
+      "amount": 0.75,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": "for filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.75,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "name": "Cinnamon",
+      "amount": 0.5,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.125,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 0.75,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.03,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.125,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.125,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "oatmeal",
+      "name": "Oatmeal",
+      "amount": 0.5,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": "rolled oats",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "Flour",
+      "amount": 0.5,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 62.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "brown_sugar",
+      "name": "Brown sugar",
+      "amount": 0.5,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": "for topping",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 0.25,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 0.125,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 0.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.02,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.125,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.125,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "margarine",
+      "name": "Margarine",
+      "amount": 3,
+      "unit": "tbsp",
+      "size": null,
+      "preparation": "cold",
+      "notes": "or butter if dairy is permitted",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 42.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 180°C (350°F).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a bowl, mix together the sliced apples, regular sugar, cinnamon, and salt.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Transfer the apple mixture into a greased medium-sized baking pan.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "In a separate bowl, mix the oatmeal, flour, brown sugar, baking powder, and baking soda.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the cold margarine to the dry ingredients and mix well (using fingers or a fork) until a crumbly texture is achieved.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Pour the crumble mixture evenly over the apples.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for 50-60 minutes until the apples are soft and the topping is browned.",
+      "time_minutes": 60,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/003_apple_crumble/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "pareve",
+    "shabbat",
+    "vegan"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "English 'Crumble' (from Old English 'crymel') + Hebrew 'Tapuach'",
+    "meaning": "Apple Crumble",
+    "confidence": "confirmed",
+    "notes": "This is distinctly a Western dish. Traditional Tunisian desserts rely on nuts, honey, semolina, and frying (like debla or makroud), not baked fruit with streusel. The use of margarine to make it Pareve is a standard Jewish dietary adaptation of the butter-heavy British original."
+  },
+  "alternative_names": [
+    {
+      "name": "Crumble aux pommes",
+      "language": "French",
+      "notes": "The likely name used by Tunisian Jews living in France or influenced by Francophone culture."
+    },
+    {
+      "name": "Apple Crisp",
+      "language": "English (American)",
+      "notes": "The American equivalent, specifically distinguished by the inclusion of oats in the topping, as described in this recipe."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tarte Tatin",
+      "culture": "French",
+      "similarity": "Baked apple dessert common in the Francosphere.",
+      "key_difference": "Upside-down pastry with caramelized apples, uses puff pastry or shortcrust rather than a crumbled topping."
+    },
+    {
+      "name": "Cobbler",
+      "culture": "British/American",
+      "similarity": "Baked fruit dessert.",
+      "key_difference": "Topped with a biscuit or batter/dumpling dough rather than a crisp crumble mixture."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (North African)",
+      "similarity": "Pareve dessert often eaten by Jews.",
+      "key_difference": "Deep-fried yeast dough ring (donut), completely different cooking method and ingredients from a crumble."
+    }
+  ],
+  "intro_paragraph": "Crumble Tapuchim—a Modern Hebrew adaptation of the British wartime classic—illustrates the influence of Western cuisine on Djerban tables. Tender apples spiced with cinnamon are baked under a crisp oat topping. By substituting margarine for butter, this dessert remains pareve, serving as a perfect conclusion to meat-heavy Shabbat feasts."
+}

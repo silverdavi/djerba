@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name is a modern hybrid. 'Biscotti' is the plural of the Italian 'biscotto', derived from the Latin 'bis' (twice) and 'coctus' (cooked/baked). However, in the context of Tunisian cuisine (influenced by the Livornese 'Grana' Jews and French colonialism), the term 'biscuit' or 'biscotto' was Arabized into 'Bachkoutou' (bash-koo-too), referring generically to cookies. The specific name 'Judy' refers to the family member who created this variation. The description indicates this is not a true twice-baked biscotti, but rather a 'Mandelbrot' style loaf-cookie adapted with oil (parve) and chocolate chips, reflecting a fusion of North African pareve baking traditions with modern Western ingredients.",
+    "language_source": "other",
+    "root_word": "Latin 'bis' + 'coctus' (via Italian/French)",
+    "meaning": "Judy's Twice-Baked Cookies (though technically a misnomer in this recipe context)",
+    "confidence": "confirmed",
+    "sources_notes": "The etymology of 'biscotti' is standard Latin/Italian. The usage here is colloquial. In Tunisia, 'Bachkoutou' is the standard loanword for biscuits. The use of oil instead of butter is a hallmark of Judeo-Arabic parve baking to accommodate Kosher dietary laws (Kashrut) regarding meat meals."
+  },
+  "alternative_names": [
+    {
+      "name": "Bachkoutou",
+      "language": "tunisian_arabic",
+      "notes": "The general Tunisian term for biscuits/cookies, derived from the French 'biscuit' and Italian 'biscotto'."
+    },
+    {
+      "name": "Mandelbrot",
+      "language": "yiddish",
+      "notes": "Literally 'Almond Bread'. This is the Ashkenazi equivalent which this recipe closely mimics in structure (loaf sliced into cookies), though the flavor profile here is modernized."
+    },
+    {
+      "name": "Croquant",
+      "language": "french",
+      "notes": "Common term in French-influenced Maghreb for crunchy, sliced cookies."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fekkas",
+      "culture": "Moroccan",
+      "similarity": "A twice-baked almond cookie sliced from a log, very similar to biscotti/mandelbrot.",
+      "key_difference": "Fekkas are strictly twice-baked and usually flavored with anise seeds, sesame, and orange blossom water, whereas Judy's recipe uses chocolate chips and is softer."
+    },
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "A loaf-shaped baked good often containing almonds/raisins and oil-based.",
+      "key_difference": "Boulou is yeast-based (closer to bread/cake) and has a different texture than the shortbread-like cookie described here."
+    },
+    {
+      "name": "Cantuccini",
+      "culture": "Italian (Tuscan)",
+      "similarity": "The original almond biscotti.",
+      "key_difference": "Cantuccini use butter (dairy) and no oil, are strictly twice-baked for hardness, and do not traditionally contain chocolate."
+    },
+    {
+      "name": "Ghoriba",
+      "culture": "North African / Middle Eastern",
+      "similarity": "Shortbread texture, oil or butter-based.",
+      "key_difference": "Ghoriba are shaped as individual balls/rounds, not sliced from a loaf, and have a distinct sandy texture."
+    }
+  ]
+}

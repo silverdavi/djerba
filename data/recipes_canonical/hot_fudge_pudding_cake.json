@@ -1,0 +1,447 @@
+{
+  "id": "hot_fudge_pudding_cake",
+  "slug": "hot_fudge_pudding_cake",
+  "source_file": "data/safed_recipes/hot_fudge_pudding_cake.json",
+  "name": "Hot Fudge Pudding Cake",
+  "name_hebrew": "עוגת פאדג׳ חמה",
+  "name_origin": "This is a direct translation (calque) and transliteration from American English into Modern Hebrew. The word 'Fudge' (פאדג׳) is a loanword from English, as there is no traditional Judeo-Arabic or North African term for this specific confection. 'Ugat' (עוגת) is the construct state of the Hebrew word for cake, and 'Hama' (חמה) means hot. This indicates the dish is a modern addition to the culinary repertoire, likely introduced via American or Israeli cultural influence rather than traditional Djerban heritage.",
+  "description": "A magical self-saucing chocolate dessert where a moist cake layer rises to the top while a rich, hot fudge sauce forms underneath during baking. Best served warm, this comfort food is a popular modern addition to many family repertoires.",
+  "cultural_context": "While not a traditional North African dish, this American-style pudding cake is a common favorite in modern Jewish households for its ease of preparation and pareve adaptability (if using non-dairy milk).",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace milk with soy or almond milk to make this recipe vegan/pareve.",
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "name": "White sugar",
+      "amount": 200,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 65,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 65,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 65,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cocoa_powder",
+      "name": "Unsweetened cocoa powder",
+      "amount": 45,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 45,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.26,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "milk",
+      "name": "Milk",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/2 cup; use non-dairy for pareve",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 80,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/3 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 80,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 80,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_extract",
+      "name": "Vanilla extract",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "brown_sugar",
+      "name": "Brown sugar",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "packed",
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Hot water",
+      "amount": 420,
+      "unit": "ml",
+      "preparation": "hot",
+      "notes": "approx. 1 3/4 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 420,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 14.2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 420,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nuts",
+      "name": "Chopped nuts",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": "chopped",
+      "notes": "walnuts or pecans",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "whipped_cream",
+      "name": "Whipped cream",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for serving",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C (350°F). Grease a 23cm (9-inch) square baking pan.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a mixing bowl, combine the white sugar, flour, cocoa, baking powder, and salt.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Stir in the milk, vegetable oil, and vanilla extract until the batter is smooth. Spread the batter evenly into the prepared pan.",
+      "time_minutes": 2,
+      "tips": "The batter will be thick."
+    },
+    {
+      "step": 4,
+      "instruction": "Sprinkle the packed brown sugar and chopped nuts (if using) evenly over the top of the batter.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Gently pour the hot water over the entire mixture. Do not stir.",
+      "time_minutes": 1,
+      "tips": "It will look messy and watery, but do not mix it. This creates the sauce."
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 40 to 45 minutes, or until the center of the cake is set and the pudding sauce is bubbling around the edges.",
+      "time_minutes": 45,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Serve warm, topped with whipped cream if desired.",
+      "time_minutes": null,
+      "tips": "Scoop deep to get the sauce from the bottom."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/044_hot_fudge_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "chocolate",
+    "modern",
+    "baked-goods"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "English 'Fudge' (originating late 19th century US)",
+    "meaning": "Hot Fudge Cake",
+    "confidence": "confirmed",
+    "notes": "The use of the transliterated English word 'Fudge' in Hebrew confirms this is not a traditional Maghrebi dish. Traditional Tunisian chocolate desserts would typically use French terminology (like 'fondant' or 'moelleux') or Arabic descriptive terms."
+  },
+  "alternative_names": [
+    {
+      "name": "Chocolate Cobbler",
+      "language": "English (American South)",
+      "notes": "Refers to the same technique where hot water is poured over batter to create a sauce."
+    },
+    {
+      "name": "Pudding Chômeur",
+      "language": "French (Quebecois)",
+      "notes": "A similar concept (cake with sauce underneath), though usually maple/caramel based, showing the Western lineage of this style."
+    },
+    {
+      "name": "Moelleux au Chocolat",
+      "language": "French",
+      "notes": "While technically different (a lava cake vs. a pudding cake), this is the closest culinary reference point in Francophone Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Coulant / Mi-cuit au chocolat",
+      "culture": "French",
+      "similarity": "Both feature a cake exterior with a liquid chocolate interior.",
+      "key_difference": "The French version relies on underbaking the center or inserting a ganache frozen core; the Pudding Cake relies on a chemical reaction with boiling water poured over batter to separate layers."
+    },
+    {
+      "name": "Khobzet Chocola / Gâteau au Chocolat",
+      "culture": "Tunisian (Modern)",
+      "similarity": "Chocolate cake served in Tunisian households.",
+      "key_difference": "Traditional Tunisian home-style chocolate cakes are usually dense sponges, often soaked in syrup or glazed, rather than self-saucing."
+    },
+    {
+      "name": "Chocolate Sponge Pudding",
+      "culture": "British",
+      "similarity": "Hot chocolate dessert served with sauce.",
+      "key_difference": "Often steamed rather than baked, and the sauce is usually poured over after cooking rather than forming during baking."
+    }
+  ],
+  "intro_paragraph": "Hot Fudge Pudding Cake—known in Israel as Ugat Fudge Hama—is a self-saucing chocolate dessert where a moist cake rises above a rich, gooey sauce during baking. While a modern American import rather than a traditional North African staple, it has become a favorite in Jewish households for its comforting warmth and easy pareve adaptation."
+}

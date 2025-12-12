@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name provided is Modern Hebrew. 'Lechem' (לחם) means bread. 'Machmetzet' (מחמצת) refers to a sourdough starter or leaven. The root is H-M-Tz (ח-מ-צ), which relates to 'chametz' (leavened food forbidden on Passover) and 'chumtzah' (acid/sourness). Historically, in Djerba and Tunisia, bread was naturally leavened using a piece of old dough called 'khmira' (Arabic) or 'levain' (French), rather than the modern liquid starter implied by the Hebrew word 'machmetzet'. This specific title likely reflects a modern Israeli-Hebrew naming convention for a traditional family recipe.",
+    "language_source": "hebrew",
+    "root_word": "ח-מ-צ (H-M-Tz)",
+    "meaning": "Sourdough Bread (literally: Bread of Leaven/Sourness)",
+    "confidence": "confirmed",
+    "sources_notes": "Linguistic analysis of standard Hebrew culinary terminology. While the recipe is Djerban, the title provided is descriptive Modern Hebrew rather than a specific Judeo-Arabic dish name (like 'Mouna' or 'Boulou')."
+  },
+  "alternative_names": [
+    {
+      "name": "Khobz bil-Khmira",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation for 'bread with leaven/yeast'."
+    },
+    {
+      "name": "Pain au Levain",
+      "language": "french",
+      "notes": "The French term for sourdough bread, widely used in Tunisia due to the French protectorate era."
+    },
+    {
+      "name": "Khobz Dar",
+      "language": "maghrebi_arabic",
+      "notes": "Meaning 'House Bread', referring to homemade rustic loaves."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Khobz Tabouna",
+      "culture": "Tunisian",
+      "similarity": "A traditional rustic bread baked in a clay oven (tabouna), historically naturally leavened.",
+      "key_difference": "Baked on the walls of a clay oven giving a pitted surface, whereas the Jewish version is likely oven-baked for Shabbat."
+    },
+    {
+      "name": "Pain de Campagne",
+      "culture": "French",
+      "similarity": "Rustic country bread using natural leaven (sourdough).",
+      "key_difference": "Uses French flour blends (often including rye) rather than the semolina (smid) often found in North African breads."
+    },
+    {
+      "name": "Khobz Semid",
+      "culture": "Maghrebi",
+      "similarity": "Durum semolina bread common across North Africa.",
+      "key_difference": "Often uses commercial yeast in modern times; the texture is yellower and denser than European sourdough."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "charoset",
+  "image": "images/current/017_charoset/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "15 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חרוסת",
+    "es": "Charoset",
+    "ar": "حروست",
+    "en": "Charoset"
+  },
+  "description": {
+    "he": "נקראת על שם המילה העברית חרס, החרוסת מחקה ויזואלית את הטיט ששימש את בני ישראל המשועבדים במצרים. בעוד שגרסאות צפון אפריקאיות מסתמכות באופן מסורתי על תמרים, מתכון זה משלב את העושר הזה עם הפריכות של תפוחים ואגוזים. הממרח המתוק והכהה מוגש בליל הסדר ומספק ניגוד חיוני למרור.",
+    "es": "Llamado así por la palabra hebrea cheres, que significa arcilla, el Charoset imita visualmente el mortero utilizado por los israelitas esclavizados en Egipto. Mientras que las versiones norteafricanas dependen tradicionalmente de los dátiles, esta receta combina esa riqueza con la textura crujiente de las manzanas y las nueces. Servida en el Seder de Pésaj, esta pasta dulce y oscura proporciona un contrapunto vital a las hierbas amargas.",
+    "ar": "الاسم جاي من كلمة حرس بالعبرية، اللي معناها الطين، والحروست تشبه الياجور اللي استعملوه بنو إسرائيل وقت العبودية في مصر. العادة في شمال إفريقيا يعملوها بالتمر، أما الوصفة هذي تخلط حلاوة التمر مع قرميشة التفاح والفاكية. تتقدم في ليلة السدر، وهي عجينة حلوة وكحلة تجي عكس المرارة متاع الخس.",
+    "en": "Named for the Hebrew cheres, meaning clay, Charoset visually mimics the mortar used by enslaved Israelites in Egypt. While North African versions traditionally rely on dates, this recipe blends that richness with the crunch of apples and nuts. Served at the Passover Seder, the sweet, dark paste provides a vital counterpoint to the bitter herbs."
+  },
+  "ingredients": {
+    "he": [
+      "200 גרם תמרים מג'הול, מגולענים וקצוצים (עדיף תמרים רכים)",
+      "1 תפוח, בינוני, קלוף ומגורר",
+      "100 גרם אגוזי מלך, קצוצים דק או טחונים",
+      "60 מ\"ל יין אדום מתוק"
+    ],
+    "es": [
+      "200 g de dátiles Medjool, deshuesados y picados (mejor si son blandos)",
+      "1 manzana, mediana, pelada y rallada",
+      "100 g de nueces, finamente picadas o molidas",
+      "60 ml de vino tinto dulce"
+    ],
+    "ar": [
+      "1.15 كيسان تمر مجدول، منحي القلوب ومقصوص (ماذا بيك تمر طري)",
+      "1 تفاحة، متوسطة، مقشرة ومرحية",
+      "1 كاس زوزة (جوز)، مقصوصة جويدة ولا مرحية",
+      "0.25 كاس نبيذ أحمر حلو"
+    ],
+    "en": [
+      "1.15 cups Medjool dates, pitted and chopped (Soft dates are best)",
+      "1 apple, medium, peeled, cored, and grated",
+      "1 cup walnuts, finely chopped or ground",
+      "1/4 cup sweet red wine"
+    ]
+  },
+  "steps": {
+    "he": [
+      "לגלען את התמרים ולקצוץ אותם דק. אם הם יבשים, אפשר להשרות אותם במים חמים למשך 10 דקות תחילה.",
+      "לקלוף ולגרר את התפוח דק.",
+      "בקערה או במעבד מזון, לערבב את התמרים, התפוח המגורר והאגוזים הקצוצים. למרקם מסורתי דמוי טיט, לעבד בפולסים עד לקבלת ממרח אך להשאיר מעט מרקם.",
+      "להוסיף את היין בהדרגה תוך כדי ערבוב עד לקבלת הסמיכות הרצויה."
+    ],
+    "es": [
+      "Deshuesar los dátiles y picarlos finamente. Si están secos, se pueden remojar en agua tibia durante 10 minutos primero.",
+      "Pelar y rallar la manzana finamente.",
+      "En un bol o procesador de alimentos, combinar los dátiles, la manzana rallada y las nueces picadas. Para una textura tradicional similar al mortero, pulsar hasta formar una pasta pero manteniendo algo de textura.",
+      "Añadir gradualmente el vino mientras se mezcla hasta alcanzar la consistencia deseada."
+    ],
+    "ar": [
+      "نحّي قلوب التمر وقصّه جويد. كان التمر شايح، نجّم نفخّه في الماء سخون 10 دقايق قبل ما تبدأ.",
+      "قشّر التفاحة وارحيها بلقدا.",
+      "في صحفة ولا ماكينة الرحيان، خلّط التمر، التفاح المرحي، والزوزة. ارحيهم شوية باش يولّيو عجينة كيما الطين أما تقعد فيها طروف يتقرمشو.",
+      "زيد النبيذ (الشراب) بالشوية وخلّط لين تتحصل على القوام اللي تحب عليه."
+    ],
+    "en": [
+      "Pit the dates and chop them finely. If they are dry, you may soak them in warm water for 10 minutes first.",
+      "Peel and grate the apple finely.",
+      "In a bowl or food processor, combine the dates, grated apple, and chopped nuts. For a traditional mortar-like texture, pulse in a food processor until a paste forms but some texture remains.",
+      "Gradually add the wine while mixing until the desired consistency is reached."
+    ]
+  },
+  "image_prompt": "Traditional Jewish Charoset paste in a bowl, made of dates, apples, and nuts, Passover table setting"
+}

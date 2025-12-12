@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Brikot' is the Hebraized plural form of the Tunisian Arabic word 'Brik' (بريك). The root of the word is definitively traced to the Ottoman Turkish 'Börek', a general term for filled pastries. The Ottoman Empire controlled Tunisia from the 16th to the 19th century, introducing the concept of phyllo/yufka doughs. In Tunisia, this evolved into the 'Malsouka' (the specific leaf) and the dish became 'Brik'. The suffix '-ot' (ות) is the Hebrew feminine plural marker, indicating that 'Brikot' is the specific terminology used by Tunisian Jews (and subsequently in Israel) to refer to multiple pieces of the pastry.",
+    "language_source": "turkish",
+    "root_word": "Börek (Turkish) -> Brik (Tunisian Arabic)",
+    "meaning": "Originally referring to any dish made with yufka (dough sheets); in Tunisia specifically denotes the deep-fried Malsouka packet.",
+    "confidence": "confirmed",
+    "sources_notes": "Standard culinary etymology (Gil Marks, Claudia Roden). The phonetic shift from 'Börek' to 'Brik' is a standard contraction in Maghrebi dialects. The form 'Brikot' represents the linguistic integration of the dish into Judeo-Arabic and Modern Hebrew syntax."
+  },
+  "alternative_names": [
+    {
+      "name": "Brik",
+      "language": "tunisian_arabic",
+      "notes": "The standard singular and collective name in Tunisia (Muslim and Jewish)."
+    },
+    {
+      "name": "Brika",
+      "language": "tunisian_arabic",
+      "notes": "The specific singular form (one piece)."
+    },
+    {
+      "name": "Brik bil 'Adma",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Brik with Egg' (using the Tunisian word 'Adma' for egg)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Briouat",
+      "culture": "Moroccan",
+      "similarity": "Uses similar paper-thin dough (Warka) and is deep-fried.",
+      "key_difference": "Briouat are typically smaller, triangular, and often folded more tightly; Brik is usually a larger half-moon or envelope shape."
+    },
+    {
+      "name": "Sigara Böreği",
+      "culture": "Turkish",
+      "similarity": "Deep-fried pastry rolls derived from the same etymological root.",
+      "key_difference": "Uses Turkish Yufka dough which is slightly thicker than Tunisian Malsouka; shaped like cigars rather than folded envelopes."
+    },
+    {
+      "name": "Bourek",
+      "culture": "Algerian",
+      "similarity": "Deep-fried filled pastry sheets (Dioul).",
+      "key_difference": "Often rolled into long cigars rather than the Tunisian folded triangle or half-moon."
+    },
+    {
+      "name": "Sambusak",
+      "culture": "Middle Eastern / Sephardic",
+      "similarity": "Fried or baked savory pocket.",
+      "key_difference": "Uses a shortcrust or yeast dough, not the transparent, leaf-like Malsouka/Warka."
+    }
+  ]
+}

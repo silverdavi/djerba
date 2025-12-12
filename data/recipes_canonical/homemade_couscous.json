@@ -1,0 +1,216 @@
+{
+  "id": "homemade_couscous",
+  "slug": "homemade-couscous",
+  "source_file": "data/safed_recipes/10_קוסקוס.json",
+  "name": "Homemade Couscous",
+  "name_hebrew": "קוסקוס",
+  "name_origin": "The word derives from the Berber (Amazigh) language, specifically the word 'seksu' or 'kesksu'. It entered North African Arabic as 'kuskusi' and later French/English as 'couscous'. While some theories suggest an onomatopoeic origin (the sound of the steam or the sieve), the linguistic consensus points to the Berber root S-K-S, referring to the action of rolling or rounding the wheat granules.",
+  "description": "Traditional handmade couscous prepared from raw semolina. Unlike instant varieties, this involves hydrating, rolling, and steaming the grains twice to achieve a light, fluffy texture.",
+  "cultural_context": "The cornerstone of North African Jewish cuisine, particularly in Djerba and Tunisia. It is traditionally prepared on Fridays to be served with vegetable and meat soup for Shabbat lunch.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 90,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "semolina",
+      "name": "Semolina",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": null,
+      "notes": "coarse or medium grain",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 6,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 500,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approximate total, used in stages",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 16.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2.1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "divided use",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Pour the semolina into a wide bowl through a coarse sieve. Rotate the bowl to check the semolina; remove any impurities that rise to the top.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add 1/4 cup of water and mix into the semolina. Add another 1/4 cup of water (be careful not to add too much) and mix thoroughly.",
+      "time_minutes": 5,
+      "tips": "The goal is to moisten the grains, not make a dough."
+    },
+    {
+      "step": 3,
+      "instruction": "Pass the mixture through a wide/coarse sieve again to create uniform grains. Add a small amount of oil by hand and mix to coat.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Place the grains in the steamer pot (couscoussier/keskas) with holes. Place this pot over a bottom pot filled with boiling water.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Steam for approximately 30 minutes.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from heat and pour the couscous back into the wide bowl. Pour water over the couscous and break apart any lumps.",
+      "time_minutes": 10,
+      "tips": "Use a whisk or fork if too hot to touch."
+    },
+    {
+      "step": 7,
+      "instruction": "Return to the steamer and steam again until steam rises clearly through the grains.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Remove from heat, pour a little oil over the couscous, fluff it one last time, and transfer to a serving bowl.",
+      "time_minutes": 5,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/026_couscous/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "side-dish",
+    "shabbat",
+    "vegan"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "Seksu / Kesksu (Berber/Amazigh)",
+    "meaning": "Well rolled, rounded, or formed",
+    "confidence": "confirmed",
+    "notes": "Culinary historians (including Charles Perry and Clifford Wright) confirm the Berber origin, predating the Arab invasion of the Maghreb. The 13th-century Andalusian cookbook 'Fadalat al-Khiwan' confirms its established presence in the region. In Tunisian Judeo-Arabic, it is pronounced 'Kuskusi'."
+  },
+  "alternative_names": [
+    {
+      "name": "Kuskusi",
+      "language": "tunisian_arabic",
+      "notes": "The standard pronunciation in Tunisia and Libya (كسكسي)."
+    },
+    {
+      "name": "Ta'am",
+      "language": "moroccan_arabic",
+      "notes": "Literally means 'food' or 'sustenance'; used in Algeria and Morocco to denote couscous as the staple meal."
+    },
+    {
+      "name": "Seksu",
+      "language": "other",
+      "notes": "The original Kabyle/Berber pronunciation."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Moghrabieh (Maftoul)",
+      "culture": "Levantine (Lebanon/Palestine)",
+      "similarity": "Wheat-based granules steamed and rolled.",
+      "key_difference": "Grains are much larger (pearl size) and often coated with flour rather than pure semolina."
+    },
+    {
+      "name": "Berkoukes (Aich)",
+      "culture": "Maghrebi (Tunisia/Algeria)",
+      "similarity": "Hand-rolled semolina grains.",
+      "key_difference": "Grains are significantly larger than couscous and usually cooked in a soup/sauce rather than steamed over broth."
+    },
+    {
+      "name": "Fregola Sarda",
+      "culture": "Italian (Sardinia)",
+      "similarity": "Small rolled semolina pasta.",
+      "key_difference": "Toasted in an oven (giving a nutty flavor) and boiled like pasta rather than steamed."
+    },
+    {
+      "name": "Dambou",
+      "culture": "West African (Niger/Benin)",
+      "similarity": "Steamed granules made from cereals/grains.",
+      "key_difference": "Made from rice flour, millet, or corn rather than wheat semolina; often mixed with moringa."
+    }
+  ],
+  "intro_paragraph": "Homemade Couscous—derived from the Berber *seksu* for well-rolled—is the undisputed cornerstone of Djerban Jewish cuisine. Unlike instant versions, this traditional method involves hydrating, hand-rolling, and double-steaming raw semolina to achieve a light, fluffy texture. It is prepared every Friday to accompany a hearty meat and vegetable soup for Shabbat lunch."
+}

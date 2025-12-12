@@ -1,0 +1,408 @@
+{
+  "id": "soy_shawarma",
+  "slug": "soy-shawarma",
+  "source_file": "data/safed_recipes/soy_shawarma.json",
+  "name": "Soy Shawarma",
+  "name_hebrew": "שווארמה סויה",
+  "name_origin": "The term 'Shawarma' (שווארמה) is an Arabized corruption of the Ottoman Turkish word 'çevirme' (pronounced che-vir-meh), which means 'turning' or 'rotating,' referring to the vertical rotisserie cooking method. The suffix 'Soya' (סויה) is a Modern Hebrew loanword (ultimately from Japanese 'shoyu' via Dutch/English) indicating the vegetarian protein base. While the dish appears in a Djerban context here, the name and concept are Modern Israeli adaptations of Levantine street food, not traditional North African Jewish cuisine.",
+  "description": "A vegetarian adaptation of the classic street food using textured soy protein. The soy strips are first rehydrated in a deeply spiced vegetable broth to absorb flavor, then pan-seared with onions and finished with tangy amba sauce.",
+  "cultural_context": "While traditional Shawarma is meat-based, this recipe reflects modern Israeli and Jewish adaptations using traditional spice blends like Ras el Hanout and Amba (pickled mango sauce) to maintain authentic flavor profiles in a pareve/vegan dish.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Naturally vegan recipe.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 40,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy_strips",
+      "name": "Dried soy strips (TVP)",
+      "amount": 200,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Textured Vegetable Protein strips or curls",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_stock",
+      "name": "Vegetable stock",
+      "amount": 1.5,
+      "unit": "L",
+      "preparation": "boiling",
+      "notes": "Or water with soup powder",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1500,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 50,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 6.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "size": "large",
+      "preparation": "sliced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "shawarma_spice_mix",
+      "name": "Shawarma spice mix",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Divided use",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 14,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ras_el_hanout",
+      "name": "Ras el Hanout",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Divided use",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for broth",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for broth",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cumin",
+      "name": "Cumin",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "amba_sauce",
+      "name": "Amba sauce",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Pickled mango sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Bring the vegetable stock to a boil in a large pot.",
+      "time_minutes": 5,
+      "tips": "If you don't have fresh stock, water with vegetable bouillon powder works well."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the dried soy strips to the boiling stock along with the first batch of spices: half the shawarma spice, salt, white pepper, garlic powder, and half the Ras el Hanout.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Cook the strips in the spiced broth for about 20 minutes until fully rehydrated and tender. Drain well.",
+      "time_minutes": 20,
+      "tips": "Squeeze out excess liquid from the strips after draining for better texture when frying."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat the oil in a frying pan or skillet. Add the sliced onion and fry until golden.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the drained soy strips to the pan. Fry until they begin to brown and crisp slightly.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Season the frying mixture with the remaining shawarma spice, cumin, and the rest of the Ras el Hanout.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Just before removing from heat, stir in the Amba sauce for a tangy finish.",
+      "time_minutes": 1,
+      "tips": "Amba is potent; add gradually to taste."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/080_shawarma/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "vegetarian",
+    "vegan",
+    "middle-eastern",
+    "israeli",
+    "main-dish",
+    "pareve"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "turkish",
+    "root_word": "çevirmek (Turkish verb)",
+    "meaning": "Turning/Rotating (referring to the spit) + Soy",
+    "confidence": "confirmed",
+    "notes": "Standard culinary etymology. The Turkish 'çevirme' became the Arabic 'shawarma' (changing the 'ch' to 'sh'). It is important to note that this is a modern 'pareve' (neutral) adaptation, likely created to allow the consumption of a shawarma-style dish within a dairy meal or for vegetarians, rather than a historical Djerban dish."
+  },
+  "alternative_names": [
+    {
+      "name": "Shawarma Tiv'onit",
+      "language": "hebrew",
+      "notes": "Means 'Vegan Shawarma'"
+    },
+    {
+      "name": "Chawarma Végétarienne",
+      "language": "french",
+      "notes": "Common nomenclature in modern Tunisia and France"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Döner Kebab",
+      "culture": "Turkish",
+      "similarity": "The original meat-based dish cooked on a vertical rotisserie.",
+      "key_difference": "Made with lamb or beef; the 'soy' version is pan-seared rather than roasted on a spit."
+    },
+    {
+      "name": "Gyros",
+      "culture": "Greek",
+      "similarity": "Vertical rotisserie meat dish derived from the same Ottoman tradition.",
+      "key_difference": "Often made with pork or chicken and served with tzatziki (yogurt), which is forbidden in kosher meat meals (though permissible with this soy version)."
+    },
+    {
+      "name": "Shawarma",
+      "culture": "Levantine / North African",
+      "similarity": "The meat-based street food this dish emulates.",
+      "key_difference": "Uses layers of fat and meat (lamb, turkey, chicken) rather than textured vegetable protein."
+    }
+  ],
+  "intro_paragraph": "Soy Shawarma takes its name from the Turkish *çevirme*, meaning \"turning,\" but replaces rotisserie meat with textured soy protein for a modern twist. Rehydrated in spiced broth and pan-seared with onions, the strips are finished with tangy amba. This pareve dish uses traditional seasoning to capture the savory essence of street food without the meat."
+}

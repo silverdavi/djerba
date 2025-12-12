@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "This is a direct translation (calque) and transliteration from American English into Modern Hebrew. The word 'Fudge' (פאדג׳) is a loanword from English, as there is no traditional Judeo-Arabic or North African term for this specific confection. 'Ugat' (עוגת) is the construct state of the Hebrew word for cake, and 'Hama' (חמה) means hot. This indicates the dish is a modern addition to the culinary repertoire, likely introduced via American or Israeli cultural influence rather than traditional Djerban heritage.",
+    "language_source": "other",
+    "root_word": "English 'Fudge' (originating late 19th century US)",
+    "meaning": "Hot Fudge Cake",
+    "confidence": "confirmed",
+    "sources_notes": "The use of the transliterated English word 'Fudge' in Hebrew confirms this is not a traditional Maghrebi dish. Traditional Tunisian chocolate desserts would typically use French terminology (like 'fondant' or 'moelleux') or Arabic descriptive terms."
+  },
+  "alternative_names": [
+    {
+      "name": "Chocolate Cobbler",
+      "language": "English (American South)",
+      "notes": "Refers to the same technique where hot water is poured over batter to create a sauce."
+    },
+    {
+      "name": "Pudding Chômeur",
+      "language": "French (Quebecois)",
+      "notes": "A similar concept (cake with sauce underneath), though usually maple/caramel based, showing the Western lineage of this style."
+    },
+    {
+      "name": "Moelleux au Chocolat",
+      "language": "French",
+      "notes": "While technically different (a lava cake vs. a pudding cake), this is the closest culinary reference point in Francophone Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Coulant / Mi-cuit au chocolat",
+      "culture": "French",
+      "similarity": "Both feature a cake exterior with a liquid chocolate interior.",
+      "key_difference": "The French version relies on underbaking the center or inserting a ganache frozen core; the Pudding Cake relies on a chemical reaction with boiling water poured over batter to separate layers."
+    },
+    {
+      "name": "Khobzet Chocola / Gâteau au Chocolat",
+      "culture": "Tunisian (Modern)",
+      "similarity": "Chocolate cake served in Tunisian households.",
+      "key_difference": "Traditional Tunisian home-style chocolate cakes are usually dense sponges, often soaked in syrup or glazed, rather than self-saucing."
+    },
+    {
+      "name": "Chocolate Sponge Pudding",
+      "culture": "British",
+      "similarity": "Hot chocolate dessert served with sauce.",
+      "key_difference": "Often steamed rather than baked, and the sauce is usually poured over after cooking rather than forming during baking."
+    }
+  ]
+}

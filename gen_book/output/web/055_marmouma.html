@@ -7,7 +7,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -103,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -628,12 +634,35 @@ h2 {
 /* Title Page */
 .page--title {
   background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
 }
 
 .title-page-inner {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .title-page-content {
@@ -681,7 +710,7 @@ h2 {
 }
 
 .book-subtitle {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.7rem;
   color: var(--muted);
   margin-bottom: 0.04in;
@@ -710,14 +739,14 @@ h2 {
 }
 
 .family-line {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.95rem;
   color: var(--ink);
   margin-bottom: 0.03in;
 }
 
 .family-origin {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.03em;
@@ -748,7 +777,7 @@ h2 {
 }
 
 .copyright-text {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.85rem;
   color: var(--ink);
   margin-bottom: 0.1in;
@@ -768,7 +797,7 @@ h2 {
 }
 
 .copyright-note {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.72rem;
   color: var(--muted);
   font-style: italic;
@@ -828,12 +857,12 @@ h2 {
 }
 
 .intro-text-en {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   text-align: justify;
 }
 
 .intro-text-es {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   text-align: justify;
 }
 
@@ -857,14 +886,14 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 1) -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 41) -->
   <section class="page">
     <div class="page-inner">
 
       <div class="title-grid">
         <div class="title-word lang-es title-medium"><span>Marmouma</span></div>
         <div class="title-word lang-he title-medium"><span>מרמומה</span></div>
-        <div class="chapter-number"><span>1</span></div>
+        <div class="chapter-number"><span>41</span></div>
         <div class="title-word lang-en title-medium"><span>Marmouma</span></div>
         <div class="title-word lang-ar title-medium"><span>المرمومة</span></div>
       </div>
@@ -924,29 +953,29 @@ h2 {
     <div class="page-inner">
       <div class="corner-decorations">
         <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/hot_peppers_chili.png" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
              alt="" 
-             style="left: 55.0%; top: 6.0%; transform: rotate(16deg) skewX(-2deg) skewY(-2deg) scale(0.8580336431256159);">
+             style="left: 55.0%; top: 6.0%; transform: rotate(4deg) skewX(-5deg) skewY(3deg) scale(1.0719378652749547);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/olives.png" 
              alt="" 
-             style="left: 73.0%; top: 14.0%; transform: rotate(16deg) skewX(4deg) skewY(3deg) scale(0.9689566770985697);">
+             style="left: 73.0%; top: 14.0%; transform: rotate(-2deg) skewX(0deg) skewY(3deg) scale(0.8681667918009581);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/hot_peppers_chili.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-18deg) skewX(-2deg) skewY(-3deg) scale(1.0186749247720497);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tomato_fresh_paste.png" 
              alt="" 
-             style="left: 88.0%; top: 4.0%; transform: rotate(-2deg) skewX(-4deg) skewY(4deg) scale(1.1108845311929703);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
-             alt="" 
-             style="left: 4.0%; top: 72.0%; transform: rotate(-9deg) skewX(-6deg) skewY(-3deg) scale(0.9719568737184249);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
-             alt="" 
-             style="left: 20.0%; top: 82.0%; transform: rotate(5deg) skewX(-2deg) skewY(2deg) scale(0.8588034474030791);">
+             style="left: 4.0%; top: 72.0%; transform: rotate(-11deg) skewX(2deg) skewY(-2deg) scale(0.8837149990246866);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bell_peppers_red_green.png" 
              alt="" 
-             style="left: 8.0%; top: 92.0%; transform: rotate(-6deg) skewX(-5deg) skewY(3deg) scale(0.966134342972946);">
+             style="left: 20.0%; top: 82.0%; transform: rotate(-10deg) skewX(-2deg) skewY(-3deg) scale(0.9803685140027086);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/garlic_fresh_powder.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(3deg) skewX(3deg) skewY(-4deg) scale(1.068673115121814);">
       </div>
       <div class="two-col">
         <div class="column lang-es" style="font-size: 0.748rem; line-height: 1.26;">
@@ -1008,29 +1037,29 @@ h2 {
     <div class="page-inner">
       <div class="corner-decorations">
         <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/hot_peppers_chili.png" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
              alt="" 
-             style="left: 55.0%; top: 6.0%; transform: rotate(16deg) skewX(-2deg) skewY(-2deg) scale(0.8580336431256159);">
+             style="left: 55.0%; top: 6.0%; transform: rotate(4deg) skewX(-5deg) skewY(3deg) scale(1.0719378652749547);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/olives.png" 
              alt="" 
-             style="left: 73.0%; top: 14.0%; transform: rotate(16deg) skewX(4deg) skewY(3deg) scale(0.9689566770985697);">
+             style="left: 73.0%; top: 14.0%; transform: rotate(-2deg) skewX(0deg) skewY(3deg) scale(0.8681667918009581);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/hot_peppers_chili.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-18deg) skewX(-2deg) skewY(-3deg) scale(1.0186749247720497);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tomato_fresh_paste.png" 
              alt="" 
-             style="left: 88.0%; top: 4.0%; transform: rotate(-2deg) skewX(-4deg) skewY(4deg) scale(1.1108845311929703);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
-             alt="" 
-             style="left: 4.0%; top: 72.0%; transform: rotate(-9deg) skewX(-6deg) skewY(-3deg) scale(0.9719568737184249);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
-             alt="" 
-             style="left: 20.0%; top: 82.0%; transform: rotate(5deg) skewX(-2deg) skewY(2deg) scale(0.8588034474030791);">
+             style="left: 4.0%; top: 72.0%; transform: rotate(-11deg) skewX(2deg) skewY(-2deg) scale(0.8837149990246866);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bell_peppers_red_green.png" 
              alt="" 
-             style="left: 8.0%; top: 92.0%; transform: rotate(-6deg) skewX(-5deg) skewY(3deg) scale(0.966134342972946);">
+             style="left: 20.0%; top: 82.0%; transform: rotate(-10deg) skewX(-2deg) skewY(-3deg) scale(0.9803685140027086);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/garlic_fresh_powder.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(3deg) skewX(3deg) skewY(-4deg) scale(1.068673115121814);">
       </div>
       <div class="two-col">
         <div class="column lang-en" style="font-size: 0.762rem; line-height: 1.27;">

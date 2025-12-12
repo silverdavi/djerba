@@ -1,0 +1,98 @@
+{
+  "id": "chocolate_balls",
+  "image": "images/current/020chocolateballs/dish.png",
+  "meta": {
+    "servings": "20-25 balls",
+    "prep_time": "20 min",
+    "cook_time": "5 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "כדורי שוקולד",
+    "es": "Bolas de Chocolate",
+    "ar": "كعابر شكلاطة",
+    "en": "Chocolate Balls"
+  },
+  "description": {
+    "he": "כדורי שוקולד הם קינוח אהוב ללא אפייה שעבר מהקיבוץ הישראלי לשולחן הג'רבאי המודרני. ביסקוויטים מרוסקים משולבים עם תערובת קקאו עשירה, מגולגלים ידנית ומצופים בקוקוס טחון או סוכריות צבעוניות. כדורים מתוקים אלה הם כיום חובה בימי הולדת ובחגיגות שבת.",
+    "es": "Los Kadurei Shokolad, literalmente bolas de chocolate en hebreo, son un postre sin horno muy querido que ha pasado del kibutz israelí a la mesa moderna de Djerba. Las galletas trituradas se combinan con una rica mezcla de cacao, se enrollan a mano y se cubren con coco rallado o granas. Estas esferas dulces son ahora obligatorias en cumpleaños y celebraciones de Shabat.",
+    "ar": "كادوري شوكولاد، يعني كعابر الشكلاطة بالعبرية، هي ديسار محبوب ما يستحقش كوشة، وتعدى من الكيبوتس الإسرائيلي للطاولة الجربية العصرية. نخلطوا البشكوطو المرحي مع خليط كاكاو بنين، ونكعبراهم باليد ونرمدوهم في جوز الهند ولا الحلوى الملونة. الكعابر الحلوة هاذي ولات حاجة لازمة في أعياد الميلاد وسهريات السبت.",
+    "en": "Kadurei Shokolad—literally \"chocolate balls\" in Hebrew—are a beloved no-bake dessert that has crossed from the Israeli kibbutz to the modern Djerban table. Crushed biscuits are combined with a rich cocoa binder, hand-rolled, and coated in desiccated coconut or sprinkles. These sweet spheres are now a mandatory feature at birthdays and Shabbat celebrations."
+  },
+  "ingredients": {
+    "he": [
+      "300 גרם ביסקוויטים פתי בר, מפוררים",
+      "30 גרם שוקולד מריר, שבור לקוביות",
+      "50 גרם חמאה",
+      "23 גרם אבקת קקאו",
+      "50 גרם סוכר (גדוש)",
+      "120 מ\"ל חלב",
+      "קוקוס טחון לציפוי"
+    ],
+    "es": [
+      "300 g de galletas Petit Beurre, desmenuzadas",
+      "30 g de chocolate negro, troceado",
+      "50 g de mantequilla",
+      "23 g de cacao en polvo",
+      "50 g de azúcar (colmadas)",
+      "120 ml de leche",
+      "Coco rallado para cubrir"
+    ],
+    "ar": [
+      "3 كيسان بشكوطو (پتي بور)، مرحي",
+      "2 مغارف شكلاطة كحلة، مقصوصة طروف",
+      "3.5 مغارف زبدة",
+      "3 مغارف كاكاو",
+      "ربع كاس سكر (مغارف معبيين)",
+      "نص كاس حليب",
+      "جوز هند للزينة"
+    ],
+    "en": [
+      "3 cups Petit Beurre biscuits, crumbled",
+      "2 tbsp dark chocolate, broken into cubes",
+      "3.5 tbsp butter",
+      "3 tbsp cocoa powder",
+      "1/4 cup sugar (heaped tablespoons)",
+      "1/2 cup milk",
+      "Desiccated coconut for coating"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הניחו את החמאה וקוביות השוקולד בקערת זכוכית והמיסו במיקרוגל למספר שניות. הוציאו וערבבו עד לקבלת תערובת חלקה.",
+      "בכוס נפרדת, ערבבו את אבקת הקקאו והסוכר עם מספר כפות מים רותחים להמסה, ואז הוסיפו את שאר החלב (או המים) עד לקבלת חצי כוס נוזל סה\"כ.",
+      "שפכו את תערובת הקקאו הנוזלית לקערה עם השוקולד והחמאה המומסים. ערבבו היטב.",
+      "הוסיפו את הביסקוויטים המפוררים לקערה וערבבו היטב עד לאיחוד.",
+      "בידיים מעט רטובות, צרו מהתערובת כדורים קטנים.",
+      "גלגלו כל כדור בצלחת קטנה מלאה בקוקוס לציפוי.",
+      "עטפו או הניחו בכלי אטום וקררו במקרר למשך 3 שעות לפחות לפני ההגשה כדי לאפשר להם להתייצב."
+    ],
+    "es": [
+      "Coloque la mantequilla y los cubos de chocolate en un bol de vidrio y derrita en el microondas por unos segundos. Retire y revuelva hasta obtener una mezcla suave.",
+      "En una taza aparte, mezcle el cacao en polvo y el azúcar con unas cucharadas de agua hirviendo para disolver, luego añada el resto de la leche (o agua) hasta obtener media taza de líquido total.",
+      "Vierta la mezcla líquida de cacao en el bol con el chocolate y la mantequilla derretidos. Mezcle bien.",
+      "Añada las galletas desmenuzadas al bol y mezcle bien hasta que se integren.",
+      "Con las manos ligeramente mojadas, forme pequeñas bolas con la mezcla.",
+      "Pase cada bola por un plato pequeño lleno de coco para cubrirla.",
+      "Envuelva o coloque en un recipiente hermético y refrigere durante al menos 3 horas antes de servir para que se endurezcan."
+    ],
+    "ar": [
+      "حط الزبدة وطروف الشكلاطة في صحفة بلار وذوبهم في الميكرو-أوند لثواني. خرجهم وحركهم لين يولي الخليط أرطب.",
+      "في كاس آخر، خلط الكاكاو والسكر مع شوية مغارف ماء سخون يغلي باش يذوبوا، ومبعد زيد باقي الحليب (ولا الماء) باش تتحصل على نص كاس سائل في المجموع.",
+      "صب خليط الكاكاو السائل في الصحفة مع الشكلاطة والزبدة الذايبين. خلط مليح.",
+      "زيد البشكوطو المرحي للصحفة وخلط مليح لين يتلم الخليط.",
+      "بيديّات مبلولة شوية، كعبر الخليط كعابر صغار.",
+      "رمد كل كعبورة في صحين فيه جوز الهند باش تتغلف.",
+      "غطيهم ولا حطهم في حكة مسكرة وخليهم يبردوا في الفريجيدير 3 سوايع عالأقل قبل ما تقدمهم باش يشدوا رواحهم."
+    ],
+    "en": [
+      "Place the butter and chocolate cubes in a glass bowl and melt in the microwave for a few seconds. Remove and stir until a smooth mixture is obtained.",
+      "In a separate cup, mix the cocoa powder and sugar with a few tablespoons of boiling water to dissolve, then add the rest of the milk (or water) to reach half a cup (120ml) total liquid.",
+      "Pour the liquid cocoa mixture into the bowl with the melted chocolate and butter. Mix well.",
+      "Add the crumbled biscuits to the bowl and mix thoroughly until combined.",
+      "With slightly wet hands, form the mixture into small balls.",
+      "Roll each ball in a small plate filled with coconut to coat.",
+      "Wrap or place in a sealed container and refrigerate for at least 3 hours before serving to allow them to set."
+    ]
+  }
+}

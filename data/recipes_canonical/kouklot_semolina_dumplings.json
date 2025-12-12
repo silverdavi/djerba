@@ -1,0 +1,325 @@
+{
+  "id": "kouklot_semolina_dumplings",
+  "slug": "kouklot-semolina-dumplings",
+  "source_file": "data/safed_recipes/12_קוקלות.json",
+  "name": "Kouklot (Semolina Dumplings)",
+  "name_hebrew": "קוקלות",
+  "name_origin": "The term 'Kouklot' (Hebrew plural of 'Koukla') is specific to the Tripolitan (Libyan) and Djerban Jewish communities. The most linguistically probable origin is the Turkish word 'Kukla' (meaning 'doll' or 'puppet'), introduced during the centuries of Ottoman rule in Tripoli and Tunisia. In culinary nomenclature, it is common to name small, hand-shaped dough items after small figures or body parts (similar to 'orecchiette' or 'little ears'). Alternatively, some linguists suggest a connection to the Latin 'Cuculla' (covering/hood) via Italian influence, originally referring to the casing of the stuffed intestine (Osban) from which this dish is derived, though the Turkish phonetic match is exact. (Confidence: likely)",
+  "description": "Dense, savory semolina dumplings that are traditionally cooked inside the Shabbat Hamin (stew). They absorb the rich flavors of the meat and sauce, becoming a beloved component of the meal.",
+  "cultural_context": "A staple of Djerban and Tunisian Jewish cuisine, specifically prepared for the Shabbat lunch Hamin (Tfina).",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Requires eggs for binding; difficult to adapt without changing texture significantly.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 120,
+    "total_time_minutes": 135,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "name": "Egg",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "Large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 15,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Plus more for greasing hands",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 15,
+      "unit": "ml",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": "ground",
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4.8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "semolina",
+      "name": "Semolina",
+      "amount": 150,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Amount is approximate; add until dough is kneadable",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.9,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a deep bowl, place the egg.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the oil, water, baking powder, salt, pepper, and paprika to the egg and mix.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually add the semolina while mixing, continuing until the mixture forms a dough that is firm enough to knead.",
+      "time_minutes": 5,
+      "tips": "The dough should be pliable but not too sticky."
+    },
+    {
+      "step": 4,
+      "instruction": "Form the dough into round balls (dumplings).",
+      "time_minutes": 5,
+      "tips": "Wet your hands slightly to prevent sticking."
+    },
+    {
+      "step": 5,
+      "instruction": "Place the dumplings directly into the Hamin (stew) pot to cook.",
+      "time_minutes": null,
+      "tips": "They are best when cooked slowly with the stew, often overnight."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/048_kuklot/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "tunisian",
+    "djerban",
+    "shabbat",
+    "hamin",
+    "dumplings",
+    "side-dish"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "turkish",
+    "root_word": "Kukla",
+    "meaning": "Doll or Puppet",
+    "confidence": "likely",
+    "notes": "The Ottoman Empire ruled the Maghreb (including Tripoli and Tunis) for centuries, leaving several loan words in the local dialects (Derja). The dish is essentially the filling of 'Osban' (stuffed intestine) cooked as a standalone dumpling. The anthropomorphic naming convention ('doll') for dumplings is found in Greek and Turkish food history."
+  },
+  "alternative_names": [
+    {
+      "name": "Koukla",
+      "language": "judeo_arabic",
+      "notes": "The singular form used in Tripolitan/Tunisian Judeo-Arabic."
+    },
+    {
+      "name": "Boulet",
+      "language": "french",
+      "notes": "Used by francophone Tunisian Jews, simply meaning 'ball' or 'meatball'."
+    },
+    {
+      "name": "Hrai'me di Koukla",
+      "language": "judeo_arabic",
+      "notes": "Refers to the dumplings cooked in a spicy red sauce rather than the Hamin."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Osban / Usban",
+      "culture": "Maghrebi (Libyan/Tunisian)",
+      "similarity": "The filling of Osban (semolina, herbs, suet, liver) is nearly identical to the Koukla dough.",
+      "key_difference": "Osban is stuffed inside a sheep's intestine (casing), whereas Koukla is a casing-less dumpling."
+    },
+    {
+      "name": "Kibbeh",
+      "culture": "Levantine / Middle Eastern",
+      "similarity": "Both are savory dumplings made from a grain (semolina vs. bulgur) mixed with meat and fat.",
+      "key_difference": "Kibbeh uses bulgur wheat and is usually fried or baked, whereas Koukla uses semolina and is boiled/stewed."
+    },
+    {
+      "name": "Gond",
+      "culture": "Persian Jewish",
+      "similarity": "A large spherical dumpling cooked in chicken soup/stew.",
+      "key_difference": "Gond is made from chickpea flour (besan) and ground meat, not semolina."
+    },
+    {
+      "name": "Matzah Ball (Kneidlach)",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "A starch-based dumpling cooked in soup/stew using fat (schmaltz) as a binder.",
+      "key_difference": "Uses matzah meal and eggs; Koukla uses semolina, suet, and heavy garlic/spices."
+    }
+  ],
+  "intro_paragraph": "Kouklot are dense, savory semolina dumplings traditionally cooked slowly inside the Shabbat Hamin. Likely deriving their name from the Turkish word *kukla*, meaning \"doll,\" these hand-shaped morsels reflect the region's Ottoman history. As they simmer overnight, they absorb the rich flavors of the surrounding stew, becoming a beloved highlight of the Saturday meal."
+}

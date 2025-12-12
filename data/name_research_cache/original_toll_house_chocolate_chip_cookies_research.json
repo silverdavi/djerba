@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "This is a modern American dish name, not of North African or Judeo-Arabic origin. 'Toll House' refers to the Toll House Inn in Whitman, Massachusetts, where Ruth Wakefield invented the cookie in the 1930s. The Hebrew word 'Ugiyot' (עוגיות) is the plural diminutive of 'Ugah' (cake/bread), derived from Biblical Hebrew (baked round loaf). The rest of the Hebrew name is a direct transliteration of the English 'Chocolate Chips'. Its presence in a Djerban cookbook represents modern culinary globalization rather than traditional heritage.",
+    "language_source": "other",
+    "root_word": "Dutch 'koekje' (cookie) / Nahuatl 'xocolātl' (chocolate)",
+    "meaning": "Little cakes with chocolate pieces (Toll House style)",
+    "confidence": "confirmed",
+    "sources_notes": "Historical record of Ruth Wakefield (1938). This is an outlier in a North African context, likely added to a modern edition of the cookbook for variety."
+  },
+  "alternative_names": [
+    {
+      "name": "Ugiyot Shokolad Chips",
+      "language": "hebrew",
+      "notes": "Modern Israeli Hebrew pronunciation"
+    },
+    {
+      "name": "Biscuits aux pépites de chocolat",
+      "language": "french",
+      "notes": "Common name used in Francophone Tunisia for this imported style"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ghraiba / Ghribia",
+      "culture": "Tunisian / Maghrebi",
+      "similarity": "Both are short, buttery tea-time cookies.",
+      "key_difference": "Ghraiba uses chickpea or wheat flour and oil/butter for a sandy texture, traditionally without chocolate."
+    },
+    {
+      "name": "Croquant / Krokan",
+      "culture": "Tunisian Jewish / French",
+      "similarity": "Crispy baked sweet snack often containing nuts.",
+      "key_difference": "Croquants are hard, twice-baked almond biscuits (like biscotti), lacking the chewy center and butter content of American cookies."
+    },
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "Sweet baked good often containing chocolate chunks or nuts.",
+      "key_difference": "Boulou is a dry, crunchy roll/biscuit (closer to mandelbrot), while Toll House cookies are rich, buttery drop cookies."
+    }
+  ]
+}

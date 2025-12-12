@@ -1,0 +1,301 @@
+{
+  "id": "baked_potato_levivot",
+  "slug": "baked-potato-levivot",
+  "source_file": "data/safed_recipes/17_לביבות_תפוא.json",
+  "name": "Baked Potato Levivot (Kugel)",
+  "name_hebrew": "לביבות תפו\"א",
+  "name_origin": "The provided name 'Levivot' (לביבות) is Biblical Hebrew, derived from the root L-B-B (ל-ב-ב), associated with the heart ('lev') or the action of kneading/mixing. In 2 Samuel 13:6, Tamar makes 'levivot' for Amnon. In Modern Hebrew, the term was adopted to refer to latkes or fritters. However, the dish described—a baked potato casserole from Djerba—is historically known in Judeo-Arabic as 'Ma'akouda' (معقودة) or 'Ma'akouda fil-Koucha' (baked Ma'akouda). The use of 'Levivot' here represents a Hebraization of the traditional dish, likely occurring after immigration to Israel, despite the cooking method (baking) differing from the standard definition of levivot (frying).",
+  "description": "A simple, savory baked potato casserole. Unlike traditional fried latkes, this mixture is spread into a pan and baked until golden brown, resulting in a dish similar to a Potato Kugel or a baked Ma'akouda.",
+  "cultural_context": "While 'Levivot' usually implies Hanukkah fried pancakes, this baked version is a common everyday side dish in Israeli and North African Jewish households, offering a lighter alternative to frying.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with flax eggs or a commercial egg replacer; results may vary in texture.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 60,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red_potato",
+      "name": "Red potatoes",
+      "amount": 4,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "grated",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 4,
+      "unit": "unit",
+      "size": "large",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 0.25,
+      "unit": "cup",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 31,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "approx. 5g",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 15,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "plus extra for greasing the pan",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 180°C (350°F).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Grate the potatoes. Squeeze out excess liquid from the grated potatoes (straining is crucial for texture).",
+      "time_minutes": 10,
+      "tips": "Use a clean kitchen towel or cheesecloth to wring out the liquid."
+    },
+    {
+      "step": 3,
+      "instruction": "In a large bowl, mix the grated potatoes with the eggs, flour, baking powder, oil, salt, and black pepper until well combined.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Grease a baking dish or pan generously.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Spread the mixture evenly into the greased pan.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for approximately 40 minutes, or until the top is browned and crispy.",
+      "time_minutes": 40,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/076_assida/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "side-dish",
+    "vegetarian",
+    "potato",
+    "baked",
+    "casserole"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "L-B-B (Hebrew) / 'A-Q-D (Arabic equivalent)",
+    "meaning": "Levivot: Cakes/Heart-shaped cakes; Ma'akouda: The knotted/bound one",
+    "confidence": "confirmed",
+    "notes": "While the Hebrew name is generic, the dish description identifies it as the Djerban/Tunisian 'Ma'akouda'. The Arabic root 'A-Q-D (to knot/tie/bind) describes how the eggs bind the mashed potato mixture together. In Tunisia, this dish is often baked in a communal oven (Koucha) rather than fried individually."
+  },
+  "alternative_names": [
+    {
+      "name": "Ma'akouda / Maâkouda",
+      "language": "judeo_arabic",
+      "notes": "The authentic North African name. Literally 'The Bound One' (referring to eggs binding the potato)."
+    },
+    {
+      "name": "Tajine Batata",
+      "language": "tunisian_arabic",
+      "notes": "In Tunisia, 'Tajine' refers to a baked frittata/quiche, not a stew. This specific version is a potato tajine."
+    },
+    {
+      "name": "Mharta",
+      "language": "judeo_arabic",
+      "notes": "A specific Djerban/Tunisian term sometimes used for a mashed vegetable/egg dish, though Ma'akouda is more common for potato."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tunisian Tajine",
+      "culture": "Tunisian (General)",
+      "similarity": "A baked egg and vegetable casserole (frittata style).",
+      "key_difference": "Often contains meat (chicken/lamb) and cheese, whereas the Jewish potato version is often parve or simple."
+    },
+    {
+      "name": "Tortilla de Patatas",
+      "culture": "Spanish",
+      "similarity": "Thick egg and potato omelet.",
+      "key_difference": "Cooked in a skillet on the stovetop rather than baked in an oven/casserole dish."
+    },
+    {
+      "name": "Potato Kugel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Baked potato casserole.",
+      "key_difference": "Uses grated raw potatoes and starch, whereas Ma'akouda/Levivot typically uses boiled, mashed potatoes and turmeric."
+    },
+    {
+      "name": "Patatnik",
+      "culture": "Bulgarian",
+      "similarity": "Potato and egg based baked dish.",
+      "key_difference": "Often includes sirene cheese and mint; uses grated potatoes."
+    }
+  ],
+  "intro_paragraph": "Baked Potato Levivot, historically called *Ma'akouda* in Judeo-Arabic, transforms the concept of fried fritters into a savory casserole. Deriving its Hebrew name from the root for \"heart,\" this comforting dish features seasoned mashed potatoes baked until golden. It serves as a lighter, everyday staple in Djerban kitchens, offering a simple alternative to oil-heavy Hanukkah latkes."
+}

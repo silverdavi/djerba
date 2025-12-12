@@ -1,0 +1,48 @@
+{
+  "name_origin": {
+    "etymology": "The name is descriptive Modern Hebrew. 'Kadurei' (כדורי) is the construct state (smichut) of 'Kadurim' (balls), derived from the root K-D-R denoting roundness. 'Shokolad' is a Modern Hebrew loanword adopted from European languages (German 'Schokolade', Yiddish/Russian 'shokolad'), ultimately derived from the Nahuatl 'xocolātl'. This dish is not traditional to North African Jewish cuisine but is a ubiquitous staple of the modern Israeli kitchen (the 'Kibbutz childhood' dessert) that has been adopted by all Jewish communities in Israel, including Djerbans, often replacing traditional labor-intensive sweets.",
+    "language_source": "hebrew",
+    "root_word": "Kadur (כדור)",
+    "meaning": "Chocolate Balls",
+    "confidence": "confirmed",
+    "sources_notes": "This is a modern culinary term. The dish's popularity in Israel is linked to the austerity period (Tzena) and the widespread availability of 'Petit Beurre' biscuits, influenced by European no-bake desserts like Swedish Chokladbollar or Danish Romkugler."
+  },
+  "alternative_names": [
+    {
+      "name": "Kadurim",
+      "language": "hebrew",
+      "notes": "Colloquial shortening used by Israeli children."
+    },
+    {
+      "name": "Boules au chocolat",
+      "language": "french",
+      "notes": "Likely name used by Francophone North African Jews when adopting this modern dessert."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chokladbollar",
+      "culture": "Swedish",
+      "similarity": "No-bake cocoa balls rolled in coconut.",
+      "key_difference": "Uses rolled oats as the base instead of crushed biscuits."
+    },
+    {
+      "name": "Salame di Cioccolato",
+      "culture": "Italian / Portuguese",
+      "similarity": "Identical ingredients (crushed tea biscuits, cocoa, butter/sugar).",
+      "key_difference": "Shaped into a sausage/log and sliced, rather than rolled into individual balls."
+    },
+    {
+      "name": "Brigadeiro",
+      "culture": "Brazilian",
+      "similarity": "Chocolate balls rolled in sprinkles.",
+      "key_difference": "Cooked mixture based on condensed milk, not a cold mixture of biscuits and cocoa."
+    },
+    {
+      "name": "Kaaber Ellouz",
+      "culture": "Tunisian",
+      "similarity": "Traditional sweet balls served at celebrations.",
+      "key_difference": "Made from almond paste (marzipan) and sugar, colored with food dye, containing no chocolate or biscuits."
+    }
+  ]
+}

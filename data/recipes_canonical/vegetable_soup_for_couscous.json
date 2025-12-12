@@ -1,0 +1,387 @@
+{
+  "id": "vegetable_soup_for_couscous",
+  "slug": "vegetable-soup-for-couscous",
+  "source_file": "data/safed_recipes/09_מרק_ירקות_לקוסקוס.json",
+  "name": "Vegetable Soup for Couscous",
+  "name_hebrew": "מרק ירקות לקוסקוס",
+  "name_origin": "While the provided name is Modern Hebrew ('Marak Yerakot'), the traditional Djerban Judeo-Arabic term for the liquid and vegetable stew served over couscous is 'Marga' (or 'Margat'). This derives from the Classical Arabic root 'm-r-q' (م-ر-ق), referring to broth or stock. In Tunisian cuisine, the technique described (sweating vegetables with spices before adding water) is known as the 'teklia' method, which forms the base of the 'Marga'. The Hebrew name is a literal translation used in Israel, but the dish's linguistic roots are firmly Maghrebi Arabic. (Confidence: likely)",
+  "description": "A rich, hearty vegetable and chicken soup designed to be ladled over steamed couscous. The vegetables are slowly sweated with spices before adding water, creating a deep, flavorful broth typical of North African cuisine.",
+  "cultural_context": "In Tunisian and Djerban tradition, this soup (often called 'Marak') is the centerpiece of the meal, providing both the sauce and the protein/vegetables to accompany the couscous grain.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Omit the chicken. The method of sweating the vegetables provides enough flavor for a robust vegan soup.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 75,
+    "total_time_minutes": 95,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "can use canola or olive oil",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "generous amount",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "sliced",
+      "notes": "large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pumpkin",
+      "name": "Pumpkin",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "cut into large chunks",
+      "notes": "or butternut squash",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "zucchini",
+      "name": "Zucchini",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "cut into large chunks",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chickpeas",
+      "name": "Chickpeas",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "soaked overnight or canned",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "green_beans",
+      "name": "Green beans",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "trimmed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Boiling water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "enough to cover ingredients",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken",
+      "name": "Chicken",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into pieces",
+      "notes": "drumsticks, thighs, or breast",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potato",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "peeled and quartered",
+      "notes": "medium size",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large soup pot, heat the oil and add the paprika (blooming the spice in the oil).",
+      "time_minutes": 2,
+      "tips": "Be careful not to burn the paprika."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the sliced onions, followed by the pumpkin, zucchini, chickpeas, and green beans.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add salt, cover the pot, and let the vegetables steam/sweat in their own juices on low-medium heat for about 30 minutes.",
+      "time_minutes": 30,
+      "tips": "This sweating process concentrates the flavors."
+    },
+    {
+      "step": 4,
+      "instruction": "Add boiling water to cover the vegetables and add the chicken pieces.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Bring to a boil, then reduce heat. Towards the end of the cooking time (when chicken is nearly done), add the potatoes.",
+      "time_minutes": 30,
+      "tips": "Adding potatoes later prevents them from falling apart."
+    },
+    {
+      "step": 6,
+      "instruction": "Simmer until the chicken is fully cooked and potatoes are tender.",
+      "time_minutes": 15,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/027_couscous_soup/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "soup",
+    "couscous",
+    "north-african",
+    "shabbat",
+    "meat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "M-R-Q (م-r-q)",
+    "meaning": "Broth, stew, or the liquid in which meat/vegetables are cooked",
+    "confidence": "likely",
+    "notes": "The Hebrew name provided is descriptive. Based on Djerban culinary tradition, the specific component is invariably called 'Marga' (often specified as 'Marga Hamra' for red/tomato or 'Marga Safra' for yellow/turmeric). The description of 'sweating' confirms the Tunisian 'teklia' base."
+  },
+  "alternative_names": [
+    {
+      "name": "Marga / Marqa",
+      "language": "tunisian_arabic",
+      "notes": "The generic term for the stew/sauce component of the couscous."
+    },
+    {
+      "name": "Bouillon",
+      "language": "french",
+      "notes": "Commonly used by North African Jews in France and post-colonial Tunisia to refer to the vegetable broth served with couscous."
+    },
+    {
+      "name": "Margat Khodra",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Vegetable Broth/Stew'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Couscous Bidaoui (Seven Vegetable Couscous)",
+      "culture": "Moroccan",
+      "similarity": "A vegetable-heavy broth served over couscous.",
+      "key_difference": "The Moroccan version is often sweeter (using raisins, cinnamon, and onions/tfaya) and uses a different spice profile (ginger/saffron) compared to the spicier, tomato-paste based Tunisian 'Marga'."
+    },
+    {
+      "name": "Tbikha",
+      "culture": "Tunisian / Algerian",
+      "similarity": "A vegetable stew.",
+      "key_difference": "Tbikha is usually thicker, eaten with bread, and not typically served as a 'soup' over couscous grains."
+    },
+    {
+      "name": "Pot-au-feu",
+      "culture": "French",
+      "similarity": "Boiled meat and vegetables in broth.",
+      "key_difference": "Lacks the complex spice blend (tabil, caraway, coriander) and the steaming of grain; served as a standalone soup/plate."
+    }
+  ],
+  "intro_paragraph": "Marga, the traditional Judeo-Arabic term for the rich stew served atop couscous, derives from the root for broth. Chicken and seasonal vegetables are slowly sweated with spices using the teklia method, creating a deep, flavorful stock. As the centerpiece of the Djerban table, it transforms steamed grains into a complete meal."
+}

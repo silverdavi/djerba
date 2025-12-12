@@ -1,0 +1,102 @@
+{
+  "id": "sourdoughbread_soly",
+  "image": "images/current/085sourdoughbread/dish.png",
+  "meta": {
+    "servings": "1 loaf",
+    "prep_time": "45 min",
+    "cook_time": "45 min",
+    "difficulty": "Intermediate"
+  },
+  "name": {
+    "he": "לחם מחמצת של סולי",
+    "es": "Pan de Masa Madre de Soly",
+    "ar": "خبز بالخميرة متاع سولي",
+    "en": "Soly's Sourdough Bread"
+  },
+  "description": {
+    "he": "לחם המחמצת של סולי מסתמך על תסיסה טבעית ליצירת כיכר כפרית ופריכה. המונח מחמצת מזכיר את המנהג הג'רבאי המסורתי של שמירת חמירה - חתיכת בצק ישן - להתפחת המנה הבאה. התפחה קרה וארוכה מפתחת את הטעם העמוק והחמצמץ שהופך את הלחם הזה למצרך יומיומי חיוני.",
+    "es": "El Pan de Masa Madre de Soly se basa en la fermentación natural para crear una hogaza rústica y crujiente. El término hebreo machmetzet se refiere a la levadura agria, recordando la práctica tradicional de Djerba de conservar la khmira (un trozo de masa vieja) para fermentar el siguiente lote. Una larga fermentación en frío desarrolla el sabor profundo y ácido que hace de este pan un elemento esencial diario.",
+    "ar": "خبز الخميرة متاع سولي يعتمد على التخمير الطبيعي باش يجي خبز عربي مقرمش. كلمة مخمצת بالعبرية تعني الخميرة الحامضة، وتفكرنا بالعادة الجربية القديمة متاع تخبية الخميرة - طرف عجين بايت - باش نطلعو بيه العجنة الجاية. التخمير البارد الطويل يخلي المطعم قاوي وبنين، وهكا علاش الخبز هذا لازم في الدار كل يوم.",
+    "en": "Soly's Sourdough Bread relies on natural fermentation to create a rustic, crusty loaf. The Hebrew term machmetzet refers to the sour leaven, recalling the traditional Djerban practice of preserving khmira - a piece of old dough - to rise the next batch. A long cold proof develops the deep, tangy flavor that makes this bread a daily essential."
+  },
+  "ingredients": {
+    "he": [
+      "300 מ\"ל מים, חמימים",
+      "50 גרם מחמצת, פעילה",
+      "500 גרם קמח, קמח לחם או רגיל",
+      "11 גרם מלח"
+    ],
+    "es": [
+      "300 ml de agua, tibia",
+      "50 g de masa madre, activa",
+      "500 g de harina, de fuerza o todo uso",
+      "11 g de sal"
+    ],
+    "ar": [
+      "1.25 كاس ماء، دافي",
+      "3.5 مغارف خميرة عربي، ناشطة",
+      "4 كيسان فرينة، فرينة خبز أو عادية",
+      "2 مغارف صغار ملح"
+    ],
+    "en": [
+      "1.25 cups water, warm",
+      "3.5 tbsp sourdough starter, active/fed",
+      "4 cups flour, bread flour or all-purpose",
+      "2 tsp salt"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה גדולה, מערבבים את המים החמימים והמחמצת יחד עד לאיחוד מלא.",
+      "מוסיפים את הקמח והמלח לתערובת הנוזלים. מערבבים ביד או בכף עד שנוצר בצק גס ולא נשאר קמח יבש.",
+      "מכסים את הקערה ומניחים בצד למנוחה של שעה אחת.",
+      "לשים את הבצק היטב עד שהוא כבר לא דביק. ניתן לעשות זאת במיקסר או על ידי קיפולים ידניים.",
+      "מכסים ומניחים למנוחה של 30 דקות.",
+      "מבצעים סדרת מתיחות וקיפולים: תופסים צד אחד של הבצק, מותחים אותו למעלה ומקפלים מעל המרכז. מסובבים את הקערה וחוזרים על הפעולה לכל הצדדים.",
+      "מכסים ומניחים למנוחה של 30 דקות נוספות.",
+      "חוזרים על תהליך הקיפול והמנוחה עד להשלמת 4 עד 6 סטים של קיפולים בסך הכל.",
+      "מכסים את הקערה ומתפיחים בטמפרטורת החדר למשך כ-10 עד 12 שעות, או למשך הלילה.",
+      "מעצבים את הבצק לכיכר ומניחים בסלסלת התפחה. מכניסים למקרר למשך כ-24 שעות להתפחה קרה.",
+      "אופים לפי שיטות אפיית מחמצת רגילות (בדרך כלל בסיר יצוק שחומם מראש ל-230 מעלות צלזיוס למשך 20 דקות עם מכסה, ואז 20-25 דקות ללא מכסה)."
+    ],
+    "es": [
+      "En un bol grande, mezclar el agua tibia y la masa madre hasta que estén bien combinados.",
+      "Añadir la harina y la sal a la mezcla líquida. Mezclar a mano o con una cuchara hasta formar una masa irregular y que no quede harina seca.",
+      "Cubrir el bol y dejar reposar durante una hora.",
+      "Amasar bien la masa hasta que deje de estar pegajosa. Se puede hacer con batidora o plegando a mano.",
+      "Cubrir y dejar reposar durante 30 minutos.",
+      "Realizar una serie de estiramientos y pliegues: agarrar un lado de la masa, estirarlo hacia arriba y doblarlo sobre el centro. Girar el bol y repetir por todos los lados.",
+      "Cubrir y dejar reposar otros 30 minutos.",
+      "Repetir el proceso de plegado y reposo hasta completar de 4 a 6 series de pliegues en total.",
+      "Cubrir el bol y dejar levar a temperatura ambiente durante unas 10 a 12 horas, o toda la noche.",
+      "Dar forma de hogaza a la masa y colocarla en una cesta de fermentación. Poner en el refrigerador durante aproximadamente 24 horas para una fermentación en frío.",
+      "Hornear según los métodos estándar de masa madre (típicamente en una olla de hierro precalentada a 230°C durante 20 minutos tapado, luego 20-25 minutos destapado)."
+    ],
+    "ar": [
+      "في صحفة كبيرة، خلط الماء الدافي والخميرة مع بعضهم مليح.",
+      "زيد الفرينة والملح للخليط. خلط بيدك ولا بمغرفة لين تتلم العجينة وما تقعدش فرينة شايحة.",
+      "غطي الصحفة وخليها ترتاح ساعة.",
+      "اعجن العجينة مليح لين ماعادش تتلصق. تنجم تستعمل العجانة ولا تعجن بيدك.",
+      "غطي وخليها ترتاح 30 دقيقة.",
+      "أعمل طيات للعجينة: شد جنب متاع العجينة، جبدو لفوق واثنيه على الوسط. دور الصحفة وعاود نفس الشيء من الجهات الكل.",
+      "غطي وخليها ترتاح 30 دقيقة أخرى.",
+      "عاود عملية الطي والراحة لين تكمل 4 ولا 6 مرات في المجموع.",
+      "غطي الصحفة وخليها تخمر في بيت عادية لمدة 10 ولا 12 ساعة، ولا ليلة كاملة.",
+      "شكل العجينة خبزة وحطها في سلة تخمير. حطها في الفريجيدير لمدة 24 ساعة باش تخمر بالبارد.",
+      "طيبها كيما يطيبو خبز الخميرة (عادة في طنجرة حديد سخونة مليح على 230 درجة لمدة 20 دقيقة وهي مغطية، ومبعد 20-25 دقيقة وهي عريانة)."
+    ],
+    "en": [
+      "In a large bowl, mix the warm water and sourdough starter together until well combined.",
+      "Add the flour and salt to the liquid mixture. Mix by hand or with a spoon until a shaggy dough forms and no dry flour remains.",
+      "Cover the bowl and set aside to rest for one hour.",
+      "Knead the dough well until it is no longer sticky. This can be done using a stand mixer or by performing folds by hand.",
+      "Cover and let rest for 30 minutes.",
+      "Perform a set of 'stretch and folds': grab one side of the dough, stretch it up, and fold it over the center. Rotate the bowl and repeat for all sides.",
+      "Cover and let rest for another 30 minutes.",
+      "Repeat the folding and resting process until you have completed 4 to 6 sets of folds in total.",
+      "Cover the bowl and allow the dough to rise at room temperature (bulk fermentation) for about 10 to 12 hours, or overnight.",
+      "Shape the dough into a loaf and place it in a proofing basket. Place in the refrigerator for approximately 24 hours for a cold proof.",
+      "Bake according to standard sourdough methods (typically in a preheated Dutch oven at 230°C/450°F for 20 minutes covered, then 20-25 minutes uncovered)."
+    ]
+  }
+}

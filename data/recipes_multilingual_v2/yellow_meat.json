@@ -1,0 +1,110 @@
+{
+  "id": "yellow_meat",
+  "image": "images/current/049lhamsfar/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "180 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בשר צהוב",
+    "es": "Basar Tzahov (Carne Amarilla)",
+    "ar": "لحم أصفر",
+    "en": "Yellow Meat (Basar Tzahov)"
+  },
+  "description": {
+    "he": "בשר צהוב ממשיך את המסורת הצפון אפריקאית של סיווג תבשילים לפי צבע הרוטב שלהם. בשונה מתבשילים אדומים מבוססי עגבניות, צלי בקר זה מתבשל בבישול איטי, נפרס, ואז מתבשל ברוטב בצל עשיר וצהוב מכורכום. זוהי דוגמה קלאסית לסגנון ה\"זערה\" הארומטי המצוי במטבחים יהודיים ג'רבאיים.",
+    "es": "Basar Tzahov, literalmente Carne Amarilla, sigue la tradición norteafricana de categorizar los guisos por el color de su salsa. A diferencia de los platos rojos a base de tomate, este asado de ternera se cocina a fuego lento, se rebana y se cuece en una rica salsa de cebolla con cúrcuma. Sirve como un ejemplo clásico del estilo aromático Za'ara que se encuentra en las cocinas judías de Djerba.",
+    "ar": "اللحم الأصفر يتبع العادة متاع شمال إفريقيا في تقسيم الماكلة حسب لون المرقة. يختلف على الماكلة الحمراء بالطماطم، اللحم هذا يطيب في الكوشة، ومبعد نقصوه ونطيبوه في مرقة بصل وعقدة صفراء بالكركم. هذا الطبق مثال باهي على طياب الزערة الفاوح اللي نلقاوه في كوجينة يهود جربة.",
+    "en": "Basar Tzahov, literally Yellow Meat, follows the North African tradition of categorizing stews by their sauce color. Distinct from tomato-based red dishes, this savory beef roast is slow-cooked, sliced, and simmered in a rich, turmeric-infused onion sauce. It serves as a classic example of the aromatic Za'ara style found in Djerban Jewish kitchens."
+  },
+  "ingredients": {
+    "he": [
+      "1.5 ק\"ג צלי בקר (כתף או חזה), שלם",
+      "8 גרם אבקת בצל",
+      "2 בצלים גדולים, קצוצים לקוביות",
+      "30 מ\"ל שמן צמחי",
+      "9 גרם כורכום טחון",
+      "11 גרם אבקת מרק עוף",
+      "3 עלי דפנה",
+      "6 גרגירי פלפל שחור שלמים",
+      "פלפל שחור לפי הטעם",
+      "מלח לפי הטעם",
+      "250 מ\"ל מים"
+    ],
+    "es": [
+      "1.5 kg de asado de ternera (espaldilla o falda), entero",
+      "8 g de cebolla en polvo",
+      "2 cebollas grandes, picadas en cubos",
+      "30 ml de aceite vegetal",
+      "9 g de cúrcuma molida",
+      "11 g de caldo de pollo en polvo",
+      "3 hojas de laurel",
+      "6 granos de pimienta negra enteros",
+      "Pimienta negra al gusto",
+      "Sal al gusto",
+      "250 ml de agua"
+    ],
+    "ar": [
+      "1.5 كغ لحم بقر (كتف أو صدر)، قطعة كاملة",
+      "1 مغرفة بودرة بصل",
+      "2 بصلات كبار، مقصوصين",
+      "2 مغارف زيت",
+      "1 مغرفة كركم",
+      "1 مغرفة بودرة مرقة دجاج",
+      "3 ورقات رند",
+      "6 كعبات فلفل أكحل",
+      "فلفل أكحل حسب الذوق",
+      "ملح حسب الذوق",
+      "1 كاس ماء (تقريباً)"
+    ],
+    "en": [
+      "1.5 kg beef roast (chuck or brisket), whole",
+      "1 tbsp onion powder",
+      "2 large onions, diced",
+      "2 tbsp vegetable oil",
+      "1 tbsp turmeric",
+      "1 tbsp chicken seasoning (consommé powder)",
+      "3 bay leaves",
+      "6 whole black peppercorns",
+      "Black pepper to taste",
+      "Salt to taste",
+      "1 cup water (approximate)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-160 מעלות. מעסים היטב את נתח הבשר השלם באבקת הבצל.",
+      "מניחים את הבשר בתבנית אפייה ואוטמים היטב בנייר כסף. אופים בתנור במשך שעתיים וחצי עד שהבשר רך.",
+      "מוציאים את הבשר מהתנור ומניחים לו להתקרר מעט. פורסים את הבשר למנות הגשה.",
+      "בסיר רחב, מחממים את השמן ומטגנים את הבצל הקצוץ עד להזהבה.",
+      "מוסיפים לבצל את הכורכום, אבקת מרק העוף, מלח, פלפל טחון, גרגירי הפלפל השחור ועלי הדפנה. מערבבים קלות לפתיחת הטעמים.",
+      "מוסיפים את פרוסות הבשר לסיר. מוסיפים מים (כ-250 מ\"ל או מספיק ליצירת רוטב אך לא לכיסוי מלא). מכסים ומבשלים על אש נמוכה במשך 20-30 דקות נוספות לספיגת טעמים."
+    ],
+    "es": [
+      "Precalentar el horno a 160°C. Masajear bien la pieza entera de carne con la cebolla en polvo.",
+      "Colocar la carne en una fuente para horno y sellar herméticamente con papel de aluminio. Cocinar en el horno durante 2 horas y media hasta que esté tierna.",
+      "Retirar la carne del horno y dejar enfriar un poco. Cortar la carne en porciones para servir.",
+      "En una olla ancha, calentar el aceite y sofreír las cebollas picadas hasta que estén doradas.",
+      "Añadir la cúrcuma, el caldo de pollo en polvo, la sal, la pimienta molida, los granos de pimienta y las hojas de laurel a las cebollas. Remover brevemente para liberar los aromas.",
+      "Añadir la carne rebanada a la olla. Agregar agua (aprox. 250 ml o suficiente para crear una salsa pero sin cubrir completamente). Tapar y cocinar a fuego lento durante otros 20-30 minutos para que se mezclen los sabores."
+    ],
+    "ar": [
+      "نسخنوا الكوشة (الفور) في 160 درجة. ندهنوا اللحمة مليح ببودرة البصل.",
+      "نحطوا اللحم في طبق ونغطوه مليح بpapier aluminium باش ما يخرجش البخار. نخلوه يطيب في الكوشة ساعتين ونص لين يولي طري.",
+      "نخرجوا اللحم من الكوشة ونخلوه يبرد شوية. مبعد نقصوه طروف طروف للتقديم.",
+      "في طنجرة واسعة، نسخنوا الزيت ونقليو البصل المقصوص لين يولي لونه ذهبي.",
+      "نزيدوا الكركم، بودرة مرقة الدجاج، الملح، الفلفل الأكحل المرحي والكعب، والرند للبصل. نحركوا شوية باش تخرج ريحة الفاح.",
+      "نحطوا طروف اللحم في الطنجرة. نزيدوا الماء (تقريباً كاس ولا قيس ما تولي عندنا مرقة أما ما نغموش اللحم الكل). نغطوا الطنجرة ونخلوها تطيب على نار هادية 20-30 دقيقة باش يدخل الفاح في اللحم."
+    ],
+    "en": [
+      "Preheat oven to 160°C (320°F). Massage the whole piece of meat thoroughly with onion powder.",
+      "Place the meat in a baking dish and seal tightly with aluminum foil. Cook in the oven for 2.5 hours until tender.",
+      "Remove meat from the oven and let it cool slightly. Slice the meat into serving portions.",
+      "In a wide pot, heat the oil and fry the diced onions until they turn golden brown.",
+      "Add the turmeric, chicken seasoning, salt, ground pepper, whole peppercorns, and bay leaves to the onions. Stir briefly to release aromatics.",
+      "Add the sliced meat to the pot. Add water (approx 250ml or enough to create a sauce but not submerge completely). Cover and simmer on low heat for another 20-30 minutes to let flavors meld."
+    ]
+  }
+}

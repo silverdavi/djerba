@@ -1,0 +1,48 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Brodo' is a direct loanword from Italian, retained in Tunisian dialect (Derja) and specifically Tunisian Judeo-Arabic. Tunisia hosted a significant population of Livornese Jews (the 'Grana') and Sicilian immigrants, whose language heavily influenced local culinary terminology. While 'Shorba' is the general Arabic term for soup, and 'Marqa' for stew, 'Brodo' specifically refers to a clear, light bouillon or stock (usually chicken or beef with root vegetables) that is not heavily spiced with red pepper or tomato paste. It is linguistically distinct from the Spanish/Ladino 'Caldo'.",
+    "language_source": "other",
+    "root_word": "Italian 'brodo' (from Late Latin 'brodum', of Germanic origin)",
+    "meaning": "Broth or stock",
+    "confidence": "confirmed",
+    "sources_notes": "The presence of Italian loanwords in Tunisian culinary vocabulary is well-documented due to the Grana community and geographic proximity to Sicily. The usage of 'Brodo' in Tunisia is distinct from the French 'Bouillon' or the Spanish 'Caldo'."
+  },
+  "alternative_names": [
+    {
+      "name": "Marqa Beida",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'white stew/sauce', referring to the lack of tomato paste/harissa, though Brodo is usually thinner."
+    },
+    {
+      "name": "Bouillon",
+      "language": "french",
+      "notes": "Used interchangeably in Francophone Tunisian circles."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Pot-au-feu",
+      "culture": "French",
+      "similarity": "Meat boiled with root vegetables where the broth is served as a starter.",
+      "key_difference": "Pot-au-feu uses beef; Brodo often uses chicken and is served with couscous."
+    },
+    {
+      "name": "Brodo di Pollo",
+      "culture": "Italian",
+      "similarity": "Clear chicken broth.",
+      "key_difference": "Italian version often contains pasta (tortellini/pastina); Tunisian version contains chunks of root vegetables (turnip, carrot, squash)."
+    },
+    {
+      "name": "Goldene Yoykh",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Chicken soup served on Shabbat.",
+      "key_difference": "Ashkenazi version uses dill/parsley and noodles/matzah balls; Tunisian Brodo uses celery/cilantro and is often poured over grain."
+    },
+    {
+      "name": "Shorba Beida",
+      "culture": "Algerian",
+      "similarity": "White chicken soup.",
+      "key_difference": "Algerian version often includes vermicelli, lemon, and egg yolk binding (liason), whereas Brodo is a clearer stock."
+    }
+  ]
+}

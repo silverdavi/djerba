@@ -1,0 +1,426 @@
+{
+  "id": "mahshi_stuffed_vegetables",
+  "slug": "mahshi-stuffed-vegetables",
+  "source_file": "data/safed_recipes/27_מחשי.json",
+  "name": "Mahshi (Stuffed Vegetables)",
+  "name_hebrew": "מחשי",
+  "name_origin": "Derived directly from the Arabic root 'ḥ-š-y' (ح-ش-y), meaning 'to stuff' or 'to fill'. 'Mahshi' (محشي) is the passive participle (ism maf'ul) of the verb, literally translating to 'that which is stuffed'. While the concept of stuffed vegetables in North Africa was heavily influenced by the Ottoman Turkish 'Dolma', the terminology in the Maghreb is almost exclusively Arabic. In the context of Djerban cuisine, this follows the standard Tunisian naming convention for stuffed vegetables.",
+  "description": "A comforting North African dish consisting of vegetables like potatoes, zucchini, and eggplant hollowed out and filled with a savory mixture of rice, chicken, and egg, then simmered in a rich vegetable stew.",
+  "cultural_context": "Common in Djerban and Tunisian Jewish cuisine, often served as a hearty family meal. The use of chicken breast rather than ground beef is a common variation in some households.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with mushrooms or lentils and use a flax egg or starch binder instead of the egg.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 105,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "hollowed for stuffing",
+      "notes": "Choose medium-sized uniform potatoes",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "zucchini",
+      "name": "Zucchini",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "hollowed for stuffing",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "eggplant",
+      "name": "Eggplant",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "hollowed for stuffing",
+      "notes": "Small or medium size",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "rice",
+      "name": "Rice",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "rinsed",
+      "notes": "For the filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_breast",
+      "name": "Chicken breast",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "finely chopped or diced",
+      "notes": "For the filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Egg",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "Binder for the filling",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "For the sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomatoes",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": "For the sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pumpkin",
+      "name": "Pumpkin",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "cubed",
+      "notes": "Optional addition to the sauce",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.7,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "Enough to cover vegetables",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Prepare the vegetables for stuffing (potatoes, zucchini, eggplant, cabbage leaves, etc.) by hollowing out the centers.",
+      "time_minutes": 20,
+      "tips": "Save the inner flesh of the zucchini to add to the sauce later."
+    },
+    {
+      "step": 2,
+      "instruction": "In a bowl, prepare the filling: break the egg and mix in the rice and finely chopped chicken breast pieces. Season with salt and pepper.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Stuff the hollowed vegetables with the rice and chicken mixture. Do not pack too tightly as the rice will expand.",
+      "time_minutes": 15,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "In a large pot, heat the oil and sauté the chopped onion until translucent.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the tomatoes and any additional vegetables for the stew (such as pumpkin chunks or extra zucchini). Add water to cover and season with salt and pepper.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Carefully place the stuffed vegetables into the pot.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Cover and simmer until the vegetables are tender and the rice inside is fully cooked.",
+      "time_minutes": 45,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/053_mahshi/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "stuffed-vegetables",
+    "main-course",
+    "chicken"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "ḥ-š-y (حشي)",
+    "meaning": "Stuffed / Filled",
+    "confidence": "confirmed",
+    "notes": "Standard Arabic morphology used across the Middle East and North Africa. In Tunisia, this dish is part of the 'Mahchi' family. The specific Djerban Jewish variation often uses chicken and egg as a binder (unlike the Levantine use of just rice and ground red meat) to ensure the filling stays intact during the slow stewing process common in Shabbat cooking."
+  },
+  "alternative_names": [
+    {
+      "name": "Mhachi",
+      "language": "french",
+      "notes": "Common French colonial transliteration found in North African cookbooks."
+    },
+    {
+      "name": "Fondouk El Ghalla",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'The Hostel of Fruits/Vegetables'. This is a specific Tunisian name for a mixed platter of various stuffed vegetables (peppers, tomatoes, zucchini) cooked together, which matches the user description."
+    },
+    {
+      "name": "Memula'im",
+      "language": "hebrew",
+      "notes": "Modern Hebrew translation (ממולאים), though the Arabic name is retained in the Djerban community."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Dolma / Biber Dolmasi",
+      "culture": "Turkish / Ottoman",
+      "similarity": "Vegetables stuffed with rice and meat.",
+      "key_difference": "Turkish versions often use pine nuts, currants, and allspice; the Djerban version leans towards turmeric, savory notes, and uses egg as a binder."
+    },
+    {
+      "name": "Mafrum",
+      "culture": "Libyan Jewish",
+      "similarity": "Vegetables (specifically potatoes) stuffed with meat and simmered in sauce.",
+      "key_difference": "Mafrum is a 'sandwich' of sliced potato filled with ground beef, breaded in flour/egg and fried before stewing. Mahshi is 'hollowed out' and usually not breaded."
+    },
+    {
+      "name": "Kousa Mahshi",
+      "culture": "Levantine (Lebanon/Syria)",
+      "similarity": "Hollowed zucchini stuffed with rice and meat.",
+      "key_difference": "Levantine version is often cooked in a tomato broth or yogurt sauce (Lababan) and uses ground lamb/beef, not chicken."
+    },
+    {
+      "name": "Gemista",
+      "culture": "Greek",
+      "similarity": "Stuffed vegetables baked in liquid.",
+      "key_difference": "Gemista is typically baked in the oven (roasted) rather than simmered in a stovetop stew, and often relies heavily on olive oil and herbs (dill/mint)."
+    }
+  ],
+  "intro_paragraph": "Mahshi, literally translating to \"stuffed\" in Arabic, is a beloved Djerban Jewish comfort food. Hollowed potatoes, zucchini, and eggplant are packed with a savory filling of chicken, rice, and egg, then braised in a rich vegetable stew. While similar to Ottoman dolma, this hearty dish serves as a complete family meal."
+}

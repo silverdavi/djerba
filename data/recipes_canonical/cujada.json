@@ -1,0 +1,363 @@
+{
+  "id": "cujada",
+  "slug": "cujada-potato-egg-pie",
+  "source_file": "data/safed_recipes/cujada.json",
+  "name": "Cujada (Potato and Egg Pie)",
+  "name_hebrew": "קוז'אדה",
+  "name_origin": "The name derives directly from the Ladino (Judeo-Spanish) word 'Quajado' or Spanish 'Cuajada'. It comes from the verb 'cuajar' (to coagulate, curdle, or set). While in modern Spain 'cuajada' refers to a dairy curd dessert, in Sephardic culinary terminology, it refers to a savory casserole where eggs are used as the binding agent to 'set' the vegetables (potatoes, spinach, or leeks). The presence of this name in a Djerban cookbook likely reflects the influence of the 'Grana' (Livornese/European Jewish community in Tunisia) or general Sephardic diaspora terminology, as the indigenous Tunisian Arabic term for this exact dish is 'Maaqouda'.",
+  "description": "A savory North African potato and egg pie, similar to a Tunisian Maaqouda or a crustless quiche. The potatoes are mashed and seasoned with turmeric and garlic before being baked into a golden, fluffy casserole.",
+  "cultural_context": "A staple in Djerban and North African Jewish households, often served at room temperature for Shabbat lunch or as a side dish for holidays.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Requires eggs for binding; difficult to adapt while maintaining traditional texture.",
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 65,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 4,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "peeled",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 8,
+      "unit": "unit",
+      "size": "large",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 8,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 0.25,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Or saffron threads",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.11,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_bouillon_powder",
+      "name": "Chicken bouillon powder",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Listed as 'Chicken broth' in original; powder is typical for binding",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 11,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.11,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For greasing the pot/dish",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Boil the potatoes in water until they are completely soft.",
+      "time_minutes": 20,
+      "tips": "They should be soft enough to mash easily."
+    },
+    {
+      "step": 2,
+      "instruction": "Drain the potatoes and mash them well in a large bowl.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Season the mashed potatoes with turmeric (or saffron), white pepper, chicken bouillon powder, salt, garlic powder, and the baking powder. Mix well.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the eggs to the potato mixture and mix until fully combined into a uniform batter.",
+      "time_minutes": 3,
+      "tips": "Ensure the potatoes have cooled slightly so the eggs don't scramble upon contact."
+    },
+    {
+      "step": 5,
+      "instruction": "Preheat oven to 180°C (350°F). Pour the oil into an oven-safe pot or deep baking dish and heat it (on the stove or in the oven) until hot.",
+      "time_minutes": 5,
+      "tips": "Heating the oil first creates a crust and prevents sticking."
+    },
+    {
+      "step": 6,
+      "instruction": "Carefully pour the potato-egg mixture into the hot oil.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Bake in the oven until the pie is set, golden on top, and a toothpick inserted into the center comes out dry.",
+      "time_minutes": 30,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Hard-boiled Egg Variation",
+      "description": "Some family versions (Maaqouda) include whole or chopped hard-boiled eggs inside the batter before baking."
+    }
+  ],
+  "image": {
+    "filename": "images/current/028_cujada/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "side-dish",
+    "potato",
+    "egg",
+    "shabbat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "ladino",
+    "root_word": "Cuajar (Spanish) / Coagulare (Latin)",
+    "meaning": "That which is set/curdled/coagulated (referring to the eggs binding the dish)",
+    "confidence": "confirmed",
+    "notes": "Linguistically confirmed via Spanish/Ladino roots. The shift from dairy-setting to egg-setting is a standard semantic shift in Sephardic cooking (e.g., 'Quajado de Prasa'). The Hebrew spelling קוז'אדה uses the 'zh' sound (zayin with geresh) to approximate the Ladino 'J' sound."
+  },
+  "alternative_names": [
+    {
+      "name": "Quajado",
+      "language": "ladino",
+      "notes": "Standard spelling in Turkish/Rhodesli Sephardic communities."
+    },
+    {
+      "name": "Maaqouda",
+      "language": "tunisian_arabic",
+      "notes": "The most common name for this potato-egg pie in Tunisia (literally 'the knotted/bound one')."
+    },
+    {
+      "name": "Mina",
+      "language": "ladino",
+      "notes": "A similar Sephardic pie, though usually made with matzah layers (Mina de patata)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Maaqouda / Maâkouda",
+      "culture": "North African (Tunisia/Morocco/Algeria)",
+      "similarity": "Identical ingredients (mashed potato, egg, parsley, turmeric).",
+      "key_difference": "In Morocco, Maaqouda are often small fried patties; in Tunisia, it is often a baked pie (Tagine Maaqouda) identical to Cujada."
+    },
+    {
+      "name": "Tortilla de Patatas",
+      "culture": "Spanish",
+      "similarity": "Potato and egg binder.",
+      "key_difference": "Cooked in a skillet (flipped) rather than baked in an oven; uses sliced potatoes rather than mashed."
+    },
+    {
+      "name": "Potato Kugel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Baked potato and egg casserole.",
+      "key_difference": "Uses grated raw potatoes (denser texture) rather than cooked mashed potatoes; lacks the turmeric/cumin profile."
+    },
+    {
+      "name": "Sfereeya",
+      "culture": "Tunisian Jewish",
+      "similarity": "Chicken and potato pie.",
+      "key_difference": "Sfereeya specifically incorporates chicken, whereas Cujada/Maaqouda is often vegetarian."
+    }
+  ],
+  "intro_paragraph": "Cujada takes its name from the Spanish *cuajar* (\"to set\"), referring to the eggs that bind this savory potato pie. Similar to a crustless quiche or *maaqouda*, the mashed potato mixture is spiced with turmeric and garlic, then baked until golden. A fixture of Djerban Jewish tables, it is traditionally served at room temperature for Shabbat lunch."
+}

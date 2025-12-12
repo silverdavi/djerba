@@ -1,0 +1,255 @@
+{
+  "id": "sour_dough_bread_soly",
+  "slug": "sour-dough-bread-soly",
+  "source_file": "data/safed_recipes/sour_dough_bread_soly.json",
+  "name": "Soly's Sourdough Bread",
+  "name_hebrew": "לחם מחמצת של סולי",
+  "name_origin": "The name provided is Modern Hebrew. 'Lechem' (לחם) means bread. 'Machmetzet' (מחמצת) refers to a sourdough starter or leaven. The root is H-M-Tz (ח-מ-צ), which relates to 'chametz' (leavened food forbidden on Passover) and 'chumtzah' (acid/sourness). Historically, in Djerba and Tunisia, bread was naturally leavened using a piece of old dough called 'khmira' (Arabic) or 'levain' (French), rather than the modern liquid starter implied by the Hebrew word 'machmetzet'. This specific title likely reflects a modern Israeli-Hebrew naming convention for a traditional family recipe.",
+  "description": "A classic rustic sourdough bread recipe relying on natural fermentation. It features a long cold proof in the refrigerator to develop deep flavors and a crispy crust.",
+  "cultural_context": "Bread making is a staple in Jewish households, often associated with preparation for Shabbat or daily sustenance. This recipe utilizes a natural starter (levain) rather than commercial yeast.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "1 loaf",
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 2250,
+    "difficulty": "intermediate"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 300,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "warm",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 10,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sourdough_starter",
+      "name": "Sourdough starter",
+      "amount": 50,
+      "unit": "g",
+      "preparation": null,
+      "notes": "active/fed",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "Flour",
+      "amount": 500,
+      "unit": "g",
+      "preparation": null,
+      "notes": "bread flour or all-purpose",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 11,
+      "unit": "g",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 11,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 11,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, mix the warm water and sourdough starter together until well combined.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the flour and salt to the liquid mixture. Mix by hand or with a spoon until a shaggy dough forms and no dry flour remains.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Cover the bowl and set aside to rest for one hour.",
+      "time_minutes": 60,
+      "tips": "This stage is known as the autolyse."
+    },
+    {
+      "step": 4,
+      "instruction": "Knead the dough well until it is no longer sticky. This can be done using a stand mixer or by performing folds by hand.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Cover and let rest for 30 minutes.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Perform a set of 'stretch and folds': grab one side of the dough, stretch it up, and fold it over the center. Rotate the bowl and repeat for all sides.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Cover and let rest for another 30 minutes.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Repeat the folding and resting process until you have completed 4 to 6 sets of folds in total.",
+      "time_minutes": 120,
+      "tips": "This builds the gluten structure."
+    },
+    {
+      "step": 9,
+      "instruction": "Cover the bowl and allow the dough to rise at room temperature (bulk fermentation) for about 10 to 12 hours, or overnight.",
+      "time_minutes": 720,
+      "tips": null
+    },
+    {
+      "step": 10,
+      "instruction": "Shape the dough into a loaf and place it in a proofing basket. Place in the refrigerator for approximately 24 hours for a cold proof.",
+      "time_minutes": 1440,
+      "tips": null
+    },
+    {
+      "step": 11,
+      "instruction": "Bake according to standard sourdough methods (typically in a preheated Dutch oven at 230°C/450°F for 20 minutes covered, then 20-25 minutes uncovered).",
+      "time_minutes": 45,
+      "tips": "Ensure the oven is fully preheated before baking."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/085_sourdough_bread/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "bread",
+    "baking",
+    "sourdough",
+    "vegan",
+    "parve"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "ח-מ-צ (H-M-Tz)",
+    "meaning": "Sourdough Bread (literally: Bread of Leaven/Sourness)",
+    "confidence": "confirmed",
+    "notes": "Linguistic analysis of standard Hebrew culinary terminology. While the recipe is Djerban, the title provided is descriptive Modern Hebrew rather than a specific Judeo-Arabic dish name (like 'Mouna' or 'Boulou')."
+  },
+  "alternative_names": [
+    {
+      "name": "Khobz bil-Khmira",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation for 'bread with leaven/yeast'."
+    },
+    {
+      "name": "Pain au Levain",
+      "language": "french",
+      "notes": "The French term for sourdough bread, widely used in Tunisia due to the French protectorate era."
+    },
+    {
+      "name": "Khobz Dar",
+      "language": "maghrebi_arabic",
+      "notes": "Meaning 'House Bread', referring to homemade rustic loaves."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Khobz Tabouna",
+      "culture": "Tunisian",
+      "similarity": "A traditional rustic bread baked in a clay oven (tabouna), historically naturally leavened.",
+      "key_difference": "Baked on the walls of a clay oven giving a pitted surface, whereas the Jewish version is likely oven-baked for Shabbat."
+    },
+    {
+      "name": "Pain de Campagne",
+      "culture": "French",
+      "similarity": "Rustic country bread using natural leaven (sourdough).",
+      "key_difference": "Uses French flour blends (often including rye) rather than the semolina (smid) often found in North African breads."
+    },
+    {
+      "name": "Khobz Semid",
+      "culture": "Maghrebi",
+      "similarity": "Durum semolina bread common across North Africa.",
+      "key_difference": "Often uses commercial yeast in modern times; the texture is yellower and denser than European sourdough."
+    }
+  ],
+  "intro_paragraph": "Soly’s Sourdough Bread relies on natural fermentation to create a rustic, crusty loaf. The Hebrew term *machmetzet* refers to the sour leaven, recalling the traditional Djerban practice of preserving *khmira*—a piece of old dough—to rise the next batch. A long cold proof develops the deep, tangy flavor that makes this bread a daily essential."
+}

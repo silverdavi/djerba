@@ -1,0 +1,237 @@
+{
+  "id": "schnitzel",
+  "slug": "schnitzel",
+  "source_file": "safed_some.md",
+  "name": "Chicken Schnitzel",
+  "name_hebrew": "שניצל",
+  "name_origin": "The word 'Schnitzel' is of German origin, derived from the verb 'schnitzen', meaning 'to carve' or 'to cut'. The suffix '-el' is a diminutive, so the word literally translates to 'a little cut' or 'a slice'. While the dish originated in Austria (Wiener Schnitzel, made with veal), it was brought to Israel by Central European (Ashkenazi) immigrants. In Israel, due to the scarcity of veal, turkey and chicken became the standard proteins. It was subsequently adopted by North African Jewish communities (including Djerbans) in Israel and France, often replacing more complex traditional fried dishes due to its convenience and popularity with children.",
+  "description": "Thinly pounded chicken breasts coated in seasoned breadcrumbs and fried until golden and crispy. While originally a European dish, it has become a ubiquitous staple in Israeli and North African Jewish kitchens, often served for Shabbat lunch.",
+  "cultural_context": "Adopted by North African Jewish families in Israel and the diaspora, often replacing traditional fried fish or meat patties. It is typically served with couscous, mashed potatoes, or Israeli salad.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with tofu or seitan; use chickpea flour batter instead of eggs.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken_breast",
+      "name": "Chicken breast",
+      "amount": 500,
+      "unit": "g",
+      "preparation": "boneless, skinless",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 125,
+      "unit": "g",
+      "preparation": null,
+      "notes": "for dredging",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 125,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 125,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Egg",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "beaten",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "seasoned_breadcrumbs",
+      "name": "Seasoned breadcrumbs",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "or plain breadcrumbs mixed with paprika, garlic powder, and salt",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Pound the chicken breasts with a meat mallet until they are thin, but be careful not to tear the meat.",
+      "time_minutes": 10,
+      "tips": "Place the chicken between two sheets of plastic wrap or parchment paper before pounding to keep things clean."
+    },
+    {
+      "step": 2,
+      "instruction": "Prepare a dredging station with three separate plates: one with flour, one with beaten eggs, and one with seasoned breadcrumbs.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Coat each piece of chicken first in the flour (shake off excess), then dip into the egg, and finally coat thoroughly with the breadcrumbs.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Heat a generous amount of oil in a deep pan. The oil should be hot but not smoking.",
+      "time_minutes": null,
+      "tips": "To test the oil, drop a few breadcrumbs in; if they sizzle immediately, it is ready."
+    },
+    {
+      "step": 5,
+      "instruction": "Fry the schnitzels until golden brown on both sides. Drain on paper towels before serving.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/075_schnitzel/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "chicken",
+    "fried",
+    "main-dish",
+    "kids-favorite",
+    "shabbat-lunch"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "schnitzen (German)",
+    "meaning": "Little slice / A cut / A carving",
+    "confidence": "confirmed",
+    "notes": "Standard Germanic etymology. In the context of a Djerban cookbook, this represents the 'Israeli-zation' or 'French-ification' of the cuisine. In French-influenced North Africa, this would traditionally be called 'Escalope Panée'."
+  },
+  "alternative_names": [
+    {
+      "name": "Escalope (Panée)",
+      "language": "french",
+      "notes": "The term used by Francophone North African Jews (Tunisia/Algeria/Morocco) before the adoption of the Hebrew/German term 'Schnitzel'."
+    },
+    {
+      "name": "Cotoletta",
+      "language": "italian",
+      "notes": "Used specifically by Libyan Jews due to Italian colonization, referring to the same breaded cutlet concept."
+    },
+    {
+      "name": "Bani",
+      "language": "tunisian_arabic",
+      "notes": "A localized pronunciation of the French 'pané' (breaded), often heard in Tunisian markets."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Wiener Schnitzel",
+      "culture": "Austrian",
+      "similarity": "The original version of the dish.",
+      "key_difference": "Strictly made with veal and fried in lard or butter (non-kosher preparation), whereas the Jewish version uses chicken/turkey and oil."
+    },
+    {
+      "name": "Maakouda",
+      "culture": "North African (Maghreb)",
+      "similarity": "A fried, breaded item often served alongside or in sandwiches.",
+      "key_difference": "Maakouda is a potato fritter/cake, not a whole muscle meat cutlet."
+    },
+    {
+      "name": "Cotoletta alla Milanese",
+      "culture": "Italian",
+      "similarity": "Breaded fried meat cutlet.",
+      "key_difference": "Usually bone-in veal chop, whereas Jewish Schnitzel is boneless pounded chicken breast."
+    }
+  ],
+  "intro_paragraph": "Schnitzel—derived from the German for \"little cut\"—was brought to Israel by European immigrants who adapted the veal classic to poultry. Thinly pounded chicken breasts are coated in seasoned crumbs and fried golden. Now a staple in Djerban households, these crispy cutlets frequently appear at Shabbat lunch, served alongside couscous or fresh salads."
+}

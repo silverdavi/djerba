@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Pizza' is of Italian origin, universally adopted. However, in the context of North African Jewish cuisine (specifically Tunisia and Djerba), the inclusion of this dish reflects the profound influence of the Italian community (Livornese Jews and Sicilian immigrants) in Tunisia during the 19th and 20th centuries. The specific combination described—tuna and olives—is the hallmark of 'Pizza Tunisienne' (Pizza au thon). The use of 'chicken consommé powder' (likely parve/imitation to maintain Kashrut if cheese is used, or simply for umami in a cheeseless version) indicates a modern Israeli-Maghrebi adaptation, as this is a staple pantry ingredient in Israeli households used to season tomato bases.",
+    "language_source": "other",
+    "root_word": "pizzo (Langobardic) or pinsere (Latin)",
+    "meaning": "Bite/mouthful (Langobardic) or to pound/stamp (Latin)",
+    "confidence": "confirmed",
+    "sources_notes": "While the word is Italian, the dish is a staple of Tunisian street food and home cooking. The Djerban Jewish version distinguishes itself by strict Kosher adherence (often using parve flavor enhancers) and the specific 'home-style' use of bread dough rather than standard pizza dough."
+  },
+  "alternative_names": [
+    {
+      "name": "Pizza Tunisienne",
+      "language": "french",
+      "notes": "The standard name for this variation in Tunisia, defined by the mandatory inclusion of tuna."
+    },
+    {
+      "name": "Pizza b'thon",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Pizza with tuna'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Coca / Cocas",
+      "culture": "Algerian / Tunisian / Pied-Noir",
+      "similarity": "A savory turnover or covered pie often filled with a similar tomato-pepper-onion mixture (tchouktchouka) and sometimes tuna.",
+      "key_difference": "Cocas are usually enclosed pastries (turnovers) rather than open-faced flatbreads."
+    },
+    {
+      "name": "Pissaladière",
+      "culture": "French (Provençal/Niçoise)",
+      "similarity": "A dough-based savory tart topped with olives and fish (anchovies).",
+      "key_difference": "Uses caramelized onions instead of a tomato base; uses anchovies instead of tuna."
+    },
+    {
+      "name": "Sfiha / Lahmacun",
+      "culture": "Levantine / Turkish",
+      "similarity": "Open-faced flatbread with savory toppings.",
+      "key_difference": "These are traditionally topped with minced meat (lamb/beef) and spices, not tuna and olives."
+    }
+  ]
+}

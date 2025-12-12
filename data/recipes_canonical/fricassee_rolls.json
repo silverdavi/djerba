@@ -1,0 +1,312 @@
+{
+  "id": "fricassee_rolls",
+  "slug": "fricassee-rolls",
+  "source_file": "data/safed_recipes/15_פריקסה.json",
+  "name": "Fricassee (Tunisian Fried Sandwich Rolls)",
+  "name_hebrew": "פריקסה",
+  "name_origin": "The term is a direct loanword from the French culinary term 'fricassée', introduced during the French Protectorate of Tunisia (1881–1956). However, this represents a distinct case of semantic shift or 'faux amis' (false friends). In classical French cuisine, a 'fricassée' is a white stew of meat (usually chicken) cooked in sauce. In Tunisian dialect (Derja), the term was appropriated to refer exclusively to these savory fried doughnuts. The linguistic bridge is likely phonetic: the French verb 'frire' (to fry) sounds similar to the prefix 'fric-', leading locals to associate the French word 'fricassée' with the action of deep-frying, or potentially a portmanteau folk-etymology of 'frit' (fried) and 'cassé' (broken/sliced open).",
+  "description": "Traditional Tunisian savory fried dough rolls. These airy, golden buns are essentially savory doughnuts, designed to be sliced open and stuffed with the classic Tunisian sandwich filling: tuna, hard-boiled eggs, boiled potatoes, olives, and harissa.",
+  "cultural_context": "A staple of Tunisian Jewish cuisine, often served at life-cycle events, parties, or as a hearty lunch. The dough is neutral but rich, providing the perfect vessel for spicy and savory fillings.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "The dough itself is vegan. Traditionally filled with tuna and eggs, but can be filled with 'Tunisian salad' (potatoes, tomatoes, onions) for a vegan version.",
+  "meta": {
+    "servings": "20-25 rolls",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 190,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "sifted",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 8,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dry_yeast",
+      "name": "Dry yeast",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 3,
+      "unit": "cup",
+      "preparation": null,
+      "notes": "warm",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 720,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 24,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 3,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": null,
+      "notes": "for the dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 18,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for deep frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Combine flour, yeast, sugar, water, 1/2 cup oil, and salt. Knead thoroughly to form a smooth dough.",
+      "time_minutes": 10,
+      "tips": "Add salt last to avoid inhibiting the yeast."
+    },
+    {
+      "step": 2,
+      "instruction": "Cover the dough and let it rise (proof) for approximately 2 hours.",
+      "time_minutes": 120,
+      "tips": "The dough should double in size."
+    },
+    {
+      "step": 3,
+      "instruction": "Shape the dough into small oval rolls. Place them on a well-oiled surface to prevent sticking.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Let the shaped rolls rise for another 30 minutes.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Heat deep oil in a pot or fryer. Fry the rolls until golden brown on both sides.",
+      "time_minutes": 20,
+      "tips": "Oil should be hot but not smoking (approx 170°C) to ensure the inside cooks before the outside burns."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/034_fricasse/dish.png",
+    "prompt": "Golden brown fried Tunisian fricassee rolls piled on a plate, oval shaped savory doughnuts, rustic style"
+  },
+  "tags": [
+    "tunisian",
+    "bread",
+    "fried",
+    "street-food",
+    "snack"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "fricassée (French) / fricasser (Old French: to fry/cook)",
+    "meaning": "Originally 'a stew of cut-up meat' (French), but evolved to mean 'fried stuffed sandwich' in Tunisian context.",
+    "confidence": "confirmed",
+    "notes": "The French origin of the word is linguistically certain, but the culinary divergence is absolute. There is no recipe connection between the French stew and the Tunisian sandwich; the connection is purely lexical, born of the colonial interface between French and Tunisian Arabic."
+  },
+  "alternative_names": [
+    {
+      "name": "Fricassé",
+      "language": "french",
+      "notes": "Common spelling variation in Tunisia and France."
+    },
+    {
+      "name": "Sandwich Fricassé",
+      "language": "french",
+      "notes": "Used to distinguish the item from the 'plat' (plate) version in tourist contexts."
+    },
+    {
+      "name": "Fricassee Djerbien",
+      "language": "french",
+      "notes": "Specific reference to the Djerban style, often implying a specific size or dough consistency."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Bambalouni",
+      "culture": "Tunisian",
+      "similarity": "Uses nearly identical yeast dough and deep-frying method.",
+      "key_difference": "Bambalouni is ring-shaped and dipped in sugar (sweet), whereas Fricassee is a bun filled with savory ingredients."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "The parent dish of deep-fried yeast dough.",
+      "key_difference": "Sfenj is usually a plain fritter/ring eaten with honey or sugar, not stuffed as a sandwich."
+    },
+    {
+      "name": "Casse-croûte Tunisien",
+      "culture": "Tunisian",
+      "similarity": "Identical filling (tuna, egg/adma, potato, olives, harissa, mechouia).",
+      "key_difference": "Casse-croûte uses a baguette or Italian bread (Pain Italien) rather than fried dough."
+    },
+    {
+      "name": "Vetkoek",
+      "culture": "South African",
+      "similarity": "Deep-fried yeast dough bun filled with savory mince or cheese.",
+      "key_difference": "Filling profile is meat-based (mince) rather than the specific Tunisian tuna/harissa combination."
+    },
+    {
+      "name": "Pirozhki",
+      "culture": "Russian/Eastern European",
+      "similarity": "Fried dough with savory filling.",
+      "key_difference": "Pirozhki are filled *before* frying (sealed), whereas Fricassee is fried first, then sliced and filled like a sandwich."
+    }
+  ],
+  "intro_paragraph": "Fricassee appropriates the French term for stew to describe these iconic savory fried doughnuts. A beloved staple of Djerban Jewish cuisine often served at celebrations, the airy, golden rolls are sliced and stuffed with tuna, hard-boiled eggs, boiled potatoes, olives, and harissa, creating a hearty sandwich rich in texture and spice."
+}

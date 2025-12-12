@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The word derives from the Berber (Amazigh) language, specifically the word 'seksu' or 'kesksu'. It entered North African Arabic as 'kuskusi' and later French/English as 'couscous'. While some theories suggest an onomatopoeic origin (the sound of the steam or the sieve), the linguistic consensus points to the Berber root S-K-S, referring to the action of rolling or rounding the wheat granules.",
+    "language_source": "other",
+    "root_word": "Seksu / Kesksu (Berber/Amazigh)",
+    "meaning": "Well rolled, rounded, or formed",
+    "confidence": "confirmed",
+    "sources_notes": "Culinary historians (including Charles Perry and Clifford Wright) confirm the Berber origin, predating the Arab invasion of the Maghreb. The 13th-century Andalusian cookbook 'Fadalat al-Khiwan' confirms its established presence in the region. In Tunisian Judeo-Arabic, it is pronounced 'Kuskusi'."
+  },
+  "alternative_names": [
+    {
+      "name": "Kuskusi",
+      "language": "tunisian_arabic",
+      "notes": "The standard pronunciation in Tunisia and Libya (كسكسي)."
+    },
+    {
+      "name": "Ta'am",
+      "language": "moroccan_arabic",
+      "notes": "Literally means 'food' or 'sustenance'; used in Algeria and Morocco to denote couscous as the staple meal."
+    },
+    {
+      "name": "Seksu",
+      "language": "other",
+      "notes": "The original Kabyle/Berber pronunciation."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Moghrabieh (Maftoul)",
+      "culture": "Levantine (Lebanon/Palestine)",
+      "similarity": "Wheat-based granules steamed and rolled.",
+      "key_difference": "Grains are much larger (pearl size) and often coated with flour rather than pure semolina."
+    },
+    {
+      "name": "Berkoukes (Aich)",
+      "culture": "Maghrebi (Tunisia/Algeria)",
+      "similarity": "Hand-rolled semolina grains.",
+      "key_difference": "Grains are significantly larger than couscous and usually cooked in a soup/sauce rather than steamed over broth."
+    },
+    {
+      "name": "Fregola Sarda",
+      "culture": "Italian (Sardinia)",
+      "similarity": "Small rolled semolina pasta.",
+      "key_difference": "Toasted in an oven (giving a nutty flavor) and boiled like pasta rather than steamed."
+    },
+    {
+      "name": "Dambou",
+      "culture": "West African (Niger/Benin)",
+      "similarity": "Steamed granules made from cereals/grains.",
+      "key_difference": "Made from rice flour, millet, or corn rather than wheat semolina; often mixed with moringa."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "adamshusha",
+  "slug": "adamshusha-tunisian-egg-soup",
+  "source_file": "data/safed_recipes/30_אדמשושה.json",
+  "name": "Adamshusha (Tunisian Egg Drop Soup)",
+  "name_hebrew": "אדמשושה",
+  "name_origin": "The name is a portmanteau or compound in Judeo-Tunisian Arabic (Derja). It combines 'Adma' (عظمة), the specific Tunisian word for 'egg' (literally meaning 'bone' or 'core', distinct from the standard Arabic 'bayda'), and 'Shusha' (شوشة). In Tunisian dialect, 'Shusha' refers to a 'tuft', 'tassel' (like that on a Chechia hat), or 'disheveled hair'. The name describes the culinary result: when an egg is poached in the soup without being contained, the whites feather out into wispy strands, resembling a messy tuft or tassel floating in the broth. (Confidence: likely)",
+  "description": "A simple, comforting Tunisian soup consisting of a light tomato and onion broth with poached eggs. It is similar to Shakshuka but with a soupier consistency, often served as a light meal.",
+  "cultural_context": "A traditional Djerban/Tunisian dish, often prepared for a quick lunch or dinner. It relies on pantry staples and is characteristic of the 'poor man's' cuisine that became a beloved comfort food.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with firm tofu cubes or chickpea flour dumplings, though the eggs are central to the dish's identity.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "medium size",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sweet_paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomato",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": "fresh",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_pepper",
+      "name": "Hot pepper",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "minced",
+      "notes": "very small, green or red chili",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 1,
+      "unit": "L",
+      "preparation": null,
+      "notes": "approximate",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 33.8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 4.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potato",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "cubed",
+      "notes": "small cubes",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "whole",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat the oil in a pot and sauté the diced onion until translucent.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the sweet paprika, chopped tomato, and the small hot pepper. Season with a little salt.",
+      "time_minutes": 2,
+      "tips": "Adding paprika to the oil helps release its flavor (blooming)."
+    },
+    {
+      "step": 3,
+      "instruction": "Sauté the mixture gently (steam slightly) to soften the vegetables.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add water and bring to a boil. If using potatoes, add them now and cook until they are tender.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Once the soup is boiling, carefully crack whole eggs directly into the broth.",
+      "time_minutes": null,
+      "tips": "Do not stir vigorously or the eggs will break apart."
+    },
+    {
+      "step": 6,
+      "instruction": "Cook for about 10 minutes until the egg whites are fully set but yolks are to your preference.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/002_admeshushah/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "soup",
+    "tunisian",
+    "djerban",
+    "eggs",
+    "vegetarian",
+    "quick-meal"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "ʿAẓma (egg/bone) + Shūsha (tuft/tassel)",
+    "meaning": "Tufted Egg or Tasseled Egg",
+    "confidence": "likely",
+    "notes": "Linguistic analysis of Tunisian Derja confirms 'Adma' as the standard term for egg and 'Shusha' as a descriptor for tufts/tassels. The visual correlation between a poached egg's wispy whites and a 'shusha' is a standard metaphorical naming convention in Maghrebi dialects."
+  },
+  "alternative_names": [
+    {
+      "name": "Adma Choucha",
+      "language": "French/Tunisian",
+      "notes": "Francophone spelling often found in colonial-era Tunisian cookbooks."
+    },
+    {
+      "name": "Marqat Adma",
+      "language": "Tunisian Arabic",
+      "notes": "Literally 'Egg Stew', a more generic term sometimes used for the same dish."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Shakshuka",
+      "culture": "North African / Middle Eastern",
+      "similarity": "Eggs poached in a tomato-based sauce.",
+      "key_difference": "Shakshuka is a thick stew/sauce where eggs are steamed on top; Adamshusha is a soup with a thinner broth."
+    },
+    {
+      "name": "Hsu",
+      "culture": "Tunisian",
+      "similarity": "A spicy semolina soup often containing eggs.",
+      "key_difference": "Hsu is thickened with grain (semolina) and is opaque; Adamshusha is typically a clear or light tomato broth."
+    },
+    {
+      "name": "Ojja",
+      "culture": "Tunisian",
+      "similarity": "Spicy tomato and egg dish.",
+      "key_difference": "In Ojja, the eggs are typically scrambled or agitated into the sauce, whereas Adamshusha requires the egg to remain whole (poached)."
+    },
+    {
+      "name": "Acqua Cotta",
+      "culture": "Italian (Tuscan)",
+      "similarity": "A peasant soup ('cooked water') served with a poached egg.",
+      "key_difference": "Uses Italian herbs and vegetables (celery, carrot) rather than the Harissa/Caraway profile of Tunisia."
+    }
+  ],
+  "intro_paragraph": "Adamshusha is a rustic Tunisian soup featuring eggs poached in a savory tomato and onion broth. Its name combines the local dialect words for \"egg\" and \"tassel,\" vividly describing how the whites feather out into wispy strands. A beloved Djerban comfort food, it utilizes humble pantry staples to create a quick, nourishing meal similar to a soupy shakshuka."
+}

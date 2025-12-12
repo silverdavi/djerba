@@ -1,0 +1,261 @@
+{
+  "id": "semolina_porridge",
+  "slug": "semolina-porridge",
+  "source_file": "data/safed_recipes/18_דייסת_סולת.json",
+  "name": "Semolina Porridge",
+  "name_hebrew": "דייסת סולת",
+  "name_origin": "The name provided ('Daysat Solet') is a Modern Hebrew descriptive term composed of ancient roots, used to translate the traditional North African dish name. 'Daysa' (דַּיְסָה) originates from Mishnaic Hebrew and Jewish Babylonian Aramaic ('daisa'), referring to a dish made of pounded or crushed grain. 'Solet' (סֹלֶת) is Biblical Hebrew for the finest wheaten flour or semolina. However, in the Djerban and Tunisian Judeo-Arabic context, this dish is traditionally known as 'Assida' (عصيدة) or 'Assida bil-hlib' (Porridge with milk).",
+  "description": "A classic, comforting warm breakfast dish made from fine semolina grains cooked in milk. It is a staple comfort food in many Israeli and North African Jewish homes, traditionally served with a dusting of cinnamon and sugar.",
+  "cultural_context": "While simple, this dish is a common childhood memory for many. In North African cuisine, semolina is a primary staple, used for couscous, breads, and porridges like this one (often related to the thicker 'Assida').",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Can be made with almond milk, oat milk, or soy milk instead of dairy milk.",
+  "meta": {
+    "servings": "2",
+    "prep_time_minutes": 2,
+    "cook_time_minutes": 8,
+    "total_time_minutes": 10,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "name": "Milk",
+      "amount": 500,
+      "unit": "ml",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 16.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2.1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "semolina",
+      "name": "Semolina (fine)",
+      "amount": 60,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 4 tablespoons",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 60,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 15,
+      "unit": "g",
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "butter",
+      "name": "Butter",
+      "amount": 15,
+      "unit": "g",
+      "preparation": null,
+      "notes": "adds richness",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "name": "Cinnamon",
+      "amount": null,
+      "unit": null,
+      "preparation": "ground",
+      "notes": "for garnish",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Pour the milk into a small pot and place over medium heat.",
+      "time_minutes": 3,
+      "tips": "Do not let the milk boil over."
+    },
+    {
+      "step": 2,
+      "instruction": "Just before the milk boils, lower the heat and gradually pour in the semolina while whisking constantly to prevent lumps.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the sugar and continue to cook and stir for about 3-5 minutes until the mixture thickens to a porridge consistency.",
+      "time_minutes": 4,
+      "tips": "If it becomes too thick, add a splash more milk."
+    },
+    {
+      "step": 4,
+      "instruction": "Remove from heat. Stir in the butter (if using) until melted.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Pour into bowls and sprinkle with ground cinnamon before serving.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Chocolate Semolina",
+      "description": "Add 1 teaspoon of cocoa powder or a square of chocolate during the cooking process."
+    },
+    {
+      "name": "Rose Water",
+      "description": "Add a drop of rose water at the end for a traditional North African fragrance."
+    }
+  ],
+  "image": {
+    "filename": "images/current/077_semolina_porridge/dish.png",
+    "prompt": "Warm bowl of creamy white semolina porridge topped with a dusting of cinnamon, wooden spoon, rustic setting"
+  },
+  "tags": [
+    "breakfast",
+    "kids-friendly",
+    "dairy",
+    "quick",
+    "comfort-food"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Hebrew/Aramaic: D-Y-S (to tread/thresh) | Arabic equivalent: 'A-S-D (to twist/stir)",
+    "meaning": "Porridge of Semolina (Hebrew) | To thicken/stir vigorously (Arabic original)",
+    "confidence": "confirmed",
+    "notes": "While the cookbook uses the Hebrew name, Djerban Jews historically used the Tunisian Arabic term 'Assida' or the French 'Bouillie'. The Hebrew 'Daysa' is cognate with Arabic 'Dasha' (to crush). The Arabic root for Assida refers to the vigorous stirring required to prevent lumps."
+  },
+  "alternative_names": [
+    {
+      "name": "'Assida / 'Asida",
+      "language": "tunisian_arabic",
+      "notes": "The traditional vernacular name in North Africa for a thick flour or semolina pudding. From the Arabic root meaning 'to twist' or 'stir'."
+    },
+    {
+      "name": "Bouillie de semoule",
+      "language": "french",
+      "notes": "Commonly used by Tunisian Jews during the French protectorate era to describe semolina milk porridge."
+    },
+    {
+      "name": "Monigo / Moniko",
+      "language": "ladino",
+      "notes": "A term sometimes used in Sephardic communities for a thick dough or porridge, though less common in Djerba than the Arabic terms."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Assida Bidha",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "Identical base of semolina/flour and liquid.",
+      "key_difference": "Often served with olive oil and date syrup (rub) or honey, whereas the Jewish breakfast version is frequently dairy-based (milk/butter)."
+    },
+    {
+      "name": "Grießbrei",
+      "culture": "German / Ashkenazi",
+      "similarity": "Semolina cooked in milk with sugar and cinnamon.",
+      "key_difference": "Texture is often fluffier; Djerban Assida can be denser or stickier depending on the water-to-milk ratio."
+    },
+    {
+      "name": "Muhallebi",
+      "culture": "Middle Eastern / Turkish",
+      "similarity": "Milk pudding dessert.",
+      "key_difference": "Traditionally thickened with rice flour or cornstarch rather than semolina (though variations exist), and served cold rather than warm."
+    },
+    {
+      "name": "Gatnabour",
+      "culture": "Armenian",
+      "similarity": "Warm rice pudding/porridge with cinnamon.",
+      "key_difference": "Uses whole rice grains rather than semolina wheat."
+    }
+  ],
+  "intro_paragraph": "Often called Daysat Solet in Israel, this creamy breakfast porridge is rooted in the North African tradition of Assida. Fine semolina grains are cooked gently in milk rather than water, creating a comforting, smooth texture. A cherished childhood staple across Djerba, it is traditionally finished with a simple dusting of cinnamon and sugar."
+}

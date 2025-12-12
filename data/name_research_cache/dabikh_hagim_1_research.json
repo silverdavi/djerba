@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name is a hybrid of Judeo-Arabic and Hebrew, typical of North African Jewish communities. 'Dabikh' (דביח) is a dialectal variation of the Arabic root 'T-B-Kh' (to cook). In the Maghreb (Tunisia/Libya/Algeria), 'Tbikha' (طبيخة) or 'Tabikh' refers specifically to a thick, slow-cooked vegetable ragout or stew. The spelling with a Dalet (ד) rather than the standard Arabic emphatic Tet (ט) likely reflects a specific Djerban pronunciation (voicing the emphatic consonant) or a local orthographic convention. 'Hagim' is the Hebrew plural for 'Holidays'. The use of pumpkin strongly suggests this is specifically for Rosh Hashanah, where pumpkin (Qra' or Kara) is a symbolic food (Simanim).",
+    "language_source": "tunisian_arabic",
+    "root_word": "Arabic: T-B-Kh (ط ب خ)",
+    "meaning": "Holiday Stew (literally 'Cooked Dish of the Holidays')",
+    "confidence": "likely",
+    "sources_notes": "The user's note that 'Tbiz' is an alternative name confirms the link to the Arabic 'Tbikha/Tabikh'. 'Tbiz' is likely a French-influenced phonetic spelling of 'Tbikha'. The 'D' spelling in 'Dabikh' is non-standard in Fus'ha but plausible in Djerban dialect."
+  },
+  "alternative_names": [
+    {
+      "name": "Tbikha",
+      "language": "tunisian_arabic",
+      "notes": "The standard Tunisian term for this category of vegetable stews."
+    },
+    {
+      "name": "Tbiz",
+      "language": "judeo_arabic",
+      "notes": "A colloquial or French-transliterated pronunciation of Tbikha/Tbeikh found in some Tunisian Jewish communities."
+    },
+    {
+      "name": "Tbikha Qra'",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Pumpkin Stew', which describes the contents of this specific Dabikh."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tbikha (Tunisian/Algerian)",
+      "culture": "Maghrebi Muslim",
+      "similarity": "A thick stew of seasonal vegetables (often chard, beans, or pumpkin) cooked in a similar oil/spice base.",
+      "key_difference": "The Jewish 'Hagim' version specifically incorporates pumpkin for Rosh Hashanah symbolism and may use kosher cuts of chicken rather than lamb or beef."
+    },
+    {
+      "name": "Msoki",
+      "culture": "Tunisian Jewish",
+      "similarity": "A festive vegetable stew eaten on holidays (specifically Passover).",
+      "key_difference": "Msoki is strictly for Passover (containing no leaven/legumes depending on custom) and usually features a wider variety of spring vegetables, whereas Dabikh Hagim focuses on pumpkin/herbs."
+    },
+    {
+      "name": "Tfina",
+      "culture": "Moroccan/Tunisian Jewish",
+      "similarity": "A slow-cooked meat and vegetable stew.",
+      "key_difference": "Tfina is the Shabbat stew (Adafina) cooked overnight, whereas Dabikh/Tbikha is typically a stovetop ragout cooked for a shorter duration."
+    }
+  ]
+}

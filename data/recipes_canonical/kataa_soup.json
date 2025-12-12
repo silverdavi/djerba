@@ -1,0 +1,302 @@
+{
+  "id": "kataa_soup",
+  "slug": "kataa-fresh-pasta-soup",
+  "source_file": "data/safed_recipes/02_קטעה.json",
+  "name": "Kata'a (Fresh Pasta Soup)",
+  "name_hebrew": "קטעה",
+  "name_origin": "Derived directly from the Arabic triconsonantal root Q-Ṭ-ʿ (ق-ط-ع), which encompasses meanings of 'cutting', 'chopping', 'tearing', or 'severing'. In Tunisian Arabic (Derja), the word 'Qat'a' (قطعة) literally means 'a piece' or 'a slice'. The dish name refers to the method of preparation where the fresh dough is manually torn or pinched into irregular 'pieces' before being dropped into the broth. It is linguistically and culinarily cognate with the broader Maghrebi term 'Mqatfa' (meaning 'the cut things' or 'cut pasta'), but the Djerban Jewish nomenclature preserves the noun form 'Kata'a' (Piece). (Confidence: likely)",
+  "description": "A traditional rustic Tunisian soup made with handmade fresh dough pieces boiled in a savory broth. The dish is similar to Mhamsa or Dwida but uses fresh, irregularly shaped dough pinched by hand directly into the boiling water, finished with a flour slurry for a thick, comforting texture.",
+  "cultural_context": "A Djerban/Tunisian comfort food. The recipe references 'Mhamsa, Shmid, Dwida', which are other traditional pasta-based soups, indicating this is part of the same family of starch-heavy, warming winter dishes.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 45,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 420,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Approx. 3 cups for the dough",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 250,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the dough (add gradually)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 66.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 8.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "For dough and soup seasoning",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 2,
+      "unit": "L",
+      "preparation": null,
+      "notes": "For the soup base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 66.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 8.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the broth",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": "ground",
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For thickening (slurry)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Prepare the soup base: Bring the large pot of water (2L) to a boil with the oil, salt, and black pepper.",
+      "time_minutes": 10,
+      "tips": "The original text suggests preparing this 'like Mhamsa', which often implies a simple seasoned broth."
+    },
+    {
+      "step": 2,
+      "instruction": "While the water is heating, prepare the dough: In a bowl, take the 3 cups of flour and a little salt. Gradually add water while kneading until a pleasant, pliable dough forms.",
+      "time_minutes": 10,
+      "tips": "The dough should not be too sticky."
+    },
+    {
+      "step": 3,
+      "instruction": "Once the soup water is boiling, lower the heat slightly. Pinch off small pieces of the dough and throw them directly into the boiling water.",
+      "time_minutes": 15,
+      "tips": "Work steadily. Stir occasionally to ensure the pieces do not stick to each other."
+    },
+    {
+      "step": 4,
+      "instruction": "Towards the end of cooking (when dough pieces are cooked through), prepare a thickening agent: In a small plate or bowl, mix a small amount of flour with water to create a liquid slurry.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Pour the flour mixture into the soup from a slight height while stirring vigorously to prevent lumps. Continue cooking and stirring until the soup thickens.",
+      "time_minutes": 5,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/047_ktaa/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "soup",
+    "pasta",
+    "winter-dish",
+    "vegan"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Q-Ṭ-ʿ (ق ط ع)",
+    "meaning": "Piece, cutting, or torn fragment",
+    "confidence": "likely",
+    "notes": "While 'Mqatfa' is the standard term in Algerian and general Tunisian cuisine for fresh artisan pasta soup, the specific Hebrew transliteration 'Kata'a' (קטעה) points to the singular noun 'Qat'a' (piece) used in the Djerban dialect. This naming convention follows the pattern of describing the physical state of the ingredient (the torn piece) rather than the verb (the cutting)."
+  },
+  "alternative_names": [
+    {
+      "name": "Mqatfa",
+      "language": "maghrebi_arabic",
+      "notes": "The more common regional name for fresh handmade pasta soup, though Mqatfa often implies dough rolled and cut with a knife rather than torn."
+    },
+    {
+      "name": "M'gata",
+      "language": "libyan_arabic",
+      "notes": "A cognate dish found in Libyan cuisine, also derived from the same root for 'cut' pasta."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Halalem",
+      "culture": "Tunisian",
+      "similarity": "A soup made with fresh, handmade dough.",
+      "key_difference": "Halalem dough is typically rolled between fingers into thin, worm-like shapes or small sticks, whereas Kata'a is torn/pinched into flat, irregular pieces."
+    },
+    {
+      "name": "Mhamsa",
+      "culture": "North African (Berber/Arab)",
+      "similarity": "A rustic pasta soup/stew.",
+      "key_difference": "Mhamsa uses sun-dried, formed pasta pellets (similar to fregola or giant couscous) made from semolina, while Kata'a uses fresh, wet dough cooked immediately."
+    },
+    {
+      "name": "Csipetke / Spätzle",
+      "culture": "Hungarian / Germanic",
+      "similarity": "Fresh dough pinched or scraped directly into boiling water.",
+      "key_difference": "These are European egg dumplings served as a side or in clear broth, lacking the spicy, tomato-heavy, or pulse-based profile of the Tunisian soup."
+    },
+    {
+      "name": "Hsu",
+      "culture": "Tunisian",
+      "similarity": "A thick, rustic soup often thickened with flour or semolina.",
+      "key_difference": "Hsu is primarily a semolina/flour porridge soup (sometimes with meatballs), whereas Kata'a is defined by the distinct dough pieces."
+    }
+  ],
+  "intro_paragraph": "Kata'a derives its name from the Arabic root for \"cutting,\" referring to the method of pinching fresh dough directly into boiling water. A rustic Djerban comfort food, the irregular pasta dumplings are simmered in a savory broth thickened with a flour slurry, creating a warming winter meal similar to Mhamsa."
+}

@@ -24,6 +24,7 @@ INGREDIENTS_DIR = IMAGES_DIR / "ingredients" / "final"
 INGREDIENTS_MATRIX = ROOT / "recipes_ingredients_matrix.csv"
 OUTPUT_WEB = ROOT / "gen_book" / "output" / "web"
 OUTPUT_PRINT = ROOT / "gen_book" / "output" / "print"
+OUTPUT_FLIPBOOK = ROOT / "gen_book" / "flipbook"
 CSS_FILE = ROOT / "gen_book" / "cookbook.css"
 
 # Load image index
@@ -279,13 +280,89 @@ def get_title_size_class(name: str, lang: str) -> str:
         return "title-small"
 
 
-def render_front_matter() -> str:
+def render_title_page_ingredients(use_absolute: bool = False) -> str:
+    """
+    Render ALL ingredient images spread across the title page background.
+    Uses a grid-based system to ensure no overlap.
+    Each ingredient has random size, rotation, and slight position jitter.
+    """
+    # Get all ingredient image files
+    ingredient_files = []
+    if INGREDIENTS_DIR.exists():
+        ingredient_files = sorted([f for f in INGREDIENTS_DIR.glob("*.png")])
+    
+    if not ingredient_files:
+        return ""
+    
+    # Seed for reproducibility
+    random.seed(42)
+    
+    # Create a grid layout for ~96 ingredients on an 8x8 inch page
+    # Use a 10x10 grid = 100 cells, each ~0.8in
+    grid_cols = 10
+    grid_rows = 10
+    cell_size = 0.8  # inches
+    
+    # Shuffle ingredients
+    shuffled = ingredient_files.copy()
+    random.shuffle(shuffled)
+    
+    icons_html = []
+    
+    for idx, img_path in enumerate(shuffled[:96]):  # Max 96 ingredients
+        # Grid position
+        row = idx // grid_cols
+        col = idx % grid_cols
+        
+        # Base position (center of cell)
+        base_left = col * cell_size + cell_size / 2
+        base_top = row * cell_size + cell_size / 2
+        
+        # Random jitter within cell (keep inside cell bounds)
+        jitter_x = random.uniform(-0.15, 0.15)
+        jitter_y = random.uniform(-0.15, 0.15)
+        
+        left = base_left + jitter_x
+        top = base_top + jitter_y
+        
+        # Random size (vary between 0.5 and 0.7 inches)
+        size = random.uniform(0.5, 0.7)
+        
+        # Random rotation
+        rotation = random.randint(-30, 30)
+        
+        # Random slight scale variation
+        scale = random.uniform(0.9, 1.1)
+        
+        # Use absolute or relative path
+        if use_absolute:
+            src = f"file://{img_path}"
+        else:
+            src = str(img_path)
+        
+        transform = f"rotate({rotation}deg) scale({scale})"
+        
+        icons_html.append(f'''<img class="title-ingredient" 
+             src="{src}" 
+             alt=""
+             style="left: {left:.2f}in; top: {top:.2f}in; width: {size:.2f}in; height: {size:.2f}in; transform: {transform};">''')
+    
+    return "\n        ".join(icons_html)
+
+
+def render_front_matter(use_absolute: bool = False) -> str:
     """Render title page, copyright page, introduction (2 pages), and blank page."""
     
+    # Generate ingredient background for title page
+    ingredients_bg = render_title_page_ingredients(use_absolute)
+    
     # Page 1: Title page - all four languages
-    title_page = '''
+    title_page = f'''
   <!-- TITLE PAGE -->
   <section class="page page--title">
+    <div class="title-ingredients-bg">
+        {ingredients_bg}
+    </div>
     <div class="page-inner title-page-inner">
       <div class="title-page-content">
         <div class="book-titles">
@@ -718,7 +795,7 @@ def render_recipe(recipe: dict, start_page: int, image_path: str, use_absolute: 
 def render_html(recipes: list[dict], css_content: str, image_base_path: str = "../images/", use_absolute: bool = False) -> str:
     """Render complete HTML document."""
     # Render front matter (title, copyright, intro, blank)
-    front_matter = render_front_matter()
+    front_matter = render_front_matter(use_absolute=use_absolute)
     
     recipe_html_parts = []
     page_num = 1  # Recipes start at page 1 (front matter uses roman numerals)
@@ -739,7 +816,7 @@ def render_html(recipes: list[dict], css_content: str, image_base_path: str = ".
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 {css_content}
@@ -756,9 +833,9 @@ def render_html(recipes: list[dict], css_content: str, image_base_path: str = ".
 '''
 
 
-def render_single_recipe_html(recipe: dict, css_content: str, image_path: str) -> str:
+def render_single_recipe_html(recipe: dict, css_content: str, image_path: str, chapter_index: int = 1) -> str:
     """Render HTML for a single recipe."""
-    recipe_html = render_recipe(recipe, 1, image_path)
+    recipe_html = render_recipe(recipe, 1, image_path, chapter_index=chapter_index)
     recipe_name = recipe["name"]["en"]
     
     return f'''<!DOCTYPE html>
@@ -770,7 +847,7 @@ def render_single_recipe_html(recipe: dict, css_content: str, image_path: str) -
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 {css_content}
@@ -787,14 +864,65 @@ def render_single_recipe_html(recipe: dict, css_content: str, image_path: str) -
 '''
 
 
+def build_front_matter_pages(css_content: str) -> None:
+    """Build individual front matter HTML pages for web deployment."""
+    front_matter_html = render_front_matter(use_absolute=False)
+    
+    # Parse the front matter HTML to extract individual pages
+    # The front matter contains 5 section.page elements
+    import re
+    
+    # Split by section tags
+    sections = re.findall(r'<section class="page[^"]*"[^>]*>.*?</section>', front_matter_html, re.DOTALL)
+    
+    page_names = ['_title', '_copyright', '_intro1', '_intro2', '_blank']
+    page_titles = ['Silver Cooks', 'Copyright', 'Introduction', 'Introduction', '']
+    
+    for i, (section, name, title) in enumerate(zip(sections, page_names, page_titles)):
+        if name == '_blank':
+            continue  # Skip blank page for web
+        
+        html_content = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{title} – Silver Cooks</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+{css_content}
+</style>
+</head>
+<body>
+
+<div class="book">
+{section}
+</div>
+
+</body>
+</html>
+'''
+        output_path = OUTPUT_WEB / f"{name}.html"
+        output_path.write_text(html_content, encoding="utf-8")
+        print(f"  ✓ {name}.html")
+
+
 def build_web(recipes: list[dict], css_content: str) -> None:
     """Build individual HTML pages for web deployment."""
     OUTPUT_WEB.mkdir(parents=True, exist_ok=True)
     
+    # Build front matter pages first
+    print("  Building front matter...")
+    build_front_matter_pages(css_content)
+    
+    print("  Building recipe pages...")
     for i, recipe in enumerate(recipes, 1):
         recipe_id = recipe["id"]
         image_path = get_image_path(recipe_id, "../images/generated/")
-        html_content = render_single_recipe_html(recipe, css_content, image_path)
+        html_content = render_single_recipe_html(recipe, css_content, image_path, chapter_index=i)
         
         output_path = OUTPUT_WEB / f"{recipe_id}.html"
         output_path.write_text(html_content, encoding="utf-8")
@@ -823,7 +951,7 @@ def build_index(recipes: list[dict], css_content: str) -> None:
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
   :root {{
@@ -940,6 +1068,35 @@ def build_pdf(num_recipes: int = 0) -> None:
         raise
 
 
+def build_flipbook_index(recipes: list[dict]) -> None:
+    """Build search index JSON for flipbook."""
+    OUTPUT_FLIPBOOK.mkdir(parents=True, exist_ok=True)
+    
+    search_data = {
+        "recipes": []
+    }
+    
+    for recipe in recipes:
+        recipe_entry = {
+            "id": recipe["id"],
+            "names": recipe["name"],
+            "ingredients": []
+        }
+        
+        # Collect all ingredients (use English for search)
+        if "ingredients" in recipe and "en" in recipe["ingredients"]:
+            recipe_entry["ingredients"] = recipe["ingredients"]["en"]
+        
+        search_data["recipes"].append(recipe_entry)
+    
+    # Write search index
+    index_path = OUTPUT_FLIPBOOK / "search-index.json"
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(search_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"  ✓ search-index.json ({len(recipes)} recipes indexed)")
+
+
 def main():
     """Main build function."""
     print("Four-Language Cookbook Builder")
@@ -968,10 +1125,15 @@ def main():
     print("\nBuilding PDF...")
     build_pdf(len(recipes))
     
+    # Build flipbook search index
+    print("\nBuilding flipbook search index...")
+    build_flipbook_index(recipes)
+    
     print("\n" + "=" * 40)
     print("Build complete!")
-    print(f"  Web:   {OUTPUT_WEB}/")
-    print(f"  Print: {OUTPUT_PRINT}/")
+    print(f"  Web:      {OUTPUT_WEB}/")
+    print(f"  Print:    {OUTPUT_PRINT}/")
+    print(f"  Flipbook: {OUTPUT_FLIPBOOK}/")
 
 
 if __name__ == "__main__":

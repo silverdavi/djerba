@@ -1,0 +1,94 @@
+{
+  "id": "vegancaesardressing",
+  "image": "images/current/016vegancaesar/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "5 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "רוטב קיסר טבעוני",
+    "es": "Aderezo César Vegano",
+    "ar": "صوص سيزر نباتي",
+    "en": "Vegan Caesar Dressing"
+  },
+  "description": {
+    "he": "רוטב קיסר טבעוני מציע תחליף שמנתי וצמחי לרוטב הסלט הקלאסי. השם משלב את המילה קיסר עם טבעוני, מונח בעברית מודרנית שמקורו במילה טבע. השילוב של מיונז טבעוני, צלפים ומיץ לימון יוצר תוספת פרווה מודרנית המשחזרת את הטעם המלוח והחמצמץ האופייני ללא אנשובי, ומתאימה לכל ארוחה.",
+    "es": "Rotev Keisar Tiv'oni ofrece una alternativa cremosa y vegetal al clásico aderezo para ensaladas. El nombre combina Keisar (César) con Tiv'oni, un término hebreo moderno para vegano arraigado en teva (naturaleza). Mezclando mayonesa vegana, alcaparras y jugo de limón, esta moderna adición pareve replica el sabor salado característico sin anchoas, haciéndolo adecuado para cualquier comida.",
+    "ar": "روتڤ قيصر طڤعوني هو بديل نباتي وكريمي لصوص السلطة المعروفة. الاسم يجمع بين قيصر و طڤعوني، كلمة عبرية جديدة للنباتي جاية من كلمة طيڤع (طبيعة). بتخليط المايونيز النباتي، والكبار، وعصير القارص، هالإضافة البارڤ الحديثة تعطي نفس الطعم المالح والحامض من غير أنشوة، وتواتي أي ماكلة.",
+    "en": "Rotev Keisar Tiv'oni offers a creamy, plant-based alternative to the classic salad topper. The name combines Keisar (Caesar) with Tiv'oni, a Modern Hebrew term for vegan rooted in teva (nature). Blending vegan mayonnaise, capers, and lemon juice, this modern pareve addition replicates the signature savory tang without anchovies, making it suitable for any meal."
+  },
+  "ingredients": {
+    "he": [
+      "120 מ\"ל מיונז טבעוני",
+      "5 גרם צלפים",
+      "7.5 מ\"ל מי צלפים (מהצנצנת)",
+      "30 מ\"ל מיץ לימון (סחוט טרי)",
+      "8 גרם חרדל דיז'ון",
+      "4 גרם פטרוזיליה טרייה, קצוצה (או 1/2 כפית יבשה)",
+      "2 שיני שום, קלופות",
+      "1.2 גרם פלפל שחור, טחון (לפי הטעם)",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "120 ml de mayonesa vegana",
+      "5 g de alcaparras",
+      "7.5 ml de salmuera de alcaparras (del frasco)",
+      "30 ml de jugo de limón (recién exprimido)",
+      "8 g de mostaza Dijon",
+      "4 g de perejil fresco, picado (o 1/2 cdta seco)",
+      "2 dientes de ajo, pelados",
+      "1.2 g de pimienta negra, molida (al gusto)",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1/2 كأس مايونيز نباتي",
+      "1 مغرفة صغيرة كبار",
+      "1.5 مغرفة صغيرة ماء الكبار (من الحكة)",
+      "2 مغارف عصير قارص (فريشك)",
+      "1.5 مغرفة صغيرة موتارد ديجون",
+      "1 مغرفة معدنوس فريشك، مقصوص (أو شطر مغرفة صغيرة شايح)",
+      "2 سنات ثوم، مقشرين",
+      "1/2 مغرفة صغيرة فلفل أكحل، مرحي (حسب الذوق)",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "1/2 cup vegan mayonnaise",
+      "1 tsp capers",
+      "1.5 tsp caper brine (from the jar)",
+      "2 tbsp lemon juice (freshly squeezed)",
+      "1.5 tsp Dijon mustard",
+      "1 tbsp fresh parsley, chopped (or 1/2 tsp dried parsley)",
+      "2 garlic cloves, peeled",
+      "0.5 tsp black pepper, ground (to taste)",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הוסיפו את המיונז הטבעוני, הצלפים, מי הצלפים, מיץ הלימון, החרדל, הפטרוזיליה, השום והפלפל למעבד מזון או בלנדר.",
+      "עבדו את התערובת עד לקבלת מרקם חלק לחלוטין.",
+      "טעמו את הרוטב ותקנו תיבול עם מלח או תבלינים נוספים לפי הצורך.",
+      "הגישו מיד עם סלטים, קערות בריאות או כריכים, או שמררו במקרר."
+    ],
+    "es": [
+      "Agregue la mayonesa vegana, las alcaparras, la salmuera, el jugo de limón, la mostaza, el perejil, el ajo y la pimienta a un procesador de alimentos o licuadora.",
+      "Licúe hasta que la mezcla esté completamente suave.",
+      "Pruebe el aderezo y ajuste la sal u otros condimentos según sea necesario.",
+      "Sirva inmediatamente con ensaladas, bowls o sándwiches, o guarde en el refrigerador."
+    ],
+    "ar": [
+      "حط المايونيز النباتي، والكبار، وماء الكبار، وعصير القارص، والموتارد، والمعدنوس، والثوم، والفلفل الأكحل في ميكسور أو رحاية.",
+      "ارحي كل شيء مليح حتى يولي الخليط أرطب جملة.",
+      "ذوق الصوص وزيد الملح ولا الفواح كان لازم.",
+      "قدمها ديركت مع السلطة، ولا السندويتشات، ولا خبيها في الفريجيدار."
+    ],
+    "en": [
+      "Add the vegan mayonnaise, capers, caper brine, lemon juice, dijon mustard, parsley, garlic, and pepper to a food processor or blender.",
+      "Blend until the mixture is completely smooth.",
+      "Taste the dressing and adjust salt or other seasonings as needed.",
+      "Serve immediately with salads, bowls, or sandwiches, or store in the refrigerator."
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "id": "pancakes_soly",
+  "slug": "pancakes-soly",
+  "source_file": "data/safed_recipes/pancakes_soly.json",
+  "name": "Soly's Pancakes",
+  "name_hebrew": "פנקייק סולי",
+  "name_origin": "The name is a modern construct found in Israeli/Diaspora Jewish culture rather than a traditional North African dialect. It combines the English loanword 'Pancake' (transliterated phonetically into Hebrew as פנקייק) with the possessive nickname 'Soly'. 'Soly' is a common affectionate diminutive for the name Solomon (Shlomo) among North African (Sephardic/Mizrahi) Jews. The use of the English loanword instead of traditional Tunisian terms like 'Ghraif' or 'Baghrir' indicates this is a Western recipe adopted by the family and adapted to be Kosher Parve, rather than an indigenous Djerban dish.",
+  "description": "A simple, dairy-free pancake recipe. By using water and oil instead of milk and butter, these pancakes are 'Parve' (kosher neutral), making them suitable to serve after a meat meal or for those avoiding dairy.",
+  "cultural_context": "The use of 'bags' for baking powder and vanilla sugar indicates an Israeli influence on the family cooking, where these ingredients are sold in standard 10g packets.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace the egg with a flax egg or commercial egg replacer.",
+  "meta": {
+    "servings": "10-12 pancakes",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 25,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 140,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 140,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.15,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 140,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 38,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "a pinch",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 5,
+      "unit": "g",
+      "preparation": null,
+      "notes": "1/2 standard packet",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 5,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_sugar",
+      "name": "Vanilla sugar",
+      "amount": 15,
+      "unit": "g",
+      "preparation": null,
+      "notes": "1.5 standard packets",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.53,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Egg",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "plus more for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 180,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 3/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 180,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 6,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 180,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large mixing bowl, whisk together the flour, sugar, salt, baking powder, vanilla sugar, and baking soda.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Make a well in the center and add the egg, oil, and water.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Mix until just combined. Do not overmix; a few lumps are okay.",
+      "time_minutes": 2,
+      "tips": "Overmixing makes pancakes tough."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat a lightly oiled frying pan or griddle over medium heat.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Pour or scoop the batter onto the griddle (approx. 1/4 cup per pancake). Brown on both sides and serve hot.",
+      "time_minutes": 15,
+      "tips": "Flip when bubbles form on the surface and the edges look set."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/084_pancakes_soly/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "breakfast",
+    "dessert",
+    "parve",
+    "kid-friendly"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "English 'Pancake' + Name 'Solomon'",
+    "meaning": "Pancakes made by or associated with Soly (Solomon)",
+    "confidence": "confirmed",
+    "notes": "Linguistic analysis of the Hebrew text (פנקייק) confirms it is a modern loanword. Traditional Djerban cuisine would use Judeo-Arabic terms if the dish were pre-colonial/indigenous."
+  },
+  "alternative_names": [
+    {
+      "name": "Ghraif",
+      "language": "tunisian_arabic",
+      "notes": "The traditional Tunisian term for pancakes/crepes, though usually semolina-based."
+    },
+    {
+      "name": "Chavitiyot",
+      "language": "hebrew",
+      "notes": "The standard Modern Hebrew word for pancakes or crepes."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Baghrir",
+      "culture": "Maghreb (Tunisia/Morocco/Algeria)",
+      "similarity": "A pancake-like dish eaten with honey/syrup.",
+      "key_difference": "Baghrir uses semolina and yeast to create a 'honeycomb' texture with holes; Soly's pancakes are likely flour-based and chemically leavened (Western style)."
+    },
+    {
+      "name": "Mofletta",
+      "culture": "Moroccan Jewish",
+      "similarity": "A fried dough/pancake eaten with sweet toppings.",
+      "key_difference": "Mofletta is a thin, stretched dough (like a crepe/rghaif) rather than a batter-based pancake."
+    },
+    {
+      "name": "American Pancakes",
+      "culture": "USA/Western",
+      "similarity": "Identical cooking method and texture.",
+      "key_difference": "Standard American pancakes use milk and butter; Soly's version substitutes water and oil to remain Parve (neutral) for Kosher dietary laws."
+    }
+  ],
+  "intro_paragraph": "Soly’s Pancakes—named for a common North African diminutive of Solomon—are a practical adaptation of the Western breakfast staple. By substituting water and oil for dairy, these fluffy cakes remain parve, making them a suitable dessert following a meat meal. The recipe reflects modern Israeli influence, utilizing standard baking packets common in Diaspora kitchens."
+}

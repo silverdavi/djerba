@@ -1,0 +1,59 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Marmouma' (or Marmouma) is specific to Tunisian Arabic (Derja). It likely derives from the Arabic root 'r-m-m' (رمم) or 'r-m' which can imply repairing or, in a dialectal sense, something that has been broken down or reduced. In the culinary context, it refers to the vegetables being cooked down until they lose their individual structure and become a cohesive, jam-like spread. It is linguistically distinct from the Moroccan 'Matbucha' (which simply means 'cooked'), though the dish is nearly identical. Some linguistic theories suggest a corruption of 'Maghmouma' (مغمومة), meaning 'smothered' or 'covered', referring to the cooking method of simmering in a covered pot to reduce the liquid, but 'Marmouma' is the established term in Tunisia.",
+    "language_source": "tunisian_arabic",
+    "root_word": "R-M-M (رمم) or G-M-M (غمّ)",
+    "meaning": "Broken down / Reduced / Smothered",
+    "confidence": "likely",
+    "sources_notes": "While 'Matbucha' is the pan-Maghrebi Jewish term often used in Israel, 'Marmouma' is the specific shibboleth of Tunisian and Djerban Jews. The distinction is crucial in Tunisia: 'Slata Mechouia' is grilled and ground, whereas 'Marmouma' is stewed/reduced in a pot."
+  },
+  "alternative_names": [
+    {
+      "name": "Salade Cuite",
+      "language": "french",
+      "notes": "Literally 'Cooked Salad'. This was the standard name used by French-speaking Tunisian Jews during the colonial period and in the diaspora (France)."
+    },
+    {
+      "name": "Makbouba",
+      "language": "tunisian_arabic",
+      "notes": "A variant name heard in some southern Tunisian communities, though this can sometimes refer to a slightly different tomato-pepper stew."
+    },
+    {
+      "name": "Matbucha",
+      "language": "arabic",
+      "notes": "The Moroccan/Israeli common name. While Djerbans use 'Marmouma', the dish is functionally the same as the Moroccan Matbucha."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Slata Mechouia",
+      "culture": "Tunisian",
+      "similarity": "Both are tomato and pepper salads served as appetizers.",
+      "key_difference": "Mechouia means 'grilled'—vegetables are charred over fire before chopping. Marmouma is stewed/sautéed in a pot."
+    },
+    {
+      "name": "Matbucha",
+      "culture": "Moroccan Jewish",
+      "similarity": "Identical ingredients (tomatoes, garlic, roasted peppers) and texture.",
+      "key_difference": "The name is the only real difference; Matbucha means 'the cooked one'. Moroccan versions sometimes use more paprika/oil."
+    },
+    {
+      "name": "Taktouka",
+      "culture": "Moroccan",
+      "similarity": "Cooked tomato and pepper salad.",
+      "key_difference": "Taktouka specifically uses roasted peppers mixed with fresh tomato sauce, whereas Marmouma often cooks everything down together raw (though variations exist)."
+    },
+    {
+      "name": "Shakshuka",
+      "culture": "North African / Israeli",
+      "similarity": "The base sauce of Shakshuka is essentially Marmouma.",
+      "key_difference": "Shakshuka is a main dish with poached eggs (adma); Marmouma is a cold appetizer salad without eggs."
+    },
+    {
+      "name": "Ezme",
+      "culture": "Turkish",
+      "similarity": "Spicy tomato and pepper appetizer.",
+      "key_difference": "Ezme is usually raw and finely minced, not cooked down into a jam."
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "id": "vegan_fish_chraime",
+  "slug": "vegan-fish-chraime",
+  "source_file": "data/safed_recipes/fish.json",
+  "name": "Vegan 'Fish' Patties in Tomato Sauce",
+  "name_hebrew": "קציצות דג טבעוניות",
+  "name_origin": "The name provided is modern descriptive Hebrew rather than a traditional Judeo-Arabic term, reflecting the dish's status as a contemporary adaptation. 'Ktzi'tzot' (patties) derives from the Hebrew root K-Tz-Tz (ק-צ-ץ), meaning 'to chop' or 'cut off.' The culinary inspiration, 'Chraime' (or Hraime), comes from the Arabic root 'ḥ-r-m' (forbidden/hot), specifically the diminutive form in Libyan and Tunisian Arabic meaning 'the little hot/spicy one,' referring to the piquant paprika and garlic sauce.",
+  "description": "A clever vegan adaptation of the traditional North African fish dish. Tofu and wakame seaweed are used to replicate the texture and flavor of the sea, baked into patties and served in a classic spicy tomato and pepper sauce.",
+  "cultural_context": "While tofu is not traditional to Djerban or Moroccan cuisine, this recipe adapts the classic 'Chraime' or 'Moroccan Fish' flavor profile (spicy tomato, garlic, cilantro) for a plant-based diet, maintaining the soul of the Friday night dinner.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "This recipe is inherently vegan, replacing white fish with extra firm tofu and using seaweed for flavor.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 45,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tofu_extra_firm",
+      "name": "Extra firm tofu",
+      "amount": 600,
+      "unit": "g",
+      "preparation": "pressed to remove liquid",
+      "notes": "The base for the patties",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 600,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 21.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 600,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "almond_flour",
+      "name": "Almond flour",
+      "amount": 6,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "Binder",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 12,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 6,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "wakame_seaweed",
+      "name": "Wakame seaweed",
+      "amount": 20,
+      "unit": "g",
+      "preparation": "rehydrated",
+      "notes": "Provides the 'fish' flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 20,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.7,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 20,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "For the patty mixture",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.16,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "flour",
+      "name": "Flour",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "All-purpose",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cumin",
+      "name": "Cumin",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 45,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For the sauce and spraying patties",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 45,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 45,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": "For sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": "sweet",
+      "notes": "For sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste, for sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomatoes",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "Ripe",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "red_bell_pepper",
+      "name": "Red bell pepper",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "sliced into strips",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_cloves",
+      "name": "Garlic cloves",
+      "amount": 5,
+      "unit": "unit",
+      "preparation": "sliced",
+      "notes": "Fresh",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cilantro",
+      "name": "Fresh cilantro",
+      "amount": 1,
+      "unit": "bunch",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "bunch"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Squeeze as much liquid as possible out of the tofu.",
+      "time_minutes": 5,
+      "tips": "Use a cheesecloth or tofu press for best results."
+    },
+    {
+      "step": 2,
+      "instruction": "Place the tofu, wakame seaweed, 1 tsp salt, garlic powder, flour, and cumin in a food processor. Pulse to combine.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Gradually add the almond flour while processing. Do not process for more than 2 minutes total to maintain texture.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Let the mixture rest for 5-10 minutes. Meanwhile, preheat the oven to 250°C (480°F).",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "With wet hands, form the mixture into patties. Place on a baking sheet, spray or brush lightly with oil, and bake for 10 minutes.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "To make the sauce: Heat oil in a wide pan. Add the turmeric, paprika, and a pinch of salt to the hot oil to open the spices.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Add the diced tomatoes, sliced bell pepper, sliced fresh garlic, and chopped cilantro.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Cook over medium heat until the vegetables soften and release their juices to form a sauce. If needed, add a small amount of water.",
+      "time_minutes": 15,
+      "tips": null
+    },
+    {
+      "step": 9,
+      "instruction": "Once the sauce is ready, gently add the baked patties to the pan and coat with sauce before serving.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/045_hraime/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "vegan",
+    "parve",
+    "north-african",
+    "main-dish",
+    "shabbat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "ק-צ-ץ (K-Tz-Tz)",
+    "meaning": "Vegan Fish Patties (Literal translation)",
+    "confidence": "confirmed",
+    "notes": "While the name is Modern Hebrew, the dish mimics the flavor profile of 'Chraime' or 'Hraime,' a quintessential North African Jewish Shabbat dish. In Djerba, fish balls might traditionally be called 'Keftas' (Arabic) or 'Boulettes' (French)."
+  },
+  "alternative_names": [
+    {
+      "name": "Chraime Tiv'oni",
+      "language": "Hebrew (Modern)",
+      "notes": "Common colloquial name meaning 'Vegan Chraime'"
+    },
+    {
+      "name": "Keftas de poisson (Végétalien)",
+      "language": "French/Arabic",
+      "notes": "Francophone North African term for fish balls, modified for the vegan version"
+    },
+    {
+      "name": "Hraime",
+      "language": "Judeo-Arabic (Libyan/Tunisian)",
+      "notes": "The name of the traditional sauce/dish this recipe emulates"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chraime / Hraime",
+      "culture": "Libyan and Tunisian Jewish",
+      "similarity": "The source material; fish cooked in a spicy sauce of paprika, cayenne, garlic, and caraway.",
+      "key_difference": "Uses real white fish (grouper or sea bass) instead of tofu/wakame."
+    },
+    {
+      "name": "Sardine Kefta Tagine (Kouari)",
+      "culture": "Moroccan",
+      "similarity": "Balls of minced fish (sardines) cooked in a spicy tomato sauce (chermoula base).",
+      "key_difference": "Uses fatty fish (sardines) and often includes animal fat; not vegan."
+    },
+    {
+      "name": "Kboukeb",
+      "culture": "Tunisian Jewish",
+      "similarity": "Fish stew with tomato, garlic, and cumin/caraway.",
+      "key_difference": "Usually uses whole fish steaks or pieces rather than ground patties; includes potatoes."
+    }
+  ],
+  "intro_paragraph": "Inspired by Chraime—from the Arabic for 'hot'—these vegan patties capture the essence of the spicy Friday night fish course. Tofu and wakame seaweed provide a savory, oceanic texture, formed into ktzi'tzot (patties). They are baked, then simmered in a classic Djerban sauce of rich tomatoes, peppers, and garlic."
+}

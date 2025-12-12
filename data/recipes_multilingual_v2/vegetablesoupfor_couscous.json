@@ -1,0 +1,110 @@
+{
+  "id": "vegetablesoupfor_couscous",
+  "image": "images/current/027couscoussoup/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "75 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מרק ירקות לקוסקוס (מרגה)",
+    "es": "Sopa de Verduras para Cuscús (Marga)",
+    "ar": "مرقة خضرة للكسكسي",
+    "en": "Vegetable Soup for Couscous (Marga)"
+  },
+  "description": {
+    "he": "מרגה, המונח היהודי-ערבי המסורתי לתבשיל העשיר המוגש על קוסקוס, מגיע מהשורש למרק. עוף וירקות עונתיים מאודים לאט עם תבלינים בשיטת ה\"תקליה\", מה שיוצר ציר עמוק ובעל טעם. כמנה העיקרית בשולחן הג'רבאי, המרק הופך את גרגירי הקוסקוס לארוחה שלמה.",
+    "es": "Marga, el término tradicional judeo-árabe para el rico estofado servido sobre el cuscús, deriva de la raíz para caldo. El pollo y las verduras de temporada se sudan lentamente con especias usando el método teklia, creando un caldo profundo y sabroso. Como pieza central de la mesa de Djerba, transforma los granos al vapor en una comida completa.",
+    "ar": "المرقة، هي الكلمة اليهودية العربية التقليدية للتطيبخة الغنية اللي تتحط فوق الكسكسي. الدجاج والخضرة يتقلاو بالشوية مع الفاحات بطريقة التقلية، باش يعطيو مرقة بنينة وعاقدة. المرقة هي أساس الطاولة الجربية، وتحول الكسكسي المفور لوجبة كاملة.",
+    "en": "Marga, the traditional Judeo-Arabic term for the rich stew served atop couscous, derives from the root for broth. Chicken and seasonal vegetables are slowly sweated with spices using the teklia method, creating a deep, flavorful stock. As the centerpiece of the Djerban table, it transforms steamed grains into a complete meal."
+  },
+  "ingredients": {
+    "he": [
+      "30 מ\"ל שמן צמחי",
+      "7 גרם פפריקה מתוקה",
+      "1 בצל גדול, פרוס",
+      "500 גרם דלעת, חתוכה לקוביות גדולות",
+      "3 קישואים, חתוכים לקוביות גדולות",
+      "200 גרם גרגירי חומוס, מושרים או משומרים",
+      "200 גרם שעועית ירוקה, נקייה",
+      "מלח לפי הטעם",
+      "מים רותחים לכיסוי המרכיבים",
+      "1 ק\"ג עוף, מחולק לחלקים",
+      "3 תפוחי אדמה, קלופים וחתוכים לרבעים"
+    ],
+    "es": [
+      "30 ml de aceite vegetal",
+      "7 g de pimentón dulce",
+      "1 cebolla grande, en rodajas",
+      "500 g de calabaza, cortada en trozos grandes",
+      "3 calabacines, cortados en trozos grandes",
+      "200 g de garbanzos, remojados o en conserva",
+      "200 g de judías verdes, limpias",
+      "Sal al gusto",
+      "Agua hirviendo para cubrir los ingredientes",
+      "1 kg de pollo, troceado",
+      "3 patatas, peladas y cortadas en cuartos"
+    ],
+    "ar": [
+      "2 مغارف زيت",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "1 بصلة كبيرة، مقصوصة",
+      "3.5 كيسان كابوية (قرع أحمر)، مقصوصة طروف كبار",
+      "3 كعبات قرع أخضر، مقصوصين طروف كبار",
+      "1.2 كاس حمص، منفخ",
+      "2 كيسان لوبيا خضرة",
+      "ملح حسب الذوق",
+      "ماء سخون باش نغموا الخضرة",
+      "1 كيلو دجاج، مقصوص طروف",
+      "3 كعبات بطاطا، مقشرين ومقصوصين على أربعة"
+    ],
+    "en": [
+      "2 tbsp vegetable oil",
+      "1 tbsp sweet paprika",
+      "1 large onion, sliced",
+      "3.5 cups pumpkin, cut into large chunks",
+      "3 zucchini, cut into large chunks",
+      "1.2 cups chickpeas, soaked or canned",
+      "2 cups green beans, trimmed",
+      "Salt to taste",
+      "Boiling water to cover ingredients",
+      "2.2 lbs chicken, cut into pieces",
+      "3 potatoes, peeled and quartered"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר מרק גדול, מחממים את השמן ומוסיפים את הפפריקה (פותחים את התבלין בשמן).",
+      "מוסיפים את הבצל הפרוס, ואחריו את הדלעת, הקישואים, החומוס והשעועית הירוקה.",
+      "מוסיפים מלח, מכסים את הסיר ומניחים לירקות להתאדות במיצים של עצמם על אש נמוכה-בינונית למשך כ-30 דקות.",
+      "מוסיפים מים רותחים לכיסוי הירקות ומוסיפים את נתחי העוף.",
+      "מביאים לרתיחה, ואז מנמיכים את האש. לקראת סוף הבישול (כשהעוף כמעט מוכן), מוסיפים את תפוחי האדמה.",
+      "מבשלים ברתיחה עדינה עד שהעוף מבושל לגמרי ותפוחי האדמה רכים."
+    ],
+    "es": [
+      "En una olla grande para sopa, caliente el aceite y añada el pimentón (para que suelte su aroma en el aceite).",
+      "Añada las cebollas en rodajas, seguidas de la calabaza, los calabacines, los garbanzos y las judías verdes.",
+      "Añada sal, tape la olla y deje que las verduras suden en sus propios jugos a fuego medio-bajo durante unos 30 minutos.",
+      "Añada agua hirviendo para cubrir las verduras e incorpore los trozos de pollo.",
+      "Lleve a ebullición y luego reduzca el fuego. Hacia el final de la cocción (cuando el pollo esté casi hecho), añada las patatas.",
+      "Cocine a fuego lento hasta que el pollo esté completamente cocido y las patatas estén tiernas."
+    ],
+    "ar": [
+      "في طنجرة كبيرة، سخن الزيت وحط الفلفل الأحمر (قلي الفلفل شوية في الزيت).",
+      "زيد البصل المقصوص، ومبعد الكابوية، والقرع الأخضر، والحمص، واللوبيا الخضرة.",
+      "حط الملح، غطي الطنجرة، وخلي الخضرة تتقلى وتخرج ماها على نار هادية لمدة 30 دقيقة تقريبًا.",
+      "مرق بالماء السخون باش تغطي الخضرة وحط طروف الدجاج.",
+      "خلي المرقة تغلي، ومبعد نقص النار. في لخر (كيف يطيب الدجاج تقريبًا)، ارمي البطاطا.",
+      "خليها تطيب لين الدجاج يطيب مليح والبطاطا تولي طرية."
+    ],
+    "en": [
+      "In a large soup pot, heat the oil and add the paprika (blooming the spice in the oil).",
+      "Add the sliced onions, followed by the pumpkin, zucchini, chickpeas, and green beans.",
+      "Add salt, cover the pot, and let the vegetables steam/sweat in their own juices on low-medium heat for about 30 minutes.",
+      "Add boiling water to cover the vegetables and add the chicken pieces.",
+      "Bring to a boil, then reduce heat. Towards the end of the cooking time (when chicken is nearly done), add the potatoes.",
+      "Simmer until the chicken is fully cooked and potatoes are tender."
+    ]
+  }
+}

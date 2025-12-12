@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The provided Hebrew name 'Artichoke ve Pitriot' is a modern descriptive translation. The traditional Djerban/Tunisian name for this dish is 'Gannariya' (قنارية) or 'Marqat Gannariya'. Unlike the English word 'Artichoke' (which derives from the Andalusian Arabic 'al-khurshuf'), the Tunisian word 'Gannariya' derives from the Latin 'Cynara' (or Greek 'Kinnara'), reflecting the Roman agricultural heritage of North Africa. The addition of mushrooms ('Foggâ' in dialect, though often called 'Champignon' due to French influence) suggests a later adaptation, as traditional pre-colonial stews more commonly paired artichokes with peas or fava beans.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Cynara (Latin) -> Gannariya (Tunisian Arabic)",
+    "meaning": "Artichoke Stew (literally just 'Artichoke')",
+    "confidence": "likely",
+    "sources_notes": "The Hebrew name provided is Modern Hebrew. In the context of Djerban cuisine, dishes are named after the primary vegetable. 'Gannariya' is the specific Maghrebi term for artichoke, distinct from the Middle Eastern 'Ardi-Shawki'. The yellow turmeric and lemon base identifies this as a 'Za'ara' (yellow sauce) or 'Msharmal' (marinated) style stew."
+  },
+  "alternative_names": [
+    {
+      "name": "Marqat Gannariya",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Stew of Artichokes'. This is the standard generic name for the dish."
+    },
+    {
+      "name": "Gannariya bil Foggâ",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Artichokes with Mushrooms'. 'Foggâ' is the Maghrebi term for fungus/mushrooms, though 'Champignon' is often used in Jewish-Tunisian dialect."
+    },
+    {
+      "name": "Gannariya Za'ara",
+      "language": "tunisian_arabic",
+      "notes": "Refers to the 'yellow' (za'ara) sauce created by turmeric, distinguishing it from tomato-based red stews."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Marqat Jilbana",
+      "culture": "Tunisian/Maghrebi",
+      "similarity": "A very similar stew using green peas instead of artichokes, often cooked with the same turmeric and lemon base.",
+      "key_difference": "Uses peas as the primary vegetable; often includes meat (lamb or veal) whereas the Jewish version described is likely a pareve side dish."
+    },
+    {
+      "name": "Artichauts à la Barigoule",
+      "culture": "French (Provençal)",
+      "similarity": "Braised artichokes with acid (wine/lemon) and aromatics.",
+      "key_difference": "Uses white wine and carrots; lacks the heavy turmeric/ginger profile of the Maghrebi version."
+    },
+    {
+      "name": "Zeytinyağlı Enginar",
+      "culture": "Turkish",
+      "similarity": "Artichokes cooked in olive oil and lemon juice, served room temperature.",
+      "key_difference": "Usually includes carrots and peas inside the artichoke heart; sweeter profile; lacks the turmeric intensity."
+    }
+  ]
+}

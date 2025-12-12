@@ -1,0 +1,82 @@
+{
+  "id": "marmouma",
+  "image": "images/current/055_marmouma/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "20 min",
+    "cook_time": "60 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרמומה",
+    "es": "Marmouma (Ensalada tunecina de tomate y pimiento cocidos)",
+    "ar": "مرمومة (سلاطة تونسية مطبوخة)",
+    "en": "Marmouma (Tunisian Cooked Tomato and Pepper Salad)"
+  },
+  "description": {
+    "he": "מרמומה, סלט מבושל עשיר של עגבניות, פלפלים ושום, שואבת את שמה משורש דיאלקטי המתאר ירקות שבושלו עד לריכוך. מנה בסיסית זו במטבח היהודי הג'רבאי, המבושלת בבישול איטי עד למרקם של ריבה, נבדלת מהמטבוחה הגנרית. היא מוגשת באופן מסורתי כחלק מהקמיה של שבת לצד לחם.",
+    "es": "La Marmouma, una rica ensalada cocida de tomates, pimientos y ajo, toma su nombre de una raíz dialectal que describe verduras guisadas hasta ablandarse. Cocinada a fuego lento hasta lograr una consistencia de mermelada, este plato básico judío de Djerba es distinto de la matbucha genérica. Se sirve tradicionalmente como parte de la kemia de Shabat junto con pan.",
+    "ar": "المرمومة، سلاطة مطبوخة غنية بالطماطم والفلفل والثوم، تاخذ اسمها من كلمة تصف الخضرة اللي طابت لين ذابت. تطيب على نار هادية لين تولي عاقدة كيف المعجون، وهي أكلة أساسية عند يهود جربة وتختلف على المطبوخة العادية. تتقدم عادةً مع الكيمية نهار السبت بحذا الخبز.",
+    "en": "Marmouma, a rich cooked salad of tomatoes, peppers, and garlic, takes its name from a dialectal root describing vegetables stewed until soft. Slow-cooked to a jam-like consistency, this Djerban Jewish staple is distinct from generic matbucha. It is traditionally served as part of the Shabbat kemia appetizer spread alongside bread."
+  },
+  "ingredients": {
+    "he": [
+      "10 עגבניות בינוניות, חתוכות לקוביות קטנות",
+      "5 פלפלים אדומים מתוקים (גמבה), חתוכים לקוביות קטנות",
+      "3 פלפלים חריפים, קצוצים דק",
+      "10 שיני שום, כתושות או פרוסות",
+      "60 מ\"ל שמן זית",
+      "מלח גס לפי הטעם"
+    ],
+    "es": [
+      "10 tomates medianos, cortados en cubos pequeños",
+      "5 pimientos rojos dulces, cortados en cubos pequeños",
+      "3 pimientos picantes, picados finamente",
+      "10 dientes de ajo, picados o en láminas",
+      "60 ml de aceite de oliva",
+      "Sal gruesa al gusto"
+    ],
+    "ar": [
+      "10 كعبات طماطم، مقصوصين طروف صغار",
+      "5 فلفل أحمر حلو، مقصوصين طروف صغار",
+      "3 قرون فلفل حار، مقصوصين جويدين",
+      "10 سنون ثوم، مرحي ولا مقصوص",
+      "ربع كاس زيت زيتونة",
+      "ملح أحرش حسب الذوق"
+    ],
+    "en": [
+      "10 medium tomatoes, diced small",
+      "5 sweet red peppers (bell peppers), diced small",
+      "3 hot peppers, finely chopped",
+      "10 cloves garlic, minced or sliced",
+      "1/4 cup olive oil",
+      "Coarse salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "שוטפים וחותכים את כל הירקות (עגבניות, פלפלים מתוקים, פלפלים חריפים ושום) לחתיכות קטנות.",
+      "מניחים את כל הירקות החתוכים בסיר.",
+      "מוסיפים את שמן הזית והמלח הגס.",
+      "מבשלים על אש בינונית-נמוכה. מניחים לתערובת להתבשל בבעבוע עדין עד שכל הנוזלים שהופרשו מהירקות נספגים או מתאדים."
+    ],
+    "es": [
+      "Lavar y cortar todas las verduras (tomates, pimientos dulces, pimientos picantes y ajo) en trozos pequeños.",
+      "Colocar todas las verduras picadas en una olla.",
+      "Añadir el aceite de oliva y la sal gruesa.",
+      "Cocinar a fuego medio-bajo. Dejar que la mezcla hierva a fuego lento hasta que todos los líquidos liberados por las verduras se absorban o evaporen."
+    ],
+    "ar": [
+      "اغسل وقص الخضرة الكل (طماطم، فلفل حلو، فلفل حار وثوم) طروف صغار.",
+      "حط الخضرة المقصوصة الكل في طنجرة.",
+      "زيد زيت الزيتونة والملح الأحرش.",
+      "طيّب على نار متوسطة للواطية. خلّي الخليط يغلي بالشوية لين الماء متاع الخضرة ينشح ويتبخر الكل."
+    ],
+    "en": [
+      "Wash and cut all the vegetables (tomatoes, sweet peppers, hot peppers, and garlic) into small pieces.",
+      "Place all the chopped vegetables into a pot.",
+      "Add the olive oil and coarse salt.",
+      "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed or evaporated."
+    ]
+  }
+}

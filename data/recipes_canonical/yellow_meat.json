@@ -1,0 +1,385 @@
+{
+  "id": "yellow_meat",
+  "slug": "yellow-meat",
+  "source_file": "data/safed_recipes/yellow_meat.json",
+  "name": "Yellow Meat (Basar Tzahov)",
+  "name_hebrew": "בשר צהוב",
+  "name_origin": "The name 'Basar Tzahov' is a Modern Hebrew descriptive calque (loan translation) of the traditional Judeo-Arabic classification. In North African cuisine, particularly Tunisian and Moroccan, stews (Mraka/Marqa) are strictly categorized by the color of their sauce: 'Hamra' (Red, using tomato and paprika) or 'Za'ara'/'Safra' (Yellow, using turmeric and saffron). While the provided name is Hebrew, the dish corresponds to the Tunisian 'Lham Asfar' (Yellow Meat) or 'Lham Za'ara'. The specific cooking technique described (roasting/searing a whole piece, slicing, then simmering in sauce) reflects the French colonial influence on Tunisian cuisine, specifically the 'Rôti', adapted to the Jewish palate with turmeric-based sauces. (Confidence: likely)",
+  "description": "A savory beef roast that is first slow-cooked in the oven, then sliced and simmered in a rich, turmeric-infused onion sauce. The 'yellow' sauce is a signature of many North African Jewish meat dishes.",
+  "cultural_context": "Turmeric-based stews are a staple in Djerban and Tunisian cuisine, often serving as a lighter alternative to tomato-based red sauces.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Could be adapted using seitan logs or thick slices of tofu, though the texture will differ significantly.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 180,
+    "total_time_minutes": 200,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef_roast",
+      "name": "Beef roast (Chuck or Brisket)",
+      "amount": 1.5,
+      "unit": "kg",
+      "preparation": "whole",
+      "notes": "Inferred main ingredient",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 52.9,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 1.5,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion_powder",
+      "name": "Onion powder",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For rubbing the meat",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 8,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.28,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 2,
+      "unit": "unit",
+      "size": "large",
+      "preparation": "diced",
+      "notes": "For the sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "For frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": "ground",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 9,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.32,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_consomme_powder",
+      "name": "Chicken seasoning (consommé powder)",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Or to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 11,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.39,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "bay_leaf",
+      "name": "Bay leaves",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "whole",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_peppercorns",
+      "name": "Whole black peppercorns",
+      "amount": 6,
+      "unit": "unit",
+      "preparation": "whole",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 6,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": "ground",
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 250,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Approximate amount for sauce",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.05,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 250,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 160°C (320°F). Massage the whole piece of meat thoroughly with onion powder.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Place the meat in a baking dish and seal tightly with aluminum foil. Cook in the oven for 2.5 hours until tender.",
+      "time_minutes": 150,
+      "tips": "Ensure the foil is very tight to steam the meat in its own juices."
+    },
+    {
+      "step": 3,
+      "instruction": "Remove meat from the oven and let it cool slightly. Slice the meat into serving portions.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "In a wide pot, heat the oil and fry the diced onions until they turn golden brown.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the turmeric, chicken seasoning, salt, ground pepper, whole peppercorns, and bay leaves to the onions. Stir briefly to release aromatics.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Add the sliced meat to the pot. Add water (approx 250ml or enough to create a sauce but not submerge completely). Cover and simmer on low heat for another 20-30 minutes to let flavors meld.",
+      "time_minutes": 30,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/049_lham_sfar/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "meat",
+    "beef",
+    "stew",
+    "north-african",
+    "shabbat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Hebrew: בָּשָׂר (Basar) + צָהוֹב (Tzahov) | Arabic equivalent root: S-F-R (Yellow)",
+    "meaning": "Yellow Meat",
+    "confidence": "likely",
+    "notes": "The Hebrew name is descriptive and likely adopted by immigrants to Israel to describe the traditional 'Mraka Za'ara' or 'Rôti' with turmeric sauce. In Tunisian dialect, 'Za'ara' implies a 'blonde' or yellow sauce free of tomato."
+  },
+  "alternative_names": [
+    {
+      "name": "Lham Asfar",
+      "language": "judeo_arabic",
+      "notes": "Literal Arabic translation of Yellow Meat."
+    },
+    {
+      "name": "Mraka Za'ara",
+      "language": "tunisian_arabic",
+      "notes": "Refers to the 'blonde' or yellow stew base used for the meat."
+    },
+    {
+      "name": "Rôti",
+      "language": "french_tunisian",
+      "notes": "Tunisians (Jews and Muslims) often use this French term for pot-roasted beef, which is then sliced and served with sauce."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Mqualli",
+      "culture": "Moroccan",
+      "similarity": "A meat tagine cooked in a yellow sauce (ginger, saffron, turmeric) without tomato.",
+      "key_difference": "Mqualli is usually braised raw-to-finish, whereas the described dish is roasted/baked then sliced and simmered."
+    },
+    {
+      "name": "Tajine Zitoune (White/Yellow Version)",
+      "culture": "Algerian/Tunisian",
+      "similarity": "Meat stew with olives in a turmeric/saffron sauce.",
+      "key_difference": "Focuses heavily on olives; the Jewish 'Basar Tzahov' focuses on the onion reduction and turmeric."
+    },
+    {
+      "name": "Rôti de Veau Tunisien",
+      "culture": "Tunisian (General)",
+      "similarity": "Roast veal or beef cooked with spices and sliced.",
+      "key_difference": "Often served with hard-boiled eggs (adma) or different garnishes; the Jewish version is distinct for its Shabbat-friendly preparation."
+    }
+  ],
+  "intro_paragraph": "Basar Tzahov, literally \"Yellow Meat,\" follows the North African tradition of categorizing stews by their sauce color. Distinct from tomato-based red dishes, this savory beef roast is slow-cooked, sliced, and simmered in a rich, turmeric-infused onion sauce. It serves as a classic example of the aromatic *Za'ara* style found in Djerban Jewish kitchens."
+}

@@ -1,0 +1,485 @@
+{
+  "id": "mocha_java_cake",
+  "slug": "mocha-java-cake",
+  "source_file": "data/safed_recipes/mocha_java_cake.json",
+  "name": "Mocha Java Cake",
+  "name_hebrew": "עוגת מוקה ג'אווה",
+  "name_origin": "The name is not of Judeo-Arabic or North African origin, but rather a Western loan phrase adopted into the modern Israeli-Tunisian repertoire. 'Mocha' refers to the port city of Al Mokha in Yemen (historically the center of the coffee trade), and 'Java' refers to the Indonesian island. Together, 'Mocha Java' is historically the world's oldest coffee blend. In a culinary context, 'Mocha' has come to signify the combination of chocolate and coffee. The presence of this dish in a Djerban cookbook reflects the strong French and later Western influence on Tunisian Jewish cuisine during the 20th century, where French patisserie terms were adopted and adapted for Kosher (parve) requirements.",
+  "description": "A rich, dairy-free (parve) chocolate coffee cake. The base is prepared by melting ingredients together for a fudgy texture, topped with a glossy coffee-chocolate ganache.",
+  "cultural_context": "A typical modern Jewish-Israeli dessert recipe designed to be 'Parve' (dairy-free), allowing it to be served after a meat meal on Shabbat or holidays. It uses margarine and vegan whipping cream (common kosher substitutes) to achieve a rich texture without dairy.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer to make fully vegan.",
+  "meta": {
+    "servings": "10-12",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 60,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "margarine",
+      "name": "Margarine",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "for the cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 7,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 80,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/3 cup; for the cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 80,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 80,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 200,
+      "unit": "g",
+      "preparation": null,
+      "notes": "for the cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "instant_coffee",
+      "name": "Instant coffee granules",
+      "amount": 1.5,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for the cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 9,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dark_chocolate",
+      "name": "Dark chocolate",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "broken into pieces or chips",
+      "notes": "for the cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.9,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "medium/large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 140,
+      "unit": "g",
+      "preparation": "sifted",
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 140,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.15,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 140,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.4,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "instant_coffee",
+      "name": "Instant coffee granules",
+      "amount": 1.5,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for the glaze",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 9,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegan_whipping_cream",
+      "name": "Vegan whipping cream",
+      "amount": 180,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 3/4 cup; for the glaze",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 180,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 6.1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 180,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dark_chocolate",
+      "name": "Dark chocolate",
+      "amount": 150,
+      "unit": "g",
+      "preparation": "broken into pieces or chips",
+      "notes": "for the glaze",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.9,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "powdered_sugar",
+      "name": "Powdered sugar",
+      "amount": 80,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 2/3 cup; for the glaze",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 80,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.67,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 80,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 180°C (350°F). Grease a medium baking pan.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a saucepan over medium heat, combine the margarine, water, sugar, and the first portion of coffee (1.5 tbsp). Heat until melted and almost boiling.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the first portion of chocolate (200g) to the hot mixture and stir until completely melted and smooth.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Remove from heat. Add the eggs one by one, stirring vigorously between each addition to prevent the eggs from cooking.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the flour, salt, and baking powder. Mix until well combined.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Pour the batter into the prepared pan. Bake for about 20 minutes, or until the cake is firm and a skewer inserted into the center comes out clean.",
+      "time_minutes": 20,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Remove cake from oven and allow it to cool.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "To prepare the glaze: In a small saucepan over low heat, mix the vegan whipped cream with the second portion of coffee (1.5 tbsp).",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 9,
+      "instruction": "Once the cream mixture is hot and coffee is dissolved, add the second portion of chocolate (150g). Stir until melted.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 10,
+      "instruction": "Remove glaze from heat and stir in the powdered sugar until smooth. Let it cool slightly.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 11,
+      "instruction": "Pour the warm glaze over the cooled cake before serving.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/060_mocha_java_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "parve",
+    "chocolate",
+    "coffee",
+    "shabbat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "Al-Mukhā (Arabic) + Java (Indonesian)",
+    "meaning": "Chocolate and Coffee Cake (implied)",
+    "confidence": "confirmed",
+    "notes": "This is a modern descriptive name. Unlike traditional dishes (like 'Mhamsa' or 'Banatage'), this does not have a root in Tunisian Derja. It likely evolved from the French 'Gâteau Moka' (a popular coffee buttercream cake in France/Tunisia), adapted here to be a parve chocolate-coffee cake."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau Moka",
+      "language": "French",
+      "notes": "The likely colonial-era inspiration for coffee-flavored cakes in Tunisia."
+    },
+    {
+      "name": "Ugat Shokolad-Kafe",
+      "language": "Hebrew",
+      "notes": "Literal translation: Chocolate-Coffee Cake."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Gâteau Moka",
+      "culture": "French",
+      "similarity": "A classic French cake flavored with coffee.",
+      "key_difference": "The traditional French Moka relies heavily on crème au beurre (buttercream) and genoise, making it dairy. The Jewish Djerban version is adapted to be 'parve' (dairy-free) using oil and a fudgy, melted base."
+    },
+    {
+      "name": "Devil's Food Cake",
+      "culture": "American/Western",
+      "similarity": "Rich, moist chocolate cake often enhanced with coffee to deepen the flavor.",
+      "key_difference": "The Djerban version specifically highlights the 'Java' (coffee) element as a primary flavor profile rather than just a flavor enhancer."
+    },
+    {
+      "name": "Bouscoutou",
+      "culture": "Tunisian Jewish",
+      "similarity": "The ubiquitous sponge cake of Tunisian Jewry.",
+      "key_difference": "Bouscoutou is a light, airy sponge (often citrus), whereas the Mocha Java is described as fudgy, rich, and dense."
+    }
+  ],
+  "intro_paragraph": "Mocha Java Cake combines chocolate and coffee in a dense, fudgy dessert named for the historic coffee blend from Yemen and Indonesia. A modern staple in Israeli-Djerban households, this recipe is strictly parve, utilizing margarine and non-dairy cream to create a rich finish suitable for serving after a traditional meat Shabbat dinner."
+}

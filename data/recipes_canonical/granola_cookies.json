@@ -1,0 +1,450 @@
+{
+  "id": "granola_cookies",
+  "slug": "granola-cookies",
+  "source_file": "data/safed_recipes/granola_cookies.json",
+  "name": "Granola Cookies",
+  "name_hebrew": "עוגיות גרנולה",
+  "name_origin": "The name is a modern Hebrew construction consisting of two parts. 'Ugiot' (עוגיות) is the plural of 'Ugiah', the Modern Hebrew word for cookie/cake, derived from the Biblical root 'Oog' (ע-ו-ג) meaning 'to draw a circle' or 'round', referring to the shape of traditional baked goods (seen in Biblical Hebrew 'Ugah'). 'Granola' is a direct loanword from English. The term 'Granola' was coined in the United States in the late 19th century by W.K. Kellogg (modified from James Caleb Jackson's 'Granula') based on the Latin root 'granum' (grain). This dish represents the modernization of the North African Jewish kitchen, incorporating Western/Israeli baking trends.",
+  "description": "Rich and chewy oatmeal cookies packed with walnuts, raisins, and chocolate chips. These cookies have a soft center with crispy edges, enriched with dark brown sugar and cinnamon.",
+  "cultural_context": "While found in a North African Jewish family collection, this is a modern Western-style baking recipe, likely adopted for its hearty ingredients and pareve adaptability (if margarine is substituted, though butter is specified here).",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace butter with vegan butter or coconut oil, and replace eggs with flax eggs or applesauce.",
+  "meta": {
+    "servings": "25-30 cookies",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 45,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "name": "Butter",
+      "amount": 250,
+      "unit": "g",
+      "preparation": "softened",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "White sugar",
+      "amount": 150,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 3/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dark_brown_sugar",
+      "name": "Dark brown sugar",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "packed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "whole",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg_yolk",
+      "name": "Egg yolk",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "additional to the whole eggs",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 280,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 280,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 9.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 280,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "level",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "name": "Cinnamon",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.09,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "rolled_oats",
+      "name": "Rolled oats",
+      "amount": 350,
+      "unit": "g",
+      "preparation": null,
+      "notes": "Source text contained a volume typo; weight is accurate",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 350,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 12.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 350,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "walnuts",
+      "name": "Walnuts",
+      "amount": 100,
+      "unit": "g",
+      "preparation": "coarsely chopped",
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "raisins",
+      "name": "Raisins",
+      "amount": 150,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chocolate_chips",
+      "name": "Chocolate chips",
+      "amount": 200,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 160°C (320°F).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a mixer fitted with a paddle attachment (guitar hook), process the softened butter and both types of sugar on medium speed until a creamy mixture is obtained.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the egg yolk and the whole eggs one by one, mixing until the mixture is uniform.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Lower the mixer speed. Add the flour, baking soda, cinnamon, and salt. Process only until a uniform dough forms (do not overmix).",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the oats, walnuts, raisins, and chocolate chips. Mix briefly just to distribute them evenly throughout the mixture.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Using two spoons, drop mounds of the mixture onto a baking tray lined with parchment paper, keeping them spaced apart.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for 18-20 minutes only, until the cookies flatten slightly and turn golden. The cookies are ready when the edges are stable but the center is still soft and pale.",
+      "time_minutes": 20,
+      "tips": "They will firm up as they cool."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/036_granola_cookies/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "cookies",
+    "dessert",
+    "baking",
+    "oatmeal"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "ע-ו-ג (Hebrew root for round) + Latin 'granum' (grain)",
+    "meaning": "Granola cookies (literally: Round baked goods of granola)",
+    "confidence": "confirmed",
+    "notes": "This is not a traditional Judeo-Arabic or Maghrebi dish. Oats (shofan) were not a primary ingredient in traditional Tunisian pastry, which relied heavily on semolina and wheat flour. This recipe reflects the influence of Modern Israeli cuisine or French/American baking trends on the Djerban community in the post-colonial era."
+  },
+  "alternative_names": [
+    {
+      "name": "Ugiot Shofan",
+      "language": "hebrew",
+      "notes": "Literally 'Oatmeal Cookies'; often used interchangeably in Israel and modern diaspora communities."
+    },
+    {
+      "name": "Cookies aux flocons d'avoine",
+      "language": "french",
+      "notes": "Likely used by Francophone Tunisian Jews, reflecting the strong French colonial linguistic influence."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "Boulou is the traditional Djerban equivalent of a dry, tea-time cookie containing nuts and raisins.",
+      "key_difference": "Boulou is made with flour, eggs, oil, and orange juice/zest, whereas Granola cookies rely on oats and butter/margarine."
+    },
+    {
+      "name": "Anzac Biscuits",
+      "culture": "Australian / New Zealand",
+      "similarity": "Uses oats, flour, sugar, and desiccated coconut; similar chewy/crispy texture.",
+      "key_difference": "Anzac biscuits use golden syrup and baking soda (no eggs), while granola cookies usually include eggs and chocolate."
+    },
+    {
+      "name": "Oatmeal Raisin Cookies",
+      "culture": "American",
+      "similarity": "The direct culinary ancestor of this dish.",
+      "key_difference": "The Jewish version is often made parve (non-dairy) using oil or margarine instead of butter to be eaten after meat meals."
+    }
+  ],
+  "intro_paragraph": "Ugiot Granola combines the Modern Hebrew word for cookies—derived from a Biblical root meaning \"round\"—with the American breakfast staple. These chewy oatmeal cookies are packed with walnuts, raisins, and chocolate chips. Though a modern Western addition to the family repertoire, their hearty texture and dark brown sugar richness make them a beloved staple alongside traditional sweets."
+}

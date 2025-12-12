@@ -7,7 +7,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Heebo:wght@400;600;700&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================
@@ -21,9 +21,10 @@
   --muted: #777777;
   --accent: #d9925b;
   --accent-soft: #f3d7b4;
-  --font-latin: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-hebrew: "Heebo", "Inter", system-ui, sans-serif;
-  --font-arabic: "Noto Naskh Arabic", "Inter", system-ui, sans-serif;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
   --font-title: "Bona Nova", serif;
 }
 
@@ -35,7 +36,7 @@ body {
   margin: 0;
   padding: 1rem;
   background: var(--bg-body);
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   color: var(--ink);
 }
 
@@ -103,11 +104,16 @@ body {
   font-family: var(--font-arabic);
 }
 
-.lang-es,
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
 .lang-en {
   direction: ltr;
   text-align: left;
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
 }
 
 /* ============================================
@@ -628,12 +634,35 @@ h2 {
 /* Title Page */
 .page--title {
   background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
 }
 
 .title-page-inner {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .title-page-content {
@@ -681,7 +710,7 @@ h2 {
 }
 
 .book-subtitle {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.7rem;
   color: var(--muted);
   margin-bottom: 0.04in;
@@ -710,14 +739,14 @@ h2 {
 }
 
 .family-line {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.95rem;
   color: var(--ink);
   margin-bottom: 0.03in;
 }
 
 .family-origin {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.03em;
@@ -748,7 +777,7 @@ h2 {
 }
 
 .copyright-text {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.85rem;
   color: var(--ink);
   margin-bottom: 0.1in;
@@ -768,7 +797,7 @@ h2 {
 }
 
 .copyright-note {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   font-size: 0.72rem;
   color: var(--muted);
   font-style: italic;
@@ -828,12 +857,12 @@ h2 {
 }
 
 .intro-text-en {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   text-align: justify;
 }
 
 .intro-text-es {
-  font-family: var(--font-latin);
+  font-family: var(--font-english);
   text-align: justify;
 }
 
@@ -857,14 +886,14 @@ h2 {
 
 <div class="book">
 
-  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 1) -->
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 47) -->
   <section class="page">
     <div class="page-inner">
 
       <div class="title-grid">
         <div class="title-word lang-es title-large"><span>Naja</span></div>
         <div class="title-word lang-he title-large"><span>נעז&#x27;ה</span></div>
-        <div class="chapter-number"><span>1</span></div>
+        <div class="chapter-number"><span>47</span></div>
         <div class="title-word lang-en title-large"><span>Naja</span></div>
         <div class="title-word lang-ar title-medium"><span>الناجة</span></div>
       </div>
@@ -924,29 +953,29 @@ h2 {
     <div class="page-inner">
       <div class="corner-decorations">
         <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/green_onions_scallions.png" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
              alt="" 
-             style="left: 55.0%; top: 6.0%; transform: rotate(18deg) skewX(-6deg) skewY(3deg) scale(1.0686686393886544);">
+             style="left: 55.0%; top: 6.0%; transform: rotate(0deg) skewX(1deg) skewY(4deg) scale(1.119200883588913);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chickpeas.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(-12deg) skewX(-6deg) skewY(3deg) scale(1.0051827672885938);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/onion_fresh_powder.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-1deg) skewX(4deg) skewY(4deg) scale(0.8760602188921356);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cilantro_fresh_seeds.png" 
              alt="" 
-             style="left: 73.0%; top: 14.0%; transform: rotate(-15deg) skewX(-6deg) skewY(-3deg) scale(0.9194964472767431);">
+             style="left: 4.0%; top: 72.0%; transform: rotate(-7deg) skewX(-1deg) skewY(4deg) scale(0.9699767060465494);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/dill.png" 
              alt="" 
-             style="left: 88.0%; top: 4.0%; transform: rotate(9deg) skewX(-5deg) skewY(-2deg) scale(0.9481037486482636);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
-             alt="" 
-             style="left: 4.0%; top: 72.0%; transform: rotate(-12deg) skewX(-2deg) skewY(3deg) scale(1.1220747049722093);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
-             alt="" 
-             style="left: 20.0%; top: 82.0%; transform: rotate(11deg) skewX(-3deg) skewY(-1deg) scale(1.0298889366502935);">
+             style="left: 20.0%; top: 82.0%; transform: rotate(9deg) skewX(3deg) skewY(-2deg) scale(1.022472804676279);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/black_pepper.png" 
              alt="" 
-             style="left: 8.0%; top: 92.0%; transform: rotate(5deg) skewX(-3deg) skewY(-4deg) scale(1.1170074440404854);">
+             style="left: 8.0%; top: 92.0%; transform: rotate(-9deg) skewX(4deg) skewY(-4deg) scale(1.0309806988171248);">
       </div>
       <div class="two-col">
         <div class="column lang-es" style="font-size: 0.719rem; line-height: 1.23;">
@@ -1012,29 +1041,29 @@ h2 {
     <div class="page-inner">
       <div class="corner-decorations">
         <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/green_onions_scallions.png" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
              alt="" 
-             style="left: 55.0%; top: 6.0%; transform: rotate(18deg) skewX(-6deg) skewY(3deg) scale(1.0686686393886544);">
+             style="left: 55.0%; top: 6.0%; transform: rotate(0deg) skewX(1deg) skewY(4deg) scale(1.119200883588913);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chickpeas.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(-12deg) skewX(-6deg) skewY(3deg) scale(1.0051827672885938);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/onion_fresh_powder.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-1deg) skewX(4deg) skewY(4deg) scale(0.8760602188921356);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/cilantro_fresh_seeds.png" 
              alt="" 
-             style="left: 73.0%; top: 14.0%; transform: rotate(-15deg) skewX(-6deg) skewY(-3deg) scale(0.9194964472767431);">
+             style="left: 4.0%; top: 72.0%; transform: rotate(-7deg) skewX(-1deg) skewY(4deg) scale(0.9699767060465494);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/dill.png" 
              alt="" 
-             style="left: 88.0%; top: 4.0%; transform: rotate(9deg) skewX(-5deg) skewY(-2deg) scale(0.9481037486482636);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
-             alt="" 
-             style="left: 4.0%; top: 72.0%; transform: rotate(-12deg) skewX(-2deg) skewY(3deg) scale(1.1220747049722093);">
-        <img class="corner-ingredient" 
-             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
-             alt="" 
-             style="left: 20.0%; top: 82.0%; transform: rotate(11deg) skewX(-3deg) skewY(-1deg) scale(1.0298889366502935);">
+             style="left: 20.0%; top: 82.0%; transform: rotate(9deg) skewX(3deg) skewY(-2deg) scale(1.022472804676279);">
         <img class="corner-ingredient" 
              src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/black_pepper.png" 
              alt="" 
-             style="left: 8.0%; top: 92.0%; transform: rotate(5deg) skewX(-3deg) skewY(-4deg) scale(1.1170074440404854);">
+             style="left: 8.0%; top: 92.0%; transform: rotate(-9deg) skewX(4deg) skewY(-4deg) scale(1.0309806988171248);">
       </div>
       <div class="two-col">
         <div class="column lang-en" style="font-size: 0.730rem; line-height: 1.24;">

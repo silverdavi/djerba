@@ -1,0 +1,345 @@
+{
+  "id": "chocolate_balls",
+  "slug": "chocolate-balls",
+  "source_file": "data/safed_recipes/chocolate_balls.json",
+  "name": "Chocolate Balls",
+  "name_hebrew": "כדורי שוקולד",
+  "name_origin": "The name is descriptive Modern Hebrew. 'Kadurei' (כדורי) is the construct state (smichut) of 'Kadurim' (balls), derived from the root K-D-R denoting roundness. 'Shokolad' is a Modern Hebrew loanword adopted from European languages (German 'Schokolade', Yiddish/Russian 'shokolad'), ultimately derived from the Nahuatl 'xocolātl'. This dish is not traditional to North African Jewish cuisine but is a ubiquitous staple of the modern Israeli kitchen (the 'Kibbutz childhood' dessert) that has been adopted by all Jewish communities in Israel, including Djerbans, often replacing traditional labor-intensive sweets.",
+  "description": "A classic no-bake dessert staple in Israeli and Jewish households, often known as 'Kadurei Shokolad'. These sweet treats combine crushed biscuits with a chocolatey binder, rolled in coconut or sprinkles. This recipe provides the classic cocoa-based version.",
+  "cultural_context": "While not exclusively North African, these are a ubiquitous childhood treat in Israel and among Jewish families from the diaspora (including Tunisia and Morocco) for birthdays and Shabbat.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace butter with margarine or coconut oil, and use water or plant-based milk instead of dairy milk.",
+  "meta": {
+    "servings": "20-25 balls",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 205,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "petit_beurre_biscuits",
+      "name": "Petit Beurre biscuits",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "crumbled",
+      "notes": "Or similar tea biscuits (Patty Bar)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dark_chocolate",
+      "name": "Dark chocolate",
+      "amount": 30,
+      "unit": "g",
+      "preparation": "broken into cubes",
+      "notes": "Approx. 8 cubes",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "butter",
+      "name": "Butter",
+      "amount": 50,
+      "unit": "g",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3.5,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 50,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cocoa_powder",
+      "name": "Cocoa powder",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 23,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 4,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Heaped tablespoons",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 4,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "milk",
+      "name": "Milk",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Or water for parve version",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "desiccated_coconut",
+      "name": "Desiccated coconut",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "For coating",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Place the butter and chocolate cubes in a glass bowl and melt in the microwave for a few seconds. Remove and stir until a smooth mixture is obtained.",
+      "time_minutes": 2,
+      "tips": "Do not overheat; melt in 20-second intervals."
+    },
+    {
+      "step": 2,
+      "instruction": "In a separate cup, mix the cocoa powder and sugar with a few tablespoons of boiling water to dissolve, then add the rest of the milk (or water) to reach half a cup (120ml) total liquid.",
+      "time_minutes": 3,
+      "tips": "Dissolving the cocoa in hot water first prevents lumps."
+    },
+    {
+      "step": 3,
+      "instruction": "Pour the liquid cocoa mixture into the bowl with the melted chocolate and butter. Mix well.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Add the crumbled biscuits to the bowl and mix thoroughly until combined.",
+      "time_minutes": 2,
+      "tips": "If the mixture is too dry/crumbly, add a splash of milk. If too wet, refrigerate for 30 minutes before rolling."
+    },
+    {
+      "step": 5,
+      "instruction": "With slightly wet hands, form the mixture into small balls.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Roll each ball in a small plate filled with coconut to coat.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Wrap or place in a sealed container and refrigerate for at least 3 hours before serving to allow them to set.",
+      "time_minutes": 180,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Rich Milk Chocolate & Nut Version",
+      "description": "A richer variation using heavy cream and milk chocolate instead of cocoa powder.",
+      "ingredients": [
+        {
+          "ingredient_id": "petit_beurre_biscuits",
+          "name": "Petit Beurre biscuits",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "ingredient_id": "nuts",
+          "name": "Walnuts or Pecans",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "ingredient_id": "milk_chocolate",
+          "name": "Milk chocolate",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient_id": "heavy_cream",
+          "name": "Heavy cream",
+          "amount": 120,
+          "unit": "ml"
+        }
+      ],
+      "instructions": "Process biscuits and nuts in a food processor to crumbs. Melt milk chocolate with heavy cream to create a smooth ganache. Pour ganache over crumbs, mix, chill if needed, roll into balls, and coat with coconut or sprinkles."
+    }
+  ],
+  "image": {
+    "filename": "images/current/020_chocolate_balls/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "israeli",
+    "kids",
+    "no-bake",
+    "sweet"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Kadur (כדור)",
+    "meaning": "Chocolate Balls",
+    "confidence": "confirmed",
+    "notes": "This is a modern culinary term. The dish's popularity in Israel is linked to the austerity period (Tzena) and the widespread availability of 'Petit Beurre' biscuits, influenced by European no-bake desserts like Swedish Chokladbollar or Danish Romkugler."
+  },
+  "alternative_names": [
+    {
+      "name": "Kadurim",
+      "language": "hebrew",
+      "notes": "Colloquial shortening used by Israeli children."
+    },
+    {
+      "name": "Boules au chocolat",
+      "language": "french",
+      "notes": "Likely name used by Francophone North African Jews when adopting this modern dessert."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chokladbollar",
+      "culture": "Swedish",
+      "similarity": "No-bake cocoa balls rolled in coconut.",
+      "key_difference": "Uses rolled oats as the base instead of crushed biscuits."
+    },
+    {
+      "name": "Salame di Cioccolato",
+      "culture": "Italian / Portuguese",
+      "similarity": "Identical ingredients (crushed tea biscuits, cocoa, butter/sugar).",
+      "key_difference": "Shaped into a sausage/log and sliced, rather than rolled into individual balls."
+    },
+    {
+      "name": "Brigadeiro",
+      "culture": "Brazilian",
+      "similarity": "Chocolate balls rolled in sprinkles.",
+      "key_difference": "Cooked mixture based on condensed milk, not a cold mixture of biscuits and cocoa."
+    },
+    {
+      "name": "Kaaber Ellouz",
+      "culture": "Tunisian",
+      "similarity": "Traditional sweet balls served at celebrations.",
+      "key_difference": "Made from almond paste (marzipan) and sugar, colored with food dye, containing no chocolate or biscuits."
+    }
+  ],
+  "intro_paragraph": "Kadurei Shokolad—literally \"chocolate balls\" in Hebrew—are a beloved no-bake dessert that has crossed from the Israeli kibbutz to the modern Djerban table. Crushed biscuits are combined with a rich cocoa binder, hand-rolled, and coated in desiccated coconut or sprinkles. These sweet spheres are now a mandatory feature at birthdays and Shabbat celebrations."
+}

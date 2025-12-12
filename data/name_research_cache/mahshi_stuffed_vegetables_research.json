@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "Derived directly from the Arabic root 'ḥ-š-y' (ح-ش-y), meaning 'to stuff' or 'to fill'. 'Mahshi' (محشي) is the passive participle (ism maf'ul) of the verb, literally translating to 'that which is stuffed'. While the concept of stuffed vegetables in North Africa was heavily influenced by the Ottoman Turkish 'Dolma', the terminology in the Maghreb is almost exclusively Arabic. In the context of Djerban cuisine, this follows the standard Tunisian naming convention for stuffed vegetables.",
+    "language_source": "tunisian_arabic",
+    "root_word": "ḥ-š-y (حشي)",
+    "meaning": "Stuffed / Filled",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Arabic morphology used across the Middle East and North Africa. In Tunisia, this dish is part of the 'Mahchi' family. The specific Djerban Jewish variation often uses chicken and egg as a binder (unlike the Levantine use of just rice and ground red meat) to ensure the filling stays intact during the slow stewing process common in Shabbat cooking."
+  },
+  "alternative_names": [
+    {
+      "name": "Mhachi",
+      "language": "french",
+      "notes": "Common French colonial transliteration found in North African cookbooks."
+    },
+    {
+      "name": "Fondouk El Ghalla",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'The Hostel of Fruits/Vegetables'. This is a specific Tunisian name for a mixed platter of various stuffed vegetables (peppers, tomatoes, zucchini) cooked together, which matches the user description."
+    },
+    {
+      "name": "Memula'im",
+      "language": "hebrew",
+      "notes": "Modern Hebrew translation (ממולאים), though the Arabic name is retained in the Djerban community."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Dolma / Biber Dolmasi",
+      "culture": "Turkish / Ottoman",
+      "similarity": "Vegetables stuffed with rice and meat.",
+      "key_difference": "Turkish versions often use pine nuts, currants, and allspice; the Djerban version leans towards turmeric, savory notes, and uses egg as a binder."
+    },
+    {
+      "name": "Mafrum",
+      "culture": "Libyan Jewish",
+      "similarity": "Vegetables (specifically potatoes) stuffed with meat and simmered in sauce.",
+      "key_difference": "Mafrum is a 'sandwich' of sliced potato filled with ground beef, breaded in flour/egg and fried before stewing. Mahshi is 'hollowed out' and usually not breaded."
+    },
+    {
+      "name": "Kousa Mahshi",
+      "culture": "Levantine (Lebanon/Syria)",
+      "similarity": "Hollowed zucchini stuffed with rice and meat.",
+      "key_difference": "Levantine version is often cooked in a tomato broth or yogurt sauce (Lababan) and uses ground lamb/beef, not chicken."
+    },
+    {
+      "name": "Gemista",
+      "culture": "Greek",
+      "similarity": "Stuffed vegetables baked in liquid.",
+      "key_difference": "Gemista is typically baked in the oven (roasted) rather than simmered in a stovetop stew, and often relies heavily on olive oil and herbs (dill/mint)."
+    }
+  ]
+}

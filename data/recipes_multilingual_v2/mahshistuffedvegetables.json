@@ -1,0 +1,122 @@
+{
+  "id": "mahshistuffedvegetables",
+  "image": "images/current/053_mahshi/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "45 min",
+    "cook_time": "60 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מחשי",
+    "es": "Mahshi (Verduras Rellenas)",
+    "ar": "محشي",
+    "en": "Mahshi (Stuffed Vegetables)"
+  },
+  "description": {
+    "he": "מחשי, שפירושו המילולי בערבית הוא \"ממולא\", הוא מאכל מנחם אהוב מהמטבח היהודי ג'רבאי. תפוחי אדמה, קישואים וחצילים מרוקנים ממולאים בתערובת עשירה של עוף, אורז וביצה, ואז מתבשלים בנזיד ירקות עשיר. למרות הדמיון לדולמה העות'מאנית, מנה משביעה זו משמשת כארוחה משפחתית מלאה.",
+    "es": "Mahshi, que se traduce literalmente como \"relleno\" en árabe, es una comida reconfortante muy querida por los judíos de Djerba. Las papas, los calabacines y las berenjenas ahuecados se rellenan con una sabrosa mezcla de pollo, arroz y huevo, y luego se guisan en un rico estofado de verduras. Aunque es similar a la dolma otomana, este plato abundante sirve como una comida familiar completa.",
+    "ar": "المحشي، اللي يعني \"معمّر\" بالعربي، هو ماكلة بنينة ومحبوبة عند يهود جربة. بطاطا، وكوسا (قرع بوطزينة)، وباذنجان مقورين ومعمرين بخلطة بنينة فيها دجاج، روز، وعظمة، ومطيبين في مرقة خضرة عاقدة. يشبه شوية للدولمة العثمانية، أما هذا الطبق هو وجبة عائلية كاملة وتشبع.",
+    "en": "Mahshi, literally translating to \"stuffed\" in Arabic, is a beloved Djerban Jewish comfort food. Hollowed potatoes, zucchini, and eggplant are packed with a savory filling of chicken, rice, and egg, then braised in a rich vegetable stew. While similar to Ottoman dolma, this hearty dish serves as a complete family meal."
+  },
+  "ingredients": {
+    "he": [
+      "3 תפוחי אדמה, מרוקנים למילוי",
+      "4 קישואים, מרוקנים למילוי",
+      "1 חציל, מרוקן למילוי",
+      "200 גרם אורז, שטוף",
+      "300 גרם חזה עוף, קצוץ דק",
+      "1 ביצה",
+      "30 מ\"ל שמן צמחי",
+      "1 בצל, קצוץ",
+      "2 עגבניות, קצוצות",
+      "200 גרם דלעת, חתוכה לקוביות (אופציונלי)",
+      "מים לפי הטעם",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם"
+    ],
+    "es": [
+      "3 papas, ahuecadas para rellenar",
+      "4 calabacines, ahuecados para rellenar",
+      "1 berenjena, ahuecada para rellenar",
+      "200 g de arroz, enjuagado",
+      "300 g de pechuga de pollo, finamente picada",
+      "1 huevo",
+      "30 ml de aceite vegetal",
+      "1 cebolla, picada",
+      "2 tomates, picados",
+      "200 g de calabaza, en cubos (opcional)",
+      "Agua al gusto",
+      "Sal al gusto",
+      "Pimienta negra al gusto"
+    ],
+    "ar": [
+      "3 كعبات بطاطا، مقورين للحشو",
+      "4 كعبات قرع (كوسا)، مقورين للحشو",
+      "1 باذنجان، مقور للحشو",
+      "1.1 كيسان روز، مشلل",
+      "1.3 كيسان صدر دجاج، مقصوص جويد",
+      "1 عظمة",
+      "2 مغارف زيت",
+      "1 بصلة، مقصوصة",
+      "2 كعبات طماطم، مقصوصين",
+      "1.7 كيسان كابوية، مقصوصة (اختياري)",
+      "ماء حسب الذوق",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق"
+    ],
+    "en": [
+      "3 potatoes, hollowed for stuffing",
+      "4 zucchini, hollowed for stuffing",
+      "1 eggplant, hollowed for stuffing",
+      "1.1 cups rice, rinsed",
+      "1.3 cups chicken breast, finely chopped",
+      "1 egg",
+      "2 tbsp vegetable oil",
+      "1 onion, diced",
+      "2 tomatoes, chopped",
+      "1.7 cups pumpkin, cubed (optional)",
+      "Water to taste",
+      "Salt to taste",
+      "Black pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הכינו את הירקות למילוי (תפוחי אדמה, קישואים, חצילים וכו') על ידי ריקון התוכן שלהם.",
+      "בקערה, הכינו את המילוי: שברו את הביצה וערבבו פנימה את האורז וחתיכות חזה העוף הקצוצות דק. תבלו במלח ופלפל.",
+      "מלאו את הירקות המרוקנים בתערובת האורז והעוף. אל תדחסו חזק מדי כיוון שהאורז יתפח.",
+      "בסיר גדול, חממו את השמן וטגנו את הבצל הקצוץ עד לשקיפות.",
+      "הוסיפו את העגבניות וכל ירק נוסף לנזיד (כמו חתיכות דלעת או קישואים נוספים). הוסיפו מים לכיסוי ותבלו במלח ופלפל.",
+      "הניחו בזהירות את הירקות הממולאים בתוך הסיר.",
+      "כסו ובשלו על אש קטנה עד שהירקות רכים והאורז בפנים מבושל לחלוטין."
+    ],
+    "es": [
+      "Prepare las verduras para rellenar (papas, calabacines, berenjenas, etc.) ahuecando el centro.",
+      "En un bol, prepare el relleno: rompa el huevo y mezcle el arroz y los trozos de pechuga de pollo finamente picados. Sazone con sal y pimienta.",
+      "Rellene las verduras ahuecadas con la mezcla de arroz y pollo. No apriete demasiado ya que el arroz se expandirá.",
+      "En una olla grande, caliente el aceite y sofría la cebolla picada hasta que esté transparente.",
+      "Añada los tomates y cualquier verdura adicional para el estofado (como trozos de calabaza o calabacín extra). Añada agua hasta cubrir y sazone con sal y pimienta.",
+      "Coloque con cuidado las verduras rellenas en la olla.",
+      "Tape y cocine a fuego lento hasta que las verduras estén tiernas y el arroz del interior esté completamente cocido."
+    ],
+    "ar": [
+      "حضّر الخضرة للحشو (بطاطا، قرع، باذنجان، إلخ) وقوّرهم من الداخل.",
+      "في صحفة، حضّر الحشو: فقّس العظمة وخلّط معاها الروز وصدر الدجاج المقصوص جويد. فوّح بالملح والفلفل الأكحل.",
+      "عمّر الخضرة المقورة بخلطة الروز والدجاج. ما ترصش برشا خاطر الروز باش يتنفخ.",
+      "في طنجرة كبيرة، سخّن الزيت وقلي البصل المقصوص لين يذبل.",
+      "زيد الطماطم وأي خضرة أخرى للمرقة (كيف طروف كابوية ولا قرع زايد). زيد الماء باش تغطي وفوّح بالملح والفلفل الأكحل.",
+      "حط الخضرة المحشية في الطنجرة بالشوية.",
+      "غطي الطنجرة وطيّب على نار هادية لين الخضرة تطرى والروز اللي لداخل يطيب بالباهي."
+    ],
+    "en": [
+      "Prepare the vegetables for stuffing (potatoes, zucchini, eggplant, cabbage leaves, etc.) by hollowing out the centers.",
+      "In a bowl, prepare the filling: break the egg and mix in the rice and finely chopped chicken breast pieces. Season with salt and pepper.",
+      "Stuff the hollowed vegetables with the rice and chicken mixture. Do not pack too tightly as the rice will expand.",
+      "In a large pot, heat the oil and sauté the chopped onion until translucent.",
+      "Add the tomatoes and any additional vegetables for the stew (such as pumpkin chunks or extra zucchini). Add water to cover and season with salt and pepper.",
+      "Carefully place the stuffed vegetables into the pot.",
+      "Cover and simmer until the vegetables are tender and the rice inside is fully cooked."
+    ]
+  }
+}

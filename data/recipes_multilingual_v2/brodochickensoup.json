@@ -1,0 +1,91 @@
+{
+  "id": "brodochickensoup",
+  "image": "images/current/012_brodo/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "15 min",
+    "cook_time": "35 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "ברודו",
+    "es": "Brodo (Sopa de Pollo y Verduras Tunecina)",
+    "ar": "برودو",
+    "en": "Brodo (Tunisian Chicken Vegetable Soup)"
+  },
+  "description": {
+    "he": "ברודו שומר על שמו האיטלקי המקורי—מורשת של השפעת יהודי ליבורנו—כדי להבדיל את המרק הצח הזה מתבשילים כבדים יותר. המרק המשיב נפש, המבושל עם עוף וירקות שורש, משמש כארוחה בפני עצמה או כמרק החיוני להרטבת הקוסקוס המסורתי של ערב שבת, והוא עוגן בשולחן השבת הג'רבאי.",
+    "es": "El Brodo conserva su nombre original italiano—un legado de la influencia judía livornesa—para distinguir este caldo claro de los guisos más pesados. Cocinado a fuego lento con pollo y verduras de raíz, esta sopa reconfortante sirve como una comida independiente o como el caldo esencial para humedecer el cuscús tradicional del viernes por la noche, anclando la mesa de Shabat de Djerba.",
+    "ar": "البرودو حافظ على اسمه الطلياني الأصلي—وهذا من تأثير يهود الجرانة—باش نفرقو بين هذا المرق الصافي والمراقي الثقيلة. يطيب مع الدجاج والخضرة، وهذه الشوربة المنعشة تتاكل وحدها ولا نستعملوها باش نسقيو الكسكسي التقليدي متاع ليلة الجمعة، وهي أساسية في طاولة السبت الجربية.",
+    "en": "Brodo retains its original Italian name—a legacy of Livornese Jewish influence—to distinguish this clear bouillon from heavier stews. Simmered with chicken and root vegetables, the restorative soup serves as a standalone meal or the essential moistening broth for the traditional Friday night couscous, anchoring the Djerban Shabbat table."
+  },
+  "ingredients": {
+    "he": [
+      "1000 גרם חלקי עוף (רגליים, ירכיים או כנפיים), נקיים",
+      "2000 מ\"ל מים (מספיק לכיסוי)",
+      "300 גרם דלעת, חתוכה לקוביות גדולות",
+      "3 קישואים, חתוכים לחתיכות",
+      "3 גזרים, קלופים ופרוסים",
+      "2 תפוחי אדמה, קלופים וחתוכים לרבעים",
+      "4 שיני שום, שלמות או כתושות",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "1000 g de trozos de pollo (piernas, muslos o alas), limpios",
+      "2000 ml de agua (suficiente para cubrir)",
+      "300 g de calabaza, en trozos grandes",
+      "3 calabacines, cortados en trozos",
+      "3 zanahorias, peladas y en rodajas",
+      "2 patatas, peladas y cortadas en cuartos",
+      "4 dientes de ajo, enteros o machacados",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1 كغ طروف دجاج (ساقين، فخاذ ولا جنحين)، نظاف",
+      "8 كيسان وثلث ماء (يكفي باش يغطي)",
+      "2.5 كيسان قرع أحمر، مقصوص طروف كبار",
+      "3 كعبات قرع أخضر، مقصوصين طروف",
+      "3 سفنارية، منقيين ومقصوصين",
+      "2 كعبات بطاطا، مقشرين ومقصوصين على أربعة",
+      "4 سنون ثوم، كاملين ولا مرحيين",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "1 kg chicken pieces (legs, thighs, or wings), cleaned",
+      "8 1/3 cups water (enough to cover)",
+      "2.5 cups pumpkin, cubed large",
+      "3 zucchini, cut into chunks",
+      "3 carrots, peeled and sliced",
+      "2 potatoes, peeled and quartered",
+      "4 garlic cloves, whole or crushed",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מניחים את העוף ואת כל הירקות המוכנים (דלעת, קישואים, גזר, תפוחי אדמה, שום) בסיר מרק גדול.",
+      "מכסים במים ומוסיפים מלח לפי הטעם.",
+      "מביאים את הסיר לרתיחה על אש גבוהה.",
+      "מנמיכים את האש ומבשלים במשך כ-30 דקות, או עד שהעוף מבושל והירקות רכים."
+    ],
+    "es": [
+      "Coloque el pollo y todas las verduras preparadas (calabaza, calabacín, zanahorias, patatas, ajo) en una olla grande para sopa.",
+      "Cubra con agua y añada sal al gusto.",
+      "Lleve la olla a ebullición a fuego alto.",
+      "Baje el fuego y cocine a fuego lento durante aproximadamente 30 minutos, o hasta que el pollo esté cocido y las verduras estén tiernas."
+    ],
+    "ar": [
+      "حط الدجاج والخضرة المحضرة الكل (قرع أحمر، قرع أخضر، سفنارية، بطاطا، ثوم) في طنجرة كبيرة.",
+      "غمهم بالماء وزيد الملح حسب الذوق.",
+      "خلي الطنجرة تغلي على نار قوية.",
+      "نقص النار وخليها تطيب سلة سلة حكاية 30 دقيقة، لين يطيب الدجاج وتولي الخضرة طرية."
+    ],
+    "en": [
+      "Place the chicken and all prepared vegetables (pumpkin, zucchini, carrots, potatoes, garlic) into a large soup pot.",
+      "Cover with water and add salt to taste.",
+      "Bring the pot to a boil over high heat.",
+      "Lower the heat to a simmer and cook for approximately 30 minutes, or until the chicken is cooked through and vegetables are tender."
+    ]
+  },
+  "image_prompt": "Tunisian chicken soup brodo in a pot with large chunks of pumpkin zucchini carrots and potatoes, clear broth"
+}

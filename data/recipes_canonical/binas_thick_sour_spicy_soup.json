@@ -1,0 +1,292 @@
+{
+  "id": "binas_thick_sour_spicy_soup",
+  "slug": "binas-thick-sour-spicy-soup",
+  "source_file": "data/safed_recipes/33_מרק_סמיך_חמוץ_וחריף_של_בינה.json",
+  "name": "Bina's Thick Sour and Spicy Soup",
+  "name_hebrew": "מרק סמיך חמוץ וחריף של בינה",
+  "name_origin": "The Hebrew name provided ('Bina's Thick Sour and Spicy Soup') is a descriptive title rather than a traditional name. Based on the specific culinary profile (thick texture via flour slurry, sour vinegar/lemon base, and spicy harissa/caraway profile), this dish is almost certainly the Tunisian classic known as **Hsou** (or **H'sou** / **Hassu**). The name derives from the Classical Arabic verb 'ḥasā' (حسا), meaning 'to sip' or 'to drink soup'. In Tunisian Derja, it refers specifically to this style of thick, spicy pottage thickened with grain (semolina or flour). (Confidence: likely)",
+  "description": "A simple, warming soup characterized by its thick texture and bold sour and spicy flavors. It relies on a flour slurry for thickening, a technique common in traditional frugal home cooking.",
+  "cultural_context": "A simple North African style soup, likely used as a quick dinner or a warming remedy. The combination of hot paprika and lemon is typical of the Tunisian/Djerban palate.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 35,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 1.5,
+      "unit": "L",
+      "preparation": null,
+      "notes": "Base for the soup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1500,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 50,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 6.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_cloves",
+      "name": "Garlic cloves",
+      "amount": 5,
+      "unit": "unit",
+      "preparation": "crushed or minced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": "freshly squeezed",
+      "notes": "Adjust to taste for sourness",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_paprika",
+      "name": "Hot Paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "Adjust based on spice tolerance",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 3,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "For thickening",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 23,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 3,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 3,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water_slurry",
+      "name": "Water",
+      "amount": 100,
+      "unit": "ml",
+      "preparation": "cold",
+      "notes": "For mixing with flour",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 3.3,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.42,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a pot, combine the main water (1.5L), crushed garlic, lemon juice, and hot paprika.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Cook on low heat, stirring occasionally, for about 20 minutes to infuse the flavors.",
+      "time_minutes": 20,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Prepare a thickening agent (slurry) by mixing the flour with the cold water (100ml) in a separate bowl until smooth and lump-free.",
+      "time_minutes": 2,
+      "tips": "Ensure the water is cold to prevent the flour from clumping."
+    },
+    {
+      "step": 4,
+      "instruction": "Slowly pour the flour mixture into the hot soup while stirring continuously to thicken the texture.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Taste the soup and add salt or adjust the sour/spicy levels as needed before serving.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/046_hsou/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "soup",
+    "vegan",
+    "pareve",
+    "spicy",
+    "sour",
+    "north-african"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥasā (حسا) / Ḥasw (حسو)",
+    "meaning": "To sip; a soup/pottage",
+    "confidence": "likely",
+    "notes": "The description of a 'flour slurry' is the defining technique of Hsou (specifically the 'aqda' or binding agent). While the user provided a family descriptive name, the culinary DNA matches the Djerban Hsou perfectly."
+  },
+  "alternative_names": [
+    {
+      "name": "Hsou",
+      "language": "tunisian_arabic",
+      "notes": "Standard transliteration"
+    },
+    {
+      "name": "Hassu",
+      "language": "tunisian_arabic",
+      "notes": "Phonetic variation common in Djerba"
+    },
+    {
+      "name": "حسو",
+      "language": "arabic",
+      "notes": "Original Arabic spelling"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Hsou (Tunisian Muslim)",
+      "culture": "Tunisian (General)",
+      "similarity": "Identical base of garlic, caraway, harissa, and flour/semolina thickening.",
+      "key_difference": "Often includes 'kadid' (dried preserved meat) or sheep fat, whereas Jewish versions might be vegetarian (parve) to accompany dairy meals or use oil/chicken."
+    },
+    {
+      "name": "Harira",
+      "culture": "Moroccan",
+      "similarity": "Uses a similar flour-and-water slurry technique called 'tadouira' to thicken the soup.",
+      "key_difference": "Harira is tomato, lentil, and chickpea based with celery/parsley/cilantro, whereas Hsou is garlic/caraway/harissa based."
+    },
+    {
+      "name": "Chorba Frik",
+      "culture": "Algerian/Tunisian",
+      "similarity": "Spicy and soup-based.",
+      "key_difference": "Thickened by the starch of green wheat (frik) rather than a flour slurry; usually tomato-based."
+    }
+  ],
+  "intro_paragraph": "Hsou—deriving from the Arabic \"to sip\"—is a rustic soup defined by a velvety texture achieved through a simple flour slurry. Bursting with the signature Djerban combination of spicy harissa and sour vinegar, this warming broth is traditionally prepared as a frugal, quick dinner or a soothing remedy for colds."
+}

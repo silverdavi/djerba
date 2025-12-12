@@ -1,0 +1,130 @@
+{
+  "id": "cholent",
+  "image": "images/current/025_cholent/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "30 min",
+    "cook_time": "90 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "חמין",
+    "es": "Hamin (Cholent)",
+    "ar": "سخينة / تفينة (Hamin)",
+    "en": "Cholent (Hamin)"
+  },
+  "description": {
+    "he": "חמין – שמקור שמו בשורש ח-מ-ם – הוא תבשיל עשיר בבישול איטי המוכן לפני כניסת השבת ומוגש בארוחת הצהריים למחרת. גרסה צפון-אפריקאית זו משלבת בשר, שעועית, גריסים ותפוחי אדמה המתבשלים כל הלילה. תוספת ה\"חמינדוס\", ביצים המקבלות צבע חום עמוק מהרוטב, מאפיינת את הסגנון הג'רבאי.",
+    "es": "El Hamin —derivado de la raíz hebrea para caliente— es un guiso rico de cocción lenta preparado antes del atardecer para servir en el almuerzo del Shabat. Aunque a menudo se llama Cholent, esta versión norteafricana combina carne, alubias, cebada y papas cocinadas a fuego lento durante toda la noche. La adición de haminados, huevos dorados en el caldo sabroso, marca el estilo de Djerba.",
+    "ar": "السخينة (أو الحמין) هي مرقة ثقيلة تطيب سلة سلة، نحضروها قبل ما يدخل السبت باش ناكلوها في فطور غدوة. في جربة وتونس، نخلطوا فيها اللحم، اللوبيا، الشعير والبطاطا ونخلوها تطيب ليلة كاملة. وما تكمل البنة كان بالعظمات (حميمين) اللي يطيبوا في المرقة ويولي لونهم بني.",
+    "en": "Hamin—derived from the Hebrew root for \"hot\"—is a rich, slow-cooked stew prepared before sundown to serve for Sabbath lunch. While often called Cholent, this North African version combines meat, beans, barley, and potatoes simmered overnight. The addition of haminados, eggs browned in the savory broth, marks the Djerban style."
+  },
+  "ingredients": {
+    "he": [
+      "3 בצלים גדולים, קצוצים",
+      "45 מ\"ל שמן צמחי",
+      "1 ק\"ג בשר בקר לבישול ארוך (כתף או חזה), חתוך לקוביות",
+      "5 תפוחי אדמה בינוניים, קלופים וחצויים",
+      "200 גרם שעועית לבנה, מושרית ללילה",
+      "200 גרם שעועית חומה (פינטו או קידני), מושרית ללילה",
+      "150 גרם גריסי פנינה, שטופים",
+      "7 גרם פפריקה מתוקה",
+      "2 גרם פלפל שחור, טחון",
+      "3 גרם אבקת שום",
+      "מלח לפי הטעם",
+      "30 מ\"ל סירופ מייפל (או דבש)",
+      "6 ביצים, שלמות בקליפתן, שטופות היטב",
+      "מים רותחים לכיסוי"
+    ],
+    "es": [
+      "3 cebollas grandes, picadas",
+      "45 ml de aceite vegetal",
+      "1 kg de carne de res para guisar (espaldilla o pecho), en trozos",
+      "5 papas medianas, peladas y cortadas por la mitad",
+      "200 g de alubias blancas, remojadas toda la noche",
+      "200 g de alubias rojas o pintas, remojadas toda la noche",
+      "150 g de cebada perlada, enjuagada",
+      "7 g de pimentón dulce",
+      "2 g de pimienta negra, molida",
+      "3 g de ajo en polvo",
+      "Sal al gusto",
+      "30 ml de jarabe de arce (o miel)",
+      "6 huevos, enteros con cáscara, bien lavados",
+      "Agua hirviendo para cubrir"
+    ],
+    "ar": [
+      "3 بصلات كبار، مقصوصين",
+      "3 مغارف زيت",
+      "1 كيلو لحم بقري (هبرة)، مقصوص طروف",
+      "5 كعبات بطاطا متوسطين، مقشرين ومقصوصين أنصاف",
+      "1 كأس لوبيا بيضاء، منفخة ليلة كاملة",
+      "1 كأس لوبيا حمراء، منفخة ليلة كاملة",
+      "3/4 كأس شعير (محمّص)، مغسول",
+      "1 مغرفة فلفل أحمر",
+      "1 مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "ملح حسب الذوق",
+      "2 مغارف سيرو (أو عسل)",
+      "6 عظمات، بقشورهم، مغسولين مليح",
+      "ماء سخون باش نغموا الطنجرة"
+    ],
+    "en": [
+      "3 large onions, diced",
+      "3 tbsp vegetable oil",
+      "1 kg beef stew meat (chuck or brisket), cut into chunks",
+      "5 medium potatoes, peeled and halved",
+      "1 cup white beans, soaked overnight",
+      "1 cup brown beans (Pinto or Kidney), soaked overnight",
+      "3/4 cup pearl barley, rinsed",
+      "1 tbsp sweet paprika",
+      "1 tsp black pepper, ground",
+      "1 tsp garlic powder",
+      "Salt to taste",
+      "2 tbsp maple syrup (or honey)",
+      "6 eggs, whole in shell, washed well",
+      "Boiling water to cover ingredients"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים שמן בסיר גדול וכבד. מוסיפים את הבצל הקצוץ ומטגנים בסבלנות עד להשחמה עמוקה. זה נותן את צבע הבסיס לתבשיל.",
+      "מוסיפים את נתחי הבשר לסיר וצורבים מכל הצדדים עד להשחמה.",
+      "מוסיפים לסיר את תפוחי האדמה, השעועית המושרית (הלבנה והחומה) ואת גריסי הפנינה.",
+      "ממלאים את הסיר במים עד שכל המרכיבים מכוסים.",
+      "מוסיפים את התבלינים: פפריקה, פלפל שחור, אבקת שום, מלח ואת סירופ המייפל (או הדבש).",
+      "מביאים לרתיחה. לאחר הרתיחה, מנמיכים את האש ללהבה נמוכה.",
+      "מניחים בעדינות את הביצים השלמות (בקליפתן) מעל התבשיל.",
+      "מכסים ומבשלים על אש נמוכה כ-1.5 שעות. להכנה מסורתית לשבת, מעבירים לפלטה או לסיר בישול איטי לבישול במשך כל הלילה עד לארוחת הצהריים למחרת."
+    ],
+    "es": [
+      "Caliente el aceite en una olla grande de fondo grueso. Agregue las cebollas picadas y fríalas pacientemente hasta que se doren bien oscuras. Esto proporciona el color base para el guiso.",
+      "Agregue los trozos de carne a la olla y séllelos por todos lados hasta que se doren.",
+      "Agregue las papas, las alubias remojadas (blancas y rojas) y la cebada a la olla.",
+      "Llene la olla con agua hasta cubrir todos los ingredientes.",
+      "Agregue las especias: pimentón, pimienta negra, ajo en polvo, sal y el jarabe de arce (o miel).",
+      "Lleve la olla a ebullición. Una vez que hierva, reduzca el fuego a bajo.",
+      "Coloque suavemente los huevos enteros (con cáscara) encima del guiso.",
+      "Tape y cocine a fuego lento durante aproximadamente 1.5 horas. Para la preparación tradicional del Shabat, transfiera a una placa eléctrica o olla de cocción lenta para cocinar durante toda la noche hasta el almuerzo del día siguiente."
+    ],
+    "ar": [
+      "سخن الزيت في طنجرة كبيرة وثقيلة. حط البصل المقصوص واقليه بالسياسة حتى يحمار ويولي لونه غامق. هذا هو اللي يعطي اللون للمرقة.",
+      "ارمي طروف اللحم في الطنجرة وقليهم من الجهات الكل حتى يحماروا.",
+      "زيد البطاطا، واللوبيا المنفخة (البيضاء والحمراء)، والشعير للطنجرة.",
+      "صب الماء في الطنجرة حتى يتغم كل شيء.",
+      "فوّح بالفلفل الأحمر، الفلفل الأكحل، الثوم المرحي، الملح، وزيد السيرو (أو العسل).",
+      "خلي الطنجرة تغلي. كيف تغلي، نقص في النار وخليها هادية.",
+      "حط العظمات كاملين (بقشورهم) بشوية فوق المرقة.",
+      "غطي الطنجرة وخليها تطيب سلة سلة ساعة ونص. وكان تحب تعملها للسبت، حطها فوق الفتيلة (أو في slow cooker) تطيب ليلة كاملة حتى لفطور غدوة."
+    ],
+    "en": [
+      "Heat oil in a large heavy-bottomed pot. Add the diced onions and fry patiently until they turn a dark golden brown. This provides the base color for the stew.",
+      "Add the meat chunks to the pot and sear on all sides until browned.",
+      "Add the potatoes, soaked beans (white and brown), and barley to the pot.",
+      "Fill the pot with water until all ingredients are covered.",
+      "Add the spices: paprika, black pepper, garlic powder, salt, and the maple syrup (or honey).",
+      "Bring the pot to a boil. Once boiling, reduce heat to low.",
+      "Gently place the whole eggs (in their shells) on top of the stew.",
+      "Cover and simmer on low heat for about 1.5 hours. For traditional Sabbath preparation, transfer to a hot plate (blech) or slow cooker to cook overnight until lunch the next day."
+    ]
+  }
+}

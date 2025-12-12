@@ -1,0 +1,52 @@
+{
+  "name_origin": {
+    "etymology": "The Hebrew name 'Hamin' (חמין) is derived from Mishnaic Hebrew, originating from the Semitic root H-M-M (ח-מ-ם), meaning 'to be hot' or 'warm'. It literally translates to 'hot things' or 'warmth', referring to the rabbinic injunction to keep food warm for the Sabbath. The English/Yiddish name 'Cholent', while Ashkenazi, is widely accepted to derive from Old French 'chault' (hot) and 'lent' (slow), reflecting the cooking method. In the specific context of Djerban and Tunisian Jewry, while 'Hamin' is the religious term, the dish is historically known as 'Tfina' or 'Dafina'.",
+    "language_source": "hebrew",
+    "root_word": "חמם (H-M-M)",
+    "meaning": "Hot things / Warmth",
+    "confidence": "confirmed",
+    "sources_notes": "While the cookbook uses the pan-Jewish terms 'Hamin' and 'Cholent', the authentic Djerban/Tunisian Judeo-Arabic term is 'Tfina' (from the Arabic root D-F-N, 'to bury', referring to burying the pot in the embers of the communal oven/Tabouna)."
+  },
+  "alternative_names": [
+    {
+      "name": "Tfina / Dafina",
+      "language": "tunisian_arabic",
+      "notes": "The specific Judeo-Arabic term for the Sabbath stew in Tunisia and Morocco; literally 'buried'."
+    },
+    {
+      "name": "Skhina",
+      "language": "moroccan_arabic",
+      "notes": "Common in Morocco, literally meaning 'The Hot One' (equivalent to Hamin)."
+    },
+    {
+      "name": "Pkaïla",
+      "language": "tunisian_arabic",
+      "notes": "A specific, popular Tunisian variety of Hamin/Tfina made with spinach and white beans."
+    },
+    {
+      "name": "Harissa",
+      "language": "judeo_arabic",
+      "notes": "A wheat-berry based Sabbath stew common in Tunisia and Libya (distinct from the spice paste)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Herisseh / Hareesa",
+      "culture": "Middle Eastern / Arab",
+      "similarity": "Slow-cooked wheat and meat porridge.",
+      "key_difference": "Texture is beaten into a porridge/paste; not exclusively for Sabbath."
+    },
+    {
+      "name": "Cassoulet",
+      "culture": "French (Languedoc)",
+      "similarity": "Slow-cooked casserole with meat and white beans.",
+      "key_difference": "Contains pork; cooked in an open vessel to form a crust rather than sealed/buried."
+    },
+    {
+      "name": "Tangia",
+      "culture": "Moroccan (Marrakesh)",
+      "similarity": "Meat stew slow-cooked in a clay urn in the ashes of a hammam.",
+      "key_difference": "Usually lamb and spices only (no grains/beans); traditionally a 'bachelor's dish' rather than a family Sabbath meal."
+    }
+  ]
+}

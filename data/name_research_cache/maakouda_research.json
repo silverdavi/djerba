@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name is derived directly from the Arabic trilateral root ʿ-Q-D (ع-ق-d). Grammatically, 'Ma'akouda' (معقودة) is the feminine passive participle (ism maf'ūl) of the verb 'aqada' (عقد). In a culinary context, this verb means 'to thicken,' 'to coagulate,' or 'to bind together.' The name literally describes the chemical action of the eggs binding the mashed potatoes and other ingredients into a cohesive mass that will not fall apart during frying. It shares the same root as 'aqid' (knot/contract).",
+    "language_source": "tunisian_arabic",
+    "root_word": "ʿaqada (عقد)",
+    "meaning": "The knotted one / The bound one / The thickened one",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Maghrebi Arabic culinary terminology. The root is consistent across Tunisian, Algerian, and Moroccan dialects (Darija/Derja). In classical Arabic, 'aqid' refers to the thickening of liquids (like syrup or eggs setting). Confirmed via linguistic analysis of Maghrebi culinary verbs."
+  },
+  "alternative_names": [
+    {
+      "name": "Maâkouda",
+      "language": "french",
+      "notes": "Common French colonial transliteration found in North African cookbooks."
+    },
+    {
+      "name": "Maaqouda",
+      "language": "arabic",
+      "notes": "Standard transliteration utilizing 'q' for the letter Qaf (ق)."
+    },
+    {
+      "name": "Ma'akouda bil djedj",
+      "language": "tunisian_arabic",
+      "notes": "Specific Jewish variation containing chicken (djedj), often served on Shabbat."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tortilla Española",
+      "culture": "Spanish",
+      "similarity": "Thick egg and potato omelet/cake.",
+      "key_difference": "Tortilla uses sliced potatoes fried in oil; Ma'akouda uses boiled, mashed potatoes and includes turmeric/cumin."
+    },
+    {
+      "name": "Tunisian Tagine",
+      "culture": "Tunisian (Muslim & Jewish)",
+      "similarity": "Egg-based savory cake/frittata.",
+      "key_difference": "In Tunisia, 'Tagine' refers to a frittata baked in an oven (like a quiche without crust), whereas Ma'akouda is typically fried (either as one large disk or small patties) on the stovetop."
+    },
+    {
+      "name": "Kuku Sibzamini",
+      "culture": "Persian",
+      "similarity": "Potato and egg frittata with turmeric.",
+      "key_difference": "Persian version often uses baking powder and specific Persian herb profiles; Ma'akouda relies heavily on the starch of the potato and egg for structure."
+    },
+    {
+      "name": "Potato Croquette",
+      "culture": "French",
+      "similarity": "Fried mashed potato cake.",
+      "key_difference": "Croquettes are breaded (flour/egg/breadcrumbs) before frying; Ma'akouda is usually fried directly or lightly dusted with flour, and relies on the egg inside the mix for the 'skin'."
+    }
+  ]
+}

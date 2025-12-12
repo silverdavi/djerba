@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The Hebrew name 'Pai Ro'im' is a direct calque (literal word-for-word translation) of the English 'Shepherd's Pie'. It is not a traditional Judeo-Arabic or Ladino term from Djerba. The dish itself, however, likely entered the North African Jewish repertoire via the French colonial influence in Tunisia (1881–1956), based on the French dish 'Hachis Parmentier'. The Djerban/Tunisian adaptation involves replacing butter/milk with oil/chicken fat (to keep it Kosher/Pareve for meat meals) and coloring the potatoes with turmeric, a staple spice in Tunisian cooking.",
+    "language_source": "hebrew",
+    "root_word": "פאי (Pai - Loan from English 'Pie') + רועים (Ro'im - Hebrew for 'Shepherds')",
+    "meaning": "Shepherd's Pie",
+    "confidence": "confirmed",
+    "sources_notes": "While the name is Modern Hebrew, the culinary lineage is almost certainly French ('Hachis Parmentier'). In the Maghreb, potato casseroles are common, but the specific layered mashed potato technique is European. The yellow turmeric coloring is the distinct 'North African' signature."
+  },
+  "alternative_names": [
+    {
+      "name": "Hachis Parmentier",
+      "language": "French",
+      "notes": "The name likely used by Francophone Jews in Tunisia during the protectorate era for this style of potato-meat casserole."
+    },
+    {
+      "name": "Siniyat Batata",
+      "language": "Arabic",
+      "notes": "Literally 'Tray of Potatoes'. A generic descriptive term used in various Arabic dialects for potato casseroles."
+    },
+    {
+      "name": "Pastel de Papas",
+      "language": "Ladino / Spanish",
+      "notes": "Used by some Sephardic communities (and in South America) for a similar layered potato-meat dish, though less common in Djerba specifically."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Hachis Parmentier",
+      "culture": "French",
+      "similarity": "Layers of mashed potato and minced meat.",
+      "key_difference": "The French version uses butter and milk in the mash and lacks the heavy turmeric/cumin/shawarma spicing of the Jewish North African version."
+    },
+    {
+      "name": "Ma'aqouda",
+      "culture": "Tunisian / Moroccan",
+      "similarity": "A potato-based dish often containing eggs and spices (turmeric).",
+      "key_difference": "Ma'aqouda is typically a frittata or potato cake bound with eggs and fried or baked solid, rather than a layered casserole with a distinct meat filling."
+    },
+    {
+      "name": "Kibbeh Batata",
+      "culture": "Lebanese / Iraqi",
+      "similarity": "Spiced ground meat encased in a potato-based dough/crust.",
+      "key_difference": "Kibbeh Batata uses bulgur wheat mixed with the potato to form a dough, whereas the Shepherd's Pie uses pure mashed potato."
+    },
+    {
+      "name": "Batata Mbatna",
+      "culture": "Libyan",
+      "similarity": "Potatoes and spiced ground meat.",
+      "key_difference": "In Batata Mbatna, raw potato slices are stuffed with meat and then fried/stewed, rather than using mashed potatoes."
+    }
+  ]
+}

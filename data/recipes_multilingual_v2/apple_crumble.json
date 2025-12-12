@@ -1,0 +1,110 @@
+{
+  "id": "apple_crumble",
+  "image": "images/current/003applecrumble/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "20 min",
+    "cook_time": "60 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "קראמבל תפוחים",
+    "es": "Crumble de Manzana",
+    "ar": "كرامبل تفاح",
+    "en": "Apple Crumble"
+  },
+  "description": {
+    "he": "קראמבל תפוחים – עיבוד עברי מודרני לקלאסיקה הבריטית מימי המלחמה – ממחיש את השפעת המטבח המערבי על השולחן הג'רבאי. תפוחים רכים מתובלים בקינמון נאפים תחת ציפוי שיבולת שועל פריך. השימוש במרגרינה במקום חמאה הופך את הקינוח לפרווה, סיום מושלם לארוחות שבת בשריות.",
+    "es": "El Crumble de Manzana, una adaptación hebrea moderna del clásico británico, ilustra la influencia occidental en las mesas de Djerba. Manzanas tiernas con canela se hornean bajo una cubierta crujiente de avena. Al sustituir la mantequilla por margarina, este postre se mantiene pareve, siendo el final perfecto para las comidas de Shabat con carne.",
+    "ar": "كرامبل التفاح، وصفة عبرية عصرية لأكلة بريطانية كلاسيكية، تورينا تأثير الماكلة الغربية على الطاولة الجربية. تفاح طري مفوّح بالقرفة يطيب في الكوشة تحت طبقة مقرمشة متاع شوفان. كيف نبدلو الزبدة بالمارغرين، الحلو هذا يولي بارف (بلاش حليب)، ويكون تحلية ممتازة بعد ماكلة اللحم نهار السبت.",
+    "en": "Crumble Tapuchim—a Modern Hebrew adaptation of the British wartime classic—illustrates the influence of Western cuisine on Djerban tables. Tender apples spiced with cinnamon are baked under a crisp oat topping. By substituting margarine for butter, this dessert remains pareve, serving as a perfect conclusion to meat-heavy Shabbat feasts."
+  },
+  "ingredients": {
+    "he": [
+      "8 תפוחים, קלופים ופרוסים",
+      "150 גרם סוכר לבן (למילוי)",
+      "1.3 גרם קינמון",
+      "0.75 גרם מלח",
+      "45 גרם שיבולת שועל",
+      "62.5 גרם קמח",
+      "100 גרם סוכר חום (לציפוי)",
+      "1.2 גרם אבקת אפייה",
+      "0.6 גרם סודה לשתייה",
+      "42.6 גרם מרגרינה, קרה"
+    ],
+    "es": [
+      "8 manzanas, peladas y en rodajas",
+      "150 g de azúcar regular (para el relleno)",
+      "1.3 g de canela",
+      "0.75 g de sal",
+      "45 g de avena",
+      "62.5 g de harina",
+      "100 g de azúcar morena (para la cubierta)",
+      "1.2 g de polvo de hornear",
+      "0.6 g de bicarbonato de sodio",
+      "42.6 g de margarina, fría"
+    ],
+    "ar": [
+      "8 تفاحات، مقشرين ومقصوصين",
+      "3/4 كاس سكر عادي (للحشو)",
+      "1/2 مغرفة صغيرة قرفة",
+      "1/8 مغرفة صغيرة ملح",
+      "1/2 كاس شوفان",
+      "1/2 كاس فرينة",
+      "1/2 كاس سكر أسمر (للفوق)",
+      "1/4 مغرفة صغيرة خميرة قاطو",
+      "1/8 مغرفة صغيرة بيكربونات",
+      "3 مغارف مارغرين، باردة"
+    ],
+    "en": [
+      "8 apples, peeled and sliced",
+      "3/4 cup regular sugar (for filling)",
+      "1/2 tsp cinnamon",
+      "1/8 tsp salt",
+      "1/2 cup oatmeal (rolled oats)",
+      "1/2 cup flour",
+      "1/2 cup brown sugar (for topping)",
+      "1/4 tsp baking powder",
+      "1/8 tsp baking soda",
+      "3 tbsp margarine, cold"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-180 מעלות צלזיוס.",
+      "בקערה, מערבבים את התפוחים הפרוסים, הסוכר הלבן, הקינמון והמלח.",
+      "מעבירים את תערובת התפוחים לתבנית אפייה בינונית משומנת.",
+      "בקערה נפרדת, מערבבים את שיבולת השועל, הקמח, הסוכר החום, אבקת האפייה והסודה לשתייה.",
+      "מוסיפים את המרגרינה הקרה לחומרים היבשים ומערבבים היטב (בעזרת האצבעות או מזלג) עד לקבלת מרקם פירורי.",
+      "מפזרים את תערובת הפירורים באופן שווה מעל התפוחים.",
+      "אופים במשך 50-60 דקות עד שהתפוחים רכים והציפוי שחום."
+    ],
+    "es": [
+      "Precalentar el horno a 180°C.",
+      "En un bol, mezclar las manzanas en rodajas, el azúcar regular, la canela y la sal.",
+      "Transferir la mezcla de manzanas a un molde para hornear mediano engrasado.",
+      "En un bol separado, mezclar la avena, la harina, el azúcar morena, el polvo de hornear y el bicarbonato.",
+      "Agregar la margarina fría a los ingredientes secos y mezclar bien (con los dedos o un tenedor) hasta obtener una textura grumosa.",
+      "Verter la mezcla de crumble uniformemente sobre las manzanas.",
+      "Hornear durante 50-60 minutos hasta que las manzanas estén blandas y la cubierta esté dorada."
+    ],
+    "ar": [
+      "نسخنوا الكوشة في 180 درجة.",
+      "في صحفة، نخلطوا التفاح المقصوص، السكر العادي، القرفة والملح.",
+      "نحطوا خليط التفاح في طبق كوشة متوسط مدهون بالزيت.",
+      "في صحفة أخرى، نخلطوا الشوفان، الفرينة، السكر الأسمر، خميرة القاطو والبيكربونات.",
+      "نزيدوا المارغرين الباردة للخليط الشايح ونخلطوا مليح (بصوابعنا ولا بفرشيطة) لين يولي مفترش (مرمل).",
+      "نصبوا خليط الكرامبل بالتساوي فوق التفاح.",
+      "نطيبوها في الكوشة مدة 50-60 دقيقة لين التفاح يطرا والوجه يحمار."
+    ],
+    "en": [
+      "Preheat the oven to 180°C (350°F).",
+      "In a bowl, mix together the sliced apples, regular sugar, cinnamon, and salt.",
+      "Transfer the apple mixture into a greased medium-sized baking pan.",
+      "In a separate bowl, mix the oatmeal, flour, brown sugar, baking powder, and baking soda.",
+      "Add the cold margarine to the dry ingredients and mix well (using fingers or a fork) until a crumbly texture is achieved.",
+      "Pour the crumble mixture evenly over the apples.",
+      "Bake for 50-60 minutes until the apples are soft and the topping is browned."
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Ugat Bananot' is Modern Hebrew. 'Uga' (עוגה) comes from the Biblical Hebrew root 'ug' (עוג) meaning 'to be round' or 'circle', originally referring to round baked breads. 'Bananot' is the plural of 'Banana', an international loan word ultimately derived from Wolof (West Africa) via Spanish/Portuguese. This is not a traditional, ancient Judeo-Arabic dish (as bananas were not a staple baking ingredient in pre-modern North Africa), but rather a 20th-century addition to the repertoire, likely introduced during the French Protectorate era (influenced by the French 'Gâteau aux bananes') or later in Israel. The use of sour milk suggests an adaptation using local 'Lben' (fermented milk) to mimic buttermilk or yogurt in Western-style baking.",
+    "language_source": "hebrew",
+    "root_word": "עוג (Ug - Round) + Banana (Loan word)",
+    "meaning": "Banana Cake",
+    "confidence": "confirmed",
+    "sources_notes": "The dish represents the modernization of North African Jewish cuisine. While traditional Djerban sweets rely on semolina, honey, and nuts, this sponge-like cake belongs to the 'Bouscoutou' (sponge cake) family of desserts adopted from European influence."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau aux bananes",
+      "language": "french",
+      "notes": "Common name used by Francophone North African Jews during the colonial era."
+    },
+    {
+      "name": "Mouz Cake",
+      "language": "arabic",
+      "notes": "'Mouz' (موز) is Arabic for banana, though this mix of English/Arabic is colloquial and modern."
+    },
+    {
+      "name": "Bouscoutou",
+      "language": "judeo_arabic",
+      "notes": "Generic term for sponge cakes in Tunisia (from Italian 'Biscotto'), sometimes applied to fruit-flavored cakes."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Banana Bread",
+      "culture": "American/British",
+      "similarity": "Uses mashed bananas and chemical leavening.",
+      "key_difference": "Banana bread is denser and loaf-shaped; the Jewish version is often lighter, like a sponge cake (Bouscoutou)."
+    },
+    {
+      "name": "Gâteau au Yaourt",
+      "culture": "French",
+      "similarity": "Uses fermented dairy (yogurt) for a tender crumb, similar to the 'sour milk' in this recipe.",
+      "key_difference": "Standard version is plain or citrus; does not typically contain fruit pulp."
+    },
+    {
+      "name": "Meskouta / Meskouta bil Lchin",
+      "culture": "Moroccan",
+      "similarity": "A distinct oil-based sponge cake often made with orange juice.",
+      "key_difference": "Uses citrus rather than banana; traditional Moroccan equivalent of the tea cake."
+    }
+  ]
+}

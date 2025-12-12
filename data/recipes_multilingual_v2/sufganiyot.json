@@ -1,0 +1,34 @@
+{
+  "id": "sufganiyot",
+  "image": "images/current/086_sufganiyot/dish.png",
+  "meta": {
+    "servings": "None",
+    "prep_time": "None min",
+    "cook_time": "None min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "סופגניות",
+    "es": "Sufganiyot (Buñuelos)",
+    "ar": "سوفغانيوت",
+    "en": "Sufganiyot (Doughnuts)"
+  },
+  "description": {
+    "he": "מקור השם סופגניות הוא מהשורש העברי שמשמעותו לספוג, בהתייחס לאופן שבו בצק השמרים הספוגי סופג שמן במהלך הטיגון העמוק. מאכל זה נאכל בחנוכה לזכר נס פך השמן, והוא ממולא באופן מסורתי בריבת תות ומפודר באבקת סוכר, אם כי הגרסאות הג'רבאיות דומות לעתים קרובות יותר לספינג' הפשוט בצורת טבעת.",
+    "es": "Las Sufganiyot derivan su nombre de la raíz hebrea que significa absorber, refiriéndose a cómo la masa esponjosa absorbe el aceite al freírse. Se comen durante Hanukkah para conmemorar el milagro del aceite; tradicionalmente se rellenan con mermelada de fresa y se espolvorean con azúcar glas, aunque las versiones de Djerba a menudo se asemejan al sfenj en forma de anillo.",
+    "ar": "السوفغانيوت ياخذو اسمهم من كلمة عبرية معناها يمص، خاطر العجينة متاعهم تمص الزيت وقت القليان. ناكلوهم في حانوكا باش نتفكرو معجزة الزيت. العادة نحشيوهم بالمعجون ونرشوا عليهم السكر المحور، أما في جربة يعملوهم كيما السفنج المدور.",
+    "en": "Sufganiyot derive their name from the Hebrew root meaning \"to absorb,\" referencing how the spongy yeast dough soaks up oil during deep-frying. Eaten during Hanukkah to commemorate the miracle of the oil, these golden treats are traditionally filled with strawberry jam and dusted with powdered sugar, though Djerban versions often resemble the simpler, ring-shaped sfenj."
+  },
+  "ingredients": {
+    "he": [],
+    "es": [],
+    "ar": [],
+    "en": []
+  },
+  "steps": {
+    "he": [],
+    "es": [],
+    "ar": [],
+    "en": []
+  }
+}

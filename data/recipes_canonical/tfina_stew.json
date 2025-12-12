@@ -1,0 +1,407 @@
+{
+  "id": "tfina_stew",
+  "slug": "tfina-stew",
+  "source_file": "data/safed_recipes/13_טפינה.json",
+  "name": "Tfina (Beef and Barley Stew)",
+  "name_hebrew": "טפינה",
+  "name_origin": "The name derives directly from the Arabic trilateral root D-F-N (د ف ن), meaning 'to bury' or 'to inter'. In the context of North African Jewish cuisine, this refers to the historical cooking method where the pot was hermetically sealed and 'buried' in the embers of the communal oven (ferran) or a charcoal pit on Friday afternoon to cook slowly overnight for Shabbat lunch. In Tunisian and Djerban Judeo-Arabic dialects, the initial 'D' often hardens to a 'T', shifting 'Dafina' to 'Tfina' or 'Tafina'.",
+  "description": "A rich North African stew featuring beef, potatoes, and barley. A distinctive Djerban technique involves caramelizing sugar in oil at the start to create a deep, dark color and savory depth before adding the main ingredients.",
+  "cultural_context": "Tfina is the Tunisian/Djerban equivalent of Hamin or Cholent, traditionally eaten on Shabbat lunch. While this recipe outlines a shorter stovetop cooking time, these ingredients are classic for the slow-cooked version.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace beef with root vegetables or plant-based meat chunks; the barley and beans provide heartiness.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 70,
+    "total_time_minutes": 90,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef_stew_meat",
+      "name": "Beef stew meat",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into chunks",
+      "notes": "Chuck or brisket recommended",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 4,
+      "unit": "unit",
+      "preparation": "peeled and quartered",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pearl_barley",
+      "name": "Pearl barley",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "rinsed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_beans",
+      "name": "White beans",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "soaked overnight",
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 60,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 15,
+      "unit": "g",
+      "preparation": null,
+      "notes": "for caramelizing the base",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "coarse_salt",
+      "name": "Coarse salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Boiling water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "enough to cover ingredients",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_cover"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_cover"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_cover"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_cover"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Prepare all ingredients: place the meat, potatoes, onion, barley, and beans (if using) in a bowl or have them ready.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a heavy pot, heat the oil and sugar together. Cook until the sugar melts and turns a deep brown color (caramelizes).",
+      "time_minutes": 5,
+      "tips": "Watch carefully so the sugar does not burn, but ensure it gets dark enough to color the stew."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the paprika to the hot oil/sugar mixture, then immediately add all the other ingredients: meat, potatoes, barley, and onion.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Season with coarse salt and black pepper. Sauté and steam the mixture in its own juices for about 10 minutes, stirring occasionally.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add boiling water to cover the ingredients. Lower the heat to a simmer and cook for about one hour.",
+      "time_minutes": 60,
+      "tips": "For a traditional Shabbat version, this would be transferred to a hot plate or oven to cook overnight."
+    }
+  ],
+  "variants": [
+    {
+      "name": "Tfina with Beans",
+      "description": "Add soaked white beans along with the barley for a heartier stew."
+    }
+  ],
+  "image": {
+    "filename": "images/current/090_tfina/dish.png",
+    "prompt": "A heavy pot filled with rich, dark brown North African beef stew, visible potatoes, pearl barley, and chunks of meat, steam rising, rustic style"
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "shabbat",
+    "stew",
+    "meat"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "D-F-N (د ف ن)",
+    "meaning": "The buried (pot/dish)",
+    "confidence": "confirmed",
+    "notes": "This etymology is universally accepted in Judeo-Arabic linguistics and culinary history. It parallels the Spanish/Ladino 'Adafina'. The pronunciation 'Tfina' is specific to the Tunisian/Libyan region, whereas 'Dafina' is more common in Morocco."
+  },
+  "alternative_names": [
+    {
+      "name": "Dafina",
+      "language": "moroccan_arabic",
+      "notes": "The standard Judeo-Arabic term used across the Maghreb, particularly in Morocco."
+    },
+    {
+      "name": "Skhina",
+      "language": "moroccan_arabic",
+      "notes": "Literally meaning 'the hot one' (from Arabic 'sakhun'), used as a euphemism in Morocco to avoid saying the word 'Dafina' which can also imply a burial of the dead."
+    },
+    {
+      "name": "Hamin",
+      "language": "hebrew",
+      "notes": "The generic Hebrew term for overnight Shabbat stews, derived from the word for 'hot'."
+    },
+    {
+      "name": "Adafina",
+      "language": "ladino",
+      "notes": "The medieval Sephardic predecessor to the North African stew."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Cholent",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Slow-cooked overnight stew with meat, potatoes, and grains (barley/beans) for Shabbat.",
+      "key_difference": "Uses beans and Ashkenazi flavor profile (paprika, pepper) rather than the caramelized sugar and North African spices found in Djerban Tfina."
+    },
+    {
+      "name": "Hrisa / Harissa",
+      "culture": "Tunisian / North African",
+      "similarity": "A wheat or barley-based porridge or stew.",
+      "key_difference": "While 'Hrisa' refers to the grain consistency, 'Tfina' specifically implies the overnight Shabbat cooking method. The Djerban Tfina described is essentially a slow-cooked Hrisa with meat."
+    },
+    {
+      "name": "Tbit",
+      "culture": "Iraqi Jewish",
+      "similarity": "Slow-cooked Shabbat dish involving grains (rice) and meat (chicken).",
+      "key_difference": "Uses rice and chicken skin stuffing rather than barley and beef."
+    },
+    {
+      "name": "Cocido Madrileño",
+      "culture": "Spanish",
+      "similarity": "A chickpea and meat stew derived from the Jewish Adafina/Dafina tradition after the Inquisition.",
+      "key_difference": "Contains pork and is not cooked overnight."
+    }
+  ],
+  "intro_paragraph": "Tfina derives its name from the Arabic root for \"to bury,\" referencing the tradition of burying pots in embers for Shabbat lunch. This hearty stew combines beef, potatoes, and barley. Distinctively, Djerban cooks caramelize sugar in oil before adding ingredients, imparting a deep, dark color and savory richness to this classic hamin."
+}

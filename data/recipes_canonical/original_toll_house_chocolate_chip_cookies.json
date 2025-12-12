@@ -1,0 +1,379 @@
+{
+  "id": "original_toll_house_chocolate_chip_cookies",
+  "slug": "original-toll-house-chocolate-chip-cookies",
+  "source_file": "data/safed_recipes/original_toll_house__chocolate_chip_cookies.json",
+  "name": "Original Toll House Chocolate Chip Cookies",
+  "name_hebrew": "עוגיות שוקולד צ'יפס (מתכון מקורי)",
+  "name_origin": "This is a modern American dish name, not of North African or Judeo-Arabic origin. 'Toll House' refers to the Toll House Inn in Whitman, Massachusetts, where Ruth Wakefield invented the cookie in the 1930s. The Hebrew word 'Ugiyot' (עוגיות) is the plural diminutive of 'Ugah' (cake/bread), derived from Biblical Hebrew (baked round loaf). The rest of the Hebrew name is a direct transliteration of the English 'Chocolate Chips'. Its presence in a Djerban cookbook represents modern culinary globalization rather than traditional heritage.",
+  "description": "The classic American cookie recipe featuring a buttery dough, semi-sweet chocolate morsels, and nuts. Crispy on the edges and chewy in the center.",
+  "cultural_context": "While not of North African origin, this American classic has become a staple in many modern Jewish households.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace butter with vegan butter or margarine; replace eggs with flax eggs or commercial egg replacer.",
+  "meta": {
+    "servings": "60 cookies",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 11,
+    "total_time_minutes": 45,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 280,
+      "unit": "g",
+      "preparation": null,
+      "notes": "2 1/4 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 280,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 9.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 280,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_soda",
+      "name": "Baking soda",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.18,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.21,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "butter",
+      "name": "Butter",
+      "amount": 227,
+      "unit": "g",
+      "preparation": "softened",
+      "notes": "1 cup / 2 sticks",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 227,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 227,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "granulated_sugar",
+      "name": "Granulated sugar",
+      "amount": 150,
+      "unit": "g",
+      "preparation": null,
+      "notes": "3/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "brown_sugar",
+      "name": "Brown sugar",
+      "amount": 150,
+      "unit": "g",
+      "preparation": "firmly packed",
+      "notes": "3/4 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_extract",
+      "name": "Vanilla extract",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "eggs",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "large",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "semi_sweet_chocolate_chips",
+      "name": "Semi-sweet chocolate morsels",
+      "amount": 340,
+      "unit": "g",
+      "preparation": null,
+      "notes": "12 oz package / approx 2 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 340,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 12,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 340,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "nuts",
+      "name": "Nuts (Walnuts or Pecans)",
+      "amount": 100,
+      "unit": "g",
+      "preparation": "chopped",
+      "notes": "1 cup; optional",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 375°F (190°C).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a small bowl, combine flour, baking soda, and salt; set aside.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a large mixer bowl, beat butter, granulated sugar, brown sugar, and vanilla extract until creamy. Beat in eggs one at a time.",
+      "time_minutes": 5,
+      "tips": "Ensure butter is softened for best texture."
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually beat in the flour mixture. Stir in semi-sweet chocolate morsels and nuts by hand.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Drop dough by rounded measuring tablespoonfuls onto ungreased cookie sheets.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Bake for 9 to 11 minutes until edges are golden brown. Let stand on cookie sheets for 2 minutes before removing to wire racks to cool completely.",
+      "time_minutes": 11,
+      "tips": "Do not overbake; centers should still look slightly soft."
+    }
+  ],
+  "variants": [
+    {
+      "name": "Pan Cookie",
+      "description": "Bar cookie variation baked in a single pan.",
+      "instructions": "Preheat oven to 375°F (190°C). Spread dough in a greased 15½ x 10½ x 1-inch baking pan. Bake 20 to 25 minutes. Cool completely before cutting into 2-inch squares."
+    }
+  ],
+  "image": {
+    "filename": "images/current/022_chocolate_chip_cookies/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cookies",
+    "american",
+    "dairy",
+    "kids-favorites"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "Dutch 'koekje' (cookie) / Nahuatl 'xocolātl' (chocolate)",
+    "meaning": "Little cakes with chocolate pieces (Toll House style)",
+    "confidence": "confirmed",
+    "notes": "Historical record of Ruth Wakefield (1938). This is an outlier in a North African context, likely added to a modern edition of the cookbook for variety."
+  },
+  "alternative_names": [
+    {
+      "name": "Ugiyot Shokolad Chips",
+      "language": "hebrew",
+      "notes": "Modern Israeli Hebrew pronunciation"
+    },
+    {
+      "name": "Biscuits aux pépites de chocolat",
+      "language": "french",
+      "notes": "Common name used in Francophone Tunisia for this imported style"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ghraiba / Ghribia",
+      "culture": "Tunisian / Maghrebi",
+      "similarity": "Both are short, buttery tea-time cookies.",
+      "key_difference": "Ghraiba uses chickpea or wheat flour and oil/butter for a sandy texture, traditionally without chocolate."
+    },
+    {
+      "name": "Croquant / Krokan",
+      "culture": "Tunisian Jewish / French",
+      "similarity": "Crispy baked sweet snack often containing nuts.",
+      "key_difference": "Croquants are hard, twice-baked almond biscuits (like biscotti), lacking the chewy center and butter content of American cookies."
+    },
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "Sweet baked good often containing chocolate chunks or nuts.",
+      "key_difference": "Boulou is a dry, crunchy roll/biscuit (closer to mandelbrot), while Toll House cookies are rich, buttery drop cookies."
+    }
+  ],
+  "intro_paragraph": "Original Toll House Chocolate Chip Cookies feature a buttery dough studded with semi-sweet chocolate and nuts. Named for the Massachusetts inn where they were invented, they are known in Hebrew as *ugiyot*, a term derived from Biblical round loaves. While not traditional Djerban fare, these crispy-chewy American classics have become a staple in modern Jewish kitchens."
+}

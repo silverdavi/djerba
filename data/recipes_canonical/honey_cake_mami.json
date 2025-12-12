@@ -1,0 +1,395 @@
+{
+  "id": "honey_cake_mami",
+  "slug": "honey-cake-mami",
+  "source_file": "data/safed_recipes/honey_cake_mami.json",
+  "name": "Mami's Honey Cake",
+  "name_hebrew": "עוגת דבש (מאמי)",
+  "name_origin": "The term 'Mami' (מאמי) in this context is not a specific culinary root but a familial honorific derived from the French 'Mamie' (Grandma). Following the French Protectorate in Tunisia (1881–1956), many Tunisian Jewish families adopted French familial terms. The cake itself—a soft honey cake using coffee and spices—is likely a local adaptation of the French 'Pain d'épices' or an adoption of the Ashkenazi 'Lekach' which became popular in Israel and the diaspora, rather than an ancient Djerban dish (which would typically be 'Boulou'). The Hebrew 'Ougat Dvash' is a modern descriptive translation. (Confidence: likely)",
+  "description": "A traditional moist honey cake, essential for Rosh Hashanah. This recipe uses coffee to deepen the color and flavor, balanced with warm spices like cinnamon and cloves.",
+  "cultural_context": "Honey cake (Lekach) is traditionally eaten during the Jewish High Holidays, specifically Rosh Hashanah, to symbolize the wish for a sweet new year. In North African families, these cakes are often darkened with tea or coffee.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with applesauce or flax eggs; use agave or date syrup instead of honey.",
+  "meta": {
+    "servings": "10-12",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 65,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 5,
+      "unit": "unit",
+      "size": "large",
+      "preparation": null,
+      "notes": "room temperature",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 200,
+      "unit": "g",
+      "size": null,
+      "preparation": null,
+      "notes": "(approx. 1 cup)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 200,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 200,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 120,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "neutral oil like canola (approx. 1/2 cup)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "honey",
+      "name": "Honey",
+      "amount": 170,
+      "unit": "g",
+      "size": null,
+      "preparation": null,
+      "notes": "(approx. 1/2 cup)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 170,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 170,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_water",
+      "name": "Hot water",
+      "amount": 240,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "for coffee (1 cup)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 240,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "instant_coffee",
+      "name": "Instant coffee granules",
+      "amount": 1.5,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "dissolved in the hot water",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ground_cinnamon",
+      "name": "Ground cinnamon",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ground_cloves",
+      "name": "Ground cloves",
+      "amount": 0.25,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 0.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.02,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 210,
+      "unit": "g",
+      "size": null,
+      "preparation": "sifted",
+      "notes": "(approx. 1.5 cups)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 210,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 210,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 2,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 170°C (340°F). Grease a loaf pan or bundt pan well.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Prepare the coffee by mixing the instant coffee granules with the hot water. Set aside to cool slightly.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a large bowl or mixer, beat the eggs and sugar together until the mixture is pale and fluffy.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually add the oil, honey, and the prepared coffee to the egg mixture, mixing on low speed until combined.",
+      "time_minutes": 2,
+      "tips": "If the honey is too thick, warm it slightly to make it pourable."
+    },
+    {
+      "step": 5,
+      "instruction": "In a separate bowl, sift together the flour, baking powder, cinnamon, and cloves.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Gently fold the dry ingredients into the wet mixture until just combined. Do not overmix.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Pour the batter into the prepared pan and bake for approximately 45 minutes, or until a toothpick inserted into the center comes out clean.",
+      "time_minutes": 45,
+      "tips": "Check the cake after 35 minutes; if it is browning too quickly, cover loosely with foil."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/042_honey_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "cake",
+    "rosh-hashanah",
+    "jewish-holidays",
+    "dairy-free",
+    "parve"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "Mamie",
+    "meaning": "Grandma",
+    "confidence": "likely",
+    "notes": "In North African Jewish dialects, specific dish names usually describe the ingredients (e.g., 'Bsal' for onion stew) or the method ('Mhamsa'). 'Mami' does not correspond to a Judeo-Arabic culinary verb or noun. It is the standard French term for grandmother, widely used by Francophone North African Jews."
+  },
+  "alternative_names": [
+    {
+      "name": "Pain d'épices",
+      "language": "French",
+      "notes": "The French spiced honey bread that likely influenced this moist cake version in Tunisia."
+    },
+    {
+      "name": "Boulou",
+      "language": "Judeo-Arabic (Tunisian)",
+      "notes": "While 'Boulou' is the distinct, traditional Tunisian Rosh Hashanah sweet (a crunchy almond roll), some families may use 'Ougat Dvash' to differentiate this softer cake."
+    },
+    {
+      "name": "Gatou Asal",
+      "language": "Judeo-Arabic",
+      "notes": "A literal translation (Gatou from French 'Gâteau', Asal = Honey) used in some dialects."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Lekach",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Identical ingredients: honey, warm spices (cloves/cinnamon), and specifically the use of coffee to darken the batter.",
+      "key_difference": "Lekach is the Eastern European standard; the Tunisian version often incorporates orange zest or blossom water."
+    },
+    {
+      "name": "Pain d'épices",
+      "culture": "French",
+      "similarity": "A rye-based honey spice cake.",
+      "key_difference": "French version is often drier and bread-like; the Jewish version uses oil and eggs for a moist cake texture."
+    },
+    {
+      "name": "Basbousa / Harissa Hloua",
+      "culture": "Tunisian / Middle Eastern",
+      "similarity": "Sweet cake served for celebrations.",
+      "key_difference": "Basbousa is semolina-based and soaked in syrup after baking, whereas this Honey Cake has the sweetener (honey) baked into the batter."
+    }
+  ],
+  "intro_paragraph": "Mami’s Honey Cake derives its title from the French term for grandmother, a linguistic remnant of the Protectorate era. Essential for Rosh Hashanah to symbolize a sweet new year, this moist loaf is enriched with strong coffee and warm spices like cinnamon, creating a darker, more aromatic variation of the classic holiday lekach."
+}

@@ -1,0 +1,330 @@
+{
+  "id": "chicken_fricassee_stew",
+  "slug": "chicken-fricassee-stew",
+  "source_file": "data/safed_recipes/31_ציקן_פריקסה.json",
+  "name": "Chicken Fricassee Stew with Dumplings",
+  "name_hebrew": "צ׳יקן פריקסה",
+  "name_origin": "The name provided is a linguistic hybrid, indicating a modern or diasporic evolution rather than an ancient Judeo-Arabic root. 'Chicken' (צ׳יקן) is a direct transliteration of the English word, which is not native to Djerban or Tunisian dialects (where chicken is 'djaj'). 'Fricassee' (פריקסה) derives from the French culinary term 'fricassée' (from the Middle French 'frire' [to fry] and 'casser' [to break/cut up]). While 'Fricassé' in Tunisia almost exclusively refers to the famous fried sandwich, the French colonial influence (1881–1956) introduced the classic French 'fricassée' stew to the Jewish bourgeoisie. The presence of 'dumplings' suggests this may be a variation of a 'Ragout' or 'Marqa' adapted with European techniques, or a family-specific name for a dish resembling American 'Chicken and Dumplings'.",
+  "description": "A comforting homestyle chicken stew with carrots and onions, thickened with simple flour-and-water drop dumplings cooked directly in the broth.",
+  "cultural_context": "While 'Fricassé' in Tunisian Jewish cuisine typically refers to a fried savory donut sandwich, this recipe is a literal interpretation of the French 'fricassee' stew, adapted with simple drop dumplings common in frugal home cooking.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with mushrooms or seitan; the dumplings are already vegan.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_pieces",
+      "name": "Chicken pieces",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cut into serving pieces",
+      "notes": "Original text specifies 'tefalei of' (parts/giblets), but standard pieces work well",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "carrot",
+      "name": "Carrot",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "enough to cover chicken + extra for batter",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 140,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup, for dumplings",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 140,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.1,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 140,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat the oil in a pot over medium heat.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the chicken pieces and sauté/steam for approximately 10 minutes.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the diced carrot and onion to the pot.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Season with salt and pepper, then sauté everything together briefly.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add enough water to cover the ingredients and bring to a boil.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "While the stew heats, prepare the dumplings: In a bowl, mix flour, a little water, and a pinch of salt to create a soft batter.",
+      "time_minutes": 5,
+      "tips": "The batter should be thick enough to hold shape but soft enough to drop from a spoon."
+    },
+    {
+      "step": 7,
+      "instruction": "Once the stew is boiling, use a spoon to drop or drizzle portions of the batter into the liquid.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Cook until the chicken is tender and the dumplings are cooked through.",
+      "time_minutes": 20,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/033_fricassee_stew/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "chicken",
+    "stew",
+    "dumplings",
+    "comfort-food",
+    "tunisian"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "french",
+    "root_word": "Fricasser (French: to fry and break)",
+    "meaning": "Literally 'Chicken Stew' (using English and French loanwords)",
+    "confidence": "confirmed",
+    "notes": "The etymology of the words is confirmed, but the combination 'Chicken Fricassee' in a Djerban context is highly unusual and likely modern. Traditional Djerban cuisine would use Judeo-Arabic terms like 'Marqa' (stew) or 'Djaj' (chicken). The use of the English word 'Chicken' suggests this recipe name was coined or recorded by Anglophone descendants or in modern Israel."
+  },
+  "alternative_names": [
+    {
+      "name": "Fricassée de Poulet",
+      "language": "french",
+      "notes": "The original French name for a white chicken stew, likely the precursor to this dish during the Protectorate era."
+    },
+    {
+      "name": "Marqa bil Ajina",
+      "language": "tunisian_arabic",
+      "notes": "Descriptive reconstruction: 'Stew with dough', referring to the dumplings."
+    },
+    {
+      "name": "Ragout de Poulet",
+      "language": "french",
+      "notes": "Common French term for chicken stew used interchangeably with Fricassee in North Africa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fricassé Tunisien",
+      "culture": "Tunisian (Jewish and Muslim)",
+      "similarity": "Shares the name 'Fricassé'",
+      "key_difference": "The standard Tunisian Fricassé is a fried yeast-dough sandwich filled with tuna, egg, and harissa, NOT a chicken stew."
+    },
+    {
+      "name": "Tikourbabine (Asban)",
+      "culture": "Algerian (Kabyle/Berber)",
+      "similarity": "A sauce-based dish containing large semolina/flour dumplings cooked in the broth.",
+      "key_difference": "Uses semolina and mint/herbs in the dumplings, whereas the Jewish version described uses simple flour/water."
+    },
+    {
+      "name": "Chicken and Dumplings",
+      "culture": "American / Ashkenazi",
+      "similarity": "Identical preparation method (chicken stew with boiled dough drops).",
+      "key_difference": "Flavor profile (Tunisian version likely uses turmeric, oil, and perhaps harissa, vs. butter/cream/herbs)."
+    },
+    {
+      "name": "Mhamsa",
+      "culture": "North African",
+      "similarity": "A stew thickened with flour-based starch.",
+      "key_difference": "Mhamsa uses tiny pasta beads (berkoukes) rather than large drop dumplings."
+    }
+  ],
+  "intro_paragraph": "Chicken Fricassee takes its name from the French term for cut-up meat rather than the popular Tunisian fried sandwich. This comforting stew features chicken, carrots, and onions simmered together and thickened with simple flour-and-water drop dumplings. It reflects a diasporic evolution of Djerban cuisine, adapting classic French techniques into a frugal, hearty family meal."
+}

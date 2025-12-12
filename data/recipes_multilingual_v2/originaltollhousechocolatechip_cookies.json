@@ -1,0 +1,106 @@
+{
+  "id": "originaltollhousechocolatechip_cookies",
+  "image": "images/current/022chocolatechip_cookies/dish.png",
+  "meta": {
+    "servings": "60 cookies",
+    "prep_time": "15 min",
+    "cook_time": "11 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגיות שוקולד צ'יפס (מתכון מקורי)",
+    "es": "Galletas con Chispas de Chocolate (Original Toll House)",
+    "ar": "كوكيز بقطع الشوكولاتة (تول هاوس)",
+    "en": "Original Toll House Chocolate Chip Cookies"
+  },
+  "description": {
+    "he": "עוגיות שוקולד צ'יפס המקוריות של טול האוס כוללות בצק חמאתי משובץ בשוקולד מריר ואגוזים. הן נקראות על שם הפונדק במסצ'וסטס בו הומצאו, ובעברית הן נקראות עוגיות, מונח הנגזר מכיכרות לחם עגולות מהתנ\"ך. למרות שאינן מאכל ג'רבאי מסורתי, הקלאסיקה האמריקאית הפכה למצרך בסיסי במטבחים יהודיים מודרניים.",
+    "es": "Las galletas originales Toll House con chispas de chocolate presentan una masa mantecosa con trozos de chocolate semidulce y nueces. Nombradas en honor a la posada de Massachusetts donde se inventaron, en hebreo se conocen como ugiyot. Aunque no son un plato tradicional de Djerba, estos clásicos estadounidenses crujientes y masticables se han convertido en un elemento básico en las cocinas judías modernas.",
+    "ar": "كوكيز تول هاوس الأصلية بقطع الشوكولاتة فيها عجينة بالزبدة مع شوكولاتة وفاكية. تسمات على اسم النزل في ماساتشوستس وين تخترعت، ومعروفة بالعبرية باسم عوجيوت. بالرغم اللي هي ماهيش ماكلة جربية تقليدية، الكلاسيكيات الأمريكية هذي ولات حاجة أساسية في الكوجينة اليهودية العصرية.",
+    "en": "Original Toll House Chocolate Chip Cookies feature a buttery dough studded with semi-sweet chocolate and nuts. Named for the Massachusetts inn where they were invented, they are known in Hebrew as ugiyot, a term derived from Biblical round loaves. While not traditional Djerban fare, these crispy-chewy American classics have become a staple in modern Jewish kitchens."
+  },
+  "ingredients": {
+    "he": [
+      "280 גרם קמח רגיל",
+      "5 גרם סודה לשתייה",
+      "6 גרם מלח",
+      "227 גרם חמאה, רכה",
+      "150 גרם סוכר לבן",
+      "150 גרם סוכר חום, דחוס",
+      "5 מ\"ל תמצית וניל",
+      "2 ביצים גדולות",
+      "340 גרם שוקולד צ'יפס מריר",
+      "100 גרם אגוזים (מלך או פקאן), קצוצים"
+    ],
+    "es": [
+      "280 g de harina común",
+      "5 g de bicarbonato de sodio",
+      "6 g de sal",
+      "227 g de mantequilla, ablandada",
+      "150 g de azúcar blanca",
+      "150 g de azúcar morena, compactada",
+      "5 ml de extracto de vainilla",
+      "2 huevos grandes",
+      "340 g de chispas de chocolate semidulce",
+      "100 g de nueces (nogal o pacanas), picadas"
+    ],
+    "ar": [
+      "2 1/4 كيسان فرينة",
+      "1 مغرفة صغيرة بيكربونات",
+      "1 مغرفة صغيرة ملح",
+      "1 كأس زبدة، طرية",
+      "3/4 كأس سكر",
+      "3/4 كأس سكر أسمر",
+      "1 مغرفة صغيرة فانيليا",
+      "2 عظمات كبار",
+      "2 كيسان حبيبات شوكولاتة",
+      "1 كأس فاكية (جوز أو بيكان)، مهروشة"
+    ],
+    "en": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar, packed",
+      "1 tsp vanilla extract",
+      "2 large eggs",
+      "2 cups semi-sweet chocolate morsels",
+      "1 cup nuts (walnuts or pecans), chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "לחמם תנור ל-190 מעלות צלזיוס.",
+      "בקערה קטנה, לערבב קמח, סודה לשתייה ומלח; להניח בצד.",
+      "בקערת מיקסר גדולה, להקציף חמאה, סוכר לבן, סוכר חום ותמצית וניל עד לקבלת מרקם קרמי. להוסיף את הביצים אחת אחת תוך כדי ערבוב.",
+      "להוסיף בהדרגה את תערובת הקמח. לערבב פנימה את השוקולד צ'יפס והאגוזים ידנית.",
+      "להניח כפות גדושות של בצק על תבניות אפייה לא משומנות.",
+      "לאפות במשך 9 עד 11 דקות עד שהקצוות מזהיבים. להניח בתבנית למשך 2 דקות לפני העברה לרשת צינון."
+    ],
+    "es": [
+      "Precalentar el horno a 190°C (375°F).",
+      "En un tazón pequeño, mezclar la harina, el bicarbonato de sodio y la sal; reservar.",
+      "En un tazón grande de batidora, batir la mantequilla, el azúcar blanca, el azúcar morena y la vainilla hasta obtener una crema. Añadir los huevos uno a uno batiendo bien.",
+      "Añadir gradualmente la mezcla de harina. Incorporar las chispas de chocolate y las nueces mezclando a mano.",
+      "Colocar cucharadas colmadas de masa sobre bandejas para hornear sin engrasar.",
+      "Hornear de 9 a 11 minutos hasta que los bordes estén dorados. Dejar reposar en la bandeja 2 minutos antes de pasar a una rejilla para enfriar."
+    ],
+    "ar": [
+      "سخن الكوشة على 190 درجة.",
+      "في صحفة صغيرة، خلط الفرينة والبيكربونات والملح، وخليهم على شيرة.",
+      "في صحفة كبيرة، ركض الزبدة والسكر والسكر الأسمر والفانيليا حتى يولي الخليط كريمي. زيد العظمات بالكعبة وركض.",
+      "زيد خليط الفرينة بالشوية. خلط حبيبات الشوكولاتة والفاكية بيدك.",
+      "حط مغارف معبيين من العجينة في طبق الكوشة مش مدهون.",
+      "طيبهم 9 حتى 11 دقيقة لين الحواشي يحمارو شوية. خليهم يرتاحو في الطبق دقيقتين ومبعد حطهم يبردو."
+    ],
+    "en": [
+      "Preheat oven to 375°F (190°C).",
+      "In a small bowl, combine flour, baking soda, and salt; set aside.",
+      "In a large mixer bowl, beat butter, granulated sugar, brown sugar, and vanilla extract until creamy. Beat in eggs one at a time.",
+      "Gradually beat in the flour mixture. Stir in semi-sweet chocolate morsels and nuts by hand.",
+      "Drop dough by rounded measuring tablespoonfuls onto ungreased cookie sheets.",
+      "Bake for 9 to 11 minutes until edges are golden brown. Let stand on cookie sheets for 2 minutes before removing to wire racks to cool completely."
+    ]
+  }
+}

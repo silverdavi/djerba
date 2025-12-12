@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The provided name 'Levivot' (לביבות) is Biblical Hebrew, derived from the root L-B-B (ל-ב-ב), associated with the heart ('lev') or the action of kneading/mixing. In 2 Samuel 13:6, Tamar makes 'levivot' for Amnon. In Modern Hebrew, the term was adopted to refer to latkes or fritters. However, the dish described—a baked potato casserole from Djerba—is historically known in Judeo-Arabic as 'Ma'akouda' (معقودة) or 'Ma'akouda fil-Koucha' (baked Ma'akouda). The use of 'Levivot' here represents a Hebraization of the traditional dish, likely occurring after immigration to Israel, despite the cooking method (baking) differing from the standard definition of levivot (frying).",
+    "language_source": "hebrew",
+    "root_word": "L-B-B (Hebrew) / 'A-Q-D (Arabic equivalent)",
+    "meaning": "Levivot: Cakes/Heart-shaped cakes; Ma'akouda: The knotted/bound one",
+    "confidence": "confirmed",
+    "sources_notes": "While the Hebrew name is generic, the dish description identifies it as the Djerban/Tunisian 'Ma'akouda'. The Arabic root 'A-Q-D (to knot/tie/bind) describes how the eggs bind the mashed potato mixture together. In Tunisia, this dish is often baked in a communal oven (Koucha) rather than fried individually."
+  },
+  "alternative_names": [
+    {
+      "name": "Ma'akouda / Maâkouda",
+      "language": "judeo_arabic",
+      "notes": "The authentic North African name. Literally 'The Bound One' (referring to eggs binding the potato)."
+    },
+    {
+      "name": "Tajine Batata",
+      "language": "tunisian_arabic",
+      "notes": "In Tunisia, 'Tajine' refers to a baked frittata/quiche, not a stew. This specific version is a potato tajine."
+    },
+    {
+      "name": "Mharta",
+      "language": "judeo_arabic",
+      "notes": "A specific Djerban/Tunisian term sometimes used for a mashed vegetable/egg dish, though Ma'akouda is more common for potato."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tunisian Tajine",
+      "culture": "Tunisian (General)",
+      "similarity": "A baked egg and vegetable casserole (frittata style).",
+      "key_difference": "Often contains meat (chicken/lamb) and cheese, whereas the Jewish potato version is often parve or simple."
+    },
+    {
+      "name": "Tortilla de Patatas",
+      "culture": "Spanish",
+      "similarity": "Thick egg and potato omelet.",
+      "key_difference": "Cooked in a skillet on the stovetop rather than baked in an oven/casserole dish."
+    },
+    {
+      "name": "Potato Kugel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Baked potato casserole.",
+      "key_difference": "Uses grated raw potatoes and starch, whereas Ma'akouda/Levivot typically uses boiled, mashed potatoes and turmeric."
+    },
+    {
+      "name": "Patatnik",
+      "culture": "Bulgarian",
+      "similarity": "Potato and egg based baked dish.",
+      "key_difference": "Often includes sirene cheese and mint; uses grated potatoes."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "This is an eponymous name, derived directly from the recipe contributor, Shlomit Perl. Unlike traditional Djerban dishes which are named after ingredients (e.g., 'B'hilat') or cooking methods (e.g., 'Mhamsa'), this title reflects the modern practice in community cookbooks of attributing specific non-traditional or fusion recipes to their source. The ingredients (soy sauce, mayonnaise, mustard) indicate this is a modern addition to the culinary repertoire, likely influenced by the 'Chinese Cabbage Salad' (Salat Kruv Sini) trend popular in Israel and the Jewish diaspora from the 1980s onwards, rather than a heritage Maghrebi dish.",
+    "language_source": "hebrew",
+    "root_word": "Shlomit (שלומית)",
+    "meaning": "Shlomit's Dressing (Shlomit is a Hebrew female name derived from 'Shalom' meaning peace)",
+    "confidence": "confirmed",
+    "sources_notes": "The presence of soy sauce confirms this is not a traditional North African Jewish dish. The name is explicitly stated as the contributor's name in the provided text."
+  },
+  "alternative_names": [
+    {
+      "name": "Rotev le-Salat Kruv",
+      "language": "hebrew",
+      "notes": "Generic Hebrew term for 'Cabbage Salad Dressing'"
+    },
+    {
+      "name": "Salat Kruv Sini",
+      "language": "hebrew",
+      "notes": "Literally 'Chinese Cabbage Salad' - a very common Israeli dish that uses this specific flavor profile (soy, mayo, sugar) on cabbage."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Salat Kruv Sini",
+      "culture": "Modern Israeli",
+      "similarity": "Uses shredded cabbage with a dressing of soy sauce, oil/mayo, sugar, and often toasted noodles or nuts.",
+      "key_difference": "Essentially the same dish; Shlomit's version adds mustard for emulsion."
+    },
+    {
+      "name": "Coleslaw",
+      "culture": "American/European",
+      "similarity": "Cabbage-based salad with a creamy dressing.",
+      "key_difference": "Traditional coleslaw uses vinegar/lemon and mayo, lacking the soy sauce (umami) element found in this recipe."
+    },
+    {
+      "name": "Wafu Dressing",
+      "culture": "Japanese",
+      "similarity": "Soy sauce based vinaigrette often used on cabbage.",
+      "key_difference": "Usually oil-based rather than mayonnaise-based; less sweet/creamy than the Israeli/Jewish version."
+    }
+  ]
+}

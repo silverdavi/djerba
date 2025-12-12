@@ -1,0 +1,292 @@
+{
+  "id": "nazha_herb_omelet",
+  "slug": "nazha-herb-omelet",
+  "source_file": "data/safed_recipes/29_נעזה_-_חביתת_ירק.json",
+  "name": "Na'zha (Tunisian Herb Omelet)",
+  "name_hebrew": "נעז'ה - חביתת ירק",
+  "name_origin": "The name 'Na'zha' (نعزة or نزهة) is from Tunisian Arabic. One theory connects it to 'nuzha' (نزهة), meaning 'freshness' or 'pleasant outing', describing the fresh herb content. Another theory links it to 'na'ja' (نعجة), meaning 'ewe' (female sheep), with the Tunisian pronunciation of Jim (ج) as soft 'Zh' - possibly referring to the omelet's soft, fluffy texture. The exact etymology remains uncertain, but it is distinctly a Djerban Jewish term not commonly found in general Tunisian cuisine. (Confidence: possible)",
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Possibly نزهة (nuzha/freshness) or نعجة (na'ja/ewe)",
+    "meaning": "Fresh/herby omelet or soft omelet",
+    "confidence": "possible",
+    "notes": "This appears to be a Djerban Jewish community-specific term. The word may have evolved from earlier Judeo-Arabic usage. Similar herb-heavy omelets exist across the Mediterranean under different names."
+  },
+  "alternative_names": [
+    {
+      "name": "Chakchouka (when more tomato-based)",
+      "language": "tunisian_arabic",
+      "notes": "Sometimes conflated with shakshuka, though Na'zha is specifically herb-focused"
+    },
+    {
+      "name": "Ejjeh",
+      "language": "levantine_arabic",
+      "notes": "Levantine equivalent of the herb omelet"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Kuku Sabzi",
+      "culture": "Persian/Iranian",
+      "similarity": "Dense herb-packed omelet/frittata",
+      "key_difference": "Persian version uses more fenugreek and is often baked"
+    },
+    {
+      "name": "Ejjeh",
+      "culture": "Levantine (Syria, Lebanon, Palestine)",
+      "similarity": "Herb omelet with similar herbs",
+      "key_difference": "Often includes mint, less cilantro"
+    },
+    {
+      "name": "Frittata alle erbe",
+      "culture": "Italian",
+      "similarity": "Herb-filled egg dish",
+      "key_difference": "Usually includes cheese, baked rather than pan-fried"
+    },
+    {
+      "name": "Tortilla de hierbas",
+      "culture": "Spanish",
+      "similarity": "Herb-based omelet",
+      "key_difference": "Typically thicker, often includes potato"
+    }
+  ],
+  "description": "A traditional Tunisian herb omelet packed with fresh greens. Similar to a frittata or the Persian Kuku Sabzi, this dish relies on a generous amount of scallions, dill, cilantro, and parsley mixed with eggs and fried until golden and stable.",
+  "cultural_context": "A staple in Djerban and Tunisian Jewish households, often served as a light lunch, dinner, or sandwich filling. It is characterized by the high ratio of herbs to eggs.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with chickpea flour batter or a commercial vegan egg substitute.",
+  "meta": {
+    "servings": "2-3",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 20,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggs",
+      "name": "Eggs",
+      "amount": 4,
+      "unit": "unit",
+      "size": "large",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "green_onion",
+      "name": "Green onions (scallions)",
+      "amount": 4,
+      "unit": "unit",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": "washed thoroughly",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "parsley",
+      "name": "Fresh parsley",
+      "amount": 0.25,
+      "unit": "bunch",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.25,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "dill",
+      "name": "Fresh dill",
+      "amount": 0.25,
+      "unit": "bunch",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.25,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cilantro",
+      "name": "Fresh cilantro (coriander)",
+      "amount": 0.25,
+      "unit": "bunch",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.25,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Crack the eggs into a mixing bowl.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the chopped green onions, parsley, dill, and cilantro to the eggs. Season with salt and pepper (if using) and whisk until well combined.",
+      "time_minutes": 3,
+      "tips": "Ensure herbs are washed and dried well before chopping to avoid a watery omelet."
+    },
+    {
+      "step": 3,
+      "instruction": "Heat the oil in a frying pan over low heat.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the egg and herb mixture into the pan. Fry slowly on low heat until the bottom is set and golden.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Carefully flip the omelet using a spatula (or by inverting onto a plate) and fry the other side until the eggs are fully cooked and the omelet is stable.",
+      "time_minutes": 3,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/063_nazha/dish.png",
+    "prompt": "Tunisian herb omelet Na'zha, golden brown disk filled with green herbs like parsley dill and green onion, sitting on a plate, rustic style"
+  },
+  "tags": [
+    "tunisian",
+    "djerban",
+    "breakfast",
+    "vegetarian",
+    "eggs",
+    "passover"
+  ],
+  "related_recipes": [],
+  "intro_paragraph": "Na'zha is a staple Djerban Jewish herb omelet featuring a dense mixture of scallions, dill, cilantro, and parsley bound by eggs. Its name likely stems from the Arabic for \"freshness\" (*nuzha*) or \"ewe\" (*na'ja*), alluding to its soft texture. Fried until golden, this fragrant dish is commonly enjoyed as a light lunch or sandwich filling."
+}

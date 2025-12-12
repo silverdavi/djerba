@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name is not of Judeo-Arabic or North African origin, but rather a Western loan phrase adopted into the modern Israeli-Tunisian repertoire. 'Mocha' refers to the port city of Al Mokha in Yemen (historically the center of the coffee trade), and 'Java' refers to the Indonesian island. Together, 'Mocha Java' is historically the world's oldest coffee blend. In a culinary context, 'Mocha' has come to signify the combination of chocolate and coffee. The presence of this dish in a Djerban cookbook reflects the strong French and later Western influence on Tunisian Jewish cuisine during the 20th century, where French patisserie terms were adopted and adapted for Kosher (parve) requirements.",
+    "language_source": "other",
+    "root_word": "Al-Mukhā (Arabic) + Java (Indonesian)",
+    "meaning": "Chocolate and Coffee Cake (implied)",
+    "confidence": "confirmed",
+    "sources_notes": "This is a modern descriptive name. Unlike traditional dishes (like 'Mhamsa' or 'Banatage'), this does not have a root in Tunisian Derja. It likely evolved from the French 'Gâteau Moka' (a popular coffee buttercream cake in France/Tunisia), adapted here to be a parve chocolate-coffee cake."
+  },
+  "alternative_names": [
+    {
+      "name": "Gâteau Moka",
+      "language": "French",
+      "notes": "The likely colonial-era inspiration for coffee-flavored cakes in Tunisia."
+    },
+    {
+      "name": "Ugat Shokolad-Kafe",
+      "language": "Hebrew",
+      "notes": "Literal translation: Chocolate-Coffee Cake."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Gâteau Moka",
+      "culture": "French",
+      "similarity": "A classic French cake flavored with coffee.",
+      "key_difference": "The traditional French Moka relies heavily on crème au beurre (buttercream) and genoise, making it dairy. The Jewish Djerban version is adapted to be 'parve' (dairy-free) using oil and a fudgy, melted base."
+    },
+    {
+      "name": "Devil's Food Cake",
+      "culture": "American/Western",
+      "similarity": "Rich, moist chocolate cake often enhanced with coffee to deepen the flavor.",
+      "key_difference": "The Djerban version specifically highlights the 'Java' (coffee) element as a primary flavor profile rather than just a flavor enhancer."
+    },
+    {
+      "name": "Bouscoutou",
+      "culture": "Tunisian Jewish",
+      "similarity": "The ubiquitous sponge cake of Tunisian Jewry.",
+      "key_difference": "Bouscoutou is a light, airy sponge (often citrus), whereas the Mocha Java is described as fudgy, rich, and dense."
+    }
+  ]
+}

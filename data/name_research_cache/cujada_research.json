@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name derives directly from the Ladino (Judeo-Spanish) word 'Quajado' or Spanish 'Cuajada'. It comes from the verb 'cuajar' (to coagulate, curdle, or set). While in modern Spain 'cuajada' refers to a dairy curd dessert, in Sephardic culinary terminology, it refers to a savory casserole where eggs are used as the binding agent to 'set' the vegetables (potatoes, spinach, or leeks). The presence of this name in a Djerban cookbook likely reflects the influence of the 'Grana' (Livornese/European Jewish community in Tunisia) or general Sephardic diaspora terminology, as the indigenous Tunisian Arabic term for this exact dish is 'Maaqouda'.",
+    "language_source": "ladino",
+    "root_word": "Cuajar (Spanish) / Coagulare (Latin)",
+    "meaning": "That which is set/curdled/coagulated (referring to the eggs binding the dish)",
+    "confidence": "confirmed",
+    "sources_notes": "Linguistically confirmed via Spanish/Ladino roots. The shift from dairy-setting to egg-setting is a standard semantic shift in Sephardic cooking (e.g., 'Quajado de Prasa'). The Hebrew spelling קוז'אדה uses the 'zh' sound (zayin with geresh) to approximate the Ladino 'J' sound."
+  },
+  "alternative_names": [
+    {
+      "name": "Quajado",
+      "language": "ladino",
+      "notes": "Standard spelling in Turkish/Rhodesli Sephardic communities."
+    },
+    {
+      "name": "Maaqouda",
+      "language": "tunisian_arabic",
+      "notes": "The most common name for this potato-egg pie in Tunisia (literally 'the knotted/bound one')."
+    },
+    {
+      "name": "Mina",
+      "language": "ladino",
+      "notes": "A similar Sephardic pie, though usually made with matzah layers (Mina de patata)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Maaqouda / Maâkouda",
+      "culture": "North African (Tunisia/Morocco/Algeria)",
+      "similarity": "Identical ingredients (mashed potato, egg, parsley, turmeric).",
+      "key_difference": "In Morocco, Maaqouda are often small fried patties; in Tunisia, it is often a baked pie (Tagine Maaqouda) identical to Cujada."
+    },
+    {
+      "name": "Tortilla de Patatas",
+      "culture": "Spanish",
+      "similarity": "Potato and egg binder.",
+      "key_difference": "Cooked in a skillet (flipped) rather than baked in an oven; uses sliced potatoes rather than mashed."
+    },
+    {
+      "name": "Potato Kugel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Baked potato and egg casserole.",
+      "key_difference": "Uses grated raw potatoes (denser texture) rather than cooked mashed potatoes; lacks the turmeric/cumin profile."
+    },
+    {
+      "name": "Sfereeya",
+      "culture": "Tunisian Jewish",
+      "similarity": "Chicken and potato pie.",
+      "key_difference": "Sfereeya specifically incorporates chicken, whereas Cujada/Maaqouda is often vegetarian."
+    }
+  ]
+}

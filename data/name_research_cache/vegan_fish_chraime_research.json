@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name provided is modern descriptive Hebrew rather than a traditional Judeo-Arabic term, reflecting the dish's status as a contemporary adaptation. 'Ktzi'tzot' (patties) derives from the Hebrew root K-Tz-Tz (ק-צ-ץ), meaning 'to chop' or 'cut off.' The culinary inspiration, 'Chraime' (or Hraime), comes from the Arabic root 'ḥ-r-m' (forbidden/hot), specifically the diminutive form in Libyan and Tunisian Arabic meaning 'the little hot/spicy one,' referring to the piquant paprika and garlic sauce.",
+    "language_source": "hebrew",
+    "root_word": "ק-צ-ץ (K-Tz-Tz)",
+    "meaning": "Vegan Fish Patties (Literal translation)",
+    "confidence": "confirmed",
+    "sources_notes": "While the name is Modern Hebrew, the dish mimics the flavor profile of 'Chraime' or 'Hraime,' a quintessential North African Jewish Shabbat dish. In Djerba, fish balls might traditionally be called 'Keftas' (Arabic) or 'Boulettes' (French)."
+  },
+  "alternative_names": [
+    {
+      "name": "Chraime Tiv'oni",
+      "language": "Hebrew (Modern)",
+      "notes": "Common colloquial name meaning 'Vegan Chraime'"
+    },
+    {
+      "name": "Keftas de poisson (Végétalien)",
+      "language": "French/Arabic",
+      "notes": "Francophone North African term for fish balls, modified for the vegan version"
+    },
+    {
+      "name": "Hraime",
+      "language": "Judeo-Arabic (Libyan/Tunisian)",
+      "notes": "The name of the traditional sauce/dish this recipe emulates"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chraime / Hraime",
+      "culture": "Libyan and Tunisian Jewish",
+      "similarity": "The source material; fish cooked in a spicy sauce of paprika, cayenne, garlic, and caraway.",
+      "key_difference": "Uses real white fish (grouper or sea bass) instead of tofu/wakame."
+    },
+    {
+      "name": "Sardine Kefta Tagine (Kouari)",
+      "culture": "Moroccan",
+      "similarity": "Balls of minced fish (sardines) cooked in a spicy tomato sauce (chermoula base).",
+      "key_difference": "Uses fatty fish (sardines) and often includes animal fat; not vegan."
+    },
+    {
+      "name": "Kboukeb",
+      "culture": "Tunisian Jewish",
+      "similarity": "Fish stew with tomato, garlic, and cumin/caraway.",
+      "key_difference": "Usually uses whole fish steaks or pieces rather than ground patties; includes potatoes."
+    }
+  ]
+}

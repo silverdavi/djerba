@@ -1,0 +1,245 @@
+{
+  "id": "marmouma",
+  "slug": "marmouma",
+  "source_file": "data/safed_recipes/07_מרמומה.json",
+  "name": "Marmouma (Tunisian Cooked Tomato and Pepper Salad)",
+  "name_hebrew": "מרמומה",
+  "name_origin": "The name 'Marmouma' (مرمومة) is specific to the Tunisian (specifically Southern/Djerban) and Libyan Arabic dialects. It is distinct from the more generic 'Matbucha' (which simply means 'cooked' in Arabic). The etymology likely stems from a dialectal variation of roots describing the texture of the dish—vegetables that are broken down, mashed, or stewed until soft. In the context of Djerban and Libyan cuisine, it refers specifically to a cooked salad where the ingredients are stewed in a pot rather than grilled first (which would be 'Mechouia'). (Confidence: likely)",
+  "description": "A classic Tunisian cooked salad made from fresh tomatoes, sweet and hot peppers, and plenty of garlic. Similar to Matbucha, it is slow-cooked until the liquids evaporate, resulting in a rich, jam-like consistency.",
+  "cultural_context": "A staple of the Djerban and Tunisian Jewish table, traditionally served as part of the 'kemia' (appetizer spread) for Shabbat meals alongside bread.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 80,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomatoes",
+      "amount": 10,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "diced small",
+      "notes": "ripe red tomatoes",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 10,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "bell_pepper",
+      "name": "Sweet red peppers (Gambas)",
+      "amount": 5,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "diced small",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_pepper",
+      "name": "Hot peppers",
+      "amount": 3,
+      "unit": "unit",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": "adjust quantity to heat preference",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 10,
+      "unit": "clove",
+      "size": null,
+      "preparation": "minced or sliced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 10,
+          "unit": "clove"
+        }
+      }
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 60,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "approx 4 tbsp, or as needed",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 60,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 60,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "coarse_salt",
+      "name": "Coarse salt",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Wash and cut all the vegetables (tomatoes, sweet peppers, hot peppers, and garlic) into small pieces.",
+      "time_minutes": 20,
+      "tips": "For a smoother texture, you can peel the tomatoes first, though the recipe calls for chopping them directly."
+    },
+    {
+      "step": 2,
+      "instruction": "Place all the chopped vegetables into a pot.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the olive oil and coarse salt.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed/evaporated.",
+      "time_minutes": 60,
+      "tips": "Stir occasionally to prevent burning at the bottom. The final result should have a thick, jam-like consistency."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/055_marmouma/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "tunisian",
+    "djerban",
+    "cooked-salad",
+    "vegan",
+    "parve",
+    "shabbat",
+    "appetizer"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Unknown (Likely dialectal variation of R-M-M or similar roots denoting softness/disintegration)",
+    "meaning": "A stewed or mashed mixture; specifically a cooked tomato and pepper salad",
+    "confidence": "likely",
+    "notes": "While 'Matbucha' is the pan-Maghrebi term often used in Israel, 'Marmouma' is the specific vernacular used in Djerba and Libya. It is a staple of Libyan Jewish cuisine as well. The term is linguistically distinct from 'Mechouia' (grilled) and 'Makbouba' (another variant)."
+  },
+  "alternative_names": [
+    {
+      "name": "Salade Juive",
+      "language": "french",
+      "notes": "Common colonial era name for cooked tomato/pepper salads served by Jews in Tunisia."
+    },
+    {
+      "name": "Matbucha",
+      "language": "arabic",
+      "notes": "Literally 'the cooked one.' This is the generic term now used in Israel, but Marmouma is the specific regional name."
+    },
+    {
+      "name": "Marmouma",
+      "language": "libyan_arabic",
+      "notes": "The dish is equally famous in Libya under the exact same name."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Taktouka",
+      "culture": "Moroccan",
+      "similarity": "Cooked salad of tomatoes and peppers.",
+      "key_difference": "Taktouka often uses roasted peppers added to a tomato sauce, whereas Marmouma is often stewed down together longer to a jam-like consistency."
+    },
+    {
+      "name": "Slata Mechouia",
+      "culture": "Tunisian",
+      "similarity": "Tomato and pepper salad.",
+      "key_difference": "Mechouia literally means 'grilled.' The vegetables must be grilled/charred before chopping. Marmouma is pot-cooked/stewed."
+    },
+    {
+      "name": "Galayet Bandora",
+      "culture": "Jordanian/Palestinian",
+      "similarity": "Stewed tomatoes with garlic and peppers.",
+      "key_difference": "Usually less reduced/jam-like than Marmouma; often served hot as a main dish rather than a cold appetizer."
+    },
+    {
+      "name": "Chakchouka",
+      "culture": "Maghrebi",
+      "similarity": "Same base of stewed peppers and tomatoes.",
+      "key_difference": "Chakchouka includes poached eggs and is a hot meal; Marmouma is a salad/dip served cold or room temp."
+    }
+  ],
+  "intro_paragraph": "Marmouma, a rich cooked salad of tomatoes, peppers, and garlic, takes its name from a dialectal root describing vegetables stewed until soft. Slow-cooked to a jam-like consistency, this Djerban Jewish staple is distinct from generic matbucha. It is traditionally served as part of the Shabbat kemia appetizer spread alongside bread."
+}

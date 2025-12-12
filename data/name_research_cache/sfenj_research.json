@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name is derived directly from the Arabic word 'isfanj' (سفنج), meaning 'sponge', referring to the dough's porous, airy interior texture when fried. The Arabic term itself is a loanword from the Ancient Greek 'spongos' (σπόγγος). In Maghrebi dialects (Tunisian Derja and Moroccan Darija), the initial vowel is dropped, resulting in 'Sfenj'. The Hebrew form provided, 'Sfinjot' (שפינג׳ות), is a Judeo-Arabic hybridization, applying the Hebrew feminine plural suffix '-ot' to the Arabic noun.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Isfanj (Arabic) < Spongos (Ancient Greek)",
+    "meaning": "Sponge",
+    "confidence": "confirmed",
+    "sources_notes": "Standard etymology in Arabic linguistics. The connection to Greek 'spongos' is well-documented in dictionaries of Arabic loanwords. The texture comparison to a sea sponge is literal."
+  },
+  "alternative_names": [
+    {
+      "name": "Khfaf",
+      "language": "Algerian Arabic",
+      "notes": "Means 'the light ones', referring to the airy texture; common in Algeria and parts of Tunisia."
+    },
+    {
+      "name": "Bambalouni",
+      "language": "Tunisian Arabic",
+      "notes": "A specific Tunisian variant (often ring-shaped) derived from the Italian 'Bomboloni'. While similar, Bambalouni are often associated with street vendors in Sidi Bou Said, whereas Sfenj is the traditional home/rustic term."
+    },
+    {
+      "name": "Ftair",
+      "language": "Libyan/Tunisian Arabic",
+      "notes": "Sometimes used interchangeably in Libya, though Ftair can also refer to flatbreads."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Buñuelos",
+      "culture": "Spanish / Sephardic",
+      "similarity": "Fried yeast dough often eaten with sugar.",
+      "key_difference": "Buñuelos are often smaller, rounder fritters rather than the large rings or rustic discs of Sfenj."
+    },
+    {
+      "name": "Zalabia",
+      "culture": "Middle Eastern / Mizrahi",
+      "similarity": "Deep-fried dough eaten for Hanukkah.",
+      "key_difference": "Zalabia is typically made from a wet batter (poured) rather than a stretchable dough, and is soaked in syrup rather than dusted with sugar."
+    },
+    {
+      "name": "Lokma",
+      "culture": "Turkish",
+      "similarity": "Fried dough balls.",
+      "key_difference": "Much smaller, bite-sized spheres soaked in heavy syrup."
+    },
+    {
+      "name": "Sufganiyot",
+      "culture": "Israeli / Ashkenazi",
+      "similarity": "Hanukkah fried dough.",
+      "key_difference": "Sufganiyot are round, filled with jelly/custard, and contain eggs/butter, whereas traditional Sfenj is a lean dough (flour, water, yeast) and unfilled."
+    }
+  ]
+}

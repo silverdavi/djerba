@@ -1,0 +1,59 @@
+{
+  "name_origin": {
+    "etymology": "The term is a direct loanword from the French culinary term 'fricassée', introduced during the French Protectorate of Tunisia (1881–1956). However, this represents a distinct case of semantic shift or 'faux amis' (false friends). In classical French cuisine, a 'fricassée' is a white stew of meat (usually chicken) cooked in sauce. In Tunisian dialect (Derja), the term was appropriated to refer exclusively to these savory fried doughnuts. The linguistic bridge is likely phonetic: the French verb 'frire' (to fry) sounds similar to the prefix 'fric-', leading locals to associate the French word 'fricassée' with the action of deep-frying, or potentially a portmanteau folk-etymology of 'frit' (fried) and 'cassé' (broken/sliced open).",
+    "language_source": "french",
+    "root_word": "fricassée (French) / fricasser (Old French: to fry/cook)",
+    "meaning": "Originally 'a stew of cut-up meat' (French), but evolved to mean 'fried stuffed sandwich' in Tunisian context.",
+    "confidence": "confirmed",
+    "sources_notes": "The French origin of the word is linguistically certain, but the culinary divergence is absolute. There is no recipe connection between the French stew and the Tunisian sandwich; the connection is purely lexical, born of the colonial interface between French and Tunisian Arabic."
+  },
+  "alternative_names": [
+    {
+      "name": "Fricassé",
+      "language": "french",
+      "notes": "Common spelling variation in Tunisia and France."
+    },
+    {
+      "name": "Sandwich Fricassé",
+      "language": "french",
+      "notes": "Used to distinguish the item from the 'plat' (plate) version in tourist contexts."
+    },
+    {
+      "name": "Fricassee Djerbien",
+      "language": "french",
+      "notes": "Specific reference to the Djerban style, often implying a specific size or dough consistency."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Bambalouni",
+      "culture": "Tunisian",
+      "similarity": "Uses nearly identical yeast dough and deep-frying method.",
+      "key_difference": "Bambalouni is ring-shaped and dipped in sugar (sweet), whereas Fricassee is a bun filled with savory ingredients."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "The parent dish of deep-fried yeast dough.",
+      "key_difference": "Sfenj is usually a plain fritter/ring eaten with honey or sugar, not stuffed as a sandwich."
+    },
+    {
+      "name": "Casse-croûte Tunisien",
+      "culture": "Tunisian",
+      "similarity": "Identical filling (tuna, egg/adma, potato, olives, harissa, mechouia).",
+      "key_difference": "Casse-croûte uses a baguette or Italian bread (Pain Italien) rather than fried dough."
+    },
+    {
+      "name": "Vetkoek",
+      "culture": "South African",
+      "similarity": "Deep-fried yeast dough bun filled with savory mince or cheese.",
+      "key_difference": "Filling profile is meat-based (mince) rather than the specific Tunisian tuna/harissa combination."
+    },
+    {
+      "name": "Pirozhki",
+      "culture": "Russian/Eastern European",
+      "similarity": "Fried dough with savory filling.",
+      "key_difference": "Pirozhki are filled *before* frying (sealed), whereas Fricassee is fried first, then sliced and filled like a sandwich."
+    }
+  ]
+}

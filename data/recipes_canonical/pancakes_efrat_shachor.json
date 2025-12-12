@@ -1,0 +1,318 @@
+{
+  "id": "pancakes_efrat_shachor",
+  "slug": "pancakes-efrat-shachor",
+  "source_file": "data/safed_recipes/pancakes_efrat_shachor.json",
+  "name": "Pancakes (Efrat Shachor)",
+  "name_hebrew": "פנקייק (אפרת שחור)",
+  "name_origin": "The name 'Pancake' (פנקייק) is a direct loanword from English into Modern Hebrew. It is not of Judeo-Arabic, Ladino, or French origin. Its presence in a Djerban cookbook indicates a modern addition to the culinary repertoire, likely reflecting the assimilation of Western/American foods into the modern Israeli-Tunisian kitchen. While the name is English, the cooking method described ('generous layer of oil') suggests a technique influenced by traditional Maghrebi frying methods used for dishes like 'Ftas' or 'Sfenj', rather than the lightly greased griddle method used for American pancakes.",
+  "description": "A fluffy, comforting pancake recipe featuring chocolate chips. The batter is rested briefly to ensure airiness and fried in a generous layer of oil, resulting in a crispy exterior and a soft, melt-in-your-mouth interior.",
+  "cultural_context": "A modern family favorite likely adopted into the repertoire, distinguished by the frying method (using a 'nice layer' of oil rather than a lightly greased pan), which is typical of North African cooking styles applied to Western dishes.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with flax eggs or applesauce; replace milk with oat or soy milk.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "name": "All-purpose flour",
+      "amount": 210,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1.5 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 210,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 7.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.7,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 210,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 2,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 10,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.35,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "heaped",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 25,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.9,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "milk",
+      "name": "Milk",
+      "amount": 240,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "add slowly to control consistency",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 240,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 240,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chocolate_chips",
+      "name": "Chocolate chips",
+      "amount": 0.5,
+      "unit": "cup",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 85,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for frying (generous layer)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a large bowl, mix the flour, baking powder, salt, sugar, eggs, and chocolate chips.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the milk slowly while mixing. Stop adding liquid if the batter becomes too runny; it should be thick but pourable.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Let the batter stand at room temperature for 5 to 10 minutes. This allows it to become airy.",
+      "time_minutes": 10,
+      "tips": "No need to refrigerate."
+    },
+    {
+      "step": 4,
+      "instruction": "Heat a generous layer of oil in a frying pan over medium heat. The oil should not be deep-frying depth, but more than just a flat coating.",
+      "time_minutes": 5,
+      "tips": "Ensure the oil is boiling/hot before adding batter."
+    },
+    {
+      "step": 5,
+      "instruction": "Fry the pancakes until golden brown. The inside can remain slightly soft/gooey if preferred.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/068_pancakes/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "breakfast",
+    "dessert",
+    "kids-favorite",
+    "dairy"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "English: Pan + Cake",
+    "meaning": "A cake cooked in a pan",
+    "confidence": "confirmed",
+    "notes": "The Hebrew spelling פנקייק is the standard transliteration for American-style pancakes in Israel. This is distinct from traditional Djerban griddle breads or fritters."
+  },
+  "alternative_names": [
+    {
+      "name": "Ftas",
+      "language": "tunisian_arabic",
+      "notes": "The traditional Djerban yeast pancake that serves a similar culinary role (breakfast/snack) but is strictly traditional."
+    },
+    {
+      "name": "Ftair",
+      "language": "tunisian_arabic",
+      "notes": "A variant name for yeast pancakes or fritters in Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ftas / Ftair",
+      "culture": "Djerban Jewish",
+      "similarity": "A spongy, yeast-leavened pancake fried in oil, often eaten with sugar or honey.",
+      "key_difference": "Ftas uses yeast and is more bread-like; the 'Pancake' likely uses baking powder and includes modern additions like chocolate chips."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (North African)",
+      "similarity": "Fried batter/dough eaten as a sweet snack.",
+      "key_difference": "Sfenj is a ring-shaped fritter (doughnut) made from a sticky yeast dough, deep-fried rather than pan-fried."
+    },
+    {
+      "name": "Baghrir",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "A pancake served with honey/syrup.",
+      "key_difference": "Baghrir is made with semolina and yeast, cooked on one side only to create distinct holes ('thousand holes'), and is not fried in oil."
+    },
+    {
+      "name": "Matafina / Lal",
+      "culture": "Tunisian Jewish",
+      "similarity": "Thin layers of dough/crepe.",
+      "key_difference": "These are closer to crepes or Moroccan Moufleta, lacking the fluffiness of the described pancake."
+    }
+  ],
+  "intro_paragraph": "Pancakes—adopted directly from English into the modern Israeli kitchen—demonstrate how Western favorites are adapted by Djerban cooks. This fluffy, chocolate-studded batter rests briefly before being fried in a generous layer of oil, a traditional North African technique that yields a distinctively crispy exterior and soft interior."
+}

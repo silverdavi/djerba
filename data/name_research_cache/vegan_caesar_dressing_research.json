@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "This is a Modern Hebrew translation of the Western 'Caesar Dressing'. The Hebrew word 'Keisar' (קיסר) is derived from the Latin 'Caesar'. The dish itself is named after Caesar Cardini, an Italian immigrant who invented the salad in Tijuana, Mexico, in 1924. The term 'Tiv'oni' (טבעוני) is a Modern Hebrew neologism for 'vegan', derived from the root 'Teva' (nature), coined in the 1930s/40s. This is not a traditional North African or Judeo-Arabic dish, but a modern addition to the culinary repertoire, likely influenced by the French 'Sauce Rémoulade' (mayonnaise with capers) which is common in colonial Tunisian cuisine.",
+    "language_source": "hebrew",
+    "root_word": "Keisar (from Latin Caesar) + Teva (Nature)",
+    "meaning": "Vegan Caesar Sauce",
+    "confidence": "confirmed",
+    "sources_notes": "The etymology is standard Modern Hebrew. The dish's presence in a Djerban cookbook represents modern dietary adaptation rather than heritage cuisine. However, the use of capers (kabbar) is a staple in Tunisian cooking."
+  },
+  "alternative_names": [
+    {
+      "name": "Sauce César Végétalienne",
+      "language": "French",
+      "notes": "French is the second language of Tunisia; this name would be used in Francophone contexts."
+    },
+    {
+      "name": "Sauce Rémoulade (variation)",
+      "language": "French",
+      "notes": "A mayonnaise-based sauce with capers and herbs, common in French-Tunisian cuisine, which likely served as the template for this vegan adaptation."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Original Caesar Dressing",
+      "culture": "Italian-American / Mexican",
+      "similarity": "The flavor profile target (creamy, savory, tangy).",
+      "key_difference": "The original uses raw egg yolks, parmesan cheese, and anchovies; the Jewish vegan version substitutes these with vegan mayo and capers (for brine/saltiness) to keep it Parve (neutral) and egg-free."
+    },
+    {
+      "name": "Sauce Rémoulade",
+      "culture": "French",
+      "similarity": "A mayonnaise-based sauce traditionally containing capers, pickles, and herbs.",
+      "key_difference": "Traditional Rémoulade often contains anchovies or chopped boiled eggs; the vegan Caesar is a simplified, plant-based derivation."
+    },
+    {
+      "name": "Maionese",
+      "culture": "Tunisian (Modern)",
+      "similarity": "Tunisians consume significant amounts of mayonnaise (often mixed with Harissa).",
+      "key_difference": "Standard Tunisian mayonnaise is egg-based and often spicy; this specific recipe is seasoned with capers to mimic the 'Caesar' profile."
+    }
+  ]
+}

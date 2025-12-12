@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "The name derives directly from the Arabic trilateral root D-F-N (د ف ن), meaning 'to bury' or 'to inter'. In the context of North African Jewish cuisine, this refers to the historical cooking method where the pot was hermetically sealed and 'buried' in the embers of the communal oven (ferran) or a charcoal pit on Friday afternoon to cook slowly overnight for Shabbat lunch. In Tunisian and Djerban Judeo-Arabic dialects, the initial 'D' often hardens to a 'T', shifting 'Dafina' to 'Tfina' or 'Tafina'.",
+    "language_source": "tunisian_arabic",
+    "root_word": "D-F-N (د ف ن)",
+    "meaning": "The buried (pot/dish)",
+    "confidence": "confirmed",
+    "sources_notes": "This etymology is universally accepted in Judeo-Arabic linguistics and culinary history. It parallels the Spanish/Ladino 'Adafina'. The pronunciation 'Tfina' is specific to the Tunisian/Libyan region, whereas 'Dafina' is more common in Morocco."
+  },
+  "alternative_names": [
+    {
+      "name": "Dafina",
+      "language": "moroccan_arabic",
+      "notes": "The standard Judeo-Arabic term used across the Maghreb, particularly in Morocco."
+    },
+    {
+      "name": "Skhina",
+      "language": "moroccan_arabic",
+      "notes": "Literally meaning 'the hot one' (from Arabic 'sakhun'), used as a euphemism in Morocco to avoid saying the word 'Dafina' which can also imply a burial of the dead."
+    },
+    {
+      "name": "Hamin",
+      "language": "hebrew",
+      "notes": "The generic Hebrew term for overnight Shabbat stews, derived from the word for 'hot'."
+    },
+    {
+      "name": "Adafina",
+      "language": "ladino",
+      "notes": "The medieval Sephardic predecessor to the North African stew."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Cholent",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Slow-cooked overnight stew with meat, potatoes, and grains (barley/beans) for Shabbat.",
+      "key_difference": "Uses beans and Ashkenazi flavor profile (paprika, pepper) rather than the caramelized sugar and North African spices found in Djerban Tfina."
+    },
+    {
+      "name": "Hrisa / Harissa",
+      "culture": "Tunisian / North African",
+      "similarity": "A wheat or barley-based porridge or stew.",
+      "key_difference": "While 'Hrisa' refers to the grain consistency, 'Tfina' specifically implies the overnight Shabbat cooking method. The Djerban Tfina described is essentially a slow-cooked Hrisa with meat."
+    },
+    {
+      "name": "Tbit",
+      "culture": "Iraqi Jewish",
+      "similarity": "Slow-cooked Shabbat dish involving grains (rice) and meat (chicken).",
+      "key_difference": "Uses rice and chicken skin stuffing rather than barley and beef."
+    },
+    {
+      "name": "Cocido Madrileño",
+      "culture": "Spanish",
+      "similarity": "A chickpea and meat stew derived from the Jewish Adafina/Dafina tradition after the Inquisition.",
+      "key_difference": "Contains pork and is not cooked overnight."
+    }
+  ]
+}

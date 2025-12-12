@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "The name provided is a compound phrase. 'Hita' (חיטה) is the standard Hebrew word for 'wheat'. 'Adafina' is the classic Judeo-Spanish (Ladino) name for the Shabbat stew, which itself derives from the Arabic root 'd-f-n' (دفن), meaning 'to bury', 'to cover', or 'to hide'. This refers to the ancient method of burying the cooking pot in hot embers or sand to maintain heat over the Sabbath without an active flame. The phrase 'Hita l'Adafina' literally translates from Hebrew as 'Wheat for the Adafina'. In the context of Djerban and North African cuisine, this refers to the wheat berries (often hulled) cooked in a muslin bag or separate container within the larger stew to absorb flavors while maintaining a distinct texture.",
+    "language_source": "hebrew",
+    "root_word": "Arabic: dafana (دفن) / Hebrew: hita (חיטה)",
+    "meaning": "Wheat for the buried [stew]",
+    "confidence": "confirmed",
+    "sources_notes": "While 'Adafina' is the Ladino name, it was widely used in North Africa (often contracted to 'Tfina' in Tunisia/Morocco). The specific construction 'Hita l'Adafina' is likely a descriptive Hebrew name used in the cookbook or by the community in Israel, rather than the vernacular Judeo-Arabic term used in Djerba (which would likely be 'Gara' or 'Haris')."
+  },
+  "alternative_names": [
+    {
+      "name": "Tfina",
+      "language": "tunisian_arabic",
+      "notes": "The common Tunisian/Djerban contraction of 'Adafina', referring to the stew in which the wheat is cooked."
+    },
+    {
+      "name": "Haris / Harissa",
+      "language": "judeo_arabic",
+      "notes": "From the Arabic root 'to crush'. Often refers to a wheat porridge, but in some families refers to the wheat component of the Shabbat stew."
+    },
+    {
+      "name": "Rziz",
+      "language": "moroccan_arabic",
+      "notes": "A Moroccan Jewish term specifically for the wheat berry pudding cooked inside the Dafina."
+    },
+    {
+      "name": "Hamin de Trigo",
+      "language": "ladino",
+      "notes": "Literally 'Wheat Hamin', the Sephardic Spanish equivalent."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Harees / Jareesh",
+      "culture": "Arab / Middle Eastern",
+      "similarity": "A savory porridge made of cracked wheat and meat, slow-cooked until the texture is smooth.",
+      "key_difference": "Harees is usually beaten into a uniform mush/paste, whereas the Jewish 'Hita' in a bag retains the individual grain structure."
+    },
+    {
+      "name": "Kishke / Helzel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "A grain-based (flour or matzah meal) savory pudding cooked inside the Shabbat stew (Cholent).",
+      "key_difference": "Kishke uses flour/meal and fat stuffed into a casing (intestine or synthetic), whereas Hita uses whole wheat berries."
+    },
+    {
+      "name": "Cuccìa",
+      "culture": "Sicilian / Southern Italian",
+      "similarity": "Boiled wheat berries, often mixed with ricotta or milk.",
+      "key_difference": "Cuccìa is a sweet dessert for St. Lucy's Day, not a savory slow-cooked side dish."
+    },
+    {
+      "name": "Ashure (Noah's Pudding)",
+      "culture": "Turkish / Ottoman",
+      "similarity": "A pudding featuring wheat berries as the main starch.",
+      "key_difference": "Ashure is a sweet dessert soup with fruits and nuts, not savory."
+    }
+  ]
+}

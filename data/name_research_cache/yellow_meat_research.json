@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Basar Tzahov' is a Modern Hebrew descriptive calque (loan translation) of the traditional Judeo-Arabic classification. In North African cuisine, particularly Tunisian and Moroccan, stews (Mraka/Marqa) are strictly categorized by the color of their sauce: 'Hamra' (Red, using tomato and paprika) or 'Za'ara'/'Safra' (Yellow, using turmeric and saffron). While the provided name is Hebrew, the dish corresponds to the Tunisian 'Lham Asfar' (Yellow Meat) or 'Lham Za'ara'. The specific cooking technique described (roasting/searing a whole piece, slicing, then simmering in sauce) reflects the French colonial influence on Tunisian cuisine, specifically the 'Rôti', adapted to the Jewish palate with turmeric-based sauces.",
+    "language_source": "hebrew",
+    "root_word": "Hebrew: בָּשָׂר (Basar) + צָהוֹב (Tzahov) | Arabic equivalent root: S-F-R (Yellow)",
+    "meaning": "Yellow Meat",
+    "confidence": "likely",
+    "sources_notes": "The Hebrew name is descriptive and likely adopted by immigrants to Israel to describe the traditional 'Mraka Za'ara' or 'Rôti' with turmeric sauce. In Tunisian dialect, 'Za'ara' implies a 'blonde' or yellow sauce free of tomato."
+  },
+  "alternative_names": [
+    {
+      "name": "Lham Asfar",
+      "language": "judeo_arabic",
+      "notes": "Literal Arabic translation of Yellow Meat."
+    },
+    {
+      "name": "Mraka Za'ara",
+      "language": "tunisian_arabic",
+      "notes": "Refers to the 'blonde' or yellow stew base used for the meat."
+    },
+    {
+      "name": "Rôti",
+      "language": "french_tunisian",
+      "notes": "Tunisians (Jews and Muslims) often use this French term for pot-roasted beef, which is then sliced and served with sauce."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Mqualli",
+      "culture": "Moroccan",
+      "similarity": "A meat tagine cooked in a yellow sauce (ginger, saffron, turmeric) without tomato.",
+      "key_difference": "Mqualli is usually braised raw-to-finish, whereas the described dish is roasted/baked then sliced and simmered."
+    },
+    {
+      "name": "Tajine Zitoune (White/Yellow Version)",
+      "culture": "Algerian/Tunisian",
+      "similarity": "Meat stew with olives in a turmeric/saffron sauce.",
+      "key_difference": "Focuses heavily on olives; the Jewish 'Basar Tzahov' focuses on the onion reduction and turmeric."
+    },
+    {
+      "name": "Rôti de Veau Tunisien",
+      "culture": "Tunisian (General)",
+      "similarity": "Roast veal or beef cooked with spices and sliced.",
+      "key_difference": "Often served with hard-boiled eggs (adma) or different garnishes; the Jewish version is distinct for its Shabbat-friendly preparation."
+    }
+  ]
+}

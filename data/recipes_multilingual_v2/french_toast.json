@@ -1,0 +1,82 @@
+{
+  "id": "french_toast",
+  "image": "images/current/032frenchtoast/dish.png",
+  "meta": {
+    "servings": "2",
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "לחם מטוגן",
+    "es": "Tostadas Francesas (Pain Perdu)",
+    "ar": "خبز مقلي (بان بردو)",
+    "en": "French Toast"
+  },
+  "description": {
+    "he": "המונח Pain Perdu - שמשמעותו המילולית \"לחם אבוד\" - משקף את ההשפעה הצרפתית על יהודי צפון אפריקה. המנה נועדה להציל כיכרות לחם ישנות על ידי טבילת הפרוסות בבלילת ביצים וחלב וטיגונן עד להזהבה. בעוד שמשפחות ישראליות מודרניות מכירות את המנה כ\"לחם מטוגן\", ארוחת בוקר מנחמת זו נותרת קשר מתוק לעבר הקולוניאלי של הקהילה.",
+    "es": "El Pain Perdu —literalmente \"pan perdido\"— captura la aculturación francófona de los judíos del norte de África. Diseñado para rescatar el pan duro, las rebanadas se remojan en una mezcla de huevo y leche y se fríen hasta dorarse. Aunque las familias israelíes modernas lo conocen como Lechem Metugan, este reconfortante desayuno sigue siendo un dulce vínculo con el pasado colonial de la comunidad.",
+    "ar": "بان بردو (Pain Perdu) - يعني \"الخبز الضايع\" - يوري التأثير الفرنساوي على يهود شمال إفريقيا. الوصفة هذي معمولة باش نستحفظوا بالخبز البايت، نغطسوا الطروف في خليط عظم وحليب ونقليوهم لين يحماروا. في وقتنا توة العايلات يسميوه \"לחם מטוגן\" (Lechem Metugan)، أما فطور الصباح هذا يقعد رابط حلو مع تاريخ الجالية.",
+    "en": "Pain Perdu—literally \"lost bread\"—captures the Francophone acculturation of North African Jews. Designed to rescue stale loaves, slices are soaked in an egg-milk custard and fried until golden. While modern Israeli families know it as Lechem Metugan, this comforting breakfast dish remains a sweet link to the community’s colonial past."
+  },
+  "ingredients": {
+    "he": [
+      "2 ביצים גדולות",
+      "60 מ\"ל חלב",
+      "5 גרם אבקת וניל (או סוכר וניל)",
+      "4 פרוסות לחם (לחם יבש עדיף)",
+      "חמאה או שמן לטיגון לפי הטעם"
+    ],
+    "es": [
+      "2 huevos grandes",
+      "60 ml de leche",
+      "5 g de polvo de vainilla (o azúcar vainillado)",
+      "4 rebanadas de pan (mejor si es del día anterior)",
+      "Mantequilla o aceite para freír al gusto"
+    ],
+    "ar": [
+      "2 عظمات كبار",
+      "ربع كاس حليب",
+      "مغرفة صغيرة فانيليا",
+      "4 طروف خبز (بايت خير)",
+      "زبدة ولا زيت للقلي حسب الذوق"
+    ],
+    "en": [
+      "2 large eggs",
+      "1/4 cup milk",
+      "1 tsp vanilla powder (or vanilla sugar)",
+      "4 slices bread (thick slices, stale works best)",
+      "Butter or Oil for frying to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה רחבה ושטוחה, טורפים את הביצים, החלב ואבקת הוניל עד לקבלת תערובת אחידה.",
+      "מחממים מחבת על אש בינונית ומשמנים בחמאה או שמן.",
+      "טובלים כל פרוסת לחם בתערובת הביצים, ומניחים לה לספוג את הנוזלים במשך כמה שניות מכל צד. טיפ: לא להשרות יותר מדי כדי שהלחם לא יתפרק.",
+      "מניחים את הלחם הספוג במחבת החמה ומטגנים עד להזהבה משני הצדדים.",
+      "מגישים חם, ניתן לפזר מעל סוכר או סירופ."
+    ],
+    "es": [
+      "En un plato hondo y ancho, batir los huevos, la leche y el polvo de vainilla hasta que estén bien combinados.",
+      "Calentar una sartén a fuego medio y engrasar con mantequilla o aceite.",
+      "Sumergir cada rebanada de pan en la mezcla de huevo, dejándola remojar unos segundos por cada lado. Consejo: No remojar demasiado o el pan se deshará.",
+      "Colocar el pan remojado en la sartén caliente y freír hasta que esté dorado por ambos lados.",
+      "Servir caliente, opcionalmente cubierto con azúcar o jarabe."
+    ],
+    "ar": [
+      "في صحفة واسعة، ركض العظم والحليب والفانيليا مليح مع بعضهم.",
+      "سخن المقلاة على نار متوسطة وادهنها بالزبدة ولا الزيت.",
+      "غطس طروف الخبز في خليط العظم، وخليهم يشربوا شوية من الجهتين. رد بالك تخليهم برشا باش الخبز ما يطيحش.",
+      "حط الخبز في المقلاة السخونة واقليه لين يولي لونه ذهبي من الجهتين.",
+      "قدمه سخون، وتنجم ترش عليه شوية سكر ولا عسل."
+    ],
+    "en": [
+      "In a wide, shallow bowl, whisk together the eggs, milk, and vanilla powder until well combined.",
+      "Heat a frying pan over medium heat and grease with butter or oil.",
+      "Dip each slice of bread into the egg mixture, allowing it to soak for a few seconds on each side. Tip: Do not soak too long or the bread will fall apart.",
+      "Place the soaked bread in the hot pan and fry until golden brown on both sides.",
+      "Serve warm, optionally topped with sugar or syrup."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "Derived from the Arabic trilateral root ḥ-m-ṣ (ح-م-ص), specifically the verb 'ḥammaṣa' (حمّص), meaning 'to roast', 'to toast', or 'to sear'. The name 'Mhamsa' (محمصة) literally translates to 'that which is toasted/roasted'. Historically, these hand-rolled semolina pearls were dried in the sun or lightly toasted in an oven or pan to preserve them and prevent them from turning into mush when cooked in liquid. This toasting process gives the pasta a nutty flavor distinct from standard couscous.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Ḥammaṣa (حمّص)",
+    "meaning": "The toasted/roasted one",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Maghrebi culinary terminology. The root is shared with 'hummus' (chickpeas), which are also traditionally roasted/toasted. In Tunisian Derja, the feminine ending is pronounced, making it 'Mhamsa'."
+  },
+  "alternative_names": [
+    {
+      "name": "M'hamsa",
+      "language": "french",
+      "notes": "Common Francophone spelling found in North African cookbooks"
+    },
+    {
+      "name": "Berkoukes",
+      "language": "algerian_arabic",
+      "notes": "While sometimes used interchangeably, Berkoukes usually implies a slightly larger grain size than Mhamsa in some regions."
+    },
+    {
+      "name": "Aich",
+      "language": "algerian_arabic",
+      "notes": "Common name for the dish in Eastern Algeria."
+    },
+    {
+      "name": "Ptitim",
+      "language": "hebrew",
+      "notes": "The modern Israeli industrial version ('Ben-Gurion Rice') created in the 1950s to mimic rice, heavily inspired by Mhamsa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fregola / Fregula",
+      "culture": "Sardinian (Italy)",
+      "similarity": "Identical hand-rolled, toasted semolina pasta pearls.",
+      "key_difference": "Often cooked with clams or seafood stock rather than the tomato/harissa base of the Tunisian version."
+    },
+    {
+      "name": "Moghrabieh",
+      "culture": "Levantine (Lebanon/Palestine)",
+      "similarity": "Large pearl couscous dish.",
+      "key_difference": "Grains are larger than Mhamsa; typically spiced with caraway/cinnamon and served with chicken and chickpeas rather than a red sauce."
+    },
+    {
+      "name": "Chorba M'hamsa",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "The same pasta used in a soup.",
+      "key_difference": "The Muslim version is often a thinner soup (chorba) eaten to break the fast during Ramadan, whereas the Jewish Djerban version described is often a thicker stew or 'dry' pilaf for Shabbat."
+    },
+    {
+      "name": "Berkoukes",
+      "culture": "Algerian/Moroccan",
+      "similarity": "Large grain pasta stew.",
+      "key_difference": "Often richer, sometimes containing milk, butter, and preserved meats (gueddid) in a way distinct from the Djerban Jewish tomato base."
+    }
+  ]
+}

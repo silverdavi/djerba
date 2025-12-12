@@ -1,0 +1,118 @@
+{
+  "id": "nougatandpeanutcakemor_abergil",
+  "image": "images/current/065nougatpeanut_cake/dish.png",
+  "meta": {
+    "servings": "10-12",
+    "prep_time": "30 min",
+    "cook_time": "0 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "עוגת נוגט ובוטנים",
+    "es": "Pastel de Nougat y Cacahuete",
+    "ar": "كيكة النوقا والكاكاوية",
+    "en": "Nougat and Peanut Cake"
+  },
+  "description": {
+    "he": "ידועה בשמה התיאורי, עוגת נוגט ובוטנים משלבת את האהבה הצפון אפריקאית לבוטנים עם טכניקות מערביות מודרניות. קינוח שכבות זה כולל בסיס קורנפלקס פריך, קרם חמאת בוטנים וגנאש שוקולד מבריק. העוגה מוכנה ללא מוצרי חלב, ומספקת סיום פרווה עשיר לארוחות שבת, תוך שמירה על כשרות והפרדה בין בשר לחלב.",
+    "es": "Conocido por su nombre descriptivo, este Pastel de Nougat y Cacahuete mezcla el amor tradicional norteafricano por los cacahuetes con técnicas occidentales modernas. Este postre en capas presenta una base crujiente de cornflakes, crema de mantequilla de cacahuete y un ganache de chocolate brillante. Elaborado sin lácteos, ofrece un final pareve decadente para las cenas de Shabat.",
+    "ar": "معروفة باسمها العبري، كيكة النوقا والكاكاوية تخلط حب شمال إفريقيا للكاكاوية مع طرق عصرية غربية. الحلو هذا فيه طبقات: قاعدة كورن فليكس تتقرمش، كريمة زبدة الكاكاوية، وقاناش شكلاطة يلمع. مخدومة بلاش حليب (بارف)، باش تكون تحلية بنينة بعد عشاء السبت وتناسب اللي يحافظو على الكاشير.",
+    "en": "Known by its descriptive Hebrew name, Ugat Nougat v'Botnim blends the traditional North African love for peanuts with modern Western techniques. This layered confection features a crunchy cornflake base, peanut butter cream, and glossy chocolate ganache. Crafted without dairy, it provides a decadent pareve conclusion to Shabbat dinners, adhering to kosher laws separating milk and meat."
+  },
+  "ingredients": {
+    "he": [
+      "200 גרם ממרח נוגט (כמו השחר או בלגה)",
+      "100 גרם חמאת בוטנים (לבסיס)",
+      "150 גרם קורנפלקס (צהוב)",
+      "100 גרם שוקולד מריר (לבסיס)",
+      "25 גרם שמן קוקוס",
+      "500 מ\"ל שמנת צמחית להקצפה (לקרם)",
+      "240 מ\"ל חלב צמחי (סויה או שקדים)",
+      "1 חבילת אינסטנט פודינג וניל (כ-80 גרם)",
+      "3 כפות חמאת בוטנים (לקרם)",
+      "200 גרם שוקולד מריר (לציפוי)",
+      "250 מ\"ל שמנת צמחית להקצפה (לציפוי)",
+      "פניני שוקולד מריר לקישוט (לפי הטעם)"
+    ],
+    "es": [
+      "200 g de crema de nougat (ej. Hashahar o Belga)",
+      "100 g de mantequilla de cacahuete (para la base)",
+      "150 g de cornflakes (copos de maíz amarillos)",
+      "100 g de chocolate negro (para la base)",
+      "25 g de aceite de coco",
+      "500 ml de nata vegetal para montar (para la crema)",
+      "240 ml de leche vegetal (soja o almendra)",
+      "1 paquete de preparado para pudding de vainilla (aprox. 80 g)",
+      "3 cucharadas de mantequilla de cacahuete (para la crema)",
+      "200 g de chocolate negro (para la cobertura)",
+      "250 ml de nata vegetal para montar (para la cobertura)",
+      "Perlas de chocolate negro para decorar (al gusto)"
+    ],
+    "ar": [
+      "3/4 كاس كريمة نوقا (مثل الشحر أو بلجا)",
+      "100 غرام زبدة كاكاوية (للقاعدة)",
+      "5 كيسان كورن فليكس (أصفر)",
+      "100 غرام شكلاطة كحلة (للقاعدة)",
+      "2 مغارف زيت جوز الهند",
+      "2 كيسان كريمة خفق نباتية (للكريمة)",
+      "1 كاس حليب نباتي (صوجا ولا لوز)",
+      "1 باك (80 غرام) بودرة كريم باتيسيير فاني (بودينغ)",
+      "3 مغارف زبدة كاكاوية (للكريمة)",
+      "200 غرام شكلاطة كحلة (للتغطية)",
+      "1 كاس كريمة خفق نباتية (للتغطية)",
+      "كعبات شكلاطة للزينة (حسب الذوق)"
+    ],
+    "en": [
+      "0.7 cups nut/nougat spread (e.g., Hashahar or Belga)",
+      "100g peanut butter (for the base)",
+      "5 cups cornflakes (yellow)",
+      "100g dark chocolate (for the base)",
+      "2 tbsp coconut oil",
+      "2 cups vegetable whipping cream (for the cream layer)",
+      "1 cup vegetable milk (soy, almond, or rice)",
+      "1 package instant vanilla pudding mix (approx 80g)",
+      "3 tbsp peanut butter (for the cream layer)",
+      "200g dark chocolate (for the topping)",
+      "1 cup vegetable whipping cream (for the topping)",
+      "Dark chocolate pearls for decoration (to taste)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "פוררו את הקורנפלקס לקערת ערבוב. הוסיפו לקערה את ממרח הנוגט ואת החלק הראשון של חמאת הבוטנים (100 גרם).",
+      "המיסו את החלק הראשון של השוקולד המריר (100 גרם) עם שמן הקוקוס בסיר קטן או במיקרוגל. שפכו את התערובת על הקורנפלקס והממרחים, וערבבו היטב עד לאיחוד.",
+      "הדקו את התערובת באופן שווה לתחתית תבנית עגולה בקוטר 24 ס\"מ (מומלץ קפיצית). הכניסו למקפיא לפחות ל-10 דקות להתייצבות.",
+      "במיקסר, הקציפו את 500 מ\"ל השמנת הצמחית, החלב הצמחי, אבקת הפודינג ו-3 כפות חמאת בוטנים עד לקבלת קרם יציב.",
+      "לאחר שהבסיס קפא והתייצב, מירחו את הקרם באופן שווה על הבסיס. החזירו למקפיא לפחות ל-3 שעות.",
+      "הכינו את הציפוי: המיסו את יתרת השוקולד המריר (200 גרם) עם יתרת השמנת הצמחית (250 מ\"ל) בסיר או במיקרוגל עד לקבלת מרקם חלק (גנאש).",
+      "שפכו את ציפוי השוקולד על שכבת הקרם הקפואה. קשטו בפניני שוקולד אם רוצים. מומלץ לשמור את העוגה במקפיא."
+    ],
+    "es": [
+      "Desmenuza los cornflakes en un bol. Añade la crema de nougat y la primera parte de la mantequilla de cacahuete (100 g) al bol.",
+      "Derrite la primera parte del chocolate negro (100 g) con el aceite de coco en una cacerola pequeña o en el microondas. Vierte esta mezcla sobre los cornflakes y las cremas, mezclando hasta que esté bien combinado.",
+      "Presiona la mezcla uniformemente en el fondo de un molde redondo de 24 cm (preferiblemente desmontable). Coloca en el congelador durante al menos 10 minutos para que cuaje.",
+      "En una batidora, monta los 500 ml de nata vegetal, la leche vegetal, el polvo de pudding instantáneo y 3 cucharadas de mantequilla de cacahuete hasta obtener una crema estable.",
+      "Una vez que la base esté congelada y firme, extiende la crema uniformemente sobre la base. Vuelve a poner en el congelador durante al menos 3 horas.",
+      "Prepara la cobertura: Derrite el chocolate negro restante (200 g) con la nata vegetal restante (250 ml) en una cacerola o microondas hasta que quede suave (ganache).",
+      "Vierte la cobertura de chocolate sobre la capa de crema cuajada. Decora con perlas de chocolate si lo deseas. Se recomienda guardar este pastel en el congelador."
+    ],
+    "ar": [
+      "فتفت الكورن فليكس في صحفة. زيد كريمة النوقا والطرف الأول متاع زبدة الكاكاوية (100 غرام).",
+      "ذوّب الطرف الأول متاع الشكلاطة الكحلة (100 غرام) مع زيت جوز الهند في طنجرة صغيرة ولا في الميكروويف. صب الخليط فوق الكورن فليكس والكريمة، وخلط مليح لين يتجانسو.",
+      "رص الخليط بالباهي في قاع طبق مدور 24 سم (من المستحسن اللي يتحل). حطو في الكونجيلاتور 10 دقايق باش يشد روحو.",
+      "في الخلاط، ركض 2 كيسان كريمة خفق نباتية، الحليب النباتي، بودرة البودينغ، و 3 مغارف زبدة كاكاوية لين تولي كريمة شادة روحها.",
+      "كيف تيبس القاعدة وتشد روحها، افرش الكريمة فوقها بالتساوي. رجعها للكونجيلاتور 3 سوايع على الأقل.",
+      "حضر التغطية: ذوّب الشكلاطة اللي بقات (200 غرام) مع الكريمة اللي بقات (1 كاس) في طنجرة ولا ميكروويف لين تولي رطبة (قاناش).",
+      "صب الشكلاطة فوق طبقة الكريمة الباردة. زين بكعبات الشكلاطة كان تحب. من المستحسن تخبي الكيكة هذي في الكونجيلاتور."
+    ],
+    "en": [
+      "Crumble the cornflakes into a mixing bowl. Add the nut spread and the first portion of peanut butter (100g) to the bowl.",
+      "Melt the first portion of dark chocolate (100g) with the coconut oil in a small saucepan or microwave. Pour this mixture over the cornflakes and spreads, mixing until well combined.",
+      "Press the mixture evenly onto the bottom of a 24 cm round pan (springform is best). Place in the freezer for at least 10 minutes to set.",
+      "In a mixer, whip the 2 cups vegetable cream, vegetable milk, instant pudding powder, and 3 tablespoons of peanut butter until a stable cream forms.",
+      "Once the base is frozen and firm, spread the cream evenly over the base. Return to the freezer for at least 3 hours.",
+      "Prepare the topping: Melt the remaining dark chocolate (200g) with the remaining vegetable cream (1 cup) in a saucepan or microwave until smooth (ganache).",
+      "Pour the chocolate topping over the set cream layer. Garnish with chocolate pearls if desired. It is recommended to store this cake in the freezer."
+    ]
+  }
+}

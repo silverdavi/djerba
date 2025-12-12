@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name provided, 'Ugat Nougat v'Botnim', is descriptive Modern Hebrew rather than a traditional Judeo-Arabic or Ladino term. This indicates the dish is likely a modern addition to the Djerban repertoire, evolved within the Israeli or French diaspora. While peanuts ('kakawiya' in Tunisian Arabic) are a traditional ingredient in North African sweets, the use of cornflakes and the specific layered structure points to modern Western influence. In French pastry (a strong influence on Tunisian cuisine), a crunchy base mixed with chocolate/praline is called a 'Croustillant' or 'Feuilletine'; this dish uses cornflakes as a kosher/accessible substitute for the traditional French 'gavottes' (crêpe dentelle).",
+    "language_source": "hebrew",
+    "root_word": "עוגה (Uga - Cake) + Nougat (Loan) + בוטנים (Botnim - Peanuts)",
+    "meaning": "Nougat and Peanut Cake",
+    "confidence": "confirmed",
+    "sources_notes": "The ingredients (cornflakes, peanut butter) are modern industrial products not present in pre-20th century Djerba. The dish represents the 'Modern Israeli-Mizrahi' kitchen, adapting Western flavors (Snickers-style) to Parve (non-dairy) dietary laws for Shabbat."
+  },
+  "alternative_names": [
+    {
+      "name": "Ugat Snickers",
+      "language": "hebrew",
+      "notes": "Colloquial Israeli name for this dessert due to its flavor resemblance to the American candy bar."
+    },
+    {
+      "name": "Croustillant Kakawiya",
+      "language": "french_tunisian_hybrid",
+      "notes": "A theoretical descriptive name used in Francophone Tunisian circles; 'Croustillant' (crunchy base) + 'Kakawiya' (peanuts)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Bniwen",
+      "culture": "Algerian / Maghrebi",
+      "similarity": "A no-bake sweet made by binding crushed biscuits/nuts with butter and honey, often coated in chocolate.",
+      "key_difference": "Bniwen uses traditional biscuits or roasted flour, whereas this dish uses cornflakes and peanut butter."
+    },
+    {
+      "name": "Scotcheroos",
+      "culture": "American",
+      "similarity": "Uses a cereal base (Rice Krispies or Cornflakes) mixed with peanut butter and sweetener, topped with chocolate.",
+      "key_difference": "Scotcheroos use butterscotch chips; the Jewish version uses nougat/praline paste and is strictly non-dairy (Parve)."
+    },
+    {
+      "name": "Entremets au Croustillant",
+      "culture": "French",
+      "similarity": "A mousse-based cake with a crunchy bottom layer.",
+      "key_difference": "French version uses 'Pailleté Feuilletine' (crushed crêpes) and dairy butter; the Jewish version substitutes cornflakes and margarine/oil."
+    }
+  ]
+}

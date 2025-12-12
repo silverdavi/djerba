@@ -1,0 +1,91 @@
+{
+  "id": "fricassee_rolls",
+  "image": "images/current/034_fricasse/dish.png",
+  "meta": {
+    "servings": "20-25 rolls",
+    "prep_time": "20 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פריקסה",
+    "es": "Fricassee",
+    "ar": "فريكاسي",
+    "en": "Fricassee"
+  },
+  "description": {
+    "he": "פריקסה משתמש במונח הצרפתי לתבשיל כדי לתאר את הסופגניות המלוחות והמטוגנות הללו. מאכל אהוב במטבח היהודי בג'רבה המוגש לעתים קרובות בחגיגות, הלחמניות האווריריות והזהובות נחתכות וממולאות בטונה, ביצים קשות, תפוחי אדמה מבושלים, זיתים ואריסה, ליצירת כריך עשיר במרקם ותבלינים.",
+    "es": "El Fricassee se apropia del término francés para guiso para describir estas icónicas donas saladas fritas. Un alimento básico de la cocina judía de Djerba servido a menudo en celebraciones, estos bollos aireados y dorados se cortan y rellenan con atún, huevos duros, papas hervidas, aceitunas y harissa, creando un sándwich abundante rico en textura y especias.",
+    "ar": "الفريكاسي خذا الاسم الفرنساوي متاع المرقة باش يوصف هالبنادق المالحين والمقليين. هالأكلة معروفة برشة في كوجينة يهود جربة وتتقدم في الفرحات، كعيبات الفريكاسي الخفاف والذهبيين يتحلوا ويتحشاو بالطون، العظم المسموط، البطاطا المسموطة، الزيتون والهريسة، باش يعطيو سندويتش بنين ومعبي بالنكهات.",
+    "en": "Fricassee appropriates the French term for stew to describe these iconic savory fried doughnuts. A beloved staple of Djerban Jewish cuisine often served at celebrations, the airy, golden rolls are sliced and stuffed with tuna, hard-boiled eggs, boiled potatoes, olives, and harissa, creating a hearty sandwich rich in texture and spice."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג קמח, מנופה",
+      "10 גרם שמרים יבשים",
+      "100 גרם סוכר",
+      "720 מ\"ל מים, חמימים",
+      "120 מ\"ל שמן צמחי (לבצק)",
+      "18 גרם מלח",
+      "שמן צמחי, לטיגון עמוק"
+    ],
+    "es": [
+      "1 kg de harina, tamizada",
+      "10 g de levadura seca",
+      "100 g de azúcar",
+      "720 ml de agua, tibia",
+      "120 ml de aceite vegetal (para la masa)",
+      "18 g de sal",
+      "Aceite vegetal, para freír"
+    ],
+    "ar": [
+      "8 كيسان فرينة، مغربلة",
+      "1 مغرفة خميرة",
+      "نص كاس سكر",
+      "3 كيسان ماء، دافي",
+      "نص كاس زيت (للعجينة)",
+      "1 مغرفة ملح",
+      "زيت، للقليان"
+    ],
+    "en": [
+      "8 cups all-purpose flour, sifted",
+      "1 tbsp dry yeast",
+      "1/2 cup sugar",
+      "3 cups water, warm",
+      "1/2 cup vegetable oil (for the dough)",
+      "1 tbsp salt",
+      "Vegetable oil, for deep frying"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את הקמח, השמרים, הסוכר, המים, חצי כוס שמן והמלח. לשים היטב עד לקבלת בצק חלק.",
+      "מכסים את הבצק ומניחים לו לתפוח במשך כ-2 שעות.",
+      "יוצרים מהבצק לחמניות אליפטיות קטנות. מניחים אותן על משטח משומן היטב כדי למנוע הידבקות.",
+      "מתפיחים את הלחמניות המעוצבות למשך 30 דקות נוספות.",
+      "מחממים שמן עמוק בסיר או במטגנת. מטגנים את הלחמניות עד להזהבה משני הצדדים."
+    ],
+    "es": [
+      "Combine la harina, la levadura, el azúcar, el agua, 1/2 taza de aceite y la sal. Amase bien hasta formar una masa suave.",
+      "Cubra la masa y déjela levar durante aproximadamente 2 horas.",
+      "Forme pequeños bollos ovalados con la masa. Colóquelos sobre una superficie bien engrasada para evitar que se peguen.",
+      "Deje levar los bollos formados durante otros 30 minutos.",
+      "Caliente abundante aceite en una olla o freidora. Fría los bollos hasta que estén dorados por ambos lados."
+    ],
+    "ar": [
+      "خلط الفرينة، الخميرة، السكر، الماء، نص كاس زيت والملح. اعجن مليح لين تولي العجينة رطبة.",
+      "غطي العجينة وخليها تخمر حكاية ساعتين.",
+      "شكل العجينة كعيبات صغار بالطول. حطهم فوق بلاصة مدهونة بالزيت باش ما يلصقوش.",
+      "خلي الكعيبات يخمروا مرة أخرى لمدة 30 دقيقة.",
+      "سخن الزيت مليح في طنجرة ولا مقلة غارقة. اقلي الكعيبات لين يحمارو من الشيرتين."
+    ],
+    "en": [
+      "Combine flour, yeast, sugar, water, 1/2 cup oil, and salt. Knead thoroughly to form a smooth dough.",
+      "Cover the dough and let it rise (proof) for approximately 2 hours.",
+      "Shape the dough into small oval rolls. Place them on a well-oiled surface to prevent sticking.",
+      "Let the shaped rolls rise for another 30 minutes.",
+      "Heat deep oil in a pot or fryer. Fry the rolls until golden brown on both sides."
+    ]
+  },
+  "image_prompt": "Golden brown fried Tunisian fricassee rolls piled on a plate, oval shaped savory doughnuts, rustic style"
+}

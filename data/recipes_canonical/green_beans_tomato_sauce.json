@@ -1,0 +1,390 @@
+{
+  "id": "green_beans_tomato_sauce",
+  "slug": "green-beans-tomato-sauce",
+  "source_file": "data/safed_recipes/32_שעועית_ירוקה_ברוטב_עגבניות.json",
+  "name": "Green Beans in Tomato Sauce",
+  "name_hebrew": "שעועית ירוקה ברוטב עגבניות",
+  "name_origin": "While the provided name is modern Hebrew ('She'u'it Yeruka'), the traditional Djerban/Tunisian name for this dish is 'Loubia Khadra' (Green Beans) or 'Marqat Loubia' (Green Bean Stew). The word 'Loubia' (لوبيا) is the standard Arabic term for beans (specifically cowpeas or kidney beans, but applied to green beans with the adjective 'khadra' meaning green). The etymology of 'Loubia' traces back to the Persian 'lūbiyā' and is cognate with the Greek 'lobos' (pod). The cooking method described (blooming spices in oil) is characteristic of the 'Marqa' (stew) technique central to Maghrebi cuisine. (Confidence: likely)",
+  "description": "A classic North African side dish where green beans are simmered in a rich, piquant tomato sauce flavored with paprika and garlic. This dish relies on the 'blooming' of spices in oil to create a deep flavor profile.",
+  "cultural_context": "This method of cooking vegetables—starting with a base of oil, onion, and paprika—is typical of Tunisian and Tripolitan Jewish cuisine. It is often served as a side dish for Shabbat or mid-week meals.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green_beans",
+      "name": "Green beans",
+      "amount": 600,
+      "unit": "g",
+      "preparation": "trimmed (fresh) or frozen",
+      "notes": "Standard package size",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 600,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 21.2,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 600,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "diced",
+      "notes": "medium size",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 7,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.25,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato",
+      "name": "Tomato",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_pepper",
+      "name": "Green hot pepper",
+      "amount": 1,
+      "unit": "piece",
+      "preparation": "chopped",
+      "notes": "small piece, to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "piece"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "preparation": "minced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "cloves"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "tomato_paste",
+      "name": "Tomato paste",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "1 small can",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.4,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sesame_seeds",
+      "name": "Sesame seeds",
+      "amount": null,
+      "unit": null,
+      "preparation": "toasted",
+      "notes": "for garnish",
+      "is_optional": true,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Heat the oil in a large pan. Add the diced onion and sauté until it begins to turn golden.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Add the paprika and cook for about 2 minutes to release the flavor (be careful not to burn it).",
+      "time_minutes": 2,
+      "tips": "Cooking paprika in oil is a key technique in North African cuisine to deepen the color and flavor."
+    },
+    {
+      "step": 3,
+      "instruction": "Add the chopped fresh tomato and the small piece of hot pepper.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Season with a little salt, black pepper, and the minced garlic.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add the tomato paste. Bring the mixture to a boil.",
+      "time_minutes": null,
+      "tips": "If the mixture is too dry, you can add a small splash of water, though the tomatoes and frozen beans usually release enough liquid."
+    },
+    {
+      "step": 6,
+      "instruction": "Add the green beans and cook for approximately 10 minutes until tender.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Turn off the heat. Optionally, garnish with toasted sesame seeds before serving.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/037_green_beans/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "side-dish",
+    "vegan",
+    "parve",
+    "vegetable"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Lubiya (Arabic) / Khadra (Arabic)",
+    "meaning": "Green Beans (literally 'Green Beans' or 'Bean Stew')",
+    "confidence": "likely",
+    "notes": "The Hebrew name provided is a literal descriptive translation used in modern Israel. In the context of a Djerban cookbook, the dish is traditionally referred to in Judeo-Arabic as Loubia. The description of blooming spices (paprika/garlic) in oil is the hallmark of a Tunisian 'Marqa' base."
+  },
+  "alternative_names": [
+    {
+      "name": "Loubia Khadra",
+      "language": "tunisian_arabic",
+      "notes": "The most common vernacular name in Tunisia for green beans."
+    },
+    {
+      "name": "Marqat Loubia",
+      "language": "tunisian_arabic",
+      "notes": "Refers specifically to the stewed preparation in sauce."
+    },
+    {
+      "name": "Fassoulia",
+      "language": "arabic",
+      "notes": "A term more common in the Middle East (Levant) for beans, but occasionally understood in North Africa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fassoulia bi Zeyt",
+      "culture": "Levantine (Lebanese/Syrian)",
+      "similarity": "Green beans braised in olive oil and tomato sauce with garlic and onions.",
+      "key_difference": "Levantine version often served cold as part of mezze; Tunisian version is usually hot, spicier (harissa/paprika), and uses vegetable oil."
+    },
+    {
+      "name": "Fasolakia",
+      "culture": "Greek",
+      "similarity": "Green beans simmered in olive oil and tomato.",
+      "key_difference": "Greek version uses oregano/dill and olive oil; Tunisian version relies on caraway, coriander, and paprika."
+    },
+    {
+      "name": "Zeytinyağlı Taze Fasulye",
+      "culture": "Turkish",
+      "similarity": "Green beans in tomato and olive oil.",
+      "key_difference": "Turkish version often includes sugar to balance acidity and is served cold."
+    },
+    {
+      "name": "Marqa Loubia (Muslim Style)",
+      "culture": "Tunisian",
+      "similarity": "Identical spice profile and base.",
+      "key_difference": "Often includes lamb or beef; the Jewish version described might be 'parve' (meatless) to accompany dairy meals, or simply a side dish."
+    }
+  ],
+  "intro_paragraph": "Loubia Khadra—Arabic for \"green beans\"—is a classic stew where fresh beans simmer in a piquant tomato sauce. The recipe relies on blooming paprika and garlic in oil, a foundational technique in Djerban Jewish cooking. Served warm or at room temperature, it makes an essential side dish for Shabbat tables."
+}

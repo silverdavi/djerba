@@ -1,0 +1,98 @@
+{
+  "id": "biscoti_judy",
+  "image": "images/current/009_biscotti/dish.png",
+  "meta": {
+    "servings": "2 logs",
+    "prep_time": "15 min",
+    "cook_time": "25 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "ביסקוטי ג׳ודי",
+    "es": "Biscotti de Judy",
+    "ar": "بشكوطو جودي",
+    "en": "Judy's Biscotti"
+  },
+  "description": {
+    "he": "הביסקוטי של ג׳ודי הוא גרסה רכה על בסיס שמן למנדלברויט ספרדי, בשונה מהעוגייה האיטלקית הקשה המסורתית. למרות שהשם מגיע מהמילה ביסקוטו (אפוי פעמיים), השימוש בשמן במקום חמאה מבטיח שהעוגיות המלאות בשוקולד הן פרווה. המרקם הפריך הופך אותן לקינוח כשר מושלם לסיום ארוחה בשרית כבדה.",
+    "es": "Los Biscotti de Judy son una variación tierna a base de aceite del mandelbrot sefardí, en lugar de la tradicional galleta italiana dura. Aunque el nombre deriva de biscotto (cocido dos veces), el uso de aceite en lugar de mantequilla asegura que estas delicias con trozos de chocolate sean parve. Su textura quebradiza las convierte en un final perfecto y kosher para una comida con carne.",
+    "ar": "البشكوطو متاع جودي هو نوع طري مخدوم بالزيت، يشبه المندلبروت السفاردي وماهوش يابس كيف البشكوطو الطلياني التقليدي. ورغم أن الاسم جاي من كلمة بيسكوتو (طايب مرتين)، استعمال الزيت في عوض الزبدة يخلي هالحلو المعبّى بالشكلاطة بارف (parve). التكستير الهشة متاعو تخليه تحلية مثالية وكوشير بعد ماكلة باللحم.",
+    "en": "Judy's Biscotti is a tender, oil-based variation of Sephardic mandelbrot rather than a traditional hard Italian cookie. While the name derives from biscotto (twice-baked), the use of oil instead of butter ensures these chocolate-studded treats are parve. This crumbly texture makes them a perfect, kosher-friendly ending to a heavy meat meal."
+  },
+  "ingredients": {
+    "he": [
+      "240 מ\"ל שמן צמחי (ניטרלי)",
+      "200 גרם סוכר לבן",
+      "200 גרם סוכר חום",
+      "10 מ\"ל תמצית וניל",
+      "420 גרם קמח רגיל, מנופה",
+      "5 גרם אבקת סודה לשתייה",
+      "5 גרם מלח",
+      "170 גרם שוקולד צ׳יפס"
+    ],
+    "es": [
+      "240 ml de aceite vegetal (neutro)",
+      "200 g de azúcar blanca",
+      "200 g de azúcar morena",
+      "10 ml de extracto de vainilla",
+      "420 g de harina común, tamizada",
+      "5 g de bicarbonato de sodio",
+      "5 g de sal",
+      "170 g de chispas de chocolate"
+    ],
+    "ar": [
+      "1 كأس زيت نباتي",
+      "1 كأس سكر أبيض",
+      "1 كأس سكر أسمر",
+      "2 مغارف صغار فانيليا",
+      "3.5 كيسان فرينة، منخولة",
+      "1 مغرفة صغيرة بيكربونات (سودا)",
+      "1 مغرفة صغيرة ملح",
+      "1 كأس حبيبات شكلاطة"
+    ],
+    "en": [
+      "1 cup vegetable oil (neutral)",
+      "1 cup white sugar",
+      "1 cup brown sugar",
+      "2 tsp vanilla extract",
+      "3.5 cups all-purpose flour, sifted",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-180 מעלות.",
+      "בקערה גדולה, מערבבים את השמן, הסוכר הלבן, הסוכר החום, הווניל, הקמח, הסודה לשתייה והמלח עד לקבלת תערובת אחידה.",
+      "מוסיפים את השוקולד צ׳יפס ומערבבים לפיזור אחיד. אל דאגה אם הבצק מרגיש פירורי; זה המרקם הרצוי.",
+      "יוצרים מהבצק שני גלילים (או יותר) ומניחים אותם על תבנית אפייה. יש לדחוס את הבצק בחוזקה כדי שהגלילים ישמרו על צורתם.",
+      "אופים במשך 20 עד 30 דקות עד שהגלילים מזהיבים.",
+      "מניחים לגלילים להצטנן מעט, ואז פורסים לפרוסות בעודם חמים. אם יתקררו לגמרי, הם עלולים להתפורר בעת החיתוך."
+    ],
+    "es": [
+      "Precalentar el horno a 180°C.",
+      "En un bol grande, mezclar el aceite, el azúcar blanca, el azúcar morena, la vainilla, la harina, el bicarbonato y la sal hasta integrar.",
+      "Añadir las chispas de chocolate y mezclar para distribuir. No se preocupe si la masa se siente quebradiza; esa es la textura deseada.",
+      "Formar dos (o más) troncos con la masa y colocarlos en una bandeja para hornear. Presionar la masa firmemente para ayudar a que los troncos mantengan su forma.",
+      "Hornear de 20 a 30 minutos hasta que los troncos estén dorados.",
+      "Dejar enfriar los troncos ligeramente, luego cortar en rebanadas mientras aún están tibios. Si se enfrían completamente, pueden desmoronarse al cortar."
+    ],
+    "ar": [
+      "سخّن الفور على 180 درجة.",
+      "في صحفة كبيرة، خلط الزيت، السكر الأبيض، السكر الأسمر، الفانيليا، الفرينة، البيكربونات والملح حتى يتخلطوا مليح.",
+      "زيد حبيبات الشكلاطة وخلط بش يتوزعوا. ما تخافش إذا العجينة جاتك مفتفتة، هكاكة لازم تكون.",
+      "شكّل العجينة زوز حرابش (بودان) وحطهم في طبق الفور. انزل على العجينة مليح بش البودان يشد روحو وما يتحلش.",
+      "طيّبهم في الفور مدة 20 حتى 30 دقيقة لين يحماروا شوية.",
+      "خلي البودان يبرد شوية، ومبعد قصو طروف وهو مازال دافي. كان يبرد برشا، ينجم يتفتفت كي تجي تقصو."
+    ],
+    "en": [
+      "Preheat the oven to 180°C (350°F).",
+      "In a large bowl, mix the oil, white sugar, brown sugar, vanilla, flour, baking soda, and salt until combined.",
+      "Add the chocolate chips and mix to distribute. Do not be alarmed if the dough feels crumbly; this is the intended texture.",
+      "Form the dough into two (or more) logs and place them on a baking sheet. Press the dough firmly together to help the logs hold their shape.",
+      "Bake for 20 to 30 minutes until the logs are golden brown.",
+      "Allow the logs to cool slightly, then cut into slices while still warm. If they cool completely, they may crumble when slicing."
+    ]
+  }
+}

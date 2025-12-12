@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "Derived from the Arabic word 'turshi' (طرشي), which generally means 'pickles' or 'pickled vegetables' throughout the Middle East and Maghreb. The word ultimately traces back to the Persian 'torsh' (ترش) meaning 'sour' or 'acidic'. In the context of Tunisian and Libyan Jewish cuisine, the meaning shifted from whole pickled vegetables to a specific cooked, mashed salad (usually pumpkin or carrot) that is heavily seasoned with vinegar or lemon juice, garlic, and caraway (karwiya). The name refers to the sour, pungent flavor profile that functions like a pickle to cut through the richness of Shabbat stews or couscous, rather than the texture.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Torsh (Persian) -> Turshi (Arabic)",
+    "meaning": "Sour / Pickled",
+    "confidence": "confirmed",
+    "sources_notes": "The linguistic connection is standard in Judeo-Arabic dialectology. While 'Turshi' is standard Arabic for pickles, the specific pronunciation 'Tirshi' or 'Tershi' in the Maghreb (specifically Tunisia and Libya) refers almost exclusively to this mashed dip. The sour element (vinegar/lemon) is the defining characteristic that links it to the etymological root."
+  },
+  "alternative_names": [
+    {
+      "name": "Tershi",
+      "language": "Judeo-Arabic",
+      "notes": "Common transliteration variant."
+    },
+    {
+      "name": "Tirshi Qra",
+      "language": "Tunisian Arabic",
+      "notes": "'Qra' (قرع) means pumpkin/gourd; specifies the main ingredient."
+    },
+    {
+      "name": "Chershi",
+      "language": "Libyan Judeo-Arabic",
+      "notes": "The Tripolitan (Libyan) pronunciation of the same dish, often served with couscous."
+    },
+    {
+      "name": "Salade de Citrouille",
+      "language": "French",
+      "notes": "Colonial era name often used in French-language Jewish cookbooks."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Chershi / Cershi",
+      "culture": "Libyan Jewish",
+      "similarity": "Almost identical dish made of mashed pumpkin, garlic, and caraway.",
+      "key_difference": "Libyan version is often spicier (using pilpelchuma) and sometimes more liquid, used as a sauce for couscous rather than just a salad."
+    },
+    {
+      "name": "Torshi / Turşu",
+      "culture": "Middle Eastern / Turkish",
+      "similarity": "Etymological ancestor.",
+      "key_difference": "These are standard vinegar-brined raw vegetables (pickles), whereas Tunisian Tirshi is cooked and mashed."
+    },
+    {
+      "name": "Zalouk",
+      "culture": "Moroccan",
+      "similarity": "Cooked, mashed vegetable salad served as a dip.",
+      "key_difference": "Zalouk is primarily eggplant and tomato based, whereas Tirshi is pumpkin based."
+    },
+    {
+      "name": "Om Hourieh",
+      "culture": "Tunisian",
+      "similarity": "Mashed vegetable salad (kemia).",
+      "key_difference": "Om Hourieh is made from carrots, though a 'Carrot Tirshi' exists which blurs the lines."
+    }
+  ]
+}

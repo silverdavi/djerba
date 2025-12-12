@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Mami' (מאמי) in this context is not a specific culinary root but a familial honorific derived from the French 'Mamie' (Grandma). Following the French Protectorate in Tunisia (1881–1956), many Tunisian Jewish families adopted French familial terms. The cake itself—a soft honey cake using coffee and spices—is likely a local adaptation of the French 'Pain d'épices' or an adoption of the Ashkenazi 'Lekach' which became popular in Israel and the diaspora, rather than an ancient Djerban dish (which would typically be 'Boulou'). The Hebrew 'Ougat Dvash' is a modern descriptive translation.",
+    "language_source": "french",
+    "root_word": "Mamie",
+    "meaning": "Grandma",
+    "confidence": "likely",
+    "sources_notes": "In North African Jewish dialects, specific dish names usually describe the ingredients (e.g., 'Bsal' for onion stew) or the method ('Mhamsa'). 'Mami' does not correspond to a Judeo-Arabic culinary verb or noun. It is the standard French term for grandmother, widely used by Francophone North African Jews."
+  },
+  "alternative_names": [
+    {
+      "name": "Pain d'épices",
+      "language": "French",
+      "notes": "The French spiced honey bread that likely influenced this moist cake version in Tunisia."
+    },
+    {
+      "name": "Boulou",
+      "language": "Judeo-Arabic (Tunisian)",
+      "notes": "While 'Boulou' is the distinct, traditional Tunisian Rosh Hashanah sweet (a crunchy almond roll), some families may use 'Ougat Dvash' to differentiate this softer cake."
+    },
+    {
+      "name": "Gatou Asal",
+      "language": "Judeo-Arabic",
+      "notes": "A literal translation (Gatou from French 'Gâteau', Asal = Honey) used in some dialects."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Lekach",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Identical ingredients: honey, warm spices (cloves/cinnamon), and specifically the use of coffee to darken the batter.",
+      "key_difference": "Lekach is the Eastern European standard; the Tunisian version often incorporates orange zest or blossom water."
+    },
+    {
+      "name": "Pain d'épices",
+      "culture": "French",
+      "similarity": "A rye-based honey spice cake.",
+      "key_difference": "French version is often drier and bread-like; the Jewish version uses oil and eggs for a moist cake texture."
+    },
+    {
+      "name": "Basbousa / Harissa Hloua",
+      "culture": "Tunisian / Middle Eastern",
+      "similarity": "Sweet cake served for celebrations.",
+      "key_difference": "Basbousa is semolina-based and soaked in syrup after baking, whereas this Honey Cake has the sweetener (honey) baked into the batter."
+    }
+  ]
+}

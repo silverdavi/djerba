@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "While the provided name is modern Hebrew ('She'u'it Yeruka'), the traditional Djerban/Tunisian name for this dish is 'Loubia Khadra' (Green Beans) or 'Marqat Loubia' (Green Bean Stew). The word 'Loubia' (لوبيا) is the standard Arabic term for beans (specifically cowpeas or kidney beans, but applied to green beans with the adjective 'khadra' meaning green). The etymology of 'Loubia' traces back to the Persian 'lūbiyā' and is cognate with the Greek 'lobos' (pod). The cooking method described (blooming spices in oil) is characteristic of the 'Marqa' (stew) technique central to Maghrebi cuisine.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Lubiya (Arabic) / Khadra (Arabic)",
+    "meaning": "Green Beans (literally 'Green Beans' or 'Bean Stew')",
+    "confidence": "likely",
+    "sources_notes": "The Hebrew name provided is a literal descriptive translation used in modern Israel. In the context of a Djerban cookbook, the dish is traditionally referred to in Judeo-Arabic as Loubia. The description of blooming spices (paprika/garlic) in oil is the hallmark of a Tunisian 'Marqa' base."
+  },
+  "alternative_names": [
+    {
+      "name": "Loubia Khadra",
+      "language": "tunisian_arabic",
+      "notes": "The most common vernacular name in Tunisia for green beans."
+    },
+    {
+      "name": "Marqat Loubia",
+      "language": "tunisian_arabic",
+      "notes": "Refers specifically to the stewed preparation in sauce."
+    },
+    {
+      "name": "Fassoulia",
+      "language": "arabic",
+      "notes": "A term more common in the Middle East (Levant) for beans, but occasionally understood in North Africa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Fassoulia bi Zeyt",
+      "culture": "Levantine (Lebanese/Syrian)",
+      "similarity": "Green beans braised in olive oil and tomato sauce with garlic and onions.",
+      "key_difference": "Levantine version often served cold as part of mezze; Tunisian version is usually hot, spicier (harissa/paprika), and uses vegetable oil."
+    },
+    {
+      "name": "Fasolakia",
+      "culture": "Greek",
+      "similarity": "Green beans simmered in olive oil and tomato.",
+      "key_difference": "Greek version uses oregano/dill and olive oil; Tunisian version relies on caraway, coriander, and paprika."
+    },
+    {
+      "name": "Zeytinyağlı Taze Fasulye",
+      "culture": "Turkish",
+      "similarity": "Green beans in tomato and olive oil.",
+      "key_difference": "Turkish version often includes sugar to balance acidity and is served cold."
+    },
+    {
+      "name": "Marqa Loubia (Muslim Style)",
+      "culture": "Tunisian",
+      "similarity": "Identical spice profile and base.",
+      "key_difference": "Often includes lamb or beef; the Jewish version described might be 'parve' (meatless) to accompany dairy meals, or simply a side dish."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name_origin": {
+    "etymology": "The name is a portmanteau or compound in Judeo-Tunisian Arabic (Derja). It combines 'Adma' (عظمة), the specific Tunisian word for 'egg' (literally meaning 'bone' or 'core', distinct from the standard Arabic 'bayda'), and 'Shusha' (شوشة). In Tunisian dialect, 'Shusha' refers to a 'tuft', 'tassel' (like that on a Chechia hat), or 'disheveled hair'. The name describes the culinary result: when an egg is poached in the soup without being contained, the whites feather out into wispy strands, resembling a messy tuft or tassel floating in the broth.",
+    "language_source": "tunisian_arabic",
+    "root_word": "ʿAẓma (egg/bone) + Shūsha (tuft/tassel)",
+    "meaning": "Tufted Egg or Tasseled Egg",
+    "confidence": "likely",
+    "sources_notes": "Linguistic analysis of Tunisian Derja confirms 'Adma' as the standard term for egg and 'Shusha' as a descriptor for tufts/tassels. The visual correlation between a poached egg's wispy whites and a 'shusha' is a standard metaphorical naming convention in Maghrebi dialects."
+  },
+  "alternative_names": [
+    {
+      "name": "Adma Choucha",
+      "language": "French/Tunisian",
+      "notes": "Francophone spelling often found in colonial-era Tunisian cookbooks."
+    },
+    {
+      "name": "Marqat Adma",
+      "language": "Tunisian Arabic",
+      "notes": "Literally 'Egg Stew', a more generic term sometimes used for the same dish."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Shakshuka",
+      "culture": "North African / Middle Eastern",
+      "similarity": "Eggs poached in a tomato-based sauce.",
+      "key_difference": "Shakshuka is a thick stew/sauce where eggs are steamed on top; Adamshusha is a soup with a thinner broth."
+    },
+    {
+      "name": "Hsu",
+      "culture": "Tunisian",
+      "similarity": "A spicy semolina soup often containing eggs.",
+      "key_difference": "Hsu is thickened with grain (semolina) and is opaque; Adamshusha is typically a clear or light tomato broth."
+    },
+    {
+      "name": "Ojja",
+      "culture": "Tunisian",
+      "similarity": "Spicy tomato and egg dish.",
+      "key_difference": "In Ojja, the eggs are typically scrambled or agitated into the sauce, whereas Adamshusha requires the egg to remain whole (poached)."
+    },
+    {
+      "name": "Acqua Cotta",
+      "culture": "Italian (Tuscan)",
+      "similarity": "A peasant soup ('cooked water') served with a poached egg.",
+      "key_difference": "Uses Italian herbs and vegetables (celery, carrot) rather than the Harissa/Caraway profile of Tunisia."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name provided ('Daysat Solet') is a Modern Hebrew descriptive term composed of ancient roots, used to translate the traditional North African dish name. 'Daysa' (דַּיְסָה) originates from Mishnaic Hebrew and Jewish Babylonian Aramaic ('daisa'), referring to a dish made of pounded or crushed grain. 'Solet' (סֹלֶת) is Biblical Hebrew for the finest wheaten flour or semolina. However, in the Djerban and Tunisian Judeo-Arabic context, this dish is traditionally known as 'Assida' (عصيدة) or 'Assida bil-hlib' (Porridge with milk).",
+    "language_source": "hebrew",
+    "root_word": "Hebrew/Aramaic: D-Y-S (to tread/thresh) | Arabic equivalent: 'A-S-D (to twist/stir)",
+    "meaning": "Porridge of Semolina (Hebrew) | To thicken/stir vigorously (Arabic original)",
+    "confidence": "confirmed",
+    "sources_notes": "While the cookbook uses the Hebrew name, Djerban Jews historically used the Tunisian Arabic term 'Assida' or the French 'Bouillie'. The Hebrew 'Daysa' is cognate with Arabic 'Dasha' (to crush). The Arabic root for Assida refers to the vigorous stirring required to prevent lumps."
+  },
+  "alternative_names": [
+    {
+      "name": "'Assida / 'Asida",
+      "language": "tunisian_arabic",
+      "notes": "The traditional vernacular name in North Africa for a thick flour or semolina pudding. From the Arabic root meaning 'to twist' or 'stir'."
+    },
+    {
+      "name": "Bouillie de semoule",
+      "language": "french",
+      "notes": "Commonly used by Tunisian Jews during the French protectorate era to describe semolina milk porridge."
+    },
+    {
+      "name": "Monigo / Moniko",
+      "language": "ladino",
+      "notes": "A term sometimes used in Sephardic communities for a thick dough or porridge, though less common in Djerba than the Arabic terms."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Assida Bidha",
+      "culture": "Tunisian (Muslim)",
+      "similarity": "Identical base of semolina/flour and liquid.",
+      "key_difference": "Often served with olive oil and date syrup (rub) or honey, whereas the Jewish breakfast version is frequently dairy-based (milk/butter)."
+    },
+    {
+      "name": "Grießbrei",
+      "culture": "German / Ashkenazi",
+      "similarity": "Semolina cooked in milk with sugar and cinnamon.",
+      "key_difference": "Texture is often fluffier; Djerban Assida can be denser or stickier depending on the water-to-milk ratio."
+    },
+    {
+      "name": "Muhallebi",
+      "culture": "Middle Eastern / Turkish",
+      "similarity": "Milk pudding dessert.",
+      "key_difference": "Traditionally thickened with rice flour or cornstarch rather than semolina (though variations exist), and served cold rather than warm."
+    },
+    {
+      "name": "Gatnabour",
+      "culture": "Armenian",
+      "similarity": "Warm rice pudding/porridge with cinnamon.",
+      "key_difference": "Uses whole rice grains rather than semolina wheat."
+    }
+  ]
+}

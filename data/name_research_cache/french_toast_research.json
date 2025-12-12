@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "While the Hebrew name provided ('Lechem Metugan') is a modern descriptive translation meaning 'Fried Bread,' the cultural origin of this dish in the 20th-century Tunisian Jewish context is firmly rooted in the French colonial influence. The community adopted the French term 'Pain Perdu' (Lost Bread). Unlike indigenous dishes with Judeo-Arabic names (like 'Mhamsa' or 'Pkaila'), this dish represents the Francophone acculturation of North African Jewry. The concept utilizes stale bread ('lost' bread) soaked in a custard mixture ('adma' and milk) to revive it.",
+    "language_source": "french",
+    "root_word": "Pain Perdu",
+    "meaning": "Lost Bread (referring to stale bread saved from waste)",
+    "confidence": "confirmed",
+    "sources_notes": "Tunisia was a French protectorate (1881–1956). Tunisian Jews rapidly adopted French language and culinary habits. While fried bread exists in Sephardic history ('Rebanadas'), the specific use of vanilla-milk custard and the name 'Pain Perdu' cited in the description confirms the French colonial pathway."
+  },
+  "alternative_names": [
+    {
+      "name": "Rebanadas / Rabanadas",
+      "language": "ladino",
+      "notes": "The older Sephardic name for fried bread slices, traditionally eaten by nursing mothers or during Hanukkah. Often soaked in honey syrup rather than just sugar."
+    },
+    {
+      "name": "Khobz Maqli",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation for 'Fried Bread' (Khobz = Bread, Maqli = Fried). Used descriptively in Derja."
+    },
+    {
+      "name": "Torrijas",
+      "language": "spanish",
+      "notes": "The Iberian antecedent to the dish, brought by Spanish exiles (Grana) to North Africa."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Torrijas",
+      "culture": "Spain (Catholic)",
+      "similarity": "Stale bread soaked in milk/wine and egg, fried.",
+      "key_difference": "Traditionally eaten during Lent/Semana Santa; often flavored with cinnamon and honey rather than vanilla."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghreb (Tunisia/Morocco)",
+      "similarity": "Fried dough consumed for breakfast or Hanukkah.",
+      "key_difference": "Sfenj is made from raw yeasted dough (like a fritter), whereas Pain Perdu recycles baked stale bread."
+    },
+    {
+      "name": "Om Ali",
+      "culture": "Egypt/Middle East",
+      "similarity": "Uses stale bread (or pastry) soaked in milk and nuts.",
+      "key_difference": "It is a baked bread pudding, not pan-fried slices."
+    }
+  ]
+}

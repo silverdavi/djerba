@@ -1,0 +1,58 @@
+{
+  "name_origin": {
+    "etymology": "The word derives from the Hebrew root S-F-G (ס-פ-ג), meaning 'to absorb' or 'sponge,' referring to the dough's spongy texture and its absorption of oil during deep-frying. The term 'Sufgan' (סופגן) appears in the Mishnah (Challah 1:4) and Tosefta referring to a spongy dough. The modern form 'Sufganiyah' was standardized by the Hebrew Language Committee (likely David Yellin) in the early 20th century to describe the Hanukkah doughnut. It shares an ancient etymological link with the Greek word 'spongos' and the Maghrebi Arabic word 'Sfenj'.",
+    "language_source": "hebrew",
+    "root_word": "ספג (Safag - to absorb/sponge)",
+    "meaning": "Spongy one / The absorber",
+    "confidence": "confirmed",
+    "sources_notes": "While 'Sufganiyot' is the Modern Hebrew title used in this cookbook, the traditional Djerban/Tunisian name for Hanukkah fried dough is 'Sfenj' or 'Khfaf'. The use of 'Sufganiyot' suggests either a modern Israeli influence on the cookbook's terminology or a specific recipe for the jelly-filled variety rather than the traditional rustic ring."
+  },
+  "alternative_names": [
+    {
+      "name": "Sfenj",
+      "language": "tunisian_arabic",
+      "notes": "The traditional Maghrebi yeast doughnut (usually ring-shaped) eaten by Jews in North Africa for Hanukkah."
+    },
+    {
+      "name": "Khfaf",
+      "language": "algerian_arabic",
+      "notes": "Another Maghrebi term for the sponge-like fried dough, common in Algeria and parts of Tunisia."
+    },
+    {
+      "name": "Bambalouni",
+      "language": "tunisian_arabic",
+      "notes": "A specifically Tunisian version of the doughnut, often dusted with sugar, very similar to the Jewish Sfenj."
+    },
+    {
+      "name": "Bignettes",
+      "language": "french",
+      "notes": "French colonial term often used by educated Tunisian Jews for fried dough/fritters."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Bambalouni",
+      "culture": "Tunisian",
+      "similarity": "Deep-fried yeast dough ring, dipped in sugar.",
+      "key_difference": "Bambalouni is strictly a street food ring shape; modern Sufganiyot are round and filled with jelly."
+    },
+    {
+      "name": "Berliner / Krapfen",
+      "culture": "German / Austrian",
+      "similarity": "Round, yeast-risen dough filled with jam/jelly.",
+      "key_difference": "This European pastry is the direct ancestor of the modern jelly-filled Sufganiyah, whereas the North African tradition was originally unfilled rings (Sfenj)."
+    },
+    {
+      "name": "Lokma / Awameh",
+      "culture": "Turkish / Levantine",
+      "similarity": "Fried dough balls soaked in syrup.",
+      "key_difference": "Much smaller, crunchy exterior, and soaked in syrup rather than filled or sugar-dusted."
+    },
+    {
+      "name": "Zlebia",
+      "culture": "Maghrebi / Middle Eastern",
+      "similarity": "Fried dough eaten at Hanukkah/Ramadan.",
+      "key_difference": "Made from a batter poured through a funnel (funnel cake style) and soaked in syrup, rather than a risen dough ball."
+    }
+  ]
+}

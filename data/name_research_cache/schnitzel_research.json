@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The word 'Schnitzel' is of German origin, derived from the verb 'schnitzen', meaning 'to carve' or 'to cut'. The suffix '-el' is a diminutive, so the word literally translates to 'a little cut' or 'a slice'. While the dish originated in Austria (Wiener Schnitzel, made with veal), it was brought to Israel by Central European (Ashkenazi) immigrants. In Israel, due to the scarcity of veal, turkey and chicken became the standard proteins. It was subsequently adopted by North African Jewish communities (including Djerbans) in Israel and France, often replacing more complex traditional fried dishes due to its convenience and popularity with children.",
+    "language_source": "other",
+    "root_word": "schnitzen (German)",
+    "meaning": "Little slice / A cut / A carving",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Germanic etymology. In the context of a Djerban cookbook, this represents the 'Israeli-zation' or 'French-ification' of the cuisine. In French-influenced North Africa, this would traditionally be called 'Escalope Panée'."
+  },
+  "alternative_names": [
+    {
+      "name": "Escalope (Panée)",
+      "language": "french",
+      "notes": "The term used by Francophone North African Jews (Tunisia/Algeria/Morocco) before the adoption of the Hebrew/German term 'Schnitzel'."
+    },
+    {
+      "name": "Cotoletta",
+      "language": "italian",
+      "notes": "Used specifically by Libyan Jews due to Italian colonization, referring to the same breaded cutlet concept."
+    },
+    {
+      "name": "Bani",
+      "language": "tunisian_arabic",
+      "notes": "A localized pronunciation of the French 'pané' (breaded), often heard in Tunisian markets."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Wiener Schnitzel",
+      "culture": "Austrian",
+      "similarity": "The original version of the dish.",
+      "key_difference": "Strictly made with veal and fried in lard or butter (non-kosher preparation), whereas the Jewish version uses chicken/turkey and oil."
+    },
+    {
+      "name": "Maakouda",
+      "culture": "North African (Maghreb)",
+      "similarity": "A fried, breaded item often served alongside or in sandwiches.",
+      "key_difference": "Maakouda is a potato fritter/cake, not a whole muscle meat cutlet."
+    },
+    {
+      "name": "Cotoletta alla Milanese",
+      "culture": "Italian",
+      "similarity": "Breaded fried meat cutlet.",
+      "key_difference": "Usually bone-in veal chop, whereas Jewish Schnitzel is boneless pounded chicken breast."
+    }
+  ]
+}

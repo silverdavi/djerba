@@ -1,0 +1,354 @@
+{
+  "id": "adafina_wheat_side_dish",
+  "slug": "adafina-wheat-side-dish",
+  "source_file": "data/safed_recipes/adafina_-_wheat.json",
+  "name": "Adafina Wheat (Hita)",
+  "name_hebrew": "חיטה לאדפינה",
+  "name_origin": "The name provided is a compound phrase. 'Hita' (חיטה) is the standard Hebrew word for 'wheat'. 'Adafina' is the classic Judeo-Spanish (Ladino) name for the Shabbat stew, which itself derives from the Arabic root 'd-f-n' (دفن), meaning 'to bury', 'to cover', or 'to hide'. This refers to the ancient method of burying the cooking pot in hot embers or sand to maintain heat over the Sabbath without an active flame. The phrase 'Hita l'Adafina' literally translates from Hebrew as 'Wheat for the Adafina'. In the context of Djerban and North African cuisine, this refers to the wheat berries (often hulled) cooked in a muslin bag or separate container within the larger stew to absorb flavors while maintaining a distinct texture.",
+  "description": "A savory wheat berry pudding cooked inside a bag within the main Shabbat stew (Adafina/Hamin). The wheat is toasted with onions and garlic before slow-cooking overnight, resulting in a tender, flavorful side dish.",
+  "cultural_context": "In Moroccan and North African Jewish tradition, grains like wheat or rice are often cooked in cheesecloth or cooking bags ('kuki') submerged in the main stew pot. This allows them to absorb the ambient flavors while maintaining their own distinct seasoning and texture.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken soup powder with vegetable bouillon or salt.",
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 720,
+    "total_time_minutes": 735,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole_wheat_berries",
+      "name": "Whole wheat berries",
+      "amount": 2,
+      "unit": "cup",
+      "preparation": "rinsed and cleaned",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 380,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 13.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "cup"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 30,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying (approx. 2 tbsp)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "onion",
+      "name": "Onion",
+      "amount": 1,
+      "unit": "unit",
+      "size": "medium",
+      "preparation": "diced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_cloves",
+      "name": "Garlic cloves",
+      "amount": 10,
+      "unit": "unit",
+      "preparation": "whole peeled",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 10,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "white_pepper",
+      "name": "White pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_consomme_powder",
+      "name": "Chicken soup powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "or a small amount of bouillon",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 350,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "Approx 1.5 cups (0.5 to 1 cup water per cup of wheat)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 350,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 11.8,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 350,
+          "unit": "ml"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "In a frying pan, heat the oil and fry the diced onion over low heat until it turns dark brown. Be careful not to burn it.",
+      "time_minutes": 10,
+      "tips": "Slow frying creates the deep flavor characteristic of Hamin."
+    },
+    {
+      "step": 2,
+      "instruction": "Add the whole garlic cloves and fry very briefly.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the clean, dry wheat berries to the pan along with the paprika, white pepper, chicken soup powder, and salt. Fry briefly to toast the grains.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Transfer the mixture into a heat-resistant cooking bag (oven bag). For extra security against leaks, you may place this bag inside a second bag.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Add water to the bag. The ratio is between ½ to 1 cup of water for every 1 cup of wheat used.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Tie the bags tightly, leaving a little room for expansion, and place them into the hot pot (Adafina/Hamin) to cook overnight with the rest of the stew.",
+      "time_minutes": null,
+      "tips": "Ensure the bag is submerged in the liquids of the main stew."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/092_wheat_berries/dish.png",
+    "prompt": "Traditional Moroccan Jewish wheat pudding (Hita) inside a cooking bag, dark brown savory wheat berries with whole garlic cloves, rustic style"
+  },
+  "tags": [
+    "moroccan",
+    "shabbat",
+    "side-dish",
+    "grains",
+    "slow-cooked"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Arabic: dafana (دفن) / Hebrew: hita (חיטה)",
+    "meaning": "Wheat for the buried [stew]",
+    "confidence": "confirmed",
+    "notes": "While 'Adafina' is the Ladino name, it was widely used in North Africa (often contracted to 'Tfina' in Tunisia/Morocco). The specific construction 'Hita l'Adafina' is likely a descriptive Hebrew name used in the cookbook or by the community in Israel, rather than the vernacular Judeo-Arabic term used in Djerba (which would likely be 'Gara' or 'Haris')."
+  },
+  "alternative_names": [
+    {
+      "name": "Tfina",
+      "language": "tunisian_arabic",
+      "notes": "The common Tunisian/Djerban contraction of 'Adafina', referring to the stew in which the wheat is cooked."
+    },
+    {
+      "name": "Haris / Harissa",
+      "language": "judeo_arabic",
+      "notes": "From the Arabic root 'to crush'. Often refers to a wheat porridge, but in some families refers to the wheat component of the Shabbat stew."
+    },
+    {
+      "name": "Rziz",
+      "language": "moroccan_arabic",
+      "notes": "A Moroccan Jewish term specifically for the wheat berry pudding cooked inside the Dafina."
+    },
+    {
+      "name": "Hamin de Trigo",
+      "language": "ladino",
+      "notes": "Literally 'Wheat Hamin', the Sephardic Spanish equivalent."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Harees / Jareesh",
+      "culture": "Arab / Middle Eastern",
+      "similarity": "A savory porridge made of cracked wheat and meat, slow-cooked until the texture is smooth.",
+      "key_difference": "Harees is usually beaten into a uniform mush/paste, whereas the Jewish 'Hita' in a bag retains the individual grain structure."
+    },
+    {
+      "name": "Kishke / Helzel",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "A grain-based (flour or matzah meal) savory pudding cooked inside the Shabbat stew (Cholent).",
+      "key_difference": "Kishke uses flour/meal and fat stuffed into a casing (intestine or synthetic), whereas Hita uses whole wheat berries."
+    },
+    {
+      "name": "Cuccìa",
+      "culture": "Sicilian / Southern Italian",
+      "similarity": "Boiled wheat berries, often mixed with ricotta or milk.",
+      "key_difference": "Cuccìa is a sweet dessert for St. Lucy's Day, not a savory slow-cooked side dish."
+    },
+    {
+      "name": "Ashure (Noah's Pudding)",
+      "culture": "Turkish / Ottoman",
+      "similarity": "A pudding featuring wheat berries as the main starch.",
+      "key_difference": "Ashure is a sweet dessert soup with fruits and nuts, not savory."
+    }
+  ],
+  "intro_paragraph": "Hita l'Adafina combines *hita* (Hebrew for wheat) with *Adafina*, a stew named for the Arabic root meaning \"to bury\" in hot embers. Whole wheat berries are toasted with aromatics, then enclosed in a bag and submerged in the Shabbat pot. Slow-cooked overnight, the grains absorb the stew's essence to create a tender, savory pudding."
+}

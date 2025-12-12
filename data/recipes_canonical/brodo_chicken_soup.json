@@ -1,0 +1,289 @@
+{
+  "id": "brodo_chicken_soup",
+  "slug": "brodo-chicken-soup",
+  "source_file": "data/safed_recipes/06_ברודו.json",
+  "name": "Brodo (Tunisian Chicken Vegetable Soup)",
+  "name_hebrew": "ברודו",
+  "name_origin": "The term 'Brodo' is a direct loanword from Italian, retained in Tunisian dialect (Derja) and specifically Tunisian Judeo-Arabic. Tunisia hosted a significant population of Livornese Jews (the 'Grana') and Sicilian immigrants, whose language heavily influenced local culinary terminology. While 'Shorba' is the general Arabic term for soup, and 'Marqa' for stew, 'Brodo' specifically refers to a clear, light bouillon or stock (usually chicken or beef with root vegetables) that is not heavily spiced with red pepper or tomato paste. It is linguistically distinct from the Spanish/Ladino 'Caldo'.",
+  "description": "A simple, comforting chicken broth loaded with root vegetables. This fundamental soup is often served on its own or used as the moistening broth for couscous.",
+  "cultural_context": "In Djerban and Tunisian cuisine, 'Brodo' is a staple dish. While simple to prepare, it forms the basis of many meals, particularly the Friday night couscous.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace chicken with chickpeas or vegetable bouillon for a vegetable soup.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 50,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken_pieces",
+      "name": "Chicken pieces (legs, thighs, or wings)",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "cleaned",
+      "notes": "Or 1 whole chicken cut into parts",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 2,
+      "unit": "L",
+      "preparation": null,
+      "notes": "Enough to cover ingredients",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2000,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 66.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 8.3,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 2,
+          "unit": "L"
+        }
+      }
+    },
+    {
+      "ingredient_id": "pumpkin",
+      "name": "Pumpkin",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "cubed",
+      "notes": "Large chunks",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 300,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 10.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 300,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "zucchini",
+      "name": "Zucchini",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "cut into chunks",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "carrot",
+      "name": "Carrot",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "peeled and sliced",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potato",
+      "name": "Potato",
+      "amount": 2,
+      "unit": "unit",
+      "preparation": "peeled and quartered",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 2,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 4,
+      "unit": "clove",
+      "preparation": "whole or crushed",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 4,
+          "unit": "clove"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Place the chicken and all prepared vegetables (pumpkin, zucchini, carrots, potatoes, garlic) into a large soup pot.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Cover with water and add salt to taste.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Bring the pot to a boil over high heat.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Lower the heat to a simmer and cook for approximately 30 minutes, or until the chicken is cooked through and vegetables are tender.",
+      "time_minutes": 30,
+      "tips": "Do not overcook to the point where vegetables disintegrate."
+    }
+  ],
+  "variants": [
+    {
+      "name": "Brodo with Couscous",
+      "description": "Serve the broth and vegetables over steamed couscous."
+    }
+  ],
+  "image": {
+    "filename": "images/current/012_brodo/dish.png",
+    "prompt": "Tunisian chicken soup brodo in a pot with large chunks of pumpkin zucchini carrots and potatoes, clear broth"
+  },
+  "tags": [
+    "soup",
+    "chicken",
+    "tunisian",
+    "djerban",
+    "gluten-free",
+    "comfort-food"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "other",
+    "root_word": "Italian 'brodo' (from Late Latin 'brodum', of Germanic origin)",
+    "meaning": "Broth or stock",
+    "confidence": "confirmed",
+    "notes": "The presence of Italian loanwords in Tunisian culinary vocabulary is well-documented due to the Grana community and geographic proximity to Sicily. The usage of 'Brodo' in Tunisia is distinct from the French 'Bouillon' or the Spanish 'Caldo'."
+  },
+  "alternative_names": [
+    {
+      "name": "Marqa Beida",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'white stew/sauce', referring to the lack of tomato paste/harissa, though Brodo is usually thinner."
+    },
+    {
+      "name": "Bouillon",
+      "language": "french",
+      "notes": "Used interchangeably in Francophone Tunisian circles."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Pot-au-feu",
+      "culture": "French",
+      "similarity": "Meat boiled with root vegetables where the broth is served as a starter.",
+      "key_difference": "Pot-au-feu uses beef; Brodo often uses chicken and is served with couscous."
+    },
+    {
+      "name": "Brodo di Pollo",
+      "culture": "Italian",
+      "similarity": "Clear chicken broth.",
+      "key_difference": "Italian version often contains pasta (tortellini/pastina); Tunisian version contains chunks of root vegetables (turnip, carrot, squash)."
+    },
+    {
+      "name": "Goldene Yoykh",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "Chicken soup served on Shabbat.",
+      "key_difference": "Ashkenazi version uses dill/parsley and noodles/matzah balls; Tunisian Brodo uses celery/cilantro and is often poured over grain."
+    },
+    {
+      "name": "Shorba Beida",
+      "culture": "Algerian",
+      "similarity": "White chicken soup.",
+      "key_difference": "Algerian version often includes vermicelli, lemon, and egg yolk binding (liason), whereas Brodo is a clearer stock."
+    }
+  ],
+  "intro_paragraph": "Brodo retains its original Italian name—a legacy of Livornese Jewish influence—to distinguish this clear bouillon from heavier stews. Simmered with chicken and root vegetables, the restorative soup serves as a standalone meal or the essential moistening broth for the traditional Friday night couscous, anchoring the Djerban Shabbat table."
+}

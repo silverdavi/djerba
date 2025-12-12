@@ -1,0 +1,350 @@
+{
+  "id": "honey_cake_lior_benmosheh",
+  "slug": "honey-cake-lior-benmosheh",
+  "source_file": "data/safed_recipes/honey_cake_lior_benmosheh.json",
+  "name": "Lior Ben Mosheh's Silan (Date Honey) Cake",
+  "name_hebrew": "עוגת דבש (סילאן) ליאור בן משה",
+  "name_origin": "The name provided is descriptive Modern Hebrew rather than a traditional Judeo-Arabic dialect term. 'Ugat Dvash' means 'Honey Cake'. The specific use of 'Silan' (date syrup) indicates a Modern Israeli influence, as the word 'Silan' entered Hebrew via Iraqi Jews (from the Arabic 'saylan'). In traditional Tunisian and Djerban Arabic, date syrup is called 'Rubb' (rubb at-tamr). Therefore, this dish name represents a modern adaptation or a Hebraized version of a traditional concept. The cake itself likely derives from the French colonial influence of 'Pain d'épices' (spice bread), adapted by North African Jews to use local ingredients like date syrup instead of expensive imported sugars or bee honey.",
+  "description": "A moist, vegan-friendly spiced cake that uses silan (date syrup) instead of bee honey. The addition of coffee and cinnamon gives it a deep, rich flavor perfect for Rosh Hashanah or afternoon tea.",
+  "cultural_context": "While styled as a 'Honey Cake' (traditional for Rosh Hashanah), this recipe uses Silan (Date Syrup), a staple ingredient in North African and Middle Eastern Jewish pantries. Being egg-free and dairy-free (Parve), it can be served after meat meals.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "This recipe is naturally vegan as it uses soy milk and oil instead of eggs and butter.",
+  "meta": {
+    "servings": "1 loaf",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 55,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "date_syrup",
+      "name": "Date syrup (Silan)",
+      "amount": 80,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "approx. 1/3 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 80,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 2.7,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 80,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 120,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "1/2 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 120,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4.1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 120,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 65,
+      "unit": "g",
+      "preparation": null,
+      "notes": "1/4 cup + 1 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 65,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 2.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.33,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 65,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "soy_milk",
+      "name": "Soy milk",
+      "amount": 135,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "1/2 cup + 1 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 135,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 4.6,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 0.56,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 135,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "instant_coffee",
+      "name": "Instant coffee",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": "granules",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.07,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "name": "Ground cinnamon",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.09,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 150,
+      "unit": "g",
+      "preparation": "sifted",
+      "notes": "1 cup + 1 tbsp",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 150,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 5.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 150,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "baking_powder",
+      "name": "Baking powder",
+      "amount": 2,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 9.6,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.34,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "syrup_glaze",
+      "name": "Silan, Maple syrup, or Agave",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "for brushing the finished cake",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat the oven to 175°C (350°F).",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a mixing bowl, combine the date syrup (silan), oil, sugar, soy milk, instant coffee, and cinnamon. Mix well and let the mixture sit for 10 minutes.",
+      "time_minutes": 10,
+      "tips": "Resting allows the sugar to dissolve and flavors to meld."
+    },
+    {
+      "step": 3,
+      "instruction": "After 10 minutes, add the flour and baking powder. Whisk until the batter is smooth and no lumps of flour remain.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Pour the batter into a loaf pan (English cake tin) and bake for approximately 40 minutes, or until a toothpick inserted into the center comes out dry.",
+      "time_minutes": 40,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Remove from the oven and immediately brush the top of the cake with a little silan, maple syrup, or agave nectar for a glossy finish.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/042_honey_cake/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "cake",
+    "dessert",
+    "vegan",
+    "parve",
+    "rosh-hashanah",
+    "israeli"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "Silan (סילאן) / Rubb (رب)",
+    "meaning": "Lior Ben Mosheh's Honey (Date Syrup) Cake",
+    "confidence": "confirmed",
+    "notes": "The name is explicitly Modern Hebrew. The etymological distinction is between the Iraqi-derived Hebrew word 'Silan' used here versus the native Tunisian 'Rubb'. The culinary style (loaf cake with spices/coffee) strongly suggests French 'Pain d'épices' influence, which became common in Tunisia during the protectorate era."
+  },
+  "alternative_names": [
+    {
+      "name": "Pain d'épices",
+      "language": "french",
+      "notes": "The French spice bread that likely served as the culinary template for this loaf-style cake in modern Tunisian cuisine."
+    },
+    {
+      "name": "Ugat Rubb",
+      "language": "hebrew / tunisian_arabic",
+      "notes": "A theoretical reconstruction using the traditional Tunisian word for date syrup ('Rubb') instead of the Iraqi-Israeli 'Silan'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Lekach",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "A spiced honey cake traditionally eaten on Rosh Hashanah to ensure a sweet new year. Often uses coffee and cinnamon, exactly like this recipe.",
+      "key_difference": "Traditionally uses bee honey rather than date syrup (silan)."
+    },
+    {
+      "name": "Sfouf (with Molasses)",
+      "culture": "Lebanese / Middle Eastern",
+      "similarity": "A turmeric or molasses-based cake often made vegan (using oil instead of butter) for religious fasting.",
+      "key_difference": "Usually semolina-based (dense) rather than flour-based (sponge), and often uses carob molasses (debs el kharroub)."
+    },
+    {
+      "name": "Boulou",
+      "culture": "Tunisian Jewish",
+      "similarity": "A traditional Tunisian Jewish baked good often containing orange, nuts, and spices.",
+      "key_difference": "Boulou is a crunchy biscotti-like roll or bread, whereas this is a moist loaf cake."
+    }
+  ],
+  "intro_paragraph": "Lior Ben Mosheh’s Silan Cake reimagines the traditional Rosh Hashanah honey cake using date syrup, known historically in Djerba as rubb but now commonly called silan. This moist, vegan loaf relies on coffee and cinnamon for depth rather than eggs or dairy, making it an ideal parve dessert to conclude a festive meat meal."
+}

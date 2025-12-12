@@ -1,0 +1,98 @@
+{
+  "id": "shakshukacaramelizedonion_sausage",
+  "image": "images/current/066ojjamerguez/dish.png",
+  "meta": {
+    "servings": "3-4",
+    "prep_time": "10 min",
+    "cook_time": "40 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "שקשוקה של בצל מטוגן ארוך",
+    "es": "Shakshuka con Cebolla Caramelizada y Salchichas",
+    "ar": "شكشوكة بالبصل والمرقاز",
+    "en": "Shakshuka with Caramelized Onions and Sausage"
+  },
+  "description": {
+    "he": "שקשוקה, שמקורה במילה הערבית-מוגרבית לערבוב, היא באופן מסורתי ארוחת בוקר צמחונית. גרסה ג'רבאית עשירה זו בונה בסיס מתוק ועמוק יותר באמצעות בצלים מקורמלים לאט ורסק עגבניות מרוכז במקום עגבניות טריות. בתוספת נקניקיות חריפות פרוסות, המנה הופכת לארוחת ערב משביעה, ומומלץ להגישה חמה עם לחם טרי.",
+    "es": "La Shakshuka, que deriva del árabe magrebí para mezclado, es tradicionalmente un desayuno vegetariano. Esta robusta adaptación de Djerba construye una base más dulce y profunda utilizando cebollas caramelizadas lentamente y pasta de tomate concentrada en lugar de tomates frescos. Fortificado con salchichas picantes en rodajas, el plato se transforma en una cena sustanciosa, mejor servida caliente con pan crujiente.",
+    "ar": "الشكشوكة، اللي أصل كلمتها يعني مخلط، هي في العادة فطور صباح نباتي. هالوصفة الجربية تبني ساس حلو وعميق بالبصل المقلي مليح وطماطم حكة في بلاصة الطماطم الكعب. كي نزيدوها طروف مرقاز حار، تولي دبارة عشاء تشبّع، وتتاكل سخونة مع خبز طابونة.",
+    "en": "Shakshuka, deriving from the Maghrebi Arabic for \"mixed together,\" is traditionally a vegetarian breakfast. This robust Djerban adaptation builds a sweeter, deeper foundation using slowly caramelized onions and concentrated tomato paste instead of fresh tomatoes. Fortified with spicy sliced sausages, the dish transforms into a substantial dinner, best served hot with crusty bread."
+  },
+  "ingredients": {
+    "he": [
+      "3 בצלים, קצוצים",
+      "60 מ\"ל שמן צמחי",
+      "100 גרם רסק עגבניות",
+      "240 מ\"ל מים",
+      "4 נקניקיות, פרוסות לעיגולים",
+      "7 גרם פפריקה מתוקה",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם",
+      "5 ביצים"
+    ],
+    "es": [
+      "3 cebollas, picadas",
+      "60 ml de aceite vegetal",
+      "100 g de pasta de tomate",
+      "240 ml de agua",
+      "4 salchichas, cortadas en rodajas",
+      "7 g de pimentón dulce",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "5 huevos"
+    ],
+    "ar": [
+      "3 بصلات، مقصوصين",
+      "ربع كاس زيت",
+      "6 مغارف طماطم حكة",
+      "1 كاس ماء",
+      "4 كعبات مرقاز، مقصوصين",
+      "1 مغرفة فلفل أحمر",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق",
+      "5 عظمات"
+    ],
+    "en": [
+      "3 onions, diced",
+      "1/4 cup vegetable oil",
+      "6 tbsp tomato paste",
+      "1 cup water",
+      "4 sausages, sliced into rounds",
+      "1 tbsp sweet paprika",
+      "Salt to taste",
+      "Black pepper to taste",
+      "5 eggs"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים את השמן במחבת רחבה ומטגנים את הבצל הקצוץ על אש בינונית-נמוכה למשך זמן רב עד להזהבה עמוקה וקירמול.",
+      "מוסיפים את רסק העגבניות, הפפריקה, המלח, הפלפל והמים. מערבבים היטב ליצירת רוטב ומבשלים מספר דקות לפיתוח הטעמים.",
+      "מוסיפים את הנקניקיות הפרוסות לרוטב ומבשלים עד שהן חמות.",
+      "שוברים את הביצים בעדינות לתוך המחבת, במרווחים שווים. משתדלים לשמור על החלמונים שלמים.",
+      "מכסים את המחבת ומבשלים עד שחלבון הביצה מתייצב אך החלמון עדיין נוזלי (או לפי העדפה). מגישים מיד עם לחם."
+    ],
+    "es": [
+      "Caliente el aceite en una sartén ancha y sofría las cebollas picadas a fuego medio-bajo durante mucho tiempo hasta que estén bien doradas y caramelizadas.",
+      "Añada la pasta de tomate, el pimentón, la sal, la pimienta y el agua. Mezcle bien para crear una salsa y cocine por varios minutos para desarrollar el sabor.",
+      "Agregue las salchichas en rodajas a la salsa y cocine hasta que estén calientes.",
+      "Rompa los huevos suavemente en la sartén, espaciándolos. Intente mantener las yemas enteras.",
+      "Cubra la sartén y cocine hasta que las claras estén cuajadas pero las yemas sigan líquidas (o a su gusto). Sirva inmediatamente con pan."
+    ],
+    "ar": [
+      "سخن الزيت في طنجرة واسعة واقلي البصل المقصوص على نار هادية لمدة طويلة لين يحمار ويتكرمل بالباهي.",
+      "زيد طماطم الحكة، الفلفل الأحمر، الملح، الفلفل الأكحل والماء. حرك مليح باش تولي مرقة وطيبها دريجين باش النكهة تطلع.",
+      "ارمي طروف المرقاز في المرقة وخليهم يطيبو لين يسخنوا.",
+      "فقّص العظمات بالشوية في الطنجرة، وخلي مسافة بيناتهم. حاول تخلي أصفر العظمة صحيح ما يتحلش.",
+      "غطي الطنجرة وخليها تطيب لين أبيض العظم يطيب والأصفر يقعد مروّب (ولا كيما تحب). قدمها سخونة مع الخبز."
+    ],
+    "en": [
+      "Heat the oil in a wide pan and fry the diced onions over medium-low heat for a long time until they are deeply golden and caramelized.",
+      "Add the tomato paste, paprika, salt, pepper, and water. Stir well to create a sauce and cook for several minutes to develop the flavor.",
+      "Add the sliced sausages to the sauce and cook until heated through.",
+      "Crack the eggs gently into the pan, spacing them out. Try to keep the yolks whole.",
+      "Cover the pan and cook until the egg whites are set but the yolks are still runny (or to your preference). Serve immediately with bread."
+    ]
+  }
+}

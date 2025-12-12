@@ -1,0 +1,258 @@
+{
+  "id": "msiyar",
+  "slug": "msiyar-pickled-vegetables",
+  "source_file": "data/safed_recipes/msiyar.json",
+  "name": "Msiyar (Tunisian Pickled Vegetables)",
+  "name_hebrew": "משייר",
+  "name_origin": "The name derives from the Maghrebi Arabic root Ṣ-Y-R (ص-ي-ر), specifically the form II verb 'ṣayyar' (صيّر), which means to preserve, cure, or pickle (usually in salt and lemon rather than vinegar). The word 'Msiyar' (or Msayyar) is the passive participle meaning 'preserved' or 'cured.' While in Morocco and Algeria the cognate term 'M'sir' refers almost exclusively to preserved lemons, in Tunisian Jewish usage, it applies to this specific quick-pickled salad of peppers and carrots cured in lemon juice. (Confidence: likely)",
+  "description": "A traditional Tunisian quick-pickled vegetable salad. Crunchy strips of peppers, carrots, and lemon are cured in a simple brine of lemon juice, water, and coarse salt. It is a staple appetizer (kemia) on the Djerban table.",
+  "cultural_context": "A classic Djerban/Tunisian appetizer served alongside main meals or as part of a spread of salads (kemia) on Shabbat and holidays.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "6-8",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 20,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bell_pepper",
+      "name": "Bell peppers (mixed colors)",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "cut into strips",
+      "notes": "Red, yellow, and orange for variety",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "carrot",
+      "name": "Carrots",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "cut into strips",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "hot_pepper",
+      "name": "Hot pepper",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "cut into long strips",
+      "notes": "Adjust quantity to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon",
+      "name": "Lemon",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "peeled",
+      "notes": "Used for both juice and flesh",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "kohlrabi",
+      "name": "Kohlrabi",
+      "amount": 1,
+      "unit": "unit",
+      "preparation": "cut into strips or slices",
+      "notes": null,
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 1,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "Enough to cover vegetables",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "volume": {
+          "value": null,
+          "unit": "as_needed"
+        },
+        "original": {
+          "value": null,
+          "unit": "as_needed"
+        }
+      }
+    },
+    {
+      "ingredient_id": "coarse_salt",
+      "name": "Coarse salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "To taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Cut the bell peppers (or half peppers) and carrots into strips.",
+      "time_minutes": 10,
+      "tips": "Try to keep the vegetable strips uniform in size for even pickling."
+    },
+    {
+      "step": 2,
+      "instruction": "Cut the hot pepper into long strips.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "If using kohlrabi, cut it into strips or slices and add to the vegetables.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Peel the lemon. Squeeze the juice over all the cut vegetables, then cut the squeezed lemon itself into small pieces and add them to the mix.",
+      "time_minutes": 5,
+      "tips": "Removing the seeds from the lemon pieces is recommended."
+    },
+    {
+      "step": 5,
+      "instruction": "Add water to cover and season generously with coarse salt. Mix well.",
+      "time_minutes": null,
+      "tips": "Allow to sit for at least a few hours before serving for flavors to meld."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/062_msiyer/dish.png",
+    "prompt": "Tunisian msiyar salad, glass bowl with strips of red and yellow bell peppers, carrots, and lemon pieces in brine, bright natural lighting"
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "djerban",
+    "salad",
+    "pickles",
+    "vegan",
+    "parve",
+    "appetizer"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "Ṣayyar (صيّر)",
+    "meaning": "Preserved / Cured / Pickled",
+    "confidence": "likely",
+    "notes": "Based on the standard Maghrebi culinary term 'M'sir' (preserved lemons) and the grammatical structure of the passive participle in Tunisian Derja. The Hebrew spelling משייר (Msiyar) preserves the 'y' sound of the form II verb, distinguishing it from the generic Arabic 'Mkhallal' (pickles)."
+  },
+  "alternative_names": [
+    {
+      "name": "M'sir",
+      "language": "moroccan_arabic",
+      "notes": "The cognate term used in Morocco, though specifically for preserved lemons."
+    },
+    {
+      "name": "Variantes",
+      "language": "french",
+      "notes": "The common colonial French term used in modern Tunisia for mixed pickled vegetables."
+    },
+    {
+      "name": "Torchi",
+      "language": "turkish",
+      "notes": "A general term for pickles used across the former Ottoman empire, including parts of Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "L'hamd M'sir",
+      "culture": "Moroccan / Maghrebi",
+      "similarity": "Uses the exact same salt-and-lemon curing method and shares the etymological root.",
+      "key_difference": "Strictly refers to whole preserved lemons, not a mixed vegetable salad."
+    },
+    {
+      "name": "Mkhallal",
+      "culture": "Middle Eastern / Levantine",
+      "similarity": "Mixed pickled vegetables served as an appetizer.",
+      "key_difference": "Usually pickled in a vinegar and water brine, whereas Msiyar relies heavily on lemon juice and salt."
+    },
+    {
+      "name": "Salade Tunisienne (Variantes)",
+      "culture": "Tunisian (General)",
+      "similarity": "The same mix of carrots and peppers.",
+      "key_difference": "Often includes vinegar and is sometimes cooked/blanched, whereas the Jewish Msiyar is often raw-cured."
+    }
+  ],
+  "intro_paragraph": "Msiyar, meaning \"preserved\" in Maghrebi Arabic, is a quick-pickled salad of peppers, carrots, and lemon slices cured in salt and citrus juice. Distinct from vinegar pickles, this crunchy condiment is a staple of the Djerban table. It is traditionally served as a refreshing kemia appetizer to balance rich Shabbat meals."
+}

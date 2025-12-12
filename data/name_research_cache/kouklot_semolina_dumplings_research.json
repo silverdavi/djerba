@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The term 'Kouklot' (Hebrew plural of 'Koukla') is specific to the Tripolitan (Libyan) and Djerban Jewish communities. The most linguistically probable origin is the Turkish word 'Kukla' (meaning 'doll' or 'puppet'), introduced during the centuries of Ottoman rule in Tripoli and Tunisia. In culinary nomenclature, it is common to name small, hand-shaped dough items after small figures or body parts (similar to 'orecchiette' or 'little ears'). Alternatively, some linguists suggest a connection to the Latin 'Cuculla' (covering/hood) via Italian influence, originally referring to the casing of the stuffed intestine (Osban) from which this dish is derived, though the Turkish phonetic match is exact.",
+    "language_source": "turkish",
+    "root_word": "Kukla",
+    "meaning": "Doll or Puppet",
+    "confidence": "likely",
+    "sources_notes": "The Ottoman Empire ruled the Maghreb (including Tripoli and Tunis) for centuries, leaving several loan words in the local dialects (Derja). The dish is essentially the filling of 'Osban' (stuffed intestine) cooked as a standalone dumpling. The anthropomorphic naming convention ('doll') for dumplings is found in Greek and Turkish food history."
+  },
+  "alternative_names": [
+    {
+      "name": "Koukla",
+      "language": "judeo_arabic",
+      "notes": "The singular form used in Tripolitan/Tunisian Judeo-Arabic."
+    },
+    {
+      "name": "Boulet",
+      "language": "french",
+      "notes": "Used by francophone Tunisian Jews, simply meaning 'ball' or 'meatball'."
+    },
+    {
+      "name": "Hrai'me di Koukla",
+      "language": "judeo_arabic",
+      "notes": "Refers to the dumplings cooked in a spicy red sauce rather than the Hamin."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Osban / Usban",
+      "culture": "Maghrebi (Libyan/Tunisian)",
+      "similarity": "The filling of Osban (semolina, herbs, suet, liver) is nearly identical to the Koukla dough.",
+      "key_difference": "Osban is stuffed inside a sheep's intestine (casing), whereas Koukla is a casing-less dumpling."
+    },
+    {
+      "name": "Kibbeh",
+      "culture": "Levantine / Middle Eastern",
+      "similarity": "Both are savory dumplings made from a grain (semolina vs. bulgur) mixed with meat and fat.",
+      "key_difference": "Kibbeh uses bulgur wheat and is usually fried or baked, whereas Koukla uses semolina and is boiled/stewed."
+    },
+    {
+      "name": "Gond",
+      "culture": "Persian Jewish",
+      "similarity": "A large spherical dumpling cooked in chicken soup/stew.",
+      "key_difference": "Gond is made from chickpea flour (besan) and ground meat, not semolina."
+    },
+    {
+      "name": "Matzah Ball (Kneidlach)",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "A starch-based dumpling cooked in soup/stew using fat (schmaltz) as a binder.",
+      "key_difference": "Uses matzah meal and eggs; Koukla uses semolina, suet, and heavy garlic/spices."
+    }
+  ]
+}

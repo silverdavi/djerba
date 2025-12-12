@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Dwida' (دويدة) is the diminutive form of the Arabic word 'Doud' (دود), which means 'worm'. Therefore, 'Dwida' literally translates to 'little worm'. This follows a very common cross-cultural naming convention for thin pasta shapes (compare to Italian 'Vermicelli', which also means 'little worms'). In Tunisian cuisine, the term specifically refers to very thin pasta or vermicelli. While the specific recipe provided uses broken spaghetti, the name is retained because it mimics the shape of the traditional vermicelli used in this dish.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Doud (دود)",
+    "meaning": "Little worm (diminutive)",
+    "confidence": "confirmed",
+    "sources_notes": "Standard Maghrebi culinary terminology. The morphological pattern (Fu'ayla) is a standard Arabic diminutive form (e.g., 'Doud' becomes 'Dwida')."
+  },
+  "alternative_names": [
+    {
+      "name": "Douida",
+      "language": "french",
+      "notes": "Common French colonial transliteration found in Tunisian cookbooks"
+    },
+    {
+      "name": "Dwida Jariya",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Runny Dwida' - distinguishing the soup version from the steamed version (Dwida Mfawra)"
+    },
+    {
+      "name": "Fdaouech",
+      "language": "tunisian_arabic",
+      "notes": "A synonym often used in Tunisia for vermicelli or angel hair pasta"
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Vermicelli in Broth",
+      "culture": "Italian",
+      "similarity": "Identical etymology (verme = worm) and pasta shape",
+      "key_difference": "Italian versions usually use chicken broth/clear broth; Tunisian Dwida uses a spicy tomato concentrate (harissa) base"
+    },
+    {
+      "name": "Sopa de Fideos",
+      "culture": "Spanish / Mexican",
+      "similarity": "Short thin pasta cooked in a tomato-based broth",
+      "key_difference": "Spicing profile (Tunisian uses caraway, coriander, and harissa)"
+    },
+    {
+      "name": "Dwida Mfawra",
+      "culture": "Tunisian (Muslim/General)",
+      "similarity": "Uses the same pasta shape",
+      "key_difference": "Mfawra is steamed (like couscous) and often served sweet with nuts or savory with meat, rather than as a soup"
+    },
+    {
+      "name": "Chorba",
+      "culture": "Maghrebi / Middle Eastern",
+      "similarity": "The spicy red soup base is nearly identical",
+      "key_difference": "Chorba typically uses frik (green wheat) or barley, whereas Dwida uses pasta"
+    }
+  ]
+}

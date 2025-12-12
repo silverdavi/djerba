@@ -1,0 +1,90 @@
+{
+  "id": "brikot",
+  "image": "images/current/011_brik/dish.png",
+  "meta": {
+    "servings": "6",
+    "prep_time": "20 min",
+    "cook_time": "15 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בריקות",
+    "es": "Brikot (Pastel Frito Tunecino)",
+    "ar": "بريك",
+    "en": "Brikot (Tunisian Fried Pastry)"
+  },
+  "description": {
+    "he": "בריקות, צורת הרבים העברית של הבריק התוניסאי, מקורן בבורק העות'מאני. מאפים מטוגנים אלה מורכבים מבצק מלוסוקה דק המקופל סביב פירה תפוחי אדמה או ביצה שלמה. מנה ראשונה קלאסית לארוחות שבת בג'רבה, המטוגנת עד להזהבה ולקבלת מעטפת פריכה עם חלמון נוזלי ועשיר.",
+    "es": "Brikot, el plural hebraizado del Brik tunecino, deriva del Börek otomano. Estos pasteles fritos consisten en una fina masa Malsouka doblada alrededor de puré de patatas o un huevo entero. Un aperitivo básico para las cenas de Shabat en Djerba, se fríen hasta que estén dorados, logrando una cáscara crujiente que cede a una yema rica y líquida.",
+    "ar": "البريك، وأصله من البوراك العثماني، هو من أشهر المأكولات التونسية. يتكون من ورقة ملسوقة رقيقة محشية ببطاطا مرحية أو عظمة كاملة. يعتبر طبق أساسي في عشاء السبت في جربة، يتقلى في الزيت لين يحمار وتولي الورقة تتقرمش والعظمة مروبة من داخل.",
+    "en": "Brikot, the Hebraized plural of the Tunisian Brik, derives from the Ottoman Börek. These quintessential fried pastries consist of thin Malsouka dough folded around savory mashed potatoes or a whole egg. A staple appetizer for Djerban Shabbat dinners, they are fried until golden, ideally achieving a crispy shell that yields to a rich, runny yolk."
+  },
+  "ingredients": {
+    "he": [
+      "6 עלי בריק (מלוסוקה)",
+      "250 מ\"ל שמן צמחי",
+      "6 ביצים",
+      "3 תפוחי אדמה, מבושלים ומעוכים",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם"
+    ],
+    "es": [
+      "6 hojas de pasta brik (Malsouka)",
+      "250 ml de aceite vegetal",
+      "6 huevos",
+      "3 patatas, hervidas y hechas puré",
+      "Sal al gusto",
+      "Pimienta negra al gusto"
+    ],
+    "ar": [
+      "6 ورقات ملسوقة",
+      "1 كأس زيت",
+      "6 عظمات",
+      "3 كعبات بطاطا، مسموطة ومرحية",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق"
+    ],
+    "en": [
+      "6 Brik pastry leaves (Malsouka)",
+      "1 cup vegetable oil",
+      "6 eggs",
+      "3 potatoes, boiled and mashed",
+      "Salt to taste",
+      "Black pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "אם משתמשים במילוי תפוחי אדמה: מבשלים את תפוחי האדמה עד לריכוך, מועכים לפירה ומתבלים במלח ופלפל.",
+      "מחממים שמן במחבת רחבה. השמן צריך להיות חם אך לא מעשן.",
+      "לבריק עם ביצה: מניחים עלה בריק בשמן החם (או בצלחת תחילה אם אין ניסיון). שוברים ביצה שלמה למרכז, מתבלים ומקפלים מיד את העלה לחצי לסגירה.",
+      "לבריק תפוחי אדמה: מניחים כף פירה במרכז העלה, מקפלים לחצי (או לצורת משולש/סיגר) ומניחים בשמן החם.",
+      "מטגנים משני הצדדים עד להזהבה וקבלת מרקם פריך.",
+      "מוציאים מהשמן ומניחים על נייר סופג לספיגת עודפי שמן."
+    ],
+    "es": [
+      "Si usa relleno de patata: Hierva las patatas hasta que estén blandas, haga un puré y sazone con sal y pimienta.",
+      "Caliente el aceite en una sartén ancha. El aceite debe estar caliente pero no humeante.",
+      "Para Brik de Huevo: Coloque una hoja de brik en el aceite caliente (o en un plato primero si tiene menos experiencia). Rompa un huevo entero en el centro, sazone e inmediatamente doble la hoja por la mitad para cerrarla.",
+      "Para Brik de Patata: Coloque una cucharada de puré de patata en el centro de la hoja, doble por la mitad (o en forma de triángulo/cigarro) y colóquela en el aceite caliente.",
+      "Fría por ambos lados hasta que estén dorados y crujientes.",
+      "Retire del aceite y escurra sobre papel absorbente."
+    ],
+    "ar": [
+      "كان باش تعمل حشو البطاطا: اسمط البطاطا لين تطيب، ارحيها وزيدها الملح والفلفل الأكحل.",
+      "سخّن الزيت في مقلاة واسعة. الزيت لازم يكون سخون أما ما يخرجش الدخان.",
+      "لبريك العظمة: حط ورقة الملسوقة في الزيت السخون (ولا في صحن كان ماكش مستانس). فقّص عظمة في الوسط، فوّحها، وطبق الورقة في ثنين باش تتسكر.",
+      "لبريك البطاطا: حط مغرفة بطاطا مرحية في وسط الورقة، طبقها على ثنين (ولا مثلث) وحطها في الزيت السخون.",
+      "اقليها من الشيرتين لين تحمار وتولي تتقرمش.",
+      "خرجها من الزيت وقطرها على ورق نشاف."
+    ],
+    "en": [
+      "If using potato filling: Boil potatoes until soft, mash into a puree, and season with salt and pepper.",
+      "Heat oil in a wide frying pan. The oil should be hot but not smoking.",
+      "For Egg Brik: Place a brik leaf in the hot oil (or on a plate first if less experienced). Crack a whole egg into the center, season, and immediately fold the leaf in half to close it.",
+      "For Potato Brik: Place a spoonful of mashed potato in the center of the leaf, fold in half (or into a triangle/cigar shape), and place in the hot oil.",
+      "Fry on both sides until golden brown and crispy.",
+      "Remove from oil and drain on paper towels."
+    ]
+  }
+}

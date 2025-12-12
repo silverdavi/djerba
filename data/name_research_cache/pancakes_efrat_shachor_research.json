@@ -1,0 +1,48 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Pancake' (פנקייק) is a direct loanword from English into Modern Hebrew. It is not of Judeo-Arabic, Ladino, or French origin. Its presence in a Djerban cookbook indicates a modern addition to the culinary repertoire, likely reflecting the assimilation of Western/American foods into the modern Israeli-Tunisian kitchen. While the name is English, the cooking method described ('generous layer of oil') suggests a technique influenced by traditional Maghrebi frying methods used for dishes like 'Ftas' or 'Sfenj', rather than the lightly greased griddle method used for American pancakes.",
+    "language_source": "other",
+    "root_word": "English: Pan + Cake",
+    "meaning": "A cake cooked in a pan",
+    "confidence": "confirmed",
+    "sources_notes": "The Hebrew spelling פנקייק is the standard transliteration for American-style pancakes in Israel. This is distinct from traditional Djerban griddle breads or fritters."
+  },
+  "alternative_names": [
+    {
+      "name": "Ftas",
+      "language": "tunisian_arabic",
+      "notes": "The traditional Djerban yeast pancake that serves a similar culinary role (breakfast/snack) but is strictly traditional."
+    },
+    {
+      "name": "Ftair",
+      "language": "tunisian_arabic",
+      "notes": "A variant name for yeast pancakes or fritters in Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Ftas / Ftair",
+      "culture": "Djerban Jewish",
+      "similarity": "A spongy, yeast-leavened pancake fried in oil, often eaten with sugar or honey.",
+      "key_difference": "Ftas uses yeast and is more bread-like; the 'Pancake' likely uses baking powder and includes modern additions like chocolate chips."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (North African)",
+      "similarity": "Fried batter/dough eaten as a sweet snack.",
+      "key_difference": "Sfenj is a ring-shaped fritter (doughnut) made from a sticky yeast dough, deep-fried rather than pan-fried."
+    },
+    {
+      "name": "Baghrir",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "A pancake served with honey/syrup.",
+      "key_difference": "Baghrir is made with semolina and yeast, cooked on one side only to create distinct holes ('thousand holes'), and is not fried in oil."
+    },
+    {
+      "name": "Matafina / Lal",
+      "culture": "Tunisian Jewish",
+      "similarity": "Thin layers of dough/crepe.",
+      "key_difference": "These are closer to crepes or Moroccan Moufleta, lacking the fluffiness of the described pancake."
+    }
+  ]
+}

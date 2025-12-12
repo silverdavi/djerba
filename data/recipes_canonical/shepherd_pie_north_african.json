@@ -1,0 +1,405 @@
+{
+  "id": "shepherd_pie_north_african",
+  "slug": "shepherd-pie-north-african",
+  "source_file": "data/safed_recipes/shepherd_pie.json",
+  "name": "Shepherd's Pie (North African Style)",
+  "name_hebrew": "פאי רועים",
+  "name_origin": "The Hebrew name 'Pai Ro'im' is a direct calque (literal word-for-word translation) of the English 'Shepherd's Pie'. It is not a traditional Judeo-Arabic or Ladino term from Djerba. The dish itself, however, likely entered the North African Jewish repertoire via the French colonial influence in Tunisia (1881–1956), based on the French dish 'Hachis Parmentier'. The Djerban/Tunisian adaptation involves replacing butter/milk with oil/chicken fat (to keep it Kosher/Pareve for meat meals) and coloring the potatoes with turmeric, a staple spice in Tunisian cooking.",
+  "description": "A comforting casserole featuring a savory layer of spiced ground meat sandwiched between two layers of golden, turmeric-infused mashed potatoes. This version incorporates shawarma spices and chicken seasoning, typical of Israeli and North African home cooking.",
+  "cultural_context": "While Shepherd's Pie is Western, this specific preparation—using turmeric in the potatoes and shawarma spice in the meat—reflects the flavor profile common in Djerban and Israeli kitchens. It is often served as a Shabbat lunch dish or a hearty weeknight meal.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace ground meat with plant-based mince or lentils; use vegetable bouillon instead of chicken seasoning.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 60,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potato",
+      "name": "Potatoes",
+      "amount": 1,
+      "unit": "kg",
+      "preparation": "peeled and cubed",
+      "notes": "approx. 5-6 medium potatoes",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1000,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 35.3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 4.75,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "ingredient_id": "turmeric",
+      "name": "Turmeric",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for the mashed potatoes",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "chicken_seasoning_powder",
+      "name": "Chicken seasoning powder (Pareve)",
+      "amount": 1,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "divided use (for mash and meat)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 12,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "ground_beef",
+      "name": "Ground beef",
+      "amount": 500,
+      "unit": "g",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 500,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 17.6,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2.2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 500,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "oil",
+      "name": "Vegetable oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "preparation": null,
+      "notes": "for frying meat",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 2,
+          "unit": "tbsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "for the meat",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "shawarma_seasoning",
+      "name": "Shawarma seasoning",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": "or baharat/cumin mix",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "garlic_powder",
+      "name": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.1,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "preparation": "ground",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.04,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.5,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.5,
+          "unit": "tsp"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Peel and cube the potatoes. Place them in a pot of salted water and boil until soft enough to mash.",
+      "time_minutes": 20,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Drain the potatoes. Mash them thoroughly with the turmeric, half of the chicken seasoning, and a pinch of salt until smooth and yellow.",
+      "time_minutes": 5,
+      "tips": "The turmeric gives the potatoes a vibrant golden color."
+    },
+    {
+      "step": 3,
+      "instruction": "In a frying pan, heat the oil and fry the ground meat. Break it apart with a spoon as it cooks.",
+      "time_minutes": 10,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Season the meat with paprika, shawarma seasoning, garlic powder, black pepper, and the remaining chicken seasoning. Cook until the meat is fully browned and fragrant.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Preheat oven to 180°C (350°F). Grease a baking dish.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Assemble the pie: Spread half of the mashed potatoes in an even layer on the bottom. Spread the spiced meat mixture over the potatoes. Top with the remaining mashed potatoes and smooth the surface.",
+      "time_minutes": 5,
+      "tips": "You can use a fork to create a pattern on the top layer for a crispy texture."
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for about 20-30 minutes until the top is slightly golden and the dish is heated through.",
+      "time_minutes": 25,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Pastel",
+      "description": "Add chopped hard-boiled eggs to the meat layer for a traditional Moroccan/Sephardic 'Pastel'."
+    }
+  ],
+  "image": {
+    "filename": "images/current/081_shepherds_pie/dish.png",
+    "prompt": "Casserole dish with layers of yellow turmeric mashed potatoes and spiced ground beef, slice removed showing the layers, rustic kitchen setting"
+  },
+  "tags": [
+    "meat",
+    "casserole",
+    "shabbat",
+    "north-african",
+    "israeli",
+    "comfort-food"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "פאי (Pai - Loan from English 'Pie') + רועים (Ro'im - Hebrew for 'Shepherds')",
+    "meaning": "Shepherd's Pie",
+    "confidence": "confirmed",
+    "notes": "While the name is Modern Hebrew, the culinary lineage is almost certainly French ('Hachis Parmentier'). In the Maghreb, potato casseroles are common, but the specific layered mashed potato technique is European. The yellow turmeric coloring is the distinct 'North African' signature."
+  },
+  "alternative_names": [
+    {
+      "name": "Hachis Parmentier",
+      "language": "French",
+      "notes": "The name likely used by Francophone Jews in Tunisia during the protectorate era for this style of potato-meat casserole."
+    },
+    {
+      "name": "Siniyat Batata",
+      "language": "Arabic",
+      "notes": "Literally 'Tray of Potatoes'. A generic descriptive term used in various Arabic dialects for potato casseroles."
+    },
+    {
+      "name": "Pastel de Papas",
+      "language": "Ladino / Spanish",
+      "notes": "Used by some Sephardic communities (and in South America) for a similar layered potato-meat dish, though less common in Djerba specifically."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Hachis Parmentier",
+      "culture": "French",
+      "similarity": "Layers of mashed potato and minced meat.",
+      "key_difference": "The French version uses butter and milk in the mash and lacks the heavy turmeric/cumin/shawarma spicing of the Jewish North African version."
+    },
+    {
+      "name": "Ma'aqouda",
+      "culture": "Tunisian / Moroccan",
+      "similarity": "A potato-based dish often containing eggs and spices (turmeric).",
+      "key_difference": "Ma'aqouda is typically a frittata or potato cake bound with eggs and fried or baked solid, rather than a layered casserole with a distinct meat filling."
+    },
+    {
+      "name": "Kibbeh Batata",
+      "culture": "Lebanese / Iraqi",
+      "similarity": "Spiced ground meat encased in a potato-based dough/crust.",
+      "key_difference": "Kibbeh Batata uses bulgur wheat mixed with the potato to form a dough, whereas the Shepherd's Pie uses pure mashed potato."
+    },
+    {
+      "name": "Batata Mbatna",
+      "culture": "Libyan",
+      "similarity": "Potatoes and spiced ground meat.",
+      "key_difference": "In Batata Mbatna, raw potato slices are stuffed with meat and then fried/stewed, rather than using mashed potatoes."
+    }
+  ],
+  "intro_paragraph": "Pai Ro'im, a direct Hebrew translation of \"Shepherd's Pie,\" likely evolved from the French *hachis parmentier* introduced during Tunisia's colonial era. This kosher adaptation replaces butter with oil, sandwiching savory, shawarma-spiced ground beef between layers of turmeric-infused mashed potatoes. The result is a golden, comforting casserole often served for Shabbat lunch."
+}

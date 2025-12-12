@@ -1,0 +1,284 @@
+{
+  "id": "humus_salad",
+  "slug": "humus-salad",
+  "source_file": "data/safed_recipes/humus_salad.json",
+  "name": "Tunisian Chickpea Salad with Preserved Lemon",
+  "name_hebrew": "סלט חומוס",
+  "name_origin": "The provided Hebrew name 'Salat Hummus' is a modern descriptive term used in Israel. The traditional name in Tunisian Judeo-Arabic is 'Slatet Homs' (سلاطة حمّص) or sometimes 'Homs bil Kamoun' (Chickpeas with Cumin). 'Homs' is the standard Arabic word for chickpeas (derived from the Semitic root ḥ-m-ṣ). 'Slatet' is derived from the Arabic 'Slata', which itself comes from the Italian 'Insalata' or Latin 'Salata', heavily reinforced by French colonial influence ('Salade'). Unlike the Levantine 'Hummus bi Tahina' (pureed dip), the Maghrebi term 'Homs' usually refers to the whole bean. (Confidence: likely)",
+  "description": "A bright and refreshing salad made from whole chickpeas, flavored with the distinct tang of preserved lemon and fresh cilantro. Unlike the smooth dip 'hummus', this is a rustic salad often served as part of the appetizer course.",
+  "cultural_context": "In Djerban and North African Jewish homes, this salad is a staple of the 'Kemia'—the array of small salads served at the beginning of the Shabbat meal or alongside arak.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": null,
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 0,
+    "total_time_minutes": 10,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chickpeas_canned",
+      "name": "Chickpeas",
+      "amount": 1,
+      "unit": "can",
+      "size": "400g",
+      "preparation": "drained and rinsed",
+      "notes": "Or 250g cooked dried chickpeas",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.5,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 1,
+          "unit": "can"
+        }
+      }
+    },
+    {
+      "ingredient_id": "preserved_lemon",
+      "name": "Preserved lemon",
+      "amount": 0.5,
+      "unit": "unit",
+      "size": null,
+      "preparation": "finely chopped",
+      "notes": "Remove seeds; include rind",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.5,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "cilantro_fresh",
+      "name": "Fresh cilantro",
+      "amount": 0.5,
+      "unit": "bunch",
+      "size": null,
+      "preparation": "chopped",
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 0.5,
+          "unit": "bunch"
+        }
+      }
+    },
+    {
+      "ingredient_id": "paprika_sweet",
+      "name": "Sweet paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "size": null,
+      "preparation": null,
+      "notes": "For color and flavor",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.08,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 30,
+      "unit": "ml",
+      "size": null,
+      "preparation": null,
+      "notes": "Inferred ingredient for dressing",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 30,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 1,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 30,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 15,
+      "unit": "ml",
+      "size": null,
+      "preparation": "freshly squeezed",
+      "notes": "Inferred ingredient for dressing",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 15,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.5,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 15,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "size": null,
+      "preparation": null,
+      "notes": "To taste (be careful, preserved lemon is salty)",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Drain and thoroughly rinse the canned chickpeas.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "Finely chop the preserved lemon (rind and pulp) and the fresh cilantro.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "In a mixing bowl, combine the chickpeas, chopped lemon, cilantro, paprika, olive oil, and lemon juice.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Taste before adding salt, as the preserved lemons are naturally salty. Adjust seasoning and serve cold or at room temperature.",
+      "time_minutes": 1,
+      "tips": "Best if allowed to sit for 30 minutes for flavors to meld."
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/018_hummus_salad/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "salad",
+    "vegan",
+    "north-african",
+    "tunisian",
+    "shabbat",
+    "kemia"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "tunisian_arabic",
+    "root_word": "ḥ-m-ṣ (Arabic root for chickpea/roasting)",
+    "meaning": "Chickpea Salad",
+    "confidence": "likely",
+    "notes": "While the input gives the generic Hebrew name, Djerban cuisine relies on Tunisian Derja. In the context of the 'Kemia' (the array of appetizers served before Shabbat meals or with alcohol), this dish is a staple. It is distinct from 'Lablabi' (which is a hot soup), though the flavor profile is nearly identical."
+  },
+  "alternative_names": [
+    {
+      "name": "Slatet Homs",
+      "language": "tunisian_arabic",
+      "notes": "The standard vernacular name in Tunisia for a salad made of whole chickpeas."
+    },
+    {
+      "name": "Homs bil Kamoun",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Chickpeas with Cumin', highlighting the two main ingredients."
+    },
+    {
+      "name": "Torchi Homs",
+      "language": "judeo_arabic",
+      "notes": "Occasionally used if the chickpeas are pickled or heavily marinated in vinegar/lemon, though 'Torchi' usually implies pickled root vegetables."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Lablabi",
+      "culture": "Tunisian (General)",
+      "similarity": "Identical flavor profile (chickpeas, cumin, garlic, harissa, lemon).",
+      "key_difference": "Lablabi is a hot breakfast soup served over stale bread with a soft egg; the Jewish salad is served cold or room temperature as an appetizer (Kemia)."
+    },
+    {
+      "name": "Balila",
+      "culture": "Levantine / Egyptian",
+      "similarity": "Boiled whole chickpeas seasoned with cumin and lemon.",
+      "key_difference": "Balila is often served warm and sold by street vendors; in the Levant, it may include pine nuts."
+    },
+    {
+      "name": "Nohut Salatası",
+      "culture": "Turkish",
+      "similarity": "Whole chickpea salad with onions, parsley, and lemon.",
+      "key_difference": "Turkish version often uses sumac and pomegranate molasses rather than the preserved lemon and harissa found in the Tunisian version."
+    }
+  ],
+  "intro_paragraph": "Slatet Homs, literally \"chickpea salad\" in Judeo-Arabic, features whole legumes rather than the smooth puree common in the Levant. Brightened by preserved lemon and fresh cilantro, this rustic dish is a cornerstone of the kemia. In Djerban households, these small appetizers are essential for starting Shabbat meals or accompanying glasses of arak."
+}

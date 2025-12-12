@@ -1,0 +1,338 @@
+{
+  "id": "chocolate_peanut_buddy_bars",
+  "slug": "chocolate-peanut-buddy-bars",
+  "source_file": "data/safed_recipes/chocolate_peanut_buddy_bars.json",
+  "name": "Chocolate Peanut Buddy Bars",
+  "name_hebrew": "חטיפי שוקולד וחמאת בוטנים",
+  "name_origin": "The Hebrew name 'Hatifey Shokolad ve-Hemat Botnim' is a direct, descriptive translation into Modern Hebrew of the American concept. The term 'Hatif' (חטיף) is Modern Hebrew for 'snack' or 'treat' (derived from the root ח-ט-ף meaning to snatch or grab quickly). 'Hemat Botnim' (חמאת בוטנים) is the Modern Hebrew calque for 'Peanut Butter'. The English name 'Buddy Bars' likely references a popular American commercial snack (Little Debbie's Peanut Butter Crunch Bars, historically marketed as 'Buddy Bars') or a specific recipe from the 'Betty Crocker' era of American baking. This is not a traditional North African dish but represents the culinary assimilation of the Jewish diaspora.",
+  "description": "Rich and chewy bars featuring a peanut butter blondie base studded with milk chocolate chips, topped with a layer of melted chocolate. A classic sweet treat likely adopted into the family repertoire.",
+  "cultural_context": "While not a traditional North African dish, this recipe represents the integration of Western/American baking styles into the modern Jewish kitchen. It uses margarine as an option to keep the dessert pareve (non-dairy) for meals with meat.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Replace eggs with flax eggs or commercial egg replacer, use vegan butter/margarine, and ensure chocolate chips are dairy-free.",
+  "meta": {
+    "servings": "24",
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 55,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut_butter",
+      "name": "Peanut butter",
+      "amount": 250,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "butter",
+      "name": "Butter or margarine",
+      "amount": 85,
+      "unit": "g",
+      "preparation": "softened",
+      "notes": "approx. 6 tbsp; use margarine for pareve",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 85,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 6,
+          "unit": "tbsp"
+        },
+        "original": {
+          "value": 85,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 250,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 1/4 cups",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 8.8,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1.25,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 250,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "egg",
+      "name": "Eggs",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vanilla_extract",
+      "name": "Vanilla extract",
+      "amount": 1,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 5,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 0.17,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 1,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "all_purpose_flour",
+      "name": "All-purpose flour",
+      "amount": 125,
+      "unit": "g",
+      "preparation": null,
+      "notes": "approx. 1 cup",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 125,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 4.4,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 125,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "preparation": null,
+      "notes": null,
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 0.05,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.25,
+          "unit": "tsp"
+        },
+        "original": {
+          "value": 0.25,
+          "unit": "tsp"
+        }
+      }
+    },
+    {
+      "ingredient_id": "milk_chocolate_chips",
+      "name": "Milk chocolate morsels",
+      "amount": 325,
+      "unit": "g",
+      "preparation": "divided",
+      "notes": "11.5 oz package (approx 2 cups); divided into two equal portions",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 325,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 11.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 2,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 325,
+          "unit": "g"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "Preheat oven to 175°C (350°F). Prepare a 13x9-inch baking pan (ungreased).",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 2,
+      "instruction": "In a large mixer bowl, beat the peanut butter and softened butter (or margarine) until smooth, about 1 minute.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "Add the sugar, eggs, and vanilla extract; beat until the mixture is creamy.",
+      "time_minutes": 2,
+      "tips": null
+    },
+    {
+      "step": 4,
+      "instruction": "Gradually beat in the flour and salt until combined.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Stir in half of the chocolate morsels (approx. 1 cup / 160g) into the batter.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Spread the batter evenly into the ungreased baking pan.",
+      "time_minutes": 1,
+      "tips": null
+    },
+    {
+      "step": 7,
+      "instruction": "Bake for 25 to 30 minutes, or until the edges begin to brown.",
+      "time_minutes": 30,
+      "tips": null
+    },
+    {
+      "step": 8,
+      "instruction": "Remove from oven and immediately sprinkle the remaining chocolate morsels over the top. Let stand for 5 minutes until the morsels become shiny and soft, then spread them evenly over the top to create a chocolate layer.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 9,
+      "instruction": "Allow to cool completely. Refrigerate for 5 to 10 minutes to help the chocolate set before cutting into 1½-inch squares.",
+      "time_minutes": 10,
+      "tips": null
+    }
+  ],
+  "variants": null,
+  "image": {
+    "filename": "images/current/070_chocolate_peanut_bars/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "dessert",
+    "baking",
+    "cookies",
+    "chocolate",
+    "peanut-butter",
+    "kid-friendly"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "hebrew",
+    "root_word": "ח-ט-ף (H-T-F)",
+    "meaning": "Chocolate and Peanut Butter Snacks/Bars",
+    "confidence": "confirmed",
+    "notes": "The linguistic construction is standard Modern Hebrew, not Judeo-Arabic or Ladino. Peanut butter is not a traditional ingredient in Maghrebi cuisine, where almonds, walnuts, and pistachios are preferred. The inclusion in a Djerban cookbook signifies modern adaptation."
+  },
+  "alternative_names": [
+    {
+      "name": "Carrés au beurre de cacahuète et chocolat",
+      "language": "French",
+      "notes": "Likely name used by Francophone Tunisian Jews who adopted American baking trends."
+    },
+    {
+      "name": "Peanut Butter Blondies",
+      "language": "English",
+      "notes": "The technical culinary classification of the base."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Blondies",
+      "culture": "American",
+      "similarity": "Dense, bar-shaped cookie base without cocoa powder.",
+      "key_difference": "Standard blondies may not include the peanut butter or chocolate topping layer."
+    },
+    {
+      "name": "Buckeyes",
+      "culture": "American (Ohio)",
+      "similarity": "Combination of peanut butter and chocolate.",
+      "key_difference": "Buckeyes are unbaked confectionary balls, whereas these bars have a baked blondie base."
+    },
+    {
+      "name": "Ghribia (Montécaos)",
+      "culture": "Maghrebi (Tunisia/Algeria/Morocco)",
+      "similarity": "A traditional sweet often served with tea.",
+      "key_difference": "Ghribia is a shortbread made from flour (or chickpea flour), sugar, and oil/butter, traditionally flavored with cinnamon or lemon zest, not peanut butter or chocolate."
+    }
+  ],
+  "intro_paragraph": "Chocolate Peanut Buddy Bars feature a chewy peanut butter blondie base topped with melted chocolate. Their Hebrew name, Hatifey Shokolad ve-Hemat Botnim, uses the modern word for \"snack,\" derived from the root \"to snatch.\" Representing the integration of American baking into the family repertoire, these rich treats are easily made pareve for serving after meat meals."
+}

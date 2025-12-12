@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The Hebrew name provided ('Zeitim b'rotev adom') is a modern descriptive translation used in Israel. The authentic Judeo-Arabic name for this Djerban dish is likely 'Zaytun T'bikh' (Stewed Olives) or 'Zaytun Msharmel' (Olives in Chermoula/Sauce). The word 'Zaytun' is the pan-Semitic word for olive. The preparation method—blanching with turmeric before stewing in a tomato reduction—is distinctively Tunisian. In Djerban dialect, dishes are often named simply by their main ingredient followed by the cooking state (e.g., 'T'bikh').",
+    "language_source": "tunisian_arabic",
+    "root_word": "Zaytun (زيتون)",
+    "meaning": "Olives (specifically stewed/cooked)",
+    "confidence": "likely",
+    "sources_notes": "The Hebrew name provided is purely descriptive. In the context of the Djerban 'Kemia' (appetizer table), this dish is a vegetarian reduction of the famous 'Tajine Zaytun'. The specific technique of using turmeric for blanching is a hallmark of Tunisian Jewish cookery to neutralize bitterness."
+  },
+  "alternative_names": [
+    {
+      "name": "Zaytun Msharmel",
+      "language": "moroccan_arabic",
+      "notes": "Common Maghrebi term for olives marinated or cooked in a spicy red chermoula sauce."
+    },
+    {
+      "name": "Zaytun T'bikh",
+      "language": "tunisian_arabic",
+      "notes": "Literal translation: 'Stewed Olives'. Used to differentiate cooked olives from raw cured olives."
+    },
+    {
+      "name": "Salatat Zaytun",
+      "language": "arabic",
+      "notes": "General term for 'Olive Salad', though this usually implies raw ingredients rather than stewed."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tajine Zaytun",
+      "culture": "Tunisian/Moroccan (Muslim & Jewish)",
+      "similarity": "Uses the same flavor profile (olives, lemon, turmeric, tomato).",
+      "key_difference": "Tajine Zaytun is a main course braised with meat (veal or chicken), whereas this dish is a vegetarian appetizer (kemia)."
+    },
+    {
+      "name": "Zaytun Msharmel",
+      "culture": "Moroccan",
+      "similarity": "Olives in a red spicy sauce (chermoula).",
+      "key_difference": "Moroccan versions often rely heavily on cumin and paprika and are sometimes served cold/raw, whereas the Tunisian version is stewed until soft and often features caraway."
+    },
+    {
+      "name": "Zeytin Yahnisi",
+      "culture": "Turkish",
+      "similarity": "An olive stew.",
+      "key_difference": "Turkish versions often include onions and olive oil but lack the heavy Harissa/spicy red pepper profile of the Tunisian version."
+    }
+  ]
+}

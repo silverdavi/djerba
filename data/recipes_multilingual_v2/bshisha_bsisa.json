@@ -1,0 +1,98 @@
+{
+  "id": "bshisha_bsisa",
+  "image": "images/current/008_beshisha/dish.png",
+  "meta": {
+    "servings": "10-12",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "בשישה",
+    "es": "Bshisha (Bsisa)",
+    "ar": "بسيسة",
+    "en": "Bshisha (Bsisa)"
+  },
+  "description": {
+    "he": "בשישה שואבת את שמה מהפועל הערבי להרטבת קמח בשמן. ממרח דחוס ומתובל זה מורכב מחיטה ושעורה קלויות וטחונות, המעורבבות עם שמן זית וממתיק. בראש חודש ניסן, משפחות ג'רבאיות נוהגות לערבב את התערובת עם מפתח, טקס שנועד לפתוח את שערי הפרנסה והכלכלה לשנה הקרובה.",
+    "es": "La Bshisha deriva su nombre del verbo árabe para humedecer la harina con aceite. Esta pasta densa y especiada consiste en trigo y cebada tostados y molidos, mezclados con aceite de oliva y endulzante. En Rosh Jodesh Nisán, las familias de Djerba mezclan la preparación con una llave, un ritual destinado a abrir las puertas del sustento para el año venidero.",
+    "ar": "اسم البسيسة جاي من كلمة بسّ يعني تخلط الدقيق بالزيت. هذي العجينة الفاوحة تتكون من قمح وشعير مقليين ومرحيين مخلطين بزيت الزيتونة والتمر ولا السكر. في راس شهر نيسان، العايلات الجربية يخلطوا البسيسة بمفتاح، عادة باش يطلبوا من ربي يفتحلهم بيبان الرزق للعام الجديد.",
+    "en": "Bshisha derives its name from the Arabic verb for moistening flour with oil. This dense, spiced paste consists of roasted ground wheat and barley blended with olive oil and sweetener. On Rosh Chodesh Nissan, Djerban families stir the mixture with a key, a ritual meant to unlock the gates of livelihood and sustenance for the year ahead."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם גרעיני חיטה מלאה, נקיים",
+      "250 גרם גריסי פנינה או גרעיני שעורה, נקיים",
+      "10 גרם זרעי כוסברה, שלמים",
+      "6 גרם זרעי כמון, שלמים",
+      "6 גרם זרעי שומר, שלמים",
+      "שמן זית לפי הטעם, לאיחוד",
+      "200 גרם תמרים, מגולענים וקצוצים (או ממרח תמרים)",
+      "סוכר לפי הטעם (אופציונלי)",
+      "מים לפי הצורך (למרקם)"
+    ],
+    "es": [
+      "250 g de granos de trigo integral, limpios",
+      "250 g de cebada perlada o granos de cebada, limpios",
+      "10 g de semillas de cilantro, enteras",
+      "6 g de semillas de comino, enteras",
+      "6 g de semillas de hinojo, enteras",
+      "Aceite de oliva al gusto, para ligar",
+      "200 g de dátiles, deshuesados y picados (o pasta de dátiles)",
+      "Azúcar al gusto (opcional)",
+      "Agua si es necesaria (para la consistencia)"
+    ],
+    "ar": [
+      "1.3 كيسان قمح، منقي",
+      "1.25 كيسان شعير، منقي",
+      "2 مغارف تابل (كزبر)، حب",
+      "1 مغرفة كمون، حب",
+      "1 مغرفة بسباس، حب",
+      "زيت زيتونة حسب الذوق، باش تتلم",
+      "1.33 كيسان تمر، منحي العلفة ومقصوص (أو عجين تمر)",
+      "سكر حسب الذوق (اختياري)",
+      "ماء حسب الحاجة (للتخليط)"
+    ],
+    "en": [
+      "1.3 cups whole wheat grains, cleaned",
+      "1.25 cups pearl barley or barley grains, cleaned",
+      "2 tbsp coriander seeds, whole",
+      "1 tbsp cumin seeds, whole",
+      "1 tbsp fennel seeds, whole",
+      "Olive oil to taste, for binding",
+      "1.33 cups dates, pitted and chopped (or date paste)",
+      "Sugar to taste (optional sweetener)",
+      "Water if needed for consistency"
+    ]
+  },
+  "steps": {
+    "he": [
+      "קולים את גרעיני החיטה והשעורה יחד עם זרעי הכוסברה, הכמון והשומר במחבת יבשה על אש בינונית עד שעולה ריח והם משחימים מעט.",
+      "מצננים את התערובת וטוחנים הכל יחד לקמח גס (או אבקה דקה, לפי ההעדפה).",
+      "להגשה, מערבבים את האבקה הטחונה עם שמן זית ותמרים קצוצים (או סוכר).",
+      "אפשר ליצור מהתערובת כדורים קטנים להגשה.",
+      "מגישים עם שמן נוסף או מים בצד להתאמת המרקם לפי הטעם."
+    ],
+    "es": [
+      "Tueste los granos de trigo y cebada junto con las semillas de cilantro, comino e hinojo en una sartén seca a fuego medio hasta que estén fragantes y ligeramente dorados.",
+      "Deje enfriar la mezcla y muela todo junto hasta obtener una harina gruesa (o polvo fino, según prefiera).",
+      "Para servir, mezcle el polvo molido con aceite de oliva y dátiles picados (o azúcar).",
+      "Opcionalmente, forme pequeñas bolas con la mezcla para servir.",
+      "Sirva con aceite o agua adicional al lado para ajustar la textura al gusto."
+    ],
+    "ar": [
+      "قلي القمح والشعير مع التابل والكمون والبسباس في طنجرة شايحة (من غير زيت) على نار متوسطة لين تطلع ريحتهم ويحماروا شوية.",
+      "خلي الخليط يبرد، ومبعد ارحي كل شيء مع بعضه لين يولي دقيق حرش (أو أرطب، كيما تحب).",
+      "وقت التقديم، خلط البسيسة المرحية بزيت الزيتونة والتمر المقصوص (أو السكر).",
+      "تنجم تكعبرها كعابر صغار للتقديم.",
+      "قدمها مع زيت زايد ولا ماء باش تريقل القوام حسب الذوق."
+    ],
+    "en": [
+      "Roast the wheat and barley grains together with the coriander, cumin, and fennel seeds in a dry pan over medium heat until fragrant and slightly browned.",
+      "Allow the mixture to cool, then grind everything together into a coarse flour (or fine powder, depending on preference).",
+      "To serve, mix the ground powder with olive oil and chopped dates (or sugar).",
+      "Optionally, form the mixture into small balls for serving.",
+      "Serve with additional oil or water on the side to adjust texture to taste."
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "banana_cake",
+  "image": "images/current/006bananacake/dish.png",
+  "meta": {
+    "servings": "9-12",
+    "prep_time": "15 min",
+    "cook_time": "50 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת בננות",
+    "es": "Pastel de Bananas",
+    "ar": "كيكة البنان",
+    "en": "Banana Cake"
+  },
+  "description": {
+    "he": "עוגת בננות משלבת את המונח המקראי ל'עגול' (עוגה) עם מילה בינלאומית שאולה. עוגה זו, המהווה שינוי מהמטבח היהודי-ערבי העתיק של המאה ה-20, מסתמכת על חלב חמוץ כדי להבטיח מרקם רך ואוורירי. מאז היא הפכה לסטנדרט אהוב בבתים יהודיים לארוחת בוקר של שבת או לתה של אחר הצהריים.",
+    "es": "Ugat Bananot combina el término bíblico para redondo (uga) con un préstamo lingüístico global. Esta tarta húmeda, una desviación del siglo XX de la antigua cocina judeo-árabe, depende de la leche agria para asegurar una miga ligera y tierna. Desde entonces se ha convertido en un estándar apreciado en los hogares judíos para el desayuno de Shabat o el té de la tarde.",
+    "ar": "تجمع عוגת בננות بين كلمة عبرية قديمة ومعلمة عالمية. هالكيكة الطرية ماهيش من التراث القديم، أما دخلت في القرن العشرين، وتستعمل الحليب القارص باش تجي خفيفة وهشوشة. ولات حاجة أساسية في ديار اليهود لفطور الصباح نهار السبت ولا مع التاي في العشية.",
+    "en": "Ugat Bananot combines the biblical term for \"round\" (uga) with a global loan word. A 20th-century departure from ancient Judeo-Arabic cuisine, this moist cake relies on sour milk to ensure a light, tender crumb. It has since become a cherished standard in Jewish households for Shabbat breakfast or afternoon tea."
+  },
+  "ingredients": {
+    "he": [
+      "113 גרם חמאה, רכה",
+      "300 גרם סוכר",
+      "2 ביצים",
+      "5 מ\"ל תמצית וניל",
+      "5 גרם סודה לשתייה",
+      "120 מ\"ל חלב חמוץ",
+      "2 בננות גדולות, מעוכות",
+      "190 גרם קמח רגיל, מנופה",
+      "5 גרם אבקת אפייה"
+    ],
+    "es": [
+      "113 g de mantequilla, ablandada",
+      "300 g de azúcar",
+      "2 huevos",
+      "5 ml de extracto de vainilla",
+      "5 g de bicarbonato de sodio",
+      "120 ml de leche agria",
+      "2 bananas grandes, pisadas",
+      "190 g de harina común, tamizada",
+      "5 g de polvo de hornear"
+    ],
+    "ar": [
+      "نص كاس زبدة، طرية",
+      "كاس ونص سكر",
+      "2 عظمات",
+      "مغرفة صغيرة فانيليا",
+      "مغرفة صغيرة بيكربونات",
+      "نص كاس حليب قارص",
+      "2 كعبات بنان كبار، معفوسين",
+      "كاس ونص فرينة، مغربلة",
+      "مغرفة صغيرة خميرة قاطو"
+    ],
+    "en": [
+      "1/2 cup butter, softened",
+      "1 1/2 cups sugar",
+      "2 eggs",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "1/2 cup sour milk",
+      "2 large bananas, mashed",
+      "1 1/2 cups all-purpose flour, sifted",
+      "1 tsp baking powder"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות צלזיוס. משמנים תבנית אפייה מרובעת בגודל 9 אינץ' או מרפדים אותה.",
+      "בקערה גדולה, מקציפים את החמאה, הסוכר, הביצים ותמצית הוניל עד שהתערובת בהירה ואוורירית.",
+      "בכלי קטן נפרד, ממיסים את הסודה לשתייה בתוך החלב החמוץ.",
+      "מוסיפים את תערובת החלב לבלילת החמאה ומקציפים היטב.",
+      "מנפים יחד את הקמח ואבקת האפייה.",
+      "מוסיפים את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים לבלילה. מערבבים רק עד לאיחוד; להיזהר לא לערבב יותר מדי.",
+      "יוצקים את הבלילה לתבנית האפייה המוכנה.",
+      "אופים במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.",
+      "מצננים. אפשר לזגג עם ציפוי בננה או ציפוי שוקולד."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C. Preparar un molde cuadrado de 9 pulgadas engrasándolo o forrándolo.",
+      "En un bol grande, batir la mantequilla, el azúcar, los huevos y la vainilla hasta que la mezcla esté ligera y esponjosa.",
+      "En un recipiente pequeño separado, disolver el bicarbonato de sodio en la leche agria.",
+      "Agregar la mezcla de leche a la masa de mantequilla y batir bien.",
+      "Tamizar juntos la harina y el polvo de hornear.",
+      "Agregar las bananas pisadas alternando con los ingredientes secos tamizados a la masa. Mezclar solo hasta integrar; no batir en exceso.",
+      "Verter la masa en el molde preparado.",
+      "Hornear de 45 a 50 minutos, o hasta que un palillo insertado en el centro salga limpio.",
+      "Dejar enfriar. Opcionalmente cubrir con glaseado de banana o de chocolate."
+    ],
+    "ar": [
+      "سخن الفور على 175 درجة. ادهن طبق القاطو بالزيت ولا افرشو بكاغط.",
+      "في صحفة كبيرة، ركّض الزبدة والسكر والعظمات والفانيليا لين يولي الخليط خفيف.",
+      "في كاس صغير، حل البيكربونات في الحليب القارص.",
+      "زيد خليط الحليب على خليط الزبدة وركّض مليح.",
+      "غربل الفرينة وخميرة القاطو مع بعضهم.",
+      "زيد البنان المعفوس والفرينة بالشوية بالشوية للخليط. خلط جيست لين يتلمو، رد بالك تخلط برشا.",
+      "صب الخليط في الطبق المحضّر.",
+      "طيّبها في الفور بين 45 و 50 دقيقة، ولا لين كي تدخل كردون يخرج شايح.",
+      "خليها تبرد. تنجم تزينها بكريمة البنان ولا الشوكولاتة."
+    ],
+    "en": [
+      "Preheat oven to 175°C (350°F). Prepare a 9-inch square baking pan by greasing or lining it.",
+      "In a large bowl, beat the butter, sugar, eggs, and vanilla until the mixture is light and fluffy.",
+      "In a separate small container, dissolve the baking soda into the sour milk.",
+      "Add the milk mixture to the butter batter and beat well.",
+      "Sift the flour and baking powder together.",
+      "Add the mashed bananas alternately with the sifted dry ingredients to the batter. Mix just until blended; do not overmix.",
+      "Pour the batter into the prepared baking pan.",
+      "Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.",
+      "Allow to cool. Optionally ice with Banana Icing or Chocolate Icing."
+    ]
+  }
+}

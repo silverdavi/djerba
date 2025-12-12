@@ -1,0 +1,42 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Crumble Tapuchim' (קראמבל תפוחים) is a Modern Hebrew construction. 'Crumble' is a direct transliteration of the English culinary term, which originated in Britain during World War II as a rationing-friendly alternative to pies. 'Tapuchim' is the Hebrew plural for apples (from the root n-p-ch, meaning to blow or swell). This dish is not indigenous to North African Jewish cuisine. Its presence in a Djerban cookbook indicates modern culinary assimilation, likely introduced via the French Jewish diaspora (where 'Le Crumble' became extremely popular in the 1980s) or through modern Israeli culture.",
+    "language_source": "other",
+    "root_word": "English 'Crumble' (from Old English 'crymel') + Hebrew 'Tapuach'",
+    "meaning": "Apple Crumble",
+    "confidence": "confirmed",
+    "sources_notes": "This is distinctly a Western dish. Traditional Tunisian desserts rely on nuts, honey, semolina, and frying (like debla or makroud), not baked fruit with streusel. The use of margarine to make it Pareve is a standard Jewish dietary adaptation of the butter-heavy British original."
+  },
+  "alternative_names": [
+    {
+      "name": "Crumble aux pommes",
+      "language": "French",
+      "notes": "The likely name used by Tunisian Jews living in France or influenced by Francophone culture."
+    },
+    {
+      "name": "Apple Crisp",
+      "language": "English (American)",
+      "notes": "The American equivalent, specifically distinguished by the inclusion of oats in the topping, as described in this recipe."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Tarte Tatin",
+      "culture": "French",
+      "similarity": "Baked apple dessert common in the Francosphere.",
+      "key_difference": "Upside-down pastry with caramelized apples, uses puff pastry or shortcrust rather than a crumbled topping."
+    },
+    {
+      "name": "Cobbler",
+      "culture": "British/American",
+      "similarity": "Baked fruit dessert.",
+      "key_difference": "Topped with a biscuit or batter/dumpling dough rather than a crisp crumble mixture."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (North African)",
+      "similarity": "Pareve dessert often eaten by Jews.",
+      "key_difference": "Deep-fried yeast dough ring (donut), completely different cooking method and ingredients from a crumble."
+    }
+  ]
+}

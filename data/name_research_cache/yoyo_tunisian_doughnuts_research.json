@@ -1,0 +1,48 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Yoyo' is widely attributed to the French colonial influence in Tunisia (1881–1956). It is named after the toy 'yo-yo,' which became a global craze in the 1920s and 1930s. The shape of the pastry (a ring, sometimes appearing like two disks joined depending on how the dough puffs) resembled the toy. While the recipe itself—a fried dough soaked in syrup—has older roots in Andalusian and Ottoman confectionery (related to 'Rosquillas'), the specific nomenclature 'Yoyo' is a loan word adopted into Tunisian dialect (Derja) and Judeo-Arabic from French.",
+    "language_source": "french",
+    "root_word": "Yo-yo (the toy)",
+    "meaning": "Named after the toy due to the round shape with a hole",
+    "confidence": "likely",
+    "sources_notes": "Common consensus among Maghrebi culinary historians is that the name dates to the French Protectorate era. The dish is distinct from the Arabic 'Sfenj' or 'Bambalouni' because it is a cake doughnut (using baking powder/eggs) rather than a yeast dough, reflecting European pastry techniques adapted to local tastes (honey/syrup soaking)."
+  },
+  "alternative_names": [
+    {
+      "name": "Beignets Tunisiens",
+      "language": "french",
+      "notes": "Generic term used in French-speaking contexts or patisseries."
+    },
+    {
+      "name": "Kaak M'aasel",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Honeyed/Syrup-soaked Cake/Ring'. This is a descriptive term sometimes used for the category of syrup-soaked pastries, though 'Yoyo' is the specific name for this shape."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Rosquillas",
+      "culture": "Spanish",
+      "similarity": "Deep-fried cake dough rings, often flavored with anise or citrus.",
+      "key_difference": "Rosquillas are usually dusted with sugar or glazed, whereas Yoyos are submerged in hot syrup (sh'our)."
+    },
+    {
+      "name": "Bambalouni",
+      "culture": "Tunisian",
+      "similarity": "Deep-fried dough ring, iconic Tunisian street food.",
+      "key_difference": "Bambalouni is made from a yeast-leavened bread dough (chewy/airy like Sfenj) and sugared, while Yoyo is a cake dough (crumbly/dense) and syrup-soaked."
+    },
+    {
+      "name": "Sfenj",
+      "culture": "Maghrebi (Morocco/Algeria/Tunisia)",
+      "similarity": "Fried dough ring, often eaten for Hanukkah.",
+      "key_difference": "Sfenj is strictly yeast-leavened, spongy, and unsweetened (until dipped in sugar/honey), lacking the eggs and vanilla of the Yoyo."
+    },
+    {
+      "name": "Tulumba / Balah el Sham",
+      "culture": "Turkish / Middle Eastern",
+      "similarity": "Fried dough soaked in syrup.",
+      "key_difference": "Tulumba uses choux pastry extruded through a star nozzle (ridged), whereas Yoyo is hand-formed into smooth rings."
+    }
+  ]
+}

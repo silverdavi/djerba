@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The provided Hebrew name 'Salat Hummus' is a modern descriptive term used in Israel. The traditional name in Tunisian Judeo-Arabic is 'Slatet Homs' (سلاطة حمّص) or sometimes 'Homs bil Kamoun' (Chickpeas with Cumin). 'Homs' is the standard Arabic word for chickpeas (derived from the Semitic root ḥ-m-ṣ). 'Slatet' is derived from the Arabic 'Slata', which itself comes from the Italian 'Insalata' or Latin 'Salata', heavily reinforced by French colonial influence ('Salade'). Unlike the Levantine 'Hummus bi Tahina' (pureed dip), the Maghrebi term 'Homs' usually refers to the whole bean.",
+    "language_source": "tunisian_arabic",
+    "root_word": "ḥ-m-ṣ (Arabic root for chickpea/roasting)",
+    "meaning": "Chickpea Salad",
+    "confidence": "likely",
+    "sources_notes": "While the input gives the generic Hebrew name, Djerban cuisine relies on Tunisian Derja. In the context of the 'Kemia' (the array of appetizers served before Shabbat meals or with alcohol), this dish is a staple. It is distinct from 'Lablabi' (which is a hot soup), though the flavor profile is nearly identical."
+  },
+  "alternative_names": [
+    {
+      "name": "Slatet Homs",
+      "language": "tunisian_arabic",
+      "notes": "The standard vernacular name in Tunisia for a salad made of whole chickpeas."
+    },
+    {
+      "name": "Homs bil Kamoun",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Chickpeas with Cumin', highlighting the two main ingredients."
+    },
+    {
+      "name": "Torchi Homs",
+      "language": "judeo_arabic",
+      "notes": "Occasionally used if the chickpeas are pickled or heavily marinated in vinegar/lemon, though 'Torchi' usually implies pickled root vegetables."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Lablabi",
+      "culture": "Tunisian (General)",
+      "similarity": "Identical flavor profile (chickpeas, cumin, garlic, harissa, lemon).",
+      "key_difference": "Lablabi is a hot breakfast soup served over stale bread with a soft egg; the Jewish salad is served cold or room temperature as an appetizer (Kemia)."
+    },
+    {
+      "name": "Balila",
+      "culture": "Levantine / Egyptian",
+      "similarity": "Boiled whole chickpeas seasoned with cumin and lemon.",
+      "key_difference": "Balila is often served warm and sold by street vendors; in the Levant, it may include pine nuts."
+    },
+    {
+      "name": "Nohut Salatası",
+      "culture": "Turkish",
+      "similarity": "Whole chickpea salad with onions, parsley, and lemon.",
+      "key_difference": "Turkish version often uses sumac and pomegranate molasses rather than the preserved lemon and harissa found in the Tunisian version."
+    }
+  ]
+}

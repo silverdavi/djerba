@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The Hebrew name 'Lechem Bayit' is a direct calque (loan translation) of the Maghrebi Arabic term 'Khobz Dar' (خبز دار) or the French 'Pain de Maison'. In North African culture, a distinct separation exists between 'Khobz Souq' (market bread/baguettes bought daily) and 'Khobz Dar' (bread made by the housewife). While the name provided is Modern Hebrew, the culinary concept is strictly North African: a dense, soft-crumbed loaf baked in a home oven rather than a communal tannur or bought from a bakery.",
+    "language_source": "hebrew",
+    "root_word": "Hebrew: לחם (Lechem - Bread) + בית (Bayit - House); Arabic parallel: خبز (Khobz) + دار (Dar)",
+    "meaning": "Bread of the house (Homemade bread)",
+    "confidence": "confirmed",
+    "sources_notes": "The term 'Lechem Bayit' is a generic descriptor in Israeli/Hebrew cookbooks, but in a Djerban context, it specifically refers to the tradition of 'Khobz Dar'. Unlike the crusty French baguettes introduced during the protectorate, this bread typically uses oil and sugar to create a softer texture suitable for dipping in Shabbat sauces."
+  },
+  "alternative_names": [
+    {
+      "name": "Khobz Dar",
+      "language": "tunisian_arabic",
+      "notes": "The vernacular name used by Jews and Muslims in Tunisia for homemade oven bread."
+    },
+    {
+      "name": "Pain de Maison",
+      "language": "french",
+      "notes": "Commonly used by Francophone North African Jews to distinguish this loaf from bakery bread."
+    },
+    {
+      "name": "Khobz Koucha",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Oven Bread' (from the French 'couche' or Latin 'coxere'), distinguishing it from 'Khobz Tabouna' (clay oven bread)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Khobz Dar / Khobz el Dar",
+      "culture": "Maghrebi (Muslim)",
+      "similarity": "Identical concept of homemade white/semolina bread.",
+      "key_difference": "Muslim versions often use nigella seeds (sanouj) more aggressively; Jewish versions for Shabbat are strictly Pareve and often slightly sweeter."
+    },
+    {
+      "name": "Pain Tunisien / Khobz Talian",
+      "culture": "Tunisian",
+      "similarity": "White, airy bread common in Tunisia.",
+      "key_difference": "Khobz Talian is a bakery product with a crispier crust, whereas Lechem Bayit has a softer crust."
+    },
+    {
+      "name": "Challah",
+      "culture": "Ashkenazi Jewish",
+      "similarity": "The function of a Shabbat loaf.",
+      "key_difference": "Ashkenazi Challah is enriched with eggs; Djerban/Tunisian bread is typically water-based (sometimes with oil) and rarely contains eggs in the dough itself."
+    }
+  ]
+}

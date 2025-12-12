@@ -1,0 +1,134 @@
+{
+  "id": "veganfishchraime",
+  "image": "images/current/045_hraime/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "25 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קציצות דג טבעוניות",
+    "es": "Chraime Vegano (Tortitas de \"Pescado\" en Salsa de Tomate)",
+    "ar": "حرايمي نباتي (كفتة الحوت النباتية)",
+    "en": "Vegan \"Fish\" Patties in Tomato Sauce (Chraime)"
+  },
+  "description": {
+    "he": "בהשראת החריימה - מהמילה הערבית ל\"חריף\" - קציצות טבעוניות אלו לוכדות את המהות של מנת הדג החריפה של ערב שבת. טופו ואצות וואקמה מספקים מרקם וטעם של ים, ומעוצבים לקציצות אפויות. לאחר מכן הן מתבשלות ברוטב ג'רבאי קלאסי של עגבניות עשירות, פלפלים ושום.",
+    "es": "Inspiradas en el Chraime (del árabe \"picante\"), estas tortitas veganas capturan la esencia del plato de pescado picante del viernes por la noche. El tofu y las algas wakame aportan una textura y sabor a mar, formados en ktzi'tzot (tortitas). Se hornean y luego se cocinan a fuego lento en una salsa clásica de Djerba con tomates ricos, pimientos y ajo.",
+    "ar": "مستوحاة من الحرايمي، هالكفتة النباتية فيها بنة حوت ليلة السبت. التوفو (tofu) وعشب البحر (wakame) يعطيو طعم البحر، نكعبّروهم كفتة ونطيبوهم في الكوشة. مبعد نرجعوهم في مرقة جربية حارة بالطماطم والفلفل والثوم، كيما العادة.",
+    "en": "Inspired by Chraime—from the Arabic for \"hot\"—these vegan patties capture the essence of the spicy Friday night fish course. Tofu and wakame seaweed provide a savory, oceanic texture, formed into ktzi'tzot (patties). They are baked, then simmered in a classic Djerban sauce of rich tomatoes, peppers, and garlic."
+  },
+  "ingredients": {
+    "he": [
+      "600 גרם טופו קשה מאוד, סחוט",
+      "12 גרם קמח שקדים",
+      "20 גרם אצות וואקמה, מושרות",
+      "מלח לפי הטעם",
+      "4.5 גרם אבקת שום",
+      "3 גרם קמח",
+      "2.5 גרם כמון, טחון",
+      "45 מ\"ל שמן צמחי",
+      "3 גרם כורכום, טחון",
+      "7 גרם פפריקה מתוקה",
+      "4 עגבניות, חתוכות לקוביות",
+      "1 פלפל אדום, פרוס לרצועות",
+      "5 שיני שום, פרוסות",
+      "1 צרור כוסברה טרייה, קצוצה"
+    ],
+    "es": [
+      "600 g de tofu extra firme, prensado",
+      "12 g de harina de almendra",
+      "20 g de algas wakame, rehidratadas",
+      "Sal al gusto",
+      "4.5 g de ajo en polvo",
+      "3 g de harina",
+      "2.5 g de comino, molido",
+      "45 ml de aceite vegetal",
+      "3 g de cúrcuma, molida",
+      "7 g de pimentón dulce",
+      "4 tomates, cortados en cubitos",
+      "1 pimiento rojo, cortado en tiras",
+      "5 dientes de ajo, laminados",
+      "1 manojo de cilantro fresco, picado"
+    ],
+    "ar": [
+      "2.5 كيسان توفو (tofu) يابس، معصور",
+      "2 مغارف دقيق لوز",
+      "5 مغارف عشب بحر (wakame)، منفخ",
+      "ملح حسب الذوق",
+      "1.5 مغرفة صغيرة ثوم مرحي",
+      "1 مغرفة صغيرة فرينة",
+      "1 مغرفة صغيرة كمون",
+      "3 مغارف زيت",
+      "1 مغرفة صغيرة كركم",
+      "1 مغرفة فلفل أحمر (زينة)",
+      "4 كعبات طماطم، مقصوصين",
+      "1 فلفل أحمر، مقصوص شرائح",
+      "5 سنات ثوم، مقصوصين",
+      "1 ربطة كزبر، مقصوص"
+    ],
+    "en": [
+      "2.5 cups extra firm tofu, pressed",
+      "2 tbsp almond flour",
+      "5 tbsp wakame seaweed, rehydrated",
+      "Salt to taste",
+      "1.5 tsp garlic powder",
+      "1 tsp flour",
+      "1 tsp cumin",
+      "3 tbsp vegetable oil",
+      "1 tsp turmeric",
+      "1 tbsp paprika",
+      "4 tomatoes, diced",
+      "1 red bell pepper, sliced into strips",
+      "5 garlic cloves, sliced",
+      "1 bunch fresh cilantro, chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "סוחטים כמה שיותר נוזלים מהטופו (מומלץ להשתמש בבד גבינה).",
+      "שמים במעבד מזון את הטופו, אצות הוואקמה, מלח, אבקת שום, קמח וכמון. מעבדים בפולסים לאיחוד.",
+      "מוסיפים בהדרגה את קמח השקדים תוך כדי עיבוד. אין לעבד יותר מ-2 דקות בסך הכל כדי לשמור על המרקם.",
+      "מניחים לתערובת לנוח 5-10 דקות. בינתיים, מחממים תנור ל-250 מעלות צלזיוס.",
+      "בידיים רטובות, יוצרים קציצות מהתערובת. מניחים על תבנית אפייה, משמנים קלות ואופים במשך 10 דקות.",
+      "להכנת הרוטב: מחממים שמן במחבת רחבה. מוסיפים לשמן החם את הכורכום, הפפריקה וקורט מלח לפתיחת התבלינים.",
+      "מוסיפים את העגבניות הקצוצות, רצועות הפלפל, השום הפרוס והכוסברה הקצוצה.",
+      "מבשלים על אש בינונית עד שהירקות מתרככים ומגירים נוזלים ליצירת רוטב. במידת הצורך, מוסיפים מעט מים.",
+      "כשהרוטב מוכן, מוסיפים בעדינות את הקציצות האפויות למחבת ומצפים ברוטב לפני ההגשה."
+    ],
+    "es": [
+      "Exprima la mayor cantidad de líquido posible del tofu.",
+      "Coloque el tofu, las algas wakame, la sal, el ajo en polvo, la harina y el comino en un procesador de alimentos. Pulse para combinar.",
+      "Agregue gradualmente la harina de almendra mientras procesa. No procese por más de 2 minutos en total para mantener la textura.",
+      "Deje reposar la mezcla durante 5-10 minutos. Mientras tanto, precaliente el horno a 250°C.",
+      "Con las manos mojadas, forme tortitas con la mezcla. Colóquelas en una bandeja para hornear, rocíe o unte ligeramente con aceite y hornee por 10 minutos.",
+      "Para hacer la salsa: Caliente aceite en una sartén ancha. Añada la cúrcuma, el pimentón y una pizca de sal al aceite caliente para abrir las especias.",
+      "Añada los tomates picados, el pimiento en tiras, el ajo fresco laminado y el cilantro picado.",
+      "Cocine a fuego medio hasta que las verduras se ablanden y suelten sus jugos para formar una salsa. Si es necesario, añada una pequeña cantidad de agua.",
+      "Una vez que la salsa esté lista, añada suavemente las tortitas horneadas a la sartén y cúbralas con la salsa antes de servir."
+    ],
+    "ar": [
+      "أعصر التوفو (tofu) مليح باش تخرج منو الماء الكل.",
+      "حط التوفو، عشب البحر، الملح، الثوم المرحي، الفرينة والكمون في الخلاط. رحيهم شوية باش يتخلطو.",
+      "زيد دقيق اللوز بالشوية وانت ترحي. ما ترحيش أكثر من دقيقتين باش تقعد شادة روحها.",
+      "خلي الخليط يرتاح 5-10 دقايق. في الوقت هذا، سخن الكوشة لـ 250 درجة.",
+      "بلل يديك بالماء وكعبّر الكفتة. حطهم في طبق الكوشة، ادهنهم بشوية زيت، وطيبهم 10 دقايق.",
+      "باش تحضر المرقة: سخن الزيت في طنجرة واسعة. حط الكركم، الفلفل الأحمر وشوية ملح في الزيت السخون باش يفوح.",
+      "زيد الطماطم المقصوصة، شرائح الفلفل، الثوم المقصوص والكزبر.",
+      "طيبهم على نار متوسطة لين تذبل الخضرة وتسيب ماها وتولي مرقة. كان لزم، زيد شوية ماء.",
+      "كي تحضر المرقة، حط كعبات الكفتة الطايبة في الطنجرة بشوية بشوية وخلطهم بالمرقة قبل ما تقدم."
+    ],
+    "en": [
+      "Squeeze as much liquid as possible out of the tofu.",
+      "Place the tofu, wakame seaweed, salt, garlic powder, flour, and cumin in a food processor. Pulse to combine.",
+      "Gradually add the almond flour while processing. Do not process for more than 2 minutes total to maintain texture.",
+      "Let the mixture rest for 5-10 minutes. Meanwhile, preheat the oven to 250°C (480°F).",
+      "With wet hands, form the mixture into patties. Place on a baking sheet, spray or brush lightly with oil, and bake for 10 minutes.",
+      "To make the sauce: Heat oil in a wide pan. Add the turmeric, paprika, and a pinch of salt to the hot oil to open the spices.",
+      "Add the diced tomatoes, sliced bell pepper, sliced fresh garlic, and chopped cilantro.",
+      "Cook over medium heat until the vegetables soften and release their juices to form a sauce. If needed, add a small amount of water.",
+      "Once the sauce is ready, gently add the baked patties to the pan and coat with sauce before serving."
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "brikot",
+  "slug": "brikot",
+  "source_file": "data/safed_recipes/14_בריקות.json",
+  "name": "Brikot (Tunisian Fried Pastry)",
+  "name_hebrew": "בריקות",
+  "name_origin": "The term 'Brikot' is the Hebraized plural form of the Tunisian Arabic word 'Brik' (بريك). The root of the word is definitively traced to the Ottoman Turkish 'Börek', a general term for filled pastries. The Ottoman Empire controlled Tunisia from the 16th to the 19th century, introducing the concept of phyllo/yufka doughs. In Tunisia, this evolved into the 'Malsouka' (the specific leaf) and the dish became 'Brik'. The suffix '-ot' (ות) is the Hebrew feminine plural marker, indicating that 'Brikot' is the specific terminology used by Tunisian Jews (and subsequently in Israel) to refer to multiple pieces of the pastry.",
+  "description": "A quintessential Tunisian savory pastry consisting of a thin, crispy dough sheet (Malsouka) wrapped around a filling and deep-fried. The most traditional fillings are a whole egg or savory mashed potatoes.",
+  "cultural_context": "Djerban/Tunisian Jewish tradition. Brik is a staple of Tunisian cuisine, often served as an appetizer for Shabbat dinners, holidays, and breaking the fast during Ramadan. The 'Egg Brik' requires skill to keep the yolk runny while the pastry becomes crispy.",
+  "is_vegan": false,
+  "vegan_adaptation_notes": "Use the mashed potato filling without egg. Ensure the pastry leaves are vegan (some brands contain egg).",
+  "meta": {
+    "servings": "6",
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 35,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brik_pastry_leaves",
+      "name": "Brik pastry leaves (Malsouka)",
+      "amount": 6,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "Can substitute with spring roll wrappers or phyllo dough (layered)",
+      "is_optional": false,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 6,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 250,
+      "unit": "ml",
+      "preparation": null,
+      "notes": "for frying",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 250,
+          "unit": "ml"
+        },
+        "imperial": {
+          "value": 8.3,
+          "unit": "fl oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 250,
+          "unit": "ml"
+        }
+      }
+    },
+    {
+      "ingredient_id": "eggs",
+      "name": "Eggs",
+      "amount": 6,
+      "unit": "unit",
+      "preparation": null,
+      "notes": "Use 1 per brik if making the egg version",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 6,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "potatoes",
+      "name": "Potatoes",
+      "amount": 3,
+      "unit": "unit",
+      "preparation": "boiled and mashed",
+      "notes": "For the puree filling option",
+      "is_optional": true,
+      "measurements": {
+        "metric": null,
+        "imperial": null,
+        "volume": null,
+        "original": {
+          "value": 3,
+          "unit": "unit"
+        }
+      }
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": null,
+      "unit": null,
+      "preparation": null,
+      "notes": "to taste",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "imperial": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "volume": {
+          "value": null,
+          "unit": "to_taste"
+        },
+        "original": {
+          "value": null,
+          "unit": "to_taste"
+        }
+      }
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "instruction": "If using potato filling: Boil potatoes until soft, mash into a puree, and season with salt and pepper.",
+      "time_minutes": 20,
+      "tips": "Parsley or onion is often added to the puree in traditional recipes."
+    },
+    {
+      "step": 2,
+      "instruction": "Heat oil in a wide frying pan. The oil should be hot but not smoking.",
+      "time_minutes": 5,
+      "tips": null
+    },
+    {
+      "step": 3,
+      "instruction": "For Egg Brik: Place a brik leaf in the hot oil (or on a plate first if less experienced). Crack a whole egg into the center, season, and immediately fold the leaf in half to close it.",
+      "time_minutes": null,
+      "tips": "Work quickly so the egg doesn't escape."
+    },
+    {
+      "step": 4,
+      "instruction": "For Potato Brik: Place a spoonful of mashed potato in the center of the leaf, fold in half (or into a triangle/cigar shape), and place in the hot oil.",
+      "time_minutes": null,
+      "tips": null
+    },
+    {
+      "step": 5,
+      "instruction": "Fry on both sides until golden brown and crispy.",
+      "time_minutes": 3,
+      "tips": null
+    },
+    {
+      "step": 6,
+      "instruction": "Remove from oil and drain on paper towels.",
+      "time_minutes": null,
+      "tips": null
+    }
+  ],
+  "variants": [
+    {
+      "name": "Note on Source Text",
+      "description": "The original source text contained a second, unrelated recipe for a yeast dough (1kg flour, yeast, sugar) merged into this entry. That portion has been excluded as it describes a baked bread, not Brik."
+    }
+  ],
+  "image": {
+    "filename": "images/current/011_brik/dish.png",
+    "prompt": null
+  },
+  "tags": [
+    "north-african",
+    "tunisian",
+    "appetizer",
+    "fried",
+    "savory-pastry"
+  ],
+  "related_recipes": [],
+  "name_etymology": {
+    "language_source": "turkish",
+    "root_word": "Börek (Turkish) -> Brik (Tunisian Arabic)",
+    "meaning": "Originally referring to any dish made with yufka (dough sheets); in Tunisia specifically denotes the deep-fried Malsouka packet.",
+    "confidence": "confirmed",
+    "notes": "Standard culinary etymology (Gil Marks, Claudia Roden). The phonetic shift from 'Börek' to 'Brik' is a standard contraction in Maghrebi dialects. The form 'Brikot' represents the linguistic integration of the dish into Judeo-Arabic and Modern Hebrew syntax."
+  },
+  "alternative_names": [
+    {
+      "name": "Brik",
+      "language": "tunisian_arabic",
+      "notes": "The standard singular and collective name in Tunisia (Muslim and Jewish)."
+    },
+    {
+      "name": "Brika",
+      "language": "tunisian_arabic",
+      "notes": "The specific singular form (one piece)."
+    },
+    {
+      "name": "Brik bil 'Adma",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Brik with Egg' (using the Tunisian word 'Adma' for egg)."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Briouat",
+      "culture": "Moroccan",
+      "similarity": "Uses similar paper-thin dough (Warka) and is deep-fried.",
+      "key_difference": "Briouat are typically smaller, triangular, and often folded more tightly; Brik is usually a larger half-moon or envelope shape."
+    },
+    {
+      "name": "Sigara Böreği",
+      "culture": "Turkish",
+      "similarity": "Deep-fried pastry rolls derived from the same etymological root.",
+      "key_difference": "Uses Turkish Yufka dough which is slightly thicker than Tunisian Malsouka; shaped like cigars rather than folded envelopes."
+    },
+    {
+      "name": "Bourek",
+      "culture": "Algerian",
+      "similarity": "Deep-fried filled pastry sheets (Dioul).",
+      "key_difference": "Often rolled into long cigars rather than the Tunisian folded triangle or half-moon."
+    },
+    {
+      "name": "Sambusak",
+      "culture": "Middle Eastern / Sephardic",
+      "similarity": "Fried or baked savory pocket.",
+      "key_difference": "Uses a shortcrust or yeast dough, not the transparent, leaf-like Malsouka/Warka."
+    }
+  ],
+  "intro_paragraph": "Brikot, the Hebraized plural of the Tunisian *brik*, derives from the Ottoman *börek*. These quintessential fried pastries consist of thin *malsouka* dough folded around savory mashed potatoes or a whole egg. A staple appetizer for Djerban Shabbat dinners, they are fried until golden, ideally achieving a crispy shell that yields to a rich, runny yolk."
+}

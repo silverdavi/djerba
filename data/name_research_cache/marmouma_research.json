@@ -1,0 +1,53 @@
+{
+  "name_origin": {
+    "etymology": "The name 'Marmouma' (مرمومة) is specific to the Tunisian (specifically Southern/Djerban) and Libyan Arabic dialects. It is distinct from the more generic 'Matbucha' (which simply means 'cooked' in Arabic). The etymology likely stems from a dialectal variation of roots describing the texture of the dish—vegetables that are broken down, mashed, or stewed until soft. In the context of Djerban and Libyan cuisine, it refers specifically to a cooked salad where the ingredients are stewed in a pot rather than grilled first (which would be 'Mechouia').",
+    "language_source": "tunisian_arabic",
+    "root_word": "Unknown (Likely dialectal variation of R-M-M or similar roots denoting softness/disintegration)",
+    "meaning": "A stewed or mashed mixture; specifically a cooked tomato and pepper salad",
+    "confidence": "likely",
+    "sources_notes": "While 'Matbucha' is the pan-Maghrebi term often used in Israel, 'Marmouma' is the specific vernacular used in Djerba and Libya. It is a staple of Libyan Jewish cuisine as well. The term is linguistically distinct from 'Mechouia' (grilled) and 'Makbouba' (another variant)."
+  },
+  "alternative_names": [
+    {
+      "name": "Salade Juive",
+      "language": "french",
+      "notes": "Common colonial era name for cooked tomato/pepper salads served by Jews in Tunisia."
+    },
+    {
+      "name": "Matbucha",
+      "language": "arabic",
+      "notes": "Literally 'the cooked one.' This is the generic term now used in Israel, but Marmouma is the specific regional name."
+    },
+    {
+      "name": "Marmouma",
+      "language": "libyan_arabic",
+      "notes": "The dish is equally famous in Libya under the exact same name."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Taktouka",
+      "culture": "Moroccan",
+      "similarity": "Cooked salad of tomatoes and peppers.",
+      "key_difference": "Taktouka often uses roasted peppers added to a tomato sauce, whereas Marmouma is often stewed down together longer to a jam-like consistency."
+    },
+    {
+      "name": "Slata Mechouia",
+      "culture": "Tunisian",
+      "similarity": "Tomato and pepper salad.",
+      "key_difference": "Mechouia literally means 'grilled.' The vegetables must be grilled/charred before chopping. Marmouma is pot-cooked/stewed."
+    },
+    {
+      "name": "Galayet Bandora",
+      "culture": "Jordanian/Palestinian",
+      "similarity": "Stewed tomatoes with garlic and peppers.",
+      "key_difference": "Usually less reduced/jam-like than Marmouma; often served hot as a main dish rather than a cold appetizer."
+    },
+    {
+      "name": "Chakchouka",
+      "culture": "Maghrebi",
+      "similarity": "Same base of stewed peppers and tomatoes.",
+      "key_difference": "Chakchouka includes poached eggs and is a hot meal; Marmouma is a salad/dip served cold or room temp."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "humus_salad",
+  "image": "images/current/018hummussalad/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "0 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט חומוס",
+    "es": "Ensalada de Garbanzos Tunecina",
+    "ar": "سلاطة حمّص",
+    "en": "Tunisian Chickpea Salad with Preserved Lemon"
+  },
+  "description": {
+    "he": "סלטת חומוס, שפירושו סלט חומוס בערבית-יהודית, מורכב מקטניות שלמות ולא מהממרח החלק הנפוץ בלבנט. המנה הכפרית הזו, המרעננת בזכות הלימון הכבוש והכוסברה הטרייה, היא אבן יסוד בקמיה. בבתים ג'רבאיים, מתאבנים קטנים אלו חיוניים לפתיחת ארוחות שבת או לצד כוסית ערק.",
+    "es": "Slatet Homs, literalmente ensalada de garbanzos en judeo-árabe, presenta legumbres enteras en lugar del puré suave común en el Levante. Realzado con limón en conserva y cilantro fresco, este plato rústico es una piedra angular de la kemia. En los hogares de Djerba, estos pequeños aperitivos son esenciales para comenzar las comidas de Shabat o acompañar vasos de arak.",
+    "ar": "سلاطة حمّص، يعني سلطة الحمص بالعربية اليهودية، تجي بحبات حمّص صحيحة موش مرحية كيف ما يعملوا في الشرق. السلاطة هذي منعشة بالليم المصيّر والكسبر الأخضر، وهي أساسية في الكيميا. في ديار جربة، هالمقبلات الصغيرة لازمين باش نبدو بيهم عشاء السبت ولا مع كاس بوخة.",
+    "en": "Slatet Homs, literally \"chickpea salad\" in Judeo-Arabic, features whole legumes rather than the smooth puree common in the Levant. Brightened by preserved lemon and fresh cilantro, this rustic dish is a cornerstone of the kemia. In Djerban households, these small appetizers are essential for starting Shabbat meals or accompanying glasses of arak."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם גרגירי חומוס, מסוננים ושטופים",
+      "1/2 לימון כבוש, קצוץ דק (ללא גרעינים)",
+      "1/2 צרור כוסברה טרייה, קצוצה",
+      "2.3 גרם פפריקה מתוקה",
+      "30 מ\"ל שמן זית",
+      "15 מ\"ל מיץ לימון, סחוט טרי",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "250 g de garbanzos, escurridos y enjuagados",
+      "1/2 limón en conserva, picado finamente (sin semillas)",
+      "1/2 manojo de cilantro fresco, picado",
+      "2.3 g de pimentón dulce",
+      "30 ml de aceite de oliva",
+      "15 ml de jugo de limón, recién exprimido",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1.5 كيسان حمّص، مقطر ومشالل",
+      "1/2 كعبة ليم مصيّر، مقصوصة جويدة (نحي القلوب)",
+      "1/2 ربطة كسبر أخضر، مقصوص",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "2 مغارف زيت زيتونة",
+      "1 مغرفة عصير قارص",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "1.5 cups chickpeas, drained and rinsed",
+      "1/2 preserved lemon, finely chopped (remove seeds)",
+      "1/2 bunch fresh cilantro, chopped",
+      "1 tsp sweet paprika",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice, freshly squeezed",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים ושוטפים היטב את גרגירי החומוס המשומרים.",
+      "קוצצים דק את הלימון הכבוש (קליפה ותוכן) ואת הכוסברה הטרייה.",
+      "בקערת ערבוב, מערבבים את החומוס, הלימון הקצוץ, הכוסברה, הפפריקה, שמן הזית ומיץ הלימון.",
+      "טועמים לפני הוספת המלח, כיוון שהלימון הכבוש מלוח מטבעו. מתקנים תיבול ומגישים קר או בטמפרטורת החדר."
+    ],
+    "es": [
+      "Escurrir y enjuagar bien los garbanzos en conserva.",
+      "Picar finamente el limón en conserva (cáscara y pulpa) y el cilantro fresco.",
+      "En un tazón, combinar los garbanzos, el limón picado, el cilantro, el pimentón, el aceite de oliva y el jugo de limón.",
+      "Probar antes de añadir sal, ya que los limones en conserva son naturalmente salados. Ajustar la sazón y servir frío o a temperatura ambiente."
+    ],
+    "ar": [
+      "قطّر وشلل مليح الحمّص متاع الحكة.",
+      "قص الليم المصيّر (القشرة والقلب) والكسبر الأخضر جويدين.",
+      "في صحفة، خلط الحمّص، الليم المقصوص، الكسبر، الفلفل الأحمر، الزيت، وعصير القارص.",
+      "ذوق قبل ما تزيد الملح، خاطر الليم المصيّر مالح بطبيعتو. ركّل الملح وقدمها باردة ولا دافية شوية."
+    ],
+    "en": [
+      "Drain and thoroughly rinse the canned chickpeas.",
+      "Finely chop the preserved lemon (rind and pulp) and the fresh cilantro.",
+      "In a mixing bowl, combine the chickpeas, chopped lemon, cilantro, paprika, olive oil, and lemon juice.",
+      "Taste before adding salt, as the preserved lemons are naturally salty. Adjust seasoning and serve cold or at room temperature."
+    ]
+  }
+}

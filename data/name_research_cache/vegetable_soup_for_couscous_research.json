@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "While the provided name is Modern Hebrew ('Marak Yerakot'), the traditional Djerban Judeo-Arabic term for the liquid and vegetable stew served over couscous is 'Marga' (or 'Margat'). This derives from the Classical Arabic root 'm-r-q' (م-ر-ق), referring to broth or stock. In Tunisian cuisine, the technique described (sweating vegetables with spices before adding water) is known as the 'teklia' method, which forms the base of the 'Marga'. The Hebrew name is a literal translation used in Israel, but the dish's linguistic roots are firmly Maghrebi Arabic.",
+    "language_source": "tunisian_arabic",
+    "root_word": "M-R-Q (م-r-q)",
+    "meaning": "Broth, stew, or the liquid in which meat/vegetables are cooked",
+    "confidence": "likely",
+    "sources_notes": "The Hebrew name provided is descriptive. Based on Djerban culinary tradition, the specific component is invariably called 'Marga' (often specified as 'Marga Hamra' for red/tomato or 'Marga Safra' for yellow/turmeric). The description of 'sweating' confirms the Tunisian 'teklia' base."
+  },
+  "alternative_names": [
+    {
+      "name": "Marga / Marqa",
+      "language": "tunisian_arabic",
+      "notes": "The generic term for the stew/sauce component of the couscous."
+    },
+    {
+      "name": "Bouillon",
+      "language": "french",
+      "notes": "Commonly used by North African Jews in France and post-colonial Tunisia to refer to the vegetable broth served with couscous."
+    },
+    {
+      "name": "Margat Khodra",
+      "language": "tunisian_arabic",
+      "notes": "Literally 'Vegetable Broth/Stew'."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "Couscous Bidaoui (Seven Vegetable Couscous)",
+      "culture": "Moroccan",
+      "similarity": "A vegetable-heavy broth served over couscous.",
+      "key_difference": "The Moroccan version is often sweeter (using raisins, cinnamon, and onions/tfaya) and uses a different spice profile (ginger/saffron) compared to the spicier, tomato-paste based Tunisian 'Marga'."
+    },
+    {
+      "name": "Tbikha",
+      "culture": "Tunisian / Algerian",
+      "similarity": "A vegetable stew.",
+      "key_difference": "Tbikha is usually thicker, eaten with bread, and not typically served as a 'soup' over couscous grains."
+    },
+    {
+      "name": "Pot-au-feu",
+      "culture": "French",
+      "similarity": "Boiled meat and vegetables in broth.",
+      "key_difference": "Lacks the complex spice blend (tabil, caraway, coriander) and the steaming of grain; served as a standalone soup/plate."
+    }
+  ]
+}

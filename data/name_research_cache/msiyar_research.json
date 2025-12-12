@@ -1,0 +1,47 @@
+{
+  "name_origin": {
+    "etymology": "The name derives from the Maghrebi Arabic root Ṣ-Y-R (ص-ي-ر), specifically the form II verb 'ṣayyar' (صيّر), which means to preserve, cure, or pickle (usually in salt and lemon rather than vinegar). The word 'Msiyar' (or Msayyar) is the passive participle meaning 'preserved' or 'cured.' While in Morocco and Algeria the cognate term 'M'sir' refers almost exclusively to preserved lemons, in Tunisian Jewish usage, it applies to this specific quick-pickled salad of peppers and carrots cured in lemon juice.",
+    "language_source": "tunisian_arabic",
+    "root_word": "Ṣayyar (صيّر)",
+    "meaning": "Preserved / Cured / Pickled",
+    "confidence": "likely",
+    "sources_notes": "Based on the standard Maghrebi culinary term 'M'sir' (preserved lemons) and the grammatical structure of the passive participle in Tunisian Derja. The Hebrew spelling משייר (Msiyar) preserves the 'y' sound of the form II verb, distinguishing it from the generic Arabic 'Mkhallal' (pickles)."
+  },
+  "alternative_names": [
+    {
+      "name": "M'sir",
+      "language": "moroccan_arabic",
+      "notes": "The cognate term used in Morocco, though specifically for preserved lemons."
+    },
+    {
+      "name": "Variantes",
+      "language": "french",
+      "notes": "The common colonial French term used in modern Tunisia for mixed pickled vegetables."
+    },
+    {
+      "name": "Torchi",
+      "language": "turkish",
+      "notes": "A general term for pickles used across the former Ottoman empire, including parts of Tunisia."
+    }
+  ],
+  "similar_dishes": [
+    {
+      "name": "L'hamd M'sir",
+      "culture": "Moroccan / Maghrebi",
+      "similarity": "Uses the exact same salt-and-lemon curing method and shares the etymological root.",
+      "key_difference": "Strictly refers to whole preserved lemons, not a mixed vegetable salad."
+    },
+    {
+      "name": "Mkhallal",
+      "culture": "Middle Eastern / Levantine",
+      "similarity": "Mixed pickled vegetables served as an appetizer.",
+      "key_difference": "Usually pickled in a vinegar and water brine, whereas Msiyar relies heavily on lemon juice and salt."
+    },
+    {
+      "name": "Salade Tunisienne (Variantes)",
+      "culture": "Tunisian (General)",
+      "similarity": "The same mix of carrots and peppers.",
+      "key_difference": "Often includes vinegar and is sometimes cooked/blanched, whereas the Jewish Msiyar is often raw-cured."
+    }
+  ]
+}
