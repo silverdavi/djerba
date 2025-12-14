@@ -525,7 +525,99 @@ def render_front_matter(use_absolute: bool = False) -> str:
   </section>
 '''
     
-    return title_page + copyright_page + intro_page_1 + intro_page_2 + blank_page
+    # Page 5: Vegan Substitutions Guide - English & Hebrew
+    vegan_page_1 = '''
+  <!-- VEGAN SUBSTITUTIONS PAGE 1: ENGLISH & HEBREW -->
+  <section class="page page--intro">
+    <div class="page-inner intro-inner">
+      <div class="intro-title">Vegan Substitutions · תחליפים טבעוניים</div>
+      
+      <div class="intro-columns">
+        <div class="intro-col intro-text-en">
+          <p><strong>For Eggs:</strong></p>
+          <p><em>Ground flax + water</em> — Mix 1 tbsp ground flax with 3 tbsp water, let sit 5 minutes. Best for baking where eggs add volume and binding.</p>
+          <p><em>Applesauce</em> — Use ¼ cup per egg in cookies and cakes where egg is just another moisture source.</p>
+          <p><em>Firm tofu</em> — Crumble to replace hard-boiled eggs in salads and pies. Add kala namak (black salt) for eggy sulfur flavor.</p>
+          
+          <p><strong>For Meat & Poultry:</strong></p>
+          <p><em>TVP (Textured Vegetable Protein)</em> — Soak in hot broth. Works for any chicken or meat dish in any size pieces.</p>
+          <p><em>Seitan</em> — Wheat gluten with a chewy, meaty texture. Best for stews and roasts.</p>
+          <p><em>Mushrooms</em> — Lion's mane for chicken thighs, king oyster for scallops, maitake for pulled meat. Mycelium-based products for liver.</p>
+          
+          <p><strong>For Fish:</strong></p>
+          <p><em>Tofu + seaweed</em> — Crumbled tofu with nori or wakame for fish-like appearance and ocean flavor.</p>
+          <p><em>Yuba (tofu skin)</em> — Layered and marinated for a stringy texture similar to fish or intestine dishes.</p>
+        </div>
+        
+        <div class="intro-col intro-text-he">
+          <p><strong>תחליפי ביצים:</strong></p>
+          <p><em>פשתן טחון + מים</em> — לערבב כף פשתן טחון עם 3 כפות מים, להשהות 5 דקות. מתאים לאפייה שבה הביצים מוסיפות נפח וקישור.</p>
+          <p><em>רסק תפוחים</em> — להשתמש ברבע כוס לכל ביצה בעוגיות ועוגות שבהן הביצה היא רק עוד מקור לחות.</p>
+          <p><em>טופו מוצק</em> — לפורר להחלפת ביצים קשות בסלטים ופשטידות. להוסיף קאלה נמק (מלח שחור) לטעם גופרתי של ביצה.</p>
+          
+          <p><strong>תחליפי בשר ועוף:</strong></p>
+          <p><em>TVP (חלבון סויה מרקם)</em> — להשרות במרק חם. מתאים לכל מנת עוף או בשר בכל גודל חתיכות.</p>
+          <p><em>סייטן</em> — גלוטן חיטה עם מרקם לעיס ובשרי. הכי טוב לתבשילים וצלי.</p>
+          <p><em>פטריות</em> — ראש אריה לירכי עוף, מלך צדפות לסקאלופ, מאיטאקה לבשר קרוע. מוצרי מיצליום לכבד.</p>
+          
+          <p><strong>תחליפי דגים:</strong></p>
+          <p><em>טופו + אצות</em> — טופו מפורר עם נורי או וואקאמה למראה דגי וטעם אוקיינוס.</p>
+          <p><em>יובה (קרום טופו)</em> — שכבות מתובלות למרקם גידי דומה לדגים.</p>
+        </div>
+      </div>
+      
+      <div class="page-num">v</div>
+    </div>
+  </section>
+'''
+    
+    # Page 6: Vegan Substitutions Guide - Spanish & Arabic
+    vegan_page_2 = '''
+  <!-- VEGAN SUBSTITUTIONS PAGE 2: SPANISH & ARABIC -->
+  <section class="page page--intro">
+    <div class="page-inner intro-inner">
+      <div class="intro-title">Sustitutos Veganos · البدائل النباتية</div>
+      
+      <div class="intro-columns">
+        <div class="intro-col intro-text-es">
+          <p><strong>Para Huevos:</strong></p>
+          <p><em>Linaza molida + agua</em> — Mezcle 1 cda de linaza molida con 3 cdas de agua, deje reposar 5 minutos. Ideal para horneados donde los huevos agregan volumen.</p>
+          <p><em>Puré de manzana</em> — Use ¼ taza por huevo en galletas y pasteles donde el huevo es solo humedad.</p>
+          <p><em>Tofu firme</em> — Desmenuce para reemplazar huevos duros en ensaladas. Agregue kala namak para sabor a huevo.</p>
+          
+          <p><strong>Para Carne y Pollo:</strong></p>
+          <p><em>Proteína de soja texturizada</em> — Remoje en caldo caliente. Funciona para cualquier plato de pollo o carne.</p>
+          <p><em>Seitán</em> — Gluten de trigo con textura masticable y carnosa. Ideal para guisos y asados.</p>
+          <p><em>Hongos</em> — Melena de león para muslos, champiñones rey para vieiras, maitake para carne deshebrada.</p>
+          
+          <p><strong>Para Pescado:</strong></p>
+          <p><em>Tofu + algas</em> — Tofu desmenuzado con nori para apariencia y sabor oceánico.</p>
+          <p><em>Yuba (piel de tofu)</em> — En capas y marinada para textura fibrosa similar al pescado.</p>
+        </div>
+        
+        <div class="intro-col intro-text-ar">
+          <p><strong>بدائل البيض:</strong></p>
+          <p><em>بذور الكتان المطحونة + ماء</em> — اخلط ملعقة كتان مطحون مع 3 ملاعق ماء، اتركها 5 دقائق. مثالي للخبز.</p>
+          <p><em>صلصة التفاح</em> — استخدم ربع كوب لكل بيضة في الكعك والبسكويت.</p>
+          <p><em>التوفو المتماسك</em> — فتتها لتحل محل البيض المسلوق في السلطات. أضف كالا نمك لنكهة البيض.</p>
+          
+          <p><strong>بدائل اللحوم والدجاج:</strong></p>
+          <p><em>بروتين الصويا المركب</em> — انقعه في مرق ساخن. يعمل لأي طبق لحم أو دجاج.</p>
+          <p><em>السيتان</em> — جلوتين القمح بقوام لحمي ومطاطي. الأفضل للطواجن.</p>
+          <p><em>الفطر</em> — عرف الأسد لأفخاذ الدجاج، ملك المحار للإسكالوب، مايتاكي للحم المبشور.</p>
+          
+          <p><strong>بدائل السمك:</strong></p>
+          <p><em>التوفو + الأعشاب البحرية</em> — توفو مفتت مع نوري لمظهر ونكهة البحر.</p>
+          <p><em>اليوبا (جلد التوفو)</em> — طبقات متبلة لقوام ليفي يشبه السمك.</p>
+        </div>
+      </div>
+      
+      <div class="page-num">vi</div>
+    </div>
+  </section>
+'''
+    
+    return title_page + copyright_page + intro_page_1 + intro_page_2 + vegan_page_1 + vegan_page_2 + blank_page
 
 
 def render_table_of_contents(recipes: list[dict]) -> str:

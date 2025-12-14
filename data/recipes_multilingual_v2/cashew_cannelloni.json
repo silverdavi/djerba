@@ -1,0 +1,123 @@
+{
+  "id": "cashew_cannelloni",
+  "image": "images/current/118_cashew_cannelloni/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "30 min",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קנלוני גבינת קשיו",
+    "es": "Canelones de Queso de Anacardos",
+    "ar": "كانيلوني بجبن الكاجو",
+    "en": "Cashew Cheese Cannelloni"
+  },
+  "description": {
+    "he": "קנלוני פירושו קנים גדולים באיטלקית, תיאור המתייחס לצורת הצינור של הפסטה. גרסה טבעונית זו ממלאת אותם בגבינת קשיו קרמית מעורבבת עם תרד חלוט, ואופה אותם ברוטב עגבניות מתובל עד להזהבה ובעבוע.",
+    "es": "Cannelloni significa cañas grandes en italiano, describiendo esta pasta en forma de tubo. Esta versión vegana los rellena con un queso cremoso de anacardos mezclado con espinacas, horneados en salsa de tomate con hierbas hasta que estén dorados y burbujeantes.",
+    "ar": "كلمة كانيلوني تعني قصب كبير بالطليانية، وهكا يوصفو شكل المقرونة هذي. في الوصفة النباتية هذي، نعمروهم بجبن الكاجو المرحي مع السبانخ الذابل، ونطيبوهم في الفور مع صالصة طماطم مفوحة لين يحمارو وتولي الصالصة تبقبق.",
+    "en": "Cannelloni means large reeds in Italian, describing these tube-shaped pasta. This vegan version fills them with a creamy cashew cheese blended with wilted spinach, then bakes them in a herb-infused tomato sauce until golden and bubbling."
+  },
+  "ingredients": {
+    "he": [
+      "400 גרם אגוזי קשיו טבעיים, מושרים 4 שעות",
+      "30 מ\"ל מיץ לימון",
+      "15 גרם שמרי בירה",
+      "5 גרם מלח",
+      "2.5 גרם פלפל שחור",
+      "30 מ\"ל שמן זית",
+      "120 מ\"ל מים",
+      "300 גרם תרד טרי, חלוט וקצוץ",
+      "12 צינורות קנלוני",
+      "500 מ\"ל מחית עגבניות (פסאטה)",
+      "3 שיני שום, כתושות",
+      "15 גרם בזיליקום טרי, קצוץ",
+      "5 גרם פפריקה"
+    ],
+    "es": [
+      "400 g de anacardos crudos, remojados 4 horas",
+      "30 ml de jugo de limón",
+      "15 g de levadura nutricional",
+      "5 g de sal",
+      "2.5 g de pimienta negra",
+      "30 ml de aceite de oliva",
+      "120 ml de agua",
+      "300 g de espinacas frescas, marchitas y picadas",
+      "12 tubos de canelones",
+      "500 ml de puré de tomate (passata)",
+      "3 dientes de ajo, picados",
+      "15 g de albahaca fresca, picada",
+      "5 g de pimentón"
+    ],
+    "ar": [
+      "2.5 كيسان كاجو ني، منفخ 4 سوايع",
+      "2 مغارف عصير قارص",
+      "3 مغارف خميرة غذائية",
+      "1 مغرفة صغيرة ملح",
+      "نصف مغرفة صغيرة فلفل أكحل",
+      "2 مغارف زيت زيتونة",
+      "نصف كاس ماء",
+      "2 ربطات سبانخ، ذابل ومقصوص",
+      "12 كعبة كانيلوني",
+      "2 كيسان صالصة طماطم مرحية",
+      "3 سنون ثوم، مرحي",
+      "ربع كاس حبق، مقصوص",
+      "1 مغرفة صغيرة فلفل أحمر"
+    ],
+    "en": [
+      "2.5 cups raw cashews, soaked 4 hours",
+      "2 tbsp lemon juice",
+      "3 tbsp nutritional yeast",
+      "1 tsp salt",
+      "0.5 tsp black pepper",
+      "2 tbsp olive oil",
+      "0.5 cup water",
+      "10 oz fresh spinach, wilted and chopped",
+      "12 cannelloni tubes",
+      "2 cups tomato passata",
+      "3 cloves garlic, minced",
+      "0.25 cup fresh basil, chopped",
+      "1 tsp paprika"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים את הקשיו המושרה. טוחנים בבלנדר עם מיץ לימון, שמרי בירה, מלח, פלפל, שמן זית ומים עד לקבלת מרקם חלק וקרמי.",
+      "מאדים את התרד במחבת, סוחטים נוזלים עודפים וקוצצים דק. מערבבים עם גבינת הקשיו.",
+      "מכינים את רוטב העגבניות: מבשלים את הפסאטה עם שום, בזיליקום, פפריקה, מלח ופלפל במשך 10 דקות.",
+      "ממלאים את צינורות הקנלוני במילוי הקשיו והתרד בעזרת שק זילוף או כפית.",
+      "מפזרים מחצית מהרוטב בתבנית אפייה. מסדרים את הקנלוני הממולאים בשכבה אחת. מכסים ברוטב הנותר.",
+      "מכסים בנייר כסף ואופים ב-180 מעלות למשך 30 דקות. מסירים את הנייר ואופים 15 דקות נוספות עד להזהבה ובעבוע.",
+      "מניחים להתקרר 5 דקות לפני ההגשה. מקשטים בבזיליקום טרי."
+    ],
+    "es": [
+      "Escurrir los anacardos remojados. Licuar con el jugo de limón, la levadura nutricional, la sal, la pimienta, el aceite de oliva y el agua hasta obtener una mezcla suave y cremosa.",
+      "Marchitar las espinacas en una sartén, exprimir el exceso de agua y picar finamente. Mezclar con el queso de anacardos.",
+      "Preparar la salsa de tomate: cocinar a fuego lento la passata con ajo, albahaca, pimentón, sal y pimienta durante 10 minutos.",
+      "Rellenar los tubos de canelones con la mezcla de anacardos y espinacas usando una manga pastelera o una cuchara.",
+      "Esparcir la mitad de la salsa en una fuente para horno. Colocar los canelones rellenos en una sola capa. Cubrir con la salsa restante.",
+      "Cubrir con papel aluminio y hornear a 180°C durante 30 minutos. Retirar el papel y hornear 15 minutos más hasta que estén dorados y burbujeantes.",
+      "Dejar reposar 5 minutos antes de servir. Decorar con albahaca fresca."
+    ],
+    "ar": [
+      "نصفيو الكاجو المنفخ. نرحيوه في الخلاط مع عصير القارص، والخميرة الغذائية، والملح، والفلفل الأكحل، وزيت الزيتونة، والماء لين يولي رطب وكريمي.",
+      "نذبل السبانخ في مقلة، نعصر منو الماء الزايد، ونقصوه جويد. نخلطوه مع جبن الكاجو.",
+      "نحضرو صالصة الطماطم: نطيبو الطماطم المرحية مع الثوم، والحبق، والفلفل الأحمر، والملح والفلفل الأكحل لمدة 10 دقايق.",
+      "نعمرو كعبات الكانيلوني بحشو الكاجو والسبانخ باستعمال جيب حلواني ولا مغرفة.",
+      "نفرشو شطر الصالصة في طبق الفور. نستفو الكانيلوني المعمر بجنب بعضهم. نغطيوهم بالصالصة اللي بقات.",
+      "نغطيو الطبق بالالمنيوم ونطيبوه في 180 درجة لمدة 30 دقيقة. نحيو الالمنيوم ونزيدو نطيبوه 15 دقيقة لين يحمار ويبقبق.",
+      "نخليوه يبرد 5 دقايق قبل ما نقدموه. نزينوه بحبق فريشك."
+    ],
+    "en": [
+      "Drain soaked cashews. Blend with lemon juice, nutritional yeast, salt, pepper, olive oil, and water until smooth and creamy.",
+      "Wilt spinach in a pan, squeeze out excess water, chop finely. Mix with cashew cheese.",
+      "Prepare tomato sauce: simmer passata with garlic, basil, paprika, salt and pepper for 10 minutes.",
+      "Stuff cannelloni tubes with the cashew-spinach filling using a piping bag or spoon.",
+      "Spread half the sauce in a baking dish. Arrange stuffed cannelloni in a single layer. Cover with remaining sauce.",
+      "Cover with foil and bake at 180°C for 30 minutes. Remove foil and bake 15 more minutes until golden and bubbling.",
+      "Let rest 5 minutes before serving. Garnish with fresh basil."
+    ]
+  },
+  "index": 59
+}

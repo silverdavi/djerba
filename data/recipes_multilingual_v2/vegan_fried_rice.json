@@ -1,0 +1,99 @@
+{
+  "id": "veganfriedrice",
+  "image": "images/current/116_vegan_fried_rice/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "אורז מוקפץ טבעוני",
+    "es": "Arroz Frito Vegano con Huevo",
+    "ar": "روز مقلي نباتي",
+    "en": "Vegan Egg Fried Rice"
+  },
+  "description": {
+    "he": "אורז מוקפץ טבעוני זה משתמש בקאלה נמק, או מלח שחור הימלאי, כדי להעניק לטופו מפורר טעם ייחודי המזכיר ביצה. הסוד הוא חום גבוה, אורז קר והוספת רוטב סויה מדפנות הווק כך שהוא תוסס ומתקרמל.",
+    "es": "Este arroz frito vegano utiliza kala namak, o sal negra del Himalaya, para dar al tofu desmenuzado un sabor distintivo a huevo. La clave es el fuego alto, el arroz frío y añadir la salsa de soja por los lados del wok para que chisporrotee y caramelice.",
+    "ar": "هذا الروز المقلي النباتي يستعمل الكالا ناماك، أو الملح الأكحل، باش يعطي للطופו المفتفت بنة العظمة. السر هو النار القوية، والروز البارد، وتصب صلصة الصوجا على أجناب المقلاة باش تتشوشط وتتكرمل.",
+    "en": "This vegan fried rice uses kala namak, or Himalayan black salt, to give crumbled tofu a distinctive egg-like flavor. The key is high heat, cold rice, and adding soy sauce from the sides of the wok so it sizzles and caramelizes."
+  },
+  "ingredients": {
+    "he": [
+      "45 מ\"ל שמן צמחי",
+      "200 גרם פטריות, פרוסות",
+      "15 מ\"ל שמן שומשום",
+      "200 גרם טופו קשה, מפורר",
+      "1/2 כפית קאלה נמק (מלח שחור)",
+      "4 כוסות אורז מבושל קר (עדיף מאתמול)",
+      "45 מ\"ל רוטב סויה",
+      "3 בצלים ירוקים, קצוצים"
+    ],
+    "es": [
+      "45 ml de aceite vegetal",
+      "200 g de champiñones, laminados",
+      "15 ml de aceite de sésamo",
+      "200 g de tofu firme, desmenuzado",
+      "1/2 cucharadita de kala namak (sal negra)",
+      "4 tazas de arroz cocido frío (mejor del día anterior)",
+      "45 ml de salsa de soja",
+      "3 cebolletas, picadas"
+    ],
+    "ar": [
+      "3 مغارف زيت نباتي",
+      "200 غرام فطر، مقصوص",
+      "1 مغرفة زيت جلجلان",
+      "200 غرام طופו، مفتفت",
+      "نصف مغرفة صغيرة كالا ناماك (ملح أكحل)",
+      "4 كيسان روز طايب وبارد (من المستحسن بايت)",
+      "3 مغارف صلصة صوجا",
+      "3 بصلات خضر، مقصوصين"
+    ],
+    "en": [
+      "3 tbsp vegetable oil",
+      "7 oz mushrooms, sliced",
+      "1 tbsp sesame oil",
+      "7 oz firm tofu, crumbled",
+      "0.5 tsp kala namak (black salt)",
+      "4 cups cold cooked rice (day-old works best)",
+      "3 tbsp soy sauce",
+      "3 scallions, chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים את השמן הצמחי בווק או במחבת גדולה על להבה גבוהה ביותר עד שמעלה עשן.",
+      "מוסיפים את הפטריות ומקפיצים עד להזהבה, כ-2 דקות. מוסיפים את שמן השומשום.",
+      "מוסיפים את הטופו המפורר ואת הקאלה נמק. מקפיצים עד שהטופו מזהיב מעט, כ-2 דקות.",
+      "מוסיפים את האורז הקר ומפוררים גושים. מקפיצים במרץ.",
+      "דוחפים את האורז לצדדים, מוסיפים את רוטב הסויה למרכז הלוהט של הווק. נותנים לו לבעבע ולהתקרמל, ואז מערבבים הכל יחד.",
+      "מוסיפים את הבצל הירוק, מקפיצים עוד פעם אחת ומגישים מיד."
+    ],
+    "es": [
+      "Calentar el aceite vegetal en un wok o sartén grande a fuego muy alto hasta que humee.",
+      "Añadir los champiñones y saltear hasta que estén dorados, unos 2 minutos. Añadir el aceite de sésamo.",
+      "Incorporar el tofu desmenuzado y la sal kala namak. Saltear hasta que el tofu esté ligeramente dorado, unos 2 minutos.",
+      "Añadir el arroz frío, rompiendo los grumos. Saltear vigorosamente.",
+      "Empujar el arroz hacia los lados, añadir la salsa de soja en el centro caliente del wok. Dejar que chisporrotee y caramelice, luego mezclar todo.",
+      "Añadir las cebolletas, dar una vuelta más y servir inmediatamente."
+    ],
+    "ar": [
+      "سخّن الزيت النباتي في مقلاة غارقة (wok) على نار قوية برشة لين يبدا يخرج الدخان.",
+      "زيد الفطر وقلّي لين يصفار، حكاية دقيقتين. زيد زيت الجلجلان.",
+      "زيد الطופו المفتفت والكالا ناماك. قلّي لين الطופו يصفار شوية، حكاية دقيقتين.",
+      "زيد الروز البارد، وحل كعابر الروز كان فمة. قلّي وحرّك بالباهي.",
+      "جبّد الروز للأجناب، وصب صلصة الصوجا في الوسط السخون متاع المقلاة. خليها تتشوشط وتتكرمل، ومبعد خلّط الكل مع بعضو.",
+      "زيد البصل الأخضر، خلّط تخليطة أخرى وقدمو ديريكت."
+    ],
+    "en": [
+      "Heat vegetable oil in a wok or large pan on the highest heat setting until smoking.",
+      "Add mushrooms and stir-fry until golden, about 2 minutes. Add sesame oil.",
+      "Add crumbled tofu and kala namak. Stir-fry until tofu is slightly golden, about 2 minutes.",
+      "Add cold rice, breaking up any clumps. Stir-fry vigorously.",
+      "Push rice to the sides, add soy sauce to the hot center of the wok. Let it sizzle and caramelize, then mix through.",
+      "Add scallions, toss once more, and serve immediately."
+    ]
+  },
+  "index": 42
+}

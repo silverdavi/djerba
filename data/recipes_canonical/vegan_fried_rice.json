@@ -1,0 +1,86 @@
+{
+  "id": "vegan_fried_rice",
+  "slug": "vegan-fried-rice",
+  "source_file": "manual",
+  "name": "Vegan Egg Fried Rice",
+  "name_hebrew": "אורז מוקפץ טבעוני",
+  "name_origin": "Fried rice originated in China as a way to use leftover rice. This version uses kala namak (black salt) to give tofu an eggy flavor.",
+  "description": "Quick and flavorful fried rice with crispy tofu, mushrooms, and the distinctive sulfurous taste of kala namak that mimics eggs.",
+  "cultural_context": "A modern fusion dish that brings Asian flavors to the plant-based kitchen, using traditional techniques with vegan ingredients.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Kala namak (Himalayan black salt) gives the tofu a distinctive egg-like sulfur flavor.",
+  "intro_paragraph": "This vegan fried rice uses kala namak, or Himalayan black salt, to give crumbled tofu a distinctive egg-like flavor. The key is high heat, cold rice, and adding soy sauce from the sides of the wok so it sizzles and caramelizes.",
+  "meta": {
+    "servings": "4",
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 20,
+    "difficulty": "easy"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "name": "Mushrooms",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "sesame_oil",
+      "name": "Sesame oil",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "tofu",
+      "name": "Firm tofu",
+      "amount": 200,
+      "unit": "g",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "kala_namak",
+      "name": "Kala namak (black salt)",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "rice",
+      "name": "Cold cooked rice",
+      "amount": 4,
+      "unit": "cups",
+      "notes": "day-old rice works best"
+    },
+    {
+      "ingredient_id": "soy_sauce",
+      "name": "Soy sauce",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "scallions",
+      "name": "Scallions",
+      "amount": 3,
+      "unit": "stalks",
+      "preparation": "chopped"
+    }
+  ],
+  "steps": [
+    "Heat vegetable oil in a wok or large pan on the highest heat setting until smoking.",
+    "Add mushrooms and stir-fry until golden, about 2 minutes. Add sesame oil.",
+    "Add crumbled tofu and kala namak. Stir-fry until tofu is slightly golden, about 2 minutes.",
+    "Add cold rice, breaking up any clumps. Stir-fry vigorously.",
+    "Push rice to the sides, add soy sauce to the hot center of the wok. Let it sizzle and caramelize, then mix through.",
+    "Add scallions, toss once more, and serve immediately."
+  ],
+  "image": {
+    "filename": "images/current/116_vegan_fried_rice/dish.png",
+    "generation_prompt": "A rustic ceramic bowl filled with steaming Vegan Egg Fried Rice. The rice is golden from soy sauce with visible pieces of crispy tofu, sliced mushrooms, and bright green scallion rings scattered throughout. Wisps of steam rise from the hot dish. The bowl sits on a dark wooden table in an early 1900s Safed stone kitchen. A pair of wooden chopsticks rest beside the bowl. Soft natural light highlights the glistening grains. The atmosphere blends Asian culinary tradition with the historic setting."
+  }
+}

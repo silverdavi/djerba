@@ -1,0 +1,117 @@
+{
+  "id": "cashew_cannelloni",
+  "slug": "cashew-cannelloni",
+  "source_file": "manual",
+  "name": "Cashew Cheese Cannelloni",
+  "name_hebrew": "קנלוני גבינת קשיו",
+  "name_origin": "Cannelloni is Italian for 'large reeds', describing the tube-shaped pasta. This vegan version uses cashew-based ricotta.",
+  "description": "Pasta tubes filled with creamy cashew cheese and spinach, baked in a rich tomato sauce until golden and bubbly.",
+  "cultural_context": "A modern plant-based adaptation of the Italian classic, bringing the comfort of baked pasta to the kosher pareve table.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Cashews replace ricotta cheese. Nutritional yeast adds cheesy umami flavor.",
+  "intro_paragraph": "Cannelloni means 'large reeds' in Italian, describing these tube-shaped pasta. This vegan version fills them with a creamy cashew cheese blended with wilted spinach, then bakes them in a herb-infused tomato sauce until golden and bubbling.",
+  "meta": {
+    "servings": "4-6",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 75,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cashews",
+      "name": "Raw cashews",
+      "amount": 400,
+      "unit": "g",
+      "preparation": "soaked 4 hours"
+    },
+    {
+      "ingredient_id": "lemon_juice",
+      "name": "Lemon juice",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "nutritional_yeast",
+      "name": "Nutritional yeast",
+      "amount": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "black_pepper",
+      "name": "Black pepper",
+      "amount": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "olive_oil",
+      "name": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "spinach",
+      "name": "Fresh spinach",
+      "amount": 300,
+      "unit": "g",
+      "preparation": "wilted and chopped"
+    },
+    {
+      "ingredient_id": "cannelloni",
+      "name": "Cannelloni tubes",
+      "amount": 12,
+      "unit": "tubes"
+    },
+    {
+      "ingredient_id": "tomato_sauce",
+      "name": "Tomato passata",
+      "amount": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "garlic",
+      "name": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "basil",
+      "name": "Fresh basil",
+      "amount": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "paprika",
+      "name": "Paprika",
+      "amount": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    "Drain soaked cashews. Blend with lemon juice, nutritional yeast, salt, pepper, olive oil, and water until smooth and creamy.",
+    "Wilt spinach in a pan, squeeze out excess water, chop finely. Mix with cashew cheese.",
+    "Prepare tomato sauce: simmer passata with garlic, basil, paprika, salt and pepper for 10 minutes.",
+    "Stuff cannelloni tubes with the cashew-spinach filling using a piping bag or spoon.",
+    "Spread half the sauce in a baking dish. Arrange stuffed cannelloni in a single layer. Cover with remaining sauce.",
+    "Cover with foil and bake at 180°C for 30 minutes. Remove foil and bake 15 more minutes until golden and bubbling.",
+    "Let rest 5 minutes before serving. Garnish with fresh basil."
+  ],
+  "image": {
+    "filename": "images/current/118_cashew_cannelloni/dish.png",
+    "generation_prompt": "A rustic baking dish of golden Cashew Cheese Cannelloni fresh from the oven. The pasta tubes are visible under a bubbly, slightly charred tomato sauce with bright green basil leaves. Creamy white cashew filling peeks from the ends of the tubes. The dish sits on a worn wooden table in an early 1900s Safed stone kitchen. Soft natural light highlights the steam rising from the hot pasta. A vintage silver serving spoon rests beside the dish. The atmosphere is warm and inviting."
+  }
+}

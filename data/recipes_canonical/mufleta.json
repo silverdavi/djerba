@@ -1,0 +1,71 @@
+{
+  "id": "mufleta",
+  "slug": "mufleta",
+  "source_file": "manual",
+  "name": "Mufleta",
+  "name_hebrew": "מופלטה",
+  "name_origin": "Mufleta comes from the Moroccan Arabic word for 'folded', describing these thin, layered crepes traditionally served during Mimouna, the celebration at the end of Passover.",
+  "description": "Thin, layered Moroccan crepes traditionally served during Mimouna with butter and honey. The dough is soft and sticky, rolled into balls, then stretched paper-thin and fried in a stack.",
+  "cultural_context": "Mufleta is the centerpiece of Mimouna, the Moroccan Jewish celebration marking the end of Passover. Neighbors visit each other's homes to taste each family's mufleta.",
+  "is_vegan": true,
+  "vegan_adaptation_notes": "Naturally vegan dough. Serve with vegan butter and date honey instead of dairy butter.",
+  "intro_paragraph": "Mufleta are thin, layered Moroccan crepes served during Mimouna, the joyous celebration marking the end of Passover. The name comes from Moroccan Arabic for 'folded'. These delicate, stretchy crepes are fried in a unique stacking method and traditionally served warm with butter and honey.",
+  "meta": {
+    "servings": "12-15 crepes",
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 50,
+    "difficulty": "medium"
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "name": "All-purpose flour",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "water",
+      "name": "Water",
+      "amount": 310,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sugar",
+      "name": "Sugar",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "salt",
+      "name": "Salt",
+      "amount": 0.5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "yeast",
+      "name": "Dry yeast",
+      "amount": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vegetable_oil",
+      "name": "Vegetable oil",
+      "amount": 0.5,
+      "unit": "cup",
+      "notes": "for coating"
+    }
+  ],
+  "steps": [
+    "Mix all dough ingredients in a stand mixer with a dough hook until smooth. The dough should be soft and sticky - add more water if dry. Rest 15 minutes at room temperature.",
+    "Form ping-pong sized balls and rest another 15 minutes. Place balls in a bowl with oil to coat.",
+    "Take one ball at a time and stretch with oiled hands on an oiled surface to a thin circle about 25cm diameter.",
+    "Heat an oiled pan on high heat. Place first mufleta and fry until golden. Meanwhile stretch the next one.",
+    "When the bottom is golden, flip it so golden side faces up. Place the next stretched mufleta on top. Fry a few seconds, then flip the whole stack. Continue this stacking method.",
+    "Serve warm with vegan butter and date honey or maple syrup."
+  ],
+  "image": {
+    "filename": "images/current/117_mufleta/dish.png",
+    "generation_prompt": "A rustic stack of golden Mufleta crepes on a hand-painted Moroccan ceramic plate. The thin, layered crepes glisten with oil and show beautiful golden-brown spots from frying. A small bowl of golden date honey and a dish of soft vegan butter sit nearby. The setting is an early 1900s Safed stone kitchen with rough limestone walls. Soft morning light streams through an arched window, illuminating the delicate layers of the crepes. Fresh mint leaves garnish the scene. The atmosphere evokes the joy of Mimouna celebration."
+  }
+}

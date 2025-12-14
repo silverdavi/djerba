@@ -1,0 +1,91 @@
+{
+  "id": "mufleta",
+  "image": "images/current/117_mufleta/dish.png",
+  "meta": {
+    "servings": "12-15 crepes",
+    "prep_time": "30 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מופלטה",
+    "es": "Mufleta",
+    "ar": "موفليطا",
+    "en": "Mufleta"
+  },
+  "description": {
+    "he": "המופלטה היא חביתית מרוקאית דקה ושכבתית המוגשת במימונה, החגיגה המשמחת בסיום חג הפסח. השם מגיע מהערבית המרוקאית למילה מקופלת. חביתיות עדינות וגמישות אלו מטוגנות בשיטת ערימה ייחודית ומוגשות באופן מסורתי חמות עם חמאה ודבש.",
+    "es": "La Mufleta son crepes marroquíes finas y en capas que se sirven durante la Mimouna, la alegre celebración que marca el final de la Pascua. El nombre proviene del árabe marroquí para doblado. Estas crepes delicadas y elásticas se fríen con un método de apilamiento único y se sirven tradicionalmente calientes con mantequilla y miel.",
+    "ar": "الموفليطا هي ورقة رقيقة ومورقة من التراث المغربي، تتقدم في الميمونة، الفرحة اللي تجي بعد عيد الفصح. اسمها جاي من الكلمة العربية مفلطحة أو مطوية. هاد الورقات الرهاف والمجبدين يتقلاو بطريقة خاصة وحدة فوق وحدة، ويتقدمو سخونين مع الزبدة والعسل.",
+    "en": "Mufleta are thin, layered Moroccan crepes served during Mimouna, the joyous celebration marking the end of Passover. The name comes from Moroccan Arabic for folded. These delicate, stretchy crepes are fried in a unique stacking method and traditionally served warm with butter and honey."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם קמח רגיל",
+      "310 מ\"ל מים",
+      "1 כף סוכר",
+      "1/2 כף מלח",
+      "1 כף שמרים יבשים",
+      "120 מ\"ל שמן צמחי (לציפוי)"
+    ],
+    "es": [
+      "500 g de harina común",
+      "310 ml de agua",
+      "1 cucharada de azúcar",
+      "1/2 cucharada de sal",
+      "1 cucharada de levadura seca",
+      "120 ml de aceite vegetal (para cubrir)"
+    ],
+    "ar": [
+      "3.5 كيسان فرينة",
+      "1.25 كاس ماء",
+      "1 مغرفة سكر",
+      "1/2 مغرفة ملح",
+      "1 مغرفة خميرة خبز",
+      "1/2 كاس زيت (للدهن)"
+    ],
+    "en": [
+      "3.5 cups all-purpose flour",
+      "1.25 cups water",
+      "1 tbsp sugar",
+      "0.5 tbsp salt",
+      "1 tbsp dry yeast",
+      "0.5 cup vegetable oil (for coating)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מערבבים את כל חומרי הבצק במיקסר עם וו לישה עד לקבלת תערובת חלקה. הבצק צריך להיות רך ודביק - הוסיפו עוד מים אם הוא יבש. מניחים למנוחה של 15 דקות בטמפרטורת החדר.",
+      "יוצרים כדורים בגודל פינג-פונג ומניחים למנוחה נוספת של 15 דקות. מניחים את הכדורים בקערה עם שמן לציפוי.",
+      "לוקחים כדור אחד בכל פעם ומותחים בידיים משומנות על משטח משומן לעיגול דק בקוטר של כ-25 ס\"מ.",
+      "מחממים מחבת משומנת על אש גבוהה. מניחים את המופלטה הראשונה ומטגנים עד להזהבה. בינתיים מותחים את המופלטה הבאה.",
+      "כשהצד התחתון זהוב, הופכים כך שהצד הזהוב פונה מעלה. מניחים את המופלטה המתוחה הבאה מעל. מטגנים כמה שניות, ואז הופכים את כל הערימה. ממשיכים בשיטת הערימה הזו.",
+      "מגישים חם עם חמאה טבעונית ודבש תמרים או סירופ מייפל."
+    ],
+    "es": [
+      "Mezcle todos los ingredientes de la masa en una batidora con gancho para masa hasta que quede suave. La masa debe ser suave y pegajosa; agregue más agua si está seca. Deje reposar 15 minutos a temperatura ambiente.",
+      "Forme bolas del tamaño de una pelota de ping-pong y deje reposar otros 15 minutos. Coloque las bolas en un bol con aceite para cubrirlas.",
+      "Tome una bola a la vez y estírela con las manos aceitadas sobre una superficie aceitada hasta formar un círculo fino de unos 25 cm de diámetro.",
+      "Caliente una sartén aceitada a fuego alto. Coloque la primera Mufleta y fría hasta que esté dorada. Mientras tanto, estire la siguiente.",
+      "Cuando la parte inferior esté dorada, dele la vuelta para que el lado dorado quede hacia arriba. Coloque la siguiente Mufleta estirada encima. Fría unos segundos y luego voltee toda la pila. Continúe con este método de apilamiento.",
+      "Sirva caliente con mantequilla vegana y miel de dátiles o jarabe de arce."
+    ],
+    "ar": [
+      "خلط كل مكونات العجينة في العجانة حتى تولي رطبة. العجينة لازم تكون طرية وتتلصق - زيد الماء كان جات شايحة. خليها ترتاح 15 دقيقة.",
+      "كعبر العجينة كعابر صغار قد البينق بونق وخليهم يرتاحو 15 دقيقة اخرى. حط الكعابر في صحفة مع الزيت باش يتغلفو مليح.",
+      "خوذ بالكعبورة وحلها بيدك مدهونة بالزيت فوق رخامة مدهونة حتى تولي ورقة رهيفة مدورة (تقريبا 25 صم).",
+      "سخن طاجين أو مقلة مدهونة بالزيت. حط الموفليطا الأولى واقليها حتى تحمار شوية. في نفس الوقت حل الكعبة اللي بعدها.",
+      "كيف تحمار من لوطة، اقلبها. حط الموفليطا الثانية فوق الجهة المحمرة. اقلي ثواني، ومبعد اقلب العرمة الكل. كمل هكاك وحدة فوق وحدة.",
+      "قدمها سخونة مع زبدة وعسل تمر ولا شحور."
+    ],
+    "en": [
+      "Mix all dough ingredients in a stand mixer with a dough hook until smooth. The dough should be soft and sticky - add more water if dry. Rest 15 minutes at room temperature.",
+      "Form ping-pong sized balls and rest another 15 minutes. Place balls in a bowl with oil to coat.",
+      "Take one ball at a time and stretch with oiled hands on an oiled surface to a thin circle about 25cm diameter.",
+      "Heat an oiled pan on high heat. Place first mufleta and fry until golden. Meanwhile stretch the next one.",
+      "When the bottom is golden, flip it so golden side faces up. Place the next stretched mufleta on top. Fry a few seconds, then flip the whole stack. Continue this stacking method.",
+      "Serve warm with vegan butter and date honey or maple syrup."
+    ]
+  },
+  "index": 65
+}

@@ -860,6 +860,25 @@
       ]
     },
     {
+      "id": "veganfriedrice",
+      "names": {
+        "he": "אורז מוקפץ טבעוני",
+        "es": "Arroz Frito Vegano con Huevo",
+        "ar": "روز مقلي نباتي",
+        "en": "Vegan Egg Fried Rice"
+      },
+      "ingredients": [
+        "3 tbsp vegetable oil",
+        "7 oz mushrooms, sliced",
+        "1 tbsp sesame oil",
+        "7 oz firm tofu, crumbled",
+        "0.5 tsp kala namak (black salt)",
+        "4 cups cold cooked rice (day-old works best)",
+        "3 tbsp soy sauce",
+        "3 scallions, chopped"
+      ]
+    },
+    {
       "id": "humus_salad",
       "names": {
         "he": "סלט חומוס",
@@ -1178,6 +1197,30 @@
       ]
     },
     {
+      "id": "cashew_cannelloni",
+      "names": {
+        "he": "קנלוני גבינת קשיו",
+        "es": "Canelones de Queso de Anacardos",
+        "ar": "كانيلوني بجبن الكاجو",
+        "en": "Cashew Cheese Cannelloni"
+      },
+      "ingredients": [
+        "2.5 cups raw cashews, soaked 4 hours",
+        "2 tbsp lemon juice",
+        "3 tbsp nutritional yeast",
+        "1 tsp salt",
+        "0.5 tsp black pepper",
+        "2 tbsp olive oil",
+        "0.5 cup water",
+        "10 oz fresh spinach, wilted and chopped",
+        "12 cannelloni tubes",
+        "2 cups tomato passata",
+        "3 cloves garlic, minced",
+        "0.25 cup fresh basil, chopped",
+        "1 tsp paprika"
+      ]
+    },
+    {
       "id": "pancakes_soly",
       "names": {
         "he": "פנקייק סולי",
@@ -1272,6 +1315,23 @@
         "1 liter vegetable oil (for frying)",
         "3/4 cup strawberry jam",
         "1/2 cup powdered sugar"
+      ]
+    },
+    {
+      "id": "mufleta",
+      "names": {
+        "he": "מופלטה",
+        "es": "Mufleta",
+        "ar": "موفليطا",
+        "en": "Mufleta"
+      },
+      "ingredients": [
+        "3.5 cups all-purpose flour",
+        "1.25 cups water",
+        "1 tbsp sugar",
+        "0.5 tbsp salt",
+        "1 tbsp dry yeast",
+        "0.5 cup vegetable oil (for coating)"
       ]
     },
     {
