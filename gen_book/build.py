@@ -24,6 +24,7 @@ INGREDIENTS_DIR = IMAGES_DIR / "ingredients" / "final"
 INGREDIENTS_MATRIX = ROOT / "recipes_ingredients_matrix.csv"
 OUTPUT_WEB = ROOT / "gen_book" / "output" / "web"
 OUTPUT_PRINT = ROOT / "gen_book" / "output" / "print"
+OUTPUT_PRINT_BLEED = ROOT / "gen_book" / "output" / "print-bleed"
 OUTPUT_FLIPBOOK = ROOT / "gen_book" / "flipbook"
 CSS_FILE = ROOT / "gen_book" / "cookbook.css"
 
@@ -1235,6 +1236,285 @@ def build_pdf(num_recipes: int = 0) -> None:
         raise
 
 
+def get_bleed_css() -> str:
+    """
+    Generate CSS for 8.5x8.5 bleed print version.
+    
+    Features:
+    - Page size: 8.5in x 8.5in
+    - Background fills entire page (including bleed areas)
+    - Verso (left/even pages): content padding on RIGHT side (+0.5in for spine)
+    - Recto (right/odd pages): content padding on LEFT side (+0.5in for spine)
+    - Content shifted to TOP, leaving 0.5in extra at BOTTOM
+    - Page numbers positioned at bottom of full page (in bleed area)
+    """
+    return '''
+/* 8.5x8.5 BLEED PRINT - Page positioning rules */
+@page {
+  size: 8.5in 8.5in;
+  margin: 0;
+}
+
+body.print-bleed {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+body.print-bleed .book {
+  display: block;
+}
+
+/* Page fills entire 8.5x8.5 area so background extends to edges */
+body.print-bleed .page {
+  width: 8.5in;
+  height: 8.5in;
+  box-shadow: none;
+  margin: 0;
+}
+
+/* Page inner adjusts padding based on verso/recto
+   We use CSS classes added by the HTML generator */
+body.print-bleed .page .page-inner {
+  /* Default padding - will be overridden by recto/verso classes */
+  padding: 0.4in 0.5in 0.9in 0.5in; /* top right bottom left - extra bottom for bleed */
+}
+
+/* Recto pages (odd): spine on LEFT, so extra padding on left */
+body.print-bleed .page.page--recto .page-inner {
+  padding: 0.4in 0.5in 0.9in 1.0in; /* top right bottom left */
+}
+
+/* Verso pages (even): spine on RIGHT, so extra padding on right */
+body.print-bleed .page.page--verso .page-inner {
+  padding: 0.4in 1.0in 0.9in 0.5in; /* top right bottom left */
+}
+
+/* Page numbers stay at absolute bottom of the full 8.5x8.5 page */
+body.print-bleed .page .page-num {
+  bottom: 0.25in; /* Position in the bleed area at very bottom */
+}
+
+/* For verso (left pages), page number on left side */
+body.print-bleed .page.page--verso .page-num {
+  right: auto;
+  left: 0.35in;
+}
+
+/* For recto (right pages), page number on right side */
+body.print-bleed .page.page--recto .page-num {
+  left: auto;
+  right: 0.35in;
+}
+
+/* Fix two-column layout positioning for bleed mode
+   The .two-col uses absolute positioning, so we need to adjust its insets
+   to account for the spine margin (0.5" extra on spine side) */
+
+/* Recto pages (spine on LEFT): push content RIGHT (away from spine) */
+body.print-bleed .page.page--recto .two-col {
+  top: 0;
+  left: 0.5in;   /* Extra 0.5" from spine (left edge) */
+  right: 0;      /* Flush to outer edge (right) */
+  bottom: 0.5in; /* Extra 0.5" at bottom */
+}
+
+/* Verso pages (spine on RIGHT): push content LEFT (away from spine) */
+body.print-bleed .page.page--verso .two-col {
+  top: 0;
+  left: 0;       /* Flush to outer edge (left) */
+  right: 0.5in;  /* Extra 0.5" from spine (right edge) */
+  bottom: 0.5in; /* Extra 0.5" at bottom */
+}
+
+/* Also fix the page-inner for non-two-col pages (title, description pages) */
+body.print-bleed .page.page--recto .page-inner {
+  padding: 0.4in 0.5in 0.9in 1.0in; /* top right bottom left - extra on left (spine) */
+}
+
+body.print-bleed .page.page--verso .page-inner {
+  padding: 0.4in 1.0in 0.9in 0.5in; /* top right bottom left - extra on right (spine) */
+}
+
+/* Image pages - image fills entire 8.5x8.5 page (full bleed) */
+body.print-bleed .page--image .page-inner {
+  padding: 0;
+}
+
+body.print-bleed .page--image.page--recto .page-inner,
+body.print-bleed .page--image.page--verso .page-inner {
+  padding: 0; /* No padding - image fills entire page */
+}
+
+body.print-bleed .page--image .hero-image {
+  width: 8.5in;
+  height: 8.5in;
+  object-fit: cover;
+}
+
+/* Page number on image pages stays at bottom in bleed area */
+body.print-bleed .page--image .page-num {
+  bottom: 0.25in;
+  color: rgba(255, 255, 255, 0.8); /* White text over image */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+'''
+
+
+def add_recto_verso_classes(html_content: str) -> str:
+    """
+    Post-process HTML to add page--recto and page--verso classes to each page section.
+    
+    Physical page 1, 3, 5... (odd) = recto (right-hand page)
+    Physical page 2, 4, 6... (even) = verso (left-hand page)
+    """
+    import re
+    
+    page_count = [0]  # Use list to allow modification in nested function
+    
+    def replace_page_class(match):
+        page_count[0] += 1
+        existing_classes = match.group(1)
+        # Odd physical pages are recto (right), even are verso (left)
+        position_class = "page--recto" if page_count[0] % 2 == 1 else "page--verso"
+        return f'<section class="page {position_class}{existing_classes}"'
+    
+    # Match <section class="page" or <section class="page page--something"
+    # Capture any additional classes after "page"
+    pattern = r'<section class="page([^"]*)"'
+    result = re.sub(pattern, replace_page_class, html_content)
+    
+    return result
+
+
+def render_html_bleed(recipes: list[dict], css_content: str, image_base_path: str = "", use_absolute: bool = True) -> str:
+    """
+    Render complete HTML document for 8.5x8.5 bleed print.
+    
+    Key differences from standard print:
+    - Adds blank page before physical page 11 so recipes start on page 12 (verso)
+    - Uses body.print-bleed class for special styling
+    - Includes bleed CSS for @page :left/:right margins
+    - Adds page--recto/page--verso classes for proper margin handling
+    """
+    # Render front matter (title, copyright, intro, vegan guides, blank)
+    front_matter = render_front_matter(use_absolute=use_absolute)
+    
+    # Render table of contents
+    toc = render_table_of_contents(recipes)
+    
+    # Count front matter pages to determine where to insert blank
+    # Front matter: title(1) + copyright(1) + intro1(1) + intro2(1) + vegan1(1) + vegan2(1) + blank(1) = 7 pages
+    front_matter_pages = 7
+    
+    # Count TOC pages (30 recipes per page)
+    toc_pages = (len(recipes) + 29) // 30
+    
+    # Total pages before recipes
+    pages_before_recipes = front_matter_pages + toc_pages
+    
+    # We want recipes to start on physical page 12 (an even/verso page)
+    # If pages_before_recipes is odd (e.g., 10), recipes start on odd page 11
+    # We need to add a blank to make it even (11), so recipes start on page 12
+    blank_page_before_recipes = ""
+    if pages_before_recipes % 2 == 0:
+        # Even number of pages before recipes means recipes would start on odd page
+        # Add a blank to shift recipes to even page
+        blank_page_before_recipes = '''
+  <!-- BLANK PAGE (to ensure recipes start on verso/left page 12) -->
+  <section class="page page--blank">
+    <div class="page-inner"></div>
+  </section>
+'''
+    
+    recipe_html_parts = []
+    page_num = 1  # Recipes start at page 1 (front matter uses roman numerals)
+    
+    for chapter_index, recipe in enumerate(recipes, start=1):
+        image_path = get_image_path(recipe, image_base_path, use_absolute=use_absolute)
+        recipe_html_parts.append(render_recipe(recipe, page_num, image_path, use_absolute, chapter_index))
+        page_num += 4  # Each recipe is 4 pages
+    
+    recipes_html = front_matter + toc + blank_page_before_recipes + "\n".join(recipe_html_parts)
+    
+    # Add recto/verso classes to all pages
+    recipes_html = add_recto_verso_classes(recipes_html)
+    
+    # Combine base CSS with bleed CSS
+    full_css = css_content + "\n" + get_bleed_css()
+    
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Four-Language Cookbook (8.5x8.5 Bleed Print)</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+{full_css}
+</style>
+</head>
+<body class="print-bleed">
+
+<div class="book">
+{recipes_html}
+</div>
+
+</body>
+</html>
+'''
+
+
+def build_print_bleed(recipes: list[dict], css_content: str) -> None:
+    """Build 8.5x8.5 bleed print version HTML."""
+    OUTPUT_PRINT_BLEED.mkdir(parents=True, exist_ok=True)
+    
+    # Use absolute paths for images in print version
+    html_content = render_html_bleed(recipes, css_content, image_base_path="", use_absolute=True)
+    
+    output_path = OUTPUT_PRINT_BLEED / "full-cookbook-bleed.html"
+    output_path.write_text(html_content, encoding="utf-8")
+    print(f"  ✓ full-cookbook-bleed.html")
+
+
+def build_pdf_bleed(num_recipes: int = 0) -> None:
+    """Generate 8.5x8.5 bleed PDF from HTML using WeasyPrint."""
+    try:
+        from weasyprint import HTML
+    except ImportError:
+        print("  ⚠ WeasyPrint not installed. Run: pip install weasyprint")
+        print("    Skipping bleed PDF generation.")
+        return
+    
+    html_path = OUTPUT_PRINT_BLEED / "full-cookbook-bleed.html"
+    pdf_path = OUTPUT_PRINT_BLEED / "full-cookbook-bleed.pdf"
+    
+    if not html_path.exists():
+        print("  ⚠ full-cookbook-bleed.html not found. Build print-bleed first.")
+        return
+    
+    print("  Generating 8.5x8.5 bleed PDF (this may take a moment)...")
+    if num_recipes > 0:
+        # Extra page for the blank before recipes
+        extra_pages = 1
+        total_pages = 7 + ((num_recipes + 29) // 30) + extra_pages + (num_recipes * 4)
+        print(f"    Processing {num_recipes} recipes (~{total_pages} pages)...")
+        print("    (WeasyPrint is working, please wait...)")
+    import sys
+    sys.stdout.flush()  # Force output
+    
+    try:
+        HTML(filename=str(html_path)).write_pdf(str(pdf_path))
+        print(f"  ✓ full-cookbook-bleed.pdf ({pdf_path.stat().st_size / 1024 / 1024:.1f} MB)")
+    except Exception as e:
+        print(f"  ❌ Bleed PDF generation failed: {e}")
+        raise
+
+
 def build_flipbook_index(recipes: list[dict]) -> None:
     """Build search index JSON for flipbook."""
     OUTPUT_FLIPBOOK.mkdir(parents=True, exist_ok=True)
@@ -1284,13 +1564,21 @@ def main():
     print("\nBuilding web pages...")
     build_web(recipes, css_content)
     
-    # Build print
-    print("\nBuilding print version...")
+    # Build print (8x8)
+    print("\nBuilding print version (8x8)...")
     build_print(recipes, css_content)
     
-    # Build PDF
-    print("\nBuilding PDF...")
+    # Build PDF (8x8)
+    print("\nBuilding PDF (8x8)...")
     build_pdf(len(recipes))
+    
+    # Build print bleed (8.5x8.5)
+    print("\nBuilding print version (8.5x8.5 bleed)...")
+    build_print_bleed(recipes, css_content)
+    
+    # Build PDF bleed (8.5x8.5)
+    print("\nBuilding PDF (8.5x8.5 bleed)...")
+    build_pdf_bleed(len(recipes))
     
     # Build flipbook search index
     print("\nBuilding flipbook search index...")
@@ -1298,38 +1586,61 @@ def main():
     
     print("\n" + "=" * 40)
     print("Build complete!")
-    print(f"  Web:      {OUTPUT_WEB}/")
-    print(f"  Print:    {OUTPUT_PRINT}/")
-    print(f"  Flipbook: {OUTPUT_FLIPBOOK}/")
+    print(f"  Web:         {OUTPUT_WEB}/")
+    print(f"  Print:       {OUTPUT_PRINT}/")
+    print(f"  Print Bleed: {OUTPUT_PRINT_BLEED}/")
+    print(f"  Flipbook:    {OUTPUT_FLIPBOOK}/")
 
 
 if __name__ == "__main__":
     import sys
     web_only = "--web-only" in sys.argv
+    bleed_only = "--bleed-only" in sys.argv
+    print_only = "--print-only" in sys.argv
     
     print("Four-Language Cookbook Builder")
     print("=" * 40)
+    print("Options:")
+    print("  --web-only    : Build only web pages")
+    print("  --print-only  : Build only 8x8 print PDF")
+    print("  --bleed-only  : Build only 8.5x8.5 bleed PDF")
+    print("  (no options)  : Build everything")
+    print()
     
     css_content = CSS_FILE.read_text(encoding="utf-8")
     recipes = load_all_recipes()
-    print(f"\nFound {len(recipes)} recipe(s)")
+    print(f"Found {len(recipes)} recipe(s)")
     
     if not recipes:
         print("No recipes found.")
         sys.exit(1)
     
-    print("\nBuilding web pages...")
-    build_web(recipes, css_content)
+    # Build web (unless only print or bleed requested)
+    if not print_only and not bleed_only:
+        print("\nBuilding web pages...")
+        build_web(recipes, css_content)
     
-    if not web_only:
-        print("\nBuilding print version...")
+    # Build 8x8 print (unless web-only or bleed-only)
+    if not web_only and not bleed_only:
+        print("\nBuilding print version (8x8)...")
         build_print(recipes, css_content)
-        print("\nBuilding PDF...")
+        print("\nBuilding PDF (8x8)...")
         build_pdf(len(recipes))
     
-    print("\nBuilding flipbook search index...")
-    build_flipbook_index(recipes)
+    # Build 8.5x8.5 bleed print (unless web-only or print-only)
+    if not web_only and not print_only:
+        print("\nBuilding print version (8.5x8.5 bleed)...")
+        build_print_bleed(recipes, css_content)
+        print("\nBuilding PDF (8.5x8.5 bleed)...")
+        build_pdf_bleed(len(recipes))
+    
+    # Build flipbook search index (unless only print requested)
+    if not print_only and not bleed_only:
+        print("\nBuilding flipbook search index...")
+        build_flipbook_index(recipes)
     
     print("\n" + "=" * 40)
     print("Build complete!")
+    if not web_only and not print_only:
+        print(f"  Print Bleed: {OUTPUT_PRINT_BLEED}/")
 
