@@ -86,13 +86,36 @@
 };
 
 % ========================================
-% SPINE (8.125 to 8.825)
+% SPINE (8.125 to 8.825) - 0.7" wide
 % ========================================
 \fill[accent] (8.125, 0) rectangle (8.825, 8.25);
 
-\node[rotate=90, text=bgpage] at (8.475, 4.125) {
+% Decorative lines on spine
+\draw[bgpage, line width=0.5pt] (8.125, 0.3) -- (8.825, 0.3);
+\draw[bgpage, line width=0.5pt] (8.125, 7.95) -- (8.825, 7.95);
+
+% Main title on spine
+\node[rotate=90, text=bgpage] at (8.475, 5.5) {
+  \titlefont\fontsize{14pt}{14pt}\selectfont\bfseries
+  Oriented Kitchen
+};
+
+% Hebrew title on spine
+\node[rotate=90, text=bgpage] at (8.475, 4.1) {
+  \fontsize{13pt}{13pt}\selectfont
+  \heb{מטבח מצפון}
+};
+
+% Authors on spine
+\node[rotate=90, text=bgpage] at (8.475, 2.5) {
   \fontsize{11pt}{11pt}\selectfont
-  {\titlefont\bfseries Oriented Kitchen} \hspace{0.5em} \heb{מטבח מצפון} \hspace{0.5em} David \& Enny Silver
+  David \& Enny Silver
+};
+
+% Year on spine
+\node[rotate=90, text=bgpage] at (8.475, 0.8) {
+  \fontsize{9pt}{9pt}\selectfont
+  2025
 };
 
 % ========================================
@@ -109,12 +132,12 @@
   \arb{مطبخ بالأصل}
 };
 
-% Row 2: English + Spanish
+% Row 2: English + Spanish (same color - ink)
 \node[text=ink, anchor=east] at (12.6, 5.4) {
   \titlefont\fontsize{28pt}{28pt}\selectfont
   Oriented Kitchen
 };
-\node[text=accent, anchor=west] at (13.2, 5.4) {
+\node[text=ink, anchor=west] at (13.2, 5.4) {
   \spanishfont\fontsize{20pt}{20pt}\selectfont\itshape
   Cocina con Conciencia
 };
