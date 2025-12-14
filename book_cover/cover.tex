@@ -1,5 +1,5 @@
 % Silver Cooks - Book Cover
-% With proper RTL support
+% Using book fonts: Heebo (Hebrew), closest matches for others
 
 \documentclass[tikz]{standalone}
 \usepackage{fontspec}
@@ -7,10 +7,18 @@
 \usepackage{graphicx}
 \usepackage{luabidi}
 
-% Fonts
-\setmainfont{Helvetica Neue}
-\newfontfamily\titlefont{Palatino}
-\newfontfamily\hebrewfont[Script=Hebrew]{Arial Hebrew}
+% Book fonts:
+% - Sora (English sans) -> Helvetica Neue (close match)
+% - Bona Nova (title serif) -> Didot (elegant serif)
+% - Heebo (Hebrew) -> Heebo (exact - installed!)
+% - Noto Naskh Arabic -> Geeza Pro (Arabic)
+% - Fraunces (Spanish serif) -> Georgia (similar serif)
+
+\setmainfont{Helvetica Neue}[
+  BoldFont = Helvetica Neue Bold
+]
+\newfontfamily\titlefont{Didot}
+\newfontfamily\hebrewfont[Path=/Users/davidsilver/Library/Fonts/, Extension=.ttf, Script=Hebrew]{Heebo-Variable}
 \newfontfamily\arabicfont[Script=Arabic]{Geeza Pro}
 \newfontfamily\spanishfont{Georgia}
 
@@ -18,7 +26,7 @@
 \newcommand{\heb}[1]{{\hebrewfont\RL{#1}}}
 \newcommand{\arb}[1]{{\arabicfont\RL{#1}}}
 
-% Colors from cookbook
+% Colors from cookbook CSS
 \definecolor{bgpage}{HTML}{FAF6F1}
 \definecolor{ink}{HTML}{222222}
 \definecolor{muted}{HTML}{777777}
@@ -41,39 +49,39 @@
 
 % Book titles - Hebrew and Arabic with RTL
 \node[text=ink] at (4.125, 6.5) {
-  \fontsize{18pt}{18pt}\selectfont
+  \fontsize{20pt}{20pt}\selectfont
   \heb{מטבח מצפון}
-  \hspace{0.4in}
+  \hspace{0.5in}
   \arb{مطبخ بالأصل}
 };
 
-\node[text=ink] at (4.125, 5.9) {
-  {\titlefont\fontsize{16pt}{16pt}\selectfont Oriented Kitchen}
-  \hspace{0.3in}
-  {\spanishfont\fontsize{14pt}{14pt}\selectfont\itshape Cocina con Conciencia}
+\node[text=ink] at (4.125, 5.8) {
+  {\titlefont\fontsize{18pt}{18pt}\selectfont Oriented Kitchen}
+  \hspace{0.4in}
+  {\spanishfont\fontsize{15pt}{15pt}\selectfont\itshape Cocina con Conciencia}
 };
 
 % Subtitles
-\node[text=muted, text width=5.5in, align=center] at (4.125, 4.9) {
-  \fontsize{9pt}{15pt}\selectfont
-  Plant-Based Recipes from Djerba \& Tangier\\[2pt]
-  {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[2pt]
-  \heb{מתכונים מבוססי צמחים מג׳רבה וטנג׳יר}\\[2pt]
+\node[text=muted, text width=5.5in, align=center] at (4.125, 4.7) {
+  \fontsize{10pt}{16pt}\selectfont
+  Plant-Based Recipes from Djerba \& Tangier\\[3pt]
+  {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[3pt]
+  \heb{מתכונים מבוססי צמחים מג׳רבה וטנג׳יר}\\[3pt]
   \arb{وصفات نباتية من جربة وطنجة}
 };
 
 % Divider
-\draw[accent, line width=1pt] (2.5, 4.1) -- (5.75, 4.1);
+\draw[accent, line width=1.5pt] (2.2, 3.9) -- (6.05, 3.9);
 
 % Recipe count
-\node[text=ink] at (4.125, 3.6) {
-  \fontsize{11pt}{11pt}\selectfont
+\node[text=ink] at (4.125, 3.4) {
+  \fontsize{12pt}{12pt}\selectfont
   81 Recipes in Four Languages
 };
 
 % Website
 \node[text=accent] at (4.125, 1.0) {
-  \fontsize{10pt}{10pt}\selectfont
+  \fontsize{11pt}{11pt}\selectfont
   silvercooks.com
 };
 
@@ -83,71 +91,71 @@
 \fill[accent] (8.125, 0) rectangle (8.825, 8.25);
 
 \node[rotate=90, text=bgpage] at (8.475, 4.125) {
-  \fontsize{10pt}{10pt}\selectfont
-  {\titlefont\bfseries Oriented Kitchen} \hspace{0.6em} \heb{מטבח מצפון} \hspace{0.6em} David \& Enny Silver
+  \fontsize{11pt}{11pt}\selectfont
+  {\titlefont\bfseries Oriented Kitchen} \hspace{0.5em} \heb{מטבח מצפון} \hspace{0.5em} David \& Enny Silver
 };
 
 % ========================================
 % FRONT COVER (center at x=12.89)
 % ========================================
 
-% Row 1: Hebrew (right-aligned) + Arabic (left side)
-\node[text=ink, anchor=east] at (12.5, 6.3) {
-  \fontsize{28pt}{28pt}\selectfont
+% Row 1: Hebrew (right) + Arabic (left)
+\node[text=ink, anchor=east] at (12.6, 6.4) {
+  \fontsize{32pt}{32pt}\selectfont
   \heb{מטבח מצפון}
 };
-\node[text=ink, anchor=west] at (13.3, 6.3) {
-  \fontsize{24pt}{24pt}\selectfont
+\node[text=ink, anchor=west] at (13.2, 6.4) {
+  \fontsize{26pt}{26pt}\selectfont
   \arb{مطبخ بالأصل}
 };
 
 % Row 2: English + Spanish
-\node[text=ink, anchor=east] at (12.5, 5.4) {
-  \titlefont\fontsize{24pt}{24pt}\selectfont
+\node[text=ink, anchor=east] at (12.6, 5.4) {
+  \titlefont\fontsize{28pt}{28pt}\selectfont
   Oriented Kitchen
 };
-\node[text=accent, anchor=west] at (13.3, 5.4) {
-  \spanishfont\fontsize{18pt}{18pt}\selectfont\itshape
+\node[text=accent, anchor=west] at (13.2, 5.4) {
+  \spanishfont\fontsize{20pt}{20pt}\selectfont\itshape
   Cocina con Conciencia
 };
 
 % Subtitles block
-\node[text=muted, text width=6in, align=center] at (12.89, 4.4) {
-  \fontsize{10pt}{16pt}\selectfont
-  Plant-Based Recipes from Djerba \& Tangier\\[2pt]
-  {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[2pt]
-  \heb{מתכונים מבוססי צמחים מג׳רבה וטנג׳יר}\\[2pt]
+\node[text=muted, text width=6in, align=center] at (12.89, 4.3) {
+  \fontsize{11pt}{17pt}\selectfont
+  Plant-Based Recipes from Djerba \& Tangier\\[3pt]
+  {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[3pt]
+  \heb{מתכונים מבוססי צמחים מג׳רבה וטנג׳יר}\\[3pt]
   \arb{وصفات نباتية من جربة وطنجة}
 };
 
 % Divider
-\draw[accent, line width=1.5pt] (10.5, 3.5) -- (15.28, 3.5);
+\draw[accent, line width=2pt] (10.3, 3.4) -- (15.48, 3.4);
 
 % Family lines
-\node[text=ink] at (12.89, 3.0) {
-  \fontsize{11pt}{11pt}\selectfont
+\node[text=ink] at (12.89, 2.9) {
+  \fontsize{12pt}{12pt}\selectfont
   Cohen-Trabelsi · \heb{כהן-טרבלסי} · \arb{كوهين-طرابلسي}
 };
-\node[text=muted] at (12.89, 2.6) {
-  \fontsize{9pt}{9pt}\selectfont
+\node[text=muted] at (12.89, 2.5) {
+  \fontsize{10pt}{10pt}\selectfont
   Djerba, Tunisia · \heb{ג׳רבה, תוניסיה} · \arb{جربة، تونس}
 };
 
-\node[text=ink] at (12.89, 2.0) {
-  \fontsize{11pt}{11pt}\selectfont
+\node[text=ink] at (12.89, 1.9) {
+  \fontsize{12pt}{12pt}\selectfont
   Kadoch-Muyal · \heb{קדוש-מויאל} · \arb{قدوش-مويال}
 };
-\node[text=muted] at (12.89, 1.6) {
-  \fontsize{9pt}{9pt}\selectfont
+\node[text=muted] at (12.89, 1.5) {
+  \fontsize{10pt}{10pt}\selectfont
   Tangier, Morocco · \heb{טנג׳יר, מרוקו} · \arb{طنجة، المغرب}
 };
 
 % Divider
-\draw[accent, line width=1pt] (10.8, 1.15) -- (14.98, 1.15);
+\draw[accent, line width=1pt] (10.6, 1.0) -- (15.18, 1.0);
 
 % Authors
-\node[text=accent] at (12.89, 0.7) {
-  \titlefont\fontsize{16pt}{16pt}\selectfont
+\node[text=accent] at (12.89, 0.55) {
+  \titlefont\fontsize{18pt}{18pt}\selectfont
   David \& Enny Silver
 };
 
