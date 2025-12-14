@@ -1,0 +1,110 @@
+{
+  "id": "vegetablesoupfor_couscous",
+  "image": "images/current/027couscoussoup/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "75 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "מרק ירקות לקוסקוס",
+    "es": "Sopa de Verduras para Cuscús (Marga)",
+    "ar": "مرقة خضرة للكسكسي",
+    "en": "Vegetable Soup for Couscous (Marga)"
+  },
+  "description": {
+    "he": "מרגה הוא המונח היהודי-ערבי המסורתי לתבשיל העשיר המוגש על קוסקוס, ונגזר מהשורש למילה מרק. גרסה צמחית זו מחליפה את העוף בסייטן עשיר בטעם. ירקות עונתיים מאודים עם תבלינים ליצירת ציר עמוק ההופך את הגרגירים המאודים לארוחה שלמה.",
+    "es": "Marga es el término judeoárabe tradicional para el rico guiso que se sirve sobre el cuscús y deriva de la raíz de caldo. Esta adaptación vegetal sustituye el pollo por seitán sabroso. Las verduras de temporada se sudan con especias para crear un caldo profundo que transforma los granos al vapor en una comida completa.",
+    "ar": "المرقة هي الكلمة اليهودية العربية التقليدية لليخنة الغنية اللي تتحط فوق الكسكسي. هالوصفة النباتية تبدل الدجاج بالسيتان البنين. الخضرة تتقلى بالشوية مع الفاحات باش تخرج مرقة عاقدة وبنينة ترد الكسكسي وجبة كاملة.",
+    "en": "Marga is the traditional Judeo-Arabic term for the rich stew served atop couscous and derives from the root for broth. This plant-based adaptation replaces chicken with savory seitan. Seasonal vegetables sweat with spices to create a deep stock that transforms steamed grains into a complete meal."
+  },
+  "ingredients": {
+    "he": [
+      "30 מ\"ל שמן צמחי",
+      "7 גרם פפריקה מתוקה",
+      "1 בצל, פרוס",
+      "500 גרם דלעת, חתוכה לקוביות גדולות",
+      "3 קישואים, חתוכים לקוביות גדולות",
+      "200 גרם גרגירי חומוס, מושרים או משומרים",
+      "200 גרם שעועית ירוקה, קטומה",
+      "מלח לפי הטעם",
+      "מים רותחים לכיסוי",
+      "500 גרם נתחי סייטן, חתוכים לחתיכות בגודל ביס",
+      "3 תפוחי אדמה, קלופים וחתוכים לרבעים"
+    ],
+    "es": [
+      "30 ml de aceite vegetal",
+      "7 g de pimentón dulce",
+      "1 cebolla, en rodajas",
+      "500 g de calabaza, cortada en trozos grandes",
+      "3 calabacines, cortados en trozos grandes",
+      "200 g de garbanzos, remojados o en conserva",
+      "200 g de judías verdes, despuntadas",
+      "Sal al gusto",
+      "Agua hirviendo para cubrir",
+      "500 g de trozos de seitán, cortados en trozos del tamaño de un bocado",
+      "3 patatas, peladas y cortadas en cuartos"
+    ],
+    "ar": [
+      "2 مغارف زيت نباتي",
+      "1 مغرفة فلفل أحمر حلو",
+      "1 بصلة، مقصوصة",
+      "3.5 كيسان قرع أحمر، مقصوص طروف كبار",
+      "3 كعبات قرع أخضر، مقصوص طروف كبار",
+      "1.2 كيسان حمص، منفخ",
+      "2 كيسان لوبيا خضرة، منظفة",
+      "ملح حسب الذوق",
+      "ماء سخون باش نغموا الخضرة",
+      "3 كيسان سيتان، مقصوص طروف صغار",
+      "3 كعبات بطاطا، مقشرين ومقصوصين على أربعة"
+    ],
+    "en": [
+      "2 tbsp vegetable oil",
+      "1 tbsp sweet paprika",
+      "1 onion, sliced",
+      "3.5 cups pumpkin, cut into large chunks",
+      "3 zucchini, cut into large chunks",
+      "1.2 cups chickpeas, soaked or canned",
+      "2 cups green beans, trimmed",
+      "Salt to taste",
+      "Boiling water to cover",
+      "3 cups seitan chunks, cut into bite-sized pieces",
+      "3 potatoes, peeled and quartered"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר מרק גדול, מחממים את השמן ומוסיפים את הפפריקה (פותחים את התבלין בשמן).",
+      "מוסיפים את הבצל הפרוס, ואחריו את הדלעת, הקישואים, החומוס והשעועית הירוקה.",
+      "מוסיפים מלח, מכסים את הסיר ומניחים לירקות להתאדות במיצים של עצמם על אש נמוכה-בינונית למשך כ-30 דקות.",
+      "מוסיפים מים רותחים לכיסוי הירקות ומוסיפים את נתחי הסייטן.",
+      "מביאים לרתיחה ואז מנמיכים את האש. לקראת סוף הבישול, מוסיפים את תפוחי האדמה.",
+      "מבשלים בבעבוע עדין עד שהסייטן מוכן ותפוחי האדמה רכים."
+    ],
+    "es": [
+      "En una olla grande para sopa, caliente el aceite y añada el pimentón (para que suelte su aroma en el aceite).",
+      "Añada las cebollas en rodajas, seguidas de la calabaza, el calabacín, los garbanzos y las judías verdes.",
+      "Añada sal, tape la olla y deje que las verduras suden en sus propios jugos a fuego medio-bajo durante unos 30 minutos.",
+      "Añada agua hirviendo hasta cubrir las verduras e incorpore los trozos de seitán.",
+      "Lleve a ebullición y luego reduzca el fuego. Hacia el final del tiempo de cocción, añada las patatas.",
+      "Cocine a fuego lento hasta que el seitán esté cocido y las patatas estén tiernas."
+    ],
+    "ar": [
+      "في طنجرة كبيرة، سخن الزيت وحط الفلفل الأحمر باش يتقلى شوية في الزيت.",
+      "زيد البصل المقصوص، ومبعد القرع الأحمر، والقرع الأخضر، والحمص، واللوبيا الخضرة.",
+      "حط الملح، غطي الطنجرة، وخلي الخضرة تتقلى في ماها على نار هادية لمدة 30 دقيقة تقريباً.",
+      "صب الماء السخون باش تغم الخضرة وزيد طروف السيتان.",
+      "خليها تغلي ومبعد نقص في النار. في لخر، زيد البطاطا.",
+      "خليها تطيب لين السيتان يطيب والبطاطا تولي طرية."
+    ],
+    "en": [
+      "In a large soup pot, heat the oil and add the paprika (blooming the spice in the oil).",
+      "Add the sliced onions, followed by the pumpkin, zucchini, chickpeas, and green beans.",
+      "Add salt, cover the pot, and let the vegetables steam/sweat in their own juices on low-medium heat for about 30 minutes.",
+      "Add boiling water to cover the vegetables and add the seitan pieces.",
+      "Bring to a boil, then reduce heat. Towards the end of the cooking time, add the potatoes.",
+      "Simmer until the seitan is fully cooked and potatoes are tender."
+    ]
+  }
+}

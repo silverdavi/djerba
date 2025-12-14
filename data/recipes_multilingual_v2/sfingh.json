@@ -9,15 +9,15 @@
   },
   "name": {
     "he": "ספינג'",
-    "es": "Sfingh",
+    "es": "Sfingh (Sfenj)",
     "ar": "سفنج",
     "en": "Sfingh (Sfenj)"
   },
   "description": {
-    "he": "הספינג' מקבל את שמו מהמילה הערבית לספוג בגלל המרקם האוורירי שלו. טבעות הבצק המגרביות הכפריות הללו הן טבעוניות באופן טבעי ובעלות קרום פריך. באופן מסורתי הן נאכלות ללא תוספות או טבולות בסוכר, והן מאכל אהוב בחנוכה החוגג את נס פך השמן.",
-    "es": "El Sfingh recibe su nombre de la palabra árabe para esponja debido a su textura aireada. Estos rústicos anillos de masa magrebí son naturalmente veganos y tienen una corteza crujiente. Tradicionalmente se comen solos o bañados en azúcar, y son un postre muy querido en Janucá para celebrar el milagro del aceite.",
-    "ar": "السفنج خذا اسمه من كلمة سفنجة على خاطر خفيف ومنفّج. هالكعك الماجربي العربي يجي مقرمش من برا وطري من داخل، وهو نباتي بطبيعته. في العادة ناكلوه شايح ولا نغطسوه في السكر، وهو من عاداتنا المعروفة في حنوكة باش نحتفلو بمعجزة الزيت.",
-    "en": "Sfingh gets its name from the Arabic word for sponge because of its airy texture. These rustic Maghrebi dough rings are naturally vegan and feature a crispy crust. Traditionally eaten plain or dipped in sugar, they are a beloved Hanukkah treat celebrating the miracle of the oil."
+    "he": "הספינג', הידוע גם בשם ספנג', מקבל את שמו מהמילה הערבית לספוג בגלל המרקם האוורירי שלו. יש לנו שני מתכונים דומים מצדדים שונים של המשפחה, עם שינויים קלים. טבעות הבצק המוגרביות הכפריות הללו הן טבעוניות באופן טבעי ובעלות קרום פריך. באופן מסורתי אוכלים אותן ללא תוספות או טבולות בסוכר, והן מאכל אהוב בחנוכה.",
+    "es": "El Sfingh, también conocido como Sfenj, recibe su nombre de la palabra árabe para esponja debido a su textura aireada. Tenemos dos recetas similares de diferentes lados de la familia, con variaciones menores. Estos anillos de masa rústicos del Magreb son naturalmente veganos y tienen una corteza crujiente. Tradicionalmente se comen solos o bañados en azúcar, y son un manjar muy querido en Janucá.",
+    "ar": "السفنج خذا اسمه من كلمة سفنجة على خاطر العجينة متاعو خفيفة ومثقبة كيفها. عندنا زوز وصفات قراب لبعضهم من شيرتين العايلة، مع اختلافات صغيرة. كعك العجين المغاربي هذا نباتي بطبيعتو وعندو قشرة تتقرمش. في العادة يتاكل شايح ولا مغطس في السكر، وهو حاجة بنينة برشا ومعروفة في عيد الحנוכה (Hanukkah).",
+    "en": "Sfingh, also known as Sfenj, gets its name from the Arabic word for sponge because of its airy texture. We have two similar recipes from different sides of the family, with minor variations. These rustic Maghrebi dough rings are naturally vegan and feature a crispy crust. Traditionally eaten plain or dipped in sugar, they are a beloved Hanukkah treat."
   },
   "ingredients": {
     "he": [
@@ -25,7 +25,7 @@
       "20 גרם שמרים יבשים",
       "50 גרם סוכר (לבצק)",
       "6 גרם מלח",
-      "960 מ\"ל מים חמים (כמות משוערת)",
+      "960 מ\"ל מים חמים (כמות משוערת, להתאים למרקם)",
       "1000 מ\"ל שמן קנולה (לטיגון עמוק)",
       "סוכר לפי הטעם (לציפוי)",
       "קינמון לפי הטעם (לציפוי)"
@@ -35,74 +35,74 @@
       "20 g de levadura seca",
       "50 g de azúcar (para la masa)",
       "6 g de sal",
-      "960 ml de agua tibia (cantidad aproximada)",
+      "960 ml de agua tibia (cantidad aproximada, ajustar según consistencia)",
       "1000 ml de aceite de canola (para freír)",
       "Azúcar al gusto (para cubrir)",
       "Canela al gusto (para cubrir)"
     ],
     "ar": [
-      "8 كيسان فرينة، منخولة",
+      "8 كيسان فرينة، مغربلة",
       "2 مغارف خميرة",
-      "0.25 كاس سكر (للعجينة)",
+      "0.25 كأس سكر (للعجينة)",
       "1 مغرفة صغيرة ملح",
-      "4 كيسان ماء دافي (تقريبا)",
-      "4.2 كيسان زيت (للقليان)",
-      "سكر حسب الذوق (للتزيين)",
-      "قرفة حسب الذوق (للتزيين)"
+      "4 كيسان ماء دافي (كمية تقريبية، حسب العجينة)",
+      "4.2 كيسان زيت (للقلي)",
+      "سكر حسب الذوق (للتغليف)",
+      "قرفة حسب الذوق (للتغليف)"
     ],
     "en": [
       "8 cups white flour, sifted",
       "2 tbsp dried yeast",
       "0.25 cup sugar (for the dough)",
       "1 tsp salt",
-      "4 cups warm water (approximate amount)",
+      "4 cups warm water (approximate amount, adjust for consistency)",
       "4.2 cups canola oil (for deep frying)",
-      "Sugar to taste (for coating)",
-      "Cinnamon to taste (for coating)"
+      "Sugar to taste (for coating/dipping)",
+      "Cinnamon to taste (for coating/dipping)"
     ]
   },
   "steps": {
     "he": [
       "בקערה גדולה, מערבבים את הקמח, השמרים, הסוכר, המלח והמים החמים.",
-      "ללוש את התערובת היטב. הבצק צריך להיות דביק ורטוב מאוד - זה נורמלי והכרחי למרקם הנכון. אל תוסיפו עוד קמח.",
-      "מכסים את הבצק ומניחים לו לתפוח במקום חמים עד שהוא מכפיל את נפחו.",
-      "מחממים את שמן הקנולה בסיר גדול לטיגון עמוק. השמן מוכן כשנוצרות בועות מיד סביב קיסם עץ המוכנס לתוכו (כ-170-180 מעלות).",
-      "מרטיבים את הידיים במים כדי למנוע הידבקות. צובטים חתיכת בצק בערך בגודל של כדור פינג-פונג.",
-      "בעזרת האגודלים, יוצרים חור במרכז כדור הבצק ליצירת טבעת, ומותחים אותה מעט.",
-      "מניחים בזהירות את טבעת הבצק בשמן החם. מטגנים מספר דקות עד שהתחתית מזהיבה. לא להעמיס על הסיר.",
-      "הופכים את הספינג' ומטגנים את הצד השני עד להזהבה.",
-      "מוציאים מהשמן ומסננים. בעודו חם, טובלים בצלחת עם סוכר וקינמון, או מגישים ללא תוספות."
+      "לושו את התערובת היטב. הבצק צריך להיות דביק ורטוב מאוד - זה נורמלי והכרחי למרקם הנכון. אל תוסיפו קמח נוסף גם אם הוא נדבק לידיים.",
+      "כסו את הבצק והניחו לו לתפוח במקום חמים עד שהוא מכפיל את נפחו.",
+      "חממו את שמן הקנולה בסיר גדול (כ-1 ליטר) לטיגון עמוק. השמן מוכן כשבועות נוצרות מיד סביב קיסם עץ או צ'ופסטיק המוכנס לתוכו (כ-170-180 מעלות צלזיוס).",
+      "הרטיבו את הידיים במים למניעת הידבקות. צבטו חתיכת בצק בערך בגודל של כדור פינג-פונג. שמרו קערת מים בקרבת מקום כדי להרטיב את הידיים כל הזמן.",
+      "בעזרת האגודלים, צרו חור במרכז כדור הבצק ליצירת טבעת, ומתחו אותה מעט.",
+      "הניחו בזהירות את טבעת הבצק בשמן החם. טגנו במשך כמה דקות עד שהתחתית מזהיבה. אל תעמיסו על הסיר.",
+      "הפכו את הספינג' וטגנו את הצד השני עד להזהבה.",
+      "הוציאו מהשמן וסננו. בעוד הספינג' חם, טבלו בצלחת סוכר וקינמון, או הגישו ללא תוספות."
     ],
     "es": [
-      "En un bol grande, combine la harina, la levadura, el azúcar, la sal y el agua tibia.",
-      "Amase bien la mezcla. La masa debe estar muy pegajosa y húmeda; esto es normal y necesario para la textura correcta. No añada más harina.",
+      "En un bol grande, mezcle la harina, la levadura, el azúcar, la sal y el agua tibia.",
+      "Amase bien la mezcla. La masa debe estar muy pegajosa y húmeda; esto es normal y necesario para la textura correcta. No añada harina extra aunque se pegue a las manos.",
       "Cubra la masa y déjela levar en un lugar cálido hasta que duplique su volumen.",
-      "Caliente el aceite de canola en una olla grande para freír. El aceite está listo cuando se forman burbujas inmediatamente alrededor de un palillo de madera insertado en él.",
-      "Mójese las manos con agua para evitar que se pegue. Tome un trozo de masa aproximadamente del tamaño de una pelota de ping-pong.",
-      "Usando los pulgares, haga un agujero en el centro de la bola de masa para formar un anillo, estirándolo ligeramente.",
-      "Coloque con cuidado el anillo de masa en el aceite caliente. Fría durante unos minutos hasta que la parte inferior esté dorada. No llene demasiado la olla.",
-      "Voltee el Sfingh y fría el otro lado hasta que esté dorado.",
-      "Retire del aceite y escurra. Mientras esté caliente, sumérjalo en un plato con azúcar y canela, o sírvalo solo."
+      "Caliente el aceite de canola en una olla grande (aprox. 1 litro) para freír. El aceite está listo cuando se forman burbujas inmediatamente alrededor de un palillo de madera insertado en él (aprox. 170°C-180°C).",
+      "Mójese las manos con agua para evitar que se pegue. Tome un trozo de masa aproximadamente del tamaño de una pelota de ping-pong. Mantenga un recipiente con agua cerca para mojarse las manos constantemente.",
+      "Usando los pulgares, cree un agujero en el centro de la bola de masa para formar un anillo, estirándolo ligeramente.",
+      "Coloque con cuidado el anillo de masa en el aceite caliente. Fría durante unos minutos hasta que la parte inferior esté dorada. No sobrecargue la olla.",
+      "Dé la vuelta al sfingh y fría el otro lado hasta que esté dorado.",
+      "Retire del aceite y escurra. Mientras aún esté caliente, sumerja en un plato con azúcar y canela, o sirva solo."
     ],
     "ar": [
       "في صحفة كبيرة، خلط الفرينة والخميرة والسكر والملح والماء الدافي.",
-      "اعجن الخليط مليح. العجينة لازم تكون تتلصق ومبلولة برشا، هذا عادي ولازم باش تجي خفيفة. ما تزيدش الفرينة.",
-      "غطي العجينة وخليها تخمر في بلاصة دافية لين يولي حجمها مرتين قد ما كان.",
-      "سخّن الزيت في طنجرة كبيرة للقليان. الزيت يحضر وقت اللي تشوف فقاقيع صغار دايرين بعود لوح كي تحטו في الزيت.",
-      "بل يديك بالماء باش العجينة ما تلصقش. خوذ طرف عجينة قد كعبة البينغ بونغ تقريبا.",
-      "بصوابعك الكبير، اعمل نقبة في وسط العجينة باش تولي مدورة كيف الكعكة، وجبدها شوية.",
-      "حط كعكة العجينة بالشوية في الزيت السخون. اقليها دقايق لين تحمار من لوطة. ما تعبيش الطنجرة برشا.",
+      "اعجن الخليط مليح. العجينة لازم تكون تتلصق ومبلولة برشا، هذا عادي ولازم باش تجي خفيفة. ما تزيدش فرينة حتى كان تلصق في يديك.",
+      "غطي العجينة وخليها تخمر في بلاصة دافية لين يتضاعف حجمها.",
+      "سخن الزيت في طنجرة كبيرة (تقريب 1 لتر) للقلي. الزيت يكون حاضر وقت اللي يعمل فقاعات فيسع حول عود لوح كي تحטו فيه.",
+      "بل يديك بالماء باش ما تلصقش العجينة. نحي طرف عجينة تقريب قد كعبة البينغ بونغ. خلي صحفة ماء بحذاك باش تبل يديك ديما.",
+      "بصوابعك الكبير، أعمل نقبة في وسط كعبورة العجينة باش تولي كعكة، وجبدها شوية.",
+      "حط كعكة العجين بالشوية في الزيت السخون. اقليها دقايق لين تولي ذهبية من لوطة. ما تعبيش الطنجرة برشا.",
       "اقلب السفنج واقلي الشيرة لخرى لين تحمار وتولي ذهبية.",
-      "خرجها من الزيت وقطرها. وهي مازالت سخونة، غطسها في صحن فيه سكر وقرفة، ولا كولها هكاكة."
+      "خرجها من الزيت وقطرها. وهي مازالت سخونة، غطسها في صحن سكر وقرفة، ولا كولها هكاكة."
     ],
     "en": [
       "In a large bowl, combine the flour, yeast, sugar, salt, and warm water.",
-      "Knead the mixture thoroughly. The dough should be very sticky and wet—this is normal and necessary for the correct texture. Do not add extra flour.",
+      "Knead the mixture thoroughly. The dough should be very sticky and wet—this is normal and necessary for the correct texture. Do not add extra flour even if it sticks to your hands.",
       "Cover the dough and let it rise in a warm place until it doubles in volume.",
-      "Heat the canola oil in a large pot for deep frying. The oil is ready when bubbles form immediately around a wooden toothpick inserted into it.",
-      "Wet your hands with water to prevent sticking. Pinch off a piece of dough roughly the size of a ping-pong ball.",
+      "Heat the canola oil in a large pot (approx 1 liter) for deep frying. The oil is ready when bubbles form immediately around a wooden toothpick or chopstick inserted into it (approx 170°C-180°C).",
+      "Wet your hands with water to prevent sticking. Pinch off a piece of dough roughly the size of a ping-pong ball. Keep a bowl of water nearby to constantly wet your hands.",
       "Using your thumbs, create a hole in the center of the dough ball to form a ring, stretching it slightly.",
-      "Carefully place the dough ring into the hot oil. Fry for a few minutes until the bottom is golden brown. Do not overcrowd the pot.",
+      "Carefully place the dough ring into the hot oil. Fry for a few minutes until the bottom is golden brown ('tanned'). Do not overcrowd the pot.",
       "Flip the sfingh and fry the other side until golden brown.",
       "Remove from oil and drain. While still warm, dip in a plate of sugar and cinnamon, or serve plain."
     ]

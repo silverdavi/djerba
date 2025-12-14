@@ -1,6 +1,6 @@
 {
   "id": "ciceritos",
-  "image": "images/current/098_ciceritos/dish.png",
+  "image": "images/current/114_ciceritos/dish.png",
   "meta": {
     "servings": "4-6",
     "prep_time": "15 min",
@@ -8,23 +8,23 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "ציצריטוס",
-    "es": "Ciceritos (Estofado de Garbanzos)",
-    "ar": "سيسيريتوس (مرقة حمص)",
-    "en": "Ciceritos (Chickpea Stew)"
+    "he": "ציצריטוס (תבשיל אפונה)",
+    "es": "Ciceritos (Guiso de Guisantes)",
+    "ar": "سيسيريتوس (مرقة جلبانة)",
+    "en": "Ciceritos (Green Pea Stew)"
   },
   "description": {
-    "he": "מקור השם במילה הספרדית לחומוס, ציצריטוס פירושו גרגרי חומוס קטנים בלאדינו. נזיד ספרדי מנחם זה כולל קטניות רכות המבושלות בציר כורכום זהוב. המנה טבעונית באופן טבעי ומסתמכת על בסיס עשיר של בצל מטוגן וסלרי כדי לספק טעם עמוק ללא מוצרי בשר.",
-    "es": "Derivado de la palabra española para garbanzos, Ciceritos significa garbanzos pequeños en ladino. Este reconfortante estofado sefardí presenta legumbres tiernas cocidas a fuego lento en un caldo dorado de cúrcuma. Naturalmente vegetal, se basa en un sofrito de cebolla y apio para ofrecer un sabor profundo sin productos cárnicos.",
-    "ar": "الاسم جاي من الكلمة الإسبانية للحمص، وسيسيريتوس يعني الحمص الصغير باللادينو. هذي مرقة سفاردية تعمل الكيف، فيها الحمص طايب في مرقة صفراء بالكركم. هي أكلة نباتية وتعتمد على تقلية البصل والكرافس باش تعطي بنة قوية من غير لحم.",
-    "en": "Derived from the Spanish word for chickpeas, Ciceritos means little chickpeas in Ladino. This comforting Sephardic stew features tender legumes simmered in a golden turmeric broth. Naturally plant-based, it relies on a savory base of fried onions and celery to deliver deep flavor without any meat products."
+    "he": "ציצריטוס, שפירושו אפונה קטנה בלאדינו, הוא תבשיל אפונה ספרדי מנחם. השם נגזר מהמילה הספרדית צ'יצ'רו עם סיומת ההקטנה של הלאדינו. מנה צמחית זו כוללת אפונה ירוקה רכה המבושלת בציר כורכום זהוב עם בצל וסלרי מטוגנים.",
+    "es": "Ciceritos, que significa guisantes pequeños en ladino, es un reconfortante guiso sefardí de guisantes verdes. El nombre deriva del español chícharo con el diminutivo ladino -itos. Este plato vegetal presenta tiernos guisantes cocidos a fuego lento en un caldo dorado de cúrcuma con cebolla y apio salteados.",
+    "ar": "سيسيريتوس، يعني جلبانة صغيرة باللادينو، هي مرقة جلبانة سفاردية بنينة وتريح القلب. الاسم جاي من الكلمة الإسبانية شيشارو مع التصغير باللادينو. هذا الطبق النباتي فيه جلبانة خضراء طرية طايبة في مرقة صفراء بالكركم مع بصل وكرافس مقليين.",
+    "en": "Ciceritos, meaning \"little peas\" in Ladino, is a comforting Sephardic green pea stew. The name derives from the Spanish \"chícharo\" (pea) with the Ladino diminutive \"-itos.\" This plant-based dish features tender green peas simmered in a golden turmeric broth with sautéed onions and celery."
   },
   "ingredients": {
     "he": [
-      "1 בצל, קצוץ לקוביות",
-      "2 גבעולי סלרי, קצוצים לקוביות",
+      "1 בצל, חתוך לקוביות",
+      "2 גבעולי סלרי, חתוכים לקוביות",
       "30 מ\"ל שמן לטיגון",
-      "360 גרם גרגירי חומוס (ציצריטוס), מבושלים או משומרים",
+      "360 גרם אפונה ירוקה (מבושלת או משומרת)",
       "3 גרם כורכום",
       "1.2 גרם פלפל לבן",
       "4 גרם אבקת מרק ירקות",
@@ -35,7 +35,7 @@
       "1 cebolla, cortada en cubitos",
       "2 tallos de apio, cortados en cubitos",
       "30 ml de aceite para freír",
-      "360 g de garbanzos (Ciceritos), cocidos o en conserva",
+      "360 g de guisantes verdes (cocidos o en lata)",
       "3 g de cúrcuma",
       "1.2 g de pimienta blanca",
       "4 g de caldo de verduras en polvo",
@@ -46,9 +46,9 @@
       "1 بصلة، مقصوصة جويدة",
       "2 عواد كرافس، مقصوصين",
       "2 مغارف زيت للقلي",
-      "2 كيسان حمص (سيسيريتوس)، طايب أو حكّة",
+      "2 كيسان جلبانة (طايبة أو حكّة)",
       "1 مغرفة صغيرة كركم",
-      "½ مغرفة صغيرة فلفل أبيض",
+      "نص مغرفة صغيرة فلفل أبيض",
       "1 مغرفة صغيرة بودرة مرقة خضرة",
       "ملح حسب الذوق",
       "2 كيسان ماء"
@@ -57,7 +57,7 @@
       "1 onion, diced",
       "2 stalks celery, diced",
       "2 tbsp oil for frying",
-      "2 cups chickpeas (Ciceritos), cooked or canned",
+      "2 cups green peas (cooked or canned)",
       "1 tsp turmeric",
       "0.5 tsp white pepper",
       "1 tsp vegetable bouillon powder",
@@ -68,26 +68,26 @@
   "steps": {
     "he": [
       "מטגנים את הבצל והסלרי בשמן עד לריכוך וקבלת ריח נעים.",
-      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים לאיחוד.",
-      "מוסיפים את גרגירי החומוס והמים. מביאים לרתיחה.",
-      "מנמיכים את האש ומבשלים בבעבוע עדין עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
+      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים היטב.",
+      "מוסיפים את האפונה והמים. מביאים לרתיחה.",
+      "מנמיכים את האש ומבשלים ברתיחה עדינה עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
     ],
     "es": [
-      "Freír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
+      "Sofreír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
       "Añadir la cúrcuma, la pimienta blanca, el caldo en polvo y la sal. Remover para combinar.",
-      "Añadir los garbanzos y el agua. Llevar a ebullición.",
+      "Añadir los guisantes y el agua. Llevar a ebullición.",
       "Reducir el fuego y cocinar a fuego lento hasta que los sabores se mezclen y el líquido se reduzca ligeramente."
     ],
     "ar": [
-      "نقليو البصل والكرافس في الزيت لين يذبالو وتطلع ريحتهم.",
-      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطوهم مليح.",
-      "نزيدو الحمص والماء. نخليوهم يغليو.",
+      "نقليو البصل والكرافس في الزيت لين يذبالو وتطلع ريحتهم البنينة.",
+      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطو بالباهي.",
+      "نزيدو الجلبانة والماء. نخليوهم يغليو.",
       "نقصو النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تخثار شوية."
     ],
     "en": [
       "Fry the onion and celery in oil until softened and fragrant.",
       "Add turmeric, white pepper, bouillon powder, and salt. Stir to combine.",
-      "Add chickpeas and water. Bring to a boil.",
+      "Add green peas and water. Bring to a boil.",
       "Reduce heat and simmer until flavors meld and liquid reduces slightly."
     ]
   }

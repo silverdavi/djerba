@@ -1,0 +1,102 @@
+{
+  "id": "bakedpotatolevivot",
+  "image": "images/current/107bakedpotato_levivot/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "40 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "לביבות תפו\"א",
+    "es": "Levivot de Patata al Horno (Kugel)",
+    "ar": "لڤيڤوت بطاطا في الكوشة",
+    "en": "Baked Potato Levivot (Kugel)"
+  },
+  "description": {
+    "he": "לביבות תפוחי אדמה אפויות אלו, הידועות גם כלטקס, מציעות חוויה מנחמת ומלוחה. המילה לביבות היא מילה מקראית למאפה מטוגן, שאומצה בעברית המודרנית לתיאור הלטקס. גרסה טבעונית זו שומרת על לב המנה המסורתית כפשטידה זהובה ואפויה, המושלמת לארוחות יומיומיות.",
+    "es": "Estas Levivot de patata al horno, también conocidas como latkes, ofrecen una experiencia reconfortante y sabrosa. Levivot es una palabra hebrea bíblica para frituras, adoptada en hebreo moderno para referirse a los latkes. Esta adaptación vegana mantiene la esencia del plato tradicional como un pastel dorado al horno, perfecto para las comidas diarias.",
+    "ar": "هاللڤيڤوت متاع البطاطا في الكوشة، المعروفين زادة باسم لاتكس، يعطيو بنة وتفرهيدة. كلمة لڤيڤوت هي كلمة عبرية من التوراة تعني مقلي، واستعملوها في العبرية الحديثة للاتكس. هالنسخة النباتية تحافظ على روح الطبق التقليدي كطاجين ذهبي ومحمر في الكوشة، مثالي للماكلة اليومية.",
+    "en": "These baked potato levivot, also known as latkes, offer a comforting and savory experience. \"Levivot\" is a Biblical Hebrew word for fritters, adopted in Modern Hebrew to refer to latkes. This vegan adaptation maintains the heart of the traditional dish as a golden, baked casserole perfect for everyday meals."
+  },
+  "ingredients": {
+    "he": [
+      "4 תפוחי אדמה אדומים, בינוניים, מגוררים",
+      "90 גרם קמח חומוס",
+      "180 מ\"ל מים",
+      "1 גרם כורכום",
+      "31 גרם קמח רגיל",
+      "5 גרם אבקת אפייה",
+      "30 מ\"ל שמן צמחי",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם"
+    ],
+    "es": [
+      "4 patatas rojas, medianas, ralladas",
+      "90 g de harina de garbanzo",
+      "180 ml de agua",
+      "1 g de cúrcuma en polvo",
+      "31 g de harina común",
+      "5 g de levadura química",
+      "30 ml de aceite vegetal",
+      "Sal al gusto",
+      "Pimienta negra al gusto"
+    ],
+    "ar": [
+      "4 كعبات بطاطا حمراء، متوسطين، مرحيين",
+      "3/4 كاس دقيق حمص",
+      "3/4 كاس ماء",
+      "1/4 مغرفة صغيرة كركم",
+      "1/4 كاس فرينة",
+      "1 مغرفة صغيرة خميرة قاطو",
+      "2 مغارف زيت نباتي",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق"
+    ],
+    "en": [
+      "4 red potatoes, medium, grated",
+      "3/4 cup chickpea flour (Besan)",
+      "3/4 cup water",
+      "1/4 tsp turmeric powder",
+      "1/4 cup all-purpose flour",
+      "1 tsp baking powder",
+      "2 tbsp vegetable oil",
+      "Salt to taste",
+      "Black pepper to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חממו מראש את התנור ל-180 מעלות צלזיוס.",
+      "גררו את תפוחי האדמה. סחטו את הנוזלים העודפים מתפוחי האדמה המגוררים (הסינון קריטי למרקם).",
+      "בקערה גדולה, ערבבו את תפוחי האדמה המגוררים עם תערובת קמח החומוס והמים, הקמח הרגיל, אבקת האפייה, השמן, המלח והפלפל השחור עד לקבלת תערובת אחידה.",
+      "שמנו היטב תבנית אפייה.",
+      "שטחו את התערובת באופן שווה בתבנית המשומנת.",
+      "אפו במשך כ-40 דקות, או עד שהחלק העליון משחים ונעשה פריך."
+    ],
+    "es": [
+      "Precaliente el horno a 180°C.",
+      "Ralle las patatas. Exprima el exceso de líquido de las patatas ralladas (colarlas es crucial para la textura).",
+      "En un bol grande, mezcle las patatas ralladas con la mezcla de harina de garbanzo y agua, la harina común, la levadura química, el aceite, la sal y la pimienta negra hasta que estén bien combinados.",
+      "Engrase generosamente una fuente o molde para hornear.",
+      "Extienda la mezcla uniformemente en el molde engrasado.",
+      "Hornee durante aproximadamente 40 minutos, o hasta que la parte superior esté dorada y crujiente."
+    ],
+    "ar": [
+      "سخّن الكوشة على 180 درجة.",
+      "ارحي البطاطا. اعصر البطاطا المرحية مليح باش تخرج منها الماء الزايد (العصران مهم برشا للقوام).",
+      "في صحفة كبيرة، خلط البطاطا المرحية مع خليط دقيق الحمص والماء، الفرينة، خميرة القاطو، الزيت، الملح، والفلفل الأكحل لين يتخلطو مليح.",
+      "ادهن طبق الكوشة بالزيت مليح.",
+      "افرد الخليط بالتساوي في الطبق المدهون.",
+      "طيّبها في الكوشة لمدة 40 دقيقة تقريباً، لين يحمار الوجه ويولي يتقرمش."
+    ],
+    "en": [
+      "Preheat the oven to 180°C (350°F).",
+      "Grate the potatoes. Squeeze out excess liquid from the grated potatoes (straining is crucial for texture).",
+      "In a large bowl, mix the grated potatoes with the chickpea flour and water mixture, all-purpose flour, baking powder, oil, salt, and black pepper until well combined.",
+      "Grease a baking dish or pan generously.",
+      "Spread the mixture evenly into the greased pan.",
+      "Bake for approximately 40 minutes, or until the top is browned and crispy."
+    ]
+  }
+}

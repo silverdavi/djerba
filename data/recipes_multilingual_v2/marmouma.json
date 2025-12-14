@@ -14,41 +14,37 @@
     "en": "Marmouma (Tunisian Cooked Tomato and Pepper Salad)"
   },
   "description": {
-    "he": "המרמומה מקבלת את שמה משורש ערבי שמשמעותו מבושל או מעוך. מנה עיקרית זו מהמטבח היהודי בג'רבה כוללת עגבניות ופלפלים המבושלים בבישול איטי עד לקבלת מרקם עשיר של ריבה. בשונה מהמטבוחה, היא מסתמכת על הזמן לריכוז הטעמים. מגישים את המעדן הטבעוני הזה קר עם לחם טרי כמנה ראשונה קלאסית.",
-    "es": "El nombre Marmouma proviene de una raíz árabe que significa guisado o machacado. Este plato básico judío de Djerba presenta tomates y pimientos cocinados a fuego lento hasta obtener una rica consistencia de mermelada. A diferencia de la matbucha, depende del tiempo para concentrar los sabores. Sirva esta delicia vegana fría con pan fresco como aperitivo clásico.",
-    "ar": "المرمومة تاخو اسمها من كلمة عربية تعني طايبة مليح ولا ممعوسة. هالأكلة الجربية اليهودية تتكون من طماطم وفلفل يطيبوا على نار هادية لين يولوا كي المعجون. تختلف على المطبوخة، خاطرها تحب برشا وقت باش النكهات تتركز. قدم هالأكلة النباتية باردة مع خبز طابونة ولا ملاوي كمقبلات بنينة.",
+    "he": "השם מרמומה מגיע משורש בערבית שמשמעותו מבושל או מעוך. מנה בסיסית זו מהמטבח היהודי בג'רבה כוללת עגבניות ופלפלים המבושלים בבישול איטי עד למרקם של ריבה עשירה. בשונה ממטבוחה, המנה מסתמכת על זמן בישול ארוך לריכוז הטעמים. מגישים את המעדן הטבעוני הזה קר עם לחם טרי כמנה ראשונה קלאסית.",
+    "es": "Marmouma recibe su nombre de una raíz árabe que significa guisado o machacado. Este plato básico judío de Djerba presenta tomates y pimientos cocinados a fuego lento hasta obtener una rica mermelada. A diferencia de la matbucha, depende del tiempo para concentrar los sabores. Sirva esta delicia naturalmente vegana fría con pan fresco como aperitivo clásico.",
+    "ar": "اسم المرمومة جاي من كلمة عربية تعني طايبة مليح ولا مرحية. هالأكلة الأساسية عند يهود جربة فيها طماطم وفلفل يطيبوا بالشوية لين يولو كي المعجون. تختلف على المطبوخة، خاطرها تحب برشا وقت باش النكهات تتركز. تتقدم هالمكلة النباتية باردة مع خبز جديد كمقبلات كلاسيكية.",
     "en": "Marmouma gets its name from an Arabic root meaning stewed or mashed. This Djerban Jewish staple features tomatoes and peppers slow-cooked into a rich jam. Distinct from matbucha, it relies on time to concentrate flavors. Serve this naturally vegan delight cold with fresh bread as a classic appetizer."
   },
   "ingredients": {
     "he": [
-      "10 עגבניות, בינוניות, חתוכות לקוביות קטנות",
-      "5 פלפלים אדומים מתוקים, בינוניים, חתוכים לקוביות קטנות",
+      "10 עגבניות בינוניות, חתוכות לקוביות קטנות",
       "3 פלפלים חריפים, קצוצים דק",
       "10 שיני שום, כתושות או פרוסות",
       "60 מ\"ל שמן זית",
       "מלח גס לפי הטעם"
     ],
     "es": [
-      "10 tomates, medianos, cortados en cubitos pequeños",
-      "5 pimientos rojos dulces, medianos, cortados en cubitos pequeños",
+      "10 tomates medianos, cortados en cubitos pequeños",
       "3 pimientos picantes, finamente picados",
-      "10 dientes de ajo, picados o rebanados",
+      "10 dientes de ajo, picados o en rodajas",
       "60 ml de aceite de oliva",
       "Sal gruesa al gusto"
     ],
     "ar": [
-      "10 كعبات طماطم، متوسطين، مقصوصين طروف صغار",
-      "5 فلفل حلو أحمر، متوسطين، مقصوصين طروف صغار",
+      "10 كعبات طماطم متوسطة، مقصوصة طروف صغار",
       "3 قرون فلفل حار، مقصوصين جويد",
-      "10 سنون ثوم، مرحي ولا مقصوص",
+      "10 سنات ثوم، مرحي ولا مقصوص",
       "ربع كاس زيت زيتونة",
-      "ملح أحرش حسب الذوق"
+      "ملح حرش حسب الذوق"
     ],
     "en": [
-      "10 tomatoes, medium, diced small",
-      "5 sweet red peppers, medium, diced small",
+      "10 medium tomatoes, diced small",
       "3 hot peppers, finely chopped",
-      "10 cloves garlic, minced or sliced",
+      "10 garlic cloves, minced or sliced",
       "1/4 cup olive oil",
       "Coarse salt to taste"
     ]
@@ -56,9 +52,9 @@
   "steps": {
     "he": [
       "שוטפים וחותכים את כל הירקות (עגבניות, פלפלים מתוקים, פלפלים חריפים ושום) לחתיכות קטנות.",
-      "מניחים את כל הירקות הקצוצים בסיר.",
+      "מכניסים את כל הירקות הקצוצים לסיר.",
       "מוסיפים את שמן הזית והמלח הגס.",
-      "מבשלים על אש בינונית-נמוכה. מניחים לתערובת להתבשל בבעבוע עדין עד שכל הנוזלים שהופרשו מהירקות נספגים או מתאדים."
+      "מבשלים על אש בינונית-נמוכה. נותנים לתערובת להתבשל בבעבוע עדין עד שכל הנוזלים שהופרשו מהירקות נספגים או מתאדים."
     ],
     "es": [
       "Lave y corte todas las verduras (tomates, pimientos dulces, pimientos picantes y ajo) en trozos pequeños.",
@@ -67,16 +63,16 @@
       "Cocine a fuego medio-bajo. Deje que la mezcla hierva a fuego lento hasta que todos los líquidos liberados por las verduras se absorban o evaporen."
     ],
     "ar": [
-      "اغسل وقص الخضرة الكل (طماطم، فلفل حلو، فلفل حار وثوم) طروف صغار.",
+      "اغسل وقص الخضرة الكل (طماطم، فلفل حلو، فلفل حار، وثوم) طروف صغار.",
       "حط الخضرة المقصوصة الكل في طنجرة.",
-      "زيد زيت الزيتونة والملح الأحرش.",
-      "طيّب على نار متوسطة وهادية. خلي الخليط يغلي لين الماء متاع الخضرة ينشح ويتبخر الكل."
+      "زيد زيت الزيتونة والملح الحرش.",
+      "طيّب على نار متوسطة وواطية. خلي الخليط يغلي لين الماء متاع الخضرة ينشف ويشيح جملة."
     ],
     "en": [
       "Wash and cut all the vegetables (tomatoes, sweet peppers, hot peppers, and garlic) into small pieces.",
       "Place all the chopped vegetables into a pot.",
       "Add the olive oil and coarse salt.",
-      "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed/evaporated."
+      "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed or evaporated."
     ]
   }
 }
