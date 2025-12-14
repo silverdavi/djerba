@@ -6,7 +6,11 @@ cd "$(dirname "$0")"
 echo "Building Silver Cooks book cover..."
 echo "=================================="
 
-# Use lualatex for fontspec support
+# Use lualatex for fontspec support - TWO PASSES
+echo "Pass 1..."
+lualatex -interaction=nonstopmode cover.tex > /dev/null 2>&1
+
+echo "Pass 2..."
 lualatex -interaction=nonstopmode cover.tex
 
 if [ -f cover.pdf ]; then
@@ -22,4 +26,3 @@ else
     echo "❌ Build failed"
     exit 1
 fi
-

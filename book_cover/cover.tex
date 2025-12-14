@@ -1,12 +1,18 @@
 % Silver Cooks - Book Cover
 % Dimensions: 8" x 8" pages (square format)
 % Spine calculated for ~330 pages at 0.002" per page = 0.66"
-% Total: 16.66" x 8" plus 0.125" bleed on all sides
+% Total: 16.7" x 8" plus 0.125" bleed on all sides = 16.95" x 8.25"
 
-\documentclass[tikz,border=0pt]{standalone}
+\documentclass{article}
+\usepackage[
+  paperwidth=16.95in,
+  paperheight=8.25in,
+  margin=0pt
+]{geometry}
 \usepackage{tikz}
 \usepackage{fontspec}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
 \setotherlanguages{hebrew,arabic}
@@ -28,18 +34,28 @@
 % Dimensions (in inches)
 \newcommand{\pagewidth}{8}
 \newcommand{\pageheight}{8}
-\newcommand{\spinewidth}{0.7}  % ~350 pages
+\newcommand{\spinewidth}{0.7}
 \newcommand{\bleed}{0.125}
+\newcommand{\totalwidth}{16.95}
+\newcommand{\totalheight}{8.25}
 
-% Total dimensions
-\newcommand{\totalwidth}{16.95}  % 8 + 0.7 + 8 + 0.125*2
-\newcommand{\totalheight}{8.25}  % 8 + 0.125*2
+\pagestyle{empty}
 
 \begin{document}
-\begin{tikzpicture}[x=1in, y=1in]
+\noindent
+\begin{tikzpicture}[x=1in, y=1in, remember picture, overlay]
+  % Position at page origin
+  \coordinate (origin) at (current page.south west);
+  
+  \begin{scope}[shift={(origin)}]
 
-% === BACKGROUND ===
-\fill[cream] (0,0) rectangle (\totalwidth, \totalheight);
+% === BACKGROUND IMAGE ===
+\node[anchor=south west, inner sep=0pt] at (0,0) {
+  \includegraphics[width=\totalwidth in, height=\totalheight in]{background.png}
+};
+
+% === SEMI-TRANSPARENT OVERLAY FOR TEXT READABILITY ===
+\fill[cream, opacity=0.85] (0,0) rectangle (\totalwidth, \totalheight);
 
 % === BACK COVER (left side) ===
 \begin{scope}[shift={(\bleed, \bleed)}]
@@ -179,6 +195,7 @@
   };
 \end{scope}
 
+  \end{scope}
 \end{tikzpicture}
-\end{document}
 
+\end{document}
