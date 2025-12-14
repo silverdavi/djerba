@@ -40,8 +40,8 @@
   \includegraphics[width=16.95in, height=8.25in]{background.png}
 };
 
-% === PAGE COLOR OVERLAY ===
-\fill[bgpage, opacity=0.92] (0,0) rectangle (16.95, 8.25);
+% === PAGE COLOR OVERLAY (less transparent to show more background) ===
+\fill[bgpage, opacity=0.80] (0,0) rectangle (16.95, 8.25);
 
 % ========================================
 % BACK COVER (center at x=4.125)
@@ -115,31 +115,31 @@
 % Year on spine
 \node[rotate=90, text=bgpage] at (8.475, 0.8) {
   \fontsize{9pt}{9pt}\selectfont
-  2025
+  2026
 };
 
 % ========================================
 % FRONT COVER (center at x=12.89)
 % ========================================
 
-% Row 1: Hebrew (right) + Arabic (left)
+% Row 1: English (top left) + Hebrew (top right)
 \node[text=ink, anchor=east] at (12.6, 6.4) {
-  \fontsize{32pt}{32pt}\selectfont
-  \heb{מטבח מצפון}
-};
-\node[text=ink, anchor=west] at (13.2, 6.4) {
-  \fontsize{26pt}{26pt}\selectfont
-  \arb{مطبخ بالأصل}
-};
-
-% Row 2: English + Spanish (same color - ink)
-\node[text=ink, anchor=east] at (12.6, 5.4) {
   \titlefont\fontsize{28pt}{28pt}\selectfont
   Oriented Kitchen
 };
-\node[text=ink, anchor=west] at (13.2, 5.4) {
+\node[text=ink, anchor=west] at (13.2, 6.4) {
+  \fontsize{32pt}{32pt}\selectfont
+  \heb{מטבח מצפון}
+};
+
+% Row 2: Spanish (bottom left) + Arabic (bottom right)
+\node[text=ink, anchor=east] at (12.6, 5.4) {
   \spanishfont\fontsize{20pt}{20pt}\selectfont\itshape
   Cocina con Conciencia
+};
+\node[text=ink, anchor=west] at (13.2, 5.4) {
+  \fontsize{26pt}{26pt}\selectfont
+  \arb{مطبخ بالأصل}
 };
 
 % Subtitles block
