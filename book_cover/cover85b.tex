@@ -1,0 +1,150 @@
+% Silver Cooks - Book Cover (8.5" x 8.5" version B)
+% Exact dimensions per printer spec: 18.375" x 8.5"
+% Spine: 0.98", Pages: (18.375 - 0.98) / 2 = 8.6975" each
+
+\documentclass[tikz]{standalone}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{luabidi}
+
+% Fonts
+\setmainfont{Helvetica Neue}[BoldFont = Helvetica Neue Bold]
+\newfontfamily\titlefont{Didot}
+\newfontfamily\hebrewfont[Path=/Users/davidsilver/Library/Fonts/, Extension=.ttf, Script=Hebrew]{Heebo-Variable}
+\newfontfamily\arabicfont[Script=Arabic]{Geeza Pro}
+\newfontfamily\spanishfont{Georgia}
+
+% RTL commands
+\newcommand{\heb}[1]{{\hebrewfont\RL{#1}}}
+\newcommand{\arb}[1]{{\arabicfont\RL{#1}}}
+
+% Colors
+\definecolor{bgpage}{HTML}{FAF6F1}
+\definecolor{ink}{HTML}{222222}
+\definecolor{muted}{HTML}{555555}
+\definecolor{accent}{HTML}{D9925B}
+
+% Text box style
+\tikzset{
+  textbox/.style={
+    fill=bgpage,
+    fill opacity=0.92,
+    text opacity=1,
+    rounded corners=6pt,
+    inner sep=12pt,
+    text=ink
+  },
+  accentbox/.style={
+    fill=accent,
+    fill opacity=0.95,
+    text opacity=1,
+    rounded corners=5pt,
+    inner sep=10pt,
+    text=bgpage
+  }
+}
+
+\begin{document}
+\begin{tikzpicture}[x=1in, y=1in]
+
+% === BACKGROUND IMAGE ===
+% Exact: 18.375" x 8.5"
+\node[anchor=south west, inner sep=0pt] at (0,0) {
+  \includegraphics[width=18.375in, height=8.5in]{background.png}
+};
+
+% ========================================
+% BACK COVER (0 to 8.6975", center at 4.34875")
+% ========================================
+
+% Title box
+\node[textbox, align=center] at (4.35, 6.2) {
+  \fontsize{20pt}{28pt}\selectfont
+  \heb{מטבח מצפון} \quad \arb{مطبخ بالأصل}\\[6pt]
+  {\titlefont Oriented Kitchen} \quad {\spanishfont\itshape Cocina con Conciencia}
+};
+
+% Subtitles box
+\node[textbox, align=center, text=muted] at (4.35, 4.4) {
+  \fontsize{10pt}{16pt}\selectfont
+  Plant-Based Recipes from Djerba \& Tangier\\[3pt]
+  {\spanishfont\itshape Recetas a Base de Plantas}\\[3pt]
+  \heb{מתכונים מבוססי צמחים}\\[3pt]
+  \arb{وصفات نباتية}
+};
+
+% Recipe count
+\node[textbox] at (4.35, 2.7) {
+  \fontsize{12pt}{12pt}\selectfont
+  81 Recipes in Four Languages
+};
+
+% Website
+\node[accentbox] at (4.35, 1.3) {
+  \fontsize{11pt}{11pt}\selectfont\bfseries
+  silvercooks.com
+};
+
+% ========================================
+% SPINE (8.6975" to 9.6775" = 0.98" wide)
+% Center at 9.1875"
+% ========================================
+\fill[accent] (8.6975, 0) rectangle (9.6775, 8.5);
+
+\node[rotate=90, text=bgpage] at (9.1875, 6.0) {
+  \titlefont\fontsize{14pt}{14pt}\selectfont\bfseries
+  Oriented Kitchen
+};
+\node[rotate=90, text=bgpage] at (9.1875, 4.4) {
+  \fontsize{13pt}{13pt}\selectfont
+  \heb{מטבח מצפון}
+};
+\node[rotate=90, text=bgpage] at (9.1875, 2.6) {
+  \fontsize{11pt}{11pt}\selectfont
+  David \& Enny Silver
+};
+\node[rotate=90, text=bgpage] at (9.1875, 1.0) {
+  \fontsize{9pt}{9pt}\selectfont
+  2026
+};
+
+% ========================================
+% FRONT COVER (9.6775" to 18.375", center at 14.02625")
+% ========================================
+
+% Main title box
+\node[textbox, align=center] at (14.03, 6.0) {
+  \fontsize{30pt}{42pt}\selectfont
+  {\titlefont Oriented Kitchen} \quad \heb{מטבח מצפון}\\[8pt]
+  {\spanishfont\fontsize{18pt}{18pt}\selectfont\itshape Cocina con Conciencia} \quad 
+  \fontsize{22pt}{22pt}\selectfont\arb{مطبخ بالأصل}
+};
+
+% Subtitles box
+\node[textbox, align=center, text=muted] at (14.03, 4.15) {
+  \fontsize{11pt}{17pt}\selectfont
+  Plant-Based Recipes from Djerba \& Tangier\\[3pt]
+  {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[3pt]
+  \heb{מתכונים מבוססי צמחים מג׳רבה וטנג׳יר}\\[3pt]
+  \arb{وصفات نباتية من جربة وطنجة}
+};
+
+% Family box
+\node[textbox, align=center] at (14.03, 2.3) {
+  \fontsize{11pt}{17pt}\selectfont
+  \textbf{Cohen-Trabelsi} · \heb{כהן-טרבלסי}\\[-2pt]
+  {\color{muted}\fontsize{9pt}{9pt}\selectfont Djerba, Tunisia}\\[6pt]
+  \textbf{Kadoch-Muyal} · \heb{קדוש-מויאל}\\[-2pt]
+  {\color{muted}\fontsize{9pt}{9pt}\selectfont Tangier, Morocco}
+};
+
+% Authors
+\node[accentbox] at (14.03, 0.75) {
+  \titlefont\fontsize{16pt}{16pt}\selectfont
+  David \& Enny Silver
+};
+
+\end{tikzpicture}
+\end{document}
+
