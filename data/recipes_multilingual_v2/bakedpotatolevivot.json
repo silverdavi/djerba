@@ -9,19 +9,19 @@
   },
   "name": {
     "he": "לביבות תפו\"א",
-    "es": "Levivot de Papa al Horno (Ma'akouda)",
-    "ar": "لڤيڤوت بطاطا في الكوشة (معقودة)",
-    "en": "Baked Potato Levivot (Ma'akouda)"
+    "es": "Levivot de Patata al Horno (Latkes)",
+    "ar": "ليفيفوت بطاطا في الكوشة",
+    "en": "Baked Potato Levivot (Latkes)"
   },
   "description": {
-    "he": "גרסה טבעונית זו של לביבות תפו\"א אפויות, הידועות היסטורית כמעקודה בג'ודאו-ערבית, מכבדת את השורש \"עקד\" (קשור) על ידי שימוש בבלילת חומוס עשירה. המאפה הזהוב מציע מרקם מנחם המושלם לארוחות יומיומיות, ושומר על הלב העשיר של המסורת הג'רבאית המקורית ללא שימוש בביצים.",
-    "es": "Esta adaptación vegana de Levivot de papa al horno, históricamente conocida como Ma'akouda en judeo-árabe, honra la raíz de la palabra atado mediante el uso de una masa sabrosa de garbanzos. La cazuela dorada ofrece una textura reconfortante perfecta para las comidas diarias, manteniendo el corazón sabroso de la tradición original de Djerba sin usar huevos.",
-    "ar": "هذي النسخة النباتية متاع لفيڨوت البطاطا في الكوشة، اللي معروفة تاريخيا باسم معقودة، تستعمل دقيق الحمص باش تشد الخليط في بلاصة العظم. هالمعقودة الذهبية عندها بنة وتكستير هايلة توالم الماكلة متاع كل يوم، وتحافظ على البنة الأصلية متاع التقاليد الجربية من غير ما نستعملو العظم.",
-    "en": "This vegan adaptation of Baked Potato Levivot, historically known as Ma'akouda in Judeo-Arabic, honors the root word for 'bound' by using a savory chickpea batter. The golden casserole offers a comforting texture perfect for everyday meals, maintaining the savory heart of the original Djerban tradition without using eggs."
+    "he": "לביבות, הידועות גם בשם לאטקס, הן חביתיות תפוחי אדמה פריכות המסורתיות לחנוכה. המילה לאטקס מגיעה מיידיש, ששאלה אותה משפות סלאביות מזרחיות: אולדקה באוקראינית ולטקה ברוסית, שמשמעותן חביתית מטוגנת קטנה או טלאי. גרסה אפויה זו משיגה את הפריכות האהובה עם פחות שמן.",
+    "es": "Las Levivot, también conocidas como Latkes, son tortitas de patata crujientes tradicionales de Janucá. La palabra Latke proviene del yiddish, que la tomó de las lenguas eslavas orientales: oladka en ucraniano y latka en ruso significan pequeña tortita frita o parche. Esta versión al horno logra el amado exterior crujiente con menos aceite.",
+    "ar": "الليفيفوت، المعروفة زادة باسم لاتكس، هي فطاير بطاطا مقرمشة تقليدية في عيد حانوكا. كلمة لاتكس جاية من اليديشية، اللي خذاتها من اللغات السلافية: أولادكا بالأوكرانية ولاتكا بالروسية، والزوز يعنيو فطيرة مقلية صغيرة. هالوصفة في الكوشة تعطي نفس القرمشة البنينة أما بزيت أقل.",
+    "en": "Levivot, also known as Latkes, are crispy potato pancakes traditional to Hanukkah. The word Latke comes from Yiddish, which borrowed it from East Slavic languages: Ukrainian oladka and Russian latka both mean small fried pancake or patch. This baked version achieves the beloved crispy exterior with less oil."
   },
   "ingredients": {
     "he": [
-      "4 תפוחי אדמה אדומים, מגוררים (בינוניים)",
+      "4 תפוחי אדמה אדומים, מגוררים",
       "90 גרם קמח חומוס",
       "180 מ\"ל מים",
       "1 גרם כורכום",
@@ -32,12 +32,12 @@
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "4 papas rojas, ralladas (medianas)",
+      "4 patatas rojas, ralladas",
       "90 g de harina de garbanzo",
       "180 ml de agua",
       "1 g de cúrcuma en polvo",
-      "31 g de harina común",
-      "5 g de polvo de hornear",
+      "31 g de harina de trigo",
+      "5 g de levadura química (polvo de hornear)",
       "30 ml de aceite vegetal",
       "Sal al gusto",
       "Pimienta negra al gusto"
@@ -48,14 +48,14 @@
       "3/4 كاس ماء",
       "1/4 مغرفة صغيرة كركم",
       "1/4 كاس فرينة",
-      "1 مغرفة صغيرة خميرة ڨاطو",
+      "1 مغرفة صغيرة خميرة قاطو",
       "2 مغارف زيت",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
-      "4 red potatoes, grated (medium)",
-      "3/4 cup chickpea flour (besan)",
+      "4 red potatoes, grated",
+      "3/4 cup chickpea flour (Besan)",
       "3/4 cup water",
       "1/4 tsp turmeric powder",
       "1/4 cup all-purpose flour",
@@ -69,26 +69,26 @@
     "he": [
       "מחממים תנור ל-180 מעלות צלזיוס.",
       "מגררים את תפוחי האדמה. סוחטים היטב את הנוזלים העודפים מתפוחי האדמה המגוררים (הסינון קריטי למרקם).",
-      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם תערובת קמח החומוס והמים, הקמח, אבקת האפייה, השמן, המלח והפלפל השחור עד לקבלת תערובת אחידה.",
+      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם קמח החומוס והמים (תחליף הביצים), הקמח, אבקת האפייה, השמן, המלח והפלפל עד לקבלת תערובת אחידה.",
       "משמנים היטב תבנית אפייה.",
       "משטחים את התערובת באופן שווה בתבנית המשומנת.",
       "אופים במשך כ-40 דקות, או עד שהחלק העליון שחום ופריך."
     ],
     "es": [
       "Precalentar el horno a 180°C.",
-      "Rallar las papas. Exprimir el exceso de líquido de las papas ralladas (colar es crucial para la textura).",
-      "En un tazón grande, mezclar las papas ralladas con la mezcla de harina de garbanzo y agua, la harina, el polvo de hornear, el aceite, la sal y la pimienta negra hasta que estén bien combinados.",
+      "Rallar las patatas. Exprimir el exceso de líquido de las patatas ralladas (colar es crucial para la textura).",
+      "En un bol grande, mezclar las patatas ralladas con la mezcla de harina de garbanzo y agua, la harina, la levadura, el aceite, la sal y la pimienta hasta que estén bien combinados.",
       "Engrasar generosamente una fuente o molde para hornear.",
-      "Esparcir la mezcla uniformemente en el molde engrasado.",
+      "Extender la mezcla uniformemente en el molde engrasado.",
       "Hornear durante aproximadamente 40 minutos, o hasta que la parte superior esté dorada y crujiente."
     ],
     "ar": [
-      "سخن الكوشة لدرجة 180.",
-      "ارحي البطاطا (أبرشها). اعصر البطاطا المرحية مليح باش تخرج الماء الزايد (مهم برشا باش تجي شادة روحها).",
-      "في صحفة كبيرة، خلط البطاطا المرحية مع خليط دقيق الحمص والماء، الفرينة، خميرة الڨاطو، الزيت، الملح والفلفل الأكحل لين يتخلطو مليح.",
-      "ادهن طبق الكوشة مليح بالزيت.",
-      "حط الخليط في الطبق المدهون واستويه مليح.",
-      "طيبها في الكوشة حكاية 40 دقيقة، ولا لين يحمار الوجه ويولي يتقرمش."
+      "نسخنوا الكوشة (الفور) على 180 درجة.",
+      "نرحيو البطاطا. نعصروها مليح باش نخرجوا الماء الزايد (مهم برشا باش تجي شادة روحها).",
+      "في صحفة كبيرة، نخلطوا البطاطا المرحية مع دقيق الحمص والماء (في بلاصة العظم)، والفرينة، والخميرة، والزيت، والملح، والفلفل الأكحل لين يتخلطوا مليح.",
+      "ندهنو طبق الكوشة بالزيت مليح.",
+      "نفرشو الخليط بصفة متساوية في الطبق.",
+      "نطيبوها في الكوشة تقريب 40 دقيقة، لين يحمار الوجه ويولي مقرمش."
     ],
     "en": [
       "Preheat the oven to 180°C (350°F).",
@@ -98,5 +98,6 @@
       "Spread the mixture evenly into the greased pan.",
       "Bake for approximately 40 minutes, or until the top is browned and crispy."
     ]
-  }
+  },
+  "index": 6
 }

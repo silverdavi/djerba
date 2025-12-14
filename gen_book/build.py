@@ -1210,5 +1210,32 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    web_only = "--web-only" in sys.argv
+    
+    print("Four-Language Cookbook Builder")
+    print("=" * 40)
+    
+    css_content = CSS_FILE.read_text(encoding="utf-8")
+    recipes = load_all_recipes()
+    print(f"\nFound {len(recipes)} recipe(s)")
+    
+    if not recipes:
+        print("No recipes found.")
+        sys.exit(1)
+    
+    print("\nBuilding web pages...")
+    build_web(recipes, css_content)
+    
+    if not web_only:
+        print("\nBuilding print version...")
+        build_print(recipes, css_content)
+        print("\nBuilding PDF...")
+        build_pdf(len(recipes))
+    
+    print("\nBuilding flipbook search index...")
+    build_flipbook_index(recipes)
+    
+    print("\n" + "=" * 40)
+    print("Build complete!")
 

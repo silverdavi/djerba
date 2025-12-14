@@ -14,85 +14,86 @@
     "en": "Judy's Biscotti"
   },
   "description": {
-    "he": "ביסקוטי ג׳ודי הן עוגיות רכות שנאפו פעמיים, בדומה למנדלברויט הספרדי. השם \"ביסקוטי\" מגיע מאיטלקית ופירושו אפוי פעמיים. גרסה זו, ששותפה על ידי חברה בשם ג׳ודי, משתמשת בשמן במקום בחמאה, מה שהופך אותן לטבעוניות באופן טבעי (פרווה). המרקם הפריך שלהן הופך אותן לאידיאליות לצד קפה או יין קינוח.",
-    "es": "Los Biscotti de Judy son galletas tiernas horneadas dos veces, similares al mandelbrot sefardí. El nombre \"biscotti\" proviene del italiano y significa horneado dos veces. Esta versión, compartida por una amiga llamada Judy, utiliza aceite en lugar de mantequilla, lo que las hace naturalmente veganas. Su textura quebradiza las hace ideales para acompañar café o vino de postre.",
-    "ar": "بيسكوتي جودي هو بشكوطو طري يطيب مرتين، يشبه المندلبروت السفاردي. اسم \"بيسكوتي\" جاي من الطليانية ومعناه طايب مرتين. الوصفة هذي، عطاتها صديقة اسمها جودي، وتستعمل الزيت في عوض الزبدة، باش تكون خفيفة ونباتية. التكستير متاعها هشوشة وتجي بنينة برشا مع قهوة ولا شراب حلو.",
-    "en": "Judy's Biscotti, or Biscotti Judy in Hebrew, are tender, twice-baked cookies similar to Sephardic mandelbrot. The name \"biscotti\" comes from Italian, meaning twice-baked. This version, shared by a friend named Judy, uses oil instead of butter, making them naturally vegan. Their crumbly texture makes them ideal with coffee or dessert wine."
+    "he": "הביסקוטי של ג׳ודי הן עוגיות רכות שנאפו פעמיים, מושלמות לטבילה בקפה או בתה. המתכון הזה מגיע מג׳ודי, חברה יקרה שחלקה אותו עם משפחתנו. המילה האיטלקית \"ביסקוטי\" פירושה \"אפוי פעמיים\", והיא מתייחסת לשיטה המסורתית של אפיית הבצק פעמיים לקבלת פריכות נוספת.",
+    "es": "Los Biscotti de Judy son galletas tiernas horneadas dos veces, perfectas para mojar en café o té. Esta receta proviene de Judy, una querida amiga que la compartió con nuestra familia. La palabra italiana \"biscotti\" significa \"dos veces cocido\", refiriéndose al método tradicional de hornear la masa dos veces para obtener un crujido extra.",
+    "ar": "البيسكوتي متاع جودي هو بشكوطو طري يطيب مرتين، وبنين برشا للتغميس في القهوة ولا التاي. الوصفة هاذي جاتنا من عند جودي، صديقة عزيزة عطاتها لعايلتنا. الكلمة الطليانية \"بيسكوتي\" تعني \"طاب مرتين\"، وهي ترمز للطريقة التقليدية باش تطيب العجينة مرتين باش تتقرمش مليح.",
+    "en": "Judy's Biscotti are tender, twice-baked cookies perfect for dipping in coffee or tea. This recipe comes from Judy, a dear friend who shared it with our family. The Italian word \"biscotti\" means \"twice-baked\", referring to the traditional method of baking the dough twice for extra crunch."
   },
   "ingredients": {
     "he": [
-      "240 מ\"ל שמן צמחי (שמן ניטרלי כמו קנולה או חמניות)",
+      "240 מ\"ל שמן צמחי (ניטרלי כמו קנולה)",
       "200 גרם סוכר לבן",
       "200 גרם סוכר חום",
       "10 מ\"ל תמצית וניל",
-      "420 גרם קמח רב תכליתי, מנופה (בערך 3 כוסות)",
+      "420 גרם קמח רגיל, מנופה",
       "5 גרם סודה לשתייה",
       "5 גרם מלח",
-      "170 גרם שוקולד צ׳יפס ללא חלב (לוודא כשרות פרווה/טבעוני)"
+      "170 גרם שוקולד צ'יפס (פרווה)"
     ],
     "es": [
-      "240 ml de aceite vegetal (aceite neutro como canola o girasol)",
+      "240 ml de aceite vegetal (neutro como canola)",
       "200 g de azúcar blanca",
       "200 g de azúcar morena",
       "10 ml de extracto de vainilla",
-      "420 g de harina para todo uso, tamizada (aprox. 3 tazas)",
+      "420 g de harina común, tamizada",
       "5 g de bicarbonato de sodio",
       "5 g de sal",
-      "170 g de chispas de chocolate sin lácteos (asegurar certificación vegana)"
+      "170 g de chispas de chocolate (sin lácteos)"
     ],
     "ar": [
-      "1 كأس زيت (زيت نباتي كيما عباد الشمس)",
+      "1 كأس زيت نباتي (زيت عباد الشمس)",
       "1 كأس سكر أبيض",
       "1 كأس سكر أسمر",
       "2 مغارف صغار فانيليا",
       "3.5 كيسان فرينة، منخولة",
       "1 مغرفة صغيرة بيكربونات",
       "1 مغرفة صغيرة ملح",
-      "1 كأس شوكولاتة حبيبات (تأكد ما فيهاش حليب)"
+      "1 كأس حبيبات شوكولاتة (بدون حليب)"
     ],
     "en": [
-      "1 cup vegetable oil (neutral oil like canola or sunflower)",
+      "1 cup vegetable oil (neutral oil like canola)",
       "1 cup white sugar",
       "1 cup brown sugar",
       "2 tsp vanilla extract",
       "3.5 cups all-purpose flour, sifted",
       "1 tsp baking soda",
       "1 tsp salt",
-      "1 cup dairy-free chocolate chips (ensure 100% vegan certification)"
+      "1 cup dairy-free chocolate chips"
     ]
   },
   "steps": {
     "he": [
       "מחממים תנור ל-180 מעלות צלזיוס.",
       "בקערה גדולה, מערבבים את השמן, הסוכר הלבן, הסוכר החום, הווניל, הקמח, הסודה לשתייה והמלח עד לקבלת תערובת אחידה.",
-      "מוסיפים את השוקולד צ׳יפס ומערבבים לפיזור אחיד. אל דאגה אם הבצק מרגיש פירורי; זה המרקם הרצוי.",
-      "יוצרים מהבצק שני גלילים (או יותר) ומניחים אותם על תבנית אפייה. טיפ: דוחסים את הבצק בחוזקה כדי לעזור לגלילים לשמור על צורתם.",
+      "מוסיפים את השוקולד צ'יפס ומערבבים לפיזור אחיד. אל דאגה אם הבצק מרגיש פירורי; זה המרקם הרצוי.",
+      "יוצרים מהבצק שני גלילים (או יותר) ומניחים אותם על תבנית אפייה. יש להדק את הבצק היטב כדי שהגלילים ישמרו על צורתם.",
       "אופים במשך 20 עד 30 דקות עד שהגלילים מזהיבים.",
-      "מניחים לגלילים להתקרר מעט, ואז פורסים לפרוסות בעודם חמים. טיפ: אם הם יתקררו לחלוטין, הם עלולים להתפורר בעת החיתוך."
+      "מניחים לגלילים להצטנן מעט, ואז פורסים לפרוסות בעודם חמימים. אם הם יתקררו לחלוטין, הם עלולים להתפורר בעת החיתוך."
     ],
     "es": [
       "Precalentar el horno a 180°C.",
-      "En un tazón grande, mezclar el aceite, el azúcar blanca, el azúcar morena, la vainilla, la harina, el bicarbonato y la sal hasta que se combinen.",
-      "Añadir las chispas de chocolate y mezclar para distribuir. No se alarme si la masa se siente quebradiza; esa es la textura deseada.",
-      "Formar dos (o más) troncos con la masa y colocarlos en una bandeja para hornear. Consejo: Presione la masa firmemente para ayudar a que los troncos mantengan su forma.",
+      "En un bol grande, mezclar el aceite, el azúcar blanca, el azúcar morena, la vainilla, la harina, el bicarbonato y la sal hasta integrar.",
+      "Añadir las chispas de chocolate y mezclar para distribuir. No se alarme si la masa se siente grumosa; esa es la textura deseada.",
+      "Formar dos (o más) troncos con la masa y colocarlos en una bandeja para hornear. Presione la masa firmemente para ayudar a que los troncos mantengan su forma.",
       "Hornear de 20 a 30 minutos hasta que los troncos estén dorados.",
-      "Dejar enfriar los troncos ligeramente, luego cortar en rebanadas mientras aún están tibios. Consejo: Si se enfrían completamente, pueden desmoronarse al cortar."
+      "Dejar enfriar los troncos ligeramente, luego cortar en rebanadas mientras aún están tibios. Si se enfrían completamente, pueden desmoronarse al cortar."
     ],
     "ar": [
       "سخن الفور (الكوشة) على 180 درجة.",
-      "في صحفة كبيرة، خلط الزيت، السكر الأبيض، السكر الأسمر، الفانيليا، الفرينة، البيكربونات والملح حتى يتخلطوا مليح.",
-      "زيد الشوكولاتة وخلط. ما تخافش إذا العجينة جاتك تتفتت، هكاكة لازم تكون.",
-      "شكل العجينة زوز \"بودان\" (logs) وحطهم في طبق الفور. نصيحة: انزل على العجينة بالقوي باش تشد روحها وما تتحلش.",
-      "طيبهم في الفور لمدة 20 حتى 30 دقيقة لين يحماروا شوية.",
-      "خليهم يبردوا شوية، ومبعد قصهم طروف وهوما مازالوا دافيين. نصيحة: كان يبردوا برشا، ينجموا يتفتتوا كي تجي تقصهم."
+      "في صحفة كبيرة، خلط الزيت، والسكر الأبيض، والسكر الأسمر، والفانيليا، والفرينة، والبيكربونات، والملح حتى يتخلطوا مليح.",
+      "زيد حبيبات الشوكولاتة وخلط. ما تخافش كان العجينة جاتك مفرتتة، هكاكة لازم تكون.",
+      "شكل العجينة زوز \"بودانات\" (حرابيش) وحطهم في طبق الفور. انزل على العجينة مليح باش البودانات يشدوا فورم.",
+      "طيبهم في الفور بين 20 و 30 دقيقة حتى يحماروا شوية.",
+      "خلي البودانات يبردوا شوية، ومبعد قصهم طروف وهوما مازالوا دافيين. كان تخليهم يبردوا برشا، ينجموا يتفتفتوا كي تجي تقصهم."
     ],
     "en": [
       "Preheat the oven to 180°C (350°F).",
       "In a large bowl, mix the oil, white sugar, brown sugar, vanilla, flour, baking soda, and salt until combined.",
       "Add the chocolate chips and mix to distribute. Do not be alarmed if the dough feels crumbly; this is the intended texture.",
-      "Form the dough into two (or more) logs and place them on a baking sheet. Tip: Press the dough firmly together to help the logs hold their shape.",
+      "Form the dough into two (or more) logs and place them on a baking sheet. Press the dough firmly together to help the logs hold their shape.",
       "Bake for 20 to 30 minutes until the logs are golden brown.",
-      "Allow the logs to cool slightly, then cut into slices while still warm. Tip: If they cool completely, they may crumble when slicing."
+      "Allow the logs to cool slightly, then cut into slices while still warm. If they cool completely, they may crumble when slicing."
     ]
-  }
+  },
+  "index": 10
 }

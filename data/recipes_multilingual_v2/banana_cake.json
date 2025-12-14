@@ -1,6 +1,6 @@
 {
   "id": "banana_cake",
-  "image": "images/current/108bananacake/dish.png",
+  "image": "images/current/108_banana_cake/dish.png",
   "meta": {
     "servings": "9-12",
     "prep_time": "15 min",
@@ -9,15 +9,15 @@
   },
   "name": {
     "he": "עוגת בננות",
-    "es": "Pastel de Plátano",
-    "ar": "كيكة الموز",
+    "es": "Pastel de Banana",
+    "ar": "كيكة بالموز",
     "en": "Banana Cake"
   },
   "description": {
-    "he": "עוגת בננות היא מנה אהובה במשפחות יהודיות, מושלמת לארוחת בוקר של שבת או לתה של אחר הצהריים. השם משלב השפעות עבריות וגלובליות. מתכון זה משתמש בתחליף ביצים לגרסה טבעונית ולחה של קלאסיקה מודרנית.",
-    "es": "El Pastel de Plátano es un favorito familiar en los hogares judíos, perfecto para el desayuno de Shabat o el té de la tarde. El nombre combina influencias hebreas y globales. Esta receta utiliza un sustituto de huevo para una versión vegana y húmeda de un clásico moderno.",
-    "ar": "كيكة الموز هي مفضلة عند العايلات اليهودية، وممتازة لفطور الصباح نهار السبت ولا مع التاي في العشية. الوصفة هذه تستعمل بديل العظم باش تجي كيكة نباتية وطرية.",
-    "en": "Ugat Bananot, Banana Cake, is a family favorite in Jewish homes, perfect for Shabbat breakfast or afternoon tea. The name blends Hebrew and global influences. This recipe uses a plant-based substitute instead of eggs for a moist, vegan version of a modern classic."
+    "he": "עוגת בננות לחה ועשירה בטעמים שהפכה לאהובה על המשפחה. בננות בשלות מעניקות מתיקות טבעית בעוד רסק תפוחים או פשתן מחליפים את הביצים בגרסה הצמחית הזו. מושלמת לקינוח שבת או כפינוק לאמצע השבוע.",
+    "es": "Un pastel de banana húmedo y sabroso que se ha convertido en un favorito de la familia. Las bananas maduras aportan dulzura natural mientras que el puré de manzana o la linaza reemplazan los huevos en esta versión vegetal. Perfecto para el postre de Shabat o como un capricho entre semana.",
+    "ar": "كيكة بالموز طرية وبنينة ولات محبوبة عند العايلة. الموز الطايب يعطي حلاوة طبيعية، وفي هالوصفة النباتية عوضنا العظم بصوص التفاح ولا الكتان. هايلة لسهرة السبت ولا باش تحلي فمك في وسط الجمعة.",
+    "en": "A moist and flavorful banana cake that's become a family favorite. Ripe bananas provide natural sweetness while applesauce replaces eggs in this plant-based version. Perfect for Shabbat dessert or a weekday treat."
   },
   "ingredients": {
     "he": [
@@ -28,33 +28,33 @@
       "5 גרם סודה לשתייה",
       "115 מ\"ל חלב סויה (מעורבב עם כפית חומץ תפוחים)",
       "2 בננות גדולות, מעוכות",
-      "190 גרם קמח רגיל, מנופה",
+      "190 גרם קמח לבן, מנופה",
       "5 גרם אבקת אפייה",
-      "100 גרם שבבי שוקולד מריר"
+      "100 גרם שוקולד צ'יפס מריר"
     ],
     "es": [
       "113 g de mantequilla vegana, ablandada",
       "300 g de azúcar",
-      "14 g de linaza molida (mezclada con 6 cdas de agua)",
+      "14 g de harina de linaza (mezclada con 6 cdas de agua)",
       "5 ml de extracto de vainilla",
       "5 g de bicarbonato de sodio",
       "115 ml de leche de soja (mezclada con 1 cdta de vinagre de manzana)",
-      "2 plátanos grandes, machacados",
+      "2 bananas grandes, pisadas",
       "190 g de harina común, tamizada",
       "5 g de polvo de hornear",
       "100 g de chispas de chocolate amargo"
     ],
     "ar": [
-      "نص كاس زبدة نباتية، طرية",
-      "كاس ونص سكر",
-      "2 مغارف زريعة كتان مرحية (مخلطة مع 6 مغارف ماء)",
-      "مغرفة صغيرة فانيليا",
-      "مغرفة صغيرة بيكربونات",
-      "نص كاس حليب صويا (مخلط مع مغرفة صغيرة خل تفاح)",
-      "2 كعبات موز كبار، مرفوسين",
-      "كاس ونص فرينة، منخولة",
-      "مغرفة صغيرة خميرة قاطو",
-      "ثلثين كاس شوكولاتة (pépites)"
+      "1/2 كأس زبدة نباتية، طرية",
+      "1 1/2 كأس سكر",
+      "2 مغارف كتان مرحي (مخلطين مع 6 مغارف ماء)",
+      "1 مغرفة صغيرة فانيليا",
+      "1 مغرفة صغيرة بيكربونات",
+      "1/2 كأس حليب صوجا (مخلط مع مغرفة صغيرة خل تفاح)",
+      "2 كعبات موز كبار، معفوسين",
+      "1 1/2 كأس فرينة، منخولة",
+      "1 مغرفة صغيرة خميرة قاطو",
+      "2/3 كأس حبيبات شكلاطة كحلة"
     ],
     "en": [
       "1/2 cup vegan butter, softened",
@@ -72,40 +72,40 @@
   "steps": {
     "he": [
       "מחממים תנור ל-175 מעלות. משמנים או מרפדים תבנית אפייה מרובעת בגודל 23 ס\"מ.",
-      "בקערה גדולה, מקציפים את החמאה, הסוכר, תערובת הפשתן והווניל עד שהתערובת בהירה ואוורירית.",
+      "בקערה גדולה, מקציפים את החמאה, הסוכר, תערובת הפשתן (תחליף הביצים) והוניל עד שהתערובת אוורירית ובהירה.",
       "בכלי קטן נפרד, ממיסים את הסודה לשתייה בתוך החלב החמוץ (חלב הסויה עם החומץ).",
       "מוסיפים את תערובת החלב לבלילת החמאה ומקציפים היטב.",
       "מנפים יחד את הקמח ואבקת האפייה.",
-      "מוסיפים את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים לבלילה. מקפלים פנימה את שבבי השוקולד. מערבבים רק עד לאיחוד; לא לערבב יותר מדי.",
+      "מוסיפים לבלילה את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים. מקפלים פנימה את השוקולד צ'יפס. מערבבים רק עד לאיחוד; להיזהר לא לערבב יותר מדי.",
       "יוצקים את הבלילה לתבנית האפייה המוכנה.",
       "אופים במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.",
-      "מניחים לעוגה להצטנן. אפשר לצפות בציפוי בננה או ציפוי שוקולד."
+      "מניחים לעוגה להצטנן. אפשר לצפות בזיגוג בננה או שוקולד."
     ],
     "es": [
       "Precalentar el horno a 175°C. Preparar un molde cuadrado de 23 cm engrasándolo o forrándolo.",
-      "En un bol grande, batir la mantequilla, el azúcar, la mezcla de linaza y la vainilla hasta que la mezcla esté ligera y esponjosa.",
-      "En un recipiente pequeño separado, disolver el bicarbonato de sodio en la leche agria (mezcla de soja).",
-      "Añadir la mezcla de leche a la masa de mantequilla y batir bien.",
-      "Tamizar la harina y el polvo de hornear juntos.",
-      "Añadir los plátanos machacados alternando con los ingredientes secos tamizados a la masa. Incorporar las chispas de chocolate. Mezclar solo hasta que esté integrado; no mezclar en exceso.",
+      "En un bol grande, batir la mantequilla, el azúcar, la mezcla de linaza (sustituto de huevo) y la vainilla hasta que la mezcla esté ligera y esponjosa.",
+      "En un recipiente pequeño aparte, disolver el bicarbonato de sodio en la leche agria (leche de soja con vinagre).",
+      "Agregar la mezcla de leche al batido de mantequilla y batir bien.",
+      "Tamizar juntos la harina y el polvo de hornear.",
+      "Agregar las bananas pisadas alternando con los ingredientes secos tamizados a la masa. Incorporar las chispas de chocolate con movimientos envolventes. Mezclar solo hasta integrar; no batir en exceso.",
       "Verter la masa en el molde preparado.",
-      "Hornear de 45 a 50 minutos, o hasta que un palillo insertado en el centro salga limpio.",
-      "Dejar enfriar. Opcionalmente, cubrir con glaseado de plátano o chocolate."
+      "Hornear de 45 a 50 minutos, o hasta que al insertar un palillo en el centro salga limpio.",
+      "Dejar enfriar. Opcionalmente cubrir con glaseado de banana o chocolate."
     ],
     "ar": [
-      "سخّن الكوشة في 175 درجة. حضّر طبق مربع 23 سم وادهنو بالزيت.",
-      "في صحفة كبيرة، ركّض الزبدة والسكر وخليط زريعة الكتان والفانيليا لين يولي الخليط خفيف.",
-      "في صحفة صغيرة، ذوّب البيكربونات في الحليب الرايب (حليب الصويا والخل).",
-      "زيد خليط الحليب لخليط الزبدة وركّض مليح.",
-      "غرّبل الفرينة وخميرة القاطو مع بعضهم.",
-      "زيد الموز المرفوس بالتناوب مع المكونات الشايحة للخليط. خلّط معاهم الشوكولاتة. خلّط جيست باش يتلمو، ما تركضش برشا.",
-      "صب الخليط في الطبق المحضّر.",
-      "طيّب في الكوشة لمدة 45 حتى 50 دقيقة، ولا لين تدخل كردون ويخرج شايح.",
-      "خلّيها تبرد. تنجم تزيّنها بكريمة الموز ولا الشوكولاتة."
+      "سخن الفور ل-175 درجة. حضر طبق الفور (23 سم) وادهنو بالزيت ولا حط فيه ورق طبخ.",
+      "في صحفة كبيرة، ركض الزبدة والسكر وخلطة الكتان (في عوض العظم) والفانيليا لين الخليط يولي خفيف ومنفخ.",
+      "في صحفة صغيرة وحدها، ذوب البيكربونات في الحليب (حليب الصوجا والخل).",
+      "زيد خليط الحليب على خليط الزبدة وركض مليح.",
+      "غربل الفرينة وخميرة القاطو مع بعضهم.",
+      "زيد الموز المعفوس بالتناوب مع الفرينة للخليط. خلط معاهم حبيبات الشكلاطة. حرك بشوية لين يتخلطو برك، رد بالك تخلط برشا.",
+      "صب الخليط في الطبق المحضر.",
+      "طيبها 45 حتى 50 دقيقة، ولا لين كي تدخل فيها عود يخرج شايح.",
+      "خليها تبرد. تنجم تزينها بصوص موز ولا شكلاطة كان تحب."
     ],
     "en": [
       "Preheat oven to 175°C (350°F). Prepare a 9-inch square baking pan by greasing or lining it.",
-      "In a large bowl, beat the butter, sugar, flax mixture, and vanilla until the mixture is light and fluffy.",
+      "In a large bowl, beat the butter, sugar, flax mixture (egg replacer), and vanilla until the mixture is light and fluffy.",
       "In a separate small container, dissolve the baking soda into the sour milk mixture.",
       "Add the milk mixture to the butter batter and beat well.",
       "Sift the flour and baking powder together.",
@@ -114,5 +114,6 @@
       "Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.",
       "Allow to cool. Optionally ice with Banana Icing or Chocolate Icing."
     ]
-  }
+  },
+  "index": 7
 }

@@ -2,8 +2,8 @@
   "id": "honey_cake_mami",
   "slug": "honey-cake-mami",
   "source_file": "data/safed_recipes/honey_cake_mami.json",
-  "name": "Mami's Honey Cake",
-  "name_hebrew": "עוגת דבש (מאמי)",
+  "name": "Mom's Honey Cake",
+  "name_hebrew": "עוגת דבש של מאמי",
   "name_origin": "The term 'Mami' (מאמי) in this context is not a specific culinary root but a familial honorific derived from the French 'Mamie' (Grandma). Following the French Protectorate in Tunisia (1881–1956), many Tunisian Jewish families adopted French familial terms. The cake itself—a soft honey cake using coffee and spices—is likely a local adaptation of the French 'Pain d'épices' or an adoption of the Ashkenazi 'Lekach' which became popular in Israel and the diaspora, rather than an ancient Djerban dish (which would typically be 'Boulou'). The Hebrew 'Ougat Dvash' is a modern descriptive translation. (Confidence: likely)",
   "description": "A traditional moist honey cake, essential for Rosh Hashanah. This recipe uses coffee to deepen the color and flavor, balanced with warm spices like cinnamon and cloves.",
   "cultural_context": "Honey cake (Lekach) is traditionally eaten during the Jewish High Holidays, specifically Rosh Hashanah, to symbolize the wish for a sweet new year. In North African families, these cakes are often darkened with tea or coffee.",
@@ -429,7 +429,7 @@
       "key_difference": "Basbousa is semolina-based and soaked in syrup after baking, whereas this Honey Cake has the sweetener (honey) baked into the batter."
     }
   ],
-  "intro_paragraph": "Mami’s Honey Cake, or עוגת דבש (מאמי), is Enny's mom's recipe. \"Mami\" means \"Mom\" in many cultures. This plant-based version of the classic honey cake, likely influenced by French or Ashkenazi baking traditions, uses applesauce instead of eggs. Coffee and warm spices create a moist cake, perfect for a sweet new year.",
+  "intro_paragraph": "Mom's Honey Cake is Enny's mother's treasured recipe for the Jewish New Year. 'Mami' simply means 'Mom' - a term of endearment used in many cultures. This moist, aromatic cake is sweetened with honey and spiced with cinnamon, symbolizing hopes for a sweet new year.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

@@ -10,26 +10,26 @@
   "name": {
     "he": "חמין",
     "es": "Hamin (Cholent)",
-    "ar": "حمين (تفينا)",
+    "ar": "حمين",
     "en": "Cholent (Hamin)"
   },
   "description": {
-    "he": "חמין, או צ'ולנט ביידיש, הוא תבשיל שבת בבישול איטי. גרסה זו ידועה גם בשם אדפינה (במרוקו) ותפינה (בתוניסיה). השם צ'ולנט מגיע מהמילה הצרפתית 'chalant' (חם). גרסה טבעונית זו משתמשת בסייטן במקום בבשר. שעועית וגריסים מתבשלים כל הלילה ליצירת ארוחה עשירה בטעמים.",
-    "es": "El Cholent, o Hamin en hebreo, es un estofado de cocción lenta para el Shabat. Esta versión es conocida también como Adafina (marroquí) y Tfina (tunecina). El nombre Cholent deriva del francés 'chalant' (cálido). Esta adaptación vegana utiliza seitán en lugar de carne. Las alubias y la cebada se cocinan a fuego lento durante toda la noche para obtener una comida profundamente sabrosa.",
-    "ar": "الحمين، أو التفينا كيف ما نقولوا في جربة، هو مرقة تطيب سلة سلة للسبت. الاسم 'تشولنت' جاي من كلمة فرنساوي معناها سخون. في الوصفة هذي، بدلنا اللحم بالسيتان باش تكون نباتية. اللوبيا والشعير يطيبوا ليلة كاملة باش تجي الماكلة بنينة وعاقدة.",
-    "en": "Cholent, or Hamin in Hebrew, is a slow-cooked Sabbath stew. This Eastern European version is also known as Adafina (Moroccan) and Tfina (Tunisian). The name 'Cholent' derives from the French 'chalant' (warm). This vegan adaptation uses seitan instead of meat. Beans and barley simmer overnight for a deeply flavorful meal."
+    "he": "הצ'ולנט, הנקרא בעברית חמין, הוא תבשיל השבת האשכנזי בבישול איטי. הוא המקביל המזרח אירופאי לאדפינה המרוקאית ולטפינה התוניסאית. השם צ'ולנט מגיע מצרפתית עתיקה ומשמעותו חם. לכל שלושת המאכלים מטרה זהה: אוכל שנשמר חם כל הלילה לארוחת הבוקר של שבת.",
+    "es": "El Cholent, llamado Hamin en hebreo, es el guiso de Shabat asquenazí de cocción lenta. Es el equivalente de Europa del Este a la Adafina marroquí y la Tfina tunecina. El nombre Cholent deriva del francés antiguo chalant que significa cálido. Los tres platos comparten el mismo propósito: comida que se mantiene caliente durante la noche para el almuerzo de Shabat.",
+    "ar": "الشولנט، اللي يتسمى حمين بالعبرية، هو مرقة السبت متاع اليهود الأشكناز اللي تطيب سلة سلة. هو يشبه للأدفينة المغربية والتفينة التونسية. اسم شولנט جاي من كلمة فرنساوي قديمة معناها سخون. الأطباق الثلاثة عندهم نفس الهدف: ماكلة تقعد سخونة ليلة كاملة لفطور السبت.",
+    "en": "Cholent, called Hamin in Hebrew, is the Ashkenazi slow-cooked Shabbat stew. It is the Eastern European equivalent to Moroccan Adafina and Tunisian Tfina. The name 'Cholent' derives from the Old French 'chalant' meaning 'warm'. All three dishes share the same purpose: food kept warm overnight for the Shabbat morning meal."
   },
   "ingredients": {
     "he": [
-      "3 בצלים גדולים, קצוצים",
+      "3 בצלים, גדולים וקצוצים",
       "45 מ\"ל שמן צמחי",
-      "1000 גרם נתחי סייטן (או פטריות פורטובלו), חתוכים גס",
-      "5 תפוחי אדמה בינוניים, קלופים וחצויים",
+      "1000 גרם נתחי סייטן (גלוטן חיטה), חתוכים לקוביות גדולות",
+      "5 תפוחי אדמה, בינוניים, קלופים וחצויים",
       "200 גרם שעועית לבנה, מושרית ללילה",
       "200 גרם שעועית חומה (פינטו או קידני), מושרית ללילה",
       "150 גרם גריסי פנינה, שטופים",
       "7 גרם פפריקה מתוקה",
-      "2.3 גרם פלפל שחור גרוס",
+      "2.3 גרם פלפל שחור, טחון",
       "3 גרם אבקת שום",
       "מלח לפי הטעם",
       "30 מ\"ל סילאן (או סירופ מייפל)",
@@ -37,94 +37,95 @@
       "מים רותחים לכיסוי"
     ],
     "es": [
-      "3 cebollas grandes, picadas",
+      "3 cebollas, grandes y picadas",
       "45 ml de aceite vegetal",
-      "1000 g de seitán (o champiñones portobello), en trozos grandes",
-      "5 papas medianas, peladas y cortadas por la mitad",
+      "1000 g de trozos de seitán (gluten de trigo), cortados en trozos grandes",
+      "5 papas, medianas, peladas y cortadas por la mitad",
       "200 g de alubias blancas, remojadas toda la noche",
-      "200 g de alubias pintas o rojas, remojadas toda la noche",
+      "200 g de alubias rojas o pintas, remojadas toda la noche",
       "150 g de cebada perlada, enjuagada",
       "7 g de pimentón dulce",
-      "2.3 g de pimienta negra molida",
+      "2.3 g de pimienta negra, molida",
       "3 g de ajo en polvo",
       "Sal al gusto",
-      "30 ml de jarabe de dátiles (Silan) o jarabe de arce",
+      "30 ml de miel de dátiles (Silan) o jarabe de arce",
       "6 papas pequeñas (baby), enteras y peladas",
       "Agua hirviendo para cubrir"
     ],
     "ar": [
-      "3 بصلات كبار، مقصوصين",
-      "3 مغارف زيت",
-      "4.5 كيسان سيتان (أو فطر كبير)، مقصوص طروف كبار",
-      "5 كعبات بطاطا متوسطين، مقشرين ومقسومين",
+      "3 بصلات، كبار ومقصوصين",
+      "3 مغارف زيت نباتي",
+      "4.4 كيسان طروف سيتان (غلوتين القمح)، مقصوصين طروف كبار",
+      "5 كعبات بطاطا، متوسطين، مقشرين ومقسومين",
       "1 كأس لوبيا بيضاء، منفخة ليلة كاملة",
       "1 كأس لوبيا حمراء، منفخة ليلة كاملة",
-      "3/4 كأس شعير (تليل)، مغسول",
+      "0.75 كأس شعير (تليتلي/شوربة)، مشلل",
       "1 مغرفة فلفل أحمر (بابريكا)",
-      "1 مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة صغيرة فلفل أكحل، مرحي",
       "1 مغرفة صغيرة ثوم مرحي",
       "ملح حسب الذوق",
       "2 مغارف رب التمر (أو عسل)",
       "6 كعبات بطاطا جويدة، مقشرين",
-      "ماء سخون باش نغموا الطنجرة"
+      "ماء سخون باش نغموا المكونات"
     ],
     "en": [
-      "3 large onions, diced",
+      "3 onions, large and diced",
       "3 tbsp vegetable oil",
-      "4.4 cups seitan chunks (or portobello mushrooms), large chunks",
-      "5 medium potatoes, peeled and halved",
+      "4.4 cups seitan chunks (wheat gluten), cut into large chunks",
+      "5 potatoes, medium, peeled and halved",
       "1 cup white beans, soaked overnight",
       "1 cup brown beans (Pinto or Kidney), soaked overnight",
-      "0.75 cup pearl barley, rinsed",
+      "0.75 cups pearl barley, rinsed",
       "1 tbsp sweet paprika",
-      "1 tsp black pepper",
+      "1 tsp black pepper, ground",
       "1 tsp garlic powder",
       "Salt to taste",
-      "2 tbsp date syrup (Silan) or maple syrup",
-      "6 baby potatoes, whole and peeled",
-      "Boiling water to cover"
+      "2 tbsp date syrup (Silan) or Maple syrup",
+      "6 baby potatoes, whole, peeled",
+      "Boiling water to cover ingredients"
     ]
   },
   "steps": {
     "he": [
-      "מחממים שמן בסיר גדול וכבד. מוסיפים את הבצל הקצוץ ומטגנים בסבלנות עד להשחמה עמוקה (זה נותן את הצבע לתבשיל).",
+      "מחממים שמן בסיר גדול וכבד. מוסיפים את הבצלים הקצוצים ומטגנים בסבלנות עד שהם מקבלים גוון חום זהוב כהה. זה נותן את צבע הבסיס לתבשיל.",
       "מוסיפים את נתחי הסייטן לסיר וצורבים מכל הצדדים עד להשחמה.",
-      "מוסיפים לסיר את תפוחי האדמה, השעועית המושרית (הלבנה והחומה) והגריסים.",
+      "מוסיפים לסיר את תפוחי האדמה, השעועית המושרית (לבנה וחומה) ואת גריסי הפנינה.",
       "ממלאים את הסיר במים עד שכל המרכיבים מכוסים.",
-      "מוסיפים את התבלינים: פפריקה, פלפל שחור, אבקת שום, מלח ואת הסילאן.",
-      "מביאים לרתיחה. לאחר הרתיחה, מנמיכים את האש למינימום.",
-      "מניחים בעדינות את תפוחי האדמה הקטנים (תחליף לביצים) על גבי התבשיל.",
-      "מכסים ומבשלים על אש נמוכה כשעה וחצי. להכנה מסורתית לשבת, מעבירים לפלטה או לבישול איטי לכל הלילה."
+      "מוסיפים את התבלינים: פפריקה, פלפל שחור, אבקת שום, מלח ואת הסילאן (או המייפל).",
+      "מביאים לרתיחה. לאחר הרתיחה, מנמיכים את האש ללהבה נמוכה.",
+      "מניחים בעדינות את תפוחי האדמה הקטנים (כתחליף לביצים) מעל התבשיל.",
+      "מכסים ומבשלים על אש נמוכה כ-1.5 שעות. להכנה מסורתית לשבת, מעבירים לפלטה או לבישול איטי לכל הלילה עד לארוחת הצהריים למחרת."
     ],
     "es": [
-      "Calentar el aceite en una olla grande de fondo grueso. Añadir las cebollas picadas y freír pacientemente hasta que estén de un color dorado oscuro.",
-      "Añadir los trozos de seitán a la olla y sellar por todos lados hasta que se doren.",
-      "Añadir las papas, las alubias remojadas (blancas y pintas) y la cebada a la olla.",
-      "Llenar la olla con agua hasta cubrir todos los ingredientes.",
-      "Añadir las especias: pimentón, pimienta negra, ajo en polvo, sal y el jarabe de dátiles.",
-      "Llevar a ebullición. Una vez hirviendo, reducir el fuego al mínimo.",
-      "Colocar suavemente las papas pequeñas (sustituto de los huevos) encima del estofado.",
-      "Tapar y cocinar a fuego lento durante 1.5 horas. Para el Shabat, transferir a una placa caliente o cocción lenta durante toda la noche."
+      "Caliente el aceite en una olla grande de fondo grueso. Añada las cebollas picadas y fríalas con paciencia hasta que adquieran un color marrón dorado oscuro. Esto proporciona el color base para el guiso.",
+      "Añada los trozos de seitán a la olla y séllelos por todos lados hasta que se doren.",
+      "Agregue las papas, las alubias remojadas (blancas y rojas) y la cebada a la olla.",
+      "Llene la olla con agua hasta cubrir todos los ingredientes.",
+      "Añada las especias: pimentón, pimienta negra, ajo en polvo, sal y la miel de dátiles (o jarabe de arce).",
+      "Lleve la olla a ebullición. Una vez hirviendo, reduzca el fuego a bajo.",
+      "Coloque suavemente las papas pequeñas (que reemplazan a los huevos) encima del guiso.",
+      "Tape y cocine a fuego lento durante aproximadamente 1.5 horas. Para la preparación tradicional de Shabat, transfiera a una placa caliente o cocción lenta durante la noche hasta el almuerzo del día siguiente."
     ],
     "ar": [
-      "نسخنوا الزيت في طنجرة كبيرة وثقيلة. نزيدوا البصل المقصوص ونقلوه بالباهي حتى يولي لونه غامق (هذا يعطي لون للمرقة).",
-      "نحطوا طروف السيتان في الطنجرة ونقلوهم حتى يحماروا.",
-      "نزيدوا البطاطا، واللوبيا المنفخة (البيضاء والحمراء)، والشعير للطنجرة.",
-      "نصبوا الماء حتى تتغم المكونات الكل.",
-      "نفوّحوا بالفلفل الأحمر، الفلفل الأكحل، الثوم المرحي، الملح، ورب التمر.",
-      "نخلوها تغلي. كيف تبدا تغلي، نقصوا للنار على الآخر.",
-      "نحطوا كعبات البطاطا الجويدة (في بلاصة العظم) بشوية من فوق.",
-      "نغطوا الطنجرة ونخلوها تطيب على نار هادية ساعة ونص. للسبت، نحطوها على الكانون أو البلاكة تطيب ليلة كاملة."
+      "نسخنوا الزيت في طنجرة كبيرة وثقيلة. نزيدوا البصل المقصوص ونقليوه بالسياسة حتى يولي لونه قهوي غامق. هذا يعطي اللون الأساسي للمرقة.",
+      "نزيدوا طروف السيتان للطنجرة ونقليوهم من الجهات الكل حتى يحماروا.",
+      "نحطوا البطاطا، واللوبيا المنفخة (البيضاء والحمراء)، والشعير في الطنجرة.",
+      "نصبوا الماء في الطنجرة حتى تتغم المكونات الكل.",
+      "نزيدوا الفواحات: فلفل أحمر، فلفل أكحل، ثوم مرحي، ملح، ورب التمر (أو العسل).",
+      "نخليوا الطنجرة تغلي. كيف تغلي، نقصوا النار ونخليوها هادية.",
+      "نحطوا كعبات البطاطا الجويدة (في بلاصة العظم) بشوية فوق المرقة.",
+      "نغطيوها ونخليوها تطيب سلة سلة لمدة ساعة ونص. باش نحضروها للسبت، نحطوها فوق الكانون أو سخان كهربائي باش تطيب ليلة كاملة حتى لفطور غدوة."
     ],
     "en": [
       "Heat oil in a large heavy-bottomed pot. Add the diced onions and fry patiently until they turn a dark golden brown. This provides the base color for the stew.",
       "Add the seitan chunks to the pot and sear on all sides until browned.",
       "Add the potatoes, soaked beans (white and brown), and barley to the pot.",
       "Fill the pot with water until all ingredients are covered.",
-      "Add the spices: paprika, black pepper, garlic powder, salt, and the date syrup.",
+      "Add the spices: paprika, black pepper, garlic powder, salt, and the date syrup (or maple syrup).",
       "Bring the pot to a boil. Once boiling, reduce heat to low.",
       "Gently place the baby potatoes (replacing the eggs) on top of the stew.",
       "Cover and simmer on low heat for about 1.5 hours. For traditional Sabbath preparation, transfer to a hot plate (blech) or slow cooker to cook overnight until lunch the next day."
     ]
-  }
+  },
+  "index": 23
 }

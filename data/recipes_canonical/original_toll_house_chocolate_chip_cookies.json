@@ -2,8 +2,8 @@
   "id": "original_toll_house_chocolate_chip_cookies",
   "slug": "original-toll-house-chocolate-chip-cookies",
   "source_file": "data/safed_recipes/original_toll_house__chocolate_chip_cookies.json",
-  "name": "Original Toll House Chocolate Chip Cookies",
-  "name_hebrew": "עוגיות שוקולד צ'יפס (מתכון מקורי)",
+  "name": "Toll House Chocolate Chip Cookies",
+  "name_hebrew": "עוגיות שוקולד צ'יפס",
   "name_origin": "This is a modern American dish name, not of North African or Judeo-Arabic origin. 'Toll House' refers to the Toll House Inn in Whitman, Massachusetts, where Ruth Wakefield invented the cookie in the 1930s. The Hebrew word 'Ugiyot' (עוגיות) is the plural diminutive of 'Ugah' (cake/bread), derived from Biblical Hebrew (baked round loaf). The rest of the Hebrew name is a direct transliteration of the English 'Chocolate Chips'. Its presence in a Djerban cookbook represents modern culinary globalization rather than traditional heritage.",
   "description": "The classic American cookie recipe featuring a buttery dough, semi-sweet chocolate morsels, and nuts. Crispy on the edges and chewy in the center.",
   "cultural_context": "While not of North African origin, this American classic has become a staple in many modern Jewish households.",
@@ -376,7 +376,7 @@
       "key_difference": "Boulou is a dry, crunchy roll/biscuit (closer to mandelbrot), while Toll House cookies are rich, buttery drop cookies."
     }
   ],
-  "intro_paragraph": "Original Toll House Chocolate Chip Cookies are named after the Massachusetts inn where they originated. Known in Hebrew as עוגיות שוקולד צ'יפס, or little cakes with chocolate chips, this version replaces eggs and dairy while keeping the classic taste. These treats are a beloved staple adapted for modern kitchens.",
+  "intro_paragraph": "These classic chocolate chip cookies are named after the Toll House Inn in Whitman, Massachusetts, where Ruth Wakefield invented them in the 1930s. This plant-based version maintains the beloved crispy edges and chewy center that made the original famous.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

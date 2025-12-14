@@ -2,7 +2,7 @@
   "id": "baked_potato_levivot",
   "slug": "baked-potato-levivot",
   "source_file": "data/safed_recipes/17_לביבות_תפוא.json",
-  "name": "Baked Potato Levivot (Kugel)",
+  "name": "Potato Levivot (Latkes)",
   "name_hebrew": "לביבות תפו\"א",
   "name_origin": "The provided name 'Levivot' (לביבות) is Biblical Hebrew, derived from the root L-B-B (ל-ב-ב), associated with the heart ('lev') or the action of kneading/mixing. In 2 Samuel 13:6, Tamar makes 'levivot' for Amnon. In Modern Hebrew, the term was adopted to refer to latkes or fritters. However, the dish described—a baked potato casserole from Djerba—is historically known in Judeo-Arabic as 'Ma'akouda' (معقودة) or 'Ma'akouda fil-Koucha' (baked Ma'akouda). The use of 'Levivot' here represents a Hebraization of the traditional dish, likely occurring after immigration to Israel, despite the cooking method (baking) differing from the standard definition of levivot (frying).",
   "description": "A simple, savory baked potato casserole. Unlike traditional fried latkes, this mixture is spread into a pan and baked until golden brown, resulting in a dish similar to a Potato Kugel or a baked Ma'akouda.",
@@ -363,7 +363,7 @@
       "key_difference": "Often includes sirene cheese and mint; uses grated potatoes."
     }
   ],
-  "intro_paragraph": "These baked potato levivot, also known as latkes, offer a comforting and savory experience. 'Levivot' (לביבות) is a Biblical Hebrew word for fritters, adopted in Modern Hebrew to refer to latkes. This vegan adaptation maintains the heart of the traditional dish as a golden, baked casserole perfect for everyday meals.",
+  "intro_paragraph": "Levivot, also known as Latkes, are crispy potato pancakes traditional to Hanukkah. The word 'Latke' comes from Yiddish, which borrowed it from East Slavic languages: Ukrainian 'oladka' and Russian 'latka' both mean 'small fried pancake' or 'patch'. This baked version achieves the beloved crispy exterior with less oil.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

@@ -8,16 +8,16 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "פנקייק (אפרת שחור)",
-    "es": "Panqueques (Efrat Shachor)",
-    "ar": "بانكيك (إفرات شحور)",
-    "en": "Pancakes (Efrat Shachor)"
+    "he": "פנקייק של אפרת",
+    "es": "Panqueques de Efrat",
+    "ar": "بانكيك إفرات",
+    "en": "Efrat's Pancakes"
   },
   "description": {
-    "he": "השם פנקייק מגיע ישירות מאנגלית לעברית ומסמן תוספת מודרנית למטבח הג'רבאי. גרסה טבעונית זו מחליפה ביצים בפשתן כדי לשמור על המרקם הקלאסי. הפנקייקים מטוגנים בשכבת שמן נדיבה, מה שמעניק להם מעטה פריך ותוך רך, בטכניקה המכבדת את שיטות הבישול הצפון-אפריקאיות.",
-    "es": "El nombre Pancake proviene directamente del inglés al hebreo, marcando una adición moderna a la cocina de Djerba. Esta versión vegana sustituye los huevos por lino para mantener la textura clásica. Fritos en una generosa capa de aceite, estos dulces ofrecen una corteza crujiente y un interior suave que honra las técnicas de cocina norteafricanas.",
-    "ar": "اسم البانكيك جاي ديركت من الإنجليزية للعبرية، وهو إضافة عصرية للكوجينة الجربية. هالوصفة النباتية تبدل العظم بذور الكتان باش تحافظ على القوام الكلاسيكي. يتقلاو في طبقة باهية متاع زيت، باش يجيو مقرمشين من برا وطريين من داخل، كيف ما نطيّبو في شمال إفريقيا.",
-    "en": "The name Pancake comes directly from English into Hebrew, marking a modern addition to the Djerban kitchen. This vegan version replaces eggs with flax to maintain the classic texture. Fried in generous oil, these treats offer a crispy crust and soft interior that honors North African cooking techniques."
+    "he": "הפנקייק של אפרת הוא פינוק אהוב לארוחת הבוקר. השם פנקייק הוא שאילה ישירה מאנגלית לעברית המודרנית. מתכון זה מציע גרסה טבעונית, המשתמשת בפשתן כדי לחקות את מרקם הביצים. הפנקייקים מטוגנים בשמן, מה שיוצר שילוב מענג של קצוות פריכים ופנים רך ומנחם.",
+    "es": "Los Panqueques de Efrat son un desayuno muy querido. El nombre Pancake es un préstamo directo del inglés al hebreo moderno. Esta receta ofrece una adaptación vegana, utilizando lino para imitar la textura de los huevos. Los panqueques se fríen en aceite, creando una deliciosa combinación de bordes crujientes y un interior suave y reconfortante.",
+    "ar": "البانكيك متاع إفرات هو فطور صباح محبوب برشة. الاسم بانكيك خذيناه ديركت ماللونغلي للعبرية. الوصفة هاذي نباتية، نستعملو فيها زريعة الكتان باش تعطينا نفس مفعول العظم. البانكيك يتقلى في الزيت، وهكا يجي مقرمش مالأجناب وطري وبنين من داخل.",
+    "en": "Efrat's Pancakes are a beloved breakfast treat. The name \"Pancake\" is a direct borrowing from English into Modern Hebrew. This recipe offers a vegan adaptation, using flax to mimic the texture of eggs. The pancakes are fried in oil, creating a delightful combination of crispy edges and a soft, comforting interior."
   },
   "ingredients": {
     "he": [
@@ -25,48 +25,48 @@
       "10 גרם אבקת אפייה",
       "6 גרם מלח",
       "25 גרם סוכר (גדוש)",
-      "2 תחליפי ביצה מפשתן (לערבב 2 כפות פשתן טחון עם 6 כפות מים חמים, להשהות 5 דקות)",
+      "2 \"ביצי\" פשתן (לערבב 2 כפות פשתן טחון עם 6 כפות מים חמים, להשהות 5 דקות)",
       "240 מ\"ל חלב סויה או שיבולת שועל",
       "85 גרם שוקולד צ'יפס טבעוני",
-      "שמן צמחי לפי הטעם (לטיגון, שכבה נדיבה)"
+      "שמן צמחי לפי הטעם (לטיגון)"
     ],
     "es": [
       "210 g de harina común",
       "10 g de polvo de hornear",
       "6 g de sal",
       "25 g de azúcar (colmada)",
-      "2 huevos de lino (mezclar 2 cdas de lino molido con 6 cdas de agua tibia, reposar 5 min)",
+      "2 \"huevos\" de lino (mezclar 2 cdas de lino molido con 6 cdas de agua tibia, reposar 5 min)",
       "240 ml de leche de soja o avena",
-      "85 g de chispas de chocolate veganas",
-      "Aceite vegetal al gusto (para freír, capa generosa)"
+      "85 g de chispas de chocolate vegano",
+      "Aceite vegetal al gusto (para freír)"
     ],
     "ar": [
-      "1.7 كاس فرينة",
-      "2 مغارف صغار خميرة قاطو",
+      "1.7 كيسان فرينة",
+      "2 مغارف صغار خميرة ڨاطو",
       "1 مغرفة صغيرة ملح",
       "2 مغارف سكر (معبيين)",
-      "2 عظمات كتان (خلط 2 مغارف كتان مرحي مع 6 مغارف ماء دافي، خليهم 5 دقايق)",
-      "1 كاس حليب صويا ولا شوفان",
-      "0.5 كاس شوكولاتة (بيبي)",
-      "زيت نباتي حسب الحاجة (للقلي، طبقة باهية)"
+      "2 \"عظمات\" كتان (خلط 2 مغارف زريعة كتان مرحية مع 6 مغارف ماء سخون، خليهم يرتاحو 5 دقايق)",
+      "1 كأس حليب صوجا ولا شوفان",
+      "نص كأس شوكولاتة (بيبيت) نباتية",
+      "زيت نباتي حسب الحاجة (للقلي)"
     ],
     "en": [
       "1.7 cups all-purpose flour",
       "2 tsp baking powder",
       "1 tsp salt",
       "2 tbsp sugar (heaped)",
-      "2 flax eggs (mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins)",
+      "2 flax eggs (Mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins)",
       "1 cup soy or oat milk",
       "0.5 cup vegan chocolate chips",
-      "Vegetable oil to taste (for frying, generous layer)"
+      "Vegetable oil to taste (for frying)"
     ]
   },
   "steps": {
     "he": [
-      "בקערה גדולה, מערבבים את הקמח, אבקת האפייה, המלח, הסוכר, תחליפי הביצה והשוקולד צ'יפס.",
+      "בקערה גדולה, מערבבים את הקמח, אבקת האפייה, המלח, הסוכר, תערובת הפשתן והשוקולד צ'יפס.",
       "מוסיפים את החלב לאט תוך כדי ערבוב. מפסיקים להוסיף נוזלים אם הבלילה נהיית דלילה מדי; היא צריכה להיות סמיכה אך ניתנת למזיגה.",
       "מניחים לבלילה לעמוד בטמפרטורת החדר למשך 5 עד 10 דקות. זה מאפשר לה להתאוורר.",
-      "מחממים שכבה נדיבה של שמן במחבת על אש בינונית. השמן לא צריך להיות עמוק, אבל יותר מסתם שימון קל.",
+      "מחממים שכבה נדיבה של שמן במחבת על אש בינונית. השמן לא צריך להיות עמוק, אך יותר מסתם ציפוי דק.",
       "מטגנים את הפנקייקים עד להזהבה. החלק הפנימי יכול להישאר מעט רך אם מעדיפים."
     ],
     "es": [
@@ -77,11 +77,11 @@
       "Freír los panqueques hasta que estén dorados. El interior puede quedar ligeramente suave si se prefiere."
     ],
     "ar": [
-      "في صحفة كبيرة، خلط الفرينة، خميرة القاطو، الملح، السكر، عظمات الكتان والشوكولاتة.",
-      "زيد الحليب بالشوية وانت تخلط. حبّس ما تزيدش الحليب كان الخليط ولا جاري برشا؛ لازم يكون عاقد أما يتصب.",
-      "خلي الخليط يرتاح بحذاك 5 ولا 10 دقايق. هكاكة يولي فيه الهواء ويخفاف.",
-      "سخّن طبقة باهية زيت في المقلاة على نار متوسطة. الزيت ما لازمش يكون غزير للقلي، أما أكثر من مسحة خفيفة.",
-      "اقلي البانكيك لين يحمار ويولي لونه ذهبي. من داخل ينجم يقعد طري شوية كان تحب."
+      "في صحفة كبيرة، خلط الفرينة، خميرة الڨاطو، الملح، السكر، خليط الكتان والشوكولاتة.",
+      "زيد الحليب بالشوية وانت تخلط. حبّس ما تزيدش الحليب كان الخليط ولا جاري برشة؛ لازم يكون عاقد أما يتصب.",
+      "خلي الخليط يرتاح بحذاك في الكوجينة بين 5 و 10 دقايق. هكاكة يدخلو الهواء ويجي خفيف.",
+      "سخن طبقة باهية متاع زيت في مقلة. الزيت ما لازمش يكون غزير برشة، أما أكثر من مجرد مسحة.",
+      "اقلي البانكيك لين يحمار ويولي لونو ذهبي. من داخل ينجم يقعد طري شوية كان تحب."
     ],
     "en": [
       "In a large bowl, mix the flour, baking powder, salt, sugar, flax eggs, and chocolate chips.",
@@ -90,5 +90,6 @@
       "Heat a generous layer of oil in a frying pan over medium heat. The oil should not be deep-frying depth, but more than just a flat coating.",
       "Fry the pancakes until golden brown. The inside can remain slightly soft/gooey if preferred."
     ]
-  }
+  },
+  "index": 52
 }

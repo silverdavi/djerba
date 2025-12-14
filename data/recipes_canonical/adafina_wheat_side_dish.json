@@ -2,13 +2,13 @@
   "id": "adafina_wheat_side_dish",
   "slug": "adafina-wheat-side-dish",
   "source_file": "data/safed_recipes/adafina_-_wheat.json",
-  "name": "Adafina Wheat (Hita)",
-  "name_hebrew": "חיטה לאדפינה",
+  "name": "Wheat Berries (Hita / Trigo)",
+  "name_hebrew": "חיטה (טריגו)",
   "name_origin": "The name provided is a compound phrase. 'Hita' (חיטה) is the standard Hebrew word for 'wheat'. 'Adafina' is the classic Judeo-Spanish (Ladino) name for the Shabbat stew, which itself derives from the Arabic root 'd-f-n' (دفن), meaning 'to bury', 'to cover', or 'to hide'. This refers to the ancient method of burying the cooking pot in hot embers or sand to maintain heat over the Sabbath without an active flame. The phrase 'Hita l'Adafina' literally translates from Hebrew as 'Wheat for the Adafina'. In the context of Djerban and North African cuisine, this refers to the wheat berries (often hulled) cooked in a muslin bag or separate container within the larger stew to absorb flavors while maintaining a distinct texture.",
   "description": "A savory wheat berry pudding cooked inside a bag within the main Shabbat stew (Adafina/Hamin). The wheat is toasted with onions and garlic before slow-cooking overnight, resulting in a tender, flavorful side dish.",
   "cultural_context": "In Moroccan and North African Jewish tradition, grains like wheat or rice are often cooked in cheesecloth or cooking bags ('kuki') submerged in the main stew pot. This allows them to absorb the ambient flavors while maintaining their own distinct seasoning and texture.",
   "is_vegan": true,
-  "vegan_adaptation_notes": "Replace chicken soup powder with vegetable bouillon or salt.",
+  "vegan_adaptation_notes": null,
   "meta": {
     "servings": "6-8",
     "prep_time_minutes": 15,
@@ -351,7 +351,7 @@
       "key_difference": "Ashure is a sweet dessert soup with fruits and nuts, not savory."
     }
   ],
-  "intro_paragraph": "Wheat Berries, or Hita l'Adafina, combines Hebrew *hita* for wheat with the Spanish *trigo*. This dish features whole wheat berries toasted with aromatics and then enclosed in a bag. Buried in the Shabbat pot overnight, the wheat absorbs the stew's essence, transforming into a tender and savory pudding.",
+  "intro_paragraph": "Hita (חיטה) is Hebrew for wheat, and Trigo is the Spanish word meaning the same. In Tunisian Arabic, wheat is also called Hita. These whole wheat berries are toasted with aromatics and enclosed in a cloth bag to cook overnight in the Shabbat stew, absorbing its rich flavors and becoming a tender, savory pudding.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

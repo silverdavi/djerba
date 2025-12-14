@@ -1,6 +1,6 @@
 {
   "id": "marmouma",
-  "image": "images/current/055_marmouma/dish.png",
+  "image": "images/current/115_marmouma/dish.png",
   "meta": {
     "servings": "6-8",
     "prep_time": "20 min",
@@ -14,9 +14,9 @@
     "en": "Marmouma (Tunisian Cooked Tomato and Pepper Salad)"
   },
   "description": {
-    "he": "השם מרמומה מגיע משורש בערבית שמשמעותו מבושל או מעוך. מנה בסיסית זו מהמטבח היהודי בג'רבה כוללת עגבניות ופלפלים המבושלים בבישול איטי עד למרקם של ריבה עשירה. בשונה ממטבוחה, המנה מסתמכת על זמן בישול ארוך לריכוז הטעמים. מגישים את המעדן הטבעוני הזה קר עם לחם טרי כמנה ראשונה קלאסית.",
-    "es": "Marmouma recibe su nombre de una raíz árabe que significa guisado o machacado. Este plato básico judío de Djerba presenta tomates y pimientos cocinados a fuego lento hasta obtener una rica mermelada. A diferencia de la matbucha, depende del tiempo para concentrar los sabores. Sirva esta delicia naturalmente vegana fría con pan fresco como aperitivo clásico.",
-    "ar": "اسم المرمومة جاي من كلمة عربية تعني طايبة مليح ولا مرحية. هالأكلة الأساسية عند يهود جربة فيها طماطم وفلفل يطيبوا بالشوية لين يولو كي المعجون. تختلف على المطبوخة، خاطرها تحب برشا وقت باش النكهات تتركز. تتقدم هالمكلة النباتية باردة مع خبز جديد كمقبلات كلاسيكية.",
+    "he": "המרמומה מקבלת את שמה משורש ערבי שמשמעותו מבושל או מעוך. מנה זו, שהיא נכס צאן ברזל במטבח היהודי הג'רבאי, מורכבת מעגבניות ופלפלים המתבשלים לאיטם לכדי ריבה עשירה. בשונה ממטבוחה, היא מסתמכת על זמן בישול ארוך לריכוז הטעמים. מגישים את המעדן הטבעוני הזה קר לצד לחם טרי כמנה ראשונה קלאסית.",
+    "es": "Marmouma recibe su nombre de una raíz árabe que significa guisado o machacado. Este plato básico judío de Djerba presenta tomates y pimientos cocinados a fuego lento hasta convertirse en una rica mermelada. A diferencia de la matbucha, depende del tiempo para concentrar los sabores. Sirva esta delicia naturalmente vegana fría con pan fresco como un aperitivo clásico.",
+    "ar": "المرمومة تاخو اسمها من كلمة عربية تعني طايبة مليح ولا ممعوسة. الطبق هذا أساسي عند اليهود الجرابة، ويتكون من طماطم وفلفل يطيبو على نار هادية لين يولو كيف المعجون. تختلف على المطبوخة، خاطرها تحب برشا وقت باش النكهات تتركز. تتقدم باردة مع خبز جديد كمقبلات كلاسيكية.",
     "en": "Marmouma gets its name from an Arabic root meaning stewed or mashed. This Djerban Jewish staple features tomatoes and peppers slow-cooked into a rich jam. Distinct from matbucha, it relies on time to concentrate flavors. Serve this naturally vegan delight cold with fresh bread as a classic appetizer."
   },
   "ingredients": {
@@ -28,17 +28,17 @@
       "מלח גס לפי הטעם"
     ],
     "es": [
-      "10 tomates medianos, cortados en cubitos pequeños",
+      "10 tomates medianos, cortados en cubos pequeños",
       "3 pimientos picantes, finamente picados",
-      "10 dientes de ajo, picados o en rodajas",
+      "10 dientes de ajo, picados o rebanados",
       "60 ml de aceite de oliva",
       "Sal gruesa al gusto"
     ],
     "ar": [
-      "10 كعبات طماطم متوسطة، مقصوصة طروف صغار",
+      "10 كعبات طماطم، مقصوصين طروف صغار",
       "3 قرون فلفل حار، مقصوصين جويد",
-      "10 سنات ثوم، مرحي ولا مقصوص",
-      "ربع كاس زيت زيتونة",
+      "10 سنون ثوم، مرحي ولا مقصوص",
+      "4 مغارف زيت زيتونة",
       "ملح حرش حسب الذوق"
     ],
     "en": [
@@ -51,28 +51,29 @@
   },
   "steps": {
     "he": [
-      "שוטפים וחותכים את כל הירקות (עגבניות, פלפלים מתוקים, פלפלים חריפים ושום) לחתיכות קטנות.",
-      "מכניסים את כל הירקות הקצוצים לסיר.",
+      "שוטפים וחותכים את כל הירקות (עגבניות, פלפלים מתוקים, פלפלים חריפים ושום) לחתיכות קטנות. לטקסטורה חלקה יותר, אפשר לקלף את העגבניות קודם.",
+      "מעבירים את כל הירקות הקצוצים לסיר.",
       "מוסיפים את שמן הזית והמלח הגס.",
-      "מבשלים על אש בינונית-נמוכה. נותנים לתערובת להתבשל בבעבוע עדין עד שכל הנוזלים שהופרשו מהירקות נספגים או מתאדים."
+      "מבשלים על אש בינונית-נמוכה. נותנים לתערובת להתבשל עד שכל הנוזלים שהופרשו מהירקות נספגים או מתאדים. מערבבים מדי פעם כדי למנוע הידבקות. התוצאה הסופית צריכה להיות סמיכה, במרקם של ריבה."
     ],
     "es": [
-      "Lave y corte todas las verduras (tomates, pimientos dulces, pimientos picantes y ajo) en trozos pequeños.",
+      "Lave y corte todas las verduras (tomates, pimientos dulces, pimientos picantes y ajo) en trozos pequeños. Para una textura más suave, puede pelar los tomates primero.",
       "Coloque todas las verduras picadas en una olla.",
       "Añada el aceite de oliva y la sal gruesa.",
-      "Cocine a fuego medio-bajo. Deje que la mezcla hierva a fuego lento hasta que todos los líquidos liberados por las verduras se absorban o evaporen."
+      "Cocine a fuego medio-bajo. Deje que la mezcla hierva a fuego lento hasta que todos los líquidos liberados por las verduras se absorban o evaporen. Remueva ocasionalmente para evitar que se queme. El resultado final debe tener una consistencia espesa, parecida a una mermelada."
     ],
     "ar": [
-      "اغسل وقص الخضرة الكل (طماطم، فلفل حلو، فلفل حار، وثوم) طروف صغار.",
+      "اغسل وقص الخضرة الكل (طماطم، فلفل حلو، فلفل حار وثوم) طروف صغار. كان تحبها أرطب، تنجم تقشر الطماطم قبل ما تقصها.",
       "حط الخضرة المقصوصة الكل في طنجرة.",
       "زيد زيت الزيتونة والملح الحرش.",
-      "طيّب على نار متوسطة وواطية. خلي الخليط يغلي لين الماء متاع الخضرة ينشف ويشيح جملة."
+      "طيّب على نار متوسطة واطية. خلي الخليط يغلي لين الماء متاع الخضرة ينشح ويتبخر الكل. حرك مرة مرة باش ما تلصقش من لوطة. في اللخر لازم تجيك عاقدة كيف المعجون."
     ],
     "en": [
-      "Wash and cut all the vegetables (tomatoes, sweet peppers, hot peppers, and garlic) into small pieces.",
+      "Wash and cut all the vegetables (tomatoes, sweet peppers, hot peppers, and garlic) into small pieces. For a smoother texture, you can peel the tomatoes first.",
       "Place all the chopped vegetables into a pot.",
       "Add the olive oil and coarse salt.",
-      "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed or evaporated."
+      "Cook over medium-low heat. Allow the mixture to simmer until all the liquids released by the vegetables are absorbed or evaporated. Stir occasionally to prevent burning. The final result should have a thick, jam-like consistency."
     ]
-  }
+  },
+  "index": 44
 }

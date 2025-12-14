@@ -1,6 +1,6 @@
 {
   "id": "tbikha_tomatem",
-  "image": "images/current/088tbikhattmatem/dish.png",
+  "image": "images/current/088_tbikhat_tmatem/dish.png",
   "meta": {
     "servings": "4",
     "prep_time": "15 min",
@@ -10,14 +10,14 @@
   "name": {
     "he": "דביח תטמטם",
     "es": "Tbikha b'Tomatem",
-    "ar": "طبيخة طماطم",
-    "en": "Tbikha b'Tomatem (Chicken Tomato Stew)"
+    "ar": "طبيخة بطماطم",
+    "en": "Tbikha b'Tomatem"
   },
   "description": {
-    "he": "דביח תטמטם, שפירושו בישול עם עגבניות, הוא תבשיל תוניסאי סמיך. השם משלב ערבית ויהודית-תוניסאית, בה תטמטם פירושו עגבניות. גרסה זו של הקלאסיקה הג'רבאית מחליפה את העוף המסורתי בסייטן, ומציעה חלופה טבעונית משביעה תוך שמירה על טעם העגבניות העשיר המושג על ידי טיגון רסק העגבניות.",
-    "es": "Tbikha b'Tomatem, que significa cocinar con tomates, es un estofado tunecino espeso. El nombre mezcla árabe y judeo-tunecino, donde Tomatem significa tomates. Esta versión del clásico de Djerba sustituye el pollo tradicional por seitán, ofreciendo una alternativa vegana sustanciosa mientras mantiene el rico sabor a tomate logrado al freír la pasta de tomate.",
-    "ar": "طبيخة طماطم هي مرقة تونسية عاقدة. الاسم يخلط بين العربي والدارجة اليهودية التونسية، وين كلمة طماطم معروفة. هذي النسخة من الطبق الجربي المعروف تبدل الدجاج بالسيتان، باش تعطينا ماكلة نباتية بنينة وتحافظ على طعم الطماطم القوي اللي يجي من تقلية الطماطم الحكة.",
-    "en": "Tbikha b'Tomatem, meaning \"cooking with tomatoes,\" is a thick Tunisian stew. The name blends Arabic and Judeo-Tunisian, where \"Tomatem\" means tomatoes. This version of the Djerban classic replaces the traditional chicken with seitan, offering a hearty vegan alternative while retaining the signature rich tomato flavor achieved by frying tomato paste."
+    "he": "דביח תטמטם הוא תבשיל ירקות תוניסאי עשיר. המילה תטמטם היא המילה היהודית-תוניסאית לעגבניות, המשקפת את הניב העברי הייחודי של יהודי תוניסיה. מנה זו בבישול איטי כוללת ירקות המתבשלים ברוטב עגבניות סמיך ומתובל עד שהם רכים ובעלי טעם עמוק.",
+    "es": "Tbikha b'Tomatem es un rico estofado de verduras tunecino. La palabra Tomatem es la palabra judeo-tunecina para tomates, reflejando el dialecto hebreo único de los judíos tunecinos. Este plato de cocción lenta presenta verduras cocidas a fuego lento en una salsa de tomate espesa y condimentada hasta que estén tiernas y con un sabor profundo.",
+    "ar": "طبيخة بطماطم هي مرقة خضرة تونسية غنية. كلمة طماطم هي الكلمة اليهودية التونسية للطماطم، وتعكس اللهجة العبرية الفريدة لليهود التوانسة. هالمكلة تطيب سلة سلة وفيها خضرة تطيب في صالصة طماطم عاقدة ومفوحة لين تولي طرية وبنينة برشا.",
+    "en": "Tbikha b'Tomatem is a rich Tunisian vegetable stew. The word Tomatem is the Judeo-Tunisian word for tomatoes, reflecting the unique Hebrew dialect of Tunisian Jews. This slow-cooked dish features vegetables simmered in a thick, seasoned tomato sauce until tender and deeply flavored."
   },
   "ingredients": {
     "he": [
@@ -31,11 +31,11 @@
       "100 גרם רסק עגבניות",
       "3 תפוחי אדמה, חתוכים לקוביות",
       "600 גרם נתחי סייטן",
-      "מים לפי הצורך"
+      "מים לכיסוי המרכיבים"
     ],
     "es": [
       "45 ml de aceite vegetal",
-      "2 cebollas, picadas",
+      "2 cebollas, picadas en cubitos",
       "7 g de pimentón dulce",
       "1 tomate, picado",
       "1 pimiento verde picante, en rodajas",
@@ -44,20 +44,20 @@
       "100 g de pasta de tomate",
       "3 papas, cortadas en cubos",
       "600 g de trozos de seitán",
-      "Agua según sea necesario"
+      "Agua para cubrir los ingredientes"
     ],
     "ar": [
-      "3 مغارف زيت",
+      "3 مغارف زيت نباتي",
       "2 بصلات، مقصوصين",
-      "1 مغرفة فلفل أحمر",
+      "1 مغرفة فلفل أحمر (زينة)",
       "1 كعبة طماطم، مقصوصة",
       "1 قرن فلفل أخضر حار، مقصوص",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق",
       "6 مغارف طماطم حكة",
       "3 كعبات بطاطا، مقصوصين مكعبات",
-      "600 غرام سيتان",
-      "ماء حسب الحاجة"
+      "600 غرام قطع سيتان",
+      "ماء باش نغموا المكونات"
     ],
     "en": [
       "3 tbsp vegetable oil",
@@ -70,7 +70,7 @@
       "6 tbsp tomato paste",
       "3 potatoes, cubed",
       "21 oz seitan pieces",
-      "Water as needed"
+      "Water to cover ingredients"
     ]
   },
   "steps": {
@@ -80,23 +80,23 @@
       "מכסים ומבשלים על אש נמוכה כ-10 דקות לריכוך הירקות.",
       "מוסיפים את רסק העגבניות. מערבבים היטב ומבשלים כ-10 דקות נוספות. שלב זה מסיר את החומציות מהרסק.",
       "מוסיפים מים לכיסוי, את קוביות תפוחי האדמה ואת נתחי הסייטן. מביאים לרתיחה.",
-      "מנמיכים את האש ומבשלים עד שהסייטן סופג טעמים ותפוחי האדמה רכים."
+      "מנמיכים את האש ומבשלים בבעבוע עדין עד שהסייטן סופג טעמים ותפוחי האדמה רכים."
     ],
     "es": [
       "Caliente el aceite en una olla y sofría las 2 cebollas picadas hasta que estén transparentes.",
       "Añada el pimentón, seguido inmediatamente por el tomate picado y el pimiento verde en rodajas. Sazone con sal y pimienta negra.",
-      "Tape y deje cocinar al vapor a fuego lento durante unos 10 minutos para ablandar las verduras.",
-      "Agregue la pasta de tomate. Mezcle bien y cocine por otros 10 minutos. Este paso elimina la acidez de la pasta.",
+      "Tape y deje cocinar al vapor/sofreír a fuego lento durante unos 10 minutos para ablandar las verduras.",
+      "Añada la pasta de tomate. Mezcle bien y cocine (al vapor) por otros 10 minutos. Este paso elimina la acidez de la pasta.",
       "Añada agua hasta cubrir, las papas en cubos y los trozos de seitán. Lleve a ebullición.",
       "Baje el fuego y cocine a fuego lento hasta que el seitán esté cocido y las papas estén tiernas."
     ],
     "ar": [
-      "سخن الزيت في طنجرة وقلي البصلتين المقصوصين لين يذبالو.",
-      "زيد الفلفل الأحمر، ومباشرة وراه الطماطم المقصوصة وقرن الفلفل الأخضر. فوّح بالملح والفلفل الأكحل.",
+      "سخن الزيت في طنجرة وقلي 2 بصلات المقصوصين لين يذبالو.",
+      "زيد الفلفل الأحمر، ومبعد ديركت الطماطم المقصوصة وقرن الفلفل الأخضر. فوّح بالملح والفلفل الأكحل.",
       "غطي الطنجرة وخليها تتقلى على نار هادية حكاية 10 دقايق باش تذبال الخضرة.",
-      "زيد طماطم الحكة. حرك مليح وخليها تطيب 10 دقايق أخرين. هكا تتنحى القروصية متاع الطماطم.",
-      "مرق بالماء باش تغطي الكل، ارمي البطاطا والسيتان. خليها تغلي.",
-      "نقص في النار وخليها تطيب لين السيتان يطيب والبطاطا تولي طرية."
+      "زيد طماطم الحكة. خلط مليح وخليها تطيب 10 دقايق اخرين. المرحلة هاذي تنحي القروصية متاع الطماطم.",
+      "مرق بالماء باش تغم المكونات، زيد مكعبات البطاطا وقطع السيتان. خليها تغلي.",
+      "نقص في النار وخليها تطيب سلة سلة لين السيتان يطيب والبطاطا تولي طرية."
     ],
     "en": [
       "Heat oil in a pot and fry the 2 diced onions until translucent.",
@@ -106,5 +106,6 @@
       "Add water to cover, the cubed potatoes, and the seitan pieces. Bring to a boil.",
       "Lower heat and simmer until the seitan is cooked through and the potatoes are tender."
     ]
-  }
+  },
+  "index": 69
 }

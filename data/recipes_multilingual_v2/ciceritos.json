@@ -14,15 +14,15 @@
     "en": "Ciceritos (Green Pea Stew)"
   },
   "description": {
-    "he": "ציצריטוס, שפירושו אפונה קטנה בלאדינו, הוא תבשיל אפונה ספרדי מנחם. השם נגזר מהמילה הספרדית צ'יצ'רו עם סיומת ההקטנה של הלאדינו. מנה צמחית זו כוללת אפונה ירוקה רכה המבושלת בציר כורכום זהוב עם בצל וסלרי מטוגנים.",
-    "es": "Ciceritos, que significa guisantes pequeños en ladino, es un reconfortante guiso sefardí de guisantes verdes. El nombre deriva del español chícharo con el diminutivo ladino -itos. Este plato vegetal presenta tiernos guisantes cocidos a fuego lento en un caldo dorado de cúrcuma con cebolla y apio salteados.",
-    "ar": "سيسيريتوس، يعني جلبانة صغيرة باللادينو، هي مرقة جلبانة سفاردية بنينة وتريح القلب. الاسم جاي من الكلمة الإسبانية شيشارو مع التصغير باللادينو. هذا الطبق النباتي فيه جلبانة خضراء طرية طايبة في مرقة صفراء بالكركم مع بصل وكرافس مقليين.",
+    "he": "ציצריטוס, שפירושו \"אפונים קטנים\" בלאדינו, הוא תבשיל אפונה ספרדי מנחם. השם נגזר מהמילה הספרדית \"chícharo\" (אפונה) עם סיומת ההקטנה של הלאדינו \"-itos\". מנה צמחית זו כוללת אפונה ירוקה רכה המבושלת בציר כורכום זהוב עם בצל וסלרי מטוגנים.",
+    "es": "Ciceritos, que significa \"guisantes pequeños\" en ladino, es un reconfortante guiso sefardí de guisantes verdes. El nombre deriva del español \"chícharo\" con el diminutivo ladino \"-itos\". Este plato vegetal presenta tiernos guisantes cocidos a fuego lento en un caldo dorado de cúrcuma con cebolla y apio salteados.",
+    "ar": "سيسيريتوس، اللي معناها \"جلبانة صغيرة\" باللادينو، هي مرقة جلبانة سيفاردية بنينة وتريّح القلب. الاسم جاي من الكلمة الإسبانية \"chícharo\" مع التصغير باللادينو \"-itos\". هذا الطبق النباتي فيه جلبانة خضراء طرية طايبة في مرقة صفراء بالكركم مع بصل وكرافس مقليين.",
     "en": "Ciceritos, meaning \"little peas\" in Ladino, is a comforting Sephardic green pea stew. The name derives from the Spanish \"chícharo\" (pea) with the Ladino diminutive \"-itos.\" This plant-based dish features tender green peas simmered in a golden turmeric broth with sautéed onions and celery."
   },
   "ingredients": {
     "he": [
-      "1 בצל, חתוך לקוביות",
-      "2 גבעולי סלרי, חתוכים לקוביות",
+      "1 בצל, קצוץ לקוביות",
+      "2 גבעולי סלרי, קצוצים לקוביות",
       "30 מ\"ל שמן לטיגון",
       "360 גרם אפונה ירוקה (מבושלת או משומרת)",
       "3 גרם כורכום",
@@ -32,8 +32,8 @@
       "480 מ\"ל מים"
     ],
     "es": [
-      "1 cebolla, cortada en cubitos",
-      "2 tallos de apio, cortados en cubitos",
+      "1 cebolla, picada en cubitos",
+      "2 tallos de apio, picados en cubitos",
       "30 ml de aceite para freír",
       "360 g de guisantes verdes (cocidos o en lata)",
       "3 g de cúrcuma",
@@ -44,11 +44,11 @@
     ],
     "ar": [
       "1 بصلة، مقصوصة جويدة",
-      "2 عواد كرافس، مقصوصين",
+      "2 عواد كرافس، مقصوصين جويدين",
       "2 مغارف زيت للقلي",
-      "2 كيسان جلبانة (طايبة أو حكّة)",
+      "2 كيسان جلبانة (طايبة ولا حكّة)",
       "1 مغرفة صغيرة كركم",
-      "نص مغرفة صغيرة فلفل أبيض",
+      "½ مغرفة صغيرة فلفل أبيض",
       "1 مغرفة صغيرة بودرة مرقة خضرة",
       "ملح حسب الذوق",
       "2 كيسان ماء"
@@ -68,21 +68,21 @@
   "steps": {
     "he": [
       "מטגנים את הבצל והסלרי בשמן עד לריכוך וקבלת ריח נעים.",
-      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים היטב.",
+      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים לאיחוד.",
       "מוסיפים את האפונה והמים. מביאים לרתיחה.",
-      "מנמיכים את האש ומבשלים ברתיחה עדינה עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
+      "מנמיכים את האש ומבשלים בבעבוע עדין עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
     ],
     "es": [
-      "Sofreír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
+      "Freír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
       "Añadir la cúrcuma, la pimienta blanca, el caldo en polvo y la sal. Remover para combinar.",
       "Añadir los guisantes y el agua. Llevar a ebullición.",
       "Reducir el fuego y cocinar a fuego lento hasta que los sabores se mezclen y el líquido se reduzca ligeramente."
     ],
     "ar": [
       "نقليو البصل والكرافس في الزيت لين يذبالو وتطلع ريحتهم البنينة.",
-      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطو بالباهي.",
+      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطو كل شيء مع بعضو.",
       "نزيدو الجلبانة والماء. نخليوهم يغليو.",
-      "نقصو النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تخثار شوية."
+      "نقصو النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تعقاد شوية."
     ],
     "en": [
       "Fry the onion and celery in oil until softened and fragrant.",
@@ -90,5 +90,6 @@
       "Add green peas and water. Bring to a boil.",
       "Reduce heat and simmer until flavors meld and liquid reduces slightly."
     ]
-  }
+  },
+  "index": 25
 }

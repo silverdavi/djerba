@@ -43,6 +43,24 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 _progress_lock = Lock()
 _progress_count = 0
 
+def find_existing_multilingual_file(recipe_id: str) -> Path | None:
+    """Find existing multilingual file for a canonical recipe ID.
+    
+    Handles naming differences (underscores vs no underscores).
+    """
+    # First try exact match
+    exact = OUTPUT_DIR / f"{recipe_id}.json"
+    if exact.exists():
+        return exact
+    
+    # Try without underscores
+    no_underscores = recipe_id.replace("_", "")
+    for f in OUTPUT_DIR.glob("*.json"):
+        if f.stem.replace("_", "") == no_underscores:
+            return f
+    
+    return None
+
 def vprint(*args, **kwargs):
     """Print with immediate flush for real-time output."""
     print(*args, **kwargs, flush=True)
@@ -344,9 +362,10 @@ def process_single_recipe(canonical_file: Path, total: int) -> dict:
         # Multilingualize
         multilingual = multilingualize_recipe(canonical)
         
-        # Generate output filename (use same ID)
+        # Find existing file or create new filename
         recipe_id = multilingual.get("id", canonical_file.stem)
-        output_file = OUTPUT_DIR / f"{recipe_id}.json"
+        existing_file = find_existing_multilingual_file(recipe_id)
+        output_file = existing_file if existing_file else OUTPUT_DIR / f"{recipe_id}.json"
         
         # Save
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -448,7 +467,9 @@ def multilingualize_single(recipe_id: str):
         
         multilingual = multilingualize_recipe(canonical)
         
-        output_file = OUTPUT_DIR / f"{recipe_id}.json"
+        # Find existing file or create new filename
+        existing_file = find_existing_multilingual_file(recipe_id)
+        output_file = existing_file if existing_file else OUTPUT_DIR / f"{recipe_id}.json"
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(multilingual, f, ensure_ascii=False, indent=2)

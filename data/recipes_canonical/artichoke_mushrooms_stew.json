@@ -6,7 +6,7 @@
   "name_hebrew": "ארטישוק ופטריות",
   "name_origin": "The provided Hebrew name 'Artichoke ve Pitriot' is a modern descriptive translation. The traditional Djerban/Tunisian name for this dish is 'Gannariya' (قنارية) or 'Marqat Gannariya'. Unlike the English word 'Artichoke' (which derives from the Andalusian Arabic 'al-khurshuf'), the Tunisian word 'Gannariya' derives from the Latin 'Cynara' (or Greek 'Kinnara'), reflecting the Roman agricultural heritage of North Africa. The addition of mushrooms ('Foggâ' in dialect, though often called 'Champignon' due to French influence) suggests a later adaptation, as traditional pre-colonial stews more commonly paired artichokes with peas or fava beans. (Confidence: likely)",
   "description": "A tangy and earthy vegetable stew featuring artichoke hearts and mushrooms. Flavored with turmeric, garlic, and lemon, this dish is a staple side in North African Jewish kitchens, often served warm or at room temperature.",
-  "cultural_context": "This style of vegetable stew (often called a 'tbikha' or simply a cooked salad) is typical of Tunisian and Djerban cuisine. The combination of turmeric and lemon creates a bright, yellow sauce that is characteristic of the region's non-tomato-based stews.",
+  "cultural_context": "A popular Shabbat dish from Tangier, Morocco, brought to our family through Enny's side.",
   "is_vegan": true,
   "vegan_adaptation_notes": "Replace chicken seasoning with vegetable consommé powder or salt to make this recipe vegan.",
   "meta": {
@@ -396,7 +396,7 @@
       "key_difference": "Usually includes carrots and peas inside the artichoke heart; sweeter profile; lacks the turmeric intensity."
     }
   ],
-  "intro_paragraph": "This vibrant stew features tender artichoke hearts and mushrooms simmered in a tangy turmeric, garlic, and lemon sauce. The name 'Artichoke' derives from the Andalusian Arabic 'al-khurshuf', while the Tunisian word comes from the Latin 'Cynara'. A popular Shabbat dish in our house, this plant-based version captures earthy flavors.",
+  "intro_paragraph": "This hearty stew features tender artichoke hearts and mushrooms in a rich tomato sauce. A beloved Shabbat dish from Enny's family in Tangier, it has become a favorite in our home. The combination of earthy mushrooms and delicate artichokes creates a satisfying vegetable-forward main course.",
   "was_veganized": true,
   "vegan_substitutions": [
     {
