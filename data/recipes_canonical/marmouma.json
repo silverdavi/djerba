@@ -37,25 +37,6 @@
       }
     },
     {
-      "ingredient_id": "bell_pepper",
-      "name": "Sweet red peppers (Gambas)",
-      "amount": 5,
-      "unit": "unit",
-      "size": "medium",
-      "preparation": "diced small",
-      "notes": null,
-      "is_optional": false,
-      "measurements": {
-        "metric": null,
-        "imperial": null,
-        "volume": null,
-        "original": {
-          "value": 5,
-          "unit": "unit"
-        }
-      }
-    },
-    {
       "ingredient_id": "hot_pepper",
       "name": "Hot peppers",
       "amount": 3,

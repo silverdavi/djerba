@@ -251,6 +251,33 @@
           "unit": "tsp"
         }
       }
+    },
+    {
+      "ingredient_id": "chocolate_chips",
+      "name": "Dark chocolate chips",
+      "amount": 100,
+      "unit": "g",
+      "preparation": null,
+      "notes": "vegan/dairy-free",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 100,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 3.5,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 0.66,
+          "unit": "cups"
+        },
+        "original": {
+          "value": 100,
+          "unit": "g"
+        }
+      }
     }
   ],
   "steps": [
@@ -286,7 +313,7 @@
     },
     {
       "step": 6,
-      "instruction": "Add the mashed bananas alternately with the sifted dry ingredients to the batter. Mix just until blended; do not overmix.",
+      "instruction": "Add the mashed bananas alternately with the sifted dry ingredients to the batter. Fold in the chocolate chips. Mix just until blended; do not overmix.",
       "time_minutes": 3,
       "tips": "Overmixing can result in a tough cake."
     },
@@ -311,9 +338,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": "images/current/006_banana_cake/dish.png",
+    "filename": "images/current/108_banana_cake/dish.png",
     "prompt": null,
-    "generation_prompt": "A hyper-realistic, high-angle shot of a slice of moist vegan banana cake resting on a vintage floral ceramic plate. The cake features a golden-brown crust and a fluffy, tender interior crumb, visibly moist from mashed bananas and plant-based ingredients. A light dusting of powdered sugar sits on top. The setting is an authentic early 20th-century stone kitchen in Safed, Israel, with rough limestone walls and a worn wooden table in the background. Soft, natural morning light streams through an arched window, casting gentle shadows and illuminating a glass of mint tea nearby. The composition emphasizes the rustic, homemade nature of the dish, highlighting that it is a dairy-free and egg-free adaptation of a beloved classic. A beige linen napkin is folded casually beside the plate."
+    "generation_prompt": "A hyper-realistic, high-angle shot of a slice of moist vegan banana chocolate chip cake resting on a vintage floral ceramic plate. The cake features a golden-brown crust and a fluffy, tender interior crumb studded with visible dark chocolate chips throughout. The cross-section clearly shows melted chocolate chips embedded in the banana cake. A light dusting of powdered sugar sits on top. The setting is an authentic early 20th-century stone kitchen in Safed, Israel, with rough limestone walls and a worn wooden table in the background. Soft, natural morning light streams through an arched window. The composition emphasizes the rustic, homemade nature of the dish, highlighting the chocolate chips as a key feature. A beige linen napkin is folded casually beside the plate."
   },
   "tags": [
     "dessert",

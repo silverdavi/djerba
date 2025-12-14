@@ -526,6 +526,56 @@ def render_front_matter(use_absolute: bool = False) -> str:
     return title_page + copyright_page + intro_page_1 + intro_page_2 + blank_page
 
 
+def render_table_of_contents(recipes: list[dict]) -> str:
+    """Render table of contents pages - quad-lingual."""
+    # 30 per page (15 rows of 2 columns) - ensures no overflow
+    recipes_per_page = 30
+    
+    toc_pages = []
+    
+    for page_idx in range(0, len(recipes), recipes_per_page):
+        page_recipes = recipes[page_idx:page_idx + recipes_per_page]
+        is_first_page = (page_idx == 0)
+        
+        # Build recipe list items - quad-lingual
+        items_html = ""
+        for i, recipe in enumerate(page_recipes):
+            chapter_num = page_idx + i + 1
+            name_en = recipe["name"]["en"]
+            name_he = recipe["name"].get("he", "")
+            name_es = recipe["name"].get("es", "")
+            name_ar = recipe["name"].get("ar", "")
+            
+            items_html += f'''
+          <div class="toc-item">
+            <span class="toc-num">{chapter_num}.</span>
+            <div class="toc-names">
+              <span class="toc-name toc-name-en">{escape(name_en)}</span>
+              <span class="toc-name toc-name-he">{escape(name_he)}</span>
+              <span class="toc-name toc-name-es">{escape(name_es)}</span>
+              <span class="toc-name toc-name-ar">{escape(name_ar)}</span>
+            </div>
+          </div>'''
+        
+        # Create page with header only on first page
+        header = '<div class="toc-title">Contents · תוכן עניינים · Contenido · فهرس</div>' if is_first_page else ''
+        
+        toc_page = f'''
+  <!-- TABLE OF CONTENTS PAGE -->
+  <section class="page page--toc">
+    <div class="page-inner toc-inner">
+      {header}
+      <div class="toc-list">
+        {items_html}
+      </div>
+    </div>
+  </section>
+'''
+        toc_pages.append(toc_page)
+    
+    return "".join(toc_pages)
+
+
 def render_page1(recipe: dict, page_num: int, chapter_index: int = 1) -> str:
     """Render Page 1: Title + Description + Meta footer with chapter number."""
     name = recipe["name"]
@@ -543,12 +593,16 @@ def render_page1(recipe: dict, page_num: int, chapter_index: int = 1) -> str:
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-grid">
-        <div class="title-word lang-es {size_es}"><span>{escape(name["es"])}</span></div>
-        <div class="title-word lang-he {size_he}"><span>{escape(name["he"])}</span></div>
+      <div class="title-block">
+        <div class="title-row">
+          <div class="title-word lang-es {size_es}"><span>{escape(name["es"])}</span></div>
+          <div class="title-word lang-he {size_he}"><span>{escape(name["he"])}</span></div>
+        </div>
         <div class="chapter-number"><span>{chapter_index}</span></div>
-        <div class="title-word lang-en {size_en}"><span>{escape(name["en"])}</span></div>
-        <div class="title-word lang-ar {size_ar}"><span>{escape(name["ar"])}</span></div>
+        <div class="title-row">
+          <div class="title-word lang-en {size_en}"><span>{escape(name["en"])}</span></div>
+          <div class="title-word lang-ar {size_ar}"><span>{escape(name["ar"])}</span></div>
+        </div>
       </div>
 
       <div class="section">
@@ -813,6 +867,9 @@ def render_html(recipes: list[dict], css_content: str, image_base_path: str = ".
     # Render front matter (title, copyright, intro, blank)
     front_matter = render_front_matter(use_absolute=use_absolute)
     
+    # Render table of contents
+    toc = render_table_of_contents(recipes)
+    
     recipe_html_parts = []
     page_num = 1  # Recipes start at page 1 (front matter uses roman numerals)
     
@@ -821,7 +878,7 @@ def render_html(recipes: list[dict], css_content: str, image_base_path: str = ".
         recipe_html_parts.append(render_recipe(recipe, page_num, image_path, use_absolute, chapter_index))
         page_num += 4  # Each recipe is 4 pages
     
-    recipes_html = front_matter + "\n".join(recipe_html_parts)
+    recipes_html = front_matter + toc + "\n".join(recipe_html_parts)
     
     return f'''<!DOCTYPE html>
 <html lang="en">

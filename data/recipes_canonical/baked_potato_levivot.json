@@ -301,9 +301,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": null,
+    "filename": "images/current/107_baked_potato_levivot/dish.png",
     "prompt": null,
-    "generation_prompt": "A rustic, golden-brown baked potato casserole known as Ma'akouda, served in a vintage ceramic baking dish on a weathered wooden table. The dish features a crispy, textured top layer of grated potatoes baked to perfection. A slice is being lifted, revealing a moist, savory interior bound with chickpea flour rather than eggs, glowing with a subtle turmeric yellow hue. Fresh chopped parsley is scattered on top. The setting is an early 1900s stone kitchen in Safed with arched windows, soft natural lighting illuminating the steam rising from the warm casserole. In the background, clay jars and woven textiles suggest a North African Jewish heritage adapted to life in the Galilee. The image captures the warmth of home cooking with purely plant-based ingredients."
+    "generation_prompt": "A rustic serving platter displays thin, crispy baked potato levivot (latkes) spread out in a single layer. Each levivot is flat and disc-shaped, about 1cm thick, with deeply golden-brown crispy edges and a lacy, shredded potato texture visible on the surface. The levivot are NOT stacked high like a casserole but spread thin across the plate. A small bowl of applesauce sits nearby. Fresh chopped parsley is scattered on top of the levivot. The setting is an early 1900s stone kitchen in Safed with arched windows, soft natural lighting. In the background, clay jars and a rustic wooden table suggest North African Jewish heritage. The image emphasizes the thin, crispy, individual nature of these plant-based potato pancakes."
   },
   "tags": [
     "side-dish",

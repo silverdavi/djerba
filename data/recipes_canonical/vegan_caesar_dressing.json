@@ -250,6 +250,33 @@
           "unit": "to_taste"
         }
       }
+    },
+    {
+      "ingredient_id": "croutons",
+      "name": "Croutons",
+      "amount": 1,
+      "unit": "cup",
+      "preparation": "for serving",
+      "notes": "homemade or store-bought",
+      "is_optional": false,
+      "measurements": {
+        "metric": {
+          "value": 50,
+          "unit": "g"
+        },
+        "imperial": {
+          "value": 1.75,
+          "unit": "oz"
+        },
+        "volume": {
+          "value": 1,
+          "unit": "cup"
+        },
+        "original": {
+          "value": 1,
+          "unit": "cup"
+        }
+      }
     }
   ],
   "steps": [

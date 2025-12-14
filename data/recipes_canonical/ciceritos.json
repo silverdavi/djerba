@@ -4,7 +4,7 @@
   "source_file": "user_input_2024_12",
   "name": "Ciceritos (Chickpea Stew)",
   "name_hebrew": "ציצריטוס",
-  "name_origin": "From the Spanish 'garbanzos' (chickpeas), the name Ciceritos is a Ladino diminutive meaning 'little chickpeas'. This reflects the Sephardic Jewish heritage of the dish.",
+  "name_origin": "From the Latin 'Cicer arietinum' (the scientific name for chickpea), the name Ciceritos is a Ladino diminutive meaning 'little chickpeas'. The Latin 'cicer' became 'cicero' in Spanish dialects, and the Sephardic Jews added the affectionate '-itos' suffix.",
   "description": "A simple chickpea stew flavored with turmeric and white pepper. The onion and celery base creates a rich foundation for this comforting legume dish.",
   "cultural_context": "A classic Sephardic Jewish dish brought from Spain to North Africa. The celery addition enhances the flavor significantly.",
   "is_vegan": true,
@@ -279,7 +279,8 @@
   "vegan_substitutions": [],
   "intro_paragraph": "Derived from the Spanish word for chickpeas, Ciceritos means little chickpeas in Ladino. This comforting Sephardic stew features tender legumes simmered in a golden turmeric broth. Naturally plant-based, it relies on a savory base of fried onions and celery to deliver deep flavor without any meat products.",
   "image": {
-    "generation_prompt": "A rustic, hand-thrown clay bowl filled with Ciceritos, a vibrant golden-hued Sephardic chickpea stew. The rich broth is deeply yellow from turmeric, glistening with savory droplets of vegetable oil. Plump, tender chickpeas are abundant and piled high, mixed with softened translucent diced onions and tender pale green celery pieces that provide texture. Freshly chopped parsley is generously scattered on top for a pop of green contrast. The bowl sits on a dark, weathered wooden table inside an early 1900s Safed kitchen characterized by rough-hewn limestone walls and arched doorways. Soft, natural light streams through a small deep-set window, illuminating the steam gently rising from the hot, comforting dish. In the background, antique copper cookware hangs on the stone wall, and a traditional woven textile rests nearby. The texture of the stew looks thick, hearty, and creamy, highlighting the wholesome plant-based ingredients in this traditional meat-free comfort dish. The atmosphere is warm, historic, and inviting, perfectly capturing the essence of authentic old-world Jewish home cooking."
+    "generation_prompt": "A rustic, hand-thrown clay bowl filled with Ciceritos, a vibrant golden-hued Sephardic chickpea stew. The rich broth is deeply yellow from turmeric, glistening with savory droplets of vegetable oil. Plump, tender chickpeas are abundant and piled high, mixed with softened translucent diced onions and tender pale green celery pieces that provide texture. Freshly chopped parsley is generously scattered on top for a pop of green contrast. The bowl sits on a dark, weathered wooden table inside an early 1900s Safed kitchen characterized by rough-hewn limestone walls and arched doorways. Soft, natural light streams through a small deep-set window, illuminating the steam gently rising from the hot, comforting dish. In the background, antique copper cookware hangs on the stone wall, and a traditional woven textile rests nearby. The texture of the stew looks thick, hearty, and creamy, highlighting the wholesome plant-based ingredients in this traditional meat-free comfort dish. The atmosphere is warm, historic, and inviting, perfectly capturing the essence of authentic old-world Jewish home cooking.",
+    "filename": "images/current/098_ciceritos/dish.png"
   },
   "veganization_complete": true
 }

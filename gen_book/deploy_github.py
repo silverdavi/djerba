@@ -114,6 +114,13 @@ def fix_image_paths(html_content: str) -> str:
     """Fix image paths in HTML for web deployment."""
     content = html_content
     
+    # Fix dish image paths: ../images/current/{id}/dish.png -> ../images/{id}.png
+    content = re.sub(
+        r'src="\.\.?/images/current/([^/]+)/dish\.png"',
+        r'src="../images/\1.png"',
+        content
+    )
+    
     # Fix dish image paths: ../images/generated/current/{id}/dish.png -> ../images/{id}.png
     content = re.sub(
         r'src="[^"]*?/images/generated/current/([^/]+)/dish\.png"',

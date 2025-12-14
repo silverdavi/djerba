@@ -1,6 +1,6 @@
 {
   "id": "ciceritos",
-  "image": "ciceritos.png",
+  "image": "images/current/098_ciceritos/dish.png",
   "meta": {
     "servings": "4-6",
     "prep_time": "15 min",
@@ -14,17 +14,17 @@
     "en": "Ciceritos (Chickpea Stew)"
   },
   "description": {
-    "he": "נגזר מהמילה הספרדית לחומוס, המשמעות של ציצריטוס היא גרגרי חומוס קטנים בלאדינו. נזיד ספרדי מנחם זה מציג קטניות רכות המבושלות בציר כורכום זהוב. המנה מבוססת באופן טבעי על הצומח ומסתמכת על בסיס עשיר של בצל מטוגן וסלרי כדי לספק טעם עמוק ללא מוצרי בשר.",
-    "es": "Derivado de la palabra española para garbanzos, Ciceritos significa garbanzos pequeños en ladino. Este reconfortante estofado sefardí presenta legumbres tiernas cocidas a fuego lento en un caldo dorado de cúrcuma. Naturalmente vegetal, se basa en un fondo sabroso de cebolla frita y apio para ofrecer un sabor profundo sin productos cárnicos.",
-    "ar": "كلمة سيسيريتوس جاية من الكلمة الإسبانية للحمص، وتعني حمص صغير باللادينو. هذي المرقة السفاردية البنينة فيها حمص طايب في مرقة صفراء بالكركم. هي أكلة نباتية وتعتمد على تقلية البصل والكرافس باش تعطي بنة قوية من غير لحم.",
+    "he": "מקור השם במילה הספרדית לחומוס, ציצריטוס פירושו גרגרי חומוס קטנים בלאדינו. נזיד ספרדי מנחם זה כולל קטניות רכות המבושלות בציר כורכום זהוב. המנה טבעונית באופן טבעי ומסתמכת על בסיס עשיר של בצל מטוגן וסלרי כדי לספק טעם עמוק ללא מוצרי בשר.",
+    "es": "Derivado de la palabra española para garbanzos, Ciceritos significa garbanzos pequeños en ladino. Este reconfortante estofado sefardí presenta legumbres tiernas cocidas a fuego lento en un caldo dorado de cúrcuma. Naturalmente vegetal, se basa en un sofrito de cebolla y apio para ofrecer un sabor profundo sin productos cárnicos.",
+    "ar": "الاسم جاي من الكلمة الإسبانية للحمص، وسيسيريتوس يعني الحمص الصغير باللادينو. هذي مرقة سفاردية تعمل الكيف، فيها الحمص طايب في مرقة صفراء بالكركم. هي أكلة نباتية وتعتمد على تقلية البصل والكرافس باش تعطي بنة قوية من غير لحم.",
     "en": "Derived from the Spanish word for chickpeas, Ciceritos means little chickpeas in Ladino. This comforting Sephardic stew features tender legumes simmered in a golden turmeric broth. Naturally plant-based, it relies on a savory base of fried onions and celery to deliver deep flavor without any meat products."
   },
   "ingredients": {
     "he": [
-      "1 בצל, חתוך לקוביות",
-      "2 גבעולי סלרי, חתוכים לקוביות",
+      "1 בצל, קצוץ לקוביות",
+      "2 גבעולי סלרי, קצוצים לקוביות",
       "30 מ\"ל שמן לטיגון",
-      "360 גרם חומוס (ציצריטוס), מבושל או משומר",
+      "360 גרם גרגירי חומוס (ציצריטוס), מבושלים או משומרים",
       "3 גרם כורכום",
       "1.2 גרם פלפל לבן",
       "4 גרם אבקת מרק ירקות",
@@ -46,7 +46,7 @@
       "1 بصلة، مقصوصة جويدة",
       "2 عواد كرافس، مقصوصين",
       "2 مغارف زيت للقلي",
-      "2 كيسان حمص (سيسيريتوس)، طايب أو حكة",
+      "2 كيسان حمص (سيسيريتوس)، طايب أو حكّة",
       "1 مغرفة صغيرة كركم",
       "½ مغرفة صغيرة فلفل أبيض",
       "1 مغرفة صغيرة بودرة مرقة خضرة",
@@ -67,22 +67,22 @@
   },
   "steps": {
     "he": [
-      "מטגנים את הבצל והסלרי בשמן עד שהם מתרככים ומעלים ניחוח.",
+      "מטגנים את הבצל והסלרי בשמן עד לריכוך וקבלת ריח נעים.",
       "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים לאיחוד.",
-      "מוסיפים את החומוס והמים. מביאים לרתיחה.",
+      "מוסיפים את גרגירי החומוס והמים. מביאים לרתיחה.",
       "מנמיכים את האש ומבשלים בבעבוע עדין עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
     ],
     "es": [
-      "Sofreír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
+      "Freír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
       "Añadir la cúrcuma, la pimienta blanca, el caldo en polvo y la sal. Remover para combinar.",
       "Añadir los garbanzos y el agua. Llevar a ebullición.",
       "Reducir el fuego y cocinar a fuego lento hasta que los sabores se mezclen y el líquido se reduzca ligeramente."
     ],
     "ar": [
       "نقليو البصل والكرافس في الزيت لين يذبالو وتطلع ريحتهم.",
-      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطو بالباهي.",
-      "نزيدو الحمص والماء. نخليوها تغلي.",
-      "نوطيو النار ونخليوها تطيب سلة سلة لين الطعمة تتخلط والمرقة تختار شوية."
+      "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطوهم مليح.",
+      "نزيدو الحمص والماء. نخليوهم يغليو.",
+      "نقصو النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تخثار شوية."
     ],
     "en": [
       "Fry the onion and celery in oil until softened and fragrant.",

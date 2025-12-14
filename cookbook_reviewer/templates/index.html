@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookbook Reviewer</title>
+  <style>
+    :root {
+      --bg: #0f0f14;
+      --card: #1a1a24;
+      --accent: #e07c39;
+      --accent2: #2a2a3a;
+      --text: #eaeaea;
+      --muted: #888;
+      --ok: #4ade80;
+      --fix: #f87171;
+      --pending: #fbbf24;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    
+    header {
+      background: var(--card);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--accent);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    header h1 {
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+    
+    .stats {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    
+    .stat-label {
+      color: var(--muted);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+    
+    .container {
+      display: flex;
+      height: calc(100vh - 55px);
+    }
+    
+    .sidebar {
+      width: 260px;
+      background: var(--card);
+      overflow-y: auto;
+      border-right: 1px solid var(--accent2);
+      flex-shrink: 0;
+    }
+    
+    .recipe-list {
+      list-style: none;
+    }
+    
+    .recipe-item {
+      padding: 0.6rem 0.8rem;
+      cursor: pointer;
+      border-bottom: 1px solid var(--accent2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+      font-size: 0.8rem;
+    }
+    
+    .recipe-item:hover {
+      background: var(--accent2);
+    }
+    
+    .recipe-item.active {
+      background: var(--accent);
+    }
+    
+    .recipe-item.status-ok {
+      border-left: 3px solid var(--ok);
+    }
+    
+    .recipe-item.status-needs_fix {
+      border-left: 3px solid var(--fix);
+    }
+    
+    .recipe-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+    
+    .recipe-badge {
+      font-size: 0.65rem;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      margin-left: 0.4rem;
+    }
+    
+    .badge-ok { background: var(--ok); color: #000; }
+    .badge-fix { background: var(--fix); color: #000; }
+    .badge-high { background: var(--accent); color: #fff; }
+    
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .toolbar {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--card);
+      border-bottom: 1px solid var(--accent2);
+      align-items: center;
+    }
+    
+    .toolbar-btn {
+      padding: 0.4rem 0.8rem;
+      background: var(--accent2);
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+    
+    .toolbar-btn:hover { background: var(--accent); }
+    
+    .toolbar-spacer { flex: 1; }
+    
+    .viewer {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+    
+    .preview-panel {
+      flex: 2;
+      background: #fff;
+      overflow: auto;
+      position: relative;
+    }
+    
+    .preview-panel iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    .review-panel {
+      width: 320px;
+      background: var(--card);
+      padding: 1rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      border-left: 1px solid var(--accent2);
+    }
+    
+    .review-card {
+      background: var(--bg);
+      border-radius: 6px;
+      padding: 0.75rem;
+    }
+    
+    .review-card h3 {
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .recipe-title {
+      font-size: 1.1rem;
+      margin-bottom: 0.2rem;
+    }
+    
+    .recipe-title-he {
+      font-size: 0.95rem;
+      color: var(--muted);
+      direction: rtl;
+    }
+    
+    .status-buttons {
+      display: flex;
+      gap: 0.4rem;
+    }
+    
+    .status-btn {
+      flex: 1;
+      padding: 0.6rem;
+      border: 2px solid var(--accent2);
+      background: transparent;
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .status-btn:hover {
+      background: var(--accent2);
+    }
+    
+    .status-btn.ok { border-color: var(--ok); }
+    .status-btn.ok.selected { background: var(--ok); color: #000; }
+    
+    .status-btn.fix { border-color: var(--fix); }
+    .status-btn.fix.selected { background: var(--fix); color: #000; }
+    
+    .priority-buttons {
+      display: flex;
+      gap: 0.3rem;
+    }
+    
+    .priority-btn {
+      flex: 1;
+      padding: 0.4rem;
+      border: 1px solid var(--accent2);
+      background: transparent;
+      color: var(--muted);
+      font-size: 0.75rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .priority-btn.selected {
+      background: var(--accent2);
+      color: var(--text);
+    }
+    
+    .priority-btn.high.selected {
+      background: var(--accent);
+      color: #fff;
+    }
+    
+    .fixes-textarea {
+      width: 100%;
+      min-height: 150px;
+      background: var(--card);
+      border: 1px solid var(--accent2);
+      border-radius: 6px;
+      color: var(--text);
+      padding: 0.6rem;
+      font-size: 0.85rem;
+      resize: vertical;
+      font-family: inherit;
+      line-height: 1.4;
+    }
+    
+    .fixes-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .fixes-textarea::placeholder {
+      color: var(--muted);
+    }
+    
+    .btn {
+      width: 100%;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    
+    .btn:hover { opacity: 0.9; }
+    
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    
+    .btn-secondary {
+      background: var(--accent2);
+      color: white;
+      margin-top: 0.3rem;
+    }
+    
+    .filter-row {
+      padding: 0.4rem 0.8rem;
+      background: var(--accent2);
+      display: flex;
+      gap: 0.8rem;
+      font-size: 0.75rem;
+      flex-wrap: wrap;
+    }
+    
+    .filter-row label {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      cursor: pointer;
+    }
+    
+    .empty-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: var(--muted);
+      font-size: 1.1rem;
+      flex: 1;
+    }
+    
+    .image-preview {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 0.5rem;
+    }
+    
+    .keyboard-hint {
+      position: fixed;
+      bottom: 0.75rem;
+      right: 0.75rem;
+      background: var(--card);
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+    
+    kbd {
+      background: var(--accent2);
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      margin: 0 0.05rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📖 Cookbook Reviewer</h1>
+  <div class="stats" id="stats">
+    <div class="stat">
+      <div class="stat-value" id="stat-reviewed">-</div>
+      <div class="stat-label">Reviewed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-pending">-</div>
+      <div class="stat-label">Pending</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value stat-ok" id="stat-ok">-</div>
+      <div class="stat-label">OK</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value stat-fix" id="stat-fix">-</div>
+      <div class="stat-label">Need Fix</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-high">-</div>
+      <div class="stat-label">High Priority</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <aside class="sidebar">
+    <div class="filter-row">
+      <label><input type="radio" name="filter" value="all" checked> All</label>
+      <label><input type="radio" name="filter" value="pending"> Pending</label>
+      <label><input type="radio" name="filter" value="ok"> OK</label>
+      <label><input type="radio" name="filter" value="needs_fix"> Need Fix</label>
+      <label><input type="radio" name="filter" value="high"> High</label>
+    </div>
+    <ul class="recipe-list" id="recipe-list"></ul>
+  </aside>
+  
+  <main class="main">
+    <div class="toolbar">
+      <button class="toolbar-btn" onclick="prevRecipe()">← Prev</button>
+      <button class="toolbar-btn" onclick="nextRecipe()">Next →</button>
+      <button class="toolbar-btn" onclick="nextPending()">Next Pending ⏭</button>
+      <span class="toolbar-spacer"></span>
+      <button class="toolbar-btn" onclick="exportFixes()">📋 Export Fixes</button>
+    </div>
+    
+    <div class="viewer" id="viewer">
+      <div class="empty-state">Select a recipe from the sidebar</div>
+    </div>
+  </main>
+</div>
+
+<div class="keyboard-hint">
+  <kbd>←</kbd> <kbd>→</kbd> Navigate &nbsp;|&nbsp;
+  <kbd>O</kbd> OK &nbsp;|&nbsp;
+  <kbd>F</kbd> Needs Fix &nbsp;|&nbsp;
+  <kbd>S</kbd> Save
+</div>
+
+<script>
+let recipes = [];
+let currentIndex = -1;
+let currentRecipe = null;
+let currentStatus = 'pending';
+let currentPriority = 'normal';
+
+async function loadRecipes() {
+  const res = await fetch('/api/recipes');
+  recipes = await res.json();
+  renderList();
+  updateStats();
+}
+
+async function updateStats() {
+  const res = await fetch('/api/stats');
+  const stats = await res.json();
+  document.getElementById('stat-reviewed').textContent = stats.reviewed;
+  document.getElementById('stat-pending').textContent = stats.pending;
+  document.getElementById('stat-ok').textContent = stats.ok;
+  document.getElementById('stat-fix').textContent = stats.needs_fix;
+  document.getElementById('stat-high').textContent = stats.high_priority;
+}
+
+function getFilter() {
+  return document.querySelector('input[name="filter"]:checked').value;
+}
+
+function filterRecipes() {
+  const filter = getFilter();
+  return recipes.filter(r => {
+    if (filter === 'all') return true;
+    if (filter === 'pending') return !r.review || r.review.status === 'pending';
+    if (filter === 'ok') return r.review?.status === 'ok';
+    if (filter === 'needs_fix') return r.review?.status === 'needs_fix';
+    if (filter === 'high') return r.review?.priority === 'high';
+    return true;
+  });
+}
+
+function renderList() {
+  const list = document.getElementById('recipe-list');
+  const filtered = filterRecipes();
+  
+  list.innerHTML = filtered.map((r, i) => {
+    const status = r.review?.status || 'pending';
+    const priority = r.review?.priority || 'normal';
+    const globalIndex = recipes.indexOf(r);
+    
+    let badges = '';
+    if (status === 'ok') badges += '<span class="recipe-badge badge-ok">✓</span>';
+    if (status === 'needs_fix') badges += '<span class="recipe-badge badge-fix">✗</span>';
+    if (priority === 'high') badges += '<span class="recipe-badge badge-high">!</span>';
+    
+    return `
+      <li class="recipe-item status-${status} ${globalIndex === currentIndex ? 'active' : ''}" 
+          onclick="selectRecipe(${globalIndex})">
+        <span class="recipe-name">${r.name}</span>
+        ${badges}
+      </li>
+    `;
+  }).join('');
+}
+
+async function selectRecipe(index) {
+  currentIndex = index;
+  currentRecipe = recipes[index];
+  
+  currentStatus = currentRecipe.review?.status || 'pending';
+  currentPriority = currentRecipe.review?.priority || 'normal';
+  
+  const viewer = document.getElementById('viewer');
+  viewer.innerHTML = `
+    <div class="preview-panel">
+      <iframe src="/api/html/${currentRecipe.id}" title="Recipe Preview"></iframe>
+    </div>
+    
+    <div class="review-panel">
+      <div class="review-card">
+        <div class="recipe-title">${currentRecipe.name}</div>
+        <div class="recipe-title-he">${currentRecipe.name_he || ''}</div>
+      </div>
+      
+      ${currentRecipe.image_path ? `
+      <div class="review-card">
+        <h3>Dish Image</h3>
+        <img class="image-preview" src="/api/image/${currentRecipe.image_path}" alt="Dish">
+      </div>
+      ` : ''}
+      
+      <div class="review-card">
+        <h3>Status</h3>
+        <div class="status-buttons">
+          <button class="status-btn ok ${currentStatus === 'ok' ? 'selected' : ''}" onclick="setStatus('ok')">✓ OK</button>
+          <button class="status-btn fix ${currentStatus === 'needs_fix' ? 'selected' : ''}" onclick="setStatus('needs_fix')">✗ Needs Fix</button>
+        </div>
+      </div>
+      
+      <div class="review-card">
+        <h3>Priority</h3>
+        <div class="priority-buttons">
+          <button class="priority-btn ${currentPriority === 'low' ? 'selected' : ''}" onclick="setPriority('low')">Low</button>
+          <button class="priority-btn ${currentPriority === 'normal' ? 'selected' : ''}" onclick="setPriority('normal')">Normal</button>
+          <button class="priority-btn high ${currentPriority === 'high' ? 'selected' : ''}" onclick="setPriority('high')">High</button>
+        </div>
+      </div>
+      
+      <div class="review-card" style="flex: 1;">
+        <h3>What needs to be fixed?</h3>
+        <textarea class="fixes-textarea" id="fixes" placeholder="Describe what needs to be fixed:&#10;- Image issue&#10;- Text error&#10;- Translation problem&#10;- etc.">${currentRecipe.review?.fixes_needed || ''}</textarea>
+      </div>
+      
+      <button class="btn btn-primary" onclick="saveReview()">💾 Save Review</button>
+      <button class="btn btn-secondary" onclick="saveAndNext()">Save & Next →</button>
+    </div>
+  `;
+  
+  renderList();
+}
+
+function setStatus(status) {
+  currentStatus = status;
+  document.querySelectorAll('.status-btn').forEach(btn => {
+    btn.classList.remove('selected');
+    if (btn.classList.contains(status === 'ok' ? 'ok' : 'fix')) {
+      btn.classList.add('selected');
+    }
+  });
+}
+
+function setPriority(priority) {
+  currentPriority = priority;
+  document.querySelectorAll('.priority-btn').forEach(btn => {
+    btn.classList.remove('selected');
+  });
+  event.target.classList.add('selected');
+}
+
+async function saveReview() {
+  if (!currentRecipe) return;
+  
+  const fixes = document.getElementById('fixes')?.value || '';
+  
+  await fetch(`/api/review/${currentRecipe.id}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      status: currentStatus,
+      fixes_needed: fixes,
+      priority: currentPriority
+    })
+  });
+  
+  // Update local data
+  currentRecipe.review = { status: currentStatus, fixes_needed: fixes, priority: currentPriority };
+  recipes[currentIndex] = currentRecipe;
+  
+  renderList();
+  updateStats();
+}
+
+async function saveAndNext() {
+  await saveReview();
+  nextRecipe();
+}
+
+function prevRecipe() {
+  if (currentIndex > 0) {
+    selectRecipe(currentIndex - 1);
+  }
+}
+
+function nextRecipe() {
+  if (currentIndex < recipes.length - 1) {
+    selectRecipe(currentIndex + 1);
+  }
+}
+
+function nextPending() {
+  for (let i = currentIndex + 1; i < recipes.length; i++) {
+    if (!recipes[i].review || recipes[i].review.status === 'pending') {
+      selectRecipe(i);
+      return;
+    }
+  }
+  // Wrap around
+  for (let i = 0; i < currentIndex; i++) {
+    if (!recipes[i].review || recipes[i].review.status === 'pending') {
+      selectRecipe(i);
+      return;
+    }
+  }
+  alert('All recipes reviewed!');
+}
+
+async function exportFixes() {
+  const res = await fetch('/api/export');
+  const fixes = await res.json();
+  
+  if (fixes.length === 0) {
+    alert('No fixes to export!');
+    return;
+  }
+  
+  let text = '# Cookbook Fixes Needed\n\n';
+  
+  const high = fixes.filter(f => f.priority === 'high');
+  const normal = fixes.filter(f => f.priority === 'normal');
+  const low = fixes.filter(f => f.priority === 'low');
+  
+  if (high.length) {
+    text += '## 🔴 High Priority\n\n';
+    high.forEach(f => {
+      text += `### ${f.recipe_id}\n${f.fixes}\n\n`;
+    });
+  }
+  
+  if (normal.length) {
+    text += '## 🟡 Normal Priority\n\n';
+    normal.forEach(f => {
+      text += `### ${f.recipe_id}\n${f.fixes}\n\n`;
+    });
+  }
+  
+  if (low.length) {
+    text += '## 🟢 Low Priority\n\n';
+    low.forEach(f => {
+      text += `### ${f.recipe_id}\n${f.fixes}\n\n`;
+    });
+  }
+  
+  // Copy to clipboard
+  navigator.clipboard.writeText(text).then(() => {
+    alert(`Copied ${fixes.length} fixes to clipboard!`);
+  });
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'TEXTAREA') return;
+  
+  if (e.key === 'ArrowLeft') prevRecipe();
+  else if (e.key === 'ArrowRight') nextRecipe();
+  else if (e.key === 'o' || e.key === 'O') setStatus('ok');
+  else if (e.key === 'f' || e.key === 'F') setStatus('needs_fix');
+  else if (e.key === 's' || e.key === 'S') { e.preventDefault(); saveReview(); }
+  else if (e.key === 'n' || e.key === 'N') nextPending();
+});
+
+// Filter change
+document.querySelectorAll('input[name="filter"]').forEach(input => {
+  input.addEventListener('change', renderList);
+});
+
+// Init
+loadRecipes();
+</script>
+
+</body>
+</html>
+

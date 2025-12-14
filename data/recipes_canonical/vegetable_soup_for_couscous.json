@@ -4,7 +4,7 @@
   "source_file": "data/safed_recipes/09_מרק_ירקות_לקוסקוס.json",
   "name": "Vegetable Soup for Couscous",
   "name_hebrew": "מרק ירקות לקוסקוס",
-  "name_origin": "While the provided name is Modern Hebrew ('Marak Yerakot'), the traditional Djerban Judeo-Arabic term for the liquid and vegetable stew served over couscous is 'Marga' (or 'Margat'). This derives from the Classical Arabic root 'm-r-q' (م-ر-ق), referring to broth or stock. In Tunisian cuisine, the technique described (sweating vegetables with spices before adding water) is known as the 'teklia' method, which forms the base of the 'Marga'. The Hebrew name is a literal translation used in Israel, but the dish's linguistic roots are firmly Maghrebi Arabic. (Confidence: likely)",
+  "name_origin": "While the provided name is Modern Hebrew ('Marak Yerakot'), the traditional Djerban Judeo-Arabic term for the liquid and vegetable stew served over couscous is 'Marga' (or 'Margat'). This derives from the Classical Arabic root 'm-r-q' (م-ر-ق), referring to broth or stock. The Hebrew name is a literal translation used in Israel, but the dish's linguistic roots are firmly Maghrebi Arabic. (Confidence: likely)",
   "description": "A rich, hearty vegetable and chicken soup designed to be ladled over steamed couscous. The vegetables are slowly sweated with spices before adding water, creating a deep, flavorful broth typical of North African cuisine.",
   "cultural_context": "In Tunisian and Djerban tradition, this soup (often called 'Marak') is the centerpiece of the meal, providing both the sauce and the protein/vegetables to accompany the couscous grain.",
   "is_vegan": true,
@@ -345,7 +345,7 @@
     "root_word": "M-R-Q (م-r-q)",
     "meaning": "Broth, stew, or the liquid in which meat/vegetables are cooked",
     "confidence": "likely",
-    "notes": "The Hebrew name provided is descriptive. Based on Djerban culinary tradition, the specific component is invariably called 'Marga' (often specified as 'Marga Hamra' for red/tomato or 'Marga Safra' for yellow/turmeric). The description of 'sweating' confirms the Tunisian 'teklia' base."
+    "notes": "The Hebrew name provided is descriptive. Based on Djerban culinary tradition, the specific component is invariably called 'Marga' (often specified as 'Marga Hamra' for red/tomato or 'Marga Safra' for yellow/turmeric)."
   },
   "alternative_names": [
     {
@@ -384,7 +384,7 @@
       "key_difference": "Lacks the complex spice blend (tabil, caraway, coriander) and the steaming of grain; served as a standalone soup/plate."
     }
   ],
-  "intro_paragraph": "Marga is the traditional Judeo-Arabic term for the rich stew served atop couscous and derives from the root for broth. This plant-based adaptation replaces chicken with savory seitan while maintaining the teklia method. Seasonal vegetables sweat with spices to create a deep stock that transforms steamed grains into a complete meal.",
+  "intro_paragraph": "Marga is the traditional Judeo-Arabic term for the rich stew served atop couscous and derives from the root for broth. This plant-based adaptation replaces chicken with savory seitan. Seasonal vegetables sweat with spices to create a deep stock that transforms steamed grains into a complete meal.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

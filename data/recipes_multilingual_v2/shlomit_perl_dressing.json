@@ -1,6 +1,6 @@
 {
   "id": "shlomitperldressing",
-  "image": "images/current/082shlomitdressing/dish.png",
+  "image": "images/current/082_shlomit_dressing/dish.png",
   "meta": {
     "servings": "1 cup",
     "prep_time": "5 min",
@@ -11,13 +11,13 @@
     "he": "רוטב שלומית",
     "es": "Aderezo de Shlomit",
     "ar": "صوص شلوميت",
-    "en": "Shlomit Perl's Salad Dressing"
+    "en": "Shlomit's Salad Dressing"
   },
   "description": {
-    "he": "הרוטב של שלומית פרל הוא תוספת ישראלית מודרנית הקרויה על שם התורמת שלה ולא על שם מרכיביה. גרסה צמחית זו מחליפה את המיונז הרגיל בחלופה טבעונית תוך שמירה על פרופיל הטעמים המתוק-מלוח של הסויה. הוא משתלב נהדר עם סלט כרוב ושבבי תירס פריכים לטעם נוסטלגי.",
-    "es": "El aderezo de Shlomit Perl es un condimento israelí moderno que lleva el nombre de quien lo contribuyó en lugar de sus ingredientes. Esta versión vegetal cambia la mayonesa de huevo por una alternativa vegana, manteniendo el perfil dulce y salado de la soja. Combina perfectamente con ensalada de repollo y snacks de maíz crujientes para un sabor nostálgico.",
-    "ar": "صوص شلوميت بيرل هي إضافة إسرائيلية عصرية مسمية على اسم مولاتها مش على مكوناتها. هالوصفة نباتية وبدلنا المايونيز بالعظم بمايونيز نباتي وحافظنا على الطعم الحلو والمالح متاع الصوجا. تجي بنينة برشا مع سلطة الكرنب وحاجات تتقرمش من فوق كيف الشيبس.",
-    "en": "Shlomit Perl’s Dressing is a modern Israeli condiment named after its contributor rather than its ingredients. This plant-based version swaps egg mayonnaise for a vegan alternative while keeping the sweet and savory soy profile. It pairs perfectly with shredded cabbage and crunchy corn snacks for a nostalgic flavor."
+    "he": "רוטב שלומית פרל הוא תוספת ישראלית מודרנית הקרויה על שם התורמת שלה ולא על שם מרכיביה. גרסה צמחית זו מחליפה את המיונז הרגיל בחלופה טבעונית תוך שמירה על פרופיל הטעמים המתוק והמלוח של הסויה. הרוטב משתלב נהדר עם כרוב קצוץ וחטיפי תירס פריכים לטעם נוסטלגי.",
+    "es": "El aderezo de Shlomit Perl es un condimento israelí moderno que lleva el nombre de su creadora en lugar de sus ingredientes. Esta versión vegetal sustituye la mayonesa de huevo por una alternativa vegana, manteniendo el perfil dulce y salado de la soja. Combina perfectamente con repollo rallado y snacks de maíz crujientes para un sabor nostálgico.",
+    "ar": "صوص شلوميت بيرل هي إضافة إسرائيلية عصرية مسمية على اسم مولاتها موش على مكوناتها. هالوصفة نباتية وتبدل المايونيز العادي بواحد نباتي وتحافظ على طعمة الصوجا الحلوة والمالحة. تجي بنينة برشة مع سلطة كرنب مقصوص وجويجات مقرمشة متاع ذرة باش تعطي طعمة زمنية.",
+    "en": "Shlomit Perl's Dressing is a modern Israeli condiment named after its contributor rather than its ingredients. This plant-based version swaps egg mayonnaise for a vegan alternative while keeping the sweet and savory soy profile. It pairs perfectly with shredded cabbage and crunchy corn snacks for a nostalgic flavor."
   },
   "ingredients": {
     "he": [
@@ -50,7 +50,7 @@
       "مغرفة عصير قارص",
       "3 مغارف سكر",
       "مغرفة صوص صوجا",
-      "سن ثوم، مرحي",
+      "سنة ثوم، مرحية",
       "ملح حسب الذوق"
     ],
     "en": [
@@ -68,26 +68,26 @@
   "steps": {
     "he": [
       "שמים בבלנדר את השמן, המים, המיונז, החרדל, מיץ הלימון, הסוכר, רוטב הסויה והשום הכתוש.",
-      "מערבלים עד שהתערובת חלקה לחלוטין ואחידה.",
-      "טועמים ומתקנים תיבול לפי הצורך. מומלץ להכפיל או לשלש את הכמויות כי הרוטב נשמר היטב במקרר.",
-      "מגישים מעל סלט. מומלץ להגיש עם סלט כרוב ירוק וסגול ובצל ירוק, ולפזר מעל חטיפי תירס פריכים כמו אפרופו או דוריטוס לפני ההגשה."
+      "מערבלים עד שהתערובת חלקה לחלוטין ואחידה (אמולסיה).",
+      "טועמים ומתקנים תיבול עם מלח לפי הצורך. טיפ: מומלץ להכפיל או לשלש את הכמויות כיוון שהרוטב נשמר היטב במקרר לאורך זמן.",
+      "מגישים מעל הסלט. המלצת הגשה: להשתמש בסלט כרוב ירוק, כרוב סגול ובצל ירוק. לפזר מעל חטיפים פריכים כמו אפרופו, דוריטוס או שקדים קלויים ממש לפני ההגשה."
     ],
     "es": [
       "Coloque el aceite, el agua, la mayonesa, la mostaza, el jugo de limón, el azúcar, la salsa de soja y el ajo machacado en una licuadora.",
       "Licúe hasta que la mezcla esté completamente suave y emulsionada.",
-      "Pruebe y ajuste la sal según sea necesario. Se recomienda duplicar o triplicar las cantidades ya que se conserva bien en el refrigerador.",
-      "Sirva sobre la ensalada. Se recomienda usar con una ensalada de repollo verde y morado con cebolla verde, y cubrir con snacks crujientes como Apropo o Doritos justo antes de servir."
+      "Pruebe y ajuste la sal u otros condimentos según sea necesario. Consejo: Se recomienda duplicar o triplicar las cantidades ya que se conserva bien en el refrigerador por mucho tiempo.",
+      "Sirva sobre la ensalada. Sugerencia de presentación: Úselo con una ensalada de repollo verde, repollo morado y cebollas verdes. Cubra con elementos crujientes como Apropo (conos de maíz), Doritos o almendras tostadas justo antes de servir."
     ],
     "ar": [
-      "حط الزيت، والماء، والمايونيز، والموتارد، وعصير القارص، والسكر، وصوص الصوجا، والثوم المرحي في الخلاط.",
-      "ارحيهم مليح لين الخليط يولي أرطب ومتجانس.",
-      "ذوق وزيد الملح حسب الذوق. ننصحك تضاعف الكمية خاطر الصوص تصبر برشا في الفريجيدير.",
-      "صبها فوق السلطة. ننصحك تخلطها مع سلطة كرنب أخضر وأحمر وبصل أخضر، وترش عليها من فوق أبروبو ولا دوريتوس ولا لوز مقلي قبل ما تاكل."
+      "حط الزيت والماء والمايونيز والموتارد وعصير القارص والسكر وصوص الصوجا والثوم المرحي في الخلاط.",
+      "ارحيهم مليح لين يولي الخليط أرطب ومتجانس.",
+      "ذوق وزيد الملح كان لازم. نصيحة: ننصحوك تضاعف الكمية خاطر يصبر برشة في الفريجيدير.",
+      "صب فوق السلطة. ننصحوك تخلطو مع سلطة كرنب أخضر وكرنب أحمر وبصل أخضر. حط من فوق حاجات تتقرمش كيف الأبروبو ولا دوريتوس ولا لوز محمر قبل ما تقدمو ديركت."
     ],
     "en": [
       "Place the oil, water, mayonnaise, mustard, lemon juice, sugar, soy sauce, and crushed garlic into a blender.",
       "Blend until the mixture is completely smooth and emulsified.",
-      "Taste and adjust salt or other seasonings as needed. The recipe author recommends doubling or tripling the quantities as it keeps well in the refrigerator for a long time.",
+      "Taste and adjust salt or other seasonings as needed. Tip: The recipe author recommends doubling or tripling the quantities as it keeps well in the refrigerator for a long time.",
       "Serve over salad. Recommended serving: Use with a salad of green cabbage, purple cabbage, and green onions. Top with crunchy items like Apropo (corn bugles), Doritos, or roasted almonds just before serving."
     ]
   }

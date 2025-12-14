@@ -1,10 +1,10 @@
 {
   "summary": {
     "total_recipes": 81,
-    "total_images": 86,
-    "matched": 71,
-    "recipes_without_images": 10,
-    "unused_images": 21
+    "total_images": 100,
+    "matched": 81,
+    "recipes_without_images": 0,
+    "unused_images": 25
   },
   "matches": [
     {
@@ -31,6 +31,11 @@
       "recipe": "artichokemushroomsstew",
       "image": "004_artichoke_mushroom_stew",
       "method": "manual"
+    },
+    {
+      "recipe": "bakedpotatolevivot",
+      "image": "107_baked_potato_levivot",
+      "method": "current_path"
     },
     {
       "recipe": "banana_cake",
@@ -83,6 +88,11 @@
       "method": "current_path"
     },
     {
+      "recipe": "burekasthreeways",
+      "image": "095_burekas_three_ways",
+      "method": "current_path"
+    },
+    {
       "recipe": "charoset",
       "image": "017_charoset",
       "method": "current_path"
@@ -123,6 +133,11 @@
       "method": "current_path"
     },
     {
+      "recipe": "ciceritos",
+      "image": "098_ciceritos",
+      "method": "current_path"
+    },
+    {
       "recipe": "cujada",
       "image": "028_cujada",
       "method": "current_path"
@@ -158,6 +173,11 @@
       "method": "manual"
     },
     {
+      "recipe": "greenpeasoup",
+      "image": "099_green_pea_soup",
+      "method": "current_path"
+    },
+    {
       "recipe": "homemade_couscous",
       "image": "026_couscous",
       "method": "current_path"
@@ -190,6 +210,11 @@
     {
       "recipe": "kouklotsemolinadumplings",
       "image": "048_kuklot",
+      "method": "current_path"
+    },
+    {
+      "recipe": "lentechalentilstew",
+      "image": "100_lentecha_lentil_stew",
       "method": "current_path"
     },
     {
@@ -258,6 +283,11 @@
       "method": "current_path"
     },
     {
+      "recipe": "potachewhitebean_stew",
+      "image": "101_potache_white_bean_stew",
+      "method": "current_path"
+    },
+    {
       "recipe": "redstewedolives",
       "image": "057_marqa_zeitoun",
       "method": "manual"
@@ -303,6 +333,11 @@
       "method": "manual"
     },
     {
+      "recipe": "shlomittomatosalad",
+      "image": "102_shlomit_tomato_salad",
+      "method": "current_path"
+    },
+    {
       "recipe": "shmid",
       "image": "083_shmid",
       "method": "current_path"
@@ -315,6 +350,11 @@
     {
       "recipe": "soy_shawarma",
       "image": "080_shawarma",
+      "method": "current_path"
+    },
+    {
+      "recipe": "spice_mixes",
+      "image": "103_spice_mixes",
       "method": "current_path"
     },
     {
@@ -338,9 +378,19 @@
       "method": "current_path"
     },
     {
+      "recipe": "umami_mushrooms",
+      "image": "104_umami_mushrooms",
+      "method": "current_path"
+    },
+    {
       "recipe": "vegancaesardressing",
       "image": "015_caesar_dressing",
       "method": "partial"
+    },
+    {
+      "recipe": "veganeggsalad",
+      "image": "105_vegan_egg_salad",
+      "method": "current_path"
     },
     {
       "recipe": "veganfishchraime",
@@ -363,58 +413,7 @@
       "method": "current_path"
     }
   ],
-  "unmatched_recipes": [
-    {
-      "file": "bakedpotatolevivot",
-      "name_en": "Baked Potato Levivot (Ma'akouda)",
-      "name_he": "לביבות תפו\"א"
-    },
-    {
-      "file": "burekasthreeways",
-      "name_en": "Burekas Three Ways",
-      "name_he": "בורקס בשלוש גרסאות"
-    },
-    {
-      "file": "ciceritos",
-      "name_en": "Ciceritos (Chickpea Stew)",
-      "name_he": "ציצריטוס"
-    },
-    {
-      "file": "greenpeasoup",
-      "name_en": "Green Pea Soup",
-      "name_he": "מרק אפונה ירוקה"
-    },
-    {
-      "file": "lentechalentilstew",
-      "name_en": "Lentecha (Lentil Stew)",
-      "name_he": "לנטכה"
-    },
-    {
-      "file": "potachewhitebean_stew",
-      "name_en": "Potache (White Bean Stew)",
-      "name_he": "פוטאצ'ה (נזיד שעועית לבנה)"
-    },
-    {
-      "file": "shlomittomatosalad",
-      "name_en": "Yerachmiel's Shlomit's Tomato Salad",
-      "name_he": "סלט העגבניות של שלומית"
-    },
-    {
-      "file": "spice_mixes",
-      "name_en": "Spice Mixes (Pizza, Fries, Egg)",
-      "name_he": "תערובות תבלינים (פיצה, צ'יפס, ביצה)"
-    },
-    {
-      "file": "umami_mushrooms",
-      "name_en": "Umami Mushrooms",
-      "name_he": "פטריות אומאמי"
-    },
-    {
-      "file": "veganeggsalad",
-      "name_en": "Vegan Egg Salad",
-      "name_he": "סלט ביצים טבעוני"
-    }
-  ],
+  "unmatched_recipes": [],
   "unused_images": [
     "005_bolo_banan",
     "013_bsisa",
@@ -436,6 +435,10 @@
     "069_pastel",
     "071_peanut_chocolate_bars",
     "073_bkila",
-    "076_assida"
+    "076_assida",
+    "101_spice_mixes",
+    "102_umami_mushrooms",
+    "103_vegan_egg_salad",
+    "106_baked_potato_levivot"
   ]
 }

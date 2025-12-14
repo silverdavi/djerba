@@ -4,7 +4,7 @@
   "source_file": "data/safed_recipes/pancakes_soly.json",
   "name": "Soly's Pancakes",
   "name_hebrew": "פנקייק סולי",
-  "name_origin": "The name is a modern construct found in Israeli/Diaspora Jewish culture rather than a traditional North African dialect. It combines the English loanword 'Pancake' (transliterated phonetically into Hebrew as פנקייק) with the possessive nickname 'Soly'. 'Soly' is a common affectionate diminutive for the name Solomon (Shlomo) among North African (Sephardic/Mizrahi) Jews. The use of the English loanword instead of traditional Tunisian terms like 'Ghraif' or 'Baghrir' indicates this is a Western recipe adopted by the family and adapted to be Kosher Parve, rather than an indigenous Djerban dish.",
+  "name_origin": "The name is a modern construct combining the English loanword 'Pancake' with the name 'Soly'. Soly is a woman's name from Tangier, derived from the Spanish 'Sol' (sun). This is a Western recipe adopted by the family and adapted to be Kosher Parve, rather than an indigenous North African dish.",
   "description": "A simple, dairy-free pancake recipe. By using water and oil instead of milk and butter, these pancakes are 'Parve' (kosher neutral), making them suitable to serve after a meat meal or for those avoiding dairy.",
   "cultural_context": "The use of 'bags' for baking powder and vanilla sugar indicates an Israeli influence on the family cooking, where these ingredients are sold in standard 10g packets.",
   "is_vegan": true,
@@ -308,8 +308,8 @@
   "related_recipes": [],
   "name_etymology": {
     "language_source": "hebrew",
-    "root_word": "English 'Pancake' + Name 'Solomon'",
-    "meaning": "Pancakes made by or associated with Soly (Solomon)",
+    "root_word": "English 'Pancake' + Name 'Soly' (Spanish Sol)",
+    "meaning": "Pancakes made by Soly, a woman from Tangier",
     "confidence": "confirmed",
     "notes": "Linguistic analysis of the Hebrew text (פנקייק) confirms it is a modern loanword. Traditional Djerban cuisine would use Judeo-Arabic terms if the dish were pre-colonial/indigenous."
   },
@@ -345,7 +345,7 @@
       "key_difference": "Standard American pancakes use milk and butter; Soly's version substitutes water and oil to remain Parve (neutral) for Kosher dietary laws."
     }
   ],
-  "intro_paragraph": "Soly’s Pancakes are named for a common North African nickname for Solomon. This vegan adaptation replaces the egg with flax to maintain the fluffy texture while keeping the dish parve. It reflects modern Israeli influence by using standard baking packets found in Diaspora kitchens for a delightful breakfast treat.",
+  "intro_paragraph": "Soly's Pancakes are named after Soly, a woman from Tangier whose name derives from the Spanish Sol meaning sun. This vegan adaptation replaces the egg with flax to maintain fluffy texture while keeping the dish parve. It reflects modern Israeli influence for a delightful breakfast treat.",
   "was_veganized": true,
   "vegan_substitutions": [
     {

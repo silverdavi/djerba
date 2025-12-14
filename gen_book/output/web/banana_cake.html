@@ -138,111 +138,60 @@ h2 {
    PAGE 1: TITLE + DESCRIPTION
    ============================================ */
 
+/* Title block - flexbox layout with chapter number in center */
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.2in;
+  width: 100%;
+}
+
+/* Each title row - two titles side by side using flexbox */
 .title-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.15in;
-  margin-bottom: 0.35in;
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  gap: 0.1in;
 }
 
-/* Title grid with centered chapter number */
-.title-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  gap: 0.1in 0.15in;
-  margin-bottom: 0.25in;
-  width: 100%;
-  position: relative;
-}
-
-/* Position titles in the grid:
-   Row 1: ES (left), HE (right)
-   Row 2: Chapter number (centered, spanning both columns)
-   Row 3: EN (left), AR (right)
-*/
-.title-grid > .title-word:nth-child(1) { grid-area: 1 / 1; }  /* ES */
-.title-grid > .title-word:nth-child(2) { grid-area: 1 / 2; }  /* HE */
-.title-grid > .chapter-number         { grid-area: 2 / 1 / 2 / 3; }  /* Centered */
-.title-grid > .title-word:nth-child(4) { grid-area: 3 / 1; }  /* EN */
-.title-grid > .title-word:nth-child(5) { grid-area: 3 / 2; }  /* AR */
-
-/* Oriental-styled chapter number */
+/* Chapter number - compact circle between rows */
 .chapter-number {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.08in 0;
-  position: relative;
+  margin: 0.04in 0;
 }
 
 .chapter-number span {
   font-family: var(--font-title);
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent);
-  position: relative;
-  padding: 0.1in 0.4in;
-  letter-spacing: 0.1em;
-}
-
-/* Decorative oriental frame around number */
-.chapter-number span::before,
-.chapter-number span::after {
-  content: "✦";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.9rem;
-  color: var(--accent-soft);
-  opacity: 0.8;
-}
-
-.chapter-number span::before {
-  left: 0;
-}
-
-.chapter-number span::after {
-  right: 0;
-}
-
-/* Decorative lines extending from the number */
-.chapter-number::before,
-.chapter-number::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(
-    to var(--direction, right),
-    var(--accent-soft) 0%,
-    transparent 100%
-  );
-  opacity: 0.6;
-  margin: 0 0.2in;
-}
-
-.chapter-number::before {
-  --direction: right;
-}
-
-.chapter-number::after {
-  --direction: left;
+  background: var(--bg-page);
+  border-radius: 50%;
+  width: 0.5in;
+  height: 0.5in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1.5px var(--accent-soft);
 }
 
 .title-word {
   font-family: var(--font-title);
   font-size: 2.6rem;
   font-weight: 700;
-  padding: 0.1in 0.15in;
+  padding: 0.08in 0.1in;
   letter-spacing: 0.03em;
   color: var(--ink);
   display: flex;
   align-items: center;
-  min-height: 0.8in;
+  min-height: 0.65in;
   position: relative;
   background: transparent;
   box-sizing: border-box;
+  flex: 1;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
                -1px -1px 0 rgba(0, 0, 0, 0.15),
                3px 3px 12px rgba(217, 146, 91, 0.2);
@@ -874,6 +823,93 @@ h2 {
   line-height: 1.6;
 }
 
+/* Table of Contents */
+.page--toc {
+  background: var(--bg-page);
+}
+
+.toc-inner {
+  padding: 0.3in 0.4in;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toc-title {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.15in;
+  color: var(--color-title);
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 0.08in;
+}
+
+.toc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.04in 0.2in;
+  page-break-inside: avoid;
+}
+
+.toc-list > .toc-item {
+  width: calc(50% - 0.15in);
+}
+
+.toc-item {
+  display: flex;
+  gap: 0.05in;
+  align-items: start;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  padding: 0.02in 0;
+  border-bottom: 0.5px dotted var(--color-muted);
+  padding-bottom: 0.03in;
+}
+
+.toc-num {
+  font-family: var(--font-title);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-align: right;
+  font-size: 0.72rem;
+}
+
+.toc-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.12in;
+}
+
+.toc-name {
+  color: var(--color-text);
+}
+
+.toc-name-en {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+.toc-name-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  color: var(--color-muted);
+}
+
+.toc-name-es {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.toc-name-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  color: var(--color-muted);
+  font-size: 0.58rem;
+}
+
 /* Blank Page */
 .page--blank {
   background: var(--bg-page);
@@ -890,24 +926,28 @@ h2 {
   <section class="page">
     <div class="page-inner">
 
-      <div class="title-grid">
-        <div class="title-word lang-es title-small"><span>Pastel de Plátano</span></div>
-        <div class="title-word lang-he title-small"><span>עוגת בננות</span></div>
+      <div class="title-block">
+        <div class="title-row">
+          <div class="title-word lang-es title-small"><span>Pastel de Banana</span></div>
+          <div class="title-word lang-he title-small"><span>עוגת בננות</span></div>
+        </div>
         <div class="chapter-number"><span>7</span></div>
-        <div class="title-word lang-en title-medium"><span>Banana Cake</span></div>
-        <div class="title-word lang-ar title-small"><span>كيكة الموز</span></div>
+        <div class="title-row">
+          <div class="title-word lang-en title-medium"><span>Banana Cake</span></div>
+          <div class="title-word lang-ar title-small"><span>كيكة البنان</span></div>
+        </div>
       </div>
 
       <div class="section">
         <div class="info-grid">
           <div class="info-item lang-he">
-            <p>עוגת בננות משלבת את המונח המקראי עוגה עם מילה בינלאומית. גרסה טבעונית זו מחליפה מוצרי חלב ברוויון צמחי כדי להבטיח מרקם אוורירי. כשינוי מודרני מהמטבח היהודי-ערבי העתיק, היא נותרה נכס אהוב בבתים יהודיים לארוחת בוקר של שבת או לתה של אחר הצהריים.</p>
+            <p>עוגת בננות משלבת את המילה המקראית &#x27;עוגה&#x27; עם מילה בינלאומית שאולה. גרסה טבעונית זו מחליפה מוצרי חלב מסורתיים ברויון צמחי כדי להבטיח מרקם אוורירי. למרות שזו תוספת מודרנית למטבח היהודי-ערבי העתיק, היא נותרה מנה אהובה בבתים יהודיים לארוחת בוקר של שבת או לתה של אחר הצהריים.</p>
           </div>
           <div class="info-item lang-es">
-            <p>Ugat Bananot combina el término bíblico para redondo, uga, con un préstamo lingüístico global. Esta adaptación vegana reemplaza los lácteos tradicionales con suero de leche vegetal para asegurar una miga ligera. Una desviación moderna de la antigua cocina judeo-árabe, sigue siendo un estándar apreciado en los hogares judíos para el desayuno de Shabat o el té de la tarde.</p>
+            <p>Ugat Bananot combina el término bíblico para redondo, uga, con un préstamo lingüístico global. Esta adaptación vegana reemplaza los lácteos tradicionales con suero de leche vegetal para asegurar una miga ligera. Aunque es una desviación moderna de la antigua cocina judeo-árabe, sigue siendo un estándar apreciado en los hogares judíos para el desayuno de Shabat o el té de la tarde.</p>
           </div>
           <div class="info-item lang-ar">
-            <p>عوجات بنانوت (Ugat Bananot) تجمع بين الكلمة التوراتية عوجا واسم عالمي. هالوصفة النباتية تبدل الحليب العادي باللبن النباتي باش تجي الكيكة خفيفة وهشوشة. هي حاجة جديدة مقارنة بالماكلة اليهودية العربية القديمة، أما ولات أساسية ومحبوبة في ديار اليهود لفطور الصباح نهار السبت ولا مع التاي في العشية.</p>
+            <p>هذي كيكة البنان، واسمها بالعبرية Ugat Bananot يخلط كلمة قديمة مع كلمة جديدة. الوصفة هذي نباتية، بدّلنا الحليب والزبدة بحاجات نباتية باش تجي خفيفة وهشوشة. ماهيش من عاداتنا القديمة برشة، أما ولّات محبوبة في ديار اليهود لفطور الصباح نهار السبت ولا مع التاي في العشية.</p>
           </div>
           <div class="info-item lang-en">
             <p>Ugat Bananot combines the biblical term for round, uga, with a global loan word. This vegan adaptation replaces traditional dairy with plant-based buttermilk to ensure a light crumb. A modern departure from ancient Judeo-Arabic cuisine, it remains a cherished standard in Jewish households for Shabbat breakfast or afternoon tea.</p>
@@ -942,7 +982,7 @@ h2 {
   <!-- PAGE 2: FULL-BLEED IMAGE -->
   <section class="page page--image">
     <div class="page-inner">
-      <img class="hero-image" src="../images/generated/banana_cake_dish.png" alt="Banana Cake dish">
+      <img class="hero-image" src="../images/current/108_banana_cake/dish.png" alt="Banana Cake dish">
       <div class="page-num">2</div>
     </div>
   </section>
@@ -952,7 +992,30 @@ h2 {
   <section class="page">
     <div class="page-inner">
       <div class="corner-decorations">
-        
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_soda.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-17deg) skewX(1deg) skewY(-3deg) scale(1.1030524752695006);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_powder.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(0deg) skewX(-3deg) skewY(-3deg) scale(0.9586831509079603);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chocolate_dark_chips.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-1deg) skewX(-2deg) skewY(3deg) scale(0.9959280438947251);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sugar_white_brown_powdered_vanilla.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(-2deg) skewX(5deg) skewY(-4deg) scale(0.9234012476260647);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bananas.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(20deg) skewX(-6deg) skewY(3deg) scale(1.0369039017840431);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/plant_based_milk_soy_almond_oat.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(13deg) skewX(0deg) skewY(-4deg) scale(1.1423589224459783);">
       </div>
       <div class="two-col">
         <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
@@ -961,13 +1024,14 @@ h2 {
             <ul class="ingredients-list">
               <li>113 g de mantequilla vegana, ablandada</li>
               <li>300 g de azúcar</li>
-              <li>14 g de harina de linaza, mezclada con 6 cucharadas de agua</li>
+              <li>14 g de linaza molida (mezclada con 6 cucharadas de agua)</li>
               <li>5 ml de extracto de vainilla</li>
               <li>5 g de bicarbonato de sodio</li>
-              <li>115 ml de leche de soja, mezclada con 1 cdta de vinagre de manzana</li>
-              <li>2 plátanos grandes, machacados</li>
+              <li>115 ml de leche de soja (mezclada con 1 cdta de vinagre de manzana)</li>
+              <li>2 bananas grandes, pisadas</li>
               <li>190 g de harina común, tamizada</li>
               <li>5 g de polvo de hornear</li>
+              <li>100 g de chispas de chocolate amargo</li>
             </ul>
           </div>
 
@@ -975,14 +1039,14 @@ h2 {
             <div class="section-label">Instrucciones</div>
             <ul class="steps-list">
               <li class="step"><span class="step-num">1.</span>Precalentar el horno a 175°C. Preparar un molde cuadrado de 23 cm engrasándolo o forrándolo.</li>
-              <li class="step"><span class="step-num">2.</span>En un bol grande, batir la mantequilla, el azúcar, la mezcla de linaza y la vainilla hasta que la mezcla esté ligera y esponjosa.</li>
-              <li class="step"><span class="step-num">3.</span>En un recipiente pequeño aparte, disolver el bicarbonato de sodio en la mezcla de leche agria.</li>
-              <li class="step"><span class="step-num">4.</span>Añadir la mezcla de leche a la masa de mantequilla y batir bien.</li>
-              <li class="step"><span class="step-num">5.</span>Tamizar juntos la harina y el polvo de hornear.</li>
-              <li class="step"><span class="step-num">6.</span>Añadir los plátanos machacados alternando con los ingredientes secos tamizados a la masa. Mezclar solo hasta que se integren; no mezclar en exceso.</li>
+              <li class="step"><span class="step-num">2.</span>En un bol grande, batir la mantequilla, el azúcar, los huevos de linaza y la vainilla hasta que la mezcla esté ligera y esponjosa.</li>
+              <li class="step"><span class="step-num">3.</span>En un recipiente pequeño separado, disolver el bicarbonato de sodio en la leche agria.</li>
+              <li class="step"><span class="step-num">4.</span>Agregar la mezcla de leche a la masa de mantequilla y batir bien.</li>
+              <li class="step"><span class="step-num">5.</span>Tamizar la harina y el polvo de hornear juntos.</li>
+              <li class="step"><span class="step-num">6.</span>Agregar las bananas pisadas alternando con los ingredientes secos tamizados a la masa. Incorporar las chispas de chocolate con movimientos envolventes. Mezclar solo hasta integrar; no batir en exceso.</li>
               <li class="step"><span class="step-num">7.</span>Verter la masa en el molde preparado.</li>
               <li class="step"><span class="step-num">8.</span>Hornear de 45 a 50 minutos, o hasta que un palillo insertado en el centro salga limpio.</li>
-              <li class="step"><span class="step-num">9.</span>Dejar enfriar. Opcionalmente cubrir con glaseado de plátano o de chocolate.</li>
+              <li class="step"><span class="step-num">9.</span>Dejar enfriar. Opcionalmente cubrir con glaseado de banana o chocolate.</li>
             </ul>
           </div>
         </div>
@@ -993,28 +1057,29 @@ h2 {
             <ul class="ingredients-list">
               <li>113 גרם חמאה טבעונית, רכה</li>
               <li>300 גרם סוכר</li>
-              <li>14 גרם פשתן טחון, מעורבב עם 6 כפות מים</li>
+              <li>14 גרם פשתן טחון (מעורבב עם 6 כפות מים)</li>
               <li>5 מ&quot;ל תמצית וניל</li>
               <li>5 גרם סודה לשתייה</li>
-              <li>115 מ&quot;ל חלב סויה, מעורבב עם כפית חומץ תפוחים</li>
+              <li>115 מ&quot;ל חלב סויה (מעורבב עם כפית חומץ תפוחים)</li>
               <li>2 בננות גדולות, מעוכות</li>
-              <li>190 גרם קמח לבן, מנופה</li>
+              <li>190 גרם קמח רגיל, מנופה</li>
               <li>5 גרם אבקת אפייה</li>
+              <li>100 גרם שוקולד צ&#x27;יפס מריר</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">הוראות הכנה</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>מחממים תנור ל-175 מעלות צלזיוס. משמנים או מרפדים תבנית אפייה מרובעת בגודל 23 ס&quot;מ.</li>
-              <li class="step"><span class="step-num">2.</span>בקערה גדולה, מקציפים את החמאה, הסוכר, תערובת הפשתן והווניל עד שהתערובת בהירה ואוורירית.</li>
-              <li class="step"><span class="step-num">3.</span>בכלי נפרד קטן, ממיסים את הסודה לשתייה בתוך תערובת החלב החמוץ.</li>
-              <li class="step"><span class="step-num">4.</span>מוסיפים את תערובת החלב לבלילת החמאה ומערבבים היטב.</li>
-              <li class="step"><span class="step-num">5.</span>מנפים יחד את הקמח ואבקת האפייה.</li>
-              <li class="step"><span class="step-num">6.</span>מוסיפים את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים לבלילה. מערבבים רק עד לאיחוד; אין לערבב יתר על המידה.</li>
-              <li class="step"><span class="step-num">7.</span>יוצקים את הבלילה לתבנית האפייה המוכנה.</li>
-              <li class="step"><span class="step-num">8.</span>אופים במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.</li>
-              <li class="step"><span class="step-num">9.</span>מניחים להתקרר. אפשר לצפות בציפוי בננה או ציפוי שוקולד.</li>
+              <li class="step"><span class="step-num">1.</span>לחמם תנור ל-175 מעלות. לשמן או לרפד תבנית אפייה מרובעת בגודל 23 ס&quot;מ.</li>
+              <li class="step"><span class="step-num">2.</span>בקערה גדולה, להקציף את החמאה, הסוכר, תחליף הביצים (פשתן) והווניל עד שהתערובת בהירה ואוורירית.</li>
+              <li class="step"><span class="step-num">3.</span>בכלי קטן נפרד, להמיס את הסודה לשתייה בתוך החלב החמוץ (חלב סויה עם חומץ).</li>
+              <li class="step"><span class="step-num">4.</span>להוסיף את תערובת החלב לבלילת החמאה ולערבב היטב.</li>
+              <li class="step"><span class="step-num">5.</span>לנפות יחד את הקמח ואבקת האפייה.</li>
+              <li class="step"><span class="step-num">6.</span>להוסיף את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים לבלילה. לקפל פנימה את השוקולד צ&#x27;יפס. לערבב רק עד לאיחוד; לא לערבב יותר מדי.</li>
+              <li class="step"><span class="step-num">7.</span>ליצוק את הבלילה לתבנית האפייה המוכנה.</li>
+              <li class="step"><span class="step-num">8.</span>לאפות במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.</li>
+              <li class="step"><span class="step-num">9.</span>להניח לעוגה להצטנן. אפשר לצפות בציפוי בננה או שוקולד.</li>
             </ul>
           </div>
         </div>
@@ -1029,7 +1094,30 @@ h2 {
   <section class="page">
     <div class="page-inner">
       <div class="corner-decorations">
-        
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_soda.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-17deg) skewX(1deg) skewY(-3deg) scale(1.1030524752695006);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/baking_powder.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(0deg) skewX(-3deg) skewY(-3deg) scale(0.9586831509079603);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/chocolate_dark_chips.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-1deg) skewX(-2deg) skewY(3deg) scale(0.9959280438947251);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sugar_white_brown_powdered_vanilla.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(-2deg) skewX(5deg) skewY(-4deg) scale(0.9234012476260647);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bananas.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(20deg) skewX(-6deg) skewY(3deg) scale(1.0369039017840431);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/plant_based_milk_soy_almond_oat.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(13deg) skewX(0deg) skewY(-4deg) scale(1.1423589224459783);">
       </div>
       <div class="two-col">
         <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
@@ -1038,25 +1126,26 @@ h2 {
             <ul class="ingredients-list">
               <li>1/2 cup vegan butter, softened</li>
               <li>1 1/2 cups sugar</li>
-              <li>2 tbsp ground flaxseed, mixed with 6 tbsp water</li>
+              <li>2 tbsp ground flaxseed (mixed with 6 tbsp water)</li>
               <li>1 tsp vanilla extract</li>
               <li>1 tsp baking soda</li>
-              <li>1/2 cup soy milk, mixed with 1 tsp apple cider vinegar</li>
+              <li>1/2 cup soy milk (mixed with 1 tsp apple cider vinegar)</li>
               <li>2 large bananas, mashed</li>
               <li>1 1/2 cups all-purpose flour, sifted</li>
               <li>1 tsp baking powder</li>
+              <li>2/3 cup dark chocolate chips</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">Instructions</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>Preheat oven to 350°F (175°C). Prepare a 9-inch square baking pan by greasing or lining it.</li>
-              <li class="step"><span class="step-num">2.</span>In a large bowl, beat the butter, sugar, flax mixture, and vanilla until the mixture is light and fluffy.</li>
+              <li class="step"><span class="step-num">1.</span>Preheat oven to 175°C (350°F). Prepare a 9-inch square baking pan by greasing or lining it.</li>
+              <li class="step"><span class="step-num">2.</span>In a large bowl, beat the butter, sugar, flax eggs, and vanilla until the mixture is light and fluffy.</li>
               <li class="step"><span class="step-num">3.</span>In a separate small container, dissolve the baking soda into the sour milk mixture.</li>
               <li class="step"><span class="step-num">4.</span>Add the milk mixture to the butter batter and beat well.</li>
               <li class="step"><span class="step-num">5.</span>Sift the flour and baking powder together.</li>
-              <li class="step"><span class="step-num">6.</span>Add the mashed bananas alternately with the sifted dry ingredients to the batter. Mix just until blended; do not overmix.</li>
+              <li class="step"><span class="step-num">6.</span>Add the mashed bananas alternately with the sifted dry ingredients to the batter. Fold in the chocolate chips. Mix just until blended; do not overmix.</li>
               <li class="step"><span class="step-num">7.</span>Pour the batter into the prepared baking pan.</li>
               <li class="step"><span class="step-num">8.</span>Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.</li>
               <li class="step"><span class="step-num">9.</span>Allow to cool. Optionally ice with Banana Icing or Chocolate Icing.</li>
@@ -1068,30 +1157,31 @@ h2 {
           <div>
             <div class="section-label">المكونات</div>
             <ul class="ingredients-list">
-              <li>نصف كاس زبدة نباتية، طرية</li>
+              <li>نص كاس زبدة نباتية، طرية</li>
               <li>كاس ونص سكر</li>
-              <li>2 مغارف كتان مرحي، مخلطين مع 6 مغارف ماء</li>
+              <li>2 مغارف زريعة كتان مرحية (مخلطة مع 6 مغارف ماء)</li>
               <li>مغرفة صغيرة فانيليا</li>
               <li>مغرفة صغيرة بيكربونات</li>
-              <li>نصف كاس حليب صوجا، مخلط مع مغرفة صغيرة خل تفاح</li>
-              <li>2 كعبات موز كبار، معفوسين</li>
+              <li>نص كاس حليب صوجا (مخلط مع مغرفة صغيرة خل تفاح)</li>
+              <li>2 كعبات بنان كبار، معفوسين</li>
               <li>كاس ونص فرينة، منخولة</li>
               <li>مغرفة صغيرة خميرة ڨاطو</li>
+              <li>ثلثين كاس شوكولاتة (pépites)</li>
             </ul>
           </div>
 
           <div>
             <div class="section-label">طريقة التحضير</div>
             <ul class="steps-list">
-              <li class="step"><span class="step-num">1.</span>سخن الفور لـ 175 درجة. حضّر طبق الفور (23 سم) وادهנו بالزيت ولا حط فيه ورق طبخ.</li>
-              <li class="step"><span class="step-num">2.</span>في صحفة كبيرة، ركض الزبدة والسكر وخليط الكتان والفانيليا لين يولي الخليط خفيف ومنفخ.</li>
-              <li class="step"><span class="step-num">3.</span>في صحفة صغيرة وحدها، ذوّب البيكربونات في خليط الحليب الرايب.</li>
-              <li class="step"><span class="step-num">4.</span>زيد خليط الحليب لخليط الزبدة وركض مليح.</li>
+              <li class="step"><span class="step-num">1.</span>سخّن الكوشة (فور) على 175 درجة. حضّر طبق مربع 23 سم، ادهنو بالزيت ولا حط فيه ورق طبخ.</li>
+              <li class="step"><span class="step-num">2.</span>في صحفة كبيرة، ركّض الزبدة والسكر وعظم الكتان (الخليط اللي حضرناه) والفانيليا لين يولي الخليط خفيف.</li>
+              <li class="step"><span class="step-num">3.</span>في صحفة صغيرة وحدها، حل البيكربونات في الحليب الرايب (حليب الصوجا والخل).</li>
+              <li class="step"><span class="step-num">4.</span>زيد خليط الحليب لخليط الزبدة وركّض مليح.</li>
               <li class="step"><span class="step-num">5.</span>غربل الفرينة وخميرة الڨاطو مع بعضهم.</li>
-              <li class="step"><span class="step-num">6.</span>زيد الموز المعفوس بالتناوب مع المكونات الشايحة للخليط. خلط جيست لين يتلموا؛ ما تخلطش برشا باش الكيكة ما تجيش يابسة.</li>
-              <li class="step"><span class="step-num">7.</span>صب الخليط في طبق الفور اللي حضرته.</li>
-              <li class="step"><span class="step-num">8.</span>طيبها بين 45 و 50 دقيقة، ولا لين تدخل كردون في الوسط ويخرج شايح.</li>
-              <li class="step"><span class="step-num">9.</span>خليها تبرد. تنجم تزينها بڨلاصاج الموز ولا الشوكولاتة كان تحب.</li>
+              <li class="step"><span class="step-num">6.</span>زيد البنان المعفوس والفرينة بالشوية بالشوية للخليط. خلّط معاهم الشوكولاتة. خلّط جيست قيس ما يتلمو، ما تعجنش برشة.</li>
+              <li class="step"><span class="step-num">7.</span>صب الخليط في الطبق اللي حضرناه.</li>
+              <li class="step"><span class="step-num">8.</span>طيّبها 45 حتى 50 دقيقة، ولا لين كي تدخل فيها عود يخرج شايح.</li>
+              <li class="step"><span class="step-num">9.</span>خلّيها تبرد. تنجم تزينها بڨلاصاج بنان ولا شوكولاتة كان تحب.</li>
             </ul>
           </div>
         </div>

@@ -265,9 +265,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": "images/current/033_fricassee_stew/dish.png",
+    "filename": "images/current/113_chicken_fricassee_stew/dish.png",
     "prompt": null,
-    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with a hearty vegan Fricassee stew, set on a weathered wooden table inside an early 1900s stone kitchen in Safed. The stew features large, golden-brown chunks of seitan that resemble tender chicken, simmered alongside soft, orange carrot rounds and translucent onions. Fluffy, irregular white flour dumplings float on the surface of the rich, golden-hued vegetable broth, glistening with droplets of oil. Fresh parsley is scattered on top for color. The lighting is warm and natural, streaming from a nearby window with iron bars, illuminating the steam rising from the hot dish. In the background, blurred limestone walls and vintage copper cookware hanging on hooks suggest a traditional Old City home setting. The texture looks thick and comforting, highlighting the wholesome, plant-based adaptation of this classic diasporic comfort food, inviting the viewer to dip a spoon into the savory sauce."
+    "generation_prompt": "A close-up, high-angle shot of a rustic ceramic bowl filled with hearty vegan Fricassee stew topped with golden fried dough balls. The stew features large chunks of seitan in a rich golden sauce with soft carrot rounds and translucent onions. NO POTATOES in this dish. On top of the stew are small, round, golden-brown FRIED DOUGH BALLS (like small fritters or beignets) that have been deep-fried until crispy and puffy. The fried dough balls are the signature topping, not dumplings. The setting is an early 1900s Safed stone kitchen with warm natural lighting. Fresh parsley garnishes the dish. The limestone walls and vintage copper cookware are visible in the background."
   },
   "tags": [
     "chicken",

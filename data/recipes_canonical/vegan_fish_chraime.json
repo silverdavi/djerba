@@ -481,9 +481,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": "images/current/045_hraime/dish.png",
+    "filename": "images/current/111_vegan_fish_chraime/dish.png",
     "prompt": null,
-    "generation_prompt": "A rustic high-angle close-up captures a wide clay skillet resting on a weathered wooden table inside an early 20th-century stone kitchen in Safed. The dish features golden-seared vegan patties made from tofu and wakame, simmering in a deep crimson Chraime sauce rich with paprika and turmeric. The thick glossy sauce clings to the textured plant-based balls, interspersed with softened strips of red bell pepper and slices of garlic. Fresh vibrant chopped cilantro garnishes the top, adding a pop of green against the fiery red. To the side, a piece of torn crusty bread awaits dipping. Soft natural light streams from a nearby window, illuminating the steam rising from the hot skillet and highlighting the antique copper cookware in the blurred limestone background. The scene evokes a warm Friday afternoon atmosphere, blending traditional North African culinary heritage with modern plant-based adaptation."
+    "generation_prompt": "A rustic high-angle close-up captures a wide clay skillet resting on a weathered wooden table inside an early 20th-century stone kitchen in Safed. The dish features round balls made from crumbled firm tofu mixed with green flecks of seaweed (nori/wakame), giving them a speckled appearance. The tofu-seaweed balls are simmering in a deep crimson Chraime sauce rich with paprika and turmeric. These are clearly NOT fish but plant-based patties with visible tofu texture and green seaweed bits. Fresh vibrant chopped cilantro garnishes the top. To the side, a piece of torn crusty bread awaits dipping. Soft natural light streams from a nearby window, highlighting the antique copper cookware in the blurred limestone background."
   },
   "tags": [
     "vegan",

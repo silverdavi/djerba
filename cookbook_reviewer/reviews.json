@@ -1,0 +1,392 @@
+{
+  "adafina": {
+    "status": "needs_fix",
+    "fixes_needed": "No need the paranthesis in AR/EN/SP \"(Estofado de Shabat Marroquí)\", just Adafina \n--\nNot for \"Lunch\", it's for traditional meal in the morning of Shabbat.\n",
+    "priority": "normal"
+  },
+  "adafinawheatside_dish": {
+    "status": "needs_fix",
+    "fixes_needed": "In spansih just call it \"Trigo\", in English \"Wheat Berries\" and the name in tunisian Arabic also correct.\n--\nThere is nothing specail that makes it Vegan, not need to say \"בגרסה טבעונית זו קולים\"\n\n--\nTalk about the word Trigo and Hita, not Adafina!\n",
+    "priority": "normal"
+  },
+  "artichokemushroomsstew": {
+    "status": "needs_fix",
+    "fixes_needed": "Remove \"Gannariya\" as it is not in the original dish name. \nJust say that in our house it is a popular Shabbat dish.\n\nIt is not Djerba, this is from Enny's side.. Tanjir...",
+    "priority": "normal"
+  },
+  "bakedpotatolevivot": {
+    "status": "needs_fix",
+    "fixes_needed": "It's not Ma'akouda\n\nAnd the chickpea flour is not needed. Instead of tallking anbout Ma'akouda, say that is AKA Latkes (comes from Yiddish, originating from East Slavic words like Ukrainian oladka or Russian latka, meaning \"small fried pancake\" or \"patch,\")",
+    "priority": "normal"
+  },
+  "banana_cake": {
+    "status": "needs_fix",
+    "fixes_needed": "The vegan version is not with ריוויון but simple apple sauce, why did you lie. No need to ecplain in the title what \"cake\" or עוגה is! if there is no etymology to discuss, just skip.",
+    "priority": "normal"
+  },
+  "biscoti_judy": {
+    "status": "needs_fix",
+    "fixes_needed": "Just say that Judy is a name of friend that gave us the recipe...",
+    "priority": "normal"
+  },
+  "chickenfricasseestew": {
+    "status": "needs_fix",
+    "fixes_needed": "We need to remove potatoes from the soup...",
+    "priority": "normal"
+  },
+  "adamshusha": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "apple_crumble": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "banatagestuffedpotato_croquettes": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "binasthicksourspicysoup": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "bkailatunisianstew": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "bread": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "brikot": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "brodochickensoup": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "bshisha_bsisa": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "burekasthreeways": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "charoset": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "chocolate_balls": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "chocolate_cake": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "chocolatepeanutbuddy_bars": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "chocolatepeanutbutter_muffins": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "cholent": {
+    "status": "needs_fix",
+    "fixes_needed": "Add that this is the eastern european version to the Adafina morrocan and Tfina tunisian. Cholant comes from French chalant.",
+    "priority": "normal"
+  },
+  "chraimespicyfish_stew": {
+    "status": "needs_fix",
+    "fixes_needed": "in the recipe itself, Explain that the seaweed is to be put on the tofu to look and smell like fish.",
+    "priority": "normal"
+  },
+  "ciceritos": {
+    "status": "needs_fix",
+    "fixes_needed": "The image is bad the recipe wrong. Chicharos are peas! Chicharitos are grean peas... \n\n\nמטגנים בצל\nמוסיפים:כרכום, פלפל לבן, מרק עוף ומלח\nמוסיפים את הציצריטוס ומים ומבשלים.\nכשמטגנים את הבצל אפשר לטגן ועדיף יותר נכון גם סלרי כי זה נותן לזה יותר טעם טוב.",
+    "priority": "high"
+  },
+  "cujada": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "dabikh_hagim": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "dwida": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "french_toast": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "fricassee_rolls": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "granola_cookies": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "greenbeanstomato_sauce": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "greenpeasoup": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "homemade_couscous": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "honeycakelior_benmosheh": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "honeycakemami": {
+    "status": "ok",
+    "fixes_needed": "מאמי\nis for the name for mom in english! It's just Mom's honey cake (Enny's mom)",
+    "priority": "normal"
+  },
+  "hotfudgepudding_cake": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "humus_salad": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "kataa_soup": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "kouklotsemolinadumplings": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "lentechalentilstew": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "maakouda": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "mahshistuffedvegetables": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "marmouma": {
+    "status": "needs_fix",
+    "fixes_needed": "The recipe should not have sweet red peppers, only long hot peppers and tomatoes, garlic, paprika, olive oil and kosher salt!",
+    "priority": "normal"
+  },
+  "mhamsa": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "mochajavacake": {
+    "status": "needs_fix",
+    "fixes_needed": "Mocha–Java\nYemeni (Mocha)  Indonesian (Java) just add the geography",
+    "priority": "normal"
+  },
+  "msiyar": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "nazhaherbomelet": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "nougatandpeanutcakemor_abergil": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "originaltollhousechocolatechip_cookies": {
+    "status": "needs_fix",
+    "fixes_needed": "remkove the \"מתכון מקורי״ not sure what it means",
+    "priority": "normal"
+  },
+  "pancakes_soly": {
+    "status": "needs_fix",
+    "fixes_needed": "Soly is Enny's sister. Sol.",
+    "priority": "normal"
+  },
+  "pancakesefratshachor": {
+    "status": "needs_fix",
+    "fixes_needed": "Call it אפרת, no surname... No need to say that is ad addition to the djerban kitchen. just a faviourite breaksfasdt...",
+    "priority": "normal"
+  },
+  "pizza": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "potachewhitebean_stew": {
+    "status": "ok",
+    "fixes_needed": "The name is \nפוטאכס\n\n Potaje de Garbanzos (Spanish Chickpea Stew)",
+    "priority": "normal"
+  },
+  "redstewedolives": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "schnitzel": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "semolina_porridge": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "sfenj": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "sfingh": {
+    "status": "needs_fix",
+    "fixes_needed": "Add that it's almost the same as the other שפינז, but the recipes followed us through differents sides of our family with differentt pronounciation and minor differences that we kept both!",
+    "priority": "normal"
+  },
+  "shakshukacaramelizedonion_sausage": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "shepherdpienorth_african": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "shlomitperldressing": {
+    "status": "needs_fix",
+    "fixes_needed": "Delete the surename פרל for privacy.",
+    "priority": "normal"
+  },
+  "shlomittomatosalad": {
+    "status": "needs_fix",
+    "fixes_needed": "שלומתית היא חברה של המשפחה לא בת משפחה\n\nיְרַחְמִיאֵל הוא בן 11 לא עבור דרכו, הוא פשוט אוהב את זה.",
+    "priority": "normal"
+  },
+  "shmid": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "sourdoughbread_soly": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "soy_shawarma": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "spice_mixes": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "sufganiyot": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "tbikha_tomatem": {
+    "status": "needs_fix",
+    "fixes_needed": "תטמטם זה בעברית תוניסאית\nשל עגבניות",
+    "priority": "normal"
+  },
+  "tfina_stew": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "tirshipumpkinsalad": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "umami_mushrooms": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "vegancaesardressing": {
+    "status": "needs_fix",
+    "fixes_needed": "NEed to add croutons to the recipe...",
+    "priority": "normal"
+  },
+  "veganeggsalad": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "veganfishchraime": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "vegetablesoupfor_couscous": {
+    "status": "needs_fix",
+    "fixes_needed": " I don't know what is teklia תקליה\nremove it",
+    "priority": "normal"
+  },
+  "yellow_meat": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  },
+  "yoyotunisiandoughnuts": {
+    "status": "ok",
+    "fixes_needed": "",
+    "priority": "normal"
+  }
+}

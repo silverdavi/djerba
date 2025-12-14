@@ -292,9 +292,9 @@
   ],
   "variants": null,
   "image": {
-    "filename": "images/current/070_chocolate_peanut_bars/dish.png",
+    "filename": "images/current/110_chocolate_peanut_buddy_bars/dish.png",
     "prompt": null,
-    "generation_prompt": "A rustic close-up shot of vegan Chocolate Peanut Buddy Bars arranged on an antique ceramic platter inside a sunlit 1900s Safed stone kitchen. The bars feature a dense golden-brown peanut butter blondie base studded with dark chocolate chunks, topped with a smooth glossy layer of melted dairy-free chocolate. One bar is slightly crumbled to reveal a moist chewy texture. The scene includes a vintage glass jar of peanut butter and a small bowl of flaxseeds in the background. Soft natural light streams through an arched window, illuminating the rough limestone walls and wooden table surface, highlighting the rich contrast between the golden dough and dark chocolate."
+    "generation_prompt": "A rustic close-up shot of vegan Chocolate Peanut Buddy Bars sliced to reveal their distinct layered structure. The bars show three clear horizontal layers: a bottom layer of golden peanut butter crispy base, a thick middle layer of creamy peanut butter filling, and a top layer of smooth glossy dark chocolate coating. The layers are clearly visible in the cross-section cut. The bars are arranged on an antique ceramic platter inside a sunlit 1900s Safed stone kitchen. Soft natural light streams through an arched window, illuminating the rough limestone walls and highlighting the rich contrast between the golden peanut butter layers and dark chocolate top."
   },
   "tags": [
     "dessert",
