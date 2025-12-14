@@ -1,5 +1,6 @@
 % Silver Cooks - Book Cover
-% Clean design with properly sized text boxes
+% Dimensions: 8" x 8" pages, 0.98" spine, 0.125" bleed
+% Total: 17.23" x 8.25"
 
 \documentclass[tikz]{standalone}
 \usepackage{fontspec}
@@ -47,13 +48,14 @@
 \begin{document}
 \begin{tikzpicture}[x=1in, y=1in]
 
-% === BACKGROUND IMAGE (no overlay - vibrant) ===
+% === BACKGROUND IMAGE ===
+% Total: 8" + 0.98" + 8" = 16.98" + 0.25" bleed = 17.23" x 8.25"
 \node[anchor=south west, inner sep=0pt] at (0,0) {
-  \includegraphics[width=16.95in, height=8.25in]{background.png}
+  \includegraphics[width=17.23in, height=8.25in]{background.png}
 };
 
 % ========================================
-% BACK COVER (center at x=4.125)
+% BACK COVER (0.125" to 8.125", center at 4.125")
 % ========================================
 
 % Title box
@@ -85,33 +87,34 @@
 };
 
 % ========================================
-% SPINE (8.125 to 8.825)
+% SPINE (8.125" to 9.105" = 0.98" wide)
+% Center at 8.615"
 % ========================================
-\fill[accent] (8.125, 0) rectangle (8.825, 8.25);
+\fill[accent] (8.125, 0) rectangle (9.105, 8.25);
 
-\node[rotate=90, text=bgpage] at (8.475, 5.8) {
-  \titlefont\fontsize{13pt}{13pt}\selectfont\bfseries
+\node[rotate=90, text=bgpage] at (8.615, 5.8) {
+  \titlefont\fontsize{14pt}{14pt}\selectfont\bfseries
   Oriented Kitchen
 };
-\node[rotate=90, text=bgpage] at (8.475, 4.3) {
-  \fontsize{12pt}{12pt}\selectfont
+\node[rotate=90, text=bgpage] at (8.615, 4.2) {
+  \fontsize{13pt}{13pt}\selectfont
   \heb{מטבח מצפון}
 };
-\node[rotate=90, text=bgpage] at (8.475, 2.7) {
-  \fontsize{10pt}{10pt}\selectfont
+\node[rotate=90, text=bgpage] at (8.615, 2.5) {
+  \fontsize{11pt}{11pt}\selectfont
   David \& Enny Silver
 };
-\node[rotate=90, text=bgpage] at (8.475, 1.0) {
+\node[rotate=90, text=bgpage] at (8.615, 0.9) {
   \fontsize{9pt}{9pt}\selectfont
   2026
 };
 
 % ========================================
-% FRONT COVER (center at x=12.89)
+% FRONT COVER (9.105" to 17.105", center at 13.105")
 % ========================================
 
 % Main title box
-\node[textbox, align=center] at (12.89, 5.8) {
+\node[textbox, align=center] at (13.105, 5.8) {
   \fontsize{30pt}{42pt}\selectfont
   {\titlefont Oriented Kitchen} \quad \heb{מטבח מצפון}\\[8pt]
   {\spanishfont\fontsize{18pt}{18pt}\selectfont\itshape Cocina con Conciencia} \quad 
@@ -119,7 +122,7 @@
 };
 
 % Subtitles box
-\node[textbox, align=center, text=muted] at (12.89, 4.0) {
+\node[textbox, align=center, text=muted] at (13.105, 4.0) {
   \fontsize{11pt}{17pt}\selectfont
   Plant-Based Recipes from Djerba \& Tangier\\[3pt]
   {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[3pt]
@@ -128,7 +131,7 @@
 };
 
 % Family box
-\node[textbox, align=center] at (12.89, 2.2) {
+\node[textbox, align=center] at (13.105, 2.2) {
   \fontsize{11pt}{17pt}\selectfont
   \textbf{Cohen-Trabelsi} · \heb{כהן-טרבלסי}\\[-2pt]
   {\color{muted}\fontsize{9pt}{9pt}\selectfont Djerba, Tunisia}\\[6pt]
@@ -137,7 +140,7 @@
 };
 
 % Authors
-\node[accentbox] at (12.89, 0.7) {
+\node[accentbox] at (13.105, 0.7) {
   \titlefont\fontsize{16pt}{16pt}\selectfont
   David \& Enny Silver
 };
