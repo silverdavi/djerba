@@ -542,7 +542,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
           <p><strong>For Meat & Poultry:</strong></p>
           <p><em>TVP (Textured Vegetable Protein)</em> — Soak in hot broth. Works for any chicken or meat dish in any size pieces.</p>
           <p><em>Seitan</em> — Wheat gluten with a chewy, meaty texture. Best for stews and roasts.</p>
-          <p><em>Mushrooms</em> — Lion's mane for chicken thighs, king oyster for scallops, maitake for pulled meat. Mycelium-based products for liver.</p>
+          <p><em>Mushrooms</em> — Lion's mane for chicken thighs, king oyster for steaks, maitake for pulled meat. Mycelium-based products for liver.</p>
           
           <p><strong>For Fish:</strong></p>
           <p><em>Tofu + seaweed</em> — Crumbled tofu with nori or wakame for fish-like appearance and ocean flavor.</p>
@@ -558,7 +558,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
           <p><strong>תחליפי בשר ועוף:</strong></p>
           <p><em>TVP (חלבון סויה מרקם)</em> — להשרות במרק חם. מתאים לכל מנת עוף או בשר בכל גודל חתיכות.</p>
           <p><em>סייטן</em> — גלוטן חיטה עם מרקם לעיס ובשרי. הכי טוב לתבשילים וצלי.</p>
-          <p><em>פטריות</em> — ראש אריה לירכי עוף, מלך צדפות לסקאלופ, מאיטאקה לבשר קרוע. מוצרי מיצליום לכבד.</p>
+          <p><em>פטריות</em> — ראש אריה לירכי עוף, מלך צדפות לסטייקים, מאיטאקה לבשר קרוע. מוצרי מיצליום לכבד.</p>
           
           <p><strong>תחליפי דגים:</strong></p>
           <p><em>טופו + אצות</em> — טופו מפורר עם נורי או וואקאמה למראה דגי וטעם אוקיינוס.</p>
@@ -588,7 +588,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
           <p><strong>Para Carne y Pollo:</strong></p>
           <p><em>Proteína de soja texturizada</em> — Remoje en caldo caliente. Funciona para cualquier plato de pollo o carne.</p>
           <p><em>Seitán</em> — Gluten de trigo con textura masticable y carnosa. Ideal para guisos y asados.</p>
-          <p><em>Hongos</em> — Melena de león para muslos, champiñones rey para vieiras, maitake para carne deshebrada.</p>
+          <p><em>Hongos</em> — Melena de león para muslos, champiñones rey para filetes, maitake para carne deshebrada.</p>
           
           <p><strong>Para Pescado:</strong></p>
           <p><em>Tofu + algas</em> — Tofu desmenuzado con nori para apariencia y sabor oceánico.</p>
@@ -604,7 +604,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
           <p><strong>بدائل اللحوم والدجاج:</strong></p>
           <p><em>بروتين الصويا المركب</em> — انقعه في مرق ساخن. يعمل لأي طبق لحم أو دجاج.</p>
           <p><em>السيتان</em> — جلوتين القمح بقوام لحمي ومطاطي. الأفضل للطواجن.</p>
-          <p><em>الفطر</em> — عرف الأسد لأفخاذ الدجاج، ملك المحار للإسكالوب، مايتاكي للحم المبشور.</p>
+          <p><em>الفطر</em> — عرف الأسد لأفخاذ الدجاج، ملك المحار للستيك، مايتاكي للحم المبشور.</p>
           
           <p><strong>بدائل السمك:</strong></p>
           <p><em>التوفو + الأعشاب البحرية</em> — توفو مفتت مع نوري لمظهر ونكهة البحر.</p>
