@@ -261,10 +261,12 @@ def load_recipe(path: Path) -> dict[str, Any]:
 
 
 def load_all_recipes() -> list[dict[str, Any]]:
-    """Load all recipe JSON files from recipes directory."""
+    """Load all recipe JSON files from recipes directory, sorted by index."""
     recipes = []
-    for path in sorted(RECIPES_DIR.glob("*.json")):
+    for path in RECIPES_DIR.glob("*.json"):
         recipes.append(load_recipe(path))
+    # Sort by index field (default to 999 if missing)
+    recipes.sort(key=lambda r: r.get("index", 999))
     return recipes
 
 
