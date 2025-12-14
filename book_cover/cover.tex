@@ -1,7 +1,6 @@
 % Silver Cooks - Book Cover
-% Dimensions: 8" x 8" pages (square format)
-% Spine: ~330 pages at 0.002" per page = 0.66" (using 0.7")
-% Total: 16.95" x 8.25" with 0.125" bleed
+% Dimensions: 8" x 8" pages, 0.7" spine, 0.125" bleed
+% Total: 16.95" x 8.25"
 
 \documentclass{article}
 \usepackage[
@@ -13,15 +12,12 @@
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{graphicx}
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-\setotherlanguages{hebrew,arabic}
 
-% Fonts
-\setmainfont{EB Garamond}
-\newfontfamily\hebrewfont[Script=Hebrew]{David Libre}
-\newfontfamily\arabicfont[Script=Arabic]{Noto Sans Arabic}
-\newfontfamily\titlefont{Cinzel}
+% Fonts - using system fonts that exist
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+\newfontfamily\titlefont{Didot}
+\newfontfamily\hebrewfont{Arial Hebrew}
 
 % Colors
 \definecolor{cream}{HTML}{F5F0E6}
@@ -37,59 +33,50 @@
 \noindent
 \begin{tikzpicture}[x=1in, y=1in]
 
-% === BACKGROUND IMAGE (full bleed) ===
+% === BACKGROUND IMAGE ===
 \node[anchor=south west, inner sep=0pt] at (0,0) {
   \includegraphics[width=16.95in, height=8.25in]{background.png}
 };
 
-% === CREAM OVERLAY FOR READABILITY ===
+% === CREAM OVERLAY ===
 \fill[cream, opacity=0.88] (0,0) rectangle (16.95, 8.25);
 
 % ============================================
-% BACK COVER (left side: 0.125" to 8.125")
+% BACK COVER (0.125" to 8.125")
 % ============================================
 \begin{scope}[shift={(0.125, 0.125)}]
   % Border
   \draw[accent, line width=2pt] (0.3, 0.3) rectangle (7.7, 7.7);
   \draw[accent, line width=0.5pt] (0.4, 0.4) rectangle (7.6, 7.6);
   
-  % Quote
-  \node[text width=6in, align=center, text=ink] at (4, 6.5) {
-    \fontsize{14pt}{18pt}\selectfont\itshape
-    ``Preserving family traditions through plant-based cooking''
-  };
-  
   % Description
-  \node[text width=6in, align=center, text=muted] at (4, 5.5) {
-    \fontsize{11pt}{15pt}\selectfont
-    A collection of treasured recipes from the Cohen-Trabelsi family of Djerba, Tunisia\\
-    and the Kadoch-Muyal family of Tangier, Morocco.\\[12pt]
+  \node[text width=6in, align=center, text=muted] at (4, 5.8) {
+    \fontsize{11pt}{16pt}\selectfont
+    A collection of treasured recipes from\\
+    the \textbf{Cohen-Trabelsi} family of Djerba, Tunisia\\
+    and the \textbf{Kadoch-Muyal} family of Tangier, Morocco.\\[18pt]
     Adapted for the modern vegan kitchen while honoring\\
     centuries of Sephardic and Mizrachi culinary heritage.
   };
   
   % Recipe count & categories
   \node[text width=6in, align=center, text=ink] at (4, 4) {
-    \fontsize{10pt}{14pt}\selectfont
+    \fontsize{11pt}{15pt}\selectfont
     \textbf{81 recipes} in four languages:\\
-    Hebrew · English · Spanish · Djerban Arabic\\[12pt]
-    Including:\\
+    Hebrew · English · Spanish · Djerban Arabic\\[14pt]
     Shabbat stews · Couscous · Fried pastries · Soups\\
     Hanukkah doughnuts · Cakes · Holiday favorites
   };
   
-  % Four-language tagline
-  \node[text width=6in, align=center, text=accent] at (4, 2.2) {
-    \fontsize{9pt}{13pt}\selectfont
-    \texthebrew{לשמר את מסורת המשפחה}\\[4pt]
-    Preserving Family Heritage\\[4pt]
-    Preservando el Patrimonio Familiar\\[4pt]
-    \textarabic{نحافظو على تقاليد العايلة}
+  % Year
+  \node[text=accent, anchor=center] at (4, 2.4) {
+    \titlefont\fontsize{18pt}{18pt}\selectfont
+    2025
   };
   
   % Website
-  \node[text=muted] at (4, 0.6) {
-    \fontsize{8pt}{10pt}\selectfont
+  \node[text=muted] at (4, 0.7) {
+    \sffamily\fontsize{9pt}{9pt}\selectfont
     silvercooks.com
   };
 \end{scope}
@@ -100,12 +87,12 @@
 \fill[accent] (8.125, 0.125) rectangle (8.825, 8.125);
 
 \node[rotate=90, text=cream, anchor=center] at (8.475, 4.125) {
-  \titlefont\fontsize{14pt}{14pt}\selectfont
-  SILVER COOKS \quad · \quad כהן-טרבלסי \& קדוש-מויאל \quad · \quad DAVID \& ENNY SILVER
+  \sffamily\fontsize{12pt}{12pt}\selectfont\bfseries
+  SILVER COOKS \quad · \quad David \& Enny Silver
 };
 
 % ============================================
-% FRONT COVER (right side: 8.825" to 16.825")
+% FRONT COVER (8.825" to 16.825")
 % ============================================
 \begin{scope}[shift={(8.825, 0.125)}]
   % Borders
@@ -114,78 +101,64 @@
   
   % Corner ornaments
   \foreach \x/\y in {0.5/7.5, 7.5/7.5, 0.5/0.5, 7.5/0.5} {
-    \fill[gold] (\x, \y) circle (0.08);
+    \fill[gold] (\x, \y) circle (0.06);
   }
   
   % Main title
-  \node[text=ink, anchor=center] at (4, 6.8) {
-    \titlefont\fontsize{42pt}{42pt}\selectfont
+  \node[text=ink, anchor=center] at (4, 6.5) {
+    \titlefont\fontsize{48pt}{48pt}\selectfont
     SILVER COOKS
   };
   
   % Subtitle
-  \node[text=accent, anchor=center] at (4, 6.1) {
-    \fontsize{13pt}{13pt}\selectfont\scshape
+  \node[text=accent, anchor=center] at (4, 5.8) {
+    \sffamily\fontsize{14pt}{14pt}\selectfont
     A Four-Language Vegan Cookbook
   };
   
-  % Hebrew title
-  \node[text=ink, anchor=center] at (4, 5.4) {
-    \hebrewfont\fontsize{24pt}{24pt}\selectfont
-    \texthebrew{מתכונים מדור לדור}
-  };
-  
   % Decorative line
-  \draw[gold, line width=1.5pt] (1.8, 4.9) -- (6.2, 4.9);
-  \fill[terracotta] (4, 4.9) circle (0.07);
-  
-  % "Recipes from the"
-  \node[text=muted, anchor=center] at (4, 4.5) {
-    \fontsize{12pt}{15pt}\selectfont
-    \textit{Recipes from the}
-  };
+  \draw[gold, line width=1.5pt] (1.5, 5.3) -- (6.5, 5.3);
   
   % Family names
-  \node[text=ink, anchor=center] at (4, 4.0) {
-    \fontsize{15pt}{18pt}\selectfont
+  \node[text=muted, anchor=center] at (4, 4.7) {
+    \fontsize{12pt}{12pt}\selectfont\itshape
+    Recipes from the
+  };
+  
+  \node[text=ink, anchor=center] at (4, 4.2) {
+    \fontsize{16pt}{20pt}\selectfont
     \textbf{Cohen-Trabelsi} family of Djerba, Tunisia
   };
   
-  \node[text=ink, anchor=center] at (4, 3.5) {
-    \fontsize{15pt}{18pt}\selectfont
+  \node[text=ink, anchor=center] at (4, 3.6) {
+    \fontsize{16pt}{20pt}\selectfont
     \textbf{Kadoch-Muyal} family of Tangier, Morocco
   };
   
   % Decorative line
-  \draw[accent, line width=0.5pt] (2.2, 3.1) -- (5.8, 3.1);
+  \draw[gold, line width=1pt] (2, 3.1) -- (6, 3.1);
   
-  % Hamsa motif
-  \begin{scope}[shift={(4, 2.2)}, scale=0.45]
-    \draw[gold, line width=1.5pt, rounded corners=3pt] 
-      (-1.2, 0) -- (-1.2, 1.5) arc(180:0:0.3) -- (-0.6, 0)
-      (-0.5, 0) -- (-0.5, 2) arc(180:0:0.25) -- (0, 0)
-      (0.1, 0) -- (0.1, 2.3) arc(180:0:0.2) -- (0.5, 0)
-      (0.6, 0) -- (0.6, 2) arc(180:0:0.25) -- (1.1, 0)
-      (1.2, 0) -- (1.2, 1.5) arc(180:0:0.3) -- (1.8, 0);
-    \draw[gold, line width=1.5pt] (-1.5, 0) arc(180:360:1.5 and 1);
-    \fill[terracotta] (0.3, 0.8) circle (0.15);
-  \end{scope}
+  % Hebrew family names
+  \node[text=muted, anchor=center] at (4, 2.5) {
+    \hebrewfont\fontsize{14pt}{14pt}\selectfont
+    כהן-טרבלסי / קדוש-מויאל
+  };
   
   % Authors
-  \node[text=accent, anchor=center] at (4, 1.2) {
-    \titlefont\fontsize{18pt}{18pt}\selectfont
+  \node[text=accent, anchor=center] at (4, 1.6) {
+    \titlefont\fontsize{20pt}{20pt}\selectfont
     David \& Enny Silver
   };
   
   % Edition
-  \node[text=muted, anchor=center] at (4, 0.7) {
+  \node[text=muted, anchor=center] at (4, 1.0) {
     \fontsize{10pt}{10pt}\selectfont\itshape
-    First Edition · מהדורה ראשונה
+    First Edition
   };
   
   % Languages
-  \node[text=muted, anchor=center] at (4, 0.4) {
-    \fontsize{9pt}{9pt}\selectfont
+  \node[text=muted, anchor=center] at (4, 0.6) {
+    \sffamily\fontsize{9pt}{9pt}\selectfont
     Hebrew · English · Spanish · Djerban Arabic
   };
 \end{scope}
