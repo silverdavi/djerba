@@ -1,101 +1,125 @@
-% Silver Cooks - Book Cover (Clean Modern Design)
-% Single spread: Back + Spine + Front = 16.95" x 8.25"
+% Silver Cooks - Book Cover
+% Back + Spine + Front = 16.95" x 8.25"
 
-\documentclass[a4paper]{article}
-\usepackage[
-  paperwidth=16.95in,
-  paperheight=8.25in,
-  margin=0in
-]{geometry}
-\usepackage{tikz}
+\documentclass[tikz]{standalone}
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{graphicx}
 
-% Single clean font family
-\setmainfont{Helvetica Neue}[
-  UprightFont = *,
-  BoldFont = * Bold,
-  ItalicFont = * Italic
-]
+% Fonts
+\setmainfont{Helvetica Neue}
+\newfontfamily\titlefont{Didot}
+\newfontfamily\hebrewfont{Arial Hebrew}
+\newfontfamily\arabicfont{Geeza Pro}
+\newfontfamily\spanishfont{Georgia}
 
-% Colors - warm, minimal palette
-\definecolor{cream}{HTML}{FAF8F5}
-\definecolor{brown}{HTML}{3D3229}
-\definecolor{gold}{HTML}{B8860B}
-
-\pagestyle{empty}
+% Colors
+\definecolor{cream}{HTML}{FAF6F0}
+\definecolor{ink}{HTML}{2C2416}
+\definecolor{accent}{HTML}{8B4513}
 
 \begin{document}
-\noindent
 \begin{tikzpicture}[x=1in, y=1in]
 
-% Background
-\fill[cream] (0,0) rectangle (16.95, 8.25);
-
-% ========== BACK COVER (0 to 8.125) ==========
-\node[text=brown, text width=5.5in, align=center] at (4.125, 5.5) {
-  \fontsize{11pt}{17pt}\selectfont
-  Treasured family recipes from\\[4pt]
-  \textbf{Djerba, Tunisia} and \textbf{Tangier, Morocco}\\[16pt]
-  Adapted for the modern vegan kitchen
+% === BACKGROUND IMAGE ===
+\node[anchor=south west, inner sep=0pt] at (0,0) {
+  \includegraphics[width=16.95in, height=8.25in]{background.png}
 };
 
-\node[text=brown, text width=5.5in, align=center] at (4.125, 3.5) {
-  \fontsize{10pt}{15pt}\selectfont
-  81 recipes in four languages\\
-  Hebrew / English / Spanish / Arabic
+% === CREAM OVERLAY ===
+\fill[cream, opacity=0.85] (0,0) rectangle (16.95, 8.25);
+
+% ========================================
+% BACK COVER (center at x=4.125)
+% ========================================
+
+% English description
+\node[text=ink, text width=6in, align=center] at (4.125, 6) {
+  \fontsize{12pt}{18pt}\selectfont
+  Family recipes from Djerba, Tunisia\\
+  and Tangier, Morocco\\[8pt]
+  Adapted for the vegan kitchen
 };
 
-\node[text=gold] at (4.125, 1.2) {
+% Recipe count
+\node[text=ink] at (4.125, 4.5) {
+  \fontsize{11pt}{11pt}\selectfont
+  81 Recipes
+};
+
+% Four language labels
+\node[text=accent] at (4.125, 3.8) {
+  \fontsize{10pt}{14pt}\selectfont
+  English / {\spanishfont Español} / {\hebrewfont עברית} / {\arabicfont عربية}
+};
+
+% Website
+\node[text=accent] at (4.125, 1) {
   \fontsize{9pt}{9pt}\selectfont
   silvercooks.com
 };
 
-% ========== SPINE (8.125 to 8.825) ==========
-\fill[brown] (8.125, 0) rectangle (8.825, 8.25);
+% ========================================
+% SPINE (8.125 to 8.825)
+% ========================================
+\fill[accent] (8.125, 0) rectangle (8.825, 8.25);
 
 \node[rotate=90, text=cream] at (8.475, 4.125) {
-  \fontsize{11pt}{11pt}\selectfont\bfseries
-  SILVER COOKS \hspace{2em} David \& Enny Silver
+  \fontsize{10pt}{10pt}\selectfont
+  SILVER COOKS \hspace{1.5em} David \& Enny Silver
 };
 
-% ========== FRONT COVER (8.825 to 16.95) ==========
+% ========================================
+% FRONT COVER (center at x=12.89)
+% ========================================
 
-% Title
-\node[text=brown] at (12.89, 5.8) {
-  \fontsize{56pt}{56pt}\selectfont\bfseries
-  SILVER
+% Main title - English
+\node[text=ink] at (12.89, 6.3) {
+  \titlefont\fontsize{52pt}{52pt}\selectfont
+  Silver Cooks
 };
 
-\node[text=brown] at (12.89, 4.8) {
-  \fontsize{56pt}{56pt}\selectfont\bfseries
-  COOKS
+% Hebrew title
+\node[text=ink] at (12.89, 5.4) {
+  \hebrewfont\fontsize{28pt}{28pt}\selectfont
+  סילבר מבשלים
+};
+
+% Spanish title
+\node[text=accent] at (12.89, 4.7) {
+  \spanishfont\fontsize{16pt}{16pt}\selectfont\itshape
+  Los Silver Cocinan
+};
+
+% Arabic title
+\node[text=ink] at (12.89, 4.1) {
+  \arabicfont\fontsize{18pt}{18pt}\selectfont
+  سيلفر يطبخون
 };
 
 % Subtitle
-\node[text=gold] at (12.89, 3.8) {
-  \fontsize{13pt}{13pt}\selectfont
+\node[text=accent] at (12.89, 3.3) {
+  \fontsize{11pt}{11pt}\selectfont
   A Four-Language Vegan Cookbook
 };
 
 % Line
-\draw[gold, line width=0.5pt] (10.5, 3.4) -- (15.28, 3.4);
+\draw[accent, line width=0.5pt] (10.5, 2.9) -- (15.28, 2.9);
 
 % Family names
-\node[text=brown] at (12.89, 2.8) {
-  \fontsize{11pt}{15pt}\selectfont
+\node[text=ink] at (12.89, 2.4) {
+  \fontsize{11pt}{11pt}\selectfont
   Cohen-Trabelsi / Kadoch-Muyal
 };
 
 % Authors
-\node[text=brown] at (12.89, 1.8) {
-  \fontsize{14pt}{14pt}\selectfont
+\node[text=ink] at (12.89, 1.5) {
+  \titlefont\fontsize{16pt}{16pt}\selectfont
   David \& Enny Silver
 };
 
 % Year
-\node[text=gold] at (12.89, 1.2) {
+\node[text=accent] at (12.89, 0.9) {
   \fontsize{10pt}{10pt}\selectfont
   2025
 };
