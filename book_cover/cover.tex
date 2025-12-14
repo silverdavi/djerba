@@ -1,0 +1,184 @@
+% Silver Cooks - Book Cover
+% Dimensions: 8" x 8" pages (square format)
+% Spine calculated for ~330 pages at 0.002" per page = 0.66"
+% Total: 16.66" x 8" plus 0.125" bleed on all sides
+
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{tikz}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{hebrew,arabic}
+
+% Fonts
+\setmainfont{EB Garamond}
+\newfontfamily\hebrewfont[Script=Hebrew]{David Libre}
+\newfontfamily\arabicfont[Script=Arabic]{Noto Sans Arabic}
+\newfontfamily\titlefont{Cinzel}
+
+% Colors - matching cookbook theme
+\definecolor{cream}{HTML}{F5F0E6}
+\definecolor{ink}{HTML}{2C2416}
+\definecolor{accent}{HTML}{8B4513}
+\definecolor{muted}{HTML}{6B5B4F}
+\definecolor{gold}{HTML}{C9A227}
+\definecolor{terracotta}{HTML}{C4784A}
+
+% Dimensions (in inches)
+\newcommand{\pagewidth}{8}
+\newcommand{\pageheight}{8}
+\newcommand{\spinewidth}{0.7}  % ~350 pages
+\newcommand{\bleed}{0.125}
+
+% Total dimensions
+\newcommand{\totalwidth}{16.95}  % 8 + 0.7 + 8 + 0.125*2
+\newcommand{\totalheight}{8.25}  % 8 + 0.125*2
+
+\begin{document}
+\begin{tikzpicture}[x=1in, y=1in]
+
+% === BACKGROUND ===
+\fill[cream] (0,0) rectangle (\totalwidth, \totalheight);
+
+% === BACK COVER (left side) ===
+\begin{scope}[shift={(\bleed, \bleed)}]
+  % Decorative border
+  \draw[accent, line width=2pt] (0.3, 0.3) rectangle (7.7, 7.7);
+  \draw[accent, line width=0.5pt] (0.4, 0.4) rectangle (7.6, 7.6);
+  
+  % Back cover content
+  \node[text width=6in, align=center, text=ink] at (4, 6.5) {
+    \fontsize{14pt}{18pt}\selectfont\itshape
+    ``Preserving family traditions through plant-based cooking''
+  };
+  
+  \node[text width=6in, align=center, text=muted] at (4, 5.5) {
+    \fontsize{11pt}{15pt}\selectfont
+    A collection of treasured recipes from the Cohen-Trabelsi family of Djerba, Tunisia\\
+    and the Kadoch-Muyal family of Tangier, Morocco.\\[12pt]
+    Adapted for the modern vegan kitchen while honoring\\
+    centuries of Sephardic and Mizrachi culinary heritage.
+  };
+  
+  \node[text width=6in, align=center, text=ink] at (4, 4) {
+    \fontsize{10pt}{14pt}\selectfont
+    \textbf{81 recipes} in four languages:\\
+    Hebrew · English · Spanish · Maghrebi Arabic\\[12pt]
+    Including:\\
+    Traditional Shabbat stews · Festive breads · Spiced fish dishes\\
+    Semolina sweets · Holiday specialties · Family favorites
+  };
+  
+  % Four-language tagline
+  \node[text width=6in, align=center, text=accent] at (4, 2.2) {
+    \fontsize{9pt}{13pt}\selectfont
+    \texthebrew{לשמר את מסורת המשפחה}\\[4pt]
+    Preserving Family Heritage\\[4pt]
+    Preservando el Patrimonio Familiar\\[4pt]
+    \textarabic{نحافظو على تقاليد العايلة}
+  };
+  
+  % Bottom info
+  \node[text=muted] at (4, 0.6) {
+    \fontsize{8pt}{10pt}\selectfont
+    silvercooks.com
+  };
+\end{scope}
+
+% === SPINE ===
+\begin{scope}[shift={(\bleed + \pagewidth, \bleed)}]
+  \fill[accent] (0, 0) rectangle (\spinewidth, \pageheight);
+  
+  % Spine text (rotated)
+  \node[rotate=90, text=cream, anchor=center] at (\spinewidth/2, 4) {
+    \titlefont\fontsize{14pt}{14pt}\selectfont
+    SILVER COOKS \quad · \quad כהן-טרבלסי \& קדוש-מויאל \quad · \quad DAVID \& ENNY SILVER
+  };
+\end{scope}
+
+% === FRONT COVER (right side) ===
+\begin{scope}[shift={(\bleed + \pagewidth + \spinewidth, \bleed)}]
+  % Decorative border
+  \draw[accent, line width=3pt] (0.2, 0.2) rectangle (7.8, 7.8);
+  \draw[gold, line width=1pt] (0.35, 0.35) rectangle (7.65, 7.65);
+  
+  % Corner ornaments
+  \foreach \x/\y in {0.5/7.5, 7.5/7.5, 0.5/0.5, 7.5/0.5} {
+    \fill[gold] (\x, \y) circle (0.08);
+  }
+  
+  % Title block
+  \node[text=ink, anchor=center] at (4, 6.8) {
+    \titlefont\fontsize{36pt}{36pt}\selectfont
+    SILVER COOKS
+  };
+  
+  \node[text=accent, anchor=center] at (4, 6.2) {
+    \fontsize{12pt}{12pt}\selectfont\scshape
+    A Four-Language Vegan Cookbook
+  };
+  
+  % Hebrew title
+  \node[text=ink, anchor=center] at (4, 5.5) {
+    \hebrewfont\fontsize{22pt}{22pt}\selectfont
+    \texthebrew{מתכונים מדור לדור}
+  };
+  
+  % Decorative line
+  \draw[gold, line width=1.5pt] (2, 5.1) -- (6, 5.1);
+  \fill[terracotta] (4, 5.1) circle (0.06);
+  
+  % Family names
+  \node[text=muted, anchor=center] at (4, 4.6) {
+    \fontsize{11pt}{15pt}\selectfont
+    \textit{Recipes from the}
+  };
+  
+  \node[text=ink, anchor=center] at (4, 4.2) {
+    \fontsize{14pt}{18pt}\selectfont
+    \textbf{Cohen-Trabelsi} family of Djerba, Tunisia
+  };
+  
+  \node[text=ink, anchor=center] at (4, 3.7) {
+    \fontsize{14pt}{18pt}\selectfont
+    \textbf{Kadoch-Muyal} family of Tangier, Morocco
+  };
+  
+  % Decorative element
+  \draw[accent, line width=0.5pt] (2.5, 3.3) -- (5.5, 3.3);
+  
+  % Central decorative motif (simplified Hamsa outline)
+  \begin{scope}[shift={(4, 2.3)}, scale=0.4]
+    \draw[gold, line width=1.5pt, rounded corners=3pt] 
+      (-1.2, 0) -- (-1.2, 1.5) arc(180:0:0.3) -- (-0.6, 0)
+      (-0.5, 0) -- (-0.5, 2) arc(180:0:0.25) -- (0, 0)
+      (0.1, 0) -- (0.1, 2.3) arc(180:0:0.2) -- (0.5, 0)
+      (0.6, 0) -- (0.6, 2) arc(180:0:0.25) -- (1.1, 0)
+      (1.2, 0) -- (1.2, 1.5) arc(180:0:0.3) -- (1.8, 0);
+    \draw[gold, line width=1.5pt] (-1.5, 0) arc(180:360:1.5 and 1);
+    \fill[terracotta] (0.3, 0.8) circle (0.15);
+  \end{scope}
+  
+  % Authors
+  \node[text=accent, anchor=center] at (4, 1.3) {
+    \titlefont\fontsize{16pt}{16pt}\selectfont
+    David \& Enny Silver
+  };
+  
+  % Edition
+  \node[text=muted, anchor=center] at (4, 0.8) {
+    \fontsize{9pt}{9pt}\selectfont\itshape
+    First Edition · מהדורה ראשונה
+  };
+  
+  % Languages at bottom
+  \node[text=muted, anchor=center] at (4, 0.45) {
+    \fontsize{8pt}{8pt}\selectfont
+    Hebrew · English · Spanish · Arabic
+  };
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
+
