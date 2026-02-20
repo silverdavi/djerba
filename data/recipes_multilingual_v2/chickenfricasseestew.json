@@ -1,6 +1,6 @@
 {
   "id": "chickenfricasseestew",
-  "image": "images/current/113_chicken_fricassee_stew/dish.png",
+  "image": "images/current/chickenfricasseestew/dish.png",
   "meta": {
     "servings": "4",
     "prep_time": "15 min",
@@ -103,5 +103,6 @@
       "Cook until the seitan is tender and the dumplings are cooked through."
     ]
   },
-  "index": 12
+  "index": 12,
+  "image_prompt": "Create a photograph of Chicken Fricassee Stew with dough layer topping.\n\n*** ABSOLUTELY CRITICAL - READ CAREFULLY ***\n\nThe dough is a CONTINUOUS THIN LAYER like a wet crepe or thin pancake batter that was DRIZZLED/POURED over the boiling soup and cooked IN the liquid.\n\nImagine: liquid batter poured in a spiral pattern over bubbling soup, then cooked until it forms a soft, connected web/blanket floating on top.\n\nThe result looks like:\n- A thin, soft, slightly translucent SHEET of cooked batter\n- Connected like a web or blanket, NOT separate pieces\n- Partially covering the soup surface like a veil\n- Soft and wobbly like water-cooked crepe\n- The broth and vegetables visible THROUGH and AROUND the dough layer\n\nABSOLUTELY FORBIDDEN:\n- NO dumplings, balls, or gnocchi\n- NO separate individual pieces\n- NO bread or thick chunks\n\nShow:\n- Golden broth with vegetables (carrots, onions, seitan)\n- ONE connected dough layer/web floating on surface\n- Deep pot or bowl presentation\n- Steam rising from hot stew\n\nThink: Hungarian nokedli dropped into soup BUT connected as one layer, or Chinese egg drop soup style ribbons BUT thicker and more connected."
 }

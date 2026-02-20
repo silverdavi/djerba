@@ -805,10 +805,10 @@ Humble, sturdy furniture. A modest Jewish home, well-loved and lived-in."""
                 print("Install with: pip install google-genai")
                 sys.exit(1)
             
-            api_key = os.getenv('GOOGLE_API_KEY')
-            if not api_key or api_key == 'your_google_api_key_here':
+            api_key = os.getenv('GOOGLE_API_KEY') or os.getenv('GEMINI_API_KEY')
+            if not api_key or api_key in ('your_google_api_key_here', 'your_gemini_api_key_here'):
                 raise ValueError(
-                    "GOOGLE_API_KEY not found in environment. "
+                    "GOOGLE_API_KEY or GEMINI_API_KEY not found in environment. "
                     "Please set it in your .env file."
                 )
             

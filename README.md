@@ -1,181 +1,119 @@
-# RecipeDjerba Python Environment
+# Silver Cooks - Four-Language Vegan Cookbook
 
-This repository contains a Python virtual environment with essential AI and data science libraries.
+A plant-based cookbook preserving recipes from two North African Jewish family lines, presented in four languages: **Hebrew**, **Arabic**, **Spanish**, and **English**.
 
-## Installed Packages
+## Live Site
 
-- **pandas**: Data manipulation and analysis library
-- **openai**: Official OpenAI Python client
-- **google-generativeai**: Google's Gemini AI Python client
-- **PerplexiPy**: Perplexity AI Python client
+**[silvercooks.com](https://silvercooks.com)**
 
-## Setup Instructions
+## Family Heritage
 
-### Activate the Virtual Environment
+- **Cohen-Trabelsi** — Djerban Jewish cuisine from Tunisia (David's maternal line)
+- **Kadoch-Muyal** — Tangier Jewish cuisine from Morocco (Enny's maternal line)
 
-```bash
-source venv/bin/activate
+All recipes have been adapted for plant-based cooking while preserving authentic flavors and cultural context.
+
+## Project Stats
+
+- **87 recipes** in 4 languages
+- **88 dish images** (AI-generated, Gemini 3 Pro)
+- **96 ingredient icons** (transparent PNG)
+- **8×8 inch print-ready PDF** with WeasyPrint
+- **Web viewer** at silvercooks.com (GitHub Pages)
+
+## Project Structure
+
+```
+RecipeDjerba/
+├── data/
+│   ├── recipes_multilingual_v2/    # 87 recipe JSONs (4 languages each)
+│   └── images/
+│       ├── current/                # Final dish images (per recipe)
+│       └── ingredients/            # 96 ingredient icons
+├── gen_book/
+│   ├── build.py                    # Main build script (web + print + PDF)
+│   ├── cookbook.css                 # Print/web styling
+│   ├── deploy_github.py            # Deploy to GitHub Pages
+│   ├── flipbook/                   # Web viewer (viewer.js/css)
+│   └── output/                     # Generated HTML + PDF
+├── book_cover/                     # Cover design (LaTeX)
+├── generate_cookbook_images.py      # Image generation (Gemini 3 Pro)
+├── generate_ingredient_icons.py    # Ingredient icon generation
+├── generate_intro_paragraphs.py    # Introduction text generation
+├── canonize_recipes.py             # Recipe standardization
+├── multilingualize_recipes.py      # 4-language translation
+├── veganize_recipes.py             # Veganization pipeline
+└── recipes_ingredients_matrix.csv  # Ingredient cross-reference
 ```
 
-### Install from Requirements (Alternative Setup)
+## Quick Start
 
-If you need to recreate this environment:
+### Setup
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv_new
+source venv_new/bin/activate
 pip install -r requirements.txt
+pip install weasyprint perplexipy google-genai
 ```
 
-## Usage Examples
-
-### Using Pandas
-```python
-import pandas as pd
-
-# Create a simple DataFrame
-df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
-print(df)
-```
-
-### Using OpenAI
-```python
-import openai
-
-# Set your API key
-client = openai.OpenAI(api_key="your-api-key-here")
-
-# Make a chat completion request
-response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
-    messages=[{"role": "user", "content": "Hello!"}]
-)
-print(response.choices[0].message.content)
-```
-
-### Using Google Generative AI (Gemini)
-```python
-import google.generativeai as genai
-
-# Configure with your API key
-genai.configure(api_key="your-api-key-here")
-
-# Use Gemini model
-model = genai.GenerativeModel('gemini-pro')
-response = model.generate_content("Hello!")
-print(response.text)
-```
-
-### Using Perplexity AI
-```python
-from perplexipy import PerplexityClient
-
-# Set up client with API key
-client = PerplexityClient(api_key="your-api-key-here")
-
-# Make a query
-result = client.query("What is machine learning?")
-print(result)
-```
-
-## API Keys Setup
-
-You'll need to set up API keys for the AI services:
-
-1. **OpenAI GPT-4o-mini**: Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
-2. **Google Gemini 2.5**: Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-3. **Perplexity Sonar Pro**: Get your API key from [Perplexity API](https://docs.perplexity.ai/guides/getting-started)
-
-### Environment Variables Setup
-
-1. Copy the template file `env_template.txt` to create your `.env` file:
+### Build
 
 ```bash
-cp env_template.txt .env
+# Build everything (web + print HTML + PDF)
+python gen_book/build.py
+
+# Build web pages only (fast)
+python gen_book/build.py --web-only
+
+# Build print PDF only
+python gen_book/build.py --print-only
 ```
 
-2. Edit the `.env` file and replace the placeholder values with your actual API keys:
+### Deploy to silvercooks.com
 
 ```bash
-# API Keys for AI Services
-OPENAI_API_KEY=your_actual_openai_key_here
-GOOGLE_API_KEY=your_actual_google_key_here  
-PERPLEXITY_API_KEY=your_actual_perplexity_key_here
+python gen_book/deploy_github.py --push
 ```
 
-3. **Important**: Never commit your `.env` file to version control!
+### Add New Recipes
 
-### Testing Your API Keys
+1. Create recipe JSON in `data/recipes_multilingual_v2/` (4 languages)
+2. Generate image: use `generate_cookbook_images.py`
+3. Copy image to `data/images/current/{recipe_id}/dish.png`
+4. Rebuild: `python gen_book/build.py`
+5. Deploy: `python gen_book/deploy_github.py --push`
 
-Run the included test script to verify all your API keys are working:
+## Recipe JSON Format
 
-```bash
-source venv/bin/activate
-python test_api_keys.py
+Each recipe is a JSON file with this structure:
+
+```json
+{
+  "id": "recipe_id",
+  "image": "images/current/recipe_id/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": { "he": "...", "es": "...", "ar": "...", "en": "..." },
+  "description": { "he": "...", "es": "...", "ar": "...", "en": "..." },
+  "ingredients": { "he": [...], "es": [...], "ar": [...], "en": [...] },
+  "steps": { "he": [...], "es": [...], "ar": [...], "en": [...] }
+}
 ```
 
-The script will test:
-- **OpenAI GPT-4o-mini**: Latest efficient model from OpenAI
-- **Google Gemini 2.5 Flash**: Google's latest multimodal model  
-- **Perplexity Sonar Pro**: Search-enhanced AI with real-time information
+## API Keys
 
-### Loading API Keys in Python Code
+Required in `.env`:
 
-```python
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-openai_key = os.getenv('OPENAI_API_KEY')
-google_key = os.getenv('GOOGLE_API_KEY')
-perplexity_key = os.getenv('PERPLEXITY_API_KEY')
+```
+GEMINI_API_KEY=...      # Image generation (Gemini 3 Pro)
+PERPLEXITY_API_KEY=...  # Recipe research
 ```
 
-## Deactivate Virtual Environment
+## Authors
 
-When you're done working:
-
-```bash
-deactivate
-```
-
-## Testing Script
-
-The repository includes a comprehensive API testing script (`test_api_keys.py`) that:
-
-- ✅ Tests all AI services with real API calls (GPT-4o-mini, Gemini 2.5, Perplexity Sonar Pro)
-- 🎨 Tests DALL-E 3 image generation and saves generated images locally
-- ⏱️ Measures response times for all services
-- 🔍 Validates API key authentication
-- 📊 Provides detailed success/failure reporting
-- 💡 Offers troubleshooting tips for common issues
-
-### Running the Tests
-
-```bash
-# Make sure your virtual environment is activated
-source venv/bin/activate
-
-# Create .env file from template
-cp env_template.txt .env
-
-# Edit .env file with your actual API keys
-# Then run the test script
-python test_api_keys.py
-```
-
-## Files in this Repository
-
-- `README.md` - This documentation file
-- `requirements.txt` - Python package dependencies
-- `env_template.txt` - Template for environment variables
-- `test_api_keys.py` - Comprehensive API testing script
-- `venv/` - Python virtual environment directory
-
-## Notes
-
-- The virtual environment is located in the `venv/` directory
-- All dependencies are listed in `requirements.txt`
-- Python version: 3.11+ (recommended)
-- Keep your `.env` file private and never commit it to version control
+David & Enny Silver

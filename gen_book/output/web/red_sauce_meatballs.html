@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Meatballs in Red Sauce – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+/* Title block - flexbox layout with chapter number in center */
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.2in;
+  width: 100%;
+}
+
+/* Each title row - two titles side by side using flexbox */
+.title-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 0.1in;
+}
+
+/* Chapter number - compact circle between rows */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.04in 0;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--bg-page);
+  border-radius: 50%;
+  width: 0.5in;
+  height: 0.5in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1.5px var(--accent-soft);
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.08in 0.1in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.65in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  flex: 1;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Table of Contents */
+.page--toc {
+  background: var(--bg-page);
+}
+
+.toc-inner {
+  padding: 0.3in 0.4in;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toc-title {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.15in;
+  color: var(--color-title);
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 0.08in;
+}
+
+.toc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.04in 0.2in;
+  page-break-inside: avoid;
+}
+
+.toc-list > .toc-item {
+  width: calc(50% - 0.15in);
+}
+
+.toc-item {
+  display: flex;
+  gap: 0.05in;
+  align-items: start;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  padding: 0.02in 0;
+  border-bottom: 0.5px dotted var(--color-muted);
+  padding-bottom: 0.03in;
+}
+
+.toc-num {
+  font-family: var(--font-title);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-align: right;
+  font-size: 0.72rem;
+}
+
+.toc-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.12in;
+}
+
+.toc-name {
+  color: var(--color-text);
+}
+
+.toc-name-en {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+.toc-name-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  color: var(--color-muted);
+}
+
+.toc-name-es {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.toc-name-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  color: var(--color-muted);
+  font-size: 0.58rem;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+/* ============================================
+   8.5x8.5 BLEED PRINT STYLES
+   For print version with spine margins
+   ============================================ */
+
+/* When printing in bleed mode (8.5x8.5), we need to adjust margins
+   for verso/recto (left/right) pages. The spine gets 0.5" extra padding,
+   and content is shifted to the top, leaving 0.5" extra at bottom. */
+
+/* Applied via body class in the bleed HTML */
+body.print-bleed .page {
+  width: 8in;
+  height: 8in;
+  /* Content stays 8x8, page positions it within 8.5x8.5 */
+}
+
+/* Bleed print media query - applies when printing 8.5x8.5 version */
+@media print {
+  body.print-bleed {
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  
+  body.print-bleed .book {
+    display: block;
+  }
+  
+  body.print-bleed .page {
+    box-shadow: none;
+    margin: 0;
+  }
+}
+
+/* WeasyPrint-specific: The @page :left/:right rules for the bleed print version
+   are defined in the inline CSS block generated by get_bleed_css() in build.py */
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 85) -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-block">
+        <div class="title-row">
+          <div class="title-word lang-es title-small"><span>Albóndigas en Salsa Roja</span></div>
+          <div class="title-word lang-he title-small"><span>קציצות ברוטב אדום</span></div>
+        </div>
+        <div class="chapter-number"><span>85</span></div>
+        <div class="title-row">
+          <div class="title-word lang-en title-small"><span>Meatballs in Red Sauce</span></div>
+          <div class="title-word lang-ar title-small"><span>كفتة بالصلصة الحمراء</span></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>קציצות ברוטב עגבניות עשיר, מנה קלאסית במטבח הצפון אפריקאי. בגרסה טבעונית זו ניתן להשתמש בכל סוג של בשר טבעוני טחון בתוספת מעט קמח לקיבוע. הקציצות מתבשלות ברוטב עגבניות מתובל בשום, פפריקה, כמון ופלפל לבן.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>Albóndigas en una rica salsa de tomate, un plato clásico de la cocina norteafricana. En esta versión vegana se puede usar cualquier tipo de carne vegetal molida con un poco de harina para dar firmeza. Las albóndigas se cocinan en salsa de tomate sazonada con ajo, pimentón, comino y pimienta blanca.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>كفتة في صلصة طماطم غنية، ماكلة كلاسيكية في الكوجينة الشمال أفريقية. في هذي النسخة النباتية تنجم تستعمل أي نوع لحم نباتي مفروم مع شوية فرينة باش يتماسك. الكفتة تطيب في صلصة طماطم متبلة بالثوم والفلفل الأحمر والكمون والفلفل الأبيض.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Meatballs in a rich tomato sauce, a classic North African dish. In this vegan version, any type of ground plant-based meat mixed with some flour can be shaped into meatballs. They simmer in a tomato sauce seasoned with garlic, paprika, cumin, and white pepper.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">4-6</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">20 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">30 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/current/red_sauce_meatballs/dish.png" alt="Meatballs in Red Sauce dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/paprika_sweet_hot.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-4deg) skewX(4deg) skewY(-3deg) scale(1.0579547989817382);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tomato_fresh_paste.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(-1deg) skewX(-5deg) skewY(4deg) scale(1.0837741693591096);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bread_challah.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-9deg) skewX(-4deg) skewY(2deg) scale(1.055069506704959);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(15deg) skewX(-5deg) skewY(3deg) scale(1.0983842998233768);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/white_pepper.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(-6deg) skewX(-2deg) skewY(-4deg) scale(1.1153783082083588);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/flour_all_purpose_bread_whole_wheat.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(-17deg) skewX(-6deg) skewY(-4deg) scale(0.9480954092914252);">
+      </div>
+      <div class="two-col">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>400 g de carne vegetal molida (cualquier tipo)</li>
+              <li>3 cdas de harina</li>
+              <li>3 dientes de ajo machacados</li>
+              <li>1 cdta de pimentón</li>
+              <li>1 cdta de comino</li>
+              <li>1/2 cdta de pimienta blanca</li>
+              <li>1 cda de caldo vegetal en polvo</li>
+              <li>Sal al gusto</li>
+              <li>Una rebanada de pan blanco remojada en agua (para suavizar)</li>
+              <li>1 lata de pasta de tomate</li>
+              <li>2 tazas de agua</li>
+              <li>2 cdas de aceite</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>En un bol, mezclar la carne vegetal molida con la harina, ajo, pimentón, pimienta blanca, comino, caldo en polvo y sal. Añadir el pan exprimido y formar albóndigas.</li>
+              <li class="step"><span class="step-num">2.</span>Calentar aceite en una olla y freír un poco de ajo hasta dorar.</li>
+              <li class="step"><span class="step-num">3.</span>Añadir la pasta de tomate y mezclar, sazonar con pimentón, comino, pimienta blanca y sal.</li>
+              <li class="step"><span class="step-num">4.</span>Añadir agua y llevar a ebullición.</li>
+              <li class="step"><span class="step-num">5.</span>Colocar las albóndigas con cuidado en la salsa y cocinar a fuego lento unos 25 minutos hasta que la salsa espese.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>400 גרם בשר טבעוני טחון (כל סוג שהוא)</li>
+              <li>3 כפות קמח</li>
+              <li>3 שיני שום כתושות</li>
+              <li>1 כפית פפריקה</li>
+              <li>1 כפית כמון</li>
+              <li>1/2 כפית פלפל לבן</li>
+              <li>1 כפית אבקת מרק פרווה</li>
+              <li>מלח לפי הטעם</li>
+              <li>פרוסת לחם לבן טבולה במים (לריכוך)</li>
+              <li>1 קופסת רסק עגבניות</li>
+              <li>2 כוסות מים</li>
+              <li>2 כפות שמן</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>בקערה מערבבים את הבשר הטבעוני הטחון עם הקמח, שום כתוש, פפריקה, פלפל לבן, כמון, אבקת מרק ומלח. מוסיפים את הלחם הסחוט ומעצבים לקציצות.</li>
+              <li class="step"><span class="step-num">2.</span>מחממים שמן בסיר ומטגנים מעט שום עד להזהבה.</li>
+              <li class="step"><span class="step-num">3.</span>מוסיפים את רסק העגבניות ומערבבים, מתבלים בפפריקה, כמון, פלפל לבן ומלח.</li>
+              <li class="step"><span class="step-num">4.</span>מוסיפים מים ומביאים לרתיחה.</li>
+              <li class="step"><span class="step-num">5.</span>מכניסים את הקציצות בעדינות לרוטב ומבשלים על אש נמוכה כ-25 דקות עד שהרוטב מסמיך.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/paprika_sweet_hot.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-4deg) skewX(4deg) skewY(-3deg) scale(1.0579547989817382);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/tomato_fresh_paste.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(-1deg) skewX(-5deg) skewY(4deg) scale(1.0837741693591096);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/bread_challah.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(-9deg) skewX(-4deg) skewY(2deg) scale(1.055069506704959);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(15deg) skewX(-5deg) skewY(3deg) scale(1.0983842998233768);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/white_pepper.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(-6deg) skewX(-2deg) skewY(-4deg) scale(1.1153783082083588);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/flour_all_purpose_bread_whole_wheat.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(-17deg) skewX(-6deg) skewY(-4deg) scale(0.9480954092914252);">
+      </div>
+      <div class="two-col">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>400g ground plant-based meat (any type)</li>
+              <li>3 tbsp flour</li>
+              <li>3 cloves garlic, crushed</li>
+              <li>1 tsp paprika</li>
+              <li>1 tsp cumin</li>
+              <li>1/2 tsp white pepper</li>
+              <li>1 tbsp vegetable bouillon powder</li>
+              <li>Salt to taste</li>
+              <li>1 slice white bread soaked in water (to soften meatballs)</li>
+              <li>1 can tomato paste</li>
+              <li>2 cups water</li>
+              <li>2 tbsp oil</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>In a bowl, mix the ground plant-based meat with flour, crushed garlic, paprika, white pepper, cumin, bouillon powder, and salt. Add squeezed bread and shape into meatballs.</li>
+              <li class="step"><span class="step-num">2.</span>Heat oil in a pot and fry a little garlic until golden.</li>
+              <li class="step"><span class="step-num">3.</span>Add tomato paste and stir, season with paprika, cumin, white pepper, and salt.</li>
+              <li class="step"><span class="step-num">4.</span>Add water and bring to a boil.</li>
+              <li class="step"><span class="step-num">5.</span>Gently place the meatballs in the sauce and cook on low heat for about 25 minutes until the sauce thickens.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>400 غرام لحم نباتي مفروم (أي نوع)</li>
+              <li>3 مغارف فرينة</li>
+              <li>3 فصوص ثوم مهروسين</li>
+              <li>1 مغرفة صغيرة فلفل أحمر</li>
+              <li>1 مغرفة صغيرة كمون</li>
+              <li>نصف مغرفة صغيرة فلفل أبيض</li>
+              <li>1 مغرفة كبيرة تابل مرقة خضرة</li>
+              <li>ملح حسب الذوق</li>
+              <li>شريحة خبز أبيض مبللة بالماء (باش يطرى)</li>
+              <li>1 علبة حكة طماطم</li>
+              <li>2 كيسان ماء</li>
+              <li>2 مغارف زيت</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>في صحفة خلط اللحم النباتي المفروم مع الفرينة والثوم والفلفل الأحمر والفلفل الأبيض والكمون وتابل المرقة والملح. زيد الخبز المعصور وصوّر كعابر كفتة.</li>
+              <li class="step"><span class="step-num">2.</span>سخن الزيت في طنجرة وقلي شوية ثوم لين يحمار.</li>
+              <li class="step"><span class="step-num">3.</span>زيد حكة الطماطم وحرك، فوّح بالفلفل الأحمر والكمون والفلفل الأبيض والملح.</li>
+              <li class="step"><span class="step-num">4.</span>صب الماء وخلي يغلي.</li>
+              <li class="step"><span class="step-num">5.</span>حط الكفتة بشوية في الصلصة وطيب على نار هادية تقريب 25 دقيقة لين الصلصة تعقد.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

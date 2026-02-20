@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kugel – Four-Language Recipe</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+/* Title block - flexbox layout with chapter number in center */
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.2in;
+  width: 100%;
+}
+
+/* Each title row - two titles side by side using flexbox */
+.title-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 0.1in;
+}
+
+/* Chapter number - compact circle between rows */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.04in 0;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--bg-page);
+  border-radius: 50%;
+  width: 0.5in;
+  height: 0.5in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1.5px var(--accent-soft);
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.08in 0.1in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.65in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  flex: 1;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Table of Contents */
+.page--toc {
+  background: var(--bg-page);
+}
+
+.toc-inner {
+  padding: 0.3in 0.4in;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toc-title {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.15in;
+  color: var(--color-title);
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 0.08in;
+}
+
+.toc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.04in 0.2in;
+  page-break-inside: avoid;
+}
+
+.toc-list > .toc-item {
+  width: calc(50% - 0.15in);
+}
+
+.toc-item {
+  display: flex;
+  gap: 0.05in;
+  align-items: start;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  padding: 0.02in 0;
+  border-bottom: 0.5px dotted var(--color-muted);
+  padding-bottom: 0.03in;
+}
+
+.toc-num {
+  font-family: var(--font-title);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-align: right;
+  font-size: 0.72rem;
+}
+
+.toc-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.12in;
+}
+
+.toc-name {
+  color: var(--color-text);
+}
+
+.toc-name-en {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+.toc-name-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  color: var(--color-muted);
+}
+
+.toc-name-es {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.toc-name-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  color: var(--color-muted);
+  font-size: 0.58rem;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+/* ============================================
+   8.5x8.5 BLEED PRINT STYLES
+   For print version with spine margins
+   ============================================ */
+
+/* When printing in bleed mode (8.5x8.5), we need to adjust margins
+   for verso/recto (left/right) pages. The spine gets 0.5" extra padding,
+   and content is shifted to the top, leaving 0.5" extra at bottom. */
+
+/* Applied via body class in the bleed HTML */
+body.print-bleed .page {
+  width: 8in;
+  height: 8in;
+  /* Content stays 8x8, page positions it within 8.5x8.5 */
+}
+
+/* Bleed print media query - applies when printing 8.5x8.5 version */
+@media print {
+  body.print-bleed {
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  
+  body.print-bleed .book {
+    display: block;
+  }
+  
+  body.print-bleed .page {
+    box-shadow: none;
+    margin: 0;
+  }
+}
+
+/* WeasyPrint-specific: The @page :left/:right rules for the bleed print version
+   are defined in the inline CSS block generated by get_bleed_css() in build.py */
+
+
+</style>
+</head>
+<body>
+
+<div class="book">
+
+  <!-- PAGE 1: NAME + DESCRIPTION (Chapter 87) -->
+  <section class="page">
+    <div class="page-inner">
+
+      <div class="title-block">
+        <div class="title-row">
+          <div class="title-word lang-es title-large"><span>Kugel</span></div>
+          <div class="title-word lang-he title-large"><span>קוגל</span></div>
+        </div>
+        <div class="chapter-number"><span>87</span></div>
+        <div class="title-row">
+          <div class="title-word lang-en title-large"><span>Kugel</span></div>
+          <div class="title-word lang-ar title-large"><span>كوغل</span></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="info-grid">
+          <div class="info-item lang-he">
+            <p>קוגל הוא מאפה אטריות מקורמלות ומתוקות, שם נגזר מהמילה הגרמנית לכדור. במקור הכנת המנה כללה ביצים, אך בגרסה טבעונית זו קמח תפוחי אדמה מחליף את הביצים ומעניק מרקם יציב. הקרמליזציה של הסוכר בשמן יוצרת שכבה חומה עמוקה ומתקתקה.</p>
+          </div>
+          <div class="info-item lang-es">
+            <p>El Kugel es un pudín horneado de fideos caramelizados y dulces, cuyo nombre proviene del alemán para bola. Originalmente se preparaba con huevos, pero en esta versión vegana el almidón de patata los reemplaza, aportando una textura firme. La caramelización del azúcar en aceite crea una capa profundamente dorada y dulce.</p>
+          </div>
+          <div class="info-item lang-ar">
+            <p>الكوغل هو حلوى مخبوزة من الشعرية المكرملة والحلوة. الاسم جاي من الكلمة الألمانية اللي معناها كرة. في الأصل كانت تتعمل بالعظم (البيض)، أما في هذي النسخة النباتية نستعملو نشا البطاطا بلاصتهم باش يعطي قوام متماسك. تكرميل السكر في الزيت يعطي طبقة بنية غامقة وحلوة.</p>
+          </div>
+          <div class="info-item lang-en">
+            <p>Kugel is a baked caramelized sweet noodle pudding, its name derived from the German word for ball. Originally made with eggs, this vegan version uses potato starch as a binder for a firm texture. The caramelization of sugar in oil creates a deeply golden, sweet crust.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="meta-row meta-footer">
+        <div class="meta-item">
+          <span class="meta-label">Servings</span>
+          <span class="meta-value">6-8</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Prep time</span>
+          <span class="meta-value">15 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Cook time</span>
+          <span class="meta-value">45 min</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Difficulty</span>
+          <span class="meta-value">Medium</span>
+        </div>
+      </div>
+
+      <div class="page-num">1</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 2: FULL-BLEED IMAGE -->
+  <section class="page page--image">
+    <div class="page-inner">
+      <img class="hero-image" src="../images/current/kugel/dish.png" alt="Kugel dish">
+      <div class="page-num">2</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 3: SPANISH (left) + HEBREW (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-4deg) skewX(-3deg) skewY(-1deg) scale(0.9235350831081142);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(10deg) skewX(4deg) skewY(-1deg) scale(1.0385447855429089);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/potatoes.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(17deg) skewX(-6deg) skewY(0deg) scale(1.0993132317114758);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sugar_white_brown_powdered_vanilla.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(-4deg) skewX(-6deg) skewY(-1deg) scale(1.0091291476049324);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/black_pepper.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(5deg) skewX(0deg) skewY(4deg) scale(1.01705441698084);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/pasta_spaghetti_vermicelli.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(3deg) skewX(6deg) skewY(-4deg) scale(1.0875649463865464);">
+      </div>
+      <div class="two-col">
+        <div class="column lang-es" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredientes</div>
+            <ul class="ingredients-list">
+              <li>1 paquete de fideos finos</li>
+              <li>2 tazas de azúcar</li>
+              <li>1/2 taza de aceite vegetal</li>
+              <li>2 cdas de almidón de patata (sustituto de huevo)</li>
+              <li>1/4 taza de agua (para mezclar con el almidón)</li>
+              <li>Agua hirviendo para cocinar</li>
+              <li>1 cdta de sal</li>
+              <li>1/2 cdta de pimienta negra</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instrucciones</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Caramelizar una taza de azúcar con media taza de aceite en una olla hasta obtener un color dorado.</li>
+              <li class="step"><span class="step-num">2.</span>Añadir los fideos al caramelo fresco y 6 tazas de agua, cocinar agregando otra taza de azúcar.</li>
+              <li class="step"><span class="step-num">3.</span>Esperar a que el agua se absorba. Mezclar el almidón de patata con 1/4 de taza de agua y añadir con sal y pimienta, mezclar rápidamente.</li>
+              <li class="step"><span class="step-num">4.</span>Transferir a un molde engrasado (tipo Jahnún o 2 moldes de cake inglés).</li>
+              <li class="step"><span class="step-num">5.</span>Hornear en horno abierto a 200°C durante media hora o hasta que se dore. Verificar ocasionalmente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-he" style="font-size: 0.705rem; line-height: 1.22;">
+          <div>
+            <div class="section-label">מצרכים</div>
+            <ul class="ingredients-list">
+              <li>1 חבילה אטריות דקות</li>
+              <li>2 כוסות סוכר</li>
+              <li>1/2 כוס שמן צמחי</li>
+              <li>2 כפות קמח תפוחי אדמה (תחליף ביצים)</li>
+              <li>1/4 כוס מים (לערבוב עם קמח תפו&quot;א)</li>
+              <li>מים רותחים לבישול</li>
+              <li>1 כפית מלח</li>
+              <li>1/2 כפית פלפל שחור</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">הוראות הכנה</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>מקרמלים כוס סוכר עם חצי כוס שמן בסיר עד לצבע חום זהוב.</li>
+              <li class="step"><span class="step-num">2.</span>מוסיפים את האטריות לקרמל הטרי ו-6 כוסות מים, מבשלים תוך הוספת כוס סוכר נוספת.</li>
+              <li class="step"><span class="step-num">3.</span>ממתינים שהמים ייספגו. מערבבים את קמח התפוחי אדמה עם 1/4 כוס מים ומוסיפים עם מלח ופלפל, מערבבים מהר.</li>
+              <li class="step"><span class="step-num">4.</span>מעבירים לתבנית אפייה (תבנית ג׳חנון או 2 תבניות אינגליש קייק) משומנת.</li>
+              <li class="step"><span class="step-num">5.</span>אופים בתנור פתוח ב-200 מעלות כחצי שעה עד שמשחים. לבדוק מדי פעם.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">3</div>
+    </div>
+  </section>
+
+
+  <!-- PAGE 4: ENGLISH (left) + ARABIC (right) -->
+  <section class="page">
+    <div class="page-inner">
+      <div class="corner-decorations">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/oil_vegetable_olive_canola.png" 
+             alt="" 
+             style="left: 55.0%; top: 6.0%; transform: rotate(-4deg) skewX(-3deg) skewY(-1deg) scale(0.9235350831081142);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/salt_table_coarse_kala_namak.png" 
+             alt="" 
+             style="left: 73.0%; top: 14.0%; transform: rotate(10deg) skewX(4deg) skewY(-1deg) scale(1.0385447855429089);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/potatoes.png" 
+             alt="" 
+             style="left: 88.0%; top: 4.0%; transform: rotate(17deg) skewX(-6deg) skewY(0deg) scale(1.0993132317114758);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/sugar_white_brown_powdered_vanilla.png" 
+             alt="" 
+             style="left: 4.0%; top: 72.0%; transform: rotate(-4deg) skewX(-6deg) skewY(-1deg) scale(1.0091291476049324);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/black_pepper.png" 
+             alt="" 
+             style="left: 20.0%; top: 82.0%; transform: rotate(5deg) skewX(0deg) skewY(4deg) scale(1.01705441698084);">
+        <img class="corner-ingredient" 
+             src="/Users/davidsilver/dev/private/RecipeDjerba/data/images/ingredients/final/pasta_spaghetti_vermicelli.png" 
+             alt="" 
+             style="left: 8.0%; top: 92.0%; transform: rotate(3deg) skewX(6deg) skewY(-4deg) scale(1.0875649463865464);">
+      </div>
+      <div class="two-col">
+        <div class="column lang-en" style="font-size: 0.680rem; line-height: 1.20;">
+          <div>
+            <div class="section-label">Ingredients</div>
+            <ul class="ingredients-list">
+              <li>1 package thin noodles</li>
+              <li>2 cups sugar</li>
+              <li>1/2 cup vegetable oil</li>
+              <li>2 tbsp potato starch (egg substitute)</li>
+              <li>1/4 cup water (to mix with potato starch)</li>
+              <li>Boiling water for cooking</li>
+              <li>1 tsp salt</li>
+              <li>1/2 tsp black pepper</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">Instructions</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>Caramelize one cup of sugar with half a cup of oil in a pot until golden brown.</li>
+              <li class="step"><span class="step-num">2.</span>Add the noodles to the fresh caramel and 6 cups of water, cook while adding another cup of sugar.</li>
+              <li class="step"><span class="step-num">3.</span>Let the water absorb. Mix the potato starch with 1/4 cup water and add with salt and pepper, stir quickly.</li>
+              <li class="step"><span class="step-num">4.</span>Transfer to a greased baking pan (a Jahnun pan or 2 English cake pans).</li>
+              <li class="step"><span class="step-num">5.</span>Bake in an open oven at 200°C for about half an hour until browned. Check occasionally.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column lang-ar" style="font-size: 0.707rem; line-height: 1.22;">
+          <div>
+            <div class="section-label">المكونات</div>
+            <ul class="ingredients-list">
+              <li>1 باكو شعرية رقيقة</li>
+              <li>2 كيسان سكر</li>
+              <li>نصف كاس زيت نباتي</li>
+              <li>2 مغارف نشا بطاطا (بديل العظم)</li>
+              <li>ربع كاس ماء (باش تخلط مع النشا)</li>
+              <li>ماء يغلي للطبيخ</li>
+              <li>1 مغرفة صغيرة ملح</li>
+              <li>نصف مغرفة صغيرة فلفل أكحل</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="section-label">طريقة التحضير</div>
+            <ul class="steps-list">
+              <li class="step"><span class="step-num">1.</span>كرمل كاس سكر مع نصف كاس زيت في طنجرة لين يولي لون ذهبي.</li>
+              <li class="step"><span class="step-num">2.</span>زيد الشعرية على الكراميل الطري وزيد 6 كيسان ماء، طيب وزيد كاس سكر أخرى.</li>
+              <li class="step"><span class="step-num">3.</span>استنى لين يتشرب الماء. خلط نشا البطاطا مع ربع كاس ماء وزيد مع الملح والفلفل الأكحل، حرك بسرعة.</li>
+              <li class="step"><span class="step-num">4.</span>حول للصينية (صينية جحنون ولا 2 صواني كيك) مدهونة.</li>
+              <li class="step"><span class="step-num">5.</span>اخبز في الفرن المفتوح على 200 درجة تقريب نصف ساعة لين يحمار. تثبت فيه من وقت لآخر.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-num">4</div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

@@ -1,148 +1,98 @@
-# Vegan Djerban Family Cookbook - Usage Guide
+# Usage Guide
 
-## Overview
+## Build Pipeline
 
-The cookbook generation pipeline has been separated into two main components:
-1. **Markdown Generation** - AI-powered content creation (recipes, research, translations, images)
-2. **LaTeX Generation** - PDF compilation (will be addressed later)
+### 1. Build Cookbook
 
-## Quick Start
-
-### 1. Markdown Generation (Core AI Pipeline)
-
-Generate recipes, research, translations, and images:
+The main build script generates web pages, print HTML, and PDF:
 
 ```bash
-# Run the master pipeline (default: markdown only)
-python master_pipeline.py --markdown-only
+source venv_new/bin/activate
 
-# Or run the cookbook pipeline directly
-python cookbook_pipeline.py --test 2
+# Build everything
+python gen_book/build.py
+
+# Web pages only (fastest, for iteration)
+python gen_book/build.py --web-only
+
+# Print PDF only (8×8 inch)
+python gen_book/build.py --print-only
+
+# Bleed PDF (8.5×8.5 inch, for professional printing)
+python gen_book/build.py --bleed-only
 ```
 
-### 2. Available Options
+**Output:**
+- `gen_book/output/web/` — Individual recipe HTML pages
+- `gen_book/output/print/full-cookbook.html` — Combined print HTML
+- `gen_book/output/print/full-cookbook.pdf` — Print-ready PDF
 
-#### Master Pipeline Commands
+### 2. Deploy to Website
 
 ```bash
-# Generate markdown content only (recommended)
-python master_pipeline.py --markdown-only
-
-# Generate LaTeX structure only (after markdown exists)
-python master_pipeline.py --latex-only
-
-# Run complete pipeline (markdown + LaTeX)
-python master_pipeline.py --full
+python gen_book/deploy_github.py --push
 ```
 
-#### Cookbook Pipeline Commands
+This:
+- Copies web pages, images, and viewer to `deploy/`
+- Fixes image paths for web deployment
+- Pushes to `silverdavi/silvercooks` on GitHub
+- GitHub Pages serves at silvercooks.com
+
+### 3. Generate Images
 
 ```bash
-# Test with default 2 recipes
-python cookbook_pipeline.py
-
-# Test with specific number of recipes
-python cookbook_pipeline.py --test 5
-
-# Process all recipes (full pipeline)
-python cookbook_pipeline.py --full
-
-# Process specific recipe by name
-python cookbook_pipeline.py --recipe "Mhamsa"
+# Generate image for a single recipe
+python -c "
+import json
+from generate_cookbook_images import CookbookImageGenerator
+recipe = json.load(open('data/recipes_multilingual_v2/RECIPE_ID.json'))
+gen = CookbookImageGenerator()
+gen.generate_recipe_images(recipe, generate_dish=True, generate_ingredients=False)
+"
 ```
 
-## Generated Content
-
-After running the markdown pipeline, you'll find:
-
-### Recipe Content
-- `data/recipes/markdown/` - Main recipe files in markdown format
-- `data/recipes/translations/` - Hebrew, Spanish, and Arabic translations
-
-### Research Files
-- `data/research/` - Cultural etymology and veganization research
-  - `*_etymology.txt` - Cultural and historical research
-  - `*_vegan.txt` - Veganization strategies  
-  - `*_synthesis.txt` - Combined research synthesis
-
-### Images
-- `data/images/generated/` - AI-generated food photography
-
-### Progress Tracking
-- `data/pipeline_progress.json` - Processing status and error logs
-
-## API Requirements
-
-Ensure you have these API keys in your `.env` file:
-
-```env
-OPENAI_API_KEY=your_openai_key_here
-GOOGLE_API_KEY=your_google_key_here  
-PERPLEXITY_API_KEY=your_perplexity_key_here
+Then copy to current:
+```bash
+cp data/images/generated/RECIPE_ID_dish.png data/images/current/RECIPE_ID/dish.png
 ```
 
-## Processing Pipeline
+### 4. Add a New Recipe
 
-Each recipe goes through these steps:
+1. Create `data/recipes_multilingual_v2/my_recipe.json` with all 4 languages
+2. Generate image (see above)
+3. Copy image to `data/images/current/my_recipe/dish.png`
+4. Update image path in JSON: `"image": "images/current/my_recipe/dish.png"`
+5. Build: `python gen_book/build.py --web-only`
+6. Deploy: `python gen_book/deploy_github.py --push`
 
-1. **Etymology Research** (Perplexity) - Cultural and historical context
-2. **Veganization Research** (Perplexity) - Plant-based adaptation strategies
-3. **Research Synthesis** (Gemini) - Combine research into structured report
-4. **Recipe Generation** (GPT-4o) - Create complete vegan recipe
-5. **Translation** (GPT-4o) - Hebrew, Spanish, and Arabic versions
-6. **Image Generation** (DALL-E) - Professional food photography
+## Cookbook Layout
 
-## Family Heritage Lines
+Each recipe generates 4 pages in the print PDF:
 
-The pipeline processes recipes from three family lines:
+| Page | Content |
+|------|---------|
+| 1 | Title (4 languages) + Description + Metadata |
+| 2 | Full-bleed dish photograph |
+| 3 | Spanish (left) + Hebrew (right) — ingredients & steps |
+| 4 | English (left) + Arabic (right) — ingredients & steps |
 
-- **Silver-Cohen-Trabelsi** - Djerban Jewish cuisine from Tunisia
-- **Silver-Kadoch-Muyal** - Tangier Jewish cuisine from Morocco  
-- **Silver** - Modern vegan adaptations
+### Fonts
+- **English**: Sora (geometric sans-serif)
+- **Spanish**: Fraunces (quirky serif)
+- **Hebrew**: Heebo
+- **Arabic**: Noto Naskh Arabic
+- **Titles**: Bona Nova
 
-## Example Output
+### Design Features
+- Adaptive font sizing per recipe (based on content length)
+- Staggered column layout (LTR starts higher, RTL lower)
+- Decorative ingredient icons in empty diagonal spaces
+- Chapter numbers with oriental styling on title pages
+- Ingredient mosaic on book title page
 
-A processed recipe includes:
+## DNS & Hosting
 
-```
-data/recipes/markdown/mhamsa.md
-data/recipes/translations/mhamsa_hebrew.md
-data/recipes/translations/mhamsa_spanish.md
-data/recipes/translations/mhamsa_arabic.md
-data/research/mhamsa_etymology.txt
-data/research/mhamsa_vegan.txt
-data/research/mhamsa_synthesis.txt
-data/images/generated/mhamsa.png
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **API Key Errors**: Check your `.env` file has all required keys
-2. **Rate Limiting**: The pipeline includes delays between API calls
-3. **Network Issues**: Research steps require internet connectivity
-
-### Error Recovery
-
-- Check `data/pipeline_progress.json` for detailed error logs
-- Failed recipes can be reprocessed individually using `--recipe` flag
-- The pipeline saves progress after each recipe
-
-## Next Steps
-
-Once markdown generation is working smoothly:
-
-1. Review generated recipes for accuracy
-2. Check translations for cultural authenticity  
-3. Verify image quality and relevance
-4. Address LaTeX compilation separately when ready
-
-## Cultural Preservation
-
-This pipeline preserves:
-- ✅ Traditional cooking techniques adapted for plant-based ingredients
-- ✅ Cultural context and family stories
-- ✅ Hebrew terminology and transliterations
-- ✅ Regional differences (Tunisian vs Moroccan Jewish cuisine)
-- ✅ Multilingual accessibility 
+- **Domain**: silvercooks.com (Route53, AWS)
+- **Hosting**: GitHub Pages (`silverdavi/silvercooks`)
+- **DNS Records**: A records → GitHub Pages IPs, CNAME www → silverdavi.github.io

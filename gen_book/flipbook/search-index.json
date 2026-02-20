@@ -1654,6 +1654,129 @@
         "2 cups vegan semi-sweet chocolate morsels",
         "1 cup nuts (walnuts or pecans), chopped"
       ]
+    },
+    {
+      "id": "dolce_de_leche_biscuits",
+      "names": {
+        "he": "עוגת ביסקוויטים ודולצ׳ה דה לצ׳ה",
+        "es": "Torta de Galletas con Dulce de Leche",
+        "ar": "كعكة البسكويت ودولسي دي ليتشي",
+        "en": "Biscuit & Dulce de Leche Cake"
+      },
+      "ingredients": [
+        "For the chocolate layer:",
+        "1/2 can coconut cream",
+        "100g coconut oil",
+        "1/2 cup vegan dulce de leche",
+        "250g biscuits (vegan Petit Beurre)",
+        "200g vegan dark chocolate",
+        "For the mousse layer:",
+        "1 can coconut cream (refrigerated overnight)",
+        "1 packet vanilla pudding + 2 tbsp vegan dulce de leche",
+        "For the coating:",
+        "1/2 can coconut cream",
+        "100g vegan dark chocolate",
+        "2 tbsp vegan dulce de leche for decoration"
+      ]
+    },
+    {
+      "id": "kishke",
+      "names": {
+        "he": "קישקע",
+        "es": "Kishke",
+        "ar": "كيشكة",
+        "en": "Kishke"
+      },
+      "ingredients": [
+        "1 large onion, chopped (about 200g)",
+        "1 cup flour (140g)",
+        "1 tsp salt",
+        "1 tsp paprika",
+        "1/2 tsp black pepper",
+        "4-5 tbsp vegetable oil",
+        "1/2 - 3/4 cup water (add gradually)"
+      ]
+    },
+    {
+      "id": "yeast_cake",
+      "names": {
+        "he": "עוגת שמרים",
+        "es": "Bizcocho de Levadura",
+        "ar": "كعكة الخميرة",
+        "en": "Yeast Cake"
+      },
+      "ingredients": [
+        "1 kg flour",
+        "2 tbsp dry yeast",
+        "1/2 cup sugar",
+        "1 tbsp vanilla sugar",
+        "1 tsp salt",
+        "1 cup vegetable oil",
+        "500ml warm water",
+        "Zest of a lemon or orange",
+        "For filling: hydrogenated coconut oil, brown sugar, cinnamon",
+        "For syrup: 1/2 cup sugar, 1/2 cup water"
+      ]
+    },
+    {
+      "id": "red_sauce_meatballs",
+      "names": {
+        "he": "קציצות ברוטב אדום",
+        "es": "Albóndigas en Salsa Roja",
+        "ar": "كفتة بالصلصة الحمراء",
+        "en": "Meatballs in Red Sauce"
+      },
+      "ingredients": [
+        "400g ground plant-based meat (any type)",
+        "3 tbsp flour",
+        "3 cloves garlic, crushed",
+        "1 tsp paprika",
+        "1 tsp cumin",
+        "1/2 tsp white pepper",
+        "1 tbsp vegetable bouillon powder",
+        "Salt to taste",
+        "1 slice white bread soaked in water (to soften meatballs)",
+        "1 can tomato paste",
+        "2 cups water",
+        "2 tbsp oil"
+      ]
+    },
+    {
+      "id": "lintriya",
+      "names": {
+        "he": "לאינטריאה",
+        "es": "L'Intriya",
+        "ar": "لينتريّة",
+        "en": "L'Intriya"
+      },
+      "ingredients": [
+        "250g fine noodles (angel hair)",
+        "2 tbsp vegetable oil",
+        "1 tsp turmeric",
+        "1 tsp salt",
+        "1/2 tsp black pepper",
+        "1 tbsp vegetable bouillon powder",
+        "2 cups boiling water"
+      ]
+    },
+    {
+      "id": "kugel",
+      "names": {
+        "he": "קוגל",
+        "es": "Kugel",
+        "ar": "كوغل",
+        "en": "Kugel"
+      },
+      "ingredients": [
+        "1 package thin noodles",
+        "2 cups sugar",
+        "1/2 cup vegetable oil",
+        "2 tbsp potato starch (egg substitute)",
+        "1/4 cup water (to mix with potato starch)",
+        "Boiling water for cooking",
+        "1 tsp salt",
+        "1/2 tsp black pepper"
+      ]
     }
   ]
 }

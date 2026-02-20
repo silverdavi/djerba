@@ -1,6 +1,6 @@
 {
   "id": "homemade_couscous",
-  "image": "images/current/026_couscous/dish.png",
+  "image": "images/current/homemade_couscous/dish.png",
   "meta": {
     "servings": "6-8",
     "prep_time": "30 min",
@@ -83,5 +83,6 @@
       "Remove from heat, pour a little oil over the couscous, fluff it one last time, and transfer to a serving bowl."
     ]
   },
-  "index": 24
+  "index": 24,
+  "image_prompt": "Professional food photography of traditional Maghrebi couscous (קוסקוס).\n\n=== SCENE: THE SAFED HOUSE ===\nShot in an early 1900s Safed stone house kitchen.\nThick whitewashed walls, high ceilings, touches of Safed light blue.\nNatural Mediterranean light from deep-set windows.\nA worn olive wood spoon resting in the couscous.\n\n=== CRITICAL: THE COUSCOUS TEXTURE ===\nThe couscous is WHITE/PALE CREAM colored - NOT yellow or golden!\nIt looks like very fine, fluffy SNOW or POWDERED SUGAR texture.\nTiny irregular crumbs like steamed semolina flour.\nEach grain is barely 1mm - like fine sand or breadcrumb powder.\nDry, light, airy, separated - NOT wet or clumpy.\n\nTHIS IS NOT:\n- Israeli couscous/ptitim (round balls) - FORBIDDEN\n- Yellow or golden colored - must be WHITE/pale\n- Pearl-shaped or uniform spheres\n- Wet, sticky, or clumpy\n\nDO NOT ADD - FORBIDDEN:\n- NO parsley or any herbs\n- NO green garnishes of any kind\n- NO vegetables mixed in\n- PURE plain couscous ONLY - just white semolina grains\n- This is plain steamed couscous BEFORE any toppings or garnishes\n\nThe texture resembles:\n- Very fine fresh breadcrumbs\n- Powdery steamed semolina\n- Light fluffy snow-like grains\n\nServed in a wide shallow traditional bowl (gsaa/قصعة).\nPhotorealistic, 8K detail, appetizing home cooking."
 }

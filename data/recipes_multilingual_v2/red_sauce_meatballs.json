@@ -1,0 +1,110 @@
+{
+  "id": "red_sauce_meatballs",
+  "image": "images/current/red_sauce_meatballs/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "30 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קציצות ברוטב אדום",
+    "es": "Albóndigas en Salsa Roja",
+    "ar": "كفتة بالصلصة الحمراء",
+    "en": "Meatballs in Red Sauce"
+  },
+  "description": {
+    "he": "קציצות ברוטב עגבניות עשיר, מנה קלאסית במטבח הצפון אפריקאי. בגרסה טבעונית זו ניתן להשתמש בכל סוג של בשר טבעוני טחון בתוספת מעט קמח לקיבוע. הקציצות מתבשלות ברוטב עגבניות מתובל בשום, פפריקה, כמון ופלפל לבן.",
+    "es": "Albóndigas en una rica salsa de tomate, un plato clásico de la cocina norteafricana. En esta versión vegana se puede usar cualquier tipo de carne vegetal molida con un poco de harina para dar firmeza. Las albóndigas se cocinan en salsa de tomate sazonada con ajo, pimentón, comino y pimienta blanca.",
+    "ar": "كفتة في صلصة طماطم غنية، ماكلة كلاسيكية في الكوجينة الشمال أفريقية. في هذي النسخة النباتية تنجم تستعمل أي نوع لحم نباتي مفروم مع شوية فرينة باش يتماسك. الكفتة تطيب في صلصة طماطم متبلة بالثوم والفلفل الأحمر والكمون والفلفل الأبيض.",
+    "en": "Meatballs in a rich tomato sauce, a classic North African dish. In this vegan version, any type of ground plant-based meat mixed with some flour can be shaped into meatballs. They simmer in a tomato sauce seasoned with garlic, paprika, cumin, and white pepper."
+  },
+  "ingredients": {
+    "he": [
+      "400 גרם בשר טבעוני טחון (כל סוג שהוא)",
+      "3 כפות קמח",
+      "3 שיני שום כתושות",
+      "1 כפית פפריקה",
+      "1 כפית כמון",
+      "1/2 כפית פלפל לבן",
+      "1 כפית אבקת מרק פרווה",
+      "מלח לפי הטעם",
+      "פרוסת לחם לבן טבולה במים (לריכוך)",
+      "1 קופסת רסק עגבניות",
+      "2 כוסות מים",
+      "2 כפות שמן"
+    ],
+    "es": [
+      "400 g de carne vegetal molida (cualquier tipo)",
+      "3 cdas de harina",
+      "3 dientes de ajo machacados",
+      "1 cdta de pimentón",
+      "1 cdta de comino",
+      "1/2 cdta de pimienta blanca",
+      "1 cda de caldo vegetal en polvo",
+      "Sal al gusto",
+      "Una rebanada de pan blanco remojada en agua (para suavizar)",
+      "1 lata de pasta de tomate",
+      "2 tazas de agua",
+      "2 cdas de aceite"
+    ],
+    "ar": [
+      "400 غرام لحم نباتي مفروم (أي نوع)",
+      "3 مغارف فرينة",
+      "3 فصوص ثوم مهروسين",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "1 مغرفة صغيرة كمون",
+      "نصف مغرفة صغيرة فلفل أبيض",
+      "1 مغرفة كبيرة تابل مرقة خضرة",
+      "ملح حسب الذوق",
+      "شريحة خبز أبيض مبللة بالماء (باش يطرى)",
+      "1 علبة حكة طماطم",
+      "2 كيسان ماء",
+      "2 مغارف زيت"
+    ],
+    "en": [
+      "400g ground plant-based meat (any type)",
+      "3 tbsp flour",
+      "3 cloves garlic, crushed",
+      "1 tsp paprika",
+      "1 tsp cumin",
+      "1/2 tsp white pepper",
+      "1 tbsp vegetable bouillon powder",
+      "Salt to taste",
+      "1 slice white bread soaked in water (to soften meatballs)",
+      "1 can tomato paste",
+      "2 cups water",
+      "2 tbsp oil"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה מערבבים את הבשר הטבעוני הטחון עם הקמח, שום כתוש, פפריקה, פלפל לבן, כמון, אבקת מרק ומלח. מוסיפים את הלחם הסחוט ומעצבים לקציצות.",
+      "מחממים שמן בסיר ומטגנים מעט שום עד להזהבה.",
+      "מוסיפים את רסק העגבניות ומערבבים, מתבלים בפפריקה, כמון, פלפל לבן ומלח.",
+      "מוסיפים מים ומביאים לרתיחה.",
+      "מכניסים את הקציצות בעדינות לרוטב ומבשלים על אש נמוכה כ-25 דקות עד שהרוטב מסמיך."
+    ],
+    "es": [
+      "En un bol, mezclar la carne vegetal molida con la harina, ajo, pimentón, pimienta blanca, comino, caldo en polvo y sal. Añadir el pan exprimido y formar albóndigas.",
+      "Calentar aceite en una olla y freír un poco de ajo hasta dorar.",
+      "Añadir la pasta de tomate y mezclar, sazonar con pimentón, comino, pimienta blanca y sal.",
+      "Añadir agua y llevar a ebullición.",
+      "Colocar las albóndigas con cuidado en la salsa y cocinar a fuego lento unos 25 minutos hasta que la salsa espese."
+    ],
+    "ar": [
+      "في صحفة خلط اللحم النباتي المفروم مع الفرينة والثوم والفلفل الأحمر والفلفل الأبيض والكمون وتابل المرقة والملح. زيد الخبز المعصور وصوّر كعابر كفتة.",
+      "سخن الزيت في طنجرة وقلي شوية ثوم لين يحمار.",
+      "زيد حكة الطماطم وحرك، فوّح بالفلفل الأحمر والكمون والفلفل الأبيض والملح.",
+      "صب الماء وخلي يغلي.",
+      "حط الكفتة بشوية في الصلصة وطيب على نار هادية تقريب 25 دقيقة لين الصلصة تعقد."
+    ],
+    "en": [
+      "In a bowl, mix the ground plant-based meat with flour, crushed garlic, paprika, white pepper, cumin, bouillon powder, and salt. Add squeezed bread and shape into meatballs.",
+      "Heat oil in a pot and fry a little garlic until golden.",
+      "Add tomato paste and stir, season with paprika, cumin, white pepper, and salt.",
+      "Add water and bring to a boil.",
+      "Gently place the meatballs in the sauce and cook on low heat for about 25 minutes until the sauce thickens."
+    ]
+  }
+}

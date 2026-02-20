@@ -1,0 +1,94 @@
+{
+  "id": "kugel",
+  "image": "images/current/kugel/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קוגל",
+    "es": "Kugel",
+    "ar": "كوغل",
+    "en": "Kugel"
+  },
+  "description": {
+    "he": "קוגל הוא מאפה אטריות מקורמלות ומתוקות, שם נגזר מהמילה הגרמנית לכדור. במקור הכנת המנה כללה ביצים, אך בגרסה טבעונית זו קמח תפוחי אדמה מחליף את הביצים ומעניק מרקם יציב. הקרמליזציה של הסוכר בשמן יוצרת שכבה חומה עמוקה ומתקתקה.",
+    "es": "El Kugel es un pudín horneado de fideos caramelizados y dulces, cuyo nombre proviene del alemán para bola. Originalmente se preparaba con huevos, pero en esta versión vegana el almidón de patata los reemplaza, aportando una textura firme. La caramelización del azúcar en aceite crea una capa profundamente dorada y dulce.",
+    "ar": "الكوغل هو حلوى مخبوزة من الشعرية المكرملة والحلوة. الاسم جاي من الكلمة الألمانية اللي معناها كرة. في الأصل كانت تتعمل بالعظم (البيض)، أما في هذي النسخة النباتية نستعملو نشا البطاطا بلاصتهم باش يعطي قوام متماسك. تكرميل السكر في الزيت يعطي طبقة بنية غامقة وحلوة.",
+    "en": "Kugel is a baked caramelized sweet noodle pudding, its name derived from the German word for ball. Originally made with eggs, this vegan version uses potato starch as a binder for a firm texture. The caramelization of sugar in oil creates a deeply golden, sweet crust."
+  },
+  "ingredients": {
+    "he": [
+      "1 חבילה אטריות דקות",
+      "2 כוסות סוכר",
+      "1/2 כוס שמן צמחי",
+      "2 כפות קמח תפוחי אדמה (תחליף ביצים)",
+      "1/4 כוס מים (לערבוב עם קמח תפו\"א)",
+      "מים רותחים לבישול",
+      "1 כפית מלח",
+      "1/2 כפית פלפל שחור"
+    ],
+    "es": [
+      "1 paquete de fideos finos",
+      "2 tazas de azúcar",
+      "1/2 taza de aceite vegetal",
+      "2 cdas de almidón de patata (sustituto de huevo)",
+      "1/4 taza de agua (para mezclar con el almidón)",
+      "Agua hirviendo para cocinar",
+      "1 cdta de sal",
+      "1/2 cdta de pimienta negra"
+    ],
+    "ar": [
+      "1 باكو شعرية رقيقة",
+      "2 كيسان سكر",
+      "نصف كاس زيت نباتي",
+      "2 مغارف نشا بطاطا (بديل العظم)",
+      "ربع كاس ماء (باش تخلط مع النشا)",
+      "ماء يغلي للطبيخ",
+      "1 مغرفة صغيرة ملح",
+      "نصف مغرفة صغيرة فلفل أكحل"
+    ],
+    "en": [
+      "1 package thin noodles",
+      "2 cups sugar",
+      "1/2 cup vegetable oil",
+      "2 tbsp potato starch (egg substitute)",
+      "1/4 cup water (to mix with potato starch)",
+      "Boiling water for cooking",
+      "1 tsp salt",
+      "1/2 tsp black pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מקרמלים כוס סוכר עם חצי כוס שמן בסיר עד לצבע חום זהוב.",
+      "מוסיפים את האטריות לקרמל הטרי ו-6 כוסות מים, מבשלים תוך הוספת כוס סוכר נוספת.",
+      "ממתינים שהמים ייספגו. מערבבים את קמח התפוחי אדמה עם 1/4 כוס מים ומוסיפים עם מלח ופלפל, מערבבים מהר.",
+      "מעבירים לתבנית אפייה (תבנית ג׳חנון או 2 תבניות אינגליש קייק) משומנת.",
+      "אופים בתנור פתוח ב-200 מעלות כחצי שעה עד שמשחים. לבדוק מדי פעם."
+    ],
+    "es": [
+      "Caramelizar una taza de azúcar con media taza de aceite en una olla hasta obtener un color dorado.",
+      "Añadir los fideos al caramelo fresco y 6 tazas de agua, cocinar agregando otra taza de azúcar.",
+      "Esperar a que el agua se absorba. Mezclar el almidón de patata con 1/4 de taza de agua y añadir con sal y pimienta, mezclar rápidamente.",
+      "Transferir a un molde engrasado (tipo Jahnún o 2 moldes de cake inglés).",
+      "Hornear en horno abierto a 200°C durante media hora o hasta que se dore. Verificar ocasionalmente."
+    ],
+    "ar": [
+      "كرمل كاس سكر مع نصف كاس زيت في طنجرة لين يولي لون ذهبي.",
+      "زيد الشعرية على الكراميل الطري وزيد 6 كيسان ماء، طيب وزيد كاس سكر أخرى.",
+      "استنى لين يتشرب الماء. خلط نشا البطاطا مع ربع كاس ماء وزيد مع الملح والفلفل الأكحل، حرك بسرعة.",
+      "حول للصينية (صينية جحنون ولا 2 صواني كيك) مدهونة.",
+      "اخبز في الفرن المفتوح على 200 درجة تقريب نصف ساعة لين يحمار. تثبت فيه من وقت لآخر."
+    ],
+    "en": [
+      "Caramelize one cup of sugar with half a cup of oil in a pot until golden brown.",
+      "Add the noodles to the fresh caramel and 6 cups of water, cook while adding another cup of sugar.",
+      "Let the water absorb. Mix the potato starch with 1/4 cup water and add with salt and pepper, stir quickly.",
+      "Transfer to a greased baking pan (a Jahnun pan or 2 English cake pans).",
+      "Bake in an open oven at 200°C for about half an hour until browned. Check occasionally."
+    ]
+  }
+}

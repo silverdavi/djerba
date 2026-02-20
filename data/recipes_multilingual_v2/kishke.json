@@ -1,0 +1,94 @@
+{
+  "id": "kishke",
+  "image": "images/current/kishke/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "קישקע",
+    "es": "Kishke",
+    "ar": "كيشكة",
+    "en": "Kishke"
+  },
+  "description": {
+    "he": "קישקע הוא מילוי עשוי מבצל, קמח ותבלינים, שמקורו במעי ממולא שהונח בתוך הצ׳ולנט לבישול איטי לאורך הלילה. השם נגזר מהמילה היידית למעי. בגרסה מודרנית וטבעונית זו, המילוי עומד בפני עצמו ללא קרום, ויוצא יציב ועשיר — לא יבש ולא דייסתי. ניתן לעטוף בנייר כסף ולהכניס לצ׳ולנט.",
+    "es": "El Kishke es un relleno hecho de cebolla, harina y especias, que originalmente se preparaba dentro de un intestino y se cocinaba lentamente dentro del cholent durante toda la noche. El nombre proviene del yiddish para intestino. En esta versión moderna y vegana, el relleno se mantiene firme por sí solo sin tripa, resultando en una masa rica y estable. Se puede envolver en papel aluminio y añadir al cholent.",
+    "ar": "الكيشكة هي حشوة من البصل والفرينة والتوابل، في الأصل كانت تتحشى في مصران وتطيب في الشولنت طول الليل. الاسم جاي من الكلمة اليديشية للمصران. في هذي النسخة النباتية الحديثة، الحشوة تقعد متماسكة بروحها بلا مصران، وتجي غنية ومتماسكة — لا ناشفة ولا رخوة. تنجم تلفها في ورق ألومينيوم وتحطها في الشولنت.",
+    "en": "Kishke is a filling made of onion, flour, and spices, originally stuffed into intestinal casing and slow-cooked inside the cholent overnight. The name derives from the Yiddish word for intestine. In this modern vegan version, the filling holds together without casing, producing a rich, stable result — neither dry nor mushy. Can be wrapped in foil and placed in the cholent."
+  },
+  "ingredients": {
+    "he": [
+      "1 בצל גדול קצוץ (כ-200 גרם)",
+      "1 כוס קמח (140 גרם)",
+      "1 כפית מלח",
+      "1 כפית פפריקה",
+      "1/2 כפית פלפל שחור",
+      "4-5 כפות שמן צמחי",
+      "1/2-3/4 כוס מים (להוסיף בהדרגה)"
+    ],
+    "es": [
+      "1 cebolla grande picada (aprox. 200 g)",
+      "1 taza de harina (140 g)",
+      "1 cdta de sal",
+      "1 cdta de pimentón",
+      "1/2 cdta de pimienta negra",
+      "4-5 cdas de aceite vegetal",
+      "1/2 - 3/4 taza de agua (añadir gradualmente)"
+    ],
+    "ar": [
+      "1 بصلة كبيرة مقصوصة (تقريب 200 غرام)",
+      "1 كاس فرينة (140 غرام)",
+      "1 مغرفة صغيرة ملح",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "نصف مغرفة صغيرة فلفل أكحل",
+      "4-5 مغارف زيت نباتي",
+      "نصف لثلاثة أرباع كاس ماء (زيد بشوية)"
+    ],
+    "en": [
+      "1 large onion, chopped (about 200g)",
+      "1 cup flour (140g)",
+      "1 tsp salt",
+      "1 tsp paprika",
+      "1/2 tsp black pepper",
+      "4-5 tbsp vegetable oil",
+      "1/2 - 3/4 cup water (add gradually)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מטגנים את הבצל בשמן עד זהוב עמוק.",
+      "מוסיפים את הקמח ומערבבים 1-2 דקות לציפוי.",
+      "מוסיפים מלח, פפריקה ופלפל שחור.",
+      "מוסיפים מים בהדרגה עד שמתקבלת תערובת סמיכה מאוד, כמו בצק רך ולא נוזלי.",
+      "בדיקת מרקם: אם נשפך — להוסיף עוד מעט קמח. אם יבש ומתפרק — עוד כמה כפות מים.",
+      "ניתן לעטוף בנייר כסף ולהכניס לצ׳ולנט, או להגיש ישירות כתוספת."
+    ],
+    "es": [
+      "Freír la cebolla en aceite hasta un dorado profundo.",
+      "Añadir la harina y mezclar durante 1-2 minutos para cubrir.",
+      "Añadir sal, pimentón y pimienta negra.",
+      "Añadir agua gradualmente hasta obtener una mezcla muy espesa, como una masa blanda pero no líquida.",
+      "Verificar textura: si está líquida, añadir más harina. Si está seca y se desmenuza, añadir unas cucharadas más de agua.",
+      "Se puede envolver en papel de aluminio y colocar en el cholent, o servir directamente como guarnición."
+    ],
+    "ar": [
+      "قلي البصل في الزيت لين يولي ذهبي غامق.",
+      "زيد الفرينة وحرك 1-2 دقيقة باش يتغطى.",
+      "زيد الملح والفلفل الأحمر والفلفل الأكحل.",
+      "زيد الماء بشوية لين تولي عجينة سميكة برشا، كيما عجينة طرية مش سايلة.",
+      "تثبت في القوام: كان سايلة — زيد شوية فرينة. كان ناشفة ومتفتتة — زيد شوية مغارف ماء.",
+      "تنجم تلفها في ورق ألومينيوم وتحطها في الشولنت، ولا تقدمها مباشرة كتكملة."
+    ],
+    "en": [
+      "Fry the onion in oil until deeply golden.",
+      "Add the flour and stir for 1-2 minutes to coat.",
+      "Add salt, paprika, and black pepper.",
+      "Add water gradually until you get a very thick mixture, like a soft dough — not liquid.",
+      "Check texture: if it pours, add a bit more flour. If dry and crumbly, add a few more tablespoons of water.",
+      "Can be wrapped in foil and placed in the cholent, or served directly as a side dish."
+    ]
+  }
+}
