@@ -8,16 +8,16 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "פוטאכס",
-    "es": "Potache (Guiso de Alubias Blancas)",
+    "he": "פוטאכס (תבשיל שעועית לבנה)",
+    "es": "Potache (Guiso de Frijoles Blancos)",
     "ar": "بوتاش (مرقة لوبيا بيضاء)",
     "en": "Potache (White Bean Stew)"
   },
   "description": {
-    "he": "פוטאכס, או פוטחה בספרדית, הוא תבשיל שעועית לבנה עשיר עם שורשים ספרדיים. השם מגיע מהמילה הספרדית לנזיד סמיך. מנה מנחמת זו כוללת שעועית לבנה רכה המבושלת עם ירקות ארומטיים ותבלינים מחממים.",
-    "es": "El Potache, o Potaje, es un guiso contundente de alubias blancas con raíces sefardíes. El nombre deriva de la palabra española para un guiso espeso. Este plato reconfortante presenta alubias blancas tiernas cocinadas a fuego lento con verduras aromáticas y especias cálidas.",
-    "ar": "البوتاش، أو Potaje بالصبنيورية، هي مرقة لوبيا بيضاء خاثرة عندها أصول سفاردية. الاسم جاي من الكلمة الصبنيورية اللي تعني مرقة عاقدة. هذا الطبق يعمل الكيف فيه لوبيا بيضاء طايبة بالباهي مع خضرة فاوحة وتوابل دافية.",
-    "en": "Potaches, or Potaje in Spanish, is a hearty white bean stew with Sephardic roots. The name derives from the Spanish word for a thick stew or pottage. This comforting dish features tender white beans simmered with aromatic vegetables and warming spices."
+    "he": "פוטאכס, או פוטחה (Potaje) בספרדית, הוא תבשיל שעועית לבנה עשיר ומזין עם שורשים מהמטבח הספרדי-יהודי. השם נגזר מהמילה הספרדית לנזיד סמיך. מנה מנחמת זו מורכבת משעועית לבנה נימוחה, המבושלת בבישול איטי עם ירקות ארומטיים ותבלינים מחממים.",
+    "es": "El Potache, o Potaje, es un guiso contundente de frijoles blancos con raíces sefardíes. El nombre deriva de la palabra española para un guiso espeso. Este plato reconfortante se prepara con frijoles blancos tiernos cocinados a fuego lento con verduras aromáticas y especias cálidas.",
+    "ar": "البوتاش، أو Potaje بالصبنيورية، هي مرقة لوبيا بيضاء خاثرة عندها أصول سفاردية. الاسم جاي من الكلمة الصبنيورية اللي تعني مرقة عاقدة. هالطبق يعمل الكيف، متكون من لوبيا بيضاء طايبة سلة سلة مع خضرة فاوحة وتوابل دافية.",
+    "en": "Potache, or Potaje in Spanish, is a hearty white bean stew with Sephardic roots. The name derives from the Spanish word for a thick stew or pottage. This comforting dish features tender white beans simmered with aromatic vegetables and warming spices."
   },
   "ingredients": {
     "he": [
@@ -31,9 +31,9 @@
       "960 מ\"ל מים"
     ],
     "es": [
-      "380 g de alubias blancas, remojadas durante la noche",
-      "4 dientes de ajo, picados o machacados",
-      "2.3 g de pimentón",
+      "380 g de frijoles blancos, remojados durante la noche",
+      "4 dientes de ajo, triturados o picados",
+      "2.3 g de pimentón (paprika)",
       "1.2 g de pimienta blanca",
       "4 g de caldo de verduras en polvo",
       "Sal al gusto",
@@ -42,19 +42,19 @@
     ],
     "ar": [
       "2 كيسان لوبيا بيضاء، منفخة ليلة كاملة",
-      "4 سنات ثوم، مرحي",
+      "4 سنات ثوم، مهروسين",
       "1 مغرفة صغيرة فلفل زينة",
       "نصف مغرفة صغيرة فلفل أبيض",
       "1 مغرفة صغيرة بودرة مرقة خضرة",
       "ملح حسب الذوق",
-      "2 مغارف طماطم حكة",
+      "2 مغارف كبار طماطم حكة",
       "4 كيسان ماء"
     ],
     "en": [
       "2 cups white beans, soaked overnight",
       "4 cloves garlic, minced or crushed",
       "1 tsp paprika",
-      "0.5 tsp white pepper",
+      "1/2 tsp white pepper",
       "1 tsp vegetable bouillon powder",
       "Salt to taste",
       "2 tbsp tomato paste",
@@ -65,26 +65,26 @@
     "he": [
       "מסננים את השעועית הלבנה המושרית ומעבירים לסיר לחץ.",
       "מוסיפים את השום, הפפריקה, הפלפל הלבן, אבקת המרק והמלח.",
-      "מוסיפים את רסק העגבניות והמים. מערבבים לאיחוד.",
-      "סוגרים את סיר הלחץ ומבשלים עד שהשעועית רכה וקרמית."
+      "מוסיפים את רסק העגבניות והמים, ומערבבים היטב.",
+      "סוגרים את סיר הלחץ ומבשלים עד שהשעועית רכה ונימוחה."
     ],
     "es": [
-      "Escurrir las alubias blancas remojadas y colocarlas en una olla a presión.",
+      "Escurrir los frijoles blancos remojados y colocarlos en una olla a presión.",
       "Añadir el ajo, el pimentón, la pimienta blanca, el caldo en polvo y la sal.",
-      "Añadir la pasta de tomate y el agua. Remover para combinar.",
-      "Cerrar la olla a presión y cocinar hasta que las alubias estén tiernas y cremosas."
+      "Agregar la pasta de tomate y el agua. Mezclar bien.",
+      "Cerrar la olla a presión y cocinar hasta que los frijoles estén tiernos y suaves."
     ],
     "ar": [
-      "صفي اللوبيا البيضاء المنفخة وحطها في طنجرة الضغط.",
-      "زيد الثوم، فلفل زينة، فلفل أبيض، بودرة المرقة والملح.",
-      "زيد طماطم الحكة والماء. حرك باش يتخلطوا.",
-      "سكر طنجرة الضغط وطيب لين اللوبيا تولي طرية وعاقدة."
+      "صفي اللوبيا البيضاء المنفخة وحطها في الكوكوت (طنجرة الضغط).",
+      "زيد الثوم، فلفل زينة، الفلفل الأبيض، بودرة المرقة والملح.",
+      "زيد طماطم الحكة والماء. حرك بالباهي باش يتخلط كل شيء.",
+      "سكر الكوكوت وطيب لين اللوبيا تطرى وتولي زبدة."
     ],
     "en": [
-      "Drain the soaked white beans and place in a pressure cooker.",
-      "Add garlic, paprika, white pepper, bouillon powder, and salt.",
-      "Add tomato paste and water. Stir to combine.",
-      "Close pressure cooker and cook until beans are soft and creamy."
+      "Drain the soaked white beans and place them in a pressure cooker.",
+      "Add the garlic, paprika, white pepper, bouillon powder, and salt.",
+      "Add the tomato paste and water, then stir to combine.",
+      "Close the pressure cooker and cook until the beans are soft and creamy."
     ]
   },
   "index": 20

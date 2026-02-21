@@ -1,0 +1,76 @@
+{
+  "id": "charoset",
+  "image": "images/current/charoset/dish.png",
+  "meta": {
+    "servings": "6-8",
+    "prep_time": "15 min",
+    "cook_time": "No cook",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "חרוסת",
+    "es": "Charoset",
+    "ar": "حروست",
+    "en": "Charoset"
+  },
+  "description": {
+    "he": "נקראת על שם המילה העברית חרס, ממרח עתיק זה מסמל את הטיט ששימש את בני ישראל במצרים. מתכון טבעוני זה משלב תמרים צפון אפריקאיים עם תפוחים פריכים ואגוזי מלך. התערובת המתוקה מציעה מרקם עשיר המאזן בצורה מושלמת את המרור בקערת הסדר.",
+    "es": "Llamada así por la palabra hebrea cheres que significa arcilla, esta antigua pasta simboliza el mortero utilizado por los israelitas en Egipto. Esta receta naturalmente vegana combina dátiles norteafricanos con manzanas crujientes y nueces. La mezcla dulce ofrece una textura rica que equilibra perfectamente las hierbas amargas del plato del Séder.",
+    "ar": "مسمية على الكلمة العبرية حرس اللي تعني الطين، هالعجينة القديمة ترمز للملاط اللي استعملوه بني إسرائيل في مصر. الوصفة هذي نباتية وتخلط التمر متاع شمال إفريقيا مع التفاح والجوز. الخليط الحلو عندو قوام غني يوازن بالباهي المرارة متاع الأعشاب في طبق السدر.",
+    "en": "Named for the Hebrew word cheres meaning clay, this ancient paste symbolizes the mortar used by Israelites in Egypt. This naturally vegan recipe combines North African dates with crisp apples and walnuts. The sweet mixture offers a rich texture that perfectly balances the Seder plate's bitter herbs."
+  },
+  "ingredients": {
+    "he": [
+      "200 גרם תמרים מסוג מג'הול, מגולענים וקצוצים",
+      "1 תפוח, קלוף, מנוקה מליבה ומגורר",
+      "100 גרם אגוזי מלך, קצוצים דק או טחונים",
+      "60 מ\"ל יין אדום מתוק"
+    ],
+    "es": [
+      "200 g de dátiles Medjool, deshuesados y picados",
+      "1 manzana, pelada, descorazonada y rallada",
+      "100 g de nueces, finamente picadas o molidas",
+      "60 ml de vino tinto dulce"
+    ],
+    "ar": [
+      "1 ¼ كاس تمر مجدول، منحي العلفة ومقصوص",
+      "1 تفاحة، مقشرة ومرحية",
+      "1 كاس جوز، مقصوص جويد ولا مرحي",
+      "¼ كاس شراب أحمر حلو"
+    ],
+    "en": [
+      "1 ¼ cups Medjool dates, pitted and chopped",
+      "1 apple, peeled, cored, and grated",
+      "1 cup walnuts, finely chopped or ground",
+      "¼ cup sweet red wine"
+    ]
+  },
+  "steps": {
+    "he": [
+      "יש לגלען את התמרים ולקצוץ אותם דק. אם הם יבשים, ניתן להשרות אותם במים חמים למשך 10 דקות תחילה.",
+      "קלפו את התפוח וגררו אותו דק.",
+      "בקערה או במעבד מזון, ערבבו את התמרים, התפוח המגורר והאגוזים הקצוצים. לקבלת מרקם מסורתי דמוי טיט, עבדו בפולסים עד לקבלת ממרח אך השאירו מעט מרקם.",
+      "הוסיפו בהדרגה את היין תוך כדי ערבוב עד לקבלת הסמיכות הרצויה."
+    ],
+    "es": [
+      "Deshuese los dátiles y píquelos finamente. Si están secos, puede remojarlos en agua tibia durante 10 minutos primero.",
+      "Pele y ralle la manzana finamente.",
+      "En un bol o procesador de alimentos, combine los dátiles, la manzana rallada y las nueces picadas. Para una textura tradicional similar al mortero, pulse hasta que se forme una pasta pero quede algo de textura.",
+      "Añada gradualmente el vino mientras mezcla hasta alcanzar la consistencia deseada."
+    ],
+    "ar": [
+      "نحي العلفة للتمر وقصو جويد. كانو شايح، تنجم تنفخو في ماء سخون لمدة 10 دقايق قبل.",
+      "قشر التفاحة وارحيها بالباهي.",
+      "في صحفة ولا ماكينة رحيان، خلط التمر والتفاح المرحي والجوز. باش تتحصل على قوام كيما الملاط التقليدي، ارحي بشوية بشوية لين تولي عجينة أما تقعد فيها طروف.",
+      "زيد الشراب بالشوية وانت تخلط لين تتحصل على القوام اللي تحب عليه."
+    ],
+    "en": [
+      "Pit the dates and chop them finely. If they are dry, you may soak them in warm water for 10 minutes first.",
+      "Peel and grate the apple finely.",
+      "In a bowl or food processor, combine the dates, grated apple, and chopped nuts. For a traditional mortar-like texture, pulse in a food processor until a paste forms but some texture remains.",
+      "Gradually add the wine while mixing until the desired consistency is reached."
+    ]
+  },
+  "image_prompt": "Traditional Jewish Charoset paste in a bowl, made of dates, apples, and nuts, Passover table setting",
+  "index": 49
+}

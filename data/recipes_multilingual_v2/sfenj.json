@@ -8,21 +8,21 @@
     "difficulty": "Medium"
   },
   "name": {
-    "he": "שפינג׳ות",
-    "es": "Sfenj (Rosquillas Magrebíes)",
+    "he": "ספינג'",
+    "es": "Sfenj (Rosquillas magrebíes)",
     "ar": "سفنج",
     "en": "Sfenj (Maghrebi Doughnuts)"
   },
   "description": {
-    "he": "שפינג' מגיע מהמילה הערבית לספוג, שמתארת בצורה מושלמת את המרקם האוורירי של הסופגניות המגרביות האלה. הלביבות המטוגנות הכפריות הללו הן אוכל רחוב אהוב ומאכל מסורתי לחנוכה. הן טבעוניות באופן טבעי ועשויות מבצק שמרים פשוט, ומומלץ ליהנות מהן חמות עם זרייה של סוכר.",
-    "es": "Sfenj proviene de la palabra árabe para esponja, lo que describe perfectamente la textura aireada de estas rosquillas magrebíes. Estos buñuelos rústicos fritos son una comida callejera muy querida y un manjar de Janucá. Naturalmente veganos y hechos de masa de levadura simple, se disfrutan mejor calientes con una pizca de azúcar.",
-    "ar": "السفنج جاي من كلمة سفنج اللي توصف بالظبط التكستير الخفيف والهش متاع هالفطاير المغاربية. هالفطاير المقلية التقليدية هي ماكلة شارع محبوبة وحاجة بنينة ناكلوها في حנוכה. هي نباتية بطبيعتها ومخدومة بعجينة خميرة ساهلة، وأحسن حاجة تتاكل سخونة مع رشة سكر.",
-    "en": "Sfenj comes from the Arabic word for sponge which perfectly describes the airy texture of these Maghrebi doughnuts. These rustic fried fritters are a beloved street food and Hanukkah treat. Naturally vegan and made from simple yeast dough, they are best enjoyed hot with a dusting of sugar."
+    "he": "השם ספינג' מגיע מהמילה הערבית לספוג, שמתארת בצורה מושלמת את המרקם האוורירי של הסופגניות המגרביות האלה. המאפים המטוגנים והכפריים האלה הם אוכל רחוב אהוב ומאכל מסורתי לחנוכה. הם טבעוניים באופן טבעי ועשויים מבצק שמרים פשוט, ומומלץ ליהנות מהם כשהם חמים עם פיזור של סוכר.",
+    "es": "El nombre sfenj proviene de la palabra árabe para esponja, lo que describe perfectamente la textura aireada de estas rosquillas magrebíes. Estos rústicos buñuelos fritos son una comida callejera muy querida y un manjar tradicional de Janucá. Son naturalmente veganos, están hechos con una sencilla masa con levadura, y se disfrutan mejor calientes y espolvoreados con azúcar.",
+    "ar": "السفنج جاي من كلمة إسفنج اللي توصف بالظبط القوام الخفيف والمهوي متاع هالفطاير المغاربية. هالفطاير المقلية التقليدية هي ماكلة شارع محبوبة وحاجة بنينة ناكلوها في عيد الحانوكا. هي نباتية بطبيعتها ومخدومة بعجينة خميرة ساهلة، وأحسن حاجة تتاكل سخونة مع رشة سكر.",
+    "en": "Sfenj comes from the Arabic word for sponge, which perfectly describes the airy texture of these Maghrebi doughnuts. These rustic fried fritters are a beloved street food and Hanukkah treat. Naturally vegan and made from a simple yeast dough, they are best enjoyed hot with a dusting of sugar."
   },
   "ingredients": {
     "he": [
       "500 גרם קמח, מנופה",
-      "350 מ\"ל מים, חמימים",
+      "350 מ\"ל מים חמימים",
       "10 גרם שמרים יבשים",
       "6 גרם מלח",
       "שמן צמחי לטיגון עמוק",
@@ -30,61 +30,61 @@
     ],
     "es": [
       "500 g de harina, tamizada",
-      "350 ml de agua, tibia",
+      "350 ml de agua tibia",
       "10 g de levadura seca activa",
       "6 g de sal",
       "Aceite vegetal para freír",
-      "Azúcar para cubrir"
+      "Azúcar para espolvorear"
     ],
     "ar": [
       "4 كيسان فرينة، مغربلة",
-      "1.5 كيسان ماء، دافي",
-      "1 مغرفة خميرة",
-      "1 مغرفة صغيرة ملح",
+      "كاس ونص ماء دافي",
+      "مغرفة كبيرة خميرة خبز",
+      "مغرفة صغيرة ملح",
       "زيت نباتي للقلي",
       "سكر للزينة"
     ],
     "en": [
       "4 cups all-purpose flour, sifted",
-      "1.5 cups water, warm",
+      "1 ½ cups warm water",
       "1 tbsp active dry yeast",
       "1 tsp salt",
-      "Vegetable oil for deep frying",
-      "Sugar for coating"
+      "Vegetable oil, for deep frying",
+      "Sugar, for dusting"
     ]
   },
   "steps": {
     "he": [
       "הכינו את הבצק: ערבבו קמח, שמרים, מלח ומים חמימים ליצירת בצק רך ודביק. לושו היטב.",
-      "כסו והניחו לבצק לתפוח במקום חמים עד שהוא מכפיל את נפחו.",
-      "חממו שמן עמוק בסיר רחב.",
-      "לאחר שהבצק תפח, שמנו את הידיים בשמן או מים. קחו חתיכת בצק (בגודל כדור טניס), מתחו אותה בעדינות ליצירת טבעת או צורה כפרית.",
-      "הניחו בזהירות בשמן החם וטגנו עד להזהבה משני הצדדים.",
-      "הוציאו מהשמן וסננו. אפשר לזרות סוכר בעודן חמות."
+      "כסו והתפיחו את הבצק במקום חמים עד להכפלת הנפח.",
+      "חממו שמן לטיגון עמוק בסיר רחב.",
+      "לאחר שהבצק תפח, שמנו את הידיים במעט שמן או הרטיבו במים. קחו חתיכת בצק (בערך בגודל כדור טניס), ומתחו אותה בעדינות ליצירת צורת טבעת כפרית.",
+      "הכניסו בזהירות לשמן החם וטגנו משני הצדדים עד להזהבה.",
+      "הוציאו מהשמן והעבירו לנייר סופג. מומלץ לפזר סוכר בעודם חמים."
     ],
     "es": [
-      "Prepare la masa: Mezcle la harina, la levadura, la sal y el agua tibia para crear una masa suave y pegajosa. Amase bien.",
-      "Cubra y deje levar la masa en un lugar cálido hasta que duplique su volumen.",
-      "Caliente abundante aceite en una sartén ancha.",
-      "Una vez que la masa haya subido, engrase sus manos con aceite o agua. Tome un trozo de masa (del tamaño de una pelota de tenis), estírelo suavemente para crear un anillo o una forma rústica.",
-      "Coloque con cuidado en el aceite caliente y fría hasta que estén dorados por ambos lados.",
-      "Retire del aceite y escurra. Opcionalmente espolvoree con azúcar mientras están calientes."
+      "Prepare la masa: mezcle la harina, la levadura, la sal y el agua tibia hasta obtener una masa suave y pegajosa. Amase bien.",
+      "Cubra la masa y déjela levar en un lugar cálido hasta que duplique su volumen.",
+      "Caliente abundante aceite en una sartén ancha o cacerola.",
+      "Una vez que la masa haya levado, engrásese las manos con aceite o agua. Tome una porción de masa (del tamaño de una pelota de tenis) y estírela suavemente para formar un anillo de aspecto rústico.",
+      "Colóquela con cuidado en el aceite caliente y fría hasta que esté dorada por ambos lados.",
+      "Retire del aceite y escurra sobre papel absorbente. Si lo desea, espolvoree con azúcar mientras aún están calientes."
     ],
     "ar": [
-      "حضّر العجينة: خلط الفرينة، الخميرة، الملح والماء الدافي باش تعمل عجينة طرية وتتلصق. اعجنها مليح.",
-      "غطّيها وخلي العجينة تخمر في بلاصة دافية لين يضاعف حجمها.",
-      "سخّن زيت غزير في طنجرة واسعة.",
-      "بعد ما تخمر العجينة، ادهن يديك بالزيت ولا الماء. خوذ طرف عجينة (قد كعبة التنس)، جبدها بشوية باش تعمل شكل كعكة ولا شكل ريفي.",
-      "حطها بالشوية في الزيت السخون واقليها لين تحمار من الجهتين.",
-      "خرجها من الزيت وقطرها. تنجم ترش عليها السكر وهي سخونة."
+      "حضّر العجينة: خلط الفرينة، الخميرة، الملح والماء الدافي باش تتحصل على عجينة طرية وتتلصق. اعجنها مليح.",
+      "غطّيها وخلي العجينة تخمر في بلاصة دافية لين يتضاعف حجمها.",
+      "سخّن زيت غزير في مقلة واسعة ولا طنجرة.",
+      "بعد ما تخمر العجينة، ادهن يديك بشوية زيت ولا ماء. خوذ طريف عجينة (قد كعبة التنس)، اجبدها بشوية باش تعمل شكل كعكة (حلقة).",
+      "حطها بالشوية في الزيت السخون واقليها لين تحمار من الشيرتين.",
+      "خرجها من الزيت وقطرها. تنجم ترش عليها السكر وهي مازالت سخونة."
     ],
     "en": [
-      "Prepare the dough: Mix flour, yeast, salt, and warm water to create a soft, sticky dough. Knead well.",
-      "Cover and let the dough rise in a warm place until it doubles in volume.",
-      "Heat deep oil in a wide pan.",
-      "Once the dough has risen, grease your hands with oil or water. Take a piece of dough (about the size of a tennis ball), stretch it gently to create a ring or rustic shape.",
-      "Place carefully into the hot oil and fry until golden brown on both sides.",
-      "Remove from oil and drain. Optionally sprinkle with sugar while hot."
+      "Prepare the dough: Mix the flour, yeast, salt, and warm water to create a soft, sticky dough. Knead well.",
+      "Cover and let the dough rise in a warm place until it doubles in size.",
+      "Heat a few inches of oil in a wide, deep pan for frying.",
+      "Once the dough has risen, grease your hands with oil or water. Take a piece of dough (about the size of a tennis ball) and stretch it gently to create a rustic ring shape.",
+      "Carefully place it into the hot oil and fry until golden brown on both sides.",
+      "Remove from the oil and drain on paper towels. Sprinkle with sugar while still hot, if desired."
     ]
   },
   "image_prompt": "Golden brown Moroccan sfenj doughnuts being fried in oil, rustic shape, sprinkled with sugar, high resolution food photography",

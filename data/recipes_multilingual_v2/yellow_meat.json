@@ -14,14 +14,14 @@
     "en": "Yellow Meat (Basar Tzahov)"
   },
   "description": {
-    "he": "בשר צהוב (בסר צהוב) הוא תרגום למסורת הצפון-אפריקאית של סיווג תבשילים לפי צבע הרוטב. גרסה צמחית זו מחליפה את הבקר בסייטן עשיר בטעמים, תוך שמירה על פרופיל הכורכום והבצל הקלאסי. המנה לוכדת את המהות של סגנון ה'זערה' הזהוב מהמטבח הג'רבאי.",
-    "es": "Basar Tzahov significa Carne Amarilla en hebreo y sigue la tradición norteafricana de categorizar los guisos por el color de su salsa. Esta versión vegetal sustituye la carne de res por seitán sabroso, manteniendo el perfil clásico de cúrcuma y cebolla. Captura la esencia del estilo dorado Za'ara de la cocina de Djerba.",
-    "ar": "البسر צהוב (اللحم الأصفر) يتبع العادة في شمال إفريقيا بتصنيف المرقة حسب لونها. هذي الوصفة نباتية، بدلنا اللحم بالسيتان (seitan) أما حافظنا على بنة الكركم والبصل التقليدية. الوصفة هذي فيها ريحة المرقة الزعرة الذهبية متاع جربة.",
+    "he": "השם 'בשר צהוב' משקף את המסורת הצפון-אפריקאית של סיווג תבשילים לפי צבע הרוטב. גרסה צמחית זו מחליפה את הבקר בסייטן עשיר בטעמים, תוך שמירה על פרופיל הכורכום והבצל הקלאסי. המנה לוכדת את המהות של סגנון ה'זערה' הזהוב מהמטבח הג'רבאי.",
+    "es": "Basar Tzahov significa Carne Amarilla en hebreo y sigue la tradición norteafricana de categorizar los guisos por el color de su salsa. Esta versión vegetal sustituye la carne por un sabroso seitán, manteniendo el perfil clásico de cúrcuma y cebolla. Captura la esencia del estilo dorado Za'ara de la cocina de Djerba.",
+    "ar": "تسمية 'بصار تساهوف' (اللحم الأصفر) تتبع العادة في شمال إفريقيا بتصنيف المرقة حسب لونها. هذي الوصفة نباتية، بدلنا اللحم بالسيتان (seitan) أما حافظنا على بنة الكركم والبصل التقليدية. الوصفة هذي فيها ريحة المرقة الزعرة الذهبية متاع جربة.",
     "en": "Basar Tzahov means Yellow Meat in Hebrew and follows the North African tradition of categorizing stews by sauce color. This plant-based version replaces beef with savory seitan while maintaining the classic turmeric and onion profile. It captures the essence of the golden Za'ara style found in Djerban cuisine."
   },
   "ingredients": {
     "he": [
-      "1.5 ק\"ג צלי סייטן (גוש גלוטן)",
+      "1.5 ק\"ג נתח סייטן (גוש גלוטן חיטה)",
       "8 גרם אבקת בצל",
       "2 בצלים גדולים, קצוצים",
       "30 מ\"ל שמן צמחי",
@@ -34,12 +34,12 @@
       "250 מ\"ל מים"
     ],
     "es": [
-      "1.5 kg de asado de seitán (bloque de gluten)",
+      "1.5 kg de asado de seitán (bloque de gluten de trigo)",
       "8 g de cebolla en polvo",
       "2 cebollas grandes, picadas",
       "30 ml de aceite vegetal",
       "9 g de cúrcuma",
-      "11 g de caldo de pollo vegano en polvo",
+      "11 g de caldo sabor pollo (vegano) en polvo",
       "3 hojas de laurel",
       "6 granos de pimienta negra enteros",
       "Pimienta negra molida al gusto",
@@ -48,13 +48,13 @@
     ],
     "ar": [
       "1.5 كغ روتي سيتان (جلوتين)",
-      "1 مغرفة بودرة بصل",
-      "2 بصلات كبار، مقصوصين",
-      "2 مغارف زيت",
-      "1 مغرفة كركم",
-      "1 مغرفة تابل دجاج نباتي (أو كنور)",
+      "1 مغرفة كبيرة بودرة بصل",
+      "2 كعبات بصل كبار، مقصوصين جويد",
+      "2 مغارف كبار زيت",
+      "1 مغرفة كبيرة كركم",
+      "1 مغرفة كبيرة تابل دجاج نباتي (أو مكعب مرق)",
       "3 ورقات رند",
-      "6 كعبات فلفل أكحل",
+      "6 كعبات فلفل أكحل حب",
       "فلفل أكحل مرحي حسب الذوق",
       "ملح حسب الذوق",
       "1 كاس (تقريباً) ماء"
@@ -76,35 +76,35 @@
   "steps": {
     "he": [
       "מחממים תנור ל-160 מעלות. מעסים היטב את נתח הסייטן באבקת הבצל.",
-      "מניחים את הנתח בתבנית ואוטמים היטב בנייר כסף. אופים בתנור במשך שעתיים וחצי עד שהנתח רך.",
+      "מניחים את הנתח בתבנית ועוטפים היטב ברדיד אלומיניום (נייר כסף). אופים בתנור במשך שעתיים וחצי עד שהנתח רך.",
       "מוציאים מהתנור ומניחים להתקרר מעט. פורסים את הנתח לפרוסות הגשה.",
       "בסיר רחב, מחממים את השמן ומטגנים את הבצל הקצוץ עד להזהבה.",
-      "מוסיפים לבצל את הכורכום, אבקת המרק, מלח, פלפל טחון, גרגירי הפלפל ועלי הדפנה. מערבבים קלות לפתיחת הטעמים.",
-      "מוסיפים את פרוסות הנתח לסיר. מוסיפים מים (כ-250 מ\"ל או עד ליצירת רוטב, אך לא לכיסוי מלא). מכסים ומבשלים על אש נמוכה כ-20-30 דקות נוספות לספיגת טעמים."
+      "מוסיפים לבצל את הכורכום, אבקת המרק, מלח, פלפל שחור גרוס, גרגירי הפלפל ועלי הדפנה. מערבבים קלות לפתיחת הטעמים.",
+      "מוסיפים את פרוסות הסייטן לסיר. מוסיפים מים (כ-250 מ\"ל, מספיק ליצירת רוטב אך לא לכיסוי מלא של הפרוסות). מכסים ומבשלים על אש נמוכה כ-20-30 דקות נוספות לספיגת טעמים."
     ],
     "es": [
-      "Precalentar el horno a 160°C. Masajear bien la pieza de carne vegetal con la cebolla en polvo.",
-      "Colocar la carne en una fuente y sellar herméticamente con papel de aluminio. Hornear durante 2,5 horas hasta que esté tierna.",
-      "Sacar del horno y dejar enfriar un poco. Cortar la carne en rodajas para servir.",
-      "En una olla ancha, calentar el aceite y sofreír las cebollas picadas hasta que estén doradas.",
-      "Añadir la cúrcuma, el caldo en polvo, la sal, la pimienta molida, los granos de pimienta y el laurel. Remover brevemente para liberar los aromas.",
-      "Añadir las rodajas de carne a la olla. Agregar agua (aprox. 250 ml, suficiente para crear salsa pero sin cubrir totalmente). Tapar y cocinar a fuego lento otros 20-30 minutos para que se mezclen los sabores."
+      "Precalentar el horno a 160°C. Frotar bien la pieza de seitán con la cebolla en polvo.",
+      "Colocar el seitán en una fuente para horno y cubrir herméticamente con papel aluminio. Hornear durante 2,5 horas hasta que esté tierno.",
+      "Retirar del horno y dejar enfriar un poco. Cortar el seitán en rodajas para servir.",
+      "En una olla ancha, calentar el aceite y sofreír la cebolla picada hasta que esté dorada.",
+      "Añadir la cúrcuma, el caldo en polvo, la sal, la pimienta molida, los granos de pimienta y las hojas de laurel. Remover brevemente para liberar los aromas.",
+      "Incorporar las rodajas de seitán a la olla. Agregar el agua (aprox. 250 ml, suficiente para crear una salsa pero sin cubrir por completo). Tapar y cocinar a fuego lento durante 20-30 minutos más para que los sabores se integren."
     ],
     "ar": [
-      "سخّن الفور (الكوشة) في 160 درجة. ادهن الروتي مليح ببودرة البصل.",
-      "حط الروتي في طبق وغطيه مليح بالبابיי ألومنيوم. طيّب في الفور ساعتين ونص حتى يولي طري.",
-      "خرّج الطبق من الفور وخليه يبرد شوية. قص الروتي طروف طروف (شرائح).",
-      "في طنجرة واسعة، سخّن الزيت وقلي البصل المقصوص لين يولي لونه ذهبي.",
-      "زيد الكركم، تابل الدجاج، الملح، الفلفل الأكحل، كعبات الفلفل، والرند للبصل. حرك شوية بش تخرج الريحة.",
-      "حط طروف الروتي في الطنجرة. زيد الماء (تقريباً كاس، بش تعمل مرقة أما ما تغمّش اللحم الكل). غطي الطنجرة وخلّيها تطيب (تكتك) على نار هادية 20-30 دقيقة بش تدخل البنة في بعضها."
+      "سخّن الفور على 160 درجة. فوّح الروتي مليح ببودرة البصل.",
+      "حط الروتي في طبق وغطيه مليح ببابيي أليمينيوم. خليه يطيب في الفور ساعتين ونص حتى يولي طري.",
+      "خرّج الطبق من الفور وخليه يبرد شوية. قص الروتي طروف (شرائح).",
+      "في طنجرة واسعة، سخّن الزيت وذبل البصل المقصوص لين يولي لونه ذهبي.",
+      "زيد الكركم، تابل الدجاج، الملح، الفلفل الأكحل المرحي والحب، وورقات الرند. حرك شوية بش تخرج ريحة الفاح.",
+      "حط طروف الروتي في الطنجرة. زيد الماء (تقريباً كاس، بش تعمل صوص أما ما تغمّش اللحم الكل). غطي الطنجرة وخلّيها تكتك على نار هادية 20-30 دقيقة بش تدخل البنة في بعضها."
     ],
     "en": [
-      "Preheat oven to 160°C (320°F). Massage the whole piece of meat thoroughly with onion powder.",
-      "Place the meat in a baking dish and seal tightly with aluminum foil. Cook in the oven for 2.5 hours until tender.",
-      "Remove meat from the oven and let it cool slightly. Slice the meat into serving portions.",
-      "In a wide pot, heat the oil and fry the diced onions until they turn golden brown.",
-      "Add the turmeric, chicken seasoning, salt, ground pepper, whole peppercorns, and bay leaves to the onions. Stir briefly to release aromatics.",
-      "Add the sliced meat to the pot. Add water (approx 250ml or enough to create a sauce but not submerge completely). Cover and simmer on low heat for another 20-30 minutes to let flavors meld."
+      "Preheat the oven to 160°C (320°F). Rub the seitan roast thoroughly with the onion powder.",
+      "Place the roast in a baking dish and cover tightly with aluminum foil. Bake for 2.5 hours until tender.",
+      "Remove from the oven and let cool slightly. Slice the roast into serving portions.",
+      "In a wide pot, heat the oil and sauté the diced onions until golden brown.",
+      "Add the turmeric, bouillon powder, salt, ground pepper, whole peppercorns, and bay leaves. Stir briefly to toast the spices and release their aromatics.",
+      "Add the sliced seitan to the pot. Pour in the water (approx. 250ml, or enough to create a sauce without fully submerging the slices). Cover and simmer on low heat for 20-30 minutes to allow the flavors to meld."
     ]
   },
   "index": 14

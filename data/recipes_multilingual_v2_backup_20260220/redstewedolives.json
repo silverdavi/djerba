@@ -1,0 +1,111 @@
+{
+  "id": "redstewedolives",
+  "image": "images/current/redstewedolives/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "15 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "זיתים ברוטב אדום",
+    "es": "Aceitunas Guisadas Rojas",
+    "ar": "زيتون طبيخ",
+    "en": "Red Stewed Olives (Zaytun T'bikh)"
+  },
+  "description": {
+    "he": "זיתון פירושו זית בערבית-יהודית וזהו שמו של סלט מבושל ורך זה. מוגש באופן מסורתי כחלק משולחן הקמיה, גרסה טבעונית זו מבשלת זיתים ירוקים חלוטים ברוטב עגבניות ושום עשיר. זוהי מנה ראשונה מלוחה המושלמת לניגוב עם לחם טרי.",
+    "es": "Zaytun significa aceituna en judeoárabe y da nombre a esta tierna ensalada cocida. Servida tradicionalmente como parte de la kemia, esta versión vegana cocina a fuego lento aceitunas verdes blanqueadas en una rica salsa de tomate y ajo. Es un aperitivo sabroso perfecto para acompañar con pan fresco.",
+    "ar": "الزيتون هو أساس هالسلطة المطبوخة الطرية. تتقدم عادة مع الكيمية، وهالنسخة النباتية فيها زيتون أخضر مسموط ومطبوخ في مرقة طماطم وثوم بنينة. هي مقبلات مالحة وتواتي برشا التغماس بالخبز الجديد.",
+    "en": "Zaytun means olive in Judeo-Arabic and names this tender cooked salad. Traditionally served as part of the kemia spread, this vegan version simmers blanched green olives in a rich tomato and garlic sauce. It is a savory appetizer perfect for scooping up with fresh bread."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם זיתים ירוקים, מגולענים (משומרים או בצנצנת)",
+      "1.5 גרם כורכום (להרתחת הזיתים)",
+      "30 מ\"ל שמן צמחי (לטיגון)",
+      "4 שיני שום, כתושות",
+      "35 גרם רסק עגבניות",
+      "7 גרם פפריקה מתוקה",
+      "5 גרם אבקת מרק ירקות (או אבקת מרק בטעם עוף פרווה)",
+      "מלח לפי הטעם (הזיתים כבר מלוחים)",
+      "פלפל שחור לפי הטעם",
+      "240 מ\"ל מים (בערך)",
+      "0.5 צרור כוסברה טרייה, קצוצה"
+    ],
+    "es": [
+      "500 g de aceitunas verdes, sin hueso (en conserva)",
+      "1.5 g de cúrcuma (para hervir)",
+      "30 ml de aceite vegetal (para freír)",
+      "4 dientes de ajo, picados",
+      "35 g de pasta de tomate",
+      "7 g de pimentón dulce",
+      "5 g de caldo de verduras en polvo (o condimento sabor pollo vegano)",
+      "Sal al gusto (las aceitunas ya son saladas)",
+      "Pimienta negra al gusto",
+      "240 ml de agua (aproximadamente)",
+      "0.5 manojo de cilantro fresco, picado"
+    ],
+    "ar": [
+      "3.5 كيسان زيتون أخضر، منحي القلوب (حكة)",
+      "0.5 مغرفة صغيرة كركم (للسمطان)",
+      "2 مغارف زيت (للقلي)",
+      "4 سنات ثوم، مرحي",
+      "2 مغارف طماطم حكة",
+      "1 مغرفة فلفل زينة (أحمر)",
+      "1 مغرفة صغيرة تابل دجاج (أو مرقة خضرة)",
+      "ملح حسب الذوق (الزيتون ديجا مالح)",
+      "فلفل أكحل حسب الذوق",
+      "1 كأس ماء (تقريب)",
+      "0.5 ربطة كسبر أخضر، مقصوص"
+    ],
+    "en": [
+      "3.5 cups green olives, pitted (canned or jarred)",
+      "0.5 tsp turmeric (for boiling)",
+      "2 tbsp vegetable oil (for frying)",
+      "4 cloves garlic, minced",
+      "2 tbsp tomato paste",
+      "1 tbsp sweet paprika",
+      "1 tsp vegetable bouillon powder (or vegan chicken-style seasoning)",
+      "Salt to taste (olives are already salty)",
+      "Black pepper to taste",
+      "1 cup water (approximately)",
+      "0.5 bunch fresh cilantro, chopped"
+    ]
+  },
+  "steps": {
+    "he": [
+      "הניחו את הזיתים בסיר, כסו במים והוסיפו את הכורכום. הביאו לרתיחה ובשלו כ-10-15 דקות. פעולה זו מסירה עודפי מלח ומרירות. סננו והניחו בצד.",
+      "בסיר קטן, חממו את השמן וטגנו את השום הכתוש קלות עד שיעלה ריח (אל תשרפו).",
+      "הוסיפו את רסק העגבניות והתבלינים (פפריקה, מלח, פלפל, אבקת מרק). ערבבו היטב לפתיחת טעמי התבלינים.",
+      "הוסיפו מים (כ-240 מ\"ל) ליצירת רוטב והביאו לרתיחה עדינה.",
+      "הוסיפו את הזיתים המסוננים לרוטב. כסו ובשלו על אש נמוכה כ-15-20 דקות עד שהרוטב מסמיך ועוטף את הזיתים.",
+      "הורידו מהאש וערבבו פנימה את הכוסברה הקצוצה לפני ההגשה."
+    ],
+    "es": [
+      "Coloque las aceitunas en una olla, cubra con agua y añada la cúrcuma. Lleve a ebullición y cocine durante unos 10-15 minutos. Esto elimina el exceso de sal y el amargor. Escurra y reserve.",
+      "En una cacerola, caliente el aceite y fría el ajo picado brevemente hasta que esté fragante (no lo queme).",
+      "Añada la pasta de tomate y las especias (pimentón, sal, pimienta, condimento de pollo). Remueva bien para liberar los sabores de las especias.",
+      "Añada agua (aprox. 240 ml) para crear una salsa y lleve a fuego lento.",
+      "Añada las aceitunas escurridas a la salsa. Tape y cocine a fuego lento durante unos 15-20 minutos hasta que la salsa espese y cubra las aceitunas.",
+      "Retire del fuego e incorpore el cilantro picado antes de servir."
+    ],
+    "ar": [
+      "حط الزيتون في طنجرة، غمه بالماء وزيد الكركم. خليه يغلي وطيبه حكاية 10-15 دقيقة. هكا يتنحى الملح الزايد والمرارة. صفيه وخليه على شيرة.",
+      "في طنجرة، سخن الزيت وقلي الثوم المرحي شوية لين تطلع ريحته (رد بالك يتحرق).",
+      "زيد طماطم الحكة والفاحات (فلفل زينة، ملح، فلفل أكحل، تابل دجاج). حرك مليح باش الفاحات تخرج بنتها.",
+      "زيد الماء (حكاية كأس) باش تعمل مرقة وخليها تغلي شوية.",
+      "ارمي الزيتون المصفى في المرقة. غطي الطنجرة وطيّب على نار هادية حكاية 15-20 دقيقة لين المرقة تعقاد وتشرب الزيتون.",
+      "نحيها من النار وخلط معاها الكسبر المقصوص قبل ما تقدمها."
+    ],
+    "en": [
+      "Place the olives in a pot, cover with water, and add the turmeric. Bring to a boil and cook for about 10-15 minutes. This removes excess salt and bitterness. Drain and set aside.",
+      "In a saucepan, heat the oil and fry the minced garlic briefly until fragrant (do not burn).",
+      "Add the tomato paste and spices (paprika, salt, pepper, chicken seasoning). Stir well to open the flavors of the spices.",
+      "Add water (approx 1 cup) to create a sauce and bring to a simmer.",
+      "Add the drained olives to the sauce. Cover and simmer on low heat for about 15-20 minutes until the sauce thickens and coats the olives.",
+      "Remove from heat and stir in the chopped cilantro before serving."
+    ]
+  },
+  "index": 46
+}

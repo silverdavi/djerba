@@ -1,0 +1,87 @@
+{
+  "id": "humus_salad",
+  "image": "images/current/humus_salad/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "No cook",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט חומוס",
+    "es": "Slatet Homs",
+    "ar": "سلاطة حمّص",
+    "en": "Slatet Homs (Tunisian Chickpea Salad)"
+  },
+  "description": {
+    "he": "סלטת חומוס היא סלט תוניסאי כפרי המורכב מגרגרי חומוס שלמים ולא מהממרח החלק המוכר במטבח הלבנטיני. מנה טבעונית זו משלבת לימון כבוש וכוסברה טרייה לפרופיל טעמים רענן. היא משמשת כמתאבן קמיה בסיסי בבתים ג'רבאיים לפתיחת סעודות שבת חגיגיות.",
+    "es": "Slatet Homs es una ensalada tunecina rústica que presenta garbanzos enteros en lugar del puré suave que se encuentra en el hummus levantino. Este plato, naturalmente vegano, combina limón encurtido y cilantro fresco para un perfil de sabor brillante. Sirve como un aperitivo básico de kemia en los hogares de Djerba para comenzar las comidas festivas de Shabat.",
+    "ar": "سلاطة حمّص هي سلاطة تونسية ريفية فيها حمّص حب مش مرحي كيف الحمص الشامي. هذا الطبق نباتي ويخلط بين الليمون المصيّر والكزبرة الطازجة لطعم منعش. هي جزء أساسي من الكمية في ديار جربة وتتقدم قبل عشاء السبت.",
+    "en": "Slatet Homs is a rustic Tunisian salad featuring whole chickpeas rather than the smooth puree found in Levantine hummus. This naturally vegan dish combines preserved lemon and fresh cilantro for a bright flavor profile. It serves as a staple kemia appetizer in Djerban homes to begin festive Shabbat meals."
+  },
+  "ingredients": {
+    "he": [
+      "250 גרם גרגרי חומוס, מסוננים ושטופים",
+      "1/2 לימון כבוש, קצוץ דק",
+      "1/2 צרור כוסברה טרייה, קצוצה",
+      "2.3 גרם פפריקה מתוקה",
+      "30 מ\"ל שמן זית",
+      "15 מ\"ל מיץ לימון",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "250 g de garbanzos, escurridos y enjuagados",
+      "1/2 limón encurtido, picado finamente",
+      "1/2 manojo de cilantro fresco, picado",
+      "2.3 g de pimentón dulce",
+      "30 ml de aceite de oliva",
+      "15 ml de jugo de limón",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "1.5 كاس حمّص، مسقطر ومشلل",
+      "1/2 كعبة قارص مصيّر، مقصوصة جويدة",
+      "1/2 ربطة كزبرة خضراء، مقصوصة",
+      "1 مغرفة صغيرة فلفل أحمر",
+      "2 مغارف زيت زيتونة",
+      "1 مغرفة عصير قارص",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "1.5 cups chickpeas, drained and rinsed",
+      "1/2 preserved lemon, finely chopped",
+      "1/2 bunch fresh cilantro, chopped",
+      "1 tsp sweet paprika",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים ושוטפים היטב את גרגרי החומוס המשומרים.",
+      "קוצצים דק את הלימון הכבוש (קליפה וציפה) ואת הכוסברה הטרייה.",
+      "בקערת ערבוב, מערבבים את החומוס, הלימון הקצוץ, הכוסברה, הפפריקה, שמן הזית ומיץ הלימון.",
+      "טועמים לפני הוספת מלח, מכיוון שהלימון הכבוש מלוח מטבעו. מתקנים תיבול ומגישים קר או בטמפרטורת החדר."
+    ],
+    "es": [
+      "Escurrir y enjuagar bien los garbanzos en conserva.",
+      "Picar finamente el limón encurtido (cáscara y pulpa) y el cilantro fresco.",
+      "En un bol, mezclar los garbanzos, el limón picado, el cilantro, el pimentón, el aceite de oliva y el jugo de limón.",
+      "Probar antes de añadir sal, ya que los limones encurtidos son naturalmente salados. Ajustar la sazón y servir frío o a temperatura ambiente."
+    ],
+    "ar": [
+      "سقطر الحمّص وشلله مليح بالماء.",
+      "قص القارص المصيّر (القشرة واللب) والكزبرة الخضراء جويدين.",
+      "في صحفة، خلط الحمّص، القارص المقصوص، الكزبرة، الفلفل الأحمر، زيت الزيتونة، وعصير القارص.",
+      "ذوق قبل ما تزيد الملح، خاطر القارص المصيّر مالح بطبيعته. عدّل الملح وقدمها باردة وإلا بحرارة الغرفة."
+    ],
+    "en": [
+      "Drain and thoroughly rinse the canned chickpeas.",
+      "Finely chop the preserved lemon (rind and pulp) and the fresh cilantro.",
+      "In a mixing bowl, combine the chickpeas, chopped lemon, cilantro, paprika, olive oil, and lemon juice.",
+      "Taste before adding salt, as the preserved lemons are naturally salty. Adjust seasoning and serve cold or at room temperature."
+    ]
+  },
+  "index": 43
+}

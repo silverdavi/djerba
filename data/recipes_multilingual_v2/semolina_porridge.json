@@ -14,17 +14,17 @@
     "en": "Semolina Porridge"
   },
   "description": {
-    "he": "המנה ידועה בשם דייסת סולת בעברית או עסידה בערבית, שמשמעותן גרעינים גרוסים או פודינג בחוש. גרסה טבעונית זו מחליפה את החלב בחלב צמחי קרמי תוך שמירה על המסורת הצפון אפריקאית. סולת דקה מתבשלת למאכל בוקר חלק ומוגשת עם קינמון וסוכר.",
-    "es": "Conocido como Daysat Solet en hebreo o Assida en árabe, este plato significa grano triturado o pudín revuelto. Esta adaptación vegana reemplaza los lácteos con leche vegetal cremosa mientras honra la tradición norteafricana. La sémola fina se cocina hasta convertirse en un desayuno suave terminado con canela y azúcar.",
-    "ar": "معروفة باسم دايסת סולת بالعبرية أو عصيدة بالعربي، ومعناها حبوب مرحية أو عصيدة محركة. هالوصفة النباتية تبدل الحليب بحليب نباتي كريمي وتحافظ على التقاليد متاع شمال إفريقيا. السميد الرطب يطيب ويولي فطور صباح رطب ومزين بالقرفة والسكر.",
-    "en": "Known as Daysat Solet in Hebrew or Assida in Arabic, this porridge means \"crushed grain\" or \"stirred pudding.\" This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar."
+    "he": "המנה ידועה כדייסת סולת בעברית או עסידה בערבית, שפירושן דגן גרוס או דייסה בחושה. גרסה טבעונית זו מחליפה את החלב בחלב צמחי קרמי תוך שמירה על המסורת הצפון אפריקאית. סולת דקה מתבשלת למנת בוקר חלקה ומוגשת עם קינמון וסוכר.",
+    "es": "Conocida como Dayesat Solet en hebreo o Assida en árabe, el nombre de este plato significa \"grano triturado\" o \"gachas batidas\". Esta adaptación vegana reemplaza los lácteos con leche vegetal cremosa mientras honra la tradición norteafricana. La sémola fina se cocina hasta obtener un desayuno de textura suave, coronado con canela y azúcar.",
+    "ar": "معروفة باسم دايسات سوليت بالعبرية ولا عصيدة بالعربية، ومعناها حبوب مرحية ولا عصيدة مخلطة. هالوصفة النباتية تبدل الحليب بحليب نباتي كريمي وتحافظ على التقاليد متاع شمال إفريقيا. السميد الأرطب يطيب ويولي فطور صباح بنين وخفيف، ومزين بالقرفة والسكر.",
+    "en": "Known as Dayesat Solet in Hebrew or Assida in Arabic, the name of this porridge means \"crushed grain\" or \"stirred pudding.\" This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar."
   },
   "ingredients": {
     "he": [
       "500 מ\"ל חלב סויה או שיבולת שועל לא ממותק",
       "60 גרם סולת (דקה)",
       "15 גרם סוכר",
-      "15 גרם חמאה טבעונית (אופציונלי)",
+      "15 גרם חמאה טבעונית (רשות)",
       "קינמון טחון לפי הטעם"
     ],
     "es": [
@@ -35,16 +35,16 @@
       "Canela molida al gusto"
     ],
     "ar": [
-      "2.1 كيسان حليب صوجا ولا خرطال مش حلو",
-      "5 مغارف سميد (رطب)",
-      "1.2 مغرفة سكر",
-      "1 مغرفة زبدة نباتية (اختياري)",
+      "زوز كيسان (500 مل) حليب صوجا ولا شوفان مش حلو",
+      "5 مغارف كبار سميد أرطب",
+      "مغرفة كبيرة سكر",
+      "مغرفة كبيرة زبدة نباتية (اختياري)",
       "قرفة مرحية حسب الذوق"
     ],
     "en": [
-      "2.1 cups unsweetened soy or oat milk",
+      "2 cups (500 ml) unsweetened soy or oat milk",
       "5 tbsp semolina (fine)",
-      "1.2 tbsp sugar",
+      "1 tbsp sugar",
       "1 tbsp vegan butter (optional)",
       "Ground cinnamon to taste"
     ]

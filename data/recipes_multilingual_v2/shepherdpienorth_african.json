@@ -14,10 +14,10 @@
     "en": "Shepherd's Pie (North African Style)"
   },
   "description": {
-    "he": "פאי רועים הוא התרגום העברי ל-Shepherd's Pie ומקורו ככל הנראה במנת ההאשי פרמנטייה הצרפתית שהגיעה לתוניסיה הקולוניאלית. גרסה טבעונית זו מחליפה את הבשר בטחון מהצומח תוך שמירה על שכבות תפוחי האדמה הצהובים מתבלין הכורכום. התוצאה היא פשטידה זהובה ומנחמת, מושלמת לארוחת שבת דשנה.",
-    "es": "Pai Ro'im es la traducción hebrea del Shepherd's Pie y probablemente proviene del hachis parmentier francés introducido en la Túnez colonial. Esta adaptación vegana reemplaza la carne con picadillo vegetal sabroso mientras mantiene las capas de papa infundidas con cúrcuma. Crea una cazuela dorada y reconfortante perfecta para un almuerzo abundante de Shabat.",
-    "ar": "باي روعيم هو الترجمة العبرية لطبق فطيرة الراعي، وأصله يرجع لطبق الهاشي بارمانتيي الفرنساوي اللي دخل وقت الاستعمار في تونس. هالوصفة النباتية تبدل اللحم بفرشيلو نباتي وتخلي طبقات البطاطا الصفراء المفوحة بالكركم. النتيجة هي طاجين ذهبي وبنين، يواتي فطور السبت.",
-    "en": "Pai Ro'im is the Hebrew translation of Shepherd's Pie and likely stems from the French hachis parmentier introduced in colonial Tunisia. This vegan adaptation replaces meat with savory plant-based mince while keeping the signature turmeric-infused potato layers. It creates a golden and comforting casserole perfect for a hearty Shabbat lunch."
+    "he": "פאי רועים הוא התרגום העברי ל-Shepherd's Pie ומקורו ככל הנראה במנת ההאשי פרמנטייה הצרפתית שהגיעה לתוניסיה הקולוניאלית. גרסה טבעונית זו מחליפה את הבשר בטחון מהצומח תוך שמירה על שכבות תפוחי האדמה הצהובות מכורכום. התוצאה היא פשטידה זהובה ומנחמת, מושלמת לארוחת שבת דשנה.",
+    "es": "Pai Ro'im es la traducción hebrea del Shepherd's Pie y probablemente proviene del hachis parmentier francés introducido en la Túnez colonial. Esta adaptación vegana reemplaza la carne con un sabroso picadillo vegetal mientras mantiene las capas de papa sazonadas con cúrcuma. El resultado es un pastel dorado y reconfortante, perfecto para un almuerzo abundante de Shabat.",
+    "ar": "باي روعيم هو الترجمة العبرية لطبق فطيرة الراعي، وأصله يرجع لطبق الهاشي بارمانتيي الفرنساوي اللي دخل وقت الاستعمار في تونس. هالوصفة النباتية تبدل اللحم بلحم مرحي نباتي وتحافظ على طبقات البطاطا الصفراء المفوّحة بالكركم. النتيجة هي طاجين ذهبي وبنين، يواتي فطور نهار السبت.",
+    "en": "Pai Ro'im is the Hebrew translation of Shepherd's Pie and likely stems from the French hachis parmentier introduced in colonial Tunisia. This vegan adaptation replaces meat with savory plant-based mince while keeping the signature turmeric-infused potato layers. The result is a golden and comforting casserole, perfect for a hearty Shabbat lunch."
   },
   "ingredients": {
     "he": [
@@ -26,7 +26,7 @@
       "12 גרם אבקת מרק בטעם עוף (פרווה)",
       "מלח לפי הטעם",
       "500 גרם טחון מהצומח",
-      "30 מ\"ל שמן צמחי",
+      "30 מ\"ל שמן",
       "2.5 גרם פפריקה מתוקה",
       "3 גרם תבלין שווארמה",
       "3 גרם אבקת שום",
@@ -47,13 +47,13 @@
     "ar": [
       "5-6 كعبات بطاطا، مقشرين ومقصوصين مكعبات",
       "1 مغرفة صغيرة كركم",
-      "1 مغرفة كبيرة بودرة مرقة (نباتية)",
+      "1 مغرفة كبيرة بودرة مرقة نباتية",
       "ملح حسب الذوق",
       "500 غرام لحم مرحي نباتي",
-      "2 مغارف زيت",
-      "1 مغرفة صغيرة فلفل أحمر (بابريكا)",
-      "1 مغرفة صغيرة تابل شوارمة",
-      "1 مغرفة صغيرة ثوم مرحي",
+      "2 مغارف كبار زيت",
+      "1 مغرفة صغيرة فلفل زينة (فلفل أحمر حلو)",
+      "1 مغرفة صغيرة تابل شاورما",
+      "1 مغرفة صغيرة ثوم غبرة",
       "1/2 مغرفة صغيرة فلفل أكحل"
     ],
     "en": [
@@ -61,50 +61,50 @@
       "1 tsp turmeric",
       "1 tbsp vegan chicken-style bouillon powder",
       "Salt to taste",
-      "17.6 oz plant-based mince",
+      "1 lb (500g) plant-based mince",
       "2 tbsp vegetable oil",
       "1 tsp sweet paprika",
       "1 tsp shawarma seasoning",
       "1 tsp garlic powder",
-      "0.5 tsp black pepper"
+      "1/2 tsp black pepper"
     ]
   },
   "steps": {
     "he": [
-      "קלפו וחיתכו את תפוחי האדמה לקוביות. הניחו אותם בסיר עם מים מומלחים ובשלו עד שהם רכים מספיק למעיכה.",
-      "סננו את תפוחי האדמה. מעכו אותם היטב עם הכורכום, מחצית מאבקת המרק וקורט מלח עד לקבלת מחית חלקה וצהובה.",
-      "במחבת, חממו את השמן וטגנו את הטחון מהצומח. פוררו אותו בעזרת כף תוך כדי הבישול.",
-      "תבלו את הטחון בפפריקה, תבלין שווארמה, אבקת שום, פלפל שחור ושארית אבקת המרק. בשלו עד שהתערובת שחומה וריחנית.",
-      "חממו תנור ל-180 מעלות צלזיוס. שמן תבנית אפייה.",
-      "הרכבת הפאי: שטחו מחצית מהפירה בשכבה אחידה בתחתית. פזרו את תערובת הטחון המתובלת מעל תפוחי האדמה. כסו בשארית הפירה והחליקו את פני השטח.",
-      "אפו במשך כ-20-30 דקות עד שהחלק העליון מזהיב קלות והמאפה חם."
+      "קלפו וחתכו את תפוחי האדמה לקוביות. הניחו אותם בסיר עם מים מומלחים ובשלו עד שהם רכים מספיק למעיכה.",
+      "סננו את תפוחי האדמה. מעכו אותם היטב עם הכורכום, מחצית מכמות אבקת המרק וקורט מלח, עד לקבלת פירה חלק וצהוב.",
+      "חממו שמן במחבת וטגנו את הטחון מהצומח. פוררו אותו בעזרת כף עץ תוך כדי הטיגון.",
+      "תבלו את הטחון בפפריקה, תבלין שווארמה, אבקת שום, פלפל שחור ושארית אבקת המרק. טגנו עד שהתערובת משחימה ומפיצה ריח.",
+      "חממו תנור ל-180 מעלות. שמנו תבנית אפייה.",
+      "הרכבת הפאי: שטחו מחצית מהפירה בשכבה אחידה בתחתית התבנית. פזרו את תערובת הטחון המתובלת מעל. כסו בשארית הפירה והחליקו את החלק העליון.",
+      "אפו במשך 20-30 דקות, עד שהחלק העליון מזהיב קלות והמאפה חם."
     ],
     "es": [
       "Pele y corte las papas en cubos. Colóquelas en una olla con agua salada y hierva hasta que estén lo suficientemente suaves para hacer puré.",
       "Escurra las papas. Macháquelas bien con la cúrcuma, la mitad del caldo en polvo y una pizca de sal hasta obtener un puré suave y amarillo.",
-      "En una sartén, caliente el aceite y fría la carne vegetal. Desmenúcela con una cuchara mientras se cocina.",
-      "Condimente la carne con pimentón, especias para shawarma, ajo en polvo, pimienta negra y el resto del caldo en polvo. Cocine hasta que la carne esté bien dorada y fragante.",
+      "En una sartén, caliente el aceite y sofría la carne picada vegetal. Desmenúcela con una cuchara mientras se cocina.",
+      "Condimente con el pimentón, las especias para shawarma, el ajo en polvo, la pimienta negra y el resto del caldo en polvo. Cocine hasta que la mezcla esté bien dorada y fragante.",
       "Precaliente el horno a 180°C. Engrase una fuente para hornear.",
-      "Arme el pastel: Extienda la mitad del puré de papas en una capa uniforme en el fondo. Esparza la mezcla de carne condimentada sobre las papas. Cubra con el resto del puré y alise la superficie.",
-      "Hornee durante unos 20-30 minutos hasta que la parte superior esté ligeramente dorada y el plato esté bien caliente."
+      "Armado del pastel: Extienda la mitad del puré de papas en una capa uniforme en el fondo de la fuente. Esparza la mezcla de carne condimentada por encima. Cubra con el resto del puré y alise la superficie.",
+      "Hornee durante unos 20-30 minutos, hasta que la parte superior esté ligeramente dorada y el plato esté bien caliente."
     ],
     "ar": [
-      "قشر البطاطا وقصها مكعبات. حطها في طنجرة مع ماء وملح واغليها لين تطيب وتولي ساهلة باش ترحيها.",
-      "صفي البطاطا من الماء. ارحيها مليح مع الكركم، وشطر كمية بودرة المرقة، وشوية ملح لين تولي رطب وصفراء.",
-      "في مقلاة، سخن الزيت واقلي اللحم المرحي (النباتي). حلحل اللحم بالمغرفة وانت تطيب فيه.",
-      "فوّح اللحم بالفلفل الأحمر، تابل الشوارمة، الثوم المرحي، الفلفل الأكحل، وباقي بودرة المرقة. طيب لين يولي لونه بني وريحته فاوحة.",
-      "سخن الكوشة (الفور) على 180 درجة. ادهن طبق الفور بالزيت.",
-      "حضّر الطبق: فرش شطر كمية البطاطا المرحية في قاع الطبق. حط فوقها خليط اللحم المفوح. غطي بالبطاطا اللي بقات وسوي الوجه من فوق.",
-      "حطها في الكوشة لمدة 20-30 دقيقة لين يحمار الوجه شوية ويطيب الكل مع بعضه."
+      "قشر البطاطا وقصها مكعبات. حطها في طنجرة فيها ماء وملح واغليها لين تطيب وتولي ساهلة للرحي.",
+      "صفي البطاطا من الماء. ارفسها مليح مع الكركم، وشطر كمية بودرة المرقة، وشوية ملح لين تولي رطبة وصفراء.",
+      "في قلاية، سخن الزيت وطيّب اللحم المرحي النباتي. فتفتو بالمغرفة وانت تطيّب فيه.",
+      "فوّح اللحم بفلفل الزينة، تابل الشاورما، الثوم الغبرة، الفلفل الأكحل، وباقي بودرة المرقة. خليه يطيب لين يتبدل لونه وتطلع ريحته الفاوحة.",
+      "سخن الفور على 180 درجة. ادهن طبق الفور بشوية زيت.",
+      "مونطي الطبق: افرش شطر كمية البطاطا المرفوسة في قاع الطبق. حط فوقها خليط اللحم المفوح. غطي بالبطاطا اللي بقات وستوي الوجه من فوق.",
+      "دخلها للفور لمدة 20-30 دقيقة لين يحمار الوجه شوية وتتجانس المكونات."
     ],
     "en": [
       "Peel and cube the potatoes. Place them in a pot of salted water and boil until soft enough to mash.",
-      "Drain the potatoes. Mash them thoroughly with the turmeric, half of the chicken seasoning, and a pinch of salt until smooth and yellow.",
-      "In a frying pan, heat the oil and fry the ground meat. Break it apart with a spoon as it cooks.",
-      "Season the meat with paprika, shawarma seasoning, garlic powder, black pepper, and the remaining chicken seasoning. Cook until the meat is fully browned and fragrant.",
+      "Drain the potatoes. Mash them thoroughly with the turmeric, half of the bouillon powder, and a pinch of salt until smooth and yellow.",
+      "In a skillet, heat the oil and sauté the plant-based mince. Break it apart with a spoon as it cooks.",
+      "Season with the paprika, shawarma seasoning, garlic powder, black pepper, and remaining bouillon powder. Cook until the mince is fully browned and fragrant.",
       "Preheat oven to 350°F (180°C). Grease a baking dish.",
-      "Assemble the pie: Spread half of the mashed potatoes in an even layer on the bottom. Spread the spiced meat mixture over the potatoes. Top with the remaining mashed potatoes and smooth the surface.",
-      "Bake for about 20-30 minutes until the top is slightly golden and the dish is heated through."
+      "Assemble the pie: Spread half of the mashed potatoes in an even layer on the bottom of the dish. Spread the spiced mince mixture evenly over the potatoes. Top with the remaining mashed potatoes and smooth the surface.",
+      "Bake for 20-30 minutes, until the top is slightly golden and the dish is heated through."
     ]
   },
   "image_prompt": "Casserole dish with layers of yellow turmeric mashed potatoes and spiced ground beef, slice removed showing the layers, rustic kitchen setting",

@@ -1,6 +1,6 @@
 % Silver Cooks - Book Cover
-% Dimensions: 8" x 8" pages, 0.98" spine, 0.125" bleed
-% Total: 17.23" x 8.25"
+% Dimensions: 8" x 8.25" pages, 1.70" spine, 0.125" bleed
+% Total: 17.95" x 8.5"
 
 \documentclass[tikz]{standalone}
 \usepackage{fontspec}
@@ -49,9 +49,9 @@
 \begin{tikzpicture}[x=1in, y=1in]
 
 % === BACKGROUND IMAGE ===
-% Total: 8" + 0.98" + 8" = 16.98" + 0.25" bleed = 17.23" x 8.25"
+% Total: 8" + 1.70" + 8" = 17.70" + 0.25" bleed = 17.95" x 8.5"
 \node[anchor=south west, inner sep=0pt] at (0,0) {
-  \includegraphics[width=17.23in, height=8.25in]{background.png}
+  \includegraphics[width=17.95in, height=8.5in]{background.png}
 };
 
 % ========================================
@@ -59,14 +59,14 @@
 % ========================================
 
 % Title box (same order as front: EN+HE top, ES+AR bottom)
-\node[textbox, align=center] at (4.125, 6.0) {
+\node[textbox, align=center] at (4.125, 6.2) {
   \fontsize{18pt}{26pt}\selectfont
   {\titlefont Oriented Kitchen} \quad \heb{מטבח מצפון}\\[6pt]
   {\spanishfont\itshape Cocina con Conciencia} \quad \arb{مطبخ بالأصل}
 };
 
 % Subtitles box
-\node[textbox, align=center, text=muted] at (4.125, 4.2) {
+\node[textbox, align=center, text=muted] at (4.125, 4.4) {
   \fontsize{10pt}{16pt}\selectfont
   Plant-Based Recipes from Djerba \& Tangier\\[3pt]
   {\spanishfont\itshape Recetas a Base de Plantas}\\[3pt]
@@ -75,13 +75,13 @@
 };
 
 % Recipe count
-\node[textbox] at (4.125, 2.6) {
+\node[textbox] at (4.125, 2.8) {
   \fontsize{12pt}{12pt}\selectfont
-  81 Recipes in Four Languages
+  87 Recipes in Four Languages
 };
 
 % Website
-\node[accentbox] at (4.125, 1.5) {
+\node[accentbox] at (4.125, 1.6) {
   \fontsize{11pt}{11pt}\selectfont\bfseries
   silvercooks.com
 };
@@ -97,34 +97,34 @@
 };
 
 % ========================================
-% SPINE (8.125" to 9.105" = 0.98" wide)
-% Center at 8.615"
+% SPINE (8.125" to 9.825" = 1.70" wide)
+% Center at 8.975"
 % ========================================
-\fill[accent] (8.125, 0) rectangle (9.105, 8.25);
+\fill[accent] (8.125, 0) rectangle (9.825, 8.5);
 
-\node[rotate=90, text=bgpage] at (8.615, 5.8) {
+\node[rotate=90, text=bgpage] at (8.975, 6.0) {
   \titlefont\fontsize{14pt}{14pt}\selectfont\bfseries
   Oriented Kitchen
 };
-\node[rotate=90, text=bgpage] at (8.615, 4.2) {
+\node[rotate=90, text=bgpage] at (8.975, 4.4) {
   \fontsize{13pt}{13pt}\selectfont
   \heb{מטבח מצפון}
 };
-\node[rotate=90, text=bgpage] at (8.615, 2.5) {
+\node[rotate=90, text=bgpage] at (8.975, 2.7) {
   \fontsize{11pt}{11pt}\selectfont
   David \& Enny Silver
 };
-\node[rotate=90, text=bgpage] at (8.615, 0.9) {
+\node[rotate=90, text=bgpage] at (8.975, 1.0) {
   \fontsize{9pt}{9pt}\selectfont
   2026
 };
 
 % ========================================
-% FRONT COVER (9.105" to 17.105", center at 13.105")
+% FRONT COVER (9.825" to 17.825", center at 13.825")
 % ========================================
 
 % Main title box
-\node[textbox, align=center] at (13.105, 5.8) {
+\node[textbox, align=center] at (13.825, 6.0) {
   \fontsize{30pt}{42pt}\selectfont
   {\titlefont Oriented Kitchen} \quad \heb{מטבח מצפון}\\[8pt]
   {\spanishfont\fontsize{18pt}{18pt}\selectfont\itshape Cocina con Conciencia} \quad 
@@ -132,7 +132,7 @@
 };
 
 % Subtitles box
-\node[textbox, align=center, text=muted] at (13.105, 4.0) {
+\node[textbox, align=center, text=muted] at (13.825, 4.2) {
   \fontsize{11pt}{17pt}\selectfont
   Plant-Based Recipes from Djerba \& Tangier\\[3pt]
   {\spanishfont\itshape Recetas a Base de Plantas de Djerba y Tánger}\\[3pt]
@@ -141,7 +141,7 @@
 };
 
 % Family box
-\node[textbox, align=center] at (13.105, 2.2) {
+\node[textbox, align=center] at (13.825, 2.4) {
   \fontsize{11pt}{17pt}\selectfont
   \textbf{Cohen-Trabelsi} · \heb{כהן-טרבלסי}\\[-2pt]
   {\color{muted}\fontsize{9pt}{9pt}\selectfont Djerba, Tunisia}\\[6pt]
@@ -150,7 +150,7 @@
 };
 
 % Authors
-\node[accentbox] at (13.105, 0.7) {
+\node[accentbox] at (13.825, 0.8) {
   \titlefont\fontsize{16pt}{16pt}\selectfont
   David \& Enny Silver
 };

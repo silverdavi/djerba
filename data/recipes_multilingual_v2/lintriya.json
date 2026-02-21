@@ -8,16 +8,16 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "לאינטריאה",
+    "he": "לאינטרייה",
     "es": "L'Intriya",
     "ar": "لينتريّة",
     "en": "L'Intriya"
   },
   "description": {
-    "he": "לאינטרייה היא תוספת מרוקאית קלאסית של אטריות דקיקות מבושלות עם כורכום ומלח. השם מגיע מהמילה הערבית ימי-ביניימית itriyya (אטרייה), שהיא עצמה קוגנט של המילה היוונית העתיקה itrion — בצק מקמח ומים, שממנו מתגלגלים שמות של אטריות באגן הים התיכון. במטבח המרוקאי-יהודי מופיעה גם כלטריאה, ניטריאה או טריאה. המנה הוגשה בחתונות מרוקאיות בקערות גדולות למרכז השולחן. האטריות מוטגנות קלות לפני הבישול ומבושלות עד שהן דביקות ומחוברות זו לזו.",
-    "es": "L'Intriya es una guarnición clásica marroquí de fideos finos cocidos con cúrcuma y sal. Su nombre proviene del árabe medieval itriyya (fideos secos), cognado del griego antiguo itrion — una masa de harina y agua, raíz de los nombres de fideos en todo el Mediterráneo. En la cocina judeo-marroquí también se conoce como letrea, n'treya o treya. Se servía en bodas marroquíes en grandes fuentes en el centro de la mesa. Los fideos se fríen ligeramente antes de cocerlos hasta que queden pegajosos y unidos.",
-    "ar": "لينتريّة هي تكملة مغربية كلاسيكية من الشعرية الرقيقة المطبوخة بالكركم والملح. الاسم جاي من الكلمة العربية القروسطية إتريّة (شعرية مجففة)، اللي هي قريبة من الكلمة اليونانية القديمة إتريون — عجينة فرينة وماء، ومنها جاو أسماء الشعرية في كل حوض البحر الأبيض المتوسط. في الكوجينة اليهودية المغربية تتسمى أيضاً لطريّة أو نتريّة أو طريّة. كانت تتقدم في الأعراس المغربية في قصعات كبار وسط الطاولة. الشعرية تتقلى شوية قبل ما تطيب حتى تولي لزجة ومتماسكة.",
-    "en": "L'Intriya is a classic Moroccan side dish of fine noodles cooked with turmeric and salt. The name derives from the medieval Arabic itriyya (dried noodles), itself a cognate of ancient Greek itrion — a dough of flour and water, the root of noodle names across the Mediterranean. In Moroccan Jewish cuisine it also appears as letrea, n'treya, or treya. This dish was traditionally served at Moroccan weddings in large platters at the center of the table. The noodles are lightly fried before cooking until sticky and clumped together."
+    "he": "לאינטרייה היא תוספת מרוקאית קלאסית של אטריות דקיקות מבושלות עם כורכום ומלח. השם מגיע מהמילה הערבית מימי הביניים itriyya (אטרייה יבשה), שהיא עצמה קרובה למילה היוונית העתיקה itrion — בצק מקמח ומים, שממנו התגלגלו שמות של אטריות ברחבי אגן הים התיכון. במטבח היהודי-מרוקאי היא מוכרת גם כלטריאה, נטריאה או טריאה. המנה הוגשה באופן מסורתי בחתונות מרוקאיות בקערות גדולות במרכז השולחן. האטריות מטוגנות קלות לפני הבישול, ומבושלות עד שהן רכות ונדבקות זו לזו.",
+    "es": "L'Intriya es una guarnición clásica marroquí de fideos finos cocidos con cúrcuma y sal. Su nombre proviene del árabe medieval itriyya (fideos secos), emparentada con el griego antiguo itrion — una masa de harina y agua, raíz de los nombres de fideos en todo el Mediterráneo. En la cocina judeo-marroquí también se conoce como letrea, n'treya o treya. Tradicionalmente se servía en las bodas marroquíes en grandes fuentes al centro de la mesa. Los fideos se fríen ligeramente, y luego se cuecen hasta que quedan pegajosos y unidos.",
+    "ar": "لينتريّة هي طبق جانبي مغربي كلاسيكي متكون من شعرية جويدة مطبوخة بالكركم والملح. الاسم جاي من الكلمة العربية القديمة إتريّة (شعرية شايحة)، واللي أصلها من الكلمة اليونانية القديمة إتريون — عجينة متع فرينة وماء، ومنها تخلقو أسامي الشعرية في حوض البحر الأبيض المتوسط الكل. في الكوجينة اليهودية المغربية تتسمى زادة لطريّة، نتريّة، ولاّ طريّة. كانت تتقدم في الأعراس المغربية في قصاع كبار في وسط الطاولة. الشعرية تتقلى شوية قبل ما تطيب لين تولي تتلصق وشادة في بعضها.",
+    "en": "L'Intriya is a classic Moroccan side dish of fine noodles cooked with turmeric and salt. The name derives from the medieval Arabic itriyya (dried noodles), itself a cognate of ancient Greek itrion — a dough of flour and water, the root of noodle names across the Mediterranean. In Moroccan-Jewish cuisine, it is also known as letrea, n'treya, or treya. This dish was traditionally served at Moroccan weddings on large platters in the center of the table. The noodles are lightly fried, then cooked until sticky and clumped together."
   },
   "ingredients": {
     "he": [
@@ -26,26 +26,26 @@
       "1 כפית כורכום",
       "1 כפית מלח",
       "1/2 כפית פלפל שחור",
-      "1 כף אבקת מרק פרווה",
+      "1 כף אבקת מרק ירקות",
       "2 כוסות מים רותחים"
     ],
     "es": [
       "250 g de fideos finos (cabello de ángel)",
-      "2 cdas de aceite vegetal",
-      "1 cdta de cúrcuma",
-      "1 cdta de sal",
-      "1/2 cdta de pimienta negra",
-      "1 cda de caldo vegetal en polvo",
+      "2 cdas. de aceite vegetal",
+      "1 cdta. de cúrcuma",
+      "1 cdta. de sal",
+      "1/2 cdta. de pimienta negra",
+      "1 cda. de caldo de verduras en polvo",
       "2 tazas de agua hirviendo"
     ],
     "ar": [
-      "250 غرام شعرية رقيقة",
-      "2 مغارف زيت نباتي",
+      "250 غرام شعرية جويدة (رقيقة)",
+      "2 مغارف كبار زيت نباتي",
       "1 مغرفة صغيرة كركم",
       "1 مغرفة صغيرة ملح",
-      "نصف مغرفة صغيرة فلفل أكحل",
-      "1 مغرفة كبيرة تابل مرقة خضرة",
-      "2 كيسان ماء يغلي"
+      "شطر مغرفة صغيرة فلفل أكحل",
+      "1 مغرفة كبيرة مرق خضرة غبرة",
+      "زوز كيسان ماء يغلي"
     ],
     "en": [
       "250g fine noodles (angel hair)",
@@ -59,28 +59,28 @@
   },
   "steps": {
     "he": [
-      "מחממים שמן בסיר ומטגנים את האטריות עד שמשחימות קלות.",
-      "מוסיפים כורכום, מלח, פלפל ואבקת מרק ומערבבים.",
-      "שופכים מים רותחים, מורידים לאש נמוכה ומכסים.",
-      "מבשלים עד שכל המים נספגים והאטריות דביקות ומחוברות. מגישים חם."
+      "מחממים שמן בסיר ומטגנים את האטריות עד שהן מזהיבות קלות.",
+      "מוסיפים את הכורכום, המלח, הפלפל ואבקת המרק ומערבבים היטב.",
+      "מוזגים את המים הרותחים, מנמיכים את האש ומכסים את הסיר.",
+      "מבשלים עד שכל המים נספגים והאטריות רכות ונדבקות זו לזו. מגישים חם."
     ],
     "es": [
       "Calentar el aceite en una olla y freír los fideos hasta que se doren ligeramente.",
-      "Añadir la cúrcuma, sal, pimienta y el caldo en polvo, mezclar bien.",
+      "Añadir la cúrcuma, la sal, la pimienta y el caldo en polvo; mezclar bien.",
       "Verter el agua hirviendo, bajar el fuego y tapar.",
-      "Cocinar hasta que toda el agua se absorba y los fideos estén pegajosos y unidos. Servir caliente."
+      "Cocinar hasta que se absorba toda el agua y los fideos queden pegajosos y unidos. Servir caliente."
     ],
     "ar": [
-      "سخن الزيت في طنجرة وقلي الشعرية لين تحمار شوية.",
-      "زيد الكركم والملح والفلفل الأكحل وتابل المرقة وحرك.",
-      "صب الماء الساخن ونقص النار وغطي.",
-      "طيب لين يتشرب الماء الكل والشعرية تولي لزجة ومتماسكة. قدمها سخونة."
+      "سخن الزيت في طنجرة وقلي الشعرية لين تصفار شوية.",
+      "زيد الكركم، الملح، الفلفل الأكحل ومرق الخضرة وحرك بالباهي.",
+      "صب الماء اللي يغلي، نقص في النار وغطي الطنجرة.",
+      "خليها تطيب لين تشرب ماها الكل والشعرية تولي تتلصق وشادة في بعضها. قدمها سخونة."
     ],
     "en": [
       "Heat oil in a pot and fry the noodles until lightly golden.",
-      "Add turmeric, salt, pepper, and bouillon powder, mix well.",
-      "Pour in boiling water, reduce heat and cover.",
-      "Cook until all water is absorbed and noodles are sticky and clumped together. Serve hot."
+      "Add the turmeric, salt, pepper, and bouillon powder, and mix well.",
+      "Pour in the boiling water, reduce the heat, and cover.",
+      "Cook until all the water is absorbed and the noodles are sticky and clumped together. Serve hot."
     ]
   },
   "image_prompt": "Professional food photography of L’Intriya - Moroccan Jewish noodle side dish.\n\n=== SCENE: THE SAFED HOUSE ===\nShot in an early 1900s Safed stone house kitchen.\nThick whitewashed walls, natural Mediterranean light.\n\n=== CRITICAL: THE NOODLES ===\n- WIDE flat noodles (like fettuccine or tagliatelle width), NOT thin vermicelli\n- DRY appearance - the noodles have absorbed all liquid\n- Yellow/golden from turmeric\n- Sticky and clumped together in a mass\n- NOT soupy or wet - this is a DRY side dish\n- The noodles should look like they were fried then steamed dry\n\nABSOLUTELY FORBIDDEN:\n- NO thin spaghetti or angel hair\n- NO broth or liquid visible\n- NO soup-like appearance\n\nPresentation:\n- Served on a plate or shallow bowl\n- Dry, golden, clumped wide noodles\n- Rustic Moroccan home cooking style\n\nPhotorealistic, 8K detail, appetizing."

@@ -9,44 +9,44 @@
   },
   "name": {
     "he": "ציצריטוס (תבשיל אפונה)",
-    "es": "Ciceritos (Guiso de Guisantes)",
+    "es": "Ciceritos (Guiso de Arvejas)",
     "ar": "سيسيريتوس (مرقة جلبانة)",
     "en": "Ciceritos (Green Pea Stew)"
   },
   "description": {
-    "he": "ציצריטוס, שפירושו \"אפונים קטנים\" בלאדינו, הוא תבשיל אפונה ספרדי מנחם. השם נגזר מהמילה הספרדית \"chícharo\" (אפונה) עם סיומת ההקטנה של הלאדינו \"-itos\". מנה צמחית זו כוללת אפונה ירוקה רכה המבושלת בציר כורכום זהוב עם בצל וסלרי מטוגנים.",
-    "es": "Ciceritos, que significa \"guisantes pequeños\" en ladino, es un reconfortante guiso sefardí de guisantes verdes. El nombre deriva del español \"chícharo\" con el diminutivo ladino \"-itos\". Este plato vegetal presenta tiernos guisantes cocidos a fuego lento en un caldo dorado de cúrcuma con cebolla y apio salteados.",
-    "ar": "سيسيريتوس، اللي معناها \"جلبانة صغيرة\" باللادينو، هي مرقة جلبانة سيفاردية بنينة وتريّح القلب. الاسم جاي من الكلمة الإسبانية \"chícharo\" مع التصغير باللادينو \"-itos\". هذا الطبق النباتي فيه جلبانة خضراء طرية طايبة في مرقة صفراء بالكركم مع بصل وكرافس مقليين.",
+    "he": "ציצריטוס, שפירושו \"אפונים קטנים\" בלאדינו, הוא תבשיל אפונה ספרדי מנחם. השם נגזר מהמילה הספרדית \"chícharo\" (אפונה) עם סיומת ההקטנה של הלאדינו \"-itos\". מנה טבעונית זו כוללת אפונה ירוקה רכה המבושלת בציר כורכום זהוב עם בצל וסלרי מטוגנים.",
+    "es": "Ciceritos, que significa \"guisantes pequeños\" en ladino, es un reconfortante guiso sefardí de arvejas (guisantes). El nombre deriva del español \"chícharo\" con el diminutivo ladino \"-itos\". Este plato a base de vegetales presenta tiernas arvejas cocidas a fuego lento en un caldo dorado de cúrcuma con cebolla y apio sofritos.",
+    "ar": "سيسيريتوس، اللي تعني \"جلبانة صغيرة\" باللادينو، هي مرقة جلبانة سيفاردية بنينة وتعمل الكيف. الاسم ماخوذ من الكلمة الإسبانية \"chícharo\" مع صيغة التصغير باللادينو \"-itos\". هالطبق النباتي متكون من جلبانة خضرا طرية طايبة في مرقة صفرا بالكركم مع بصل وكرافس مقلّيين.",
     "en": "Ciceritos, meaning \"little peas\" in Ladino, is a comforting Sephardic green pea stew. The name derives from the Spanish \"chícharo\" (pea) with the Ladino diminutive \"-itos.\" This plant-based dish features tender green peas simmered in a golden turmeric broth with sautéed onions and celery."
   },
   "ingredients": {
     "he": [
-      "1 בצל, קצוץ לקוביות",
-      "2 גבעולי סלרי, קצוצים לקוביות",
-      "30 מ\"ל שמן לטיגון",
-      "360 גרם אפונה ירוקה (מבושלת או משומרת)",
-      "3 גרם כורכום",
-      "1.2 גרם פלפל לבן",
-      "4 גרם אבקת מרק ירקות",
+      "1 בצל, חתוך לקוביות",
+      "2 גבעולי סלרי, חתוכים לקוביות",
+      "2 כפות שמן לטיגון",
+      "2 כוסות אפונה ירוקה (מבושלת או משימורים)",
+      "1 כפית כורכום",
+      "1/2 כפית פלפל לבן",
+      "1 כפית אבקת מרק ירקות",
       "מלח לפי הטעם",
-      "480 מ\"ל מים"
+      "2 כוסות מים"
     ],
     "es": [
-      "1 cebolla, picada en cubitos",
-      "2 tallos de apio, picados en cubitos",
-      "30 ml de aceite para freír",
-      "360 g de guisantes verdes (cocidos o en lata)",
-      "3 g de cúrcuma",
-      "1.2 g de pimienta blanca",
-      "4 g de caldo de verduras en polvo",
+      "1 cebolla, cortada en cubitos",
+      "2 tallos de apio, cortados en cubitos",
+      "2 cucharadas de aceite para freír",
+      "2 tazas de arvejas o guisantes verdes (cocidos o de lata)",
+      "1 cucharadita de cúrcuma",
+      "1/2 cucharadita de pimienta blanca",
+      "1 cucharadita de caldo de verduras en polvo",
       "Sal al gusto",
-      "480 ml de agua"
+      "2 tazas de agua"
     ],
     "ar": [
       "1 بصلة، مقصوصة جويدة",
       "2 عواد كرافس، مقصوصين جويدين",
-      "2 مغارف زيت للقلي",
-      "2 كيسان جلبانة (طايبة ولا حكّة)",
+      "2 مغارف كبار زيت للقلي",
+      "2 كيسان جلبانة (طايبة ولا من الحكة)",
       "1 مغرفة صغيرة كركم",
       "½ مغرفة صغيرة فلفل أبيض",
       "1 مغرفة صغيرة بودرة مرقة خضرة",
@@ -59,7 +59,7 @@
       "2 tbsp oil for frying",
       "2 cups green peas (cooked or canned)",
       "1 tsp turmeric",
-      "0.5 tsp white pepper",
+      "1/2 tsp white pepper",
       "1 tsp vegetable bouillon powder",
       "Salt to taste",
       "2 cups water"
@@ -67,25 +67,25 @@
   },
   "steps": {
     "he": [
-      "מטגנים את הבצל והסלרי בשמן עד לריכוך וקבלת ריח נעים.",
-      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים לאיחוד.",
+      "מטגנים את הבצל והסלרי בשמן עד שהם מתרככים ומעלים ניחוח.",
+      "מוסיפים כורכום, פלפל לבן, אבקת מרק ומלח. מערבבים היטב.",
       "מוסיפים את האפונה והמים. מביאים לרתיחה.",
       "מנמיכים את האש ומבשלים בבעבוע עדין עד שהטעמים מתמזגים והנוזלים מצטמצמים מעט."
     ],
     "es": [
-      "Freír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
-      "Añadir la cúrcuma, la pimienta blanca, el caldo en polvo y la sal. Remover para combinar.",
-      "Añadir los guisantes y el agua. Llevar a ebullición.",
-      "Reducir el fuego y cocinar a fuego lento hasta que los sabores se mezclen y el líquido se reduzca ligeramente."
+      "Sofreír la cebolla y el apio en aceite hasta que estén tiernos y fragantes.",
+      "Añadir la cúrcuma, la pimienta blanca, el caldo en polvo y la sal. Revolver para integrar.",
+      "Añadir las arvejas y el agua. Llevar a ebullición.",
+      "Reducir el fuego y cocinar a fuego lento hasta que los sabores se integren y el líquido se reduzca un poco."
     ],
     "ar": [
       "نقليو البصل والكرافس في الزيت لين يذبالو وتطلع ريحتهم البنينة.",
       "نزيدو الكركم، الفلفل الأبيض، بودرة المرقة والملح. نخلطو كل شيء مع بعضو.",
       "نزيدو الجلبانة والماء. نخليوهم يغليو.",
-      "نقصو النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تعقاد شوية."
+      "نقصو في النار ونخليوها تطيب سلة سلة لين تتخلط النكهات والمرقة تعقاد شوية."
     ],
     "en": [
-      "Fry the onion and celery in oil until softened and fragrant.",
+      "Sauté the onion and celery in oil until softened and fragrant.",
       "Add turmeric, white pepper, bouillon powder, and salt. Stir to combine.",
       "Add green peas and water. Bring to a boil.",
       "Reduce heat and simmer until flavors meld and liquid reduces slightly."

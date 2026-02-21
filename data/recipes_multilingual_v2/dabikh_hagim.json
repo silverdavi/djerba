@@ -15,9 +15,9 @@
   },
   "description": {
     "he": "דביח חגים משלב את המילה היהודית-ערבית לתבשיל עם המילה העברית לחגים. גרסה טבעונית זו מחליפה את העוף המסורתי בסייטן עסיסי תוך שמירה על הרוח הג'רבאית החגיגית. דלעת ותפוחי אדמה מתבשלים בבסיס עשיר של שמן ופפריקה עם פטרוזיליה, שמיר וכוסברה לארוחה דשנה.",
-    "es": "Dabikh Hagim combina la palabra judeo-árabe para estofado con la palabra hebrea para fiestas. Esta adaptación vegana reemplaza el pollo tradicional con seitán sabroso, manteniendo el espíritu festivo de Djerba. La calabaza y las papas se cocinan a fuego lento en una rica base de aceite y pimentón llena de perejil fresco, eneldo y cilantro para una comida abundante.",
-    "ar": "دبيخ حڨيم يخلط كلمة دبيخ (طبيخة) مع كلمة حڨيم العبرية للأعياد. هذي الوصفة النباتية تبدل الدجاج التقليدي بالسيتان مع الحفاظ على الروح الجربية. القرع والبطاطا يطيبوا في مرقة خاثرة بالزيت والفلفل أحمر مع المعدנוس والشبت والكزبر لطبيخة بنينة وتعمل الكيف.",
-    "en": "Dabikh Hagim blends the Judeo-Arabic word for stew with the Hebrew for holidays. This vegan adaptation replaces traditional chicken with savory seitan while maintaining the festive Djerban spirit. Pumpkin and potatoes simmer in a rich paprika oil base filled with fresh parsley, dill, and cilantro for a hearty meal."
+    "es": "Dabikh Hagim combina la palabra judeo-árabe para estofado con la palabra hebrea para fiestas. Esta adaptación vegana reemplaza el pollo tradicional por un sabroso seitán, manteniendo el espíritu festivo de Djerba. La calabaza y las papas se cocinan a fuego lento en una rica base de aceite y pimentón llena de perejil fresco, eneldo y cilantro para una comida abundante.",
+    "ar": "دبيخ حڨيم يخلط كلمة دبيخ (طبيخة) مع كلمة حڨيم العبرية للأعياد. هذي الوصفة النباتية تبدل الدجاج التقليدي بالسيتان مع الحفاظ على الروح الجربية. القرع والبطاطا يطيبوا في مرقة خاثرة بالزيت والفلفل أحمر مع المعدنوس والشبت والكزبر لطبيخة بنينة وتعمل الكيف.",
+    "en": "Dabikh Hagim blends the Judeo-Arabic word for stew with the Hebrew word for holidays. This vegan adaptation replaces traditional chicken with savory seitan while maintaining the festive Djerban spirit. Pumpkin and potatoes simmer in a rich paprika oil base filled with fresh parsley, dill, and cilantro for a hearty meal."
   },
   "ingredients": {
     "he": [
@@ -28,27 +28,27 @@
       "1 צרור פטרוזיליה, קצוצה",
       "1 צרור שמיר, קצוץ",
       "1 צרור כוסברה, קצוצה",
-      "1 קישוא, חתוך לקוביות (אופציונלי)",
-      "1 גזר, פרוס (אופציונלי)",
+      "1 קישוא, חתוך לקוביות (רשות)",
+      "1 גזר, פרוס (רשות)",
       "מלח גס לפי הטעם",
       "פלפל שחור לפי הטעם",
-      "800 גרם נתחי סייטן, חתוכים לחתיכות בגודל ביס",
+      "800 גרם סייטן, חתוך לנתחים בגודל ביס",
       "3 תפוחי אדמה, קלופים וחתוכים לרבעים",
       "מים לכיסוי"
     ],
     "es": [
-      "60 ml de aceite vegetal (para freír la base)",
+      "60 ml de aceite vegetal (para sofreír la base)",
       "7 g de pimentón dulce",
       "1 cebolla, en rodajas o picada",
-      "300 g de calabaza, en cubos",
+      "300 g de calabaza, cortada en cubos",
       "1 manojo de perejil, picado",
       "1 manojo de eneldo, picado",
       "1 manojo de cilantro, picado",
-      "1 calabacín, en cubos (opcional)",
+      "1 calabacín, cortado en cubos (opcional)",
       "1 zanahoria, en rodajas (opcional)",
       "Sal gruesa al gusto",
       "Pimienta negra al gusto",
-      "800 g de trozos de seitán, cortados en trozos del tamaño de un bocado",
+      "800 g de seitán, cortado en trozos del tamaño de un bocado",
       "3 papas, peladas y cortadas en cuartos",
       "Agua para cubrir"
     ],
@@ -57,9 +57,9 @@
       "1 مغرفة كبيرة فلفل أحمر حلو",
       "1 بصلة، مقصوصة جويدة",
       "2 كيسان ونص قرع أحمر، مقصوص مكعبات",
-      "1 ربطة معدנוس، مقصوص",
+      "1 ربطة معدنوس، مقصوص",
       "1 ربطة شبت، مقصوص",
-      "1 ربطة كزبر، مقصوص",
+      "1 ربطة كسبر، مقصوص",
       "1 كعبة قرع أخضر، مقصوصة (اختياري)",
       "1 سفنارية، مقصوصة (اختياري)",
       "ملح أحرش حسب الذوق",
@@ -69,7 +69,7 @@
       "ماء باش نغموا الطنجرة"
     ],
     "en": [
-      "1/4 cup vegetable oil (for frying base)",
+      "1/4 cup vegetable oil (for sautéing)",
       "1 tbsp sweet paprika",
       "1 onion, sliced or diced",
       "2.5 cups pumpkin, cubed",
@@ -80,7 +80,7 @@
       "1 carrot, sliced (optional)",
       "Coarse salt to taste",
       "Black pepper to taste",
-      "4 cups seitan chunks, cut into bite-sized pieces",
+      "4 cups seitan, cut into bite-sized pieces",
       "3 potatoes, peeled and quartered",
       "Water to cover"
     ]
@@ -88,23 +88,23 @@
   "steps": {
     "he": [
       "בסיר, מחממים את השמן והפפריקה במשך כ-3 דקות לפתיחת הטעמים. יש להיזהר לא לשרוף את הפפריקה.",
-      "מוסיפים את הבצל (פרוס או קצוץ) ומאדים במשך מספר דקות.",
+      "מוסיפים את הבצל (פרוס או קצוץ) ומטגנים קלות במשך מספר דקות.",
       "מוסיפים את כל הירקות (דלעת, עשבי תיבול, וקישוא/גזר אם משתמשים). מתבלים במעט מלח גס ופלפל שחור.",
       "מכסים ומאדים על אש נמוכה במשך כ-30 דקות כדי לאפשר לירקות להתרכך ולהגיר נוזלים.",
-      "מוסיפים את הסייטן (או תחליף הבשר) ומאדים יחד למשך מספר דקות נוספות.",
+      "מוסיפים את הסייטן (או תחליף הבשר) ומבשלים יחד למשך מספר דקות נוספות.",
       "לבסוף, מוסיפים את תפוחי האדמה ומים עד לכיסוי. מבשלים עד שתפוחי האדמה רכים."
     ],
     "es": [
       "En una olla, caliente el aceite y el pimentón durante aproximadamente 3 minutos para liberar el sabor. Tenga cuidado de no quemar el pimentón.",
       "Agregue la cebolla (en rodajas o picada) y sofría por unos minutos.",
       "Agregue todas las verduras (calabaza, hierbas y calabacín/zanahoria opcionales). Sazone con un poco de sal gruesa y pimienta negra.",
-      "Tape y cocine al vapor a fuego lento durante unos 30 minutos para permitir que las verduras se ablanden y suelten líquidos.",
-      "Agregue el seitán (o sustituto de carne) y cocine al vapor juntos por unos minutos más.",
-      "Finalmente, agregue las papas y suficiente agua para cubrir. Cocine hasta que las papas estén blandas."
+      "Tape y cocine a fuego lento durante unos 30 minutos para permitir que las verduras se ablanden y suelten líquidos.",
+      "Agregue el seitán (o sustituto de carne) y cocine todo junto por unos minutos más.",
+      "Finalmente, agregue las papas y suficiente agua para cubrir. Cocine hasta que las papas estén tiernas."
     ],
     "ar": [
       "في طنجرة، سخن الزيت والفلفل أحمر لمدة 3 دقايق باش تخرج النكهة. رد بالك تحرق الفلفل.",
-      "زيد البصل (مقصوص جويد ولا شرائح) وفوّح شوية دقايق.",
+      "زيد البصل (مقصوص جويد ولا شرائح) وقليه شوية دقايق.",
       "حط الخضرة الكل (القرع الأحمر، الحشيش، والقرع الأخضر/السفنارية كان تحب). فوّح بشوية ملح أحرش وفلفل أكحل.",
       "غطي الطنجرة وخليهم يطيبوا على نار هادية حكاية 30 دقيقة باش الخضرة تطرى وتسيب ماها.",
       "زيد السيتان (ولا بديل اللحم) وخليهم يطيبوا مع بعضهم شوية دقايق أخرين.",
@@ -114,9 +114,9 @@
       "In a pot, heat the oil and paprika for approximately 3 minutes to release the flavor. Be careful not to burn the paprika.",
       "Add the onion (either sliced or diced) and sauté for a few minutes.",
       "Add all the vegetables (pumpkin, herbs, and optional zucchini/carrot). Season with a little coarse salt and black pepper.",
-      "Cover and steam/sauté on low heat for about 30 minutes to allow the vegetables to soften and release liquids.",
-      "Add the seitan chunks (or meat substitute) and steam together for another few minutes.",
-      "Finally, add the potatoes and enough water to cover. Cook until the potatoes are soft."
+      "Cover and cook on low heat for about 30 minutes to allow the vegetables to soften and release liquids.",
+      "Add the seitan (or meat substitute) and cook together for another few minutes.",
+      "Finally, add the potatoes and enough water to cover. Cook until the potatoes are tender."
     ]
   },
   "index": 13

@@ -9,60 +9,60 @@
   },
   "name": {
     "he": "זיתים ברוטב אדום",
-    "es": "Aceitunas Guisadas Rojas",
+    "es": "Aceitunas Guisadas en Salsa Roja",
     "ar": "زيتون طبيخ",
     "en": "Red Stewed Olives (Zaytun T'bikh)"
   },
   "description": {
-    "he": "זיתון פירושו זית בערבית-יהודית וזהו שמו של סלט מבושל ורך זה. מוגש באופן מסורתי כחלק משולחן הקמיה, גרסה טבעונית זו מבשלת זיתים ירוקים חלוטים ברוטב עגבניות ושום עשיר. זוהי מנה ראשונה מלוחה המושלמת לניגוב עם לחם טרי.",
-    "es": "Zaytun significa aceituna en judeoárabe y da nombre a esta tierna ensalada cocida. Servida tradicionalmente como parte de la kemia, esta versión vegana cocina a fuego lento aceitunas verdes blanqueadas en una rica salsa de tomate y ajo. Es un aperitivo sabroso perfecto para acompañar con pan fresco.",
-    "ar": "الزيتون هو أساس هالسلطة المطبوخة الطرية. تتقدم عادة مع الكيمية، وهالنسخة النباتية فيها زيتون أخضر مسموط ومطبوخ في مرقة طماطم وثوم بنينة. هي مقبلات مالحة وتواتي برشا التغماس بالخبز الجديد.",
-    "en": "Zaytun means olive in Judeo-Arabic and names this tender cooked salad. Traditionally served as part of the kemia spread, this vegan version simmers blanched green olives in a rich tomato and garlic sauce. It is a savory appetizer perfect for scooping up with fresh bread."
+    "he": "זיתון משמעותו זית בערבית-יהודית, וזהו גם שמו של הסלט המבושל והרך הזה. מנה זו מוגשת באופן מסורתי כחלק ממגש הקמיה. בגרסה טבעונית זו, זיתים ירוקים חלוטים מתבשלים ברוטב עגבניות ושום עשיר. זהו מתאבן פיקנטי ונהדר, המושלם לניגוב עם לחם טרי.",
+    "es": "Zaytun significa aceituna en judeoárabe y es el nombre de esta suave ensalada cocida. Servida tradicionalmente como parte de la kemia, en esta versión vegana las aceitunas verdes blanqueadas se cocinan a fuego lento en una rica salsa de tomate y ajo. Es un aperitivo sabroso, perfecto para mojar con pan fresco.",
+    "ar": "كلمة 'زيتون' بالعربية اليهودية هي اسم هالسلطة المطبوخة البنينة. تتقدم عادة مع الكيمية، وهالنسخة النباتية فيها زيتون أخضر مسموط ومطبوخ في صوص طماطم وثوم بنينة. هي مقبلات مالحة وتواتي برشا التغماس بالخبز الجديد.",
+    "en": "Zaytun means olive in Judeo-Arabic and is the name of this tender cooked salad. Traditionally served as part of the kemia spread, in this vegan version, blanched green olives are simmered in a rich tomato and garlic sauce. It is a savory appetizer perfect for scooping up with fresh bread."
   },
   "ingredients": {
     "he": [
-      "500 גרם זיתים ירוקים, מגולענים (משומרים או בצנצנת)",
-      "1.5 גרם כורכום (להרתחת הזיתים)",
-      "30 מ\"ל שמן צמחי (לטיגון)",
+      "500 גרם זיתים ירוקים מגולענים (מקופסת שימורים או צנצנת)",
+      "1.5 גרם (1/2 כפית) כורכום (להרתחת הזיתים)",
+      "30 מ\"ל (2 כפות) שמן צמחי (לטיגון)",
       "4 שיני שום, כתושות",
-      "35 גרם רסק עגבניות",
-      "7 גרם פפריקה מתוקה",
-      "5 גרם אבקת מרק ירקות (או אבקת מרק בטעם עוף פרווה)",
+      "35 גרם (2 כפות) רסק עגבניות",
+      "7 גרם (1 כף) פפריקה מתוקה",
+      "5 גרם (1 כפית) אבקת מרק ירקות (או אבקת מרק בטעם עוף פרווה)",
       "מלח לפי הטעם (הזיתים כבר מלוחים)",
       "פלפל שחור לפי הטעם",
-      "240 מ\"ל מים (בערך)",
-      "0.5 צרור כוסברה טרייה, קצוצה"
+      "240 מ\"ל (1 כוס) מים (בערך)",
+      "חצי צרור כוסברה טרייה, קצוצה"
     ],
     "es": [
-      "500 g de aceitunas verdes, sin hueso (en conserva)",
-      "1.5 g de cúrcuma (para hervir)",
-      "30 ml de aceite vegetal (para freír)",
-      "4 dientes de ajo, picados",
-      "35 g de pasta de tomate",
-      "7 g de pimentón dulce",
-      "5 g de caldo de verduras en polvo (o condimento sabor pollo vegano)",
+      "500 g de aceitunas verdes, descarozadas o sin hueso (en conserva o frasco)",
+      "1.5 g (1/2 cdta) de cúrcuma (para hervir)",
+      "30 ml (2 cdas) de aceite vegetal (para sofreír)",
+      "4 dientes de ajo, finamente picados",
+      "35 g (2 cdas) de pasta de tomate",
+      "7 g (1 cda) de pimentón dulce",
+      "5 g (1 cdta) de caldo de verduras en polvo (o consomé vegano sabor pollo)",
       "Sal al gusto (las aceitunas ya son saladas)",
       "Pimienta negra al gusto",
-      "240 ml de agua (aproximadamente)",
-      "0.5 manojo de cilantro fresco, picado"
+      "240 ml (1 taza) de agua (aproximadamente)",
+      "1/2 manojo de cilantro fresco, picado"
     ],
     "ar": [
-      "3.5 كيسان زيتون أخضر، منحي القلوب (حكة)",
-      "0.5 مغرفة صغيرة كركم (للسمطان)",
-      "2 مغارف زيت (للقلي)",
-      "4 سنات ثوم، مرحي",
-      "2 مغارف طماطم حكة",
-      "1 مغرفة فلفل زينة (أحمر)",
-      "1 مغرفة صغيرة تابل دجاج (أو مرقة خضرة)",
+      "3 كيسان ونص زيتون أخضر، منحي القلوب (حكة)",
+      "شطر مغرفة صغيرة كركم (للسمطان)",
+      "2 مغارف كبار زيت نباتي (للقلي)",
+      "4 سنات ثوم، مرحيين",
+      "2 مغارف كبار طماطم معجونة",
+      "1 مغرفة كبيرة فلفل زينة (أحمر)",
+      "1 مغرفة صغيرة فاح دجاج (أو مرقة خضرة)",
       "ملح حسب الذوق (الزيتون ديجا مالح)",
       "فلفل أكحل حسب الذوق",
-      "1 كأس ماء (تقريب)",
-      "0.5 ربطة كسبر أخضر، مقصوص"
+      "كاس ماء (تقريب)",
+      "شطر ربطة كسبر أخضر، مقصوصة"
     ],
     "en": [
       "3.5 cups green olives, pitted (canned or jarred)",
-      "0.5 tsp turmeric (for boiling)",
-      "2 tbsp vegetable oil (for frying)",
+      "1/2 tsp turmeric (for boiling)",
+      "2 tbsp vegetable oil (for sautéing)",
       "4 cloves garlic, minced",
       "2 tbsp tomato paste",
       "1 tbsp sweet paprika",
@@ -70,41 +70,41 @@
       "Salt to taste (olives are already salty)",
       "Black pepper to taste",
       "1 cup water (approximately)",
-      "0.5 bunch fresh cilantro, chopped"
+      "1/2 bunch fresh cilantro, chopped"
     ]
   },
   "steps": {
     "he": [
-      "הניחו את הזיתים בסיר, כסו במים והוסיפו את הכורכום. הביאו לרתיחה ובשלו כ-10-15 דקות. פעולה זו מסירה עודפי מלח ומרירות. סננו והניחו בצד.",
-      "בסיר קטן, חממו את השמן וטגנו את השום הכתוש קלות עד שיעלה ריח (אל תשרפו).",
-      "הוסיפו את רסק העגבניות והתבלינים (פפריקה, מלח, פלפל, אבקת מרק). ערבבו היטב לפתיחת טעמי התבלינים.",
-      "הוסיפו מים (כ-240 מ\"ל) ליצירת רוטב והביאו לרתיחה עדינה.",
-      "הוסיפו את הזיתים המסוננים לרוטב. כסו ובשלו על אש נמוכה כ-15-20 דקות עד שהרוטב מסמיך ועוטף את הזיתים.",
-      "הורידו מהאש וערבבו פנימה את הכוסברה הקצוצה לפני ההגשה."
+      "שימו את הזיתים בסיר, כסו במים והוסיפו את הכורכום. הביאו לרתיחה ובשלו כ-10-15 דקות. פעולה זו מסירה את המרירות ועודפי המלח. סננו והניחו בצד.",
+      "בסיר קטן, חממו את השמן וטגנו קלות את השום הכתוש עד שיעלה ניחוח (זהירות לא לשרוף).",
+      "הוסיפו את רסק העגבניות והתבלינים (פפריקה, מלח, פלפל ואבקת מרק). ערבבו היטב כדי 'לפתוח' את התבלינים.",
+      "הוסיפו את המים ליצירת רוטב והביאו לרתיחה עדינה.",
+      "הוסיפו את הזיתים המסוננים לרוטב. כסו ובשלו על אש נמוכה כ-15-20 דקות, עד שהרוטב מסמיך ועוטף את הזיתים.",
+      "הסירו מהאש, הוסיפו את הכוסברה הקצוצה, ערבבו והגישו."
     ],
     "es": [
-      "Coloque las aceitunas en una olla, cubra con agua y añada la cúrcuma. Lleve a ebullición y cocine durante unos 10-15 minutos. Esto elimina el exceso de sal y el amargor. Escurra y reserve.",
-      "En una cacerola, caliente el aceite y fría el ajo picado brevemente hasta que esté fragante (no lo queme).",
-      "Añada la pasta de tomate y las especias (pimentón, sal, pimienta, condimento de pollo). Remueva bien para liberar los sabores de las especias.",
-      "Añada agua (aprox. 240 ml) para crear una salsa y lleve a fuego lento.",
-      "Añada las aceitunas escurridas a la salsa. Tape y cocine a fuego lento durante unos 15-20 minutos hasta que la salsa espese y cubra las aceitunas.",
-      "Retire del fuego e incorpore el cilantro picado antes de servir."
+      "Ponga las aceitunas en una olla, cúbralas con agua y añada la cúrcuma. Lleve a ebullición y cocine por unos 10-15 minutos. Esto ayuda a eliminar el exceso de sal y el amargor. Escurra y reserve.",
+      "En una cacerola, caliente el aceite y sofría el ajo picado brevemente hasta que suelte su aroma (tenga cuidado de no quemarlo).",
+      "Incorpore la pasta de tomate y las especias (pimentón, sal, pimienta y caldo en polvo). Remueva bien para que las especias liberen su sabor.",
+      "Vierta el agua para formar la salsa y lleve a fuego lento.",
+      "Agregue las aceitunas escurridas a la salsa. Tape y cocine a fuego lento por unos 15-20 minutos, hasta que la salsa espese y cubra bien las aceitunas.",
+      "Retire del fuego y mezcle con el cilantro picado antes de servir."
     ],
     "ar": [
-      "حط الزيتون في طنجرة، غمه بالماء وزيد الكركم. خليه يغلي وطيبه حكاية 10-15 دقيقة. هكا يتنحى الملح الزايد والمرارة. صفيه وخليه على شيرة.",
-      "في طنجرة، سخن الزيت وقلي الثوم المرحي شوية لين تطلع ريحته (رد بالك يتحرق).",
-      "زيد طماطم الحكة والفاحات (فلفل زينة، ملح، فلفل أكحل، تابل دجاج). حرك مليح باش الفاحات تخرج بنتها.",
-      "زيد الماء (حكاية كأس) باش تعمل مرقة وخليها تغلي شوية.",
-      "ارمي الزيتون المصفى في المرقة. غطي الطنجرة وطيّب على نار هادية حكاية 15-20 دقيقة لين المرقة تعقاد وتشرب الزيتون.",
-      "نحيها من النار وخلط معاها الكسبر المقصوص قبل ما تقدمها."
+      "حط الزيتون في طنجرة، غمه بالماء وزيد الكركم. خليه يغلي حكاية 10-15 دقيقة. هكا يتنحى منه الملح الزايد والمرارة. صفيه وخليه على شيرة.",
+      "في طنجرة أخرى، سخن الزيت وقلي الثوم المرحي شوية لين تطلع ريحته (رد بالك لا يتحرق).",
+      "زيد الطماطم المعجونة والفاحات (فلفل زينة، ملح، فلفل أكحل، وفاح الدجاج). حرك مليح باش الفاحات تخرج بنتها.",
+      "صب الماء باش تعمل صوص وخليها تغلي شوية.",
+      "ارمي الزيتون المصفى في الصوص. غطي الطنجرة وطيّب على نار هادية حكاية 15-20 دقيقة لين الصوص تعقاد وتتلبس بالزيتون.",
+      "هبطها من النار وخلط معاها الكسبر المقصوص قبل التقديم."
     ],
     "en": [
-      "Place the olives in a pot, cover with water, and add the turmeric. Bring to a boil and cook for about 10-15 minutes. This removes excess salt and bitterness. Drain and set aside.",
-      "In a saucepan, heat the oil and fry the minced garlic briefly until fragrant (do not burn).",
-      "Add the tomato paste and spices (paprika, salt, pepper, chicken seasoning). Stir well to open the flavors of the spices.",
-      "Add water (approx 1 cup) to create a sauce and bring to a simmer.",
-      "Add the drained olives to the sauce. Cover and simmer on low heat for about 15-20 minutes until the sauce thickens and coats the olives.",
-      "Remove from heat and stir in the chopped cilantro before serving."
+      "Place the olives in a pot, cover with water, and add the turmeric. Bring to a boil and simmer for about 10-15 minutes to remove excess salt and bitterness. Drain and set aside.",
+      "In a saucepan, heat the oil and sauté the minced garlic briefly until fragrant (be careful not to burn it).",
+      "Add the tomato paste and spices (paprika, salt, pepper, and bouillon powder). Stir well to toast the spices and release their flavors.",
+      "Pour in the water to create a sauce and bring to a gentle simmer.",
+      "Add the drained olives to the sauce. Cover and simmer on low heat for 15-20 minutes, until the sauce thickens and coats the olives.",
+      "Remove from the heat and stir in the chopped cilantro before serving."
     ]
   },
   "index": 46

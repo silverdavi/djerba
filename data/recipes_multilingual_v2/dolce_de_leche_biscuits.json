@@ -8,32 +8,32 @@
     "difficulty": "Medium"
   },
   "name": {
-    "he": "עוגת ביסקוויטים ודולצ׳ה דה לצ׳ה",
+    "he": "עוגת ביסקוויטים וריבת חלב",
     "es": "Torta de Galletas con Dulce de Leche",
-    "ar": "كعكة البسكويت ودولسي دي ليتشي",
+    "ar": "كيكة البسكويت ودولسي دي ليتشي",
     "en": "Biscuit & Dulce de Leche Cake"
   },
   "description": {
-    "he": "עוגה מרשימה בשלוש שכבות ללא אפייה: בסיס שוקולד עם ביסקוויטים ודולצ׳ה דה לצ׳ה, מוס דולצ׳ה דה לצ׳ה, וציפוי שוקולד מבריק. המתכון המקורי של קארין גורן הותאם לגרסה טבעונית עם שוקולד מריר טבעוני, קרם קוקוס ותחליף ריבת חלב.",
-    "es": "Una impresionante torta de tres capas sin horno: base de chocolate con galletas y dulce de leche, mousse de dulce de leche, y cobertura brillante de chocolate. La receta original de Karin Goren fue adaptada a versión vegana con chocolate amargo vegano, crema de coco y sustituto vegano de dulce de leche.",
-    "ar": "كعكة بدون خبز بثلاث طبقات: قاعدة شوكولاطة مع بسكويت ودولسي دي ليتشي، موس دولسي دي ليتشي، وتغليفة شوكولاطة لامعة. الوصفة الأصلية متاع كارين غورن تعدلت للنسخة النباتية مع شوكولاطة مريرة نباتية وكريمة كوكو وبديل نباتي لمربى الحليب.",
-    "en": "An impressive three-layer no-bake cake: chocolate base with biscuits and dulce de leche, dulce de leche mousse, and a glossy chocolate coating. Karin Goren's original recipe adapted to a vegan version with vegan dark chocolate, coconut cream, and plant-based dulce de leche substitute."
+    "he": "עוגה מרשימה בשלוש שכבות ללא אפייה: בסיס שוקולד עם ביסקוויטים וריבת חלב, מוס ריבת חלב, וציפוי שוקולד מבריק. המתכון המקורי של קארין גורן הותאם לגרסה טבעונית עם שוקולד מריר טבעוני, קרם קוקוס ותחליף ריבת חלב.",
+    "es": "Una impresionante torta de tres capas sin horno: base de chocolate con galletas y dulce de leche, mousse de dulce de leche y una cobertura brillante de chocolate. La receta original de Karin Goren fue adaptada a una versión vegana con chocolate amargo vegano, crema de coco y un sustituto vegetal de dulce de leche.",
+    "ar": "كيكة من غير فور بثلاثة طبقات: قاعدة متاع شوكولاطة مع بسكويت ودولسي دي ليتشي، موس دولسي دي ليتشي، وتغليفة شوكولاطة لامعة. الوصفة الأصلية متاع كارين غورن تعدلت للنسخة النباتية مع شوكولاطة نوار نباتية وكرام كوكو وبديل نباتي لدولسي دي ليتشي.",
+    "en": "An impressive three-layer no-bake cake: chocolate base with biscuits and dulce de leche, dulce de leche mousse, and a glossy chocolate coating. Karin Goren's original recipe, adapted into a vegan version with vegan dark chocolate, coconut cream, and a plant-based dulce de leche substitute."
   },
   "ingredients": {
     "he": [
       "לשכבת השוקולד:",
-      "1/2 קופסת קרם קוקוס",
+      "1/2 פחית קרם קוקוס",
       "100 גרם שמן קוקוס",
-      "1/2 כוס דולצ׳ה דה לצ׳ה טבעוני",
-      "250 גרם ביסקוויטים (פטי-בר טבעוני)",
+      "1/2 כוס ריבת חלב טבעונית",
+      "250 גרם ביסקוויטים (פטי בר טבעוני)",
       "200 גרם שוקולד מריר טבעוני",
       "לשכבת המוס:",
-      "1 קופסת קרם קוקוס (מקורר לילה)",
-      "1 חבילת פודינג וניל + 2 כפות דולצ׳ה דה לצ׳ה טבעוני",
+      "1 פחית קרם קוקוס (לאחר קירור של לילה במקרר)",
+      "1 חבילת אינסטנט פודינג וניל + 2 כפות ריבת חלב טבעונית",
       "לציפוי:",
-      "1/2 קופסת קרם קוקוס",
+      "1/2 פחית קרם קוקוס",
       "100 גרם שוקולד מריר טבעוני",
-      "2 כפות דולצ׳ה דה לצ׳ה טבעוני לקישוט"
+      "2 כפות ריבת חלב טבעונית לקישוט"
     ],
     "es": [
       "Para la capa de chocolate:",
@@ -44,26 +44,26 @@
       "200 g de chocolate amargo vegano",
       "Para la capa de mousse:",
       "1 lata de crema de coco (refrigerada toda la noche)",
-      "1 paquete de pudín de vainilla + 2 cdas de dulce de leche vegano",
+      "1 paquete de pudín de vainilla instantáneo + 2 cdas. de dulce de leche vegano",
       "Para la cobertura:",
       "1/2 lata de crema de coco",
       "100 g de chocolate amargo vegano",
-      "2 cdas de dulce de leche vegano para decorar"
+      "2 cdas. de dulce de leche vegano para decorar"
     ],
     "ar": [
       "لطبقة الشوكولاطة:",
-      "نصف علبة كريمة كوكو",
-      "100 غرام زيت كوكو",
-      "نصف كاس دولسي دي ليتشي نباتي",
-      "250 غرام بسكويت (بتي بر نباتي)",
-      "200 غرام شوكولاطة مريرة نباتية",
+      "شطر حكة كرام كوكو",
+      "100 غ زيت كوكو",
+      "شطر كاس دولسي دي ليتشي نباتي",
+      "250 غ بسكويت (بتي بور نباتي)",
+      "200 غ شوكولاطة نوار نباتية",
       "لطبقة الموس:",
-      "1 علبة كريمة كوكو (مبردة ليلة كاملة)",
-      "1 باكو بودينغ فانيليا + 2 مغارف دولسي نباتي",
+      "1 حكة كرام كوكو (باردة ليلة كاملة في الفريجيدار)",
+      "1 باكو كريمة فانيليا (بودينغ) + 2 مغارف كبار دولسي دي ليتشي نباتي",
       "للتغليفة:",
-      "نصف علبة كريمة كوكو",
-      "100 غرام شوكولاطة مريرة نباتية",
-      "2 مغارف دولسي نباتي للزينة"
+      "شطر حكة كرام كوكو",
+      "100 غ شوكولاطة نوار نباتية",
+      "2 مغارف كبار دولسي دي ليتشي نباتي للزينة"
     ],
     "en": [
       "For the chocolate layer:",
@@ -74,7 +74,7 @@
       "200g vegan dark chocolate",
       "For the mousse layer:",
       "1 can coconut cream (refrigerated overnight)",
-      "1 packet vanilla pudding + 2 tbsp vegan dulce de leche",
+      "1 packet instant vanilla pudding mix + 2 tbsp vegan dulce de leche",
       "For the coating:",
       "1/2 can coconut cream",
       "100g vegan dark chocolate",
@@ -83,28 +83,28 @@
   },
   "steps": {
     "he": [
-      "לשכבת השוקולד: ממיסים יחד שוקולד, שמן קוקוס, דולצ׳ה דה לצ׳ה וקרם קוקוס. מסירים מהאש ומצננים 5 דקות. מערבבים את חתיכות הביסקוויט ומורחים בתבנית משומנת (קוטר 24).",
-      "לשכבת המוס: מקציפים את קרם הקוקוס הקר עם אבקת הפודינג והדולצ׳ה דה לצ׳ה. מורחים מעל שכבת השוקולד. מעבירים למקפיא לשעה.",
-      "לציפוי: מחממים קרם קוקוס ומוסיפים שוקולד, מערבבים עד להמסה. שופכים על העוגה.",
-      "מקשטים בפסי דולצ׳ה דה לצ׳ה בעזרת שקית זילוף. מקררים עד להגשה."
+      "לשכבת השוקולד: ממיסים יחד שוקולד, שמן קוקוס, ריבת חלב וקרם קוקוס. מסירים מהאש ומצננים 5 דקות. מערבבים פנימה את שברי הביסקוויטים ומשטחים בתבנית משומנת (בקוטר 24 ס״מ).",
+      "לשכבת המוס: מקציפים את קרם הקוקוס הקר עם אבקת הפודינג וריבת החלב. משטחים מעל שכבת השוקולד. מעבירים למקפיא לשעה.",
+      "לציפוי: מחממים את קרם הקוקוס ומוסיפים את השוקולד, מערבבים עד להמסה חלקה. יוצקים על העוגה.",
+      "מקשטים בפסי ריבת חלב בעזרת שקית זילוף. מעבירים למקרר עד להגשה."
     ],
     "es": [
-      "Para la capa de chocolate: Derretir juntos el chocolate, aceite de coco, dulce de leche y crema de coco. Retirar del fuego y enfriar 5 minutos. Mezclar con los trozos de galleta y extender en un molde engrasado (diámetro 24).",
-      "Para la capa de mousse: Batir la crema de coco fría con el pudín y el dulce de leche. Extender sobre la capa de chocolate. Llevar al congelador por una hora.",
-      "Para la cobertura: Calentar la crema de coco y añadir el chocolate, mezclar hasta derretir. Verter sobre la torta.",
+      "Para la capa de chocolate: Derretir juntos el chocolate, el aceite de coco, el dulce de leche y la crema de coco. Retirar del fuego y enfriar 5 minutos. Mezclar con los trozos de galleta y extender en un molde engrasado (24 cm de diámetro).",
+      "Para la capa de mousse: Batir la crema de coco fría con el pudín instantáneo y el dulce de leche. Extender sobre la capa de chocolate. Llevar al congelador por una hora.",
+      "Para la cobertura: Calentar la crema de coco y añadir el chocolate, mezclar hasta que se derrita por completo. Verter sobre la torta.",
       "Decorar con líneas de dulce de leche usando una manga pastelera. Refrigerar hasta servir."
     ],
     "ar": [
-      "لطبقة الشوكولاطة: ذوّب مع بعض الشوكولاطة وزيت الكوكو والدولسي والكريمة. نحيها من النار وبردها 5 دقايق. خلط قطع البسكويت وافرد في صينية مدهونة (قطر 24).",
-      "لطبقة الموس: اخفق كريمة الكوكو الباردة مع بودرة البودينغ والدولسي. افرد فوق طبقة الشوكولاطة. حط في الفريزر ساعة.",
-      "للتغليفة: سخن كريمة الكوكو وزيد الشوكولاطة، حرك لين تذوب. صب على الكعكة.",
-      "زيّن بخطوط دولسي بالپوش. حط في الثلاجة لين وقت التقديم."
+      "لطبقة الشوكولاطة: ذوّب الشوكولاطة وزيت الكوكو والدولسي دي ليتشي وكرام كوكو مع بعضهم. نحّيهم من النار وخليهم يبردو 5 دقايق. خلط معاهم طروف البسكويت وافرشهم في طبق مدهون (قطر 24 صم).",
+      "لطبقة الموس: اركض كرام كوكو الباردة مع غبرة البودينغ والدولسي دي ليتشي. افرشها فوق طبقة الشوكولاطة. حطها في الكونجيلاتور لمدة ساعة.",
+      "للتغليفة: سخّن كرام كوكو وزيدها الشوكولاطة، حرّك لين تذوب. صبّها فوق الكيكة.",
+      "زيّن بخطوط متاع دولسي دي ليتشي باستعمال بوش (كيس حلواني). حطها في الفريجيدار لين يجي وقت التقديم."
     ],
     "en": [
-      "For the chocolate layer: Melt together chocolate, coconut oil, dulce de leche, and coconut cream. Remove from heat and cool 5 minutes. Mix in biscuit pieces and spread in a greased pan (24cm diameter).",
-      "For the mousse layer: Whip the cold coconut cream with pudding powder and dulce de leche. Spread over the chocolate layer. Transfer to freezer for one hour.",
-      "For the coating: Heat coconut cream and add chocolate, stir until melted. Pour over the cake.",
-      "Decorate with dulce de leche stripes using a piping bag. Refrigerate until serving."
+      "For the chocolate layer: Melt together the chocolate, coconut oil, dulce de leche, and coconut cream. Remove from heat and let cool for 5 minutes. Fold in the broken biscuits and spread evenly into a greased pan (24cm diameter).",
+      "For the mousse layer: Whip the cold coconut cream with the instant pudding mix and dulce de leche. Spread evenly over the chocolate layer. Transfer to the freezer for one hour.",
+      "For the coating: Heat the coconut cream, add the chocolate, and stir until completely melted and smooth. Pour over the cake.",
+      "Decorate with stripes of dulce de leche using a piping bag. Refrigerate until ready to serve."
     ]
   }
 }

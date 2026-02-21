@@ -9,15 +9,15 @@
   },
   "name": {
     "he": "עוגת שמרים",
-    "es": "Bizcocho de Levadura",
-    "ar": "كعكة الخميرة",
+    "es": "Pastel de Levadura",
+    "ar": "كيكة بالخميرة",
     "en": "Yeast Cake"
   },
   "description": {
-    "he": "עוגת שמרים רכה ואוורירית עם מילוי קינמון וסוכר חום, מצופה בסירופ סוכר חם מיד לאחר האפייה. הבצק המועשר בשמן ונתחם של לימון או תפוז מניב עוגה עסיסית שנשארת טרייה. מנה קלאסית לשבתות ולחגים.",
-    "es": "Un bizcocho suave y esponjoso con relleno de canela y azúcar moreno, bañado en almíbar caliente inmediatamente después del horneado. La masa enriquecida con aceite y ralladura de cítricos produce un bizcocho jugoso que se mantiene fresco. Un clásico para Shabat y festividades.",
-    "ar": "كعكة خميرة طرية وخفيفة بحشوة قرفة وسكر بني، مدهونة بشيرة سكر سخونة حط ما تخرج من الكوشة. العجينة الغنية بالزيت وقشر الليمون ولا البرتقال تعطي كعكة شهية تقعد فريش. ماكلة كلاسيكية للسبت والأعياد.",
-    "en": "A soft, airy yeast cake with a cinnamon and brown sugar filling, brushed with hot sugar syrup right after baking. The dough enriched with oil and citrus zest yields a moist cake that stays fresh. A classic for Shabbat and holidays."
+    "he": "עוגת שמרים רכה ואוורירית עם מילוי קינמון וסוכר חום, מצופה בסירופ סוכר חם מיד לאחר האפייה. הבצק המועשר בשמן וגרידת לימון או תפוז מניב עוגה עסיסית שנשארת טרייה. מנה קלאסית לשבתות ולחגים.",
+    "es": "Un pastel de levadura suave y esponjoso con relleno de canela y azúcar moreno, pincelado con almíbar caliente inmediatamente después del horneado. La masa, enriquecida con aceite y ralladura de cítricos, produce un pastel húmedo que se mantiene fresco. Un clásico para Shabat y festividades.",
+    "ar": "كيكة بالخميرة طرية وخفيفة محشية بالقرفة والسكر الأسمر، مدهونة بالشحور سخون أول ما تخرج من الكوشة. العجينة مخدومة بالزيت وقشور القارص ولا البرتقال تعطي كيكة بنينة وتقعد طرية. حاجة كلاسيكية للسبت والأعياد.",
+    "en": "A soft, airy yeast cake with a cinnamon and brown sugar filling, brushed with hot sugar syrup right after baking. The dough, enriched with oil and citrus zest, yields a moist cake that stays fresh. A classic for Shabbat and holidays."
   },
   "ingredients": {
     "he": [
@@ -29,7 +29,7 @@
       "1 כוס שמן צמחי",
       "500 מ\"ל מים פושרים",
       "גרידת לימון או תפוז",
-      "למילוי: שמן קוקוס מוקשה, סוכר חום, קינמון",
+      "למילוי: שמן קוקוס מוצק, סוכר חום, קינמון",
       "לסירופ: 1/2 כוס סוכר, 1/2 כוס מים"
     ],
     "es": [
@@ -41,66 +41,66 @@
       "1 taza de aceite vegetal",
       "500 ml de agua tibia",
       "Ralladura de limón o naranja",
-      "Para el relleno: aceite de coco hidrogenado, azúcar moreno, canela",
+      "Para el relleno: aceite de coco sólido, azúcar moreno, canela",
       "Para el almíbar: 1/2 taza de azúcar, 1/2 taza de agua"
     ],
     "ar": [
       "1 كيلو فرينة",
-      "2 مغارف خميرة ناشفة",
-      "نصف كاس سكر",
-      "1 مغرفة سكر فانيليا",
+      "2 مغارف كبار خميرة خبز شايحة",
+      "شطر كاس سكر",
+      "1 مغرفة كبيرة سكر فانيليا",
       "1 مغرفة صغيرة ملح",
       "1 كاس زيت نباتي",
       "500 مل ماء دافي",
-      "قشر ليمون ولا برتقال مبشور",
-      "للحشوة: زيت كوكو مجمد، سكر بني، قرفة",
-      "للشيرة: نصف كاس سكر، نصف كاس ماء"
+      "قشور قارص ولا برتقال مبشورة",
+      "للحشو: زيت كوكو جامد، سكر أسمر، قرفة",
+      "للشحور: شطر كاس سكر، شطر كاس ماء"
     ],
     "en": [
       "1 kg flour",
-      "2 tbsp dry yeast",
+      "2 tbsp active dry yeast",
       "1/2 cup sugar",
       "1 tbsp vanilla sugar",
       "1 tsp salt",
       "1 cup vegetable oil",
-      "500ml warm water",
-      "Zest of a lemon or orange",
-      "For filling: hydrogenated coconut oil, brown sugar, cinnamon",
-      "For syrup: 1/2 cup sugar, 1/2 cup water"
+      "500 ml warm water",
+      "Zest of 1 lemon or orange",
+      "For the filling: solid coconut oil, brown sugar, cinnamon",
+      "For the syrup: 1/2 cup sugar, 1/2 cup water"
     ]
   },
   "steps": {
     "he": [
-      "מערבבים קמח, שמרים, סוכר, סוכר וניל, מלח וגרידה. מוסיפים שמן ומים פושרים ולשים לבצק חלק.",
+      "מערבבים קמח, שמרים, סוכר, סוכר וניל, מלח וגרידת הדרים. מוסיפים שמן ומים פושרים ולשים לבצק חלק.",
       "מכסים ומניחים לתפיחה עד הכפלת הנפח.",
       "מרדדים את הבצק, מורחים שכבת שמן קוקוס, מפזרים סוכר חום וקינמון. מגלגלים ומסדרים בתבנית.",
       "מניחים לתפיחה שנייה של כ-20 דקות.",
       "אופים בתנור ב-180 מעלות עד להזהבה.",
-      "בזמן האפייה מכינים סירופ: מחממים סוכר ומים על הגז עד להמסה. מיד עם ההוצאה מהתנור מורחים את הסירופ על העוגה."
+      "בזמן האפייה מכינים סירופ: מחממים סוכר ומים על הכיריים עד להמסה. מיד עם ההוצאה מהתנור מורחים את הסירופ על העוגה."
     ],
     "es": [
-      "Mezclar la harina, levadura, azúcar, azúcar avainillado, sal y ralladura. Añadir aceite y agua tibia, amasar hasta obtener una masa suave.",
+      "Mezclar la harina, la levadura, el azúcar, el azúcar avainillado, la sal y la ralladura. Añadir el aceite y el agua tibia; amasar hasta obtener una masa suave.",
       "Cubrir y dejar leudar hasta que duplique su volumen.",
-      "Estirar la masa, untar una capa de aceite de coco, espolvorear azúcar moreno y canela. Enrollar y colocar en un molde.",
+      "Estirar la masa, untar una capa de aceite de coco, y espolvorear el azúcar moreno y la canela. Enrollar y colocar en un molde.",
       "Dejar leudar por segunda vez, unos 20 minutos.",
-      "Hornear a 180°C hasta que se dore.",
-      "Mientras se hornea, preparar el almíbar: calentar azúcar y agua hasta disolver. Inmediatamente al sacar del horno, pincelar el almíbar sobre el bizcocho."
+      "Hornear a 180°C hasta que esté dorado.",
+      "Mientras se hornea, preparar el almíbar: calentar el azúcar y el agua hasta que se disuelvan. Inmediatamente al sacar del horno, pincelar el almíbar sobre el pastel."
     ],
     "ar": [
-      "خلط الفرينة والخميرة والسكر وسكر الفانيليا والملح وقشر الحامض. زيد الزيت والماء الدافي واعجن لين تولي عجينة ملسة.",
-      "غطي واتركها تخمر لين يتضاعف حجمها.",
-      "افرد العجينة، ادهن طبقة زيت كوكو، رش سكر بني وقرفة. لف وحط في الصينية.",
-      "اتركها تخمر مرة ثانية تقريب 20 دقيقة.",
-      "اخبز في الكوشة على 180 درجة لين تحمار.",
-      "وقت الخبز حضر الشيرة: سخن السكر والماء على النار لين يذوب. حط ما تخرج الكعكة من الكوشة ادهنها بالشيرة."
+      "خلط الفرينة، الخميرة، السكر، سكر الفانيليا، الملح وقشور القارص. زيد الزيت والماء الدافي واعجن لين تولي عندك عجينة رطبة.",
+      "غطيها وخليها تخمر لين يتضاعف الحجم متاعها.",
+      "حل العجينة، ادهنها بطبقة زيت كوكو، ورش السكر الأسمر والقرفة. روليها وحطها في الطبق.",
+      "خليها تخمر مرة ثانية حكاية 20 دقيقة.",
+      "طيبها في الكوشة على 180 درجة لين تحمار.",
+      "وقت اللي هي تطيب، حضر الشحور: سخن السكر والماء على الغاز لين يذوب السكر. أول ما تخرج الكيكة من الكوشة، ادهنها بالشحور سخون."
     ],
     "en": [
-      "Mix flour, yeast, sugar, vanilla sugar, salt, and zest. Add oil and warm water, knead into a smooth dough.",
-      "Cover and let rise until doubled in volume.",
-      "Roll out the dough, spread a layer of coconut oil, sprinkle brown sugar and cinnamon. Roll up and arrange in a pan.",
-      "Let rise a second time, about 20 minutes.",
-      "Bake at 180°C until golden.",
-      "While baking, prepare syrup: heat sugar and water until dissolved. Immediately after removing from oven, brush the syrup over the cake."
+      "Mix the flour, yeast, sugar, vanilla sugar, salt, and zest. Add the oil and warm water, and knead into a smooth dough.",
+      "Cover and let rise until doubled in size.",
+      "Roll out the dough, spread a layer of coconut oil, and sprinkle with brown sugar and cinnamon. Roll up into a log and arrange in a baking pan.",
+      "Let rise a second time for about 20 minutes.",
+      "Bake at 180°C until golden brown.",
+      "While baking, prepare the syrup: heat the sugar and water in a saucepan until dissolved. Immediately after removing from the oven, brush the hot syrup over the cake."
     ]
   }
 }

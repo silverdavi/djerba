@@ -14,10 +14,10 @@
     "en": "Chocolate Cake"
   },
   "description": {
-    "he": "עוגת שוקולד משלבת את המילה העברית לעוגה עם המונח המודרני לשוקולד. גרסה טבעונית זו מחליפה ביצים מסורתיות בזרעי פשתן כדי לשמור על מרקם עשיר תוך שמירה על כשרות פרווה. זהו קינוח אהוב לשבת, מושלם להגשה לאחר ארוחות בשריות בבתים כשרים.",
-    "es": "Ugat Shokolad combina la palabra hebrea para pastel con el término moderno para chocolate. Esta adaptación vegana sustituye los huevos tradicionales por semillas de lino para mantener una textura rica siendo pareve. Sigue siendo un elemento básico querido del Shabat, perfecto para servir después de comidas con carne en hogares kosher.",
-    "ar": "أوغات شوكولاد تخلط الكلمة العبرية للكيكة مع الكلمة العصرية للشوكولاتة. هذي الوصفة النباتية تبدل العظم بذور الكتان باش تحافظ على القوام الغني وتبقى بارفي. هي حاجة محبوبة في السبت، وممتازة للتقديم بعد ماكلة اللحم في الديار اللي تحافظ على الكاشير.",
-    "en": "Ugat Shokolad blends the Hebrew word for cake with the modern term for chocolate. This vegan adaptation replaces traditional eggs with flaxseed to maintain a rich texture while staying pareve. It remains a beloved Shabbat staple perfect for serving after meat meals in kosher households."
+    "he": "השם 'עוגת שוקולד' משלב את המילה העברית לעוגה עם המונח המודרני לשוקולד. גרסה טבעונית זו מחליפה את הביצים המסורתיות בזרעי פשתן כדי לשמור על מרקם עשיר, תוך שמירה על כשרות פרווה. זוהי עוגה אהובה לשבת, מושלמת להגשה לאחר ארוחה בשרית בבתים שומרי כשרות.",
+    "es": "El nombre 'Ugat Shokolad' combina la palabra hebrea para pastel con el término moderno para chocolate. Esta adaptación vegana sustituye los huevos tradicionales por semillas de lino para mantener una textura rica y, al mismo tiempo, conservar su estado 'pareve'. Sigue siendo un clásico muy querido en Shabat, ideal para servir después de comidas con carne en hogares que siguen la dieta kosher.",
+    "ar": "اسم 'أوغات شوكولاد' يخلط بين الكلمة العبرية للكيكة والكلمة العصرية للشوكولاتة. هذي الوصفة النباتية تعوّض العظم بزريعة الكتان باش تحافظ على قوام غني وتبقى 'بارفي' (بدون حليب أو لحم). تقعد ديما حاجة محبوبة نهار السبت، وهايلة باش تتقدم بعد ماكلة اللحم في الديار اللي تبع الكاشير.",
+    "en": "The name 'Ugat Shokolad' blends the Hebrew word for cake with the modern term for chocolate. This vegan adaptation replaces traditional eggs with ground flaxseed to maintain a rich texture while keeping the cake pareve. It remains a beloved Shabbat staple, perfect for serving after meat meals in kosher households."
   },
   "ingredients": {
     "he": [
@@ -25,94 +25,94 @@
       "350 גרם סוכר",
       "75 גרם אבקת קקאו",
       "160 מ\"ל שמן צמחי",
-      "2 גרם קפה נמס (להמסה במים)",
+      "2 גרם (כפית) קפה נמס",
       "300 מ\"ל מים רותחים",
       "6 גרם מלח",
-      "2.4 גרם אבקת אפייה",
-      "9 גרם סודה לשתייה",
-      "3 \"ביצי\" פשתן (3 כפות פשתן טחון עם 9 כפות מים)",
-      "60 מ\"ל מיץ תפוזים, סחוט טרי",
+      "2.4 גרם (1/2 כפית) אבקת אפייה",
+      "9 גרם (1.5 כפיות) סודה לשתייה",
+      "3 \"ביצי\" פשתן (3 כפות זרעי פשתן טחונים מעורבבים עם 9 כפות מים)",
+      "60 מ\"ל מיץ תפוזים סחוט טרי",
       "5 גרם סוכר וניל",
-      "מרגרינה טבעונית לפי הטעם"
+      "מעט מרגרינה טבעונית (לשימון התבנית)"
     ],
     "es": [
-      "250 g de harina para todo uso",
+      "250 g de harina de trigo todo uso",
       "350 g de azúcar",
       "75 g de cacao en polvo",
       "160 ml de aceite vegetal",
-      "2 g de café instantáneo (para disolver)",
+      "2 g de café instantáneo",
       "300 ml de agua hirviendo",
       "6 g de sal",
-      "2.4 g de polvo de hornear",
+      "2.4 g de polvo para hornear",
       "9 g de bicarbonato de sodio",
-      "3 huevos de lino (3 cdas de lino molido con 9 cdas de agua)",
-      "60 ml de jugo de naranja, recién exprimido",
-      "5 g de azúcar de vainilla",
-      "Margarina vegana al gusto"
+      "3 \"huevos\" de lino (3 cdas de semillas de lino molidas con 9 cdas de agua)",
+      "60 ml de jugo de naranja recién exprimido",
+      "5 g de azúcar avainillado",
+      "Margarina vegana (para engrasar el molde)"
     ],
     "ar": [
       "2 كيسان فرينة",
-      "1 و 3/4 كيسان سكر",
-      "3/4 كاس كاكاو",
-      "2/3 كاس زيت نباتي",
-      "1 مغرفة صغيرة قهوة سريعة الذوبان",
-      "1 و 1/4 كيسان ماء يغلي",
+      "كاس وثلاثة أرباع سكر",
+      "ثلاثة أرباع كاس كاكاو",
+      "ثلثين كاس زيت نباتي",
+      "1 مغرفة صغيرة قهوة سريعة الذوبان (نسكافيه)",
+      "كاس وربع ماء يغلي",
       "1 مغرفة صغيرة ملح",
-      "نص مغرفة صغيرة خميرة قاطو",
-      "1 و نص مغرفة صغيرة بيكربونات",
-      "3 عظمات كتان (3 مغارف كتان مرحي مع 9 مغارف ماء)",
-      "1/4 كاس عصير برتقال، معصور جديد",
+      "شطر مغرفة صغيرة خميرة قاطو",
+      "مغرفة صغيرة ونص بيكربونات",
+      "3 \"عظمات\" كتان (3 مغارف كبار زريعة كتان مرحية مخلطة مع 9 مغارف كبار ماء)",
+      "ربع كاس عصير برتقال، معصور جديد",
       "1 مغرفة صغيرة سكر فانيليا",
-      "مارغرين نباتي حسب الذوق"
+      "شوية مارغرين نباتي (لدهن الطبق)"
     ],
     "en": [
       "2 cups all-purpose flour",
       "1 3/4 cups sugar",
       "3/4 cup cocoa powder",
       "2/3 cup vegetable oil",
-      "1 tsp instant coffee (dissolved in water)",
+      "1 tsp instant coffee",
       "1 1/4 cups boiling water",
       "1 tsp salt",
       "1/2 tsp baking powder",
       "1 1/2 tsp baking soda",
-      "3 flax eggs (3 tbsp ground flaxseed with 9 tbsp warm water)",
-      "1/4 cup orange juice, freshly squeezed",
+      "3 flax \"eggs\" (3 tbsp ground flaxseed mixed with 9 tbsp warm water)",
+      "1/4 cup freshly squeezed orange juice",
       "1 tsp vanilla sugar",
-      "Vegan margarine to taste"
+      "Vegan margarine (for greasing the pan)"
     ]
   },
   "steps": {
     "he": [
-      "לחמם תנור ל-175 מעלות צלזיוס.",
-      "להמיס את כפית הקפה הנמס במים הרותחים.",
-      "במיקסר עומד, לערבב את הקמח, הסוכר, הקקאו, השמן, המלח, אבקת האפייה, הסודה לשתייה ותערובת הקפה והמים החמים.",
-      "להוסיף את 3 \"ביצי\" הפשתן, מיץ התפוזים וסוכר הווניל למיקסר. לערבב עד שהבלילה חלקה ואחידה.",
-      "לשמן תבנית אפייה במעט מרגרינה.",
-      "לשפוך את התערובת לתבנית ולאפות במשך 55 דקות. לבדוק מוכנות בעזרת קיסם."
+      "מחממים תנור ל-175 מעלות.",
+      "ממיסים את הקפה הנמס במים הרותחים.",
+      "בקערת מיקסר, מערבבים את הקמח, הסוכר, הקקאו, השמן, המלח, אבקת האפייה, הסודה לשתייה ותערובת הקפה והמים הרותחים.",
+      "מוסיפים את \"ביצי\" הפשתן, מיץ התפוזים וסוכר הווניל. מערבבים עד לקבלת בלילה חלקה ואחידה.",
+      "משמנים תבנית אפייה במעט מרגרינה טבעונית.",
+      "יוצקים את הבלילה לתבנית ואופים כ-55 דקות, או עד שקיסם הננעץ במרכז העוגה יוצא נקי."
     ],
     "es": [
       "Precalentar el horno a 175°C.",
-      "Disolver la cucharadita de café instantáneo en el agua hirviendo.",
-      "En una batidora de pie, combinar la harina, el azúcar, el cacao, el aceite, la sal, el polvo de hornear, el bicarbonato de sodio y la mezcla de agua caliente con café.",
-      "Añadir los 3 huevos de lino, el jugo de naranja y el azúcar de vainilla a la batidora. Mezclar hasta que la masa esté suave y bien combinada.",
-      "Engrasar un molde para hornear con un poco de margarina.",
-      "Verter la mezcla en el molde y hornear durante 55 minutos. Comprobar si está listo con un palillo."
+      "Disolver el café instantáneo en el agua hirviendo.",
+      "En una batidora de pie, mezclar la harina, el azúcar, el cacao, el aceite, la sal, el polvo para hornear, el bicarbonato de sodio y la mezcla de café caliente.",
+      "Añadir los \"huevos\" de lino, el jugo de naranja y el azúcar avainillado. Mezclar hasta que la masa quede suave y homogénea.",
+      "Engrasar un molde para hornear con un poco de margarina vegana.",
+      "Verter la mezcla en el molde y hornear durante 55 minutos, o hasta que al insertar un palillo en el centro, este salga limpio."
     ],
     "ar": [
-      "سخّن الكوشة لـ 175 درجة.",
-      "حل مغرفة القهوة في الماء اللي يغلي.",
-      "في العجّانة، خلط الفرينة، السكر، الكاكاو، الزيت، الملح، خميرة القاطو، البيكربونات، وخليط القهوة والماء السخون.",
-      "زيد 3 عظمات الكتان، عصير البرتقال، وسكر الفانيليا للعجّانة. خلط مليح لين يولي الخليط أرطب ومتجانس.",
-      "ادهن طبق الكوشة بشوية مارغرين.",
-      "صب الخليط في الطبق وطيّبه لمدة 55 دقيقة. جرب طابش بعود سنون."
+      "سخّن الكوشة على 175 درجة.",
+      "ذوّب مغرفة القهوة في الماء اللي يغلي.",
+      "في صحفة العجّانة، خلط الفرينة، السكر، الكاكاو، الزيت، الملح، خميرة القاطو، البيكربونات، وخليط القهوة والماء السخون.",
+      "زيد \"عظمات\" الكتان، عصير البرتقال، وسكر الفانيليا. خلط مليح لين تولي البات رطبة ومتجانسة.",
+      "ادهن طبق الكوشة بشوية مارغرين نباتي.",
+      "صب الخليط في الطبق وطيّبه في الكوشة لمدة 55 دقيقة. دخّل عود سنون في الوسط باش تتأكد اللي هي طابت (لازم يخرج شايح)."
     ],
     "en": [
       "Preheat the oven to 175°C (350°F).",
-      "Dissolve the teaspoon of instant coffee into the hot boiling water.",
-      "In a stand mixer, combine the flour, sugar, cocoa, oil, salt, baking powder, baking soda, and the hot coffee-water mixture.",
-      "Add the 3 flax eggs, orange juice, and vanilla sugar to the mixer. Mix until the batter is smooth and well combined.",
-      "Grease a baking pan with a little margarine.",
-      "Pour the mixture into the pan and bake for 55 minutes. Check for doneness with a toothpick."
+      "Dissolve the instant coffee in the boiling water.",
+      "In a stand mixer, combine the flour, sugar, cocoa powder, oil, salt, baking powder, baking soda, and the hot coffee mixture.",
+      "Add the flax \"eggs\", orange juice, and vanilla sugar. Mix until the batter is smooth and well combined.",
+      "Grease a baking pan with a little vegan margarine.",
+      "Pour the batter into the pan and bake for 55 minutes, or until a toothpick inserted into the center comes out clean."
     ]
   },
   "index": 68

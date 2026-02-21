@@ -14,8 +14,8 @@
     "en": "Bkaila (Tunisian Chard and Bean Stew)"
   },
   "description": {
-    "he": "בקילה שואבת את שמה מהשורש הערבי לירק, ומתייחסת לכמות העצומה של עלי מנגולד המצטמצמים לתמצית כהה. גרסה טבעונית זו משתמשת בנתחי סייטן עשירים במקום בקר, תוך שמירה על טכניקת הקונפי המסורתית. זהו תבשיל תוניסאי היסטורי ועשיר, מושלם לשבת.",
-    "es": "El nombre Bkaila deriva de la raíz árabe para verduras, refiriéndose a la gran cantidad de acelgas reducidas a una esencia oscura. Esta adaptación vegana utiliza trozos sabrosos de seitán en lugar de carne de res, preservando la técnica tradicional de confitado. Es un estofado tunecino histórico y sustancioso, perfecto para Shabat.",
+    "he": "בקילה שואבת את שמה מהשורש הערבי לעלים ירוקים, ומתייחסת לכמות העצומה של עלי מנגולד המצטמצמים לתמצית כהה. גרסה טבעונית זו משתמשת בנתחי סייטן בשרניים במקום בקר, תוך שמירה על טכניקת הקונפי המסורתית. זהו תבשיל תוניסאי היסטורי ועשיר, מושלם לשבת.",
+    "es": "El nombre Bkaila deriva de la raíz árabe para verduras, refiriéndose a la gran cantidad de acelgas reducidas a una esencia oscura. Esta adaptación vegana utiliza sabrosos trozos de seitán en lugar de carne de res, preservando la técnica tradicional de confitado. Es un estofado tunecino histórico y sustancioso, perfecto para Shabat.",
     "ar": "اسم البكايلة جاي من الكلمة العربية للبقول، وهذا يرجع للكمية الكبيرة متاع السلق اللي تتقلى لين تولي كحلة ومركزة. في الوصفة النباتية هذي، نستعملو قطع السيتان في بلاصة اللحم، باش نحافظو على الطريقة التقليدية متاع القليان. هي مرقة تونسية عريقة وبنينة برشا، ومثالية لنهار السبت.",
     "en": "Bkaila derives its name from the Arabic root for greens, referring to the massive amount of chard reduced into a dark essence. This vegan adaptation uses savory seitan chunks instead of beef, preserving the traditional confit technique. It is a hearty, historic Tunisian stew perfect for Shabbat."
   },
@@ -46,10 +46,10 @@
       "2 ربطات سلق، مغسول ومقصوص (تنجم تعوضو بالسبناخ)",
       "نصف كاس زيت",
       "2 كيسان لوبيا بيضاء، منفخة ليلة كاملة",
-      "3 كيسان وثلث قطع سيتان، مقصوصين مكعبات",
+      "750 غرام (حوالي 3 كيسان وثلث) قطع سيتان، مقصوصين مكعبات",
       "6 سنون ثوم، مقشرين",
-      "ربطة كزبر خضراء، مقصوصة",
-      "ربطة شبث، مقصوصة",
+      "ربطة تابل أخضر (كزبرة)، مقصوصة",
+      "ربطة شبت، مقصوصة",
       "مرقة خضرة حسب الحاجة",
       "ملح حسب الذوق"
     ],
@@ -69,35 +69,36 @@
     "he": [
       "שטפו היטב את עלי המנגולד וקצצו אותם. הניחו אותם בסיר רחב ללא שמן או מים.",
       "בשלו על אש נמוכה כדי לאדות את העלים עד שכל הנוזלים הטבעיים מתאדים. העלים ייראו נבולים וכהים.",
-      "הוסיפו את השמן לעלים היבשים. טגנו בעדינות, תוך ערבוב מדי פעם, עד שהעלים הופכים לירוק כהה מאוד (כמעט שחור) והמרקם הופך דמוי קונפי.",
+      "הוסיפו את השמן לעלים היבשים. טגנו בעדינות, תוך ערבוב מדי פעם, עד שהעלים הופכים לירוק כהה מאוד (כמעט שחור) והמרקם הופך למרקם של קונפי.",
       "הוסיפו את השעועית הלבנה המושרית, קוביות הסייטן, השום, ומספיק מים או ציר כדי לכסות את המרכיבים.",
-      "הביאו לרתיחה, ואז הנמיכו את האש ובשלו בבישול ארוך עד שהסייטן והשעועית רכים.",
+      "הביאו לרתיחה, ואז הנמיכו את האש ובשלו בישול ארוך עד שהסייטן והשעועית רכים.",
       "לקראת סוף הבישול, הוסיפו את הכוסברה הקצוצה, השמיר והמלח לפי הטעם. בשלו עוד מספר דקות לאיחוד טעמים."
     ],
     "es": [
       "Lave bien las hojas de acelga y píquelas. Colóquelas en una olla ancha sin aceite ni agua.",
-      "Cocine a fuego lento para cocer las hojas al vapor hasta que se evapore todo el líquido natural. Las hojas se verán marchitas y de color verde oscuro.",
-      "Añada el aceite a las hojas secas. Fría suavemente, removiendo de vez en cuando, hasta que las hojas se tornen de un verde muy oscuro (casi negro) y la textura sea como de confitado.",
+      "Cocine a fuego lento para que las hojas se cocinen en su propio jugo hasta que se evapore todo el líquido natural. Las hojas se verán marchitas y de color verde oscuro.",
+      "Añada el aceite a las hojas secas. Fría suavemente, removiendo de vez en cuando, hasta que las hojas se tornen de un verde muy oscuro (casi negro) y adquieran una textura similar al confitado.",
       "Añada las alubias blancas remojadas, los cubos de seitán, el ajo y suficiente agua o caldo para cubrir los ingredientes.",
-      "Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento durante mucho tiempo hasta que el seitán y las alubias estén tiernos.",
+      "Lleve a ebullición, luego reduzca el fuego y cocine a fuego lento durante un tiempo prolongado hasta que el seitán y las alubias estén tiernos.",
       "Hacia el final de la cocción, añada el cilantro picado, el eneldo y sal al gusto. Cocine a fuego lento unos minutos más para integrar los sabores."
     ],
     "ar": [
       "اغسل السلق مليح وقصو. حطو في طنجرة واسعة من غير زيت ولا ماء.",
       "طيبو على نار هادية باش يخرج الماء متاعو وينشف. السلق يذبل ويولي لونو غامق.",
       "زيد الزيت للسلق الشايح. اقلي بالشوية وحرك مرة مرة، لين يولي السلق لونو أخضر غامق برشا (قريب للكحولة) ويولي مزيت كيف الكونفي.",
-      "زيد اللوبيا المنفخة، مكعبات السيتان، الثوم، ومرق بالماء ولا مرقة خضرة لين تتغطى المكونات الكل.",
+      "زيد اللوبيا المنفخة، مكعبات السيتان، الثوم، ومرّق بالماء ولا بمرقة الخضرة لين تتغطى المكونات الكل.",
       "خليها تغلي، ومبعد نقص في النار وخليها تطيب سلة سلة لين السيتان واللوبيا يطيبو بالباهي.",
-      "في آخر التطيب، زيد الكزبر والشبث المقصوصين والملح حسب الذوق. خليهم يغليو شوية باش النكهات تدخل في بعضها."
+      "في آخر التطيب، زيد التابل الأخضر والشبت المقصوصين والملح حسب الذوق. خليهم يغليو شوية باش النكهات تدخل في بعضها."
     ],
     "en": [
       "Thoroughly wash the Swiss chard leaves and chop them. Place them in a wide pot without any oil or water.",
       "Cook on low heat to steam the leaves until all the natural liquid evaporates. The leaves will look wilted and dark green.",
       "Add the oil to the dried leaves. Fry gently, stirring occasionally, until the leaves turn a very dark, deep green (almost black) and the texture becomes confit-like.",
       "Add the soaked white beans, seitan chunks, garlic, and enough water or broth to cover the ingredients.",
-      "Bring to a boil, then reduce heat and simulate a long cook until the seitan and beans are tender.",
+      "Bring to a boil, then reduce heat and simmer gently for a long time until the seitan and beans are tender.",
       "Towards the end of cooking, add the chopped cilantro, dill, and salt to taste. Simmer for a final few minutes to integrate flavors."
     ]
   },
-  "index": 11
+  "index": 11,
+  "image_prompt": "Professional food photography of Bkaila - Tunisian Chard and Bean Stew.\n\n=== SCENE: THE SAFED HOUSE ===\nShot in an early 1900s Safed stone house kitchen.\nThick whitewashed walls, natural Mediterranean light.\n\n=== THE DISH ===\n- Dark green stew made from Swiss chard leaves cooked down until very dark\n- White beans visible throughout\n- Seitan or protein chunks in the stew\n- Rich, deep olive-green to almost black color from slow-cooked greens\n- Thick, hearty consistency\n- Fresh cilantro and dill as garnish\n\nABSOLUTELY FORBIDDEN:\n- NO mint leaves\n- NO fresh mint garnish\n- NO mint of any kind\n- NO bright green fresh herbs on top (only dark cooked greens)\n\nServed in a traditional deep bowl or pot.\nPhotorealistic, 8K detail, appetizing home cooking."
 }

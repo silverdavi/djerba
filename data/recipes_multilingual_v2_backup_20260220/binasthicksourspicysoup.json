@@ -1,0 +1,91 @@
+{
+  "id": "binasthicksourspicysoup",
+  "image": "images/current/binasthicksourspicysoup/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "5 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מרק תלבינה",
+    "es": "Sopa Talbina (Espesa, Agria y Picante)",
+    "ar": "شوربة التلبينة (حامضة وحارة)",
+    "en": "Talbina Soup (Thick Sour and Spicy)"
+  },
+  "description": {
+    "he": "חשו מגיע מהמילה הערבית ללגימה ומגדיר את המרק הטוניסאי הכפרי הזה. המרקם הקטיפתי שלו מגיע מבלילת קמח פשוטה ולא משמנת. עם שפע שום ופפריקה חריפה, המרק הטבעוני הזה משמש כתרופה מחממת או כארוחת ערב מהירה וחסכונית.",
+    "es": "El Hsou deriva de la palabra árabe para sorber y define esta rústica sopa tunecina. Su textura aterciopelada proviene de una simple mezcla de harina en lugar de crema. Repleto de ajo y pimentón picante, este caldo naturalmente vegano sirve como un remedio reconfortante o una cena rápida y económica.",
+    "ar": "الحسو كلمة جاية من فعل حسا، وهو اسم هالجاري التونسي العربي. القوام الخاثر متاعو يجي من العقدة (تخليطة الفرينة والماء) مش مالكريم. فيه برشة ثوم وفلفل أحمر حار، وهو مرقة نباتية تسخّن العظام، وتصلح دواء للبرد أو عشاء خفيف واقتصادي.",
+    "en": "Hsou derives from the Arabic word for sipping and defines this rustic Tunisian soup. Its velvety texture comes from a simple flour slurry rather than cream. Bursting with garlic and hot paprika, this naturally vegan broth serves as a warming remedy or a quick frugal dinner."
+  },
+  "ingredients": {
+    "he": [
+      "1.5 ליטר מים",
+      "5 שיני שום, כתושות או קצוצות",
+      "60 מ\"ל מיץ לימון",
+      "7 גרם פפריקה חריפה",
+      "23 גרם קמח רגיל",
+      "100 מ\"ל מים (קרים)",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "1.5 L de agua",
+      "5 dientes de ajo, machacados o picados",
+      "60 ml de jugo de limón",
+      "7 g de pimentón picante",
+      "23 g de harina común",
+      "100 ml de agua (fría)",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "6 كيسان وربع ماء",
+      "5 سنون ثوم، مرحي",
+      "ربع كاس عصير قارص",
+      "1 مغرفة فلفل أحمر حار",
+      "3 مغارف فرينة",
+      "نص كاس ماء (بارد)",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "6 1/4 cups water",
+      "5 garlic cloves, crushed or minced",
+      "1/4 cup lemon juice",
+      "1 tbsp hot paprika",
+      "3 tbsp all-purpose flour",
+      "1/2 cup water (cold)",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר, מערבבים את המים (1.5 ליטר), השום הכתוש, מיץ הלימון והפפריקה החריפה.",
+      "מבשלים על אש נמוכה, תוך ערבוב מדי פעם, במשך כ-20 דקות למיזוג הטעמים.",
+      "מכינים את ההסמכה (בלילה) על ידי ערבוב הקמח עם המים הקרים (100 מ\"ל) בקערה נפרדת עד לקבלת תערובת חלקה וללא גושים.",
+      "יוצקים לאט את תערובת הקמח למרק החם תוך ערבוב מתמיד כדי להסמיך את המרקם.",
+      "טועמים את המרק ומוסיפים מלח או מתקנים את החמיצות והחריפות לפי הצורך לפני ההגשה."
+    ],
+    "es": [
+      "En una olla, combine el agua principal, el ajo machacado, el jugo de limón y el pimentón picante.",
+      "Cocine a fuego lento, revolviendo ocasionalmente, durante unos 20 minutos para infundir los sabores.",
+      "Prepare un espesante mezclando la harina con el agua fría en un tazón aparte hasta que quede suave y sin grumos.",
+      "Vierta lentamente la mezcla de harina en la sopa caliente mientras revuelve continuamente para espesar la textura.",
+      "Pruebe la sopa y agregue sal o ajuste los niveles de agrio y picante según sea necesario antes de servir."
+    ],
+    "ar": [
+      "في طنجرة، خلط الماء، الثوم المرحي، عصير القارص والفلفل الأحمر الحار.",
+      "طيّب على نار هادية، وحرّك مرة مرة، لمدة 20 دقيقة باش تتخلط النكهات.",
+      "حضّر العقدة: خلط الفرينة مع الماء البارد في صحفة وحدها لين تولي رطبة وما فيهاش كعابر.",
+      "صب خليط الفرينة بالشوية في المرق السخون وأنت تحرّك ديما باش تختار المرقة.",
+      "ذوق المرقة وزيد الملح ولا عدّل القروصية والحرورية حسب الذوق قبل ما تحط."
+    ],
+    "en": [
+      "In a pot, combine the main water, crushed garlic, lemon juice, and hot paprika.",
+      "Cook on low heat, stirring occasionally, for about 20 minutes to infuse the flavors.",
+      "Prepare a thickening agent (slurry) by mixing the flour with the cold water in a separate bowl until smooth and lump-free.",
+      "Slowly pour the flour mixture into the hot soup while stirring continuously to thicken the texture.",
+      "Taste the soup and add salt or adjust the sour and spicy levels as needed before serving."
+    ]
+  },
+  "index": 7
+}

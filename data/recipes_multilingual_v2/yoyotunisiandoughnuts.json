@@ -14,24 +14,24 @@
     "en": "Yoyo (Tunisian Doughnuts)"
   },
   "description": {
-    "he": "היויו, שנקרא על שם הצעצוע שהיה פופולרי בתקופה הקולוניאלית הצרפתית, הן סופגניות דחוסות בצורת טבעת. גרסה טבעונית זו שומרת על הרוח הג'רבאית האותנטית ללא ביצים. הן מטוגנות להזהבה מושלמת וספוגות בסירופ תפוזים כקינוח חגיגי לחנוכה.",
-    "es": "Llamados así por el juguete popular en la era colonial francesa, estos Yoyos son rosquillas densas en forma de anillo. Esta versión vegana captura el auténtico espíritu de Djerba sin huevos. Se fríen hasta que estén dorados y se empapan en jarabe de naranja para un festín de Janucá.",
-    "ar": "تسمى يويو على اسم اللعبة اللي كانت مشهورة وقت الاستعمار الفرنساوي، وهي كعك مقلي في شكل حلقات. الوصفة هذي نباتية وتحافظ على الروح الجربية الزمنية بلاش عظم. نقلوهم لين يحمارو ونعسلوهم בשحور (sh'our) البردقان، حاجة بنينة برشا للחנוכה (Hanukkah).",
+    "he": "עוגיות היויו, שנקראות על שם הצעצוע שהיה פופולרי בתקופה הקולוניאלית הצרפתית, הן מעין סופגניות דחוסות בצורת טבעת. גרסה טבעונית זו שומרת על הרוח הג'רבאית האותנטית ללא שימוש בביצים. הן מטוגנות להזהבה מושלמת ונטבלות בסירופ תפוזים כקינוח חגיגי לחנוכה.",
+    "es": "Llamados así por el juguete popular en la era colonial francesa, estos Yoyos son rosquillas densas en forma de anillo. Esta versión vegana captura el auténtico espíritu de Djerba sin huevos. Se fríen hasta que estén dorados y se empapan en jarabe de naranja para una delicia festiva de Janucá.",
+    "ar": "تسمى يويو على اسم اللعبة اللي كانت مشهورة وقت الاستعمار الفرنساوي، وهي كعك مقلي في شكل حلقات. الوصفة هذي نباتية وتحافظ على الروح الجربية الزمنية بلاش عظم. نقلوهم لين يحمارو ونعسلوهم في شحور البردقان، حاجة بنينة برشا لحانوكا.",
     "en": "Named after the toy popular in the French colonial era, these Yoyos are dense doughnuts shaped like rings. This vegan version captures the authentic Djerban spirit without eggs. They are fried to golden perfection and soaked in orange syrup for a festive Hanukkah treat."
   },
   "ingredients": {
     "he": [
-      "500 גרם קמח רגיל",
+      "500 גרם קמח לבן",
       "10 גרם אבקת אפייה",
       "100 גרם סוכר (לבצק)",
-      "120 מ\"ל שמן צמחי (לבצק)",
-      "180 גרם רסק תפוחים לא ממותק",
+      "120 מ\"ל שמן (קנולה או חמניות)",
+      "180 גרם רסק תפוחים ללא תוספת סוכר",
       "120 מ\"ל מיץ תפוזים",
-      "5 מ\"ל תמצית וניל",
-      "1000 מ\"ל שמן צמחי (לטיגון)",
+      "1 כפית תמצית וניל",
+      "1 ליטר שמן לטיגון",
       "400 גרם סוכר (לסירופ)",
       "240 מ\"ל מים",
-      "15 מ\"ל מיץ לימון"
+      "1 כף מיץ לימון"
     ],
     "es": [
       "500 g de harina de trigo",
@@ -40,24 +40,24 @@
       "120 ml de aceite vegetal (para la masa)",
       "180 g de puré de manzana sin azúcar",
       "120 ml de jugo de naranja",
-      "5 ml de extracto de vainilla",
-      "1000 ml de aceite vegetal (para freír)",
+      "1 cucharadita de extracto de vainilla",
+      "1 litro de aceite vegetal (para freír)",
       "400 g de azúcar (para el jarabe)",
       "240 ml de agua",
-      "15 ml de jugo de limón"
+      "1 cucharada de jugo de limón"
     ],
     "ar": [
       "4 كيسان فرينة",
-      "2 مغارف صغار خميرة קاطو",
+      "2 مغارف صغار خميرة ڨاطو",
       "½ كاس سكر (للعجينة)",
       "½ كاس زيت (للعجينة)",
       "¾ كاس كومبوت تفاح (في عوض العظم)",
       "½ كاس عصير بردقان",
       "1 مغرفة صغيرة فانيليا",
-      "4.2 كيسان زيت (للقليان)",
+      "1 لتر زيت (للقليان)",
       "2 كيسان سكر (للشحور)",
       "1 كاس ماء",
-      "1 مغرفة عصير قارص"
+      "1 مغرفة كبيرة عصير قارص"
     ],
     "en": [
       "4 cups all-purpose flour",
@@ -67,7 +67,7 @@
       "3/4 cup unsweetened applesauce",
       "1/2 cup orange juice",
       "1 tsp vanilla extract",
-      "4.2 cups vegetable oil (for frying)",
+      "4 cups vegetable oil (for frying)",
       "2 cups sugar (for syrup)",
       "1 cup water",
       "1 tbsp lemon juice"
@@ -75,36 +75,36 @@
   },
   "steps": {
     "he": [
-      "בקערה גדולה, מערבבים את הקמח, 100 גרם סוכר, 120 מ\"ל שמן, רסק התפוחים, מיץ התפוזים והוניל.",
-      "לשים עד לקבלת בצק רך ולא דביק. מכסים ומניחים למנוחה של 30 דקות.",
-      "בזמן שהבצק נח, מכינים את הסירופ: מערבבים בסיר 400 גרם סוכר, מים ומיץ לימון. מבשלים כ-7 דקות עד להסמכה קלה.",
-      "יוצרים מהבצק כדורים קטנים, ואז יוצרים חור במרכז כל כדור ליצירת צורת טבעת.",
-      "מחממים שמן לטיגון במחבת עמוקה. מטגנים את הטבעות עד להזהבה משני הצדדים.",
-      "מוציאים מהשמן ומסננים קלות על נייר סופג, ואז טובלים בסירופ המוכן בעודן חמות."
+      "בקערה גדולה, מערבבים את הקמח, אבקת האפייה, הסוכר, השמן, רסק התפוחים, מיץ התפוזים ותמצית הווניל.",
+      "לשים עד לקבלת בצק רך שאינו דביק. מכסים ומניחים למנוחה של 30 דקות.",
+      "בזמן שהבצק נח, מכינים את הסירופ: שמים בסיר את הסוכר, המים ומיץ הלימון. מביאים לרתיחה ומבשלים כ-7 דקות על אש קטנה עד להסמכה קלה.",
+      "יוצרים מהבצק כדורים קטנים, ובעזרת האצבע יוצרים חור במרכז כל כדור לקבלת צורת טבעת.",
+      "מחממים שמן עמוק במחבת או סיר רחב. מטגנים את טבעות היויו עד להזהבה משני הצדדים.",
+      "מוציאים את היויו מהשמן, מניחים קלות על נייר סופג, ומיד טובלים בסירופ בעודם חמים."
     ],
     "es": [
-      "En un bol grande, mezclar la harina, 100 g de azúcar, 120 ml de aceite, el puré de manzana, el jugo de naranja y la vainilla.",
+      "En un bol grande, mezclar la harina, el polvo de hornear, el azúcar, el aceite, el puré de manzana, el jugo de naranja y la vainilla.",
       "Amasar hasta obtener una masa suave y no pegajosa. Cubrir y dejar reposar durante 30 minutos.",
-      "Mientras la masa reposa, preparar el jarabe: combinar 400 g de azúcar, agua y jugo de limón en una olla. Cocinar unos 7 minutos hasta que espese ligeramente.",
-      "Formar pequeñas bolas con la masa, luego hacer un agujero en el centro de cada una para formar un anillo.",
-      "Calentar el aceite para freír en una sartén profunda. Freír los anillos hasta que estén dorados por ambos lados.",
-      "Retirar del aceite y escurrir brevemente sobre papel absorbente, luego sumergir en el jarabe preparado mientras aún están calientes."
+      "Mientras la masa reposa, preparar el jarabe: combinar el azúcar, el agua y el jugo de limón en una olla. Llevar a ebullición y cocinar unos 7 minutos hasta que espese ligeramente.",
+      "Formar pequeñas bolas con la masa, luego hacer un agujero en el centro de cada una con el dedo para formar un anillo.",
+      "Calentar abundante aceite en una sartén profunda. Freír los anillos hasta que estén dorados por ambos lados.",
+      "Retirar del aceite y escurrir brevemente sobre papel absorbente, luego sumergirlos en el jarabe preparado mientras aún están calientes."
     ],
     "ar": [
-      "في صحفة كبيرة، نخلط الفرينة، نص كاس سكر، نص كاس زيت، كومبوت التفاح، عصير البردقان والفانيليا.",
+      "في صحفة كبيرة، نخلط الفرينة، خميرة الڨاطو، السكر، الزيت، كومبوت التفاح، عصير البردقان والفانيليا.",
       "نعجن مليح لين تولي العجينة طرية وما تلصقش. نغطيها ونخليها ترتاح 30 دقيقة.",
-      "في الوقت اللي العجينة ترتاح، نحضر الشحور: نخلط 2 كيسان سكر، الماء وعصير القارص في طنجرة. نطيّبهم حكاية 7 دقايق لين يعقد شوية.",
-      "نعمل كعابر صغار مالعجينة، ومبعد ننقبهم في الوسط باش نعمل شكل كعكة.",
-      "نسخن الزيت في مقلاة غارقة. نقلي الكعك لين يحمار من الجهتين.",
-      "نخرجهم مالزيت ونقطرهم شوية، ومبعد نغطسهم في الشحور وهوما سخونين."
+      "في الوقت اللي العجينة ترتاح، نحضر الشحور: نحط السكر، الماء وعصير القارص في كسرونة. نخليهم يغليو حكاية 7 دقايق لين يعقد الشحور شوية.",
+      "نعمل كعابر صغار مالعجينة، ومبعد ننقبهم بصبعي في الوسط باش نعطيهم شكل كعكة.",
+      "نسخن الزيت في مقلة غارقة. نقلي كعبات اليويو لين يحمارو من الشيرتين.",
+      "نخرجهم مالزيت ونقطرهم شوية على بابيي، ومبعد نغطسهم في الشحور وهوما سخونين."
     ],
     "en": [
-      "In a large bowl, mix the flour, 1/2 cup sugar, 1/2 cup oil, applesauce, orange juice, and vanilla.",
+      "In a large bowl, mix the flour, baking powder, sugar, oil, applesauce, orange juice, and vanilla.",
       "Knead until you have a soft, non-sticky dough. Cover and let it rest for 30 minutes.",
-      "While the dough rests, prepare the syrup: Combine 2 cups sugar, water, and lemon juice in a pot. Cook for about 7 minutes until slightly thickened.",
-      "Form the dough into small balls, then create a hole in the center of each to form a ring shape.",
+      "While the dough rests, prepare the syrup: Combine the sugar, water, and lemon juice in a saucepan. Bring to a boil, then simmer for about 7 minutes until slightly thickened.",
+      "Form the dough into small balls, then use your finger to create a hole in the center of each to form a ring shape.",
       "Heat the frying oil in a deep pan. Fry the rings until golden brown on both sides.",
-      "Remove from oil and drain briefly on paper towels, then dip them into the prepared syrup while still warm."
+      "Remove from the oil and drain briefly on paper towels, then dip them into the prepared syrup while they are still warm."
     ]
   },
   "index": 65

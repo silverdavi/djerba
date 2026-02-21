@@ -14,97 +14,97 @@
     "en": "Adamshusha (Tunisian Egg Drop Soup)"
   },
   "description": {
-    "he": "אדמשושה משלבת את המילים הטוניסאיות לביצה ולציצית, ומתארת כיצד החלבונים מתפזרים במרק כמו חוטים דקים. גרסה טבעונית זו משחזרת את המרקם הכפרי המנחם באמצעות טופו משי ובלילת חומוס המחקה את המרקם המסורתי. זוהי מנה ג'רבאית אהובה ההופכת מצרכים בסיסיים למרק מזין.",
-    "es": "Adamshusha combina palabras tunecinas para huevo y borla, describiendo cómo las claras escalfadas forman hebras finas. Esta adaptación vegana recrea ese confort rústico usando tofu sedoso y masa de garbanzos para imitar la textura tradicional. Sigue siendo un plato querido de Djerba que transforma ingredientes básicos en una sopa nutritiva.",
-    "ar": "أدمشوشة تجمع بين كلمات تونسية للعظمة والشوشة، وتوصف كيفاش أبيض العظمة يولي كي الخيوط في المرق. هالوصفة النباتية ترجع البنة التقليدية باستعمال التوفو ودقيق الحمص باش تعطي نفس القوام. تبقى أكلة جربية محبوبة تحول مكونات بسيطة لمرقة بنينة ومغذية.",
-    "en": "Adamshusha combines Tunisian words for egg and tassel, describing how poached whites feather into wispy strands. This vegan adaptation recreates that rustic comfort using silken tofu and chickpea batter to mimic the traditional texture. It remains a beloved Djerban dish that transforms humble pantry staples into a nourishing soup."
+    "he": "אדמשושה משלבת את המילים הטוניסאיות לביצה ולגדיל, ומתארת כיצד חלבון הביצה מתפזר במרק כמו חוטים דקים. גרסה טבעונית זו משחזרת את המנה הכפרית והמנחמת באמצעות טופו משי ובלילת חומוס, המחקים את המרקם המסורתי. זוהי מנה ג'רבאית אהובה, ההופכת מצרכי מזווה בסיסיים למרק מזין.",
+    "es": "Adamshusha combina las palabras tunecinas para huevo y borla, describiendo cómo las claras escalfadas forman hebras finas. Esta adaptación vegana recrea ese confort rústico usando tofu sedoso y masa de garbanzos para imitar la textura tradicional. Sigue siendo un plato querido de Djerba que transforma ingredientes básicos de la despensa en una sopa nutritiva.",
+    "ar": "أدمشوشة تجمع بين الكلمات التونسية للعظمة والشوشة، وتوصف كيفاش أبيض العظمة يولي كي الخيوط في المرقة. هالوصفة النباتية ترجّع البنة التقليدية باستعمال التوفو الحريري وخلطة الحمص باش تعطي نفس القوام. تقعد أكلة جربية محبوبة تحوّل مكونات بسيطة لمرقة بنينة ومغذية.",
+    "en": "Adamshusha combines the Tunisian words for egg and tassel, describing how poached whites feather into wispy strands. This vegan adaptation recreates that rustic comfort using silken tofu and chickpea batter to mimic the traditional texture. It remains a beloved Djerban dish that transforms humble pantry staples into a nourishing soup."
   },
   "ingredients": {
     "he": [
-      "30 מ\"ל שמן צמחי, לטיגון",
+      "2 כפות (30 מ\"ל) שמן צמחי, לטיגון",
       "1 בצל, חתוך לקוביות",
-      "7 גרם פפריקה מתוקה",
+      "1 כף (7 גרם) פפריקה מתוקה",
       "1 עגבנייה, קצוצה",
-      "1 פלפל חריף, קצוץ דק",
-      "מלח לפי הטעם",
-      "1000 מ\"ל מים",
+      "1 פלפל חריף קטן, קצוץ דק",
+      "מלח, לפי הטעם",
+      "1 ליטר מים",
       "2 תפוחי אדמה, חתוכים לקוביות",
-      "300 גרם טופו משי, חתיכות גדולות",
-      "15 גרם קמח חומוס, מעורבב עם 3 כפות מים",
-      "2 גרם מלח הודי שחור (קאלה נמק)"
+      "300 גרם טופו משי, חתוך לחתיכות גדולות",
+      "2 כפות (15 גרם) קמח חומוס, מעורבבות עם 3 כפות מים",
+      "1/2 כפית (2 גרם) מלח שחור (קאלה נמק)"
     ],
     "es": [
-      "30 ml de aceite vegetal, para freír",
+      "2 cdas (30 ml) de aceite vegetal, para freír",
       "1 cebolla, cortada en cubitos",
-      "7 g de pimentón dulce",
+      "1 cda (7 g) de pimentón dulce",
       "1 tomate, picado",
-      "1 chile picante, picado fino",
+      "1 chile picante, picado finamente",
       "Sal al gusto",
-      "1000 ml de agua",
+      "1 litro de agua",
       "2 papas, cortadas en cubos",
-      "300 g de tofu sedoso, trozos grandes",
-      "15 g de harina de garbanzos, mezclada con 3 cdas de agua",
-      "2 g de sal negra (Kala Namak)"
+      "300 g de tofu sedoso, en trozos grandes",
+      "2 cdas (15 g) de harina de garbanzos, mezclada con 3 cdas de agua",
+      "1/2 cdta (2 g) de sal negra (Kala Namak)"
     ],
     "ar": [
-      "2 مغارف زيت، للقليان",
-      "1 بصلة، مقصوصة",
-      "1 مغرفة فلفل أحمر",
-      "1 كعبة طماطم، مقصوصة",
-      "1 فلفل حار، مقصوص جويد",
+      "2 مغارف كبار زيت نباتي، للقليان",
+      "بصلة، مقصوصة مكعبات",
+      "مغرفة كبيرة فلفل زينة (فلفل أحمر)",
+      "كعبة طماطم، مقصوصة",
+      "قرن فلفل حار، مقصوص جويد",
       "ملح حسب الذوق",
-      "1 لتر ماء",
-      "2 كعبات بطاطا، مقصوصين مكعبات",
-      "1 باكوا توفو حريري، طروف كبار",
-      "2 مغارف دقيق حمص، مخلطين مع 3 مغارف ماء",
-      "1/2 مغرفة صغيرة ملح كالا ناماك"
+      "لتر ماء",
+      "كعبتين بطاطا، مقصوصين مكعبات",
+      "باكو (300 غرام) توفو حريري، مقصوص طروف كبار",
+      "2 مغارف كبار فرينة حمص، مخلطين مع 3 مغارف كبار ماء",
+      "شطر مغرفة صغيرة ملح أكحل (كالا ناماك)"
     ],
     "en": [
-      "2 tbsp vegetable oil, for frying",
+      "2 tbsp (30 ml) vegetable oil, for frying",
       "1 onion, diced",
-      "1 tbsp sweet paprika",
+      "1 tbsp (7 g) sweet paprika",
       "1 tomato, chopped",
       "1 hot pepper, minced",
-      "Salt to taste",
-      "4.2 cups water",
+      "Salt, to taste",
+      "4 cups (1 liter) water",
       "2 potatoes, cubed",
-      "1 package silken tofu, large chunks",
-      "2 tbsp chickpea flour, mixed with 3 tbsp water",
-      "0.5 tsp Kala Namak (Black Salt)"
+      "1 package (300 g) silken tofu, cut into large chunks",
+      "2 tbsp (15 g) chickpea flour, mixed with 3 tbsp water",
+      "1/2 tsp (2 g) Kala Namak (black salt)"
     ]
   },
   "steps": {
     "he": [
-      "מחממים את השמן בסיר ומטגנים את הבצל הקצוץ עד שהוא הופך לשקוף.",
-      "מוסיפים את הפפריקה המתוקה, העגבנייה הקצוצה והפלפל החריף. מתבלים במעט מלח.",
-      "מטגנים את התערובת בעדינות (מאדים מעט) כדי לרכך את הירקות.",
-      "מוסיפים מים ומביאים לרתיחה. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת ומבשלים עד שהם רכים.",
-      "כשהמרק רותח, שוברים בזהירות ביצים שלמות (או מוסיפים את הטופו) ישירות לתוך המרק.",
-      "מבשלים כ-10 דקות עד שחלבון הביצה מתייצב לגמרי אך החלמון לטעמכם."
+      "מחממים את השמן בסיר ומטגנים את הבצל עד שהוא הופך לשקוף.",
+      "מוסיפים את הפפריקה המתוקה, העגבנייה והפלפל החריף. מתבלים במעט מלח.",
+      "מטגנים קלות כדי לרכך את הירקות.",
+      "מוסיפים את המים ומביאים לרתיחה. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת ומבשלים עד שהם מתרככים.",
+      "כשהמרק רותח, מוסיפים בזהירות את חתיכות הטופו ויוצקים את בלילת החומוס (או שוברים ביצים שלמות, לגרסה המסורתית) ישירות לתוך המרק.",
+      "מבשלים כ-10 דקות עד שבלילת החומוס מתייצבת (או עד שחלבון הביצה מתייצב לגמרי והחלמון עשוי לטעמכם). מערבבים פנימה את המלח השחור (קאלה נמק) ממש לפני ההגשה."
     ],
     "es": [
-      "Caliente el aceite en una olla y sofría la cebolla picada hasta que esté transparente.",
+      "Caliente el aceite en una olla y sofría la cebolla en cubitos hasta que esté transparente.",
       "Añada el pimentón dulce, el tomate picado y el chile picante. Sazone con un poco de sal.",
-      "Sofría la mezcla suavemente para ablandar las verduras.",
-      "Agregue agua y lleve a ebullición. Si usa papas, agréguelas ahora y cocine hasta que estén tiernas.",
-      "Una vez que la sopa esté hirviendo, casque con cuidado los huevos enteros (o añada el tofu) directamente en el caldo.",
-      "Cocine por unos 10 minutos hasta que las claras estén cuajadas pero las yemas estén a su gusto."
+      "Sofría la mezcla a fuego lento para ablandar las verduras.",
+      "Agregue el agua y lleve a ebullición. Si usa papas, agréguelas ahora y cocine hasta que estén tiernas.",
+      "Una vez que la sopa esté hirviendo, agregue con cuidado los trozos de tofu y vierta la mezcla de garbanzos (o casque huevos enteros para la versión tradicional) directamente en el caldo.",
+      "Cocine por unos 10 minutos hasta que la mezcla de garbanzos cuaje (o hasta que las claras estén completamente cuajadas y las yemas a su gusto). Incorpore la sal negra justo antes de servir."
     ],
     "ar": [
-      "سخن الزيت في طنجرة وقلي البصل المقصوص لين يذبل ويولي شفاف.",
-      "زيد الفلفل الأحمر، الطماطم المقصوصة، والفلفل الحار. فوّح بشوية ملح.",
-      "فوّح الخليط بالشوية باش تذبل الخضرة.",
+      "سخّن الزيت في طنجرة وقلّي البصل المقصوص لين يذبل ويولي شفاف.",
+      "زيد الفلفل زينة، الطماطم المقصوصة، والفلفل الحار. فوّح بشوية ملح.",
+      "قلّي الخليط بالشوية باش تذبل الخضرة.",
       "زيد الماء وخلي المرقة تغلي. كان باش تستعمل بطاطا، حطها توا وخليها تطيب لين تطرى.",
-      "كيف تغلي المرقة، فقّص العظمات كعبات (أو حط التوفو) بحذر في وسط المرق.",
-      "طيبها حكاية 10 دقايق لين أبيض العظم يطيب مليح والأصفر يقعد كيف ما تحب."
+      "كيف تغلي المرقة، حط طروف التوفو وصب خلطة الحمص (ولا فقّص عظمات كعبات للوصفة الأصلية) بحذر في وسط المرقة.",
+      "طيّبها حكاية 10 دقايق لين خلطة الحمص تشد روحها (ولا لين أبيض العظم يطيب مليح والأصفر يقعد كيما تحب). وزيد الملح الأكحل (كالا ناماك) في اللخر."
     ],
     "en": [
       "Heat the oil in a pot and sauté the diced onion until translucent.",
-      "Add the sweet paprika, chopped tomato, and the small hot pepper. Season with a little salt.",
-      "Sauté the mixture gently (steam slightly) to soften the vegetables.",
-      "Add water and bring to a boil. If using potatoes, add them now and cook until they are tender.",
-      "Once the soup is boiling, carefully crack whole eggs (or add tofu) directly into the broth.",
-      "Cook for about 10 minutes until the egg whites are fully set but yolks are to your preference."
+      "Add the sweet paprika, chopped tomato, and minced hot pepper. Season with a little salt.",
+      "Sauté the mixture gently to soften the vegetables.",
+      "Add the water and bring to a boil. If using potatoes, add them now and cook until tender.",
+      "Once the soup is boiling, carefully add the tofu chunks and drizzle in the chickpea batter (or crack whole eggs for the traditional version) directly into the broth.",
+      "Cook for about 10 minutes until the chickpea batter sets (or until the egg whites are fully set and yolks are to your preference). Stir in the Kala Namak just before serving."
     ]
   },
   "index": 6

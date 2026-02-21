@@ -26,7 +26,7 @@ lualatex -interaction=nonstopmode cover.tex
 if [ -f cover.pdf ]; then
     echo ""
     echo "✅ Cover generated: cover.pdf"
-    echo "   Dimensions: 16.95\" × 8.25\" (with 0.125\" bleed)"
+    echo "   Dimensions: 17.95\" × 8.5\" (with 0.125\" bleed)"
     echo ""
     # Open on macOS
     if command -v open &> /dev/null; then

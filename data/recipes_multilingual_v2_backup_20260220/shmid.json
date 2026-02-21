@@ -1,0 +1,100 @@
+{
+  "id": "shmid",
+  "image": "images/current/shmid/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "שמיד",
+    "es": "Shmid (Gachas de Sémola Saladas)",
+    "ar": "شميد (عصيدة سميد مالحة)",
+    "en": "Shmid (Savory Semolina Porridge)"
+  },
+  "description": {
+    "he": "שמיד מגיע מהמילה סמיד שהיא המילה הערבית לסולת. דייסה ג'רבאית מלוחה זו היא טבעונית מטבעה ומושלמת לימים קרים. היא חולקת את פרופיל הטעמים העשיר של מרק המהמסה אך משתמשת בסולת דקה ליצירת מרקם חלק וסמיך הדורש סבלנות בערבוב.",
+    "es": "Shmid proviene de samid, que es la palabra árabe para sémola. Estas gachas saladas de Djerba son naturalmente de origen vegetal y perfectas para el clima frío. Comparten el rico perfil de sabor de la sopa mhamsa pero utilizan sémola fina para crear una textura suave y espesa que requiere paciencia para remover.",
+    "ar": "الشميد يجي من كلمة سميد. هالعصيدة الجربية المالحة نباتية بطبيعتها ومثالية للطقس البارد. عندها نفس نكهة مرقة المحمصة الغنية أما تستعمل السميد الرطب باش تعطي قوام رطب وخاثر يطلب شوية وسع بال في التحريك.",
+    "en": "Shmid comes from samid which is the Arabic word for semolina. This savory Djerban porridge is naturally plant-based and perfect for cold weather. It shares the rich flavor profile of mhamsa soup but uses fine semolina to create a smooth and thick texture that requires patience to stir."
+  },
+  "ingredients": {
+    "he": [
+      "30 מ\"ל שמן צמחי",
+      "1 בצל קטן, קצוץ",
+      "2 שיני שום, כתושות",
+      "7 גרם פפריקה מתוקה",
+      "1.2 גרם פלפל שחור",
+      "1500 מ\"ל מים",
+      "1 תפוח אדמה בינוני, חתוך לקוביות קטנות",
+      "200 גרם סולת",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "30 ml de aceite vegetal",
+      "1 cebolla pequeña, picada",
+      "2 dientes de ajo, picados",
+      "7 g de pimentón dulce",
+      "1.2 g de pimienta negra",
+      "1500 ml de agua",
+      "1 patata mediana, cortada en cubitos pequeños",
+      "200 g de sémola",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "2 مغارف زيت نباتي",
+      "1 بصلة صغيرة، مقصوصة",
+      "2 سنات ثوم، مرحي",
+      "1 مغرفة فلفل أحمر",
+      "0.5 مغرفة صغيرة فلفل أكحل",
+      "6.25 كيسان ماء",
+      "1 كعبة بطاطا متوسطة، مقصوصة جويدة",
+      "1.2 كيسان سميد",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "2 tbsp vegetable oil",
+      "1 small onion, diced",
+      "2 cloves garlic, minced",
+      "1 tbsp sweet paprika",
+      "0.5 tsp black pepper",
+      "6.25 cups water",
+      "1 medium potato, diced small",
+      "1.2 cups semolina",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בסיר, מחממים את השמן ומטגנים את הבצל הקצוץ עד לשקיפות. מוסיפים את השום הכתוש ומבשלים דקה נוספת.",
+      "מוסיפים את הפפריקה והפלפל השחור, מערבבים קלות לפתיחת הטעמים, ואז יוצקים פנימה את המים. מביאים לרתיחה.",
+      "אם משתמשים בתפוחי אדמה, מוסיפים את קוביות תפוחי האדמה כעת ומבשלים עד שהן רכות.",
+      "מנמיכים את האש לבעבוע עדין. מוסיפים בהדרגה את הסולת בזרם דק תוך כדי ערבוב מתמיד ונמרץ.",
+      "ממשיכים לבשל ולערבב עד שהתערובת מסמיכה למרקם של דייסה."
+    ],
+    "es": [
+      "En una olla, caliente el aceite y sofría la cebolla picada hasta que esté transparente. Añada el ajo picado y cocine por un minuto más.",
+      "Añada el pimentón y la pimienta negra, removiendo brevemente para liberar los aromas, luego vierta el agua. Lleve a ebullición.",
+      "Si usa patatas, añada los cubitos de patata ahora y cocine hasta que estén tiernos.",
+      "Reduzca el fuego a lento. Vierta gradualmente la sémola mientras remueve constante y vigorosamente.",
+      "Continúe cocinando y removiendo hasta que la mezcla espese hasta obtener una consistencia de gachas."
+    ],
+    "ar": [
+      "في طنجرة، سخن الزيت وقلي البصل المقصوص لين يذبل. زيد الثوم المرحي وطيب دقيقة أخرى.",
+      "زيد الفلفل الأحمر والفلفل الأكحل، حرك شوية باش تخرج الريحة، ومبعد صب الماء. خليها تغلي.",
+      "كان باش تستعمل البطاطا، ارمي كعبات البطاطا المقصوصة توة وطيب لين تطرى.",
+      "نقص في النار وخليها تغلي بالشوية. صب السميد بالشوية مع التحريك المستمر والقوي.",
+      "كمل طيب وحرك لين الخليط يختار ويولي كيما العصيدة."
+    ],
+    "en": [
+      "In a pot, heat the oil and sauté the diced onion until translucent. Add the minced garlic and cook for another minute.",
+      "Add the paprika and black pepper, stirring briefly to release aromatics, then pour in the water. Bring to a boil.",
+      "If using potatoes, add the diced potatoes now and cook until they are tender.",
+      "Reduce heat to a simmer. Gradually stream in the semolina while stirring constantly and vigorously.",
+      "Continue cooking and stirring until the mixture thickens to a porridge consistency."
+    ]
+  },
+  "image_prompt": "Bowl of Tunisian semolina soup shmid, red broth, diced potatoes, steam rising, rustic style",
+  "index": 28
+}

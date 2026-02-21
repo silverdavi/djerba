@@ -1,0 +1,119 @@
+{
+  "id": "chraimespicyfish_stew",
+  "image": "images/current/chraimespicyfish_stew/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "15 min",
+    "cook_time": "25 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "חריימה",
+    "es": "Chraime (Estofado de Pescado Picante)",
+    "ar": "حرايمي",
+    "en": "Chraime (Spicy Fish Stew)"
+  },
+  "description": {
+    "he": "חריימה הוא תבשיל דגים חריף מצפון אפריקה עם שורשים בלוב ובתוניסיה. השם עשוי לנבוע מהמילה הערבית ל\"אסור בקטנה\", בהתייחסות לתבלינים הנועזים. בגרסה טבעונית זו, טופו מפורר מעורבב עם אצות נורי כדי להעניק לו ניחוח ומראה של דג, ומבושל ברוטב העגבניות והפפריקה החריף הקלאסי.",
+    "es": "El Chraime es un estofado de pescado picante del norte de África con raíces en Libia y Túnez. El nombre puede derivar del árabe para \"algo prohibido\", refiriéndose a las especias fuertes. En esta versión vegana, el tofu desmenuzado se mezcla con alga nori para darle aroma y apariencia de pescado, cocinado a fuego lento en la clásica salsa picante de tomate y pimentón.",
+    "ar": "الحرايمي هو مرقة حوت حارة من شمال إفريقيا أصلها من ليبيا وتونس. الاسم جاي من كلمة \"حرام\" يعني \"حاجة محرمة صغيرة\" على خاطر الحرور القوي. في الوصفة النباتية هاذي، نخلطوا التوفو مع ورق النوري باش يعطي ريحة ومنظر الحوت، ونطيبوه في الصالصة الحمراء الحارة المعروفة بالثوم والكروية.",
+    "en": "Chraime is a fiery North African fish stew with roots in Libya and Tunisia. The name may derive from Arabic for \"a little forbidden\", referring to the bold spices. In this vegan version, crumbled tofu is mixed with nori seaweed to give it a fish-like aroma and appearance, simmered in the classic spicy tomato-paprika sauce."
+  },
+  "ingredients": {
+    "he": [
+      "1000 גרם טופו קשה, סחוט וחתוך למשולשים",
+      "2 דפי אצות נורי, טחונים דק או מפוררים",
+      "60 מ\"ל שמן צמחי",
+      "8 שיני שום, כתושות",
+      "32 גרם רסק עגבניות",
+      "7 גרם פפריקה חריפה",
+      "2 פלפלים חריפים ירוקים, פרוסים לאורך",
+      "2.5 גרם זרעי קימל (כרוויה), טחונים",
+      "1.25 גרם כמון, טחון",
+      "250 מ\"ל מים",
+      "30 מ\"ל מיץ לימון",
+      "מלח לפי הטעם",
+      "2 תפוחי אדמה, קלופים ופרוסים לעיגולים"
+    ],
+    "es": [
+      "1000 g de tofu firme, prensado y cortado en triángulos",
+      "2 hojas de alga nori, finamente molidas o desmenuzadas",
+      "60 ml de aceite vegetal",
+      "8 dientes de ajo, picados o machacados",
+      "32 g de pasta de tomate",
+      "7 g de pimentón picante",
+      "2 pimientos verdes picantes, cortados a lo largo",
+      "2.5 g de semillas de alcaravea (caraway), molidas",
+      "1.25 g de comino, molido",
+      "250 ml de agua",
+      "30 ml de jugo de limón",
+      "Sal al gusto",
+      "2 papas, peladas y cortadas en rodajas"
+    ],
+    "ar": [
+      "1 كغ توفو يابس، معصور ومقصوص مثلثات",
+      "2 ورقات نوري، مرحيين أو مفترشين",
+      "ربع كاس زيت",
+      "8 سنون ثوم، مرحي",
+      "2 مغارف طماطم حكة",
+      "مغرفة فلفل أحمر حار",
+      "2 قرون فلفل أخضر حار، مقصوصين بالطول",
+      "مغرفة صغيرة كروية مرحية",
+      "نص مغرفة صغيرة كمون مرحي",
+      "كاس ماء",
+      "2 مغارف عصير قارص",
+      "ملح حسب الذوق",
+      "2 كعبات بطاطا، مقشرين ومقصوصين دوائر"
+    ],
+    "en": [
+      "1 kg firm tofu, pressed, cut into triangles",
+      "2 nori seaweed sheets, finely ground or crumbled",
+      "1/4 cup vegetable oil",
+      "8 garlic cloves, minced or crushed",
+      "2 tbsp tomato paste",
+      "1 tbsp hot paprika",
+      "2 green hot peppers, sliced lengthwise",
+      "1 tsp caraway seeds (ground)",
+      "1/2 tsp cumin",
+      "1 cup water",
+      "2 tbsp lemon juice",
+      "Salt to taste",
+      "2 potatoes, peeled and sliced into rounds"
+    ]
+  },
+  "steps": {
+    "he": [
+      "פורסים את הטופו וטוחנים את האצות נורי לאבקה. מערבבים את אבקת האצות עם הטופו - זה נותן לו מראה וריח של דג.",
+      "מחממים את השמן בסיר רחב ושטוח (סוטאז').",
+      "מוסיפים את השום, רסק העגבניות, הפלפלים החריפים, הפפריקה, הכמון, הקימל והמלח. מטגנים בעדינות כ-5 דקות לפתיחת טעמי התבלינים. יש להיזהר לא לשרוף את השום.",
+      "מוסיפים את המים ומביאים לרתיחה ליצירת רוטב.",
+      "מוסיפים את הטופו ומיץ הלימון לסיר. אם משתמשים בתפוחי אדמה, מוסיפים אותם כעת (מסדרים אותם מסביב או מתחת לטופו).",
+      "מכסים את הסיר ומבשלים במשך 15-20 דקות עד שהטופו מוכן והרוטב מסמיך."
+    ],
+    "es": [
+      "Corte el tofu y muela las hojas de nori hasta hacerlas polvo. Mezcle el polvo de algas con el tofu - esto le da apariencia y aroma de pescado.",
+      "Caliente el aceite en una olla ancha y poco profunda.",
+      "Agregue el ajo, la pasta de tomate, los pimientos picantes, el pimentón, el comino, la alcaravea y la sal. Sofría suavemente durante unos 5 minutos para liberar los sabores. Tenga cuidado de no quemar el ajo.",
+      "Agregue el agua y lleve a ebullición para crear una salsa.",
+      "Agregue el tofu y el jugo de limón a la olla. Si usa papas, agréguelas ahora también (colóquelas alrededor o debajo del tofu).",
+      "Tape la olla y cocine por 15-20 minutos hasta que el tofu esté cocido y la salsa espese."
+    ],
+    "ar": [
+      "قص التوفو واطحن ورقات النوري باش تولي بودرة. خلط بودرة الأعشاب البحرية مع التوفو - هذا يعطيه شكل وريحة الحوت.",
+      "سخن الزيت في طنجرة واسعة ومسطحة.",
+      "زيد الثوم، طماطم الحكة، الفلفل الحار، الفلفل الأحمر، الكمون، الكروية والملح. قليهم بالشوية لمدة 5 دقايق باش تخرج ريحة الفاحات. رد بالك تحرق الثوم.",
+      "زيد الماء وخلي المرق يغلي باش تولي صالصة.",
+      "حط التوفو وعصير القارص في الطنجرة. كان باش تزيد بطاطا، حطها توة (ستفها داير ساير ولا تحت التوفو).",
+      "غطي الطنجرة وطيبها لمدة 15-20 دقيقة لين التوفو يطيب والصالصة تعقاد."
+    ],
+    "en": [
+      "Cut the tofu and grind the nori sheets into powder. Mix the seaweed powder with the tofu - this gives it a fish-like appearance and aroma.",
+      "Heat the oil in a wide, shallow pot (sotage).",
+      "Add the garlic, tomato paste, hot peppers, paprika, cumin, caraway, and salt. Sauté gently for about 5 minutes to open the flavors of the spices. Be careful not to burn the garlic.",
+      "Add the water and bring to a simmer to create a sauce.",
+      "Add the tofu and lemon juice to the pot. If using potatoes, add them now as well (arrange them around or under the tofu).",
+      "Cover the pot and cook for 15-20 minutes until the tofu is cooked through and the sauce has thickened."
+    ]
+  },
+  "index": 18
+}

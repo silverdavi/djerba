@@ -9,53 +9,53 @@
   },
   "name": {
     "he": "אורז מוקפץ טבעוני",
-    "es": "Arroz Frito Vegano con Huevo",
+    "es": "Arroz Frito Vegano (Estilo Huevo)",
     "ar": "روز مقلي نباتي",
     "en": "Vegan Egg Fried Rice"
   },
   "description": {
-    "he": "אורז מוקפץ טבעוני זה משתמש בקאלה נמק, או מלח שחור הימלאי, כדי להעניק לטופו מפורר טעם ייחודי המזכיר ביצה. הסוד הוא חום גבוה, אורז קר והוספת רוטב סויה מדפנות הווק כך שהוא תוסס ומתקרמל.",
-    "es": "Este arroz frito vegano utiliza kala namak, o sal negra del Himalaya, para dar al tofu desmenuzado un sabor distintivo a huevo. La clave es el fuego alto, el arroz frío y añadir la salsa de soja por los lados del wok para que chisporrotee y caramelice.",
-    "ar": "هذا الروز المقلي النباتي يستعمل الكالا ناماك، أو الملح الأكحل، باش يعطي للطופו المفتفت بنة العظمة. السر هو النار القوية، والروز البارد، وتصب صلصة الصوجا على أجناب المقلاة باش تتشوشط وتتكرمل.",
+    "he": "במתכון זה לאורז מוקפץ טבעוני משתמשים בקאלה נמק, או מלח שחור מההימלאיה, כדי להעניק לטופו המפורר טעם ייחודי המזכיר ביצה. הסוד הוא אש גבוהה, אורז קר, והוספת רוטב הסויה מדפנות הווק כדי שיבעבע ויתקרמל.",
+    "es": "Este arroz frito vegano lleva kala namak, o sal negra del Himalaya, para darle al tofu desmenuzado un característico sabor a huevo. El secreto es usar fuego alto, arroz frío y añadir la salsa de soja por los bordes del wok para que chisporrotee y se caramelice.",
+    "ar": "هالروز المقلي النباتي نستعملو فيه الكالا ناماك، ولا الملح الأكحل، باش يعطي للتوفو المفتفت بنة العظمة. السر هو النار القوية، والروز البارد، وتصب صلصة الصوجا على أجناب المقلاة باش تتشوشط وتتكرمل.",
     "en": "This vegan fried rice uses kala namak, or Himalayan black salt, to give crumbled tofu a distinctive egg-like flavor. The key is high heat, cold rice, and adding soy sauce from the sides of the wok so it sizzles and caramelizes."
   },
   "ingredients": {
     "he": [
-      "45 מ\"ל שמן צמחי",
+      "3 כפות שמן צמחי",
       "200 גרם פטריות, פרוסות",
-      "15 מ\"ל שמן שומשום",
+      "1 כף שמן שומשום",
       "200 גרם טופו קשה, מפורר",
       "1/2 כפית קאלה נמק (מלח שחור)",
       "4 כוסות אורז מבושל קר (עדיף מאתמול)",
-      "45 מ\"ל רוטב סויה",
-      "3 בצלים ירוקים, קצוצים"
+      "3 כפות רוטב סויה",
+      "3 גבעולי בצל ירוק, קצוצים"
     ],
     "es": [
-      "45 ml de aceite vegetal",
+      "3 cucharadas de aceite vegetal",
       "200 g de champiñones, laminados",
-      "15 ml de aceite de sésamo",
+      "1 cucharada de aceite de sésamo",
       "200 g de tofu firme, desmenuzado",
       "1/2 cucharadita de kala namak (sal negra)",
       "4 tazas de arroz cocido frío (mejor del día anterior)",
-      "45 ml de salsa de soja",
+      "3 cucharadas de salsa de soja",
       "3 cebolletas, picadas"
     ],
     "ar": [
-      "3 مغارف زيت نباتي",
-      "200 غرام فطر، مقصوص",
-      "1 مغرفة زيت جلجلان",
-      "200 غرام طופו، مفتفت",
+      "3 مغارف كبار زيت نباتي",
+      "200 غرام شومبينيون، مقصوص",
+      "1 مغرفة كبيرة زيت جلجلان",
+      "200 غرام توفو، مفتفت",
       "نصف مغرفة صغيرة كالا ناماك (ملح أكحل)",
       "4 كيسان روز طايب وبارد (من المستحسن بايت)",
-      "3 مغارف صلصة صوجا",
-      "3 بصلات خضر، مقصوصين"
+      "3 مغارف كبار صلصة صوجا",
+      "3 عروق بصل أخضر، مقصوصين"
     ],
     "en": [
       "3 tbsp vegetable oil",
       "7 oz mushrooms, sliced",
       "1 tbsp sesame oil",
       "7 oz firm tofu, crumbled",
-      "0.5 tsp kala namak (black salt)",
+      "1/2 tsp kala namak (black salt)",
       "4 cups cold cooked rice (day-old works best)",
       "3 tbsp soy sauce",
       "3 scallions, chopped"
@@ -63,26 +63,26 @@
   },
   "steps": {
     "he": [
-      "מחממים את השמן הצמחי בווק או במחבת גדולה על להבה גבוהה ביותר עד שמעלה עשן.",
+      "מחממים את השמן הצמחי בווק או במחבת גדולה על להבה גבוהה מאוד עד שהוא מעלה עשן.",
       "מוסיפים את הפטריות ומקפיצים עד להזהבה, כ-2 דקות. מוסיפים את שמן השומשום.",
       "מוסיפים את הטופו המפורר ואת הקאלה נמק. מקפיצים עד שהטופו מזהיב מעט, כ-2 דקות.",
       "מוסיפים את האורז הקר ומפוררים גושים. מקפיצים במרץ.",
-      "דוחפים את האורז לצדדים, מוסיפים את רוטב הסויה למרכז הלוהט של הווק. נותנים לו לבעבע ולהתקרמל, ואז מערבבים הכל יחד.",
-      "מוסיפים את הבצל הירוק, מקפיצים עוד פעם אחת ומגישים מיד."
+      "דוחפים את האורז לשוליים, ומוסיפים את רוטב הסויה למרכז הלוהט של הווק. מניחים לו לבעבע ולהתקרמל, ואז מערבבים הכל יחד.",
+      "מוסיפים את הבצל הירוק, מקפיצים קלות ומגישים מיד."
     ],
     "es": [
       "Calentar el aceite vegetal en un wok o sartén grande a fuego muy alto hasta que humee.",
       "Añadir los champiñones y saltear hasta que estén dorados, unos 2 minutos. Añadir el aceite de sésamo.",
       "Incorporar el tofu desmenuzado y la sal kala namak. Saltear hasta que el tofu esté ligeramente dorado, unos 2 minutos.",
-      "Añadir el arroz frío, rompiendo los grumos. Saltear vigorosamente.",
-      "Empujar el arroz hacia los lados, añadir la salsa de soja en el centro caliente del wok. Dejar que chisporrotee y caramelice, luego mezclar todo.",
-      "Añadir las cebolletas, dar una vuelta más y servir inmediatamente."
+      "Añadir el arroz frío, deshaciendo cualquier grumo. Saltear enérgicamente.",
+      "Apartar el arroz hacia los bordes y añadir la salsa de soja en el centro caliente del wok. Dejar que chisporrotee y se caramelice, luego mezclar todo.",
+      "Añadir las cebolletas, saltear una vez más y servir inmediatamente."
     ],
     "ar": [
-      "سخّن الزيت النباتي في مقلاة غارقة (wok) على نار قوية برشة لين يبدا يخرج الدخان.",
-      "زيد الفطر وقلّي لين يصفار، حكاية دقيقتين. زيد زيت الجلجلان.",
-      "زيد الطופו المفتفت والكالا ناماك. قلّي لين الطופו يصفار شوية، حكاية دقيقتين.",
-      "زيد الروز البارد، وحل كعابر الروز كان فمة. قلّي وحرّك بالباهي.",
+      "سخّن الزيت النباتي في ووك (wok) ولا مقلاة غارقة على نار قوية برشة لين يبدا يخرج الدخان.",
+      "زيد الشومبينيون وقلّي لين يصفار، حكاية دقيقتين. زيد زيت الجلجلان.",
+      "زيد التوفو المفتفت والكالا ناماك. قلّي لين التوفو يصفار شوية، حكاية دقيقتين.",
+      "زيد الروز البارد، وحل الكعابر كان فمة. قلّي وحرّك بالباهي.",
       "جبّد الروز للأجناب، وصب صلصة الصوجا في الوسط السخون متاع المقلاة. خليها تتشوشط وتتكرمل، ومبعد خلّط الكل مع بعضو.",
       "زيد البصل الأخضر، خلّط تخليطة أخرى وقدمو ديريكت."
     ],

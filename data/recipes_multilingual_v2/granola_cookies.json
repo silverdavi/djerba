@@ -14,23 +14,23 @@
     "en": "Granola Cookies"
   },
   "description": {
-    "he": "עוגיות גרנולה משלבות את המילה העברית למאפים עגולים עם ארוחת הבוקר האמריקאית. גרסה טבעונית זו מחליפה מוצרי חלב וביצים בתחליפים מהצומח תוך שמירה על המרקם הלעיס האהוב. העוגיות, העשירות באגוזי מלך ושוקולד מריר, מכבדות את ההתפתחות המודרנית של המטבח היהודי.",
-    "es": "Las Ugiot Granola combinan la palabra hebrea para productos horneados redondos con el desayuno básico americano. Esta adaptación vegana reemplaza los lácteos y huevos tradicionales con alternativas vegetales, manteniendo la amada textura masticable. Repletas de nueces y chocolate negro, estas galletas honran la evolución moderna de la cocina judía.",
-    "ar": "كعك الغرانولا يخلط بين الكلمة العبرية للمخبوزات المدورة وفطور الصباح الأمريكي المعروف. هالوصفة النباتية تبدل الحليب والعظم بمكونات نباتية وتحافظ على التعليكة البنينة. معبية بالجوز والشوكولاتة الكحلة، هالكعك يوري التطور العصري للمطبخ اليهودي.",
-    "en": "Ugiot Granola combines the Hebrew word for round baked goods with the American breakfast staple. This vegan adaptation replaces traditional dairy and eggs with plant-based alternatives while maintaining the beloved chewy texture. Packed with walnuts and dark chocolate, these cookies honor the modern evolution of Jewish cuisine."
+    "he": "השם 'עוגיות גרנולה' משלב את המילה העברית למאפים עגולים עם ארוחת הבוקר האמריקאית הקלאסית. גרסה טבעונית זו מחליפה מוצרי חלב וביצים בתחליפים מהצומח, תוך שמירה על המרקם הלעיס והאהוב. העוגיות, העשירות באגוזי מלך ושוקולד מריר, מכבדות את ההתפתחות המודרנית של המטבח היהודי.",
+    "es": "El nombre 'Ugiot Granola' combina la palabra hebrea para masas horneadas redondas con el clásico desayuno americano. Esta adaptación vegana reemplaza los lácteos y huevos tradicionales con alternativas vegetales, manteniendo su característica textura suave y masticable. Repletas de nueces y chocolate negro, estas galletas honran la evolución moderna de la cocina judía.",
+    "ar": "اسم 'كعك الغرانولا' يجمع بين الكلمة العبرية للمخبوزات المدورة وفطور الصباح الأمريكي الكلاسيكي. هالوصفة النباتية تعوض الحليب والعظم بمكونات نباتية وتحافظ على التعليكة البنينة. معبية بالجوز والشوكولاتة الكحلة، هالكعك يعكس التطور العصري للمطبخ اليهودي.",
+    "en": "The name 'Ugiot Granola' combines the Hebrew word for round baked goods with the classic American breakfast staple. This vegan adaptation replaces traditional dairy and eggs with plant-based alternatives while maintaining the beloved chewy texture. Packed with walnuts and dark chocolate, these cookies honor the modern evolution of Jewish cuisine."
   },
   "ingredients": {
     "he": [
       "250 גרם חמאה טבעונית, רכה",
       "150 גרם סוכר לבן",
       "300 גרם סוכר חום כהה",
-      "21 גרם פשתן טחון (לערבב עם מים)",
+      "21 גרם זרעי פשתן טחונים (לערבוב עם מים)",
       "135 מ\"ל מים חמים",
-      "280 גרם קמח רגיל",
+      "280 גרם קמח לבן",
       "5 גרם סודה לשתייה",
-      "2.6 גרם קינמון",
+      "2.6 גרם קינמון טחון",
       "3 גרם מלח",
-      "350 גרם שיבולת שועל (לא אינסטנט)",
+      "350 גרם שיבולת שועל שלמה (עבה)",
       "100 גרם אגוזי מלך, קצוצים גס",
       "150 גרם צימוקים",
       "200 גרם שוקולד צ'יפס מריר טבעוני"
@@ -39,13 +39,13 @@
       "250 g de mantequilla vegana, ablandada",
       "150 g de azúcar blanca",
       "300 g de azúcar moreno oscuro",
-      "21 g de semillas de lino molidas (mezclar con agua)",
+      "21 g de linaza molida (para mezclar con agua)",
       "135 ml de agua tibia",
-      "280 g de harina de trigo",
+      "280 g de harina de trigo (todo uso)",
       "5 g de bicarbonato de sodio",
-      "2.6 g de canela",
+      "2.6 g de canela en polvo",
       "3 g de sal",
-      "350 g de avena en hojuelas (no instantánea)",
+      "350 g de hojuelas de avena tradicional (no instantánea)",
       "100 g de nueces, picadas gruesas",
       "150 g de pasas",
       "200 g de chispas de chocolate negro vegano"
@@ -54,14 +54,14 @@
       "1.1 كاس زبدة نباتية، طرية",
       "3/4 كاس سكر",
       "1.5 كاس سكر أسمر",
-      "3 مغارف زريعة كتان مرحية (مخلطة بالماء)",
+      "3 مغارف كبار زريعة كتان مرحية (تتخلط مع الماء)",
       "1/2 كاس ماء دافي",
       "2.25 كيسان فرينة",
       "1 مغرفة صغيرة بيكربونات",
       "1 مغرفة صغيرة قرفة",
       "1/2 مغرفة صغيرة ملح",
-      "3.5 كيسان شوفان (مش مرحي)",
-      "1 كاس جوز، مدقدق",
+      "3.5 كيسان شوفان كعب (كامل)",
+      "1 كاس جوز (مهروش)",
       "1 كاس زبيب",
       "1.2 كاس حبيبات شوكولاتة كحلة (نباتية)"
     ],
@@ -69,13 +69,13 @@
       "1.1 cups vegan butter, softened",
       "3/4 cup white sugar",
       "1.5 cups dark brown sugar",
-      "3 tbsp ground flaxseeds (mix with water)",
+      "3 tbsp ground flaxseed (to mix with water)",
       "1/2 cup warm water",
       "2.25 cups all-purpose flour",
       "1 tsp baking soda",
-      "1 tsp cinnamon",
+      "1 tsp ground cinnamon",
       "1/2 tsp salt",
-      "3.5 cups rolled oats (old-fashioned)",
+      "3.5 cups old-fashioned rolled oats",
       "1 cup walnuts, coarsely chopped",
       "1 cup raisins",
       "1.2 cups vegan dark chocolate chips"
@@ -84,39 +84,39 @@
   "steps": {
     "he": [
       "מחממים תנור ל-160 מעלות.",
-      "במיקסר עם וו גיטרה, מעבדים את החמאה הרכה ושני סוגי הסוכר במהירות בינונית עד לקבלת תערובת קרמית.",
-      "מערבבים את הפשתן הטחון עם המים החמים ומניחים בצד לכמה דקות (תחליף ביצה). מוסיפים את התערובת לקערה ומערבבים עד לאיחוד.",
+      "בקערת מיקסר עם וו גיטרה, מקרימים את החמאה הרכה ושני סוגי הסוכר במהירות בינונית עד לקבלת תערובת קרמית.",
+      "מערבבים את זרעי הפשתן הטחונים עם המים החמים ומניחים בצד לכ-5 דקות (כתחליף ביצה). מוסיפים את התערובת לקערת המיקסר ומערבבים עד לאיחוד.",
       "מנמיכים את מהירות המיקסר. מוסיפים את הקמח, הסודה לשתייה, הקינמון והמלח. מעבדים רק עד לקבלת בצק אחיד (לא לערבב יותר מדי).",
-      "מוסיפים את שיבולת השועל, האגוזים, הצימוקים והשוקולד צ'יפס. מערבבים קצרות רק לפיזור אחיד בתערובת.",
-      "בעזרת שתי כפות, מניחים תלוליות מהתערובת על תבנית מרופדת בנייר אפייה, במרווחים אחת מהשנייה.",
-      "אופים במשך 18-20 דקות בלבד, עד שהעוגיות משתטחות מעט ומזהיבות. העוגיות מוכנות כשהשוליים יציבים אך המרכז עדיין רך ובהיר."
+      "מוסיפים את שיבולת השועל, האגוזים, הצימוקים והשוקולד צ'יפס. מערבבים קצרות רק עד לפיזור אחיד בתערובת.",
+      "בעזרת שתי כפות, מניחים תלוליות מהבצק על תבנית מרופדת בנייר אפייה, במרווחים שווים אחת מהשנייה.",
+      "אופים במשך 18-20 דקות, עד שהעוגיות משתטחות מעט ומזהיבות. העוגיות מוכנות כשהשוליים יציבים אך המרכז עדיין רך ובהיר."
     ],
     "es": [
       "Precalentar el horno a 160°C.",
-      "En una batidora con paleta, procesar la mantequilla blanda y ambos tipos de azúcar a velocidad media hasta obtener una mezcla cremosa.",
-      "Mezclar las semillas de lino molidas con el agua tibia y dejar reposar unos minutos (sustituto de huevo). Añadir esta mezcla al bol y batir hasta que esté uniforme.",
-      "Bajar la velocidad de la batidora. Añadir la harina, el bicarbonato, la canela y la sal. Procesar solo hasta formar una masa uniforme (no mezclar en exceso).",
-      "Añadir la avena, las nueces, las pasas y las chispas de chocolate. Mezclar brevemente solo para distribuir uniformemente.",
-      "Con dos cucharas, colocar montoncitos de la mezcla en una bandeja forrada con papel de horno, manteniéndolos separados.",
-      "Hornear durante 18-20 minutos, hasta que las galletas se aplanen ligeramente y se doren. Están listas cuando los bordes están estables pero el centro sigue suave."
+      "En una batidora de pie con el accesorio de paleta, batir la mantequilla ablandada y ambos tipos de azúcar a velocidad media hasta obtener una mezcla cremosa.",
+      "Mezclar la linaza molida con el agua tibia y dejar reposar por 5 minutos (sustituto de huevo). Añadir esta mezcla al bol y batir hasta integrar.",
+      "Bajar la velocidad de la batidora. Añadir la harina, el bicarbonato de sodio, la canela y la sal. Batir solo hasta formar una masa uniforme (no mezclar en exceso).",
+      "Incorporar la avena, las nueces, las pasas y las chispas de chocolate. Mezclar brevemente solo para distribuirlas de manera uniforme en la masa.",
+      "Con la ayuda de dos cucharas, colocar montoncitos de masa sobre una bandeja forrada con papel para hornear, dejando espacio entre ellos.",
+      "Hornear durante 18-20 minutos, hasta que las galletas se aplanen ligeramente y se doren. Estarán listas cuando los bordes estén firmes pero el centro siga suave y pálido."
     ],
     "ar": [
       "نسخنوا الفور لـ 160 درجة.",
-      "في العجانة، نركضوا الزبدة الطرية والسكر (الأبيض والأسمر) بسرعة متوسطة لين يولي الخليط كريمي.",
-      "نخلطوا زريعة الكتان مع الماء الدافي ونخلوهم يرتاحوا شوية (في بلاصة العظم). نزيدوا الخليط هذا للعجانة ونركضوا لين يتخلط مليح.",
-      "نقصوا في سرعة العجانة. نزيدوا الفرينة، البيكربونات، القرفة والملح. نخلطوا جيست لين تتلم العجينة (ما نركضوش برشا).",
-      "نزيدوا الشوفان، الجوز، الزبيب والشوكولاتة. نخلطوا خفيف باش يتوزعوا في العجينة.",
-      "بزوز مغارف، نحطوا كعبات العجينة في طبق مفروش بورق الطبخ، ونخلوهم بعاد على بعضهم.",
-      "نطيبوهم 18-20 دقيقة، لين الكعك يهبط شوية ويحمار. الكعك يحضر وقت اللي الأجناب تيبس والوسط يقعد طري."
+      "في العجانة، نركضوا الزبدة الطرية والسكر الأبيض والأسمر بسرعة متوسطة لين يولي الخليط كريمي.",
+      "نخلطوا زريعة الكتان مع الماء الدافي ونخلوهم يرتاحوا 5 دقايق (في بلاصة العظم). نزيدوا الخليط هذا للبول ونركضوا لين يتجانس.",
+      "نقصوا في سرعة الماكينة. نزيدوا الفرينة، البيكربونات، القرفة والملح. نخلطوا جيست لين تتلم العجينة (ما نعجنوهاش برشا).",
+      "نزيدوا الشوفان، الجوز، الزبيب وحبيبات الشوكولاتة. نخلطوا تخليطة خفيفة باش يتوزعوا بالقدى في العجينة.",
+      "باستعمال زوز مغارف، نحطوا كعابر صغار من العجينة في طبق مفروش ببابيي كويسون (ورق الطبخ)، ونخلو مسافة بيناتهم.",
+      "نطيبوهم في الفور لمدة 18-20 دقيقة، لين الكعك يهبط شوية وياخو لون ذهبي. الكعك يولي حاضر وقت اللي الأجناب تشد روحها والوسط يقعد طري وفاتح."
     ],
     "en": [
       "Preheat the oven to 160°C (320°F).",
-      "In a mixer fitted with a paddle attachment, process the softened butter and both types of sugar on medium speed until a creamy mixture is obtained.",
-      "Mix the ground flaxseeds with the warm water and let sit for 5 minutes (flax eggs). Add this mixture to the bowl, mixing until uniform.",
-      "Lower the mixer speed. Add the flour, baking soda, cinnamon, and salt. Process only until a uniform dough forms (do not overmix).",
-      "Add the oats, walnuts, raisins, and chocolate chips. Mix briefly just to distribute them evenly throughout the mixture.",
-      "Using two spoons, drop mounds of the mixture onto a baking tray lined with parchment paper, keeping them spaced apart.",
-      "Bake for 18-20 minutes only, until the cookies flatten slightly and turn golden. The cookies are ready when the edges are stable but the center is still soft and pale."
+      "In a stand mixer fitted with a paddle attachment, beat the softened butter and both sugars on medium speed until creamy.",
+      "Mix the ground flaxseed with the warm water and let sit for 5 minutes to thicken (flax egg). Add this mixture to the bowl and mix until combined.",
+      "Reduce the mixer speed to low. Add the flour, baking soda, cinnamon, and salt. Mix just until a uniform dough forms (do not overmix).",
+      "Add the oats, walnuts, raisins, and chocolate chips. Mix briefly just to distribute them evenly throughout the dough.",
+      "Using two spoons, drop mounds of dough onto a baking tray lined with parchment paper, spacing them evenly apart.",
+      "Bake for 18-20 minutes, until the cookies flatten slightly and turn golden. They are ready when the edges are set but the center is still soft and pale."
     ]
   },
   "index": 78

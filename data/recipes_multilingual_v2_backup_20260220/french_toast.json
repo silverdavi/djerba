@@ -1,0 +1,91 @@
+{
+  "id": "french_toast",
+  "image": "images/current/french_toast/dish.png",
+  "meta": {
+    "servings": "2",
+    "prep_time": "5 min",
+    "cook_time": "10 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "לחם מטוגן",
+    "es": "Tostadas Francesas (Pain Perdu)",
+    "ar": "خبز مقلي (Pain Perdu)",
+    "en": "French Toast (Pain Perdu)"
+  },
+  "description": {
+    "he": "\"Pain Perdu\" פירושו לחם אבוד והוא משקף את ההשפעה הצרפתית על יהודי תוניסיה. גרסה טבעונית זו מחליפה את בלילת הביצים המסורתית בבלילת קמח חומוס כדי להציל כיכרות לחם יבשות. זוהי מנת ארוחת בוקר מנחמת המכבדת את העבר הקולוניאלי של הקהילה תוך התאמה למטבחים מודרניים מבוססי צמחים.",
+    "es": "\"Pain Perdu\" significa pan perdido y refleja la influencia francesa en los judíos tunecinos. Esta versión vegana reemplaza la mezcla tradicional de huevo con una masa de harina de garbanzos para rescatar el pan duro. Sigue siendo un reconfortante desayuno que honra el pasado colonial de la comunidad mientras se adapta a las cocinas modernas basadas en plantas.",
+    "ar": "\"Pain Perdu\" يعني الخبز الضايع ويعكس التأثير الفرنساوي على يهود تونس. هذي النسخة النباتية تبدل العظم بخلطة دقيق الحمص باش نمنعوا الخبز البايت. هي فطور صباح يعمل الكيف ويحترم تاريخ الجالية وفي نفس الوقت يواتي الكوجينة العصرية.",
+    "en": "Pain Perdu means lost bread and reflects the French influence on Tunisian Jews. This vegan version replaces the traditional egg custard with a chickpea flour batter to rescue stale loaves. It remains a comforting breakfast dish that honors the community's colonial past while adapting to modern plant-based kitchens."
+  },
+  "ingredients": {
+    "he": [
+      "25 גרם קמח חומוס",
+      "8 גרם קורנפלור",
+      "150 מ\"ל חלב סויה או שיבולת שועל",
+      "5 גרם אבקת וניל",
+      "קורט כורכום",
+      "4 פרוסות לחם עבות",
+      "חמאה טבעונית או שמן קוקוס לפי הטעם"
+    ],
+    "es": [
+      "25 g de harina de garbanzos",
+      "8 g de maicena",
+      "150 ml de leche de soja o avena",
+      "5 g de polvo de vainilla",
+      "1 pizca de cúrcuma",
+      "4 rebanadas de pan gruesas",
+      "Mantequilla vegana o aceite de coco al gusto"
+    ],
+    "ar": [
+      "3 مغارف دقيق حمص",
+      "1 مغرفة نشاء",
+      "0.6 كاس حليب صويا ولا شوفان",
+      "1 مغرفة صغيرة فانيليا",
+      "رشة كركم",
+      "4 طروف خبز خشين",
+      "زبدة نباتية ولا زيت جوز هند حسب الذوق"
+    ],
+    "en": [
+      "3 tbsp chickpea flour",
+      "1 tbsp cornstarch",
+      "0.6 cups soy or oat milk",
+      "1 tsp vanilla powder",
+      "1 pinch turmeric",
+      "4 thick slices bread",
+      "Vegan butter or coconut oil to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "בקערה רחבה ושטוחה, טורפים את קמח החומוס, הקורנפלור, החלב והווניל עד לקבלת תערובת אחידה.",
+      "מחממים מחבת על אש בינונית ומשמנים בחמאה או שמן.",
+      "טובלים כל פרוסת לחם בבלילה, ומניחים לה לספוג את הנוזלים למשך מספר שניות מכל צד.",
+      "מניחים את הלחם הספוג במחבת החמה ומטגנים עד להזהבה משני הצדדים.",
+      "מגישים חם, ניתן לפזר סוכר או סירופ מעל."
+    ],
+    "es": [
+      "En un bol ancho y poco profundo, batir la harina de garbanzos, la maicena, la leche y la vainilla hasta que estén bien combinados.",
+      "Calentar una sartén a fuego medio y engrasar con mantequilla o aceite.",
+      "Sumergir cada rebanada de pan en la mezcla, dejando que se empape durante unos segundos por cada lado.",
+      "Colocar el pan empapado en la sartén caliente y freír hasta que esté dorado por ambos lados.",
+      "Servir caliente, opcionalmente cubierto con azúcar o jarabe."
+    ],
+    "ar": [
+      "في صحفة واسعة، ركض دقيق الحمص والنشاء والحليب والفانيليا مليح حتى يتخلطوا بالباهي.",
+      "سخن المقلاة على نار متوسطة وادهنها بالزبدة ولا الزيت.",
+      "غطّس طروف الخبز في الخليط، وخليهم يشربوا شوية من الجهتين.",
+      "حط الخبز المشرب في المقلاة السخونة واقليه لين يحمار من الجهتين.",
+      "قدمه سخون، وتنجم ترش عليه شوية سكر ولا عسل."
+    ],
+    "en": [
+      "In a wide, shallow bowl, whisk together the chickpea flour, cornstarch, milk, and vanilla until well combined.",
+      "Heat a frying pan over medium heat and grease with butter or oil.",
+      "Dip each slice of bread into the mixture, allowing it to soak for a few seconds on each side.",
+      "Place the soaked bread in the hot pan and fry until golden brown on both sides.",
+      "Serve warm, optionally topped with sugar or syrup."
+    ]
+  },
+  "index": 38
+}

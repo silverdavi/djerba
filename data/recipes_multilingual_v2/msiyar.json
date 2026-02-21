@@ -4,48 +4,48 @@
   "meta": {
     "servings": "6-8",
     "prep_time": "20 min",
-    "cook_time": "0 min",
+    "cook_time": "No cook",
     "difficulty": "Easy"
   },
   "name": {
     "he": "משייר",
-    "es": "Msiyar (Vegetales Encurtidos Tunecinos)",
+    "es": "Msiyar (Verduras Encurtidas Tunecinas)",
     "ar": "مسير (خضرة مخللة تونسية)",
     "en": "Msiyar (Tunisian Pickled Vegetables)"
   },
   "description": {
-    "he": "המשייר נגזר מהשורש הערבי לשימור ומתייחס לסלט הטוניסאי התוסס הזה. בניגוד לחמוצים בחומץ, הפלפלים והגזרים הפריכים נכבשים במיץ לימון ומלח. מתאבן טבעוני זה משמש כמרענן חך לצד תבשילים עשירים או כחלק משולחן הקמיה החגיגי.",
-    "es": "El Msiyar deriva de la raíz árabe para conservar y se refiere a esta vibrante ensalada tunecina. A diferencia de los encurtidos con vinagre, estos crujientes pimientos y zanahorias se curan en jugo de limón y sal. Este aperitivo vegano sirve como un refrescante limpiador del paladar junto a guisos ricos o como parte de una mesa festiva de kemia.",
-    "ar": "اسم المسير جاي من كلمة التصيير، وهو سلطة تونسية معروفة. في عوض الخل، الفلفل والسنارية يطيبو في القارص والملح. هالمقبلات النباتية تجي بنينة برشا باش تنظف الفم مع الماكلة الثقيلة ولا كجزء من الكيمية في المناسبات.",
-    "en": "Msiyar derives from the Arabic root for preserving and refers to this vibrant Tunisian salad. Unlike vinegar pickles, these crunchy peppers and carrots cure in lemon juice and salt. This naturally vegan appetizer serves as a refreshing palate cleanser alongside rich stews or as part of a festive kemia spread."
+    "he": "השם 'משייר' נגזר מהשורש הערבי לשימור ומתייחס לסלט הטוניסאי הססגוני הזה. בניגוד לחמוצים בחומץ, הפלפלים והגזרים הפריכים נכבשים במיץ לימון ומלח. מתאבן טבעוני זה משמש כמרענן חך לצד תבשילים עשירים או כחלק משולחן הקמיה החגיגי.",
+    "es": "El nombre Msiyar deriva de la raíz árabe para 'conservar' y se refiere a esta vibrante ensalada tunecina. A diferencia de los encurtidos con vinagre, estos crujientes pimientos y zanahorias se curan en jugo de limón y sal. Este aperitivo vegano sirve como un refrescante limpiador del paladar junto a guisos sustanciosos o como parte de una mesa festiva de kemia.",
+    "ar": "كلمة مسير جاية من التصيير، وهي سلطة تونسية تعمل الكيف. في عوض الخل، الفلفل والسنارية يترقدو في القارص والملح. هالسلاطة النباتية تجي بنينة برشا تنظف المطعم مع الماكلة الرزينة ولا كجزء من صحن الكيمية في المناسبات.",
+    "en": "The name Msiyar derives from the Arabic root for preserving, referring to this vibrant Tunisian salad. Unlike vinegar pickles, these crunchy peppers and carrots cure in lemon juice and salt. This naturally vegan appetizer serves as a refreshing palate cleanser alongside rich stews or as part of a festive kemia spread."
   },
   "ingredients": {
     "he": [
-      "3 פלפלים (צבעים מעורבים), חתוכים לרצועות אחידות",
+      "3 פלפלים (בצבעים שונים), חתוכים לרצועות אחידות",
       "3 גזרים, קלופים וחתוכים לרצועות",
       "1 פלפל חריף (ירוק או אדום), חתוך לרצועות ארוכות",
-      "1 לימון, קלוף, סחוט וחתוך לקוביות",
-      "1 קולורבי, קלוף וחתוך לרצועות (אופציונלי)",
-      "500 מ\"ל מים",
-      "30 גרם מלח גס"
+      "1 לימון קלוף, סחוט וחתוך לקוביות",
+      "1 קולורבי, קלוף וחתוך לרצועות (לא חובה)",
+      "2 כוסות (500 מ\"ל) מים",
+      "2 כפות (30 גרם) מלח גס"
     ],
     "es": [
-      "3 pimientos (colores variados), cortados en tiras uniformes",
+      "3 pimientos morrones (de varios colores), cortados en tiras uniformes",
       "3 zanahorias, peladas y cortadas en tiras",
-      "1 pimiento picante (verde o rojo), cortado en tiras largas",
-      "1 limón, pelado, exprimido y troceado",
+      "1 chile o pimiento picante (verde o rojo), cortado en tiras largas",
+      "1 limón, pelado, exprimido y con la pulpa picada",
       "1 colinabo, pelado y cortado en tiras (opcional)",
-      "500 ml de agua",
-      "30 g de sal gruesa"
+      "2 tazas (500 ml) de agua",
+      "2 cucharadas (30 g) de sal gruesa"
     ],
     "ar": [
-      "3 فلفل حلو (ألوان مخلطة)، مقصوصين صوابع",
-      "3 سنارية، مقشرين ومقصوصين صوابع",
-      "1 فلفل حار (أخضر ولا أحمر)، مقصوص صوابع طوال",
-      "1 كعبة قارص، مقشرة ومعصورة ومقصوصة",
-      "1 كولوربي، مقشر ومقصوص صوابع (اختياري)",
-      "2 كيسان ماء",
-      "2 مغارف ملح حرش"
+      "3 كعبات فلفل حلو (ألوان مخلطة)، مقصوصين صوابع",
+      "3 كعبات سنارية، مقشرين ومقصوصين صوابع",
+      "1 قرن فلفل حار (أخضر ولا أحمر)، مقصوص صوابع طوال",
+      "1 كعبة قارص، مقشرة، معصورة ومقصوصة طروف",
+      "1 كعبة كولرابي، مقشرة ومقصوصة صوابع (اختياري)",
+      "2 كيسان ماء (500 مل)",
+      "2 مغارف كبار ملح حرش (30 غ)"
     ],
     "en": [
       "3 bell peppers (mixed colors), cut into uniform strips",
@@ -53,38 +53,38 @@
       "1 hot pepper (green or red), cut into long strips",
       "1 lemon, peeled, juiced, and flesh chopped",
       "1 kohlrabi, peeled and cut into strips (optional)",
-      "2 cups water",
-      "2 tbsp coarse salt"
+      "2 cups (500 ml) water",
+      "2 tbsp (30 g) coarse salt"
     ]
   },
   "steps": {
     "he": [
-      "חתכו את הפלפלים והגזרים לרצועות. נסו לשמור על גודל אחיד לכבישה שווה.",
-      "חתכו את הפלפל החריף לרצועות ארוכות.",
-      "אם משתמשים בקולורבי, חתכו אותו לרצועות או פרוסות והוסיפו לירקות.",
-      "קלפו את הלימון. סחטו את המיץ על הירקות החתוכים, ואז חתכו את הלימון הסחוט עצמו לחתיכות קטנות והוסיפו לתערובת (מומלץ להוציא גרעינים).",
-      "הוסיפו מים לכיסוי ותבלו בנדיבות במלח גס. ערבבו היטב והניחו לכמה שעות לספיגת טעמים."
+      "חותכים את הפלפלים והגזרים לרצועות. מומלץ לחתוך לגודל אחיד כדי להבטיח כבישה שווה.",
+      "חותכים את הפלפל החריף לרצועות ארוכות.",
+      "אם משתמשים בקולורבי, חותכים אותו לרצועות או לפרוסות ומוסיפים לירקות.",
+      "מקלפים את הלימון. סוחטים את המיץ על הירקות החתוכים, חותכים את הלימון הסחוט עצמו לחתיכות קטנות ומוסיפים לתערובת (מומלץ להוציא את הגרעינים).",
+      "מוסיפים מים עד לכיסוי ומתבלים בנדיבות במלח גס. מערבבים היטב ומניחים בצד לכמה שעות לספיגת טעמים."
     ],
     "es": [
-      "Corte los pimientos y las zanahorias en tiras. Intente mantener un tamaño uniforme para un encurtido parejo.",
+      "Corte los pimientos y las zanahorias en tiras. Intente que las tiras sean de tamaño uniforme para lograr un encurtido parejo.",
       "Corte el pimiento picante en tiras largas.",
       "Si usa colinabo, córtelo en tiras o rodajas y agréguelo a las verduras.",
-      "Pele el limón. Exprima el jugo sobre todas las verduras cortadas, luego corte el limón exprimido en trozos pequeños y agréguelos a la mezcla (se recomienda quitar las semillas).",
-      "Añada agua hasta cubrir y sazone generosamente con sal gruesa. Mezcle bien y deje reposar unas horas para que los sabores se mezclen."
+      "Pele el limón. Exprima el jugo sobre las verduras cortadas, luego corte el limón exprimido en trozos pequeños y agréguelo a la mezcla (se recomienda retirar las semillas).",
+      "Añada agua hasta cubrir y sazone generosamente con la sal gruesa. Mezcle bien. Deje reposar durante al menos unas horas antes de servir para que los sabores se integren."
     ],
     "ar": [
-      "قص الفلفل والسنارية صوابع. حاول تخليهم قد قد باش يطيبو كيف كيف.",
+      "قص الفلفل والسنارية صوابع. حاول تخليهم قد قد باش يترقدو كيف كيف.",
       "قص الفلفل الحار صوابع طوال.",
-      "كان باش تستعمل الكولوربي، قصو صوابع ولا طروف وزيدو للخضرة.",
-      "قشر القارص. اعصر القارص فوق الخضرة المقصوصة، ومبعد قص القارص بيدو طروف صغار وخلطو معاهم (نحي القلوب).",
-      "زيد الماء باش تغطي الخضرة وفוח بالملح الحرش بالباهي. خلط مليح وخليها ترتاح سوايع باش تشرب الملح."
+      "كان باش تستعمل الكولرابي، قصو صوابع ولا طرونشات وزيدو للخضرة.",
+      "قشر كعبة القارص. اعصر ماها فوق الخضرة، ومبعد قص القارص المعصور بيدو طروف صغار وزيدو للخليط (من المستحسن تنحي القلوب).",
+      "زيد الماء باش تغطي الخضرة وفوّح بالملح الحرش بالباهي. خلط مليح وخليها ترتاح قداش من ساعة باش تتداخل المطاعم في بعضها."
     ],
     "en": [
       "Cut the bell peppers and carrots into strips. Try to keep the vegetable strips uniform in size for even pickling.",
       "Cut the hot pepper into long strips.",
-      "If using kohlrabi, cut it into strips or slices and add to the vegetables.",
+      "If using kohlrabi, cut it into strips or slices and add it to the vegetables.",
       "Peel the lemon. Squeeze the juice over all the cut vegetables, then cut the squeezed lemon itself into small pieces and add them to the mix (removing seeds is recommended).",
-      "Add water to cover and season generously with coarse salt. Mix well. Allow to sit for at least a few hours before serving for flavors to meld."
+      "Add water to cover and season generously with coarse salt. Mix well. Allow to sit for at least a few hours before serving to allow the flavors to meld."
     ]
   },
   "image_prompt": "Tunisian msiyar salad, glass bowl with strips of red and yellow bell peppers, carrots, and lemon pieces in brine, bright natural lighting",

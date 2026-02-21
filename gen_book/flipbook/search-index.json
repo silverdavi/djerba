@@ -9,17 +9,17 @@
         "en": "Adafina"
       },
       "ingredients": [
-        "1.25 cups chickpeas, soaked overnight",
-        "4.2 cups seitan (wheat gluten), cut into large chunks",
+        "1 ¼ cups chickpeas, soaked overnight",
+        "4 ¼ cups seitan (wheat gluten), cut into large chunks",
         "6 potatoes, peeled",
-        "6 units firm tofu, pressed and cut into large blocks",
-        "1.1 cups wheat berries, rinsed",
+        "6 blocks firm tofu, pressed and cut into large chunks",
+        "1 ⅛ cups wheat berries, rinsed",
         "2 tbsp sugar",
         "1 tsp turmeric",
-        "0.5 tsp white pepper",
+        "½ tsp white pepper",
         "Grated nutmeg to taste",
         "1 tsp sweet paprika",
-        "0.5 tsp ground cinnamon",
+        "½ tsp ground cinnamon",
         "1 tbsp vegetable bouillon powder",
         "Salt to taste",
         "Water to cover"
@@ -34,15 +34,15 @@
         "en": "Wheat Berries (Hita / Trigo)"
       },
       "ingredients": [
-        "2 cups whole wheat berries, rinsed and cleaned",
+        "2 cups (380g) whole wheat berries, rinsed and cleaned",
         "2 tbsp vegetable oil",
         "1 medium onion, diced",
-        "10 garlic cloves, whole peeled",
+        "10 garlic cloves, peeled and left whole",
         "1 tsp sweet paprika",
-        "0.5 tsp white pepper (to taste)",
+        "1/2 tsp white pepper (to taste)",
         "1 tsp vegetable bouillon powder",
         "Salt to taste",
-        "1.5 cups water"
+        "1 1/2 cups (350ml) water"
       ]
     },
     {
@@ -54,13 +54,13 @@
         "en": "Tfina (Seitan and Barley Stew)"
       },
       "ingredients": [
-        "4.5 cups seitan chunks, cut into large cubes",
+        "4.5 cups seitan, cut into large cubes",
         "4 potatoes, peeled and quartered",
         "1 cup pearl barley, rinsed",
         "2 onions, chopped",
         "1 cup white beans, soaked overnight",
         "1/4 cup vegetable oil",
-        "1.2 tbsp sugar",
+        "1 1/4 tbsp sugar",
         "1 tbsp sweet paprika",
         "Coarse salt to taste",
         "Black pepper to taste",
@@ -70,26 +70,26 @@
     {
       "id": "cholent",
       "names": {
-        "he": "חמין",
+        "he": "צ'ולנט (חמין)",
         "es": "Hamin (Cholent)",
-        "ar": "حمين",
+        "ar": "حمين (شولنت)",
         "en": "Cholent (Hamin)"
       },
       "ingredients": [
-        "3 onions, large and diced",
+        "3 large onions, diced",
         "3 tbsp vegetable oil",
-        "4.4 cups seitan chunks (wheat gluten), cut into large chunks",
-        "5 potatoes, medium, peeled and halved",
+        "4.4 cups seitan (wheat gluten), cut into large chunks",
+        "5 medium potatoes, peeled and halved",
         "1 cup white beans, soaked overnight",
-        "1 cup brown beans (Pinto or Kidney), soaked overnight",
-        "0.75 cups pearl barley, rinsed",
+        "1 cup brown beans (pinto or kidney), soaked overnight",
+        "3/4 cup pearl barley, rinsed",
         "1 tbsp sweet paprika",
-        "1 tsp black pepper, ground",
+        "1 tsp ground black pepper",
         "1 tsp garlic powder",
         "Salt to taste",
-        "2 tbsp date syrup (Silan) or Maple syrup",
-        "6 baby potatoes, whole, peeled",
-        "Boiling water to cover ingredients"
+        "2 tbsp date syrup (silan) or maple syrup",
+        "6 baby potatoes, peeled and left whole",
+        "Boiling water, to cover"
       ]
     },
     {
@@ -102,9 +102,9 @@
       },
       "ingredients": [
         "3 cups cooked chickpeas, rinsed and drained",
-        "8.3 cups vegetable broth",
+        "8 cups (2 liters) vegetable broth",
         "2 tbsp olive oil",
-        "2.5 cups pumpkin, cubed",
+        "10 oz (300g) pumpkin, cubed",
         "3 zucchini, cut into chunks",
         "3 carrots, peeled and sliced",
         "2 potatoes, peeled and quartered",
@@ -121,17 +121,17 @@
         "en": "Adamshusha (Tunisian Egg Drop Soup)"
       },
       "ingredients": [
-        "2 tbsp vegetable oil, for frying",
+        "2 tbsp (30 ml) vegetable oil, for frying",
         "1 onion, diced",
-        "1 tbsp sweet paprika",
+        "1 tbsp (7 g) sweet paprika",
         "1 tomato, chopped",
         "1 hot pepper, minced",
-        "Salt to taste",
-        "4.2 cups water",
+        "Salt, to taste",
+        "4 cups (1 liter) water",
         "2 potatoes, cubed",
-        "1 package silken tofu, large chunks",
-        "2 tbsp chickpea flour, mixed with 3 tbsp water",
-        "0.5 tsp Kala Namak (Black Salt)"
+        "1 package (300 g) silken tofu, cut into large chunks",
+        "2 tbsp (15 g) chickpea flour, mixed with 3 tbsp water",
+        "1/2 tsp (2 g) Kala Namak (black salt)"
       ]
     },
     {
@@ -140,7 +140,7 @@
         "he": "מרק תלבינה",
         "es": "Sopa Talbina (Espesa, Agria y Picante)",
         "ar": "شوربة التلبينة (حامضة وحارة)",
-        "en": "Talbina Soup (Thick Sour and Spicy)"
+        "en": "Talbina Soup (Thick, Sour, and Spicy)"
       },
       "ingredients": [
         "6 1/4 cups water",
@@ -148,7 +148,7 @@
         "1/4 cup lemon juice",
         "1 tbsp hot paprika",
         "3 tbsp all-purpose flour",
-        "1/2 cup water (cold)",
+        "1/2 cup cold water",
         "Salt to taste"
       ]
     },
@@ -156,7 +156,7 @@
       "id": "greenpeasoup",
       "names": {
         "he": "מרק אפונה ירוקה",
-        "es": "Sopa de Guisantes Verdes",
+        "es": "Sopa de Arvejas Verdes",
         "ar": "شربة جلبانة",
         "en": "Green Pea Soup"
       },
@@ -165,7 +165,7 @@
         "2 carrots, cut into chunks",
         "1 onion, quartered",
         "1 tsp turmeric",
-        "0.5 tsp white or black pepper",
+        "1/2 tsp white or black pepper",
         "1 tsp vegetable bouillon powder",
         "Salt to taste",
         "6 cups water"
@@ -174,9 +174,9 @@
     {
       "id": "kataa_soup",
       "names": {
-        "he": "קטעה",
-        "es": "Kata'a (Sopa de Pasta Fresca)",
-        "ar": "قطعة (حساء عجين طازج)",
+        "he": "קטעה (מרק פסטה טרייה)",
+        "es": "Kata'a (Sopa de pasta fresca)",
+        "ar": "قطعة (شربة عجين دياري)",
         "en": "Kata'a (Fresh Pasta Soup)"
       },
       "ingredients": [
@@ -198,14 +198,14 @@
         "en": "Dwida (Spicy Pasta Soup)"
       },
       "ingredients": [
-        "5 cups spaghetti, broken into small pieces",
-        "1/4 cup vegetable oil",
+        "500g (1 lb) spaghetti, broken into small pieces",
+        "60ml (1/4 cup) vegetable oil",
         "3 cloves garlic, minced",
         "2 tomatoes, grated or diced",
         "1 hot green pepper, chopped",
         "1 tbsp sweet paprika",
         "Salt to taste",
-        "6 1/4 cups water, boiling"
+        "1.5 liters (6 cups) boiling water"
       ]
     },
     {
@@ -231,9 +231,9 @@
     {
       "id": "chickenfricasseestew",
       "names": {
-        "he": "צ׳יקן פריקסה",
+        "he": "תבשיל צ׳יקן פריקסה עם כופתאות",
         "es": "Estofado de Fricasé de Pollo con Bolitas de Masa",
-        "ar": "تشيكن فريكاسي",
+        "ar": "مرقة تشيكن فريكاسي بكعابر العجين",
         "en": "Chicken Fricassee Stew with Dumplings"
       },
       "ingredients": [
@@ -244,7 +244,7 @@
         "Salt to taste",
         "Black pepper to taste",
         "Vegetable broth as needed (enough to cover ingredients + extra for batter)",
-        "1.1 cups all-purpose flour"
+        "1 cup (140g) all-purpose flour"
       ]
     },
     {
@@ -256,7 +256,7 @@
         "en": "Dabikh Hagim (Holiday Stew)"
       },
       "ingredients": [
-        "1/4 cup vegetable oil (for frying base)",
+        "1/4 cup vegetable oil (for sautéing)",
         "1 tbsp sweet paprika",
         "1 onion, sliced or diced",
         "2.5 cups pumpkin, cubed",
@@ -267,7 +267,7 @@
         "1 carrot, sliced (optional)",
         "Coarse salt to taste",
         "Black pepper to taste",
-        "4 cups seitan chunks, cut into bite-sized pieces",
+        "4 cups seitan, cut into bite-sized pieces",
         "3 potatoes, peeled and quartered",
         "Water to cover"
       ]
@@ -298,30 +298,29 @@
       "id": "mahshistuffedvegetables",
       "names": {
         "he": "מחשי",
-        "es": "Mahshi (Vegetales Rellenos)",
+        "es": "Mahshi (Vegetales rellenos)",
         "ar": "محشي",
         "en": "Mahshi (Stuffed Vegetables)"
       },
       "ingredients": [
-        "3 potatoes, hollowed for stuffing (medium and uniform)",
+        "3 medium, uniform potatoes, hollowed for stuffing",
         "4 zucchini, hollowed for stuffing",
-        "1 eggplant, hollowed for stuffing (small or medium)",
-        "1.1 cups rice, rinsed",
-        "1.3 cups seitan or oyster mushrooms, finely chopped",
-        "1 flax egg (1 tbsp flax meal + 3 tbsp water)",
+        "1 small or medium eggplant, hollowed for stuffing",
+        "1 cup (200g) rice, rinsed",
+        "1 ½ cups (300g) seitan or oyster mushrooms, finely chopped",
+        "1 flax egg (1 tbsp ground flaxseed + 3 tbsp water)",
         "2 tbsp vegetable oil",
-        "1 onion, diced",
+        "1 onion, finely diced",
         "2 tomatoes, chopped",
-        "1.7 cups pumpkin, cubed (optional)",
-        "Water to cover vegetables",
-        "Salt to taste",
-        "Black pepper to taste"
+        "1 ½ cups (200g) pumpkin, cubed (optional)",
+        "Water, enough to cover the vegetables",
+        "Salt and black pepper, to taste"
       ]
     },
     {
       "id": "artichokemushroomsstew",
       "names": {
-        "he": "ארטישוק ופטריות",
+        "he": "תבשיל ארטישוק ופטריות",
         "es": "Guiso de Alcachofas y Champiñones",
         "ar": "قنارية بالفڨاع",
         "en": "Artichoke and Mushroom Stew"
@@ -343,7 +342,7 @@
     {
       "id": "tbikha_tomatem",
       "names": {
-        "he": "דביח תטמטם",
+        "he": "טביכה בטמטם",
         "es": "Tbikha b'Tomatem",
         "ar": "طبيخة بطماطم",
         "en": "Tbikha b'Tomatem"
@@ -358,7 +357,7 @@
         "Black pepper to taste",
         "6 tbsp tomato paste",
         "3 potatoes, cubed",
-        "21 oz seitan pieces",
+        "21 oz (600g) seitan, cut into pieces",
         "Water to cover ingredients"
       ]
     },
@@ -371,15 +370,15 @@
         "en": "Chraime (Spicy Fish Stew)"
       },
       "ingredients": [
-        "1 kg firm tofu, pressed, cut into triangles",
-        "2 nori seaweed sheets, finely ground or crumbled",
+        "1 kg firm tofu, pressed and cut into triangles",
+        "2 nori seaweed sheets, finely ground or crushed",
         "1/4 cup vegetable oil",
         "8 garlic cloves, minced or crushed",
         "2 tbsp tomato paste",
         "1 tbsp hot paprika",
-        "2 green hot peppers, sliced lengthwise",
-        "1 tsp caraway seeds (ground)",
-        "1/2 tsp cumin",
+        "2 green hot peppers, halved lengthwise",
+        "1 tsp ground caraway",
+        "1/2 tsp ground cumin",
         "1 cup water",
         "2 tbsp lemon juice",
         "Salt to taste",
@@ -389,9 +388,9 @@
     {
       "id": "veganfishchraime",
       "names": {
-        "he": "קציצות דג טבעוניות",
-        "es": "Albóndigas de 'Pescado' Vegano en Salsa de Tomate",
-        "ar": "كفتة حوت نباتية بصلصة طماطم",
+        "he": "קציצות 'דג' טבעוניות",
+        "es": "Tortitas de 'Pescado' Vegano en Salsa de Tomate",
+        "ar": "كفتة حوت نباتية بصلصة الطماطم",
         "en": "Vegan 'Fish' Patties in Tomato Sauce"
       },
       "ingredients": [
@@ -401,10 +400,10 @@
         "1 tsp salt",
         "1.5 tsp garlic powder",
         "1 tsp all-purpose flour",
-        "1 tsp cumin, ground",
+        "1 tsp ground cumin",
         "3 tbsp vegetable oil",
-        "1 tsp turmeric, ground",
-        "1 tbsp paprika, sweet",
+        "1 tsp ground turmeric",
+        "1 tbsp sweet paprika",
         "Salt to taste",
         "4 tomatoes, diced",
         "1 red bell pepper, sliced into strips",
@@ -415,8 +414,8 @@
     {
       "id": "potachewhitebean_stew",
       "names": {
-        "he": "פוטאכס",
-        "es": "Potache (Guiso de Alubias Blancas)",
+        "he": "פוטאכס (תבשיל שעועית לבנה)",
+        "es": "Potache (Guiso de Frijoles Blancos)",
         "ar": "بوتاش (مرقة لوبيا بيضاء)",
         "en": "Potache (White Bean Stew)"
       },
@@ -424,7 +423,7 @@
         "2 cups white beans, soaked overnight",
         "4 cloves garlic, minced or crushed",
         "1 tsp paprika",
-        "0.5 tsp white pepper",
+        "1/2 tsp white pepper",
         "1 tsp vegetable bouillon powder",
         "Salt to taste",
         "2 tbsp tomato paste",
@@ -434,7 +433,7 @@
     {
       "id": "lentechalentilstew",
       "names": {
-        "he": "לנטכה",
+        "he": "לנטכה (נזיד עדשים)",
         "es": "Lentecha (Guiso de Lentejas)",
         "ar": "لانتشا (مرقة عدس)",
         "en": "Lentecha (Lentil Stew)"
@@ -444,18 +443,18 @@
         "1 onion, chopped (not fried)",
         "2 tomatoes, chopped",
         "1 tsp turmeric",
-        "0.5 tsp white pepper",
+        "1/2 tsp white pepper",
         "1 tsp vegetable bouillon powder",
         "Salt to taste",
         "4 cups water",
-        "0.5 cup fresh coriander, chopped"
+        "1/2 cup fresh coriander, chopped"
       ]
     },
     {
       "id": "ciceritos",
       "names": {
         "he": "ציצריטוס (תבשיל אפונה)",
-        "es": "Ciceritos (Guiso de Guisantes)",
+        "es": "Ciceritos (Guiso de Arvejas)",
         "ar": "سيسيريتوس (مرقة جلبانة)",
         "en": "Ciceritos (Green Pea Stew)"
       },
@@ -465,7 +464,7 @@
         "2 tbsp oil for frying",
         "2 cups green peas (cooked or canned)",
         "1 tsp turmeric",
-        "0.5 tsp white pepper",
+        "1/2 tsp white pepper",
         "1 tsp vegetable bouillon powder",
         "Salt to taste",
         "2 cups water"
@@ -485,47 +484,47 @@
         "1 onion, diced",
         "1 tbsp sweet paprika",
         "1 tomato, chopped",
-        "1 green hot pepper, chopped (small piece)",
+        "1 small piece of green hot pepper, chopped",
         "3 cloves garlic, minced",
         "Salt to taste",
         "Black pepper to taste",
-        "0.4 cups tomato paste (1 small can)",
+        "1/3 cup (1 small can) tomato paste",
         "Toasted sesame seeds, for garnish"
       ]
     },
     {
       "id": "homemade_couscous",
       "names": {
-        "he": "קוסקוס",
+        "he": "קוסקוס ביתי",
         "es": "Cuscús Casero",
-        "ar": "كسكسي",
+        "ar": "كسكسي دياري",
         "en": "Homemade Couscous"
       },
       "ingredients": [
         "6 cups semolina",
-        "2.1 cups water",
-        "0.25 cups vegetable oil"
+        "2 cups plus 2 tablespoons water",
+        "1/4 cup vegetable oil"
       ]
     },
     {
       "id": "vegetablesoupfor_couscous",
       "names": {
-        "he": "מרק ירקות לקוסקוס",
+        "he": "מרק ירקות לקוסקוס (מרגה)",
         "es": "Sopa de Verduras para Cuscús (Marga)",
         "ar": "مرقة خضرة للكسكسي",
         "en": "Vegetable Soup for Couscous (Marga)"
       },
       "ingredients": [
         "2 tbsp vegetable oil (canola or olive)",
-        "1 tbsp sweet paprika (generous amount)",
+        "1 generous tbsp sweet paprika",
         "1 large onion, sliced",
         "3.5 cups pumpkin, cut into large chunks",
         "3 zucchini, cut into large chunks",
-        "1.2 cups chickpeas, soaked or canned",
+        "1 ¼ cups chickpeas, soaked or canned",
         "2 cups green beans, trimmed",
         "Salt to taste",
-        "Boiling water to cover ingredients",
-        "3 cups seitan chunks, cut into bite-sized pieces",
+        "Boiling water, to cover",
+        "3 cups bite-sized seitan chunks",
         "3 medium potatoes, peeled and quartered"
       ]
     },
@@ -533,7 +532,7 @@
       "id": "mhamsa",
       "names": {
         "he": "מחמסה",
-        "es": "Mhamsa (Perlas de Pasta Tunecina)",
+        "es": "Mhamsa (Perlas de pasta tunecina)",
         "ar": "محمصة",
         "en": "Mhamsa (Tunisian Pasta Pearls)"
       },
@@ -544,7 +543,7 @@
         "2 tomatoes, chopped",
         "1 cup seasonal vegetables, diced (potatoes, carrots, or zucchini)",
         "2 cups Ptitim (Israeli Couscous / Mhamsa)",
-        "Boiling water (enough to cover and create sauce)",
+        "Boiling water (enough to cover and create a sauce)",
         "Salt to taste",
         "Black pepper to taste"
       ]
@@ -558,9 +557,9 @@
         "en": "Semolina Porridge"
       },
       "ingredients": [
-        "2.1 cups unsweetened soy or oat milk",
+        "2 cups (500 ml) unsweetened soy or oat milk",
         "5 tbsp semolina (fine)",
-        "1.2 tbsp sugar",
+        "1 tbsp sugar",
         "1 tbsp vegan butter (optional)",
         "Ground cinnamon to taste"
       ]
@@ -578,31 +577,31 @@
         "1 small onion, diced",
         "2 cloves garlic, minced",
         "1 tbsp sweet paprika",
-        "0.5 tsp black pepper",
-        "6.25 cups water",
+        "1/2 tsp black pepper",
+        "6 1/4 cups water",
         "1 medium potato, diced small",
-        "1.2 cups semolina",
+        "1 1/4 cups semolina",
         "Salt to taste"
       ]
     },
     {
       "id": "bshisha_bsisa",
       "names": {
-        "he": "בשישה",
+        "he": "בשישה (בסיסה)",
         "es": "Bshisha (Bsisa)",
         "ar": "بشيشة (بسيسة)",
         "en": "Bshisha (Bsisa)"
       },
       "ingredients": [
-        "1.3 cups whole wheat grains, cleaned",
-        "1.25 cups pearl barley or barley grains, cleaned",
-        "2 tbsp coriander seeds, whole",
-        "1 tbsp cumin seeds, whole",
-        "1 tbsp fennel seeds, whole",
-        "Olive oil to taste, for binding",
-        "1.33 cups dates, pitted and chopped (or date paste)",
-        "Sugar to taste (optional sweetener)",
-        "Water if needed for consistency"
+        "1 1/3 cups whole wheat grains, cleaned",
+        "1 1/4 cups pearl barley or barley grains, cleaned",
+        "2 tbsp whole coriander seeds",
+        "1 tbsp whole cumin seeds",
+        "1 tbsp whole fennel seeds",
+        "Olive oil, as needed for binding",
+        "1 1/3 cups dates, pitted and chopped (or date paste)",
+        "Sugar, to taste (optional)",
+        "Water, as needed for consistency"
       ]
     },
     {
@@ -610,16 +609,16 @@
       "names": {
         "he": "בריקות",
         "es": "Brikot",
-        "ar": "بريك",
+        "ar": "بريكات",
         "en": "Brikot (Tunisian Fried Pastry)"
       },
       "ingredients": [
-        "6 brik pastry leaves (Malsouka)",
+        "6 brik pastry leaves (malsouka)",
         "1 cup vegetable oil, for frying",
         "3 potatoes, boiled and mashed",
         "1 cup chickpeas, cooked and roughly mashed",
         "1 small onion, finely chopped and sautéed",
-        "0.5 cup fresh parsley, finely chopped",
+        "1/2 cup fresh parsley, finely chopped",
         "1 tbsp capers, drained",
         "Salt to taste",
         "Black pepper to taste"
@@ -628,20 +627,20 @@
     {
       "id": "banatagestuffedpotato_croquettes",
       "names": {
-        "he": "בונוטאז",
-        "es": "Banatage (Croquetas de Patata Rellenas)",
-        "ar": "بناضج",
+        "he": "בנטאז' (קרוקטים של תפוחי אדמה ממולאים)",
+        "es": "Banatage (Croquetas de papa rellenas)",
+        "ar": "بناضج (كعابر بطاطا محشية)",
         "en": "Banatage (Stuffed Potato Croquettes)"
       },
       "ingredients": [
-        "4.5 cups potatoes, boiled and peeled",
+        "4 1/2 cups potatoes, boiled and peeled",
         "2 cups mushrooms and walnuts, finely chopped",
-        "0.5 cups chickpea flour, whisked with 120ml water",
-        "0.8 cups flour",
+        "1/2 cup chickpea flour, whisked with 120ml water",
+        "3/4 cup all-purpose flour",
         "1 cup breadcrumbs",
-        "Vegetable oil as needed",
-        "Salt to taste",
-        "Black pepper to taste"
+        "Vegetable oil, for frying",
+        "Salt, to taste",
+        "Black pepper, to taste"
       ]
     },
     {
@@ -655,19 +654,19 @@
       "ingredients": [
         "8.8 oz puff pastry dough, thawed",
         "4.5 tbsp tomato paste",
-        "1 tsp oregano",
+        "1 tsp dried oregano",
         "1 tbsp nutritional yeast",
-        "0.5 tsp garlic powder",
-        "0.5 tsp black pepper",
-        "0.66 cups vegan cheese, shredded",
-        "0.33 cups green olives, chopped",
-        "1 cup potato flakes",
+        "1/2 tsp garlic powder",
+        "1/2 tsp black pepper",
+        "2/3 cup vegan cheese, shredded",
+        "1/3 cup green olives, chopped",
+        "1 cup instant potato flakes",
         "2 tbsp vegetable oil",
-        "1 tbsp dried onion bits",
+        "1 tbsp dried minced onion",
         "1 tsp dried parsley",
         "1 tsp vegetable bouillon powder",
-        "0.25 tsp turmeric",
-        "1.75 cups plant-based minced meat",
+        "1/4 tsp turmeric",
+        "1 3/4 cups plant-based minced meat",
         "1 tbsp paprika",
         "2 tbsp unsweetened plant milk",
         "3 tbsp sesame seeds"
@@ -677,7 +676,7 @@
       "id": "fricassee_rolls",
       "names": {
         "he": "פריקסה",
-        "es": "Fricassee (Panecillos Tunecinos Fritos)",
+        "es": "Fricasé (Panecillos tunecinos fritos)",
         "ar": "فريكاسي",
         "en": "Fricassee (Tunisian Fried Sandwich Rolls)"
       },
@@ -685,10 +684,10 @@
         "8 cups all-purpose flour, sifted",
         "1 tbsp dry yeast",
         "1/2 cup sugar",
-        "3 cups water, warm",
-        "1/2 cup vegetable oil, for the dough",
+        "3 cups warm water",
+        "1/2 cup vegetable oil (for the dough)",
         "1 tbsp salt",
-        "Vegetable oil, for deep frying",
+        "Vegetable oil for deep frying",
         "1.5 cups chickpeas, cooked and roughly mashed",
         "1 sheet nori seaweed, finely crumbled",
         "1 cup firm tofu, cubed",
@@ -700,18 +699,18 @@
     {
       "id": "maakouda",
       "names": {
-        "he": "מעקוד",
-        "es": "Ma'akouda (Frittata de Patata Tunecina)",
+        "he": "מעקוד (פריטטת תפוחי אדמה תוניסאית)",
+        "es": "Ma'akouda (Frittata de papa tunecina)",
         "ar": "معقودة (طاجين بطاطا تونسي)",
         "en": "Ma'akouda (Tunisian Potato Frittata)"
       },
       "ingredients": [
-        "5 potatoes, peeled and boiled (medium size)",
+        "5 medium potatoes, peeled and boiled",
         "1 cup chickpea flour (Besan)",
         "1 cup water",
         "2 tbsp nutritional yeast",
         "1 tsp baking powder",
-        "0.5 bunch parsley, finely chopped",
+        "1/2 bunch parsley, finely chopped",
         "1 cup peas and carrots (canned or cooked)",
         "1 tsp turmeric",
         "Salt to taste (Kala Namak recommended)",
@@ -723,50 +722,50 @@
       "id": "nazhaherbomelet",
       "names": {
         "he": "נעז'ה - חביתת ירק",
-        "es": "Na'zha (Tortilla de Hierbas Tunecina)",
-        "ar": "نعزة (عجة بالأعشاب)",
+        "es": "Na'zha (Tortilla de hierbas tunecina)",
+        "ar": "نعزة (عجة بالحشيش)",
         "en": "Na'zha (Tunisian Herb Omelet)"
       },
       "ingredients": [
-        "1 cup chickpea flour (Besan)",
+        "1 cup chickpea flour (besan)",
         "1 cup water",
-        "4 green onions (scallions), finely chopped",
+        "4 scallions, finely chopped",
         "1/4 bunch fresh parsley, finely chopped",
         "1/4 bunch fresh dill, finely chopped",
         "1/4 bunch fresh cilantro, finely chopped",
         "1 tsp baking powder",
         "2 tbsp vegetable oil",
-        "1/2 tsp Kala Namak (Black Salt)",
-        "1/4 tsp turmeric powder",
-        "Black pepper to taste"
+        "1/2 tsp kala namak (black salt)",
+        "1/4 tsp ground turmeric",
+        "Black pepper, to taste"
       ]
     },
     {
       "id": "cujada",
       "names": {
         "he": "קוז'אדה (פשטידת תפוחי אדמה וביצים)",
-        "es": "Cujada (Pastel de Patata y Huevo)",
+        "es": "Cujada (Pastel de Papa y Huevo)",
         "ar": "كوجادا (معقودة بطاطا)",
         "en": "Cujada (Potato and Egg Pie)"
       },
       "ingredients": [
-        "4 potatoes, peeled (medium)",
-        "2 cups chickpea flour (Besan)",
+        "4 medium potatoes, peeled",
+        "2 cups chickpea flour (besan)",
         "2.5 cups water",
         "1 tsp baking powder",
         "1 tsp turmeric",
-        "0.5 tsp white pepper",
+        "½ tsp white pepper",
         "1 tbsp vegetable bouillon powder",
         "1 tsp garlic powder",
-        "0.5 tsp Kala Namak (Black Salt)",
+        "½ tsp Kala Namak (black salt)",
         "3 tbsp vegetable oil"
       ]
     },
     {
       "id": "shakshukacaramelizedonion_sausage",
       "names": {
-        "he": "שקשוקה של בצל מטוגן ארוך",
-        "es": "Shakshuka de Cebolla Caramelizada y Salchichas",
+        "he": "שקשוקה עם בצל מקורמל ונקניקיות",
+        "es": "Shakshuka con Cebollas Caramelizadas y Salchichas",
         "ar": "شكشوكة بالبصل والمرقاز",
         "en": "Shakshuka with Caramelized Onions and Sausage"
       },
@@ -786,7 +785,7 @@
     {
       "id": "french_toast",
       "names": {
-        "he": "לחם מטוגן",
+        "he": "לחם מטוגן (Pain Perdu)",
         "es": "Tostadas Francesas (Pain Perdu)",
         "ar": "خبز مقلي (Pain Perdu)",
         "en": "French Toast (Pain Perdu)"
@@ -794,11 +793,11 @@
       "ingredients": [
         "3 tbsp chickpea flour",
         "1 tbsp cornstarch",
-        "0.6 cups soy or oat milk",
+        "2/3 cup soy or oat milk",
         "1 tsp vanilla powder",
-        "1 pinch turmeric",
-        "4 thick slices bread",
-        "Vegan butter or coconut oil to taste"
+        "A pinch of turmeric",
+        "4 thick slices of bread",
+        "Vegan butter or coconut oil, for frying"
       ]
     },
     {
@@ -810,12 +809,12 @@
         "en": "Vegan Egg Salad"
       },
       "ingredients": [
-        "1.7 cups extra-firm tofu, pressed and crumbled",
+        "1 3/4 cups extra-firm tofu, pressed and crumbled",
         "1 tsp paprika",
         "2 tbsp nutritional yeast",
-        "0.5 tsp kala namak (black salt)",
-        "0.25 tsp black pepper",
-        "0.25 tsp turmeric",
+        "1/2 tsp kala namak (black salt)",
+        "1/4 tsp black pepper",
+        "1/4 tsp turmeric",
         "3 tbsp vegan mayonnaise",
         "2 green onions, chopped"
       ]
@@ -829,12 +828,12 @@
         "en": "Schnitzel"
       },
       "ingredients": [
-        "500g Seitan cutlets or Super Firm Tofu, sliced into cutlets",
-        "1 cup All-purpose flour",
-        "0.5 cups Chickpea flour",
-        "0.5 cups Water",
-        "1 cup Seasoned breadcrumbs",
-        "Vegetable oil as needed"
+        "500g seitan or super-firm tofu, sliced into cutlets",
+        "1 cup all-purpose flour",
+        "½ cup chickpea flour",
+        "½ cup water",
+        "1 cup seasoned breadcrumbs",
+        "Vegetable oil, for frying"
       ]
     },
     {
@@ -846,15 +845,15 @@
         "en": "Soy Shawarma"
       },
       "ingredients": [
-        "3.3 cups dried soy strips (TVP)",
-        "6.25 cups vegetable stock",
+        "3 1/3 cups dried soy strips (TVP)",
+        "6 1/4 cups vegetable stock",
         "1 large onion, sliced",
         "2 tbsp vegetable oil",
         "2 tbsp shawarma spice mix",
         "1 tsp Ras el Hanout",
         "1 tsp garlic powder",
-        "0.5 tsp white pepper",
-        "0.5 tsp cumin",
+        "1/2 tsp white pepper",
+        "1/2 tsp cumin",
         "1 tbsp Amba sauce",
         "Salt to taste"
       ]
@@ -863,7 +862,7 @@
       "id": "veganfriedrice",
       "names": {
         "he": "אורז מוקפץ טבעוני",
-        "es": "Arroz Frito Vegano con Huevo",
+        "es": "Arroz Frito Vegano (Estilo Huevo)",
         "ar": "روز مقلي نباتي",
         "en": "Vegan Egg Fried Rice"
       },
@@ -872,7 +871,7 @@
         "7 oz mushrooms, sliced",
         "1 tbsp sesame oil",
         "7 oz firm tofu, crumbled",
-        "0.5 tsp kala namak (black salt)",
+        "1/2 tsp kala namak (black salt)",
         "4 cups cold cooked rice (day-old works best)",
         "3 tbsp soy sauce",
         "3 scallions, chopped"
@@ -887,7 +886,7 @@
         "en": "Slatet Homs (Tunisian Chickpea Salad)"
       },
       "ingredients": [
-        "1.5 cups chickpeas, drained and rinsed",
+        "1.5 cups canned chickpeas, drained and rinsed",
         "1/2 preserved lemon, finely chopped",
         "1/2 bunch fresh cilantro, chopped",
         "1 tsp sweet paprika",
@@ -915,13 +914,13 @@
     {
       "id": "tirshipumpkinsalad",
       "names": {
-        "he": "תירשי",
+        "he": "תירשי (סלט דלעת תוניסאי)",
         "es": "Tirshi (Ensalada Tunecina de Calabaza)",
         "ar": "تيرشي (سلاطة قرع تونسية)",
         "en": "Tirshi (Tunisian Pumpkin Salad)"
       },
       "ingredients": [
-        "3.5 cups pumpkin or butternut squash, peeled and cubed",
+        "500g (about 3.5 cups) pumpkin or butternut squash, peeled and cubed",
         "1 small potato, peeled and cubed",
         "2 tbsp vegetable oil",
         "3 cloves garlic, crushed",
@@ -935,14 +934,14 @@
       "id": "redstewedolives",
       "names": {
         "he": "זיתים ברוטב אדום",
-        "es": "Aceitunas Guisadas Rojas",
+        "es": "Aceitunas Guisadas en Salsa Roja",
         "ar": "زيتون طبيخ",
         "en": "Red Stewed Olives (Zaytun T'bikh)"
       },
       "ingredients": [
         "3.5 cups green olives, pitted (canned or jarred)",
-        "0.5 tsp turmeric (for boiling)",
-        "2 tbsp vegetable oil (for frying)",
+        "1/2 tsp turmeric (for boiling)",
+        "2 tbsp vegetable oil (for sautéing)",
         "4 cloves garlic, minced",
         "2 tbsp tomato paste",
         "1 tbsp sweet paprika",
@@ -950,14 +949,14 @@
         "Salt to taste (olives are already salty)",
         "Black pepper to taste",
         "1 cup water (approximately)",
-        "0.5 bunch fresh cilantro, chopped"
+        "1/2 bunch fresh cilantro, chopped"
       ]
     },
     {
       "id": "msiyar",
       "names": {
         "he": "משייר",
-        "es": "Msiyar (Vegetales Encurtidos Tunecinos)",
+        "es": "Msiyar (Verduras Encurtidas Tunecinas)",
         "ar": "مسير (خضرة مخللة تونسية)",
         "en": "Msiyar (Tunisian Pickled Vegetables)"
       },
@@ -967,8 +966,8 @@
         "1 hot pepper (green or red), cut into long strips",
         "1 lemon, peeled, juiced, and flesh chopped",
         "1 kohlrabi, peeled and cut into strips (optional)",
-        "2 cups water",
-        "2 tbsp coarse salt"
+        "2 cups (500 ml) water",
+        "2 tbsp (30 g) coarse salt"
       ]
     },
     {
@@ -981,10 +980,10 @@
       },
       "ingredients": [
         "1 cup mushrooms, cleaned and halved",
-        "3.3 tbsp soy sauce",
-        "2.7 tbsp sesame oil",
-        "2 tbsp garlic, crushed",
-        "1.3 tbsp silan (date syrup)"
+        "3 1/3 tbsp soy sauce",
+        "2 2/3 tbsp sesame oil",
+        "2 tbsp crushed garlic",
+        "1 1/3 tbsp silan (date syrup)"
       ]
     },
     {
@@ -1007,11 +1006,11 @@
       "names": {
         "he": "סלט העגבניות של שלומית",
         "es": "Ensalada de Tomate de Shlomit",
-        "ar": "سلاطة طماطم شلوميت",
+        "ar": "سلاطة الطماطم متاع شلوميت",
         "en": "Shlomit's Tomato Salad"
       },
       "ingredients": [
-        "3.3 cups cherry tomatoes, halved",
+        "3 1/3 cups cherry tomatoes, halved",
         "3 tbsp olive oil",
         "1 tbsp salt",
         "1 tbsp sugar",
@@ -1045,7 +1044,7 @@
       "names": {
         "he": "רוטב קיסר טבעוני",
         "es": "Aderezo César Vegano",
-        "ar": "صوص سيزر نباتي",
+        "ar": "صوص سيزر نباتية",
         "en": "Vegan Caesar Dressing"
       },
       "ingredients": [
@@ -1070,39 +1069,39 @@
       },
       "ingredients": [
         "2 tbsp dry yeast",
-        "1.25 tbsp sugar (to activate yeast)",
-        "3 cups water, lukewarm",
-        "0.5 cup vegetable oil",
-        "8 cups flour, sifted",
+        "1 1/4 tbsp sugar (to activate yeast)",
+        "3 cups lukewarm water",
+        "1/2 cup vegetable oil",
+        "8 cups sifted flour",
         "1 tbsp salt"
       ]
     },
     {
       "id": "sourdoughbread_soly",
       "names": {
-        "he": "לחם מחמצת של סולי",
+        "he": "לחם המחמצת של סולי",
         "es": "Pan de Masa Madre de Soly",
-        "ar": "خبز بالخميرة متاع سولي",
+        "ar": "خبز الخميرة البلدية متاع سولي",
         "en": "Soly's Sourdough Bread"
       },
       "ingredients": [
-        "1.25 cups water, warm",
-        "3.5 tbsp sourdough starter, active/fed",
-        "4 cups flour, bread flour or all-purpose",
+        "1 ¼ cups warm water",
+        "3 ½ tbsp active sourdough starter (fed)",
+        "4 cups flour (bread flour or all-purpose)",
         "2 tsp salt"
       ]
     },
     {
       "id": "bakedpotatolevivot",
       "names": {
-        "he": "לביבות תפו\"א",
-        "es": "Levivot de Patata al Horno (Latkes)",
-        "ar": "ليفيفوت بطاطا في الكوشة",
+        "he": "לביבות תפוחי אדמה אפויות",
+        "es": "Levivot de papa al horno (Latkes)",
+        "ar": "ليفيفوت (لاتكس) بطاطا في الكوشة",
         "en": "Baked Potato Levivot (Latkes)"
       },
       "ingredients": [
         "4 red potatoes, grated",
-        "3/4 cup chickpea flour (Besan)",
+        "3/4 cup chickpea flour (besan)",
         "3/4 cup water",
         "1/4 tsp turmeric powder",
         "1/4 cup all-purpose flour",
@@ -1115,21 +1114,21 @@
     {
       "id": "kouklotsemolinadumplings",
       "names": {
-        "he": "קוקלות",
-        "es": "Kouklot (Bolas de Sémola)",
+        "he": "קוקלות (כופתאות סולת)",
+        "es": "Kouklot (Albóndigas de sémola)",
         "ar": "كوكلا (كعابر سميد)",
         "en": "Kouklot (Semolina Dumplings)"
       },
       "ingredients": [
         "2 tbsp chickpea flour (egg replacer)",
-        "3 tbsp water (for binder)",
+        "3 tbsp water (for egg replacer)",
         "1 tbsp vegetable oil",
         "1 tbsp water (additional)",
         "1 tsp sweet paprika",
         "Black pepper to taste",
         "Salt to taste",
         "1 tsp baking powder",
-        "0.9 cups semolina (approx)"
+        "Scant 1 cup semolina (approx.)"
       ]
     },
     {
@@ -1148,18 +1147,18 @@
         "1 tsp za'atar (for pizza mix)",
         "1 tsp black pepper",
         "1 tsp salt",
-        "0.5 tsp sugar (for pizza mix)",
-        "0.5 tsp turmeric (for fries and egg mix)",
+        "1/2 tsp sugar (for pizza mix)",
+        "1/2 tsp turmeric (for fries and egg mix)",
         "1 tsp kala namak (black salt) (for egg mix only)"
       ]
     },
     {
       "id": "pizza",
       "names": {
-        "he": "פיצה",
-        "es": "Pizza Casera de Atún",
-        "ar": "بيتزا",
-        "en": "Home-Style Tuna Pizza"
+        "he": "פיצה ביתית עם 'טונה' טבעונית",
+        "es": "Pizza Casera con 'Atún' Vegano",
+        "ar": "بيتزا الدار بـ'التون' النباتي",
+        "en": "Home-Style Pizza with Vegan 'Tuna'"
       },
       "ingredients": [
         "2 cups bread dough (or vegan pizza dough)",
@@ -1170,7 +1169,7 @@
         "1 tsp garlic powder",
         "1 tsp dried oregano",
         "1.5 cups cooked chickpeas, roughly mashed",
-        "1 sheet nori seaweed sheet, finely crumbled",
+        "1 sheet nori seaweed, finely crumbled",
         "1 tbsp capers, chopped (optional)",
         "1/3 cup green or black olives, sliced"
       ]
@@ -1188,35 +1187,35 @@
         "1 tsp turmeric",
         "1 tbsp vegan chicken-style bouillon powder",
         "Salt to taste",
-        "17.6 oz plant-based mince",
+        "1 lb (500g) plant-based mince",
         "2 tbsp vegetable oil",
         "1 tsp sweet paprika",
         "1 tsp shawarma seasoning",
         "1 tsp garlic powder",
-        "0.5 tsp black pepper"
+        "1/2 tsp black pepper"
       ]
     },
     {
       "id": "cashew_cannelloni",
       "names": {
         "he": "קנלוני גבינת קשיו",
-        "es": "Canelones de Queso de Anacardos",
+        "es": "Canelones de Queso de Castañas de Cajú",
         "ar": "كانيلوني بجبن الكاجو",
         "en": "Cashew Cheese Cannelloni"
       },
       "ingredients": [
-        "2.5 cups raw cashews, soaked 4 hours",
+        "2 1/2 cups raw cashews, soaked for 4 hours",
         "2 tbsp lemon juice",
         "3 tbsp nutritional yeast",
         "1 tsp salt",
-        "0.5 tsp black pepper",
+        "1/2 tsp black pepper",
         "2 tbsp olive oil",
-        "0.5 cup water",
+        "1/2 cup water",
         "10 oz fresh spinach, wilted and chopped",
         "12 cannelloni tubes",
         "2 cups tomato passata",
         "3 cloves garlic, minced",
-        "0.25 cup fresh basil, chopped",
+        "1/4 cup fresh basil, chopped",
         "1 tsp paprika"
       ]
     },
@@ -1231,13 +1230,13 @@
       "ingredients": [
         "1.15 cups all-purpose flour",
         "3 tbsp sugar",
-        "Salt to taste",
+        "A pinch of salt",
         "1 tsp baking powder",
         "1.2 tbsp vanilla sugar",
-        "0.5 tsp baking soda",
-        "1 flax egg (1 tbsp ground flaxseed with 3 tbsp warm water)",
+        "1/2 tsp baking soda",
+        "1 flax egg (1 tbsp ground flaxseed mixed with 3 tbsp warm water)",
         "3 tbsp vegetable oil",
-        "0.75 cups water"
+        "3/4 cup water"
       ]
     },
     {
@@ -1249,31 +1248,31 @@
         "en": "Efrat's Pancakes"
       },
       "ingredients": [
-        "1.7 cups all-purpose flour",
+        "1 3/4 cups all-purpose flour",
         "2 tsp baking powder",
         "1 tsp salt",
-        "2 tbsp sugar (heaped)",
-        "2 flax eggs (Mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins)",
+        "2 heaped tbsp sugar",
+        "2 flax eggs (mix 2 tbsp ground flaxseed with 6 tbsp warm water, let sit 5 mins)",
         "1 cup soy or oat milk",
-        "0.5 cup vegan chocolate chips",
-        "Vegetable oil to taste (for frying)"
+        "1/2 cup vegan chocolate chips",
+        "Vegetable oil, as needed (for frying)"
       ]
     },
     {
       "id": "sfenj",
       "names": {
-        "he": "שפינג׳ות",
-        "es": "Sfenj (Rosquillas Magrebíes)",
+        "he": "ספינג'",
+        "es": "Sfenj (Rosquillas magrebíes)",
         "ar": "سفنج",
         "en": "Sfenj (Maghrebi Doughnuts)"
       },
       "ingredients": [
         "4 cups all-purpose flour, sifted",
-        "1.5 cups water, warm",
+        "1 ½ cups warm water",
         "1 tbsp active dry yeast",
         "1 tsp salt",
-        "Vegetable oil for deep frying",
-        "Sugar for coating"
+        "Vegetable oil, for deep frying",
+        "Sugar, for dusting"
       ]
     },
     {
@@ -1286,13 +1285,13 @@
       },
       "ingredients": [
         "8 cups white flour, sifted",
-        "2 tbsp dried yeast",
-        "0.25 cup sugar (for the dough)",
+        "2 tbsp active dry yeast",
+        "1/4 cup sugar (for the dough)",
         "1 tsp salt",
-        "4 cups warm water (approximate amount, adjust for consistency)",
-        "4.2 cups canola oil (for deep frying)",
-        "Sugar (for coating/dipping) to taste",
-        "Cinnamon (for coating/dipping) to taste"
+        "4 cups warm water (approximate amount; adjust for consistency)",
+        "4 1/4 cups (about 1 liter) canola oil (for deep frying)",
+        "Sugar (for coating), to taste",
+        "Ground cinnamon (for coating), to taste"
       ]
     },
     {
@@ -1309,9 +1308,9 @@
         "1/4 cup sugar",
         "1 cup warm soy milk (or oat milk)",
         "1/4 cup vegan butter, melted",
-        "1 tbsp Brandy or Vodka",
+        "1 tbsp brandy or vodka",
         "1 tsp vanilla extract",
-        "0.5 tsp salt",
+        "1/2 tsp salt",
         "1 liter vegetable oil (for frying)",
         "3/4 cup strawberry jam",
         "1/2 cup powdered sugar"
@@ -1329,9 +1328,9 @@
         "3.5 cups all-purpose flour",
         "1.25 cups water",
         "1 tbsp sugar",
-        "0.5 tbsp salt",
+        "1/2 tbsp salt",
         "1 tbsp dry yeast",
-        "0.5 cup vegetable oil (for coating)"
+        "1/2 cup vegetable oil (for coating)"
       ]
     },
     {
@@ -1350,7 +1349,7 @@
         "3/4 cup unsweetened applesauce",
         "1/2 cup orange juice",
         "1 tsp vanilla extract",
-        "4.2 cups vegetable oil (for frying)",
+        "4 cups vegetable oil (for frying)",
         "2 cups sugar (for syrup)",
         "1 cup water",
         "1 tbsp lemon juice"
@@ -1368,7 +1367,7 @@
         "1 cup unsweetened applesauce",
         "1 cup sugar",
         "1/2 cup vegetable oil",
-        "1/2 cup agave nectar or date syrup (Silan)",
+        "1/2 cup agave nectar or date syrup (silan)",
         "1 cup hot water",
         "1.5 tsp instant coffee granules",
         "1 tsp ground cinnamon",
@@ -1381,9 +1380,9 @@
     {
       "id": "honeycakelior_benmosheh",
       "names": {
-        "he": "עוגת דבש (סילאן) ליאור בן משה",
+        "he": "עוגת סילאן (דבש תמרים) של ליאור בן משה",
         "es": "Pastel de Silan (Miel de Dátil) de Lior Ben Mosheh",
-        "ar": "كيكة السيلان (الرب) لليور بن موشي",
+        "ar": "كيكة السيلان (الرب) متاع ليور بن موشي",
         "en": "Lior Ben Mosheh's Silan (Date Honey) Cake"
       },
       "ingredients": [
@@ -1411,23 +1410,23 @@
         "1 3/4 cups sugar",
         "3/4 cup cocoa powder",
         "2/3 cup vegetable oil",
-        "1 tsp instant coffee (dissolved in water)",
+        "1 tsp instant coffee",
         "1 1/4 cups boiling water",
         "1 tsp salt",
         "1/2 tsp baking powder",
         "1 1/2 tsp baking soda",
-        "3 flax eggs (3 tbsp ground flaxseed with 9 tbsp warm water)",
-        "1/4 cup orange juice, freshly squeezed",
+        "3 flax \"eggs\" (3 tbsp ground flaxseed mixed with 9 tbsp warm water)",
+        "1/4 cup freshly squeezed orange juice",
         "1 tsp vanilla sugar",
-        "Vegan margarine to taste"
+        "Vegan margarine (for greasing the pan)"
       ]
     },
     {
       "id": "banana_cake",
       "names": {
         "he": "עוגת בננות",
-        "es": "Pastel de Banana",
-        "ar": "كيكة بالموز",
+        "es": "Pastel de banana",
+        "ar": "كيكة البنان",
         "en": "Banana Cake"
       },
       "ingredients": [
@@ -1453,10 +1452,10 @@
       },
       "ingredients": [
         "8 apples, peeled and sliced",
-        "3/4 cup regular sugar (for filling)",
+        "3/4 cup granulated sugar (for filling)",
         "1/2 tsp cinnamon",
         "1/8 tsp salt",
-        "1/2 cup oatmeal (rolled oats)",
+        "1/2 cup rolled oats",
         "1/2 cup flour",
         "1/2 cup brown sugar (for topping)",
         "1/4 tsp baking powder",
@@ -1476,15 +1475,15 @@
         "1 cup white sugar",
         "1/2 cup all-purpose flour",
         "1/2 cup unsweetened cocoa powder",
-        "1.5 tsp baking powder",
-        "0.5 tsp salt",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp salt",
         "1/2 cup soy or almond milk",
         "1/3 cup vegetable oil",
         "1 tsp vanilla extract",
         "1 cup brown sugar, packed",
         "1 3/4 cups hot water",
         "1/2 cup chopped nuts (optional)",
-        "Coconut whipped cream to taste (optional)"
+        "Coconut whipped cream for serving (optional)"
       ]
     },
     {
@@ -1497,58 +1496,58 @@
       },
       "ingredients": [
         "7 tbsp vegan margarine (for the cake)",
-        "0.33 cups water (for the cake)",
+        "1/3 cup water (for the cake)",
         "1 cup sugar (for the cake)",
-        "1.5 tbsp instant coffee granules (for the cake)",
-        "0.9 cups dark chocolate, broken into pieces (for the cake)",
-        "3 tbsp ground flaxseed (mixed with 9 tbsp warm water, replaces 3 eggs)",
-        "1.15 cups all-purpose flour, sifted",
-        "0.25 tsp salt",
-        "0.5 tsp baking powder",
-        "1.5 tbsp instant coffee granules (for the glaze)",
-        "0.75 cups vegan whipping cream (for the glaze)",
-        "0.9 cups dark chocolate, broken into pieces (for the glaze)",
-        "0.67 cups powdered sugar (for the glaze)"
+        "1 1/2 tbsp instant coffee granules (for the cake)",
+        "scant 1 cup dark chocolate, broken into pieces (for the cake)",
+        "3 tbsp ground flaxseed (mixed with 9 tbsp warm water to replace 3 eggs)",
+        "1 cup + 2 tbsp all-purpose flour, sifted",
+        "1/4 tsp salt",
+        "1/2 tsp baking powder",
+        "1 1/2 tbsp instant coffee granules (for the glaze)",
+        "3/4 cup vegan whipping cream (for the glaze)",
+        "scant 1 cup dark chocolate, broken into pieces (for the glaze)",
+        "2/3 cup powdered sugar (for the glaze)"
       ]
     },
     {
       "id": "nougatandpeanutcakemor_abergil",
       "names": {
         "he": "עוגת נוגט ובוטנים",
-        "es": "Pastel de Nougat y Cacahuete",
+        "es": "Tarta de Nougat y Maní",
         "ar": "كيكة النوقا والكاكاوية",
         "en": "Nougat and Peanut Cake"
       },
       "ingredients": [
-        "0.7 cups vegan hazelnut nougat spread",
-        "3 tbsp peanut butter",
-        "5 cups cornflakes, crumbled",
-        "1.2 cups dark chocolate",
+        "3/4 cup vegan hazelnut nougat spread",
+        "3 tbsp smooth peanut butter",
+        "5 cups cornflakes, crushed",
+        "1 1/4 cups dark chocolate",
         "2 tbsp coconut oil",
-        "1 cups plant-based whipping cream",
-        "1 cups soy or almond milk",
-        "1 unit instant vanilla pudding mix",
+        "1 cup plant-based whipping cream",
+        "1 cup soy or almond milk",
+        "1 package (3.4 oz) instant vanilla pudding mix",
         "3 tbsp peanut butter",
-        "1.2 cups dark chocolate",
-        "1 cups plant-based whipping cream",
-        "Vegan dark chocolate pearls to taste"
+        "1 1/4 cups dark chocolate",
+        "1 cup plant-based whipping cream",
+        "Vegan dark chocolate pearls, for garnish"
       ]
     },
     {
       "id": "chocolate_balls",
       "names": {
         "he": "כדורי שוקולד",
-        "es": "Bolas de Chocolate",
+        "es": "Bolitas de Chocolate",
         "ar": "كعابر شكلاطة",
         "en": "Chocolate Balls"
       },
       "ingredients": [
         "3 cups vegan tea biscuits (Petit Beurre style), crumbled",
-        "2 tbsp dark chocolate (60% or higher), broken into cubes",
+        "2 tbsp dark chocolate (60% cocoa or higher), chopped",
         "3.5 tbsp coconut oil or vegan butter",
         "3 tbsp cocoa powder",
-        "0.25 cups sugar",
-        "0.5 cups soy or oat milk",
+        "1/4 cup sugar",
+        "1/2 cup soy or oat milk",
         "Desiccated coconut to taste (for coating)"
       ]
     },
@@ -1576,7 +1575,7 @@
       "names": {
         "he": "חטיפי שוקולד וחמאת בוטנים",
         "es": "Barras de Chocolate y Mantequilla de Maní",
-        "ar": "بارات الشوكولاتة وزبدة الكاكاوية",
+        "ar": "مربعات الشوكولاتة وزبدة الكاكاوية",
         "en": "Chocolate Peanut Buddy Bars"
       },
       "ingredients": [
@@ -1599,9 +1598,9 @@
         "en": "Chocolate Peanut Butter Muffins"
       },
       "ingredients": [
-        "1 1/2 cups flour",
+        "1 1/2 cups all-purpose flour",
         "1 cup dairy-free chocolate chips",
-        "1/3 cup sugar",
+        "1/3 cup granulated sugar",
         "1 tbsp baking powder",
         "1/4 tsp salt",
         "3/4 cup oat milk or soy milk",
@@ -1622,13 +1621,13 @@
         "1.1 cups vegan butter, softened",
         "3/4 cup white sugar",
         "1.5 cups dark brown sugar",
-        "3 tbsp ground flaxseeds (mix with water)",
+        "3 tbsp ground flaxseed (to mix with water)",
         "1/2 cup warm water",
         "2.25 cups all-purpose flour",
         "1 tsp baking soda",
-        "1 tsp cinnamon",
+        "1 tsp ground cinnamon",
         "1/2 tsp salt",
-        "3.5 cups rolled oats (old-fashioned)",
+        "3.5 cups old-fashioned rolled oats",
         "1 cup walnuts, coarsely chopped",
         "1 cup raisins",
         "1.2 cups vegan dark chocolate chips"
@@ -1637,9 +1636,9 @@
     {
       "id": "originaltollhousechocolatechip_cookies",
       "names": {
-        "he": "עוגיות שוקולד צ'יפס",
+        "he": "עוגיות שוקולד צ'יפס (טול האוס)",
         "es": "Galletas con Chispas de Chocolate (Toll House)",
-        "ar": "كوكيز بقطع الشوكولاتة",
+        "ar": "كوكيز بقطع الشوكولاتة (تول هاوس)",
         "en": "Toll House Chocolate Chip Cookies"
       },
       "ingredients": [
@@ -1650,17 +1649,17 @@
         "3/4 cup granulated sugar",
         "3/4 cup brown sugar, packed",
         "1 tsp vanilla extract",
-        "2 flax eggs (mixed)",
+        "2 flax eggs (ground flaxseed mixed with water)",
         "2 cups vegan semi-sweet chocolate morsels",
-        "1 cup nuts (walnuts or pecans), chopped"
+        "1 cup chopped nuts (walnuts or pecans)"
       ]
     },
     {
       "id": "dolce_de_leche_biscuits",
       "names": {
-        "he": "עוגת ביסקוויטים ודולצ׳ה דה לצ׳ה",
+        "he": "עוגת ביסקוויטים וריבת חלב",
         "es": "Torta de Galletas con Dulce de Leche",
-        "ar": "كعكة البسكويت ودولسي دي ليتشي",
+        "ar": "كيكة البسكويت ودولسي دي ليتشي",
         "en": "Biscuit & Dulce de Leche Cake"
       },
       "ingredients": [
@@ -1672,7 +1671,7 @@
         "200g vegan dark chocolate",
         "For the mousse layer:",
         "1 can coconut cream (refrigerated overnight)",
-        "1 packet vanilla pudding + 2 tbsp vegan dulce de leche",
+        "1 packet instant vanilla pudding mix + 2 tbsp vegan dulce de leche",
         "For the coating:",
         "1/2 can coconut cream",
         "100g vegan dark chocolate",
@@ -1689,33 +1688,33 @@
       },
       "ingredients": [
         "1 large onion, chopped (about 200g)",
-        "1 cup flour (140g)",
+        "1 cup all-purpose flour (140g)",
         "1 tsp salt",
         "1 tsp paprika",
         "1/2 tsp black pepper",
         "4-5 tbsp vegetable oil",
-        "1/2 - 3/4 cup water (add gradually)"
+        "1/2 to 3/4 cup water (added gradually)"
       ]
     },
     {
       "id": "yeast_cake",
       "names": {
         "he": "עוגת שמרים",
-        "es": "Bizcocho de Levadura",
-        "ar": "كعكة الخميرة",
+        "es": "Pastel de Levadura",
+        "ar": "كيكة بالخميرة",
         "en": "Yeast Cake"
       },
       "ingredients": [
         "1 kg flour",
-        "2 tbsp dry yeast",
+        "2 tbsp active dry yeast",
         "1/2 cup sugar",
         "1 tbsp vanilla sugar",
         "1 tsp salt",
         "1 cup vegetable oil",
-        "500ml warm water",
-        "Zest of a lemon or orange",
-        "For filling: hydrogenated coconut oil, brown sugar, cinnamon",
-        "For syrup: 1/2 cup sugar, 1/2 cup water"
+        "500 ml warm water",
+        "Zest of 1 lemon or orange",
+        "For the filling: solid coconut oil, brown sugar, cinnamon",
+        "For the syrup: 1/2 cup sugar, 1/2 cup water"
       ]
     },
     {
@@ -1723,7 +1722,7 @@
       "names": {
         "he": "קציצות ברוטב אדום",
         "es": "Albóndigas en Salsa Roja",
-        "ar": "كفتة بالصلصة الحمراء",
+        "ar": "كعابر بالصوص الحمراء",
         "en": "Meatballs in Red Sauce"
       },
       "ingredients": [
@@ -1733,9 +1732,9 @@
         "1 tsp paprika",
         "1 tsp cumin",
         "1/2 tsp white pepper",
-        "1 tbsp vegetable bouillon powder",
+        "1 tsp vegetable bouillon powder",
         "Salt to taste",
-        "1 slice white bread soaked in water (to soften meatballs)",
+        "1 slice white bread, soaked in water and squeezed",
         "1 can tomato paste",
         "2 cups water",
         "2 tbsp oil"
@@ -1744,7 +1743,7 @@
     {
       "id": "lintriya",
       "names": {
-        "he": "לאינטריאה",
+        "he": "לאינטרייה",
         "es": "L'Intriya",
         "ar": "لينتريّة",
         "en": "L'Intriya"

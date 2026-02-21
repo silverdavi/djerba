@@ -8,15 +8,15 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "לביבות תפו\"א",
-    "es": "Levivot de Patata al Horno (Latkes)",
-    "ar": "ليفيفوت بطاطا في الكوشة",
+    "he": "לביבות תפוחי אדמה אפויות",
+    "es": "Levivot de papa al horno (Latkes)",
+    "ar": "ليفيفوت (لاتكس) بطاطا في الكوشة",
     "en": "Baked Potato Levivot (Latkes)"
   },
   "description": {
     "he": "לביבות, הידועות גם בשם לאטקס, הן חביתיות תפוחי אדמה פריכות המסורתיות לחנוכה. המילה לאטקס מגיעה מיידיש, ששאלה אותה משפות סלאביות מזרחיות: אולדקה באוקראינית ולטקה ברוסית, שמשמעותן חביתית מטוגנת קטנה או טלאי. גרסה אפויה זו משיגה את הפריכות האהובה עם פחות שמן.",
-    "es": "Las Levivot, también conocidas como Latkes, son tortitas de patata crujientes tradicionales de Janucá. La palabra Latke proviene del yiddish, que la tomó de las lenguas eslavas orientales: oladka en ucraniano y latka en ruso significan pequeña tortita frita o parche. Esta versión al horno logra el amado exterior crujiente con menos aceite.",
-    "ar": "الليفيفوت، المعروفة زادة باسم لاتكس، هي فطاير بطاطا مقرمشة تقليدية في عيد حانوكا. كلمة لاتكس جاية من اليديشية، اللي خذاتها من اللغات السلافية: أولادكا بالأوكرانية ولاتكا بالروسية، والزوز يعنيو فطيرة مقلية صغيرة. هالوصفة في الكوشة تعطي نفس القرمشة البنينة أما بزيت أقل.",
+    "es": "Las Levivot, también conocidas como Latkes, son tortitas de papa crujientes tradicionales de Janucá. La palabra Latke proviene del yiddish, que la tomó de las lenguas eslavas orientales: oladka en ucraniano y latka en ruso significan pequeña tortita frita o parche. Esta versión al horno logra el amado exterior crujiente con menos aceite.",
+    "ar": "الليفيفوت، المعروفة زادة باسم لاتكس، هي فطاير بطاطا مقرمشة تقليدية في عيد حانوكا. كلمة لاتكس جاية من اليديشية، اللي خذاتها من اللغات السلافية: أولادكا بالأوكرانية ولاتكا بالروسية، والزوز يعنيو فطيرة مقلية صغيرة أو رقعة. هالوصفة في الكوشة تعطي نفس القرمشة البنينة أما بزيت أقل.",
     "en": "Levivot, also known as Latkes, are crispy potato pancakes traditional to Hanukkah. The word Latke comes from Yiddish, which borrowed it from East Slavic languages: Ukrainian oladka and Russian latka both mean small fried pancake or patch. This baked version achieves the beloved crispy exterior with less oil."
   },
   "ingredients": {
@@ -25,37 +25,37 @@
       "90 גרם קמח חומוס",
       "180 מ\"ל מים",
       "1 גרם כורכום",
-      "31 גרם קמח רגיל",
+      "31 גרם קמח לבן",
       "5 גרם אבקת אפייה",
       "30 מ\"ל שמן צמחי",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "4 patatas rojas, ralladas",
+      "4 papas rojas, ralladas",
       "90 g de harina de garbanzo",
       "180 ml de agua",
       "1 g de cúrcuma en polvo",
       "31 g de harina de trigo",
-      "5 g de levadura química (polvo de hornear)",
+      "5 g de polvo de hornear",
       "30 ml de aceite vegetal",
       "Sal al gusto",
       "Pimienta negra al gusto"
     ],
     "ar": [
-      "4 كعبات بطاطا حمراء، مرحية",
-      "3/4 كاس دقيق حمص",
+      "4 كعبات بطاطا حمراء، مرابية",
+      "3/4 كاس فرينة حمص",
       "3/4 كاس ماء",
       "1/4 مغرفة صغيرة كركم",
       "1/4 كاس فرينة",
       "1 مغرفة صغيرة خميرة قاطو",
-      "2 مغارف زيت",
+      "2 مغارف كبار زيت نباتي",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
     "en": [
       "4 red potatoes, grated",
-      "3/4 cup chickpea flour (Besan)",
+      "3/4 cup chickpea flour (besan)",
       "3/4 cup water",
       "1/4 tsp turmeric powder",
       "1/4 cup all-purpose flour",
@@ -67,36 +67,36 @@
   },
   "steps": {
     "he": [
-      "מחממים תנור ל-180 מעלות צלזיוס.",
-      "מגררים את תפוחי האדמה. סוחטים היטב את הנוזלים העודפים מתפוחי האדמה המגוררים (הסינון קריטי למרקם).",
-      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם קמח החומוס והמים (תחליף הביצים), הקמח, אבקת האפייה, השמן, המלח והפלפל עד לקבלת תערובת אחידה.",
+      "מחממים תנור ל-180 מעלות.",
+      "מגררים את תפוחי האדמה. סוחטים היטב את הנוזלים העודפים מתפוחי האדמה המגוררים (הסחיטה קריטית למרקם).",
+      "בקערה גדולה, מערבבים את תפוחי האדמה המגוררים עם קמח החומוס והמים (כתחליף ביצה), הקמח, אבקת האפייה, השמן, המלח והפלפל עד לקבלת תערובת אחידה.",
       "משמנים היטב תבנית אפייה.",
       "משטחים את התערובת באופן שווה בתבנית המשומנת.",
-      "אופים במשך כ-40 דקות, או עד שהחלק העליון שחום ופריך."
+      "אופים במשך כ-40 דקות, או עד שהחלק העליון זהוב ופריך."
     ],
     "es": [
       "Precalentar el horno a 180°C.",
-      "Rallar las patatas. Exprimir el exceso de líquido de las patatas ralladas (colar es crucial para la textura).",
-      "En un bol grande, mezclar las patatas ralladas con la mezcla de harina de garbanzo y agua, la harina, la levadura, el aceite, la sal y la pimienta hasta que estén bien combinados.",
+      "Rallar las papas. Exprimir el exceso de líquido de las papas ralladas (escurrirlas es crucial para la textura).",
+      "En un bol grande, mezclar las papas ralladas con la harina de garbanzo y el agua (como sustituto de huevo), la harina de trigo, el polvo de hornear, el aceite, la sal y la pimienta hasta que estén bien combinados.",
       "Engrasar generosamente una fuente o molde para hornear.",
       "Extender la mezcla uniformemente en el molde engrasado.",
       "Hornear durante aproximadamente 40 minutos, o hasta que la parte superior esté dorada y crujiente."
     ],
     "ar": [
-      "نسخنوا الكوشة (الفور) على 180 درجة.",
-      "نرحيو البطاطا. نعصروها مليح باش نخرجوا الماء الزايد (مهم برشا باش تجي شادة روحها).",
-      "في صحفة كبيرة، نخلطوا البطاطا المرحية مع دقيق الحمص والماء (في بلاصة العظم)، والفرينة، والخميرة، والزيت، والملح، والفلفل الأكحل لين يتخلطوا مليح.",
+      "نسخنوا الكوشة على 180 درجة.",
+      "نرابيو البطاطا. نعصروها مليح باش نخرجوا الماء الزايد (التعصير مهم برشا باش تجينا تتقرمش).",
+      "في صحفة كبيرة، نخلطوا البطاطا المرابية مع فرينة الحمص والماء (في بلاصة العظم)، والفرينة، وخميرة القاطو، والزيت، والملح، والفلفل الأكحل لين يتجانسوا مليح.",
       "ندهنو طبق الكوشة بالزيت مليح.",
       "نفرشو الخليط بصفة متساوية في الطبق.",
       "نطيبوها في الكوشة تقريب 40 دقيقة، لين يحمار الوجه ويولي مقرمش."
     ],
     "en": [
       "Preheat the oven to 180°C (350°F).",
-      "Grate the potatoes. Squeeze out excess liquid from the grated potatoes (straining is crucial for texture).",
-      "In a large bowl, mix the grated potatoes with the chickpea flour and water mixture, flour, baking powder, oil, salt, and black pepper until well combined.",
+      "Grate the potatoes. Squeeze out the excess liquid from the grated potatoes (squeezing them is crucial for the texture).",
+      "In a large bowl, mix the grated potatoes with the chickpea flour and water (which acts as an egg replacer), all-purpose flour, baking powder, oil, salt, and black pepper until well combined.",
       "Grease a baking dish or pan generously.",
       "Spread the mixture evenly into the greased pan.",
-      "Bake for approximately 40 minutes, or until the top is browned and crispy."
+      "Bake for approximately 40 minutes, or until the top is golden brown and crispy."
     ]
   },
   "index": 55

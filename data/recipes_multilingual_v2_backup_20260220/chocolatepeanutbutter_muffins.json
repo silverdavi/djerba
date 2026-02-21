@@ -1,0 +1,103 @@
+{
+  "id": "chocolatepeanutbutter_muffins",
+  "image": "images/current/chocolatepeanutbutter_muffins/dish.png",
+  "meta": {
+    "servings": "12",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "מאפינס שוקולד וחמאת בוטנים",
+    "es": "Muffins de Chocolate y Mantequilla de Maní",
+    "ar": "مافنز بالشوكولاتة وزبدة الكاكاوية",
+    "en": "Chocolate Peanut Butter Muffins"
+  },
+  "description": {
+    "he": "מאפינס שוקולד וחמאת בוטנים משתמשים במונח העברי המודרני לבוטנים, שבמקור התייחס לאגוזי אלת הבוטנה בתנ\"ך. גרסה טבעונית זו מחליפה ביצים בזרעי פשתן תוך שמירה על הטעם האמריקאי העשיר. המתכון מייצג את ההתפתחות הגלובלית של האפייה היהודית ומציע פינוק מושלם מהצומח לכל שעה ביום.",
+    "es": "Estos muffins utilizan el término hebreo moderno para maní, que originalmente significaba pistachos en la Biblia. Esta adaptación vegana reemplaza los huevos con linaza mientras conserva el rico sabor estilo americano. Representa la evolución global de la repostería judía y ofrece un bocado perfecto a base de plantas para cualquier momento del día.",
+    "ar": "مافنز الشوكولاتة وزبدة الكاكاوية يستعمل الاسم العبري الحديث للكاكاوية، اللي كان يعني الفستق في التوراة. هالوصفة النباتية تبدل العظم بذور الكتان وتحافظ على البنة الأمريكية الغنية. تمثل التطور العالمي للكوجينة اليهودية وتعتبر حاجة حلوة مثالية في أي وقت من النهار.",
+    "en": "Muffins Shokolad ve'Chemat Botnim uses the modern Hebrew term for peanuts, originally meaning pistachios in the Bible. This vegan adaptation replaces eggs with flaxseed while preserving the rich American-style flavor. It represents the global evolution of Jewish baking and offers a perfect plant-based treat for any time of day."
+  },
+  "ingredients": {
+    "he": [
+      "210 גרם קמח",
+      "170 גרם שוקולד צ'יפס פרווה (ללא חלב)",
+      "70 גרם סוכר",
+      "14 גרם אבקת אפייה (כף אחת)",
+      "1.5 גרם מלח",
+      "180 מ\"ל חלב שיבולת שועל או חלב סויה",
+      "125 גרם חמאת בוטנים",
+      "80 מ\"ל שמן צמחי",
+      "1 תחליף ביצה מפשתן (לערבב כף זרעי פשתן טחונים עם 3 כפות מים)"
+    ],
+    "es": [
+      "210 g de harina",
+      "170 g de chispas de chocolate sin lácteos",
+      "70 g de azúcar",
+      "14 g de polvo de hornear",
+      "1.5 g de sal",
+      "180 ml de leche de avena o leche de soja",
+      "125 g de mantequilla de maní",
+      "80 ml de aceite vegetal",
+      "1 huevo de linaza (mezclar 1 cda de linaza molida con 3 cdas de agua)"
+    ],
+    "ar": [
+      "1.5 كاس فرينة",
+      "1 كاس شوكولاتة حبيبات (بدون حليب)",
+      "1/3 كاس سكر",
+      "1 مغرفة خميرة قاطو",
+      "ربع مغرفة صغيرة ملح",
+      "3/4 كاس حليب شوفان أو حليب صوجا",
+      "نص كاس زبدة كاكاوية",
+      "1/3 كاس زيت نباتي",
+      "1 عظمة كتان (خلط 1 مغرفة زريعة كتان مرحية مع 3 مغارف ماء)"
+    ],
+    "en": [
+      "1 1/2 cups flour",
+      "1 cup dairy-free chocolate chips",
+      "1/3 cup sugar",
+      "1 tbsp baking powder",
+      "1/4 tsp salt",
+      "3/4 cup oat milk or soy milk",
+      "1/2 cup peanut butter",
+      "1/3 cup vegetable oil",
+      "1 flax egg (mix 1 tbsp ground flaxseed with 3 tbsp water)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-180 מעלות. משמנים תבנית שקעים (מאפינס) סטנדרטית של 12 יחידות.",
+      "בקערה גדולה, מערבבים את החומרים היבשים: קמח, שוקולד צ'יפס, סוכר, אבקת אפייה ומלח.",
+      "בקערה קטנה נפרדת, טורפים את החומרים הרטובים: חלב (או מים), חמאת בוטנים, שמן ותחליף הביצה.",
+      "שופכים את התערובת הרטובה לקערת החומרים היבשים. מערבבים בעדינות רק עד לאיחוד; הימנעו מערבוב יתר.",
+      "ממלאים כל שקע בתבנית עד כ-3/4 גובה בבלילה.",
+      "אופים במשך 20 דקות, או עד שקיסם הננעץ במרכז יוצא נקי."
+    ],
+    "es": [
+      "Precaliente el horno a 180°C. Engrase un molde estándar para 12 muffins.",
+      "En un tazón grande, mezcle los ingredientes secos: harina, chispas de chocolate, azúcar, polvo de hornear y sal.",
+      "En un tazón pequeño separado, bata los ingredientes húmedos: leche (o agua), mantequilla de maní, aceite y el huevo de linaza.",
+      "Vierta la mezcla húmeda en el tazón de ingredientes secos. Mezcle suavemente hasta que se integren; no mezcle demasiado.",
+      "Llene cada molde de muffin hasta aproximadamente 3/4 de su capacidad con la masa.",
+      "Hornee durante 20 minutos, o hasta que al insertar un palillo en el centro salga limpio."
+    ],
+    "ar": [
+      "سخّن الكوشة على 180 درجة. ادهن طبق المافنز (12 كعبة) بالزيت.",
+      "في صحفة كبيرة، خلط المكونات الشايحة: الفرينة، الشوكولاتة، السكر، خميرة القاطو والملح.",
+      "في صحفة صغيرة وحدها، ركّض المكونات السائلة: الحليب (أو الماء)، زبدة الكاكاوية، الزيت وعظمة الكتان.",
+      "صب الخليط السائل على المكونات الشايحة. خلط بشوية لين يتجانسو؛ رد بالك تخلط برشا.",
+      "عمّر قوالب المافنز للعجين لين يوصل لثلاثة أرباع.",
+      "طيّبهم في الكوشة لمدة 20 دقيقة، ولا لين تدخل عود وتخرجه نظيف."
+    ],
+    "en": [
+      "Preheat the oven to 180°C (350°F). Grease a standard 12-cup muffin tin.",
+      "In a large bowl, mix the dry ingredients: flour, chocolate chips, sugar, baking powder, and salt.",
+      "In a separate small bowl, whisk together the wet ingredients: milk (or water), peanut butter, oil, and the flax egg.",
+      "Pour the wet mixture into the bowl of dry ingredients. Mix gently until just blended; do not overmix.",
+      "Fill each muffin cup about 3/4 full with batter.",
+      "Bake for 20 minutes, or until a toothpick inserted into the center comes out clean."
+    ]
+  },
+  "index": 77
+}

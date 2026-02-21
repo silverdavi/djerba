@@ -1,0 +1,87 @@
+{
+  "id": "shlomittomatosalad",
+  "image": "images/current/shlomittomatosalad/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "10 min",
+    "cook_time": "No cook",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "סלט העגבניות של שלומית",
+    "es": "Ensalada de Tomate de Shlomit",
+    "ar": "سلاطة طماطم شلوميت",
+    "en": "Shlomit's Tomato Salad"
+  },
+  "description": {
+    "he": "סלט העגבניות נקרא על שם שלומית, חברת משפחה יקרה שחלקה איתנו את המתכון התוסס הזה. הוא הפך לאהוב במיוחד על ירחמיאל שמבקש אותו בקביעות. השילוב הפשוט של עגבניות טריות, עשבי תיבול ורוטב חמצמץ הופך אותו לתוספת קיצית מושלמת.",
+    "es": "La Ensalada de Tomate de Shlomit lleva el nombre de Shlomit, una querida amiga de la familia que compartió esta vibrante receta con nosotros. Se ha convertido en la favorita de Yerachmiel, quien la pide regularmente. La sencilla combinación de tomates frescos, hierbas y aderezo ácido la convierte en una guarnición de verano perfecta.",
+    "ar": "سلاطة طماطم شلوميت تسمات على اسم شلوميت، صديقة عزيزة للعائلة اللي عطاتنا هالوصفة الباهية. ولات محبوبة برشا عند يرحمئيل وديما يطلبها. التخليطة البسيطة متاع الطماطم الفريشك، والحشيش، والصوص القارصة تردها حاجة بنينة برشا في الصيف.",
+    "en": "Shlomit's Tomato Salad is named for Shlomit, a dear family friend who shared this vibrant recipe with us. It has become especially beloved by Yerachmiel, who asks for it regularly. The simple combination of fresh tomatoes, herbs, and tangy dressing makes it a perfect summer side dish."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם עגבניות שרי, חצויות",
+      "45 מ\"ל שמן זית",
+      "18 גרם מלח",
+      "12.5 גרם סוכר",
+      "1 גרם אורגנו",
+      "8 גרם עשבי תיבול טריים (פטרוזיליה, בזיליקום), קצוצים",
+      "17 גרם גרעיני חמניה"
+    ],
+    "es": [
+      "500 g de tomates cherry, cortados por la mitad",
+      "45 ml de aceite de oliva",
+      "18 g de sal",
+      "12.5 g de azúcar",
+      "1 g de orégano",
+      "8 g de hierbas frescas (perejil, albahaca), picadas",
+      "17 g de semillas de girasol"
+    ],
+    "ar": [
+      "3 كيسان وثلث طماطم سوريز، مقصوصة على زوز",
+      "3 مغارف زيت زيتونة",
+      "1 مغرفة ملح",
+      "1 مغرفة سكر",
+      "1 مغرفة صغيرة أوريغانو",
+      "2 مغارف حشيش فريشك (معدنوس، حبق)، مقصوص",
+      "2 مغارف قلوب عباد الشمس"
+    ],
+    "en": [
+      "3.3 cups cherry tomatoes, halved",
+      "3 tbsp olive oil",
+      "1 tbsp salt",
+      "1 tbsp sugar",
+      "1 tsp oregano",
+      "2 tbsp fresh herbs (parsley, basil), chopped",
+      "2 tbsp sunflower seeds"
+    ]
+  },
+  "steps": {
+    "he": [
+      "חותכים את עגבניות השרי לחצאים ומניחים בקערת הגשה.",
+      "בקערה קטנה, מערבבים את שמן הזית עם המלח, הסוכר והאורגנו.",
+      "יוצקים את הרוטב על העגבניות ומערבבים בעדינות.",
+      "מוסיפים עשבי תיבול טריים או גרעיני חמניה אם רוצים. מגישים מיד."
+    ],
+    "es": [
+      "Corte los tomates cherry por la mitad y colóquelos en un bol para servir.",
+      "En un bol pequeño, mezcle el aceite de oliva con la sal, el azúcar y el orégano.",
+      "Vierta el aderezo sobre los tomates y mezcle suavemente.",
+      "Añada hierbas frescas o semillas de girasol si lo desea. Sirva inmediatamente."
+    ],
+    "ar": [
+      "قص طماطم السوريز على زوز وحطهم في صحفة التقديم.",
+      "في صحفة صغيرة، خلط زيت الزيتونة مع الملح، السكر، والأوريغانو.",
+      "صب الصوص فوق الطماطم وخلط بشوية.",
+      "زيد الحشيش الفريشك ولا قلوب عباد الشمس كان تحب. قدمها ديراكت."
+    ],
+    "en": [
+      "Cut cherry tomatoes in half and place in a serving bowl.",
+      "In a small bowl, mix olive oil with salt, sugar, and oregano.",
+      "Pour dressing over tomatoes and toss gently.",
+      "Add fresh herbs or sunflower seeds if using. Serve immediately."
+    ]
+  },
+  "index": 50
+}

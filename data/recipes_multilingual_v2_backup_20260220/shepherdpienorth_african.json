@@ -1,0 +1,112 @@
+{
+  "id": "shepherdpienorth_african",
+  "image": "images/current/shepherdpienorth_african/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "40 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "פאי רועים",
+    "es": "Pastel de Papa (Estilo Norteafricano)",
+    "ar": "صينية بطاطا (Siniyat Batata)",
+    "en": "Shepherd's Pie (North African Style)"
+  },
+  "description": {
+    "he": "פאי רועים הוא התרגום העברי ל-Shepherd's Pie ומקורו ככל הנראה במנת ההאשי פרמנטייה הצרפתית שהגיעה לתוניסיה הקולוניאלית. גרסה טבעונית זו מחליפה את הבשר בטחון מהצומח תוך שמירה על שכבות תפוחי האדמה הצהובים מתבלין הכורכום. התוצאה היא פשטידה זהובה ומנחמת, מושלמת לארוחת שבת דשנה.",
+    "es": "Pai Ro'im es la traducción hebrea del Shepherd's Pie y probablemente proviene del hachis parmentier francés introducido en la Túnez colonial. Esta adaptación vegana reemplaza la carne con picadillo vegetal sabroso mientras mantiene las capas de papa infundidas con cúrcuma. Crea una cazuela dorada y reconfortante perfecta para un almuerzo abundante de Shabat.",
+    "ar": "باي روعيم هو الترجمة العبرية لطبق فطيرة الراعي، وأصله يرجع لطبق الهاشي بارمانتيي الفرنساوي اللي دخل وقت الاستعمار في تونس. هالوصفة النباتية تبدل اللحم بفرشيلو نباتي وتخلي طبقات البطاطا الصفراء المفوحة بالكركم. النتيجة هي طاجين ذهبي وبنين، يواتي فطور السبت.",
+    "en": "Pai Ro'im is the Hebrew translation of Shepherd's Pie and likely stems from the French hachis parmentier introduced in colonial Tunisia. This vegan adaptation replaces meat with savory plant-based mince while keeping the signature turmeric-infused potato layers. It creates a golden and comforting casserole perfect for a hearty Shabbat lunch."
+  },
+  "ingredients": {
+    "he": [
+      "1 ק\"ג תפוחי אדמה, קלופים וחתוכים לקוביות",
+      "3 גרם כורכום",
+      "12 גרם אבקת מרק בטעם עוף (פרווה)",
+      "מלח לפי הטעם",
+      "500 גרם טחון מהצומח",
+      "30 מ\"ל שמן צמחי",
+      "2.5 גרם פפריקה מתוקה",
+      "3 גרם תבלין שווארמה",
+      "3 גרם אבקת שום",
+      "1.2 גרם פלפל שחור גרוס"
+    ],
+    "es": [
+      "1 kg de papas, peladas y cortadas en cubos",
+      "3 g de cúrcuma",
+      "12 g de caldo de pollo vegano en polvo",
+      "Sal al gusto",
+      "500 g de carne picada vegetal",
+      "30 ml de aceite vegetal",
+      "2.5 g de pimentón dulce",
+      "3 g de condimento para shawarma",
+      "3 g de ajo en polvo",
+      "1.2 g de pimienta negra molida"
+    ],
+    "ar": [
+      "5-6 كعبات بطاطا، مقشرين ومقصوصين مكعبات",
+      "1 مغرفة صغيرة كركم",
+      "1 مغرفة كبيرة بودرة مرقة (نباتية)",
+      "ملح حسب الذوق",
+      "500 غرام لحم مرحي نباتي",
+      "2 مغارف زيت",
+      "1 مغرفة صغيرة فلفل أحمر (بابريكا)",
+      "1 مغرفة صغيرة تابل شوارمة",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "1/2 مغرفة صغيرة فلفل أكحل"
+    ],
+    "en": [
+      "5-6 medium potatoes, peeled and cubed",
+      "1 tsp turmeric",
+      "1 tbsp vegan chicken-style bouillon powder",
+      "Salt to taste",
+      "17.6 oz plant-based mince",
+      "2 tbsp vegetable oil",
+      "1 tsp sweet paprika",
+      "1 tsp shawarma seasoning",
+      "1 tsp garlic powder",
+      "0.5 tsp black pepper"
+    ]
+  },
+  "steps": {
+    "he": [
+      "קלפו וחיתכו את תפוחי האדמה לקוביות. הניחו אותם בסיר עם מים מומלחים ובשלו עד שהם רכים מספיק למעיכה.",
+      "סננו את תפוחי האדמה. מעכו אותם היטב עם הכורכום, מחצית מאבקת המרק וקורט מלח עד לקבלת מחית חלקה וצהובה.",
+      "במחבת, חממו את השמן וטגנו את הטחון מהצומח. פוררו אותו בעזרת כף תוך כדי הבישול.",
+      "תבלו את הטחון בפפריקה, תבלין שווארמה, אבקת שום, פלפל שחור ושארית אבקת המרק. בשלו עד שהתערובת שחומה וריחנית.",
+      "חממו תנור ל-180 מעלות צלזיוס. שמן תבנית אפייה.",
+      "הרכבת הפאי: שטחו מחצית מהפירה בשכבה אחידה בתחתית. פזרו את תערובת הטחון המתובלת מעל תפוחי האדמה. כסו בשארית הפירה והחליקו את פני השטח.",
+      "אפו במשך כ-20-30 דקות עד שהחלק העליון מזהיב קלות והמאפה חם."
+    ],
+    "es": [
+      "Pele y corte las papas en cubos. Colóquelas en una olla con agua salada y hierva hasta que estén lo suficientemente suaves para hacer puré.",
+      "Escurra las papas. Macháquelas bien con la cúrcuma, la mitad del caldo en polvo y una pizca de sal hasta obtener un puré suave y amarillo.",
+      "En una sartén, caliente el aceite y fría la carne vegetal. Desmenúcela con una cuchara mientras se cocina.",
+      "Condimente la carne con pimentón, especias para shawarma, ajo en polvo, pimienta negra y el resto del caldo en polvo. Cocine hasta que la carne esté bien dorada y fragante.",
+      "Precaliente el horno a 180°C. Engrase una fuente para hornear.",
+      "Arme el pastel: Extienda la mitad del puré de papas en una capa uniforme en el fondo. Esparza la mezcla de carne condimentada sobre las papas. Cubra con el resto del puré y alise la superficie.",
+      "Hornee durante unos 20-30 minutos hasta que la parte superior esté ligeramente dorada y el plato esté bien caliente."
+    ],
+    "ar": [
+      "قشر البطاطا وقصها مكعبات. حطها في طنجرة مع ماء وملح واغليها لين تطيب وتولي ساهلة باش ترحيها.",
+      "صفي البطاطا من الماء. ارحيها مليح مع الكركم، وشطر كمية بودرة المرقة، وشوية ملح لين تولي رطب وصفراء.",
+      "في مقلاة، سخن الزيت واقلي اللحم المرحي (النباتي). حلحل اللحم بالمغرفة وانت تطيب فيه.",
+      "فوّح اللحم بالفلفل الأحمر، تابل الشوارمة، الثوم المرحي، الفلفل الأكحل، وباقي بودرة المرقة. طيب لين يولي لونه بني وريحته فاوحة.",
+      "سخن الكوشة (الفور) على 180 درجة. ادهن طبق الفور بالزيت.",
+      "حضّر الطبق: فرش شطر كمية البطاطا المرحية في قاع الطبق. حط فوقها خليط اللحم المفوح. غطي بالبطاطا اللي بقات وسوي الوجه من فوق.",
+      "حطها في الكوشة لمدة 20-30 دقيقة لين يحمار الوجه شوية ويطيب الكل مع بعضه."
+    ],
+    "en": [
+      "Peel and cube the potatoes. Place them in a pot of salted water and boil until soft enough to mash.",
+      "Drain the potatoes. Mash them thoroughly with the turmeric, half of the chicken seasoning, and a pinch of salt until smooth and yellow.",
+      "In a frying pan, heat the oil and fry the ground meat. Break it apart with a spoon as it cooks.",
+      "Season the meat with paprika, shawarma seasoning, garlic powder, black pepper, and the remaining chicken seasoning. Cook until the meat is fully browned and fragrant.",
+      "Preheat oven to 350°F (180°C). Grease a baking dish.",
+      "Assemble the pie: Spread half of the mashed potatoes in an even layer on the bottom. Spread the spiced meat mixture over the potatoes. Top with the remaining mashed potatoes and smooth the surface.",
+      "Bake for about 20-30 minutes until the top is slightly golden and the dish is heated through."
+    ]
+  },
+  "image_prompt": "Casserole dish with layers of yellow turmeric mashed potatoes and spiced ground beef, slice removed showing the layers, rustic kitchen setting",
+  "index": 59
+}

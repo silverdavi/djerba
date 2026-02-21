@@ -1,0 +1,2560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TOC Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Heebo:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   FOUR-LANGUAGE COOKBOOK STYLES
+   ============================================ */
+
+:root {
+  --bg-page: #faf6f1;
+  --bg-body: #e0dfda;
+  --ink: #222222;
+  --muted: #777777;
+  --accent: #d9925b;
+  --accent-soft: #f3d7b4;
+  --font-english: "Sora", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-spanish: "Fraunces", Georgia, serif;
+  --font-hebrew: "Heebo", system-ui, sans-serif;
+  --font-arabic: "Noto Naskh Arabic", system-ui, sans-serif;
+  --font-title: "Bona Nova", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg-body);
+  font-family: var(--font-english);
+  color: var(--ink);
+}
+
+/* ============================================
+   BOOK / PAGE STRUCTURE
+   ============================================ */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.page {
+  position: relative;
+  width: 8in;
+  height: 8in;
+  background: var(--bg-page);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.page--image .page-inner {
+  padding: 0;
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0.3in;
+  right: 0.35in;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   RTL / LTR LANGUAGE HELPERS
+   ============================================ */
+
+.lang-he {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-hebrew);
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+.lang-es {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-spanish);
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+  font-family: var(--font-english);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+p {
+  margin: 0 0 0.35em;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 0 0 0.2in;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ============================================
+   PAGE 1: TITLE + DESCRIPTION
+   ============================================ */
+
+/* Title block - flexbox layout with chapter number in center */
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.2in;
+  width: 100%;
+}
+
+/* Each title row - two titles side by side using flexbox */
+.title-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 0.1in;
+}
+
+/* Chapter number - compact circle between rows */
+.chapter-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.04in 0;
+}
+
+.chapter-number span {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--bg-page);
+  border-radius: 50%;
+  width: 0.5in;
+  height: 0.5in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1.5px var(--accent-soft);
+}
+
+.title-word {
+  font-family: var(--font-title);
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 0.08in 0.1in;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  min-height: 0.65in;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  flex: 1;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6),
+               -1px -1px 0 rgba(0, 0, 0, 0.15),
+               3px 3px 12px rgba(217, 146, 91, 0.2);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15))
+          brightness(1.02)
+          contrast(1.05)
+          saturate(1.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* LTR titles (Spanish, English) - align left */
+.title-word.lang-es,
+.title-word.lang-en {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* RTL titles (Hebrew, Arabic) - align right */
+.title-word.lang-he,
+.title-word.lang-ar {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.title-word::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, 
+              transparent 0%, 
+              rgba(255, 255, 255, 0.02) 50%, 
+              transparent 100%);
+  pointer-events: none;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.title-word::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: radial-gradient(ellipse at 30% 40%, 
+              rgba(217, 146, 91, 0.04) 0%, 
+              transparent 70%);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+}
+
+.title-word:hover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2))
+          brightness(1.05)
+          contrast(1.1)
+          saturate(1.15);
+}
+
+.title-word span {
+  color: var(--ink);
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.title-word.lang-he,
+.title-word.lang-ar {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.title-word.lang-es {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TITLE FONT SIZE TIERS
+   ============================================ */
+
+.title-word.title-large {
+  font-size: 2.8rem;
+}
+
+.title-word.title-medium {
+  font-size: 2.2rem;
+}
+
+.title-word.title-small {
+  font-size: 1.7rem;
+}
+
+/* ============================================
+   DESCRIPTION SECTION
+   ============================================ */
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+
+.info-item {
+  text-align: center;
+  font-size: 0.85rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 0.45in;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2in;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+/* ============================================
+   PAGE 2: FULL IMAGE
+   ============================================ */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   PAGE 3 + 4: TWO-COLUMN LAYOUT
+   Using absolute positioning for reliable print rendering
+   ============================================ */
+
+.two-col {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* LEFT COLUMN (LTR: Spanish/English) - starts 15% from top, wider outer margin */
+.two-col > .column:first-child {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 50%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 0 0.12in 0 0.35in;  /* 0.35in outer margin (left edge), 0.12in toward center */
+}
+
+/* RIGHT COLUMN (RTL: Hebrew/Arabic) - starts 38% from top to clear illustrations */
+.two-col > .column:nth-child(2) {
+  position: absolute;
+  top: 38%;
+  right: 0;
+  width: 50%;
+  height: 62%;
+  box-sizing: border-box;
+  padding: 0 0.35in 0 0.12in;  /* 0.35in outer margin (right edge), 0.12in toward center */
+}
+
+/* Vertical divider */
+.two-col::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: var(--accent-soft);
+  opacity: 0.5;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ============================================
+   CORNER INGREDIENT DECORATIONS
+   ============================================ */
+
+.corner-decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.corner-ingredient {
+  position: absolute;
+  width: 2.0in;
+  height: 2.0in;
+  object-fit: contain;
+  opacity: 0.35;
+  filter: saturate(0.75) brightness(1.05);
+  pointer-events: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+}
+
+/* All columns get symmetric padding */
+
+.column > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0.08in;
+}
+
+.section-label {
+  font-size: 0.7em;  /* Relative to parent's adaptive font-size */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.03in;
+  text-align: center;
+}
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Font size and line-height now set via adaptive inline styles */
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ingredients-list li + li {
+  margin-top: 0.03em;
+}
+
+.step {
+  margin-bottom: 0.1em;
+}
+
+.step-num {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.lang-he .step-num,
+.lang-ar .step-num {
+  margin-right: 0;
+  margin-left: 0.25em;
+}
+
+.variant-label {
+  margin-top: 0.1in;
+  margin-bottom: 0.04in;
+  font-size: 0.9em;  /* Relative to parent's adaptive font-size */
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ============================================
+   COMPACT/TIGHT CLASSES FOR OVERFLOW
+   ============================================ */
+
+/* Compact/tight classes removed - using adaptive inline styles instead */
+
+/* ============================================
+   METADATA ROW
+   ============================================ */
+
+.meta-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.2in;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3in;
+  align-items: center;
+}
+
+.meta-row.meta-footer {
+  position: absolute;
+  bottom: 0.4in;
+  left: 0.6in;
+  right: 0.6in;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.meta-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+}
+
+.meta-value {
+  color: var(--ink);
+  margin-top: 0.04in;
+  text-align: center;
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: #ffffff;
+    padding: 0;
+  }
+
+  .book {
+    display: block;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+    overflow: hidden;  /* Keep content within page bounds */
+  }
+
+  .title-word:hover {
+    transform: none;
+  }
+
+  @page {
+    size: 8in 8in;
+    margin: 0;
+  }
+
+  .two-col {
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .two-col > .column:first-child {
+    position: absolute;
+    left: 0;
+    width: 50%;
+  }
+
+  .two-col > .column:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
+
+  .column {
+    overflow: hidden;
+  }
+}
+
+/* ============================================
+   FRONT MATTER PAGES
+   ============================================ */
+
+/* Title Page */
+.page--title {
+  background: var(--bg-page);
+  position: relative;
+}
+
+/* Ingredient Background Layer */
+.title-ingredients-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-ingredient {
+  position: absolute;
+  object-fit: contain;
+  opacity: 0.15;
+  filter: saturate(0.4) brightness(1.1);
+  pointer-events: none;
+}
+
+.title-page-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-page-content {
+  text-align: center;
+  padding: 0.4in;
+  width: 100%;
+}
+
+.book-titles {
+  margin-bottom: 0.3in;
+}
+
+.book-title-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5in;
+  margin-bottom: 0.1in;
+}
+
+.book-title {
+  font-family: var(--font-title);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.book-title-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-title-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.book-title-en,
+.book-title-es {
+  font-family: var(--font-title);
+  letter-spacing: 0.03em;
+}
+
+.book-subtitle-block {
+  margin-bottom: 0.15in;
+}
+
+.book-subtitle {
+  font-family: var(--font-english);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 0.04in;
+  letter-spacing: 0.05em;
+}
+
+.book-subtitle.book-subtitle-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+}
+
+.book-subtitle.book-subtitle-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+.title-divider {
+  width: 2in;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.25in auto;
+}
+
+.family-lines {
+  margin-bottom: 0.2in;
+}
+
+.family-line {
+  font-family: var(--font-english);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.03in;
+}
+
+.family-origin {
+  font-family: var(--font-english);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.authors {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+/* Copyright Page */
+.page--copyright {
+  background: var(--bg-page);
+}
+
+.copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright-content {
+  text-align: center;
+  width: 100%;
+}
+
+.copyright-text {
+  font-family: var(--font-english);
+  font-size: 0.85rem;
+  color: var(--ink);
+  margin-bottom: 0.1in;
+  text-align: center;
+}
+
+.copyright-edition {
+  font-size: 0.8rem;
+  margin-top: 0.15in;
+}
+
+.copyright-divider {
+  width: 1.5in;
+  height: 1px;
+  background: var(--accent-soft);
+  margin: 0.25in auto;
+}
+
+.copyright-note {
+  font-family: var(--font-english);
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 0.06in;
+  text-align: center;
+}
+
+.copyright-note-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+}
+
+/* Introduction Page */
+.page--intro {
+  background: var(--bg-page);
+}
+
+.intro-inner {
+  padding: 0.4in 0.5in;
+}
+
+.intro-title {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 0.25in;
+  letter-spacing: 0.05em;
+}
+
+.intro-columns {
+  display: flex;
+  gap: 0.4in;
+  height: calc(100% - 0.8in);
+}
+
+.intro-col {
+  flex: 1;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.intro-col p {
+  margin-bottom: 0.12in;
+}
+
+.intro-col p:first-child {
+  margin-top: 0;
+}
+
+.intro-text-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  text-align: right;
+}
+
+.intro-text-en {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-es {
+  font-family: var(--font-english);
+  text-align: justify;
+}
+
+.intro-text-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Table of Contents */
+.page--toc {
+  background: var(--bg-page);
+}
+
+.toc-inner {
+  padding: 0.3in 0.4in;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toc-title {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.15in;
+  color: var(--color-title);
+  border-bottom: 1px solid var(--color-accent);
+  padding-bottom: 0.08in;
+}
+
+.toc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.04in 0.2in;
+  page-break-inside: avoid;
+}
+
+.toc-list > .toc-item {
+  width: calc(50% - 0.15in);
+}
+
+.toc-item {
+  display: flex;
+  gap: 0.05in;
+  align-items: start;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  padding: 0.02in 0;
+  border-bottom: 0.5px dotted var(--color-muted);
+  padding-bottom: 0.03in;
+}
+
+.toc-num {
+  font-family: var(--font-title);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-align: right;
+  font-size: 0.72rem;
+}
+
+.toc-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.12in;
+}
+
+.toc-name {
+  color: var(--color-text);
+}
+
+.toc-name-en {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+.toc-name-he {
+  font-family: var(--font-hebrew);
+  direction: rtl;
+  color: var(--color-muted);
+}
+
+.toc-name-es {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.toc-name-ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  color: var(--color-muted);
+  font-size: 0.58rem;
+}
+
+/* Blank Page */
+.page--blank {
+  background: var(--bg-page);
+}
+
+/* ============================================
+   8.5x8.5 BLEED PRINT STYLES
+   For print version with spine margins
+   ============================================ */
+
+/* When printing in bleed mode (8.5x8.5), we need to adjust margins
+   for verso/recto (left/right) pages. The spine gets 0.5" extra padding,
+   and content is shifted to the top, leaving 0.5" extra at bottom. */
+
+/* Applied via body class in the bleed HTML */
+body.print-bleed .page {
+  width: 8in;
+  height: 8in;
+  /* Content stays 8x8, page positions it within 8.5x8.5 */
+}
+
+/* Bleed print media query - applies when printing 8.5x8.5 version */
+@media print {
+  body.print-bleed {
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  
+  body.print-bleed .book {
+    display: block;
+  }
+  
+  body.print-bleed .page {
+    box-shadow: none;
+    margin: 0;
+  }
+}
+
+/* WeasyPrint-specific: The @page :left/:right rules for the bleed print version
+   are defined in the inline CSS block generated by get_bleed_css() in build.py */
+
+/* ============================================
+   TABLE OF CONTENTS - GROUPED
+   ============================================ */
+
+.toc-page-inner {
+  padding: 0.6in 0.5in 0.4in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.toc-header {
+  text-align: center;
+  padding-bottom: 0.25in;
+  flex-shrink: 0;
+}
+
+.toc-header h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+  letter-spacing: 0.05em;
+}
+
+.toc-header .toc-subtitle {
+  font-size: 0.85rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.toc-body {
+  flex: 1;
+  columns: 2;
+  column-gap: 0.35in;
+  overflow: hidden;
+}
+
+.toc-category {
+  break-inside: avoid;
+  margin-bottom: 0.15in;
+}
+
+.toc-category-name {
+  font-family: var(--font-title);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--accent-soft);
+  padding-bottom: 0.03in;
+  margin-bottom: 0.06in;
+}
+
+.toc-category-items {
+  margin-bottom: 0.1in;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.06in;
+  padding: 0.02in 0;
+  line-height: 1.3;
+  min-height: 0.38in;
+}
+
+.toc-num {
+  font-size: 0.55rem;
+  color: var(--muted);
+  min-width: 0.18in;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.toc-entry-names {
+  flex: 1;
+  min-width: 0;
+}
+
+.toc-line-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.08in;
+}
+
+.toc-en {
+  font-family: var(--font-english);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.toc-he {
+  font-family: var(--font-hebrew);
+  font-size: 0.65rem;
+  direction: rtl;
+  color: var(--ink);
+  text-align: right;
+}
+
+.toc-line-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.08in;
+  margin-top: 0.01in;
+}
+
+.toc-es {
+  font-family: var(--font-spanish);
+  font-size: 0.55rem;
+  color: var(--muted);
+}
+
+.toc-ar {
+  font-family: var(--font-arabic);
+  font-size: 0.55rem;
+  direction: rtl;
+  color: var(--muted);
+  text-align: right;
+}
+
+.toc-page {
+  font-size: 0.55rem;
+  color: var(--muted);
+  flex-shrink: 0;
+  min-width: 0.18in;
+  text-align: right;
+}
+
+
+
+/* ============================================
+   TABLE OF CONTENTS - GROUPED (PAGED)
+   ============================================ */
+
+.toc-page-inner {
+  padding: 0.4in 0.5in;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.toc-header {
+  text-align: center;
+  padding-bottom: 0.25in;
+  flex-shrink: 0;
+}
+
+.toc-header h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  color: var(--accent);
+  margin: 0 0 0.08in;
+  letter-spacing: 0.05em;
+}
+
+.toc-header .toc-subtitle {
+  font-size: 0.85rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.toc-body {
+  flex: 1;
+  columns: 2;
+  column-gap: 0.35in;
+  overflow: hidden;
+}
+
+.toc-category {
+  break-inside: avoid;
+  margin-bottom: 0.15in;
+}
+
+.toc-category-name {
+  font-family: var(--font-title);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--accent-soft);
+  padding-bottom: 0.03in;
+  margin-bottom: 0.06in;
+}
+
+.toc-category-items {
+  margin-bottom: 0.1in;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.06in;
+  padding: 0.02in 0;
+  line-height: 1.3;
+  min-height: 0.38in;
+}
+
+.toc-num {
+  font-size: 0.55rem;
+  color: var(--muted);
+  min-width: 0.18in;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.toc-entry-names {
+  flex: 1;
+  min-width: 0;
+}
+
+.toc-line-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.08in;
+}
+
+.toc-en {
+  font-family: "Sora", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.toc-he {
+  font-family: "Heebo", sans-serif;
+  font-size: 0.65rem;
+  direction: rtl;
+  color: var(--ink);
+  text-align: right;
+}
+
+.toc-line-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.08in;
+  margin-top: 0.01in;
+}
+
+.toc-es {
+  font-family: "Fraunces", serif;
+  font-size: 0.55rem;
+  color: var(--muted);
+}
+
+.toc-ar {
+  font-family: "Noto Naskh Arabic", sans-serif;
+  font-size: 0.55rem;
+  direction: rtl;
+  color: var(--muted);
+  text-align: right;
+}
+
+.toc-page {
+  font-size: 0.55rem;
+  color: var(--muted);
+  flex-shrink: 0;
+  min-width: 0.18in;
+  text-align: right;
+}
+
+@media print {
+  .page--toc {
+    page-break-after: always;
+    overflow: hidden;
+  }
+}
+
+</style>
+</head>
+<body style="background: #e0dfda; padding: 2rem;">
+
+<div class="book">
+
+  <section class="page page--toc">
+    <div class="page-inner toc-page-inner">
+      <div class="toc-header">
+    <h1>Contents</h1>
+    <div class="toc-subtitle">תוכן עניינים · Contenido · فهرس</div>
+  </div>
+      <div class="toc-body">
+        
+        <div class="toc-category">
+          <div class="toc-category-name">Stews &amp; Mains</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">1</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Adafina</span>
+                  <span class="toc-he">אדפינה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Adafina</span>
+                  <span class="toc-ar">أدفينة</span>
+                </div>
+              </div>
+              <span class="toc-page">8</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">2</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Tfina (Seitan and Barley Stew)</span>
+                  <span class="toc-he">טפינה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Tfina (Estofado de Seitán y Cebada)</span>
+                  <span class="toc-ar">طفينة</span>
+                </div>
+              </div>
+              <span class="toc-page">12</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">3</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Cholent (Hamin)</span>
+                  <span class="toc-he">חמין</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Hamin (Cholent)</span>
+                  <span class="toc-ar">حمين</span>
+                </div>
+              </div>
+              <span class="toc-page">16</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">4</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Bkaila (Tunisian Chard and Bean Stew)</span>
+                  <span class="toc-he">בקילה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Bkaila (Estofado Tunecino de Acelgas y Frijoles)</span>
+                  <span class="toc-ar">بكايلة</span>
+                </div>
+              </div>
+              <span class="toc-page">20</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">5</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chraime (Spicy Fish Stew)</span>
+                  <span class="toc-he">חריימה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Chraime (Estofado de Pescado Picante)</span>
+                  <span class="toc-ar">حرايمي</span>
+                </div>
+              </div>
+              <span class="toc-page">24</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">6</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Vegan &#x27;Fish&#x27; Patties in Tomato Sauce</span>
+                  <span class="toc-he">קציצות דג טבעוניות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Albóndigas de &#x27;Pescado&#x27; Vegano en Salsa de Tomate</span>
+                  <span class="toc-ar">كفتة حوت نباتية بصلصة طماطم</span>
+                </div>
+              </div>
+              <span class="toc-page">28</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">7</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Dabikh Hagim (Holiday Stew)</span>
+                  <span class="toc-he">דביח חגים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Dabikh Hagim (Estofado Festivo)</span>
+                  <span class="toc-ar">دبيخ حڨيم</span>
+                </div>
+              </div>
+              <span class="toc-page">32</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">8</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Tbikha b&#x27;Tomatem</span>
+                  <span class="toc-he">דביח תטמטם</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Tbikha b&#x27;Tomatem</span>
+                  <span class="toc-ar">طبيخة بطماطم</span>
+                </div>
+              </div>
+              <span class="toc-page">36</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">9</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Ciceritos (Green Pea Stew)</span>
+                  <span class="toc-he">ציצריטוס (תבשיל אפונה)</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Ciceritos (Guiso de Guisantes)</span>
+                  <span class="toc-ar">سيسيريتوس (مرقة جلبانة)</span>
+                </div>
+              </div>
+              <span class="toc-page">40</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">10</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Lentecha (Lentil Stew)</span>
+                  <span class="toc-he">לנטכה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Lentecha (Guiso de Lentejas)</span>
+                  <span class="toc-ar">لانتشا (مرقة عدس)</span>
+                </div>
+              </div>
+              <span class="toc-page">44</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">11</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Potache (White Bean Stew)</span>
+                  <span class="toc-he">פוטאכס</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Potache (Guiso de Alubias Blancas)</span>
+                  <span class="toc-ar">بوتاش (مرقة لوبيا بيضاء)</span>
+                </div>
+              </div>
+              <span class="toc-page">48</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">12</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Green Beans in Tomato Sauce (Loubia Khadra)</span>
+                  <span class="toc-he">שעועית ירוקה ברוטב עגבניות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Judías Verdes en Salsa de Tomate (Loubia Khadra)</span>
+                  <span class="toc-ar">لوبيا خضراء</span>
+                </div>
+              </div>
+              <span class="toc-page">52</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">13</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Red Stewed Olives (Zaytun T&#x27;bikh)</span>
+                  <span class="toc-he">זיתים ברוטב אדום</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Aceitunas Guisadas Rojas</span>
+                  <span class="toc-ar">زيتون طبيخ</span>
+                </div>
+              </div>
+              <span class="toc-page">56</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">14</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Yellow Meat (Basar Tzahov)</span>
+                  <span class="toc-he">בשר צהוב</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Carne Amarilla (Basar Tzahov)</span>
+                  <span class="toc-ar">لحم أصفر (روتي)</span>
+                </div>
+              </div>
+              <span class="toc-page">60</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">15</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Artichoke and Mushroom Stew</span>
+                  <span class="toc-he">ארטישוק ופטריות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Guiso de Alcachofas y Champiñones</span>
+                  <span class="toc-ar">قنارية بالفڨاع</span>
+                </div>
+              </div>
+              <span class="toc-page">64</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">16</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chicken Fricassee Stew with Dumplings</span>
+                  <span class="toc-he">צ׳יקן פריקסה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Estofado de Fricasé de Pollo con Bolitas de Masa</span>
+                  <span class="toc-ar">تشيكن فريكاسي</span>
+                </div>
+              </div>
+              <span class="toc-page">68</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">17</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Meatballs in Red Sauce</span>
+                  <span class="toc-he">קציצות ברוטב אדום</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Albóndigas en Salsa Roja</span>
+                  <span class="toc-ar">كفتة بالصلصة الحمراء</span>
+                </div>
+              </div>
+              <span class="toc-page">72</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">18</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Shakshuka with Caramelized Onions and Sausage</span>
+                  <span class="toc-he">שקשוקה של בצל מטוגן ארוך</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Shakshuka de Cebolla Caramelizada y Salchichas</span>
+                  <span class="toc-ar">شكشوكة بالبصل والمرقاز</span>
+                </div>
+              </div>
+              <span class="toc-page">76</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">19</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Umami Mushrooms</span>
+                  <span class="toc-he">פטריות אומאמי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Champiñones Umami</span>
+                  <span class="toc-ar">شامبينيون أومامي</span>
+                </div>
+              </div>
+              <span class="toc-page">80</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Soups</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">20</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Brodo (Tunisian Vegetable Soup)</span>
+                  <span class="toc-he">ברודו</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Brodo (Sopa Tunecina de Verduras)</span>
+                  <span class="toc-ar">برودو</span>
+                </div>
+              </div>
+              <span class="toc-page">84</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">21</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Talbina Soup (Thick Sour and Spicy)</span>
+                  <span class="toc-he">מרק תלבינה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sopa Talbina (Espesa, Agria y Picante)</span>
+                  <span class="toc-ar">شوربة التلبينة (حامضة وحارة)</span>
+                </div>
+              </div>
+              <span class="toc-page">88</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">22</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Dwida (Spicy Pasta Soup)</span>
+                  <span class="toc-he">דווידה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Dwida (Sopa de Pasta Picante)</span>
+                  <span class="toc-ar">دويدة</span>
+                </div>
+              </div>
+              <span class="toc-page">92</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page page--toc">
+    <div class="page-inner toc-page-inner">
+      
+      <div class="toc-body">
+        
+        <div class="toc-category">
+          <div class="toc-category-name">Soups (cont.)</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">23</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Kata&#x27;a (Fresh Pasta Soup)</span>
+                  <span class="toc-he">קטעה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Kata&#x27;a (Sopa de Pasta Fresca)</span>
+                  <span class="toc-ar">قطعة (حساء عجين طازج)</span>
+                </div>
+              </div>
+              <span class="toc-page">96</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">24</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Vegetable Soup for Couscous (Marga)</span>
+                  <span class="toc-he">מרק ירקות לקוסקוס</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sopa de Verduras para Cuscús (Marga)</span>
+                  <span class="toc-ar">مرقة خضرة للكسكسي</span>
+                </div>
+              </div>
+              <span class="toc-page">100</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">25</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Green Pea Soup</span>
+                  <span class="toc-he">מרק אפונה ירוקה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sopa de Guisantes Verdes</span>
+                  <span class="toc-ar">شربة جلبانة</span>
+                </div>
+              </div>
+              <span class="toc-page">104</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Couscous, Pasta &amp; Grains</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">26</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Homemade Couscous</span>
+                  <span class="toc-he">קוסקוס</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Cuscús Casero</span>
+                  <span class="toc-ar">كسكسي</span>
+                </div>
+              </div>
+              <span class="toc-page">108</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">27</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Mhamsa (Tunisian Pasta Pearls)</span>
+                  <span class="toc-he">מחמסה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Mhamsa (Perlas de Pasta Tunecina)</span>
+                  <span class="toc-ar">محمصة</span>
+                </div>
+              </div>
+              <span class="toc-page">112</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">28</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">L&#x27;Intriya</span>
+                  <span class="toc-he">לאינטריאה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">L&#x27;Intriya</span>
+                  <span class="toc-ar">لينتريّة</span>
+                </div>
+              </div>
+              <span class="toc-page">116</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">29</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Kugel</span>
+                  <span class="toc-he">קוגל</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Kugel</span>
+                  <span class="toc-ar">كوغل</span>
+                </div>
+              </div>
+              <span class="toc-page">120</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">30</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Wheat Berries (Hita / Trigo)</span>
+                  <span class="toc-he">חיטה (טריגו)</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Trigo (Hita)</span>
+                  <span class="toc-ar">حيطة (قمح التدفينة)</span>
+                </div>
+              </div>
+              <span class="toc-page">124</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">31</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Semolina Porridge</span>
+                  <span class="toc-he">דייסת סולת</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Gachas de Sémola</span>
+                  <span class="toc-ar">عصيدة</span>
+                </div>
+              </div>
+              <span class="toc-page">128</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">32</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Shmid (Savory Semolina Porridge)</span>
+                  <span class="toc-he">שמיד</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Shmid (Gachas de Sémola Saladas)</span>
+                  <span class="toc-ar">شميد (عصيدة سميد مالحة)</span>
+                </div>
+              </div>
+              <span class="toc-page">132</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">33</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Bshisha (Bsisa)</span>
+                  <span class="toc-he">בשישה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Bshisha (Bsisa)</span>
+                  <span class="toc-ar">بشيشة (بسيسة)</span>
+                </div>
+              </div>
+              <span class="toc-page">136</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">34</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Vegan Egg Fried Rice</span>
+                  <span class="toc-he">אורז מוקפץ טבעוני</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Arroz Frito Vegano con Huevo</span>
+                  <span class="toc-ar">روز مقلي نباتي</span>
+                </div>
+              </div>
+              <span class="toc-page">140</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Breads &amp; Pastry</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">35</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Homemade Bread</span>
+                  <span class="toc-he">לחם בית</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pan Casero</span>
+                  <span class="toc-ar">خبز دار</span>
+                </div>
+              </div>
+              <span class="toc-page">144</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">36</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Fricassee (Tunisian Fried Sandwich Rolls)</span>
+                  <span class="toc-he">פריקסה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Fricassee (Panecillos Tunecinos Fritos)</span>
+                  <span class="toc-ar">فريكاسي</span>
+                </div>
+              </div>
+              <span class="toc-page">148</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">37</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Brikot (Tunisian Fried Pastry)</span>
+                  <span class="toc-he">בריקות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Brikot</span>
+                  <span class="toc-ar">بريك</span>
+                </div>
+              </div>
+              <span class="toc-page">152</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">38</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Burekas Three Ways</span>
+                  <span class="toc-he">בורקס בשלוש גרסאות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Burekas de Tres Formas</span>
+                  <span class="toc-ar">بوريكاس بثلاثة أنواع</span>
+                </div>
+              </div>
+              <span class="toc-page">156</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">39</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Sfenj (Maghrebi Doughnuts)</span>
+                  <span class="toc-he">שפינג׳ות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sfenj (Rosquillas Magrebíes)</span>
+                  <span class="toc-ar">سفنج</span>
+                </div>
+              </div>
+              <span class="toc-page">160</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">40</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Sfingh (Sfenj)</span>
+                  <span class="toc-he">ספינג&#x27;</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sfingh (Sfenj)</span>
+                  <span class="toc-ar">سفنج</span>
+                </div>
+              </div>
+              <span class="toc-page">164</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">41</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Mufleta</span>
+                  <span class="toc-he">מופלטה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Mufleta</span>
+                  <span class="toc-ar">موفليطا</span>
+                </div>
+              </div>
+              <span class="toc-page">168</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">42</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Cashew Cheese Cannelloni</span>
+                  <span class="toc-he">קנלוני גבינת קשיו</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Canelones de Queso de Anacardos</span>
+                  <span class="toc-ar">كانيلوني بجبن الكاجو</span>
+                </div>
+              </div>
+              <span class="toc-page">172</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Eggs, Omelets &amp; Salads</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">43</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Cujada (Potato and Egg Pie)</span>
+                  <span class="toc-he">קוז&#x27;אדה (פשטידת תפוחי אדמה וביצים)</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Cujada (Pastel de Patata y Huevo)</span>
+                  <span class="toc-ar">كوجادا (معقودة بطاطا)</span>
+                </div>
+              </div>
+              <span class="toc-page">176</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">44</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Na&#x27;zha (Tunisian Herb Omelet)</span>
+                  <span class="toc-he">נעז&#x27;ה - חביתת ירק</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Na&#x27;zha (Tortilla de Hierbas Tunecina)</span>
+                  <span class="toc-ar">نعزة (عجة بالأعشاب)</span>
+                </div>
+              </div>
+              <span class="toc-page">180</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">45</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Adamshusha (Tunisian Egg Drop Soup)</span>
+                  <span class="toc-he">אדמשושה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Adamshusha (Sopa tunecina de huevo)</span>
+                  <span class="toc-ar">أدمشوشة</span>
+                </div>
+              </div>
+              <span class="toc-page">184</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">46</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Ma&#x27;akouda (Tunisian Potato Frittata)</span>
+                  <span class="toc-he">מעקוד</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Ma&#x27;akouda (Frittata de Patata Tunecina)</span>
+                  <span class="toc-ar">معقودة (طاجين بطاطا تونسي)</span>
+                </div>
+              </div>
+              <span class="toc-page">188</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">47</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Vegan Egg Salad</span>
+                  <span class="toc-he">סלט ביצים טבעוני</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Ensalada de Huevo Vegana</span>
+                  <span class="toc-ar">سلاطة عظم نباتية</span>
+                </div>
+              </div>
+              <span class="toc-page">192</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page page--toc">
+    <div class="page-inner toc-page-inner">
+      
+      <div class="toc-body">
+        
+        <div class="toc-category">
+          <div class="toc-category-name">Eggs, Omelets &amp; Salads (cont.)</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">48</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Slatet Homs (Tunisian Chickpea Salad)</span>
+                  <span class="toc-he">סלט חומוס</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Slatet Homs</span>
+                  <span class="toc-ar">سلاطة حمّص</span>
+                </div>
+              </div>
+              <span class="toc-page">196</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">49</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Shlomit&#x27;s Tomato Salad</span>
+                  <span class="toc-he">סלט העגבניות של שלומית</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Ensalada de Tomate de Shlomit</span>
+                  <span class="toc-ar">سلاطة طماطم شلوميت</span>
+                </div>
+              </div>
+              <span class="toc-page">200</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">50</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Marmouma (Tunisian Cooked Tomato and Pepper Salad)</span>
+                  <span class="toc-he">מרמומה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Marmouma (Ensalada cocida de tomate y pimiento)</span>
+                  <span class="toc-ar">مرمومة</span>
+                </div>
+              </div>
+              <span class="toc-page">204</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">51</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Tirshi (Tunisian Pumpkin Salad)</span>
+                  <span class="toc-he">תירשי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Tirshi (Ensalada Tunecina de Calabaza)</span>
+                  <span class="toc-ar">تيرشي (سلاطة قرع تونسية)</span>
+                </div>
+              </div>
+              <span class="toc-page">208</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">52</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Msiyar (Tunisian Pickled Vegetables)</span>
+                  <span class="toc-he">משייר</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Msiyar (Vegetales Encurtidos Tunecinos)</span>
+                  <span class="toc-ar">مسير (خضرة مخللة تونسية)</span>
+                </div>
+              </div>
+              <span class="toc-page">212</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">53</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Charoset</span>
+                  <span class="toc-he">חרוסת</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Charoset</span>
+                  <span class="toc-ar">حروست</span>
+                </div>
+              </div>
+              <span class="toc-page">216</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">54</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Vegan Caesar Dressing</span>
+                  <span class="toc-he">רוטב קיסר טבעוני</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Aderezo César Vegano</span>
+                  <span class="toc-ar">صوص سيزر نباتي</span>
+                </div>
+              </div>
+              <span class="toc-page">220</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">55</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Shlomit&#x27;s Salad Dressing</span>
+                  <span class="toc-he">רוטב שלומית</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Aderezo de Shlomit</span>
+                  <span class="toc-ar">صوص شلوميت</span>
+                </div>
+              </div>
+              <span class="toc-page">224</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Stuffed &amp; Shaped</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">56</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Mahshi (Stuffed Vegetables)</span>
+                  <span class="toc-he">מחשי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Mahshi (Vegetales Rellenos)</span>
+                  <span class="toc-ar">محشي</span>
+                </div>
+              </div>
+              <span class="toc-page">228</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">57</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Banatage (Stuffed Potato Croquettes)</span>
+                  <span class="toc-he">בונוטאז</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Banatage (Croquetas de Patata Rellenas)</span>
+                  <span class="toc-ar">بناضج</span>
+                </div>
+              </div>
+              <span class="toc-page">232</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">58</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Kouklot (Semolina Dumplings)</span>
+                  <span class="toc-he">קוקלות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Kouklot (Bolas de Sémola)</span>
+                  <span class="toc-ar">كوكلا (كعابر سميد)</span>
+                </div>
+              </div>
+              <span class="toc-page">236</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">59</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Baked Potato Levivot (Latkes)</span>
+                  <span class="toc-he">לביבות תפו&quot;א</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Levivot de Patata al Horno (Latkes)</span>
+                  <span class="toc-ar">ليفيفوت بطاطا في الكوشة</span>
+                </div>
+              </div>
+              <span class="toc-page">240</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">60</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Kishke</span>
+                  <span class="toc-he">קישקע</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Kishke</span>
+                  <span class="toc-ar">كيشكة</span>
+                </div>
+              </div>
+              <span class="toc-page">244</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">61</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Shepherd&#x27;s Pie (North African Style)</span>
+                  <span class="toc-he">פאי רועים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Papa (Estilo Norteafricano)</span>
+                  <span class="toc-ar">صينية بطاطا (Siniyat Batata)</span>
+                </div>
+              </div>
+              <span class="toc-page">248</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Main Dishes - Modern</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">62</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Soy Shawarma</span>
+                  <span class="toc-he">שווארמה סויה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Shawarma de Soja</span>
+                  <span class="toc-ar">شاورما صويا</span>
+                </div>
+              </div>
+              <span class="toc-page">252</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">63</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Schnitzel</span>
+                  <span class="toc-he">שניצל</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Schnitzel</span>
+                  <span class="toc-ar">شنيتسل</span>
+                </div>
+              </div>
+              <span class="toc-page">256</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">64</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Home-Style Tuna Pizza</span>
+                  <span class="toc-he">פיצה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pizza Casera de Atún</span>
+                  <span class="toc-ar">بيتزا</span>
+                </div>
+              </div>
+              <span class="toc-page">260</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Cakes &amp; Sweets</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">65</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chocolate Cake</span>
+                  <span class="toc-he">עוגת שוקולד</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Chocolate</span>
+                  <span class="toc-ar">كيكة شوكولاتة</span>
+                </div>
+              </div>
+              <span class="toc-page">264</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">66</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Mom&#x27;s Honey Cake</span>
+                  <span class="toc-he">עוגת דבש של מאמי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Miel de Mamá</span>
+                  <span class="toc-ar">كيكة العسل متاع مامي</span>
+                </div>
+              </div>
+              <span class="toc-page">268</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">67</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Lior Ben Mosheh&#x27;s Silan (Date Honey) Cake</span>
+                  <span class="toc-he">עוגת דבש (סילאן) ליאור בן משה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Silan (Miel de Dátil) de Lior Ben Mosheh</span>
+                  <span class="toc-ar">كيكة السيلان (الرب) لليور بن موشي</span>
+                </div>
+              </div>
+              <span class="toc-page">272</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">68</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Mocha Java Cake</span>
+                  <span class="toc-he">עוגת מוקה ג&#x27;אווה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Moca Java</span>
+                  <span class="toc-ar">كيكة موكا جافا</span>
+                </div>
+              </div>
+              <span class="toc-page">276</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">69</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Hot Fudge Pudding Cake</span>
+                  <span class="toc-he">עוגת פאדג׳ חמה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Fudge Caliente</span>
+                  <span class="toc-ar">كيكة فادج سخونة</span>
+                </div>
+              </div>
+              <span class="toc-page">280</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">70</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Apple Crumble</span>
+                  <span class="toc-he">קראמבל תפוחים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Crumble de Manzana</span>
+                  <span class="toc-ar">كرامبل تفاح</span>
+                </div>
+              </div>
+              <span class="toc-page">284</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">71</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Banana Cake</span>
+                  <span class="toc-he">עוגת בננות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Banana</span>
+                  <span class="toc-ar">كيكة بالموز</span>
+                </div>
+              </div>
+              <span class="toc-page">288</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">72</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Nougat and Peanut Cake</span>
+                  <span class="toc-he">עוגת נוגט ובוטנים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pastel de Nougat y Cacahuete</span>
+                  <span class="toc-ar">كيكة النوقا والكاكاوية</span>
+                </div>
+              </div>
+              <span class="toc-page">292</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page page--toc">
+    <div class="page-inner toc-page-inner">
+      
+      <div class="toc-body">
+        
+        <div class="toc-category">
+          <div class="toc-category-name">Cakes &amp; Sweets (cont.)</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">73</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Biscuit &amp; Dulce de Leche Cake</span>
+                  <span class="toc-he">עוגת ביסקוויטים ודולצ׳ה דה לצ׳ה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Torta de Galletas con Dulce de Leche</span>
+                  <span class="toc-ar">كعكة البسكويت ودولسي دي ليتشي</span>
+                </div>
+              </div>
+              <span class="toc-page">296</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">74</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Yeast Cake</span>
+                  <span class="toc-he">עוגת שמרים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Bizcocho de Levadura</span>
+                  <span class="toc-ar">كعكة الخميرة</span>
+                </div>
+              </div>
+              <span class="toc-page">300</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">75</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Yoyo (Tunisian Doughnuts)</span>
+                  <span class="toc-he">יויו</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Yoyo (Rosquillas Tunecinas)</span>
+                  <span class="toc-ar">يويو</span>
+                </div>
+              </div>
+              <span class="toc-page">304</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">76</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Sufganiyot (Doughnuts)</span>
+                  <span class="toc-he">סופגניות</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Sufganiyot (Donas)</span>
+                  <span class="toc-ar">سوفغانيوت</span>
+                </div>
+              </div>
+              <span class="toc-page">308</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Cookies, Bars &amp; Snacks</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">77</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Judy&#x27;s Biscotti</span>
+                  <span class="toc-he">ביסקוטי ג׳ודי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Biscotti de Judy</span>
+                  <span class="toc-ar">بيسكوتي جودي</span>
+                </div>
+              </div>
+              <span class="toc-page">312</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">78</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Granola Cookies</span>
+                  <span class="toc-he">עוגיות גרנולה</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Galletas de Granola</span>
+                  <span class="toc-ar">كعك الغرانولا</span>
+                </div>
+              </div>
+              <span class="toc-page">316</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">79</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Toll House Chocolate Chip Cookies</span>
+                  <span class="toc-he">עוגיות שוקולד צ&#x27;יפס</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Galletas con Chispas de Chocolate (Toll House)</span>
+                  <span class="toc-ar">كوكيز بقطع الشوكولاتة</span>
+                </div>
+              </div>
+              <span class="toc-page">320</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">80</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chocolate Peanut Buddy Bars</span>
+                  <span class="toc-he">חטיפי שוקולד וחמאת בוטנים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Barras de Chocolate y Mantequilla de Maní</span>
+                  <span class="toc-ar">بارات الشوكولاتة وزبدة الكاكاوية</span>
+                </div>
+              </div>
+              <span class="toc-page">324</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">81</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chocolate Peanut Butter Muffins</span>
+                  <span class="toc-he">מאפינס שוקולד וחמאת בוטנים</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Muffins de Chocolate y Mantequilla de Maní</span>
+                  <span class="toc-ar">مافنز بالشوكولاتة وزبدة الكاكاوية</span>
+                </div>
+              </div>
+              <span class="toc-page">328</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">82</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Chocolate Balls</span>
+                  <span class="toc-he">כדורי שוקולד</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Bolas de Chocolate</span>
+                  <span class="toc-ar">كعابر شكلاطة</span>
+                </div>
+              </div>
+              <span class="toc-page">332</span>
+            </div>
+          </div>
+        </div>
+        <div class="toc-category">
+          <div class="toc-category-name">Breakfast &amp; Basics</div>
+          <div class="toc-category-items">
+            <div class="toc-entry">
+              <span class="toc-num">83</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Soly&#x27;s Pancakes</span>
+                  <span class="toc-he">פנקייק סולי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Panqueques de Soly</span>
+                  <span class="toc-ar">بانكيك سولي</span>
+                </div>
+              </div>
+              <span class="toc-page">336</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">84</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Efrat&#x27;s Pancakes</span>
+                  <span class="toc-he">פנקייק של אפרת</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Panqueques de Efrat</span>
+                  <span class="toc-ar">بانكيك إفرات</span>
+                </div>
+              </div>
+              <span class="toc-page">340</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">85</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">French Toast (Pain Perdu)</span>
+                  <span class="toc-he">לחם מטוגן</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Tostadas Francesas (Pain Perdu)</span>
+                  <span class="toc-ar">خبز مقلي (Pain Perdu)</span>
+                </div>
+              </div>
+              <span class="toc-page">344</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">86</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Soly&#x27;s Sourdough Bread</span>
+                  <span class="toc-he">לחם מחמצת של סולי</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Pan de Masa Madre de Soly</span>
+                  <span class="toc-ar">خبز بالخميرة متاع سولي</span>
+                </div>
+              </div>
+              <span class="toc-page">348</span>
+            </div>
+            <div class="toc-entry">
+              <span class="toc-num">87</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">Spice Mixes (Pizza, Fries, Egg)</span>
+                  <span class="toc-he">תערובות תבלינים (פיצה, צ&#x27;יפס, ביצה)</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">Mezclas de Especias (Pizza, Papas Fritas, Huevo)</span>
+                  <span class="toc-ar">خلطات فاح (بيتزا، فريت، عظمة)</span>
+                </div>
+              </div>
+              <span class="toc-page">352</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

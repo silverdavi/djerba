@@ -14,77 +14,77 @@
     "en": "Mufleta"
   },
   "description": {
-    "he": "המופלטה היא חביתית מרוקאית דקה ושכבתית המוגשת במימונה, החגיגה המשמחת בסיום חג הפסח. השם מגיע מהערבית המרוקאית למילה מקופלת. חביתיות עדינות וגמישות אלו מטוגנות בשיטת ערימה ייחודית ומוגשות באופן מסורתי חמות עם חמאה ודבש.",
-    "es": "La Mufleta son crepes marroquíes finas y en capas que se sirven durante la Mimouna, la alegre celebración que marca el final de la Pascua. El nombre proviene del árabe marroquí para doblado. Estas crepes delicadas y elásticas se fríen con un método de apilamiento único y se sirven tradicionalmente calientes con mantequilla y miel.",
-    "ar": "الموفليطا هي ورقة رقيقة ومورقة من التراث المغربي، تتقدم في الميمونة، الفرحة اللي تجي بعد عيد الفصح. اسمها جاي من الكلمة العربية مفلطحة أو مطوية. هاد الورقات الرهاف والمجبدين يتقلاو بطريقة خاصة وحدة فوق وحدة، ويتقدمو سخونين مع الزبدة والعسل.",
-    "en": "Mufleta are thin, layered Moroccan crepes served during Mimouna, the joyous celebration marking the end of Passover. The name comes from Moroccan Arabic for folded. These delicate, stretchy crepes are fried in a unique stacking method and traditionally served warm with butter and honey."
+    "he": "המופלטה היא חביתית מרוקאית דקה ושכבתית המוגשת במימונה, החגיגה המשמחת בסיום חג הפסח. השם נגזר מהמילה 'מקופלת' בערבית מרוקאית. החביתיות העדינות והגמישות האלו מטוגנות בשיטת ערימה ייחודית ומוגשות באופן מסורתי כשהן חמות, עם חמאה ודבש.",
+    "es": "Las mufletas son crepes marroquíes finas y en capas que se sirven durante la Mimouna, la alegre celebración que marca el final de Pésaj (la Pascua judía). El nombre proviene de la palabra en árabe marroquí para 'doblado'. Estas crepes delicadas y elásticas se cocinan con un método de apilamiento único y se sirven tradicionalmente calientes con mantequilla y miel.",
+    "ar": "الموفليطا هي ورقة رقيقة ومورقة من التراث المغربي، تتقدم في الميمونة، الاحتفال اللي يجي بعد عيد الفصح. اسمها جاي من كلمة 'مطوية' بالعربي. هالورقات الرهاف والمجبدين يتقلاو بطريقة سبيسيال، كعبة فوق كعبة، ويتقدمو سخان مع الزبدة والعسل.",
+    "en": "Mufletas are thin, layered Moroccan crepes served during Mimouna, the joyous celebration marking the end of Passover. The name comes from the Moroccan Arabic word for 'folded'. These delicate, stretchy crepes are pan-fried using a unique stacking method and traditionally served warm with butter and honey."
   },
   "ingredients": {
     "he": [
-      "500 גרם קמח רגיל",
+      "500 גרם קמח לבן",
       "310 מ\"ל מים",
       "1 כף סוכר",
       "1/2 כף מלח",
       "1 כף שמרים יבשים",
-      "120 מ\"ל שמן צמחי (לציפוי)"
+      "120 מ\"ל שמן צמחי (לשימון)"
     ],
     "es": [
-      "500 g de harina común",
+      "500 g de harina de trigo (todo uso)",
       "310 ml de agua",
       "1 cucharada de azúcar",
       "1/2 cucharada de sal",
       "1 cucharada de levadura seca",
-      "120 ml de aceite vegetal (para cubrir)"
+      "120 ml de aceite vegetal (para engrasar)"
     ],
     "ar": [
       "3.5 كيسان فرينة",
-      "1.25 كاس ماء",
-      "1 مغرفة سكر",
-      "1/2 مغرفة ملح",
-      "1 مغرفة خميرة خبز",
-      "1/2 كاس زيت (للدهن)"
+      "كاس وربع ماء",
+      "مغرفة كبيرة سكر",
+      "شطر مغرفة كبيرة ملح",
+      "مغرفة كبيرة خميرة خبز",
+      "شطر كاس زيت (للدهن)"
     ],
     "en": [
       "3.5 cups all-purpose flour",
       "1.25 cups water",
       "1 tbsp sugar",
-      "0.5 tbsp salt",
+      "1/2 tbsp salt",
       "1 tbsp dry yeast",
-      "0.5 cup vegetable oil (for coating)"
+      "1/2 cup vegetable oil (for coating)"
     ]
   },
   "steps": {
     "he": [
-      "מערבבים את כל חומרי הבצק במיקסר עם וו לישה עד לקבלת תערובת חלקה. הבצק צריך להיות רך ודביק - הוסיפו עוד מים אם הוא יבש. מניחים למנוחה של 15 דקות בטמפרטורת החדר.",
-      "יוצרים כדורים בגודל פינג-פונג ומניחים למנוחה נוספת של 15 דקות. מניחים את הכדורים בקערה עם שמן לציפוי.",
-      "לוקחים כדור אחד בכל פעם ומותחים בידיים משומנות על משטח משומן לעיגול דק בקוטר של כ-25 ס\"מ.",
-      "מחממים מחבת משומנת על אש גבוהה. מניחים את המופלטה הראשונה ומטגנים עד להזהבה. בינתיים מותחים את המופלטה הבאה.",
-      "כשהצד התחתון זהוב, הופכים כך שהצד הזהוב פונה מעלה. מניחים את המופלטה המתוחה הבאה מעל. מטגנים כמה שניות, ואז הופכים את כל הערימה. ממשיכים בשיטת הערימה הזו.",
-      "מגישים חם עם חמאה טבעונית ודבש תמרים או סירופ מייפל."
+      "לשים את כל חומרי הבצק במיקסר עם וו לישה עד לקבלת בצק חלק. הבצק צריך להיות רך ודביק - הוסיפו עוד מים אם הוא יבש מדי. מניחים למנוחה של 15 דקות בטמפרטורת החדר.",
+      "יוצרים מהבצק כדורים בגודל כדור פינג-פונג ומניחים אותם בקערה עם שמן כך שיצופו היטב. מניחים למנוחה נוספת של 15 דקות.",
+      "לוקחים כדור בצק אחד בכל פעם, ובעזרת ידיים משומנות מותחים אותו על משטח עבודה משומן לעיגול דק בקוטר של כ-25 ס\"מ.",
+      "מחממים מחבת משומנת על אש גבוהה. מניחים את המופלטה הראשונה ומטגנים עד להזהבה. בינתיים מותחים את כדור הבצק הבא.",
+      "כשהצד התחתון מזהיב, הופכים את המופלטה. מניחים את המופלטה הבאה (שהרגע מתחנו) על הצד הזהוב. מטגנים מספר שניות, ואז הופכים את כל הערימה. ממשיכים כך בשיטת הערימה.",
+      "מגישים חם עם חמאה טבעונית וסילאן או סירופ מייפל."
     ],
     "es": [
-      "Mezcle todos los ingredientes de la masa en una batidora con gancho para masa hasta que quede suave. La masa debe ser suave y pegajosa; agregue más agua si está seca. Deje reposar 15 minutos a temperatura ambiente.",
-      "Forme bolas del tamaño de una pelota de ping-pong y deje reposar otros 15 minutos. Coloque las bolas en un bol con aceite para cubrirlas.",
-      "Tome una bola a la vez y estírela con las manos aceitadas sobre una superficie aceitada hasta formar un círculo fino de unos 25 cm de diámetro.",
-      "Caliente una sartén aceitada a fuego alto. Coloque la primera Mufleta y fría hasta que esté dorada. Mientras tanto, estire la siguiente.",
-      "Cuando la parte inferior esté dorada, dele la vuelta para que el lado dorado quede hacia arriba. Coloque la siguiente Mufleta estirada encima. Fría unos segundos y luego voltee toda la pila. Continúe con este método de apilamiento.",
-      "Sirva caliente con mantequilla vegana y miel de dátiles o jarabe de arce."
+      "Amase todos los ingredientes en una batidora de pie con el gancho amasador hasta obtener una masa suave. La masa debe quedar blanda y pegajosa; agregue un poco más de agua si está muy seca. Deje reposar 15 minutos a temperatura ambiente.",
+      "Forme bolas del tamaño de una pelota de ping-pong y colóquelas en un bol con aceite para que se cubran bien. Deje reposar otros 15 minutos.",
+      "Tome una bola de masa a la vez y, con las manos aceitadas, estírela sobre una superficie también aceitada hasta formar un círculo muy fino de unos 25 cm de diámetro.",
+      "Caliente una sartén engrasada a fuego alto. Coloque la primera mufleta y cocine hasta que esté dorada. Mientras tanto, estire la siguiente bola de masa.",
+      "Cuando la parte inferior esté dorada, dele la vuelta. Coloque la siguiente mufleta estirada sobre el lado dorado. Cocine unos segundos y luego voltee toda la pila. Continúe con este método de apilamiento.",
+      "Sirva caliente con mantequilla vegana y miel de dátiles (silán) o jarabe de arce."
     ],
     "ar": [
-      "خلط كل مكونات العجينة في العجانة حتى تولي رطبة. العجينة لازم تكون طرية وتتلصق - زيد الماء كان جات شايحة. خليها ترتاح 15 دقيقة.",
-      "كعبر العجينة كعابر صغار قد البينق بونق وخليهم يرتاحو 15 دقيقة اخرى. حط الكعابر في صحفة مع الزيت باش يتغلفو مليح.",
-      "خوذ بالكعبورة وحلها بيدك مدهونة بالزيت فوق رخامة مدهونة حتى تولي ورقة رهيفة مدورة (تقريبا 25 صم).",
-      "سخن طاجين أو مقلة مدهونة بالزيت. حط الموفليطا الأولى واقليها حتى تحمار شوية. في نفس الوقت حل الكعبة اللي بعدها.",
-      "كيف تحمار من لوطة، اقلبها. حط الموفليطا الثانية فوق الجهة المحمرة. اقلي ثواني، ومبعد اقلب العرمة الكل. كمل هكاك وحدة فوق وحدة.",
-      "قدمها سخونة مع زبدة وعسل تمر ولا شحور."
+      "اعجن مكونات العجينة الكل في العجانة حتى تولي رطبة. العجينة لازم تكون طرية وتتلصق شوية - زيدها الماء كان جات شايحة. خليها ترتاح 15 دقيقة في حرارة الغرفة.",
+      "كعبر العجينة كعابر صغار قد كعبة البينق بونق وحطهم في صحفة فيها زيت باش يتغلفو مليح. خليهم يرتاحو 15 دقيقة أخرى.",
+      "خوذ بالكعبورة وحلها بيديك مدهونين بالزيت فوق رخامة مدهونة حتى تولي ورقة رهيفة ومدورة (قطرها 25 صم تقريبا).",
+      "سخن مقلة مدهونة بالزيت على نار قوية. حط الموفليطا الأولى واقليها حتى تولي ذهبية. في نفس الوقت حل الكعبة اللي بعدها.",
+      "كيف تحمار من لوطة، اقلبها. حط الموفليطا الثانية اللي حليتها فوق الجهة المحمرة. اقليها ثواني، ومبعد اقلب العرمة الكل. كمل هكاك كعبة فوق كعبة.",
+      "قدمها سخونة مع زبدة نباتية ورب التمر ولا سيرو ديرابل."
     ],
     "en": [
-      "Mix all dough ingredients in a stand mixer with a dough hook until smooth. The dough should be soft and sticky - add more water if dry. Rest 15 minutes at room temperature.",
-      "Form ping-pong sized balls and rest another 15 minutes. Place balls in a bowl with oil to coat.",
-      "Take one ball at a time and stretch with oiled hands on an oiled surface to a thin circle about 25cm diameter.",
-      "Heat an oiled pan on high heat. Place first mufleta and fry until golden. Meanwhile stretch the next one.",
-      "When the bottom is golden, flip it so golden side faces up. Place the next stretched mufleta on top. Fry a few seconds, then flip the whole stack. Continue this stacking method.",
-      "Serve warm with vegan butter and date honey or maple syrup."
+      "Knead all dough ingredients in a stand mixer with a dough hook until smooth. The dough should be soft and sticky—add more water if it feels dry. Let rest for 15 minutes at room temperature.",
+      "Form the dough into ping-pong-sized balls and place them in a bowl with oil, turning to coat them completely. Let rest for another 15 minutes.",
+      "Working with one ball at a time, use oiled hands to stretch the dough on an oiled surface into a thin circle about 25cm (10 inches) in diameter.",
+      "Heat an oiled pan over high heat. Place the first mufleta in the pan and cook until the bottom is golden. Meanwhile, stretch the next dough ball.",
+      "Flip the first mufleta so the golden side faces up, then immediately place the next stretched mufleta on top. Cook for a few seconds, then flip the entire stack. Continue this stacking method until all the dough is used.",
+      "Serve warm with vegan butter and date syrup (silan) or maple syrup."
     ]
   },
   "index": 65

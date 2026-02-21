@@ -14,8 +14,8 @@
     "en": "Judy's Biscotti"
   },
   "description": {
-    "he": "הביסקוטי של ג׳ודי הן עוגיות רכות שנאפו פעמיים, מושלמות לטבילה בקפה או בתה. המתכון הזה מגיע מג׳ודי, חברה יקרה שחלקה אותו עם משפחתנו. המילה האיטלקית \"ביסקוטי\" פירושה \"אפוי פעמיים\", והיא מתייחסת לשיטה המסורתית של אפיית הבצק פעמיים לקבלת פריכות נוספת.",
-    "es": "Los Biscotti de Judy son galletas tiernas horneadas dos veces, perfectas para mojar en café o té. Esta receta proviene de Judy, una querida amiga que la compartió con nuestra familia. La palabra italiana \"biscotti\" significa \"dos veces cocido\", refiriéndose al método tradicional de hornear la masa dos veces para obtener un crujido extra.",
+    "he": "הביסקוטי של ג׳ודי הן עוגיות רכות שנאפות פעמיים, מושלמות לטבילה בקפה או בתה. המתכון הזה מגיע מג׳ודי, חברה יקרה שחלקה אותו עם משפחתנו. המילה האיטלקית \"ביסקוטי\" פירושה \"אפוי פעמיים\", והיא מתייחסת לשיטה המסורתית של אפיית הבצק פעמיים לקבלת פריכות מרבית.",
+    "es": "Los Biscotti de Judy son galletas tiernas horneadas dos veces, perfectas para mojar en café o té. Esta receta proviene de Judy, una querida amiga que la compartió con nuestra familia. La palabra italiana \"biscotti\" significa \"dos veces cocido\", refiriéndose al método tradicional de hornear la masa dos veces para obtener un toque extra crujiente.",
     "ar": "البيسكوتي متاع جودي هو بشكوطو طري يطيب مرتين، وبنين برشا للتغميس في القهوة ولا التاي. الوصفة هاذي جاتنا من عند جودي، صديقة عزيزة عطاتها لعايلتنا. الكلمة الطليانية \"بيسكوتي\" تعني \"طاب مرتين\"، وهي ترمز للطريقة التقليدية باش تطيب العجينة مرتين باش تتقرمش مليح.",
     "en": "Judy's Biscotti are tender, twice-baked cookies perfect for dipping in coffee or tea. This recipe comes from Judy, a dear friend who shared it with our family. The Italian word \"biscotti\" means \"twice-baked\", referring to the traditional method of baking the dough twice for extra crunch."
   },
@@ -25,30 +25,30 @@
       "200 גרם סוכר לבן",
       "200 גרם סוכר חום",
       "10 מ\"ל תמצית וניל",
-      "420 גרם קמח רגיל, מנופה",
+      "420 גרם קמח לבן, מנופה",
       "5 גרם סודה לשתייה",
       "5 גרם מלח",
       "170 גרם שוקולד צ'יפס (פרווה)"
     ],
     "es": [
-      "240 ml de aceite vegetal (neutro como canola)",
-      "200 g de azúcar blanca",
-      "200 g de azúcar morena",
+      "240 ml de aceite vegetal (neutro, como el de canola)",
+      "200 g de azúcar blanco",
+      "200 g de azúcar moreno",
       "10 ml de extracto de vainilla",
-      "420 g de harina común, tamizada",
+      "420 g de harina de trigo común, tamizada",
       "5 g de bicarbonato de sodio",
       "5 g de sal",
       "170 g de chispas de chocolate (sin lácteos)"
     ],
     "ar": [
-      "1 كأس زيت نباتي (زيت عباد الشمس)",
-      "1 كأس سكر أبيض",
-      "1 كأس سكر أسمر",
+      "1 كاس زيت نباتي (كيما زيت القطانية)",
+      "1 كاس سكر أبيض",
+      "1 كاس سكر أسمر",
       "2 مغارف صغار فانيليا",
-      "3.5 كيسان فرينة، منخولة",
+      "3 كيسان ونص فرينة، مغربلة",
       "1 مغرفة صغيرة بيكربونات",
       "1 مغرفة صغيرة ملح",
-      "1 كأس حبيبات شوكولاتة (بدون حليب)"
+      "1 كاس بيبيت شوكولا (حبيبات الشوكولاتة بدون حليب)"
     ],
     "en": [
       "1 cup vegetable oil (neutral oil like canola)",
@@ -72,19 +72,19 @@
     ],
     "es": [
       "Precalentar el horno a 180°C.",
-      "En un bol grande, mezclar el aceite, el azúcar blanca, el azúcar morena, la vainilla, la harina, el bicarbonato y la sal hasta integrar.",
-      "Añadir las chispas de chocolate y mezclar para distribuir. No se alarme si la masa se siente grumosa; esa es la textura deseada.",
-      "Formar dos (o más) troncos con la masa y colocarlos en una bandeja para hornear. Presione la masa firmemente para ayudar a que los troncos mantengan su forma.",
+      "En un bol grande, mezclar el aceite, el azúcar blanco, el azúcar moreno, la vainilla, la harina, el bicarbonato y la sal hasta integrar.",
+      "Añadir las chispas de chocolate y mezclar para distribuir. No se preocupe si la masa se siente desmenuzable; esa es la textura deseada.",
+      "Formar dos (o más) troncos con la masa y colocarlos en una bandeja para hornear. Presionar la masa firmemente para ayudar a que los troncos mantengan su forma.",
       "Hornear de 20 a 30 minutos hasta que los troncos estén dorados.",
-      "Dejar enfriar los troncos ligeramente, luego cortar en rebanadas mientras aún están tibios. Si se enfrían completamente, pueden desmoronarse al cortar."
+      "Dejar enfriar los troncos ligeramente, luego cortarlos en rebanadas mientras aún están tibios. Si se enfrían completamente, pueden desmoronarse al cortar."
     ],
     "ar": [
-      "سخن الفور (الكوشة) على 180 درجة.",
-      "في صحفة كبيرة، خلط الزيت، والسكر الأبيض، والسكر الأسمر، والفانيليا، والفرينة، والبيكربونات، والملح حتى يتخلطوا مليح.",
-      "زيد حبيبات الشوكولاتة وخلط. ما تخافش كان العجينة جاتك مفرتتة، هكاكة لازم تكون.",
-      "شكل العجينة زوز \"بودانات\" (حرابيش) وحطهم في طبق الفور. انزل على العجينة مليح باش البودانات يشدوا فورم.",
-      "طيبهم في الفور بين 20 و 30 دقيقة حتى يحماروا شوية.",
-      "خلي البودانات يبردوا شوية، ومبعد قصهم طروف وهوما مازالوا دافيين. كان تخليهم يبردوا برشا، ينجموا يتفتفتوا كي تجي تقصهم."
+      "سخن الفور على 180 درجة.",
+      "في صحفة كبيرة، خلط الزيت، السكر الأبيض، السكر الأسمر، الفانيليا، الفرينة، البيكربونات والملح حتى يتجانسوا.",
+      "زيد البيبيت شوكولا وخلط. ما تخافش كان العجينة جاتك تتفتفت، هكاكة لازم تكون.",
+      "شكل العجينة زوز حرابيش (بودانات) وحطهم في طبق الفور. انزل على العجينة مليح باش الحرابيش يشدوا الفورمة متاعهم.",
+      "طيبهم في الفور بين 20 و 30 دقيقة حتى يحماروا وياخذوا لون ذهبي.",
+      "خلي الحرابيش يبردوا شوية، ومبعد قصهم طروف وهوما مازالوا دافيين. كان تخليهم يبردوا على اللخر، ينجموا يتفتفتوا كي تجي تقصهم."
     ],
     "en": [
       "Preheat the oven to 180°C (350°F).",

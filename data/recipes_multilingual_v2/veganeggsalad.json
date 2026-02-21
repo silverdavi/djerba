@@ -4,7 +4,7 @@
   "meta": {
     "servings": "4",
     "prep_time": "10 min",
-    "cook_time": "0 min",
+    "cook_time": "No cook",
     "difficulty": "Easy"
   },
   "name": {
@@ -14,77 +14,77 @@
     "en": "Vegan Egg Salad"
   },
   "description": {
-    "he": "פרשנות צמחית זו לסלט הביצים הקלאסי מסתמכת על הקסם של קאלה נמק. מינרל זה, הידוע גם כמלח שחור הימלאי, מספק את הניחוח הגופרתי הייחודי החיוני למנה. טופו מפורר מחליף את הביצים הקשות בצורה מושלמת, וסופג את הכורכום והמיונז העשיר ליצירת טעם נוסטלגי אהוב.",
-    "es": "Esta interpretación vegetal de la clásica ensalada de huevo se basa en la magia de la kala namak. También conocida como sal negra del Himalaya, este mineral proporciona el aroma sulfuroso distintivo esencial para el plato. El tofu desmenuzado reemplaza perfectamente a los huevos duros, absorbiendo la vibrante cúrcuma y la rica mayonesa para un favorito nostálgico.",
-    "ar": "هالتفسير النباتي لسلاطة العظم الكلاسيكية يعتمد على سحر الكالا ناماك. هالمعدن، المعروف زادة باسم الملح الأكحل متاع الهيمالايا، يعطي ريحة الكبريت المميزة اللي لازمة للصحن. التوفو المفتفت يعوض العظم المسموط بالظبط، ويشرب الكركم والميونيز باش يعطي بنة زمنية محبوبة.",
-    "en": "This plant-based interpretation of classic egg salad relies on the magic of kala namak. Also known as Himalayan black salt, this mineral provides the distinctive sulfurous aroma essential to the dish. Crumbled tofu replaces the boiled eggs perfectly, absorbing the vibrant turmeric and rich mayonnaise for a nostalgic deli favorite."
+    "he": "גרסה טבעונית זו לסלט הביצים הקלאסי מבוססת על הקסם של מלח קאלה נמק. מינרל זה, הידוע גם כמלח הודי שחור, מעניק למנה את הארומה הגופרתית הייחודית וההכרחית. טופו מפורר מחליף את הביצים הקשות בצורה מושלמת, וסופג את צבעו של הכורכום ואת המיונז העשיר ליצירת הטעם הנוסטלגי והאהוב.",
+    "es": "Esta versión a base de plantas de la clásica ensalada de huevo se basa en la magia de la sal kala namak. También conocida como sal negra del Himalaya, este mineral aporta el distintivo aroma sulfuroso que es esencial para el plato. El tofu desmenuzado reemplaza a la perfección los huevos duros, absorbiendo el vibrante color de la cúrcuma y la rica mayonesa para recrear este clásico nostálgico.",
+    "ar": "هالنسخة النباتية لسلاطة العظم الكلاسيكية تعتمد على سحر ملح الكالا ناماك. هالمعدن، المعروف زادة بالملح الأكحل متاع الهيمالايا، يعطي ريحة الكبريت المميزة والضرورية للوصفة. التوفو المفتفت يعوّض العظم المسموط قد قد، ويشرب لون الكركم والميونيز باش يعطينا هالبنة الزمنية المحبوبة.",
+    "en": "This plant-based take on the classic egg salad relies on the magic of kala namak. Also known as Himalayan black salt, this mineral provides the distinctive sulfurous aroma essential to the dish. Crumbled tofu perfectly replaces boiled eggs, absorbing the vibrant turmeric and rich mayonnaise to recreate a nostalgic deli favorite."
   },
   "ingredients": {
     "he": [
       "400 גרם טופו קשה במיוחד, סחוט ומפורר",
       "2.3 גרם פפריקה",
-      "8 גרם שמרים תזונתיים",
-      "3 גרם קאלה נמק (מלח שחור)",
+      "8 גרם שמרים תזונתיים (שמרי בירה)",
+      "3 גרם מלח קאלה נמק (מלח שחור)",
       "0.6 גרם פלפל שחור",
       "0.8 גרם כורכום",
       "45 גרם מיונז טבעוני",
-      "2 בצלים ירוקים, קצוצים"
+      "2 גבעולי בצל ירוק, קצוצים"
     ],
     "es": [
       "400 g de tofu extra firme, prensado y desmenuzado",
       "2.3 g de pimentón",
       "8 g de levadura nutricional",
-      "3 g de kala namak (sal negra)",
+      "3 g de sal kala namak (sal negra)",
       "0.6 g de pimienta negra",
       "0.8 g de cúrcuma",
       "45 g de mayonesa vegana",
-      "2 cebollas verdes, picadas"
+      "2 tallos de cebolla verde (cebollín), picados"
     ],
     "ar": [
-      "1.7 كاس توفو يابس، معصور ومفتفت",
+      "1.7 كاس توفو يابس برشا، معصور ومفتفت",
       "1 مغرفة صغيرة فلفل زينة",
-      "2 مغارف خميرة غذائية",
-      "شطر مغرفة صغيرة كالا ناماك (ملح أكحل)",
+      "2 مغارف كبار خميرة غذائية",
+      "شطر مغرفة صغيرة ملح كالا ناماك (ملح أكحل)",
       "ربع مغرفة صغيرة فلفل أكحل",
       "ربع مغرفة صغيرة كركم",
-      "3 مغارف مايونيز نباتي",
-      "2 بصلات خضر، مقصوصين"
+      "3 مغارف كبار مايونيز نباتي",
+      "2 عروق بصل أخضر، مقصوصين جويد"
     ],
     "en": [
-      "1.7 cups extra-firm tofu, pressed and crumbled",
+      "1 3/4 cups extra-firm tofu, pressed and crumbled",
       "1 tsp paprika",
       "2 tbsp nutritional yeast",
-      "0.5 tsp kala namak (black salt)",
-      "0.25 tsp black pepper",
-      "0.25 tsp turmeric",
+      "1/2 tsp kala namak (black salt)",
+      "1/4 tsp black pepper",
+      "1/4 tsp turmeric",
       "3 tbsp vegan mayonnaise",
       "2 green onions, chopped"
     ]
   },
   "steps": {
     "he": [
-      "סחטו את הטופו כדי להוציא נוזלים עודפים, ואז פוררו אותו לקערה.",
-      "הוסיפו פפריקה, שמרים תזונתיים, קאלה נמק, פלפל שחור וכורכום. ערבבו היטב.",
-      "הוסיפו את המיונז הטבעוני והבצל הירוק אם משתמשים. ערבבו עד לאיחוד.",
+      "סחטו את הטופו כדי להוציא נוזלים עודפים, ופוררו אותו לתוך קערה.",
+      "הוסיפו את הפפריקה, השמרים התזונתיים, מלח הקאלה נמק, הפלפל השחור והכורכום. ערבבו היטב.",
+      "הוסיפו את המיונז הטבעוני ואת הבצל הירוק (אם משתמשים). ערבבו עד לקבלת תערובת אחידה.",
       "טעמו ותקנו תיבול. הגישו על לחם או עם קרקרים."
     ],
     "es": [
-      "Prense el tofu para eliminar el exceso de agua, luego desmenúcelo en un tazón.",
-      "Añada el pimentón, la levadura nutricional, la kala namak, la pimienta negra y la cúrcuma. Mezcle bien.",
-      "Añada la mayonesa vegana y la cebolla verde si la usa. Mezcle hasta combinar.",
-      "Pruebe y ajuste los condimentos. Sirva sobre pan o con galletas saladas."
+      "Prense el tofu para eliminar el exceso de líquido y desmenúcelo en un tazón.",
+      "Agregue el pimentón, la levadura nutricional, la sal kala namak, la pimienta negra y la cúrcuma. Mezcle bien.",
+      "Incorpore la mayonesa vegana y la cebolla verde (si la usa). Mezcle hasta integrar por completo.",
+      "Pruebe y ajuste la sazón. Sirva sobre pan o con galletas saladas."
     ],
     "ar": [
-      "اعصر التوفو باش تنحي الماء الزايد، ومبعد فتفته في صحفة.",
-      "زيد فلفل الزينة، الخميرة الغذائية، الكالا ناماك، الفلفل الأكحل والكركم. خلط مليح.",
-      "زيد المايونيز النباتي والبصل الأخضر كان تحب. خلط لين يتجانس الخليط.",
-      "ذوق وعدّل الفواح. قدمها فوق الخبز ولا مع البشكوطو المالح."
+      "اعصر التوفو مليح باش تنحي منو الماء الزايد، ومبعد فتفتو في صحفة.",
+      "زيد فلفل الزينة، الخميرة الغذائية، ملح الكالا ناماك، الفلفل الأكحل والكركم. وخلط مليح.",
+      "زيد المايونيز النباتي والبصل الأخضر (كان تحب تستعملو). خلط المكونات الكل لين تتجانس.",
+      "ذوق وعدّل الملح والفواح. قدمها فوق الخبز ولا مع كراكرز (بشكوطو مالح)."
     ],
     "en": [
-      "Press tofu to remove excess water, then crumble into a bowl.",
-      "Add paprika, nutritional yeast, kala namak, black pepper, and turmeric. Mix well.",
-      "Add vegan mayo and green onion if using. Mix until combined.",
-      "Taste and adjust seasonings. Serve on bread or with crackers."
+      "Press the tofu to remove excess liquid, then crumble it into a bowl.",
+      "Add the paprika, nutritional yeast, kala namak, black pepper, and turmeric. Mix well.",
+      "Add the vegan mayonnaise and green onions (if using). Mix until well combined.",
+      "Taste and adjust the seasoning. Serve on bread or with crackers."
     ]
   },
   "index": 39

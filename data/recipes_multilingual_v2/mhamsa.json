@@ -9,47 +9,47 @@
   },
   "name": {
     "he": "מחמסה",
-    "es": "Mhamsa (Perlas de Pasta Tunecina)",
+    "es": "Mhamsa (Perlas de pasta tunecina)",
     "ar": "محمصة",
     "en": "Mhamsa (Tunisian Pasta Pearls)"
   },
   "description": {
-    "he": "מחמסה מגיעה מהמילה הערבית לקלייה, המתייחסת לשיטה המסורתית לייבוש פניני הסולת. מנה ג'רבאית זו היא טבעונית מטבעה וכוללת פסטה המבושלת ברוטב עגבניות וירקות עשיר. זוהי ארוחה מנחמת ומשביעה המושלמת ללילות חורף קרים.",
-    "es": "Mhamsa proviene de la palabra árabe para tostar, que se refiere al método tradicional de secar las perlas de sémola. Este plato básico de Djerba es naturalmente vegano y presenta pasta cocida a fuego lento en una rica salsa de tomate y verduras. Ofrece una comida reconfortante y abundante, perfecta para las frías noches de invierno.",
-    "ar": "المحمصة جاية من كلمة التحميص، اللي هي الطريقة التقليدية لتجفيف كعبات السميد. هالأكلة الجربية نباتية بطبيعتها وفيها مقرونة طايبة في مرقة طماطم وخضرة بنينة. هي وجبة دافية وتشبع، مثالية لليالي الشتاء الباردة.",
-    "en": "Mhamsa comes from the Arabic word for toasting which refers to the traditional method of drying semolina pearls. This Djerban staple is naturally vegan and features pasta simmered in a rich tomato and vegetable sauce. It offers a comforting and hearty meal perfect for cold winter nights."
+    "he": "השם מחמסה מגיע מהמילה הערבית לקלייה, המתייחסת לשיטה המסורתית לייבוש פניני הסולת. מנה ג'רבאית זו טבעונית מטבעה וכוללת פסטה המבושלת ברוטב עגבניות וירקות עשיר. זוהי ארוחה מנחמת ומשביעה, המושלמת ללילות חורף קרים.",
+    "es": "El nombre Mhamsa proviene de la palabra árabe para 'tostar', que se refiere al método tradicional de secar las perlas de sémola. Este plato tradicional de Yerba es naturalmente vegano y consiste en pasta cocinada a fuego lento en una rica salsa de tomate y verduras. Es una comida reconfortante y sustanciosa, perfecta para las frías noches de invierno.",
+    "ar": "كلمة محمصة جاية من التحميص، وهي الطريقة التقليدية لتجفيف كعبات السميد. هالأكلة الجربية نباتية بطبيعتها وفيها محمصة طايبة في صوص طماطم وخضرة بنينة. هي وجبة دافية وتشبع، وتواتي برشا ليالي الشتاء الباردة.",
+    "en": "Mhamsa comes from the Arabic word for toasting, which refers to the traditional method of drying semolina pearls. This Djerban staple is naturally vegan and features pasta simmered in a rich tomato and vegetable sauce. It offers a comforting and hearty meal perfect for cold winter nights."
   },
   "ingredients": {
     "he": [
-      "45 מ\"ל שמן צמחי (לטיגון)",
-      "1 בצל, קצוץ לקוביות",
-      "7 גרם פפריקה מתוקה",
+      "3 כפות שמן צמחי (לטיגון)",
+      "1 בצל, חתוך לקוביות",
+      "1 כף פפריקה מתוקה",
       "2 עגבניות, קצוצות",
-      "150 גרם ירקות העונה, חתוכים לקוביות (תפוחי אדמה, גזר או קישוא)",
-      "300 גרם פתיתים (מחמסה)",
-      "מים רותחים (לכיסוי ויצירת רוטב)",
+      "1 כוס ירקות העונה, חתוכים לקוביות (תפוחי אדמה, גזר או קישואים)",
+      "2 כוסות פתיתים (מחמסה)",
+      "מים רותחים (לכיסוי ולהכנת הרוטב)",
       "מלח לפי הטעם",
       "פלפל שחור לפי הטעם"
     ],
     "es": [
-      "45 ml de aceite vegetal (para freír)",
-      "1 cebolla, cortada en cubitos",
-      "7 g de pimentón dulce",
+      "3 cucharadas de aceite vegetal (para freír)",
+      "1 cebolla, picada en cubitos",
+      "1 cucharada de pimentón dulce",
       "2 tomates, picados",
-      "150 g de verduras de temporada, en cubitos (papas, zanahorias o calabacín)",
-      "300 g de Ptitim (Mhamsa / Cuscús israelí)",
-      "Agua hirviendo (suficiente para cubrir y crear salsa)",
+      "1 taza de verduras de temporada, en cubitos (papas, zanahorias o calabacín)",
+      "2 tazas de Ptitim (Mhamsa / cuscús israelí)",
+      "Agua hirviendo (suficiente para cubrir y formar la salsa)",
       "Sal al gusto",
       "Pimienta negra al gusto"
     ],
     "ar": [
-      "3 مغارف زيت نباتي (للقلي)",
-      "1 بصلة، مقصوصة",
-      "1 مغرفة فلفل أحمر (بابريكا)",
-      "2 كعبات طماطم، مقصوصين",
-      "1 كأس خضرة في وقتها، مقصوصة (بطاطا، سفنارية، ولا قرع)",
-      "2 كيسان محمصة (Ptitim)",
-      "ماء سخون (باش نغطيو ونعملو مرقة)",
+      "3 مغارف كبار زيت نباتي (للقلي)",
+      "بصلة، مقصوصة جويدة",
+      "مغرفة كبيرة فلفل زينة (أحمر)",
+      "زوز كعبات طماطم، مقصوصين",
+      "كاس خضرة متاع الموسم، مقصوصة مكعبات (بطاطا، سفنارية، ولا قرع بوطزينة)",
+      "زوز كيسان محمصة (Ptitim)",
+      "ماء يغلي (باش نمرقو بيه)",
       "ملح حسب الذوق",
       "فلفل أكحل حسب الذوق"
     ],
@@ -60,43 +60,43 @@
       "2 tomatoes, chopped",
       "1 cup seasonal vegetables, diced (potatoes, carrots, or zucchini)",
       "2 cups Ptitim (Israeli Couscous / Mhamsa)",
-      "Boiling water (enough to cover and create sauce)",
+      "Boiling water (enough to cover and create a sauce)",
       "Salt to taste",
       "Black pepper to taste"
     ]
   },
   "steps": {
     "he": [
-      "מחממים את השמן בסיר ומטגנים את הבצל הקצוץ עד שהוא מתחיל להשחים (להתקרמל).",
-      "מוסיפים את כף הפפריקה המתוקה ומערבבים מספר שניות לפתיחת הטעמים (נזהרים לא לשרוף).",
-      "מוסיפים מיד את העגבניות הקצוצות ואת הירקות שבחרתם. מתבלים במלח ופלפל שחור.",
-      "יוצקים פנימה מים רותחים. למרקם מרקי יותר, משתמשים ביותר מים; לתבשיל סמיך, פחות. מביאים לרתיחה.",
-      "מוסיפים את הפתיתים (מחמסה). מביאים שוב לרתיחה ואז מנמיכים את האש.",
-      "מכסים את הסיר חלקית ומבשלים כ-12 דקות עד שהפסטה והירקות רכים. מערבבים מדי פעם כדי למנוע הידבקות."
+      "מחממים שמן בסיר ומטגנים את הבצל עד שהוא מתחיל להזהיב ולהתקרמל.",
+      "מוסיפים את הפפריקה המתוקה ומערבבים מספר שניות לפתיחת הטעמים (נזהרים לא לשרוף).",
+      "מוסיפים מיד את העגבניות הקצוצות ואת הירקות. מתבלים במלח ובפלפל שחור.",
+      "יוצקים פנימה מים רותחים. למרקם דמוי מרק, משתמשים ביותר מים; לתבשיל סמיך יותר, שמים פחות. מביאים לרתיחה.",
+      "מוסיפים את הפתיתים (המחמסה). מביאים שוב לרתיחה ומנמיכים את האש.",
+      "מכסים את הסיר חלקית ומבשלים עד שהפתיתים והירקות רכים. מערבבים מדי פעם כדי למנוע הידבקות."
     ],
     "es": [
-      "Caliente el aceite en una olla y sofría la cebolla picada hasta que empiece a dorarse (caramelizarse).",
-      "Añada la cucharada de pimentón dulce y remueva unos segundos para liberar el aroma (con cuidado de no quemarlo).",
-      "Agregue inmediatamente los tomates picados y las verduras elegidas. Sazone con sal y pimienta negra.",
-      "Vierta agua hirviendo. Para una consistencia más caldosa, use más agua; para un guiso, use menos. Lleve a ebullición.",
-      "Añada los Ptitim (Mhamsa). Vuelva a llevar a ebullición y luego baje el fuego.",
-      "Cubra la olla parcialmente y cocine hasta que la pasta y las verduras estén tiernas. Remueva de vez en cuando para evitar que se peguen."
+      "Caliente el aceite en una olla y sofría la cebolla picada hasta que empiece a dorarse.",
+      "Añada el pimentón dulce y remueva unos segundos para que libere su aroma (con cuidado de no quemarlo).",
+      "Agregue inmediatamente los tomates picados y las verduras. Sazone con sal y pimienta negra.",
+      "Vierta el agua hirviendo. Para una consistencia más caldosa, use más agua; para un guiso más espeso, use menos. Lleve a ebullición.",
+      "Añada la Mhamsa (o Ptitim). Vuelva a llevar a ebullición y luego baje el fuego.",
+      "Cubra la olla parcialmente y cocine a fuego lento hasta que la pasta y las verduras estén tiernas. Remueva de vez en cuando para evitar que se pegue."
     ],
     "ar": [
-      "نسخنو الزيت في طنجرة ونقليو البصل المقصوص لين يبدا يحمار (يتكرمل).",
-      "نزيدو مغرفة الفلفل الأحمر ونحركو شوية باش تخرج ريحتو (رد بالك يتحرق).",
-      "فيسع نزيدو الطماطم المقصوصة والخضرة اللي اخترتها. نفوحو بالملح والفلفل الأكحل.",
-      "نمرقو بالماء السخون. كان تحبها جارية زيد الماء، وكان تحبها عاقدة نقص. نخليوها تغلي.",
-      "نرميو المحمصة. نخليوها تغلي مرة أخرى ومبعد نقصو النار.",
-      "نغطيو الطنجرة نص طياب ونخليوها تطيب لين المحمصة والخضرة يطراو. نحركو مرة مرة باش ما تلصقش."
+      "نسخنو الزيت في طنجرة ونقليو البصل لين يذبال ويبدا يحمار.",
+      "نزيدو الفلفل زينة ونحركو ثواني باش يسيب مطعمو (رد بالك يتحرق).",
+      "نزيدو فيسع الطماطم المقصوصة والخضرة. نفوحو بالملح والفلفل الأكحل.",
+      "نمرقو بالماء اللي يغلي. كان تحبها جارية كي الشربة كثر الماء، وكان تحبها عاقدة نقص. نخليوها تغلي.",
+      "نرميو المحمصة. نخليوها تغلي مرة أخرى ومبعد نقصو في النار.",
+      "نغطيو الطنجرة ونخليوها منفسة شوية، ونخليوها تطيب لين المحمصة والخضرة يطراو. نحركو مرة بعد مرة باش ما تلصقش."
     ],
     "en": [
-      "Heat the oil in a pot and fry the diced onion until it begins to brown (caramelize).",
-      "Add the tablespoon of sweet paprika and stir for a few seconds to release the aroma (be careful not to burn it).",
-      "Immediately add the chopped tomatoes and your chosen vegetables. Season with salt and black pepper.",
-      "Pour in boiling water. For a soupier consistency, use more water; for a stew, use less. Bring to a boil.",
-      "Add the Ptitim (Mhamsa). Bring back to a boil, then lower the heat.",
-      "Cover the pot partially and cook until the pasta and vegetables are tender. Stir occasionally to prevent sticking."
+      "Heat the oil in a pot and sauté the diced onion until it begins to brown and caramelize.",
+      "Add the sweet paprika and stir for a few seconds to release the aroma (be careful not to burn it).",
+      "Immediately add the chopped tomatoes and vegetables. Season with salt and black pepper.",
+      "Pour in the boiling water. For a soupier consistency, use more water; for a thicker stew, use less. Bring to a boil.",
+      "Add the Ptitim (Mhamsa). Bring back to a boil, then reduce the heat to low.",
+      "Cover the pot partially and simmer until the pasta and vegetables are tender. Stir occasionally to prevent sticking."
     ]
   },
   "index": 26

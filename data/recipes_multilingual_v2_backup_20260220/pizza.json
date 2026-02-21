@@ -1,0 +1,111 @@
+{
+  "id": "pizza",
+  "image": "images/current/pizza/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פיצה",
+    "es": "Pizza Casera de Atún",
+    "ar": "بيتزا",
+    "en": "Home-Style Tuna Pizza"
+  },
+  "description": {
+    "he": "פיצה ביתית בסגנון טוניסאי, או פיצה טוניזיאן, משקפת את ההשפעה האיטלקית על המטבח הצפון אפריקאי. בעוד שהשם מרמז על מקורות איטלקיים שמשמעותם נגיסה, גרסה טבעונית זו מחליפה את הדג המסורתי בגרגירי חומוס מעוכים ואצות נורי. הרוטב משתמש בטריק ישראלי קלאסי של אבקת מרק לטעם עמוק.",
+    "es": "La Pizza Casera de Atún, o Pizza Tunisienne, refleja la influencia italiana en la cocina norteafricana. Aunque el nombre implica orígenes italianos que significan bocado, esta adaptación vegana reemplaza el pescado tradicional con garbanzos machacados y nori. La salsa utiliza un truco clásico israelí de caldo en polvo para un sabor profundo.",
+    "ar": "بيتزا الدار بالتون، ولا بيتزا تونسيان، توري التأثير الطلياني على الكوجينة متاع شمال إفريقيا. الكلمة أصلها طلياني وتعني لقمة، وهالنسخة النباتية تبدل الحوت التقليدي بالحمص المعبز والنوري. الصالصة تستعمل أستوس إسرائيلي معروف بمرقة دجاج غبرة باش تعطي بنة قوية.",
+    "en": "Home-Style Tuna Pizza, or Pizza Tunisienne, reflects the Italian influence on North African cuisine. While the name implies Italian origins meaning \"bite\", this vegan adaptation replaces traditional fish with savory smashed chickpeas and nori. The sauce uses a classic Israeli hack of bouillon powder for deep flavor."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם בצק לחם (או בצק פיצה טבעוני)",
+      "100 גרם רסק עגבניות",
+      "60 מ\"ל מים",
+      "30 מ\"ל שמן זית",
+      "4 גרם אבקת מרק בטעם עוף (פרווה)",
+      "3 גרם אבקת שום",
+      "1 גרם אורגנו יבש",
+      "200 גרם גרגירי חומוס מבושלים, מעוכים גס",
+      "1 דף אצת נורי, מפורר דק",
+      "15 גרם צלפים, קצוצים (אופציונלי)",
+      "50 גרם זיתים ירוקים או שחורים, פרוסים"
+    ],
+    "es": [
+      "500 g de masa de pan (o masa de pizza vegana)",
+      "100 g de pasta de tomate",
+      "60 ml de agua",
+      "30 ml de aceite de oliva",
+      "4 g de caldo sabor pollo vegano en polvo",
+      "3 g de ajo en polvo",
+      "1 g de orégano seco",
+      "200 g de garbanzos cocidos, machacados",
+      "1 hoja de alga nori, desmenuzada finamente",
+      "15 g de alcaparras, picadas (opcional)",
+      "50 g de aceitunas verdes o negras, en rodajas"
+    ],
+    "ar": [
+      "2 كيسان عجينة خبز (أو عجينة بيتزا نباتية)",
+      "6 مغارف طماطم حكة",
+      "ربع كاس ماء",
+      "2 مغارف زيت زيتونة",
+      "1 مغرفة صغيرة مرقة دجاج غبرة (نباتي)",
+      "1 مغرفة صغيرة ثوم مرحي",
+      "1 مغرفة صغيرة زعتر شايح",
+      "كاس ونص حمص طايب، معبز شوية",
+      "1 ورقة نوري، مفتفتة مليح",
+      "1 مغرفة كبار، مقصوص (اختياري)",
+      "ثلث كاس زيتون أخضر ولا أكحل، مقصوص"
+    ],
+    "en": [
+      "2 cups bread dough (or vegan pizza dough)",
+      "6 tbsp tomato paste",
+      "1/4 cup water",
+      "2 tbsp olive oil",
+      "1 tsp vegan chicken-style bouillon powder",
+      "1 tsp garlic powder",
+      "1 tsp dried oregano",
+      "1.5 cups cooked chickpeas, roughly mashed",
+      "1 sheet nori seaweed sheet, finely crumbled",
+      "1 tbsp capers, chopped (optional)",
+      "1/3 cup green or black olives, sliced"
+    ]
+  },
+  "steps": {
+    "he": [
+      "לחמם תנור ל-200 מעלות צלזיוס. לרפד תבנית אפייה בנייר אפייה.",
+      "לרדד את בצק הלחם על התבנית המוכנה לעובי הרצוי.",
+      "בקערה קטנה, לערבב את רסק העגבניות, מים, שמן זית, אבקת המרק, אבקת שום, אורגנו וקורט מלח ליצירת רוטב חלק. אם הרוטב סמיך מדי, להוסיף מעט מים.",
+      "למרוח את הרוטב באופן אחיד על הבצק.",
+      "לפזר את תערובת החומוס (תחליף הטונה) והזיתים הפרוסים על הרוטב.",
+      "לאפות במשך 15-20 דקות, או עד שהקרום זהוב ופריך."
+    ],
+    "es": [
+      "Precalentar el horno a 200°C. Cubrir una bandeja para hornear con papel pergamino.",
+      "Estirar la masa de pan sobre la bandeja preparada hasta obtener el grosor deseado.",
+      "En un tazón pequeño, mezclar la pasta de tomate, agua, aceite de oliva, caldo en polvo, ajo en polvo, orégano y una pizca de sal para crear una salsa suave. Si la salsa está muy espesa, añadir un poco más de agua.",
+      "Esparcir la salsa uniformemente sobre la masa.",
+      "Distribuir la mezcla de garbanzos (sustituto del atún) y las aceitunas en rodajas sobre la salsa.",
+      "Hornear durante 15-20 minutos, o hasta que la corteza esté dorada y crujiente."
+    ],
+    "ar": [
+      "سخن الفور لـ 200 درجة. فرش طبق الفور بورق طبخ.",
+      "حل عجينة الخبز فوق الطبق باش تجي بالعلو اللي تحب عليه.",
+      "في صحفة صغيرة، خلط طماطم الحكة، الماء، زيت الزيتونة، مرقة الدجاج غبرة، الثوم المرحي، الزعتر، ورشة ملح باش تعمل صالصة رطبة. كان جات عاقدة برشا، زيد شوية ماء.",
+      "ادهن الصالصة بالقدى فوق العجينة.",
+      "رش خليط الحمص (في بلاصة التون) والزيتون المقصوص فوق الصالصة.",
+      "طيبها في الفور لمدة 15-20 دقيقة، لين تولي العجينة محمرة وتتقرمش."
+    ],
+    "en": [
+      "Preheat the oven to 200°C (400°F). Line a baking sheet with parchment paper.",
+      "Roll out the bread dough on the prepared baking sheet to your desired thickness.",
+      "In a small bowl, mix the tomato paste, water, olive oil, chicken seasoning powder, garlic powder, oregano, and a pinch of salt to create a smooth sauce. If the sauce is too thick, add a little more water.",
+      "Spread the sauce evenly over the dough.",
+      "Scatter the chickpea mixture (tuna alternative) and sliced olives over the sauce.",
+      "Bake for 15-20 minutes, or until the crust is golden brown and crispy."
+    ]
+  },
+  "index": 58
+}

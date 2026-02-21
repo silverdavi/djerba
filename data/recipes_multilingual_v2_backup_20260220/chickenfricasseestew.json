@@ -1,0 +1,108 @@
+{
+  "id": "chickenfricasseestew",
+  "image": "images/current/chickenfricasseestew/dish.png",
+  "meta": {
+    "servings": "4",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "צ׳יקן פריקסה",
+    "es": "Estofado de Fricasé de Pollo con Bolitas de Masa",
+    "ar": "تشيكن فريكاسي",
+    "en": "Chicken Fricassee Stew with Dumplings"
+  },
+  "description": {
+    "he": "גרסה טבעונית זו של צ׳יקן פריקסה מחזירה את המונח הצרפתי לתבשיל ולא לכריך הטוניסאי. נתחי סייטן רכים מתבשלים עם גזר ובצל בציר עשיר המוסמך על ידי כופתאות קמח כפריות. המנה מכבדת את ההתפתחות של המטבח הג׳רבאי בתפוצות תוך שימוש במרכיבים מהצומח לארוחה משביעה.",
+    "es": "Esta adaptación vegana del Fricasé de Pollo recupera el término francés para estofado en lugar del sándwich tunecino. Tiernos trozos de seitán se cocinan a fuego lento con zanahorias y cebollas en un caldo sabroso espesado con rústicas bolitas de masa. Honra la evolución de la cocina de Djerba en la diáspora utilizando ingredientes vegetales para una comida abundante.",
+    "ar": "هذي النسخة النباتية من تشيكن فريكاسي ترجع للأصل الفرنساوي متاع المرقة مش السندويتش التونسي المعروف. طروف السيتان الطرية تطيب مع السفنارية والبصل في مرقة بنينة عاقدة بكعابر العجين. الوصفة هذي تحافظ على تاريخ الماكلة الجربية أما بمكونات نباتية باش تكون وجبة تشبّع.",
+    "en": "This vegan adaptation of Chicken Fricassee reclaims the French term for stew rather than the Tunisian sandwich. Tender seitan chunks simmer with carrots and onions in a savory broth thickened by rustic flour dumplings. It honors the diasporic evolution of Djerban cuisine while using plant-based ingredients for a hearty meal."
+  },
+  "ingredients": {
+    "he": [
+      "30 מ\"ל שמן צמחי",
+      "800 גרם נתחי סייטן, קרועים לחתיכות בגודל ביס",
+      "1 גזר, חתוך לקוביות",
+      "1 בצל, חתוך לקוביות",
+      "מלח לפי הטעם",
+      "פלפל שחור לפי הטעם",
+      "ציר ירקות לפי הצורך (לכיסוי המרכיבים + תוספת לבלילה)",
+      "140 גרם קמח רגיל"
+    ],
+    "es": [
+      "30 ml de aceite vegetal",
+      "800 g de trozos de seitán, en trozos del tamaño de un bocado",
+      "1 zanahoria, cortada en cubitos",
+      "1 cebolla, cortada en cubitos",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "Caldo de verduras según sea necesario (para cubrir + extra para la masa)",
+      "140 g de harina común"
+    ],
+    "ar": [
+      "2 مغارف زيت نباتي",
+      "800 غرام طروف سيتان، مقطعين طروف صغار",
+      "1 سفنارية، مقصوصة مكعبات",
+      "1 بصلة، مقصوصة مكعبات",
+      "ملح حسب الذوق",
+      "فلفل أكحل حسب الذوق",
+      "مرقة خضرة حسب الحاجة (باش تغطي المكونات + شوية للعجين)",
+      "1.1 كاس فرينة"
+    ],
+    "en": [
+      "2 tbsp vegetable oil",
+      "28 oz seitan chunks, torn into bite-sized pieces",
+      "1 carrot, diced",
+      "1 onion, diced",
+      "Salt to taste",
+      "Black pepper to taste",
+      "Vegetable broth as needed (enough to cover ingredients + extra for batter)",
+      "1.1 cups all-purpose flour"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים את השמן בסיר על אש בינונית.",
+      "מוסיפים את נתחי הסייטן ומאדים כ-10 דקות.",
+      "מוסיפים לסיר את הגזר והבצל החתוכים.",
+      "מתבלים במלח ופלפל, ומאדים הכל יחד בקצרה.",
+      "מוסיפים מספיק נוזלים (ציר) כדי לכסות את המרכיבים ומביאים לרתיחה.",
+      "בזמן שהתבשיל מתחמם, מכינים את הכופתאות: בקערה, מערבבים קמח, מעט מים/ציר וקורט מלח ליצירת בלילה רכה.",
+      "ברגע שהתבשיל רותח, משתמשים בכף כדי להפיל או לזלף חתיכות מהבלילה לתוך הנוזל.",
+      "מבשלים עד שהסייטן רך והכופתאות מוכנות לגמרי."
+    ],
+    "es": [
+      "Caliente el aceite en una olla a fuego medio.",
+      "Añada los trozos de seitán y saltee durante aproximadamente 10 minutos.",
+      "Agregue la zanahoria y la cebolla picadas a la olla.",
+      "Sazone con sal y pimienta, luego saltee todo junto brevemente.",
+      "Añada suficiente caldo para cubrir los ingredientes y lleve a ebullición.",
+      "Mientras se calienta el estofado, prepare las bolitas de masa: en un bol, mezcle la harina, un poco de líquido y una pizca de sal para crear una masa suave.",
+      "Una vez que el estofado esté hirviendo, use una cuchara para dejar caer porciones de la masa en el líquido.",
+      "Cocine hasta que el seitán esté tierno y las bolitas de masa estén bien cocidas."
+    ],
+    "ar": [
+      "سخن الزيت في طنجرة على نار متوسطة.",
+      "حط طروف السيتان وخليهم يتقلاو تقريب 10 دقايق.",
+      "زيد السفنارية والبصل المقصوصين للطنجرة.",
+      "فوّح بالملح والفلفل الأكحل، وقلي كل شيء مع بعضو شوية.",
+      "صب المرقة باش تغطي المكونات وخليها تغلي.",
+      "في الوقت اللي المرقة تطيب، حضر العجين: في صحفة، خلط الفرينة وشوية ماء (أو مرقة) ورشة ملح باش تعمل عجينة طرية.",
+      "كيف تغلي المرقة، استعمل مغرفة باش ترمي طروف من العجينة في وسط المرقة.",
+      "طيب لين يولي السيتان طري والعجين يطيب بالباهي."
+    ],
+    "en": [
+      "Heat the oil in a pot over medium heat.",
+      "Add the seitan chunks and sauté/steam for approximately 10 minutes.",
+      "Add the diced carrot and onion to the pot.",
+      "Season with salt and pepper, then sauté everything together briefly.",
+      "Add enough vegetable broth to cover the ingredients and bring to a boil.",
+      "While the stew heats, prepare the dumplings: In a bowl, mix flour, a little water/broth, and a pinch of salt to create a soft batter.",
+      "Once the stew is boiling, use a spoon to drop or drizzle portions of the batter into the liquid.",
+      "Cook until the seitan is tender and the dumplings are cooked through."
+    ]
+  },
+  "index": 12,
+  "image_prompt": "Create a photograph of Chicken Fricassee Stew with dough layer topping.\n\n*** ABSOLUTELY CRITICAL - READ CAREFULLY ***\n\nThe dough is a CONTINUOUS THIN LAYER like a wet crepe or thin pancake batter that was DRIZZLED/POURED over the boiling soup and cooked IN the liquid.\n\nImagine: liquid batter poured in a spiral pattern over bubbling soup, then cooked until it forms a soft, connected web/blanket floating on top.\n\nThe result looks like:\n- A thin, soft, slightly translucent SHEET of cooked batter\n- Connected like a web or blanket, NOT separate pieces\n- Partially covering the soup surface like a veil\n- Soft and wobbly like water-cooked crepe\n- The broth and vegetables visible THROUGH and AROUND the dough layer\n\nABSOLUTELY FORBIDDEN:\n- NO dumplings, balls, or gnocchi\n- NO separate individual pieces\n- NO bread or thick chunks\n\nShow:\n- Golden broth with vegetables (carrots, onions, seitan)\n- ONE connected dough layer/web floating on surface\n- Deep pot or bowl presentation\n- Steam rising from hot stew\n\nThink: Hungarian nokedli dropped into soup BUT connected as one layer, or Chinese egg drop soup style ribbons BUT thicker and more connected."
+}

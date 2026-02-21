@@ -14,85 +14,85 @@
     "en": "Soly's Pancakes"
   },
   "description": {
-    "he": "פנקייק סולי נקראים על שם סולי, אחותה של אני, ששכללה את המתכון. מתכון פשוט ואוורירי זה משתמש במים ושמן במקום חלב וחמאה, מה שהופך אותו לפרווה ומתאים לכל ארוחה.",
-    "es": "Los Panqueques de Soly llevan el nombre de la hermana de Enny, Soly, quien perfeccionó la receta. Esta receta sencilla y esponjosa utiliza agua y aceite en lugar de leche y mantequilla, lo que la hace Parve (neutra) y adecuada para cualquier comida.",
-    "ar": "بانكيك سولي تسمّى على اسم سولي، أخت إني، اللي أتقنت الوصفة. هالوصفة السهلة والمنفخة تستعمل الماء والزيت في بلاصة الحليب والزبدة، باش تكون بارف (محايدة حسب الكوشر) وتصلح لأي وجبة.",
-    "en": "Soly's Pancakes are named after Soly, Enny's sister, who perfected this recipe. This simple, fluffy pancake recipe uses water and oil instead of milk and butter, making it Parve (kosher neutral) and suitable for any meal."
+    "he": "פנקייק סולי נקרא על שם סולי, אחותה של אני, ששכללה את המתכון. המתכון הפשוט והאוורירי הזה מכיל מים ושמן במקום חלב וחמאה, מה שהופך אותו לפרווה ומתאים לכל ארוחה.",
+    "es": "Los panqueques de Soly llevan el nombre de la hermana de Enny, Soly, quien perfeccionó la receta. Esta receta sencilla y esponjosa lleva agua y aceite en lugar de leche y mantequilla, lo que la hace pareve (neutra) y apta para cualquier comida.",
+    "ar": "بانكيك سولي تسمّى على اسم سولي، أخت إيني، اللي حسّنت الوصفة. هالوصفة الساهلة والخفيفة نستعملو فيها الماء والزيت في بلاصة الحليب والزبدة، وهكا تكون بارف (محايدة حسب الكوشر) وتواتي أي وجبة.",
+    "en": "Soly's Pancakes are named after Soly, Enny's sister, who perfected this recipe. This simple, fluffy pancake recipe uses water and oil instead of milk and butter, making it pareve (kosher neutral) and suitable for any meal."
   },
   "ingredients": {
     "he": [
       "140 גרם קמח רגיל",
       "38 גרם סוכר",
-      "מלח לפי הטעם",
+      "קורט מלח",
       "5 גרם אבקת אפייה",
       "15 גרם סוכר וניל",
       "3 גרם סודה לשתייה",
-      "1 ביצת פשתן (1 כף פשתן טחון עם 3 כפות מים חמים)",
+      "1 ביצת פשתן (כף זרעי פשתן טחונים מעורבבים עם 3 כפות מים חמים)",
       "45 מ\"ל שמן צמחי",
       "180 מ\"ל מים"
     ],
     "es": [
       "140 g de harina común",
       "38 g de azúcar",
-      "Sal al gusto",
-      "5 g de polvo de hornear",
+      "Una pizca de sal",
+      "5 g de polvo para hornear",
       "15 g de azúcar avainillado",
       "3 g de bicarbonato de sodio",
-      "1 huevo de lino (1 cda de lino molido con 3 cdas de agua tibia)",
+      "1 huevo de lino (1 cda de semillas de lino molidas mezcladas con 3 cdas de agua tibia)",
       "45 ml de aceite vegetal",
       "180 ml de agua"
     ],
     "ar": [
-      "1.15 كيسان فرينة",
-      "3 مغارف سكر",
-      "ملح حسب الذوق",
-      "1 مغرفة صغيرة خميرة ڨاطو",
-      "1.2 مغارف سكر فانيليا",
-      "0.5 مغرفة صغيرة بيكربونات",
-      "1 عظمة كتان (1 مغرفة كتان مرحي مع 3 مغارف ماء سخون)",
-      "3 مغارف زيت نباتي",
-      "0.75 كاس ماء"
+      "1.15 كاس فرينة",
+      "3 مغارف كبار سكر",
+      "رشة ملح",
+      "مغرفة صغيرة خميرة ڨاطو",
+      "1.2 مغرفة كبيرة سكر فانيليا",
+      "شطر مغرفة صغيرة بيكربونات",
+      "عظمة كتان (مغرفة كبيرة زريعة كتان مرحية مخلطة مع 3 مغارف كبار ماء سخون)",
+      "3 مغارف كبار زيت نباتي",
+      "كاس غير ربع ماء"
     ],
     "en": [
       "1.15 cups all-purpose flour",
       "3 tbsp sugar",
-      "Salt to taste",
+      "A pinch of salt",
       "1 tsp baking powder",
       "1.2 tbsp vanilla sugar",
-      "0.5 tsp baking soda",
-      "1 flax egg (1 tbsp ground flaxseed with 3 tbsp warm water)",
+      "1/2 tsp baking soda",
+      "1 flax egg (1 tbsp ground flaxseed mixed with 3 tbsp warm water)",
       "3 tbsp vegetable oil",
-      "0.75 cups water"
+      "3/4 cup water"
     ]
   },
   "steps": {
     "he": [
-      "בקערת ערבוב גדולה, טורפים יחד את הקמח, הסוכר, המלח, אבקת האפייה, סוכר הוניל והסודה לשתייה.",
-      "יוצרים גומה במרכז ומוסיפים את ביצת הפשתן, השמן והמים.",
-      "מערבבים רק עד לאיחוד. אין לערבב יתר על המידה; מעט גושים זה בסדר.",
-      "מחממים מחבת משומנת קלות על חום בינוני.",
-      "יוצקים או מניחים מהבלילה על המחבת (כ-1/4 כוס לכל פנקייק). מטגנים משני הצדדים עד להשחמה ומגישים חם."
+      "בקערה גדולה, טורפים יחד את הקמח, הסוכר, המלח, אבקת האפייה, סוכר הווניל והסודה לשתייה.",
+      "יוצרים גומה במרכז ומוסיפים אליה את ביצת הפשתן, השמן והמים.",
+      "מערבבים רק עד לקבלת תערובת אחידה. הימנעו מערבוב יתר; זה בסדר אם נשארים מעט גושים.",
+      "מחממים מחבת משומנת קלות על אש בינונית.",
+      "יוצקים מהבלילה למחבת (כ-1/4 כוס לכל פנקייק). מטגנים משני הצדדים עד להשחמה ומגישים חם."
     ],
     "es": [
-      "En un bol grande, mezclar la harina, el azúcar, la sal, el polvo de hornear, el azúcar avainillado y el bicarbonato de sodio.",
+      "En un bol grande, mezclar la harina, el azúcar, la sal, el polvo para hornear, el azúcar avainillado y el bicarbonato de sodio.",
       "Hacer un hueco en el centro y añadir el huevo de lino, el aceite y el agua.",
-      "Mezclar hasta que esté apenas combinado. No mezclar demasiado; está bien si quedan algunos grumos.",
+      "Mezclar solo hasta integrar. No mezclar en exceso; está bien si quedan algunos grumos.",
       "Calentar una sartén ligeramente engrasada a fuego medio.",
-      "Verter o colocar la masa en la plancha (aprox. 1/4 de taza por panqueque). Dorar por ambos lados y servir caliente."
+      "Verter porciones de la masa en la sartén (aprox. 1/4 de taza por panqueque). Dorar por ambos lados y servir caliente."
     ],
     "ar": [
-      "في صحفة كبيرة، خلط الفرينة، والسكر، والملح، وخميرة الڨاطو، وسكر الفانيليا، والبيكربونات.",
-      "اعمل حفرة في الوسط وزيد عظمة الكتان، والزيت، والماء.",
-      "خلط لين يتجانس الخليط أكهو. ما تخلطش برشا؛ ميسالش كان فمة شوية كعابر.",
+      "في صحفة كبيرة، خلط الفرينة، السكر، المלח، خميرة الڨاطو، سكر الفانيليا، والبيكربونات.",
+      "اعمل حفرة في الوسط وزيد عظمة الكتان، الزيت، والماء.",
+      "خلط بشوية لين يتجانس الخليط. ما تخلطش برشا؛ ميسالش كان يقعدو شوية كعابر.",
       "سخن مقلة مدهونة بشوية زيت على نار متوسطة.",
-      "صب شوية من الخليط في المقلة (تقريب ربع كاس لكل كعبة). طيبها من الجهتين لين تحمار وقدمها سخونة."
+      "صب شوية من الخليط في المقلة (تقريب ربع كاس لكل كعبة). طيبها من الشيرتين لين تحمار وقدمها سخونة."
     ],
     "en": [
       "In a large mixing bowl, whisk together the flour, sugar, salt, baking powder, vanilla sugar, and baking soda.",
       "Make a well in the center and add the flax egg, oil, and water.",
-      "Mix until just combined. Do not overmix; a few lumps are okay.",
+      "Mix until just combined. Do not overmix; a few lumps are fine.",
       "Heat a lightly oiled frying pan or griddle over medium heat.",
-      "Pour or scoop the batter onto the griddle (approx. 1/4 cup per pancake). Brown on both sides and serve hot."
+      "Pour or scoop the batter onto the pan or griddle (approx. 1/4 cup per pancake). Cook until browned on both sides and serve hot."
     ]
   },
   "index": 60

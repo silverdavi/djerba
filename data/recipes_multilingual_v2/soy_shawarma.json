@@ -15,9 +15,9 @@
   },
   "description": {
     "he": "מנה זו, שמקורה במילה הטורקית çevirme שמשמעותה סיבוב, לוכדת את המהות של המנה הקלאסית ללא בשר. שבבי סויה סופגים תערובת עשירה של ראס אל חנות וכמון לפני צריבה במחבת עם בצל. זוהי אלטרנטיבה צמחית משביעה וטעימה למאכל הרחוב האהוב.",
-    "es": "Derivado del turco çevirme que significa girar, este Shawarma de Soja captura la esencia del plato clásico sin carne. La proteína de soja texturizada absorbe una rica mezcla de Ras el Hanout y comino antes de ser dorada en la sartén con cebollas. Ofrece una alternativa vegetal sabrosa y satisfactoria a la comida callejera favorita.",
-    "ar": "كلمة شاورما جاية من الكلمة التركية çevirme اللي معناها يدور، وهالشاورما بالصويا فيها بنة الطبق الأصلي بلاش لحم. شرائح الصويا تشرب تفويحة بنينة بالراس الحانوت والكمون قبل ما نقلوها مع البصل. هذي طريقة نباتية وبنينة باش ناكلو ماكلة الشارع اللي نحبوها.",
-    "en": "Derived from the Turkish çevirme meaning turning, this Soy Shawarma captures the essence of the classic rotisserie dish without meat. Textured soy protein absorbs a rich blend of Ras el Hanout and cumin before being pan-seared with onions. It offers a savory and satisfying plant-based alternative to the street food favorite."
+    "es": "Derivado del turco çevirme que significa girar, este Shawarma de Soja captura la esencia del plato clásico sin carne. La proteína de soja texturizada absorbe una rica mezcla de Ras el Hanout y comino antes de ser dorada en la sartén con cebollas. Ofrece una alternativa vegetal sabrosa y satisfactoria a esta popular comida callejera.",
+    "ar": "كلمة شاورما جاية من الكلمة التركية çevirme اللي معناها يدور، وهالشاورما بالصويا فيها بنة الطبق الأصلي بلاش لحم. شرائح الصويا تشرب تفويحة بنينة براس الحانوت والكمون قبل ما نقلوها مع البصل. هذي طريقة نباتية وبنينة باش ناكلو ماكلة الشارع اللي نحبوها.",
+    "en": "Derived from the Turkish çevirme meaning 'turning', this Soy Shawarma captures the essence of the classic rotisserie dish without meat. Textured soy protein absorbs a rich blend of Ras el Hanout and cumin before being pan-seared with onions. It offers a savory and satisfying plant-based alternative to the beloved street food."
   },
   "ingredients": {
     "he": [
@@ -35,8 +35,8 @@
     ],
     "es": [
       "200 g de tiras de soja seca (TVP)",
-      "1500 ml de caldo de verduras",
-      "1 cebolla grande, en rodajas",
+      "1.5 litros de caldo de verduras",
+      "1 cebolla grande, en juliana",
       "30 ml de aceite vegetal",
       "14 g de mezcla de especias para shawarma",
       "2.5 g de Ras el Hanout",
@@ -47,28 +47,28 @@
       "Sal al gusto"
     ],
     "ar": [
-      "3.3 كيسان شرائح صويا شايحة",
-      "6.25 كيسان مرقة خضرة",
-      "1 بصلة كبيرة، مقصوصة شرائح",
-      "2 مغارف زيت",
-      "2 مغارف تابل شاورما",
+      "3 كيسان وثلث شرائح صويا شايحة",
+      "6 كيسان وربع مرقة خضرة",
+      "1 بصلة كبيرة، مقصوصة جوانح",
+      "2 مغارف كبار زيت",
+      "2 مغارف كبار لفاح شاورما",
       "1 مغرفة صغيرة راس حانوت",
-      "1 مغرفة صغيرة ثوم مرحي",
-      "0.5 مغرفة صغيرة فلفل أبيض",
-      "0.5 مغرفة صغيرة كمون",
-      "1 مغرفة عنبة (Amba)",
+      "1 مغرفة صغيرة ثوم غبرة",
+      "شطر مغرفة صغيرة فلفل أبيض",
+      "شطر مغرفة صغيرة كمون",
+      "1 مغرفة كبيرة صوص عمبة (Amba)",
       "ملح حسب الذوق"
     ],
     "en": [
-      "3.3 cups dried soy strips (TVP)",
-      "6.25 cups vegetable stock",
+      "3 1/3 cups dried soy strips (TVP)",
+      "6 1/4 cups vegetable stock",
       "1 large onion, sliced",
       "2 tbsp vegetable oil",
       "2 tbsp shawarma spice mix",
       "1 tsp Ras el Hanout",
       "1 tsp garlic powder",
-      "0.5 tsp white pepper",
-      "0.5 tsp cumin",
+      "1/2 tsp white pepper",
+      "1/2 tsp cumin",
       "1 tbsp Amba sauce",
       "Salt to taste"
     ]
@@ -79,27 +79,27 @@
       "מוסיפים את שבבי הסויה לציר הרותח יחד עם קבוצת התבלינים הראשונה: מחצית מתבלין השווארמה, מלח, פלפל לבן, אבקת שום ומחצית מהראס אל חנות.",
       "מבשלים את השבבים בציר המתובל כ-20 דקות עד שהם סופגים נוזלים ומתרככים לגמרי. מסננים היטב וסוחטים נוזלים עודפים.",
       "מחממים את השמן במחבת. מוסיפים את הבצל הפרוס ומטגנים עד להזהבה.",
-      "מוסיפים את שבבי הסויה המסוננים למחבת. מטגנים עד שהם מתחילים להשחים ולהפוך פריכים מעט.",
-      "מתבלים את התערובת שבמחבת עם יתרת תבלין השווארמה, הכמון ושאר הראס אל חנות.",
-      "רגע לפני שמסירים מהאש, מערבבים פנימה את העמבה לסיום חמצמץ."
+      "מוסיפים את שבבי הסויה המסוננים למחבת. מטגנים עד שהם מתחילים להשחים ולקבל פריכות קלה.",
+      "מתבלים את התערובת שבמחבת ביתרת תבלין השווארמה, הכמון ושארית הראס אל חנות.",
+      "רגע לפני שמסירים מהאש, מערבבים פנימה את העמבה לסיומת חמצמצה."
     ],
     "es": [
       "Lleve el caldo de verduras a ebullición en una olla grande.",
-      "Añada las tiras de soja seca al caldo hirviendo junto con el primer lote de especias: la mitad de la especia de shawarma, sal, pimienta blanca, ajo en polvo y la mitad del Ras el Hanout.",
+      "Añada las tiras de soja seca al caldo hirviendo junto con el primer lote de especias: la mitad de las especias para shawarma, sal, pimienta blanca, ajo en polvo y la mitad del Ras el Hanout.",
       "Cocine las tiras en el caldo especiado durante unos 20 minutos hasta que estén completamente rehidratadas y tiernas. Escurra bien y exprima el exceso de líquido para mejorar la textura.",
-      "Caliente el aceite en una sartén. Añada la cebolla en rodajas y fría hasta que esté dorada.",
-      "Añada las tiras de soja escurridas a la sartén. Fría hasta que empiecen a dorarse y ponerse ligeramente crujientes.",
-      "Sazone la mezcla en la sartén con el resto de la especia de shawarma, el comino y el resto del Ras el Hanout.",
-      "Justo antes de retirar del fuego, incorpore la salsa Amba para un acabado ácido."
+      "Caliente el aceite en una sartén. Añada la cebolla en juliana y fría hasta que esté dorada.",
+      "Añada las tiras de soja escurridas a la sartén. Fría hasta que empiecen a dorarse y estén ligeramente crujientes.",
+      "Sazone la mezcla en la sartén con el resto de las especias para shawarma, el comino y el resto del Ras el Hanout.",
+      "Justo antes de retirar del fuego, incorpore la salsa Amba para un toque ácido."
     ],
     "ar": [
       "غلي مرقة الخضرة في طنجرة كبيرة.",
-      "حط شرائح الصويا في المرقة اللي تغلي مع الفوحة الأولى: شطر تابل الشاورما، الملح، الفلفل الأبيض، الثوم المرحي وشطر راس الحانوت.",
-      "طيّب الشرائح في المرقة المفوحة حكاية 20 دقيقة لين يطراو ويشربو الماء. صفيهم مليح واعصرهم باش تخرج الماء الزايد.",
-      "سخن الزيت في مقلاة. حط البصل المقصوص واقليه لين يولي لونه ذهبي.",
-      "زيد شرائح الصويا المصفية للمقلاة. اقليهم لين يبداو يحمارو ويتقرمشو شوية.",
-      "فوّح الخليط بلي قعد من تابل الشاورما، والكمون وباقي راس الحانوت.",
-      "قبل ما تطفي النار، خلط معاهم العنبة باش تعطي بنة قارصة شوية."
+      "حط شرائح الصويا في المرقة اللي تغلي مع الفوحة الأولى: شطر لفاح الشاورما، الملح، الفلفل الأبيض، الثوم الغبرة وشطر راس الحانوت.",
+      "طيّب الشرائح في المرقة المفوحة حكاية 20 دقيقة لين يطراو ويشربو المرقة. صفيهم مليح واعصرهم باش تخرج الماء الزايد.",
+      "سخن الزيت في قلاية. حط البصل المقصوص جوانح واقليه لين يولي لونه ذهبي.",
+      "زيد شرائح الصويا المصفية للقلاية. اقليهم لين يبداو يحمارو ويتقرمشو شوية.",
+      "فوّح الخليط بلفاح الشاورما اللي قعد، والكمون وباقي راس الحانوت.",
+      "قبل ما تطفي النار، خلط معاهم صوص العمبة باش تعطي بنة قارصة شوية."
     ],
     "en": [
       "Bring the vegetable stock to a boil in a large pot.",

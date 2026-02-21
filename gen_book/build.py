@@ -427,16 +427,40 @@ def render_front_matter(use_absolute: bool = False) -> str:
   <section class="page page--copyright">
     <div class="page-inner copyright-inner">
       <div class="copyright-content">
-        <p class="copyright-text">© 2025 David Silver &amp; Enny Silver</p>
-        <p class="copyright-text">Poughkeepsie, NY</p>
-        <p class="copyright-text copyright-edition">First Edition · מהדורה ראשונה · Primera Edición · الطبعة الأولى</p>
+        <p class="copyright-text copyright-title">Oriented Kitchen</p>
+        <p class="copyright-text copyright-subtitle">Plant-Based Recipes from Djerba &amp; Tangier</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-text">© 2025 David H Silver &amp; Enny Silver</p>
+        <p class="copyright-text">All rights reserved.</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-text copyright-edition">First Edition</p>
+        <p class="copyright-text copyright-printing">10 9 8 7 6 5 4 3 2 1</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-text">ISBN 979-8-9940287-0-4</p>
+        <p class="copyright-text">Library of Congress Control Number: 2026934947</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-text copyright-publisher">Published by Kernel Keys Press</p>
+        <p class="copyright-text copyright-publisher-url">kernelkeyspress.com</p>
+        <p class="copyright-text">Poughkeepsie, New York</p>
         
         <div class="copyright-divider"></div>
         
         <p class="copyright-note">Preserving family traditions through plant-based cooking</p>
-        <p class="copyright-note">לשמר את מסורת המשפחה דרך מטבח מבוסס צמחים</p>
-        <p class="copyright-note">Preservando tradiciones familiares a través de la cocina vegetal</p>
-        <p class="copyright-note copyright-note-ar">نحافظو على تقاليد العايلة من خلال الطبخ النباتي</p>
+        <p class="copyright-note">שימור מסורת משפחתית דרך בישול מהצומח</p>
+        <p class="copyright-note">Preservando las tradiciones familiares a través de la cocina basada en plantas</p>
+        <p class="copyright-note copyright-note-ar">نحافظو على تقاليد العايلة بالطياب النباتي</p>
+        
+        <div class="copyright-divider"></div>
+        
+        <p class="copyright-note copyright-note-small">All food images generated with AI assistance. All recipes adapted for plant-based cooking.</p>
       </div>
     </div>
   </section>
@@ -463,7 +487,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
         </div>
         
         <div class="intro-col intro-text-he">
-          <p>ספר בישול זה משמר מתכונים משני קווי משפחה יהודיים צפון-אפריקאיים: משפחת <strong>כהן-טרבלסי</strong> מהאי ג׳רבה שבתוניסיה, ומשפחת <strong>קדוש-מויאל</strong> מטנג׳יר שבמרוקו.</p>
+          <p>ספר בישול זה משמר מתכונים של שתי משפחות יהודיות מצפון אפריקה: משפחת <strong>כהן-טרבלסי</strong> מהאי ג'רבה שבתוניסיה, ומשפחת <strong>קדוש-מויאל</strong> מטנג'יר שבמרוקו.</p>
           
           <p>הקהילה היהודית בג׳רבה הייתה אחת ההתיישבויות היהודיות הרציפות העתיקות בעולם. המתכונים שעברו דרך רות כהן-טרבלסי נושאים את הטעמים המיוחדים של הבישול היהודי-תוניסאי—התבשילים האיטיים של שבת, מנות הדגים המתובלות, והממתקים מבוססי הסולת.</p>
           
@@ -489,7 +513,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
       
       <div class="intro-columns">
         <div class="intro-col intro-text-es">
-          <p>Este libro de cocina preserva recetas de dos líneas familiares judías del norte de África: la familia <strong>Cohen-Trabelsi</strong> de la isla de Djerba, Túnez, y la familia <strong>Kadoch-Muyal</strong> de Tánger, Marruecos.</p>
+          <p>Este libro de cocina preserva recetas de dos linajes familiares judíos del norte de África: la familia <strong>Cohen-Trabelsi</strong> de la isla de Djerba, Túnez, y la familia <strong>Kadoch-Muyal</strong> de Tánger, Marruecos.</p>
           
           <p>La comunidad judía de Djerba fue uno de los asentamientos judíos continuos más antiguos del mundo. Las recetas transmitidas a través de Ruth Cohen-Trabelsi llevan los sabores distintivos de la cocina judía tunecina—los guisos lentos del Shabat, los platos de pescado especiados, los dulces a base de sémola.</p>
           
@@ -501,7 +525,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
         </div>
         
         <div class="intro-col intro-text-ar">
-          <p>الكتاب هذا يحفظ وصفات من زوز عايلات يهود من شمال أفريقيا: عايلة <strong>كوهين-طرابلسي</strong> من جزيرة جربة في تونس، وعايلة <strong>قدوش-مويال</strong> من طنجة في المغرب.</p>
+          <p>هالكتاب يلمّ وصفات من زوز عايلات يهودية من شمال إفريقيا: عيلة <strong>كوهين-طرابلسي</strong> من جزيرة جربة في تونس، وعيلة <strong>قدوش-مويال</strong> من طنجة في المغرب.</p>
           
           <p>اليهود في جربة كانوا من أقدم الجماعات اليهودية في العالم. الوصفات اللي وصلتنا من روث كوهين-طرابلسي فيها نكهات المطبخ اليهودي التونسي—الطبيخ البطيء متاع السبت، أطباق الحوت المتبّلة، والحلويات اللي أساسها السميد.</p>
           
@@ -557,7 +581,7 @@ def render_front_matter(use_absolute: bool = False) -> str:
           <p><em>טופו מוצק</em> — לפורר להחלפת ביצים קשות בסלטים ופשטידות. להוסיף קאלה נמק (מלח שחור) לטעם גופרתי של ביצה.</p>
           
           <p><strong>תחליפי בשר ועוף:</strong></p>
-          <p><em>TVP (חלבון סויה מרקם)</em> — להשרות במרק חם. מתאים לכל מנת עוף או בשר בכל גודל חתיכות.</p>
+          <p><em>שבבי סויה (TVP)</em> — להשרות במרק חם. מתאים לכל מנת עוף או בשר בכל גודל חתיכות.</p>
           <p><em>סייטן</em> — גלוטן חיטה עם מרקם לעיס ובשרי. הכי טוב לתבשילים וצלי.</p>
           <p><em>פטריות</em> — ראש אריה לירכי עוף, מלך צדפות לסטייקים, מאיטאקה לבשר קרוע. מוצרי מיצליום לכבד.</p>
           
@@ -621,54 +645,227 @@ def render_front_matter(use_absolute: bool = False) -> str:
     return title_page + copyright_page + intro_page_1 + intro_page_2 + vegan_page_1 + vegan_page_2 + blank_page
 
 
+RECIPE_CATEGORIES = {
+    "Stews & Mains": [
+        "adafina", "tfina_stew", "cholent", "bkailatunisianstew",
+        "chraimespicyfish_stew", "veganfishchraime", "dabikh_hagim",
+        "tbikha_tomatem", "ciceritos", "lentechalentilstew",
+        "potachewhitebean_stew", "greenbeanstomato_sauce",
+        "redstewedolives", "yellow_meat", "artichokemushroomsstew",
+        "chickenfricasseestew", "red_sauce_meatballs",
+        "shakshukacaramelizedonion_sausage", "umami_mushrooms",
+    ],
+    "Soups": [
+        "brodochickensoup", "binasthicksourspicysoup", "dwida",
+        "kataa_soup", "vegetablesoupfor_couscous", "greenpeasoup",
+    ],
+    "Couscous, Pasta & Grains": [
+        "homemade_couscous", "mhamsa", "lintriya", "kugel",
+        "adafinawheatside_dish", "semolina_porridge", "shmid",
+        "bshisha_bsisa", "veganfriedrice",
+    ],
+    "Breads & Pastry": [
+        "bread", "fricassee_rolls", "brikot", "burekasthreeways",
+        "sfenj", "sfingh", "mufleta", "cashew_cannelloni",
+    ],
+    "Eggs, Omelets & Salads": [
+        "cujada", "nazhaherbomelet", "adamshusha", "maakouda",
+        "veganeggsalad", "humus_salad", "shlomittomatosalad",
+        "marmouma", "tirshipumpkinsalad", "msiyar", "charoset",
+        "vegancaesardressing", "shlomitperldressing",
+    ],
+    "Stuffed & Shaped": [
+        "mahshistuffedvegetables", "banatagestuffedpotato_croquettes",
+        "kouklotsemolinadumplings", "bakedpotatolevivot", "kishke",
+        "shepherdpienorth_african",
+    ],
+    "Main Dishes - Modern": [
+        "soy_shawarma", "schnitzel", "pizza",
+    ],
+    "Cakes & Sweets": [
+        "chocolate_cake", "honeycakemami", "honeycakelior_benmosheh",
+        "mochajavacake", "hotfudgepudding_cake", "apple_crumble",
+        "banana_cake", "nougatandpeanutcakemor_abergil",
+        "dolce_de_leche_biscuits", "yeast_cake",
+        "yoyotunisiandoughnuts", "sufganiyot",
+    ],
+    "Cookies, Bars & Snacks": [
+        "biscoti_judy", "granola_cookies",
+        "originaltollhousechocolatechip_cookies",
+        "chocolatepeanutbuddy_bars", "chocolatepeanutbutter_muffins",
+        "chocolate_balls",
+    ],
+    "Breakfast & Basics": [
+        "pancakes_soly", "pancakesefratshachor", "french_toast",
+        "sourdoughbread_soly", "spice_mixes",
+    ],
+}
+
+
+def get_category_ordered_recipes(recipes: list[dict]) -> list[tuple]:
+    """Order recipes by category. Returns list of (chapter_num, recipe, category_name)."""
+    recipe_map = {r["id"]: r for r in recipes}
+    ordered = []
+    used_ids = set()
+    chapter_num = 1
+    
+    for cat_name, ids in RECIPE_CATEGORIES.items():
+        for rid in ids:
+            if rid in recipe_map:
+                ordered.append((chapter_num, recipe_map[rid], cat_name))
+                used_ids.add(rid)
+                chapter_num += 1
+    
+    for r in recipes:
+        if r["id"] not in used_ids:
+            ordered.append((chapter_num, r, "Other"))
+            chapter_num += 1
+    
+    return ordered
+
+
 def render_table_of_contents(recipes: list[dict]) -> str:
-    """Render table of contents pages - quad-lingual."""
-    # 30 per page (15 rows of 2 columns) - ensures no overflow
-    recipes_per_page = 30
+    """Render grouped table of contents pages."""
+    recipe_map = {r["id"]: r for r in recipes}
     
-    toc_pages = []
+    # Build categorized list
+    categorized = []
+    used_ids = set()
+    chapter_num = 1
     
-    for page_idx in range(0, len(recipes), recipes_per_page):
-        page_recipes = recipes[page_idx:page_idx + recipes_per_page]
-        is_first_page = (page_idx == 0)
+    for cat_name, ids in RECIPE_CATEGORIES.items():
+        cat_recipes = []
+        for rid in ids:
+            if rid in recipe_map:
+                cat_recipes.append((chapter_num, recipe_map[rid]))
+                used_ids.add(rid)
+                chapter_num += 1
+        if cat_recipes:
+            categorized.append((cat_name, cat_recipes))
+    
+    uncategorized = []
+    for r in recipes:
+        if r["id"] not in used_ids:
+            uncategorized.append((chapter_num, r))
+            chapter_num += 1
+    if uncategorized:
+        categorized.append(("Other", uncategorized))
+    
+    # Render a single entry
+    def render_entry(num, recipe):
+        n = recipe["name"]
+        page = 1 + (num - 1) * 4  # Matches page_num in render_html
+        return f'''<div class="toc-entry">
+              <span class="toc-num">{num}</span>
+              <div class="toc-entry-names">
+                <div class="toc-line-1">
+                  <span class="toc-en">{escape(n["en"])}</span>
+                  <span class="toc-he">{escape(n.get("he",""))}</span>
+                </div>
+                <div class="toc-line-2">
+                  <span class="toc-es">{escape(n.get("es",""))}</span>
+                  <span class="toc-ar">{escape(n.get("ar",""))}</span>
+                </div>
+              </div>
+              <span class="toc-page">{page}</span>
+            </div>'''
+    
+    def render_category(cat_name, cat_recipes):
+        items = "\n".join(render_entry(num, r) for num, r in cat_recipes)
+        return f'''<div class="toc-category">
+          <div class="toc-category-name">{escape(cat_name)}</div>
+          <div class="toc-category-items">
+            {items}
+          </div>
+        </div>'''
+    
+    # Split categories into pages manually
+    # Each page has LEFT and RIGHT columns using absolute positioning
+    # ~12 entries per column for first page (has header), ~14 per column for rest
+    
+    ENTRIES_PER_COL_FIRST = 11
+    ENTRIES_PER_COL = 13
+    
+    # Flatten: list of (cat_name, [(num, recipe), ...])
+    # We'll track how many entries each category contributes
+    all_cats = list(categorized)
+    
+    pages_data = []  # list of (is_first, left_cats, right_cats)
+    cat_idx = 0
+    is_first = True
+    
+    while cat_idx < len(all_cats):
+        per_col = ENTRIES_PER_COL_FIRST if is_first else ENTRIES_PER_COL
         
-        # Build recipe list items - quad-lingual
-        items_html = ""
-        for i, recipe in enumerate(page_recipes):
-            chapter_num = page_idx + i + 1
-            name_en = recipe["name"]["en"]
-            name_he = recipe["name"].get("he", "")
-            name_es = recipe["name"].get("es", "")
-            name_ar = recipe["name"].get("ar", "")
+        left_cats = []
+        right_cats = []
+        left_count = 0
+        right_count = 0
+        filling_left = True
+        
+        while cat_idx < len(all_cats):
+            cat_name, cat_recipes = all_cats[cat_idx]
+            cat_size = len(cat_recipes) + 1  # +1 for header
             
-            items_html += f'''
-          <div class="toc-item">
-            <span class="toc-num">{chapter_num}.</span>
-            <div class="toc-names">
-              <span class="toc-name toc-name-en">{escape(name_en)}</span>
-              <span class="toc-name toc-name-he">{escape(name_he)}</span>
-              <span class="toc-name toc-name-es">{escape(name_es)}</span>
-              <span class="toc-name toc-name-ar">{escape(name_ar)}</span>
-            </div>
-          </div>'''
+            if filling_left:
+                if left_count + cat_size <= per_col:
+                    left_cats.append((cat_name, cat_recipes))
+                    left_count += cat_size
+                    cat_idx += 1
+                elif left_count == 0:
+                    # Category too big for one column - split it
+                    fit = per_col - 1  # -1 for header
+                    left_cats.append((cat_name, cat_recipes[:fit]))
+                    # Put remainder as continuation in right column
+                    all_cats[cat_idx] = (cat_name + " (cont.)", cat_recipes[fit:])
+                    filling_left = False
+                else:
+                    filling_left = False
+            else:
+                if right_count + cat_size <= per_col:
+                    right_cats.append((cat_name, cat_recipes))
+                    right_count += cat_size
+                    cat_idx += 1
+                elif right_count == 0:
+                    fit = per_col - 1
+                    right_cats.append((cat_name, cat_recipes[:fit]))
+                    all_cats[cat_idx] = (cat_name + " (cont.)", cat_recipes[fit:])
+                    break
+                else:
+                    break
         
-        # Create page with header only on first page
-        header = '<div class="toc-title">Contents · תוכן עניינים · Contenido · فهرس</div>' if is_first_page else ''
+        pages_data.append((is_first, left_cats, right_cats))
+        is_first = False
+    
+    # Render pages with two absolute-positioned columns
+    toc_html = ""
+    for is_first_page, left_cats, right_cats in pages_data:
+        header = '''<div class="toc-header">
+        <h1>Contents</h1>
+        <div class="toc-subtitle">תוכן עניינים · Contenido · فهرس</div>
+      </div>''' if is_first_page else ''
         
-        toc_page = f'''
+        left_html = "\n".join(render_category(cn, cr) for cn, cr in left_cats)
+        right_html = "\n".join(render_category(cn, cr) for cn, cr in right_cats)
+        
+        toc_html += f'''
   <!-- TABLE OF CONTENTS PAGE -->
   <section class="page page--toc">
-    <div class="page-inner toc-inner">
+    <div class="page-inner toc-page-inner">
       {header}
-      <div class="toc-list">
-        {items_html}
+      <div class="toc-two-col">
+        <div class="toc-col toc-col-left">
+          {left_html}
+        </div>
+        <div class="toc-col toc-col-right">
+          {right_html}
+        </div>
       </div>
     </div>
   </section>
 '''
-        toc_pages.append(toc_page)
     
-    return "".join(toc_pages)
+    return toc_html
 
 
 def render_page1(recipe: dict, page_num: int, chapter_index: int = 1) -> str:
@@ -957,8 +1154,17 @@ def render_recipe(recipe: dict, start_page: int, image_path: str, use_absolute: 
     return "\n".join(pages)
 
 
+def order_recipes_by_category(recipes: list[dict]) -> list[dict]:
+    """Reorder recipes to match TOC category order."""
+    ordered = get_category_ordered_recipes(recipes)
+    return [recipe for _, recipe, _ in ordered]
+
+
 def render_html(recipes: list[dict], css_content: str, image_base_path: str = "../images/", use_absolute: bool = False) -> str:
     """Render complete HTML document."""
+    # Reorder recipes to match TOC category order
+    recipes = order_recipes_by_category(recipes)
+    
     # Render front matter (title, copyright, intro, blank)
     front_matter = render_front_matter(use_absolute=use_absolute)
     
@@ -1087,15 +1293,18 @@ def build_web(recipes: list[dict], css_content: str) -> None:
     build_front_matter_pages(css_content)
     
     print("  Building recipe pages...")
-    for i, recipe in enumerate(recipes, 1):
+    # Use category order for consistent chapter numbering
+    ordered = get_category_ordered_recipes(recipes)
+    total = len(ordered)
+    for i, (chapter_num, recipe, _) in enumerate(ordered, 1):
         recipe_id = recipe["id"]
         image_path = get_image_path(recipe, "../images/")
-        html_content = render_single_recipe_html(recipe, css_content, image_path, chapter_index=i)
+        html_content = render_single_recipe_html(recipe, css_content, image_path, chapter_index=chapter_num)
         
         output_path = OUTPUT_WEB / f"{recipe_id}.html"
         output_path.write_text(html_content, encoding="utf-8")
-        if i % 10 == 0 or i == len(recipes):
-            print(f"  [{i}/{len(recipes)}] ✓ {output_path.name}")
+        if i % 10 == 0 or i == total:
+            print(f"  [{i}/{total}] ✓ {output_path.name}")
     
     # Build index page
     build_index(recipes, css_content)
@@ -1397,6 +1606,9 @@ def render_html_bleed(recipes: list[dict], css_content: str, image_base_path: st
     - Includes bleed CSS for @page :left/:right margins
     - Adds page--recto/page--verso classes for proper margin handling
     """
+    # Reorder recipes to match TOC category order
+    recipes = order_recipes_by_category(recipes)
+    
     # Render front matter (title, copyright, intro, vegan guides, blank)
     front_matter = render_front_matter(use_absolute=use_absolute)
     

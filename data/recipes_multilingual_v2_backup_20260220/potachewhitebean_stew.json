@@ -1,0 +1,91 @@
+{
+  "id": "potachewhitebean_stew",
+  "image": "images/current/potachewhitebean_stew/dish.png",
+  "meta": {
+    "servings": "6",
+    "prep_time": "10 min",
+    "cook_time": "30 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "פוטאכס",
+    "es": "Potache (Guiso de Alubias Blancas)",
+    "ar": "بوتاش (مرقة لوبيا بيضاء)",
+    "en": "Potache (White Bean Stew)"
+  },
+  "description": {
+    "he": "פוטאכס, או פוטחה בספרדית, הוא תבשיל שעועית לבנה עשיר עם שורשים ספרדיים. השם מגיע מהמילה הספרדית לנזיד סמיך. מנה מנחמת זו כוללת שעועית לבנה רכה המבושלת עם ירקות ארומטיים ותבלינים מחממים.",
+    "es": "El Potache, o Potaje, es un guiso contundente de alubias blancas con raíces sefardíes. El nombre deriva de la palabra española para un guiso espeso. Este plato reconfortante presenta alubias blancas tiernas cocinadas a fuego lento con verduras aromáticas y especias cálidas.",
+    "ar": "البوتاش، أو Potaje بالصبنيورية، هي مرقة لوبيا بيضاء خاثرة عندها أصول سفاردية. الاسم جاي من الكلمة الصبنيورية اللي تعني مرقة عاقدة. هذا الطبق يعمل الكيف فيه لوبيا بيضاء طايبة بالباهي مع خضرة فاوحة وتوابل دافية.",
+    "en": "Potaches, or Potaje in Spanish, is a hearty white bean stew with Sephardic roots. The name derives from the Spanish word for a thick stew or pottage. This comforting dish features tender white beans simmered with aromatic vegetables and warming spices."
+  },
+  "ingredients": {
+    "he": [
+      "380 גרם שעועית לבנה, מושרית כל הלילה",
+      "4 שיני שום, כתושות",
+      "2.3 גרם פפריקה",
+      "1.2 גרם פלפל לבן",
+      "4 גרם אבקת מרק ירקות",
+      "מלח לפי הטעם",
+      "33 גרם רסק עגבניות",
+      "960 מ\"ל מים"
+    ],
+    "es": [
+      "380 g de alubias blancas, remojadas durante la noche",
+      "4 dientes de ajo, picados o machacados",
+      "2.3 g de pimentón",
+      "1.2 g de pimienta blanca",
+      "4 g de caldo de verduras en polvo",
+      "Sal al gusto",
+      "33 g de pasta de tomate",
+      "960 ml de agua"
+    ],
+    "ar": [
+      "2 كيسان لوبيا بيضاء، منفخة ليلة كاملة",
+      "4 سنات ثوم، مرحي",
+      "1 مغرفة صغيرة فلفل زينة",
+      "نصف مغرفة صغيرة فلفل أبيض",
+      "1 مغرفة صغيرة بودرة مرقة خضرة",
+      "ملح حسب الذوق",
+      "2 مغارف طماطم حكة",
+      "4 كيسان ماء"
+    ],
+    "en": [
+      "2 cups white beans, soaked overnight",
+      "4 cloves garlic, minced or crushed",
+      "1 tsp paprika",
+      "0.5 tsp white pepper",
+      "1 tsp vegetable bouillon powder",
+      "Salt to taste",
+      "2 tbsp tomato paste",
+      "4 cups water"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מסננים את השעועית הלבנה המושרית ומעבירים לסיר לחץ.",
+      "מוסיפים את השום, הפפריקה, הפלפל הלבן, אבקת המרק והמלח.",
+      "מוסיפים את רסק העגבניות והמים. מערבבים לאיחוד.",
+      "סוגרים את סיר הלחץ ומבשלים עד שהשעועית רכה וקרמית."
+    ],
+    "es": [
+      "Escurrir las alubias blancas remojadas y colocarlas en una olla a presión.",
+      "Añadir el ajo, el pimentón, la pimienta blanca, el caldo en polvo y la sal.",
+      "Añadir la pasta de tomate y el agua. Remover para combinar.",
+      "Cerrar la olla a presión y cocinar hasta que las alubias estén tiernas y cremosas."
+    ],
+    "ar": [
+      "صفي اللوبيا البيضاء المنفخة وحطها في طنجرة الضغط.",
+      "زيد الثوم، فلفل زينة، فلفل أبيض، بودرة المرقة والملح.",
+      "زيد طماطم الحكة والماء. حرك باش يتخلطوا.",
+      "سكر طنجرة الضغط وطيب لين اللوبيا تولي طرية وعاقدة."
+    ],
+    "en": [
+      "Drain the soaked white beans and place in a pressure cooker.",
+      "Add garlic, paprika, white pepper, bouillon powder, and salt.",
+      "Add tomato paste and water. Stir to combine.",
+      "Close pressure cooker and cook until beans are soft and creamy."
+    ]
+  },
+  "index": 20
+}

@@ -8,15 +8,15 @@
     "difficulty": "Easy"
   },
   "name": {
-    "he": "עוגת דבש (סילאן) ליאור בן משה",
+    "he": "עוגת סילאן (דבש תמרים) של ליאור בן משה",
     "es": "Pastel de Silan (Miel de Dátil) de Lior Ben Mosheh",
-    "ar": "كيكة السيلان (الرب) لليور بن موشي",
+    "ar": "كيكة السيلان (الرب) متاع ليور بن موشي",
     "en": "Lior Ben Mosheh's Silan (Date Honey) Cake"
   },
   "description": {
-    "he": "עוגת הסילאן של ליאור בן משה היא גרסה מותאמת לעוגת הדבש הקלאסית של ראש השנה, המשתמשת בסירופ תמרים, הידוע היסטורית בג'רבה בשם רוב. עוגה טבעונית זו מסתמכת על קפה וקינמון לטעם עמוק במקום ביצים או מוצרי חלב, ויוצרת קינוח פרווה מושלם לכל ארוחה חגיגית.",
-    "es": "El Pastel de Silan de Lior Ben Mosheh adapta el clásico pastel de miel de Rosh Hashaná usando jarabe de dátil, conocido históricamente como rubb en Djerba. Este pan naturalmente vegano se basa en café y canela para un sabor profundo en lugar de huevos o lácteos, creando un postre parve perfecto para cualquier comida festiva.",
-    "ar": "كيكة السيلان متاع ليور بن موشي هي تبديلة لكيكة العسل التقليدية متاع راس العام، وتستعمل رب التمر المعروف في جربة. الكيكة هذي نباتية وتعتمد على القهوة والقرفة باش تعطي بنة قوية في عوض العظم والحليب، وهي ديسير بارفي مثالي لأي وجبة احتفالية.",
+    "he": "עוגת הסילאן של ליאור בן משה היא גרסה מותאמת לעוגת הדבש הקלאסית של ראש השנה, המשתמשת בסירופ תמרים, הידוע היסטורית בג'רבה בשם רוב. עוגה טבעונית זו מסתמכת על קפה וקינמון לטעם עמוק במקום ביצים או מוצרי חלב, ומהווה קינוח פרווה מושלם לכל ארוחה חגיגית.",
+    "es": "El Pastel de Silan de Lior Ben Mosheh adapta el clásico pastel de miel de Rosh Hashaná usando jarabe de dátil, conocido históricamente como rubb en Djerba. Este bizcocho naturalmente vegano se basa en café y canela para un sabor profundo en lugar de huevos o lácteos, creando un postre parve perfecto para cualquier comida festiva.",
+    "ar": "كيكة السيلان متاع ليور بن موشي هي نسخة لكيكة العسل التقليدية متاع راس العام، وتستعمل رب التمر المعروف في جربة. الكيكة هذي نباتية وتعتمد على القهوة والقرفة باش تعطي بنة قوية في عوض العظم والحليب، وهي ديسير بارفي هايل لأي وجبة احتفالية.",
     "en": "Lior Ben Mosheh’s Silan Cake adapts the classic Rosh Hashanah honey cake by using date syrup, historically known as rubb in Djerba. This naturally vegan loaf relies on coffee and cinnamon for deep flavor instead of eggs or dairy, creating a perfect parve dessert for any festive meal."
   },
   "ingredients": {
@@ -27,7 +27,7 @@
       "135 מ\"ל חלב סויה (או חלב שיבולת שועל)",
       "2 גרם קפה נמס",
       "3 גרם קינמון טחון",
-      "150 גרם קמח רגיל, מנופה",
+      "150 גרם קמח לבן, מנופה",
       "10 גרם אבקת אפייה",
       "סילאן, סירופ מייפל או אגבה להברשה"
     ],
@@ -38,7 +38,7 @@
       "135 ml de leche de soja (o leche de avena)",
       "2 g de café instantáneo",
       "3 g de canela molida",
-      "150 g de harina común, tamizada",
+      "150 g de harina de trigo (todo uso), tamizada",
       "10 g de polvo de hornear",
       "Silan, jarabe de arce o agave para pincelar"
     ],
@@ -46,12 +46,12 @@
       "ثلث كاس سيلان (رب التمر)",
       "نص كاس زيت",
       "ثلث كاس سكر",
-      "نص كاس وشوية حليب صويا",
+      "نص كاس ومغرفة كبيرة حليب صويا",
       "مغرفة صغيرة قهوة سريعة الذوبان",
       "مغرفة صغيرة قرفة",
-      "كاس وشوية فرينة، مغربلة",
+      "كاس ومغرفة كبيرة فرينة، مغربلة",
       "2 مغارف صغار خميرة قاطو",
-      "سيلان ولا شحور للدهين"
+      "سيلان، سيرو ديرابل (maple) ولا شحور للدهين"
     ],
     "en": [
       "1/3 cup date syrup (Silan)",
@@ -68,7 +68,7 @@
   "steps": {
     "he": [
       "מחממים תנור ל-175 מעלות צלזיוס.",
-      "בקערת ערבוב, מערבבים את הסילאן, השמן, הסוכר, חלב הסויה, הקפה הנמס והקינמון. מערבבים היטב ומניחים לתערובת לעמוד למשך 10 דקות.",
+      "בקערה, מערבבים את הסילאן, השמן, הסוכר, חלב הסויה, הקפה הנמס והקינמון. מערבבים היטב ומניחים לתערובת לעמוד למשך 10 דקות.",
       "לאחר 10 דקות, מוסיפים את הקמח ואבקת האפייה. טורפים עד שהבלילה חלקה וללא גושי קמח.",
       "יוצקים את הבלילה לתבנית אינגליש קייק ואופים במשך כ-40 דקות, או עד שקיסם הננעץ במרכז יוצא יבש.",
       "מוציאים מהתנור ומברישים מיד את החלק העליון של העוגה במעט סילאן, סירופ מייפל או אגבה לגימור מבריק."
@@ -81,11 +81,11 @@
       "Retirar del horno y pincelar inmediatamente la parte superior del pastel con un poco de silan, jarabe de arce o néctar de agave para un acabado brillante."
     ],
     "ar": [
-      "سخّن الفور (الكوشة) على 175 درجة.",
+      "سخّن الفور على 175 درجة.",
       "في صحفة، خلّط السيلان (الرب)، الزيت، السكر، حليب الصويا، القهوة والقرفة. خلّط مليح وخلّي الخليط يرتاح 10 دقايق.",
       "بعد 10 دقايق، زيد الفرينة وخميرة القاطو. ركّض مليح لين يولي الخليط أرطب وما فيهوش كعابر فرينة.",
-      "صب الخليط في طبق مستطיל (متاع كيك) وطيّب في الفور حكاية 40 دقيقة، ولا لين تدخل كردون يخرج شايح.",
-      "خرّجها من الفور وادهن الوجه ديريكت بشوية سيلان، شحور، ولا عسل باش تولي تلمع."
+      "صب الخليط في طبق مستطيل (متاع كيك) وطيّب في الفور حكاية 40 دقيقة، ولا لين تدخّل كردون في الوسط ويخرج شايح.",
+      "خرّجها من الفور وادهن الوجه ديريكت بشوية سيلان، سيرو ديرابل، ولا شحور باش تولي تلمع."
     ],
     "en": [
       "Preheat the oven to 175°C (350°F).",

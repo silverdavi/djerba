@@ -1,0 +1,91 @@
+{
+  "id": "kataa_soup",
+  "image": "images/current/kataa_soup/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "20 min",
+    "cook_time": "25 min",
+    "difficulty": "Medium"
+  },
+  "name": {
+    "he": "קטעה",
+    "es": "Kata'a (Sopa de Pasta Fresca)",
+    "ar": "قطعة (حساء عجين طازج)",
+    "en": "Kata'a (Fresh Pasta Soup)"
+  },
+  "description": {
+    "he": "קטעה מגיעה מהשורש הערבי לחיתוך, המתאר כיצד בצק טרי נצבט ישירות למים רותחים. אוכל מנחם ג'רבאי כפרי זה כולל כופתאות פסטה לא אחידות המתבשלות במרק מלוח המוסמך בקמח. זוהי ארוחת חורף טבעונית המחממת את הנשמה.",
+    "es": "Kata'a proviene de la raíz árabe para cortar, describiendo cómo la masa fresca se pellizca directamente en agua hirviendo. Esta comida reconfortante rústica de Djerba presenta trozos irregulares de pasta cocidos a fuego lento en un caldo sabroso espesado con harina. Es una comida de invierno naturalmente vegana que calienta el alma.",
+    "ar": "الكطعة جاية من كلمة قطع، وتوصف كيفاش نقرصوا العجينة ونرميوها ديريكت في الماء يغلي. هذي الماكلة الجربية الزمنية فيها طروف عجين مش قد قد، يطيبوا في مرقة بنينة عاقدة بالفرينة. هي ماكلة شتوية نباتية تدفّي القلب.",
+    "en": "Kata'a comes from the Arabic root for cutting, describing how fresh dough is pinched directly into boiling water. This rustic Djerban comfort food features irregular pasta dumplings simmered in a savory broth thickened with flour. It is a naturally vegan winter meal that warms the soul."
+  },
+  "ingredients": {
+    "he": [
+      "420 גרם קמח רגיל (לבצק)",
+      "250 מ\"ל מים (לבצק)",
+      "מלח לפי הטעם",
+      "2000 מ\"ל מים (לבסיס המרק)",
+      "30 מ\"ל שמן צמחי",
+      "פלפל שחור לפי הטעם",
+      "15 גרם קמח רגיל (להסמכה)"
+    ],
+    "es": [
+      "420 g de harina común (para la masa)",
+      "250 ml de agua (para la masa)",
+      "Sal al gusto",
+      "2000 ml de agua (para la base de la sopa)",
+      "30 ml de aceite vegetal",
+      "Pimienta negra al gusto",
+      "15 g de harina común (para espesar)"
+    ],
+    "ar": [
+      "3 كيسان فرينة (للعجينة)",
+      "1 كأس ماء (للعجينة)",
+      "ملح حسب الذوق",
+      "8.5 كيسان ماء (للمرقة)",
+      "2 مغارف زيت نباتي",
+      "فلفل أكحل حسب الذوق",
+      "2 مغارف فرينة (باش تعقاد)"
+    ],
+    "en": [
+      "3 cups all-purpose flour (for the dough)",
+      "1 cup water (for the dough)",
+      "Salt to taste",
+      "8.5 cups water (for the soup base)",
+      "2 tbsp vegetable oil",
+      "Black pepper to taste",
+      "2 tbsp all-purpose flour (for thickening)"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מכינים את בסיס המרק: מביאים את סיר המים הגדול (2 ליטר) לרתיחה עם השמן, המלח והפלפל השחור.",
+      "בזמן שהמים מתחממים, מכינים את הבצק: בקערה, שמים את 3 כוסות הקמח ומעט מלח. מוסיפים מים בהדרגה תוך כדי לישה עד לקבלת בצק נעים וגמיש.",
+      "ברגע שמי המרק רותחים, מנמיכים מעט את האש. צובטים חתיכות קטנות מהבצק וזורקים אותן ישירות למים הרותחים.",
+      "לקראת סוף הבישול (כשהבצק מוכן), מכינים רביכה להסמכה: בקערה קטנה, מערבבים מעט קמח עם מים ליצירת נוזל סמיך ללא גושים.",
+      "שופכים את תערובת הקמח למרק מגובה קל תוך כדי ערבוב נמרץ למניעת גושים. ממשיכים לבשל ולערבב עד שהמרק מסמיך."
+    ],
+    "es": [
+      "Prepare la base de la sopa: Lleve la olla grande con agua (2 L) a ebullición con el aceite, la sal y la pimienta negra.",
+      "Mientras se calienta el agua, prepare la masa: En un bol, ponga las 3 tazas de harina y un poco de sal. Añada agua gradualmente mientras amasa hasta formar una masa agradable y flexible.",
+      "Una vez que el agua de la sopa esté hirviendo, baje un poco el fuego. Pellizque pequeños trozos de masa y échelos directamente al agua hirviendo.",
+      "Hacia el final de la cocción (cuando la masa esté cocida), prepare un agente espesante: En un plato o bol pequeño, mezcle una pequeña cantidad de harina con agua para crear una mezcla líquida.",
+      "Vierta la mezcla de harina en la sopa desde cierta altura mientras revuelve vigorosamente para evitar grumos. Continúe cocinando y revolviendo hasta que la sopa espese."
+    ],
+    "ar": [
+      "حضّر المرقة: حط طنجرة كبيرة فيها الماء (2 لتر) تغلي مع الزيت والملح والفلفل الأكحل.",
+      "والماء يسخن، حضّر العجينة: في صحفة، حط 3 كيسان فرينة وشوية ملح. زيد الماء بشوية بشوية واعجن لين تولي عندك عجينة طرية وما تلصقش.",
+      "كيف يغلي الماء، نقّص شوية في النار. اقرص طروف صغار من العجينة وارميهم ديريكت في الماء يغلي.",
+      "في لخر (كيف تطيب العجينة)، حضّر التخثير: في صحفة صغيرة، خلّط شوية فرينة مع الماء باش تولي عندك عجينة جارية.",
+      "صب خليط الفرينة في المرقة من الفوق وانت تحرّك بالزربة باش ما تتكعبرش. كمّل طيّب وحرّك لين المرقة تعقاد."
+    ],
+    "en": [
+      "Prepare the soup base: Bring the large pot of water (2L) to a boil with the oil, salt, and black pepper.",
+      "While the water is heating, prepare the dough: In a bowl, take the 3 cups of flour and a little salt. Gradually add water while kneading until a pleasant, pliable dough forms.",
+      "Once the soup water is boiling, lower the heat slightly. Pinch off small pieces of the dough and throw them directly into the boiling water.",
+      "Towards the end of cooking (when dough pieces are cooked through), prepare a thickening agent: In a small plate or bowl, mix a small amount of flour with water to create a liquid slurry.",
+      "Pour the flour mixture into the soup from a slight height while stirring vigorously to prevent lumps. Continue cooking and stirring until the soup thickens."
+    ]
+  },
+  "index": 9
+}

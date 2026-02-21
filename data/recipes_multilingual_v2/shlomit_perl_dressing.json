@@ -4,7 +4,7 @@
   "meta": {
     "servings": "1 cup",
     "prep_time": "5 min",
-    "cook_time": "0 min",
+    "cook_time": "No cook",
     "difficulty": "Easy"
   },
   "name": {
@@ -14,10 +14,10 @@
     "en": "Shlomit's Salad Dressing"
   },
   "description": {
-    "he": "רוטב שלומית הוא רוטב ישראלי מודרני. גרסה צמחית זו מחליפה את המיונז הרגיל בחלופה טבעונית תוך שמירה על פרופיל הטעמים המתוק והמלוח של הסויה. הרוטב משתלב נהדר עם כרוב קצוץ וחטיפי תירס פריכים.",
-    "es": "El aderezo de Shlomit es un aderezo israelí moderno. Esta versión vegetal sustituye la mayonesa de huevo por una alternativa vegana, manteniendo el perfil dulce y salado de la soja. Combina perfectamente con repollo rallado y snacks de maíz crujientes.",
-    "ar": "صوص شلوميت هو صوص إسرائيلي عصري. هالوصفة نباتية وتبدل المايونيز العادي بواحد نباتي وتحافظ على طعمة الصوجا الحلوة والمالحة. تجي بنينة برشة مع سلطة كرنب مقصوص وجويجات مقرمشة متاع ذرة.",
-    "en": "Shlomit's Dressing is a modern Israeli dressing. This plant-based version swaps egg mayonnaise for a vegan alternative while keeping the sweet and savory soy profile. It pairs perfectly with shredded cabbage and crunchy corn snacks."
+    "he": "רוטב שלומית הוא רוטב ישראלי מודרני. גרסה טבעונית זו מחליפה את המיונז הרגיל בחלופה טבעונית, תוך שמירה על הטעם המתוק-מלוח של הסויה. הרוטב משתלב נהדר עם כרוב קצוץ וחטיפי תירס פריכים.",
+    "es": "El aderezo de Shlomit es un aderezo israelí moderno. Esta versión a base de plantas sustituye la mayonesa de huevo por una alternativa vegana, manteniendo el perfil dulce y salado de la soja. Combina perfectamente con repollo rallado y snacks de maíz crujientes.",
+    "ar": "صوص شلوميت هو صوص إسرائيلي عصري. هالوصفة النباتية تعوض المايونيز العادي بمايونيز نباتي، وتخلي مطعم الصوجا الحلو والمالح. تجي بنينة برشة مع سلطة كرنب مقصوص وسناك ذرة يتقرمش.",
+    "en": "Shlomit's Salad Dressing is a modern Israeli dressing. This plant-based version swaps egg mayonnaise for a vegan alternative while keeping the sweet and savory soy profile. It pairs perfectly with shredded cabbage and crunchy corn snacks."
   },
   "ingredients": {
     "he": [
@@ -45,12 +45,12 @@
     "ar": [
       "نص كاس زيت",
       "ربع كاس ماء",
-      "مغرفة مايونيز نباتي",
+      "مغرفة كبيرة مايونيز نباتي",
       "مغرفة صغيرة موتارد",
-      "مغرفة عصير قارص",
-      "3 مغارف سكر",
-      "مغرفة صوص صوجا",
-      "سنة ثوم، مرحية",
+      "مغرفة كبيرة عصير قارص",
+      "3 مغارف كبار سكر",
+      "مغرفة كبيرة صوص صوجا",
+      "سنة ثوم مهروسة",
       "ملح حسب الذوق"
     ],
     "en": [
@@ -68,27 +68,27 @@
   "steps": {
     "he": [
       "שמים בבלנדר את השמן, המים, המיונז, החרדל, מיץ הלימון, הסוכר, רוטב הסויה והשום הכתוש.",
-      "מערבלים עד שהתערובת חלקה לחלוטין ואחידה (אמולסיה).",
+      "מערבלים עד לקבלת תערובת חלקה לחלוטין ואחידה (אמולסיה).",
       "טועמים ומתקנים תיבול עם מלח לפי הצורך. טיפ: מומלץ להכפיל או לשלש את הכמויות כיוון שהרוטב נשמר היטב במקרר לאורך זמן.",
-      "מגישים מעל הסלט. המלצת הגשה: להשתמש בסלט כרוב ירוק, כרוב סגול ובצל ירוק. לפזר מעל חטיפים פריכים כמו אפרופו, דוריטוס או שקדים קלויים ממש לפני ההגשה."
+      "מגישים מעל הסלט. המלצת הגשה: להגיש עם סלט של כרוב ירוק, כרוב סגול ובצל ירוק. לפזר מעל חטיפים פריכים כמו אפרופו, דוריטוס או שקדים קלויים ממש לפני ההגשה."
     ],
     "es": [
       "Coloque el aceite, el agua, la mayonesa, la mostaza, el jugo de limón, el azúcar, la salsa de soja y el ajo machacado en una licuadora.",
       "Licúe hasta que la mezcla esté completamente suave y emulsionada.",
       "Pruebe y ajuste la sal u otros condimentos según sea necesario. Consejo: Se recomienda duplicar o triplicar las cantidades ya que se conserva bien en el refrigerador por mucho tiempo.",
-      "Sirva sobre la ensalada. Sugerencia de presentación: Úselo con una ensalada de repollo verde, repollo morado y cebollas verdes. Cubra con elementos crujientes como Apropo (conos de maíz), Doritos o almendras tostadas justo antes de servir."
+      "Sirva sobre la ensalada. Sugerencia de presentación: Úselo con una ensalada de repollo verde, repollo morado y cebollín. Cubra con elementos crujientes como Apropo (conos de maíz), Doritos o almendras tostadas justo antes de servir."
     ],
     "ar": [
-      "حط الزيت والماء والمايونيز والموتارد وعصير القارص والسكر وصوص الصوجا والثوم المرحي في الخلاط.",
+      "حط الزيت، الماء، المايونيز، الموتارد، عصير القارص، السكر، صوص الصوجا، والثوم المهروس في الخلاط.",
       "ارحيهم مليح لين يولي الخليط أرطب ومتجانس.",
-      "ذوق وزيد الملح كان لازم. نصيحة: ننصحوك تضاعف الكمية خاطر يصبر برشة في الفريجيدير.",
-      "صب فوق السلطة. ننصحوك تخلطو مع سلطة كرنب أخضر وكرنب أحمر وبصل أخضر. حط من فوق حاجات تتقرمش كيف الأبروبو ولا دوريتوس ولا لوز محمر قبل ما تقدمو ديركت."
+      "ذوق وصلّح الملح كان لزم. نصيحة: ننصحوك تضاعف الكمية مرتين ولا ثلاثة، خاطرو يصبر برشة في الفريجيدير.",
+      "صبو فوق السلطة. اقتراح للتقديم: يجي بنين مع سلطة كرنب أخضر، كرنب أحمر وبصل أخضر. حط من فوق حاجات تتقرمش كيما الأبروبو، الدوريتوس ولا لوز محمر ديركت قبل التقديم."
     ],
     "en": [
       "Place the oil, water, mayonnaise, mustard, lemon juice, sugar, soy sauce, and crushed garlic into a blender.",
       "Blend until the mixture is completely smooth and emulsified.",
-      "Taste and adjust salt or other seasonings as needed. Tip: The recipe author recommends doubling or tripling the quantities as it keeps well in the refrigerator for a long time.",
-      "Serve over salad. Recommended serving: Use with a salad of green cabbage, purple cabbage, and green onions. Top with crunchy items like Apropo (corn bugles), Doritos, or roasted almonds just before serving."
+      "Taste and adjust salt or other seasonings as needed. Tip: It is recommended to double or triple the quantities, as the dressing keeps well in the refrigerator for a long time.",
+      "Serve over salad. Serving suggestion: Toss with a salad of green cabbage, red cabbage, and green onions. Top with crunchy snacks like Apropo (corn bugles), Doritos, or roasted almonds just before serving."
     ]
   },
   "index": 51

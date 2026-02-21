@@ -4,7 +4,7 @@
   "meta": {
     "servings": "6-8",
     "prep_time": "15 min",
-    "cook_time": "0 min",
+    "cook_time": "No cook",
     "difficulty": "Easy"
   },
   "name": {
@@ -14,29 +14,29 @@
     "en": "Charoset"
   },
   "description": {
-    "he": "נקראת על שם המילה העברית חרס, ממרח עתיק זה מסמל את הטיט ששימש את בני ישראל במצרים. מתכון טבעוני זה משלב תמרים צפון אפריקאיים עם תפוחים פריכים ואגוזי מלך. התערובת המתוקה מציעה מרקם עשיר המאזן בצורה מושלמת את המרור בקערת הסדר.",
-    "es": "Llamada así por la palabra hebrea cheres que significa arcilla, esta antigua pasta simboliza el mortero utilizado por los israelitas en Egipto. Esta receta naturalmente vegana combina dátiles norteafricanos con manzanas crujientes y nueces. La mezcla dulce ofrece una textura rica que equilibra perfectamente las hierbas amargas del plato del Séder.",
-    "ar": "مسمية على الكلمة العبرية حرس اللي تعني الطين، هالعجينة القديمة ترمز للملاط اللي استعملوه بني إسرائيل في مصر. الوصفة هذي نباتية وتخلط التمر متاع شمال إفريقيا مع التفاح والجوز. الخليط الحلو عندو قوام غني يوازن بالباهي المرارة متاع الأعشاب في طبق السدر.",
-    "en": "Named for the Hebrew word cheres meaning clay, this ancient paste symbolizes the mortar used by Israelites in Egypt. This naturally vegan recipe combines North African dates with crisp apples and walnuts. The sweet mixture offers a rich texture that perfectly balances the Seder plate's bitter herbs."
+    "he": "ממרח עתיק זה, הקרוי על שם המילה 'חרס', מסמל את הטיט ששימש את בני ישראל במצרים. מתכון טבעוני זה משלב תמרים צפון אפריקאיים עם תפוחים פריכים ואגוזי מלך. התערובת המתוקה יוצרת מרקם עשיר המאזן בצורה מושלמת את המרור בקערת הסדר.",
+    "es": "Llamada así por la palabra hebrea 'cheres', que significa arcilla, esta antigua pasta simboliza el mortero utilizado por los israelitas en Egipto. Esta receta, naturalmente vegana, combina dátiles norteafricanos con manzanas crujientes y nueces. La mezcla dulce ofrece una textura rica que equilibra perfectamente las hierbas amargas del plato del Séder.",
+    "ar": "خذات اسمها من الكلمة العبرية 'حيرس' اللي تعني الطين، هالعجينة القديمة ترمز للطين اللي استعملوه بني إسرائيل في مصر. هالوصفة النباتية تخلط التمر الشمال إفريقي مع التفاح المقرمش والزوزة. الخليط الحلو عندو قوام غني يوازن بالباهي مرارة الأعشاب في طبق السيدر.",
+    "en": "Named after the Hebrew word 'cheres' meaning clay, this ancient paste symbolizes the mortar used by the Israelites in Egypt. This naturally vegan recipe combines North African dates with crisp apples and walnuts. The sweet mixture offers a rich texture that perfectly balances the bitter herbs on the Seder plate."
   },
   "ingredients": {
     "he": [
-      "200 גרם תמרים מסוג מג'הול, מגולענים וקצוצים",
-      "1 תפוח, קלוף, מנוקה מליבה ומגורר",
+      "200 גרם תמרי מג'הול, מגולענים וקצוצים",
+      "1 תפוח, קלוף, ללא הליבה ומגורר",
       "100 גרם אגוזי מלך, קצוצים דק או טחונים",
       "60 מ\"ל יין אדום מתוק"
     ],
     "es": [
-      "200 g de dátiles Medjool, deshuesados y picados",
-      "1 manzana, pelada, descorazonada y rallada",
+      "200 g de dátiles Medjool, sin carozo y picados",
+      "1 manzana, pelada, sin corazón y rallada",
       "100 g de nueces, finamente picadas o molidas",
       "60 ml de vino tinto dulce"
     ],
     "ar": [
-      "1 ¼ كاس تمر مجدول، منحي العلفة ومقصوص",
-      "1 تفاحة، مقشرة ومرحية",
-      "1 كاس جوز، مقصوص جويد ولا مرحي",
-      "¼ كاس شراب أحمر حلو"
+      "كاس وربع تمر مجدول، منحي العلفة ومقصوص",
+      "كعبة تفاح، مقشرة ومرابية (مبروشة)",
+      "كاس زوزة (جوز)، مقصوصة جويدة ولا مرحية",
+      "ربع كاس نبيذ أحمر حلو"
     ],
     "en": [
       "1 ¼ cups Medjool dates, pitted and chopped",
@@ -47,27 +47,27 @@
   },
   "steps": {
     "he": [
-      "יש לגלען את התמרים ולקצוץ אותם דק. אם הם יבשים, ניתן להשרות אותם במים חמים למשך 10 דקות תחילה.",
-      "קלפו את התפוח וגררו אותו דק.",
-      "בקערה או במעבד מזון, ערבבו את התמרים, התפוח המגורר והאגוזים הקצוצים. לקבלת מרקם מסורתי דמוי טיט, עבדו בפולסים עד לקבלת ממרח אך השאירו מעט מרקם.",
-      "הוסיפו בהדרגה את היין תוך כדי ערבוב עד לקבלת הסמיכות הרצויה."
+      "מגלענים את התמרים וקוצצים אותם דק. אם הם יבשים, אפשר להשרות אותם תחילה במים חמים למשך 10 דקות.",
+      "מקלפים את התפוח ומגררים דק.",
+      "בקערה או במעבד מזון, מערבבים את התמרים, התפוח המגורר והאגוזים הקצוצים. לקבלת מרקם מסורתי דמוי טיט, מעבדים בפולסים עד לקבלת ממרח, אך משאירים מעט מרקם גס.",
+      "מוסיפים בהדרגה את היין תוך כדי ערבוב, עד לקבלת הסמיכות הרצויה."
     ],
     "es": [
-      "Deshuese los dátiles y píquelos finamente. Si están secos, puede remojarlos en agua tibia durante 10 minutos primero.",
+      "Quite el carozo a los dátiles y píquelos finamente. Si están muy secos, remójelos en agua tibia durante 10 minutos antes de usarlos.",
       "Pele y ralle la manzana finamente.",
-      "En un bol o procesador de alimentos, combine los dátiles, la manzana rallada y las nueces picadas. Para una textura tradicional similar al mortero, pulse hasta que se forme una pasta pero quede algo de textura.",
-      "Añada gradualmente el vino mientras mezcla hasta alcanzar la consistencia deseada."
+      "En un bol o procesador de alimentos, combine los dátiles, la manzana rallada y las nueces picadas. Para obtener una textura tradicional similar a la del mortero, procese con pulsos hasta que se forme una pasta, pero conservando algo de textura.",
+      "Incorpore gradualmente el vino mientras mezcla, hasta alcanzar la consistencia deseada."
     ],
     "ar": [
-      "نحي العلفة للتمر وقصو جويد. كانو شايح، تنجم تنفخو في ماء سخون لمدة 10 دقايق قبل.",
-      "قشر التفاحة وارحيها بالباهي.",
-      "في صحفة ولا ماكينة رحيان، خلط التمر والتفاح المرحي والجوز. باش تتحصل على قوام كيما الملاط التقليدي، ارحي بشوية بشوية لين تولي عجينة أما تقعد فيها طروف.",
-      "زيد الشراب بالشوية وانت تخلط لين تتحصل على القوام اللي تحب عليه."
+      "نحي العلفة من التمر وقصو جويد. كانو شايح برشا، تنجم تنفخو في ماء دافي لمدة 10 دقايق قبل.",
+      "قشر التفاحة ورابيها جويدة.",
+      "في صحفة ولا روبو، خلط التمر، التفاح المرابي والزوزة المقصوصة. باش تتحصل على قوام تقليدي يشبه للطين، ارحي بشوية بشوية لين تتلم وتولي عجينة أما خلي فيها شوية طروف.",
+      "زيد النبيذ بالشوية بالشوية وانت تخلط لين تتحصل على القوام اللي حاجتك بيه."
     ],
     "en": [
-      "Pit the dates and chop them finely. If they are dry, you may soak them in warm water for 10 minutes first.",
+      "Pit the dates and chop them finely. If they are dry, soak them in warm water for 10 minutes first.",
       "Peel and grate the apple finely.",
-      "In a bowl or food processor, combine the dates, grated apple, and chopped nuts. For a traditional mortar-like texture, pulse in a food processor until a paste forms but some texture remains.",
+      "In a bowl or food processor, combine the dates, grated apple, and chopped walnuts. For a traditional mortar-like texture, pulse until a paste forms while retaining some texture.",
       "Gradually add the wine while mixing until the desired consistency is reached."
     ]
   },

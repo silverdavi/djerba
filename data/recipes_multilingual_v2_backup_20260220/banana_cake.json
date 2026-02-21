@@ -1,0 +1,119 @@
+{
+  "id": "banana_cake",
+  "image": "images/current/banana_cake/dish.png",
+  "meta": {
+    "servings": "9-12",
+    "prep_time": "15 min",
+    "cook_time": "50 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "עוגת בננות",
+    "es": "Pastel de Banana",
+    "ar": "كيكة بالموز",
+    "en": "Banana Cake"
+  },
+  "description": {
+    "he": "עוגת בננות לחה ועשירה בטעמים שהפכה לאהובה על המשפחה. בננות בשלות מעניקות מתיקות טבעית בעוד רסק תפוחים או פשתן מחליפים את הביצים בגרסה הצמחית הזו. מושלמת לקינוח שבת או כפינוק לאמצע השבוע.",
+    "es": "Un pastel de banana húmedo y sabroso que se ha convertido en un favorito de la familia. Las bananas maduras aportan dulzura natural mientras que el puré de manzana o la linaza reemplazan los huevos en esta versión vegetal. Perfecto para el postre de Shabat o como un capricho entre semana.",
+    "ar": "كيكة بالموز طرية وبنينة ولات محبوبة عند العايلة. الموز الطايب يعطي حلاوة طبيعية، وفي هالوصفة النباتية عوضنا العظم بصوص التفاح ولا الكتان. هايلة لسهرة السبت ولا باش تحلي فمك في وسط الجمعة.",
+    "en": "A moist and flavorful banana cake that's become a family favorite. Ripe bananas provide natural sweetness while applesauce replaces eggs in this plant-based version. Perfect for Shabbat dessert or a weekday treat."
+  },
+  "ingredients": {
+    "he": [
+      "113 גרם חמאה טבעונית, רכה",
+      "300 גרם סוכר",
+      "14 גרם פשתן טחון (מעורבב עם 6 כפות מים)",
+      "5 מ\"ל תמצית וניל",
+      "5 גרם סודה לשתייה",
+      "115 מ\"ל חלב סויה (מעורבב עם כפית חומץ תפוחים)",
+      "2 בננות גדולות, מעוכות",
+      "190 גרם קמח לבן, מנופה",
+      "5 גרם אבקת אפייה",
+      "100 גרם שוקולד צ'יפס מריר"
+    ],
+    "es": [
+      "113 g de mantequilla vegana, ablandada",
+      "300 g de azúcar",
+      "14 g de harina de linaza (mezclada con 6 cdas de agua)",
+      "5 ml de extracto de vainilla",
+      "5 g de bicarbonato de sodio",
+      "115 ml de leche de soja (mezclada con 1 cdta de vinagre de manzana)",
+      "2 bananas grandes, pisadas",
+      "190 g de harina común, tamizada",
+      "5 g de polvo de hornear",
+      "100 g de chispas de chocolate amargo"
+    ],
+    "ar": [
+      "1/2 كأس زبدة نباتية، طرية",
+      "1 1/2 كأس سكر",
+      "2 مغارف كتان مرحي (مخلطين مع 6 مغارف ماء)",
+      "1 مغرفة صغيرة فانيليا",
+      "1 مغرفة صغيرة بيكربونات",
+      "1/2 كأس حليب صوجا (مخلط مع مغرفة صغيرة خل تفاح)",
+      "2 كعبات موز كبار، معفوسين",
+      "1 1/2 كأس فرينة، منخولة",
+      "1 مغرفة صغيرة خميرة قاطو",
+      "2/3 كأس حبيبات شكلاطة كحلة"
+    ],
+    "en": [
+      "1/2 cup vegan butter, softened",
+      "1 1/2 cups sugar",
+      "2 tbsp ground flaxseed (mixed with 6 tbsp water)",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "1/2 cup soy milk (mixed with 1 tsp apple cider vinegar)",
+      "2 large bananas, mashed",
+      "1 1/2 cups all-purpose flour, sifted",
+      "1 tsp baking powder",
+      "2/3 cup dark chocolate chips"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מחממים תנור ל-175 מעלות. משמנים או מרפדים תבנית אפייה מרובעת בגודל 23 ס\"מ.",
+      "בקערה גדולה, מקציפים את החמאה, הסוכר, תערובת הפשתן (תחליף הביצים) והוניל עד שהתערובת אוורירית ובהירה.",
+      "בכלי קטן נפרד, ממיסים את הסודה לשתייה בתוך החלב החמוץ (חלב הסויה עם החומץ).",
+      "מוסיפים את תערובת החלב לבלילת החמאה ומקציפים היטב.",
+      "מנפים יחד את הקמח ואבקת האפייה.",
+      "מוסיפים לבלילה את הבננות המעוכות לסירוגין עם החומרים היבשים המנופים. מקפלים פנימה את השוקולד צ'יפס. מערבבים רק עד לאיחוד; להיזהר לא לערבב יותר מדי.",
+      "יוצקים את הבלילה לתבנית האפייה המוכנה.",
+      "אופים במשך 45 עד 50 דקות, או עד שקיסם הננעץ במרכז יוצא נקי.",
+      "מניחים לעוגה להצטנן. אפשר לצפות בזיגוג בננה או שוקולד."
+    ],
+    "es": [
+      "Precalentar el horno a 175°C. Preparar un molde cuadrado de 23 cm engrasándolo o forrándolo.",
+      "En un bol grande, batir la mantequilla, el azúcar, la mezcla de linaza (sustituto de huevo) y la vainilla hasta que la mezcla esté ligera y esponjosa.",
+      "En un recipiente pequeño aparte, disolver el bicarbonato de sodio en la leche agria (leche de soja con vinagre).",
+      "Agregar la mezcla de leche al batido de mantequilla y batir bien.",
+      "Tamizar juntos la harina y el polvo de hornear.",
+      "Agregar las bananas pisadas alternando con los ingredientes secos tamizados a la masa. Incorporar las chispas de chocolate con movimientos envolventes. Mezclar solo hasta integrar; no batir en exceso.",
+      "Verter la masa en el molde preparado.",
+      "Hornear de 45 a 50 minutos, o hasta que al insertar un palillo en el centro salga limpio.",
+      "Dejar enfriar. Opcionalmente cubrir con glaseado de banana o chocolate."
+    ],
+    "ar": [
+      "سخن الفور ل-175 درجة. حضر طبق الفور (23 سم) وادهنو بالزيت ولا حط فيه ورق طبخ.",
+      "في صحفة كبيرة، ركض الزبدة والسكر وخلطة الكتان (في عوض العظم) والفانيليا لين الخليط يولي خفيف ومنفخ.",
+      "في صحفة صغيرة وحدها، ذوب البيكربونات في الحليب (حليب الصوجا والخل).",
+      "زيد خليط الحليب على خليط الزبدة وركض مليح.",
+      "غربل الفرينة وخميرة القاطو مع بعضهم.",
+      "زيد الموز المعفوس بالتناوب مع الفرينة للخليط. خلط معاهم حبيبات الشكلاطة. حرك بشوية لين يتخلطو برك، رد بالك تخلط برشا.",
+      "صب الخليط في الطبق المحضر.",
+      "طيبها 45 حتى 50 دقيقة، ولا لين كي تدخل فيها عود يخرج شايح.",
+      "خليها تبرد. تنجم تزينها بصوص موز ولا شكلاطة كان تحب."
+    ],
+    "en": [
+      "Preheat oven to 175°C (350°F). Prepare a 9-inch square baking pan by greasing or lining it.",
+      "In a large bowl, beat the butter, sugar, flax mixture (egg replacer), and vanilla until the mixture is light and fluffy.",
+      "In a separate small container, dissolve the baking soda into the sour milk mixture.",
+      "Add the milk mixture to the butter batter and beat well.",
+      "Sift the flour and baking powder together.",
+      "Add the mashed bananas alternately with the sifted dry ingredients to the batter. Fold in the chocolate chips. Mix just until blended; do not overmix.",
+      "Pour the batter into the prepared baking pan.",
+      "Bake for 45 to 50 minutes, or until a toothpick inserted into the center comes out clean.",
+      "Allow to cool. Optionally ice with Banana Icing or Chocolate Icing."
+    ]
+  },
+  "index": 69
+}

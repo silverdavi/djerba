@@ -4,7 +4,7 @@
   "meta": {
     "servings": "6-8",
     "prep_time": "30 min",
-    "cook_time": "720 min",
+    "cook_time": "Overnight",
     "difficulty": "Medium"
   },
   "name": {
@@ -14,17 +14,17 @@
     "en": "Adafina"
   },
   "description": {
-    "he": "אדפינה, שמשמעותה \"טמונה\", מזכירה את השיטה ההיסטורית של הטמנת סירים בגחלים לבישול איטי במשך הלילה. תבשיל שבת בבוקר מרוקאי זה כולל באופן מסורתי שכבות של חומוס, תפוחי אדמה וחיטה. גרסה צמחית זו מחליפה את הבשר בסייטן עשיר בטעם, תוך שמירה על העומק המקורמל והעושר המנחם של המנה.",
-    "es": "Adafina, que significa \"enterrada\", recuerda el método histórico de enterrar ollas en brasas para cocinarlas lentamente durante la noche. Este guiso marroquí de sábado por la mañana presenta tradicionalmente capas de garbanzos, papas y trigo. Esta adaptación vegetal reemplaza la carne con seitán sabroso, manteniendo la profundidad caramelizada y la riqueza reconfortante del plato.",
-    "ar": "أدفينة، ومعناها \"المدفونة\"، تفكرنا بالطريقة القديمة متاع دفن الطناجر في الجمر باش تطيب بالشوية ليلة كاملة. هالمريقة المغربية متاع صباح السبت فيها عادة طبقات حمص، وبطاطا، وقمح. في الوصفة النباتية هاذي، بدلنا اللحم بالسيتان البنين، باش نحافظو على طعمة السكر المحروق وتغمييق المرقة والبنة اللي تدفي القلب.",
-    "en": "Adafina, meaning \"buried,\" recalls the historical method of burying pots in embers to slow-cook overnight. This Moroccan Shabbat morning stew traditionally features layers of chickpeas, potatoes, and wheat. This plant-based adaptation replaces meat with savory seitan, while maintaining the dish's signature caramelized depth and comforting richness."
+    "he": "אדפינה, שמשמעותה \"טמונה\", מזכירה את השיטה ההיסטורית של הטמנת סירים בגחלים לבישול איטי במשך הלילה. תבשיל שבת מרוקאי מסורתי זה כולל בדרך כלל שכבות של חומוס, תפוחי אדמה וחיטה. גרסה טבעונית זו מחליפה את הבשר בסייטן עשיר בטעם, תוך שמירה על העומק המקורמל והעושר המנחם של המנה.",
+    "es": "Adafina, que significa \"enterrada\", recuerda el método histórico de enterrar ollas en brasas para cocinarlas lentamente durante la noche. Este guiso marroquí tradicional para la mañana del Shabat presenta capas de garbanzos, papas y trigo. Esta adaptación a base de plantas reemplaza la carne con un sabroso seitán, manteniendo la profundidad caramelizada y la riqueza reconfortante del plato.",
+    "ar": "أدفينة، اللي معناها \"المدفونة\"، تفكرنا بالطريقة القديمة متاع دفن الطناجر في الجمر باش تطيب سلة سلة ليلة كاملة. هالمرقة المغربية متاع نهار السبت فيها عادة طبقات حمص، بطاطا، وقمح. في هالنسخة النباتية، بدلنا اللحم بالسيتان البنين، باش نحافظو على اللون المكرمل والبنة اللي تدفي القلب.",
+    "en": "Adafina, meaning \"buried,\" recalls the historical method of burying pots in embers to slow-cook overnight. This traditional Moroccan Shabbat stew features layers of chickpeas, potatoes, and wheat. This plant-based adaptation replaces meat with savory seitan, while maintaining the dish's signature caramelized depth and comforting richness."
   },
   "ingredients": {
     "he": [
-      "250 גרם חומוס, מושרה כל הלילה",
-      "1000 גרם סייטן (גלוטן חיטה), חתוך לנתחים גדולים",
+      "250 גרם גרגירי חומוס, מושרים כל הלילה",
+      "1 ק\"ג סייטן (גלוטן חיטה), חתוך לנתחים גדולים",
       "6 תפוחי אדמה, קלופים",
-      "6 יחידות טופו קשה, סחוט וחתוך לקוביות גדולות",
+      "6 גושי טופו קשה, סחוטים וחתוכים לקוביות גדולות",
       "200 גרם חיטה, שטופה",
       "25 גרם סוכר",
       "3 גרם כורכום",
@@ -38,9 +38,9 @@
     ],
     "es": [
       "250 g de garbanzos, remojados durante la noche",
-      "1000 g de seitán (gluten de trigo), cortado en trozos grandes",
+      "1 kg de seitán (gluten de trigo), cortado en trozos grandes",
       "6 papas, peladas",
-      "6 unidades de tofu firme, prensado y cortado en bloques grandes",
+      "6 bloques de tofu firme, prensados y cortados en trozos grandes",
       "200 g de granos de trigo, enjuagados",
       "25 g de azúcar",
       "3 g de cúrcuma",
@@ -53,33 +53,33 @@
       "Agua para cubrir"
     ],
     "ar": [
-      "1.25 كيسان حمص، منفخ ليلة كاملة",
-      "4.2 كيسان سيتان، مقصوص طروف كبار",
+      "كاس وربع حمص، منفخ ليلة كاملة",
+      "4 كيسان وربع سيتان (غلوتين القمح)، مقصوص طروف كبار",
       "6 كعبات بطاطا، مقشرين",
-      "6 طروف كبار توفو يابس، معصورين",
-      "1.1 كيسان قمح، مشلل",
-      "2 مغارف سكر",
-      "1 مغرفة صغيرة كركم",
+      "6 طروف كبار توفو يابس، معصورين ومقصوصين",
+      "كاس وشوية قمح، مشلل",
+      "2 مغارف كبار سكر",
+      "مغرفة صغيرة كركم",
       "نص مغرفة صغيرة فلفل أبيض",
-      "شوية جوزة الطيب (حسب الذوق)",
-      "1 مغرفة صغيرة فلفل أحمر",
+      "رشة جوزة الطيب (حسب الذوق)",
+      "مغرفة صغيرة فلفل أحمر زينة (حلو)",
       "نص مغرفة صغيرة قرفة",
-      "1 مغرفة مرقة خضرة غبرة",
+      "مغرفة كبيرة مرقة خضرة غبرة",
       "ملح حسب الذوق",
-      "ماء باش نغموا الطنجرة"
+      "ماء باش نغمّو بيه الطنجرة"
     ],
     "en": [
-      "1.25 cups chickpeas, soaked overnight",
-      "4.2 cups seitan (wheat gluten), cut into large chunks",
+      "1 ¼ cups chickpeas, soaked overnight",
+      "4 ¼ cups seitan (wheat gluten), cut into large chunks",
       "6 potatoes, peeled",
-      "6 units firm tofu, pressed and cut into large blocks",
-      "1.1 cups wheat berries, rinsed",
+      "6 blocks firm tofu, pressed and cut into large chunks",
+      "1 ⅛ cups wheat berries, rinsed",
       "2 tbsp sugar",
       "1 tsp turmeric",
-      "0.5 tsp white pepper",
+      "½ tsp white pepper",
       "Grated nutmeg to taste",
       "1 tsp sweet paprika",
-      "0.5 tsp ground cinnamon",
+      "½ tsp ground cinnamon",
       "1 tbsp vegetable bouillon powder",
       "Salt to taste",
       "Water to cover"
@@ -87,46 +87,46 @@
   },
   "steps": {
     "he": [
-      "להשרות את החומוס במים למשך הלילה לפני תחילת הבישול.",
-      "להניח את הסייטן בסיר עם מים ולהביא לרתיחה כדי לנקות אותו. לסנן את המים, לשטוף את הסייטן ולשטוף את הסיר.",
-      "להחזיר את הסייטן הנקי לסיר. להוסיף את החומוס המושרה (בדרך כלל בתחתית או מתחת לסייטן) ולהניח את תפוחי האדמה מעל.",
-      "להוסיף את התבלינים: כורכום, פלפל לבן, קורט אגוז מוסקט, פפריקה, קינמון, אבקת מרק ומלח.",
-      "להוסיף את קוביות הטופו לסיר.",
-      "להכין את הקרמל: במחבת קטנה נפרדת, לחמם את הסוכר עם מעט מאוד מים עד שהוא נשרף מעט והופך לחום כהה (חם מאוד). בזהירות רבה לשפוך את זה לסיר הראשי.",
-      "לכסות את התכולה במים. להביא לרתיחה, ואז להנמיך את האש ולבשל במשך כ-1.5 שעות.",
-      "להניח את החיטה בשקית בישול (לבדוק שאין חורים). לפני שבת, להניח את השקית בסיר.",
-      "להעביר את הסיר לפלטת שבת או לתנור בחום נמוך (100 מעלות צלזיוס) ולבשל כל הלילה עד לארוחת הצהריים למחרת."
+      "משרים את גרגירי החומוס במים למשך הלילה.",
+      "שמים את הסייטן בסיר עם מים ומביאים לרתיחה כדי לנקות אותו. מסננים, שוטפים את הסייטן ושוטפים את הסיר.",
+      "מחזירים את הסייטן הנקי לסיר. מוסיפים את החומוס המושרה (בדרך כלל בתחתית או מתחת לסייטן) ומניחים את תפוחי האדמה מעל.",
+      "מוסיפים את התבלינים: כורכום, פלפל לבן, קורט אגוז מוסקט, פפריקה, קינמון, אבקת מרק ומלח.",
+      "מוסיפים את קוביות הטופו לסיר.",
+      "מכינים את הקרמל: במחבת קטנה נפרדת, מחממים את הסוכר עם מעט מאוד מים עד שהוא נחרך קלות והופך לחום כהה (זהירות, חם מאוד!). יוצקים בזהירות רבה לסיר הראשי.",
+      "מכסים את התכולה במים. מביאים לרתיחה, מנמיכים את האש ומבשלים כשעה וחצי.",
+      "שמים את החיטה בשקית קוקי או שקית בד לבישול (יש לוודא שאין בה חורים). לפני כניסת שבת, מניחים את השקית בסיר.",
+      "מעבירים את הסיר לפלטת שבת או לתנור בחום נמוך (100 מעלות) ומבשלים כל הלילה, עד לארוחת הצהריים למחרת."
     ],
     "es": [
-      "Remojar los garbanzos en agua durante la noche antes de comenzar a cocinar.",
+      "Remojar los garbanzos en agua durante la noche.",
       "Colocar el seitán en una olla con agua y llevar a ebullición para limpiarlo. Escurrir el agua, enjuagar el seitán y enjuagar la olla.",
       "Devolver el seitán limpio a la olla. Añadir los garbanzos remojados (generalmente en el fondo o debajo del seitán) y colocar las papas encima.",
-      "Añadir las especias: cúrcuma, pimienta blanca, una pizca de nuez moscada, pimentón, canela, caldo en polvo y sal.",
-      "Añadir los bloques de tofu a la olla.",
-      "Preparar el caramelo: En una sartén pequeña aparte, calentar el azúcar con una cantidad muy pequeña de agua hasta que se queme ligeramente y se vuelva marrón oscuro (muy caliente). Verter esto con cuidado en la olla principal.",
-      "Cubrir el contenido con agua. Llevar a ebullición, luego reducir el fuego y cocinar a fuego lento durante aproximadamente 1.5 horas.",
+      "Añadir las especias: cúrcuma, pimienta blanca, una pizca de nuez moscada, pimentón, canela, caldo de verduras en polvo y sal.",
+      "Añadir los trozos de tofu a la olla.",
+      "Preparar el caramelo: En una sartén pequeña aparte, calentar el azúcar con una cantidad muy pequeña de agua hasta que se tueste ligeramente y adquiera un color marrón oscuro (¡estará muy caliente!). Verter con mucho cuidado en la olla principal.",
+      "Cubrir el contenido con agua. Llevar a ebullición, luego reducir el fuego y cocinar a fuego lento durante aproximadamente 1 hora y media.",
       "Colocar el trigo en una bolsa de cocción (verificando primero que no tenga agujeros). Antes de Shabat, colocar la bolsa en la olla.",
-      "Transferir la olla a una placa de Shabat o a un horno bajo (100°C) y cocinar durante la noche hasta el almuerzo del día siguiente."
+      "Transferir la olla a una placa caliente de Shabat (plata) o a un horno a baja temperatura (100°C) y cocinar durante toda la noche hasta el almuerzo del día siguiente."
     ],
     "ar": [
-      "نفخ الحمص في الماء ليلة كاملة قبل ما تبدا تطيب.",
-      "حط السيتان في طنجرة مع الماء وخليه يغلي باش يتنحى منو الوسخ. صفي الماء، وشلل السيتان، واغسل الطنجرة.",
-      "رجع السيتان النظيف للطنجرة. زيد الحمص المنفخ (عادة من لوطة ولا تحت السيتان) وحط البطاطا فوق السيتان.",
-      "زيد الفاحات: كركم، فلفل أبيض، رشة جوزة الطيب، فلفل أحمر، قرفة، مرقة غبرة، وملح.",
+      "نفّخ الحمص في الماء ليلة كاملة.",
+      "حط السيتان في طنجرة فيها ماء وخليه يغلي باش يتنظف. صفي الماء، شلل السيتان، واغسل الطنجرة.",
+      "رجّع السيتان النظيف للطنجرة. زيد الحمص المنفخ (عادة يجي من لوطة تحت السيتان) وحط كعبات البطاطا من الفوق.",
+      "زيد الفاحات: الكركم، الفلفل الأبيض، رشة جوزة الطيب، الفلفل الأحمر، القرفة، مرقة الخضرة، والملح.",
       "زيد طروف التوفو للطنجرة.",
-      "حضّر الكراميل: في قلاية صغيرة، سخن السكر مع قطرة ماء لين يتحرق شوية ويولي لونه قهوي غامق (سخون برشا). صبو بالشوية وبالسياسة في الطنجرة الكبيرة.",
-      "غم الطنجرة بالماء. خليها تغلي، ومبعد نقص النار وخليها تطيب سلة سلة حكاية ساعة ونص.",
-      "حط القمح في صرة (ثبت اللي ما فيهاش نقب). قبل السبت، حط الصرة في الطنجرة.",
-      "حط الطنجرة فوق الفتيلة ولا في كوشة سخونة شوية (100 درجة) وخليها تطيب ليلة كاملة لين يجي فطور الغدوة."
+      "حضّر الكراميل: في قلاية صغيرة وحدها، سخّن السكر مع قطيرة ماء لين يتكرمل ويولي لونه قهوي غامق (رد بالك راهو سخون برشا). صبّو بالشوية وبالسياسة في الطنجرة الكبيرة.",
+      "غم المكونات بالماء. خليها تغلي، ومبعد نقّص في النار وخليها تطيب سلة سلة حكاية ساعة ونص.",
+      "حط القمح في كموسة ولا صرة قماش (ثبّت اللي مافيهاش نقب). قبل دخول السبت، حط الكموسة في الطنجرة.",
+      "حط الطنجرة فوق بلاكة السبت (פלטה) ولا في كوشة على نار هادية (100 درجة) وخليها تطيب ليلة كاملة لين يجي فطور نص النهار متاع غدوة."
     ],
     "en": [
-      "Soak the chickpeas in water overnight before starting cooking.",
+      "Soak the chickpeas in water overnight.",
       "Place the seitan in a pot with water and bring to a boil to clean it. Drain the water, rinse the seitan, and rinse the pot.",
       "Return the clean seitan to the pot. Add the soaked chickpeas (usually at the bottom or under the seitan) and place the potatoes on top.",
       "Add the spices: turmeric, white pepper, a pinch of nutmeg, paprika, cinnamon, vegetable bouillon, and salt.",
-      "Add the firm tofu blocks to the pot.",
-      "Prepare the caramel: In a separate small pan, heat the sugar with a tiny amount of water until it burns slightly and turns dark brown (very hot). Carefully pour this into the main pot.",
-      "Cover the contents with water. Bring to a boil, then reduce heat and simmer for about 1.5 hours.",
+      "Add the firm tofu chunks to the pot.",
+      "Prepare the caramel: In a separate small pan, heat the sugar with a tiny amount of water until it caramelizes and turns dark brown (caution: it will be very hot). Carefully pour this into the main pot.",
+      "Cover the contents with water. Bring to a boil, then reduce heat and simmer for about 1 ½ hours.",
       "Place the wheat berries in a cooking bag (checking the bag for holes first). Before Shabbat, place the bag in the pot.",
       "Transfer the pot to a Shabbat hot plate (blech) or a low oven (100°C/212°F) and cook overnight until lunch the next day."
     ]

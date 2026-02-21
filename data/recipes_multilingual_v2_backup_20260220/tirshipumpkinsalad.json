@@ -1,0 +1,96 @@
+{
+  "id": "tirshipumpkinsalad",
+  "image": "images/current/tirshipumpkinsalad/dish.png",
+  "meta": {
+    "servings": "4-6",
+    "prep_time": "15 min",
+    "cook_time": "20 min",
+    "difficulty": "Easy"
+  },
+  "name": {
+    "he": "תירשי",
+    "es": "Tirshi (Ensalada Tunecina de Calabaza)",
+    "ar": "تيرشي (سلاطة قرع تونسية)",
+    "en": "Tirshi (Tunisian Pumpkin Salad)"
+  },
+  "description": {
+    "he": "תירשי נגזר מהמילה הערבית לחמוצים, בהתייחס לחמיצות החריפה המגדירה את הסלט המבושל התוסס הזה. עשוי מדלעת מעוכה מתובלת בשום ולימון, הוא הופך את הדלעת המתוקה למטבל מלוח. מנה טבעונית זו, שהיא חלק בלתי נפרד מהמטבח הג'רבאי, מוגשת באופן מסורתי קרה כחלק משולחן השבת.",
+    "es": "El Tirshi deriva de la palabra árabe para encurtidos, haciendo referencia a la acidez aguda que define esta vibrante ensalada cocida. Hecho de calabaza triturada sazonada con ajo y limón, transforma la calabaza dulce en un dip sabroso. Este plato básico de la cocina de Djerba, naturalmente vegano, se sirve tradicionalmente frío como parte de la mesa de Shabat.",
+    "ar": "كلمة تيرشي جاية من كلمة طرشي، وهذا يرجع للمذاق الحامض والقوي اللي يميّز هالسلاطة المطيّبة. معمولة من القرع المهروس ومفوّحة بالثوم والقارص، وتحوّل القرع الحلو لصوص مالح وبنين. هالأكلة النباتية المشهورة في كوجينة جربة تتقدم عادة باردة مع كمية الشبات.",
+    "en": "Tirshi derives from the Arabic word for pickles, referencing the sharp acidity defining this vibrant cooked salad. Made from mashed pumpkin seasoned with garlic and lemon, it transforms sweet squash into a savory dip. This naturally vegan staple of Djerban cuisine is traditionally served cold as part of the Shabbat spread."
+  },
+  "ingredients": {
+    "he": [
+      "500 גרם דלעת או דלורית, קלופה וחתוכה לקוביות",
+      "1 תפוח אדמה קטן, קלוף וחתוך לקוביות",
+      "30 מ\"ל שמן צמחי",
+      "3 שיני שום, כתושות",
+      "7 גרם פפריקה מתוקה",
+      "2.5 גרם כמון טחון",
+      "30 מ\"ל מיץ לימון סחוט טרי",
+      "מלח לפי הטעם"
+    ],
+    "es": [
+      "500 g de calabaza, pelada y cortada en cubos",
+      "1 patata pequeña, pelada y cortada en cubos",
+      "30 ml de aceite vegetal",
+      "3 dientes de ajo, machacados",
+      "7 g de pimentón dulce",
+      "2.5 g de comino molido",
+      "30 ml de jugo de limón recién exprimido",
+      "Sal al gusto"
+    ],
+    "ar": [
+      "3.5 كيسان قرع أحمر، مقشر ومقصوص",
+      "1 كعبة بطاطا صغيرة، مقشرة ومقصوصة",
+      "2 مغارف زيت",
+      "3 سنون ثوم، مرحي",
+      "1 مغرفة فلفل أحمر (بابريكا)",
+      "1 مغرفة صغيرة كمون",
+      "2 مغارف عصير قارص",
+      "ملح حسب الذوق"
+    ],
+    "en": [
+      "3.5 cups pumpkin or butternut squash, peeled and cubed",
+      "1 small potato, peeled and cubed",
+      "2 tbsp vegetable oil",
+      "3 cloves garlic, crushed",
+      "1 tbsp sweet paprika",
+      "1 tsp ground cumin",
+      "2 tbsp fresh lemon juice",
+      "Salt to taste"
+    ]
+  },
+  "steps": {
+    "he": [
+      "מבשלים את קוביות הדלעת (ותפוח האדמה, אם משתמשים) במים עד שהן רכות לגמרי.",
+      "מסננים את הירקות היטב. חשוב להוציא כמה שיותר מים כדי למנוע מרקם מימי.",
+      "מועכים את הירקות בעזרת מזלג כשהם עדיין חמים.",
+      "מוסיפים את השמן, השום הכתוש, הפפריקה, הכמון, המלח ומיץ הלימון. מערבבים היטב לאיחוד.",
+      "מגישים קר או בטמפרטורת החדר."
+    ],
+    "es": [
+      "Hierva los cubos de calabaza (y la patata, si la usa) en agua hasta que estén completamente tiernos y suaves.",
+      "Escurra bien las verduras. Es importante eliminar la mayor cantidad de agua posible para evitar que el dip quede aguado.",
+      "Triture las verduras con un tenedor mientras aún estén calientes.",
+      "Añada el aceite, el ajo machacado, el pimentón, el comino, la sal y el jugo de limón. Mezcle bien para combinar.",
+      "Sirva frío o a temperatura ambiente."
+    ],
+    "ar": [
+      "تغلي القرع (والبطاطا كان باش تستعملها) في الماء لين يطيبوا ويوليو طرايا بالباهي.",
+      "تقطّر الخضرة بالباهي. لازم تنحي الماء الكل باش التيرشي ما يجيش مايه برشا.",
+      "ترفس الخضرة بالفرشيطة وهي مازالت سخونة.",
+      "تزيد الزيت، الثوم المرحي، الفلفل الأحمر، الكمون، الملح وعصير القارص. تخلطهم بالباهي مع بعضهم.",
+      "تقدم باردة ولا بحرارة الغرفة."
+    ],
+    "en": [
+      "Boil the pumpkin cubes (and potato, if using) in water until completely soft and tender.",
+      "Drain the vegetables thoroughly. It is important to remove as much water as possible to avoid a watery dip.",
+      "Mash the vegetables with a fork while they are still warm.",
+      "Add the oil, crushed garlic, paprika, cumin, salt, and lemon juice. Mix well to combine.",
+      "Serve cold or at room temperature."
+    ]
+  },
+  "image_prompt": "Tunisian tirshi pumpkin salad, orange mashed pumpkin dip in a decorative ceramic bowl, garnished with olive oil and parsley, bright lighting",
+  "index": 45
+}

@@ -1,0 +1,5346 @@
+[
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "name.he",
+      "reason": "Added 'תבשיל' (stew) to match the English name and accurately describe the dish.",
+      "before": "ארטישוק ופטריות",
+      "after": "תבשיל ארטישוק ופטריות"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "description.he",
+      "reason": "Fixed translation error ('דליל' means thin/watery, changed to 'עשיר' for rich) and added niqqud to Enny's name so it isn't read as 'I' (ani).",
+      "before": "ברוטב דליל. מנת שבת אהובה ממשפחתה של אני בטנג'יר",
+      "after": "ברוטב עשיר. מנת שבת אהובה מהמשפחה של אֶנִי בטנג'יר"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "steps.he[2]",
+      "reason": "Changed 'artichoke' to 'artichoke hearts' to match the ingredients list.",
+      "before": "מוסיפים את הפטריות והארטישוק לסיר",
+      "after": "מוסיפים את הפטריות ולבבות הארטישוק לסיר"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "description.ar",
+      "reason": "Changed 'light broth' to 'rich/thick sauce' to match the original meaning, using authentic Tunisian term 'خاثرة'.",
+      "before": "في مرقة خفيفة.",
+      "after": "في مرقة خاثرة."
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "ingredients.ar[0]",
+      "reason": "Specified tablespoons (كبار) for clarity.",
+      "before": "2 مغارف زيت نباتي ولا زيت زيتونة",
+      "after": "2 مغارف كبار زيت نباتي ولا زيت زيتونة"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "ingredients.ar[1]",
+      "reason": "Used 'مهرسين' (crushed/minced) instead of 'مرحيين' (ground/powdered) which is more accurate for fresh garlic.",
+      "before": "4 سنون ثوم، مقصوصين ولا مرحيين",
+      "after": "4 سنون ثوم، مقصوصين ولا مهرسين"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "ingredients.ar[5]",
+      "reason": "Specified tablespoons and 'freshly squeezed'.",
+      "before": "3 مغارف عصير قارص، معصور",
+      "after": "3 مغارف كبار عصير قارص، معصور جديد"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "ingredients.ar[7]",
+      "reason": "Fixed phrasing for '5 1/2 cups' and specified 'quartered'.",
+      "before": "5 ونص كيسان فڨاع، مقصوص ولا مقسوم",
+      "after": "5 كيسان ونص فڨاع، مقصوص ولا مقسوم على أربعة"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "ingredients.ar[8]",
+      "reason": "Fixed phrasing for '2 1/3 cups' and specified 'artichoke hearts, quartered'.",
+      "before": "2 كيسان و شوي ڨنارية، مقسومة",
+      "after": "2 كيسان وثلث ڨلوب ڨنارية، مقسومين على أربعة"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "steps.ar[0]",
+      "reason": "Corrected spelling of frying pan in Tunisian dialect.",
+      "before": "مقلاة غارقة",
+      "after": "مقلة غارقة"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "steps.ar[1]",
+      "reason": "Replaced literal translation 'seasoned base' with a more natural culinary phrase.",
+      "before": "حرك باش تعمل قاعدة مفوحة.",
+      "after": "حرك باش تعمل صوص مفوحة."
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "steps.ar[4]",
+      "reason": "Replaced awkward phrasing 'put in the plates' with 'before serving'.",
+      "before": "قبل ما تحط في الصحانية.",
+      "after": "قبل التقديم."
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing ('sustancioso' instead of 'abundante', 'combina' instead of 'presenta').",
+      "before": "Este abundante guiso presenta",
+      "after": "Este sustancioso guiso combina"
+    }
+  ],
+  [
+    "artichokemushroomsstew",
+    {
+      "field": "steps.es[0]",
+      "reason": "Used a more natural Spanish culinary phrase for 'until fragrant'.",
+      "before": "hasta que esté fragante",
+      "after": "hasta que suelte su aroma"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "description.he",
+      "reason": "Changed 'plant-based' translation to sound more natural in Hebrew.",
+      "before": "מנה צמחית זו כוללת",
+      "after": "מנה טבעונית זו כוללת"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted metric measurements to standard volume measurements for natural cookbook reading.",
+      "before": "30 מ\"ל שמן לטיגון",
+      "after": "2 כפות שמן לטיגון"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "steps.he",
+      "reason": "Improved phrasing for frying until fragrant and mixing.",
+      "before": "עד לריכוך וקבלת ריח נעים.",
+      "after": "עד שהם מתרככים ומעלים ניחוח."
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "description.es",
+      "reason": "Adapted vocabulary for Latin American Spanish and improved natural flow.",
+      "before": "Este plato vegetal presenta tiernos guisantes",
+      "after": "Este plato a base de vegetales presenta tiernas arvejas"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "ingredients.es",
+      "reason": "Converted metric measurements to standard volume measurements and used Latin American terms.",
+      "before": "360 g de guisantes verdes (cocidos o en lata)",
+      "after": "2 tazas de arvejas o guisantes verdes (cocidos o de lata)"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'Freír' to 'Sofreír' and improved mixing instructions.",
+      "before": "Freír la cebolla... Remover para combinar.",
+      "after": "Sofreír la cebolla... Revolver para integrar."
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "description.ar",
+      "reason": "Replaced literal translations with authentic Tunisian idioms.",
+      "before": "وتريّح القلب. الاسم جاي من... هذا الطبق النباتي فيه",
+      "after": "وتعمل الكيف. الاسم ماخوذ من... هالطبق النباتي متكون من"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarified spoon sizes and canned pea phrasing.",
+      "before": "2 مغارف زيت للقلي",
+      "after": "2 مغارف كبار زيت للقلي"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "steps.ar",
+      "reason": "Minor grammatical tweak for reducing heat.",
+      "before": "نقصو النار",
+      "after": "نقصو في النار"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimal to fraction for standard recipe format.",
+      "before": "0.5 tsp white pepper",
+      "after": "1/2 tsp white pepper"
+    }
+  ],
+  [
+    "ciceritos",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'Fry' to 'Sauté' for better culinary terminology.",
+      "before": "Fry the onion and celery",
+      "after": "Sauté the onion and celery"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing for better flow in Hebrew.",
+      "before": "לוביה ח'דרה פירושו שעועית ירוקה בערבית, וזהו שמו של תבשיל צפון אפריקאי קלאסי זה.",
+      "after": "לוביה ח'דרה היא שעועית ירוקה בערבית, וזהו גם שמו של תבשיל צפון אפריקאי קלאסי זה."
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted metric measurements to standard culinary spoons for oil and spices; fixed phrasing.",
+      "before": "30 מ\"ל שמן צמחי\n...\n7 גרם פפריקה מתוקה\n...\n1 פלפל ירוק חריף, קצוץ (חתיכה קטנה)",
+      "after": "2 כפות שמן צמחי\n...\n1 כף פפריקה מתוקה\n...\nחתיכה קטנה של פלפל ירוק חריף, קצוצה"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "steps.he",
+      "reason": "Fixed spelling of tomato and removed definite article from garlic for natural flow.",
+      "before": "העגבניה... והשום הכתוש",
+      "after": "העגבנייה... ושום כתוש"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA and non-Tunisian terms with authentic Tunisian dialect.",
+      "before": "صالصة طماطم عاقدة ومفوحة بالبابريكا... ركن أساسي في طاولات السبت أو العشاء العادي",
+      "after": "صوص طماطم عاقدة ومفوحة بالفلفل الأحمر... طبق أساسي في طاولة السبت أو عشاء وسط الجمعة"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used authentic Tunisian culinary terms and fixed awkward phrasing.",
+      "before": "منظفة (جديدة)... 1 مغرفة فلفل أحمر (بابريكا)... 0.4 كيسان طماطم حكة (معجونة)... جلجلان مقلي",
+      "after": "منظفة (فريشكا)... 1 مغرفة كبيرة فلفل أحمر (زينة)... حكة صغيرة طماطم معجونة... جلجلان محمر"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "steps.ar",
+      "reason": "Adjusted verbs and vocabulary for natural Tunisian flow.",
+      "before": "حط البصل المقصوص وقلي لين يبدا يصفار... زيد الفلفل الأحمر (بابريكا)... الثوم المرحي",
+      "after": "زيد البصل المقصوص وخليه يتقلى لين يذبال ويصفار... زيد الفلفل الأحمر... الثوم المهروس"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "ingredients.es",
+      "reason": "Used precise culinary term (despuntadas) and converted small metric amounts to spoons.",
+      "before": "cortadas... 30 ml de aceite vegetal... 7 g de pimentón dulce... 1 pimiento verde picante, picado (trozo pequeño)",
+      "after": "despuntadas... 2 cucharadas de aceite vegetal... 1 cucharada de pimentón dulce... 1 trozo pequeño de pimiento verde picante, picado"
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "description.en",
+      "reason": "Improved flow of the blooming spices sentence.",
+      "before": "flavored by blooming paprika and garlic in oil.",
+      "after": "flavored with paprika and garlic bloomed in oil."
+    }
+  ],
+  [
+    "greenbeanstomato_sauce",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed awkward phrasing and unnatural measurements.",
+      "before": "1 green hot pepper, chopped (small piece)... 0.4 cups tomato paste (1 small can)",
+      "after": "1 small piece of green hot pepper, chopped... 1/3 cup (1 small can) tomato paste"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "description.ar",
+      "reason": "Fixed Hebrew characters accidentally mixed into the Arabic word for parsley",
+      "before": "مع المعدנוس والشبت",
+      "after": "مع المعدنوس والشبت"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing",
+      "before": "reemplaza el pollo tradicional con seitán sabroso",
+      "after": "reemplaza el pollo tradicional por un sabroso seitán"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "description.en",
+      "reason": "Added missing word for better flow",
+      "before": "with the Hebrew for holidays",
+      "after": "with the Hebrew word for holidays"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'optional' to proper Hebrew cookbook term 'rashut', fixed redundant seitan chunks phrasing",
+      "before": "1 קישוא, חתוך לקוביות (אופציונלי)",
+      "after": "1 קישוא, חתוך לקוביות (רשות)"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'optional' to proper Hebrew cookbook term 'rashut'",
+      "before": "1 גזר, פרוס (אופציונלי)",
+      "after": "1 גזר, פרוס (רשות)"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.he",
+      "reason": "Fixed redundant phrasing for seitan chunks",
+      "before": "800 גרם נתחי סייטן, חתוכים לחתיכות בגודל ביס",
+      "after": "800 גרם סייטן, חתוך לנתחים בגודל ביס"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed Hebrew characters in parsley, used more natural Maghrebi word for cilantro",
+      "before": "1 ربطة معدנוس، مقصوص",
+      "after": "1 ربطة معدنوس، مقصوص"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used more natural Maghrebi word for cilantro",
+      "before": "1 ربطة كزبر، مقصوص",
+      "after": "1 ربطة كسبر، مقصوص"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.es",
+      "reason": "Improved culinary terms and fixed redundant phrasing",
+      "before": "para freír la base",
+      "after": "para sofreír la base"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.es",
+      "reason": "Fixed redundant phrasing for seitan chunks",
+      "before": "800 g de trozos de seitán, cortados en trozos del tamaño de un bocado",
+      "after": "800 g de seitán, cortado en trozos del tamaño de un bocado"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed redundant phrasing for seitan chunks and improved frying term",
+      "before": "for frying base",
+      "after": "for sautéing"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed redundant phrasing for seitan chunks",
+      "before": "4 cups seitan chunks, cut into bite-sized pieces",
+      "after": "4 cups seitan, cut into bite-sized pieces"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.he",
+      "reason": "Improved natural phrasing for sautéing instead of steaming onions",
+      "before": "ומאדים במשך מספר דקות",
+      "after": "ומטגנים קלות במשך מספר דקות"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.ar",
+      "reason": "Used correct Tunisian term for sautéing instead of seasoning",
+      "before": "وفوّح شوية دقايق",
+      "after": "وقليه شوية دقايق"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.es",
+      "reason": "Fixed awkward literal translation of 'steam/sauté' and 'soft' potatoes",
+      "before": "cocine al vapor a fuego lento",
+      "after": "cocine a fuego lento"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.es",
+      "reason": "Fixed awkward literal translation of 'steam together'",
+      "before": "cocine al vapor juntos",
+      "after": "cocine todo junto"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.es",
+      "reason": "Used better culinary term for cooked potatoes",
+      "before": "estén blandas",
+      "after": "estén tiernas"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.en",
+      "reason": "Fixed awkward 'steam/sauté' phrasing and 'soft' potatoes",
+      "before": "steam/sauté on low heat",
+      "after": "cook on low heat"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.en",
+      "reason": "Fixed awkward 'steam together' phrasing",
+      "before": "steam together",
+      "after": "cook together"
+    }
+  ],
+  [
+    "dabikh_hagim",
+    {
+      "field": "steps.en",
+      "reason": "Used better culinary term for cooked potatoes",
+      "before": "are soft",
+      "after": "are tender"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "name.he",
+      "reason": "Match the full descriptive name used in English and Spanish",
+      "before": "צ׳יקן פריקסה",
+      "after": "תבשיל צ׳יקן פריקסה עם כופתאות"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "name.ar",
+      "reason": "Match the full descriptive name used in English and Spanish",
+      "before": "تشيكن فريكاسي",
+      "after": "مرقة تشيكن فريكاسي بكعابر العجين"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "description.he",
+      "reason": "Fix literal translations to sound more natural in Hebrew",
+      "before": "מחזירה את המונח הצרפתי לתבשיל ולא לכריך הטוניסאי. נתחי סייטן רכים מתבשלים עם גזר ובצל בציר עשיר המוסמך על ידי כופתאות קמח כפריות.",
+      "after": "מחזירה למונח הצרפתי את משמעותו המקורית כתבשיל ולא ככריך הטוניסאי. נתחי סייטן רכים מתבשלים עם גזר ובצל בציר עשיר שמסמיך בזכות כופתאות קמח כפריות."
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.en",
+      "reason": "Fix awkward measurement (1.1 cups)",
+      "before": "1.1 cups all-purpose flour",
+      "after": "1 cup (140g) all-purpose flour"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.he",
+      "reason": "Use standard volume measurements and fix phrasing",
+      "before": "30 מ\"ל שמן צמחי",
+      "after": "2 כפות שמן צמחי"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.he",
+      "reason": "Fix repetitive phrasing",
+      "before": "800 גרם נתחי סייטן, קרועים לחתיכות בגודל ביס",
+      "after": "800 גרם סייטן, קרוע לנתחים בגודל ביס"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.he",
+      "reason": "Fix awkward translation",
+      "before": "ציר ירקות לפי הצורך (לכיסוי המרכיבים + תוספת לבלילה)",
+      "after": "ציר ירקות לפי הצורך (לכיסוי המרכיבים ועוד קצת לבלילה)"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.he",
+      "reason": "Standardize flour measurement",
+      "before": "140 גרם קמח רגיל",
+      "after": "140 גרם (1 כוס) קמח לבן"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.es",
+      "reason": "Use standard volume measurements",
+      "before": "30 ml de aceite vegetal",
+      "after": "2 cucharadas de aceite vegetal"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.es",
+      "reason": "Fix repetitive phrasing",
+      "before": "800 g de trozos de seitán, en trozos del tamaño de un bocado",
+      "after": "800 g de seitán, cortado en trozos del tamaño de un bocado"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.es",
+      "reason": "Standardize flour measurement",
+      "before": "140 g de harina común",
+      "after": "140 g (1 taza) de harina de trigo"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarify tablespoon size",
+      "before": "2 مغارف زيت نباتي",
+      "after": "2 مغارف كبار زيت نباتي"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fix repetitive phrasing",
+      "before": "800 غرام طروف سيتان، مقطعين طروف صغار",
+      "after": "800 غرام سيتان، مقطع طروف صغار"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fix awkward measurement",
+      "before": "1.1 كاس فرينة",
+      "after": "140 غرام (كاس) فرينة"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.en",
+      "reason": "Remove awkward slash option",
+      "before": "sauté/steam for approximately 10 minutes.",
+      "after": "sauté for approximately 10 minutes."
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.en",
+      "reason": "Improve phrasing for dropping batter",
+      "before": "drop or drizzle portions of the batter",
+      "after": "drop spoonfuls of the batter"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.he",
+      "reason": "Fix incorrect cooking term (steaming vs sautéing)",
+      "before": "ומאדים כ-10 דקות.",
+      "after": "ומטגנים כ-10 דקות."
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.he",
+      "reason": "Fix incorrect cooking term",
+      "before": "ומאדים הכל יחד בקצרה.",
+      "after": "ומטגנים הכל יחד למשך דקה או שתיים."
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.he",
+      "reason": "Improve flow and natural phrasing",
+      "before": "להפיל או לזלף חתיכות מהבלילה",
+      "after": "להפיל נטיפי בלילה"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.es",
+      "reason": "Clarify liquid used for batter",
+      "before": "un poco de líquido",
+      "after": "un poco de agua o caldo"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.ar",
+      "reason": "Improve dialect phrasing for dumplings",
+      "before": "حضر العجين",
+      "after": "حضر كعابر العجين"
+    }
+  ],
+  [
+    "chickenfricasseestew",
+    {
+      "field": "steps.ar",
+      "reason": "Improve dialect phrasing for plural",
+      "before": "والعجين يطيب بالباهي.",
+      "after": "وكعابر العجين يطيبو بالباهي."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "name.he",
+      "reason": "Added the French name in parentheses to match the format of the other languages.",
+      "before": "לחם מטוגן",
+      "after": "לחם מטוגן (Pain Perdu)"
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "description.he",
+      "reason": "Improved natural phrasing. 'כיכרות לחם יבשות' is less natural than 'שאריות לחם יבש'. 'מבוססי צמחים' is a literal translation; 'מהצומח' is the correct Hebrew culinary term.",
+      "before": "גרסה טבעונית זו מחליפה את בלילת הביצים המסורתית בבלילת קמח חומוס כדי להציל כיכרות לחם יבשות. זוהי מנת ארוחת בוקר מנחמת המכבדת את העבר הקולוניאלי של הקהילה תוך התאמה למטבחים מודרניים מבוססי צמחים.",
+      "after": "גרסה טבעונית זו מחליפה את בלילת הביצים המסורתית בבלילת קמח חומוס כדי להציל שאריות לחם יבש. זוהי מנת ארוחת בוקר מנחמת המכבדת את העבר הקולוניאלי של הקהילה תוך התאמה למטבח המודרני מהצומח."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'לפי הטעם' (to taste) to 'לפי הצורך' (as needed) since it refers to frying fat.",
+      "before": "חמאה טבעונית או שמן קוקוס לפי הטעם",
+      "after": "חמאה טבעונית או שמן קוקוס לפי הצורך"
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "steps.he",
+      "reason": "Improved phrasing for serving suggestions.",
+      "before": "מגישים חם, ניתן לפזר סוכר או סירופ מעל.",
+      "after": "מגישים חם, אפשר לפזר מעל סוכר או לזלף סירופ."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "description.ar",
+      "reason": "Used authentic Tunisian vocabulary ('فرينة' instead of 'دقيق') and improved the phrasing for plant-based kitchen.",
+      "before": "هذي النسخة النباتية تبدل العظم بخلطة دقيق الحمص باش نمنعوا الخبز البايت. هي فطور صباح يعمل الكيف ويحترم تاريخ الجالية وفي نفس الوقت يواتي الكوجينة العصرية.",
+      "after": "هذي النسخة النباتية تبدل العظم بخلطة فرينة الحمص باش نمنعوا الخبز البايت. هي فطور صباح يعمل الكيف ويحترم تاريخ الجالية وفي نفس الوقت يواتي الكوجينة النباتية العصرية."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed awkward measurements (0.6 cups), used Tunisian terms ('فرينة', 'زيت كوكو', 'خشان'), and changed 'حسب الذوق' to 'للقلي'.",
+      "before": "3 مغارف دقيق حمص\n1 مغرفة نشاء\n0.6 كاس حليب صويا ولا شوفان\n1 مغرفة صغيرة فانيليا\nرشة كركم\n4 طروف خبز خشين\nزبدة نباتية ولا زيت جوز هند حسب الذوق",
+      "after": "3 مغارف كبار فرينة حمص\nمغرفة كبيرة نشاء\n150 مل حليب صويا ولا شوفان\nمغرفة صغيرة فانيليا\nرشة كركم\n4 طروف خبز خشان\nزبدة نباتية ولا زيت كوكو للقلي"
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA/awkward terms with Tunisian dialect ('فرينة', 'القلاية', 'الشيرتين', 'سيرو' instead of honey for vegan).",
+      "before": "في صحفة واسعة، ركض دقيق الحمص والنشاء والحليب والفانيليا مليح حتى يتخلطوا بالباهي.\nسخن المقلاة على نار متوسطة وادهنها بالزبدة ولا الزيت.\nغطّس طروف الخبز في الخليط، وخليهم يشربوا شوية من الجهتين.\nحط الخبز المشرب في المقلاة السخونة واقليه لين يحمار من الجهتين.\nقدمه سخون، وتنجم ترش عليه شوية سكر ولا عسل.",
+      "after": "في صحفة واسعة، ركض فرينة الحمص والنشاء والحليب والفانيليا مليح حتى يتخلطوا بالباهي.\nسخن القلاية على نار متوسطة وادهنها بالزبدة ولا الزيت.\nغطّس طروف الخبز في الخليط، وخليهم يشربوا شوية من الشيرتين.\nحط الخبز المشرب في القلاية السخونة واقليه لين يحمار من الشيرتين.\nقدمه سخون، وتنجم ترش عليه شوية سكر ولا سيرو."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "description.es",
+      "reason": "Changed 'masa' (dough) to 'batido' (batter) for accuracy.",
+      "before": "Esta versión vegana reemplaza la mezcla tradicional de huevo con una masa de harina de garbanzos para rescatar el pan duro.",
+      "after": "Esta versión vegana reemplaza la mezcla tradicional de huevo con un batido de harina de garbanzos para rescatar el pan duro."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "ingredients.es",
+      "reason": "Improved natural phrasing and word order. Changed 'al gusto' to 'para freír'.",
+      "before": "5 g de polvo de vainilla\n1 pizca de cúrcuma\n4 rebanadas de pan gruesas\nMantequilla vegana o aceite de coco al gusto",
+      "after": "5 g de vainilla en polvo\nUna pizca de cúrcuma\n4 rebanadas gruesas de pan\nMantequilla vegana o aceite de coco para freír"
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "steps.es",
+      "reason": "Improved culinary terms ('integrados', 'batido', 'sirope').",
+      "before": "hasta que estén bien combinados.\nSumergir cada rebanada de pan en la mezcla\nopcionalmente cubierto con azúcar o jarabe.",
+      "after": "hasta que estén bien integrados.\nSumergir cada rebanada de pan en el batido\nopcionalmente cubierto con azúcar o sirope."
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed awkward '0.6 cups' measurement, improved phrasing for pinch and slices, and changed 'to taste' to 'for frying'.",
+      "before": "0.6 cups soy or oat milk\n1 pinch turmeric\n4 thick slices bread\nVegan butter or coconut oil to taste",
+      "after": "2/3 cup soy or oat milk\nA pinch of turmeric\n4 thick slices of bread\nVegan butter or coconut oil, for frying"
+    }
+  ],
+  [
+    "french_toast",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'mixture' to 'batter' for consistency with the description.",
+      "before": "Dip each slice of bread into the mixture",
+      "after": "Dip each slice of bread into the batter"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing and grammar ('שם נגזר' -> 'ששמו נגזר', 'הכנת המנה כללה' -> 'המנה מכילה')",
+      "before": "קוגל הוא מאפה אטריות מקורמלות ומתוקות, שם נגזר מהמילה הגרמנית לכדור. במקור הכנת המנה כללה ביצים",
+      "after": "קוגל הוא מאפה אטריות מתוק ומקורמל, ששמו נגזר מהמילה הגרמנית לכדור. במקור המנה מכילה ביצים"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "ingredients.he",
+      "reason": "Fixed construct state grammar",
+      "before": "1 חבילה אטריות דקות",
+      "after": "1 חבילת אטריות דקות"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "steps.he",
+      "reason": "Fixed grammar ('קמח התפוחי אדמה' -> 'קמח תפוחי האדמה') and dangerous translation error ('תנור פתוח' means open oven door, changed to 'ללא כיסוי' meaning uncovered)",
+      "before": "אופים בתנור פתוח ב-200 מעלות",
+      "after": "אופים בתנור שחומם מראש ל-200 מעלות, ללא כיסוי"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing",
+      "before": "cuyo nombre proviene del alemán para bola",
+      "after": "cuyo nombre proviene de la palabra alemana para 'bola'"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "steps.es",
+      "reason": "Fixed literal translation errors ('caramelo fresco' -> 'caramelo caliente', 'horno abierto' -> 'sin tapar', 'cake inglés' -> 'pan/budín')",
+      "before": "Hornear en horno abierto a 200°C",
+      "after": "Hornear sin tapar a 200°C"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "description.ar",
+      "reason": "Converted MSA to authentic Tunisian dialect",
+      "before": "الكوغل هو حلوى مخبوزة من الشعرية المكرملة والحلوة. الاسم جاي من الكلمة الألمانية اللي معناها كرة. في الأصل كانت تتعمل بالعظم (البيض)، أما في هذي النسخة النباتية نستعملو نشا البطاطا بلاصتهم باش يعطي قوام متماسك.",
+      "after": "الكوغل هو حلو مخبوز بالشعرية المكرملة. اسمو جاي من كلمة ألمانية معناها كورة. في الأصل الوصفة تتعمل بالعظم، أما في هالنسخة النباتية نستعملو نشا البطاطا في بلاصتو باش يشد روحو."
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used Tunisian terms (جويدة for thin, شطر for half, تطييب for cooking)",
+      "before": "1 باكو شعرية رقيقة",
+      "after": "1 باكو شعرية جويدة"
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "steps.ar",
+      "reason": "Translated to natural Tunisian dialect and fixed 'open oven' error",
+      "before": "اخبز في الفرن المفتوح على 200 درجة تقريب نصف ساعة لين يحمار.",
+      "after": "دخلو للكوشة على 200 درجة من غير غطاء، وخليه يطيب تقريب شطر ساعة لين يحمار."
+    }
+  ],
+  [
+    "kugel",
+    {
+      "field": "steps.en",
+      "reason": "Fixed literal translation errors ('fresh caramel' -> 'hot caramel', 'English cake pans' -> 'loaf pans', 'open oven' -> 'uncovered')",
+      "before": "Bake in an open oven at 200°C",
+      "after": "Bake uncovered at 200°C (400°F)"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "name.he",
+      "reason": "Added 'של' for natural possession and adjusted the translation of 'Date Honey' to be more natural.",
+      "before": "עוגת דבש (סילאן) ליאור בן משה",
+      "after": "עוגת סילאן (דבש תמרים) של ליאור בן משה"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "description.he",
+      "reason": "Changed 'ויוצרת' to 'ומהווה' for more natural phrasing in Hebrew.",
+      "before": "ויוצרת קינוח פרווה מושלם",
+      "after": "ומהווה קינוח פרווה מושלם"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'קמח רגיל' to 'קמח לבן' which is the standard term in Israeli baking.",
+      "before": "150 גרם קמח רגיל, מנופה",
+      "after": "150 גרם קמח לבן, מנופה"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "steps.he",
+      "reason": "'בקערת ערבוב' is a bit literal; 'בקערה' is much more natural.",
+      "before": "בקערת ערבוב, מערבבים",
+      "after": "בקערה, מערבבים"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "name.ar",
+      "reason": "Used 'متاع' instead of 'لـ' for natural Tunisian possession.",
+      "before": "كيكة السيلان (الرب) لليور بن موشي",
+      "after": "كيكة السيلان (الرب) متاع ليور بن موشي"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "description.ar",
+      "reason": "Changed 'تبديلة' to 'نسخة' and 'مثالي' to 'هايل' for better Maghrebi flow.",
+      "before": "هي تبديلة لكيكة العسل... وهي ديسير بارفي مثالي",
+      "after": "هي نسخة لكيكة العسل... وهي ديسير بارفي هايل"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "ingredients.ar",
+      "reason": "Replaced vague 'وشوية' with precise 'ومغرفة كبيرة' to match the English recipe, and added maple syrup to the brushing options.",
+      "before": "نص كاس وشوية حليب صويا... كاس وشوية فرينة... سيلان ولا شحور للدهين",
+      "after": "نص كاس ومغرفة كبيرة حليب صويا... كاس ومغرفة كبيرة فرينة... سيلان، سيرو ديرابل (maple) ولا شحور للدهين"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed a Hebrew letter (ל) that crept into the Arabic text, and replaced 'عسل' with 'سيرو ديرابل' to keep the recipe vegan.",
+      "before": "طبق مستطיל... بشوية سيلان، شحور، ولا عسل",
+      "after": "طبق مستطيل... بشوية سيلان، سيرو ديرابل، ولا شحور"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "description.es",
+      "reason": "Changed 'pan' to 'bizcocho' as 'pan' implies bread, whereas this is a cake/loaf cake.",
+      "before": "Este pan naturalmente vegano",
+      "after": "Este bizcocho naturalmente vegano"
+    }
+  ],
+  [
+    "honeycakelior_benmosheh",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'harina común' to 'harina de trigo (todo uso)' for broader Latin American clarity.",
+      "before": "150 g de harina común, tamizada",
+      "after": "150 g de harina de trigo (todo uso), tamizada"
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "description.he",
+      "reason": "Fixed unnatural phrasing ('פודינג בחוש' and 'מאכל בוקר חלק')",
+      "before": "המנה ידועה בשם דייסת סולת בעברית או עסידה בערבית, שמשמעותן גרעינים גרוסים או פודינג בחוש. גרסה טבעונית זו מחליפה את החלב בחלב צמחי קרמי תוך שמירה על המסורת הצפון אפריקאית. סולת דקה מתבשלת למאכל בוקר חלק ומוגשת עם קינמון וסוכר.",
+      "after": "המנה ידועה כדייסת סולת בעברית או עסידה בערבית, שפירושן דגן גרוס או דייסה בחושה. גרסה טבעונית זו מחליפה את החלב בחלב צמחי קרמי תוך שמירה על המסורת הצפון אפריקאית. סולת דקה מתבשלת למנת בוקר חלקה ומוגשת עם קינמון וסוכר."
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "ingredients.he",
+      "reason": "Used standard Hebrew culinary term for 'optional'",
+      "before": "15 גרם חמאה טבעונית (אופציונלי)",
+      "after": "15 גרם חמאה טבעונית (רשות)"
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "description.es",
+      "reason": "Fixed awkward literal translations ('pudín revuelto', 'desayuno suave terminado')",
+      "before": "Conocido como Daysat Solet en hebreo o Assida en árabe, este plato significa grano triturado o pudín revuelto. Esta adaptación vegana reemplaza los lácteos con leche vegetal cremosa mientras honra la tradición norteafricana. La sémola fina se cocina hasta convertirse en un desayuno suave terminado con canela y azúcar.",
+      "after": "Conocida como Dayesat Solet en hebreo o Assida en árabe, el nombre de este plato significa \"grano triturado\" o \"gachas batidas\". Esta adaptación vegana reemplaza los lácteos con leche vegetal cremosa mientras honra la tradición norteafricana. La sémola fina se cocina hasta obtener un desayuno de textura suave, coronado con canela y azúcar."
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "description.ar",
+      "reason": "Removed Hebrew characters from Arabic text, fixed repetition of 'رطب', and improved natural flow",
+      "before": "معروفة باسم دايסת סולת بالعبرية أو عصيدة بالعربي، ومعناها حبوب مرحية أو عصيدة محركة. هالوصفة النباتية تبدل الحليب بحليب نباتي كريمي وتحافظ على التقاليد متاع شمال إفريقيا. السميد الرطب يطيب ويولي فطور صباح رطب ومزين بالقرفة والسكر.",
+      "after": "معروفة باسم دايسات سوليت بالعبرية ولا عصيدة بالعربية، ومعناها حبوب مرحية ولا عصيدة مخلطة. هالوصفة النباتية تبدل الحليب بحليب نباتي كريمي وتحافظ على التقاليد متاع شمال إفريقيا. السميد الأرطب يطيب ويولي فطور صباح بنين وخفيف، ومزين بالقرفة والسكر."
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed unnatural machine-translated measurements (2.1 cups, 1.2 tbsp) to standard Maghrebi terms",
+      "before": "2.1 كيسان حليب صوجا ولا خرطال مش حلو\n5 مغارف سميد (رطب)\n1.2 مغرفة سكر\n1 مغرفة زبدة نباتية (اختياري)",
+      "after": "زوز كيسان (500 مل) حليب صوجا ولا شوفان مش حلو\n5 مغارف كبار سميد أرطب\nمغرفة كبيرة سكر\nمغرفة كبيرة زبدة نباتية (اختياري)"
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "description.en",
+      "reason": "Fixed illogical phrasing ('this porridge means' -> 'the name of this porridge means')",
+      "before": "Known as Daysat Solet in Hebrew or Assida in Arabic, this porridge means \"crushed grain\" or \"stirred pudding.\" This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar.",
+      "after": "Known as Dayesat Solet in Hebrew or Assida in Arabic, the name of this porridge means \"crushed grain\" or \"stirred pudding.\" This vegan adaptation replaces dairy with creamy plant milk while honoring the North African tradition. Fine semolina cooks into a smooth breakfast staple finished with cinnamon and sugar."
+    }
+  ],
+  [
+    "semolina_porridge",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed awkward decimal measurements (2.1 cups, 1.2 tbsp)",
+      "before": "2.1 cups unsweetened soy or oat milk\n1.2 tbsp sugar",
+      "after": "2 cups (500 ml) unsweetened soy or oat milk\n1 tbsp sugar"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "name.he",
+      "reason": "Spelling consistency with the description",
+      "before": "לאינטריאה",
+      "after": "לאינטרייה"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing ('ערבית ימי-ביניימית', 'קוגנט', 'מוטגנות') and improved flow",
+      "before": "השם מגיע מהמילה הערבית ימי-ביניימית itriyya (אטרייה), שהיא עצמה קוגנט של המילה היוונית העתיקה itrion — בצק מקמח ומים, שממנו מתגלגלים שמות של אטריות באגן הים התיכון. במטבח המרוקאי-יהודי מופיעה גם כלטריאה, ניטריאה או טריאה. המנה הוגשה בחתונות מרוקאיות בקערות גדולות למרכז השולחן. האטריות מוטגנות קלות לפני הבישול ומבושלות עד שהן דביקות ומחוברות זו לזו.",
+      "after": "השם מגיע מהמילה הערבית מימי הביניים itriyya (אטרייה יבשה), שהיא עצמה קרובה למילה היוונית העתיקה itrion — בצק מקמח ומים, שממנו התגלגלו שמות של אטריות ברחבי אגן הים התיכון. במטבח היהודי-מרוקאי היא מוכרת גם כלטריאה, נטריאה או טריאה. המנה הוגשה באופן מסורתי בחתונות מרוקאיות בקערות גדולות במרכז השולחן. האטריות מטוגנות קלות לפני הבישול, ומבושלות עד שהן רכות ונדבקות זו לזו."
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "ingredients.he",
+      "reason": "More accurate translation of vegetable bouillon",
+      "before": "1 כף אבקת מרק פרווה",
+      "after": "1 כף אבקת מרק ירקות"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "steps.he",
+      "reason": "Improved culinary terms ('מזהיבות' instead of 'משחימות') and flow",
+      "before": "מחממים שמן בסיר ומטגנים את האטריות עד שמשחימות קלות.",
+      "after": "מחממים שמן בסיר ומטגנים את האטריות עד שהן מזהיבות קלות."
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA with natural Tunisian/Maghrebi dialect terms",
+      "before": "لينتريّة هي تكملة مغربية كلاسيكية... الاسم جاي من الكلمة العربية القروسطية... اللي هي قريبة من الكلمة اليونانية... تتسمى أيضاً... في قصعات كبار وسط الطاولة... حتى تولي لزجة ومتماسكة.",
+      "after": "لينتريّة هي طبق جانبي مغربي كلاسيكي... الاسم جاي من الكلمة العربية القديمة... واللي أصلها من الكلمة اليونانية... تتسمى زادة... في قصاع كبار في وسط الطاولة... لين تولي تتلصق وشادة في بعضها."
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adjusted to natural Maghrebi phrasing and measurements",
+      "before": "2 مغارف زيت نباتي... نصف مغرفة صغيرة فلفل أكحل... 1 مغرفة كبيرة تابل مرقة خضرة",
+      "after": "2 مغارف كبار زيت نباتي... شطر مغرفة صغيرة فلفل أكحل... 1 مغرفة كبيرة مرق خضرة غبرة"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA verbs and adjectives with Maghrebi dialect",
+      "before": "لين تحمار شوية... صب الماء الساخن... لزجة ومتماسكة",
+      "after": "لين تصفار شوية... صب الماء اللي يغلي... تتلصق وشادة في بعضها"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "description.es",
+      "reason": "Improved flow and replaced 'cognado' with more natural phrasing",
+      "before": "cognado del griego antiguo itrion... Se servía en bodas marroquíes en grandes fuentes en el centro de la mesa. Los fideos se fríen ligeramente antes de cocerlos hasta que queden pegajosos y unidos.",
+      "after": "emparentada con el griego antiguo itrion... Tradicionalmente se servía en las bodas marroquíes en grandes fuentes al centro de la mesa. Los fideos se fríen ligeramente, y luego se cuecen hasta que quedan pegajosos y unidos."
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "ingredients.es",
+      "reason": "Added standard abbreviation periods and clarified bouillon",
+      "before": "2 cdas de aceite vegetal... 1 cda de caldo vegetal en polvo",
+      "after": "2 cdas. de aceite vegetal... 1 cda. de caldo de verduras en polvo"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "description.en",
+      "reason": "Fixed awkward phrasing ('before cooking until') and prepositions",
+      "before": "In Moroccan Jewish cuisine it also appears as... in large platters at the center... lightly fried before cooking until sticky",
+      "after": "In Moroccan-Jewish cuisine, it is also known as... on large platters in the center... lightly fried, then cooked until sticky"
+    }
+  ],
+  [
+    "lintriya",
+    {
+      "field": "steps.en",
+      "reason": "Added definite articles for smoother reading",
+      "before": "Add turmeric, salt, pepper, and bouillon powder... Pour in boiling water, reduce heat and cover... Cook until all water is absorbed and noodles are sticky",
+      "after": "Add the turmeric, salt, pepper, and bouillon powder... Pour in the boiling water, reduce the heat, and cover... Cook until all the water is absorbed and the noodles are sticky"
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for natural Hebrew flow. 'מגיע מהמילה' is a literal translation; 'מקור המילה' is better. Fixed 'זה נשאר מועדף' to 'הוא נשאר מנה אהובה'.",
+      "before": "שניצל מגיע מהמילה הגרמנית לחיתוך קטן והובא לישראל על ידי עולים מאירופה. גרסה טבעונית זו מחליפה את העוף בסייטן או טופו תוך שמירה על הציפוי הזהוב הקלאסי. זה נשאר מועדף לארוחת צהריים של שבת המוגש לצד קוסקוס או סלטים טריים.",
+      "after": "מקור המילה שניצל בגרמנית ומשמעותה \"חיתוך קטן\", והוא הובא לישראל על ידי עולים מאירופה. גרסה טבעונית זו מחליפה את העוף בסייטן או טופו תוך שמירה על הציפוי הזהוב הקלאסי. הוא נשאר מנה אהובה לארוחת צהריים של שבת, ומוגש לצד קוסקוס אוורירי או סלטים טריים."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing. 'Ave' changed to 'pollo' as it's more common for schnitzel. 'Un favorito' changed to 'uno de los platos favoritos'.",
+      "before": "Schnitzel proviene de la palabra alemana para un corte pequeño y fue traído a Israel por inmigrantes europeos. Esta adaptación vegana reemplaza el ave con seitán o tofu, manteniendo la clásica corteza dorada. Sigue siendo un favorito para el almuerzo de Shabat, servido junto con cuscús esponjoso o ensaladas frescas.",
+      "after": "El schnitzel proviene de la palabra alemana que significa \"corte pequeño\" y fue traído a Israel por inmigrantes europeos. Esta adaptación vegana reemplaza el pollo con seitán o tofu, manteniendo la clásica corteza dorada. Sigue siendo uno de los platos favoritos para el almuerzo de Shabat, servido junto con cuscús esponjoso o ensaladas frescas."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "description.ar",
+      "reason": "Fixed adjective agreement ('فريشكة' instead of 'فريشك') and improved flow.",
+      "before": "كلمة شنيتسل جاية من الألمانية ومعناها قطعة صغيرة، وجابوها المهاجرين الأوروبيين لإسرائيل. هالوصفة النباتية تبدّل الدجاج بالسيتان ولا التوفو وتحافظ على القشرة الذهبية المقرمشة. تقعد أكلة محبوبة في فطور السبت وتتقدم بحذا الكسكسي ولا سلايط فريشك.",
+      "after": "كلمة شنيتسل جاية من الألمانية ومعناها قطعة صغيرة، وجابوها المهاجرين الأوروبيين لإسرائيل. هالوصفة النباتية تبدّل الدجاج بالسيتان وإلا التوفو وتحافظ على القشرة الذهبية المقرمشة. تقعد أكلة محبوبة في فطور السبت وتتقدم بحذا الكسكسي وإلا سلايط فريشكة."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "description.en",
+      "reason": "Improved flow and punctuation.",
+      "before": "Schnitzel comes from the German word for a little cut and was brought to Israel by European immigrants. This vegan adaptation replaces poultry with savory seitan or tofu while keeping the classic golden crust. It remains a favorite for Shabbat lunch served alongside fluffy couscous or fresh salads.",
+      "after": "Schnitzel comes from the German word for a small slice and was brought to Israel by European immigrants. This vegan adaptation replaces poultry with savory seitan or tofu while keeping the classic golden crust. It remains a favorite for Shabbat lunch, served alongside fluffy couscous or fresh salads."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "ingredients.he",
+      "reason": "Fixed plural agreement ('פרוסים'), clarified flour type, and changed 'לפי הצורך' to 'לטיגון' for oil.",
+      "before": "500 גרם נתחי סייטן או טופו קשה מאוד, פרוס לשניצלים\n125 גרם קמח\n...\nשמן צמחי לפי הצורך",
+      "after": "500 גרם נתחי סייטן או טופו קשה מאוד, פרוסים לשניצלים\n125 גרם קמח לבן\n...\nשמן צמחי לטיגון"
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "ingredients.es",
+      "reason": "Removed redundant 'filetes de', clarified flour, and fixed oil description ('al gusto' is incorrect for frying oil).",
+      "before": "500 g de filetes de seitán o tofu extra firme, cortado en filetes\n125 g de harina\n...\nAceite vegetal al gusto",
+      "after": "500 g de seitán o tofu extra firme, cortado en filetes\n125 g de harina de trigo\n...\nAceite vegetal para freír"
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "ingredients.ar",
+      "reason": "Improved dialect phrasing and fixed oil description.",
+      "before": "500 غ سيتان ولا توفو، مقصوص طروف\n...\nزيت حسب الحاجة",
+      "after": "500 غ سيتان وإلا توفو، مقصوص طروف جويدة\n...\nزيت للقلي"
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed capitalization, standardized fraction formats for cups, and clarified oil usage.",
+      "before": "500g Seitan cutlets or Super Firm Tofu, sliced into cutlets\n1 cup All-purpose flour\n0.5 cups Chickpea flour\n0.5 cups Water\n1 cup Seasoned breadcrumbs\nVegetable oil as needed",
+      "after": "500g seitan or super-firm tofu, sliced into cutlets\n1 cup all-purpose flour\n½ cup chickpea flour\n½ cup water\n1 cup seasoned breadcrumbs\nVegetable oil, for frying"
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "steps.he",
+      "reason": "Improved culinary terminology and flow. Changed 'צלחות נפרדות' to 'קערות או צלחות עמוקות'.",
+      "before": "דופקים את נתחי הסייטן או הטופו עם פטיש שניצלים עד שהם דקים, אך בזהירות לא לקרוע אותם.\nמכינים עמדת ציפוי עם שלוש צלחות נפרדות...",
+      "after": "דופקים את נתחי הסייטן או הטופו בעזרת פטיש שניצלים עד שהם דקים, בזהירות שלא לקרוע אותם.\nמכינים עמדת ציפוי עם שלוש קערות או צלחות עמוקות..."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'Golpee' to 'Aplane', 'rebozado' to 'empanizado', and improved overall flow.",
+      "before": "Golpee los filetes con un mazo de carne hasta que estén finos, pero tenga cuidado de no romperlos.\nPrepare una estación de rebozado con tres platos separados...",
+      "after": "Aplane los filetes con un mazo de carne hasta que estén finos, teniendo cuidado de no romperlos.\nPrepare una estación de empanizado con tres platos hondos..."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed gender agreement for 'طرف' (masculine) and used better plural for plates ('صحنة').",
+      "before": "حضّر 3 صحاني: ...\nمرمد كل طرف في الفرينة (نفض الزايد)، ومبعد غطّسها في الخليط السائل، وفي لخر مرمدها مليح في الخبز المرحي.",
+      "after": "حضّر 3 صحنة: ...\nمرمد كل طرف في الفرينة (ونفض الزايد)، ومبعد غطّسو في الخليط السائل، وفي لخر مرمدو مليح في الخبز المرحي."
+    }
+  ],
+  [
+    "schnitzel",
+    {
+      "field": "steps.en",
+      "reason": "Improved cookbook terminology ('dredging station with three shallow bowls', 'Dredge each cutlet').",
+      "before": "Pound the cutlets with a meat mallet until they are thin, but be careful not to tear them.\nPrepare a dredging station with three separate plates...",
+      "after": "Pound the cutlets with a meat mallet until thin, being careful not to tear them.\nPrepare a dredging station with three shallow bowls..."
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "description.he",
+      "reason": "More natural phrasing for plant-based ground meat and binding",
+      "before": "בשר טבעוני טחון בתוספת מעט קמח לקיבוע",
+      "after": "טחון טבעוני בתוספת מעט קמח לאיחוד התערובת"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "ingredients.he",
+      "reason": "Standardized terminology for plant-based meat, soup powder, and bread prep",
+      "before": "400 גרם בשר טבעוני טחון (כל סוג שהוא)... 1 כפית אבקת מרק פרווה... פרוסת לחם לבן טבולה במים (לריכוך)",
+      "after": "400 גרם טחון טבעוני (כל סוג)... 1 כפית אבקת מרק ירקות... 1 פרוסת לחם לבן, מושרית במים וסחוטה"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "steps.he",
+      "reason": "Improved flow and clarity for mixing and shaping",
+      "before": "בקערה מערבבים את הבשר הטבעוני הטחון... מוסיפים את הלחם הסחוט ומעצבים לקציצות.",
+      "after": "בקערה מערבבים את הטחון הטבעוני... מוסיפים את הלחם הסחוט, לשים היטב ויוצרים קציצות."
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "name.ar",
+      "reason": "Used authentic Tunisian term for meatballs in sauce",
+      "before": "كفتة بالصلصة الحمراء",
+      "after": "كعابر بالصوص الحمراء"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "description.ar",
+      "reason": "Adjusted to natural Tunisian dialect phrasing",
+      "before": "ماكلة كلاسيكية... باش يتماسك. الكفتة تطيب في صلصة طماطم",
+      "after": "أكلة كلاسيكية... باش يشد روحو. الكعابر يطيبو في صوص طماطم"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "ingredients.ar",
+      "reason": "Corrected measurements and authentic Tunisian ingredient names",
+      "before": "3 مغارف فرينة... 1 مغرفة كبيرة تابل مرقة خضرة... شريحة خبز أبيض مبللة بالماء (باش يطرى)... 1 علبة حكة طماطم",
+      "after": "3 مغارف كبار فرينة... 1 مغرفة صغيرة تابل مرقة خضرة... طريف خبز أبيض مبلول في الماء ومعصور... 1 حكة طماطم معجون"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "steps.ar",
+      "reason": "Authentic Tunisian cooking verbs and expressions",
+      "before": "وصوّر كعابر كفتة... لين يحمار... زيد حكة الطماطم... حط الكفتة بشوية في الصلصة... لين الصلصة تعقد",
+      "after": "واعجن بالباهي، ومبعد كعبرهم كعابر... لين يولي ذهبي... زيد طماطم المعجون... سقّط الكعابر بالشوية في الصوص... لين الصوص تعقد وتقر زيتها"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "description.es",
+      "reason": "More natural culinary phrasing for binding",
+      "before": "para dar firmeza",
+      "after": "para unir la mezcla"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "ingredients.es",
+      "reason": "Standardized bouillon measurement to match other languages and improved bread description",
+      "before": "1 cda de caldo vegetal en polvo... Una rebanada de pan blanco remojada en agua (para suavizar)",
+      "after": "1 cdta de caldo vegetal en polvo... 1 rebanada de pan blanco, remojada en agua y escurrida"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "steps.es",
+      "reason": "Better culinary terms for mixing and shaping",
+      "before": "Añadir el pan exprimido y formar albóndigas.",
+      "after": "Añadir el pan escurrido, amasar bien y formar las albóndigas."
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "description.en",
+      "reason": "Improved flow and natural phrasing",
+      "before": "any type of ground plant-based meat mixed with some flour can be shaped into meatballs.",
+      "after": "any type of plant-based ground meat can be used, with a little flour added for binding."
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "ingredients.en",
+      "reason": "Standardized bouillon measurement and clarified bread prep",
+      "before": "1 tbsp vegetable bouillon powder... 1 slice white bread soaked in water (to soften meatballs)",
+      "after": "1 tsp vegetable bouillon powder... 1 slice white bread, soaked in water and squeezed"
+    }
+  ],
+  [
+    "red_sauce_meatballs",
+    {
+      "field": "steps.en",
+      "reason": "Better flow and culinary terminology",
+      "before": "Add squeezed bread and shape into meatballs... fry a little garlic... Add tomato paste and stir, season with",
+      "after": "Add the squeezed bread, mix well, and shape into meatballs... sauté a little garlic... Add the tomato paste and stir. Season with"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "description.he",
+      "reason": "Improved natural phrasing and grammar",
+      "before": "מתכון פשוט ואוורירי זה משתמש במים ושמן במקום חלב וחמאה",
+      "after": "המתכון הפשוט והאוורירי הזה מכיל מים ושמן במקום חלב וחמאה"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing and correct kosher terminology",
+      "before": "utiliza agua y aceite en lugar de leche y mantequilla, lo que la hace Parve (neutra) y adecuada",
+      "after": "lleva agua y aceite en lugar de leche y mantequilla, lo que la hace pareve (neutra) y apta"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA/awkward words with natural Tunisian dialect",
+      "before": "المنفخة تستعمل الماء والزيت في بلاصة الحليب والزبدة، باش تكون بارف",
+      "after": "الخفيفة نستعملو فيها الماء والزيت في بلاصة الحليب والزبدة، وهكا تكون بارف"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "description.en",
+      "reason": "Corrected kosher terminology spelling",
+      "before": "making it Parve",
+      "after": "making it pareve"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "ingredients.he",
+      "reason": "Pinch of salt is more standard for baking than 'salt to taste'",
+      "before": "מלח לפי הטעם",
+      "after": "קורט מלח"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "ingredients.es",
+      "reason": "Clarified flaxseed ingredient and salt measurement",
+      "before": "Sal al gusto ... 1 cda de lino molido",
+      "after": "Una pizca de sal ... 1 cda de semillas de lino molidas"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used natural Tunisian measurements and clarified ingredients",
+      "before": "0.5 مغرفة صغيرة بيكربونات ... 0.75 كاس ماء",
+      "after": "شطر مغرفة صغيرة بيكربونات ... كاس غير ربع ماء"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "ingredients.en",
+      "reason": "Standardized fraction measurements for recipes",
+      "before": "0.5 tsp baking soda ... 0.75 cups water",
+      "after": "1/2 tsp baking soda ... 3/4 cup water"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "steps.he",
+      "reason": "Fixed literal translations to standard Hebrew cooking terms",
+      "before": "על חום בינוני ... יוצקים או מניחים מהבלילה על המחבת",
+      "after": "על אש בינונית ... יוצקים מהבלילה למחבת"
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "steps.es",
+      "reason": "Used standard culinary Spanish for mixing",
+      "before": "Mezclar hasta que esté apenas combinado.",
+      "after": "Mezclar solo hasta integrar."
+    }
+  ],
+  [
+    "pancakes_soly",
+    {
+      "field": "steps.ar",
+      "reason": "Used natural Tunisian phrasing for cooking steps",
+      "before": "لين يتجانس الخليط أكهو ... من الجهتين",
+      "after": "لين يتجانس الخليط ... من الشيرتين"
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "name.he",
+      "reason": "Awkward phrasing. 'בצל מטוגן ארוך' is unnatural. Changed to match the English meaning.",
+      "before": "שקשוקה של בצל מטוגן ארוך",
+      "after": "שקשוקה עם בצל מקורמל ונקניקיות"
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "name.es",
+      "reason": "Adjusted preposition to match the English 'with' and sound more natural.",
+      "before": "Shakshuka de Cebolla Caramelizada y Salchichas",
+      "after": "Shakshuka con Cebollas Caramelizadas y Salchichas"
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "description.he",
+      "reason": "Improved flow and phrasing to sound like natural Israeli Hebrew.",
+      "before": "שקשוקה נגזרת מהמילה הערבית המוגרבית לערבוב יחד. גרסה טבעונית זו לקלאסיקה הג'רבאית מחליפה את הביצים המסורתיות בטופו משי ומשתמשת בנקניקיות צמחיות חריפות. הרוטב העשיר מתבסס על בצל מקורמל עמוק ורסק עגבניות מרוכז לארוחת ערב משביעה וטעימה.",
+      "after": "השם שקשוקה נגזר מהמילה הערבית-מוגרבית שמשמעותה לערבב יחד. גרסה טבעונית זו לקלאסיקה הג'רבאית מחליפה את הביצים המסורתיות בטופו משי ומשלבת נקניקיות צמחיות חריפות. הרוטב העשיר מבוסס על בצל מקורמל היטב ורסק עגבניות, ויוצר ארוחת ערב משביעה וטעימה."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "description.es",
+      "reason": "Improved flow and natural phrasing.",
+      "before": "Shakshuka deriva de la palabra árabe magrebí para mezclar. Esta adaptación vegana del clásico de Djerba reemplaza los huevos tradicionales con tofu sedoso y utiliza salchichas picantes de origen vegetal. La rica salsa se basa en cebollas profundamente caramelizadas y pasta de tomate concentrada para un plato de cena abundante y sabroso.",
+      "after": "El nombre shakshuka deriva de una palabra árabe magrebí que significa mezclar. Esta adaptación vegana del clásico de Djerba reemplaza los huevos tradicionales con tofu sedoso y utiliza salchichas picantes de origen vegetal. La rica salsa se basa en cebollas bien caramelizadas y pasta de tomate concentrada, creando una cena abundante y sabrosa."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "description.ar",
+      "reason": "Fixed Hebrew letter 'פ' that crept into the Arabic word for Tofu.",
+      "before": "الشكشوكة جاية من الكلمة العربية المغاربية شكشك يعني خلط. هذي النسخة النباتية من الطبق الجربي الكلاسيكي تبدل العظم بطופو حرير وتستعمل مرقاز نباتي حار. المرقة الخاثرة معمولة ببصل مقلي مليح وطماطم حكة باش تعطي عشاء بنين ويشبع.",
+      "after": "الشكشوكة جاية من الكلمة العربية المغاربية شكشك يعني خلط. هذي النسخة النباتية من الطبق الجربي الكلاسيكي تبدل العظم بطوفو حريري وتستعمل مرقاز نباتي حار. المرقة الخاثرة معمولة ببصل مقلي مليح وطماطم حكة باش تعطي عشاء بنين ويشبع."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "description.en",
+      "reason": "Minor phrasing improvements for better cookbook flow.",
+      "before": "Shakshuka derives from the Maghrebi Arabic word for mixing together. This vegan adaptation of the Djerban classic replaces traditional eggs with silken tofu and uses spicy plant-based sausages. The rich sauce relies on deeply caramelized onions and concentrated tomato paste for a hearty and savory dinner dish.",
+      "after": "The name Shakshuka derives from the Maghrebi Arabic word for mixing together. This vegan adaptation of the Djerban classic replaces traditional eggs with silken tofu and uses spicy plant-based sausages. The rich sauce relies on deeply caramelized onions and concentrated tomato paste, making for a hearty and savory dinner."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed Hebrew letter 'פ' in Tofu.",
+      "before": "300 غرام طופو حرير، مقصوص دوائر",
+      "after": "300 غرام طوفو حريري، مقصوص دوائر"
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "steps.he",
+      "reason": "Improved natural phrasing and culinary terms.",
+      "before": "מחממים את השמן במחבת רחבה ומטגנים את הבצל הקצוץ על אש בינונית-נמוכה במשך זמן רב עד להזהבה עמוקה וקרמול.",
+      "after": "מחממים שמן במחבת רחבה ומטגנים את הבצל על אש בינונית-נמוכה עד שהוא מזהיב היטב ומקורמל."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "steps.es",
+      "reason": "Removed clunky 'durante mucho tiempo' and improved culinary verbs.",
+      "before": "Caliente el aceite en una sartén ancha y fría las cebollas picadas a fuego medio-bajo durante mucho tiempo hasta que estén bien doradas y caramelizadas.",
+      "after": "Caliente el aceite en una sartén ancha y sofría la cebolla a fuego medio-bajo hasta que esté bien dorada y caramelizada."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed Hebrew letter 'פ' in Tofu, changed 'طنجرة' (pot) to 'مقلة' (pan) which is accurate for Shakshuka, and used more natural Tunisian phrasing.",
+      "before": "سخن الزيت في طنجرة واسعة واقلي البصل المقصوص على نار متوسطة لوقت طويل حتى يحمار ويتكرمل مليح. ... حط دوائر الطופو بالشوية في المرقة ... غطي الطنجرة وطيب لين يسخن الطופو وتتخلط النكهات. قدمها في وقتها مع الخبز.",
+      "after": "سخن الزيت في مقلة واسعة واقلي البصل المقصوص على نار هادية حتى يحمار ويتكرمل مليح. ... حط دوائر الطوفو بالشوية في المرقة ... غطي المقلة وطيب لين يسخن الطوفو وتتخلط النكهات. قدمها طول مع الخبز."
+    }
+  ],
+  [
+    "shakshukacaramelizedonion_sausage",
+    {
+      "field": "steps.en",
+      "reason": "Replaced 'fry... for a long time' with 'sauté' for better cookbook style.",
+      "before": "Heat the oil in a wide pan and fry the diced onions over medium-low heat for a long time until they are deeply golden and caramelized.",
+      "after": "Heat the oil in a wide pan and sauté the diced onions over medium-low heat until deeply golden and caramelized."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "description.he",
+      "reason": "Improved natural phrasing and flow",
+      "before": "גרסה צמחית זו מחליפה את המיונז הרגיל בחלופה טבעונית תוך שמירה על פרופיל הטעמים המתוק והמלוח של הסויה.",
+      "after": "גרסה טבעונית זו מחליפה את המיונז הרגיל בחלופה טבעונית, תוך שמירה על הטעם המתוק-מלוח של הסויה."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.he[1]",
+      "reason": "More natural cookbook phrasing in Hebrew",
+      "before": "מערבלים עד שהתערובת חלקה לחלוטין ואחידה",
+      "after": "מערבלים עד לקבלת תערובת חלקה לחלוטין ואחידה"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.he[3]",
+      "reason": "Better phrasing for serving suggestion",
+      "before": "להשתמש בסלט כרוב ירוק",
+      "after": "להגיש עם סלט של כרוב ירוק"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "description.ar",
+      "reason": "Fixed weird translation 'جويجات' (little chickens) to 'سناك' (snacks) and improved Tunisian phrasing",
+      "before": "هالوصفة نباتية وتبدل المايونيز العادي بواحد نباتي وتحافظ على طعمة الصوجا الحلوة والمالحة. تجي بنينة برشة مع سلطة كرنب مقصوص وجويجات مقرمشة متاع ذرة.",
+      "after": "هالوصفة النباتية تعوض المايونيز العادي بمايونيز نباتي، وتخلي مطعم الصوجا الحلو والمالح. تجي بنينة برشة مع سلطة كرنب مقصوص وسناك ذرة يتقرمش."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarified spoon sizes (tablespoon vs teaspoon) for accuracy in Tunisian Arabic",
+      "before": "مغرفة مايونيز نباتي",
+      "after": "مغرفة كبيرة مايونيز نباتي"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.ar[2]",
+      "reason": "More natural Tunisian phrasing",
+      "before": "ذوق وزيد الملح كان لازم. نصيحة: ننصحوك تضاعف الكمية خاطر يصبر برشة في الفريجيدير.",
+      "after": "ذوق وصلّح الملح كان لزم. نصيحة: ننصحوك تضاعف الكمية مرتين ولا ثلاثة، خاطرو يصبر برشة في الفريجيدير."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.ar[3]",
+      "reason": "Improved flow and vocabulary for Tunisian dialect",
+      "before": "صب فوق السلطة. ننصحوك تخلطو مع سلطة كرنب أخضر وكرنب أحمر وبصل أخضر. حط من فوق حاجات تتقرمش كيف الأبروبو ولا دوريتوس ولا لوز محمر قبل ما تقدمو ديركت.",
+      "after": "صبو فوق السلطة. اقتراح للتقديم: يجي بنين مع سلطة كرنب أخضر، كرنب أحمر وبصل أخضر. حط من فوق حاجات تتقرمش كيما الأبروبو، الدوريتوس ولا لوز محمر ديركت قبل التقديم."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "description.es",
+      "reason": "Changed 'versión vegetal' to 'versión a base de plantas' for better culinary accuracy",
+      "before": "Esta versión vegetal sustituye",
+      "after": "Esta versión a base de plantas sustituye"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.es[3]",
+      "reason": "Changed 'cebollas verdes' to 'cebollín' which is more widely used in Latin American Spanish",
+      "before": "repollo morado y cebollas verdes.",
+      "after": "repollo morado y cebollín."
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "description.en",
+      "reason": "Matched the title name in the description",
+      "before": "Shlomit's Dressing is a modern",
+      "after": "Shlomit's Salad Dressing is a modern"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.en[2]",
+      "reason": "Smoothed out the tip phrasing to match the tone of the other languages",
+      "before": "Tip: The recipe author recommends doubling or tripling the quantities as it keeps well",
+      "after": "Tip: It is recommended to double or triple the quantities, as the dressing keeps well"
+    }
+  ],
+  [
+    "shlomit_perl_dressing",
+    {
+      "field": "steps.en[3]",
+      "reason": "Corrected 'purple cabbage' to the standard culinary term 'red cabbage' and improved phrasing",
+      "before": "Recommended serving: Use with a salad of green cabbage, purple cabbage, and green onions. Top with crunchy items",
+      "after": "Serving suggestion: Toss with a salad of green cabbage, red cabbage, and green onions. Top with crunchy snacks"
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing ('שואבות את שמן' to 'נקראות על שם', 'הפרופילים המלוחים' to 'פרופילי הטעם העשירים')",
+      "before": "תערובות התבלינים המיוחדות הללו שואבות את שמן מהמנות הספציפיות שהן משדרגות... כדי לשחזר את הפרופילים המלוחים הללו.",
+      "after": "תערובות התבלינים המיוחדות הללו נקראות על שם המנות הספציפיות שהן משדרגות... כדי לשחזר את פרופילי הטעם העשירים האלה."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "steps.he[2]",
+      "reason": "Changed 'מקושקשת טופו' to the more natural 'טופו מקושקש'",
+      "before": "השתמשו בזה על מקושקשת טופו.",
+      "after": "השתמשו בזה על טופו מקושקש."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "description.es",
+      "reason": "Changed 'perfiles sabrosos' to 'perfiles de sabor' for better culinary flow",
+      "before": "replicar esos perfiles sabrosos.",
+      "after": "replicar esos perfiles de sabor."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "steps.es",
+      "reason": "Standardized casing (removed ALL CAPS), changed 'Combine' to 'Mezcle' for natural Spanish, and fixed gender agreement ('Úsela')",
+      "before": "MEZCLA PARA PIZZA: Combine... Guardar... MEZCLA PARA PAPAS FRITAS: Combine... MEZCLA PARA HUEVO: Combine... Úselo en revuelto de tofu.",
+      "after": "Mezcla para pizza: Mezcle... Guarde... Mezcla para papas fritas: Mezcle... Mezcla para huevo: Mezcle... Úsela en tofu revuelto."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "description.ar",
+      "reason": "Fixed Hebrew letter typo in Arabic word ('يبנنوها' -> 'يبننوها'), changed 'الجبن' to 'الحليب' to match dairy, and made the ending more naturally Tunisian",
+      "before": "الماكلة اللي يبנنوها. في الوقت اللي الطياب التقليدي يعتمد عالجبن والعظم... وتفكرنا بالزمن الجميل.",
+      "after": "الماكلة اللي يبننوها. في الوقت اللي الطياب التقليدي يعتمد عالحليب والعظم... وتعمل الكيف."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarified spoon sizes (tbsp vs tsp) and used standard Tunisian fractions ('شطر' instead of '1/2')",
+      "before": "3 مغارف... 2 مغارف... 1 مغرفة... 1/2 مغرفة صغيرة...",
+      "after": "3 مغارف كبار... 2 مغارف كبار... 1 مغرفة كبيرة... شطر مغرفة صغيرة..."
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimal fractions to standard cookbook fractions",
+      "before": "0.5 tsp sugar... 0.5 tsp turmeric",
+      "after": "1/2 tsp sugar... 1/2 tsp turmeric"
+    }
+  ],
+  [
+    "spice_mixes",
+    {
+      "field": "steps.en",
+      "reason": "Standardized casing (removed ALL CAPS) and added missing articles for better flow",
+      "before": "PIZZA MIX: Combine... Store in airtight container. FRIES MIX: Combine... EGG MIX: Combine... provides sulfurous egg flavor.",
+      "after": "Pizza Mix: Combine... Store in an airtight container. Fries Mix: Combine... Egg Mix: Combine... provides a sulfurous egg flavor."
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing ('מקבלות את שמן', 'יוצרת עיגולים') and unnatural passive voice ('נאכלות', 'מפודרות') to sound like authentic Israeli cookbook Hebrew.",
+      "before": "הסופגניות מקבלות את שמן מהשורש העברי ס-פ-ג, כיוון שהבצק סופג את השמן בזמן הטיגון. גרסה טבעונית זו יוצרת עיגולים אווריריים וזהובים ללא ביצים או מוצרי חלב. באופן מסורתי הן נאכלות בחנוכה לציון נס פך השמן, ממולאות בריבה מתוקה ומפודרות באבקת סוכר.",
+      "after": "שמן של הסופגניות נגזר מהשורש העברי ס-פ-ג, כיוון שהבצק סופג את השמן בזמן הטיגון. גרסה טבעונית זו מניבה סופגניות עגולות, אווריריות וזהובות ללא ביצים או מוצרי חלב. נהוג לאכול אותן בחנוכה לציון נס פך השמן, כשהן ממולאות בריבה מתוקה ומעוטרות באבקת סוכר."
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed decimal to fraction for standard cookbook format and removed unnecessary comma.",
+      "before": "0.5 כפית מלח\n200 גרם ריבת תות, חלקה",
+      "after": "1/2 כפית מלח\n200 גרם ריבת תות חלקה"
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "description.es",
+      "reason": "Fixed literal translation 'rondas' to 'bollos', changed 'Hanukkah' to the standard Spanish 'Jánuca', and specified 'azúcar glas'.",
+      "before": "Las Sufganiyot reciben su nombre de la raíz hebrea para \"esponja\" porque la masa absorbe el aceite al freírse. Esta adaptación vegana crea rondas doradas y aireadas sin huevos ni lácteos. Tradicionalmente consumidas durante Hanukkah para celebrar el milagro del aceite, se rellenan con mermelada dulce y se espolvorean con azúcar.",
+      "after": "Las sufganiyot reciben su nombre de la raíz hebrea para \"esponja\" porque la masa absorbe el aceite al freírse. Esta adaptación vegana crea bollos dorados y esponjosos sin huevos ni lácteos. Tradicionalmente se comen durante Jánuca para celebrar el milagro del aceite, se rellenan con mermelada dulce y se espolvorean con azúcar glas."
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed decimal to fraction for standard cookbook format.",
+      "before": "0.5 cucharadita de sal",
+      "after": "1/2 cucharadita de sal"
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "description.en",
+      "reason": "Specified 'powdered sugar' instead of just 'sugar' for accuracy.",
+      "before": "Traditionally eaten during Hanukkah to celebrate the miracle of the oil, they are filled with sweet jam and dusted with sugar.",
+      "after": "Traditionally eaten during Hanukkah to celebrate the miracle of the oil, they are filled with sweet jam and dusted with powdered sugar."
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimal to fraction and fixed capitalization of spirits.",
+      "before": "1 tbsp Brandy or Vodka\n0.5 tsp salt",
+      "after": "1 tbsp brandy or vodka\n1/2 tsp salt"
+    }
+  ],
+  [
+    "sufganiyot",
+    {
+      "field": "ingredients.ar",
+      "reason": "Made measurements more precise in Tunisian dialect (added 'كبيرة' for tablespoon, 'شايحة' for dry yeast) and adjusted 'لتر' to 'ليترا'.",
+      "before": "1 مغرفة خميرة\n1 مغرفة براندي أو فودكا\n1 لتر زيت (للقليان)",
+      "after": "1 مغرفة كبيرة خميرة شايحة\n1 مغرفة كبيرة براندي ولا فودكا\n1 ليترا زيت (للقليان)"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "description.he",
+      "reason": "Improved etymology phrasing and changed 'rich seitan' to 'hearty/meaty seitan' which fits the context better.",
+      "before": "טפינה מגיעה מהשורש הערבי... בסייטן עשיר",
+      "after": "טפינה נגזרת מהשורש הערבי... בסייטן בשרני"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 1000g to 1 kg for natural cookbook phrasing.",
+      "before": "1000 גרם נתחי סייטן",
+      "after": "1 ק\"ג סייטן"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "steps.he",
+      "reason": "Improved flow and translated 'simmer' more accurately.",
+      "before": "הנמיכו את האש ללהבה נמוכה ובשלו במשך כשעה.",
+      "after": "הנמיכו את האש ובשלו בביעבוע עדין למשך כשעה."
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed awkward decimal measurement (1.2 tbsp) to natural phrasing, and used authentic Tunisian terms for quantities.",
+      "before": "1.2 مغرفة سكر",
+      "after": "مغرفة كبيرة وربع سكر"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA/awkward phrasing with authentic Tunisian dialect ('عس عليه بالباهي' for 'watch carefully').",
+      "before": "رد بالك لا يتحرق السكر",
+      "after": "عسّ عليه بالباهي باش ما يتحرقش"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "description.es",
+      "reason": "Specified 'carne de res' for beef to match the English original.",
+      "before": "reemplaza la carne con seitán",
+      "after": "reemplaza la carne de res por un seitán"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 1000g to 1 kg for standard recipe formatting.",
+      "before": "1000 g de trozos de seitán",
+      "after": "1 kg de seitán"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "steps.es",
+      "reason": "Fixed 'cocine al vapor' which implies using a steamer, changing to cooking in its own juices.",
+      "before": "Sofría y cocine la mezcla al vapor en sus propios jugos",
+      "after": "Sofría y deje que la mezcla se cocine en sus propios jugos"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "description.en",
+      "reason": "Added missing comma for better readability.",
+      "before": "potatoes and barley perfect for lunch.",
+      "after": "potatoes and barley, perfect for lunch."
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "ingredients.en",
+      "reason": "Removed redundant 'chunks' and fixed unnatural decimal tablespoon measurement.",
+      "before": "4.5 cups seitan chunks... 1.2 tbsp sugar",
+      "after": "4.5 cups seitan... 1 1/4 tbsp sugar"
+    }
+  ],
+  [
+    "tfina_stew",
+    {
+      "field": "steps.en",
+      "reason": "Improved phrasing for steaming in own juices.",
+      "before": "Sauté and steam the mixture in its own juices",
+      "after": "Sauté and let the mixture steam in its own juices"
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "description.he",
+      "reason": "Fixed 'מי מלח' to 'מי צלפים' (caper brine) and improved phrasing for 'savory' to sound more natural.",
+      "before": "רוטב קיסר טבעוני הוא גרסה צמחית לרוטב הקיסר הקלאסי. על ידי שימוש בצלפים ומי מלח במקום אנשובי, הרוטב הקרמי הזה מספק טעם מלוח אותנטי המושלם לסלטים פריכים.",
+      "after": "רוטב קיסר טבעוני הוא גרסה מהצומח לרוטב הקיסר הקלאסי. בזכות השימוש בצלפים ובמי הצלפים במקום באנשובי, הרוטב הקרמי הזה מעניק טעם עשיר ואותנטי שמושלם לסלטים פריכים."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "ingredients.he",
+      "reason": "Removed unnecessary comma.",
+      "before": "1.2 גרם פלפל שחור, טחון (לפי הטעם)",
+      "after": "1.2 גרם פלפל שחור טחון (לפי הטעם)"
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "steps.he",
+      "reason": "Improved verbs and phrasing to match standard Israeli cookbook style.",
+      "before": "הוסיפו את המיונז הטבעוני... ערבלו עד שהתערובת חלקה לחלוטין.",
+      "after": "הכניסו את המיונז הטבעוני... עבדו עד לקבלת תערובת חלקה לחלוטין."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "description.es",
+      "reason": "Translated 'plant-based adaptation' more accurately and changed 'salado' to 'sabroso' for 'savory'.",
+      "before": "Este es un aderezo César vegano. Al usar alcaparras y salmuera en lugar de anchoas, esta salsa cremosa ofrece un auténtico sabor salado perfecto para ensaladas crujientes.",
+      "after": "Una adaptación a base de plantas del clásico aderezo César. Al usar alcaparras y su salmuera en lugar de anchoas, esta salsa cremosa ofrece un auténtico sabor sabroso, perfecto para ensaladas crujientes."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "ingredients.es",
+      "reason": "Fixed grammar for dried parsley and removed unnecessary comma.",
+      "before": "4 g de perejil fresco, picado (o 1/2 cucharadita seco)",
+      "after": "4 g de perejil fresco, picado (o 1/2 cucharadita de perejil seco)"
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "steps.es",
+      "reason": "Improved flow and grammar.",
+      "before": "Agregue la mayonesa... guarde en el refrigerador.",
+      "after": "Añada la mayonesa... guárdelo en el refrigerador."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA phrasing with natural Tunisian dialect.",
+      "before": "هذا صوص سيزر نباتية. باستعمال الكبار والماء متاعو في بلاصة الأنشوة...",
+      "after": "نسخة نباتية لصوص السيزر الكلاسيكية. كي نستعملو الكبار والماء متاعو في بلاصة الأنشوة..."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "ingredients.ar",
+      "reason": "Replaced numbers with natural Tunisian dialect words (زوز, شطر, ونص).",
+      "before": "1.5 مغرفة صغيرة ماء الكبار... 2 مغارف عصير قارص... نصف مغرفة صغيرة فلفل أكحل...",
+      "after": "مغرفة صغيرة ونص ماء الكبار... زوز مغارف كبار عصير قارص... شطر مغرفة صغيرة فلفل أكحل..."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA words with Tunisian dialect (روبو, كان لزم).",
+      "before": "في ميكسور أو خلاط... كان لازم.",
+      "after": "في روبو ولا ميكسور... كان لزم."
+    }
+  ],
+  [
+    "vegancaesardressing",
+    {
+      "field": "steps.en",
+      "reason": "Capitalized Dijon.",
+      "before": "dijon mustard",
+      "after": "Dijon mustard"
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "description.he",
+      "reason": "Fixed gender agreement and phrasing",
+      "before": "היויו, שנקרא על שם הצעצוע שהיה פופולרי בתקופה הקולוניאלית הצרפתית, הן סופגניות דחוסות בצורת טבעת.",
+      "after": "עוגיות היויו, שנקראות על שם הצעצוע שהיה פופולרי בתקופה הקולוניאלית הצרפתית, הן מעין סופגניות דחוסות בצורת טבעת."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "description.es",
+      "reason": "Changed 'festín' to 'delicia' for a more natural translation of 'treat'",
+      "before": "para un festín de Janucá.",
+      "after": "para una delicia festiva de Janucá."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "description.ar",
+      "reason": "Removed Hebrew characters that crept into the Arabic text",
+      "before": "בשحور (sh'our) البردقان، حاجة بنينة برشا للחנוכה (Hanukkah).",
+      "after": "في شحور البردقان، حاجة بنينة برشا لحانوكا."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted small ml amounts to standard spoon measurements and 1000ml to 1 liter",
+      "before": "5 מ\"ל תמצית וניל ... 1000 מ\"ל שמן צמחי (לטיגון) ... 15 מ\"ל מיץ לימון",
+      "after": "1 כפית תמצית וניל ... 1 ליטר שמן לטיגון ... 1 כף מיץ לימון"
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "ingredients.es",
+      "reason": "Converted small ml amounts to standard spoon measurements and 1000ml to 1 litro",
+      "before": "5 ml de extracto de vainilla ... 1000 ml de aceite vegetal (para freír) ... 15 ml de jugo de limón",
+      "after": "1 cucharadita de extracto de vainilla ... 1 litro de aceite vegetal (para freír) ... 1 cucharada de jugo de limón"
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed Hebrew letter in Arabic word (קاطو -> ڨاطو) and fixed awkward 4.2 cups measurement",
+      "before": "2 مغارف صغار خميرة קاطو ... 4.2 كيسان زيت (للقليان)",
+      "after": "2 مغارف صغار خميرة ڨاطو ... 1 لتر زيت (للقليان)"
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed awkward 4.2 cups measurement",
+      "before": "4.2 cups vegetable oil (for frying)",
+      "after": "4 cups vegetable oil (for frying)"
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "steps.he[0]",
+      "reason": "Added missing baking powder to the first step",
+      "before": "מערבבים את הקמח, 100 גרם סוכר, 120 מ\"ל שמן, רסק התפוחים, מיץ התפוזים והוניל.",
+      "after": "מערבבים את הקמח, אבקת האפייה, הסוכר, השמן, רסק התפוחים, מיץ התפוזים ותמצית הווניל."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "steps.es[0]",
+      "reason": "Added missing baking powder to the first step",
+      "before": "mezclar la harina, 100 g de azúcar, 120 ml de aceite, el puré de manzana, el jugo de naranja y la vainilla.",
+      "after": "mezclar la harina, el polvo de hornear, el azúcar, el aceite, el puré de manzana, el jugo de naranja y la vainilla."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "steps.ar[0]",
+      "reason": "Added missing baking powder to the first step",
+      "before": "نخلط الفرينة، نص كاس سكر، نص كاس زيت، كومبوت التفاح، عصير البردقان والفانيليا.",
+      "after": "نخلط الفرينة، خميرة الڨاطو، السكر، الزيت، كومبوت التفاح، عصير البردقان والفانيليا."
+    }
+  ],
+  [
+    "yoyotunisiandoughnuts",
+    {
+      "field": "steps.en[0]",
+      "reason": "Added missing baking powder to the first step",
+      "before": "mix the flour, 1/2 cup sugar, 1/2 cup oil, applesauce, orange juice, and vanilla.",
+      "after": "mix the flour, baking powder, sugar, oil, applesauce, orange juice, and vanilla."
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted unnatural gram measurements for spices and oil into standard volume measurements (spoons/cups) typical for Israeli home cooking.",
+      "before": "30 מ\"ל שמן צמחי... 2.3 גרם פפריקה מתוקה... 1.2 גרם פלפל לבן... 3 גרם אבקת מרק ירקות",
+      "after": "2 כפות שמן צמחי... 1 כפית פפריקה מתוקה... 1/2 כפית פלפל לבן... 1 כפית אבקת מרק ירקות"
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "ingredients.es",
+      "reason": "Converted gram measurements for spices and oil to standard culinary volume measurements (cucharadas/cucharaditas) for better readability.",
+      "before": "30 ml de aceite vegetal... 2.3 g de pimentón dulce... 1.2 g de pimienta blanca... 3 g de caldo de verduras en polvo",
+      "after": "2 cucharadas de aceite vegetal... 1 cucharadita de pimentón dulce... 1/2 cucharadita de pimienta blanca... 1 cucharadita de caldo de verduras en polvo"
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "steps.es",
+      "reason": "Improved natural phrasing for caramelizing onions and tying the bag.",
+      "before": "hasta que se dore mucho (color marrón oscuro)... dejando un poco de espacio para la expansión",
+      "after": "hasta que esté bien dorada (caramelizada)... dejando un poco de espacio para que el trigo se expanda"
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA 'مقلاة' with the more authentic Tunisian 'قلاية'.",
+      "before": "في مقلاة، سخن الزيت",
+      "after": "في قلاية، سخن الزيت"
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "description.en",
+      "reason": "Changed 'pudding' to 'side dish' as it is a more accurate culinary description for savory wheat berries.",
+      "before": "becoming a tender, savory pudding.",
+      "after": "becoming a tender, savory side dish."
+    }
+  ],
+  [
+    "adafinawheatside_dish",
+    {
+      "field": "steps.en",
+      "reason": "Enhanced culinary vocabulary (skillet, sauté, caramelized) for professional cookbook tone.",
+      "before": "In a frying pan, heat the oil and fry the diced onion over low heat until it turns dark brown.",
+      "after": "In a skillet, heat the oil and sauté the diced onion over low heat until deeply browned and caramelized."
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "description.he",
+      "reason": "Improved natural phrasing for cookbook style",
+      "before": "יוצר כיכר דחוסה ורכה המושלמת לניגוב. הוא מביא",
+      "after": "מניב כיכר במרקם דחוס ורך, המושלמת לניגוב. המתכון מביא"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "ingredients.he",
+      "reason": "Removed unnecessary commas and used standard metric notation",
+      "before": "720 מ\"ל מים, פושרים / 1000 גרם קמח, מנופה",
+      "after": "720 מ\"ל מים פושרים / 1 ק\"ג קמח מנופה"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "steps.he",
+      "reason": "Used standard Hebrew baking terminology",
+      "before": "מופעלים, מבעבעים ותופחים / מניחים לו לנוח במקום חמים עד שהוא מכפיל את נפחו / וכשנשמע צליל חלול בנקישה",
+      "after": "תוססים ומעלים קצף / מתפיחים במקום חמים עד להכפלת הנפח / ועד שהלחם משמיע צליל חלול כשנוקשים בתחתיתו"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "description.es",
+      "reason": "Improved translation and natural phrasing",
+      "before": "Pan de la Casa / Trae la calidez",
+      "after": "Pan Casero / Lleva la calidez"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "ingredients.es",
+      "reason": "Removed unnecessary commas",
+      "before": "agua, tibia / harina, tamizada",
+      "after": "agua tibia / harina tamizada"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "steps.es",
+      "reason": "Improved natural culinary phrasing",
+      "before": "se active, burbujee y crezca / suenen huecas al golpearlas",
+      "after": "se active y haga espuma / suenen a hueco al golpear la base"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "description.ar",
+      "reason": "Removed Hebrew characters from Arabic text and used more authentic Tunisian phrasing",
+      "before": "لحם בית (Lechem Bayit) / بدل شريان / وتعمل خبزة",
+      "after": "ليحيم بايت (Lechem Bayit) / في عوض شريان / وتعطينا خبزة"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used natural Tunisian fraction terms and specified spoon sizes",
+      "before": "1.25 مغرفة / 0.5 كاس / 2 مغارف",
+      "after": "مغرفة كبيرة وربع / شطر كاس / 2 مغارف كبار"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "steps.ar",
+      "reason": "Used authentic Tunisian baking vocabulary (تكشكش, تتكسل, من لوطة)",
+      "before": "تتفاعل وتعمل فقاعات وتطلع / رطبة ومطاطية / يولي صوتهم فارغ كي تطبطب عليهم",
+      "after": "تتفاعل وتكشكش / رطبة وتتكسل / يعطيو صوت فارغ كي تطبطب عليهم من لوطة"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "ingredients.en",
+      "reason": "Used standard recipe fractions instead of decimals",
+      "before": "1.25 tbsp / 0.5 cup",
+      "after": "1 1/4 tbsp / 1/2 cup"
+    }
+  ],
+  [
+    "bread",
+    {
+      "field": "steps.en",
+      "reason": "Improved natural baking terminology",
+      "before": "activates, bubbles, and grows / activated yeast water mixture / hollow sounding when tapped",
+      "after": "becomes frothy / yeast mixture / sound hollow when tapped"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "description.he",
+      "reason": "Fixed literal translation of 'uses' and improved natural phrasing",
+      "before": "דווידה פירושה תולעת קטנה בערבית, שם המתייחס לצורת הוורמיצ'לי. מרק תוניסאי חריף זה משתמש בספגטי שבור",
+      "after": "משמעות המילה דווידה בערבית היא תולעת קטנה, שם המתייחס לצורת אטריות הוורמיצ'לי. מרק תוניסאי חריף זה מבוסס על ספגטי שבור"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "steps.he",
+      "reason": "Fixed tense consistency (הסמיך to מסמיך)",
+      "before": "מבשלים עד שהפסטה רכה והרוטב הסמיך מעט.",
+      "after": "מבשלים עד שהפסטה רכה והרוטב מסמיך מעט."
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "description.es",
+      "reason": "More natural verb for pasta and better translation for plant-based",
+      "before": "utiliza espaguetis rotos... naturalmente vegetal",
+      "after": "se prepara con espaguetis partidos... naturalmente vegana"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'salsa' to 'caldo' since it is a soup",
+      "before": "la salsa se haya espesado ligeramente",
+      "after": "el caldo espese ligeramente"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "ingredients.ar",
+      "reason": "Standardized quantities to match metric measurements, replacing awkward cup fractions",
+      "before": "5 كيسان سباغيتي... 6.25 كيسان ماء، يغلي",
+      "after": "500 غرام سباغيتي... لتر ونص ماء يغلي"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "description.ar",
+      "reason": "Improved flow and authentic Tunisian phrasing",
+      "before": "دويدة تعني دودة صغيرة بالعربي... يتطيب بسباغيتي مكسرة في مرقة طماطم حمراء",
+      "after": "كلمة دويدة معناها دودة صغيرة بالعربي... نطيبوه بسباغيتي مكسرة في مرقة طماطم غنية"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "description.en",
+      "reason": "Improved flow, punctuation, and phrasing",
+      "before": "Dwida translates to little worm in Arabic which refers to the vermicelli shape. This spicy Tunisian soup uses broken spaghetti cooked",
+      "after": "Dwida translates to 'little worm' in Arabic, referring to the shape of the vermicelli. This spicy Tunisian soup features broken spaghetti simmered"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "ingredients.en",
+      "reason": "Standardized quantities to match other languages for clarity",
+      "before": "5 cups spaghetti... 6 1/4 cups water",
+      "after": "500g (1 lb) spaghetti... 1.5 liters (6 cups) boiling water"
+    }
+  ],
+  [
+    "dwida",
+    {
+      "field": "steps.en",
+      "reason": "Corrected 'sauce' to 'broth' as this is a soup",
+      "before": "sauce has thickened slightly",
+      "after": "broth has thickened slightly"
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "description.he",
+      "reason": "Fixed literal translation of 'staple' and 'relies on' to sound like natural Israeli cookbook phrasing.",
+      "before": "מרק אפונה ירוקה הוא מאכל מנחם ובסיסי בחורף הישראלי. מרק קרמי זה מסתמך על אפונה ירוקה יבשה במקום שמנת למרקם העשיר שלו.",
+      "after": "מרק אפונה ירוקה הוא מאכל מנחם קלאסי בחורף הישראלי. המרק מקבל את המרקם הקרמי והעשיר שלו מאפונה ירוקה יבשה, ללא צורך בשמנת."
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "steps.he",
+      "reason": "Changed infinitive verbs to plural present tense, which is the standard for Hebrew recipes.",
+      "before": "לשטוף את האפונה היבשה היטב כדי להסיר את כל הקצף.",
+      "after": "שוטפים היטב את האפונה היבשה כדי להסיר את העמילן והלכלוך."
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "description.es",
+      "reason": "Adapted to Latin American Spanish ('arvejas') and improved flow.",
+      "before": "El Marak Afuna Yeruka es un alimento reconfortante básico en los inviernos israelíes. Esta sopa cremosa se basa en guisantes verdes secos en lugar de crema para su rica textura.",
+      "after": "La sopa de arvejas verdes (Marak Afuna Yeruka) es un plato reconfortante clásico de los inviernos israelíes. Esta sopa obtiene su textura rica y cremosa de las arvejas secas, sin necesidad de usar crema."
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "steps.es",
+      "reason": "Used more common Latin American culinary terms ('licuadora de inmersión', 'arvejas').",
+      "before": "Triturar todo con una batidora de mano hasta obtener una mezcla suave y cremosa.",
+      "after": "Triturar todo con una licuadora de inmersión hasta obtener una textura suave y cremosa."
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "description.ar",
+      "reason": "Removed awkward phrasing and incorrect term 'كعبر كركم' (turmeric balls), replacing with natural Tunisian dialect.",
+      "before": "فيها خضرة وكعبر كركم باش تعطي بنة ودفء",
+      "after": "مخلطة بشوية خضرة وكركم باش تعطي بنة ودفء"
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "steps.ar",
+      "reason": "Enhanced Tunisian dialect authenticity using common local cooking terms.",
+      "before": "نقص في النار وخليها تطيب لين الجلبانة تولي طرية برشا.",
+      "after": "نقص على النار وخليها تطيب سلة سلة لين تطرى الجلبانة بالباهي."
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "ingredients.en",
+      "reason": "Fractions are more standard than decimals in English recipes.",
+      "before": "0.5 tsp white or black pepper",
+      "after": "1/2 tsp white or black pepper"
+    }
+  ],
+  [
+    "greenpeasoup",
+    {
+      "field": "steps.en",
+      "reason": "Fixed awkward phrasing 'foam (spumas)' and '(not fried)'.",
+      "before": "Wash the dried green peas very thoroughly to remove all the foam (spumas).",
+      "after": "Wash the dried green peas thoroughly to remove excess starch."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "description.he",
+      "reason": "Improved flow and natural phrasing. Replaced awkward literal translation with natural Hebrew syntax.",
+      "before": "חשו מגיע מהמילה הערבית ללגימה ומגדיר את המרק הטוניסאי הכפרי הזה.",
+      "after": "השם 'חשו' נגזר מהמילה הערבית ללגימה, והוא מתאר את המרק הטוניסאי הכפרי הזה."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "steps.he",
+      "reason": "Made cooking instructions more natural and professional.",
+      "before": "מכינים את ההסמכה (בלילה) על ידי ערבוב הקמח עם המים הקרים (100 מ\"ל) בקערה נפרדת עד לקבלת תערובת חלקה וללא גושים.",
+      "after": "בקערה נפרדת, מכינים בלילה להסמכה: טורפים את הקמח עם המים הקרים (100 מ\"ל) עד לקבלת תערובת חלקה ללא גושים."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "description.ar",
+      "reason": "Converted MSA to authentic Tunisian dialect (e.g., 'الزمني', 'مفوح', 'ولا').",
+      "before": "وهو اسم هالجاري التونسي العربي... فيه برشة ثوم وفلفل أحمر حار",
+      "after": "وهو اسم هالجاري التونسي الزمني... مفوح ببرشة ثوم وفلفل أحمر حار"
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "steps.ar",
+      "reason": "Used authentic Tunisian cooking terminology ('صحفة', 'ركض بالڨدا', 'تخثار', 'تسربي').",
+      "before": "صب خليط الفرينة بالشوية في المرق السخون وأنت تحرّك ديما باش تختار المرقة.",
+      "after": "صب العقدة بالشوية في الطنجرة وهي تغلي، وأنت تحرّك ديما باش تخثار المرقة."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing and flow in Spanish.",
+      "before": "El Hsou deriva de la palabra árabe para sorber y define esta rústica sopa tunecina.",
+      "after": "El nombre 'Hsou' deriva de la palabra árabe para 'sorber' y define a esta rústica sopa tunecina."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "steps.es",
+      "reason": "Removed awkward phrasing ('el agua principal') and improved clarity.",
+      "before": "En una olla, combine el agua principal, el ajo machacado, el jugo de limón y el pimentón picante.",
+      "after": "En una olla, combine el agua (1,5 litros), el ajo, el jugo de limón y el pimentón picante."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "description.en",
+      "reason": "Enhanced flow and readability for a professional cookbook tone.",
+      "before": "Hsou derives from the Arabic word for sipping and defines this rustic Tunisian soup.",
+      "after": "The name 'Hsou' derives from the Arabic word for sipping, perfectly defining this rustic Tunisian soup."
+    }
+  ],
+  [
+    "binasthicksourspicysoup",
+    {
+      "field": "steps.en",
+      "reason": "Fixed awkward phrasing ('main water') and improved culinary terminology ('slurry', 'whisking').",
+      "before": "In a pot, combine the main water, crushed garlic, lemon juice, and hot paprika.",
+      "after": "In a pot, combine the water (6 1/4 cups), garlic, lemon juice, and hot paprika."
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "name.he",
+      "reason": "In Israel, 'Dulce de Leche' is almost exclusively called 'ריבת חלב'.",
+      "before": "עוגת ביסקוויטים ודולצ׳ה דה לצ׳ה",
+      "after": "עוגת ביסקוויטים וריבת חלב"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "description.he",
+      "reason": "Changed to 'ריבת חלב' for natural Israeli phrasing.",
+      "before": "בסיס שוקולד עם ביסקוויטים ודולצ׳ה דה לצ׳ה, מוס דולצ׳ה דה לצ׳ה",
+      "after": "בסיס שוקולד עם ביסקוויטים וריבת חלב, מוס ריבת חלב"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "ingredients.he",
+      "reason": "Used 'פחית' (can) instead of 'קופסת' (box) for coconut cream, 'ריבת חלב' instead of 'דולצ׳ה דה לצ׳ה', and 'אינסטנט פודינג' which is the standard term.",
+      "before": "1/2 קופסת קרם קוקוס... 1/2 כוס דולצ׳ה דה לצ׳ה טבעוני... 1 חבילת פודינג וניל",
+      "after": "1/2 פחית קרם קוקוס... 1/2 כוס ריבת חלב טבעונית... 1 חבילת אינסטנט פודינג וניל"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "steps.he",
+      "reason": "Improved flow, used 'ריבת חלב', specified cm for diameter, and used 'יוצקים' (pour) instead of 'שופכים' (spill).",
+      "before": "מערבבים את חתיכות הביסקוויט ומורחים בתבנית משומנת (קוטר 24)... שופכים על העוגה.",
+      "after": "מערבבים פנימה את שברי הביסקוויטים ומשטחים בתבנית משומנת (בקוטר 24 ס״מ)... יוצקים על העוגה."
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "name.ar",
+      "reason": "Used 'كيكة' instead of MSA 'كعكة'.",
+      "before": "كعكة البسكويت ودولسي دي ليتشي",
+      "after": "كيكة البسكويت ودولسي دي ليتشي"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA terms with Tunisian dialect (من غير فور, شوكولاطة نوار, كرام كوكو).",
+      "before": "كعكة بدون خبز... شوكولاطة مريرة نباتية وكريمة كوكو",
+      "after": "كيكة من غير فور... شوكولاطة نوار نباتية وكرام كوكو"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used Tunisian measurements and terms (حكة for can, شطر for half, نوار for dark chocolate).",
+      "before": "نصف علبة كريمة كوكو... 200 غرام شوكولاطة مريرة نباتية",
+      "after": "شطر حكة كرام كوكو... 200 غ شوكولاطة نوار نباتية"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "steps.ar",
+      "reason": "Applied authentic Tunisian verbs and vocabulary (نحّيهم, افرشهم, طبق, كونجيلاتور).",
+      "before": "نحيها من النار وبردها... افرد في صينية... حط في الفريزر",
+      "after": "نحّيهم من النار وخليهم يبردو... افرشهم في طبق... حطها في الكونجيلاتور"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "description.es",
+      "reason": "Minor flow improvements and added articles for natural phrasing.",
+      "before": "adaptada a versión vegana... y sustituto vegano",
+      "after": "adaptada a una versión vegana... y un sustituto vegetal"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "ingredients.es",
+      "reason": "Clarified 'pudín instantáneo' for no-bake recipes and added standard abbreviations.",
+      "before": "1 paquete de pudín de vainilla + 2 cdas",
+      "after": "1 paquete de pudín de vainilla instantáneo + 2 cdas."
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "steps.es",
+      "reason": "Fixed grammar (el aceite), clarified pan size, and improved 'hasta derretir'.",
+      "before": "chocolate, aceite de coco... (diámetro 24)... hasta derretir.",
+      "after": "el chocolate, el aceite de coco... (24 cm de diámetro)... hasta que se derrita por completo."
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "description.en",
+      "reason": "Improved sentence flow and grammar.",
+      "before": "recipe adapted to a vegan version",
+      "after": "recipe, adapted into a vegan version"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "ingredients.en",
+      "reason": "Clarified that it is instant pudding mix.",
+      "before": "1 packet vanilla pudding",
+      "after": "1 packet instant vanilla pudding mix"
+    }
+  ],
+  [
+    "dolce_de_leche_biscuits",
+    {
+      "field": "steps.en",
+      "reason": "Enhanced culinary terminology (fold in, spread evenly, completely melted and smooth).",
+      "before": "cool 5 minutes. Mix in biscuit pieces and spread in a greased pan... stir until melted.",
+      "after": "let cool for 5 minutes. Fold in the broken biscuits and spread evenly into a greased pan... stir until completely melted and smooth."
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "description.he",
+      "reason": "Fixed phrasing: 'המשייר נגזר' to 'השם משייר נגזר', and 'התוסס' (fermented/bubbly) to 'הססגוני' (vibrant).",
+      "before": "המשייר נגזר מהשורש הערבי לשימור ומתייחס לסלט הטוניסאי התוסס הזה.",
+      "after": "השם 'משייר' נגזר מהשורש הערבי לשימור ומתייחס לסלט הטוניסאי הססגוני הזה."
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "steps.he",
+      "reason": "Changed imperative verbs to present tense (חותכים, מקלפים, מוסיפים), which is the standard natural style for Israeli cookbooks.",
+      "before": "חתכו את הפלפלים והגזרים... קלפו את הלימון...",
+      "after": "חותכים את הפלפלים והגזרים... מקלפים את הלימון..."
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA/awkward phrasing with natural Tunisian dialect. Changed 'يطيبو' (cook) to 'يترقدو' (pickle/cure). Changed 'الماكلة الثقيلة' to 'الماكلة الرزينة'.",
+      "before": "في عوض الخل، الفلفل والسنارية يطيبو في القارص والملح. هالمقبلات النباتية تجي بنينة برشا باش تنظف الفم مع الماكلة الثقيلة",
+      "after": "في عوض الخل، الفلفل والسنارية يترقدو في القارص والملح. هالسلاطة النباتية تجي بنينة برشا تنظف المطعم مع الماكلة الرزينة"
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed a major typo where Hebrew letters 'וח' were mixed into the Arabic word 'وفوّح' (season). Changed 'يطيبو' to 'يترقدو'.",
+      "before": "وفוח بالملح الحرش بالباهي... باش يطيبو كيف كيف.",
+      "after": "وفوّح بالملح الحرش بالباهي... باش يترقدو كيف كيف."
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "name.es",
+      "reason": "Changed 'Vegetales Encurtidos' to 'Verduras Encurtidas' which is more natural in culinary Spanish.",
+      "before": "Msiyar (Vegetales Encurtidos Tunecinos)",
+      "after": "Msiyar (Verduras Encurtidas Tunecinas)"
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "description.es",
+      "reason": "Clarified that the *name* derives from the root. Changed 'guisos ricos' (tasty stews) to 'guisos sustanciosos' to properly translate 'rich stews'.",
+      "before": "El Msiyar deriva... junto a guisos ricos",
+      "after": "El nombre Msiyar deriva... junto a guisos sustanciosos"
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "description.en",
+      "reason": "Clarified that the *name* derives from the root, improving sentence flow.",
+      "before": "Msiyar derives from the Arabic root for preserving and refers to this vibrant Tunisian salad.",
+      "after": "The name Msiyar derives from the Arabic root for preserving, referring to this vibrant Tunisian salad."
+    }
+  ],
+  [
+    "msiyar",
+    {
+      "field": "ingredients",
+      "reason": "Standardized measurements across all languages to include both cups/spoons and metric grams/ml for clarity.",
+      "before": "500 ml / 2 cups / 30 g / 2 tbsp",
+      "after": "2 cups (500 ml) / 2 tbsp (30 g) in EN/ES/HE, and equivalent in AR."
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "name.he",
+      "reason": "Added Toll House to match other languages",
+      "before": "עוגיות שוקולד צ'יפס",
+      "after": "עוגיות שוקולד צ'יפס (טול האוס)"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "description.he",
+      "reason": "Fixed translation of plant-based/vegan and chewy center",
+      "before": "גרסה צמחית זו שומרת על הקצוות הפריכים והמרכז הלעיס",
+      "after": "גרסה טבעונית זו שומרת על הקצוות הפריכים והפנים הרך והלעיס"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "ingredients.he",
+      "reason": "Fixed phrasing for flax eggs and nuts",
+      "before": "2 \"ביצי\" פשתן (תערובת פשתן ומים)",
+      "after": "2 \"ביצי\" פשתן (תערובת זרעי פשתן טחונים ומים)"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "steps.he",
+      "reason": "Fixed gender agreement and terminology (folding vs stirring)",
+      "before": "מוסיפים את תחליפי הביצים אחד אחד ומקציפים.",
+      "after": "מוסיפים את ביצי הפשתן אחת אחת ומקציפים."
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "name.ar",
+      "reason": "Added Toll House to match other languages",
+      "before": "كوكيز بقطع الشوكولاتة",
+      "after": "كوكيز بقطع الشوكولاتة (تول هاوس)"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "description.ar",
+      "reason": "Made dialect more natural",
+      "before": "تسمى على اسم نزل",
+      "after": "تسمّاو على اسم نزل"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used authentic Tunisian measurements and phrasing",
+      "before": "2 ¼ كيسان فرينة",
+      "after": "زوز كيسان وربع فرينة"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA words with Tunisian dialect (e.g., ڨرياج instead of شباك)",
+      "before": "حطهم فوق شباك باش يبردو بالكامل.",
+      "after": "حطهم فوق ڨرياج (grille) باش يبردو بالڨدا."
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "description.es",
+      "reason": "Improved translation of plant-based and chewy",
+      "before": "Esta versión vegetal mantiene los bordes crujientes y el centro suave",
+      "after": "Esta versión a base de plantas mantiene los bordes crujientes y el centro masticable"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "ingredients.es",
+      "reason": "Used more standard Latin American terms",
+      "before": "280 g de harina común",
+      "after": "280 g de harina de trigo todo uso"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "steps.es",
+      "reason": "Improved flow and clarity",
+      "before": "Batir los huevos de lino uno a la vez.",
+      "after": "Incorporar los 'huevos' de linaza uno a la vez, batiendo bien."
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "ingredients.en",
+      "reason": "Clarified flax egg mixture and nut chopping",
+      "before": "2 flax eggs (mixed)",
+      "after": "2 flax eggs (ground flaxseed mixed with water)"
+    }
+  ],
+  [
+    "originaltollhousechocolatechip_cookies",
+    {
+      "field": "steps.en",
+      "reason": "Added missing articles for better flow",
+      "before": "beat butter, granulated sugar",
+      "after": "beat the vegan butter, granulated sugar"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.he[4]",
+      "reason": "Improved phrasing for crispiness in Hebrew",
+      "before": "מטגנים עד שהם מתחילים להשחים ולהפוך פריכים מעט.",
+      "after": "מטגנים עד שהם מתחילים להשחים ולקבל פריכות קלה."
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.he[5]",
+      "reason": "Corrected preposition and phrasing for professional Hebrew",
+      "before": "מתבלים את התערובת שבמחבת עם יתרת תבלין השווארמה, הכמון ושאר הראס אל חנות.",
+      "after": "מתבלים את התערובת שבמחבת ביתרת תבלין השווארמה, הכמון ושארית הראס אל חנות."
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.he[6]",
+      "reason": "More natural culinary term for 'tangy finish'",
+      "before": "לסיום חמצמץ.",
+      "after": "לסיומת חמצמצה."
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing for 'street food favorite'",
+      "before": "a la comida callejera favorita.",
+      "after": "a esta popular comida callejera."
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "ingredients.es[1]",
+      "reason": "Used liters instead of ml for large quantities",
+      "before": "1500 ml de caldo de verduras",
+      "after": "1.5 litros de caldo de verduras"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "ingredients.es[2]",
+      "reason": "Corrected culinary term for sliced onions (juliana instead of rodajas)",
+      "before": "1 cebolla grande, en rodajas",
+      "after": "1 cebolla grande, en juliana"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.es[1]",
+      "reason": "Corrected singular/plural agreement for spice mix",
+      "before": "la mitad de la especia de shawarma",
+      "after": "la mitad de las especias para shawarma"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.es[3]",
+      "reason": "Matched the ingredient change to julienne",
+      "before": "Añada la cebolla en rodajas",
+      "after": "Añada la cebolla en juliana"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.es[5]",
+      "reason": "Corrected singular/plural agreement for spice mix",
+      "before": "el resto de la especia de shawarma",
+      "after": "el resto de las especias para shawarma"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.es[6]",
+      "reason": "More natural culinary term for 'tangy finish'",
+      "before": "un acabado ácido.",
+      "after": "un toque ácido."
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adjusted to authentic Tunisian dialect (lfah instead of tabel, ghobra instead of marhi, chtar instead of 0.5)",
+      "before": "Mixed MSA and dialect terms like 0.5, تابل, مرحي",
+      "after": "Authentic Tunisian terms: شطر, لفاح, غبرة, صوص عمبة"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced MSA terms with Tunisian dialect (qallaya for pan, mraq for broth, lfah for spices)",
+      "before": "Mixed MSA terms like مقلاة, تابل, الماء",
+      "after": "Tunisian dialect: قلاية, المرقة, لفاح, جوانح"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "description.en",
+      "reason": "Added quotes for clarity around the translation",
+      "before": "meaning turning, this",
+      "after": "meaning 'turning', this"
+    }
+  ],
+  [
+    "soy_shawarma",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimals to standard recipe fractions",
+      "before": "3.3 cups, 6.25 cups, 0.5 tsp",
+      "after": "3 1/3 cups, 6 1/4 cups, 1/2 tsp"
+    }
+  ],
+  [
+    "yellow_meat",
+    {
+      "field": "description.he",
+      "reason": "Removed redundant and awkward transliteration typo '(בסר צהוב)'",
+      "before": "בשר צהוב (בסר צהוב) הוא תרגום",
+      "after": "השם 'בשר צהוב' משקף את המסורת"
+    }
+  ],
+  [
+    "yellow_meat",
+    {
+      "field": "description.ar",
+      "reason": "Removed Hebrew characters and fixed transliteration to Arabic script",
+      "before": "البسر צהוב (اللحم الأصفر)",
+      "after": "تسمية 'بصار تساهوف' (اللحم الأصفر)"
+    }
+  ],
+  [
+    "yellow_meat",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed typo 'بابיי' to 'بابيي' and used more authentic Tunisian cooking verbs like 'فوّح' and 'ذبل'",
+      "before": "ادهن الروتي مليح ببودرة البصل. ... بالبابיי ألومنيوم",
+      "after": "فوّح الروتي مليح ببودرة البصل. ... ببابيي أليمينيوم"
+    }
+  ],
+  [
+    "yellow_meat",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'carne vegetal' to 'seitán' for clarity and 'masajear' to 'frotar' for natural culinary phrasing",
+      "before": "Masajear bien la pieza de carne vegetal",
+      "after": "Frotar bien la pieza de seitán"
+    }
+  ],
+  [
+    "yellow_meat",
+    {
+      "field": "steps.en",
+      "reason": "Replaced 'meat' with 'seitan roast' for accuracy and improved culinary phrasing ('sauté' instead of 'fry')",
+      "before": "Massage the whole piece of meat thoroughly",
+      "after": "Rub the seitan roast thoroughly"
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "description.he",
+      "reason": "Fixed unnatural phrasing ('פרופיל טעמים', 'מתאבן קמיה בסיסי') to sound more like authentic Israeli cookbook Hebrew."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted overly specific metric measurements (2.3g, 30ml) to standard culinary measures (spoons) for consistency and readability."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA terms with authentic Tunisian dialect ('زمنية' instead of 'ريفية', 'كسبر أخضر' instead of 'الكزبرة الطازجة', 'كيما' instead of 'كيف')."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "ingredients.ar",
+      "reason": "Updated vocabulary to Tunisian dialect ('كسبر أخضر', 'فلفل زينة', 'زوز مغارف كبار')."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "description.es",
+      "reason": "Improved natural flow and translated 'bright flavor profile' to a more natural Spanish culinary phrase ('sabor fresco y vibrante')."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "ingredients.es",
+      "reason": "Converted exact gram/ml measurements to standard culinary spoons to match the other languages and standard cookbook formats."
+    }
+  ],
+  [
+    "humus_salad",
+    {
+      "field": "description.en",
+      "reason": "Minor phrasing improvements for better flow ('unlike the smooth puree' instead of 'rather than the smooth puree found in')."
+    }
+  ],
+  [
+    "banatagestuffedpotato_croquettes",
+    {
+      "field": "hebrew",
+      "reason": "Corrected transliteration of the name to 'בנטאז', fixed the mistranslation of 'staple' from 'מנה עיקרית' (main dish) to 'מנת דגל' (flagship/staple dish), and improved overall culinary phrasing."
+    }
+  ],
+  [
+    "banatagestuffedpotato_croquettes",
+    {
+      "field": "arabic",
+      "reason": "Replaced unnatural decimal measurements ('0.8 كاس') with natural phrasing ('كاس غير ربع'), specified the water amount to match other languages, and ensured authentic Tunisian/Djerban dialect and vocabulary (e.g., 'زوز كيسان', 'زوزة', 'مفسوسة')."
+    }
+  ],
+  [
+    "banatagestuffedpotato_croquettes",
+    {
+      "field": "spanish",
+      "reason": "Adapted 'patata' to 'papa' for broader Latin American appeal, changed the awkward 'hamburguesa' to 'tortita' for the croquette shape, and smoothed out the phrasing."
+    }
+  ],
+  [
+    "banatagestuffedpotato_croquettes",
+    {
+      "field": "english",
+      "reason": "Converted awkward decimal cup measurements (0.5, 0.8) to standard fractions (1/2, 3/4), and refined cookbook terminology (e.g., 'Deep-fry', 'Sauté')."
+    }
+  ],
+  [
+    "chocolate_balls",
+    {
+      "field": "description",
+      "reason": "Hebrew: Changed 'מפגשי שבת' to 'ארוחות שבת' for natural phrasing. Arabic: Replaced MSA terms with authentic Tunisian dialect (e.g., 'نواد كوكو' for coconut, 'بنة زمنية' for nostalgic taste). Spanish: Improved flow and changed 'rodarlas' to 'rebozarlas'. English: Fixed awkward phrasing 'treat meaning chocolate balls' to parenthetical."
+    }
+  ],
+  [
+    "chocolate_balls",
+    {
+      "field": "ingredients",
+      "reason": "Arabic: Used Tunisian measurements ('ربع كاس', 'شطر كاس') and vocabulary ('نواد كوكو'). Spanish: Changed 'desmenuzadas' to 'trituradas' and clarified chocolate as 'picado'. English: Converted decimals (0.25, 0.5) to standard cookbook fractions (1/4, 1/2)."
+    }
+  ],
+  [
+    "chocolate_balls",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Replaced 'למספר שניות' with 'בפולסים קצרים' (standard culinary term). Arabic: Fully adapted to Tunisian dialect ('صحفة بلار', 'حكة مسكرة', 'فريجيدير'). Spanish: Used 'recipiente hermético' and 'reboce'. English: Changed 'glass bowl' to 'microwave-safe bowl' and 'sealed container' to 'airtight container'."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "description.en",
+      "reason": "Fixed awkward transliteration 'Ugat Fudge Hama' back to English 'Hot Fudge Pudding Cake' and added missing comma for better flow."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "ingredients.en",
+      "reason": "Converted decimal measurements (1.5, 0.5) to standard recipe fractions (1 1/2, 1/2) and changed 'to taste' to 'for serving' for the whipped cream."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "steps.en",
+      "reason": "Removed redundant 'do not mix it' in step 5 to improve readability."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for 'self-saucing' to sound more natural in Hebrew (שמייצרות רוטב בעצמן) and fixed grammar."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "ingredients.he",
+      "reason": "Corrected gender agreement for cocoa powder (לא ממותקת) and replaced the loanword 'אופציונלי' with the standard Hebrew recipe term 'רשות'."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "steps.he",
+      "reason": "Changed literal 'קערת ערבוב' to 'קערה', improved the flow of the batter mixing step, and changed 'בצדדים' to 'בשוליים' for baking terminology."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "description.ar",
+      "reason": "Added 'وصفة' before 'كلاسيكية عصرية' for better flow in Tunisian Arabic, and changed 'تبدل' to 'تعوض' (replaces)."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "ingredients.ar",
+      "reason": "Made fraction phrasing more natural in Tunisian dialect (e.g., 'مغرفة ونص' instead of '1.5 مغرفة')."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "steps.ar",
+      "reason": "Removed the word 'المرقـة' which is strictly used for savory stews in Tunisia, keeping just 'الصوص', and improved general flow."
+    }
+  ],
+  [
+    "hotfudgepudding_cake",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed decimal point to a comma (7,5 g) to match standard Spanish formatting."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing 'שמקורו במעי ממולא' to 'שבמקור מולא לתוך מעי' and changed 'קרום' to 'מעטפת' which is the correct culinary term for casing."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "description.es",
+      "reason": "Improved culinary terminology by changing 'se preparaba dentro de un intestino' to 'se embutía en tripa' and refined the flow of the text."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "description.ar",
+      "reason": "Adjusted vocabulary to natural Tunisian dialect (e.g., 'شادة روحها' instead of repeating 'متماسكة', 'شايحة ولا معجنة' instead of 'ناشفة ولا رخوة', and 'بابيي ألومينيوم')."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "description.en",
+      "reason": "Polished phrasing for a more professional cookbook tone, changing 'intestinal casing' to 'a casing' and improving flow."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "ingredients",
+      "reason": "Standardized abbreviations in Spanish (cdta -> cucharadita), used authentic Tunisian terms in Arabic (فلفل زينة for paprika), and improved formatting across all languages."
+    }
+  ],
+  [
+    "kishke",
+    {
+      "field": "steps",
+      "reason": "Clarified the texture check in all languages (e.g., 'runny' instead of 'pours', 'جارية' instead of 'سايلة') and made the cooking actions sound more like professional recipe instructions."
+    }
+  ],
+  [
+    "chocolatepeanutbutter_muffins",
+    {
+      "field": "description",
+      "reason": "Hebrew: Improved sentence flow and corrected literal translation. Spanish: Improved phrasing for natural reading. Arabic: Replaced MSA with authentic Tunisian phrasing (e.g., 'زريعة الكتان'). English: Clarified the opening sentence to avoid awkward transliteration."
+    }
+  ],
+  [
+    "chocolatepeanutbutter_muffins",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Rephrased the flax egg instruction for clarity. Spanish: Added measurement clarification for baking powder. Arabic: Converted fractions to natural spoken Tunisian dialect (e.g., 'كاس ونص', 'شطر كاس'). English: Specified 'all-purpose flour' and 'granulated sugar' for professional cookbook standards."
+    }
+  ],
+  [
+    "chocolatepeanutbutter_muffins",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Fixed phrasing to 'תערובת אחידה' and improved sentence structure. Spanish: Improved flow of mixing instructions. Arabic: Used authentic Tunisian cooking terms ('كوردون', 'عجينة', 'ركّض'). English: Changed 'mix' to 'whisk' and 'stir' where appropriate for standard culinary terminology."
+    }
+  ],
+  [
+    "charoset",
+    {
+      "field": "description",
+      "reason": "Hebrew: Fixed grammatical mismatch and dangling modifier. English: Added quotes to 'cheres' and improved flow. Spanish: Added commas for better flow and quotes around 'cheres'. Arabic: Replaced MSA with natural Tunisian phrasing (e.g., 'خذات اسمها من' instead of 'مسمية على')."
+    }
+  ],
+  [
+    "charoset",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Changed to more natural phrasing ('תמרי מג'הול', 'ללא הליבה'). Spanish: Replaced 'deshuesados' with 'sin carozo' and 'descorazonada' with 'sin corazón' for natural culinary Spanish. Arabic: Wrote out fractions in words, used 'زوزة' for walnuts and 'مرابية' for grated."
+    }
+  ],
+  [
+    "charoset",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Converted imperative verbs to present plural (מגלענים, מקלפים), which is the standard format for Israeli recipes. English: Removed redundant 'in a food processor' in step 3. Spanish: Improved instructional flow ('Quite el carozo', 'procese con pulsos'). Arabic: Used authentic Tunisian cooking terms ('روبو', 'رابيها', 'حاجتك بيه')."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "name.he",
+      "reason": "Expanded the abbreviation 'תפו\"א' to 'תפוחי אדמה' and added 'אפויות' (baked) to match the English title and professional cookbook style."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "steps.he",
+      "reason": "Changed 'הסינון' (straining) to 'הסחיטה' (squeezing) for culinary accuracy, and 'שחום' to 'זהוב' (golden) for standard Hebrew recipe phrasing."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "name.es, description.es, ingredients.es, steps.es",
+      "reason": "Changed 'patata' to 'papa' for Latin American Spanish. Simplified 'levadura química' to 'polvo de hornear'. Changed 'colar' to 'escurrir' for accurate culinary terminology."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "description.ar",
+      "reason": "Added the missing translation for 'patch' (رقعة) to ensure the etymology explanation matches the other languages."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "ingredients.ar, steps.ar",
+      "reason": "Changed 'مرحية' (ground/pureed) to 'مرابية' (grated), which is the authentic Tunisian term for grated vegetables. Used 'فرينة حمص' instead of 'دقيق حمص' for better dialect accuracy."
+    }
+  ],
+  [
+    "bakedpotatolevivot",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'straining' to 'squeezing them' for clarity. Added the missing 'egg replacer' note to step 3 to match the Hebrew and Arabic versions."
+    }
+  ],
+  [
+    "fricassee_rolls",
+    {
+      "field": "description",
+      "reason": "Hebrew: Fixed awkward phrasing and changed 'מלאות' to 'ממולאות'. Spanish: Changed 'Fricassee' to 'fricasé' and improved natural flow. Arabic: Fixed Hebrew letters in 'طופو' to 'طوفو' and improved dialect phrasing. English: Minor flow improvements."
+    }
+  ],
+  [
+    "fricassee_rolls",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Formatted 1000g to 1kg, removed unnecessary commas. Spanish: Fixed formatting and clarified measurements. Arabic: Added 'كبيرة' to spoon measurements for clarity, fixed 'طופو' to 'طوفو'. English: Improved phrasing (e.g., 'warm water' instead of 'water, warm')."
+    }
+  ],
+  [
+    "fricassee_rolls",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Improved phrasing and flow. Spanish: Changed 'rollos' to 'panecillos' for better culinary context. Arabic: Improved dialect phrasing and clarity. English: Removed redundant '(proof)' and improved frying instructions."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing to sound more natural in Hebrew. Changed 'משקם' to 'מחזק' (restorative) and 'צמחית' to 'טבעונית' (plant-based/vegan)."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted awkward metric measurements (2000 ml, 30 ml) to standard cookbook measurements (2 liters, 2 tablespoons). Changed 'חתוכים לחתיכות' to 'חתוכים גס' for zucchini."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "steps.he",
+      "reason": "Changed imperative verbs to present tense plural (מניחים, מכסים), which is the standard convention for Hebrew recipes."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "description.es",
+      "reason": "Improved flow and natural phrasing. Changed 'restaurador' to 'reconfortante' and 'vegetal' to 'a base de plantas'."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'patatas' to 'papas' for Latin American Spanish. Converted 2000 ml and 30 ml to 2 litros and 2 cucharadas for natural recipe reading."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "description.ar",
+      "reason": "Refined the Tunisian dialect to flow more naturally. Changed 'نهار الجمعة في الليل' to 'ليلة السبت' which is the authentic term for Friday night in this cultural context."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed the awkward '8.3 cups' translation to 'زوز ليترو' (2 liters). Changed 'مرحيين' (ground) to 'مهروشين' (crushed) for the garlic. Replaced 'قرع بو طزينة' with the more universally understood 'قرع أخضر'."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "ingredients.en",
+      "reason": "Fixed the highly unnatural '8.3 cups' to '8 cups (2 liters)'. Changed '2.5 cups pumpkin' to '10 oz (300g) pumpkin' for better accuracy and consistency with other languages."
+    }
+  ],
+  [
+    "brodochickensoup",
+    {
+      "field": "steps.en",
+      "reason": "Smoothed out the instructions for better cookbook style (e.g., 'Bring to a boil' instead of 'Bring the pot to a boil')."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "name.he",
+      "reason": "Added '(נזיד עדשים)' to match the format of the other languages."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for natural flow (e.g., 'טבעוני מטבעו' instead of 'צמחי באופן טבעי', and 'הרתחת המרכיבים' instead of 'בישול המרכיבים')."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "steps.he",
+      "reason": "Changed to standard Hebrew recipe imperative/present-tense phrasing (מניחים, מוסיפים, מביאים) instead of direct commands."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Corrected 'أحمر' (red) to 'أسمر' (brown) to accurately match the English and Spanish ingredients. Changed 'نصف' to 'شطر' for authentic Tunisian dialect."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "description.ar",
+      "reason": "Refined the Tunisian dialect phrasing to sound more natural ('طبق كلاسيكي يدفّي', 'من غير ما نقليوهم')."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'No fría nada' to 'No sofría ningún ingrediente' and 'esté espeso' to 'espese' for better culinary Spanish."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimal quantities (0.5) to fractions (1/2) which is standard in English recipes."
+    }
+  ],
+  [
+    "lentechalentilstew",
+    {
+      "field": "steps.en",
+      "reason": "Added definite articles ('the lentils', 'the water') and improved culinary phrasing ('tender', 'thickened', 'stir in')."
+    }
+  ],
+  [
+    "nazhaherbomelet",
+    {
+      "field": "hebrew",
+      "reason": "Changed instructions to present plural (standard in Israeli cookbooks). Improved phrasing in description ('ארומטית', 'ששמה נגזר'). Fixed ingredient names for natural flow ('גבעולי בצל ירוק', 'כורכום טחון')."
+    }
+  ],
+  [
+    "nazhaherbomelet",
+    {
+      "field": "arabic",
+      "reason": "Adjusted to authentic Tunisian dialect (e.g., 'خميرة ڨطو', 'مقلة', 'عروق بصل', 'كسبر أخضر'). Improved sentence structure to sound like natural spoken Maghrebi rather than MSA."
+    }
+  ],
+  [
+    "nazhaherbomelet",
+    {
+      "field": "spanish",
+      "reason": "Improved flow and natural phrasing. Changed 'polvo de hornear' to 'polvo para hornear'. Used 'homogénea' instead of 'suave' for the batter, and 'firme' instead of 'estable' for the cooked omelet."
+    }
+  ],
+  [
+    "nazhaherbomelet",
+    {
+      "field": "english",
+      "reason": "Minor tweaks for flow and consistency. Used 'skillet' instead of 'frying pan', 'firm' instead of 'stable', and simplified 'green onions (scallions)' to just 'scallions'."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "name.he",
+      "reason": "Added the translation '(תבשיל שעועית לבנה)' to match the format of the other languages."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "name.es",
+      "reason": "Changed 'Alubias' to 'Frijoles' for broader Latin American Spanish appeal."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for natural Hebrew flow ('מערבבים היטב' instead of literal 'לאיחוד', 'נימוחה' instead of 'קרמית', and clarified Sephardic roots)."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "description.es",
+      "reason": "Changed 'alubias' to 'frijoles' and replaced the literal translation 'presenta' with 'se prepara con'."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "description.ar",
+      "reason": "Enhanced Tunisian dialect authenticity by using terms like 'سلة سلة' (simmered) and 'تولي زبدة' (creamy/soft like butter)."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "description.en",
+      "reason": "Fixed typo 'Potaches' to singular 'Potache' to match the title."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarified 'مغارف كبار' (tablespoons) for the tomato paste and used 'مهروسين' for crushed garlic."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed '0.5 tsp' to '1/2 tsp' for standard cookbook formatting."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "steps.he",
+      "reason": "Changed 'קרמית' to 'נימוחה' which is the authentic culinary term for soft, melting beans in Hebrew."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "steps.es",
+      "reason": "Replaced 'Remover para combinar' with the more natural 'Mezclar bien'."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced 'طنجرة الضغط' with the more colloquial Tunisian 'الكوكوت' and improved the phrasing for mixing and cooking."
+    }
+  ],
+  [
+    "potachewhitebean_stew",
+    {
+      "field": "steps.en",
+      "reason": "Added definite articles ('the') for better grammatical flow in cookbook English."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "name.he",
+      "reason": "Fixed incorrect transliteration of 'Tbikha' from 'דביח' to the correct Judeo-Tunisian Hebrew spelling 'טביכה'."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "ingredients",
+      "reason": "Harmonized awkward metric measurements (45ml, 7g, 100g) in Hebrew and Spanish to standard spoon measurements (3 tbsp, 1 tbsp, 6 tbsp) to match English/Arabic and improve cookbook readability."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "steps.en",
+      "reason": "Replaced awkward 'steam/sauté' with the professional culinary term 'sweat', and improved phrasing for cooking out the tomato paste."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "steps.es",
+      "reason": "Removed unnatural 'al vapor/sofreír' and 'cocine (al vapor)' constructions, replacing them with natural Spanish culinary phrasing."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "steps.ar",
+      "reason": "Refined Tunisian dialect for better flow (e.g., 'تنحّي القروصية', 'ديريكت', 'سلة سلة')."
+    }
+  ],
+  [
+    "tbikha_tomatem",
+    {
+      "field": "steps.he",
+      "reason": "Improved flow and culinary terminology, changing literal translations to natural Hebrew cooking instructions (e.g., 'מנטרל את החומציות')."
+    }
+  ],
+  [
+    "shlomittomatosalad",
+    {
+      "field": "English",
+      "reason": "Changed '3.3 cups' to '3 1/3 cups' for standard cookbook formatting. Improved step phrasing for better flow ('Halve the cherry tomatoes', 'whisk together'). Changed 'named for' to 'named after'."
+    }
+  ],
+  [
+    "shlomittomatosalad",
+    {
+      "field": "Hebrew",
+      "reason": "Replaced the literal translation 'תוסס' (which implies fermented/bubbly in Hebrew food contexts) with 'מרענן' (refreshing). Fixed the spelling of 'חמנייה'. Improved the phrasing of 'תוספת קיצית מושלמת' to 'תוספת מושלמת לקיץ'."
+    }
+  ],
+  [
+    "shlomittomatosalad",
+    {
+      "field": "Spanish",
+      "reason": "Changed the decimal point to a comma in '12,5 g' to match standard Spanish formatting. Replaced 'vibrante' with 'refrescante' for a more natural culinary description. Changed 'bol' to 'recipiente' in step 2 to avoid repetition."
+    }
+  ],
+  [
+    "shlomittomatosalad",
+    {
+      "field": "Arabic",
+      "reason": "Replaced MSA and awkward phrasing with natural Tunisian dialect (e.g., 'متاع', 'تعمل الكيف', 'بالوقت'). Clarified spoon sizes ('مغارف كبار' vs 'مغرفة صغيرة'). Replaced 'حشيش' with 'أعشاب' to avoid ambiguity, as 'حشيش' can mean grass/weeds."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "description.he",
+      "reason": "Fixed typo 'ונתחם' to 'וגרידת' (zest). Improved overall flow."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'שמן קוקוס מוקשה' to 'שמן קוקוס מוצק' for natural culinary phrasing."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "steps.he",
+      "reason": "Changed colloquial 'על הגז' to 'על הכיריים' and clarified 'גרידה' to 'גרידת הדרים'."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "name.es",
+      "reason": "Changed 'Bizcocho' to 'Pastel' as bizcocho typically implies a sponge cake without yeast."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "description.es",
+      "reason": "Replaced 'bizcocho' with 'pastel' and 'jugoso' with 'húmedo' which is more natural for cakes."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'aceite de coco hidrogenado' to 'aceite de coco sólido' for standard recipe terminology."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "steps.es",
+      "reason": "Improved grammar and flow, replaced 'bizcocho' with 'pastel'."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "name.ar",
+      "reason": "Changed to 'كيكة بالخميرة' which is more natural in Maghrebi dialects than the MSA 'كعكة'."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA terms with Tunisian dialect (e.g., 'شيرة' to 'شحور', 'قشر الليمون' to 'قشور القارص', 'فريش' to 'طرية')."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adapted to Tunisian dialect ('شطر كاس' for half cup, 'سكر أسمر' for brown sugar, 'شحور' for syrup)."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "steps.ar",
+      "reason": "Rewrote steps using authentic Tunisian verbs and nouns ('حل العجينة', 'روليها', 'طبق', 'الغاز')."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "description.en",
+      "reason": "Added commas for better sentence flow."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed 'hydrogenated coconut oil' to 'solid coconut oil' which is standard in English baking, added spaces to measurements."
+    }
+  ],
+  [
+    "yeast_cake",
+    {
+      "field": "steps.en",
+      "reason": "Added missing articles ('the') and clarified instructions (e.g., 'roll up into a log', 'golden brown')."
+    }
+  ],
+  [
+    "pancakesefratshachor",
+    {
+      "field": "description",
+      "reason": "Hebrew: Fixed pluralization and changed 'פשתן' to 'זרעי פשתן'. Spanish: Changed 'lino' to 'linaza' for natural phrasing. Arabic: Refined Tunisian dialect ('مالأونجلي'). English: Changed 'flax' to 'flaxseed' and improved flow."
+    }
+  ],
+  [
+    "pancakesefratshachor",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Clarified sugar amount, changed 'לפי הטעם' to 'לפי הצורך' for frying oil. Spanish: Fixed gender agreement 'chispas veganas', changed 'al gusto' to 'necesario'. Arabic: Changed '1.7 كيسان' to 'كاس و 3/4', added 'كبار' to spoon measurements. English: Changed decimals to fractions (1 3/4 cups, 1/2 cup), fixed 'oil to taste' to 'oil, as needed'."
+    }
+  ],
+  [
+    "pancakesefratshachor",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Improved phrasing for resting batter and frying depth. Spanish: Clarified deep-frying depth phrasing. Arabic: Added missing 'على نار متوسطة' (medium heat) to step 4, improved natural flow. English: Improved phrasing for frying depth and gooey interior."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed '0.5 tsp' to '1/2 tsp' to match standard English cookbook formatting."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "description.he",
+      "reason": "Fixed literal translation 'אורז... משתמש' to a natural Hebrew phrasing 'במתכון זה... משתמשים'. Changed 'תוסס' (ferments) to 'יבעבע' (sizzles/bubbles)."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "ingredients.he",
+      "reason": "Converted milliliters to tablespoons (כפות) as is standard in Israeli recipes. Changed 'בצלים ירוקים' to 'גבעולי בצל ירוק' for natural phrasing."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "name.es",
+      "reason": "Changed 'Arroz Frito Vegano con Huevo' to 'Arroz Frito Vegano (Estilo Huevo)' to clarify it is vegan and does not contain actual egg."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "ingredients.es",
+      "reason": "Converted milliliters to tablespoons (cucharadas) to match the English measurements and standard Spanish cookbook style."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "description.ar",
+      "reason": "Fixed Hebrew letters 'طופו' that crept into the Arabic text, correcting it to 'توفو'. Adjusted phrasing to sound more naturally Tunisian ('هالروز المقلي النباتي نستعملو فيه...')."
+    }
+  ],
+  [
+    "vegan_fried_rice",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed Hebrew letters in tofu. Changed 'فطر' to 'شومبينيون' which is much more common in Tunisian dialect. Clarified 'مغارف' to 'مغارف كبار' (tablespoons) and 'بصلات خضر' to 'عروق بصل أخضر'."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "name.he",
+      "reason": "Changed 'שפינג׳ות' to the standard and widely used 'ספינג''."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for better flow, changed 'לביבות' to 'מאפים מטוגנים' as it fits the doughnut-like nature of sfenj better."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "steps.he",
+      "reason": "Made instructions more natural to Israeli cookbook style (e.g., 'עד להכפלת הנפח', 'העבירו לנייר סופג')."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "description.ar",
+      "reason": "Replaced the unnatural loanword 'التكستير' with 'القوام', and replaced the Hebrew characters 'حנוכה' with the Arabic spelling 'عيد الحانوكا'."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adjusted measurements to natural Tunisian phrasing (e.g., 'كاس ونص', 'مغرفة كبيرة')."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "steps.ar",
+      "reason": "Enhanced Maghrebi/Tunisian dialect authenticity using words like 'الشيرتين' (both sides) and 'طريف' (a piece)."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "description.es",
+      "reason": "Refined phrasing for a more natural flow, changing 'masa de levadura simple' to 'sencilla masa con levadura'."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "steps.es",
+      "reason": "Improved grammatical flow and clarity, adding 'papel absorbente' for draining."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "description.en",
+      "reason": "Added missing comma and article for better grammatical flow."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "ingredients.en",
+      "reason": "Formatted '1.5 cups' to standard cookbook fraction '1 ½ cups' and added commas for clarity."
+    }
+  ],
+  [
+    "sfenj",
+    {
+      "field": "steps.en",
+      "reason": "Clarified frying instructions ('a few inches of oil') and draining ('on paper towels')."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "description.he",
+      "reason": "Improved flow and fixed literal translations to sound more natural to an Israeli speaker."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "steps.he",
+      "reason": "Corrected spelling of 'להשריה' to 'משרים' and improved phrasing of baking instructions."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA and literal translations with authentic Tunisian dialect phrasing."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "ingredients.ar",
+      "reason": "Changed unnatural decimal measurements to natural fractions and specified 'مغارف كبار'."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "steps.ar",
+      "reason": "Used authentic Tunisian cooking terms like 'طبق متاع كوشة' and 'يشربوا التخليطة'."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "description.es",
+      "reason": "Corrected 'sabor salado' to 'sabor' as umami is savory, not salty. Improved sentence flow."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'remojar' to 'marinar' and 'fuego' to 'temperatura' for oven accuracy."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "description.en",
+      "reason": "Added missing commas and improved phrasing for a professional cookbook tone."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "ingredients.en",
+      "reason": "Converted unnatural decimal tablespoons to standard fractional tablespoons."
+    }
+  ],
+  [
+    "umami_mushrooms",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'soak' to 'marinate' and added missing articles for better flow."
+    }
+  ],
+  [
+    "shmid",
+    {
+      "field": "description",
+      "reason": "Hebrew: Fixed spelling of 'Mhamsa' (מהמסה -> מחמסה) and improved sentence flow. Arabic: Rewrote to sound like natural Tunisian dialect rather than MSA. Spanish: Improved phrasing for natural flow. English: Minor punctuation and phrasing tweaks for better flow."
+    }
+  ],
+  [
+    "shmid",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Changed 1500 ml to 1.5 liters. Arabic: Converted decimal quantities to natural fractions (e.g., 6.25 to 6 وربع) and used authentic dialect terms. Spanish: Changed 'patata' to 'papa' for Latin American Spanish and used comma for decimal (1,2 g). English: Converted decimal measurements to standard recipe fractions (0.5 to 1/2, 6.25 to 6 1/4, 1.2 to 1 1/4)."
+    }
+  ],
+  [
+    "shmid",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Improved flow and corrected grammar. Arabic: Replaced MSA words (يختار -> يخثار) and used natural Tunisian cooking expressions (تبقبق, كخيط جويد). Spanish: Improved phrasing for adding semolina ('en forma de hilo'). English: Fixed singular/plural agreement for the potato and improved phrasing."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "description.he",
+      "reason": "Changed 'פרשנות צמחית' to 'גרסה טבעונית' for natural phrasing. Improved flow and corrected literal translations."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed '2 בצלים ירוקים' to '2 גבעולי בצל ירוק' (2 stalks) which is the correct culinary term in Hebrew."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "steps.he",
+      "reason": "Improved grammar and flow, adding definite articles where necessary and making the instructions sound like a professional Israeli cookbook."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "description.ar",
+      "reason": "Replaced awkward literal translation 'هالتفسير' with 'هالنسخة' (this version). Improved Tunisian phrasing for 'exactly' (قد قد instead of بالظبط)."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "ingredients.ar",
+      "reason": "Clarified spoon sizes by adding 'كبار' (tablespoons). Changed '2 بصلات خضر' to '2 عروق بصل أخضر' (2 stalks) for natural Maghrebi phrasing."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "steps.ar",
+      "reason": "Enhanced Tunisian dialect naturalness (e.g., 'اعصر التوفو مليح', 'كان تحب تستعملو')."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "description.es",
+      "reason": "Improved natural flow, changing 'interpretación vegetal' to 'versión a base de plantas' and refining the sentence structure for better readability."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed '2 cebollas verdes' to '2 tallos de cebolla verde (cebollín)' for better Latin American/general Spanish culinary accuracy."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "steps.es",
+      "reason": "Refined verbs and phrasing (e.g., 'ajuste la sazón', 'eliminar el exceso de líquido') for professional cookbook style."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "description.en",
+      "reason": "Changed 'interpretation' to 'take' and refined phrasing to recreate a more natural, professional English cookbook tone."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "ingredients.en",
+      "reason": "Converted awkward decimal measurements (1.7, 0.5, 0.25) to standard English cookbook fractions (1 3/4, 1/2, 1/4)."
+    }
+  ],
+  [
+    "veganeggsalad",
+    {
+      "field": "steps.en",
+      "reason": "Added missing definite articles ('the tofu', 'the paprika') for smoother reading."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "description.he",
+      "reason": "Improved flow and natural phrasing for Israeli Hebrew (e.g., 'שואבת את שמה', 'במטבח של יהודי ג'רבה')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "steps.he",
+      "reason": "Used more authentic culinary terms (e.g., 'שהגירו הירקות' instead of 'שהופרשו', 'הידבקות לתחתית')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "description.es",
+      "reason": "Improved natural flow and phrasing ('cocina judía de Djerba', 'rica mermelada')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'rebanados' to 'en rodajas' and 'quemar' to 'pegue' for better culinary Spanish."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "description.ar",
+      "reason": "Enhanced Tunisian dialect authenticity ('الكوجينة متاع يهود جربة', 'البنة متاعها')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "steps.ar",
+      "reason": "Used more natural Tunisian cooking terms ('يغلي سلة سلة', 'ينشح')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "description.en",
+      "reason": "Minor flow improvements ('Unlike matbucha', 'long cooking time')."
+    }
+  ],
+  [
+    "marmouma",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'burning' to 'sticking' and improved phrasing."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "description.he",
+      "reason": "Changed 'לירק' to 'לעלים ירוקים' for better context of 'greens'. Changed 'עשירים' to 'בשרניים' (meaty/savory) as it fits seitan chunks better."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "steps.he",
+      "reason": "Improved phrasing: changed 'הופך דמוי קונפי' to 'הופך למרקם של קונפי' and 'ובשלו בבישול ארוך' to 'ובשלו בישול ארוך' for more natural Hebrew."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "ingredients.ar",
+      "reason": "Added gram measurements to seitan for clarity and consistency. Changed 'كزبر خضراء' to 'تابل أخضر (كزبرة)' which is the authentic Tunisian term for fresh coriander. Corrected spelling of dill to 'شبت'."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "steps.ar",
+      "reason": "Improved natural flow and grammar, changing 'مرق بالماء' to 'مرّق بالماء ولا بمرقة الخضرة' and updating herb names to match ingredients."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'cocer las hojas al vapor' to 'se cocinen en su propio jugo' because steaming implies added water. Improved 'durante mucho tiempo' to 'durante un tiempo prolongado' for professional cookbook tone."
+    }
+  ],
+  [
+    "bkailatunisianstew",
+    {
+      "field": "steps.en",
+      "reason": "Fixed the awkward and incorrect phrase 'simulate a long cook' to 'simmer gently for a long time'."
+    }
+  ],
+  [
+    "chocolate_cake",
+    {
+      "field": "description",
+      "reason": "Improved flow and natural phrasing across all languages. Clarified the explanation of the name 'Ugat Shokolad' and the concept of 'pareve'."
+    }
+  ],
+  [
+    "chocolate_cake",
+    {
+      "field": "ingredients",
+      "reason": "Fixed 'margarine to taste' to 'margarine (for greasing the pan)' as it is used for the pan, not for flavor. Clarified flax egg instructions and standardized measurements."
+    }
+  ],
+  [
+    "chocolate_cake",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Changed infinitive verbs to present-plural (e.g., מחממים, מערבבים) which is the standard professional format in Israeli cookbooks. Arabic: Used authentic Tunisian terminology (كوشة, زريعة الكتان, شايح). Spanish & English: Standardized the 'toothpick test' phrasing to professional cookbook standards."
+    }
+  ],
+  [
+    "vegetablesoupfor_couscous",
+    {
+      "field": "description",
+      "reason": "English: Improved phrasing for 'derives from the root'. Hebrew: Improved flow and translated 'steamed grains' to 'couscous grains' for natural phrasing. Spanish: Improved flow and natural culinary phrasing. Arabic: Adjusted to sound like natural Tunisian dialect, explaining the Judeo-Arabic origin smoothly."
+    }
+  ],
+  [
+    "vegetablesoupfor_couscous",
+    {
+      "field": "ingredients",
+      "reason": "English: Changed awkward '1.2 cups' to '1 ¼ cups', and '7g' to '1 generous tbsp'. Hebrew: Converted clinical metric measurements (30ml, 7g) to standard culinary spoons (כפות) for home cooking. Spanish: Changed 'patatas' to 'papas' for broader Latin American appeal, converted ml/g to spoons. Arabic: Replaced cup measurements with grams to match the original recipe intent and local norms, used authentic Tunisian terms like 'بوطزينة' (zucchini) and 'مغارف' (spoons)."
+    }
+  ],
+  [
+    "vegetablesoupfor_couscous",
+    {
+      "field": "steps",
+      "reason": "English: Improved culinary terms ('bloom it', 'fork-tender'). Hebrew: Used natural Israeli cooking terminology ('לפתוח את התבלין', 'להזיע'). Spanish: Improved flow and used natural terms ('hervir a fuego lento', 'tiernas'). Arabic: Enhanced Tunisian dialect phrasing ('تتذبل', 'سلة سلة', 'تتهرى')."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for natural Hebrew flow. Changed 'השם מגיע מהערבית המרוקאית למילה מקופלת' to 'השם נגזר מהמילה 'מקופלת' בערבית מרוקאית'."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "steps.he",
+      "reason": "Replaced 'מערבבים' with 'לשים' for dough hook. Reordered step 2 for better chronological flow. Changed 'דבש תמרים' to the standard Israeli term 'סילאן'."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "description.ar",
+      "reason": "Adjusted vocabulary to authentic Tunisian/Maghrebi dialect (e.g., 'هالورقات الرهاف', 'سخان')."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used standard Tunisian measurements ('كاس وربع', 'شطر مغرفة', 'مغرفة كبيرة')."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "steps.ar",
+      "reason": "Converted MSA and generic Arabic to Tunisian dialect ('كعبر', 'شايحة', 'صحفة', 'مقلة', 'رب التمر', 'سيرو ديرابل')."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "description.es",
+      "reason": "Fixed pluralization ('Las mufletas son'). Clarified 'Pascua' to 'Pésaj (Pascua judía)' for cultural accuracy. Improved translation of the name's origin."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'fría' to 'cocine' as mufletas are griddled/pan-fried, not deep-fried. Improved flow and natural phrasing of the stacking method."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "description.en",
+      "reason": "Fixed pluralization ('Mufletas are'). Improved phrasing of the name's origin ('the Moroccan Arabic word for')."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimal fractions (0.5) to standard recipe fractions (1/2)."
+    }
+  ],
+  [
+    "mufleta",
+    {
+      "field": "steps.en",
+      "reason": "Changed 'Mix' to 'Knead' for dough hook. Improved chronological flow in step 2. Added standard terminology ('date syrup (silan)')."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "description.he",
+      "reason": "Fixed gender agreement ('שכבות' is feminine, so 'הצהובות') and removed awkward phrasing."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "steps.he",
+      "reason": "Changed 'שמן' (noun) to 'שמנו' (imperative verb). Replaced 'מחית' with 'פירה' for more natural Israeli Hebrew. Improved general flow."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "description.ar",
+      "reason": "Replaced 'فرشيلو' with 'لحم مرحي نباتي' as it is the standard Tunisian term for plant-based mince."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "ingredients.ar",
+      "reason": "Changed 'فلفل أحمر (بابريكا)' to 'فلفل زينة' which is the authentic Tunisian term for sweet paprika. Changed 'ثوم مرحي' to 'ثوم غبرة' for garlic powder."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "steps.ar",
+      "reason": "Replaced 'ارحيها' (grind) with 'ارفسها' (mash), which is the correct Tunisian verb for mashing potatoes. Replaced 'حلحل' with 'فتفتو' for breaking apart the meat."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "description.es",
+      "reason": "Replaced 'infundidas' (literal translation of infused) with 'sazonadas'. Changed 'Crea una cazuela' to 'El resultado es un pastel' for better flow."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'Arme el pastel' to 'Armado del pastel' and improved prepositional phrasing for a more natural cookbook style."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed awkward '17.6 oz' to standard '1 lb (500g)' and '0.5 tsp' to '1/2 tsp'."
+    }
+  ],
+  [
+    "shepherdpienorth_african",
+    {
+      "field": "steps.en",
+      "reason": "Ensured ingredient names in steps match the ingredients list (e.g., using 'bouillon powder' instead of 'chicken seasoning', and 'plant-based mince' instead of 'ground meat')."
+    }
+  ],
+  [
+    "sourdoughbread_soly",
+    {
+      "field": "steps.ar[5]",
+      "reason": "Removed the Hebrew word 'מתיחות' that accidentally crept into the Arabic text and replaced it with authentic Maghrebi phrasing ('تجبيدات')."
+    }
+  ],
+  [
+    "sourdoughbread_soly",
+    {
+      "field": "steps.he[1]",
+      "reason": "Corrected the translation of 'shaggy dough' from the unnatural 'בצק גבישי' to the standard baking term 'בצק גס ולא אחיד'."
+    }
+  ],
+  [
+    "sourdoughbread_soly",
+    {
+      "field": "ingredients",
+      "reason": "Reformatted ingredient lists across all languages to remove awkward commas and improve readability (e.g., '1.25 cups water, warm' to '1 ¼ cups warm water')."
+    }
+  ],
+  [
+    "sourdoughbread_soly",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing, changing 'subir' to 'levar' and refining the description of the crumb."
+    }
+  ],
+  [
+    "sourdoughbread_soly",
+    {
+      "field": "steps.es",
+      "reason": "Added standard baking terminology like 'autólisis', 'banetón', and 'olla de hierro fundido' for a more professional tone."
+    }
+  ],
+  [
+    "kouklotsemolinadumplings",
+    {
+      "field": "en.ingredients",
+      "reason": "Changed awkward '0.9 cups' to 'Scant 1 cup' for natural English cookbook measurements."
+    }
+  ],
+  [
+    "kouklotsemolinadumplings",
+    {
+      "field": "es.name",
+      "reason": "Changed 'Bolas' to 'Albóndigas' for a more appetizing and accurate culinary term in Spanish."
+    }
+  ],
+  [
+    "kouklotsemolinadumplings",
+    {
+      "field": "ar.description",
+      "reason": "Replaced MSA 'دقيق' with Tunisian 'فرينة' and improved dialect phrasing and word order."
+    }
+  ],
+  [
+    "kouklotsemolinadumplings",
+    {
+      "field": "he.steps",
+      "reason": "Made step 1 actionable to mix the chickpea flour and water, rather than assuming it is pre-mixed."
+    }
+  ],
+  [
+    "kouklotsemolinadumplings",
+    {
+      "field": "all.steps",
+      "reason": "Improved flow and clarity across all languages, ensuring step 1 clearly instructs to mix the egg replacer."
+    }
+  ],
+  [
+    "kataa_soup",
+    {
+      "field": "Hebrew",
+      "reason": "Fixed literal translations to natural culinary Hebrew (e.g., 'מרק מלוח' to 'מרק עשיר', 'מגובה קל' to 'בזרם דק'). Aligned step quantities with the ingredient list (using grams instead of cups)."
+    }
+  ],
+  [
+    "kataa_soup",
+    {
+      "field": "Arabic",
+      "reason": "Replaced MSA terms with authentic Tunisian/Djerban dialect ('حساء طازج' to 'شربة عجين دياري', 'ديريكت' to 'طول'). Improved culinary phrasing ('تتكعبرش', 'تعقاد وتخثار')."
+    }
+  ],
+  [
+    "kataa_soup",
+    {
+      "field": "Spanish",
+      "reason": "Improved flow and professional culinary terminology ('agente espesante' to 'espesante', 'desde cierta altura' to 'en forma de hilo'). Aligned step quantities with the ingredient list."
+    }
+  ],
+  [
+    "kataa_soup",
+    {
+      "field": "English",
+      "reason": "Polished phrasing for a professional cookbook tone ('throw them' to 'drop them', 'liquid slurry' to 'smooth slurry', 'from a slight height' to 'in a thin stream')."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "ingredients",
+      "reason": "Standardized measurements across all languages to use volume (cups/tablespoons) instead of mixed metric/volume, ensuring consistency. Fixed awkward transliterations."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "description.he",
+      "reason": "Improved phrasing for natural Hebrew flow ('השם מחמסה מגיע...' instead of 'מחמסה מגיעה...')."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA words with authentic Tunisian dialect ('تواتي برشا' instead of 'مثالية', 'صوص' instead of 'مرقة' in this context)."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "steps.ar",
+      "reason": "Used authentic Tunisian cooking terminology ('نمرقو', 'منفسة شوية', 'فلفل زينة')."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "steps.he",
+      "reason": "Removed the '12 minutes' specification that was absent in other languages to maintain consistency. Improved culinary verbs ('להזהיב ולהתקרמל')."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "description.es",
+      "reason": "Improved flow and natural phrasing ('El nombre Mhamsa proviene...', 'plato tradicional de Yerba')."
+    }
+  ],
+  [
+    "mhamsa",
+    {
+      "field": "steps.en",
+      "reason": "Minor phrasing improvements for professional cookbook tone ('sauté', 'reduce the heat to low', 'simmer')."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "description.he",
+      "reason": "Changed 'שנאפו' to 'שנאפות' for correct present tense description of the cookies, and improved phrasing for 'extra crunch'."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'קמח רגיל' to 'קמח לבן' which is the standard term in Israeli baking."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "description.es",
+      "reason": "Changed 'crujido extra' to 'un toque extra crujiente' as 'crujido' literally means a cracking sound, not the culinary texture."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'azúcar blanca/morena' to 'azúcar blanco/moreno' for better standard Spanish, and specified 'harina de trigo común'."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "steps.es",
+      "reason": "Changed 'grumosa' (lumpy) to 'desmenuzable' (crumbly) to accurately reflect the dough's texture. Changed 'Presione' to 'Presionar' to maintain consistent infinitive mood."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "ingredients.ar",
+      "reason": "Replaced MSA 'منخولة' with Tunisian 'مغربلة'. Replaced 'حبيبات شوكولاتة' with the widely used 'بيبيت شوكولا' (pépites de chocolat)."
+    }
+  ],
+  [
+    "biscoti_judy",
+    {
+      "field": "steps.ar",
+      "reason": "Removed 'الكوشة' as it refers to a commercial bakery, keeping 'الفور' for home oven. Replaced 'بودانات' with the authentic Tunisian baking term 'حرابيش' for dough logs."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "description.he",
+      "reason": "Added niqqud to the name Enny (אֶנִי) to prevent confusion with the Hebrew word for 'I' (אני)."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "steps.he",
+      "reason": "Improved phrasing for a more professional culinary tone (e.g., 'תערובת בהירה ואוורירית' instead of 'אחידה ואוורירית', and 'יש להיזהר מערבוב יתר')."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "description.ar",
+      "reason": "Adjusted vocabulary to sound more naturally Tunisian/Maghrebi ('الوصفة المفضلة عند أم إيني', 'معناها', 'يستعملوها في برشا ثقافات')."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "ingredients.ar",
+      "reason": "Fixed MSA terms to authentic Tunisian dialect (e.g., 'كاس' instead of 'كأس', 'سيرو أغاف', 'عود قرنفل')."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "steps.ar",
+      "reason": "Rewrote steps to use natural Tunisian cooking verbs and phrasing ('على شيرة', 'بالركاضة', 'من لوطة لفوق', 'كيردون')."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "description.es",
+      "reason": "Changed 'atesorada' to 'preciada' for a more natural flow in Spanish."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "ingredients.es",
+      "reason": "Clarified 'clavo molido' to 'clavo de olor molido' and 'harina común' to 'harina de trigo todo uso' for universal understanding."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "steps.es",
+      "reason": "Improved the description of the baking pans in step 1 and ensured consistent terminology."
+    }
+  ],
+  [
+    "honeycakemami",
+    {
+      "field": "steps.en",
+      "reason": "Clarified 'mixer' to 'stand mixer' and 'agave/syrup' to 'agave or date syrup' for better readability."
+    }
+  ],
+  [
+    "apple_crumble",
+    {
+      "field": "ingredients",
+      "reason": "Standardized unnatural exact gram measurements (e.g., 1.3g, 42.6g) in Hebrew and Spanish to standard volume measurements (cups/spoons) to match English/Arabic and read naturally for home cooks."
+    }
+  ],
+  [
+    "apple_crumble",
+    {
+      "field": "steps",
+      "reason": "Fixed inconsistency in step 5 across all languages: changed 'margarine' to 'vegan butter or coconut oil' to match the ingredient list."
+    }
+  ],
+  [
+    "apple_crumble",
+    {
+      "field": "steps",
+      "reason": "Changed 'Pour' to 'Sprinkle' (and equivalents in ES, HE, AR) in step 6, as a crumble topping is sprinkled, not poured."
+    }
+  ],
+  [
+    "apple_crumble",
+    {
+      "field": "description",
+      "reason": "Refined the English and Spanish descriptions to clarify that 'Crumble Tapuchim' is the name being explained, fixing awkward phrasing."
+    }
+  ],
+  [
+    "apple_crumble",
+    {
+      "field": "ar",
+      "reason": "Improved Tunisian Arabic phrasing, using authentic culinary terms like 'خميرة ڨاطو' (baking powder) and 'نرملوها' (to make crumbly/sandy) instead of literal translations."
+    }
+  ],
+  [
+    "bshisha_bsisa",
+    {
+      "field": "ingredients",
+      "reason": "English and Arabic: Converted awkward decimal measurements (1.3, 1.25) to natural fractions (1 1/3, 1 1/4). Arabic: Used authentic Tunisian terms like 'منقّي' (cleaned) and 'كعب' (whole seeds)."
+    }
+  ],
+  [
+    "bshisha_bsisa",
+    {
+      "field": "steps",
+      "reason": "English: Changed 'Roast' to 'Toast' for dry pan cooking. Arabic: Used the authentic Tunisian term 'عرّج' for toasting grains. Hebrew: Improved phrasing, changed 'שריפה' to 'חריכה' (scorching), and made the text flow naturally. Spanish: Improved flow and clarity in the steps."
+    }
+  ],
+  [
+    "bshisha_bsisa",
+    {
+      "field": "description",
+      "reason": "Hebrew: Reworded to sound more natural to an Israeli speaker. Spanish: Changed 'mezcla con una llave' to 'remueve con una llave' for accurate stirring description. Arabic: Refined the dialect to sound naturally Tunisian/Djerban and added the missing 'energy food' translation."
+    }
+  ],
+  [
+    "tirshipumpkinsalad",
+    {
+      "field": "name",
+      "reason": "Added '(סלט דלעת תוניסאי)' to the Hebrew name to match the format of the other languages."
+    }
+  ],
+  [
+    "tirshipumpkinsalad",
+    {
+      "field": "description",
+      "reason": "Hebrew: Fixed 'תוסס' (fermented) to 'ססגוני' (vibrant) and improved phrasing. Spanish: Changed 'El Tirshi deriva' to 'El nombre Tirshi deriva' and 'mesa' to 'comida'. Arabic: Changed 'مطيّبة' to 'طايبة' (cooked) and 'لصوص' to 'لتغميسة' (dip). English: Improved sentence flow."
+    }
+  ],
+  [
+    "tirshipumpkinsalad",
+    {
+      "field": "ingredients",
+      "reason": "Converted awkward metric measurements (30ml, 7g, 2.5g) to standard culinary spoons (tablespoons/teaspoons) in Hebrew, Spanish, and Arabic. Changed 'patata' to 'papa' in Spanish. Added 500g equivalent to English and Arabic for cross-language consistency."
+    }
+  ],
+  [
+    "tirshipumpkinsalad",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Improved natural phrasing ('למנוע מהמטבל להיות מימי'). Spanish: Changed 'Triture' to 'Pise' for better culinary context. Arabic: Converted verbs to imperative form ('أسمط', 'قطّر', 'أرفس') for standard recipe instructions and used 'جاري' instead of 'مايه' for watery."
+    }
+  ],
+  [
+    "brikot",
+    {
+      "field": "ingredients",
+      "reason": "Standardized measurements across languages, converting awkward metric volumes (15 ml capers, 30 g parsley) to natural culinary measurements (tablespoons, cups) for better readability."
+    }
+  ],
+  [
+    "brikot",
+    {
+      "field": "hebrew",
+      "reason": "Improved natural phrasing, adjusted measurements, and added 'עלי סיגר' as it is the most common Israeli term for brik/malsouka leaves."
+    }
+  ],
+  [
+    "brikot",
+    {
+      "field": "arabic",
+      "reason": "Replaced MSA intrusions with authentic Tunisian dialect (e.g., 'قلاية' instead of 'مقلاة', 'مذبّلة' for sautéed, 'بابيي نشّاف' for paper towels) and improved the natural flow of the steps."
+    }
+  ],
+  [
+    "brikot",
+    {
+      "field": "spanish",
+      "reason": "Refined sentence flow, corrected 'hebraizado' context, and adjusted measurements to standard Latin American/general Spanish culinary terms (tazas, cucharadas)."
+    }
+  ],
+  [
+    "brikot",
+    {
+      "field": "english",
+      "reason": "Fixed grammatical number in the description ('Brikot is the Hebraized plural...') and refined step instructions for clarity."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "name.ar",
+      "reason": "Changed 'بارات' to 'مربعات' (squares) as it is much more natural for dessert bars in Arabic."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "description.en",
+      "reason": "Fixed awkward phrasing 'root to snatch' to 'root meaning to snatch'."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "description.he",
+      "reason": "Improved word order for 'chewy peanut butter blondie base' and added quotes around the root word for clarity."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "description.es",
+      "reason": "Changed 'base masticable' to 'base de blondie... de textura suave' for a more appetizing translation, and fixed 'huevos con lino' to 'huevos por linaza'."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "description.ar",
+      "reason": "Used authentic Tunisian vocabulary ('زريعة الكتان' instead of 'بذور الكتان', 'بلاش حليب' instead of 'من غير حليب')."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 'קמח רגיל' to 'קמח לבן' and clarified 'שוקולד צ'יפס טבעוני'."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'harina común' to 'harina de trigo todo uso' and 'harina de linaza' to 'linaza molida'."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adjusted to natural Tunisian measurements and terms ('كاس', 'مغارف كبار', 'زريعة كتان', 'حبيبات شوكولاتة')."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "steps.ar",
+      "reason": "Fixed typo 'افرح' to 'أطرح' (spread) and ensured all verbs and grammar reflect authentic Tunisian dialect ('ركض', 'صحفة', 'لين يولّيو')."
+    }
+  ],
+  [
+    "chocolatepeanutbuddy_bars",
+    {
+      "field": "steps.es",
+      "reason": "Clarified step 8 to say 'hasta que estén brillantes y suaves' instead of 'hasta que se ablanden'."
+    }
+  ],
+  [
+    "chraimespicyfish_stew",
+    {
+      "field": "description",
+      "reason": "Fixed awkward translation of 'a little forbidden' in Hebrew and Arabic. Corrected 'crumbled tofu' to 'sliced tofu' across all languages to match the ingredients list."
+    }
+  ],
+  [
+    "chraimespicyfish_stew",
+    {
+      "field": "ingredients",
+      "reason": "Converted awkward gram measurements for spices and small liquid amounts to standard spoons (tablespoons/teaspoons) in Hebrew and Spanish. Improved natural phrasing."
+    }
+  ],
+  [
+    "chraimespicyfish_stew",
+    {
+      "field": "steps",
+      "reason": "Fixed 'sotage' in English to 'sauté pan'. Improved culinary verbs (e.g., 'coat' instead of 'mix' for the tofu and nori) and ensured natural flow in all languages."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "description.he",
+      "reason": "Changed 'לחה' to 'עסיסית' (more natural for cakes) and 'בגרסה הצמחית' to 'בגרסה הטבעונית' (standard Hebrew term for vegan/plant-based)."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA terms with authentic Tunisian dialect ('الموز' to 'البنان', 'بصوص التفاح' to 'بكومبوت التفاح', 'ولا باش تحلي فمك' to 'ولا باش تحلي بيها')."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "description.es",
+      "reason": "Changed 'versión vegetal' to 'versión vegana' and 'capricho' to 'antojo dulce' for a more natural Latin American Spanish phrasing."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "description.en",
+      "reason": "Added 'or flaxseed' to match the other languages' descriptions which mention both applesauce and flax."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "ingredients.ar",
+      "reason": "Adjusted to Tunisian dialect ('كأس' to 'كاس', 'موز' to 'بنان', 'منخولة' to 'مغربلة', 'حبيبات شكلاطة' to 'بيبيت شكلاطة')."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 'harina de linaza' to 'linaza molida', 'pisadas' to 'hechas puré' (more universal than Argentine 'pisadas'), and 'harina común' to 'harina de trigo todo uso'."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "steps.he",
+      "reason": "Improved flow and clarity. Clarified 'מרפדים בנייר אפייה' (lining with parchment paper) and 'החלב המוחמץ' instead of 'החלב החמוץ'."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "steps.ar",
+      "reason": "Converted MSA phrasing into natural Tunisian dialect ('بابيي كويسون', 'ركض بالڨدا', 'كيردون', 'كلاصاج')."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "steps.es",
+      "reason": "Clarified lining the pan ('papel para hornear') and changed 'leche agria' to 'leche cortada' which is the correct culinary term for milk mixed with vinegar."
+    }
+  ],
+  [
+    "banana_cake",
+    {
+      "field": "steps.en",
+      "reason": "Clarified 'sour milk mixture' to 'soy milk and vinegar mixture', 'butter batter' to 'butter mixture', and fixed capitalization in the final step."
+    }
+  ],
+  [
+    "cujada",
+    {
+      "field": "description",
+      "reason": "Improved flow and natural phrasing across all languages. Made the Arabic version sound authentically Tunisian/Maghrebi (e.g., 'الصبليونية', 'تشد روحها', 'العظم'). Adapted Spanish to sound more natural."
+    }
+  ],
+  [
+    "cujada",
+    {
+      "field": "ingredients",
+      "reason": "Standardized formatting (e.g., '4 medium potatoes, peeled' instead of '4 potatoes, peeled (medium)'). Changed 'patatas' to 'papas' and 'levadura química' to 'polvo de hornear' for Latin American Spanish. Used 'فرينة' instead of 'دقيق' for Tunisian Arabic. Rounded awkward decimals in Spanish/Hebrew grams (e.g., 4.8g to 5g)."
+    }
+  ],
+  [
+    "cujada",
+    {
+      "field": "steps",
+      "reason": "Clarified in all languages that the chickpea flour and water need to be mixed together *before* adding to the potatoes. Updated 'salt' to 'Kala Namak'/'black salt' in the seasoning step to match the ingredients list. Used Tunisian dialect terms like 'كيردون' (toothpick) and 'شقالة' (bowl)."
+    }
+  ],
+  [
+    "cholent",
+    {
+      "field": "ar",
+      "reason": "Fixed Hebrew characters mixed in Arabic text ('الشولנט' to 'الشولنت'), improved Tunisian dialect authenticity (e.g., 'طنجرة قاعها خشين', 'لين يحماروا'), and clarified measurements."
+    }
+  ],
+  [
+    "cholent",
+    {
+      "field": "he",
+      "reason": "Improved natural phrasing for Israeli Hebrew, corrected ingredient names (e.g., Kidney beans to 'שעועית אדומה'), and refined step instructions for better flow."
+    }
+  ],
+  [
+    "cholent",
+    {
+      "field": "es",
+      "reason": "Adjusted capitalization, changed 'alubias' to 'frijoles' for better Latin American Spanish alignment, and improved the flow of the cooking steps."
+    }
+  ],
+  [
+    "cholent",
+    {
+      "field": "en",
+      "reason": "Refined phrasing to match professional cookbook style, fixed redundant wording in ingredients (e.g., 'chunks... chunks'), and improved sentence structure in steps."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "en.ingredients",
+      "reason": "Converted decimal quantities to standard cookbook fractions (1/2, 1/4) for better readability."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "en.description",
+      "reason": "Corrected grammar from 'these tube-shaped pasta' to 'this tube-shaped pasta'."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "en.steps",
+      "reason": "Added definite articles ('the') for smoother, more natural instructional flow."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "he.description",
+      "reason": "Improved phrasing and word order to sound like natural Israeli cookbook text."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "he.ingredients",
+      "reason": "Changed 'צינורות' to 'גלילי' (more appropriate for pasta), and added 'עלי' to spinach and basil for culinary accuracy."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "he.steps",
+      "reason": "Refined cooking terminology (e.g., using 'רדיד אלומיניום' instead of 'נייר כסף', and 'שקית זילוף' instead of 'שק זילוף')."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "es.name",
+      "reason": "Changed 'Anacardos' to 'Castañas de Cajú' to be more widely understood in Latin America."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "es.ingredients",
+      "reason": "Replaced 'marchitas' with 'salteadas' as 'marchita' sounds unappetizing in Spanish culinary contexts. Added 'castañas de cajú' for regional inclusivity."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "es.steps",
+      "reason": "Improved flow and clarity of instructions, ensuring natural Latin American phrasing."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "ar.description",
+      "reason": "Replaced MSA words with authentic Tunisian dialect (e.g., 'سبناخ' instead of 'سبانخ', 'صوص' instead of 'صالصة')."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "ar.ingredients",
+      "reason": "Wrote out fractions naturally in dialect (e.g., 'زوز كيسان ونص', 'شطر') and clarified measurements."
+    }
+  ],
+  [
+    "cashew_cannelloni",
+    {
+      "field": "ar.steps",
+      "reason": "Replaced MSA culinary terms with common Tunisian equivalents ('ميكسور' instead of 'خلاط', 'بوش' instead of 'جيب حلواني')."
+    }
+  ],
+  [
+    "adafina",
+    {
+      "field": "Hebrew",
+      "reason": "Converted verbs to present plural (משרים, שמים) for standard Israeli cookbook style. Fixed '1000g' to '1 ק\"ג'. Changed 'יחידות טופו' to 'גושי טופו' (blocks). Improved phrasing in description and steps."
+    }
+  ],
+  [
+    "adafina",
+    {
+      "field": "Arabic",
+      "reason": "Converted decimal measurements to natural fractions (e.g., 1.25 to cup and a quarter). Removed MSA phrasing and used authentic Tunisian/Maghrebi terms (كموسة, سلة سلة, قطيرة ماء). Fixed 'مريقة' to 'مرقة'."
+    }
+  ],
+  [
+    "adafina",
+    {
+      "field": "Spanish",
+      "reason": "Improved flow of description. Changed '1000g' to '1 kg'. Fixed 'unidades de tofu' to 'bloques de tofu'. Improved the caramel step warning and phrasing."
+    }
+  ],
+  [
+    "adafina",
+    {
+      "field": "English",
+      "reason": "Converted decimal measurements to fractions (1 ¼, ½). Changed 'units' to 'blocks' for tofu. Improved caramel warning and smoothed out the description."
+    }
+  ],
+  [
+    "burekasthreeways",
+    {
+      "field": "description",
+      "reason": "Hebrew: Improved flow and changed 'תרבות המאפיות' to a more natural phrasing. Arabic: Replaced MSA words with Tunisian dialect (e.g., 'تعداو' instead of 'سافروا', 'المعجنات' instead of 'الحلويات'). Spanish: Improved flow and vocabulary ('börek', 'cocina israelí'). English: Combined sentences for better flow and added umlaut to börek."
+    }
+  ],
+  [
+    "burekasthreeways",
+    {
+      "field": "ingredients",
+      "reason": "Hebrew: Fixed gender agreement ('פטרוזיליה מיובשת') and used standard local terms ('טחון מן הצומח'). Arabic: Added specific measurements ('مغارف كبار') and localized terms ('ثوم غبرة', 'فلوكون'). Spanish: Adapted to Latin American Spanish ('papa', 'molida') and clarified terms. English: Converted awkward decimals to standard recipe fractions (e.g., 2/3 cup, 1/4 tsp)."
+    }
+  ],
+  [
+    "burekasthreeways",
+    {
+      "field": "steps",
+      "reason": "Hebrew: Replaced 'גליל' with 'רולדה' for pastry, added 'תנור שחומם מראש'. Arabic: Conjugated verbs to first-person plural ('نخلطو', 'ندهنو') and used authentic Maghrebi phrasing ('بالباهي', 'مزيان'). Spanish: Changed 'tronco' to 'rollo' or 'cilindro' for better culinary context, improved sealing instructions. English: Added Fahrenheit conversions, clarified slice thickness, and improved descriptive flow."
+    }
+  ],
+  [
+    "adamshusha",
+    {
+      "field": "ingredients",
+      "reason": "Standardized measurements across languages (e.g., fixing the awkward '4.2 cups' to '4 cups (1 liter)' in English, adding volume/weight equivalents for clarity)."
+    }
+  ],
+  [
+    "adamshusha",
+    {
+      "field": "steps",
+      "reason": "Clarified the vegan instructions (using tofu and chickpea batter) versus the traditional egg instructions to match the ingredient list, and integrated the missing Kala Namak into the final step."
+    }
+  ],
+  [
+    "adamshusha",
+    {
+      "field": "description",
+      "reason": "Polished phrasing in all languages for a more professional cookbook tone, ensuring authentic Tunisian Arabic vocabulary and natural Hebrew phrasing."
+    }
+  ],
+  [
+    "homemade_couscous",
+    {
+      "field": "ingredients",
+      "reason": "Fixed unnatural decimal quantities (e.g., '2.1 cups' to '2 cups plus 2 tablespoons' in English, 'نص ليترا' in Arabic) and '0.25 cups' to standard fractional measurements."
+    }
+  ],
+  [
+    "homemade_couscous",
+    {
+      "field": "description",
+      "reason": "Improved phrasing across all languages to read like professional cookbook text. Fixed awkward literal translations (e.g., 'Homemade Couscous comes from the word...' changed to 'The word couscous comes from...')."
+    }
+  ],
+  [
+    "homemade_couscous",
+    {
+      "field": "steps",
+      "reason": "Replaced literal verbs with proper culinary terms (e.g., 'sprinkle/drizzle' instead of 'pour' for water/oil, 'מנפים' instead of 'שופכים דרך נפה' in Hebrew, 'بخو' and 'فتل' in Tunisian Arabic)."
+    }
+  ],
+  [
+    "homemade_couscous",
+    {
+      "field": "name",
+      "reason": "Added 'ביתי' to Hebrew and 'دياري' to Arabic to match the 'Homemade' aspect of the title."
+    }
+  ],
+  [
+    "granola_cookies",
+    {
+      "field": "description",
+      "reason": "Refined phrasing across all languages to make the etymological explanation ('Ugiot' meaning round baked goods/cookies) sound natural rather than like a literal, clunky translation. Improved flow and professional tone."
+    }
+  ],
+  [
+    "granola_cookies",
+    {
+      "field": "ingredients",
+      "reason": "Corrected ingredient names to standard culinary terms in each language (e.g., 'זרעי פשתן טחונים' in Hebrew, 'linaza molida' and 'hojuelas de avena tradicional' in Spanish, 'زريعة كتان' and 'شوفان كعب' in Tunisian Arabic, 'old-fashioned rolled oats' in English)."
+    }
+  ],
+  [
+    "granola_cookies",
+    {
+      "field": "steps",
+      "reason": "Adjusted verbs and baking terminology to sound authentic to native speakers (e.g., 'מקרימים' and 'תלוליות' in Hebrew, 'تشد روحها' and 'بابيي كويسون' in Tunisian Arabic, 'accesorio de paleta' in Spanish, 'edges are set' in English)."
+    }
+  ],
+  [
+    "pizza",
+    {
+      "field": "name",
+      "reason": "Updated Hebrew and Arabic names to better reflect the English/Spanish titles, as 'פיצה' and 'بيتزا' were too generic."
+    }
+  ],
+  [
+    "pizza",
+    {
+      "field": "description",
+      "reason": "Fixed awkward phrasing in Hebrew ('שמשמעותם נגיסה'). Improved Tunisian Arabic vocabulary ('تبين', 'أستوس', 'متاع'). Refined Spanish and English flow for professional cookbook style."
+    }
+  ],
+  [
+    "pizza",
+    {
+      "field": "ingredients",
+      "reason": "Clarified quantities in Arabic (added 'كبار' for tablespoons, specified 'ثوم غبرة'). Fixed redundant 'sheet' in English nori ingredient. Standardized Spanish bouillon description."
+    }
+  ],
+  [
+    "pizza",
+    {
+      "field": "steps",
+      "reason": "Converted Hebrew steps to the standard present-plural tense (מחממים, מרדדים). Enhanced Tunisian Arabic dialect naturalness ('بابيي كويسون', 'مشّي الصالصة بالباهي'). Improved Spanish and English clarity and consistency."
+    }
+  ],
+  [
+    "maakouda",
+    {
+      "field": "description.en",
+      "reason": "Replaced awkward 'knotted' with 'bound together' for natural culinary English."
+    }
+  ],
+  [
+    "maakouda",
+    {
+      "field": "ingredients",
+      "reason": "Changed '0.5' to '1/2' across all languages for standard recipe formatting."
+    }
+  ],
+  [
+    "maakouda",
+    {
+      "field": "hebrew_text",
+      "reason": "Changed 'מחית' to 'פירה' and 'עוגה' to 'פשטידה' for natural Israeli phrasing. Improved sentence flow and clarified nutritional yeast."
+    }
+  ],
+  [
+    "maakouda",
+    {
+      "field": "spanish_text",
+      "reason": "Changed 'patatas' to 'papas' for Latin American Spanish. Improved phrasing and changed 'pastel' to 'tortilla' in the flipping step."
+    }
+  ],
+  [
+    "maakouda",
+    {
+      "field": "arabic_text",
+      "reason": "Enhanced Tunisian dialect (e.g., used 'شطر', 'قلاية', 'تحمار'). Removed MSA phrasing and clarified measurements ('مغارف كبار')."
+    }
+  ],
+  [
+    "mahshistuffedvegetables",
+    {
+      "field": "description",
+      "reason": "Refined phrasing across all languages for better flow. In Hebrew, changed 'נזיד' to 'רוטב' which is more natural for stuffed vegetables. In Arabic, replaced MSA words with authentic Tunisian terms ('فاحات' instead of 'بهارات', 'مرقة خاثرة'). In English and Spanish, improved sentence structure for professional cookbook tone."
+    }
+  ],
+  [
+    "mahshistuffedvegetables",
+    {
+      "field": "ingredients",
+      "reason": "Fixed awkward fractional cup measurements in English and Arabic (e.g., 1.1 cups, 1.7 cups) to standard cookbook fractions with gram equivalents. In Arabic, used the specific Tunisian term for zucchini ('قرع بوطزينة'). In Hebrew, moved adjectives to sound more natural ('תפוחי אדמה בינוניים ואחידים')."
+    }
+  ],
+  [
+    "mahshistuffedvegetables",
+    {
+      "field": "steps",
+      "reason": "Converted Hebrew steps to the standard present-plural tense used in Israeli cookbooks (מרוקנים, מכינים). In Arabic, used authentic Maghrebi cooking verbs ('ستّف' for arrange, 'تطيب سلة سلة' for simmer). Removed confusing mention of 'cabbage leaves' in English/Spanish since they are not hollowed out."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "name.es",
+      "reason": "Changed 'Aceitunas Guisadas Rojas' to 'Aceitunas Guisadas en Salsa Roja' for a more natural Spanish phrasing."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "description.he",
+      "reason": "Improved flow and natural phrasing for Israeli Hebrew speakers (e.g., 'זיתון משמעותו זית', 'מגש הקמיה')."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "description.es",
+      "reason": "Refined phrasing to sound more like a professional Spanish cookbook (e.g., 'es el nombre de esta suave ensalada', 'mojar con pan fresco')."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "description.ar",
+      "reason": "Adjusted to authentic Tunisian dialect, replacing awkward literal translations with natural Maghrebi phrasing (e.g., 'البنينة', 'صوص')."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "description.en",
+      "reason": "Polished sentence structure for better flow ('is the name of this tender cooked salad', 'in this vegan version, blanched green olives are simmered')."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "ingredients",
+      "reason": "Standardized decimal quantities to fractions (e.g., 0.5 to 1/2 or 'شطر'), added volume equivalents to grams for clarity, and used authentic regional ingredient names (e.g., 'فاح دجاج' instead of 'تابل دجاج' in Tunisian)."
+    }
+  ],
+  [
+    "redstewedolives",
+    {
+      "field": "steps",
+      "reason": "Refined cooking terminology across all languages for a professional tone (e.g., 'sofría' in Spanish, 'sauté' in English, 'לפתוח את התבלינים' in Hebrew, 'تتلبس بالزيتون' in Arabic)."
+    }
+  ],
+  [
+    "mochajavacake",
+    {
+      "field": "description.es",
+      "reason": "Changed 'decadente' to 'exquisito' as 'decadente' is a false friend in Spanish and means 'decaying' rather than 'indulgent'."
+    }
+  ],
+  [
+    "mochajavacake",
+    {
+      "field": "ingredients",
+      "reason": "Converted decimal cup measurements to standard fractions in English and Arabic. Localized ingredient names (e.g., 'crema vegetal para batir' instead of 'nata', 'קמח לבן' instead of 'קמח רגיל', 'كسرونة' instead of 'طنجرة')."
+    }
+  ],
+  [
+    "mochajavacake",
+    {
+      "field": "steps",
+      "reason": "Replaced 'first/second portion' with specific references to the cake or glaze ingredients to avoid confusion. Improved natural flow and culinary terminology in all languages."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "description.he",
+      "reason": "Fixed gender agreement (סופגניות הן), corrected unnatural transliteration (שפינג'ות to ספנג'), and improved phrasing."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "ingredients.he",
+      "reason": "Changed 1000g/ml to 1 kg/1 liter for natural reading, changed 'hot water' to 'warm water' (חמימים)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "steps.he",
+      "reason": "Used proper culinary terms (קורצים instead of צובטים, נייר סופג) and improved flow."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "description.es",
+      "reason": "Improved natural phrasing (ramas de la familia instead of lados)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "ingredients.es",
+      "reason": "Changed 1000g/ml to 1 kg/1 litro for standard recipe format."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "steps.es",
+      "reason": "Improved culinary verbs (rebócelos, reposar, papel absorbente)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "description.ar",
+      "reason": "Replaced MSA with authentic Tunisian dialect (شيرات مختلفة, كعبات)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "ingredients.ar",
+      "reason": "Used Maghrebi terms (مغربلة instead of منخولة), fixed awkward decimal quantities (ربع كاس instead of 0.25)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "steps.ar",
+      "reason": "Used authentic Tunisian culinary terms (شقالة, كعبورة, هكاكة)."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "description.en",
+      "reason": "Improved punctuation and flow."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "ingredients.en",
+      "reason": "Changed decimals to fractions (1/4 cup, 4 1/4 cups) and specified 'active dry yeast'."
+    }
+  ],
+  [
+    "sfingh",
+    {
+      "field": "steps.en",
+      "reason": "Improved phrasing ('doubled in size', 'drain on paper towels')."
+    }
+  ],
+  [
+    "nougatandpeanutcakemor_abergil",
+    {
+      "field": "description",
+      "reason": "Hebrew: Reworded to avoid awkwardly explaining Hebrew words in Hebrew. Arabic: Transliterated the Hebrew name into Arabic script and fixed dialect phrasing. Spanish: Adapted to Latin American Spanish (maní, hojuelas de maíz). English: Improved flow."
+    }
+  ],
+  [
+    "nougatandpeanutcakemor_abergil",
+    {
+      "field": "ingredients",
+      "reason": "English: Fixed awkward decimal measurements (0.7 cups -> 3/4 cup) and pluralization (1 cups -> 1 cup). Arabic: Fixed decimal measurements to natural fractions (كاس غير ربع) and used authentic terms. Spanish: Changed to Latin American terms (crema para batir, maní). Hebrew: Changed 'יחידה' to 'חבילה' for the pudding mix."
+    }
+  ],
+  [
+    "nougatandpeanutcakemor_abergil",
+    {
+      "field": "steps",
+      "reason": "Arabic: Removed a Hebrew word ('والمמרحات') that accidentally crept into step 2 and used authentic Tunisian cookware terms (كسرونة). Spanish: Improved natural flow and used Latin American terminology. English: Clarified instructions (e.g., 'plant-based cream' instead of 'vegetable cream'). Hebrew: Improved phrasing for clarity and natural flow."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "description.he",
+      "reason": "Fixed awkward phrasing. 'המנה נגזרת...' is an unnatural translation. Changed to 'מקור השם...' for a native flow."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "steps.he",
+      "reason": "Corrected minor grammar in step 2 (added definite articles where appropriate) and changed 'מחבת רחבה' to 'סיר רחב או מחבת עמוקה' which is more natural for Chraime."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "description.es",
+      "reason": "Changed 'caliente' to 'picante' as the English 'hot' meant spicy, not temperature. Fixed transliteration of 'ktzitzot'."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "name.es, steps.es",
+      "reason": "Changed 'albóndigas' (meatballs) to 'tortitas' (patties) to accurately reflect the flat shape of the dish. Changed 'abrir las especias' (literal translation) to 'tostar las especias'."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "ingredients.ar, steps.ar",
+      "reason": "Replaced MSA and literal translations with authentic Tunisian Maghrebi vocabulary (e.g., 'ثوم غبرة' for garlic powder, 'فلفل زينة' for paprika, 'صالصة' for sauce, 'تسيّب ماها' for releasing juices)."
+    }
+  ],
+  [
+    "veganfishchraime",
+    {
+      "field": "description.en, steps.en",
+      "reason": "Fixed the awkward transliteration 'ktzi'tzot' to 'ktzitzot'. Changed the literal translation 'open the spices' to the correct English culinary term 'bloom the spices'."
+    }
+  ]
+]
